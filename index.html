@@ -5227,869 +5227,927 @@ const productos = [
     foodInteractions: "No especificado",
     interactions: "No especificado"
 }
-    ];
-        // ================================================================
-        //  BASE DE DATOS DE PADECIMIENTOS (PROTOCOLOS)
-        // ================================================================
+]; // Cierre del arreglo "productos"
 
-        const padecimientos = [
-            // ================================================================
-            //  🟣 PÚRPURA: Sistema Nervioso y Hormonal
-            // ================================================================
-            {
-                id: 'fatiga_burnout',
-                name: 'Fatiga Crónica y Burnout',
-                emoji: '⚡',
-                color: 'purple',
-                description: 'El burnout es un estado de agotamiento físico, mental y emocional causado por estrés crónico. Fisiológicamente, se asocia con una desregulación del eje HPA (el sistema de respuesta al estrés), resultando en patrones anormales de cortisol y una función mitocondrial deficiente. Este protocolo utiliza adaptógenos para "recalibrar" el eje HPA, nootrópicos para combatir la niebla mental y nutrientes clave para recargar la producción de energía a nivel celular.',
-                symptoms: [
-                    'Cansancio extremo que no mejora con el descanso',
-                    'Dificultad para concentrarse o "niebla mental"',
-                    'Irritabilidad o cambios de humor',
-                    'Problemas para dormir a pesar del cansancio',
-                    'Pérdida de motivación o interés'
-                ],
-                comboPrincipal: [
-                    { id: 58, serving: '2 cápsulas al día con alimentos', rationale: 'La Rhodiola Rosea es un adaptógeno clave para combatir la fatiga, mejorar la resistencia al estrés y potenciar el rendimiento mental y físico.' },
-                    { id: 32, serving: '2 cápsulas al día con alimentos', rationale: 'La Ashwagandha es fundamental para regular el cortisol, reducir el estrés y la ansiedad, y mejorar la calidad del sueño, aspectos cruciales en el burnout.' },
-                    { id: 98, serving: '2 cápsulas al día con alimentos', rationale: 'La Melena de León apoya la función cognitiva, la memoria y el enfoque, que suelen verse afectados por la fatiga y el agotamiento mental.' }
-                ],
-                comboSecundario: [
-                    { id: 109, serving: '1 cápsula al día con alimentos grasos', rationale: 'La Vitamina D3 es esencial para la energía y el sistema inmune, y su deficiencia es común en estados de fatiga. El Magnesio y Zinc son cofactores clave.' },
-                    { id: 5, serving: '3 cápsulas por la mañana con alimentos', rationale: 'El Complejo B es vital para el metabolismo energético, y el Ginseng siberiano es un adaptógeno que mejora la resistencia al estrés y la vitalidad.' },
-                    { id: 117, serving: '1 cápsula al día', rationale: 'El NAD+ y Resveratrol apoyan la energía mitocondrial y la salud celular, ayudando a combatir la fatiga a nivel molecular.' }
-                ],
-                lifestyleTips: [
-                    'Priorizar el descanso y el sueño de calidad, estableciendo una rutina regular.',
-                    'Establecer límites claros entre el trabajo y la vida personal para reducir la sobrecarga.',
-                    'Incorporar técnicas de relajación como meditación, yoga o mindfulness.',
-                    'Mantener una dieta rica en nutrientes, evitando azúcares refinados y alimentos ultraprocesados.'
-                ]
-            },
-            {
-                id: 'ansiedad',
-                name: 'Ansiedad y Estrés Crónico',
-                emoji: '🧠',
-                color: 'purple',
-                description: 'La ansiedad es una respuesta de "lucha o huida" que se ha quedado atascada. El sistema nervioso simpático ("acelerador") está hiperactivo, y el sistema parasimpático ("freno") no puede contrarrestarlo. Esto se debe a un exceso de neurotransmisores excitatorios y una deficiencia de los inhibidores (como GABA). El protocolo se enfoca en calmar el "acelerador" (regulando el cortisol) y potenciar el "freno" (aumentando los niveles de GABA y relajando el sistema nervioso).',
-                symptoms: ['Preocupación excesiva y pensamientos recurrentes', 'Tensión muscular', 'Irritabilidad', 'Dificultad para concentrarse', 'Palpitaciones', 'Problemas para dormir'],
-                comboPrincipal: [
-                    { id: 163, serving: '3 cápsulas al día con alimentos', rationale: 'Fórmula 3-en-1 que combina Ashwagandha para regular el cortisol, L-Teanina para la calma mental y Magnesio para relajar el sistema nervioso. Es una base excelente y completa.' },
-                    { id: 68, serving: '2-3 cápsulas repartidas durante el día', rationale: 'Añadir si la ansiedad se manifiesta como "mente acelerada" o pensamientos rumiantes. El GABA es el principal neurotransmisor inhibidor que "apaga" esa actividad.' }
-                ],
-                comboSecundario: [
-                    { id: 32, serving: '2 cápsulas por la mañana', rationale: 'Alternativa si solo se busca regular el cortisol y el estrés, sin el componente relajante del magnesio o teanina.' },
-                    { id: 94, serving: '3 cápsulas por la noche', rationale: 'Excelente opción si la ansiedad afecta principalmente el sueño. Combina Magnesio con otros inductores del descanso.' },
-                    { id: 150, serving: '1-2 cápsulas al día', rationale: 'La L-Teanina sola es ideal para la ansiedad diurna, ya que promueve calma sin causar somnolencia.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León tiene efectos ansiolíticos y antidepresivos leves.' }
-                ],
-                lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176) durante el día.']
-            },
-            {
-                id: 'higado_graso',
-                name: 'Hígado Graso (No alcohólico)', // Total: 6 suplementos
-                emoji: '🌿',
-                color: 'green',
-                description: 'El hígado es el centro metabólico del cuerpo. Cuando hay un exceso de azúcares (especialmente fructosa) y carbohidratos refinados, el hígado los convierte en grasa a través de un proceso llamado "lipogénesis de novo". Esta grasa se acumula dentro de las células hepáticas, inflamándolas y dañándolas. El objetivo del protocolo es usar "agentes lipotrópicos" para ayudar al hígado a empaquetar y exportar esa grasa, y protegerlo con antioxidantes.',
-                symptoms: ['Generalmente asintomático', 'Fatiga o cansancio crónico', 'Molestia en la parte superior derecha del abdomen', 'Abdomen abultado'],
-                comboPrincipal: [
-                    { id: 145, serving: '2 cápsulas con la comida principal', rationale: 'La Colina es un agente lipotrópico esencial para exportar la grasa fuera del hígado. Su deficiencia causa hígado graso (PMID: 28321259).' },
-                    { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'La Curcumina es un potente antiinflamatorio que reduce la inflamación hepática (esteatohepatitis).' },
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Aporta una mezcla de botánicos con efecto depurativo y de soporte a la función hepática.' }
-                ],
-                comboSecundario: [
-                    { id: 123, serving: '1-2 cápsulas al día', rationale: 'El Omega-3 (EPA/DHA) ha demostrado reducir el contenido de grasa en el hígado.' },
-                    { id: 116, serving: '2 cápsulas al día', rationale: 'El NAC es precursor de glutatión, el antioxidante más importante del hígado, protegiéndolo del estrés oxidativo.' },
-                    { id: 77, serving: '3 cápsulas antes de las comidas', rationale: 'El Hercampurri estimula el flujo de bilis, ayudando a metabolizar las grasas.' }
-                ],
-                lifestyleTips: ['Eliminar bebidas azucaradas y alimentos ultraprocesados.', 'Aumentar el consumo de vegetales de hoja verde.', 'Limitar el consumo de fructosa (jarabes, no la fruta entera).']
-            },
-            {
-                id: 'gastritis_ulcera',
-                name: 'Gastritis y Úlcera Gástrica', // Total: 6 suplementos
-                emoji: '🌿',
-                color: 'green',
-                description: 'La gastritis es la inflamación de la mucosa del estómago, mientras que la úlcera es una herida abierta en esa misma mucosa. Ambas condiciones se benefician de un enfoque doble: 1) Proteger la zona dañada del ácido gástrico para permitir que sane, y 2) Aportar compuestos que activamente desinflamen y promuevan la cicatrización. Este protocolo utiliza botánicos que crean una capa protectora (como una "curita" interna) y nutrientes que reparan el tejido.',
-                symptoms: ['Ardor o dolor en la boca del estómago', 'Sensación de vacío que mejora al comer', 'Acidez y reflujo', 'Náuseas o indigestión'],
-                comboPrincipal: [
-                    { id: 85, serving: '1 cápsula en ayunas y otra antes de dormir', rationale: 'El Zinc-Carnosina se adhiere selectivamente al tejido ulcerado, promoviendo la cicatrización. Tomarlo con el estómago vacío maximiza su contacto con la mucosa (PMID: 17909784).' },
-                    { id: 9, serving: '3 cápsulas al día con alimentos', rationale: 'El Cuachalalate y Tepezcohuite forman una capa protectora y tienen propiedades antiinflamatorias y cicatrizantes reconocidas.' },
-                    { id: 28, serving: '100 ml en ayunas', rationale: 'El gel de Aloe Vera recubre y calma la mucosa esofágica y gástrica, aliviando el ardor.' }
-                ],
-                comboSecundario: [
-                    { id: 141, serving: '2 cápsulas con alimentos', rationale: 'Fórmula de apoyo digestivo que complementa la acción calmante.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León ha demostrado en estudios proteger la mucosa gástrica y combatir H. Pylori.' },
-                    { id: 129, serving: '2 cápsulas al día', rationale: 'Los probióticos ayudan a equilibrar la flora y a combatir la infección por H. Pylori, una causa común de gastritis.' }
-                ],
-                lifestyleTips: ['Evitar alimentos irritantes como picante, café, alcohol y fritos.', 'Realizar comidas más pequeñas y frecuentes.', 'Manejar el estrés, ya que es un detonante principal.']
-            },
-            {
-                id: 'caida_cabello_fem',
-                name: 'Caída de Cabello (Femenina)', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'pink',
-                description: 'La caída de cabello en mujeres (efluvio telógeno) suele ser multifactorial. Puede deberse a deficiencias nutricionales (falta de "ladrillos" como hierro, zinc, colágeno), desbalances hormonales (SOP, postparto, menopausia) o estrés crónico (que empuja a los folículos a la fase de caída). Este protocolo busca aportar los nutrientes estructurales para el cabello, fortalecer el folículo y ayudar a regular los desbalances hormonales y de estrés subyacentes.',
-                symptoms: ['Pérdida de densidad en toda la cabeza', 'Cabello más fino y quebradizo', 'Caída excesiva al cepillar o lavar'],
-                comboPrincipal: [
-                    { id: 125, serving: '10g al día en cualquier momento', rationale: 'Aporta los péptidos de colágeno que son la matriz estructural del folículo piloso y el cabello.' },
-                    { id: 62, serving: '3 cápsulas al día', rationale: 'Complejo multivitamínico con Biotina, Selenio y Vitamina A, esenciales para el ciclo y la queratinización del cabello.' },
-                    { id: 107, serving: '1 cápsula al día', rationale: 'Fórmula específica para la mujer que complementa con Colágeno, Maca y otros nutrientes para la vitalidad capilar.' }
-                ],
-                comboSecundario: [
-                    { id: 20, serving: '3 cápsulas al día', rationale: 'El Aguaje aporta fitoestrógenos que pueden ayudar a contrarrestar desbalances androgénicos leves.' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'La deficiencia de Zinc es una causa común de caída de cabello. Es un mineral clave para el ciclo folicular.' },
-                    { id: 26, serving: '3 cápsulas al día', rationale: 'La Espirulina es rica en hierro y aminoácidos, nutrientes esenciales para prevenir la caída por deficiencias.' }
-                ],
-                lifestyleTips: ['Asegurar un consumo adecuado de proteína y hierro.', 'Masajear el cuero cabelludo para estimular la circulación.', 'Evitar peinados muy tirantes y el uso excesivo de calor.']
-            },
-            {
-                id: 'caida_cabello_masc',
-                name: 'Caída de Cabello (Masculina)', // Total: 6 suplementos
-                emoji: '👨‍🦲',
-                color: 'pink',
-                description: 'La alopecia androgénica es causada por una sensibilidad genética a la hormona DHT (dihidrotestosterona). La enzima 5-alfa-reductasa convierte la testosterona en DHT, y esta última se une a los folículos pilosos, haciendo que se encojan (miniaturicen) hasta que dejan de producir cabello. El protocolo se enfoca en inhibir esta enzima de forma natural y en fortalecer los folículos existentes con nutrientes clave.',
-                symptoms: ['Retroceso de la línea del cabello (entradas)', 'Pérdida de cabello en la coronilla', 'Cabello progresivamente más fino'],
-                comboPrincipal: [
-                    { id: 106, serving: '1 cápsula al día', rationale: 'Aporta botánicos como el Ciruelo Africano y Semilla de Calabaza, que ayudan a inhibir la 5-alfa-reductasa, enzima que convierte la testosterona en DHT.' },
-                    { id: 125, serving: '10g al día en cualquier momento', rationale: 'Provee la estructura de colágeno necesaria para anclar y fortalecer los folículos existentes.' },
-                    { id: 78, serving: '1 cápsula al día', rationale: 'Contiene Semilla de Calabaza, Zinc y Selenio, un trío clave para inhibir la DHT y proteger la salud prostática y capilar.' }
-                ],
-                comboSecundario: [
-                    { id: 143, serving: '2 cápsulas al día', rationale: 'Optimiza los niveles de testosterona libre, mejorando la vitalidad general sin necesariamente aumentar la DHT.' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es un inhibidor conocido de la 5-alfa-reductasa.' },
-                    { id: 105, serving: '1 cápsula al día', rationale: 'Aporta un complejo de nutrientes que fortalecen el cabello desde la raíz.' }
-                ],
-                lifestyleTips: ['Considerar el uso de minoxidil tópico como complemento.', 'Una dieta baja en azúcar puede ayudar a reducir la inflamación del folículo.', 'Manejar el estrés para no acelerar la caída.']
-            },
-            {
-                id: 'insomnio',
-                name: 'Insomnio y Despertares Nocturnos', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'purple',
-                description: 'El sueño es un baile entre el sistema nervioso simpático ("acelerador") y el parasimpático ("freno"). El insomnio ocurre cuando el acelerador (impulsado por cortisol y estrés) se queda atascado, y el freno (que depende de neurotransmisores como GABA y serotonina) no tiene suficiente fuerza. Este protocolo se enfoca en reducir el cortisol, aumentar los niveles de GABA para calmar la mente "acelerada", y aportar los precursores para que el cerebro fabrique su propia melatonina.',
-                symptoms: ['Dificultad para conciliar el sueño', 'Despertarse varias veces en la noche', 'Despertar muy temprano y no poder volver a dormir', 'Sensación de no haber descansado'],
-                comboPrincipal: [
-                    { id: 94, serving: '3 cápsulas 1h antes de dormir', rationale: 'Dosis de 200-300mg de Magnesio elemental. El Glicinato relaja el sistema nervioso central sin efecto laxante, mejorando la calidad del sueño (PMID: 23853635).' },
-                    { id: 68, serving: '2 cápsulas 1h antes de dormir', rationale: 'El GABA es el principal neurotransmisor inhibidor. Suplementarlo ayuda a "apagar" los pensamientos rumiantes y la ansiedad nocturna (PMID: 22278221).' },
-                    { id: 150, serving: '1-2 cápsulas 1h antes de dormir', rationale: 'El Triptófano es precursor de serotonina y melatonina. La Teanina promueve las ondas alfa, induciendo un estado de relajación.' }
-                ],
-                comboSecundario: [
-                    { id: 32, serving: '2 cápsulas con la cena', rationale: 'La Ashwagandha reduce los niveles de cortisol nocturno, una causa común de despertares a las 2-3 AM.' },
-                    { id: 163, serving: '3 cápsulas al día', rationale: 'Combina Ashwagandha, L-Teanina y Magnesio. Refuerza el manejo del estrés y mejora la continuidad del sueño sin redundar en el mismo mecanismo.' },
-                    { id: 4, serving: '3 cápsulas por la mañana', rationale: 'Un buen nivel de vitaminas B durante el día es crucial para la producción de neurotransmisores del sueño por la noche.' }
-                ],
-                lifestyleTips: ['Evitar pantallas (luz azul) al menos 1 hora antes de dormir.', 'Mantener un horario de sueño regular.', 'Tomar una infusión relajante como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176) antes de acostarse.']
-            },
-            {
-                id: 'quistes_miomas',
-                name: 'Quistes Ováricos y Miomas (Apoyo)', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'purple',
-                description: 'Tanto los quistes ováricos funcionales como los miomas uterinos suelen estar asociados a un estado de "dominancia estrogénica", donde hay un exceso de estrógeno en relación con la progesterona. El protocolo se enfoca en dos áreas clave: 1) Apoyar al hígado en su función de desintoxicación para que pueda metabolizar y eliminar eficazmente el exceso de estrógenos, y 2) Reducir la inflamación pélvica. **Es un apoyo funcional y requiere siempre supervisión ginecológica.**',
-                symptoms: ['Periodos abundantes o dolorosos', 'Presión o dolor pélvico', 'Necesidad de orinar con frecuencia', 'Dolor durante las relaciones sexuales'],
-                comboPrincipal: [
-                    { id: 52, serving: '4 cápsulas al día', rationale: 'El Inositol ayuda a equilibrar el eje hormonal y a mejorar la sensibilidad a la insulina, un factor subyacente común (PMID: 30511931).' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina es un potente antiinflamatorio y ha mostrado en estudios inhibir el crecimiento de células de miomas.' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'La Vitamina D tiene un efecto antiproliferativo y su deficiencia se asocia con un mayor riesgo de miomas. Una dosis alta es ideal para corregir deficiencias.' }
-                ],
-                comboSecundario: [
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Apoya la fase II de desintoxicación hepática, crucial para eliminar el exceso de estrógenos.' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'Reduce la inflamación pélvica.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'Regula el estrés, un factor que puede empeorar los desbalances hormonales.' }
-                ],
-                lifestyleTips: ['Dieta rica en fibra para ayudar a eliminar el exceso de estrógenos.', 'Evitar plásticos y otros disruptores endocrinos.', 'Mantener un peso saludable.']
-            },
-            // ================================================================
-            //  🟢 VERDE: Sistema Digestivo y Hepático
-            // ================================================================
-            {
-                id: 'enfermedad_renal',
-                name: 'Soporte Renal', // Total: 6 suplementos
-                emoji: '❤️',
-                color: 'red',
-                description: 'Los riñones son los filtros maestros de la sangre. Su función puede verse comprometida por la formación de cristales (cálculos o "piedras") o por infecciones. Este protocolo se enfoca en dos áreas: 1) Aumentar el flujo de orina (efecto diurético) para "lavar" el sistema y dificultar la formación de cristales, y 2) Prevenir infecciones urinarias que podrían ascender y dañar los riñones. **Este protocolo es para soporte y prevención, NO para tratar enfermedad renal crónica establecida sin estricta supervisión médica.**',
-                symptoms: ['Retención de líquidos', 'Infecciones urinarias recurrentes', 'Orina turbia o con olor fuerte', 'Fatiga'],
-                comboPrincipal: [
-                    { id: 139, serving: '3 cápsulas al día con abundante agua', rationale: 'El Palo Azul y la Cola de Caballo son diuréticos naturales que aumentan el flujo de orina, ayudando a "lavar" los riñones.' },
-                    { id: 6, serving: '1-2 cápsulas al día', rationale: 'Las proantocianidinas (PACs) del arándano previenen que las bacterias se adhieran al tracto urinario, previniendo infecciones que pueden ascender al riñón.' },
-                    { id: 148, serving: '3 cápsulas al día', rationale: 'La Hierba del Sapo es tradicionalmente usada para ayudar a disolver cristales y arenillas renales.' }
-                ],
-                comboSecundario: [
-                    { id: 28, serving: '100 ml al día', rationale: 'Ayuda a mantener el cuerpo hidratado y tiene un efecto calmante sobre las mucosas.' },
-                    { id: 48, serving: '15 ml al día en agua', rationale: 'La clorofila ayuda a alcalinizar y desintoxicar el organismo.' },
-                    { id: 151, serving: '1 scoop al día', rationale: 'Aporta fibra y prebióticos que mejoran la salud intestinal, reduciendo la carga tóxica general sobre los riñones.' }
-                ],
-                lifestyleTips: ['Mantener una hidratación adecuada con agua natural.', 'Reducir el consumo de sodio (sal).', 'Evitar el uso excesivo de antiinflamatorios no esteroideos (AINEs).']
-            },
-            {
-                id: 'artritis_reumatoide',
-                name: 'Artritis Reumatoide (Enfermedad Autoinmune Articular)',
-                emoji: '💪',
-                color: 'red',
-                description: 'Enfermedad autoinmune en la que el sistema inmunológico ataca el tejido sinovial de las articulaciones, causando inflamación crónica, dolor y deformidad. El enfoque es modular la respuesta inmune, reducir la inflamación sistémica y proteger el cartílago.',
-                symptoms: ['Dolor e hinchazón en múltiples articulaciones (simétrico)', 'Rigidez matutina prolongada (> 1 hora)', 'Fatiga y malestar general', 'Nódulos reumatoides bajo la piel', 'Afecta principalmente manos, muñecas y pies'],
-                comboPrincipal: [
-                    { id: 102, serving: '2 cápsulas en ayunas', rationale: 'El UC-II® induce tolerancia oral y la Boswellia + Cúrcuma reducen la inflamación articular.' },
-                    { id: 123, serving: '3 cápsulas al día', rationale: 'Alta dosis de EPA/DHA para disminuir la producción de mediadores inflamatorios.' },
-                    { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'Refuerzo antiinflamatorio (sinergia con Boswellia).' }
-                ],
-                comboSecundario: [
-                    { id: 116, serving: '2 cápsulas al día', rationale: 'Precursor de glutatión para reducir el estrés oxidativo sistémico.' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'La Vitamina D3 es un inmunomodulador que puede ayudar a reducir la actividad autoinmune.' },
-                    { id: 129, serving: '2 cápsulas al día', rationale: 'Equilibrio de la microbiota, clave en enfermedades autoinmunes.' }
-                ],
-                lifestyleTips: ['Actividad física de bajo impacto', 'Dieta antiinflamatoria (eliminar gluten y lácteos en algunos casos)', 'Manejo del estrés.', 'Consumir infusiones antiinflamatorias como el TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Para alivio local, aplicar FIX UZEN (ID 167) en las articulaciones afectadas.']
-            },
-            {
-                id: 'cardiovascular',
-                name: 'Salud Cardiovascular', // Total: 6 suplementos
-                emoji: '❤️',
-                color: 'red',
-                description: 'La salud cardiovascular depende de la salud de la "bomba" (corazón) y las "tuberías" (vasos sanguíneos). Los problemas surgen por la inflamación, la oxidación del colesterol y la rigidez de los vasos. Este protocolo se enfoca en: 1) Reducir la inflamación con Omega-3, 2) Proteger el corazón con potentes antioxidantes como la CoQ10, y 3) Mejorar la flexibilidad de los vasos y regular la presión con botánicos específicos y minerales clave.',
-                symptoms: ['Presión arterial elevada', 'Colesterol o triglicéridos altos', 'Mala circulación', 'Fatiga al esfuerzo'],
-                comboPrincipal: [
-                    { id: 10, serving: '3 cápsulas al día', rationale: 'Fórmula integral con Ajo, Olivo y Té Verde, botánicos reconocidos por su efecto hipotensor y protector vascular.' },
-                    { id: 101, serving: '1 cápsula al día con comida grasa', rationale: 'El Ubiquinol es el antioxidante más importante para el músculo cardíaco. Esencial para pacientes que toman estatinas, ya que estas agotan la CoQ10 (PMID: 24612959).' },
-                    { id: 123, serving: '3 cápsulas al día', rationale: 'Dosis terapéutica de EPA/DHA para reducir triglicéridos, bajar la inflamación y mejorar la función endotelial (PMID: 25089623).' }
-                ],
-                comboSecundario: [
-                    { id: 128, serving: '3 cápsulas al día', rationale: 'El potasio es crucial para contrarrestar el sodio y regular la presión arterial. El magnesio relaja los vasos sanguíneos.' },
-                    { id: 23, serving: '3 cápsulas al día', rationale: 'El Ajo Negro mejora la circulación y tiene un efecto hipotensor moderado.' },
-                    { id: 82, serving: '1 cápsula al día', rationale: 'El Krill Oil ofrece Omega-3 de alta absorción con Astaxantina, un potente antioxidante para el corazón.' }
-                ],
-                lifestyleTips: ['Realizar actividad cardiovascular moderada (caminar, nadar).', 'Aumentar el consumo de vegetales de hoja verde y pescado.', 'Limitar grasas trans y azúcares.']
-            },
-            {
-                id: 'colitis',
-                name: 'Colitis y Colon Irritable', // Total: 6 suplementos
-                emoji: '🌿',
-                color: 'green',
-                description: 'El Síndrome de Colon Irritable (SII) y la colitis son condiciones donde el intestino está inflamado, hipersensible y en desequilibrio (disbiosis). Esto a menudo se asocia con una barrera intestinal dañada ("intestino permeable"). El protocolo se enfoca en tres pilares: 1) Calmar la inflamación con potentes botánicos, 2) Repoblar masivamente el intestino con bacterias beneficiosas (probióticos), y 3) Aportar los nutrientes para reparar y sellar la barrera intestinal.',
-                symptoms: ['Dolor abdominal tipo cólico', 'Hinchazón y gases', 'Alternancia entre diarrea y estreñimiento', 'Moco en las heces'],
-                comboPrincipal: [
-                    { id: 131, serving: '1-2 cápsulas en ayunas', rationale: 'Una alta dosis de probióticos ayuda a desplazar a las bacterias patógenas, reducir la inflamación y regular el tránsito intestinal (PMID: 28543418).' },
-                    { id: 9, serving: '3 cápsulas al día', rationale: 'El Cuachalalate es un potente antiinflamatorio y cicatrizante de la mucosa colónica.' },
-                    { id: 151, serving: '1 scoop al día', rationale: 'Aporta fibra prebiótica soluble (Inulina, FOS) que alimenta a los probióticos y ayuda a formar heces de consistencia normal.' }
-                ],
-                comboSecundario: [
-                    { id: 85, serving: '1-2 cápsulas al día', rationale: 'El Zinc-Carnosina repara la barrera intestinal, reduciendo la permeabilidad ("leaky gut") asociada al SII.' },
-                    { id: 28, serving: '100 ml en ayunas', rationale: 'El Aloe calma y desinflama todo el tracto digestivo.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León tiene un efecto prebiótico y antiinflamatorio, especialmente útil en la colitis nerviosa.' }
-                ],
-                lifestyleTips: ['Identificar y evitar alimentos detonantes (lácteos, gluten, etc.).', 'Manejar el estrés, ya que es un factor clave.', 'Comer despacio y masticar bien los alimentos.']
-            },
-            {
-                id: 'candida',
-                name: 'Sobrecrecimiento de Cándida', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'La Cándida es un hongo que vive normalmente en nuestro intestino. El problema surge cuando, por un exceso de azúcar en la dieta o el uso de antibióticos, sobrecrece y se convierte en una "plaga". El protocolo sigue una estrategia de "atacar y repoblar": 1) Usar potentes antifúngicos naturales para eliminar el sobrecrecimiento, 2) Repoblar el intestino con probióticos para que ocupen el espacio y eviten un rebrote, y 3) Eliminar su fuente de alimento (azúcar y carbohidratos refinados).',
-                symptoms: ['Antojos intensos de azúcar y carbohidratos', 'Infecciones vaginales o urinarias recurrentes', 'Capa blanca en la lengua', 'Fatiga crónica y niebla mental'],
-                comboPrincipal: [
-                    { id: 16, serving: '15 gotas diluidas, 2-3 veces al día (ciclos de 10 días)', rationale: 'El Carvacrol del orégano es un potente antifúngico que rompe la biopelícula de la Cándida. Se usa en ciclos para evitar resistencia (PMID: 27481796).' },
-                    { id: 2, serving: '1-2 cápsulas al día', rationale: 'Combina el Carvacrol con el Ácido Láurico del coco, otro potente antifúngico. Ideal para mantenimiento o casos menos severos.' },
-                    { id: 129, serving: '2 cápsulas al día, lejos del orégano', rationale: 'Es crucial repoblar con probióticos para que ocupen el espacio dejado por la Cándida y eviten su rebrote (PMID: 23543509).' }
-                ],
-                comboSecundario: [
-                    { id: 23, serving: '3 cápsulas al día', rationale: 'El Ajo Negro contiene alicina, con propiedades antifúngicas.' },
-                    { id: 67, serving: '2 cápsulas al día', rationale: 'Fórmula botánica diseñada como apoyo antifúngico.' },
-                    { id: 104, serving: '3 cápsulas al día', rationale: 'El ácido acético ayuda a crear un ambiente intestinal menos favorable para la Cándida.' }
-                ],
-                lifestyleTips: ['Eliminar azúcares, harinas refinadas y alcohol durante el tratamiento.', 'Aumentar el consumo de ajo, cebolla y aceite de coco.', 'Beber abundante agua.']
-            },
-            {
-                id: 'osteoporosis',
-                name: 'Osteoporosis y Salud Ósea', // Total: 6 suplementos
-                emoji: '💪',
-                color: 'yellow',
-                description: 'El hueso no es una roca inerte, sino un tejido vivo en constante remodelación, con células que construyen (osteoblastos) y otras que destruyen (osteoclastos). La osteoporosis ocurre cuando la destrucción supera a la construcción. El protocolo es como un proyecto de construcción: aporta los "ladrillos" (Calcio), el "maestro de obra" que los absorbe (Vitamina D), el "director de tráfico" que los lleva al hueso y no a las arterias (Vitamina K2), y el "andamio" flexible sobre el que se construye (Colágeno).',
-                symptoms: ['Generalmente asintomático hasta una fractura por fragilidad', 'Pérdida de estatura con el tiempo', 'Postura encorvada', 'Dolor de espalda'],
-                comboPrincipal: [
-                    { id: 166, serving: '1 cápsula al día', rationale: 'Dosis alta de Vitamina D3, crucial para la absorción de calcio y la mineralización ósea. Ideal si hay deficiencia.' },
-                    { id: 125, serving: '10-20g al día', rationale: 'El colágeno forma la matriz orgánica del hueso (30% de su peso), dándole flexibilidad y resistencia. Dosis de 10g han demostrado mejorar la densidad mineral ósea.' },
-                    { id: 154, serving: '2 cápsulas al día', rationale: 'Fórmula completa que aporta Calcio, Magnesio, D3 y otros nutrientes de apoyo.' }
-                ],
-                comboSecundario: [
-                    { id: 46, serving: '1 porción al día', rationale: 'El Citrato de Magnesio es una forma biodisponible para asegurar los niveles de este mineral, cofactor de la Vitamina D.' },
-                    { id: 91, serving: '1 cápsula al día', rationale: 'Mezcla de magnesios para una cobertura general.' },
-                    { id: 126, serving: '1 porción al día', rationale: 'Combina el colágeno con ácido hialurónico, que también está presente en el tejido conectivo óseo.' },
-                    { id: 110, serving: '1 perla al día', rationale: 'Antioxidante que protege las células óseas del estrés oxidativo, complementando el protocolo principal.' }
-                ],
-                lifestyleTips: ['Realizar ejercicios de impacto o con peso (caminar, pesas).', 'Asegurar una dieta rica en calcio (verdes, sardinas).', 'Evitar el tabaquismo y el exceso de alcohol.']
-            },
-            {
-                id: 'desgaste_articular',
-                name: 'Desgaste Articular y Artrosis', // Total: 6 suplementos
-                emoji: '💪',
-                color: 'yellow',
-                description: 'La artrosis es un proceso degenerativo donde el cartílago (la "almohadilla" que amortigua las articulaciones) se desgasta, causando dolor, rigidez e inflamación. El protocolo tiene un enfoque triple: 1) Reducir la inflamación y el dolor con potentes botánicos, 2) Aportar los "bloques de construcción" (colágeno, glucosamina) que las células del cartílago (condrocitos) necesitan para reparar el daño, y 3) Mejorar la lubricación de la articulación con ácido hialurónico.',
-                symptoms: ['Dolor en las articulaciones durante o después del movimiento', 'Rigidez matutina', 'Pérdida de flexibilidad', 'Sonido de "crujido" al mover la articulación'],
-                comboPrincipal: [
-                    { id: 102, serving: '2 cápsulas en ayunas', rationale: 'El UC-II® (40mg) debe tomarse en ayunas para que el sistema inmune intestinal lo reconozca y genere tolerancia oral, deteniendo el ataque al cartílago (PMID: 19838098).' },
-                    { id: 30, serving: '1 porción al día', rationale: 'Aporta una base nutricional con Omega-3 y antioxidantes para combatir la inflamación de fondo.' },
-                    { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'La Curcumina es un potente antiinflamatorio que alivia el dolor de la artrosis, con una eficacia comparable a los AINEs (PMID: 19594223).' }
-                ],
-                comboSecundario: [
-                    { id: 125, serving: '10g al día', rationale: 'Los péptidos de colágeno hidrolizado se acumulan en el cartílago y estimulan la producción de nueva matriz.' },
-                    { id: 18, serving: '1 porción al día', rationale: 'El Ácido Hialurónico oral aumenta la lubricación del líquido sinovial.' },
-                    { id: 31, serving: '2 cápsulas al día', rationale: 'La combinación clásica de Glucosamina/Condroitina/MSM que sirve como base para la reparación del cartílago.' },
-                    { id: 157, serving: '1 cápsula al día', rationale: 'Aporta una fórmula integral con Glucosamina y MSM para la estructura del cartílago, y Cúrcuma para reducir la inflamación, siendo un excelente soporte general.' }
-                ],
-                lifestyleTips: ['Mantener un peso saludable para reducir la carga en las articulaciones.', 'Realizar ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir infusiones antiinflamatorias como TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Para alivio tópico del dolor, aplicar FIX UZEN (ID 167) en la zona afectada.']
-            },
-            {
-                id: 'ciatica',
-                name: 'Dolor de Ciática', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'purple',
-                description: 'El dolor ciático es un dolor neuropático, causado por la compresión o inflamación del nervio ciático, a menudo por una hernia de disco o por la contracción de un músculo (piramidal). Es como un "cable eléctrico" que está siendo "pellizcado". El protocolo busca: 1) Desinflamar la zona del "pellizco" para liberar la presión sobre el nervio, y 2) Aportar nutrientes neurotrópicos que ayuden a reparar y proteger el "cable" nervioso dañado.',
-                symptoms: ['Dolor punzante que se irradia desde la espalda baja hacia una pierna', 'Hormigueo o entumecimiento en la pierna o pie', 'Debilidad muscular', 'Dolor que empeora al sentarse'],
-                comboPrincipal: [
-                    { id: 92, serving: '2-4 cápsulas al día', rationale: 'El Magnesio Malato es específico para el dolor muscular y la fatiga. Ayuda a relajar los músculos (piramidal, lumbares) que pueden estar comprimiendo el nervio (PMID: 26860899).' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina reduce la inflamación de la raíz nerviosa, que es la causa principal del dolor.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas del Complejo B (especialmente B1, B6, B12) son neurotrópicas, es decir, nutren y ayudan a regenerar la vaina de mielina del nervio dañado.' }
-                ],
-                comboSecundario: [
-                    { id: 17, serving: '2 cápsulas al día', rationale: 'El Ácido Alfa Lipoico es un potente antioxidante que ha demostrado ser muy eficaz para el dolor neuropático (PMID: 10913252).' },
-                    { id: 91, serving: '1-2 cápsulas al día', rationale: 'Aporte general de magnesio para la relajación muscular.' }
-                ],
-                lifestyleTips: ['Realizar estiramientos específicos para el piramidal y la espalda baja.', 'Evitar estar sentado por períodos prolongados.', 'Aplicar calor en la zona lumbar.', 'Para un alivio localizado, masajear la zona con FIX UZEN (ID 167).']
-            },
-            {
-                id: 'acido_urico',
-                name: 'Ácido Úrico Elevado (Gota)', // Total: 6 suplementos
-                emoji: '🔥',
-                color: 'orange',
-                description: 'El ácido úrico es un producto de desecho del metabolismo de las purinas (presentes en carnes rojas, mariscos). Cuando hay un exceso, puede cristalizar en las articulaciones, formando "agujas" que causan un dolor intenso (ataque de gota). El protocolo tiene dos objetivos: 1) Aumentar la eliminación de ácido úrico a través de la orina (alcalinizándola), y 2) Reducir la inflamación y el dolor durante un ataque agudo.',
-                symptoms: ['Dolor intenso y repentino en una articulación (a menudo el dedo gordo del pie)', 'Hinchazón y enrojecimiento de la articulación', 'Sensibilidad extrema al tacto'],
-                comboPrincipal: [
-                    { id: 47, serving: '3-6 cápsulas al día con abundante agua', rationale: 'El Citrato de Potasio alcaliniza la orina, lo que aumenta drásticamente la solubilidad y excreción del ácido úrico, previniendo la formación de cristales (PMID: 26014734).' },
-                    { id: 54, serving: '3-4 cápsulas al día durante un ataque', rationale: 'La Curcumina inhibe la enzima Xantina Oxidasa (similar al Alopurinol) y reduce la inflamación aguda del ataque de gota (PMID: 26919618).' },
-                    { id: 139, serving: '3 cápsulas al día', rationale: 'Su efecto diurético ayuda a "lavar" el exceso de ácido úrico fuera del sistema.' }
-                ],
-                comboSecundario: [
-                    { id: 77, serving: '3 cápsulas al día', rationale: 'El Hercampurri es un depurativo hepático que ayuda al metabolismo de las purinas.' },
-                    { id: 177, serving: '1-2 tazas al día', rationale: 'Su efecto diurético ayuda a incrementar la excreción de ácido úrico a través de la orina.' },
-                    { id: 151, serving: '1 scoop al día', rationale: 'Ayuda a alcalinizar el cuerpo en general.' }
-                ],
-                lifestyleTips: ['Limitar el consumo de carnes rojas, mariscos y alcohol (especialmente cerveza).', 'Beber abundante agua.', 'Aumentar el consumo de cerezas y vegetales.']
-            },
-            {
-                id: 'caida_cabello_masc',
-                name: 'Caída de Cabello (Masculina)', // Total: 6 suplementos
-                emoji: '👨‍🦲',
-                color: 'pink',
-                description: 'La alopecia androgénica es causada por una sensibilidad genética a la hormona DHT (dihidrotestosterona). La enzima 5-alfa-reductasa convierte la testosterona en DHT, y esta última se une a los folículos pilosos, haciendo que se encojan (miniaturicen) hasta que dejan de producir cabello. El protocolo se enfoca en inhibir esta enzima de forma natural y en fortalecer los folículos existentes con nutrientes clave.',
-                symptoms: ['Retroceso de la línea del cabello (entradas)', 'Pérdida de cabello en la coronilla', 'Cabello progresivamente más fino'],
-                comboPrincipal: [
-                    { id: 106, serving: '1 cápsula al día', rationale: 'Aporta botánicos como el Ciruelo Africano y Semilla de Calabaza, que ayudan a inhibir la 5-alfa-reductasa, enzima que convierte la testosterona en DHT.' },
-                    { id: 125, serving: '10g al día en cualquier momento', rationale: 'Provee la estructura de colágeno necesaria para anclar y fortalecer los folículos existentes.' },
-                    { id: 78, serving: '1 cápsula al día', rationale: 'Contiene Semilla de Calabaza, Zinc y Selenio, un trío clave para inhibir la DHT y proteger la salud prostática y capilar.' }
-                ],
-                comboSecundario: [
-                    { id: 143, serving: '2 cápsulas al día', rationale: 'Optimiza los niveles de testosterona libre, mejorando la vitalidad general sin necesariamente aumentar la DHT.' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es un inhibidor conocido de la 5-alfa-reductasa.' },
-                    { id: 105, serving: '1 cápsula al día', rationale: 'Aporta un complejo de nutrientes que fortalecen el cabello desde la raíz.' }
-                ],
-                lifestyleTips: ['Considerar el uso de minoxidil tópico como complemento.', 'Una dieta baja en azúcar puede ayudar a reducir la inflamación del folículo.', 'Manejar el estrés para no acelerar la caída.']
-            },
-            {
-                id: 'prostata',
-                name: 'Salud Prostática', // Total: 6 suplementos
-                emoji: '🚹',
-                color: 'pink',
-                description: 'La Hiperplasia Prostática Benigna (HPB) es el agrandamiento de la próstata, una glándula con forma de "dona" que rodea la uretra. Al crecer, "aprieta" la uretra y dificulta el vaciado de la vejiga. Este crecimiento es impulsado por la hormona DHT. El protocolo se enfoca en usar botánicos que inhiben la producción de DHT y reducen la inflamación prostática, mejorando así el flujo urinario y los síntomas.',
-                symptoms: ['Necesidad de orinar con frecuencia, especialmente de noche', 'Dificultad para comenzar a orinar', 'Flujo de orina débil o interrumpido', 'Goteo al final de la micción'],
-                comboPrincipal: [
-                    { id: 168, serving: '1 cápsula al día', rationale: 'Fórmula específica con Pygeum (Ciruelo Africano), licopeno y zinc para el bienestar prostático.' },
-                    { id: 78, serving: '1-2 cápsulas al día', rationale: 'Alternativa que contiene Semilla de Calabaza y Ciruelo Africano, que inhiben la 5-alfa-reductasa y tienen un efecto antiinflamatorio prostático demostrado (PMID: 21654084).' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es un mineral crucial para la salud prostática. Niveles bajos se asocian con HPB y mayor riesgo. Ayuda a reducir la inflamación (PMID: 17350711).' }
-                ],
-                comboSecundario: [
-                    { id: 6, serving: '1 cápsula al día', rationale: 'Previene infecciones urinarias, una complicación común de la HPB por el vaciado incompleto de la vejiga.' },
-                    { id: 139, serving: '3 cápsulas al día', rationale: 'Su efecto diurético y antiinflamatorio ayuda a mejorar el flujo urinario.' },
-                    { id: 123, serving: '1-2 cápsulas al día', rationale: 'El Omega-3 reduce la inflamación prostática crónica.' }
-                ],
-                lifestyleTips: ['Reducir la ingesta de líquidos antes de dormir.', 'Limitar cafeína y alcohol.', 'Incluir semillas de calabaza en la dieta.']
-            },
-            {
-                id: 'cancer_apoyo',
-                name: 'Apoyo Coadyuvante en Cáncer', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'Este protocolo NO trata el cáncer. Su objetivo es ser un apoyo coadyuvante para mejorar la calidad de vida del paciente durante los tratamientos convencionales (quimio/radioterapia). Se enfoca en: 1) Modular el sistema inmune para que el cuerpo se defienda mejor, 2) Reducir la inflamación sistémica (caquexia), 3) Proteger las células sanas del daño colateral de los tratamientos, y 4) Combatir la fatiga. **Es IMPRESCINDIBLE contar con la aprobación del oncólogo tratante antes de recomendar cualquier suplemento.**',
-                symptoms: ['Fatiga extrema por quimio/radioterapia', 'Bajas defensas', 'Pérdida de masa muscular', 'Inflamación sistémica'],
-                comboPrincipal: [
-                    { id: 124, serving: '2 tabletas al día', rationale: 'Fórmula con Guanábana, Reishi y Shiitake, botánicos con actividad inmunomoduladora y citotóxica selectiva estudiada in-vitro.' },
-                    { id: 54, serving: '3-6 cápsulas al día', rationale: 'La Curcumina reduce la inflamación sistémica (caquexia), puede sensibilizar las células tumorales al tratamiento y proteger las células sanas (PMID: 32564874).' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'Niveles óptimos de Vitamina D se asocian con mejores pronósticos. Es un potente modulador inmune, y una dosis alta asegura la corrección de deficiencias.' }
-                ],
-                comboSecundario: [
-                    { id: 98, serving: '2-4 cápsulas al día', rationale: 'La Melena de León protege de la neurotoxicidad de la quimio y alivia la gastritis asociada.' },
-                    { id: 101, serving: '1-2 cápsulas al día', rationale: 'Protege el corazón de la cardiotoxicidad de ciertos fármacos de quimioterapia.' },
-                    { id: 111, serving: '1-2 scoops al día', rationale: 'La proteína hidrolizada es de fácil absorción y ayuda a combatir la pérdida de masa muscular (sarcopenia) sin sobrecargar la digestión.' }
-                ],
-                lifestyleTips: ['Mantener una dieta antiinflamatoria rica en vegetales y grasas saludables.', 'Priorizar el descanso y el manejo del estrés.', 'Comunicación constante con el equipo médico.']
-            },
-            {
-                id: 'alergias_respiratorias',
-                name: 'Alergias Respiratorias', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'En las alergias, el sistema inmune confunde una sustancia inofensiva (como el polen) con un invasor. Esto provoca que unas células llamadas mastocitos liberen una cascada de histamina, causando los síntomas típicos. El protocolo busca: 1) Estabilizar los mastocitos para que no liberen histamina, 2) Actuar como un antihistamínico natural, y 3) Fluidificar la mucosidad para aliviar la congestión.',
-                symptoms: ['Estornudos, picazón en nariz y ojos', 'Congestión o secreción nasal', 'Ojos llorosos y rojos', 'Tos seca'],
-                comboPrincipal: [
-                    { id: 116, serving: '2 cápsulas al día', rationale: 'El NAC es un potente mucolítico que rompe el moco espeso, aliviando la congestión. Además, es un gran antioxidante para el tejido pulmonar (PMID: 28407489).' },
-                    { id: 61, serving: '1-2 cápsulas al día', rationale: 'La Vitamina C es un antihistamínico natural. La Equinácea modula la respuesta inmune.' },
-                    { id: 21, serving: '1-2 cápsulas al día', rationale: 'El Ajo Negro y la Moringa tienen propiedades antiinflamatorias que ayudan a calmar la reacción alérgica.' }
-                ],
-                comboSecundario: [
-                    { id: 151, serving: '1 scoop al día', rationale: 'Aporta Quercetina (a través de sus vegetales), un flavonoide que estabiliza los mastocitos, evitando que liberen histamina.' },
-                    { id: 170, serving: '1-2 tazas al día', rationale: 'Aporta eucalipto y gordolobo para calmar y descongestionar las vías respiratorias.' },
-                    { id: 16, serving: '5-10 gotas diluidas al día', rationale: 'El aceite de orégano ayuda a mantener las vías respiratorias despejadas de patógenos oportunistas.' },
-                    { id: 155, serving: '1 cucharada según necesidad', rationale: 'Aporta una mezcla de extractos botánicos y miel que calman la irritación de garganta y la tos asociadas a las alergias.' },
-                    { id: 156, serving: '1-2 vasos dosificadores según necesidad', rationale: 'Reforzado con Ajo Negro, ofrece un mayor apoyo antiinflamatorio y descongestionante.' }
-                ],
-                lifestyleTips: ['Usar purificadores de aire en casa.', 'Lavar la ropa de cama con agua caliente semanalmente.', 'Mantener las ventanas cerradas en días de alto conteo de polen.']
-            },
-            {
-                id: 'defensas_bajas',
-                name: 'Inmunosupresión (Defensas Bajas)', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'El sistema inmune es un ejército complejo que necesita nutrientes específicos para funcionar. La inmunosupresión ocurre cuando este ejército está debilitado por deficiencias nutricionales, estrés crónico o enfermedad. Este protocolo se enfoca en rearmar al ejército, aportando los "generales" que dirigen la respuesta (Vitamina D), las "balas" para las células de defensa (Zinc), y el "apoyo aéreo" de botánicos que potencian la actividad de los soldados.',
-                symptoms: ['Infecciones frecuentes (gripes, resfriados)', 'Heridas que tardan en sanar', 'Fatiga constante', 'Aftas bucales recurrentes'],
-                comboPrincipal: [
-                    { id: 166, serving: '1 cápsula al día', rationale: 'Dosis de alta potencia (5000 UI) para corregir deficiencias de Vitamina D, un modulador clave del sistema inmune.' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es el mineral más importante para la función de los linfocitos T. Su deficiencia paraliza la respuesta inmune (PMID: 21954399).' }
-                ],
-                comboSecundario: [
-                    { id: 22, serving: '1-2 cápsulas al día', rationale: 'El Ajo y el Propóleo tienen actividad antiviral y antibacteriana directa.' },
-                    { id: 170, serving: '1-2 tazas al día', rationale: 'Infusión con propóleo, eucalipto y saúco para apoyar la salud respiratoria durante periodos de defensas bajas.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León fortalece la inmunidad a nivel intestinal.' },
-                    { id: 155, serving: '1 cucharada al día como preventivo', rationale: 'Aporta una dosis de mantenimiento de Vitamina C, propóleo y extractos botánicos para fortalecer las defensas diarias.' },
-                    { id: 156, serving: '1-2 vasos dosificadores al día durante periodos de riesgo', rationale: 'El Ajo Negro potencia la respuesta inmune, ideal para épocas de resfriados y gripes.' }
-                ],
-                lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.']
-            },
-            {
-                id: 'respiratorio',
-                name: 'Afecciones Respiratorias (EPOC, Bronquitis, Asma)', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'En muchas afecciones respiratorias, el problema es doble: una infección (viral o bacteriana) y una producción excesiva de moco espeso que obstruye las vías. El protocolo ataca ambos frentes: 1) Usa potentes agentes antimicrobianos naturales para combatir la infección, y 2) Utiliza un mucolítico eficaz para romper y fluidificar el moco, facilitando su expulsión y despejando los pulmones.',
-                symptoms: ['Tos con flema', 'Dificultad para respirar o sibilancias', 'Presión en el pecho', 'Congestión'],
-                comboPrincipal: [
-                    { id: 116, serving: '2-3 cápsulas al día', rationale: 'El NAC es el mucolítico por excelencia. Rompe los puentes de disulfuro del moco, haciéndolo más líquido y fácil de expulsar. Protege el tejido pulmonar (PMID: 22576073).' },
-                    { id: 22, serving: '2-3 cápsulas al día', rationale: 'El Ajo y el Propóleo tienen acción antimicrobiana directa en las vías respiratorias.' },
-                    { id: 16, serving: '15 gotas diluidas, 2-3 veces al día', rationale: 'El Carvacrol del orégano es un potente agente contra bacterias y virus respiratorios (PMID: 27481796).' }
-                ],
-                comboSecundario: [
-                    { id: 170, serving: '1-2 tazas al día', rationale: 'Infusión con eucalipto, gordolobo y propóleo, tradicionalmente usada para el bienestar de las vías respiratorias.' },
-                    { id: 61, serving: '2-3 cápsulas al día', rationale: 'La Equinácea y la Vitamina C acortan la duración de las infecciones respiratorias.' },
-                    { id: 21, serving: '2 cápsulas al día', rationale: 'La Moringa y el Ajo Negro tienen propiedades antiinflamatorias y de soporte inmune.' },
-                    { id: 155, serving: '1 cucharada cada 4 horas', rationale: 'Fórmula líquida con miel, propóleo y extractos botánicos que calman la garganta y apoyan la función respiratoria.' },
-                    { id: 156, serving: '1-2 vasos dosificadores cada 4 horas', rationale: 'Versión reforzada con Ajo Negro, que potencia el efecto antimicrobiano y antioxidante para un apoyo respiratorio más intenso.' }
-                ],
-                lifestyleTips: ['Usar un humidificador para mantener el aire húmedo.', 'Beber líquidos calientes como té de jengibre.', 'Evitar la exposición a humo y otros irritantes.']
-            },
-            {
-                id: 'cirrosis',
-                name: 'Apoyo en Cirrosis Hepática', // Total: 6 suplementos
-                emoji: '🌿',
-                color: 'green',
-                description: 'La cirrosis es la fase final de la cicatrización (fibrosis) del hígado, donde el tejido funcional es reemplazado por tejido cicatricial no funcional. Es una condición grave y en gran medida irreversible. El objetivo del apoyo nutricional es proteger el tejido hepático que aún funciona, reducir la carga tóxica y el estrés oxidativo, y manejar las complicaciones. **Este protocolo es solo un apoyo y requiere supervisión médica estricta.**',
-                symptoms: ['Fatiga, náuseas, pérdida de apetito', 'Ictericia (coloración amarilla de piel y ojos)', 'Hinchazón en piernas y abdomen (ascitis)'],
-                comboPrincipal: [
-                    { id: 145, serving: '2 cápsulas al día', rationale: 'La Colina es fundamental para la función hepática. La Lecitina ayuda a emulsionar grasas, reduciendo la carga sobre el hígado.' },
-                    { id: 116, serving: '2-4 cápsulas al día', rationale: 'El NAC es el precursor de glutatión, el antioxidante más importante para proteger las células hepáticas restantes del daño (PMID: 31086193).' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina reduce la inflamación y la fibrosis hepática en estudios preliminares.' }
-                ],
-                comboSecundario: [
-                    { id: 77, serving: '3 cápsulas al día', rationale: 'El Hercampurri es un hepatoprotector tradicional.' },
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Contiene Cardo Mariano (silimarina) y otros botánicos que protegen los hepatocitos y mejoran la función hepática.' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'El Omega-3 de alta potencia reduce la inflamación sistémica.' }
-                ],
-                lifestyleTips: ['Abstinencia total de alcohol.', 'Dieta baja en sodio y controlada en proteínas.', 'Seguimiento médico estricto.']
-            },
-            {
-                id: 'piedras_vesicula',
-                name: 'Colelitiasis (Piedras en la Vesícula)', // Total: 6 suplementos
-                emoji: '🌿',
-                color: 'green',
-                description: 'La vesícula almacena la bilis producida por el hígado. Las "piedras" (cálculos) se forman cuando la bilis se sobresatura de colesterol y este cristaliza. El protocolo busca prevenir su formación haciendo la bilis más fluida (con emulsionantes como la lecitina) y estimulando el vaciado regular de la vesícula (con agentes colagogos) para que la bilis no se estanque. **Un cólico biliar (dolor agudo) es una emergencia médica.**',
-                symptoms: ['Dolor repentino e intenso en la parte superior derecha del abdomen', 'Dolor que se irradia a la espalda o al hombro derecho', 'Náuseas o vómitos'],
-                comboPrincipal: [
-                    { id: 145, serving: '2 cápsulas con cada comida grasa', rationale: 'La Lecitina es un emulsionante que ayuda a mantener el colesterol en la bilis en estado líquido, previniendo que cristalice y forme piedras (PMID: 20464085).' },
-                    { id: 77, serving: '3 cápsulas antes de las comidas', rationale: 'El Hercampurri es un colagogo, estimula el vaciado de la vesícula, evitando que la bilis se estanque.' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina también estimula la contracción de la vesícula y tiene un efecto antiinflamatorio.' }
-                ],
-                comboSecundario: [
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Apoyo detox general.' },
-                    { id: 104, serving: '3 cápsulas al día', rationale: 'El vinagre puede ayudar a mejorar la digestión de las grasas.' },
-                    { id: 123, serving: '1-2 cápsulas al día', rationale: 'Reduce la inflamación general.' }
-                ],
-                lifestyleTips: ['Dieta baja en grasas saturadas y alimentos fritos.', 'Aumentar el consumo de fibra.', 'Mantener un peso saludable.']
-            },
-            {
-                id: 'ansiedad',
-                name: 'Ansiedad y Estrés Crónico',
-                emoji: '🧠',
-                color: 'purple',
-                description: 'La ansiedad es una respuesta de "lucha o huida" que se ha quedado atascada. El sistema nervioso simpático ("acelerador") está hiperactivo, y el sistema parasimpático ("freno") no puede contrarrestarlo. Esto se debe a un exceso de neurotransmisores excitatorios y una deficiencia de los inhibidores (como GABA). El protocolo se enfoca en calmar el "acelerador" (regulando el cortisol) y potenciar el "freno" (aumentando los niveles de GABA y relajando el sistema nervioso).',
-                symptoms: ['Preocupación excesiva y pensamientos recurrentes', 'Tensión muscular', 'Irritabilidad', 'Dificultad para concentrarse', 'Palpitaciones', 'Problemas para dormir'],
-                comboPrincipal: [
-                    { id: 163, serving: '3 cápsulas al día con alimentos', rationale: 'Fórmula 3-en-1 que combina Ashwagandha para regular el cortisol, L-Teanina para la calma mental y Magnesio para relajar el sistema nervioso. Es una base excelente y completa.' },
-                    { id: 68, serving: '2-3 cápsulas repartidas durante el día', rationale: 'Añadir si la ansiedad se manifiesta como "mente acelerada" o pensamientos rumiantes. El GABA es el principal neurotransmisor inhibidor que "apaga" esa actividad.' }
-                ],
-                comboSecundario: [
-                    { id: 32, serving: '2 cápsulas por la mañana', rationale: 'Alternativa si solo se busca regular el cortisol y el estrés, sin el componente relajante del magnesio o teanina.' },
-                    { id: 94, serving: '3 cápsulas por la noche', rationale: 'Excelente opción si la ansiedad afecta principalmente el sueño. Combina Magnesio con otros inductores del descanso.' },
-                    { id: 150, serving: '1-2 cápsulas al día', rationale: 'La L-Teanina sola es ideal para la ansiedad diurna, ya que promueve calma sin causar somnolencia.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León tiene efectos ansiolíticos y antidepresivos leves.' }
-                ],
-                lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176) durante el día.']
-            },
-            {
-                id: 'memoria_enfoque',
-                name: 'Memoria y Enfoque Mental', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'purple',
-                description: 'Un rendimiento cognitivo óptimo depende de tres factores: 1) La capacidad del cerebro para formar nuevas conexiones (neuroplasticidad), 2) la producción de energía en las células cerebrales (función mitocondrial), y 3) la correcta comunicación entre neuronas (neurotransmisores). Este protocolo utiliza nootrópicos que actúan sobre estos tres ejes: mejorando la plasticidad, recargando la energía mitocondrial y aportando los precursores para los neurotransmisores del enfoque (dopamina) y la memoria (acetilcolina).',
-                symptoms: ['Dificultad para recordar información', 'Niebla mental o falta de claridad', 'Problemas para concentrarse en tareas', 'Olvidos frecuentes'],
-                comboPrincipal: [
-                    { id: 149, serving: '2 cápsulas al día', rationale: 'El Treonato de Magnesio es la única forma que eleva significativamente los niveles de magnesio en el cerebro, mejorando la plasticidad sináptica y la memoria.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León estimula la producción del Factor de Crecimiento Nervioso (NGF), esencial para la supervivencia y creación de neuronas (PMID: 28362067).' },
-                    { id: 70, serving: '3 cápsulas al día', rationale: 'El Ginkgo Biloba aumenta el flujo sanguíneo cerebral, mejorando la entrega de oxígeno y nutrientes a las neuronas.' }
-                ],
-                comboSecundario: [
-                    { id: 82, serving: '1 cápsula al día', rationale: 'El DHA del Krill Oil es un componente estructural del cerebro. Su forma fosfolipídica asegura una mejor absorción cerebral.' },
-                    { id: 87, serving: '1-2 cápsulas por la mañana', rationale: 'La L-Tirosina es precursora de la dopamina, neurotransmisor clave para el enfoque, la motivación y la memoria de trabajo.' },
-                    { id: 101, serving: '1 cápsula al día', rationale: 'El Ubiquinol recarga la energía de las mitocondrias neuronales, combatiendo la fatiga mental.' }
-                ],
-                lifestyleTips: ['Realizar ejercicios mentales (crucigramas, aprender algo nuevo).', 'Dormir lo suficiente para la consolidación de la memoria.', 'Dieta rica en Omega 3 y antioxidantes.']
-            },
-            {
-                id: 'depresion_apoyo',
-                name: 'Apoyo en Depresión y Bajo Ánimo', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'blue',
-                description: 'La depresión es una condición compleja que involucra desbalances de neurotransmisores (como la serotonina) y, cada vez más reconocido, un estado de inflamación crónica en el cerebro (neuroinflamación). Este protocolo busca: 1) Aportar los "ladrillos" (como el triptófano) para que el cerebro pueda fabricar serotonina, y 2) Reducir la neuroinflamación con potentes antiinflamatorios como el Omega-3. **Este es un protocolo de apoyo y no reemplaza la terapia psicológica o el tratamiento médico.**',
-                symptoms: ['Tristeza persistente', 'Pérdida de interés o placer en actividades', 'Cambios en el apetito o el sueño', 'Falta de energía'],
-                comboPrincipal: [
-                    { id: 150, serving: '1-2 cápsulas por la tarde/noche', rationale: 'El Triptófano es el precursor de la serotonina, el neurotransmisor del bienestar. La Teanina calma la ansiedad asociada (PMID: 21447750).' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'Altas dosis de Omega-3 (especialmente EPA) han demostrado tener un efecto antidepresivo al reducir la neuroinflamación (PMID: 31264708).' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'La deficiencia de Vitamina D está fuertemente ligada a la depresión. Optimizar sus niveles con una dosis alta es fundamental.' }
-                ],
-                comboSecundario: [
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'La Ashwagandha modula el eje del estrés, reduciendo el impacto del cortisol en el estado de ánimo.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas B son cofactores esenciales para la síntesis de neurotransmisores.' },
-                    { id: 94, serving: '2 cápsulas por la noche', rationale: 'El Magnesio tiene un efecto calmante y su deficiencia se asocia con mayor ansiedad y depresión.' }
-                ],
-                lifestyleTips: ['Buscar apoyo psicoterapéutico.', 'Exponerse a la luz solar diariamente.', 'Mantener una rutina y establecer metas pequeñas.']
-            },
-            {
-                id: 'fatiga_burnout',
-                name: 'Fatiga Crónica y Burnout',
-                emoji: '⚡',
-                color: 'purple',
-                description: 'El burnout es un estado de agotamiento físico, mental y emocional causado por estrés crónico. Fisiológicamente, se asocia con una desregulación del eje HPA (el sistema de respuesta al estrés), resultando en patrones anormales de cortisol y una función mitocondrial deficiente. Este protocolo utiliza adaptógenos para "recalibrar" el eje HPA, nootrópicos para combatir la niebla mental y nutrientes clave para recargar la producción de energía a nivel celular.',
-                symptoms: [
-                    'Cansancio extremo que no mejora con el descanso',
-                    'Dificultad para concentrarse o "niebla mental"',
-                    'Irritabilidad o cambios de humor',
-                    'Problemas para dormir a pesar del cansancio',
-                    'Pérdida de motivación o interés'
-                ],
-                comboPrincipal: [
-                    { id: 58, serving: '2 cápsulas al día con alimentos', rationale: 'La Rhodiola Rosea es un adaptógeno clave para combatir la fatiga, mejorar la resistencia al estrés y potenciar el rendimiento mental y físico.' },
-                    { id: 32, serving: '2 cápsulas al día con alimentos', rationale: 'La Ashwagandha es fundamental para regular el cortisol, reducir el estrés y la ansiedad, y mejorar la calidad del sueño, aspectos cruciales en el burnout.' },
-                    { id: 98, serving: '2 cápsulas al día con alimentos', rationale: 'La Melena de León apoya la función cognitiva, la memoria y el enfoque, que suelen verse afectados por la fatiga y el agotamiento mental.' }
-                ],
-                comboSecundario: [
-                    { id: 109, serving: '1 cápsula al día con alimentos grasos', rationale: 'La Vitamina D3 es esencial para la energía y el sistema inmune, y su deficiencia es común en estados de fatiga. El Magnesio y Zinc son cofactores clave.' },
-                    { id: 5, serving: '3 cápsulas por la mañana con alimentos', rationale: 'El Complejo B es vital para el metabolismo energético, y el Ginseng siberiano es un adaptógeno que mejora la resistencia al estrés y la vitalidad.' },
-                    { id: 117, serving: '1 cápsula al día', rationale: 'El NAD+ y Resveratrol apoyan la energía mitocondrial y la salud celular, ayudando a combatir la fatiga a nivel molecular.' }
-                ],
-                lifestyleTips: [
-                    'Priorizar el descanso y el sueño de calidad, estableciendo una rutina regular.',
-                    'Establecer límites claros entre el trabajo y la vida personal para reducir la sobrecarga.',
-                    'Incorporar técnicas de relajación como meditación, yoga o mindfulness.',
-                    'Mantener una dieta rica en nutrientes, evitando azúcares refinados y alimentos ultraprocesados.'
-                ]
-            },
-            {
-                id: 'hipotiroidismo',
-                name: 'Hipotiroidismo (Apoyo Funcional)', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'blue',
-                description: 'La tiroides es el "termostato" del cuerpo, regulando el metabolismo. En el hipotiroidismo, este termostato está bajo. La tiroides produce principalmente una hormona inactiva (T4), que debe convertirse en la forma activa (T3) en el cuerpo. Este protocolo aporta los "ladrillos" para fabricar T4 (Tirosina, Yodo) y los "conversores" clave (Selenio, Zinc) para asegurar que T4 se convierta eficientemente en T3.',
-                symptoms: ['Fatiga, aumento de peso inexplicable', 'Sensibilidad al frío', 'Piel seca, caída de cabello', 'Estreñimiento, niebla mental'],
-                comboPrincipal: [
-                    { id: 87, serving: '1-2 cápsulas en ayunas', rationale: 'La L-Tirosina es el aminoácido precursor a partir del cual se fabrican las hormonas tiroideas T4 y T3.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'En el hipotiroidismo por estrés (cortisol alto), la Ashwagandha ayuda a regular el eje HPA, mejorando la función tiroidea.' },
-                    { id: 26, serving: '3 cápsulas al día', rationale: 'La Espirulina es una fuente natural de yodo, un mineral indispensable para la síntesis de hormonas tiroideas.' }
-                ],
-                comboSecundario: [
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es necesario para la conversión de la hormona inactiva (T4) a la activa (T3).' },
-                    { id: 142, serving: '1 cápsula al día', rationale: 'Aporta Selenio, el cofactor más importante para la enzima que convierte T4 en T3 (deiodinasa) (PMID: 30040610).' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas B son cruciales para el metabolismo energético, que está ralentizado en el hipotiroidismo.' }
-                ],
-                lifestyleTips: ['Evitar el consumo excesivo de vegetales crudos crucíferos (brócoli, coliflor).', 'Asegurar un buen aporte de yodo, selenio y zinc.', 'Consultar al médico para tratamiento hormonal si es necesario.']
-            },
-            {
-                id: 'hipertiroidismo',
-                name: 'Hipertiroidismo (Apoyo Calmante)', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'blue',
-                description: 'En el hipertiroidismo, el "termostato" del cuerpo está atascado en "alto", creando un estado hipermetabólico que acelera todo el sistema y causa un gran estrés oxidativo. El objetivo de este protocolo no es suprimir la tiroides, sino calmar los síntomas de sobreestimulación (ansiedad, palpitaciones, temblores) y proteger al cuerpo del daño causado por el exceso de hormonas. **Es una condición que requiere control médico estricto.**',
-                symptoms: ['Pérdida de peso involuntaria, nerviosismo, ansiedad', 'Palpitaciones, temblores', 'Intolerancia al calor, sudoración excesiva'],
-                comboPrincipal: [
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'La Ashwagandha ayuda a modular la respuesta al estrés y puede calmar la sobreestimulación del eje tiroideo.' },
-                    { id: 94, serving: '2-4 cápsulas al día', rationale: 'El Magnesio es crucial para calmar la hiperexcitabilidad neuromuscular (temblores, palpitaciones) causada por el exceso de hormona tiroidea (PMID: 21550729).' },
-                    { id: 68, serving: '2-3 cápsulas al día', rationale: 'El GABA ayuda a contrarrestar la ansiedad, el nerviosismo y el insomnio asociados al hipertiroidismo.' }
-                ],
-                comboSecundario: [
-                    { id: 150, serving: '1-2 cápsulas al día', rationale: 'La L-Teanina induce calma sin sedación.' },
-                    { id: 117, serving: '1 cápsula al día', rationale: 'Apoya la función mitocondrial y la producción de energía (ATP), combatiendo la fatiga y el desgaste celular del hipertiroidismo.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas B se agotan rápidamente en un estado hipermetabólico.' }
-                ],
-                lifestyleTips: ['Evitar estimulantes como la cafeína.', 'Practicar técnicas de relajación.', 'Dieta rica en antioxidantes para mitigar el estrés oxidativo.']
-            },
-            {
-                id: 'psoriasis_vitiligo',
-                name: 'Psoriasis y Vitiligo (Apoyo Autoinmune)', // Total: 6 suplementos
-                emoji: '🛡️',
-                color: 'blue',
-                description: 'Tanto la psoriasis como el vitiligo son enfermedades autoinmunes donde el sistema inmune ataca por error a las células de la piel (queratinocitos en la psoriasis, melanocitos en el vitiligo). El protocolo se enfoca en modular (no suprimir) la respuesta inmune. Se busca "calmar" al sistema inmune desde el intestino (donde reside el 80% de él), usar potentes inmunomoduladores como la Vitamina D y reducir la inflamación sistémica que alimenta la reacción autoinmune.',
-                symptoms: ['Placas rojas con escamas (Psoriasis)', 'Pérdida de pigmento en la piel (Vitiligo)', 'Picazón o ardor en las lesiones'],
-                comboPrincipal: [
-                    { id: 102, serving: '2 cápsulas al día', rationale: 'La Cúrcuma y Boswellia son potentes antiinflamatorios. El UC-II modula la respuesta inmune, útil en artritis psoriásica.' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'La Vitamina D es un potente inmunomodulador. Dosis altas han demostrado mejorar la psoriasis y son clave en enfermedades autoinmunes.' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'El Omega-3 reduce la inflamación sistémica que impulsa estas condiciones.' }
-                ],
-                comboSecundario: [
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'Dosis más altas de Curcumina para un mayor efecto antiinflamatorio.' },
-                    { id: 129, serving: '2 cápsulas al día', rationale: 'La salud intestinal está directamente ligada a las enfermedades autoinmunes. Equilibrar la flora es clave.' },
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc es un mineral importante para la salud de la piel y la regulación inmune.' }
-                ],
-                lifestyleTips: ['Exposición solar moderada y controlada.', 'Manejo del estrés.', 'Evitar lesiones en la piel (efecto Koebner).']
-            },
-            {
-                id: 'acne_espinillas',
-                name: 'Acné y Espinillas', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'green',
-                description: 'El acné es una enfermedad inflamatoria del folículo piloso. Se produce por una combinación de cuatro factores: 1) Exceso de producción de sebo (grasa), 2) Taponamiento del folículo por células muertas, 3) Sobrecrecimiento de la bacteria P. acnes, y 4) Inflamación. Este protocolo ataca estos factores: regula la producción de sebo, tiene acción antibacteriana y antiinflamatoria, y equilibra el eje intestino-piel, que a menudo es una causa subyacente.',
-                symptoms: ['Puntos negros, espinillas, pústulas', 'Piel grasa', 'Lesiones inflamatorias y dolorosas', 'Acné en mandíbula (sugiere causa hormonal)'],
-                comboPrincipal: [
-                    { id: 153, serving: '1 cápsula al día', rationale: 'El Zinc reduce la producción de sebo y la inflamación del acné. Es uno de los suplementos más efectivos para esta condición (PMID: 31518653).' },
-                    { id: 48, serving: '15 ml al día', rationale: 'La Clorofila tiene propiedades antiinflamatorias y antibacterianas que ayudan a limpiar la piel desde adentro.' },
-                    { id: 129, serving: '1-2 cápsulas al día', rationale: 'Un intestino sano se refleja en una piel sana. Los probióticos mejoran el eje intestino-piel (PMID: 31073205).' }
-                ],
-                comboSecundario: [
-                    { id: 52, serving: '4 cápsulas al día', rationale: 'Indispensable si el acné es de origen hormonal por SOP/resistencia a la insulina.' },
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Apoyo detox general.' },
-                    { id: 26, serving: '3 cápsulas al día', rationale: 'La Espirulina es rica en antioxidantes y tiene propiedades antiinflamatorias.' }
-                ],
-                lifestyleTips: ['Limpieza facial suave, sin productos agresivos.', 'Evitar tocarse la cara.', 'Reducir el consumo de lácteos y alimentos de alto índice glucémico.']
-            },
-            {
-                id: 'menopausia',
-                name: 'Menopausia y Climaterio', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'purple',
-                description: 'La menopausia es el cese de la función ovárica, lo que provoca una caída drástica en la producción de estrógenos. Esta caída es la responsable de los síntomas como bochornos, insomnio y cambios de humor. El protocolo utiliza "fitoestrógenos" (compuestos vegetales que imitan al estrógeno) para unirse a los receptores de estrógeno del cuerpo, proporcionando un efecto estrogénico suave que "amortigua" la caída y hace la transición mucho más llevadera.',
-                symptoms: ['Bochornos y sudores nocturnos', 'Insomnio y cambios de humor', 'Sequedad vaginal', 'Pérdida de densidad ósea'],
-                comboPrincipal: [
-                    { id: 80, serving: '3 cápsulas al día', rationale: 'Las Isoflavonas de Soya son los fitoestrógenos más estudiados para el alivio de los bochornos (PMID: 27666877).' },
-                    { id: 20, serving: '3 cápsulas al día', rationale: 'El Aguaje y la Maca complementan el efecto fitoestrogénico y mejoran la libido y la energía.' },
-                    { id: 94, serving: '2-3 cápsulas por la noche', rationale: 'El Magnesio es clave para el insomnio, la ansiedad y los calambres asociados a la menopausia.' }
-                ],
-                comboSecundario: [
-                    { id: 137, serving: '1-2 cápsulas al día', rationale: 'El Shatavari es el tónico femenino por excelencia en la Ayurveda para esta etapa.' },
-                    { id: 125, serving: '10g al día', rationale: 'La producción de colágeno cae en picado con la menopausia. Suplementarlo es clave para la piel y los huesos.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'Adaptógeno que regula el cortisol, ayudando a reducir bochornos, mejorar el ánimo y la calidad del sueño.' }
-                ],
-                lifestyleTips: ['Vestir en capas para manejar los bochornos.', 'Realizar ejercicio de fuerza para la salud ósea.', 'Incluir soya y linaza en la dieta.']
-            },
-            {
-                id: 'memoria_enfoque',
-                name: 'Memoria y Enfoque Mental', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'purple',
-                description: 'Un rendimiento cognitivo óptimo depende de tres factores: 1) La capacidad del cerebro para formar nuevas conexiones (neuroplasticidad), 2) la producción de energía en las células cerebrales (función mitocondrial), y 3) la correcta comunicación entre neuronas (neurotransmisores). Este protocolo utiliza nootrópicos que actúan sobre estos tres ejes: mejorando la plasticidad, recargando la energía mitocondrial y aportando los precursores para los neurotransmisores del enfoque (dopamina) y la memoria (acetilcolina).',
-                symptoms: ['Dificultad para recordar información', 'Niebla mental o falta de claridad', 'Problemas para concentrarse en tareas', 'Olvidos frecuentes'],
-                comboPrincipal: [
-                    { id: 149, serving: '2 cápsulas al día', rationale: 'El Treonato de Magnesio es la única forma que eleva significativamente los niveles de magnesio en el cerebro, mejorando la plasticidad sináptica y la memoria.' },
-                    { id: 98, serving: '2 cápsulas al día', rationale: 'La Melena de León estimula la producción del Factor de Crecimiento Nervioso (NGF), esencial para la supervivencia y creación de neuronas (PMID: 28362067).' },
-                    { id: 70, serving: '3 cápsulas al día', rationale: 'El Ginkgo Biloba aumenta el flujo sanguíneo cerebral, mejorando la entrega de oxígeno y nutrientes a las neuronas.' }
-                ],
-                comboSecundario: [
-                    { id: 82, serving: '1 cápsula al día', rationale: 'El DHA del Krill Oil es un componente estructural del cerebro. Su forma fosfolipídica asegura una mejor absorción cerebral.' },
-                    { id: 87, serving: '1-2 cápsulas por la mañana', rationale: 'La L-Tirosina es precursora de la dopamina, neurotransmisor clave para el enfoque, la motivación y la memoria de trabajo.' },
-                    { id: 101, serving: '1 cápsula al día', rationale: 'El Ubiquinol recarga la energía de las mitocondrias neuronales, combatiendo la fatiga mental.' }
-                ],
-                lifestyleTips: ['Realizar ejercicios mentales (crucigramas, aprender algo nuevo).', 'Dormir lo suficiente para la consolidación de la memoria.', 'Dieta rica en Omega 3 y antioxidantes.']
-            },
-            {
-                id: 'migrana',
-                name: 'Migraña (Apoyo Nutricional)',
-                emoji: '🧠',
-                color: 'purple',
-                description: 'Trastorno neurológico recurrente caracterizado por cefaleas pulsátiles, a menudo acompañadas de náuseas, fotofobia y aura. El enfoque es estabilizar la función mitocondrial, reducir la neuroinflamación y modular los neurotransmisores.',
-                symptoms: ['Dolor de cabeza pulsátil, usualmente en un lado', 'Sensibilidad a la luz (fotofobia) y al sonido (fonofobia)', 'Náuseas o vómitos', 'Aura visual (destellos de luz, puntos ciegos)'],
-                comboPrincipal: [
-                    { id: 92, serving: '2-4 cápsulas al día', rationale: 'El magnesio malato es específico para la función mitocondrial y ha demostrado reducir la frecuencia de migrañas.' },
-                    { id: 149, serving: '2 cápsulas al día', rationale: 'Cruza la barrera hematoencefálica, mejorando la función sináptica y reduciendo la hiperexcitabilidad neuronal.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'La riboflavina (B2) y el ácido fólico son cofactores clave en el metabolismo energético cerebral.' }
-                ],
-                comboSecundario: [
-                    { id: 101, serving: '1 cápsula al día', rationale: 'Mejora la eficiencia mitocondrial y reduce el estrés oxidativo en las neuronas.' },
-                    { id: 70, serving: '3 cápsulas al día', rationale: 'Mejora la microcirculación cerebral y tiene efecto neuroprotector.' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'Reduce la neuroinflamación.' }
-                ],
-                lifestyleTips: ['Identificar y evitar desencadenantes (alimentos, luz, olores)', 'Mantener horarios regulares de sueño y comidas', 'Hidratación adecuada.']
-            },
-            {
-                id: 'fibromialgia',
-                name: 'Fibromialgia',
-                emoji: '💪',
-                color: 'purple',
-                description: 'La fibromialgia es una condición de dolor crónico generalizado, fatiga y sensibilidad, a menudo ligada a una "sensibilización central" del sistema nervioso. El protocolo busca: 1) Reducir el dolor y la inflamación, 2) Apoyar la producción de energía a nivel mitocondrial, y 3) Calmar el sistema nervioso sobreactivado.',
-                symptoms: ['Dolor muscular y articular generalizado', 'Fatiga crónica que no mejora con el descanso', 'Problemas de sueño (insomnio, sueño no reparador)', 'Niebla mental ("fibro fog")', 'Sensibilidad al tacto'],
-                comboPrincipal: [
-                    { id: 92, serving: '2-4 cápsulas al día', rationale: 'El Magnesio Malato es específico para el dolor muscular y la fatiga. El ácido málico apoya la producción de energía en las mitocondrias, que es deficiente en la fibromialgia.' },
-                    { id: 101, serving: '1-2 cápsulas al día', rationale: 'El Ubiquinol (CoQ10 activa) es crucial para la producción de energía en las mitocondrias, que se ha demostrado que es disfuncional en pacientes con fibromialgia.' },
-                    { id: 102, serving: '2 cápsulas al día', rationale: 'La Curcumina y la Boswellia son potentes antiinflamatorios que ayudan a reducir el dolor generalizado y la rigidez.' }
-                ],
-                comboSecundario: [
-                    { id: 94, serving: '3 cápsulas por la noche', rationale: 'Mejora la calidad del sueño, un pilar fundamental en el manejo de la fibromialgia. Contiene Glicinato de Magnesio y otros relajantes.' },
-                    { id: 17, serving: '2 cápsulas al día', rationale: 'El Ácido Alfa Lipoico es un potente antioxidante que protege las mitocondrias y puede ayudar a aliviar el dolor neuropático asociado.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas del Complejo B son cofactores esenciales para la producción de energía y la salud del sistema nervioso.' }
-                ],
-                lifestyleTips: ['Realizar ejercicio de bajo impacto como caminar, nadar o yoga.', 'Practicar técnicas de manejo del estrés.', 'Mantener una rutina de sueño regular.', 'Utilizar FIX UZEN (ID 167) para masajear los puntos de dolor y aliviar la tensión muscular.']
-            },
-            {
-                id: 'ciatica',
-                name: 'Dolor de Ciática', // Total: 6 suplementos
-                emoji: '🧠',
-                color: 'purple',
-                description: 'El dolor ciático es un dolor neuropático, causado por la compresión o inflamación del nervio ciático, a menudo por una hernia de disco o por la contracción de un músculo (piramidal). Es como un "cable eléctrico" que está siendo "pellizcado". El protocolo busca: 1) Desinflamar la zona del "pellizco" para liberar la presión sobre el nervio, y 2) Aportar nutrientes neurotrópicos que ayuden a reparar y proteger el "cable" nervioso dañado.',
-                symptoms: ['Dolor punzante que se irradia desde la espalda baja hacia una pierna', 'Hormigueo o entumecimiento en la pierna o pie', 'Debilidad muscular', 'Dolor que empeora al sentarse'],
-                comboPrincipal: [
-                    { id: 92, serving: '2-4 cápsulas al día', rationale: 'El Magnesio Malato es específico para el dolor muscular y la fatiga. Ayuda a relajar los músculos (piramidal, lumbares) que pueden estar comprimiendo el nervio (PMID: 26860899).' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina reduce la inflamación de la raíz nerviosa, que es la causa principal del dolor.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Las vitaminas del Complejo B (especialmente B1, B6, B12) son neurotrópicas, es decir, nutren y ayudan a regenerar la vaina de mielina del nervio dañado.' }
-                ],
-                comboSecundario: [
-                    { id: 17, serving: '2 cápsulas al día', rationale: 'El Ácido Alfa Lipoico es un potente antioxidante que ha demostrado ser muy eficaz para el dolor neuropático (PMID: 10913252).' },
-                    { id: 91, serving: '1-2 cápsulas al día', rationale: 'Aporte general de magnesio para la relajación muscular.' }
-                ],
-                lifestyleTips: ['Realizar estiramientos específicos para el piramidal y la espalda baja.', 'Evitar estar sentado por períodos prolongados.', 'Aplicar calor en la zona lumbar.', 'Para un alivio localizado, masajear la zona con FIX UZEN (ID 167).']
-            },
-            {
-                id: 'menopausia',
-                name: 'Menopausia y Climaterio', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'purple',
-                description: 'La menopausia es el cese de la función ovárica, lo que provoca una caída drástica en la producción de estrógenos. Esta caída es la responsable de los síntomas como bochornos, insomnio y cambios de humor. El protocolo utiliza "fitoestrógenos" (compuestos vegetales que imitan al estrógeno) para unirse a los receptores de estrógeno del cuerpo, proporcionando un efecto estrogénico suave que "amortigua" la caída y hace la transición mucho más llevadera.',
-                symptoms: ['Bochornos y sudores nocturnos', 'Insomnio y cambios de humor', 'Sequedad vaginal', 'Pérdida de densidad ósea'],
-                comboPrincipal: [
-                    { id: 80, serving: '3 cápsulas al día', rationale: 'Las Isoflavonas de Soya son los fitoestrógenos más estudiados para el alivio de los bochornos (PMID: 27666877).' },
-                    { id: 20, serving: '3 cápsulas al día', rationale: 'El Aguaje y la Maca complementan el efecto fitoestrogénico y mejoran la libido y la energía.' },
-                    { id: 94, serving: '2-3 cápsulas por la noche', rationale: 'El Magnesio es clave para el insomnio, la ansiedad y los calambres asociados a la menopausia.' }
-                ],
-                comboSecundario: [
-                    { id: 137, serving: '1-2 cápsulas al día', rationale: 'El Shatavari es el tónico femenino por excelencia en la Ayurveda para esta etapa.' },
-                    { id: 125, serving: '10g al día', rationale: 'La producción de colágeno cae en picado con la menopausia. Suplementarlo es clave para la piel y los huesos.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'Adaptógeno que regula el cortisol, ayudando a reducir bochornos, mejorar el ánimo y la calidad del sueño.' }
-                ],
-                lifestyleTips: ['Vestir en capas para manejar los bochornos.', 'Realizar ejercicio de fuerza para la salud ósea.', 'Incluir soya y linaza en la dieta.']
-            },
-            {
-                id: 'irregularidad_menstrual',
-                name: 'Irregularidad Menstrual y SPM', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'purple',
-                description: 'El ciclo menstrual es una danza delicada entre estrógeno y progesterona. El Síndrome Premenstrual (SPM) y la irregularidad a menudo ocurren por un desbalance, comúnmente un exceso relativo de estrógeno o una deficiencia de progesterona. El estrés crónico es un gran culpable, ya que el cuerpo "roba" progesterona para fabricar cortisol. El protocolo busca equilibrar este ratio hormonal, regular el ciclo y aliviar los síntomas asociados como cólicos e irritabilidad.',
-                symptoms: ['Ciclos muy largos, cortos o ausentes', 'Cólicos dolorosos', 'Hinchazón, sensibilidad en los senos', 'Irritabilidad o tristeza premenstrual'],
-                comboPrincipal: [
-                    { id: 52, serving: '4 cápsulas al día', rationale: 'El Myo-Inositol es muy eficaz para regular el ciclo menstrual, especialmente cuando la irregularidad se debe a resistencia a la insulina (PMID: 24995058).' },
-                    { id: 20, serving: '3 cápsulas al día', rationale: 'El Aguaje y la Maca aportan fitoestrógenos y adaptógenos que ayudan a equilibrar el eje hormonal.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'La Ashwagandha regula el cortisol, que a menudo es el culpable de desregular el ciclo menstrual por estrés.' }
-                ],
-                comboSecundario: [
-                    { id: 94, serving: '2 cápsulas por la noche', rationale: 'El Magnesio es excelente para los cólicos, la retención de líquidos y la irritabilidad del SPM (PMID: 23853635).' },
-                    { id: 123, serving: '1-2 cápsulas al día', rationale: 'El Omega-3 reduce la inflamación que causa los cólicos menstruales.' },
-                    { id: 107, serving: '1 cápsula al día', rationale: 'Multivitamínico completo para la mujer que aporta una base nutricional sólida.' }
-                ],
-                lifestyleTips: ['Llevar un registro del ciclo menstrual.', 'Reducir cafeína y sal antes del periodo.', 'Aumentar el consumo de magnesio a través de vegetales de hoja verde.']
-            },
-            {
-                id: 'quistes_miomas',
-                name: 'Quistes Ováricos y Miomas (Apoyo)', // Total: 6 suplementos
-                emoji: '🩷',
-                color: 'purple',
-                description: 'Tanto los quistes ováricos funcionales como los miomas uterinos suelen estar asociados a un estado de "dominancia estrogénica", donde hay un exceso de estrógeno en relación con la progesterona. El protocolo se enfoca en dos áreas clave: 1) Apoyar al hígado en su función de desintoxicación para que pueda metabolizar y eliminar eficazmente el exceso de estrógenos, y 2) Reducir la inflamación pélvica. **Es un apoyo funcional y requiere siempre supervisión ginecológica.**',
-                symptoms: ['Periodos abundantes o dolorosos', 'Presión o dolor pélvico', 'Necesidad de orinar con frecuencia', 'Dolor durante las relaciones sexuales'],
-                comboPrincipal: [
-                    { id: 52, serving: '4 cápsulas al día', rationale: 'El Inositol ayuda a equilibrar el eje hormonal y a mejorar la sensibilidad a la insulina, un factor subyacente común (PMID: 30511931).' },
-                    { id: 54, serving: '3 cápsulas al día', rationale: 'La Curcumina es un potente antiinflamatorio y ha mostrado en estudios inhibir el crecimiento de células de miomas.' },
-                    { id: 166, serving: '1 cápsula al día', rationale: 'La Vitamina D tiene un efecto antiproliferativo y su deficiencia se asocia con un mayor riesgo de miomas. Una dosis alta es ideal para corregir deficiencias.' }
-                ],
-                comboSecundario: [
-                    { id: 43, serving: '2 cápsulas al día', rationale: 'Apoya la fase II de desintoxicación hepática, crucial para eliminar el exceso de estrógenos.' },
-                    { id: 123, serving: '2-3 cápsulas al día', rationale: 'Reduce la inflamación pélvica.' },
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'Regula el estrés, un factor que puede empeorar los desbalances hormonales.' }
-                ],
-                lifestyleTips: ['Dieta rica en fibra para ayudar a eliminar el exceso de estrógenos.', 'Evitar plásticos y otros disruptores endocrinos.', 'Mantener un peso saludable.']
-            },
-            {
-                id: 'recuperacion_deportiva',
-                name: 'Recuperación y Rendimiento Deportivo',
-                emoji: '🏋️',
-                color: 'yellow',
-                description: 'El crecimiento muscular no ocurre durante el entrenamiento, sino durante la recuperación. El ejercicio intenso causa micro-desgarros y agota las reservas de energía (glucógeno). Este protocolo está diseñado para optimizar la ventana anabólica post-entrenamiento, aportando: 1) Proteína de rápida absorción para la reparación y construcción (síntesis de proteínas), 2) Creatina para resintetizar la energía (ATP) y aumentar la fuerza, y 3) Glutamina para acelerar la reparación y reducir el dolor muscular.',
-                symptoms: ['Dolor muscular post-entrenamiento (DOMS)', 'Fatiga y disminución del rendimiento', 'Sensación de no recuperarse entre sesiones', 'Calambres o rigidez muscular'],
-                comboPrincipal: [
-                    { id: 113, serving: '1 scoop (34g) inmediatamente después de entrenar', rationale: 'El aislado de suero es de rápida absorción, ideal para iniciar la síntesis de proteínas musculares en la ventana anabólica post-entreno.' },
-                    { id: 158, serving: '1 medida (39.5g) inmediatamente después de entrenar', rationale: 'Excelente alternativa vegana con 30g de proteína, BCAAs y probióticos para una recuperación muscular completa y salud digestiva.' },
-                    { id: 7, serving: '5g al día (puede ser junto con la proteína)', rationale: 'La creatina satura los músculos de fosfocreatina, mejorando la fuerza y la recuperación entre series. La dosis de 5g/día es el estándar de oro (PMID: 28952523).' },
-                    { id: 71, serving: '5-10g después de entrenar o antes de dormir', rationale: 'La glutamina es el aminoácido más abundante en el músculo. Suplementarlo reduce el dolor muscular (DOMS) y apoya el sistema inmune.' }
-                ],
-                comboSecundario: [
-                    { id: 83, serving: '3 cápsulas antes de entrenar', rationale: 'La Arginina aumenta el óxido nítrico, mejorando el flujo sanguíneo y la entrega de nutrientes al músculo durante el ejercicio.' },
-                    { id: 92, serving: '2 cápsulas por la noche', rationale: 'El Magnesio Malato es específico para la función muscular, previene calambres y ayuda a la relajación.' },
-                    { id: 123, serving: '3 softgels al día', rationale: 'El Omega-3 reduce la inflamación inducida por el ejercicio, acelerando la recuperación.' },
-                    { id: 159, serving: '3 cápsulas al día', rationale: 'Aporta el 100% de las vitaminas y minerales esenciales que se agotan con el ejercicio intenso, asegurando una base nutricional sólida para la recuperación y el rendimiento.' }
-                ],
-                lifestyleTips: [
-                    'Consumir el batido de proteína y creatina dentro de los 45 minutos post-entrenamiento.',
-                    'Asegurar una hidratación adecuada antes, durante y después del ejercicio.',
-                    'Dormir al menos 7-8 horas, ya que la mayor parte de la reparación muscular ocurre durante el sueño.'
-                ]
-            },
-            {
-                id: 'fatiga_cronica',
-                name: 'Síndrome de Fatiga Crónica (Encefalomielitis Miálgica)',
-                emoji: '⚡',
-                color: 'gray',
-                description: 'Trastorno complejo caracterizado por fatiga extrema que empeora con el esfuerzo, acompañada de problemas cognitivos, dolor y sueño no reparador. Se asocia a disfunción mitocondrial y estrés oxidativo.',
-                symptoms: ['Fatiga severa que dura más de 6 meses y no mejora con el descanso', 'Malestar post-esfuerzo (empeoramiento de síntomas tras actividad física o mental)', 'Sueño no reparador', 'Dificultades de memoria o concentración ("niebla mental")'],
-                comboPrincipal: [
-                    { id: 117, serving: '1 cápsula al día', rationale: 'Aumenta los niveles de NAD+ para mejorar la producción de energía celular y la reparación del ADN.' },
-                    { id: 101, serving: '1-2 cápsulas al día', rationale: 'Coenzima Q10 activa para soporte mitocondrial.' },
-                    { id: 92, serving: '2-4 cápsulas al día', rationale: 'El malato es clave en el ciclo de Krebs y reduce la fatiga muscular.' }
-                ],
-                comboSecundario: [
-                    { id: 32, serving: '2 cápsulas al día', rationale: 'Regula el cortisol y mejora la resiliencia al estrés.' },
-                    { id: 4, serving: '3 cápsulas al día', rationale: 'Vitaminas B como cofactores energéticos.' },
-                    { id: 116, serving: '2 cápsulas al día', rationale: 'Aumenta el glutatión para combatir el estrés oxidativo.' }
-                ],
-                lifestyleTips: ['Gestión de la energía (pacing)', 'Sueño reparador', 'Dieta antiinflamatoria y baja en carbohidratos refinados.']
-            },
-        ];
+    // ================================================================
+//  BASE DE DATOS DE PADECIMIENTOS (PROTOCOLOS) - VERSIÓN COMPLETA Y ÚNICA
+// ================================================================
+
+const padecimientos = [
+    // ================================================================
+    //  🟣 PÚRPURA: Sistema Nervioso y Hormonal
+    // ================================================================
+    {
+        id: 'ansiedad',
+        name: 'Ansiedad y Estrés Crónico',
+        emoji: '🧠',
+        color: 'purple',
+        description: 'La ansiedad es una respuesta de "lucha o huida" que se ha quedado atascada. El sistema nervioso simpático ("acelerador") está hiperactivo, y el sistema parasimpático ("freno") no puede contrarrestarlo. Esto se debe a un exceso de neurotransmisores excitatorios y una deficiencia de los inhibidores (como GABA). El protocolo se enfoca en calmar el "acelerador" (regulando el cortisol) y potenciar el "freno" (aumentando los niveles de GABA y relajando el sistema nervioso).',
+        symptoms: ['Preocupación excesiva y pensamientos recurrentes', 'Tensión muscular', 'Irritabilidad', 'Dificultad para concentrarse', 'Palpitaciones', 'Problemas para dormir'],
+        comboPrincipal: [
+            { id: 163, serving: '3 cápsulas al día con alimentos', rationale: 'Fórmula 3-en-1 que combina Ashwagandha para regular el cortisol, L-Teanina para la calma mental y Magnesio para relajar el sistema nervioso.' },
+            { id: 68, serving: '2-3 cápsulas repartidas durante el día', rationale: 'El GABA es el principal neurotransmisor inhibidor que "apaga" la mente acelerada.' }
+        ],
+        comboSecundario: [
+            { id: 32, serving: '2 cápsulas por la mañana', rationale: 'Ashwagandha para regular el cortisol.' },
+            { id: 94, serving: '3 cápsulas por la noche', rationale: 'Fórmula nocturna para el sueño.' },
+            { id: 150, serving: '1-2 cápsulas al día', rationale: 'L-Teanina para calma sin somnolencia.' },
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León con efectos ansiolíticos.' }
+        ],
+        lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176).']
+    },
+    {
+        id: 'fatiga_burnout',
+        name: 'Fatiga Crónica y Burnout',
+        emoji: '⚡',
+        color: 'purple',
+        description: 'El burnout es un estado de agotamiento físico, mental y emocional causado por estrés crónico. Fisiológicamente, se asocia con una desregulación del eje HPA (el sistema de respuesta al estrés), resultando en patrones anormales de cortisol y una función mitocondrial deficiente.',
+        symptoms: ['Cansancio extremo que no mejora con el descanso', 'Dificultad para concentrarse o "niebla mental"', 'Irritabilidad o cambios de humor', 'Problemas para dormir a pesar del cansancio', 'Pérdida de motivación o interés'],
+        comboPrincipal: [
+            { id: 58, serving: '2 cápsulas al día con alimentos', rationale: 'Rhodiola Rosea es un adaptógeno clave para combatir la fatiga.' },
+            { id: 32, serving: '2 cápsulas al día con alimentos', rationale: 'Ashwagandha para regular el cortisol y mejorar el sueño.' },
+            { id: 98, serving: '2 cápsulas al día con alimentos', rationale: 'Melena de León apoya la función cognitiva.' }
+        ],
+        comboSecundario: [
+            { id: 109, serving: '1 cápsula al día con alimentos grasos', rationale: 'Vitamina D3 esencial para la energía.' },
+            { id: 5, serving: '3 cápsulas por la mañana con alimentos', rationale: 'Complejo B y Ginseng para el metabolismo energético.' },
+            { id: 117, serving: '1 cápsula al día', rationale: 'NAD+ y Resveratrol para la energía mitocondrial.' }
+        ],
+        lifestyleTips: ['Priorizar el descanso y el sueño de calidad.', 'Establecer límites claros entre el trabajo y la vida personal.', 'Incorporar técnicas de relajación como meditación, yoga o mindfulness.', 'Mantener una dieta rica en nutrientes.']
+    },
+    {
+        id: 'insomnio',
+        name: 'Insomnio y Despertares Nocturnos',
+        emoji: '🌙',
+        color: 'purple',
+        description: 'El sueño es un baile entre el sistema nervioso simpático ("acelerador") y el parasimpático ("freno"). El insomnio ocurre cuando el acelerador (impulsado por cortisol y estrés) se queda atascado, y el freno (que depende de neurotransmisores como GABA y serotonina) no tiene suficiente fuerza.',
+        symptoms: ['Dificultad para conciliar el sueño', 'Despertarse varias veces en la noche', 'Despertar muy temprano y no poder volver a dormir', 'Sensación de no haber descansado'],
+        comboPrincipal: [
+            { id: 94, serving: '3 cápsulas 1h antes de dormir', rationale: 'Glicinato de Magnesio relaja el sistema nervioso central.' },
+            { id: 68, serving: '2 cápsulas 1h antes de dormir', rationale: 'GABA ayuda a "apagar" los pensamientos rumiantes.' },
+            { id: 150, serving: '1-2 cápsulas 1h antes de dormir', rationale: 'Triptófano precursor de serotonina y melatonina.' }
+        ],
+        comboSecundario: [
+            { id: 32, serving: '2 cápsulas con la cena', rationale: 'Ashwagandha reduce el cortisol nocturno.' },
+            { id: 163, serving: '3 cápsulas al día', rationale: 'Combina Ashwagandha, L-Teanina y Magnesio.' },
+            { id: 4, serving: '3 cápsulas por la mañana', rationale: 'Vitaminas B para la producción de neurotransmisores.' }
+        ],
+        lifestyleTips: ['Evitar pantallas (luz azul) al menos 1 hora antes de dormir.', 'Mantener un horario de sueño regular.', 'Tomar una infusión relajante como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176).']
+    },
+    {
+        id: 'memoria_enfoque',
+        name: 'Memoria y Enfoque Mental',
+        emoji: '🧠',
+        color: 'purple',
+        description: 'Un rendimiento cognitivo óptimo depende de tres factores: 1) La capacidad del cerebro para formar nuevas conexiones (neuroplasticidad), 2) la producción de energía en las células cerebrales (función mitocondrial), y 3) la correcta comunicación entre neuronas (neurotransmisores).',
+        symptoms: ['Dificultad para recordar información', 'Niebla mental o falta de claridad', 'Problemas para concentrarse en tareas', 'Olvidos frecuentes'],
+        comboPrincipal: [
+            { id: 149, serving: '2 cápsulas al día', rationale: 'Treonato de Magnesio mejora la plasticidad sináptica y la memoria.' },
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León estimula el Factor de Crecimiento Nervioso (NGF).' },
+            { id: 70, serving: '3 cápsulas al día', rationale: 'Ginkgo Biloba aumenta el flujo sanguíneo cerebral.' }
+        ],
+        comboSecundario: [
+            { id: 82, serving: '1 cápsula al día', rationale: 'DHA del Krill Oil para la estructura cerebral.' },
+            { id: 87, serving: '1-2 cápsulas por la mañana', rationale: 'L-Tirosina precursora de dopamina.' },
+            { id: 101, serving: '1 cápsula al día', rationale: 'Ubiquinol recarga la energía de las mitocondrias neuronales.' }
+        ],
+        lifestyleTips: ['Realizar ejercicios mentales (crucigramas, aprender algo nuevo).', 'Dormir lo suficiente para la consolidación de la memoria.', 'Dieta rica en Omega 3 y antioxidantes.']
+    },
+    {
+        id: 'migrana',
+        name: 'Migraña (Apoyo Nutricional)',
+        emoji: '🤕',
+        color: 'purple',
+        description: 'Trastorno neurológico recurrente caracterizado por cefaleas pulsátiles, a menudo acompañadas de náuseas, fotofobia y aura. El enfoque es estabilizar la función mitocondrial, reducir la neuroinflamación y modular los neurotransmisores.',
+        symptoms: ['Dolor de cabeza pulsátil, usualmente en un lado', 'Sensibilidad a la luz (fotofobia) y al sonido (fonofobia)', 'Náuseas o vómitos', 'Aura visual (destellos de luz, puntos ciegos)'],
+        comboPrincipal: [
+            { id: 92, serving: '2-4 cápsulas al día', rationale: 'Magnesio Malato para la función mitocondrial.' },
+            { id: 149, serving: '2 cápsulas al día', rationale: 'Treonato de Magnesio reduce la hiperexcitabilidad neuronal.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Riboflavina (B2) y ácido fólico para el metabolismo energético cerebral.' }
+        ],
+        comboSecundario: [
+            { id: 101, serving: '1 cápsula al día', rationale: 'Coenzima Q10 reduce el estrés oxidativo.' },
+            { id: 70, serving: '3 cápsulas al día', rationale: 'Ginkgo Biloba mejora la microcirculación cerebral.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'Omega-3 reduce la neuroinflamación.' }
+        ],
+        lifestyleTips: ['Identificar y evitar desencadenantes (alimentos, luz, olores).', 'Mantener horarios regulares de sueño y comidas.', 'Hidratación adecuada.']
+    },
+    {
+        id: 'fibromialgia',
+        name: 'Fibromialgia',
+        emoji: '💪',
+        color: 'purple',
+        description: 'La fibromialgia es una condición de dolor crónico generalizado, fatiga y sensibilidad, a menudo ligada a una "sensibilización central" del sistema nervioso.',
+        symptoms: ['Dolor muscular y articular generalizado', 'Fatiga crónica que no mejora con el descanso', 'Problemas de sueño (insomnio, sueño no reparador)', 'Niebla mental ("fibro fog")', 'Sensibilidad al tacto'],
+        comboPrincipal: [
+            { id: 92, serving: '2-4 cápsulas al día', rationale: 'Magnesio Malato para el dolor muscular y la fatiga.' },
+            { id: 101, serving: '1-2 cápsulas al día', rationale: 'Ubiquinol para la producción de energía en mitocondrias.' },
+            { id: 102, serving: '2 cápsulas al día', rationale: 'Curcumina y Boswellia como potentes antiinflamatorios.' }
+        ],
+        comboSecundario: [
+            { id: 94, serving: '3 cápsulas por la noche', rationale: 'Mejora la calidad del sueño.' },
+            { id: 17, serving: '2 cápsulas al día', rationale: 'Ácido Alfa Lipoico para el dolor neuropático.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Complejo B para la producción de energía.' }
+        ],
+        lifestyleTips: ['Realizar ejercicio de bajo impacto como caminar, nadar o yoga.', 'Practicar técnicas de manejo del estrés.', 'Mantener una rutina de sueño regular.', 'Utilizar FIX UZEN (ID 167) para masajear los puntos de dolor.']
+    },
+    {
+        id: 'ciatica',
+        name: 'Dolor de Ciática',
+        emoji: '🦵',
+        color: 'yellow',
+        description: 'El dolor ciático es un dolor neuropático, causado por la compresión o inflamación del nervio ciático, a menudo por una hernia de disco o por la contracción de un músculo (piramidal).',
+        symptoms: ['Dolor punzante que se irradia desde la espalda baja hacia una pierna', 'Hormigueo o entumecimiento en la pierna o pie', 'Debilidad muscular', 'Dolor que empeora al sentarse'],
+        comboPrincipal: [
+            { id: 92, serving: '2-4 cápsulas al día', rationale: 'Magnesio Malato para relajar los músculos que comprimen el nervio.' },
+            { id: 54, serving: '3 cápsulas al día', rationale: 'Curcumina reduce la inflamación de la raíz nerviosa.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Complejo B para nutrir y regenerar la vaina de mielina.' }
+        ],
+        comboSecundario: [
+            { id: 17, serving: '2 cápsulas al día', rationale: 'Ácido Alfa Lipoico para el dolor neuropático.' },
+            { id: 91, serving: '1-2 cápsulas al día', rationale: 'Aporte general de magnesio para la relajación muscular.' }
+        ],
+        lifestyleTips: ['Realizar estiramientos específicos para el piramidal y la espalda baja.', 'Evitar estar sentado por períodos prolongados.', 'Aplicar calor en la zona lumbar.', 'Masajear la zona con FIX UZEN (ID 167).']
+    },
+    {
+        id: 'depresion_apoyo',
+        name: 'Apoyo en Depresión y Bajo Ánimo',
+        emoji: '😔',
+        color: 'purple',
+        description: 'La depresión es una condición compleja que involucra desbalances de neurotransmisores (como la serotonina) y, cada vez más reconocido, un estado de inflamación crónica en el cerebro (neuroinflamación).',
+        symptoms: ['Tristeza persistente', 'Pérdida de interés o placer en actividades', 'Cambios en el apetito o el sueño', 'Falta de energía'],
+        comboPrincipal: [
+            { id: 150, serving: '1-2 cápsulas por la tarde/noche', rationale: 'Triptófano precursor de serotonina.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'Omega-3 (EPA) para reducir la neuroinflamación.' },
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 para optimizar los niveles.' }
+        ],
+        comboSecundario: [
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha modula el eje del estrés.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Vitaminas B para la síntesis de neurotransmisores.' },
+            { id: 94, serving: '2 cápsulas por la noche', rationale: 'Magnesio con efecto calmante.' }
+        ],
+        lifestyleTips: ['Buscar apoyo psicoterapéutico.', 'Exponerse a la luz solar diariamente.', 'Mantener una rutina y establecer metas pequeñas.']
+    },
+    {
+        id: 'quistes_miomas',
+        name: 'Quistes Ováricos y Miomas (Apoyo)',
+        emoji: '🩷',
+        color: 'pink',
+        description: 'Tanto los quistes ováricos funcionales como los miomas uterinos suelen estar asociados a un estado de "dominancia estrogénica", donde hay un exceso de estrógeno en relación con la progesterona.',
+        symptoms: ['Periodos abundantes o dolorosos', 'Presión o dolor pélvico', 'Necesidad de orinar con frecuencia', 'Dolor durante las relaciones sexuales'],
+        comboPrincipal: [
+            { id: 52, serving: '4 cápsulas al día', rationale: 'Inositol para equilibrar el eje hormonal y mejorar la sensibilidad a la insulina.' },
+            { id: 54, serving: '3 cápsulas al día', rationale: 'Curcumina como antiinflamatorio que inhibe el crecimiento de células de miomas.' },
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D con efecto antiproliferativo.' }
+        ],
+        comboSecundario: [
+            { id: 43, serving: '2 cápsulas al día', rationale: 'Apoyo a la desintoxicación hepática.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'Reduce la inflamación pélvica.' },
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Regula el estrés.' }
+        ],
+        lifestyleTips: ['Dieta rica en fibra para eliminar el exceso de estrógenos.', 'Evitar plásticos y otros disruptores endocrinos.', 'Mantener un peso saludable.']
+    },
+
+    // ================================================================
+    //  🟢 VERDE: Sistema Digestivo y Hepático
+    // ================================================================
+    {
+        id: 'gastritis_ulcera',
+        name: 'Gastritis y Úlcera Gástrica',
+        emoji: '🌿',
+        color: 'green',
+        description: 'La gastritis es la inflamación de la mucosa del estómago, mientras que la úlcera es una herida abierta en esa misma mucosa. Ambas condiciones se benefician de un enfoque doble: 1) Proteger la zona dañada del ácido gástrico para permitir que sane, y 2) Aportar compuestos que activamente desinflamen y promuevan la cicatrización.',
+        symptoms: ['Ardor o dolor en la boca del estómago', 'Sensación de vacío que mejora al comer', 'Acidez y reflujo', 'Náuseas o indigestión'],
+        comboPrincipal: [
+            { id: 85, serving: '1 cápsula en ayunas y otra antes de dormir', rationale: 'Zinc-Carnosina se adhiere al tejido ulcerado promoviendo la cicatrización.' },
+            { id: 9, serving: '3 cápsulas al día con alimentos', rationale: 'Cuachalalate y Tepezcohuite forman una capa protectora.' },
+            { id: 28, serving: '100 ml en ayunas', rationale: 'Aloe Vera recubre y calma la mucosa gástrica.' }
+        ],
+        comboSecundario: [
+            { id: 141, serving: '2 cápsulas con alimentos', rationale: 'Fórmula de apoyo digestivo.' },
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León protege la mucosa gástrica.' },
+            { id: 129, serving: '2 cápsulas al día', rationale: 'Probióticos para combatir H. Pylori.' }
+        ],
+        lifestyleTips: ['Evitar alimentos irritantes como picante, café, alcohol y fritos.', 'Realizar comidas más pequeñas y frecuentes.', 'Manejar el estrés.']
+    },
+    {
+        id: 'colitis',
+        name: 'Colitis y Colon Irritable',
+        emoji: '🌿',
+        color: 'green',
+        description: 'El Síndrome de Colon Irritable (SII) y la colitis son condiciones donde el intestino está inflamado, hipersensible y en desequilibrio (disbiosis). Esto a menudo se asocia con una barrera intestinal dañada ("intestino permeable").',
+        symptoms: ['Dolor abdominal tipo cólico', 'Hinchazón y gases', 'Alternancia entre diarrea y estreñimiento', 'Moco en las heces'],
+        comboPrincipal: [
+            { id: 131, serving: '1-2 cápsulas en ayunas', rationale: 'Alta dosis de probióticos para desplazar bacterias patógenas.' },
+            { id: 9, serving: '3 cápsulas al día', rationale: 'Cuachalalate como antiinflamatorio y cicatrizante.' },
+            { id: 151, serving: '1 scoop al día', rationale: 'Fibra prebiótica para alimentar a los probióticos.' }
+        ],
+        comboSecundario: [
+            { id: 85, serving: '1-2 cápsulas al día', rationale: 'Zinc-Carnosina repara la barrera intestinal.' },
+            { id: 28, serving: '100 ml en ayunas', rationale: 'Aloe Vera calma y desinflama el tracto digestivo.' },
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León con efecto prebiótico y antiinflamatorio.' }
+        ],
+        lifestyleTips: ['Identificar y evitar alimentos detonantes (lácteos, gluten, etc.).', 'Manejar el estrés.', 'Comer despacio y masticar bien los alimentos.']
+    },
+    {
+        id: 'erge_acidez',
+        name: 'Reflujo Gastroesofágico y Acidez (ERGE)',
+        emoji: '🔥',
+        color: 'green',
+        description: 'El reflujo ácido ocurre cuando el contenido del estómago regresa al esófago, causando ardor e irritación. Frecuentemente se asocia a digestiones lentas, disbiosis o estrés crónico, más que a un exceso de ácido.',
+        symptoms: ['Sensación de ardor o fuego en el pecho (pirosis)', 'Regurgitación ácida o sabor amargo en la garganta', 'Tos seca crónica o ronquera', 'Sensación de un nudo en la garganta', 'Indigestión, eructos o pesadez estomacal'],
+        comboPrincipal: [
+            { id: 9, serving: '2 cápsulas 30 minutos antes de cada comida', rationale: 'Cuachalalate y Tepezcohuite cicatrizan la mucosa.' },
+            { id: 164, serving: '2 cucharadas en ayunas y antes de dormir', rationale: 'Aloe Vera con Nopal y Cuachalalate recubre el tracto digestivo.' },
+            { id: 129, serving: '1 cápsula por las mañanas', rationale: 'Probióticos equilibran el microbioma.' }
+        ],
+        comboSecundario: [
+            { id: 93, serving: '2 cápsulas antes de dormir', rationale: 'Magnesio relaja el esfínter esofágico.' },
+            { id: 71, serving: '1 porción disuelta en agua en ayunas', rationale: 'Glutamina para reparar la pared intestinal.' },
+            { id: 66, serving: '1 onza diluida en agua tibia antes de dormir', rationale: 'Flor-Essence como calmante digestivo.' }
+        ],
+        lifestyleTips: ['Evitar acostarse inmediatamente después de comer.', 'Elevar la cabecera de la cama unos 15 cm.', 'Masticar los alimentos lentamente.', 'Evitar desencadenantes como café en ayunas, chocolate, menta.']
+    },
+    {
+        id: 'higado_graso',
+        name: 'Hígado Graso (No alcohólico)',
+        emoji: '🌿',
+        color: 'green',
+        description: 'El hígado es el centro metabólico del cuerpo. Cuando hay un exceso de azúcares (especialmente fructosa) y carbohidratos refinados, el hígado los convierte en grasa a través de un proceso llamado "lipogénesis de novo".',
+        symptoms: ['Generalmente asintomático', 'Fatiga o cansancio crónico', 'Molestia en la parte superior derecha del abdomen', 'Abdomen abultado'],
+        comboPrincipal: [
+            { id: 145, serving: '2 cápsulas con la comida principal', rationale: 'Colina para exportar la grasa fuera del hígado.' },
+            { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'Curcumina reduce la inflamación hepática.' },
+            { id: 43, serving: '2 cápsulas al día', rationale: 'Mezcla de botánicos con efecto depurativo.' }
+        ],
+        comboSecundario: [
+            { id: 123, serving: '1-2 cápsulas al día', rationale: 'Omega-3 reduce el contenido de grasa en el hígado.' },
+            { id: 116, serving: '2 cápsulas al día', rationale: 'NAC precursor de glutatión para proteger el hígado.' },
+            { id: 77, serving: '3 cápsulas antes de las comidas', rationale: 'Hercampurri estimula el flujo de bilis.' }
+        ],
+        lifestyleTips: ['Eliminar bebidas azucaradas y alimentos ultraprocesados.', 'Aumentar el consumo de vegetales de hoja verde.', 'Limitar el consumo de fructosa.']
+    },
+    {
+        id: 'cirrosis',
+        name: 'Apoyo en Cirrosis Hepática',
+        emoji: '🌿',
+        color: 'green',
+        description: 'La cirrosis es la fase final de la cicatrización (fibrosis) del hígado, donde el tejido funcional es reemplazado por tejido cicatricial no funcional. Es una condición grave y en gran medida irreversible.',
+        symptoms: ['Fatiga, náuseas, pérdida de apetito', 'Ictericia (coloración amarilla de piel y ojos)', 'Hinchazón en piernas y abdomen (ascitis)'],
+        comboPrincipal: [
+            { id: 145, serving: '2 cápsulas al día', rationale: 'Colina y Lecitina para la función hepática.' },
+            { id: 116, serving: '2-4 cápsulas al día', rationale: 'NAC precursor de glutatión para proteger las células hepáticas.' },
+            { id: 54, serving: '3 cápsulas al día', rationale: 'Curcumina reduce la inflamación y la fibrosis.' }
+        ],
+        comboSecundario: [
+            { id: 77, serving: '3 cápsulas al día', rationale: 'Hercampurri como hepatoprotector.' },
+            { id: 43, serving: '2 cápsulas al día', rationale: 'Cardo Mariano (silimarina) para proteger los hepatocitos.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'Omega-3 reduce la inflamación sistémica.' }
+        ],
+        lifestyleTips: ['Abstinencia total de alcohol.', 'Dieta baja en sodio y controlada en proteínas.', 'Seguimiento médico estricto.']
+    },
+    {
+        id: 'piedras_vesicula',
+        name: 'Colelitiasis (Piedras en la Vesícula)',
+        emoji: '🌿',
+        color: 'green',
+        description: 'La vesícula almacena la bilis producida por el hígado. Las "piedras" (cálculos) se forman cuando la bilis se sobresatura de colesterol y este cristaliza.',
+        symptoms: ['Dolor repentino e intenso en la parte superior derecha del abdomen', 'Dolor que se irradia a la espalda o al hombro derecho', 'Náuseas o vómitos'],
+        comboPrincipal: [
+            { id: 145, serving: '2 cápsulas con cada comida grasa', rationale: 'Lecitina mantiene el colesterol en la bilis en estado líquido.' },
+            { id: 77, serving: '3 cápsulas antes de las comidas', rationale: 'Hercampurri estimula el vaciado de la vesícula.' },
+            { id: 54, serving: '3 cápsulas al día', rationale: 'Curcumina estimula la contracción de la vesícula.' }
+        ],
+        comboSecundario: [
+            { id: 43, serving: '2 cápsulas al día', rationale: 'Apoyo detox general.' },
+            { id: 104, serving: '3 cápsulas al día', rationale: 'Vinagre para mejorar la digestión de las grasas.' },
+            { id: 123, serving: '1-2 cápsulas al día', rationale: 'Reduce la inflamación general.' }
+        ],
+        lifestyleTips: ['Dieta baja en grasas saturadas y alimentos fritos.', 'Aumentar el consumo de fibra.', 'Mantener un peso saludable.']
+    },
+    {
+        id: 'candida',
+        name: 'Sobrecrecimiento de Cándida',
+        emoji: '🛡️',
+        color: 'green',
+        description: 'La Cándida es un hongo que vive normalmente en nuestro intestino. El problema surge cuando, por un exceso de azúcar en la dieta o el uso de antibióticos, sobrecrece y se convierte en una "plaga".',
+        symptoms: ['Antojos intensos de azúcar y carbohidratos', 'Infecciones vaginales o urinarias recurrentes', 'Capa blanca en la lengua', 'Fatiga crónica y niebla mental'],
+        comboPrincipal: [
+            { id: 16, serving: '15 gotas diluidas, 2-3 veces al día (ciclos de 10 días)', rationale: 'Carvacrol del orégano como potente antifúngico.' },
+            { id: 2, serving: '1-2 cápsulas al día', rationale: 'Carvacrol con Ácido Láurico del coco.' },
+            { id: 129, serving: '2 cápsulas al día, lejos del orégano', rationale: 'Probióticos para repoblar el intestino.' }
+        ],
+        comboSecundario: [
+            { id: 23, serving: '3 cápsulas al día', rationale: 'Ajo Negro con alicina antifúngica.' },
+            { id: 67, serving: '2 cápsulas al día', rationale: 'Fórmula botánica antifúngica.' },
+            { id: 104, serving: '3 cápsulas al día', rationale: 'Ácido acético para crear un ambiente intestinal desfavorable.' }
+        ],
+        lifestyleTips: ['Eliminar azúcares, harinas refinadas y alcohol durante el tratamiento.', 'Aumentar el consumo de ajo, cebolla y aceite de coco.', 'Beber abundante agua.']
+    },
+    {
+        id: 'estrenimiento_cronico',
+        name: 'Estreñimiento Crónico',
+        emoji: '🚽',
+        color: 'green',
+        description: 'Dificultad o baja frecuencia en las evacuaciones intestinales, a menudo causado por falta de fibra, hidratación, sedentarismo o una motilidad intestinal lenta.',
+        symptoms: ['Evacuaciones poco frecuentes (menos de 3 veces por semana)', 'Heces duras, secas o en forma de "bolitas"', 'Esfuerzo excesivo o dolor al evacuar', 'Sensación de evacuación incompleta', 'Hinchazón abdominal, gases y malestar general'],
+        comboPrincipal: [
+            { id: 69, serving: '2 cápsulas por la noche con un vaso grande de agua', rationale: 'Gentilax estimula la motilidad peristáltica.' },
+            { id: 46, serving: '1 cucharada en agua tibia antes de dormir', rationale: 'Citrato de Magnesio atrae agua al intestino.' },
+            { id: 140, serving: '2 cucharadas en un vaso de agua en ayunas', rationale: 'Sábila hidrata y lubrica la mucosa digestiva.' }
+        ],
+        comboSecundario: [
+            { id: 131, serving: '1 cápsula en ayunas', rationale: 'Probióticos restauran la flora intestinal.' },
+            { id: 28, serving: '2 cucharadas con abundante agua', rationale: 'Aloe Vera proporciona mucílagos para facilitar el tránsito.' },
+            { id: 15, serving: '1 cucharada sopera al día', rationale: 'Aceite de Coco como lubricante del tracto digestivo.' }
+        ],
+        lifestyleTips: ['Beber al menos 2.5 litros de agua al día.', 'Establecer una rutina para ir al baño.', 'Usar un banco o escalón bajo los pies al evacuar.', 'Aumentar el consumo de fibra soluble.']
+    },
+
+    // ================================================================
+    //  🔴 ROJO: Salud Cardiovascular y Clínica
+    // ================================================================
+    {
+        id: 'cardiovascular',
+        name: 'Salud Cardiovascular',
+        emoji: '❤️',
+        color: 'red',
+        description: 'La salud cardiovascular depende de la salud de la "bomba" (corazón) y las "tuberías" (vasos sanguíneos). Los problemas surgen por la inflamación, la oxidación del colesterol y la rigidez de los vasos.',
+        symptoms: ['Presión arterial elevada', 'Colesterol o triglicéridos altos', 'Mala circulación', 'Fatiga al esfuerzo'],
+        comboPrincipal: [
+            { id: 10, serving: '3 cápsulas al día', rationale: 'Fórmula integral con Ajo, Olivo y Té Verde.' },
+            { id: 101, serving: '1 cápsula al día con comida grasa', rationale: 'Ubiquinol como antioxidante para el músculo cardíaco.' },
+            { id: 123, serving: '3 cápsulas al día', rationale: 'Dosis terapéutica de EPA/DHA para reducir triglicéridos.' }
+        ],
+        comboSecundario: [
+            { id: 128, serving: '3 cápsulas al día', rationale: 'Potasio y Magnesio para regular la presión arterial.' },
+            { id: 23, serving: '3 cápsulas al día', rationale: 'Ajo Negro mejora la circulación.' },
+            { id: 82, serving: '1 cápsula al día', rationale: 'Krill Oil con Astaxantina para el corazón.' }
+        ],
+        lifestyleTips: ['Realizar actividad cardiovascular moderada.', 'Aumentar el consumo de vegetales de hoja verde y pescado.', 'Limitar grasas trans y azúcares.']
+    },
+    {
+        id: 'varices_circulacion',
+        name: 'Várices y Mala Circulación',
+        emoji: '🦵',
+        color: 'red',
+        description: 'Condición en la cual las venas pierden elasticidad y las válvulas fallan, dificultando el retorno de la sangre desde las extremidades hacia el corazón.',
+        symptoms: ['Sensación de pesadez, cansancio o dolor en las piernas', 'Venas visibles, abultadas y retorcidas', 'Hinchazón (edema) en los tobillos', 'Calambres nocturnos en las piernas', 'Picazón o cambios de color en la piel'],
+        comboPrincipal: [
+            { id: 44, serving: '2 cápsulas al día', rationale: 'Castaño de Indias mejora el tono de la pared venosa.' },
+            { id: 23, serving: '1 a 2 cápsulas diarias', rationale: 'Ajo Negro mejora la fluidez de la sangre.' },
+            { id: 122, serving: '2 cápsulas al día con alimentos', rationale: 'Omega 3 disminuye la viscosidad de la sangre.' }
+        ],
+        comboSecundario: [
+            { id: 108, serving: '1 cápsula al día', rationale: 'Vitamina C para la producción de colágeno en las venas.' },
+            { id: 138, serving: '1 cápsula al día', rationale: 'Resveratrol protege el endotelio vascular.' },
+            { id: 136, serving: '1 cápsula por la mañana', rationale: 'Coenzima Q10 mejora el bombeo de la sangre.' }
+        ],
+        lifestyleTips: ['Elevar las piernas por encima del nivel del corazón.', 'Usar medias de compresión graduada.', 'Caminar a paso ligero a diario.', 'Evitar ropa excesivamente ajustada.']
+    },
+    {
+        id: 'enfermedad_renal',
+        name: 'Soporte Renal',
+        emoji: '❤️',
+        color: 'red',
+        description: 'Los riñones son los filtros maestros de la sangre. Su función puede verse comprometida por la formación de cristales (cálculos o "piedras") o por infecciones.',
+        symptoms: ['Retención de líquidos', 'Infecciones urinarias recurrentes', 'Orina turbia o con olor fuerte', 'Fatiga'],
+        comboPrincipal: [
+            { id: 139, serving: '3 cápsulas al día con abundante agua', rationale: 'Palo Azul y Cola de Caballo como diuréticos naturales.' },
+            { id: 6, serving: '1-2 cápsulas al día', rationale: 'Arándano previene infecciones urinarias.' },
+            { id: 148, serving: '3 cápsulas al día', rationale: 'Hierba del Sapo para disolver cristales renales.' }
+        ],
+        comboSecundario: [
+            { id: 28, serving: '100 ml al día', rationale: 'Aloe Vera para hidratar y calmar las mucosas.' },
+            { id: 48, serving: '15 ml al día en agua', rationale: 'Clorofila para alcalinizar y desintoxicar.' },
+            { id: 151, serving: '1 scoop al día', rationale: 'Fibra y prebióticos para reducir la carga tóxica.' }
+        ],
+        lifestyleTips: ['Mantener una hidratación adecuada con agua natural.', 'Reducir el consumo de sodio (sal).', 'Evitar el uso excesivo de antiinflamatorios no esteroideos (AINEs).']
+    },
+    {
+        id: 'infecciones_urinarias',
+        name: 'Infecciones de Vías Urinarias (Recurrentes)',
+        emoji: '🚽',
+        color: 'red',
+        description: 'Infección en cualquier parte del sistema urinario (riñones, vejiga, uretra), comúnmente causada por bacterias como E. coli. Cuando son recurrentes, indican un desbalance en el pH, en la flora vaginal/intestinal o un sistema inmune comprometido.',
+        symptoms: ['Necesidad fuerte y constante de orinar', 'Sensación de ardor o dolor al orinar (disuria)', 'Orina turbia, oscura o con olor fuerte', 'Sangre en la orina', 'Dolor pélvico o presión en la parte baja del abdomen'],
+        comboPrincipal: [
+            { id: 6, serving: '2 cápsulas diarias', rationale: 'Cranberry previene la adherencia bacteriana a la vejiga.' },
+            { id: 108, serving: '1 cápsula diaria (aumentar a 2 en fase aguda)', rationale: 'Vitamina C acidifica la orina y refuerza la inmunidad.' },
+            { id: 130, serving: '1 cápsula en ayunas', rationale: 'Probióticos para mujeres repueblan la flora vaginal.' }
+        ],
+        comboSecundario: [
+            { id: 22, serving: '2 cápsulas al día', rationale: 'Ajo Negro con Propóleo como antibiótico natural.' },
+            { id: 61, serving: '1 cápsula dos veces al día', rationale: 'Equinácea modula y activa el sistema inmunológico.' },
+            { id: 16, serving: '2 a 3 gotas diluidas en agua, 2 veces al día', rationale: 'Aceite de Orégano con propiedades antibacterianas.' }
+        ],
+        lifestyleTips: ['Beber grandes cantidades de agua.', 'Orinar antes y después de mantener relaciones sexuales.', 'Usar ropa interior de algodón holgada.', 'Limpiarse siempre de adelante hacia atrás.']
+    },
+    {
+        id: 'artritis_reumatoide',
+        name: 'Artritis Reumatoide (Enfermedad Autoinmune Articular)',
+        emoji: '💪',
+        color: 'yellow',
+        description: 'Enfermedad autoinmune en la que el sistema inmunológico ataca el tejido sinovial de las articulaciones, causando inflamación crónica, dolor y deformidad.',
+        symptoms: ['Dolor e hinchazón en múltiples articulaciones (simétrico)', 'Rigidez matutina prolongada (> 1 hora)', 'Fatiga y malestar general', 'Nódulos reumatoides bajo la piel'],
+        comboPrincipal: [
+            { id: 102, serving: '2 cápsulas en ayunas', rationale: 'UC-II® induce tolerancia oral y Boswellia + Cúrcuma reducen la inflamación.' },
+            { id: 123, serving: '3 cápsulas al día', rationale: 'Alta dosis de EPA/DHA para disminuir mediadores inflamatorios.' },
+            { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'Refuerzo antiinflamatorio.' }
+        ],
+        comboSecundario: [
+            { id: 116, serving: '2 cápsulas al día', rationale: 'NAC precursor de glutatión para reducir el estrés oxidativo.' },
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 como inmunomodulador.' },
+            { id: 129, serving: '2 cápsulas al día', rationale: 'Probióticos para equilibrar la microbiota.' }
+        ],
+        lifestyleTips: ['Actividad física de bajo impacto.', 'Dieta antiinflamatoria (eliminar gluten y lácteos en algunos casos).', 'Manejo del estrés.', 'Consumir TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Aplicar FIX UZEN (ID 167) en las articulaciones afectadas.']
+    },
+    {
+        id: 'acido_urico',
+        name: 'Ácido Úrico Elevado (Gota)',
+        emoji: '🔥',
+        color: 'orange',
+        description: 'El ácido úrico es un producto de desecho del metabolismo de las purinas (presentes en carnes rojas, mariscos). Cuando hay un exceso, puede cristalizar en las articulaciones, formando "agujas" que causan un dolor intenso (ataque de gota).',
+        symptoms: ['Dolor intenso y repentino en una articulación (a menudo el dedo gordo del pie)', 'Hinchazón y enrojecimiento', 'Sensibilidad extrema al tacto'],
+        comboPrincipal: [
+            { id: 47, serving: '3-6 cápsulas al día con abundante agua', rationale: 'Citrato de Potasio alcaliniza la orina para excretar ácido úrico.' },
+            { id: 54, serving: '3-4 cápsulas al día durante un ataque', rationale: 'Curcumina inhibe la Xantina Oxidasa.' },
+            { id: 139, serving: '3 cápsulas al día', rationale: 'Efecto diurético para "lavar" el ácido úrico.' }
+        ],
+        comboSecundario: [
+            { id: 77, serving: '3 cápsulas al día', rationale: 'Hercampurri como depurativo hepático.' },
+            { id: 177, serving: '1-2 tazas al día', rationale: 'Efecto diurético para incrementar la excreción.' },
+            { id: 151, serving: '1 scoop al día', rationale: 'Ayuda a alcalinizar el cuerpo.' }
+        ],
+        lifestyleTips: ['Limitar carnes rojas, mariscos y alcohol (especialmente cerveza).', 'Beber abundante agua.', 'Aumentar el consumo de cerezas y vegetales.']
+    },
+    {
+        id: 'resistencia_insulina',
+        name: 'Resistencia a la Insulina y Pre-diabetes',
+        emoji: '🩸',
+        color: 'orange',
+        description: 'Condición metabólica donde las células no responden adecuadamente a la insulina, elevando los niveles de azúcar en sangre. El apoyo nutricional busca mejorar la sensibilidad celular, regular los picos de glucosa y apoyar el metabolismo energético.',
+        symptoms: ['Aumento de peso, especialmente alrededor del abdomen', 'Apetito excesivo por carbohidratos o dulces', 'Oscurecimiento de la piel en cuello o axilas', 'Cansancio después de comer', 'Dificultad para perder peso'],
+        comboPrincipal: [
+            { id: 52, serving: '1 cápsula por la mañana y 1 por la tarde', rationale: 'Inositol mejora la señalización de la insulina.' },
+            { id: 36, serving: '1 cápsula con cada comida principal', rationale: 'Berberina regula el metabolismo de la glucosa.' },
+            { id: 41, serving: '1 cápsula al día', rationale: 'Canela y Cromo estabilizan los niveles de azúcar.' }
+        ],
+        comboSecundario: [
+            { id: 46, serving: '1 cucharada disuelta en agua por las noches', rationale: 'Magnesio crucial para los receptores de insulina.' },
+            { id: 122, serving: '2 cápsulas al día', rationale: 'Omega 3 reduce la inflamación sistémica.' },
+            { id: 51, serving: '1 cápsula antes de entrenar o por la mañana', rationale: 'Moroizy ayuda en la pérdida de grasa visceral.' }
+        ],
+        lifestyleTips: ['Implementar ayuno intermitente (12-14 horas).', 'Priorizar proteínas y grasas saludables.', 'Hacer ejercicio de fuerza (pesas).', 'Caminar 10-15 minutos después de cada comida fuerte.']
+    },
+
+    // ================================================================
+    //  🟠 NARANJA: Metabolismo y Glucosa
+    // ================================================================
+    {
+        id: 'diabetes_tipo2',
+        name: 'Diabetes Tipo 2 (Apoyo Nutricional)',
+        emoji: '🩺',
+        color: 'orange',
+        description: 'La Diabetes Tipo 2 es la etapa avanzada de la resistencia a la insulina, donde el páncreas ya no logra compensar el exceso de glucosa en sangre. El apoyo nutricional busca mejorar la sensibilidad celular a la insulina, moderar los picos de glucosa postprandial y proteger contra el daño oxidativo asociado a la hiperglucemia crónica.',
+        symptoms: ['Sed excesiva y boca seca', 'Micción frecuente, incluso por la noche', 'Fatiga marcada después de las comidas', 'Visión borrosa', 'Cicatrización lenta de heridas', 'Hormigueo u hormigueo en manos o pies'],
+        comboPrincipal: [
+            { id: 36, serving: '1-2 cápsulas antes de las comidas principales', rationale: 'La Berberina activa la enzima AMPK, mejorando la captación celular de glucosa de forma similar a algunos hipoglucemiantes.' },
+            { id: 41, serving: '1-2 cápsulas al día con alimentos', rationale: 'El Cromo mejora la sensibilidad a la insulina; la Canela ayuda a moderar los picos de glucosa post-comida.' },
+            { id: 52, serving: '1 cápsula por la mañana y 1 por la tarde', rationale: 'El Mio-Inositol mejora la señalización de la insulina a nivel celular.' }
+        ],
+        comboSecundario: [
+            { id: 17, serving: '2 cápsulas al día', rationale: 'Antioxidante que apoya la sensibilidad a la insulina y ayuda a proteger la función nerviosa.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'El Omega 3 ayuda a reducir la inflamación sistémica asociada a la hiperglucemia crónica.' },
+            { id: 103, serving: 'Diluido en agua, antes de las comidas principales', rationale: 'Puede ayudar a moderar la respuesta glucémica después de comer.' }
+        ],
+        lifestyleTips: ['Priorizar alimentos de bajo índice glucémico y ricos en fibra.', 'Distribuir las comidas en porciones más pequeñas y frecuentes.', 'Realizar actividad física regular, especialmente caminar después de comer.', 'Dar seguimiento a los niveles de glucosa con supervisión médica.']
+    },
+    {
+        id: 'sobrepeso_metabolico',
+        name: 'Sobrepeso y Síndrome Metabólico',
+        emoji: '⚖️',
+        color: 'orange',
+        description: 'El síndrome metabólico agrupa un conjunto de factores (grasa abdominal, resistencia a la insulina, presión elevada y lípidos alterados) que juntos aumentan el riesgo cardiometabólico. El apoyo nutricional se enfoca en favorecer el uso de grasa como energía, estabilizar el apetito y apoyar un metabolismo eficiente.',
+        symptoms: ['Acumulación de grasa principalmente en el abdomen', 'Fatiga después de comidas altas en carbohidratos', 'Antojos frecuentes de azúcar o harinas', 'Dificultad para bajar de peso a pesar de la dieta', 'Presión arterial en el límite alto'],
+        comboPrincipal: [
+            { id: 84, serving: '2 cápsulas antes del ejercicio o por la mañana', rationale: 'La L-Carnitina favorece el transporte de ácidos grasos hacia la mitocondria para usarse como energía.' },
+            { id: 41, serving: '1-2 cápsulas al día con alimentos', rationale: 'Apoya la sensibilidad a la insulina y ayuda a reducir los antojos de azúcar.' },
+            { id: 165, serving: '1-2 tazas al día', rationale: 'Sus catequinas apoyan el metabolismo energético y la oxidación de grasa.' }
+        ],
+        comboSecundario: [
+            { id: 95, serving: 'Según indicaciones del empaque', rationale: 'Tradicionalmente usado como apoyo para el control del apetito y del peso.' },
+            { id: 25, serving: '1 cucharadita al día', rationale: 'Aporta proteína y nutrientes con bajo aporte calórico, útil como apoyo en dietas de control de peso.' },
+            { id: 146, serving: '1 taza después de las comidas principales', rationale: 'Infusión tradicional usada como apoyo digestivo y de control de peso.' }
+        ],
+        lifestyleTips: ['Priorizar proteína en cada comida para mayor saciedad.', 'Reducir azúcares refinados y harinas procesadas.', 'Incorporar entrenamiento de fuerza para mejorar la composición corporal.', 'Dormir al menos 7-8 horas, ya que la falta de sueño altera el apetito y el metabolismo.']
+    },
+    {
+        id: 'colesterol_trigliceridos',
+        name: 'Colesterol y Triglicéridos Elevados',
+        emoji: '🫀',
+        color: 'orange',
+        description: 'La dislipidemia (colesterol LDL y/o triglicéridos elevados) refleja una alteración en el metabolismo de las grasas, muchas veces ligada a la dieta, la resistencia a la insulina y la función hepática. El apoyo nutricional busca favorecer un perfil lipídico saludable y proteger la salud cardiovascular a largo plazo.',
+        symptoms: ['Generalmente no presenta síntomas y se detecta en análisis de sangre', 'Fatiga o pesadez, especialmente en casos con hígado graso asociado', 'En casos avanzados, depósitos de grasa bajo la piel (xantomas)', 'Antecedentes familiares de enfermedad cardiovascular'],
+        comboPrincipal: [
+            { id: 23, serving: '1-2 cápsulas al día', rationale: 'El Ajo Negro apoya niveles saludables de colesterol y la salud cardiovascular en general.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'El Omega 3 ayuda a reducir los niveles de triglicéridos.' },
+            { id: 13, serving: '1-2 cápsulas al día', rationale: 'La Cúrcuma tiene propiedades antiinflamatorias que apoyan la salud arterial.' }
+        ],
+        comboSecundario: [
+            { id: 136, serving: '1 cápsula al día', rationale: 'Antioxidante que apoya la salud cardiovascular, especialmente útil en personas que usan estatinas.' },
+            { id: 103, serving: 'Diluido en agua, antes de las comidas', rationale: 'Puede apoyar el metabolismo de las grasas de la dieta.' },
+            { id: 145, serving: '1-2 cápsulas al día', rationale: 'La Lecitina de Soya apoya la emulsificación y el transporte de grasas en el organismo.' }
+        ],
+        lifestyleTips: ['Reducir el consumo de grasas trans y azúcares refinados.', 'Aumentar el consumo de fibra soluble (avena, leguminosas, chía).', 'Realizar ejercicio cardiovascular de forma regular.', 'Dar seguimiento con análisis de sangre periódicos.']
+    },
+    {
+        id: 'fatiga_cronica',
+        name: 'Síndrome de Fatiga Crónica (SFC/EM)',
+        emoji: '⚡',
+        color: 'purple',
+        description: 'Trastorno complejo caracterizado por fatiga extrema que empeora con el esfuerzo, acompañada de problemas cognitivos, dolor y sueño no reparador. Se asocia a disfunción mitocondrial y estrés oxidativo.',
+        symptoms: ['Fatiga severa que dura más de 6 meses y no mejora con el descanso', 'Malestar post-esfuerzo', 'Sueño no reparador', 'Dificultades de memoria o concentración ("niebla mental")'],
+        comboPrincipal: [
+            { id: 117, serving: '1 cápsula al día', rationale: 'NAD+ para mejorar la producción de energía celular.' },
+            { id: 101, serving: '1-2 cápsulas al día', rationale: 'Coenzima Q10 activa para soporte mitocondrial.' },
+            { id: 92, serving: '2-4 cápsulas al día', rationale: 'Malato clave en el ciclo de Krebs.' }
+        ],
+        comboSecundario: [
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha regula el cortisol.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Vitaminas B como cofactores energéticos.' },
+            { id: 116, serving: '2 cápsulas al día', rationale: 'NAC aumenta el glutatión para combatir el estrés oxidativo.' }
+        ],
+        lifestyleTips: ['Gestión de la energía (pacing).', 'Sueño reparador.', 'Dieta antiinflamatoria y baja en carbohidratos refinados.']
+    },
+
+    // ================================================================
+    //  🩷 ROSA: Salud Masculina y Femenina
+    // ================================================================
+    {
+        id: 'caida_cabello_fem',
+        name: 'Caída de Cabello (Femenina)',
+        emoji: '👩',
+        color: 'pink',
+        description: 'La caída de cabello en mujeres (efluvio telógeno) suele ser multifactorial. Puede deberse a deficiencias nutricionales (falta de "ladrillos" como hierro, zinc, colágeno), desbalances hormonales (SOP, postparto, menopausia) o estrés crónico.',
+        symptoms: ['Pérdida de densidad en toda la cabeza', 'Cabello más fino y quebradizo', 'Caída excesiva al cepillar o lavar'],
+        comboPrincipal: [
+            { id: 125, serving: '10g al día en cualquier momento', rationale: 'Colágeno para la matriz estructural del folículo piloso.' },
+            { id: 62, serving: '3 cápsulas al día', rationale: 'Complejo multivitamínico con Biotina y Selenio.' },
+            { id: 107, serving: '1 cápsula al día', rationale: 'Fórmula específica para mujer con Colágeno y Maca.' }
+        ],
+        comboSecundario: [
+            { id: 20, serving: '3 cápsulas al día', rationale: 'Aguaje con fitoestrógenos para desbalances androgénicos.' },
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc clave para el ciclo folicular.' },
+            { id: 26, serving: '3 cápsulas al día', rationale: 'Espirulina rica en hierro y aminoácidos.' }
+        ],
+        lifestyleTips: ['Asegurar un consumo adecuado de proteína y hierro.', 'Masajear el cuero cabelludo.', 'Evitar peinados muy tirantes y el uso excesivo de calor.']
+    },
+    {
+        id: 'caida_cabello_masc',
+        name: 'Caída de Cabello (Masculina)',
+        emoji: '👨',
+        color: 'pink',
+        description: 'La alopecia androgénica es causada por una sensibilidad genética a la hormona DHT (dihidrotestosterona). La enzima 5-alfa-reductasa convierte la testosterona en DHT, que miniaturiza los folículos pilosos.',
+        symptoms: ['Retroceso de la línea del cabello (entradas)', 'Pérdida de cabello en la coronilla', 'Cabello progresivamente más fino'],
+        comboPrincipal: [
+            { id: 106, serving: '1 cápsula al día', rationale: 'Ciruelo Africano y Semilla de Calabaza inhiben la 5-alfa-reductasa.' },
+            { id: 125, serving: '10g al día en cualquier momento', rationale: 'Colágeno para anclar y fortalecer los folículos.' },
+            { id: 78, serving: '1 cápsula al día', rationale: 'Semilla de Calabaza, Zinc y Selenio para inhibir la DHT.' }
+        ],
+        comboSecundario: [
+            { id: 143, serving: '2 cápsulas al día', rationale: 'Optimiza los niveles de testosterona libre.' },
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc como inhibidor de la 5-alfa-reductasa.' },
+            { id: 105, serving: '1 cápsula al día', rationale: 'Complejo de nutrientes para fortalecer el cabello.' }
+        ],
+        lifestyleTips: ['Considerar el uso de minoxidil tópico como complemento.', 'Dieta baja en azúcar para reducir la inflamación.', 'Manejar el estrés.']
+    },
+    {
+        id: 'disfuncion_libido',
+        name: 'Disfunción Eréctil y Baja Libido Masculina',
+        emoji: '🌶️',
+        color: 'pink',
+        description: 'Dificultad para lograr o mantener una erección y/o una marcada disminución del deseo sexual. Puede originarse por factores circulatorios (falta de óxido nítrico), hormonales (baja testosterona), estrés o deficiencias nutricionales.',
+        symptoms: ['Incapacidad para lograr o mantener una erección firme', 'Pérdida de interés o deseo en el sexo', 'Cansancio crónico y falta de vitalidad', 'Bajo rendimiento o pérdida de fuerza'],
+        comboPrincipal: [
+            { id: 88, serving: '2 cápsulas al día', rationale: 'Maca Negra aumenta la libido y la energía sexual.' },
+            { id: 83, serving: '1 scoop o 2 cápsulas pre-entrenamiento', rationale: 'L-Arginina precursora del óxido nítrico.' },
+            { id: 106, serving: '2 cápsulas por la mañana', rationale: 'Vita Rx Testo apoya la producción de testosterona.' }
+        ],
+        comboSecundario: [
+            { id: 153, serving: '1 cápsula diaria', rationale: 'Zinc esencial para la producción de testosterona.' },
+            { id: 33, serving: '2 cápsulas por la tarde/noche', rationale: 'Ashwagandha reduce el cortisol.' },
+            { id: 143, serving: '1 cápsula diaria', rationale: 'Shilajit y Tongkat Ali potencian la vitalidad.' }
+        ],
+        lifestyleTips: ['Realizar entrenamiento de fuerza (pesas) y rutinas HIIT.', 'Controlar el peso y evitar el exceso de grasa abdominal.', 'Priorizar el descanso profundo (7-8 horas).', 'Reducir el consumo de alcohol y manejar el estrés.']
+    },
+    {
+        id: 'prostata',
+        name: 'Salud Prostática',
+        emoji: '🚹',
+        color: 'pink',
+        description: 'La Hiperplasia Prostática Benigna (HPB) es el agrandamiento de la próstata, una glándula con forma de "dona" que rodea la uretra. Al crecer, "aprieta" la uretra y dificulta el vaciado de la vejiga.',
+        symptoms: ['Necesidad de orinar con frecuencia, especialmente de noche', 'Dificultad para comenzar a orinar', 'Flujo de orina débil o interrumpido', 'Goteo al final de la micción'],
+        comboPrincipal: [
+            { id: 168, serving: '1 cápsula al día', rationale: 'Fórmula con Pygeum, licopeno y zinc para el bienestar prostático.' },
+            { id: 78, serving: '1-2 cápsulas al día', rationale: 'Semilla de Calabaza y Ciruelo Africano inhiben la 5-alfa-reductasa.' },
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc crucial para la salud prostática.' }
+        ],
+        comboSecundario: [
+            { id: 6, serving: '1 cápsula al día', rationale: 'Previene infecciones urinarias.' },
+            { id: 139, serving: '3 cápsulas al día', rationale: 'Efecto diurético y antiinflamatorio.' },
+            { id: 123, serving: '1-2 cápsulas al día', rationale: 'Omega-3 reduce la inflamación prostática.' }
+        ],
+        lifestyleTips: ['Reducir la ingesta de líquidos antes de dormir.', 'Limitar cafeína y alcohol.', 'Incluir semillas de calabaza en la dieta.']
+    },
+    {
+        id: 'menopausia',
+        name: 'Menopausia y Climaterio',
+        emoji: '🩷',
+        color: 'pink',
+        description: 'La menopausia es el cese de la función ovárica, lo que provoca una caída drástica en la producción de estrógenos. Esta caída es la responsable de los síntomas como bochornos, insomnio y cambios de humor.',
+        symptoms: ['Bochornos y sudores nocturnos', 'Insomnio y cambios de humor', 'Sequedad vaginal', 'Pérdida de densidad ósea'],
+        comboPrincipal: [
+            { id: 80, serving: '3 cápsulas al día', rationale: 'Isoflavonas de Soya para aliviar los bochornos.' },
+            { id: 20, serving: '3 cápsulas al día', rationale: 'Aguaje y Maca mejoran la libido y la energía.' },
+            { id: 94, serving: '2-3 cápsulas por la noche', rationale: 'Magnesio para el insomnio y la ansiedad.' }
+        ],
+        comboSecundario: [
+            { id: 137, serving: '1-2 cápsulas al día', rationale: 'Shatavari como tónico femenino.' },
+            { id: 125, serving: '10g al día', rationale: 'Colágeno para la piel y los huesos.' },
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha regula el cortisol.' }
+        ],
+        lifestyleTips: ['Vestir en capas para manejar los bochornos.', 'Realizar ejercicio de fuerza para la salud ósea.', 'Incluir soya y linaza en la dieta.']
+    },
+    {
+        id: 'irregularidad_menstrual',
+        name: 'Irregularidad Menstrual y SPM',
+        emoji: '🩷',
+        color: 'pink',
+        description: 'El ciclo menstrual es una danza delicada entre estrógeno y progesterona. El Síndrome Premenstrual (SPM) y la irregularidad a menudo ocurren por un desbalance, comúnmente un exceso relativo de estrógeno o una deficiencia de progesterona.',
+        symptoms: ['Ciclos muy largos, cortos o ausentes', 'Cólicos dolorosos', 'Hinchazón, sensibilidad en los senos', 'Irritabilidad o tristeza premenstrual'],
+        comboPrincipal: [
+            { id: 52, serving: '4 cápsulas al día', rationale: 'Myo-Inositol para regular el ciclo menstrual.' },
+            { id: 20, serving: '3 cápsulas al día', rationale: 'Aguaje y Maca para equilibrar el eje hormonal.' },
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha regula el cortisol.' }
+        ],
+        comboSecundario: [
+            { id: 94, serving: '2 cápsulas por la noche', rationale: 'Magnesio para los cólicos y la irritabilidad.' },
+            { id: 123, serving: '1-2 cápsulas al día', rationale: 'Omega-3 reduce la inflamación.' },
+            { id: 107, serving: '1 cápsula al día', rationale: 'Multivitamínico completo para la mujer.' }
+        ],
+        lifestyleTips: ['Llevar un registro del ciclo menstrual.', 'Reducir cafeína y sal antes del periodo.', 'Aumentar el consumo de magnesio.']
+    },
+    {
+        id: 'hipotiroidismo',
+        name: 'Hipotiroidismo (Apoyo Funcional)',
+        emoji: '🟣',
+        color: 'purple',
+        description: 'La tiroides es el "termostato" del cuerpo, regulando el metabolismo. En el hipotiroidismo, este termostato está bajo. La tiroides produce principalmente una hormona inactiva (T4), que debe convertirse en la forma activa (T3).',
+        symptoms: ['Fatiga, aumento de peso inexplicable', 'Sensibilidad al frío', 'Piel seca, caída de cabello', 'Estreñimiento, niebla mental'],
+        comboPrincipal: [
+            { id: 87, serving: '1-2 cápsulas en ayunas', rationale: 'L-Tirosina precursora de hormonas tiroideas.' },
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha mejora la función tiroidea.' },
+            { id: 26, serving: '3 cápsulas al día', rationale: 'Espirulina como fuente natural de yodo.' }
+        ],
+        comboSecundario: [
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc para convertir T4 en T3.' },
+            { id: 142, serving: '1 cápsula al día', rationale: 'Selenio cofactor para la deiodinasa.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Vitaminas B para el metabolismo energético.' }
+        ],
+        lifestyleTips: ['Evitar el consumo excesivo de vegetales crudos crucíferos.', 'Asegurar un buen aporte de yodo, selenio y zinc.', 'Consultar al médico para tratamiento hormonal.']
+    },
+    {
+        id: 'hipertiroidismo',
+        name: 'Hipertiroidismo (Apoyo Calmante)',
+        emoji: '🟣',
+        color: 'purple',
+        description: 'En el hipertiroidismo, el "termostato" del cuerpo está atascado en "alto", creando un estado hipermetabólico que acelera todo el sistema y causa un gran estrés oxidativo.',
+        symptoms: ['Pérdida de peso involuntaria, nerviosismo, ansiedad', 'Palpitaciones, temblores', 'Intolerancia al calor, sudoración excesiva'],
+        comboPrincipal: [
+            { id: 32, serving: '2 cápsulas al día', rationale: 'Ashwagandha modula la respuesta al estrés.' },
+            { id: 94, serving: '2-4 cápsulas al día', rationale: 'Magnesio calma la hiperexcitabilidad neuromuscular.' },
+            { id: 68, serving: '2-3 cápsulas al día', rationale: 'GABA contrarresta la ansiedad.' }
+        ],
+        comboSecundario: [
+            { id: 150, serving: '1-2 cápsulas al día', rationale: 'L-Teanina induce calma sin sedación.' },
+            { id: 117, serving: '1 cápsula al día', rationale: 'NAD+ apoya la función mitocondrial.' },
+            { id: 4, serving: '3 cápsulas al día', rationale: 'Vitaminas B para el estado hipermetabólico.' }
+        ],
+        lifestyleTips: ['Evitar estimulantes como la cafeína.', 'Practicar técnicas de relajación.', 'Dieta rica en antioxidantes.']
+    },
+
+    // ================================================================
+    //  🔵 AZUL: Sistema Inmune y Respiratorio
+    // ================================================================
+    {
+        id: 'alergias_respiratorias',
+        name: 'Alergias Respiratorias',
+        emoji: '🛡️',
+        color: 'blue',
+        description: 'En las alergias, el sistema inmune confunde una sustancia inofensiva (como el polen) con un invasor. Esto provoca que unas células llamadas mastocitos liberen una cascada de histamina, causando los síntomas típicos.',
+        symptoms: ['Estornudos, picazón en nariz y ojos', 'Congestión o secreción nasal', 'Ojos llorosos y rojos', 'Tos seca'],
+        comboPrincipal: [
+            { id: 116, serving: '2 cápsulas al día', rationale: 'NAC como mucolítico para aliviar la congestión.' },
+            { id: 61, serving: '1-2 cápsulas al día', rationale: 'Vitamina C como antihistamínico natural.' },
+            { id: 21, serving: '1-2 cápsulas al día', rationale: 'Ajo Negro y Moringa con propiedades antiinflamatorias.' }
+        ],
+        comboSecundario: [
+            { id: 151, serving: '1 scoop al día', rationale: 'Quercetina para estabilizar los mastocitos.' },
+            { id: 170, serving: '1-2 tazas al día', rationale: 'Infusión con eucalipto y gordolobo.' },
+            { id: 16, serving: '5-10 gotas diluidas al día', rationale: 'Aceite de orégano para mantener vías despejadas.' },
+            { id: 155, serving: '1 cucharada según necesidad', rationale: 'Mezcla de extractos botánicos y miel.' },
+            { id: 156, serving: '1-2 vasos dosificadores según necesidad', rationale: 'Reforzado con Ajo Negro.' }
+        ],
+        lifestyleTips: ['Usar purificadores de aire en casa.', 'Lavar la ropa de cama con agua caliente.', 'Mantener las ventanas cerradas en días de alto polen.']
+    },
+    {
+        id: 'defensas_bajas',
+        name: 'Inmunosupresión (Defensas Bajas)',
+        emoji: '🛡️',
+        color: 'blue',
+        description: 'El sistema inmune es un ejército complejo que necesita nutrientes específicos para funcionar. La inmunosupresión ocurre cuando este ejército está debilitado por deficiencias nutricionales, estrés crónico o enfermedad.',
+        symptoms: ['Infecciones frecuentes (gripes, resfriados)', 'Heridas que tardan en sanar', 'Fatiga constante', 'Aftas bucales recurrentes'],
+        comboPrincipal: [
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 como modulador clave del sistema inmune.' },
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc para la función de los linfocitos T.' }
+        ],
+        comboSecundario: [
+            { id: 22, serving: '1-2 cápsulas al día', rationale: 'Ajo y Propóleo con actividad antiviral.' },
+            { id: 170, serving: '1-2 tazas al día', rationale: 'Infusión con propóleo y saúco.' },
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León fortalece la inmunidad intestinal.' },
+            { id: 155, serving: '1 cucharada al día como preventivo', rationale: 'Vitamina C y propóleo para defensas diarias.' },
+            { id: 156, serving: '1-2 vasos dosificadores en periodos de riesgo', rationale: 'Ajo Negro potencia la respuesta inmune.' }
+        ],
+        lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.']
+    },
+    {
+        id: 'respiratorio',
+        name: 'Afecciones Respiratorias (EPOC, Bronquitis, Asma)',
+        emoji: '🛡️',
+        color: 'blue',
+        description: 'En muchas afecciones respiratorias, el problema es doble: una infección (viral o bacteriana) y una producción excesiva de moco espeso que obstruye las vías.',
+        symptoms: ['Tos con flema', 'Dificultad para respirar o sibilancias', 'Presión en el pecho', 'Congestión'],
+        comboPrincipal: [
+            { id: 116, serving: '2-3 cápsulas al día', rationale: 'NAC como mucolítico para romper el moco.' },
+            { id: 22, serving: '2-3 cápsulas al día', rationale: 'Ajo y Propóleo con acción antimicrobiana.' },
+            { id: 16, serving: '15 gotas diluidas, 2-3 veces al día', rationale: 'Carvacrol contra bacterias y virus respiratorios.' }
+        ],
+        comboSecundario: [
+            { id: 170, serving: '1-2 tazas al día', rationale: 'Infusión con eucalipto, gordolobo y propóleo.' },
+            { id: 61, serving: '2-3 cápsulas al día', rationale: 'Equinácea y Vitamina C acortan la duración.' },
+            { id: 21, serving: '2 cápsulas al día', rationale: 'Moringa y Ajo Negro con propiedades antiinflamatorias.' },
+            { id: 155, serving: '1 cucharada cada 4 horas', rationale: 'Fórmula líquida con miel y propóleo.' },
+            { id: 156, serving: '1-2 vasos dosificadores cada 4 horas', rationale: 'Reforzado con Ajo Negro.' }
+        ],
+        lifestyleTips: ['Usar un humidificador.', 'Beber líquidos calientes como té de jengibre.', 'Evitar la exposición a humo y otros irritantes.']
+    },
+
+    // ================================================================
+    //  🟡 AMARILLO: Sistema Locomotor y Deportivo
+    // ================================================================
+    {
+        id: 'desgaste_articular',
+        name: 'Desgaste Articular y Artrosis',
+        emoji: '💪',
+        color: 'yellow',
+        description: 'La artrosis es un proceso degenerativo donde el cartílago (la "almohadilla" que amortigua las articulaciones) se desgasta, causando dolor, rigidez e inflamación.',
+        symptoms: ['Dolor en las articulaciones durante o después del movimiento', 'Rigidez matutina', 'Pérdida de flexibilidad', 'Sonido de "crujido" al mover la articulación'],
+        comboPrincipal: [
+            { id: 102, serving: '2 cápsulas en ayunas', rationale: 'UC-II® y Boswellia reducen la inflamación articular.' },
+            { id: 30, serving: '1 porción al día', rationale: 'Base nutricional con Omega-3 y antioxidantes.' },
+            { id: 54, serving: '3 cápsulas al día con comidas', rationale: 'Curcumina como potente antiinflamatorio.' }
+        ],
+        comboSecundario: [
+            { id: 125, serving: '10g al día', rationale: 'Colágeno hidrolizado para el cartílago.' },
+            { id: 18, serving: '1 porción al día', rationale: 'Ácido Hialurónico para la lubricación articular.' },
+            { id: 31, serving: '2 cápsulas al día', rationale: 'Glucosamina/Condroitina/MSM para la reparación.' },
+            { id: 157, serving: '1 cápsula al día', rationale: 'Fórmula integral con Glucosamina y Cúrcuma.' }
+        ],
+        lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Aplicar FIX UZEN (ID 167).']
+    },
+    {
+        id: 'osteoporosis',
+        name: 'Osteoporosis y Salud Ósea',
+        emoji: '💪',
+        color: 'yellow',
+        description: 'El hueso no es una roca inerte, sino un tejido vivo en constante remodelación, con células que construyen (osteoblastos) y otras que destruyen (osteoclastos). La osteoporosis ocurre cuando la destrucción supera a la construcción.',
+        symptoms: ['Generalmente asintomático hasta una fractura por fragilidad', 'Pérdida de estatura', 'Postura encorvada', 'Dolor de espalda'],
+        comboPrincipal: [
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 para la absorción de calcio.' },
+            { id: 125, serving: '10-20g al día', rationale: 'Colágeno para la matriz orgánica del hueso.' },
+            { id: 154, serving: '2 cápsulas al día', rationale: 'Fórmula con Calcio, Magnesio y D3.' }
+        ],
+        comboSecundario: [
+            { id: 46, serving: '1 porción al día', rationale: 'Citrato de Magnesio biodisponible.' },
+            { id: 91, serving: '1 cápsula al día', rationale: 'Mezcla de magnesios.' },
+            { id: 126, serving: '1 porción al día', rationale: 'Colágeno con ácido hialurónico.' },
+            { id: 110, serving: '1 perla al día', rationale: 'Vitamina E como antioxidante.' }
+        ],
+        lifestyleTips: ['Ejercicios de impacto o con peso (caminar, pesas).', 'Dieta rica en calcio (verdes, sardinas).', 'Evitar el tabaquismo y el exceso de alcohol.']
+    },
+    {
+        id: 'recuperacion_deportiva',
+        name: 'Recuperación y Rendimiento Deportivo',
+        emoji: '🏋️',
+        color: 'yellow',
+        description: 'El crecimiento muscular no ocurre durante el entrenamiento, sino durante la recuperación. El ejercicio intenso causa micro-desgarros y agota las reservas de energía (glucógeno).',
+        symptoms: ['Dolor muscular post-entrenamiento (DOMS)', 'Fatiga y disminución del rendimiento', 'Sensación de no recuperarse entre sesiones', 'Calambres o rigidez muscular'],
+        comboPrincipal: [
+            { id: 113, serving: '1 scoop (34g) post-entreno', rationale: 'Aislado de suero de rápida absorción.' },
+            { id: 158, serving: '1 medida (39.5g) post-entreno', rationale: 'Proteína vegana con 30g de proteína y BCAAs.' },
+            { id: 7, serving: '5g al día', rationale: 'Creatina satura los músculos de fosfocreatina.' },
+            { id: 71, serving: '5-10g post-entreno o antes de dormir', rationale: 'Glutamina reduce el dolor muscular (DOMS).' }
+        ],
+        comboSecundario: [
+            { id: 83, serving: '3 cápsulas antes de entrenar', rationale: 'Arginina mejora el flujo sanguíneo.' },
+            { id: 92, serving: '2 cápsulas por la noche', rationale: 'Magnesio Malato previene calambres.' },
+            { id: 123, serving: '3 softgels al día', rationale: 'Omega-3 reduce la inflamación.' },
+            { id: 159, serving: '3 cápsulas al día', rationale: 'Multivitamínico para atletas.' }
+        ],
+        lifestyleTips: ['Consumir proteína y creatina dentro de los 45 minutos post-entreno.', 'Hidratación adecuada.', 'Dormir al menos 7-8 horas.']
+    },
+    {
+        id: 'neuropatia_periferica',
+        name: 'Neuropatía Periférica',
+        emoji: '⚡',
+        color: 'purple',
+        description: 'Daño a los nervios periféricos (común en diabetes prolongada, deficiencias vitamínicas o toxicidad), que interrumpe la correcta transmisión de señales de dolor y sensibilidad.',
+        symptoms: ['Entumecimiento, hormigueo o sensación de "alfileres y agujas"', 'Dolor punzante, ardoroso o eléctrico', 'Sensibilidad extrema al tacto', 'Debilidad muscular', 'Falta de coordinación'],
+        comboPrincipal: [
+            { id: 17, serving: '1 a 2 cápsulas diarias', rationale: 'Ácido Alfa Lipoico para reducir el daño nervioso.' },
+            { id: 5, serving: '2 cápsulas al día', rationale: 'Complejo B para la regeneración de la mielina.' },
+            { id: 120, serving: '2 cápsulas al día con alimentos', rationale: 'Omega 3 para la salud de las membranas nerviosas.' }
+        ],
+        comboSecundario: [
+            { id: 92, serving: '2 cápsulas al día', rationale: 'Magnesio Malato mejora la conducción nerviosa.' },
+            { id: 12, serving: '1 cápsula dos veces al día', rationale: 'Cúrcuma, Jengibre y Moringa como antiinflamatorios.' },
+            { id: 98, serving: '2 cápsulas diarias', rationale: 'Melena de León estimula el Factor de Crecimiento Nervioso.' }
+        ],
+        lifestyleTips: ['Control estricto de glucosa en caso de diabetes.', 'Revisar los pies diariamente.', 'Masajear las extremidades suavemente.', 'Evitar el alcohol por completo.']
+    },
+
+    // ================================================================
+    //  ⚪ GRIS: Condiciones Complejas
+    // ================================================================
+    {
+        id: 'cancer_apoyo',
+        name: 'Apoyo Coadyuvante en Cáncer',
+        emoji: '🛡️',
+        color: 'gray',
+        description: 'Este protocolo NO trata el cáncer. Su objetivo es ser un apoyo coadyuvante para mejorar la calidad de vida del paciente durante los tratamientos convencionales (quimio/radioterapia). Se enfoca en: 1) Modular el sistema inmune, 2) Reducir la inflamación sistémica, 3) Proteger las células sanas, y 4) Combatir la fatiga. **Es IMPRESCINDIBLE contar con la aprobación del oncólogo tratante.**',
+        symptoms: ['Fatiga extrema por quimio/radioterapia', 'Bajas defensas', 'Pérdida de masa muscular', 'Inflamación sistémica'],
+        comboPrincipal: [
+            { id: 124, serving: '2 tabletas al día', rationale: 'Guanábana, Reishi y Shiitake con actividad inmunomoduladora.' },
+            { id: 54, serving: '3-6 cápsulas al día', rationale: 'Curcumina reduce la inflamación sistémica.' },
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 como potente modulador inmune.' }
+        ],
+        comboSecundario: [
+            { id: 98, serving: '2-4 cápsulas al día', rationale: 'Melena de León protege de la neurotoxicidad.' },
+            { id: 101, serving: '1-2 cápsulas al día', rationale: 'Ubiquinol protege el corazón de la cardiotoxicidad.' },
+            { id: 111, serving: '1-2 scoops al día', rationale: 'Proteína hidrolizada para combatir la sarcopenia.' }
+        ],
+        lifestyleTips: ['Mantener una dieta antiinflamatoria rica en vegetales y grasas saludables.', 'Priorizar el descanso y el manejo del estrés.', 'Comunicación constante con el equipo médico.']
+    },
+    {
+        id: 'psoriasis_vitiligo',
+        name: 'Psoriasis y Vitiligo (Apoyo Autoinmune)',
+        emoji: '🛡️',
+        color: 'gray',
+        description: 'Tanto la psoriasis como el vitiligo son enfermedades autoinmunes donde el sistema inmune ataca por error a las células de la piel (queratinocitos en la psoriasis, melanocitos en el vitiligo).',
+        symptoms: ['Placas rojas con escamas (Psoriasis)', 'Pérdida de pigmento en la piel (Vitiligo)', 'Picazón o ardor en las lesiones'],
+        comboPrincipal: [
+            { id: 102, serving: '2 cápsulas al día', rationale: 'Cúrcuma y Boswellia como potentes antiinflamatorios.' },
+            { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 como inmunomodulador.' },
+            { id: 123, serving: '2-3 cápsulas al día', rationale: 'Omega-3 reduce la inflamación sistémica.' }
+        ],
+        comboSecundario: [
+            { id: 54, serving: '3 cápsulas al día', rationale: 'Dosis más altas de Curcumina.' },
+            { id: 129, serving: '2 cápsulas al día', rationale: 'Probióticos para equilibrar la microbiota.' },
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc para la salud de la piel.' }
+        ],
+        lifestyleTips: ['Exposición solar moderada y controlada.', 'Manejo del estrés.', 'Evitar lesiones en la piel (efecto Koebner).']
+    },
+    {
+        id: 'acne_espinillas',
+        name: 'Acné y Espinillas',
+        emoji: '🩷',
+        color: 'gray',
+        description: 'El acné es una enfermedad inflamatoria del folículo piloso. Se produce por una combinación de cuatro factores: 1) Exceso de producción de sebo, 2) Taponamiento del folículo, 3) Sobrecrecimiento de la bacteria P. acnes, y 4) Inflamación.',
+        symptoms: ['Puntos negros, espinillas, pústulas', 'Piel grasa', 'Lesiones inflamatorias y dolorosas', 'Acné en mandíbula (sugiere causa hormonal)'],
+        comboPrincipal: [
+            { id: 153, serving: '1 cápsula al día', rationale: 'Zinc reduce la producción de sebo y la inflamación.' },
+            { id: 48, serving: '15 ml al día', rationale: 'Clorofila con propiedades antiinflamatorias.' },
+            { id: 129, serving: '1-2 cápsulas al día', rationale: 'Probióticos para el eje intestino-piel.' }
+        ],
+        comboSecundario: [
+            { id: 52, serving: '4 cápsulas al día', rationale: 'Inositol si el acné es de origen hormonal.' },
+            { id: 43, serving: '2 cápsulas al día', rationale: 'Apoyo detox general.' },
+            { id: 26, serving: '3 cápsulas al día', rationale: 'Espirulina con antioxidantes.' }
+        ],
+        lifestyleTips: ['Limpieza facial suave.', 'Evitar tocarse la cara.', 'Reducir el consumo de lácteos y alimentos de alto índice glucémico.']
+    }
+];
 
         const categoryIcons = {
             'digestivo': { emoji: '🌿', name: 'Digestivo' },
@@ -6422,16 +6480,18 @@ const productos = [
                         </h2>
                         <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza esta sección para identificar la necesidad del cliente y ofrecer un protocolo completo. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</p>
                     </div>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center">
-                        <div class="p-2 rounded-lg bg-purple-50 border border-purple-200"><strong class="text-purple-700">🟣 Púrpura:</strong> Sistema Nervioso y Hormonal</div>
-                        <div class="p-2 rounded-lg bg-green-50 border border-green-200"><strong class="text-green-700">🟢 Verde:</strong> Sistema Digestivo y Hepático</div>
-                        <div class="p-2 rounded-lg bg-orange-50 border-orange-200"><strong class="text-orange-700">🟠 Naranja:</strong> Metabolismo y Glucosa</div>
-                        <div class="p-2 rounded-lg bg-pink-50 border border-pink-200"><strong class="text-pink-700">🩷 Rosa:</strong> Salud Masculina y Femenina</div>
-                        <div class="p-2 rounded-lg bg-red-50 border border-red-200"><strong class="text-red-700">🔴 Rojo:</strong> Salud Cardiovascular y Clínica</div>
-                        <div class="p-2 rounded-lg bg-blue-50 border border-blue-200"><strong class="text-blue-700">🔵 Azul:</strong> Sistema Inmune y Respiratorio</div>
-                        <div class="p-2 rounded-lg bg-yellow-50 border border-yellow-200"><strong class="text-yellow-700">🟡 Amarillo:</strong> Sistema Locomotor y Deportivo</div>
-                        <div class="p-2 rounded-lg bg-gray-50 border border-gray-200"><strong class="text-gray-700">⚪️ Gris:</strong> Condiciones Complejas</div>
+                    <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center">
+                        <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-800 text-white transition-all"><strong>🎯 Todos</strong></button>
+                        <button type="button" data-color-filter="purple" class="pad-color-btn p-2 rounded-lg bg-purple-50 border border-purple-200 hover:brightness-95 transition-all"><strong class="text-purple-700">🟣 Púrpura:</strong> Sistema Nervioso y Hormonal</button>
+                        <button type="button" data-color-filter="green" class="pad-color-btn p-2 rounded-lg bg-green-50 border border-green-200 hover:brightness-95 transition-all"><strong class="text-green-700">🟢 Verde:</strong> Sistema Digestivo y Hepático</button>
+                        <button type="button" data-color-filter="orange" class="pad-color-btn p-2 rounded-lg bg-orange-50 border border-orange-200 hover:brightness-95 transition-all"><strong class="text-orange-700">🟠 Naranja:</strong> Metabolismo y Glucosa</button>
+                        <button type="button" data-color-filter="pink" class="pad-color-btn p-2 rounded-lg bg-pink-50 border border-pink-200 hover:brightness-95 transition-all"><strong class="text-pink-700">🩷 Rosa:</strong> Salud Masculina y Femenina</button>
+                        <button type="button" data-color-filter="red" class="pad-color-btn p-2 rounded-lg bg-red-50 border border-red-200 hover:brightness-95 transition-all"><strong class="text-red-700">🔴 Rojo:</strong> Salud Cardiovascular y Clínica</button>
+                        <button type="button" data-color-filter="blue" class="pad-color-btn p-2 rounded-lg bg-blue-50 border border-blue-200 hover:brightness-95 transition-all"><strong class="text-blue-700">🔵 Azul:</strong> Sistema Inmune y Respiratorio</button>
+                        <button type="button" data-color-filter="yellow" class="pad-color-btn p-2 rounded-lg bg-yellow-50 border border-yellow-200 hover:brightness-95 transition-all"><strong class="text-yellow-700">🟡 Amarillo:</strong> Sistema Locomotor y Deportivo</button>
+                        <button type="button" data-color-filter="gray" class="pad-color-btn p-2 rounded-lg bg-gray-50 border border-gray-200 hover:brightness-95 transition-all"><strong class="text-gray-700">⚪️ Gris:</strong> Condiciones Complejas</button>
                     </div>
+                    <p id="padColorEmptyMsg" class="hidden text-center text-gray-500 italic mb-6">No hay padecimientos registrados para este color.</p>
                     <div class="space-y-4">
             `;
 
@@ -6441,7 +6501,7 @@ const productos = [
                 const textColor = `text-${pad.color}-700`;
 
                 html += `
-                    <details id="padecimiento-${pad.id}" class="group bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
+                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" class="group bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
                         <summary class="p-6 cursor-pointer list-none flex justify-between items-center">
                             <h3 class="text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
                             <span class="group-open:rotate-180 transition-transform duration-300">
@@ -6512,6 +6572,37 @@ const productos = [
 
             html += `</div></div>`;
             container.innerHTML = html;
+
+            // Activar filtrado por color una vez que el HTML ya está en el DOM
+            setupPadecimientosColorFilter();
+        }
+
+        // Filtra las tarjetas de padecimientos según el color seleccionado en la leyenda
+        function setupPadecimientosColorFilter() {
+            const buttons = document.querySelectorAll('#padColorLegend .pad-color-btn');
+            const items = document.querySelectorAll('#padecimientosGuideWeb details[data-color]');
+            const emptyMsg = document.getElementById('padColorEmptyMsg');
+            if (!buttons.length) return;
+
+            buttons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const color = btn.dataset.colorFilter;
+
+                    // Estado visual del botón activo
+                    buttons.forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
+                    btn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+
+                    let visibleCount = 0;
+                    items.forEach(item => {
+                        const match = (color === 'all') || (item.dataset.color === color);
+                        item.style.display = match ? '' : 'none';
+                        if (!match) item.removeAttribute('open'); // Cierra los que se ocultan
+                        if (match) visibleCount++;
+                    });
+
+                    if (emptyMsg) emptyMsg.classList.toggle('hidden', visibleCount > 0);
+                });
+            });
         }
         
         // Esta función ya no es necesaria con el nuevo diseño, pero la dejo por si se reutiliza
