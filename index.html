@@ -182,6 +182,13 @@
             display: inline-block;
             cursor: help;
         }
+        /* Estilo para el resaltado de búsqueda */
+        mark {
+            background-color: #fde047; /* girasol-yellow-300 */
+            color: #78350f; /* girasol-yellow-900 */
+            padding: 1px 0;
+            border-radius: 3px;
+        }
     </style>
 </head>
 <body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
@@ -524,7 +531,12 @@
                 <p class="text-lg text-girasol-green-100 max-w-3xl relative z-10 font-light">Todas las fichas técnicas consolidadas. Identifica la función principal, ingredientes clave y sinergias (cross-selling) para ofrecer un servicio impecable a tus clientes.</p>
                 <!-- Añado buscador dentro del header -->
                 <div class="relative z-10 mt-6 max-w-xl">
-                    <input id="searchInput" type="text" placeholder="🔍 Buscar por nombre, ingrediente..." class="w-full px-5 py-3 rounded-full border-0 shadow-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-girasol-500 outline-none">
+                    <input id="searchInput" type="text" placeholder="🔍 Buscar producto, padecimiento, síntoma..." class="w-full px-5 py-3 pl-5 pr-12 rounded-full border-0 shadow-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-girasol-500 outline-none">
+                    <button id="clearSearchBtn" class="absolute inset-y-0 right-0 flex items-center pr-4 text-gray-400 hover:text-gray-600 transition-colors hidden" title="Limpiar búsqueda">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
+                        </svg>
+                    </button>
                 </div>
                 <!-- Filtros rápidos (botones) -->
                 <div class="relative z-10 mt-4 flex flex-wrap gap-2" id="filterContainer">
@@ -5514,7 +5526,812 @@ const productos = [
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "No especificado",
     interactions: "No especificado"
-}
+},
+
+  // 190. DEMOGRASS LX+
+{
+    id: 190,
+    name: "DEMOGRASS LX+",
+    category: "laxantes",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
+    shortDesc: "Suplemento con 7 extractos botánicos y fibras naturales: forskolina, ciruela, tamarindo, inulina, papaya, nopal y linaza.",
+    ingredients: "Forskolina (Extracto de la raíz de Coleus forskohlii), Fruto de Ciruela (Prunus domestica), Fruto de Tamarindo (Tamarindus indica), Inulina (Fibra prebiótica), Fruto de Papaya (Carica papaya), Penca de Nopal (Opuntia ficus-indica), Semilla de Linaza (Linum usitatissimum).",
+    serving: "1 tableta al día",
+    timing: "Preferentemente antes de la comida principal",
+    intakeInstructions: "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
+    benefits: [
+      "Apoyo al metabolismo energético",
+      "Bienestar digestivo",
+      "Equilibrio de la microbiota (inulina prebiótica)",
+      "Bajo aporte calórico"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+},
+
+  // 191. CREATINA REFRESHER LEMON TWIST
+{
+    id: 191,
+    name: "CREATINA REFRESHER LEMON TWIST",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINAREFRESHER-BM.webp",
+    shortDesc: "Bebida en polvo con 5 g de creatina monohidratada, electrolitos y vitaminas. Sabor Lemon Twist, sin azúcar.",
+    ingredients: "Creatina Monohidratada, Alulosa, Sal Rosa del Himalaya, Concentrado de Minerales del Lago Salado de Utah, Glicinato de Magnesio, Ácido Cítrico, Sabor Lima Limón Natural, Ácido Málico, Stevia (Stevia rebaudiana), Extracto Natural de Vitamina C de Amla (Phyllanthus emblica L.), Vitamina E, Vitamina D3 (Colecalciferol de Origen Vegetal), Vitamina B12.",
+    serving: "1 cucharada medidora (10 g) en 500 ml de agua",
+    timing: "Antes o durante el entrenamiento",
+    intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
+    benefits: [
+      "5 g de creatina monohidratada por porción",
+      "Electrolitos: 522 mg de sodio, 170 mg de potasio, 61 mg de magnesio",
+      "Vitaminas C, D, E y B12",
+      "0 kcal, 0 azúcares"
+    ],
+    contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+},
+
+  // 192. NEUROCEBRYL COMPUESTO
+  {
+    id: 192,
+    name: "NEUROCEBRYL COMPUESTO",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NEUROCEBRYL-COMPUESTO.webp",
+    shortDesc: "Suplemento líquido multivitamínico con complejo B, vitaminas antioxidantes (A, C, D3, E), calcio, jalea real e inositol.",
+    ingredients: "Vitaminas del complejo B: Clorhidrato de Tiamina (B1) 15 mg, Riboflavina 5' Fosfato (B2) 18 mg, Clorhidrato de Piridoxina (B6) 10 mg, Cianocobalamina (B12) 12 µg, Niacinamida (B3) 20 mg, Ácido Pantoténico (B5) 20 mg, Ácido Fólico 400 µg. Vitaminas antioxidantes: Ácido Ascórbico (C) 50 mg, Alfatocoferol (E) 60 mg, Palmitato de Vitamina A 1000 UI, Colecalciferol (D3) 10 µg. Minerales y otros: Gluconato de Calcio 100 mg, Jalea Real Fresca 5 mg, Inositol 15 mg.",
+    serving: "Adultos: 1 ampolleta al día. Niños: 1 ampolleta cada tercer día.",
+    timing: "Oral, directamente",
+    intakeInstructions: "Ingerir directamente el contenido de la ampolleta. EN NINGÚN CASO DEBERÁ INYECTARSE.",
+    benefits: [
+      "Metabolismo energético",
+      "Protección antioxidante",
+      "Función nerviosa",
+      "Fórmula líquida de fácil absorción"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 193. NAC NOW
+  {
+    id: 193,
+    name: "NAC NOW",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NAC-NOW.webp",
+    shortDesc: "N-Acetil Cisteína (NAC) 600 mg con Selenio 25 mcg. Precursor del glutatión para la protección celular.",
+    ingredients: "N-Acetil Cisteína (NAC), L-Selenometionina (Selenio). Hipromelosa (cápsula de celulosa), Estearato de magnesio (fuente vegetal), Dióxido de silicio y Ácido cítrico.",
+    serving: "1 cápsula, 2 veces al día",
+    timing: "Con el estómago vacío",
+    intakeInstructions: "Tomar 1 cápsula, 2 veces al día, con el estómago vacío o según indicación de un profesional de la salud.",
+    benefits: [
+      "Precursor del glutatión, el principal antioxidante intracelular",
+      "Protección celular contra el estrés oxidativo",
+      "Apoyo a la función inmunológica",
+      "Salud del sistema respiratorio"
+    ],
+    contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna enfermedad.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 194. LECHE DE SOYA SYMKEN
+  {
+    id: 194,
+    name: "LECHE DE SOYA SYMKEN",
+    category: "nutricional",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LECHE-DE-SOYA-SYMKEN.webp",
+    shortDesc: "Bebida instantánea en polvo a base de proteína aislada de soya, adicionada con vitaminas y minerales.",
+    ingredients: "Proteína aislada de soya, aceite vegetal, jarabe de maíz, maltodextrina, sucralosa, fosfato de calcio, citrato de potasio, sulfato ferroso, sulfato de zinc, yodato de potasio, sulfato de magnesio, palmitato de vitamina A, acetato de dl-alfa tocoferol (Vitamina E), ácido ascórbico (Vitamina C), niacinamida, tiamina, riboflavina, piridoxina, ácido fólico, ácido pantoténico, cianocobalamina, mono y diglicéridos, estearato de sodio, estearoil lactilato de sodio, saborizante artificial.",
+    serving: "3 cucharadas soperas al ras (aprox. 25 g) + 200 ml de agua = 250 ml de bebida",
+    timing: "Cualquier momento del día",
+    intakeInstructions: "Verter 3 cucharadas soperas al ras (aprox. 25 g) en un vaso. Añadir agua potable a temperatura ambiente hasta llenar el vaso (250 ml). Remover vigorosamente.",
+    benefits: [
+      "Fuente de proteína vegetal (6.5 g por porción)",
+      "Sin colesterol",
+      "Enriquecido con vitaminas y minerales"
+    ],
+    contraindications: "Contiene soya.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 195. DYNEEM
+  {
+    id: 195,
+    name: "DYNEEM",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DYNEEM-GREENLIFE.webp",
+    shortDesc: "Suplemento en dos frascos: Frasco 1 (hierbas) y Frasco 2 (vitaminas, minerales y jalea real).",
+    ingredients: "Frasco 1: Neem (Azadirachta indica), Tecomate (Tecoma stans), Guarumbo (Cecropia obtusifolia), Nopal (Opuntia ficus-indica), Guayule (Parthenium argentatum), Eucalipto (Eucalyptus globulus), Sábila (Aloe vera), Zarzaparrilla (Smilax aristolochiifolia), Damiana de California (Turnera diffusa), Yerba del Sapo (Eryngium carlinae), Ajo (Allium sativum). Frasco 2: Palmitato de Vitamina A, Vitamina D3, Vitamina E, Vitaminas B1, B2, B6, B12, Vitamina C, Ácido fólico, Niacinamida, Fosfato dicálcico, Sulfato ferroso, Sulfato de zinc, Sulfato de cobre, Sulfato de manganeso, Sulfato de potasio, Sulfato de magnesio, Picolinato de cromo, Jalea real liofilizada.",
+    serving: "Frasco 1: 1 cápsula, 3 veces al día. Frasco 2: 1 cápsula por la mañana y 1 por la tarde.",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 cápsula del Frasco 1, 3 veces al día. Tomar 1 cápsula del Frasco 2 por la mañana y 1 por la tarde.",
+    benefits: [
+      "Bienestar metabólico",
+      "Nutrición integral",
+      "Apoyo a la función inmunológica"
+    ],
+    contraindications: "No consumir durante el embarazo o período de lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 196. DEMOGRASS PREMIER
+  {
+    id: 196,
+    name: "DEMOGRASS PREMIER",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPREMIER.webp",
+    shortDesc: "Suplemento con 10 ingredientes botánicos: matake, cayena, cúrcuma, espirulina, arándano, moringa, enebro, olivo, inulina y naranjo amargo.",
+    ingredients: "Matake (Grifola frondosa), Cayena, Cúrcuma (Curcuma longa), Espirulina (Arthrospira platensis), Arándano (Vaccinium myrtillus), Moringa (Moringa oleifera), Enebro (Juniperus communis), Olivo (Olea europaea), Inulina, Naranjo amargo (Citrus aurantium).",
+    serving: "1 cápsula al día",
+    timing: "En ayunas",
+    intakeInstructions: "Tomar 1 cápsula al día en ayunas, con un vaso de agua.",
+    benefits: [
+      "Bienestar metabólico",
+      "Protección celular",
+      "Salud digestiva",
+      "Sinergia botánica"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 197. TÉ PIÑALIM PLUS
+  {
+    id: 197,
+    name: "TÉ PIÑALIM PLUS",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-PINALIM-PLUS.webp",
+    shortDesc: "Infusión herbal con piña, linaza, tés verde, rojo y blanco, aguaje peruano y corazón de alcachofa. USDA Organic, Kosher.",
+    ingredients: "Pulpa de piña (16%), linaza (14%), té verde, té rojo y té blanco (14% cada uno), aguaje peruano (14%) y corazón de alcachofa (14%).",
+    serving: "1 taza al día (preferentemente por la noche)",
+    timing: "Por la noche",
+    intakeInstructions: "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
+    benefits: [
+      "Bienestar digestivo",
+      "Protección celular",
+      "Equilibrio metabólico",
+      "Bebida natural sin calorías ni azúcares"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 198. SÁBILA 1 LT PROSA
+  {
+    id: 198,
+    name: "SÁBILA 1 LT PROSA",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SABILA-PROSA.webp",
+    shortDesc: "Suplemento líquido de pulpa de sábila sin aloína, enriquecido con vitamina C.",
+    ingredients: "Pulpa de sábila (Aloe barbadensis, Mill.), Vitamina C (Ácido Ascórbico).",
+    serving: "60 ml (2 copitas), 3 veces al día",
+    timing: "Antes de cada alimento",
+    intakeInstructions: "Tomar 60 ml (2 copitas), 3 veces al día, antes de cada alimento. Refrigerar después de abrir.",
+    benefits: [
+      "Hidratación y bienestar celular",
+      "Bienestar digestivo",
+      "Protección antioxidante (Vitamina C)",
+      "Bajo aporte calórico"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 199. D MASTER PLATINUM
+  {
+    id: 199,
+    name: "D MASTER PLATINUM",
+    category: "clinico",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMasterPlatinum1.webp",
+    shortDesc: "Suplemento con 8 extractos vegetales: gayuba, té verde, uva, manzana, jamaica, cacao, linaza y sábila.",
+    ingredients: "Gayuba (Arctostaphylos uva-ursi), Té verde (Camellia sinensis), Uva (Vitis vinifera), Manzana (Malus domestica), Jamaica (Hibiscus sabdariffa), Cacao (Theobroma cacao), Linaza (Linum usitatissimum), Sábila (Aloe vera).",
+    serving: "1 cápsula al día",
+    timing: "Por la mañana, después de los alimentos",
+    intakeInstructions: "Tomar 1 cápsula al día por la mañana, después de los alimentos, con abundante agua.",
+    benefits: [
+      "Bienestar urinario",
+      "Protección celular",
+      "Equilibrio digestivo",
+      "Sinergia herbal"
+    ],
+    contraindications: "No consumir durante el embarazo. No tomarlo personas muy nerviosas. No tomarlo personas que estén tomando medicamentos. No tomarlo personas diabéticas e hipertensas.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 200. D MASTER
+  {
+    id: 200,
+    name: "D MASTER",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMaster1.webp",
+    shortDesc: "Suplemento con 7 extractos y fibras vegetales: linaza, sábila, nopal, té verde, fibra de piña, malva y raíz de lima.",
+    ingredients: "Semilla de linaza (Linum usitatissimum), Sábila (Aloe vera), Nopal (Opuntia ficus-indica), Té verde (Camellia sinensis), Fibra de piña (Ananas comosus), Malva (Malva sylvestris), Raíz de lima (Citrus x aurantiifolia).",
+    serving: "1 cápsula al día",
+    timing: "Por la mañana o por la noche, con un vaso de agua",
+    intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua.",
+    benefits: [
+      "Bienestar digestivo",
+      "Equilibrio metabólico",
+      "Protección celular",
+      "Sinergia herbal"
+    ],
+    contraindications: "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 201. CUATECOMATE
+  {
+    id: 201,
+    name: "CUATECOMATE",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Cuartecomate1.webp",
+    shortDesc: "Solución líquida de extractos vegetales (Cuatecomate, Eucalipto, Gordolobo) con 1.9% de alcohol.",
+    ingredients: "Frutos de Cuatecomate (Crescentia sp.), Hojas de Eucalipto (Eucalyptus globulus), Flores de Gordolobo (Gnaphalium sp.), Agua, Sacarosa, Alcohol (1.9%).",
+    serving: "10 ml (2 cucharadas soperas)",
+    timing: "Después de los alimentos",
+    intakeInstructions: "Tomar 10 ml (2 cucharadas soperas) después de los alimentos. No es recomendable para niños.",
+    benefits: [
+      "Bienestar respiratorio",
+      "Bienestar digestivo",
+      "Fórmula tradicional"
+    ],
+    contraindications: "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 202. SUPER COLOSTRUM NOW
+  {
+    id: 202,
+    name: "SUPER COLOSTRUM NOW",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SUPER-CALOSTRUM-NOW.webp",
+    shortDesc: "Calostro bovino seco (1,000 mg) con InmunEnhancer™, hoja de olivo, astrágalo y eleuthero.",
+    ingredients: "Calostro Bovino Seco (1,000 mg), InmunEnhancer™ (Arabinogalactano de Alerce) (200 mg), Hoja de Olivo (Extracto, min. 6% Oleuropeína) (200 mg), Raíz de Astrágalo (Astragalus membranaceus) (100 mg), Eleuthero (Raíz de Eleuterococo) (100 mg).",
+    serving: "2 cápsulas al día",
+    timing: "Con el estómago vacío",
+    intakeInstructions: "Tomar 2 cápsulas al día, preferiblemente con el estómago vacío para una mejor absorción.",
+    benefits: [
+      "Apoyo a la función inmunológica",
+      "Salud celular y tisular",
+      "Equilibrio intestinal",
+      "Sinergia botánica"
+    ],
+    contraindications: "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 203. NOPSOR POMADA
+  {
+    id: 203,
+    name: "NOPSOR POMADA",
+    category: "piel",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/POMADA-NOPSOR.jpg",
+    shortDesc: "Pomada tópica con alquitrán de hulla, ácido salicílico y extractos vegetales.",
+    ingredients: "Vaselina, Propilenglicol, Alquitrán de hulla, Ácido Salicílico, Extracto de Nogal (Juglans sp.), Extracto de Orégano (Lippia sp.), Tomillo (Thymus vulgaris), Saúco (Sambucus sp.), Romero (Rosmarinus officinalis), Mastuerzo (Tropaeolum majus), Saponaria (Saponaria officinalis), Loeselia (Loeselia mexicana), Metilparabeno, Propilparabeno.",
+    serving: "Aplicación tópica según necesidad",
+    timing: "Por la noche",
+    intakeInstructions: "Lavar la zona afectada, secar perfectamente y aplicar una cantidad generosa de Pomada Nopsor, dejándola actuar durante la noche. Uso externo únicamente.",
+    benefits: [
+      "Alivio de la picazón y enrojecimiento",
+      "Descamación controlada",
+      "Hidratación y barrera cutánea"
+    ],
+    contraindications: "Uso externo únicamente. Evitar el contacto con ojos y mucosas. Sólo para un periodo máximo de 4 días. No usar en niños menores de 3 años.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 204. CARTÍLAGO PRONAT
+  {
+      id: 204,
+      name: "CARTÍLAGO PRONAT",
+      category: "locomotor",
+      image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARTILAGO.png",
+      shortDesc: "100% Cartílago de Tiburón puro en cápsulas. Rico en proteínas, colágeno, glucosamina, condroitina, calcio, fósforo, magnesio y zinc.",
+      ingredients: "100% Cartílago de Tiburón en polvo. Sin excipientes ni aditivos.",
+      serving: "3 cápsulas antes de cada comida (9 cápsulas al día)",
+      timing: "Antes de cada alimento (desayuno, comida y cena)",
+      intakeInstructions: "Tomar 3 cápsulas antes de cada alimento (desayuno, comida y cena) = 9 cápsulas al día. Recomendado a partir de 12 años.",
+      benefits: [
+          "Soporte articular: aporta glucosamina y condroitina naturales",
+          "Salud ósea: rico en calcio y fósforo",
+          "Función inmunológica: el zinc contribuye al sistema inmunológico",
+          "Bienestar general: perfil nutricional completo"
+      ],
+      contraindications: "Contiene derivados de pescado (tiburón). No consumir si se es alérgico a los productos del mar. No se recomienda en menores de 12 años. Consultar con un profesional de la salud si se está embarazada, en período de lactancia o bajo tratamiento médico.",
+      foodInteractions: "No especificado",
+      interactions: "No especificado"
+  },
+
+  // 205. LEVADURA DE CERVEZA PRONAT
+  {
+    id: 205,
+    name: "LEVADURA DE CERVEZA",
+    category: "nutricional",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LEVADURA.png",
+    shortDesc: "Levadura de cerveza (Saccharomyces cerevisiae) en tabletas. Rica en proteínas, fibra, fósforo y vitaminas del complejo B.",
+    ingredients: "Levadura de cerveza (Saccharomyces cerevisiae), Avicel, Estearato de magnesio.",
+    serving: "3 tabletas antes de cada comida (9 tabletas al día)",
+    timing: "Antes de cada comida",
+    intakeInstructions: "Tomar 3 tabletas antes de cada comida (desayuno, comida y cena) = 9 tabletas al día. Recomendado a partir de 12 años.",
+    benefits: [
+      "Metabolismo energético",
+      "Salud digestiva",
+      "Salud ósea",
+      "Bienestar general"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 206. OMEGA MAXIMUM PRONAT
+  {
+    id: 206,
+    name: "OMEGA MAXIMUM PRONAT",
+    category: "clinico",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OMEGA-MAXIMUM.png",
+    shortDesc: "Combinación de aceite de pescado (EPA/DHA), aceite de Sacha Inchi y aceite de linaza. Con vitamina E.",
+    ingredients: "Aceite de pescado (EPA/DHA), Aceite de Sacha Inchi (Plukenetia volubilis) prensado en frío, Aceite de linaza (Linum usitatissimum) prensado en frío, Vitamina E (Alfa tocoferol).",
+    serving: "1 cápsula, 3 veces al día",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 cápsula, 3 veces al día, de preferencia con los alimentos. Recomendado a partir de 18 años.",
+    benefits: [
+      "Salud cardiovascular",
+      "Perfil lipídico completo",
+      "Protección antioxidante",
+      "Bienestar general"
+    ],
+    contraindications: "Contiene derivados de pescado.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 207. 2MR
+  {
+    id: 207,
+    name: "2MR",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
+    shortDesc: "Combinación de L-Triptófano (295 mg), Rhodiola rosea (200 mg) y Melatonina (5 mg) por cápsula.",
+    ingredients: "L-Triptófano (295 mg), Rhodiola rosea (200 mg), Melatonina (5 mg).",
+    serving: "1 cápsula al día",
+    timing: "Por la noche después de cenar",
+    intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
+    benefits: [
+      "Precursor de serotonina (L-Triptófano)",
+      "Adaptógeno (Rhodiola rosea)",
+      "Regulación del ciclo sueño-vigilia (Melatonina)"
+    ],
+    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 208. CÁPSULAS DE ACEITE DE ORÉGANO
+  {
+    id: 208,
+    name: "CÁPSULAS DE ACEITE DE ORÉGANO",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OREGANO-ORGANICO.png",
+    shortDesc: "Aceite de orégano orgánico (Lippia graveolens) con aceite de oliva. Libre de OMG.",
+    ingredients: "Aceite de orégano orgánico (Lippia graveolens), Aceite de oliva.",
+    serving: "Adultos: 1 cápsula, hasta 3 veces al día. Niños mayores de 7 años: 1 cápsula al día.",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 cápsula, hasta 3 veces al día (adultos) o 1 cápsula al día (niños mayores de 7 años). Tomar suficiente agua.",
+    benefits: [
+      "Bienestar respiratorio",
+      "Salud digestiva",
+      "Protección celular"
+    ],
+    contraindications: "No consumir durante el embarazo o lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 209. CREATINA REFRESHER PINK
+  {
+    id: 209,
+    name: "CREATINA REFRESHER PINK",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINA-REFRESHER-PINK.png",
+    shortDesc: "Bebida en polvo con 5 g de creatina monohidratada, electrolitos y vitaminas. Sabor Pink Lemonade, sin azúcar.",
+    ingredients: "Creatina Monohidratada, Alulosa, Sal Rosa del Himalaya, Concentrado de Minerales del Lago Salado de Utah, Glicinato de Magnesio, Ácido Cítrico, Sabor Fresa Limón Natural, Stevia (Stevia rebaudiana), Extracto de Betacarotenos (Blakeslea trispora), Extracto Natural de Vitamina C de Amla (Phyllanthus emblica L.), Vitamina E, Vitamina D3 (Colecalciferol de Origen Vegetal), Vitamina B12.",
+    serving: "1 cucharada medidora (10 g) en 500 ml de agua",
+    timing: "Antes o durante el entrenamiento",
+    intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
+    benefits: [
+      "5 g de creatina monohidratada por porción",
+      "Electrolitos: 523 mg de sodio, 174.5 mg de potasio, 61 mg de magnesio",
+      "Vitaminas C, D, E y B12",
+      "0 kcal, 0 azúcares"
+    ],
+    contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica deben consultar a su profesional de la salud.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 210. PATA DE VACA
+  {
+    id: 210,
+    name: "PATA DE VACA",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PATA-DE-VACA.png",
+    shortDesc: "Suplemento con Bauhinia forticata (300 mg por cápsula). Para el bienestar metabólico.",
+    ingredients: "Pata de Vaca (Bauhinia forticata) 300 mg, excipiente c.b.p. 500 mg.",
+    serving: "1 cápsula al día",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 cápsula de Pata de Vaca al día, con alimentos.",
+    benefits: [
+      "Apoyo al bienestar metabólico",
+      "Salud celular",
+      "Bienestar digestivo",
+      "Equilibrio general"
+    ],
+    contraindications: "No consumir durante el embarazo o lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 211. PALO AZUL UVA URSI
+  {
+    id: 211,
+    name: "PALO AZUL UVA URSI",
+    category: "clinico",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PALO-AZUL.png",
+    shortDesc: "Combinación de Palo Azul (Cyclolepis genistoides) y Uva Ursi (Arctostaphylos uva-ursi). 150 mg de cada extracto.",
+    ingredients: "Palo Azul (Cyclolepis genistoides) 150 mg, Uva Ursi (Arctostaphylos uva-ursi) 150 mg, excipiente c.b.p. 500 mg.",
+    serving: "1 cápsula al día",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 cápsula de Palo Azul Uva Ursi al día.",
+    benefits: [
+      "Apoyo al sistema urinario",
+      "Sinergia herbal",
+      "Bienestar metabólico"
+    ],
+    contraindications: "No consumir durante el embarazo o lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 212. GLUCONATO DE ZINC PRONACEN
+  {
+    id: 212,
+    name: "GLUCONATO DE ZINC PRONACEN",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GLUCONATO-DE-ZINC-PROSA.png",
+    shortDesc: "Suplemento de zinc en forma de gluconato. 20 mg de zinc elemental por tableta.",
+    ingredients: "Gluconato de zinc (aporta 20 mg de zinc elemental), Estearato de magnesio, Celulosa microcristalina, Fosfato dibásico de calcio.",
+    serving: "1 tableta al día",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
+    benefits: [
+      "Función inmunológica",
+      "Salud de la piel",
+      "Crecimiento y desarrollo",
+      "Metabolismo celular"
+    ],
+    contraindications: "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 213. CHA-CHA STONE
+  {
+    id: 213,
+    name: "CHA-CHA STONE",
+    category: "clinico",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CHA-CHA-STONE.png",
+    shortDesc: "Suplemento con 7 extractos de plantas: Chanca Piedra, Yumel, Cola de Caballo, Perejil, Hierba del Sapo, Cardo Mariano y Taray.",
+    ingredients: "Chanca Piedra (Phyllanthus niruri), Yumel (Guatteria gaumeri), Cola de Caballo (Equisetum arvense), Perejil (Petroselinum crispum), Hierba del Sapo (Eryngium carlinae), Cardo Mariano (Silybum marianum), Taray (Tamarix gallica).",
+    serving: "3 tabletas al día (1 antes de cada alimento)",
+    timing: "Antes de cada alimento",
+    intakeInstructions: "Tomar 3 tabletas al día: 1 tableta antes de cada alimento principal (desayuno, comida y cena).",
+    benefits: [
+      "Apoyo al sistema urinario",
+      "Bienestar digestivo y hepático",
+      "Equilibrio hidrosalino",
+      "Sinergia herbal"
+    ],
+    contraindications: "No consumir durante el embarazo o período de lactancia. No usar si es intolerante o sensible a los ingredientes.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 214. BEBIDA DE ALPISTLE
+  {
+    id: 214,
+    name: "BEBIDA DE ALPISTLE",
+    category: "nutricional",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BEBIDA-DE-ALPISTLE.png",
+    shortDesc: "Bebida instantánea en polvo con harina de alpiste, maltodextrina y goma xantana.",
+    ingredients: "Harina de alpiste (Phalaris canariensis), Maltodextrina, Azúcar, Goma xantana.",
+    serving: "10 g (2 cucharadas) en 100 ml de agua",
+    timing: "Cualquier momento del día",
+    intakeInstructions: "Disolver 10 g (aproximadamente 2 cucharadas) en 100 ml de agua, mezclar hasta obtener una consistencia homogénea y consumir de inmediato.",
+    benefits: [
+      "Fuente de nutrientes de origen vegetal",
+      "Carbohidratos de absorción rápida (maltodextrina)",
+      "Textura agradable (goma xantana)"
+    ],
+    contraindications: "Puede contener trazas de soya, almendra y coco.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 215. L-CARNITINA PROWINNER
+  {
+    id: 215,
+    name: "L-CARNITINA PROWINNER",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-CARNITINA-PROWINNER.png",
+    shortDesc: "L-Carnitina 100% pura en cápsulas de 450 mg. Para el metabolismo energético.",
+    ingredients: "L-Carnitina 100% pura.",
+    serving: "Niños >12 años: 1 caps, 2 veces/día. Adultos no deportistas: 1 caps con cada comida. Adultos deportistas: 2 caps con cada comida.",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
+    benefits: [
+      "Metabolismo energético",
+      "Rendimiento físico",
+      "Función cardiovascular",
+      "Bienestar general"
+    ],
+    contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 216. ACEITE DE ORÉGANO Y COCO
+  {
+    id: 216,
+    name: "ACEITE DE ORÉGANO Y COCO",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-DE-OREGANO-Y-COCO-CAPS.png",
+    shortDesc: "Combinación de aceite de coco y aceite esencial de orégano. Libre de OMG.",
+    ingredients: "Aceite de coco (Cocos nucifera), Aceite esencial de orégano (Lippia graveolens).",
+    serving: "Adultos: 1 cápsula, hasta 2 veces al día. Niños >7 años: 1 cápsula al día.",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar según la dosificación correspondiente. Beber suficiente agua.",
+    benefits: [
+      "Sinergia de aceites",
+      "Apoyo metabólico",
+      "Bienestar general",
+      "Libre de OMG"
+    ],
+    contraindications: "No recomendado en mujeres embarazadas o en período de lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 217. L-LISINA PROWINNER
+  {
+    id: 217,
+    name: "L-LISINA PROWINNER",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-LISINA-PROWINNER.png",
+    shortDesc: "L-Lisina 100% pura en cápsulas de 450 mg. Aminoácido esencial para la formación de proteínas.",
+    ingredients: "L-Lisina 100% pura.",
+    serving: "Niños >12 años: 1 caps, 2 veces/día. Adultos no deportistas: 1 caps con cada comida. Adultos deportistas: 2 caps con cada comida.",
+    timing: "Con alimentos",
+    intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
+    benefits: [
+      "Formación de proteínas estructurales",
+      "Metabolismo del calcio",
+      "Función inmunológica",
+      "Recuperación y crecimiento"
+    ],
+    contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 218. 5-HTP
+  {
+    id: 218,
+    name: "5-HTP",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/5-htp.png",
+    shortDesc: "5-Hidroxitriptófano (100 mg) precursor de la serotonina. Libre de gluten y aditivos.",
+    ingredients: "5-HTP (5-Hidroxitriptófano) 100 mg, Celulosa microcristalina c.b.p. 500 mg.",
+    serving: "1 cápsula al día",
+    timing: "Con las comidas",
+    intakeInstructions: "Tomar 1 cápsula (500 mg) al día, preferiblemente con las comidas, o según indicación de un especialista.",
+    benefits: [
+      "Precursor de serotonina",
+      "Regulación del estado de ánimo",
+      "Sueño y apetito",
+      "Bienestar general"
+    ],
+    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
+    foodInteractions: "No especificado",
+    interactions: "Puede interactuar con antidepresivos (ISRS, IMAO) y otros medicamentos que aumentan la serotonina."
+  },
+
+  // 219. VEGI PROTEIN NANO FEAR
+  {
+    id: 219,
+    name: "VEGI PROTEIN NANO FEAR",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VEGI-PROTEIN-NANO-FEAR.png",
+    shortDesc: "Proteína vegana orgánica con mezcla de guisante, arroz, calabaza, sésamo, soya, girasol y almendras. 25 g de proteína por porción.",
+    ingredients: "Proteína de guisante orgánica, Proteína de arroz orgánica, Proteína de calabaza orgánica, Proteína de sésamo orgánico, Aislado de proteína de soya, Proteína de girasol, Proteína de almendras, Cacao orgánico, Saborizante natural a chocolate, Sal marina, Mezcla de enzimas (Bromelina, Papaina, Proteasa), Aceite de coco orgánico, Stevia orgánica, Goma xantana, Lecitina de girasol, Ácido málico.",
+    serving: "1 cucharada (30 g) en 360 ml de agua",
+    timing: "Antes y/o después del entrenamiento",
+    intakeInstructions: "Mezclar 1 cucharada (30 g) en 360 ml de agua y licuar. Consumir antes y/o después del entrenamiento.",
+    benefits: [
+      "25 g de proteína por porción",
+      "Perfil completo de aminoácidos",
+      "9,228 mg de BCAA's por porción",
+      "Enzimas digestivas para mejor absorción",
+      "Bajo índice glucémico"
+    ],
+    contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 220. ISOFEAR
+  {
+    id: 220,
+    name: "ISOFEAR",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Isofear_Chocolate_2kg_1_4c878549-63bf-435f-8a4d-0c2b9d51ebf6.webp",
+    shortDesc: "Aislado de proteína de suero hidrolizada. 25 g de proteína, 0 g de carbohidratos y grasas por porción.",
+    ingredients: "Aislado de Proteína de Suero de leche Ionizada y Micro-filtrada, Péptidos de bajo peso molecular y Parcialmente Hidrolizados de Suero de Leche y Soya. L-Carnitina, Valina, Lisina, Iso-Leucina, Cloruro de Sodio, Sabor Natural y Artificial a Vainilla, Goma Xantana, Enzimas (Proteasa y Peptidasa), Sucralosa.",
+    serving: "1-2 medidas (30 g cada una) en 360 ml de agua",
+    timing: "Post-entreno o entre comidas",
+    intakeInstructions: "Mezclar de 1 a 2 medidas (30 g cada una) en 360 ml de tu bebida favorita. Agitar hasta disolver.",
+    benefits: [
+      "25 g de proteína por porción",
+      "0 g de carbohidratos y grasas",
+      "19.6 g de BCAA's por 100 g",
+      "Proteína hidrolizada de rápida absorción",
+      "Con L-Carnitina"
+    ],
+    contraindications: "No debe ser consumido por personas con hipersensibilidad a los ingredientes. Alérgenos: SOYA, LÁCTEOS, HUEVO, TRIGO, NUEZ Y CACAHUATE.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 221. SUKUNAI KIROS MAX
+  {
+    id: 221,
+    name: "SUKUNAI KIROS MAX",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SukunaiKirosMax1-1.webp",
+    shortDesc: "Suplemento con 7 extractos vegetales (linaza, raíz de lima, malva, mango africano, piña, papaya, lecitina de soya) y vitamina B12, magnesio y calcio.",
+    ingredients: "Semilla de Linaza (Linum usitatissimum), Raíz de Lima (Citrus x aurantiifolia), Flor y hoja de Malva (Malva sylvestris), Mango Africano (Irvingia gabonensis), Lecitina de Soya, Polvo de fruto de Piña (Ananas comosus), Polvo de fruto de Papaya (Carica papaya), Cianocobalamina (Vitamina B12), Carbonato de Calcio, Estearato de Magnesio, Dióxido de Silicio.",
+    serving: "1 cápsula al día",
+    timing: "Por la mañana o por la noche, con un vaso de agua",
+    intakeInstructions: "Tomar 1 cápsula al día con un vaso de agua. No exceder la porción indicada.",
+    benefits: [
+      "Bienestar digestivo: fibras y enzimas",
+      "Perfil nutricional: Vitamina B12, Magnesio y Calcio",
+      "Sinergia botánica: 7 extractos vegetales"
+    ],
+    contraindications: "No consumir durante el embarazo. Contiene soya (lecitina).",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 222. PIÑALINAZA
+  {
+    id: 222,
+    name: "PIÑALINAZA",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Pinalinaza1.webp",
+    shortDesc: "Suplemento en polvo con linaza canadiense, piña, toronja, naranja y nopal. Rico en fibra y Omega 3, 6 y 9.",
+    ingredients: "Piña (Ananas comosus), Linaza (Linum usitatissimum) - Linaza Canadiense, Toronja (Citrus paradisi), Naranja (Citrus sinensis), Nopal (Opuntia ficus-indica).",
+    serving: "2 cucharadas soperas (7.8 g) antes de cada comida",
+    timing: "Antes de cada comida (3 veces al día)",
+    intakeInstructions: "Mezclar 2 cucharadas soperas (7.8 g) con agua, jugo o añadir a preparaciones. Tomar 3 veces al día antes de las comidas.",
+    benefits: [
+      "Alto contenido de fibra dietética (25.89 g por 100 g)",
+      "Aporte de Omega 3, 6 y 9",
+      "Apoya la salud digestiva y el tránsito intestinal"
+    ],
+    contraindications: "No está indicado para mujeres embarazadas y niños menores de 12 años.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 223. WEREKE PROSA
+  {
+    id: 223,
+    name: "WEREKE PROSA",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WEREKE.webp",
+    shortDesc: "Suplemento con 8 extractos vegetales de uso tradicional mexicano, incluyendo Wereke, Gatuña, Guayacán, Tamarindo, Nopal y Manzanilla.",
+    ingredients: "Wereke (Maximowiczia sonorae) - Raíz, Gatuña (Guaiacum sp.) - Planta, Guayacán amarillo (Guaiacum coulteri) - Corteza, Tamarindo (Tamarindus indica) - Fruto, Nopal (Opuntia ficus-indica) - Penca, Raíz de Zacate de perro (Cynodon dactylon) - Raíz, Raíz de Coanacaxtle - Raíz, Manzanilla (Matricaria chamomilla) - Flor.",
+    serving: "2 cápsulas, 3 veces al día (6 cápsulas al día)",
+    timing: "Después de los alimentos",
+    intakeInstructions: "Tomar 2 cápsulas, 3 veces al día, después de los alimentos.",
+    benefits: [
+      "Bienestar digestivo",
+      "Equilibrio metabólico",
+      "Aporte de fibras y carbohidratos complejos"
+    ],
+    contraindications: "No especificado",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 224. ACEITE DE ORÉGANO GOTAS ORE
+  {
+    id: 224,
+    name: "ACEITE DE ORÉGANO GOTAS ORE",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-OREGANO-GOTERO-20-ML.webp",
+    shortDesc: "Aceite de orégano 100% natural estandarizado al 80% de carvacrol.",
+    ingredients: "Aceite de orégano (Lippia graveolens) 100% natural, estandarizado al 80% de carvacrol, aceite de oliva.",
+    serving: "Adultos: 4 a 12 gotas, 2 veces al día. Niños >6 años: 1 a 2 gotas, 1-2 veces al día. Niños 2-6 años: 1 gota al día.",
+    timing: "Con alimentos",
+    intakeInstructions: "Diluir las gotas en agua, jugo o leche. No usar en menores de 2 años.",
+    benefits: [
+      "80% de carvacrol",
+      "Bienestar respiratorio",
+      "Protección celular",
+      "Bienestar digestivo"
+    ],
+    contraindications: "No usar durante el embarazo.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 225. B12 NOW
+  {
+    id: 225,
+    name: "B12 NOW",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/B12-NOW.webp",
+    shortDesc: "Vitamina B12 2,000 mcg en pastillas sublinguales. Combinación de cianocobalamina, metilcobalamina y dibencozida.",
+    ingredients: "Cianocobalamina, Metilcobalamina y Dibencozida (Vitaminas B12). Fructosa, celulosa, ácido cítrico, estearato de magnesio (fuente vegetal), sabor a fresa natural y lecitina de soya.",
+    serving: "1 pastilla al día",
+    timing: "Cualquier momento del día",
+    intakeInstructions: "Masticar la pastilla o disolverla completamente en la boca (sublingual o debajo de la lengua) hasta que se deshaga. No tragar entera.",
+    benefits: [
+      "2,000 mcg de Vitamina B12",
+      "Tres formas activas",
+      "Salud del sistema nervioso",
+      "Producción de energía"
+    ],
+    contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+    
+  // 226. CARSYL GREEN JARABE 80 ML
+  {
+    id: 226,
+    name: "CARSYL GREEN JARABE 80 ML",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
+    shortDesc: "Jarabe con 6 extractos botánicos: Boldo, Cardo Mariano, Cusura, Diente de León, Anagirida y Marrubio. Para el bienestar digestivo y hepático.",
+    ingredients: "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
+    serving: "3 ml (una cucharadita) al día",
+    timing: "Preferentemente antes de las comidas principales",
+    intakeInstructions: "Agitar bien antes de usar. Administrar directamente o diluido en un poco de agua. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales.",
+    benefits: [
+        "Apoyo a la función hepática (silimarina del Cardo Mariano)",
+        "Bienestar digestivo",
+        "Efecto depurativo",
+        "Sinergia botánica de 6 extractos"
+    ],
+    contraindications: "No especificado. Consultar lote y fecha de caducidad en el envase.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
 ]; // Cierre del arreglo "productos"
 
     // ================================================================
@@ -6796,9 +7613,7 @@ const padecimientos = [
                     <div class="text-center mb-10 border-b-2 border-gray-200 pb-6">
                         <span class="inline-block bg-blue-100 text-blue-800 font-black px-4 py-1 rounded-full text-sm uppercase tracking-widest mb-3">Guía de Protocolos</span>
                         <h2 class="text-3xl md:text-4xl font-black text-girasol-green-900 flex items-center justify-center gap-3">
-                            <span>🎯</span> Guía de Apoyo Nutricional
-                        </h2>
-                        <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza esta sección para identificar la necesidad del cliente y ofrecer un protocolo completo. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</p>
+                            <span>🎯</span> Guía de Apoyo Nutricional                        </h2>                        <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza el buscador principal para filtrar por padecimiento, síntoma o suplemento. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</p>
                     </div>
                     <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center font-semibold">
                         <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-900 text-white transition-all">🎯 Todos</button>
@@ -6814,14 +7629,17 @@ const padecimientos = [
                     <p id="padColorEmptyMsg" class="hidden text-center text-gray-500 italic mb-6">No hay padecimientos registrados para este color.</p>
                     <div class="space-y-4">
             `;
-
+            
             padecimientos.forEach(pad => {
                 const colorClass = `border-${pad.color}-500`;
                 const bgColor = `bg-${pad.color}-50`;
                 const textColor = `text-${pad.color}-700`;
+                
+                // Crear un string con todos los términos de búsqueda relevantes para este padecimiento
+                const searchTerms = `${pad.name} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
 
                 html += `
-                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" class="group bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
+                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${searchTerms}" class="group bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
                         <summary class="p-6 cursor-pointer list-none flex justify-between items-center">
                             <h3 class="text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
                             <span class="group-open:rotate-180 transition-transform duration-300">
@@ -6831,7 +7649,7 @@ const padecimientos = [
                             </span>
                         </summary>
                         <div class="p-6 border-t border-gray-200">
-                            <p class="text-sm text-gray-500 italic mb-4">${pad.description}</p>
+                            <p class="padecimiento-description text-sm text-gray-500 italic mb-4" data-original-text="${pad.description.replace(/"/g, '&quot;')}">${pad.description}</p>
                             
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
@@ -6897,6 +7715,58 @@ const padecimientos = [
             setupPadecimientosColorFilter();
         }
 
+        // Nueva función para filtrar padecimientos por texto y color
+        function filterPadecimientos() {
+            const searchTerm = document.getElementById('padecimientoSearchInput').value.toLowerCase().trim();
+            const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
+            const activeColor = activeColorButton ? activeColorButton.dataset.colorFilter : 'all';
+
+            // Limpiar resaltados anteriores
+            const allDescriptions = document.querySelectorAll('.padecimiento-description');
+            allDescriptions.forEach(desc => {
+                desc.innerHTML = desc.dataset.originalText;
+            });
+
+            const items = document.querySelectorAll('#padecimientosGuideWeb details[data-color]');
+            let visibleCount = 0;
+
+            items.forEach(item => {
+                const itemSearchTerms = item.dataset.searchTerms;
+                const itemColor = item.dataset.color;
+
+                const matchesSearch = searchTerm === '' || itemSearchTerms.includes(searchTerm);
+                const matchesColor = activeColor === 'all' || itemColor === activeColor;
+
+                if (matchesSearch && matchesColor) {
+                    item.style.display = '';
+                    visibleCount++;
+                    // Si hay un término de búsqueda activo, abre el acordeón.
+                    if (searchTerm !== '') {
+                        item.setAttribute('open', '');
+                        // Resaltar el término en la descripción
+                        const descriptionP = item.querySelector('.padecimiento-description');
+                        if (descriptionP) {
+                            const originalText = descriptionP.dataset.originalText;
+                            const regex = new RegExp(searchTerm.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'gi');
+                            const highlightedText = originalText.replace(regex, '<mark>$&</mark>');
+                            descriptionP.innerHTML = highlightedText;
+                        }
+                    }
+                } else {
+                    item.style.display = 'none';
+                    item.removeAttribute('open'); // Cierra los que se ocultan
+                }
+            });
+
+            // Si se borra la búsqueda, cierra todos los acordeones.
+            if (searchTerm === '') {
+                items.forEach(item => item.removeAttribute('open'));
+            }
+
+            const emptyMsg = document.getElementById('padColorEmptyMsg');
+            if (emptyMsg) emptyMsg.classList.toggle('hidden', visibleCount > 0);
+        }
+
         // Filtra las tarjetas de padecimientos según el color seleccionado en la leyenda
         function setupPadecimientosColorFilter() {
             const buttons = document.querySelectorAll('#padColorLegend .pad-color-btn');
@@ -6912,15 +7782,7 @@ const padecimientos = [
                     buttons.forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
                     btn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
 
-                    let visibleCount = 0;
-                    items.forEach(item => {
-                        const match = (color === 'all') || (item.dataset.color === color);
-                        item.style.display = match ? '' : 'none';
-                        if (!match) item.removeAttribute('open'); // Cierra los que se ocultan
-                        if (match) visibleCount++;
-                    });
-
-                    if (emptyMsg) emptyMsg.classList.toggle('hidden', visibleCount > 0);
+                    filterPadecimientos(); // Llama a la función de filtrado combinada
                 });
             });
         }
@@ -7362,12 +8224,15 @@ const padecimientos = [
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 document.querySelectorAll('.filter-btn').forEach(b => {
-                    b.classList.remove('active', 'bg-white/30');
+                    b.classList.remove('active');
                     b.classList.add('bg-white/10');
                 });
-                this.classList.add('active', 'bg-white/30');
+                this.classList.add('active');
                 this.classList.remove('bg-white/10');
                 const filter = this.dataset.filter;
+                // Al cambiar de filtro de producto, también reseteamos el filtro de padecimientos
+                document.querySelector('#padColorLegend .pad-color-btn.active').classList.remove('active');
+                document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]').classList.add('active');
                 renderProducts(filter, searchInput.value);
                 updateCategoryDescription(filter);
             });
