@@ -236,10 +236,10 @@
                 </div>
                 <div class="border-t border-gray-200 pt-4">
                     <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Guías y Anexos</p>
-                    <a href="#padecimientosGuideWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🎯 Guía por Padecimiento</a>
                     <a href="#introWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">⭐ Introducción al Manual</a>
                     <a href="#guiaLenguajeWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">📜 Guía de Lenguaje</a>
                     <a href="#arteDeVenderWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">💡 El Arte de Vender</a>
+                    <a href="#padecimientosGuideWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🎯 Guía por Padecimiento</a>
                     <a href="#guiaRapidaWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🚀 Venta Rápida (Combos)</a>
                     <a href="#faqWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">❓ Preguntas Frecuentes</a>
                     <a href="#anexo" class="block py-1 hover:text-girasol-green-700 transition-colors">📚 Anexo y Glosario</a>
@@ -565,18 +565,8 @@
             </div>
             <p id="resultCount" class="text-sm text-gray-400 mt-6 text-center font-medium no-print"></p>
 
-            <!-- =========== GUÍA DE PADECIMIENTOS (WEB) =========== -->
-            <section id="padecimientosGuideWeb" class="mt-20 scroll-mt-24 no-print">
-                <!-- El contenido de la guía se inyectará aquí con JavaScript -->
-            </section>
-
             <!-- =========== INTRODUCCIÓN (WEB) =========== -->
             <section id="introWeb" class="mt-20 scroll-mt-24 no-print">
-                <!-- El contenido se inyectará aquí con JavaScript -->
-            </section>
-
-            <!-- =========== GUÍA DE LENGUAJE (WEB) =========== -->
-            <section id="guiaLenguajeWeb" class="mt-20 scroll-mt-24 no-print">
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
@@ -585,9 +575,19 @@
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
+            <!-- =========== GUÍA DE LENGUAJE (WEB) =========== -->
+            <section id="guiaLenguajeWeb" class="mt-20 scroll-mt-24 no-print">
+                <!-- El contenido se inyectará aquí con JavaScript -->
+            </section>
+
             <!-- =========== GUÍA DE VENTA RÁPIDA (WEB) =========== -->
             <section id="guiaRapidaWeb" class="mt-20 scroll-mt-24 no-print">
                 <!-- El contenido se inyectará aquí con JavaScript -->
+            </section>
+
+            <!-- =========== GUÍA DE PADECIMIENTOS (WEB) =========== -->
+            <section id="padecimientosGuideWeb" class="mt-20 scroll-mt-24 no-print">
+                <!-- El contenido de la guía se inyectará aquí con JavaScript -->
             </section>
 
             <!-- =========== FAQ (WEB) =========== -->
@@ -7717,7 +7717,7 @@ const padecimientos = [
 
         // Nueva función para filtrar padecimientos por texto y color
         function filterPadecimientos() {
-            const searchTerm = document.getElementById('padecimientoSearchInput').value.toLowerCase().trim();
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
             const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
             const activeColor = activeColorButton ? activeColorButton.dataset.colorFilter : 'all';
 
@@ -7937,6 +7937,7 @@ const padecimientos = [
 
         const grid = document.getElementById('productGrid');
         const searchInput = document.getElementById('searchInput');
+        const clearSearchBtn = document.getElementById('clearSearchBtn');
         const resultCount = document.getElementById('resultCount');
         const modal = document.getElementById('productModal');
 
@@ -8040,8 +8041,40 @@ const padecimientos = [
 
         // Buscador
         searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase().trim();
             const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
-            renderProducts(activeFilter, this.value);
+            clearSearchBtn.classList.toggle('hidden', searchTerm === '');
+            renderProducts(activeFilter, searchTerm);
+            filterPadecimientos();
+        });
+
+        // Botón para limpiar búsqueda
+        clearSearchBtn.addEventListener('click', function() {
+            searchInput.value = '';
+            this.classList.add('hidden');
+            
+            // Resetear filtros de productos
+            document.querySelectorAll('.filter-btn').forEach(b => {
+                b.classList.remove('active');
+                b.classList.add('bg-white/10');
+            });
+            const allProductsBtn = document.querySelector('.filter-btn[data-filter="all"]');
+            if (allProductsBtn) {
+                allProductsBtn.classList.add('active');
+                allProductsBtn.classList.remove('bg-white/10');
+            }
+            
+            // Resetear filtros de padecimientos
+            document.querySelectorAll('#padColorLegend .pad-color-btn.active').forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
+            const allPadecimientosBtn = document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]');
+            if (allPadecimientosBtn) {
+                allPadecimientosBtn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+            }
+
+            // Actualizar la vista
+            updateCategoryDescription('all');
+            renderProducts('all', '');
+            filterPadecimientos();
         });
 
         function renderPdfSections() {
@@ -8230,10 +8263,8 @@ const padecimientos = [
                 this.classList.add('active');
                 this.classList.remove('bg-white/10');
                 const filter = this.dataset.filter;
-                // Al cambiar de filtro de producto, también reseteamos el filtro de padecimientos
-                document.querySelector('#padColorLegend .pad-color-btn.active').classList.remove('active');
-                document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]').classList.add('active');
                 renderProducts(filter, searchInput.value);
+                filterPadecimientos();
                 updateCategoryDescription(filter);
             });
         });
