@@ -538,6 +538,7 @@
                         </svg>
                     </button>
                 </div>
+                <p class="relative z-10 mt-2 text-xs text-girasol-green-100/80 max-w-xl">📷 También puedes escanear el código de barras del producto en este mismo buscador.</p>
                 <!-- Filtros rápidos (botones) -->
                 <div class="relative z-10 mt-4 flex flex-wrap gap-2" id="filterContainer">
                     <button data-filter="all" class="filter-btn active px-4 py-1.5 text-xs font-bold rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white hover:bg-white/30 transition">Todos</button>
@@ -947,6 +948,12 @@
                         <h4 class="font-bold text-orange-800 text-sm flex items-center gap-2">🍔 Interacciones (Alimentos)</h4>
                         <p id="modalFoodInter" class="text-sm text-gray-700 mt-1">-</p>
                     </div>
+
+                    <div id="modalPadecimientosWrap" class="bg-indigo-50/60 p-4 rounded-2xl border border-indigo-100 md:col-span-2 hidden">
+                        <h4 class="font-bold text-indigo-800 text-sm flex items-center gap-2">🎯 Guías de Padecimiento Relacionadas</h4>
+                        <p class="text-xs text-indigo-500 mt-1 mb-2">Este producto forma parte del protocolo sugerido para:</p>
+                        <div id="modalPadecimientos" class="flex flex-wrap gap-2"></div>
+                    </div>
                 </div>
                 <!-- ADVERTENCIA COFEPRIS -->
                 <div class="mt-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
@@ -972,6 +979,7 @@ const productos = [
   // ================================================================
   {
     id: 1,
+    code: "7503021404145",
     name: "CLORURO DE MAGNESIO 250 gr",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CLORURO-MAGNESIO-250.jpg",
@@ -998,6 +1006,7 @@ const productos = [
   // ================================================================
   {
     id: 2,
+    code: "7500645001439",
     name: "COCONUT + OREGANO OIL (60 cápsulas)",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Coconut-y-Oregano1.jpg",
@@ -1024,6 +1033,7 @@ const productos = [
   // ================================================================
   {
     id: 3,
+    code: "7503016797153",
     name: "COLÁGENO HIDROLIZADO 500 g",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/colageno-hidrolizado.png",
@@ -1050,6 +1060,7 @@ const productos = [
   // ================================================================
   {
     id: 4,
+    code: "7503021404671",
     name: "COMPLEJO B CON ARANDANO (90 cápsulas)",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/COMPLEJO-B-CON-ARANDANO-C90-CAPS-ZN.png",
@@ -1076,6 +1087,7 @@ const productos = [
   // ================================================================
   {
     id: 5,
+    code: "7503024738087",
     name: "COMPLEJO B Y GINSENG 60 caps",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/complejo-y-ginseng.jpg",
@@ -1102,6 +1114,7 @@ const productos = [
   // ================================================================
   {
     id: 6,
+    code: "7500645000517",
     name: "CRANBERRY URY, ARANDANO ROJO 1000 mg",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CRANBERRY-URY.jpg",
@@ -1128,6 +1141,7 @@ const productos = [
   // ================================================================
   {
     id: 7,
+    code: "7503025737355",
     name: "CREATINA MONOHIDRATADA BIRDMAN",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CreatinaBirdman1.webp",
@@ -1154,6 +1168,7 @@ const productos = [
   // ================================================================
   {
     id: 8,
+    code: "7500645000555",
     name: "CREATINA NANO FEAR",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Imagen-de-WhatsApp-2025-07-25-a-las-19.18.36_5cced7d4.jpg",
@@ -1180,6 +1195,7 @@ const productos = [
   // ================================================================
   {
     id: 9,
+    code: "7503026253540",
     name: "CUACHALALATE + TEPEZCOHUIE",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/cuachalalate1.jpg",
@@ -1206,6 +1222,7 @@ const productos = [
   // ================================================================
   {
     id: 10,
+    code: "7503024738216",
     name: "CUORE",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CUORE1.jpg",
@@ -1232,6 +1249,7 @@ const productos = [
   // ================================================================
   {
     id: 11,
+    code: "7503021404763",
     name: "CURCUMA POWDER",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CURCUMA-POLVO.png",
@@ -1258,6 +1276,7 @@ const productos = [
   // ================================================================
   {
     id: 12,
+    code: "7503021404527",
     name: "CURCUMA, JENGIBRE Y MORINGA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcuma-y-Moringa1-1.jpg",
@@ -1284,6 +1303,7 @@ const productos = [
   // ================================================================
   {
     id: 13,
+    code: "7503021404183",
     name: "CÚRCUMA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma.jpg",
@@ -1310,6 +1330,7 @@ const productos = [
   // ================================================================
   {
     id: 14,
+    code: "7503021714091",
     name: "ACEITE DE COCO 1 L",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-COCO.webp",
@@ -1336,6 +1357,7 @@ const productos = [
   // ================================================================
   {
     id: 15,
+    code: "7503021709882",
     name: "ACEITE DE COCO ORGÁNICO 420 ml",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-DE-COCO-ORGANICO.webp",
@@ -1362,6 +1384,7 @@ const productos = [
   // ================================================================
   {
     id: 16,
+    code: "7500645001118",
     name: "ACEITE DE ORÉGANO (20 ml)",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ACEITE-OREGANO1.jpg",
@@ -1388,6 +1411,7 @@ const productos = [
   // ================================================================
   {
     id: 17,
+    code: "7503029679408",
     name: "ÁCIDO ALFA LIPÓICO",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ACIDO-ALFA-LIPOICO1.webp",
@@ -1414,6 +1438,7 @@ const productos = [
   // ================================================================
   {
     id: 18,
+    code: "7503026253755",
     name: "ÁCIDO HIALURÓNICO",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ACIDO-HIALURONICO1.webp",
@@ -1440,6 +1465,7 @@ const productos = [
   // ================================================================
   {
     id: 19,
+    code: "7503016797832",
     name: "ÁCIDO LINOLEICO CONJUGADO (CLA)",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/unnamed-1.jpg",
@@ -1466,6 +1492,7 @@ const productos = [
   // ================================================================
   {
     id: 20,
+    code: "7500645000753",
     name: "AGUAJE COMPLEX",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Aguaje1.jpg",
@@ -1492,6 +1519,7 @@ const productos = [
   // ================================================================
   {
     id: 21,
+    code: "7503021404855",
     name: "AJO NEGRO + MORINGA",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/AJO-NEGRO-MORINGA1.jpg",
@@ -1518,6 +1546,7 @@ const productos = [
   // ================================================================
   {
     id: 22,
+    code: "7503021404862",
     name: "AJO NEGRO CON PROPÓLEO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Ajo-Negro-Propoleo1.jpg",
@@ -1544,6 +1573,7 @@ const productos = [
   // ================================================================
   {
     id: 23,
+    code: "7503021404558",
     name: "AJO NEGRO",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ajo-negro.jpg",
@@ -1570,6 +1600,7 @@ const productos = [
   // ================================================================
   {
     id: 24,
+    code: "7501062912209",
     name: "ALBÚMINA DE HUEVO PROWINNER",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/AlbuminadeHuevo_1.webp",
@@ -1596,6 +1627,7 @@ const productos = [
   // ================================================================
   {
     id: 25,
+    code: "7503021404831",
     name: "ALGA ESPIRULINA EN POLVO",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ALGAESPIRULINA.png",
@@ -1622,6 +1654,7 @@ const productos = [
   // ================================================================
   {
     id: 26,
+    code: "7503021404848",
     name: "ALGA ESPIRULINA ORGANICA",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Alga-Spirulina-Organica1.jpg",
@@ -1648,6 +1681,7 @@ const productos = [
   // ================================================================
   {
     id: 27,
+    code: "7503016797030",
     name: "ALOE VERA CON ARANDANO",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeVeraArandano.jpg",
@@ -1674,6 +1708,7 @@ const productos = [
   // ================================================================
   {
     id: 28,
+    code: "7503016797337",
     name: "ALOE VERA LIQUIDO TROPICAL",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0003_freepik__isolate-only-the-bottle-frontal-symmetrical-studio__56412-1.jpg",
@@ -1700,6 +1735,7 @@ const productos = [
   // ================================================================
   {
     id: 29,
+    code: "7500645001460",
     name: "AMP-ON 60 caps 600mg",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/ZN-–-AMP-ON-–-60-caps-600-mg-–-Render-–-V2-–-Marzo2026-2.jpg",
@@ -1726,6 +1762,7 @@ const productos = [
   // ================================================================
   {
     id: 30,
+    code: "7503025069791",
     name: "ARTMUUB 1.1 kg",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB_1-1.webp",
@@ -1752,6 +1789,7 @@ const productos = [
   // ================================================================
   {
     id: 31,
+    code: "7503029679736",
     name: "ARTMUUB 200 CAPS",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB1.png",
@@ -1778,6 +1816,7 @@ const productos = [
   // ================================================================
   {
     id: 32,
+    code: "7500645000418",
     name: "ASHWAGANDA ROOT",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
@@ -1804,6 +1843,7 @@ const productos = [
   // ================================================================
   {
     id: 33,
+    code: "7503026253410",
     name: "ASHWAGANDHA",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
@@ -1830,6 +1870,7 @@ const productos = [
   // ================================================================
   {
     id: 34,
+    code: "7500645001101",
     name: "ASTAXANTINA",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2025/01/astaxantina.jpg",
@@ -1856,6 +1897,7 @@ const productos = [
   // ================================================================
   {
     id: 35,
+    code: "646437080682",
     name: "BEEF FEAR",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/BEEF-FEAR-CHOCO-5001.png",
@@ -1882,6 +1924,7 @@ const productos = [
   // ================================================================
   {
     id: 36,
+    code: "7500645000524",
     name: "BERBERINA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/08/ber.jpg",
@@ -1908,6 +1951,7 @@ const productos = [
   // ================================================================
   {
     id: 37,
+    code: "7508304671641",
     name: "BPASS Bio Life 500 mg",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BPASS1.webp",
@@ -1934,6 +1978,7 @@ const productos = [
   // ================================================================
   {
     id: 38,
+    code: "7508304686836",
     name: "CAFE CON MORINGA 22 sobres",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CAFECONMORINGA.webp",
@@ -1960,6 +2005,7 @@ const productos = [
   // ================================================================
   {
     id: 39,
+    code: "7503025069005",
     name: "CAFE DE OLLA 600 g",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/cafe.jpg",
@@ -1986,6 +2032,7 @@ const productos = [
   // ================================================================
   {
     id: 40,
+    code: "7500645000814",
     name: "CAFE SOLUBLE 30 sobres",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CAFESOLUBLE.jpg",
@@ -2012,6 +2059,7 @@ const productos = [
   // ================================================================
   {
     id: 41,
+    code: "7503021404633",
     name: "CANELA CROMO",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CANELA-CROMO1.jpg",
@@ -2038,6 +2086,7 @@ const productos = [
   // ================================================================
   {
     id: 42,
+    code: "7503025069043",
     name: "CARA LLUMA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CARALLUMA1.jpg",
@@ -2064,6 +2113,7 @@ const productos = [
   // ================================================================
   {
     id: 43,
+    code: "7503016797115",
     name: "CARSYL GREEN",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/carsyl.png",
@@ -2090,6 +2140,7 @@ const productos = [
   // ================================================================
   {
     id: 44,
+    code: "7501734412877",
     name: "CASTAÑO DE INDIAS",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CASTANODEINDIAS.webp",
@@ -2116,6 +2167,7 @@ const productos = [
   // ================================================================
   {
     id: 45,
+    code: "7503026253601",
     name: "CHROMIUM",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0001s_0002_Presentacion-blanco.jpg",
@@ -2142,6 +2194,7 @@ const productos = [
   // ================================================================
   {
     id: 46,
+    code: "7500645001033",
     name: "CITRATO DE MAGNESIO POWDER 500 gr",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0001s_0002_Presentacion-blanco.jpg",
@@ -2168,6 +2221,7 @@ const productos = [
   // ================================================================
   {
     id: 47,
+    code: "7503029679002",
     name: "CITRATO DE POTASIO",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/potassium.jpg",
@@ -2194,6 +2248,7 @@ const productos = [
   // ================================================================
   {
     id: 48,
+    code: "7503016797139",
     name: "CLOROFILA LIQUIDA 500 ml",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CLOROFILALIQUIDA.jpg",
@@ -2220,6 +2275,7 @@ const productos = [
   // ================================================================
   {
     id: 49,
+    code: "7503029679118",
     name: "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/CLOROFILA1.webp",
@@ -2246,6 +2302,7 @@ const productos = [
   // ================================================================
   {
     id: 50,
+    code: "7503021404602",
     name: "CLORURO DE MAGNESIO",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/cloruro.jpg",
@@ -2269,6 +2326,7 @@ const productos = [
   // 51. MOROIZY 90 caps 500 mg
 {
   id: 51,
+  code: "7503021404961",
   name: "MOROIZY",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MOROIZY.jpg",
@@ -2293,6 +2351,7 @@ const productos = [
 // 52. MYO + D-CHIRO Inositol 500 mg (90 caps)
 {
   id: 52,
+  code: "7500645000838",
   name: "MYO + D-CHIRO INOSITOL 500 mg",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MYO-DCHIRO1.png",
@@ -2317,6 +2376,7 @@ const productos = [
 // 53. MYO + D-CHIRO INOSITOL POWDER 300g - 40:1
 {
   id: 53,
+  code: "7500645001071",
   name: "MYO + D-CHIRO INOSITOL POWDER 300g - 40:1",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MYO-DCHIRO-INOSITOL-POWDER1.jpg",
@@ -2341,6 +2401,7 @@ const productos = [
 // 54. Curcumina (90 caps, con piperina y vitamina C)
 {
   id: 54,
+  code: "7503026253557",
   name: "CURCUMINA",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcumina1-1.jpg",
@@ -2365,6 +2426,7 @@ const productos = [
 // 55. D3 1000u 30 caps (con vitamina C, equinácea)
 {
   id: 55,
+  code: "7503029679101",
   name: "D3 1000u 30 caps",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
@@ -2389,6 +2451,7 @@ const productos = [
 // 56. DEMOGRASS CLÁSICO (30 cápsulas)
 {
   id: 56,
+  code: "7501172019331",
   name: "DEMOGRASS CLÁSICO",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSCLASICO.webp",
@@ -2413,6 +2476,7 @@ const productos = [
 // 57. Demograss Plus (30 cápsulas, 14 ingredientes)
 {
   id: 57,
+  code: "7501172018228",
   name: "DEMOGRASS PLUS",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPLUS.webp",
@@ -2437,6 +2501,7 @@ const productos = [
 // 58. DIOLA ROSE (90 caps)
 {
   id: 58,
+  code: "7500645000791",
   name: "DIOLA ROSE",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Diola-Rose1-1.jpg",
@@ -2461,6 +2526,7 @@ const productos = [
 // 59. DT Green (15 caps)
 {
   id: 59,
+  code: "7503016797207",
   name: "DT GREEN",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0005s_0002_Presentacion-blanco.jpg",
@@ -2485,6 +2551,7 @@ const productos = [
 // 60. Endis (90 caps, enzimas digestivas)
 {
   id: 60,
+  code: "7503021404657",
   name: "ENDIS",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ENENDIS.png",
@@ -2509,6 +2576,7 @@ const productos = [
 // 61. EQUINACEA Y VITAMINA C 500 mg (90 caps)
 {
   id: 61,
+  code: "7503029679057",
   name: "EQUINACEA Y VITAMINA C",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Equinacea1.jpg",
@@ -2533,6 +2601,7 @@ const productos = [
 // PRODUCTO 62 - EVEAUX 500 mg
 {
   id: 62,
+  code: "7503021404589",
   name: "EVEAUX 500 mg",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/eveaux.jpg",
@@ -2557,6 +2626,7 @@ const productos = [
 // 63. Fenogreco (90 caps)
 {
   id: 63,
+  code: "7503026253885",
   name: "FENOGRECO",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/fenogreco-1.jpg",
@@ -2581,6 +2651,7 @@ const productos = [
 // 64. FITMINGO 510 GR VAINILLA (proteína vegetal)
 {
   id: 64,
+  code: "7503037273384",
   name: "FITMINGO 510 GR VAINILLA",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FITMINGO_LISTINGS_VAINILLA510_01_1.webp",
@@ -2605,6 +2676,7 @@ const productos = [
 // 66. FLOR ESSENCE (500 ml, remedio herbolario)
 {
   id: 66,
+  code: "61998080702",
   name: "FLOR-ESSENCE",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FlorEssence1.webp",
@@ -2629,6 +2701,7 @@ const productos = [
 // 67. FUNGONE
 {
   id: 67,
+  code: "7503026253618",
   name: "FUNGONE",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Fungone1.jpg",
@@ -2653,6 +2726,7 @@ const productos = [
 // 68. GABA (30 caps)
 {
   id: 68,
+  code: "7503021404695",
   name: "GABA",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GABA1.jpg",
@@ -2677,6 +2751,7 @@ const productos = [
 // 69. GENTILAX (laxante con fenolftaleína) - se incluye pero con advertencia
 {
   id: 69,
+  code: "7501737500038",
   name: "GENTILAX",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/gentilax.webp",
@@ -2700,6 +2775,7 @@ const productos = [
 // 70. Ginkgo Biloba (90 caps)
 {
   id: 70,
+  code: "7503026253502",
   name: "GINKGO BILOBA",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
@@ -2724,6 +2800,7 @@ const productos = [
 // 71. GLUTAMINE FEAR (300 g)
 {
   id: 71,
+  code: "7503021404244",
   name: "GLUTAMINE FEAR",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Glutamina_1_46f39ebf-7ea9-40eb-9fe2-91c439e45717.webp",
@@ -2748,6 +2825,7 @@ const productos = [
 // 72. GLUTATHIONE BLEND 500 mg (120 caps)
 {
   id: 72,
+  code: "7500645000456",
   name: "GLUTATHIONE BLEND",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/gluta.jpg",
@@ -2772,6 +2850,7 @@ const productos = [
 // 73. GOJI TRIM® 500 mg BIO LIFE (30 caps)
 {
   id: 73,
+  code: "690939403401",
   name: "GOJI TRIM 500 mg BIO LIFE",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GOJI.webp",
@@ -2796,6 +2875,7 @@ const productos = [
 // 74. GOJI (30 caps)
 {
   id: 74,
+  code: "7506022814081",
   name: "GOJI",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GOJI1.jpg",
@@ -2820,6 +2900,7 @@ const productos = [
 // 75. GOJIZEN MAX (ACTUALIZADO)
 {
   id: 75,
+  code: "7503025069036",
   name: "GOJIZEN MAX",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0000_freepik__reflective-red-plastic-bottle-gently-tapered-shoul__80768.jpg",
@@ -2844,6 +2925,7 @@ const productos = [
 // 76. GREEN LX 300 mg (50 tabletas)
 {
   id: 76,
+  code: "7503016797597",
   name: "GREEN LX",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GREEEN-XL.jpg",
@@ -2868,6 +2950,7 @@ const productos = [
 // 77. HERCAMPURRI 500 mg (90 caps)
 {
   id: 77,
+  code: "7503026253908",
   name: "HERCAMPURRI",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/HERCAMPURRI.jpg",
@@ -2892,6 +2975,7 @@ const productos = [
 // 78. HPR PROS GREEN ZEN (120 caps)
 {
   id: 78,
+  code: "7500645000340",
   name: "HPR PROS",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/HPRPros.jpg",
@@ -2916,6 +3000,7 @@ const productos = [
 // 79. INOSITOL POWDER (120 caps)
 {
   id: 79,
+  code: "7500645000395",
   name: "INOSITOL POWDER",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Inositol1.jpg",
@@ -2940,6 +3025,7 @@ const productos = [
 // 80. ISOFLAVONAS DE SOYA 500 mg (90 caps)
 {
   id: 80,
+  code: "7503021404503",
   name: "ISOFLAVONAS DE SOYA 500 mg",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ISOFLAVONAS1.webp",
@@ -2964,6 +3050,7 @@ const productos = [
 // 81. JENGIBRE 500 mg (60 caps)
 {
   id: 81,
+  code: "7503021404176",
   name: "JENGIBRE",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/JENGIBRE.jpg",
@@ -2988,6 +3075,7 @@ const productos = [
 // 82. Krill Oil (80 cápsulas)
 {
   id: 82,
+  code: "7500645000463",
   name: "KRILL OIL",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/krill-1.jpg",
@@ -3012,6 +3100,7 @@ const productos = [
 // 83. L-ARGININA NANO FEAR 850MG (100 cápsulas)
 {
   id: 83,
+  code: "7503021404596",
   name: "L-ARGININA NANO FEAR 850MG",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-ARGININA-1.jpg",
@@ -3036,6 +3125,7 @@ const productos = [
 // 84. L-CARNITINA, GUARANÁ Y GARCINIA (100 cápsulas)
 {
   id: 84,
+  code: "7501062913671",
   name: "L-CARNITINA, GUARANÁ Y GARCINIA",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Carnitina1.webp",
@@ -3060,6 +3150,7 @@ const productos = [
 // 85. L-CARNOSINE ZINC (30 cápsulas)
 {
   id: 85,
+  code: "7500645001521",
   name: "L-CARNOSINE ZINC",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZN-–-ZINC-L-CARNOSINE-–-30-caps-–-Render-–-V2-–-Marzo2026.jpg",
@@ -3084,6 +3175,7 @@ const productos = [
 // 86. Leucaps (60 cápsulas, luteína y zeaxantina)
 {
   id: 86,
+  code: "7503025069401",
   name: "LEUCAPS",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/leucaps.jpg",
@@ -3108,6 +3200,7 @@ const productos = [
 // 87. L-TIROSINA 500 mg (60 caps)
 {
   id: 87,
+  code: "7503026253076",
   name: "L-TIROSINA",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-TYROSINE1.webp",
@@ -3132,6 +3225,7 @@ const productos = [
 // 88. MACA NEGRA (polvo, 150 g)
 {
   id: 88,
+  code: "7503021404893",
   name: "MACA NEGRA",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MACANEGRA.webp",
@@ -3156,6 +3250,7 @@ const productos = [
 // 89. MACA, JENGIBRE Y DAMIANA 500 mg (60 caps)
 {
   id: 89,
+  code: "7503021404213",
   name: "MACA, JENGIBRE Y DAMIANA",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/maca-1.jpg",
@@ -3180,6 +3275,7 @@ const productos = [
 // 90. Maca (90 caps, mezcla de amarilla, roja y negra)
 {
   id: 90,
+  code: "7503029679941",
   name: "MACA 90 CAPS",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/maca.jpg",
@@ -3204,6 +3300,7 @@ const productos = [
 // 91. Magnesio Blend (120 caps, citrato, gluconato, óxido)
 {
   id: 91,
+  code: "7500645000425",
   name: "MAGNESIO BLEND",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/blend.jpg",
@@ -3228,6 +3325,7 @@ const productos = [
 // 92. MAGNESIUM MALATE (60 caps)
 {
   id: 92,
+  code: "7500645001491",
   name: "MAGNESIUM MALATE",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesio-Malate1.jpg",
@@ -3252,6 +3350,7 @@ const productos = [
 // 93. MagnesiumAM600mg (120 caps, citrato + bisglicinato)
 {
   id: 93,
+  code: "7500645001453",
   name: "MAGNESIUM AM 600mg",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual1.jpg",
@@ -3276,6 +3375,7 @@ const productos = [
 // 94. Magnesium PM 600mg (90 caps, fórmula nocturna)
 {
   id: 94,
+  code: "7500645001538",
   name: "MAGNESIUM PM 600mg",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual-PM1.jpg",
@@ -3300,6 +3400,7 @@ const productos = [
 // 95. MANGO AFRICANO (30 caps)
 {
   id: 95,
+  code: "7500645000531",
   name: "MANGO AFRICANO (30 cápsulas)",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/mango-africano.jpg",
@@ -3324,6 +3425,7 @@ const productos = [
 // 96. MASS FEAR 8 LBS (ganador de masa)
 {
   id: 96,
+  code: "7500645001187",
   name: "MASS FEAR 8 LBS",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MASS-FEAR-CHOCOLATE-NUT4-1.png",
@@ -3348,6 +3450,7 @@ const productos = [
 // 97. MATCHA ORGÁNICO 100 g
 {
   id: 97,
+  code: "7503026253861",
   name: "MATCHA ORGÁNICO 100g",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/Matcha.jpg",
@@ -3372,6 +3475,7 @@ const productos = [
 // 98. Melena de León (90 caps)
 {
   id: 98,
+  code: "7500645000852",
   name: "MELENA DE LEÓN",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MELENA-LEON1.jpg",
@@ -3396,6 +3500,7 @@ const productos = [
 // 99. MIEL MULTIFLORA (560 g)
 {
   id: 99,
+  code: "7503021404954",
   name: "MIEL MULTIFLORA",
     category: "nutricional",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MIEL-MULTIFLORA.png",
@@ -3420,6 +3525,7 @@ const productos = [
 // 100. MORINGA ORGÁNICA (90 caps)
 {
   id: 100,
+  code: "7503021404565",
   name: "MORINGA ORGÁNICA",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0003s_0002_Presentacion_blanco.webp",
@@ -3443,6 +3549,7 @@ const productos = [
 // 101. UBIQUINOL KANEKA (30 cápsulas, 120 mg de ubiquinol)
 {
   id: 101,
+  code: "7500645001576",
   name: "UBIQUINOL KANEKA",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZN-–-UBIQUINOL-KANEKA-30-CAPS–-RENDER–-V1–-MAYO2026.jpeg",
@@ -3467,6 +3574,7 @@ const productos = [
 // 102. UC-II® Collagen Boswellia Curcumin (60 caps, fórmula articular)
 {
   id: 102,
+  code: "7500645001507",
   name: "UC-II® Collagen Boswellia Curcumin",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Boswelia1.jpg",
@@ -3491,6 +3599,7 @@ const productos = [
 // 103. Vinagre de Manzana (500 ml, líquido)
 {
   id: 103,
+  code: "7503025069890",
   name: "VINAGRE DE MANZANA",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ManzanaVinagre.jpg",
@@ -3515,6 +3624,7 @@ const productos = [
 // 104. Vinagre Sidra de Manzana (90 caps, en cápsulas con cúrcuma, jengibre, canela y pimienta negra)
 {
   id: 104,
+  code: "7500645000432",
   name: "VINAGRE SIDRA DE MANZANA",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
@@ -3539,6 +3649,7 @@ const productos = [
 // 105. VITA RX MENS (120 caps, multivitamínico y mineral para hombres)
 {
   id: 105,
+  code: "7500645000333",
   name: "VITA RX MENS",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/VitaRX-1.jpg",
@@ -3563,6 +3674,7 @@ const productos = [
 // 106. VITA RX TESTO (120 caps, fórmula para la vitalidad masculina y equilibrio hormonal)
 {
   id: 106,
+  code: "7500645000401",
   name: "VITA RX TESTO",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides_0001s_0002_Presentacion-blanco.jpg",
@@ -3587,6 +3699,7 @@ const productos = [
 // 107. VITA RX WOMENS (120 caps, multivitamínico y mineral para mujeres)
 {
   id: 107,
+  code: "7500645000326",
   name: "VITA RX WOMENS",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/2VitaRX.jpg",
@@ -3611,6 +3724,7 @@ const productos = [
 // 108. Vitamina C-1000 NOW (100 caps, 1000 mg de vitamina C con bioflavonoides)
 {
   id: 108,
+  code: "73373900690",
   name: "VITAMINA C-1000 NOW",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VITAMINAC-1000.jpg",
@@ -3635,6 +3749,7 @@ const productos = [
 // 109. Vitamina D3 + Magnesio, K2 y Zinc (60 caps)
 {
   id: 109,
+  code: "7500645000067",
   name: "VITAMINA D3 + MAGNESIO, K2 Y ZINC",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/D3-1.jpg",
@@ -3659,6 +3774,7 @@ const productos = [
 // 110. Vitamina E 1000 Greenlife (60 perlas)
 {
   id: 110,
+  code: "7503016797535",
   name: "VITAMINA E 1000 GREENLIFE",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/vitamina-e-1000-1200mg-zennaturamx-457200.webp",
@@ -3683,6 +3799,7 @@ const productos = [
 // 111. WHEY CHOCONUEZ NANOFEAR (proteína hidrolizada de suero de leche, 500 g)
 {
   id: 111,
+  code: "7500645001132",
   name: "WHEY CHOCONUEZ NANOFEAR",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/WHEY-PROTEIN-500-VAINILLA-CANELA1.png",
@@ -3707,6 +3824,7 @@ const productos = [
 // 112. WHEY PROTEIN HARDER (1 kg, aislado de suero al 90% sin carbohidratos)
 {
   id: 112,
+  code: "7503026253731",
   name: "WHEY PROTEIN HARDER",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WP-HARDER.png",
@@ -3731,6 +3849,7 @@ const productos = [
 // 113. WPI 90 (WHEY PROTEIN ISOLATE 90, 1.02 kg)
 {
   id: 113,
+  code: "7503026253731",
   name: "WPI 90 (WHEY PROTEIN ISOLATE 90)",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZN-–-WHEY-PROEIN-ISOLATE-90-–1.02-KG–-RENDER–-V1–-MAYO2026.jpeg",
@@ -3755,6 +3874,7 @@ const productos = [
 // 114. Ximo (30 caps, 450 mg, fórmula botánica con espirulina, tejocote, piña, nopal, vitaminas C y A)
 {
   id: 114,
+  code: "7503021404725",
   name: "XIMO",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/Ximo-1.jpg",
@@ -3779,6 +3899,7 @@ const productos = [
 // 115. Yumel (Yumel Simila, solución oral homeopática de Guatteria gaumeri)
 {
   id: 115,
+  code: "7502221950681",
   name: "YUMEL SIMILA",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Yumel1.webp",
@@ -3803,6 +3924,7 @@ const productos = [
 // 116. NAC N-AcetylCysteine 500 mg ZN (60 caps, 500 mg de N-Acetilcisteína por cápsula)
 {
   id: 116,
+  code: "7500645000777",
   name: "NAC N-AcetylCysteine 500 mg ZN",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/NAC1.jpg",
@@ -3827,6 +3949,7 @@ const productos = [
 // 117. NAD + Resveratrol (90 caps, 300 mg de NAD, 50 mg de resveratrol, 50 mg de acai)
 {
   id: 117,
+  code: "7500645000869",
   name: "NAD + Resveratrol",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2024/02/nad.jpg",
@@ -3851,6 +3974,7 @@ const productos = [
 // 118. NEEM CON NOPAL (9 caps, 3 porciones, combina neem, nopal y ácido alfa lipoico)
 {
   id: 118,
+  code: "7503025069593",
   name: "NEEM CON NOPAL",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides_0008s_0002_Presentacion-blanco.jpg",
@@ -3875,6 +3999,7 @@ const productos = [
 // 119. NMN Advanced Resveratrol 550 mg ZN (30 caps, NMN, resveratrol, astrágalo, quercetina, piperina)
 {
   id: 119,
+  code: "7500645001354",
   name: "NMN ADVANCED RESVERATROL",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2025/09/NMN-1.png",
@@ -3899,6 +4024,7 @@ const productos = [
 // 120. OMEGA 3 NANO FEAR (90 softgels, aceite de salmón concentrado con EPA 1198.8 mg y DHA 601.2 mg por porción)
 {
   id: 120,
+  code: "7503016797849",
   name: "OMEGA 3 NANO FEAR",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Omega-Nano.png",
@@ -3923,6 +4049,7 @@ const productos = [
 // 122. OMEGA 3 SALMON OIL 1g ZN (120 caps, aceite de salmón con EPA 180 mg y DHA 150 mg por cápsula)
 {
   id: 122,
+  code: "7500645000036",
   name: "OMEGA 3 SALMON OIL",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/OMEGA3-1.jpg",
@@ -3947,6 +4074,7 @@ const productos = [
 // 123. OMEGA NORDIC 3000 (90 caps, aceite de pescado concentrado EPAX® con EPA 900 mg y DHA 600 mg por porción)
 {
   id: 123,
+  code: "7500645001644",
   name: "OMEGA NORDIC 3000",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ZN-%E2%80%93-UOMEGA-NORDIC-3000-90-CAPS%E2%80%93-RENDER%E2%80%93-V1%E2%80%93-MAYO2026.jpeg",
@@ -3971,6 +4099,7 @@ const productos = [
 // 124. ON-C-LEN 750 mg (60 tabletas, fórmula botánica con diente de león, guanábana, shiitake, reishi, té verde, jengibre, ajo, polen)
 {
   id: 124,
+  code: "7500645000807",
   name: "ON-C-LEN",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0005s_0002_Presentacion-blanco.jpg",
@@ -3995,6 +4124,7 @@ const productos = [
 // 125. PÉPTIDOS COLÁGENO HIDROLIZADO (1 kg, polvo de colágeno hidrolizado bovino puro)
 {
   id: 125,
+  code: "7500645000296",
   name: "PÉPTIDOS COLÁGENO HIDROLIZADO",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/PeptidosColagenoHidrolizado.jpg",
@@ -4019,6 +4149,7 @@ const productos = [
 // 126. PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO (990 g, colágeno + ácido hialurónico)
 {
   id: 126,
+  code: "7500645000302",
   name: "PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ColagenoHidrolizado.jpg",
@@ -4043,6 +4174,7 @@ const productos = [
 // 127. PETALOS DE ROSA CON VIT C (90 caps, 1000 mg, con vitamina C, zinc, cromo, rosa y naranja)
 {
   id: 127,
+  code: "7503029679378",
   name: "PETALOS DE ROSA CON VIT C",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/petalos-de-rosa-1.jpg",
@@ -4067,6 +4199,7 @@ const productos = [
 // 128. POTASSIUM DUAL COMPLEX (90 caps, citrato y cloruro de potasio, magnesio, calcio, vitamina B6 e inulina)
 {
   id: 128,
+  code: "7500645001477",
   name: "POTASSIUM DUAL COMPLEX",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Potassium-Dual1.jpg",
@@ -4091,6 +4224,7 @@ const productos = [
 // 129. Probióticos 60 Billones 500MG (60 caps, 60 billones UFC con L. acidophilus, L. sporogenes, L. rhamnosus e inulina)
 {
   id: 129,
+  code: "7503029679729",
   name: "PROBIOTICOS 60 BILLONES 500MG",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/pro.jpg",
@@ -4115,6 +4249,7 @@ const productos = [
 // 130. PROBIOTICOS 60 BILLONES MUJERES ZN (60 caps, 60 billones UFC con probióticos, vitamina C, arándano rojo e inulina)
 {
   id: 130,
+  code: "7500645001057",
   name: "PROBIOTICOS 60 BILLONES MUJERES ZN",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0009s_0002_Presentacion-blanco-1.jpg",
@@ -4139,6 +4274,7 @@ const productos = [
 // 131. Probióticos 100 Billones 500MG ZN (60 caps, 100 billones UFC con 7 cepas e inulina)
 {
   id: 131,
+  code: "7500645000449",
   name: "Probióticos 100 Billones 500MG ZN",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
@@ -4163,6 +4299,7 @@ const productos = [
 // 132. PROBITY 30 caps 600 mg (fórmula multibotánica con acetil L-carnitina, té verde, chá de bugre, vinagre de manzana, etc.)
 {
   id: 132,
+  code: "7503021404060",
   name: "PROBITY",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/probity-1.jpg",
@@ -4187,6 +4324,7 @@ const productos = [
 // 133. ProHiman (30 caps, 200 mg, con raíz de lima, linaza, malva, omegas 3,6,9, lecitina de soya)
 {
   id: 133,
+  code: "7503016797863",
   name: "PROHIMAN",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ProHiman.jpg",
@@ -4211,6 +4349,7 @@ const productos = [
 // 134. PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS (488 g, proteína de chícharo y arroz, BCAA, probióticos)
 {
   id: 134,
+  code: "7501468148738",
   name: "PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/7501468148738_1.webp",
@@ -4235,6 +4374,7 @@ const productos = [
 // 135. PROTEÍNA VEGANA VAINILLA HABITS (488 g, proteína de chícharo y arroz, BCAA, probióticos, vainilla)
 {
   id: 135,
+  code: "7501468148721",
   name: "PROTEÍNA VEGANA VAINILLA HABITS",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/habitsvainilla1.webp",
@@ -4259,6 +4399,7 @@ const productos = [
 // 136. Q10 (Coenzima Q10, 30 caps, con baya dorada, vitamina B6)
 {
   id: 136,
+  code: "7503021404879",
   name: "Q10 (Coenzima Q10)",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2025/05/COENZIMA-Q10.png",
@@ -4283,6 +4424,7 @@ const productos = [
 // 137. Raíz de Shatavari + Schisandra 1000 mg ZN (60 caps, shatavari, schisandra, jalea real)
 {
   id: 137,
+  code: "7500645000845",
   name: "RAÍZ DE SHATAVARI * SCHISANDRA 1000 mg ZN",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/RAIZ-SHATAVARI1-2.jpg",
@@ -4307,6 +4449,7 @@ const productos = [
 // 138. RESVERATROL 500 mg ZN (120 caps, resveratrol, semilla de uva, vitamina C, acai)
 {
   id: 138,
+  code: "7500645000760",
   name: "RESVERATROL 500 mg ZN",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/RESVERATROL1.jpg",
@@ -4331,6 +4474,7 @@ const productos = [
 // 139. Rinichi (90 caps, 500 mg, palo azul, cola de caballo, cabellos de elote, zinc, selenio)
 {
   id: 139,
+  code: "7503021404541",
   name: "RINICHI",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/rinichi.jpg",
@@ -4355,6 +4499,7 @@ const productos = [
 // 140. Sábila con Nopal y Cuachalalate 1L (PROSA, líquido)
 {
   id: 140,
+  code: "7501734422104",
   name: "SÁBILA CON NOPAL Y CUACHALALATE 1L",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Sabila_NopalyCuachalalate1.webp",
@@ -4379,6 +4524,7 @@ const productos = [
 // 141. SDOMACHUS 500 mg (60 caps, fórmula digestiva con aloe vera, cardamomo, jengibre, agave, magnesio, B6, colpachi, B12, zinc, selenio)
 {
   id: 141,
+  code: "7503021404572",
   name: "SDOMACHUS 500 mg",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
@@ -4403,6 +4549,7 @@ const productos = [
 // 142. Selenio 90 tabs 100 mcg (PRONACEN, selenio en levadura)
 {
   id: 142,
+  code: "7503000733686",
   name: "SELENIO PRONACEN",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SELENIO.webp",
@@ -4427,6 +4574,7 @@ const productos = [
 // 143. Shilajit & Tongkat Ali Blend (60 caps, shilajit, tongkat ali, maca, tribulus, zinc, B6, D3)
 {
   id: 143,
+  code: "7500645001002",
   name: "SHILAJIT & TONGKAT ALI BLEND",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SHILAJIT1.jpg",
@@ -4451,6 +4599,7 @@ const productos = [
 // 144. SIMILAXOL (50 tabletas, laxante homeopático con fenolftaleína amarilla SM)
 {
   id: 144,
+  code: "75020286",
   name: "SIMILAXOL",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SIMILAXOL.webp",
@@ -4475,6 +4624,7 @@ const productos = [
 // 145. SOY LECITHIN + CHOLINE (30 caps, lecitina de soya 1200 mg, colina bitartrato 100 mg, jengibre, inulina)
 {
   id: 145,
+  code: "7500645001484",
   name: "SOY LECITHIN + CHOLINE",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/SOY-LECITIN1.jpg",
@@ -4499,6 +4649,7 @@ const productos = [
 // 146. Té Piñalim (30 sobres de 3 g, piña, linaza, té verde, té rojo, té blanco)
 {
   id: 146,
+  code: "7502217902526",
   name: "TÉ PIÑALIM (Infusión)",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Pinalimte1.webp",
@@ -4523,6 +4674,7 @@ const productos = [
 // 147. Tiamina 3000 Alexyac (100 tabletas, fórmula premium con tiamina, cafeína, guaraná, jalea real, polen, etc.)
 {
   id: 147,
+  code: "7503024065572",
   name: "TIAMINA 3000 ALEXYAC",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TIAMINA-ALEXYAC.webp",
@@ -4547,6 +4699,7 @@ const productos = [
 // 148. TO ADZEN / HIERBA DE SAPO 500 mg (90 caps, hierba del sapo en polvo)
 {
   id: 148,
+  code: "7503026253892",
   name: "TO ADZEN / HIERBA DE SAPO 500 mg",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0006s_0002_Presentacion-blanco.jpg",
@@ -4571,6 +4724,7 @@ const productos = [
 // 149. Treonato de magnesio (60 caps, L-treonato de magnesio, té verde, vitaminas C y D)
 {
   id: 149,
+  code: "7500645000746",
   name: "TREONATO DE MAGNESIO",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TREONATO-MAGNESIO1.jpg",
@@ -4595,6 +4749,7 @@ const productos = [
 // 150. TRIPTOFANO TEANINA 500 mg (30 caps, L-triptófano, azahar, teanina, vitamina D3)
 {
   id: 150,
+  code: "7503025069852",
   name: "TRIPTOFANO TEANINA 500 mg",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TRIPTOFANO1.jpg",
@@ -4618,6 +4773,7 @@ const productos = [
 // 151. Zen Greens 200G (polvo verde con prebióticos, vegetales, enzimas y probióticos)
 {
   id: 151,
+  code: "7500645001446",
   name: "ZEN GREENS 200G",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZenGreen1.jpg",
@@ -4642,6 +4798,7 @@ const productos = [
 // 152. Zinc con Ginger (zinc 20 mg + jengibre 400 mg por cápsula)
 {
   id: 152,
+  code: "7503029679163",
   name: "ZINC CON GINGER",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ZincYJengibre.jpg",
@@ -4666,6 +4823,7 @@ const productos = [
 // 153. ZINC (zinc elemental 20 mg por cápsula)
 {
   id: 153,
+  code: "7500645000319",
   name: "ZINC",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZINCYAVENA_1.webp",
@@ -4690,6 +4848,7 @@ const productos = [
 // PRODUCTO 154 - Calcium Citrate 510 mg
 {
     id: 154,
+    code: "7500645001514",
     name: "CALCIUM CITRATE 510 mg",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/CALCIUM-CITRATE1.jpg",
@@ -4714,6 +4873,7 @@ const productos = [
 // PRODUCTO 155 - HONIG ABAGREEN VERDE
 {
     id: 155,
+    code: "7503016797009",
     name: "HONIG ABAGREEN VERDE",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREENVERDE.png",
@@ -4738,6 +4898,7 @@ const productos = [
 // PRODUCTO 156 - HONIG ABAGREEN ROJO
 {
     id: 156,
+    code: "7503024738094",
     name: "HONIG ABAGREEN ROJO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREEN-ROJO.png",
@@ -4762,6 +4923,7 @@ const productos = [
 // PRODUCTO 157 - NUYO
 {
     id: 157,
+    code: "7503021404206",
     name: "NUYO",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NUYO.png",
@@ -4786,6 +4948,7 @@ const productos = [
 // PRODUCTO 158 - PROTEÍNA CACAO HIGH PERFORMANCE
 {
     id: 158,
+    code: "7501468149636",
     name: "PROTEÍNA CACAO HIGH PERFORMANCE",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/HABITHP.webp",
@@ -4810,6 +4973,7 @@ const productos = [
 // PRODUCTO 159 - VITA RX NANO FEAR
 {
     id: 159,
+    code: "7503016797627",
     name: "VITA RX NANO FEAR",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VITARX-NANO1.png",
@@ -4834,6 +4998,7 @@ const productos = [
  // PRODUCTO 160 - MCT OIL BIRDMAN
 {
         id: 160,
+        code: "7503025737362",
         name: "MCT OIL BIRDMAN",
         category: "metabolismo",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MCTOIL-BIRDMAN.webp",
@@ -4858,6 +5023,7 @@ const productos = [
     // PRODUCTO 161 - VGREEN
   {
     id: 161,
+    code: "7503016797498",
     name: "VGREEN",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VGREEN.png",
@@ -4882,6 +5048,7 @@ const productos = [
     // PRODUCTO 163 - ASH + MAG COMPLEX
     {
         id: 163,
+        code: "7500645001668",
         name: "ASH + MAG COMPLEX",
         category: "nervioso",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/RENDER-ASHWA-MAG-COMPLEX-1.jpeg",
@@ -4907,6 +5074,7 @@ const productos = [
 // PRODUCTO 164 - ALOE VERA NOPAL CON CUACHALALATE
 {
     id: 164,
+    code: "7503016797634",
     name: "ALOE VERA NOPAL CON CUACHALALATE",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeCuachalalate.jpg",
@@ -4931,6 +5099,7 @@ const productos = [
 // PRODUCTO 165 - TÉ VERDE
 {
     id: 165,
+    code: "7503024738278",
     name: "TÉ VERDE",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-VERDE--scaled.png",
@@ -4955,6 +5124,7 @@ const productos = [
 // PRODUCTO 166 - D3 5000 UI
 {
     id: 166,
+    code: "7500645000821",
     name: "D3 5000 UI",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2024/02/D3.jpg",
@@ -4979,6 +5149,7 @@ const productos = [
 // PRODUCTO 167 - FIX UZEN
 {
     id: 167,
+    code: "7503025069647",
     name: "FIX UZEN",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FIX-UZEN-scaled.png",
@@ -5003,6 +5174,7 @@ const productos = [
 // PRODUCTO 168 - HPR PROS GREEN
 {
     id: 168,
+    code: "'7503016797382",
     name: "HPR PROS GREEN",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/HPR-PROSGREEN-LIFE.png",
@@ -5027,6 +5199,7 @@ const productos = [
 // PRODUCTO 169 - TÉ 7 AZAHARES
 {
     id: 169,
+    code: "7503024738261",
     name: "TÉ 7 AZAHARES",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-7-AZAHARES-scaled.png",
@@ -5051,6 +5224,7 @@ const productos = [
 // PRODUCTO 170 - TÉ ABANGREEN
 {
     id: 170,
+    code: "7503024738339",
     name: "TÉ ABANGREEN",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ABANGREEN-scaled.png",
@@ -5075,6 +5249,7 @@ const productos = [
 // PRODUCTO 171 - TÉ ÁRNICA
 {
     id: 171,
+    code: "7503024738285",
     name: "TÉ ÁRNICA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ARNICA-scaled.png",
@@ -5099,6 +5274,7 @@ const productos = [
 // PRODUCTO 172 - TÉ CUACHALALATE
 {
     id: 172,
+    code: "7503024738254",
     name: "TÉ CUACHALALATE",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
@@ -5123,6 +5299,7 @@ const productos = [
 // PRODUCTO 173 - TÉ HOJA SEN
 {
     id: 173,
+    code: "7503024738247",
     name: "TÉ HOJA SEN",
     category: "laxantes",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-HOJA-SEN-scaled.png",
@@ -5147,6 +5324,7 @@ const productos = [
 // PRODUCTO 174 - TÉ JENGIBRE CANELA
 {
     id: 174,
+    code: "7503025069395",
     name: "TÉ JENGIBRE CANELA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
@@ -5171,6 +5349,7 @@ const productos = [
 // PRODUCTO 175 - TÉ JENGIBRE Y CÚRCUMA
 {
     id: 175,
+    code: "7503024738308",
     name: "TÉ JENGIBRE Y CÚRCUMA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
@@ -5195,6 +5374,7 @@ const productos = [
 // PRODUCTO 176 - TÉ MANZANILLA
 {
     id: 176,
+    code: "7503026253311",
     name: "TÉ MANZANILLA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-MANZANILLA-1-scaled.png",
@@ -5219,6 +5399,7 @@ const productos = [
 // PRODUCTO 177 - TÉ RINICHI
 {
     id: 177,
+    code: "7503024738353",
     name: "TÉ RINICHI",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-RINICHI-scaled.png",
@@ -5243,6 +5424,7 @@ const productos = [
 // PRODUCTO 178 - QUERCETIN
 {
     id: 178,
+    code: "7503029679767",
     name: "QUERCETIN",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/QUERCETIN.png",
@@ -5267,6 +5449,7 @@ const productos = [
 // PRODUCTO 179 - BACAO GREEN JARABE
 {
     id: 179,
+    code: "7503016797054",
     name: "BACAO GREEN JARABE",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BACAO-JARABE.png",
@@ -5291,6 +5474,7 @@ const productos = [
 // PRODUCTO 180 - PURE INOSITOL POWDER
 {
     id: 180,
+    code: "7502002826105",
     name: "PURE INOSITOL POWDER",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PURE-INOSITOL-POWDER.png",
@@ -5315,6 +5499,7 @@ const productos = [
 // PRODUCTO 181 - MAGNESIUM BISGLYCINATE
 {
     id: 181,
+    code: "7500645001606",
     name: "MAGNESIUM BISGLYCINATE",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BISGLICINATO-MAGNESIO.png",
@@ -5339,6 +5524,7 @@ const productos = [
 // PRODUCTO 182 - MOROIZY GEL
 {
     id: 182,
+    code: "7503026253700",
     name: "MOROIZY GEL",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MOROIZY.png",
@@ -5363,6 +5549,7 @@ const productos = [
 // PRODUCTO 183 - CT-O
 {
     id: 183,
+    code: "7503026253717",
     name: "CT-O",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CT-O.png",
@@ -5387,6 +5574,7 @@ const productos = [
 // PRODUCTO 184 - ZENMUN
 {
     id: 184,
+    code: "7503029679156",
     name: "ZENMUN",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Zenmun1.jpg",
@@ -5411,6 +5599,7 @@ const productos = [
 // PRODUCTO 185 - ASTRÁGALO
 {
     id: 185,
+    code: "7502214013263",
     name: "ASTRÁGALO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ASTRAGALO.png",
@@ -5435,6 +5624,7 @@ const productos = [
 // PRODUCTO 186 - CALOSTRO BOVINO
 {
     id: 186,
+    code: "7502214013317",
     name: "CALOSTRO BOVINO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CALOSTRO-BOVINO.png",
@@ -5459,6 +5649,7 @@ const productos = [
 // PRODUCTO 187 - CÉLULAS MADRE
 {
     id: 187,
+    code: "7502214013270",
     name: "CÉLULAS MADRE",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CELULAS-MADRE.png",
@@ -5483,6 +5674,7 @@ const productos = [
 // PRODUCTO 188 - EXTRACTO DE PROPÓLEO ABAGREEN
 {
     id: 188,
+    code: "7503016797375",
     name: "EXTRACTO DE PROPÓLEO ABAGREEN",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABAGREEN-GOTERO.png",
@@ -5507,6 +5699,7 @@ const productos = [
 // PRODUCTO 189 - TÉ JOUNKINS LAX
 {
     id: 189,
+    code: "7501090510439",
     name: "TÉ JOUNKINS LAX",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JOUNKINS.png",
@@ -5531,6 +5724,7 @@ const productos = [
   // 190. DEMOGRASS LX+
 {
     id: 190,
+    code: "7502214011542",
     name: "DEMOGRASS LX+",
     category: "laxantes",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
@@ -5553,6 +5747,7 @@ const productos = [
   // 191. CREATINA REFRESHER LEMON TWIST
 {
     id: 191,
+    code: "7503037273957",
     name: "CREATINA REFRESHER LEMON TWIST",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINAREFRESHER-BM.webp",
@@ -5575,6 +5770,7 @@ const productos = [
   // 192. NEUROCEBRYL COMPUESTO
   {
     id: 192,
+    code: "7578945632172",
     name: "NEUROCEBRYL COMPUESTO",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NEUROCEBRYL-COMPUESTO.webp",
@@ -5597,6 +5793,7 @@ const productos = [
   // 193. NAC NOW
   {
     id: 193,
+    code: "733739000859",
     name: "NAC NOW",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NAC-NOW.webp",
@@ -5619,6 +5816,7 @@ const productos = [
   // 194. LECHE DE SOYA SYMKEN
   {
     id: 194,
+    code: "661951732107",
     name: "LECHE DE SOYA SYMKEN",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LECHE-DE-SOYA-SYMKEN.webp",
@@ -5640,6 +5838,7 @@ const productos = [
   // 195. DYNEEM
   {
     id: 195,
+    code: "7503016797221",
     name: "DYNEEM",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DYNEEM-GREENLIFE.webp",
@@ -5661,6 +5860,7 @@ const productos = [
   // 196. DEMOGRASS PREMIER
   {
     id: 196,
+    code: "7501172019348",
     name: "DEMOGRASS PREMIER",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPREMIER.webp",
@@ -5683,6 +5883,7 @@ const productos = [
   // 197. TÉ PIÑALIM PLUS
   {
     id: 197,
+    code: "7502217905350",
     name: "TÉ PIÑALIM PLUS",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-PINALIM-PLUS.webp",
@@ -5705,6 +5906,7 @@ const productos = [
   // 198. SÁBILA 1 LT PROSA
   {
     id: 198,
+    code: "7501734420100",
     name: "SÁBILA 1 LT PROSA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SABILA-PROSA.webp",
@@ -5727,6 +5929,7 @@ const productos = [
   // 199. D MASTER PLATINUM
   {
     id: 199,
+    code: "690939301219",
     name: "D MASTER PLATINUM",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMasterPlatinum1.webp",
@@ -5749,6 +5952,7 @@ const productos = [
   // 200. D MASTER
   {
     id: 200,
+    code: "690939301226",
     name: "D MASTER",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMaster1.webp",
@@ -5771,6 +5975,7 @@ const productos = [
   // 201. CUATECOMATE
   {
     id: 201,
+    code: "7501735610036",
     name: "CUATECOMATE",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Cuartecomate1.webp",
@@ -5792,6 +5997,7 @@ const productos = [
   // 202. SUPER COLOSTRUM NOW
   {
     id: 202,
+    code: "733739032164",
     name: "SUPER COLOSTRUM NOW",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SUPER-CALOSTRUM-NOW.webp",
@@ -5814,6 +6020,7 @@ const productos = [
   // 203. NOPSOR POMADA
   {
     id: 203,
+    code: "7504023954027",
     name: "NOPSOR POMADA",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/POMADA-NOPSOR.jpg",
@@ -5835,6 +6042,7 @@ const productos = [
   // 204. CARTÍLAGO PRONAT
   {
       id: 204,
+      code: "7501062946013",
       name: "CARTÍLAGO PRONAT",
       category: "locomotor",
       image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARTILAGO.png",
@@ -5857,6 +6065,7 @@ const productos = [
   // 205. LEVADURA DE CERVEZA PRONAT
   {
     id: 205,
+    code: "7501062910113",
     name: "LEVADURA DE CERVEZA",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LEVADURA.png",
@@ -5879,6 +6088,7 @@ const productos = [
   // 206. OMEGA MAXIMUM PRONAT
   {
     id: 206,
+    code: "7501062912827",
     name: "OMEGA MAXIMUM PRONAT",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OMEGA-MAXIMUM.png",
@@ -5901,6 +6111,7 @@ const productos = [
   // 207. 2MR
   {
     id: 207,
+    code: "7503021404916",
     name: "2MR",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
@@ -5922,6 +6133,7 @@ const productos = [
   // 208. CÁPSULAS DE ACEITE DE ORÉGANO
   {
     id: 208,
+    code: "7503008731042",
     name: "CÁPSULAS DE ACEITE DE ORÉGANO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OREGANO-ORGANICO.png",
@@ -5943,6 +6155,7 @@ const productos = [
   // 209. CREATINA REFRESHER PINK
   {
     id: 209,
+    code: "7503057040911",
     name: "CREATINA REFRESHER PINK",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINA-REFRESHER-PINK.png",
@@ -5965,6 +6178,7 @@ const productos = [
   // 210. PATA DE VACA
   {
     id: 210,
+    code: "7502214013294",
     name: "PATA DE VACA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PATA-DE-VACA.png",
@@ -5987,6 +6201,7 @@ const productos = [
   // 211. PALO AZUL UVA URSI
   {
     id: 211,
+    code: "7502214013218",
     name: "PALO AZUL UVA URSI",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PALO-AZUL.png",
@@ -6008,6 +6223,7 @@ const productos = [
   // 212. GLUCONATO DE ZINC PRONACEN
   {
     id: 212,
+    code: "7503000733662",
     name: "GLUCONATO DE ZINC PRONACEN",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GLUCONATO-DE-ZINC-PROSA.png",
@@ -6030,6 +6246,7 @@ const productos = [
   // 213. CHA-CHA STONE
   {
     id: 213,
+    code: "7501170130021",
     name: "CHA-CHA STONE",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CHA-CHA-STONE.png",
@@ -6052,6 +6269,7 @@ const productos = [
   // 214. BEBIDA DE ALPISTLE
   {
     id: 214,
+    code: "7503026253656",
     name: "BEBIDA DE ALPISTLE",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BEBIDA-DE-ALPISTLE.png",
@@ -6073,6 +6291,7 @@ const productos = [
   // 215. L-CARNITINA PROWINNER
   {
     id: 215,
+    code: "7501062913671",
     name: "L-CARNITINA PROWINNER",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-CARNITINA-PROWINNER.png",
@@ -6095,6 +6314,7 @@ const productos = [
   // 216. ACEITE DE ORÉGANO Y COCO
   {
     id: 216,
+    code: "7503008731387",
     name: "ACEITE DE ORÉGANO Y COCO",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-DE-OREGANO-Y-COCO-CAPS.png",
@@ -6117,6 +6337,7 @@ const productos = [
   // 217. L-LISINA PROWINNER
   {
     id: 217,
+    code: "7501062912735",
     name: "L-LISINA PROWINNER",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-LISINA-PROWINNER.png",
@@ -6139,6 +6360,7 @@ const productos = [
   // 218. 5-HTP
   {
     id: 218,
+    code: "7500645000043",
     name: "5-HTP",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/5-htp.png",
@@ -6161,6 +6383,7 @@ const productos = [
   // 219. VEGI PROTEIN NANO FEAR
   {
     id: 219,
+    code: "7503021404794",
     name: "VEGI PROTEIN NANO FEAR",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VEGI-PROTEIN-NANO-FEAR.png",
@@ -6184,6 +6407,7 @@ const productos = [
   // 220. ISOFEAR
   {
     id: 220,
+    code: "646437080118",
     name: "ISOFEAR",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Isofear_Chocolate_2kg_1_4c878549-63bf-435f-8a4d-0c2b9d51ebf6.webp",
@@ -6207,6 +6431,7 @@ const productos = [
   // 221. SUKUNAI KIROS MAX
   {
     id: 221,
+    code: "7502243203727",
     name: "SUKUNAI KIROS MAX",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SukunaiKirosMax1-1.webp",
@@ -6228,6 +6453,7 @@ const productos = [
   // 222. PIÑALINAZA
   {
     id: 222,
+    code: "7503006152023",
     name: "PIÑALINAZA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Pinalinaza1.webp",
@@ -6249,6 +6475,7 @@ const productos = [
   // 223. WEREKE PROSA
   {
     id: 223,
+    code: "7501734412846",
     name: "WEREKE PROSA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WEREKE.webp",
@@ -6270,6 +6497,7 @@ const productos = [
   // 224. ACEITE DE ORÉGANO GOTAS ORE
   {
     id: 224,
+    code: "7503008731202",
     name: "ACEITE DE ORÉGANO GOTAS ORE",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-OREGANO-GOTERO-20-ML.webp",
@@ -6292,6 +6520,7 @@ const productos = [
   // 225. B12 NOW
   {
     id: 225,
+    code: "733739004598",
     name: "B12 NOW",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/B12-NOW.webp",
@@ -6314,6 +6543,7 @@ const productos = [
   // 226. CARSYL GREEN JARABE 80 ML
   {
     id: 226,
+    code: "7503016797122",
     name: "CARSYL GREEN JARABE 80 ML",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
@@ -7954,7 +8184,9 @@ const padecimientos = [
                 results = productos
                     .map(p => {
                         let matchField = null;
-                        if (p.name.toLowerCase().includes(searchTerm)) {
+                        if (p.code && String(p.code).toLowerCase().includes(searchTerm)) {
+                            matchField = 'Código de Barras';
+                        } else if (p.name.toLowerCase().includes(searchTerm)) {
                             matchField = 'Nombre';
                         } else if (p.shortDesc && p.shortDesc.toLowerCase().includes(searchTerm)) {
                             matchField = 'Descripción';
@@ -8039,13 +8271,38 @@ const padecimientos = [
             });
         });
 
-        // Buscador
+        // Buscador (texto, padecimiento, síntoma o código de barras)
         searchInput.addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase().trim();
+            const rawValue = this.value;
+            const searchTerm = rawValue.toLowerCase().trim();
             const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
             clearSearchBtn.classList.toggle('hidden', searchTerm === '');
+
+            // Si un escáner terminó de "teclear" un código de barras completo,
+            // abrir la ficha del producto directamente.
+            if (procesarPosibleCodigoBarras(rawValue)) {
+                this.value = '';
+                clearSearchBtn.classList.add('hidden');
+                renderProducts(activeFilter, '');
+                filterPadecimientos();
+                return;
+            }
+
             renderProducts(activeFilter, searchTerm);
             filterPadecimientos();
+        });
+
+        // Respaldo: si el escáner envía "Enter" al terminar de leer el código.
+        searchInput.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') {
+                if (procesarPosibleCodigoBarras(this.value)) {
+                    e.preventDefault();
+                    this.value = '';
+                    clearSearchBtn.classList.add('hidden');
+                    renderProducts(document.querySelector('.filter-btn.active')?.dataset.filter || 'all', '');
+                    filterPadecimientos();
+                }
+            }
         });
 
         // Botón para limpiar búsqueda
@@ -8213,6 +8470,39 @@ const padecimientos = [
         }
 
         // Abrir modal
+        // ================================================================
+        //  BÚSQUEDA POR CÓDIGO DE BARRAS (escáner del punto de venta)
+        // ================================================================
+        function buscarProductoPorCodigo(codigo) {
+            const clean = String(codigo).trim();
+            if (!clean) return null;
+            return productos.find(p => p.code && String(p.code).trim() === clean) || null;
+        }
+
+        // Devuelve la lista de padecimientos (guías) donde este producto
+        // aparece dentro del combo principal o secundario.
+        function getPadecimientosRelacionados(productId) {
+            return padecimientos.filter(pad => {
+                const enPrincipal = (pad.comboPrincipal || []).some(item => item.id === productId);
+                const enSecundario = (pad.comboSecundario || []).some(item => item.id === productId);
+                return enPrincipal || enSecundario;
+            });
+        }
+
+        // Intenta interpretar lo que se escribió/escaneó en el buscador
+        // principal como un código de barras. Si hay coincidencia exacta,
+        // abre la ficha del producto directamente (ideal para escáneres).
+        function procesarPosibleCodigoBarras(valor) {
+            const val = valor.trim();
+            if (!/^\d{6,14}$/.test(val)) return false; // no parece un código
+            const producto = buscarProductoPorCodigo(val);
+            if (producto) {
+                openModal(producto.id);
+                return true;
+            }
+            return false;
+        }
+
         function openModal(id) {
             const p = productos.find(prod => prod.id === id);
             if (!p) return;
@@ -8235,6 +8525,23 @@ const padecimientos = [
 
             document.getElementById('modalContra').textContent = p.contraindications || 'No especificado';
             document.getElementById('modalInter').textContent = p.interactions || 'No especificado';
+
+            // Guías de padecimiento relacionadas (para el asesor en punto de venta)
+            const padWrap = document.getElementById('modalPadecimientosWrap');
+            const padContainer = document.getElementById('modalPadecimientos');
+            const relacionados = getPadecimientosRelacionados(p.id);
+            if (relacionados.length > 0) {
+                padContainer.innerHTML = relacionados.map(pad => `
+                    <button onclick="closeModalFn(); document.getElementById('padecimientosGuideWeb').scrollIntoView({behavior:'smooth'}); setTimeout(() => scrollToPadecimiento('${pad.id}'), 400);"
+                        class="text-xs font-bold bg-white border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-full hover:bg-indigo-100 transition-colors flex items-center gap-1">
+                        <span>${pad.emoji || '🎯'}</span> ${pad.name}
+                    </button>
+                `).join('');
+                padWrap.classList.remove('hidden');
+            } else {
+                padContainer.innerHTML = '';
+                padWrap.classList.add('hidden');
+            }
 
             modal.classList.remove('opacity-0', 'pointer-events-none');
             document.querySelector('#productModal > div').classList.remove('scale-95');
