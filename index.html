@@ -7821,6 +7821,10 @@ const padecimientos = [
         function scrollToPadecimiento(padecimientoId) {
             const element = document.getElementById(`padecimiento-${padecimientoId}`);
             if (element) {
+                // Si es un <details> (acordeón), lo abrimos para que se vea el contenido
+                if (element.tagName === 'DETAILS') {
+                    element.open = true;
+                }
                 element.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 // Efecto de resaltado sutil
                 element.style.transition = 'background-color 0.5s ease-in-out';
@@ -8017,10 +8021,9 @@ const padecimientos = [
             });
         }
         
-        // Esta función ya no es necesaria con el nuevo diseño, pero la dejo por si se reutiliza
-        function scrollToPadecimiento(padecimientoId) {
-            // Lógica de scroll si se necesita
-        }
+        // (Se eliminó una función scrollToPadecimiento duplicada/vacía que
+        // sobrescribía a la funcional definida arriba y rompía los enlaces
+        // de "Guías de Padecimiento Relacionadas" en la ficha del producto.)
 
         function renderProductChip(productId) {
             const p = productos.find(prod => prod.id === productId);
@@ -8502,6 +8505,52 @@ const padecimientos = [
             }
             return false;
         }
+
+        // ================================================================
+        //  CAPTURA GLOBAL DEL ESCÁNER (funciona aunque el buscador
+        //  no tenga el foco — la pistola es un teclado y escribe donde
+        //  sea que esté el foco; si no hay ningún campo enfocado, esos
+        //  caracteres no llegaban a ningún lado. Este listener los
+        //  intercepta directamente a nivel de documento).
+        // ================================================================
+        let __scanBuffer = '';
+        let __scanLastTime = 0;
+
+        document.addEventListener('keydown', function(e) {
+            const active = document.activeElement;
+            const isEditable = active && (
+                active.tagName === 'INPUT' ||
+                active.tagName === 'TEXTAREA' ||
+                active.isContentEditable
+            );
+            // Si el asesor está escribiendo dentro de un campo (como el buscador),
+            // dejamos que ese campo maneje su propia lógica (ya cubierto arriba).
+            if (isEditable) {
+                __scanBuffer = '';
+                return;
+            }
+
+            const now = Date.now();
+            // Un escaneo llega en milisegundos; si pasa más de 300ms entre
+            // teclas, asumimos que es un nuevo intento y reiniciamos el buffer.
+            if (now - __scanLastTime > 300) {
+                __scanBuffer = '';
+            }
+            __scanLastTime = now;
+
+            if (e.key === 'Enter') {
+                if (__scanBuffer) {
+                    e.preventDefault();
+                    procesarPosibleCodigoBarras(__scanBuffer);
+                }
+                __scanBuffer = '';
+                return;
+            }
+
+            if (/^\d$/.test(e.key)) {
+                __scanBuffer += e.key;
+            }
+        });
 
         function openModal(id) {
             const p = productos.find(prod => prod.id === id);
