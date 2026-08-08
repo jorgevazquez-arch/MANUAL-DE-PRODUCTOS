@@ -907,8 +907,8 @@
                 </button>
             </div>
             <div class="p-6 space-y-5">
-                <div class="flex flex-col md:flex-row gap-6 mb-4">
-                    <div class="flex-shrink-0 bg-gray-50 rounded-2xl p-4 flex items-center justify-center w-full md:w-48 h-48 border border-gray-100"><img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain"></div>
+                <div class="flex flex-col gap-6 mb-4">
+                    <div class="flex-shrink-0 bg-gray-50 rounded-2xl p-6 flex items-center justify-center w-full h-72 md:h-96 border border-gray-100"><img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain"></div>
                     <div class="flex-1"><span id="modalCategory" class="badge-cat inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full mb-2">Categoría</span><p id="modalDescription" class="text-gray-600 text-sm leading-relaxed">Descripción corta</p></div>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -6822,7 +6822,7 @@ const padecimientos = [
             { id: 116, serving: '2 cápsulas al día', rationale: 'NAC precursor de glutatión para proteger el hígado.' },
             { id: 77, serving: '3 cápsulas antes de las comidas', rationale: 'Hercampurri estimula el flujo de bilis.' }
         ],
-        lifestyleTips: ['Eliminar bebidas azucaradas y alimentos ultraprocesados.', 'Aumentar el consumo de vegetales de hoja verde.', 'Limitar el consumo de fructosa.']
+        lifestyleTips: ['Eliminar bebidas azucaradas y alimentos ultraprocesados.', 'Aumentar el consumo de vegetales de hoja verde.', 'Limitar el consumo de fructosa.', 'Otros depurativos hepáticos de la tienda: TÉ CUACHALALATE (ID 172), SÁBILA CON NOPAL Y CUACHALALATE (ID 140), D MASTER (ID 200) y CARSYL GREEN JARABE (ID 226).']
     },
     {
         id: 'cirrosis',
@@ -6879,7 +6879,7 @@ const padecimientos = [
             { id: 67, serving: '2 cápsulas al día', rationale: 'Fórmula botánica antifúngica.' },
             { id: 104, serving: '3 cápsulas al día', rationale: 'Ácido acético para crear un ambiente intestinal desfavorable.' }
         ],
-        lifestyleTips: ['Eliminar azúcares, harinas refinadas y alcohol durante el tratamiento.', 'Aumentar el consumo de ajo, cebolla y aceite de coco.', 'Beber abundante agua.']
+        lifestyleTips: ['Eliminar azúcares, harinas refinadas y alcohol durante el tratamiento.', 'Aumentar el consumo de ajo, cebolla y aceite de coco.', 'Beber abundante agua.', 'Otras presentaciones de aceite de orégano disponibles en tienda: CÁPSULAS DE ACEITE DE ORÉGANO (ID 208), ACEITE DE ORÉGANO GOTAS ORE (ID 224) y ACEITE DE ORÉGANO Y COCO (ID 216).']
     },
     {
         id: 'estrenimiento_cronico',
@@ -6898,7 +6898,7 @@ const padecimientos = [
             { id: 28, serving: '2 cucharadas con abundante agua', rationale: 'Aloe Vera proporciona mucílagos para facilitar el tránsito.' },
             { id: 15, serving: '1 cucharada sopera al día', rationale: 'Aceite de Coco como lubricante del tracto digestivo.' }
         ],
-        lifestyleTips: ['Beber al menos 2.5 litros de agua al día.', 'Establecer una rutina para ir al baño.', 'Usar un banco o escalón bajo los pies al evacuar.', 'Aumentar el consumo de fibra soluble.', 'Tomar una infusión como TÉ JOUNKINS LAX (ID 189) por la noche para apoyar la relajación digestiva.']
+        lifestyleTips: ['Beber al menos 2.5 litros de agua al día.', 'Establecer una rutina para ir al baño.', 'Usar un banco o escalón bajo los pies al evacuar.', 'Aumentar el consumo de fibra soluble.', 'Tomar una infusión como TÉ JOUNKINS LAX (ID 189) por la noche para apoyar la relajación digestiva.', 'Otras opciones de la tienda con efecto laxante/depurativo suave: DEMOGRASS CLÁSICO (ID 56), DEMOGRASS PLUS (ID 57), GREEN LX (ID 76), TÉ HOJA SEN (ID 173) y SIMILAXOL (ID 144).']
     },
 
     // ================================================================
@@ -7098,7 +7098,7 @@ const padecimientos = [
             { id: 25, serving: '1 cucharadita al día', rationale: 'Aporta proteína y nutrientes con bajo aporte calórico, útil como apoyo en dietas de control de peso.' },
             { id: 146, serving: '1 taza después de las comidas principales', rationale: 'Infusión tradicional usada como apoyo digestivo y de control de peso.' }
         ],
-        lifestyleTips: ['Priorizar proteína en cada comida para mayor saciedad.', 'Reducir azúcares refinados y harinas procesadas.', 'Incorporar entrenamiento de fuerza para mejorar la composición corporal.', 'Dormir al menos 7-8 horas, ya que la falta de sueño altera el apetito y el metabolismo.']
+        lifestyleTips: ['Priorizar proteína en cada comida para mayor saciedad.', 'Reducir azúcares refinados y harinas procesadas.', 'Incorporar entrenamiento de fuerza para mejorar la composición corporal.', 'Dormir al menos 7-8 horas, ya que la falta de sueño altera el apetito y el metabolismo.', 'Ver también la guía "Control de Peso" para fórmulas comerciales adicionales (Demograss, Goji Trim, D Master, etc.).']
     },
     {
         id: 'colesterol_trigliceridos',
@@ -7341,7 +7341,7 @@ const padecimientos = [
             { id: 166, serving: '1 cápsula al día', rationale: 'Vitamina D3 como modulador clave del sistema inmune.' },
             { id: 153, serving: '1 cápsula al día', rationale: 'Zinc para la función de los linfocitos T.' }
         ],
-        lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.']
+        lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.', 'Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA (ID 38), MORINGA ORGÁNICA (ID 100), AJO NEGRO + MORINGA (ID 21), CUATECOMATE (ID 201) y HONIG ABAGREEN VERDE/ROJO (ID 155/156).']
     },
     {
         id: 'respiratorio',
@@ -7388,7 +7388,7 @@ const padecimientos = [
             { id: 157, serving: '1 cápsula al día', rationale: 'Fórmula integral con Glucosamina y Cúrcuma.' },
             { id: 183, serving: 'Aplicación tópica 2-3 veces al día', rationale: 'Gel con salicilato de metilo (efecto rubefaciente) y Centella Asiática para alivio local del dolor articular, como complemento del apoyo oral.' }
         ],
-        lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Aplicar FIX UZEN (ID 167).']
+        lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Aplicar FIX UZEN (ID 167).', 'Otras opciones articulares de la tienda: CARTÍLAGO PRONAT (ID 204) y MOROIZY / MOROIZY GEL (ID 51/182).']
     },
     {
         id: 'osteoporosis',
@@ -7429,7 +7429,7 @@ const padecimientos = [
             { id: 123, serving: '3 softgels al día', rationale: 'Omega-3 reduce la inflamación.' },
             { id: 159, serving: '3 cápsulas al día', rationale: 'Multivitamínico para atletas.' }
         ],
-        lifestyleTips: ['Consumir proteína y creatina dentro de los 45 minutos post-entreno.', 'Hidratación adecuada.', 'Dormir al menos 7-8 horas.']
+        lifestyleTips: ['Consumir proteína y creatina dentro de los 45 minutos post-entreno.', 'Hidratación adecuada.', 'Dormir al menos 7-8 horas.', 'Otras proteínas y creatinas de la tienda (elegir según objetivo/sabor): WHEY HARDER (ID 112), WHEY CHOCONUEZ NANOFEAR (ID 111), MASS FEAR (ID 96, ganador de peso), BEEF FEAR (ID 35), ALBÚMINA PROWINNER (ID 24), VEGI PROTEIN NANO FEAR (ID 219), ISOFEAR (ID 220), PROTEÍNA VEGANA HABITS cacao/vainilla (ID 134/135), CREATINA NANO FEAR (ID 8), CREATINA REFRESHER (ID 191/209), CLA (ID 19) y L-CARNITINA/L-LISINA PROWINNER (ID 215/217).']
     },
     {
         id: 'neuropatia_periferica',
@@ -7513,6 +7513,237 @@ const padecimientos = [
             { id: 26, serving: '3 cápsulas al día', rationale: 'Espirulina con antioxidantes.' }
         ],
         lifestyleTips: ['Limpieza facial suave.', 'Evitar tocarse la cara.', 'Reducir el consumo de lácteos y alimentos de alto índice glucémico.']
+    },
+
+    // ================================================================
+    //  🩷 NUEVAS GUÍAS AGREGADAS
+    // ================================================================
+    {
+        id: 'somp',
+        name: 'SOMP - Síndrome Ovárico Metabólico Poliendocrino (antes SOP)',
+        emoji: '🌸',
+        color: 'pink',
+        description: 'El SOMP (antes conocido como Síndrome de Ovario Poliquístico o SOP) es un trastorno hormonal y metabólico que afecta la ovulación, el metabolismo de la glucosa y los niveles de andrógenos. Su nombre cambió porque no todas las pacientes desarrollan quistes visibles, y porque la condición impacta mucho más que la fertilidad: también influye en el peso, la piel, la energía y la salud mental. La resistencia a la insulina es uno de los factores centrales, por lo que el protocolo se enfoca en mejorar la sensibilidad a la insulina y regular el equilibrio hormonal.',
+        symptoms: ['Ciclos menstruales irregulares o ausentes', 'Dificultad para bajar de peso', 'Acné y exceso de vello facial/corporal', 'Caída de cabello con patrón masculino', 'Resistencia a la insulina', 'Dificultad para lograr un embarazo'],
+        comboPrincipal: [
+            { id: 53, serving: '1 medida (4 g) al día disuelta en agua', rationale: 'Myo-inositol y D-Chiro-inositol en proporción 40:1, el estándar de apoyo nutricional para mejorar la sensibilidad a la insulina y regular la ovulación.' },
+            { id: 36, serving: '2 cápsulas antes de las comidas principales', rationale: 'Berberina ayuda a mejorar el metabolismo de la glucosa y la resistencia a la insulina.' },
+            { id: 109, serving: '1 cápsula al día con alimentos', rationale: 'Vitamina D3, magnesio, K2 y zinc, frecuentemente deficientes en SOMP y necesarios para el equilibrio hormonal.' }
+        ],
+        comboSecundario: [
+            { id: 116, serving: '2 cápsulas al día', rationale: 'NAC (N-Acetilcisteína) con evidencia de apoyo a la función ovulatoria y sensibilidad a la insulina.' },
+            { id: 41, serving: '2 cápsulas con alimentos', rationale: 'Canela y cromo para el control de glucosa en sangre.' },
+            { id: 129, serving: '1-2 cápsulas al día', rationale: 'Probióticos para apoyar el eje intestino-hormonas.' }
+        ],
+        lifestyleTips: ['Priorizar ejercicio de fuerza y cardiovascular, que mejora la sensibilidad a la insulina.', 'Elegir alimentos de bajo índice glucémico y evitar azúcares refinados.', 'Manejar el estrés, ya que el cortisol elevado empeora la resistencia a la insulina.', 'Dar seguimiento con un especialista en endocrinología o ginecología, ya que este suplemento es de apoyo y no sustituye tratamiento médico.']
+    },
+    {
+        id: 'urticaria',
+        name: 'Urticaria',
+        emoji: '🌡️',
+        color: 'gray',
+        description: 'La urticaria es una reacción de la piel caracterizada por ronchas rojas, elevadas y con comezón, causada por la liberación de histamina desde los mastocitos. Puede ser aguda (por alergia a un alimento, medicamento o picadura) o crónica (de causa a menudo desconocida, relacionada con el sistema inmune). El protocolo se enfoca en estabilizar la respuesta de histamina y calmar la inflamación de la piel.',
+        symptoms: ['Ronchas rojas o pálidas elevadas (habones)', 'Comezón intensa', 'Ardor o sensación de piel caliente', 'Hinchazón (angioedema) en casos más severos', 'Lesiones que aparecen y desaparecen en horas'],
+        comboPrincipal: [
+            { id: 178, serving: '1 cápsula al día entre comidas', rationale: 'La quercetina es un flavonoide con acción estabilizadora de mastocitos, considerado un "antihistamínico natural".' },
+            { id: 108, serving: '1 cápsula al día', rationale: 'Vitamina C en dosis altas ayuda a degradar la histamina circulante.' },
+            { id: 153, serving: '1 cápsula al día con alimentos', rationale: 'Zinc para modular la respuesta inmune y apoyar la reparación de la piel.' }
+        ],
+        comboSecundario: [
+            { id: 129, serving: '1-2 cápsulas al día', rationale: 'Probióticos para equilibrar la microbiota, relacionada con la tolerancia inmune.' },
+            { id: 123, serving: '2 cápsulas al día', rationale: 'Omega-3 para reducir la inflamación general.' },
+            { id: 48, serving: '15 ml al día', rationale: 'Clorofila líquida con propiedades antiinflamatorias y depurativas.' }
+        ],
+        lifestyleTips: ['Identificar y evitar el desencadenante (alimento, medicamento, calor, estrés).', 'Evitar alimentos altos en histamina (embutidos, quesos añejados, alcohol, fermentados) si la urticaria es crónica.', 'Usar ropa holgada y evitar el agua muy caliente.', 'Acudir con un alergólogo si los episodios son frecuentes o severos, sobre todo si hay hinchazón en cara o garganta (urgencia médica).']
+    },
+    {
+        id: 'espolon_fascitis',
+        name: 'Espolón Calcáneo y Fascitis Plantar',
+        emoji: '🦶',
+        color: 'yellow',
+        description: 'La fascitis plantar es la inflamación del tejido grueso (fascia) que conecta el talón con los dedos del pie, y es la causa más común del dolor de talón; el espolón calcáneo es un depósito de calcio que puede formarse como consecuencia de esta inflamación crónica. El protocolo combina antiinflamatorios naturales con nutrientes que apoyan la reparación del tejido conectivo.',
+        symptoms: ['Dolor punzante en el talón, especialmente con los primeros pasos al despertar', 'Dolor que mejora con el movimiento y empeora tras estar mucho tiempo de pie', 'Rigidez en la planta del pie', 'Molestia al subir escaleras'],
+        comboPrincipal: [
+            { id: 102, serving: '2 cápsulas al día', rationale: 'Colágeno tipo II no desnaturalizado (UC-II®) con Boswellia y cúrcuma, para apoyar el tejido conectivo y reducir la inflamación.' },
+            { id: 125, serving: '1 medida al día', rationale: 'Péptidos de colágeno hidrolizado, materia prima para la reparación de la fascia y los tejidos blandos.' },
+            { id: 167, serving: 'Aplicar en la zona 2-3 veces al día', rationale: 'Gel tópico con árnica, glucosamina y mentol para alivio local del dolor e inflamación.' }
+        ],
+        comboSecundario: [
+            { id: 31, serving: '2 cápsulas al día', rationale: 'Glucosamina, condroitina y MSM para el soporte articular y del tejido conectivo.' },
+            { id: 94, serving: '3 cápsulas por la noche', rationale: 'Magnesio para relajar la musculatura de la pantorrilla y el pie.' },
+            { id: 123, serving: '2 cápsulas al día', rationale: 'Omega-3 como antiinflamatorio general.' }
+        ],
+        lifestyleTips: ['Estirar la fascia plantar y el tendón de Aquiles por las mañanas antes de dar el primer paso.', 'Usar calzado con buen soporte de arco y evitar andar descalzo en superficies duras.', 'Aplicar hielo local 10-15 min después de estar mucho tiempo de pie.', 'Bajar de peso si hay sobrepeso, ya que reduce la carga sobre el talón.']
+    },
+    {
+        id: 'tdah',
+        name: 'TDAH (Trastorno por Déficit de Atención e Hiperactividad)',
+        emoji: '🎯',
+        color: 'purple',
+        description: 'El TDAH se relaciona con un desequilibrio en neurotransmisores clave como la dopamina y la noradrenalina, que regulan la atención, el control de impulsos y la actividad motora. Existe evidencia de que los ácidos grasos omega-3, el magnesio y el zinc apoyan la función cognitiva y pueden complementar el manejo integral de este trastorno.',
+        symptoms: ['Dificultad para mantener la atención en tareas', 'Impulsividad', 'Hiperactividad o inquietud constante', 'Dificultad para organizarse y terminar tareas', 'Olvidos frecuentes en la vida diaria'],
+        comboPrincipal: [
+            { id: 149, serving: '2 cápsulas al día', rationale: 'Treonato de magnesio, con mayor capacidad de cruzar la barrera hematoencefálica, apoya la plasticidad sináptica y la concentración.' },
+            { id: 82, serving: '1-2 cápsulas al día', rationale: 'Krill Oil aporta DHA y EPA, fundamentales para la estructura y función de las neuronas.' },
+            { id: 153, serving: '1 cápsula al día con alimentos', rationale: 'El zinc participa en la regulación de la dopamina y suele encontrarse deficiente en niños y adultos con TDAH.' }
+        ],
+        comboSecundario: [
+            { id: 87, serving: '1 cápsula por la mañana', rationale: 'L-Tirosina, precursora de dopamina y noradrenalina, para apoyar la atención.' },
+            { id: 4, serving: '2 cápsulas por la mañana', rationale: 'Complejo B para el metabolismo energético neuronal.' },
+            { id: 120, serving: '1-2 cápsulas al día', rationale: 'Omega-3 adicional (EPA/DHA) para apoyo cognitivo.' }
+        ],
+        lifestyleTips: ['Mantener horarios y rutinas estructuradas y predecibles.', 'Reducir el consumo de azúcares refinados y colorantes artificiales.', 'Favorecer el ejercicio físico regular, que mejora la atención y el estado de ánimo.', 'Este protocolo es un apoyo nutricional complementario; el diagnóstico y tratamiento del TDAH deben ser guiados por un especialista.']
+    },
+    {
+        id: 'intestino_irritable',
+        name: 'Síndrome de Intestino Irritable (SII)',
+        emoji: '🌀',
+        color: 'green',
+        description: 'El Síndrome de Intestino Irritable es un trastorno funcional del eje intestino-cerebro que causa dolor abdominal asociado a cambios en el hábito intestinal (diarrea, estreñimiento o ambos alternados), sin que existan lesiones visibles en el intestino. Se relaciona con hipersensibilidad visceral, alteraciones en la microbiota y sensibilidad al estrés. El protocolo busca calmar la mucosa intestinal, reequilibrar la microbiota y mejorar la digestión.',
+        symptoms: ['Dolor o cólico abdominal que mejora al evacuar', 'Distensión e hinchazón abdominal', 'Diarrea, estreñimiento o alternancia entre ambos', 'Moco en las heces', 'Síntomas que empeoran con el estrés o ciertos alimentos'],
+        comboPrincipal: [
+            { id: 131, serving: '1 cápsula al día', rationale: 'Probióticos de alta concentración (100 billones UFC, 7 cepas) para reequilibrar la microbiota intestinal.' },
+            { id: 71, serving: '1 medida al día en ayunas', rationale: 'L-Glutamina apoya la integridad de la mucosa intestinal.' },
+            { id: 60, serving: '1-2 cápsulas con las comidas', rationale: 'Complejo enzimático (papaína, bromelina, amilasa, lipasa) para mejorar la digestión y reducir la fermentación intestinal.' }
+        ],
+        comboSecundario: [
+            { id: 151, serving: '1 medida al día', rationale: 'Fibra prebiótica de Zen Greens para regular el tránsito, introducir gradualmente según tolerancia.' },
+            { id: 176, serving: '1 taza después de las comidas', rationale: 'Té de manzanilla con efecto antiespasmódico y calmante digestivo.' },
+            { id: 81, serving: '1-2 cápsulas antes de comer', rationale: 'Jengibre para reducir náusea, distensión y mejorar el vaciamiento gástrico.' }
+        ],
+        lifestyleTips: ['Identificar y llevar un diario de alimentos que disparan los síntomas (frecuentemente lácteos, gluten, alimentos altos en FODMAP).', 'Comer despacio y en porciones moderadas.', 'Practicar técnicas de manejo del estrés, ya que el eje intestino-cerebro es bidireccional.', 'Consultar a un gastroenterólogo para descartar otras causas antes de autodiagnosticarse.']
+    },
+    {
+        id: 'celulitis',
+        name: 'Celulitis (Piel de Naranja)',
+        emoji: '🍊',
+        color: 'gray',
+        description: 'La celulitis es un cambio en la textura de la piel causado por la forma en que la grasa subcutánea empuja contra el tejido conectivo, muchas veces influenciado por factores hormonales, circulatorios y de retención de líquidos. El protocolo se enfoca en fortalecer el tejido conectivo, mejorar la microcirculación y apoyar el drenaje de líquidos.',
+        symptoms: ['Piel con apariencia de hoyuelos ("piel de naranja")', 'Mayor visibilidad en glúteos, muslos y abdomen', 'Sensación de piel menos firme', 'Puede acompañarse de retención de líquidos'],
+        comboPrincipal: [
+            { id: 126, serving: '1 medida al día', rationale: 'Péptidos de colágeno con ácido hialurónico para fortalecer el tejido conectivo y mejorar la firmeza de la piel.' },
+            { id: 183, serving: 'Aplicar con masaje 2 veces al día', rationale: 'Gel corporal con castaño de indias, hamamelis y centella asiática para mejorar la microcirculación local.' },
+            { id: 165, serving: '2-3 tazas al día', rationale: 'Té verde, con efecto termogénico y antioxidante que apoya el metabolismo de grasas.' }
+        ],
+        comboSecundario: [
+            { id: 104, serving: '2 cápsulas antes de las comidas', rationale: 'Vinagre de sidra de manzana para apoyo metabólico.' },
+            { id: 215, serving: '2 cápsulas al día', rationale: 'L-Carnitina para el metabolismo energético de las grasas.' },
+            { id: 18, serving: '1 medida al día', rationale: 'Colágeno con ácido hialurónico, omega-3 y arándano para la salud integral de la piel.' }
+        ],
+        lifestyleTips: ['Realizar ejercicio de fuerza para tonificar y mejorar la estructura del tejido.', 'Hidratarse adecuadamente y reducir el consumo de sodio para disminuir la retención de líquidos.', 'Cepillado en seco o masaje para estimular la circulación local.', 'Evitar el sedentarismo prolongado (estar sentado o de pie por periodos largos sin moverse).']
+    },
+    {
+        id: 'epilepsia',
+        name: 'Epilepsia (Apoyo Nutricional)',
+        emoji: '⚡',
+        color: 'purple',
+        description: 'La epilepsia es un trastorno neurológico caracterizado por crisis recurrentes debidas a una actividad eléctrica anormal en el cerebro. El manejo médico con anticonvulsivos es indispensable y este protocolo es únicamente un apoyo nutricional general para la salud neurológica, nunca un sustituto del tratamiento. Se enfoca en nutrientes con papel documentado en la excitabilidad neuronal y la salud mitocondrial.',
+        symptoms: ['Crisis convulsivas recurrentes', 'Episodios de ausencia o desconexión breve', 'Confusión temporal tras una crisis', 'Movimientos espasmódicos incontrolables'],
+        comboPrincipal: [
+            { id: 181, serving: '2 cápsulas al día con alimentos', rationale: 'Magnesio bisglicinato, mineral que participa en la regulación de la excitabilidad neuronal (consultar a su médico por posible interacción con algunos anticonvulsivos).' },
+            { id: 123, serving: '2 cápsulas al día', rationale: 'Omega-3 (EPA/DHA) para apoyar la salud de las membranas neuronales.' },
+            { id: 166, serving: '1 cápsula al día con alimentos', rationale: 'Vitamina D3, frecuentemente deficiente en personas bajo tratamiento anticonvulsivo prolongado.' }
+        ],
+        comboSecundario: [
+            { id: 4, serving: '2 cápsulas por la mañana', rationale: 'Complejo B para el metabolismo energético neuronal.' },
+            { id: 116, serving: '1-2 cápsulas al día', rationale: 'NAC como precursor de glutatión, el principal antioxidante cerebral.' }
+        ],
+        lifestyleTips: ['Dormir horarios regulares y evitar la privación de sueño, un desencadenante frecuente de crisis.', 'Evitar el consumo de alcohol y manejar el estrés.', 'Nunca suspender ni modificar la medicación anticonvulsiva sin indicación médica.', 'Todo suplemento debe ser revisado previamente con el neurólogo tratante por el riesgo de interacciones con los medicamentos.']
+    },
+    {
+        id: 'anemia',
+        name: 'Anemia (Apoyo Nutricional)',
+        emoji: '🩸',
+        color: 'red',
+        description: 'La anemia ocurre cuando el cuerpo no tiene suficientes glóbulos rojos sanos para transportar oxígeno de forma adecuada, frecuentemente por deficiencia de hierro, vitamina B12 o ácido fólico. Este protocolo aporta nutrientes que participan en la formación de glóbulos rojos y mejoran la absorción de hierro; es importante identificar y tratar la causa de fondo con un médico, especialmente si se requiere suplementación de hierro.',
+        symptoms: ['Cansancio y debilidad', 'Piel pálida', 'Dificultad para respirar con esfuerzos leves', 'Mareo o dolor de cabeza', 'Manos y pies fríos', 'Uñas quebradizas'],
+        comboPrincipal: [
+            { id: 225, serving: '1 tableta sublingual al día', rationale: 'Vitamina B12 en alta dosis, esencial para la formación de glóbulos rojos, especialmente relevante en anemia perniciosa o por dietas vegetarianas/veganas.' },
+            { id: 108, serving: '1 cápsula al día junto con la comida principal', rationale: 'Vitamina C mejora significativamente la absorción del hierro de los alimentos.' },
+            { id: 26, serving: '3 cápsulas al día', rationale: 'Espirulina, fuente natural de hierro, proteína y vitaminas del complejo B.' }
+        ],
+        comboSecundario: [
+            { id: 4, serving: '2 cápsulas al día', rationale: 'Complejo B con ácido fólico, necesario para la producción de glóbulos rojos.' },
+            { id: 205, serving: '2 tabletas al día', rationale: 'Levadura de cerveza, rica en proteína, fósforo y vitaminas del complejo B.' }
+        ],
+        lifestyleTips: ['Consumir alimentos ricos en hierro (carnes rojas, leguminosas, verduras de hoja verde) junto con fuentes de vitamina C.', 'Evitar el café y el té junto con las comidas principales, ya que reducen la absorción de hierro.', 'Es fundamental que un médico identifique la causa de la anemia (esta tienda no cuenta con un suplemento de hierro dedicado); si se requiere hierro, debe indicarse y dosificarse profesionalmente.']
+    },
+    {
+        id: 'parkinson',
+        name: 'Parkinson (Apoyo Nutricional)',
+        emoji: '🧠',
+        color: 'gray',
+        description: 'La enfermedad de Parkinson es un trastorno neurodegenerativo progresivo asociado a la pérdida de neuronas productoras de dopamina y a estrés oxidativo mitocondrial. Este protocolo es un apoyo nutricional complementario al tratamiento neurológico, enfocado en nutrientes con papel documentado en la función mitocondrial y la protección antioxidante del sistema nervioso.',
+        symptoms: ['Temblor en reposo', 'Rigidez muscular', 'Lentitud de movimientos (bradicinesia)', 'Problemas de equilibrio y postura', 'Cambios en la escritura y el habla'],
+        comboPrincipal: [
+            { id: 101, serving: '1 cápsula al día con alimentos', rationale: 'Ubiquinol (CoQ10 activo), estudiado por su papel en la función mitocondrial neuronal.' },
+            { id: 117, serving: '1 cápsula al día', rationale: 'NAD+ y resveratrol para apoyar la energía celular y la longevidad neuronal.' },
+            { id: 72, serving: '1-2 cápsulas al día', rationale: 'Glutatión, el principal antioxidante celular, para la protección frente al estrés oxidativo.' }
+        ],
+        comboSecundario: [
+            { id: 98, serving: '2 cápsulas al día', rationale: 'Melena de León para apoyar el factor de crecimiento nervioso (NGF).' },
+            { id: 123, serving: '2 cápsulas al día', rationale: 'Omega-3 para la salud de las membranas neuronales.' },
+            { id: 149, serving: '2 cápsulas al día', rationale: 'Treonato de magnesio para la función cognitiva.' }
+        ],
+        lifestyleTips: ['El ejercicio regular (incluyendo equilibrio y fuerza) ha mostrado ser una de las intervenciones más importantes para la calidad de vida.', 'Fisioterapia y terapia ocupacional como parte del manejo integral.', 'Mantener una dieta rica en antioxidantes (frutas y verduras de colores variados).', 'Este protocolo es únicamente de apoyo; el seguimiento debe ser siempre con el neurólogo tratante.']
+    },
+    {
+        id: 'intestino_permeable',
+        name: 'Intestino Permeable',
+        emoji: '🔬',
+        color: 'green',
+        description: 'El intestino permeable ("leaky gut") es una condición en la que las uniones estrechas entre las células del intestino se debilitan, permitiendo que partículas no digeridas, toxinas y bacterias pasen al torrente sanguíneo, lo que puede desencadenar inflamación de bajo grado en todo el cuerpo. El protocolo se enfoca en reparar la mucosa intestinal, reducir la inflamación y reequilibrar la microbiota.',
+        symptoms: ['Distensión e hinchazón abdominal frecuente', 'Sensibilidades alimentarias nuevas o múltiples', 'Fatiga crónica', 'Problemas de piel (acné, eccema)', 'Dolores articulares sin causa clara', 'Niebla mental'],
+        comboPrincipal: [
+            { id: 85, serving: '1-2 cápsulas al día', rationale: 'L-Carnosina de zinc, específicamente estudiada para apoyar y reparar la mucosa del tracto digestivo.' },
+            { id: 71, serving: '1 medida al día en ayunas', rationale: 'L-Glutamina, el principal combustible de las células intestinales y clave para restaurar las uniones estrechas.' },
+            { id: 131, serving: '1 cápsula al día', rationale: 'Probióticos de alto espectro (100 billones UFC) para reequilibrar la microbiota intestinal.' }
+        ],
+        comboSecundario: [
+            { id: 125, serving: '1 medida al día', rationale: 'Colágeno hidrolizado, aporta aminoácidos para la reparación del tejido intestinal.' },
+            { id: 48, serving: '15 ml al día', rationale: 'Clorofila líquida para apoyo antiinflamatorio y depurativo.' },
+            { id: 151, serving: '1 medida al día', rationale: 'Fibra prebiótica de Zen Greens para alimentar a las bacterias benéficas.' }
+        ],
+        lifestyleTips: ['Reducir alimentos ultraprocesados, azúcar refinada y alcohol.', 'Identificar posibles sensibilidades alimentarias (gluten, lácteos) con ayuda de un profesional.', 'Manejar el estrés crónico, que también deteriora la barrera intestinal.', 'Dormir lo suficiente, ya que la reparación de la mucosa ocurre principalmente durante el sueño.']
+    },
+    {
+        id: 'control_peso',
+        name: 'Control de Peso',
+        emoji: '⚖️',
+        color: 'orange',
+        description: 'Guía de referencia para las fórmulas comerciales de control de peso de la tienda (mezclas de fibra, plantas depurativas y termogénicos). A diferencia de la guía de "Sobrepeso y Síndrome Metabólico" (enfocada en resistencia a la insulina), esta guía agrupa las fórmulas todo-en-uno pensadas para acompañar una dieta de reducción de peso.',
+        symptoms: ['Dificultad para bajar de peso con dieta y ejercicio', 'Retención de líquidos', 'Digestión lenta o estreñimiento asociado', 'Necesidad de apoyo para controlar el apetito'],
+        comboPrincipal: [
+            { id: 196, serving: 'Según indicaciones del empaque', rationale: 'Demograss Premier combina 10 botánicos (matake, cayena, cúrcuma, espirulina, arándano) como fórmula integral de control de peso.' },
+            { id: 59, serving: '1 sobre o porción al día', rationale: 'DT Green combina té, papaya, toronja, malva y espirulina para apoyo depurativo y digestivo.' },
+            { id: 199, serving: '1-2 cápsulas al día', rationale: 'D Master Platinum con gayuba, té verde, uva y jamaica para apoyo diurético y metabólico.' }
+        ],
+        comboSecundario: [
+            { id: 56, serving: 'Según indicaciones del empaque', rationale: 'Demograss Clásico, la fórmula original con 9 ingredientes de fibra.' },
+            { id: 76, serving: 'Según indicaciones del empaque', rationale: 'Green LX con ciruela, tamarindo y sábila para apoyar el tránsito intestinal.' },
+            { id: 132, serving: 'Según indicaciones del empaque', rationale: 'Probity con acetil L-carnitina y té verde para apoyo metabólico.' },
+            { id: 42, serving: 'Según indicaciones del empaque', rationale: 'Caralluma fimbriata, tradicionalmente usada para el control del apetito.' }
+        ],
+        lifestyleTips: ['Estas fórmulas son un apoyo complementario; el resultado depende principalmente de la dieta y actividad física.', 'No combinar varias fórmulas laxantes/depurativas al mismo tiempo para evitar molestias digestivas.', 'Otras variantes disponibles en tienda: DEMOGRASS PLUS (ID 57), DEMOGRASS LX+ (ID 190), GOJI TRIM (ID 73), GOJIZEN MAX (ID 75), SUKUNAI KIROS MAX (ID 221), PIÑALINAZA (ID 222), DYNEEM (ID 195), BPASS (ID 37), XIMO (ID 114), TÉ PIÑALIM / TÉ PIÑALIM PLUS (ID 146/197) y CAFÉ CON MORINGA (ID 38).', 'Si hay alguna condición médica (hipertensión, diabetes, embarazo), consultar antes de usar fórmulas termogénicas o diuréticas.']
+    },
+    {
+        id: 'piel_antienvejecimiento',
+        name: 'Piel y Antienvejecimiento',
+        emoji: '✨',
+        color: 'gray',
+        description: 'Con la edad y la exposición solar, la piel pierde colágeno y capacidad antioxidante, lo que se traduce en flacidez, arrugas y pérdida de firmeza. Este protocolo se enfoca en aportar la materia prima para regenerar el colágeno y proteger la piel del daño oxidativo.',
+        symptoms: ['Piel flácida o con menor firmeza', 'Arrugas y líneas de expresión', 'Piel opaca o deshidratada', 'Uñas y cabello débiles'],
+        comboPrincipal: [
+            { id: 3, serving: '1 medida al día', rationale: 'Colágeno hidrolizado con vitamina C y biotina, materia prima para la piel, cabello y uñas.' },
+            { id: 34, serving: '1 cápsula al día', rationale: 'Astaxantina, uno de los antioxidantes más potentes conocidos, protege la piel del fotoenvejecimiento.' },
+            { id: 110, serving: '1 perla al día', rationale: 'Vitamina E en alta concentración para la protección antioxidante de la piel.' }
+        ],
+        comboSecundario: [
+            { id: 62, serving: 'Según indicaciones del empaque', rationale: 'Eveaux combina colágeno, queratina, vitaminas y minerales para el cuidado integral de piel, cabello y uñas.' },
+            { id: 18, serving: '1 medida al día', rationale: 'Ácido hialurónico con colágeno para la hidratación profunda de la piel.' },
+            { id: 108, serving: '1 cápsula al día', rationale: 'Vitamina C, cofactor esencial para la síntesis de colágeno.' }
+        ],
+        lifestyleTips: ['Usar protector solar diario, el principal factor de envejecimiento prematuro evitable.', 'Mantener buena hidratación con agua simple.', 'Dormir bien, ya que la piel se regenera principalmente durante el sueño.', 'LEUCAPS (ID 86), rico en luteína y zeaxantina, también aporta antioxidantes para la piel.']
     }
 ];
 
