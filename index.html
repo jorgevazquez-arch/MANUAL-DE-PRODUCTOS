@@ -54,14 +54,13 @@
                 </div>
                 <div class="border-t border-gray-200 pt-4">
                     <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Guías y Anexos</p>
+                    <a href="#padecimientosGuideWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🎯 Guía por Padecimiento</a>
                     <a href="#introWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">⭐ Introducción al Manual</a>
                     <a href="#guiaLenguajeWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">📜 Guía de Lenguaje</a>
                     <a href="#arteDeVenderWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">💡 El Arte de Vender</a>
-                    <a href="#padecimientosGuideWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🎯 Guía por Padecimiento</a>
                     <a href="#guiaRapidaWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🚀 Venta Rápida (Combos)</a>
                     <a href="#faqWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">❓ Preguntas Frecuentes</a>
                     <a href="#anexo" class="block py-1 hover:text-girasol-green-700 transition-colors">📚 Anexo y Glosario</a>
-                    <a href="./validacion.html" target="_blank" rel="noopener" class="block py-1 hover:text-girasol-green-700 transition-colors">✅ Validar datos del manual</a>
                 </div>
             </nav>
         </aside>
@@ -375,23 +374,45 @@
                 </div>
             </div>
 
-            <!-- Contenedor para la descripción de la categoría activa -->
-            <div id="activeCategoryDescription" class="no-print mb-8"></div>
+            <!-- Catálogo plegable de productos -->
+            <details id="productsCatalog" open class="group no-print bg-white border border-gray-200 rounded-3xl shadow-sm transition-all duration-300 open:shadow-lg open:border-girasol-green-300 scroll-mt-24 overflow-hidden">
+                <summary id="productsToggle" class="p-8 md:p-10 cursor-pointer list-none transition-colors hover:bg-girasol-green-50/40">
+                    <span class="block text-center">
+                        <span class="inline-block bg-girasol-green-100 text-girasol-green-800 font-black px-4 py-1 rounded-full text-sm uppercase tracking-widest mb-3">Catálogo de suplementos</span>
+                        <span class="text-3xl md:text-4xl font-black text-girasol-green-900 flex items-center justify-center gap-3">
+                            <span aria-hidden="true">🌻</span> Nuestros productos
+                        </span>
+                        <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Consulta las fichas técnicas, filtra por categoría y selecciona suplementos para compararlos.</span>
+                        <span id="productsCatalogSummary" class="block mt-2 text-sm font-bold text-girasol-green-700">Cargando catálogo...</span>
+                        <span class="mt-5 inline-flex items-center gap-2 rounded-full border border-girasol-green-200 bg-girasol-green-50 px-4 py-2 text-sm font-bold text-girasol-green-700">
+                            <span class="group-open:hidden">Mostrar productos</span>
+                            <span class="hidden group-open:inline">Ocultar productos</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-open:rotate-180 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </span>
+                    </span>
+                </summary>
 
-            <!-- Contenedor de tarjetas (dinámico) -->
+                <div id="productsPanel" class="p-8 md:p-10 border-t-2 border-gray-200">
+                    <!-- Contenedor para la descripción de la categoría activa -->
+                    <div id="activeCategoryDescription" class="mb-8"></div>
 
-            <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 no-print">
-                <!-- Renderizado por JS para la web -->
-            </div>
-            <p id="resultCount" class="text-sm text-gray-400 mt-6 text-center font-medium no-print"></p>
+                    <!-- Contenedor de tarjetas (dinámico) -->
+                    <div id="productGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                        <!-- Renderizado por JS para la web -->
+                    </div>
+                    <p id="resultCount" class="text-sm text-gray-400 mt-6 text-center font-medium"></p>
+                </div>
+            </details>
+
+            <!-- =========== GUÍA DE PADECIMIENTOS (WEB) =========== -->
+            <section id="padecimientosGuideWeb" class="mt-20 scroll-mt-24 no-print">
+                <!-- El contenido de la guía se inyectará aquí con JavaScript -->
+            </section>
 
             <!-- =========== INTRODUCCIÓN (WEB) =========== -->
             <section id="introWeb" class="mt-20 scroll-mt-24 no-print">
-                <!-- El contenido se inyectará aquí con JavaScript -->
-            </section>
-
-            <!-- =========== ARTE DE VENDER (WEB) =========== -->
-            <section id="arteDeVenderWeb" class="mt-20 scroll-mt-24 no-print">
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
@@ -400,14 +421,14 @@
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
-            <!-- =========== GUÍA DE VENTA RÁPIDA (WEB) =========== -->
-            <section id="guiaRapidaWeb" class="mt-20 scroll-mt-24 no-print">
+            <!-- =========== ARTE DE VENDER (WEB) =========== -->
+            <section id="arteDeVenderWeb" class="mt-20 scroll-mt-24 no-print">
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
-            <!-- =========== GUÍA DE PADECIMIENTOS (WEB) =========== -->
-            <section id="padecimientosGuideWeb" class="mt-20 scroll-mt-24 no-print">
-                <!-- El contenido de la guía se inyectará aquí con JavaScript -->
+            <!-- =========== GUÍA DE VENTA RÁPIDA (WEB) =========== -->
+            <section id="guiaRapidaWeb" class="mt-20 scroll-mt-24 no-print">
+                <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
             <!-- =========== FAQ (WEB) =========== -->

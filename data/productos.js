@@ -5624,6 +5624,7 @@ window.manualData.productos = [
 // 246. L-GLUTAMINE + NAG
 {
     id: 246,
+    code: "7500645001583",
     name: "L-GLUTAMINE + NAG",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/L-GLUTAMINE-NAG.jpg",

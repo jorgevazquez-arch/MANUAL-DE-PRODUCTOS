@@ -336,6 +336,9 @@
         }
 
         function scrollToPadecimiento(padecimientoId) {
+            const guide = document.getElementById('padecimientosCatalog');
+            if (guide) guide.open = true;
+
             const element = document.getElementById(`padecimiento-${padecimientoId}`);
             if (element) {
                 // Si es un <details> (acordeón), lo abrimos para que se vea el contenido
@@ -367,12 +370,24 @@
             if (!container) return;
 
             let html = `
-                <div class="bg-white border border-gray-200 rounded-3xl p-8 md:p-10 shadow-sm">
-                    <div class="text-center mb-10 border-b-2 border-gray-200 pb-6">
+                <details id="padecimientosCatalog" open class="group/guide bg-white border border-gray-200 rounded-3xl shadow-sm transition-all duration-300 open:shadow-lg open:border-girasol-green-300 overflow-hidden">
+                    <summary class="p-8 md:p-10 cursor-pointer list-none transition-colors hover:bg-blue-50/40">
+                        <span class="block text-center">
                         <span class="inline-block bg-blue-100 text-blue-800 font-black px-4 py-1 rounded-full text-sm uppercase tracking-widest mb-3">Guía de Protocolos</span>
-                        <h2 class="text-3xl md:text-4xl font-black text-girasol-green-900 flex items-center justify-center gap-3">
-                            <span>🎯</span> Guía de Apoyo Nutricional                        </h2>                        <p class="text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza el buscador principal para filtrar por padecimiento, síntoma o suplemento. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</p>
-                    </div>
+                            <span class="text-3xl md:text-4xl font-black text-girasol-green-900 flex items-center justify-center gap-3">
+                                <span aria-hidden="true">🎯</span> Guía de Apoyo Nutricional
+                            </span>
+                            <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza el buscador principal para filtrar por padecimiento, síntoma o suplemento. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</span>
+                            <span class="mt-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
+                                <span class="group-open/guide:hidden">Mostrar padecimientos</span>
+                                <span class="hidden group-open/guide:inline">Ocultar padecimientos</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-open/guide:rotate-180 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </span>
+                    </summary>
+                    <div class="p-8 md:p-10 border-t-2 border-gray-200">
                     <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center font-semibold">
                         <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-900 text-white transition-all">🎯 Todos</button>
                         <button type="button" data-color-filter="purple" class="pad-color-btn p-2 rounded-lg bg-purple-600 border border-purple-700 text-white hover:bg-purple-700 transition-all">🟣 Sistema Nervioso y Hormonal</button>
@@ -468,7 +483,7 @@
                 `;
             });
 
-            html += `</div></div>`;
+            html += `</div></div></details>`;
             container.innerHTML = html;
 
             // Activar filtrado por color una vez que el HTML ya está en el DOM
@@ -699,6 +714,12 @@
         const clearSearchBtn = document.getElementById('clearSearchBtn');
         const resultCount = document.getElementById('resultCount');
         const modal = document.getElementById('productModal');
+        const productsCatalog = document.getElementById('productsCatalog');
+        const productsCatalogSummary = document.getElementById('productsCatalogSummary');
+
+        function setProductsPanelOpen(isOpen) {
+            productsCatalog.open = isOpen;
+        }
 
         function renderProducts(filter = 'all', search = '') {
             const searchTerm = search.toLowerCase().trim();
@@ -748,6 +769,7 @@
             if (results.length === 0) {
                 grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-400 font-medium">No encontramos ningún suplemento con esos criterios. 🧐</div>`;
                 resultCount.textContent = '0 resultados';
+                productsCatalogSummary.textContent = 'Sin productos con los filtros actuales';
                 return;
             }
 
@@ -797,6 +819,7 @@
             initRevealObserver();
 
             resultCount.textContent = `Mostrando ${results.length} de ${productos.length} suplementos`;
+            productsCatalogSummary.textContent = `${results.length} de ${productos.length} productos visibles`;
         }
 
         // Enlaces del menú lateral
@@ -813,6 +836,7 @@
                         b.classList.remove('bg-white/10');
                     }
                 });
+                setProductsPanelOpen(true);
                 renderProducts(filter, searchInput.value);
                 updateCategoryDescription(filter);
                 // Scroll al inicio de la grilla
@@ -1283,6 +1307,7 @@
                 this.classList.add('active');
                 this.classList.remove('bg-white/10');
                 const filter = this.dataset.filter;
+                setProductsPanelOpen(true);
                 renderProducts(filter, searchInput.value);
                 filterPadecimientos();
                 updateCategoryDescription(filter);
@@ -1295,13 +1320,13 @@
         populateSideMenuFilters();
         renderProducts('all', '');
         updateCategoryDescription('all');
+        renderPadecimientosWeb();
         renderIntroWeb();
         renderGuiaLenguajeWeb();
         renderArteDeVenderWeb();
         renderGuiaRapidaWeb();
         renderIndex();
         renderPdfSections();
-        renderPadecimientosWeb();
         renderPadecimientosPdf();
         renderFaqWeb();
         renderGlosario();
