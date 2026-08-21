@@ -1,0 +1,237 @@
+        body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+        
+        /* Estilos para impresión (mantengo los tuyos) */
+        @media print {
+            @page {
+                margin: 1in;
+                @bottom-center {
+                    content: "Página " counter(page) " de " counter(pages);
+                    font-size: 10px;
+                    color: #6b7280;
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+            body { 
+                background-color: #ffffff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; 
+                counter-reset: page;
+            }
+            .no-print { display: none !important; }
+            .print-container { width: 100% !important; max-width: 100% !important; margin: 0 !important; padding: 0 !important; }
+            .print-grid { 
+                display: grid !important; 
+                grid-template-columns: repeat(2, 1fr) !important; 
+                gap: 1.5rem !important; 
+            }
+            .product-card { 
+                page-break-inside: avoid; 
+                break-inside: avoid; 
+                border: 1px solid #e5e7eb; 
+                box-shadow: none !important; 
+                margin-bottom: 0.5rem;
+                display: flex;
+                flex-direction: column;
+            }
+            .product-card-pdf {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                border: 1px solid #e5e7eb;
+                box-shadow: none !important;
+                padding: 0.75rem;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .product-card-magazine {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                background-color: #ffffff;
+                padding: 1rem;
+                border-radius: 0.75rem;
+                border: 1px solid #f3f4f6;
+                box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            }
+            .product-card img { max-height: 120px !important; object-fit: contain; }
+            .product-card p { font-size: 0.75rem !important; line-height: 1.2 !important; }
+            .product-card h4 { font-size: 1rem !important; margin-bottom: 0.2rem !important; }
+            .cover-page { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; page-break-after: always; }
+            /* Forzar salto de página solo antes de las secciones principales y largas para optimizar el espacio. */
+            #seccion2_ventas,
+            #printProductSections,
+            #padecimientosGuidePdf {
+                page-break-before: always;
+            }
+            section { padding-top: 1rem; }
+            h1, h2, h3 { page-break-after: avoid; } /* Evitar que los títulos queden huérfanos al final de una página */
+            .section-header { margin-bottom: 1rem !important; padding-bottom: 0.5rem !important; }
+            #pdf-index { page-break-after: always; }
+            #comboGrid {
+                display: grid !important;
+                grid-template-columns: repeat(3, 1fr) !important;
+                gap: 1rem !important;
+            }
+            #comboGrid > div {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                border: 1px solid #e5e7eb !important;
+                box-shadow: none !important;
+            }
+            #padecimientosGuidePdf > section > h2 {
+                page-break-after: avoid;
+            }
+            .padecimiento-pdf-item {
+                page-break-inside: avoid;
+                margin-bottom: 1rem; /* Reducido para compactar y evitar saltos innecesarios */
+                padding-left: 1rem;
+            }
+            .padecimiento-pdf-title {
+                font-size: 1.25rem;
+                font-weight: 800;
+                margin-bottom: 0.5rem;
+            }
+            .padecimiento-pdf-desc {
+                font-size: 0.8rem;
+                font-style: italic;
+                color: #4b5563;
+                margin-bottom: 0.75rem;
+            }
+            #padecimientosGuidePdf table { font-size: 0.7rem; line-height: 1.3; }
+            #padecimientosGuidePdf th, #padecimientosGuidePdf td { padding: 0.3rem 0.5rem; vertical-align: top; }
+            #glosarioPdfTable {
+                font-size: 0.8rem;
+                line-height: 1.4;
+                page-break-inside: auto;
+            }
+            #glosarioPdfTable tr { page-break-inside: avoid; }
+        }
+
+        .product-card {
+            transition: all 0.2s ease-in-out;
+        }
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: #81c784;
+        }
+        
+        .img-wrapper {
+            background-color: #ffffff;
+            background-image: radial-gradient(#f0fdf4 1px, transparent 1px);
+            background-size: 10px 10px;
+        }
+
+        /* Para el modal (lo adapto a tu estilo) */
+        .modal-bg {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(8px);
+        }
+        .badge-cat {
+            font-size: 9px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        /* Filtros activos */
+        .filter-btn.active {
+            background-color: #15803d !important; /* girasol-green-700 */
+            color: white !important;
+            border-color: #15803d !important; /* girasol-green-700 */
+        }
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            cursor: help;
+        }
+        /* Estilo para el resaltado de búsqueda */
+        mark {
+            background-color: #fde047; /* girasol-yellow-300 */
+            color: #78350f; /* girasol-yellow-900 */
+            padding: 1px 0;
+            border-radius: 3px;
+        }
+
+        /* ============================================================
+           IDENTIDAD VISUAL "ORGÁNICA" — diseño del borrador v3
+           ============================================================ */
+        :root {
+            --shadow-green: 0 20px 45px -15px rgba(21, 128, 61, 0.35);
+            --shadow-yellow: 0 20px 45px -15px rgba(202, 138, 4, 0.35);
+            --ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .reveal { opacity: 0; }
+        .reveal.in-view { animation: fadeInUp 0.65s var(--ease-organic) forwards; }
+
+        @keyframes popIn {
+            from { opacity: 0; transform: translateY(10px) scale(0.96); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        .pop-in { animation: popIn 0.35s var(--ease-organic) forwards; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .reveal.in-view, .pop-in { animation: none !important; }
+            .reveal { opacity: 1 !important; }
+        }
+
+        /* Tarjetas del catálogo: acento de color por categoría y elevación */
+        .product-card {
+            border-radius: 1.5rem;
+            position: relative;
+            overflow: hidden;
+            border-color: transparent !important;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+            transition: transform 0.4s var(--ease-organic), box-shadow 0.4s var(--ease-organic);
+        }
+
+        .product-card::before {
+            content: '';
+            position: absolute;
+            inset: 0 0 auto;
+            height: 5px;
+            background: linear-gradient(90deg, var(--cat-a, #16a34a), var(--cat-b, #eab308));
+            border-radius: 1.5rem 1.5rem 0 0;
+        }
+
+        .product-card:hover {
+            transform: translateY(-7px) rotate(-0.3deg);
+            box-shadow: var(--shadow-green);
+        }
+
+        .filter-btn {
+            transition: transform 0.25s var(--ease-organic), background-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .filter-btn:hover { transform: translateY(-2px) scale(1.03); }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #16a34a, #15803d) !important;
+            box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.35);
+        }
+
+        .pad-card {
+            border-radius: 1.5rem !important;
+            transition: box-shadow 0.35s var(--ease-organic), transform 0.35s var(--ease-organic);
+        }
+
+        .pad-card:hover { box-shadow: 0 16px 35px -18px rgba(0, 0, 0, 0.35); }
+        .pad-card summary::-webkit-details-marker { display: none; }
+        .pad-card[open] { transform: translateY(-2px); }
+        .pad-card .pad-body { animation: fadeInUp 0.4s var(--ease-organic); }
+
+        .wave-divider {
+            width: 100%;
+            height: 26px;
+            display: block;
+            margin: 3rem 0;
+        }
+
+        #productModal > div, #compareModal > div {
+            border-radius: 2rem !important;
+        }
+
+        #compareBar { box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.45); }
