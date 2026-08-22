@@ -1460,28 +1460,28 @@ window.manualData.productos = [
   interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios, antidiabéticos y fármacos metabolizados por CYP3A4."
 },
 
-// 55. D3 1000u 30 caps (con vitamina C, equinácea)
+// 55. D3 1000 IU / 1000 UI + Vitamina C & Equinácea (30 cápsulas)
 {
   id: 55,
   code: "7503029679101",
-  name: "D3 1000u 30 caps",
+  name: "D3 1000 IU / 1000 UI + VITAMINA C & EQUINÁCEA",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
-  shortDesc: "Complejo de defensa estacional con vitamina D3, vitamina C y equinácea, para fortalecer las defensas naturales.",
-  ingredients: "Vitamina D3 (125 mcg, aunque se anuncia como 1000 UI, posible error), vitamina C (300 mg), equinácea (300 mg) por porción.",
-  serving: "1 cápsula",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
+  shortDesc: "Suplemento alimenticio en presentación de 30 cápsulas con vitamina C, vitamina D3 y equinácea, formulado como apoyo nutricional para la función inmunológica y el bienestar estacional.",
+  ingredients: "Por cápsula de 1000 mg: Vitamina C (como ácido ascórbico) 300 mg, Vitamina D3 (como colecalciferol) 1000 UI / 25 mcg, Equinácea (Echinacea purpurea) 200 mg y excipiente c.b.p.",
+  serving: "1 cápsula (1000 mg) al día",
+  timing: "Por la mañana o con alimentos, preferentemente con una comida que contenga grasas",
+  intakeInstructions: "Tomar 1 cápsula al día con alimentos, preferentemente por la mañana. No exceder la porción diaria recomendada.",
   benefits: [
-    "Apoya el sistema inmunológico",
-    "Contribuye a la salud ósea y muscular",
-    "Aporta vitamina C antioxidante",
-    "Ayuda a reducir el cansancio",
-    "Fórmula de defensa estacional",
-    "Favorece el bienestar general"
+    "Vitamina C que contribuye al funcionamiento normal del sistema inmunológico",
+    "Vitamina D3 que participa en la función inmunológica y en la absorción de calcio",
+    "Vitamina C con actividad antioxidante para la protección celular",
+    "Equinácea de uso tradicional como apoyo al bienestar estacional",
+    "Contribuye al mantenimiento de la salud ósea y muscular",
+    "Fórmula combinada de vitaminas y extracto botánico"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
+  foodInteractions: "Tomar con alimentos; una comida que contenga grasas favorece la absorción de la vitamina D3. En personas sensibles, los 300 mg de vitamina C podrían ocasionar molestias gastrointestinales.",
   interactions: "Puede interactuar con anticoagulantes, inmunosupresores y antidiabéticos."
 },
 

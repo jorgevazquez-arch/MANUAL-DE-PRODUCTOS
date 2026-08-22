@@ -365,6 +365,13 @@
             return serving || String(product?.serving || 'Porción no especificada').trim();
         }
 
+        function getGuideUsage(item, product) {
+            const guideUsage = String(item?.usage || '').trim();
+            const legacyTiming = String(item?.timing || '').trim();
+            const productTiming = String(product?.timing || '').trim();
+            return guideUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
+        }
+
         function renderPadecimientosWeb() {
             const container = document.getElementById('padecimientosGuideWeb');
             if (!container) return;
@@ -388,6 +395,10 @@
                         </span>
                     </summary>
                     <div class="p-8 md:p-10 border-t-2 border-gray-200">
+                    <div class="mb-8 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
+                        <strong class="block mb-1">Importante: son opciones, no seis productos para tomar juntos.</strong>
+                        Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto, evita duplicar ingredientes o mecanismos y deriva al especialista cuando corresponda.
+                    </div>
                     <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center font-semibold">
                         <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-900 text-white transition-all">🎯 Todos</button>
                         <button type="button" data-color-filter="purple" class="pad-color-btn p-2 rounded-lg bg-purple-600 border border-purple-700 text-white hover:bg-purple-700 transition-all">🟣 Sistema Nervioso y Hormonal</button>
@@ -427,10 +438,13 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <h4 class="font-bold text-gray-700 mb-2">Síntomas a Identificar:</h4>
-                                    <ul class="list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
-                                        ${pad.symptoms.map(s => `<li>${s}</li>`).join('')}
-                                    </ul>
-                                </div>
+                                     <ul class="list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
+                                         ${pad.symptoms.map(s => `<li>${s}</li>`).join('')}
+                                     </ul>
+                                     <div class="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm font-semibold leading-relaxed text-amber-900">
+                                         <span aria-hidden="true">⚠️</span> ${GUIDE_SPECIALIST_NOTE}
+                                     </div>
+                                 </div>
                                 <div class="${bgColor} p-4 rounded-lg">
                                     <h4 class="font-bold ${textColor} mb-2">Protocolo Sugerido:</h4>
                                     <div class="space-y-4">
@@ -444,10 +458,10 @@
                                                             <div class="flex items-center gap-2">
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 <div class="tooltip" title="${item.rationale}">ⓘ</div>
-                                                            </div>
-                                                            <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                            <span class="text-[11px] text-amber-700 pl-1">⚠️ ${GUIDE_SPECIALIST_NOTE}</span>
-                                                        </li>` : '';
+                                                             </div>
+                                                             <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
+                                                             <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
+                                                         </li>` : '';
                                                 }).join('')}
                                             </ul>
                                         </div>
@@ -462,10 +476,10 @@
                                                             <div class="flex items-center gap-2">
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 <div class="tooltip" title="${item.rationale}">ⓘ</div>
-                                                            </div>
-                                                            <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                            <span class="text-[11px] text-amber-700 pl-1">⚠️ ${GUIDE_SPECIALIST_NOTE}</span>
-                                                        </li>` : '';
+                                                             </div>
+                                                             <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
+                                                             <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
+                                                         </li>` : '';
                                                 }).join('')}
                                             </ul>
                                         </div>` : ''}
@@ -588,33 +602,39 @@
             const container = document.getElementById('padecimientosGuidePdf');
             if (!container) return;
 
-            let html = `<h1 class="text-4xl font-black text-girasol-green-900 mb-8 border-b-4 border-girasol-yellow-500 pb-4">SECCIÓN 4: GUÍA DE APOYO POR PADECIMIENTO</h1>`;
+            let html = `
+                <h1 class="text-4xl font-black text-girasol-green-900 mb-8 border-b-4 border-girasol-yellow-500 pb-4">SECCIÓN 4: GUÍA DE APOYO POR PADECIMIENTO</h1>
+                <div class="mb-8 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
+                    <strong>Importante:</strong> los productos de cada guía son opciones para individualizar la recomendación; no se indica tomar los seis juntos. Evitar duplicar ingredientes o mecanismos y consultar con el especialista antes de iniciar, ajustar o combinar.
+                </div>`;
 
             padecimientos.forEach(pad => {
                 html += `
                     <section class="padecimiento-pdf-item">
-                        <h2 class="padecimiento-pdf-title">${pad.emoji} ${pad.name}</h2>
-                        <p class="padecimiento-pdf-desc">${pad.description}</p>
+                         <h2 class="padecimiento-pdf-title">${pad.emoji} ${pad.name}</h2>
+                         <p class="padecimiento-pdf-desc">${pad.description}</p>
+                         <div class="mb-4 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm font-semibold text-amber-900">⚠️ ${GUIDE_SPECIALIST_NOTE}</div>
                         
                         <table class="w-full border-collapse mb-4">
                             <thead>
                                 <tr class="bg-gray-50">
-                                    <th class="border p-2 text-left font-semibold text-gray-700">Suplemento</th>
-                                    <th class="border p-2 text-left font-semibold text-gray-700">Porción Sugerida</th>
-                                </tr>
+                                     <th class="border p-2 text-left font-semibold text-gray-700">Suplemento</th>
+                                     <th class="border p-2 text-left font-semibold text-gray-700">Porción Sugerida</th>
+                                     <th class="border p-2 text-left font-semibold text-gray-700">Modo de Uso</th>
+                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td colspan="2" class="pt-2 font-bold text-girasol-green-800">Paquete Principal</td></tr>
-                                ${pad.comboPrincipal.map(item => {
-                                    const p = productos.find(prod => prod.id === item.id);
-                                    return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}<br><span class="text-xs text-amber-700">⚠️ ${GUIDE_SPECIALIST_NOTE}</span></td></tr>` : '';
-                                }).join('')}
-                                ${pad.comboSecundario.length > 0 ? `
-                                <tr><td colspan="2" class="pt-2 font-bold text-girasol-green-800">Apoyo Adicional</td></tr>
-                                ${pad.comboSecundario.map(item => {
-                                    const p = productos.find(prod => prod.id === item.id);
-                                    return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}<br><span class="text-xs text-amber-700">⚠️ ${GUIDE_SPECIALIST_NOTE}</span></td></tr>` : '';
-                                }).join('')}` : ''}
+                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Paquete Principal</td></tr>
+                                 ${pad.comboPrincipal.map(item => {
+                                     const p = productos.find(prod => prod.id === item.id);
+                                     return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                 }).join('')}
+                                 ${pad.comboSecundario.length > 0 ? `
+                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Apoyo Adicional</td></tr>
+                                 ${pad.comboSecundario.map(item => {
+                                     const p = productos.find(prod => prod.id === item.id);
+                                     return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                 }).join('')}` : ''}
                             </tbody>
                         </table>
                     </section>
