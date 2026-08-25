@@ -372,6 +372,27 @@
             return guideUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
         }
 
+        function escapeGuideAttribute(value) {
+            return String(value || '')
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        function renderGuideRationaleIcon(item, product) {
+            const rationale = escapeGuideAttribute(item?.rationale || 'Ver motivo de la recomendación.');
+            const productName = escapeGuideAttribute(product?.name || 'este producto');
+
+            return `
+                <span class="guide-rationale-icon tooltip" title="${rationale}" tabindex="0" aria-label="Motivo de recomendación para ${productName}">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 18h4.5M10 21h4M12 3a6 6 0 00-3.9 10.56c.9.77 1.4 1.66 1.55 2.44h4.7c.15-.78.65-1.67 1.55-2.44A6 6 0 0012 3z" />
+                        <path stroke-linecap="round" d="M12 1v1M4.93 4.93l.7.7M2 12h1M19 12h1M18.37 5.63l.7-.7" />
+                    </svg>
+                </span>`;
+        }
+
         function renderPadecimientosWeb() {
             const container = document.getElementById('padecimientosGuideWeb');
             if (!container) return;
@@ -437,7 +458,7 @@
                             
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
-                                    <h4 class="font-bold text-gray-700 mb-2">Síntomas a Identificar:</h4>
+                                    <h4 class="font-bold text-gray-700 mb-2">${pad.symptomsTitle || 'Síntomas a Identificar:'}</h4>
                                      <ul class="list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
                                          ${pad.symptoms.map(s => `<li>${s}</li>`).join('')}
                                      </ul>
@@ -446,7 +467,7 @@
                                      </div>
                                  </div>
                                 <div class="${bgColor} p-4 rounded-lg">
-                                    <h4 class="font-bold ${textColor} mb-2">Protocolo Sugerido:</h4>
+                                    <h4 class="font-bold ${textColor} mb-2">${pad.protocolTitle || 'Protocolo Sugerido:'}</h4>
                                     <div class="space-y-4">
                                         <div>
                                             <strong class="text-sm font-semibold text-gray-800">Paquete Principal:</strong>
@@ -457,7 +478,7 @@
                                                         <li class="flex flex-col">
                                                             <div class="flex items-center gap-2">
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
-                                                                <div class="tooltip" title="${item.rationale}">ⓘ</div>
+                                                                ${renderGuideRationaleIcon(item, p)}
                                                              </div>
                                                              <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
                                                              <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
@@ -475,7 +496,7 @@
                                                         <li class="flex flex-col">
                                                             <div class="flex items-center gap-2">
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
-                                                                <div class="tooltip" title="${item.rationale}">ⓘ</div>
+                                                                ${renderGuideRationaleIcon(item, p)}
                                                              </div>
                                                              <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
                                                              <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>

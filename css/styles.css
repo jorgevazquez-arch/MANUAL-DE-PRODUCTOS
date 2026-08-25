@@ -141,6 +141,33 @@
             display: inline-block;
             cursor: help;
         }
+        .guide-rationale-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 1.2rem;
+            height: 1.2rem;
+            flex: 0 0 1.2rem;
+            border: 1px solid #facc15;
+            border-radius: 9999px;
+            background: #fef9c3;
+            color: #15803d;
+            box-shadow: 0 1px 2px rgb(21 128 61 / 0.12);
+            transition: background-color 160ms ease, color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+        }
+        .guide-rationale-icon svg {
+            width: 0.75rem;
+            height: 0.75rem;
+        }
+        .guide-rationale-icon:hover,
+        .guide-rationale-icon:focus-visible {
+            background: #fde047;
+            color: #14532d;
+            box-shadow: 0 3px 8px rgb(21 128 61 / 0.2);
+            outline: 2px solid #86efac;
+            outline-offset: 2px;
+            transform: translateY(-1px);
+        }
         /* Estilo para el resaltado de búsqueda */
         mark {
             background-color: #fde047; /* girasol-yellow-300 */

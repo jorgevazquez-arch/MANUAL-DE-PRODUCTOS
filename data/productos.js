@@ -2940,22 +2940,22 @@ window.manualData.productos = [
   name: "YUMEL SIMILA",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Yumel1.webp",
-  shortDesc: "Medicamento homeopático a base de Guatteria gaumeri (Tintura Madre) para el apoyo en trastornos renales, vesicales y colesterol elevado.",
+  shortDesc: "Preparación homeopática en tintura madre de Guatteria gaumeri, de uso tradicional mexicano. Su eficacia clínica para cálculos o colesterol no está establecida.",
   ingredients: "Guatteria gaumeri TM (Tintura Madre) 100 ml por 100 ml.",
   serving: "20 gotas en ¼ de vaso con agua",
   timing: "Tres veces al día, antes de los alimentos",
   intakeInstructions: "Mezclar 20 gotas en un cuarto de vaso con agua natural. Tomar 3 veces al día antes de los alimentos.",
   benefits: [
-    "Apoyo en el manejo de trastornos renales y vesicales",
+    "Preparación de uso tradicional mexicano",
     "Tradicionalmente usado para cálculos renales y biliares",
-    "Puede contribuir en casos de colesterol elevado",
+    "Uso tradicional como apoyo en colesterol elevado",
     "Preparación homeopática con tintura madre",
     "Fácil administración en gotas",
-    "Uso supervisado por médico homeópata"
+    "Uso supervisado por un profesional de la salud"
   ],
-  contraindications: "Hipersensibilidad a los componentes, embarazo, lactancia, niños menores de 15 años (consultar a médico homeópata).",
+  contraindications: "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
   foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  interactions: "Interacciones no adecuadamente estudiadas. Por prudencia, revisar estatinas y otros medicamentos metabolizados por el hígado, anticoagulantes, antiagregantes y cirugías programadas antes de usar."
 },
 
 // 116. NAC N-AcetylCysteine 500 mg ZN (60 caps, 500 mg de N-Acetilcisteína por cápsula)

@@ -201,23 +201,25 @@ window.manualData.padecimientos = [
         lifestyleTips: ['Evitar alimentos irritantes como picante, café, alcohol y fritos.', 'Realizar comidas más pequeñas y frecuentes.', 'Manejar el estrés.', 'Consumir infusiones con Toronjil como TÉ JOUNKINS LAX (ID 189) para apoyar la relajación.']
     },
     {
-        id: 'colitis',
-        name: 'Colitis (Apoyo Complementario)',
-        emoji: '🌿',
+        id: 'enfermedad_inflamatoria_intestinal',
+        name: 'Enfermedad Inflamatoria Intestinal Diagnosticada (Crohn y Colitis Ulcerosa)',
+        emoji: '🩺',
         color: 'green',
-        description: 'La palabra colitis describe inflamación del colon y no es equivalente al Síndrome de Intestino Irritable. Antes de recomendar suplementos se debe conocer la causa y confirmar el diagnóstico; esta guía ofrece únicamente apoyo nutricional complementario.',
-        symptoms: ['Dolor abdominal tipo cólico', 'Hinchazón y gases', 'Alternancia entre diarrea y estreñimiento', 'Moco en las heces'],
+        description: 'La enfermedad inflamatoria intestinal (EII) comprende principalmente la enfermedad de Crohn y la colitis ulcerosa. Produce inflamación orgánica del tubo digestivo y no es equivalente al Síndrome de Intestino Irritable. Esta guía se limita a corregir necesidades nutricionales identificadas y a ofrecer opciones supervisadas; ningún suplemento induce o mantiene por sí solo la remisión ni sustituye el tratamiento del gastroenterólogo.',
+        symptomsTitle: 'Datos a identificar y derivar:',
+        protocolTitle: 'Opciones de apoyo nutricional supervisado:',
+        symptoms: ['Diarrea persistente o nocturna', 'Sangre o moco en las heces', 'Urgencia para evacuar', 'Dolor abdominal acompañado de pérdida de peso', 'Fatiga, anemia o deficiencias nutricionales', 'Diagnóstico confirmado de Crohn o colitis ulcerosa'],
         comboPrincipal: [
-            { id: 246, serving: '1 scoop (6 g)', usage: 'Tomar esta porción al día con alimentos.', rationale: 'L-Glutamina como combustible para los enterocitos, NAG para reconstruir la capa de mucina, Zinc L-carnosina para fortalecer la barrera intestinal, Aloe vera para reducir la inflamación y regular el tránsito, e Inulina como prebiótico para la microbiota.' },
-            { id: 131, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Probióticos como apoyo complementario de la microbiota, según tolerancia individual.' },
-            { id: 9, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Botánicos de uso tradicional para el bienestar digestivo, sin sustituir el tratamiento de la causa de la colitis.' }
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar una vez al día, después del ejercicio o entre comidas, únicamente cuando el gastroenterólogo o nutriólogo haya calculado que la alimentación no cubre la proteína necesaria.', rationale: 'Aislado de proteína como opción para cubrir un déficit nutricional documentado. La cantidad total debe individualizarse y puede requerir cambios durante un brote, ante estenosis o si existe enfermedad renal o hepática.' },
+            { id: 225, serving: '1 pastilla', usage: 'Masticar o disolver completamente en la boca una vez al día, solo cuando exista deficiencia, afectación del íleon, resección intestinal o indicación profesional.', rationale: 'La vitamina B12 puede requerir vigilancia en Crohn ileal o después de ciertas cirugías. No debe recomendarse de rutina sin revisar la causa y los análisis.' },
+            { id: 166, serving: '1 cápsula', usage: 'Tomar una vez al día con alimentos que contengan grasas, únicamente si un profesional confirma insuficiencia y define el seguimiento mediante análisis.', rationale: 'Vitamina D3 de 5000 UI para corregir insuficiencia documentada. Es una presentación de dosis alta y no debe usarse de forma prolongada sin control clínico.' }
         ],
         comboSecundario: [
-            { id: 151, serving: '1/2-1 medida (3-6 g)', usage: 'Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Tomar en ayunas o con el desayuno, preferentemente por la mañana.', rationale: 'Fibra prebiótica como alternativa gradual. No combinar inicialmente con L-GLUTAMINE + NAG si existe sensibilidad a inulina o fermentación.' },
-            { id: 85, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Zinc L-Carnosine como alternativa de apoyo a la mucosa; evitar duplicarlo con el producto 246 sin orientación profesional.' },
-            { id: 28, serving: '100 ml', usage: 'Tomar esta porción en ayunas.', rationale: 'Aloe Vera calma y desinflama el tracto digestivo.' },
+            { id: 246, serving: '1/2-1 scoop (3-6 g)', usage: 'Iniciar con la cantidad mínima una vez al día y aumentar solo según tolerancia, con alimentos y durante una etapa estable. Evitar durante un brote activo, ante estenosis o si la inulina aumenta dolor, gases o diarrea.', rationale: 'L-GLUTAMINE + NAG puede considerarse como apoyo nutricional de tolerancia individual, pero no trata la inflamación de Crohn o colitis ulcerosa. Su inulina puede empeorar síntomas en algunas personas.' },
+            { id: 131, serving: '1 cápsula', usage: 'Tomar una vez al día con alimentos únicamente si el gastroenterólogo considera apropiadas sus cepas y concentración para el caso concreto.', rationale: 'La evidencia de probióticos depende de la enfermedad, la cepa y la formulación; no existe un probiótico universal para EII y no debe introducirse automáticamente durante un brote.' },
+            { id: 151, serving: '1/2 medida (3 g)', usage: 'Tomar una vez al día por la mañana e incrementar únicamente con autorización profesional, durante remisión estable y sin estenosis. No iniciar al mismo tiempo que el producto 246.', rationale: 'Fibra prebiótica condicional para personas que la toleran. No es apropiada para todos los subtipos ni para obstrucción, estenosis o actividad inflamatoria intensa.' }
         ],
-        lifestyleTips: ['Identificar y evitar alimentos detonantes (lácteos, gluten, etc.).', 'Manejar el estrés.', 'Comer despacio y masticar bien los alimentos.', 'Consumir infusiones relajantes como TÉ JOUNKINS LAX (ID 189) por su contenido de Toronjil.']
+        lifestyleTips: ['Mantener el tratamiento prescrito y las revisiones con gastroenterología; no suspender medicamentos cuando mejoren los síntomas.', 'Solicitar valoración de hierro, ferritina, B12, folato, vitamina D, peso y estado nutricional según el plan clínico.', 'Durante un brote, ajustar fibra, textura y alimentación con el equipo tratante en lugar de iniciar varios suplementos.', 'Buscar atención ante sangrado abundante, fiebre, dolor intenso, distensión con vómito, deshidratación o pérdida rápida de peso.', 'No combinar de inicio varias fibras, prebióticos o probióticos; introducir una sola opción y registrar tolerancia.']
     },
     {
         id: 'erge_acidez',
@@ -291,7 +293,7 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 28, serving: '100 ml', usage: 'Tomar esta porción al día según tolerancia. En ayunas o entre comidas.', rationale: 'Bebida de aloe para hidratación y bienestar digestivo, sin afirmar que limpia la vesícula o elimina piedras.' },
             { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día únicamente si el profesional lo autoriza. Con un desayuno que contenga grasas.', rationale: 'Omega-3 como apoyo nutricional general, no como tratamiento de colelitiasis y con revisión del riesgo de sangrado.' },
-            { id: 172, serving: '1 sobre (2 g) por taza', usage: 'Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día según tolerancia y autorización profesional. Después de las comidas.', rationale: 'Té de cuachalalate como apoyo digestivo tradicional; no estimula ni limpia la vesícula y no sustituye la valoración de cálculos.' }
+            { id: 115, serving: '20 gotas', usage: 'Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, únicamente después de valoración médica.', rationale: 'YUMEL como alternativa de uso tradicional para colelitiasis. La evidencia disponible es principalmente preclínica: no se ha demostrado que esta presentación disuelva cálculos en humanos. No usar ante dolor activo, fiebre, ictericia, vómitos o sospecha de obstrucción y no sustituir el manejo indicado.' }
         ],
         lifestyleTips: ['Derivar a valoración médica si existen síntomas.', 'Evitar comidas que desencadenen ataques mientras se recibe valoración.', 'No intentar disolver o expulsar cálculos con suplementos.', 'Buscar atención urgente ante dolor que dura varias horas, fiebre, vómitos o color amarillo en piel u ojos.']
     },
@@ -338,23 +340,25 @@ window.manualData.padecimientos = [
     //  🔴 ROJO: Salud Cardiovascular y Clínica
     // ================================================================
     {
-        id: 'cardiovascular',
-        name: 'Salud Cardiovascular',
-        emoji: '❤️',
+        id: 'hipertension',
+        name: 'Hipertensión Arterial Diagnosticada (Apoyo Cardiometabólico)',
+        emoji: '🩺',
         color: 'red',
-        description: 'Guía general de apoyo cardiovascular. La presión arterial, el colesterol, los triglicéridos y los síntomas al esfuerzo requieren evaluación individual; los productos aquí mostrados son alternativas complementarias y no sustituyen medicamentos.',
-        symptoms: ['Presión arterial elevada', 'Colesterol o triglicéridos altos', 'Mala circulación', 'Fatiga al esfuerzo'],
+        description: 'La hipertensión suele no producir síntomas y se confirma con mediciones repetidas correctamente realizadas. El objetivo principal es mantener el tratamiento indicado y mejorar alimentación, actividad física, peso, sueño y consumo de sodio. Los suplementos pueden producir cambios pequeños en algunas personas, pero nunca sustituyen antihipertensivos ni autorizan a modificar sus dosis.',
+        symptomsTitle: 'Datos a identificar:',
+        protocolTitle: 'Opciones complementarias; no combinar automáticamente:',
+        symptoms: ['Lecturas elevadas repetidas con técnica correcta', 'Diagnóstico médico de hipertensión', 'Uso actual de antihipertensivos o diuréticos', 'Enfermedad renal, diabetes o antecedentes cardiovasculares', 'Generalmente no causa síntomas'],
         comboPrincipal: [
-            { id: 10, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Fórmula botánica de apoyo cardiovascular; revisar anticoagulantes, antidiabéticos y antihipertensivos.' },
-            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con una comida que contenga grasa.', rationale: 'Ubiquinol como apoyo antioxidante y de energía celular, especialmente útil para valorar con el profesional si se usan estatinas.' },
-            { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Aporta 900 mg de EPA y 600 mg de DHA por porción como apoyo al consumo de omega-3. No equivale al omega-3 de prescripción para hipertrigliceridemia.' }
+            { id: 181, serving: '4 cápsulas', usage: 'Tomar una vez al día con alimentos, solo después de revisar función renal, medicamentos y el consumo total de magnesio con un profesional.', rationale: 'El magnesio puede producir una reducción pequeña de la presión en algunas personas, especialmente si la ingesta es insuficiente. No es un reemplazo farmacológico y puede causar diarrea o acumularse en enfermedad renal.' },
+            { id: 123, serving: '3 cápsulas (3 g)', usage: 'Tomar una vez al día con un desayuno que contenga grasas y revisar anticoagulantes, antiagregantes y riesgo de sangrado.', rationale: 'Aporta 900 mg de EPA y 600 mg de DHA por porción. Puede ofrecer apoyo cardiometabólico modesto, pero no equivale a omega-3 de prescripción ni garantiza control de la presión.' },
+            { id: 23, serving: '3 cápsulas (1.5 g)', usage: 'Tomar una vez al día con alimentos y vigilar la presión, la tolerancia digestiva y posibles interacciones con anticoagulantes o antihipertensivos.', rationale: 'El ajo negro es una opción botánica complementaria. No debe acumularse con otras fórmulas que también contienen ajo ni usarse para reducir por cuenta propia los medicamentos.' }
         ],
         comboSecundario: [
-            { id: 128, serving: '3 cápsulas (2.05 g)', usage: 'Tomar esta porción al día únicamente con orientación profesional y revisión de función renal y medicamentos. Con alimentos.', rationale: 'Potasio y magnesio para el equilibrio electrolítico. Evitar con enfermedad renal, potasio elevado, inhibidores de la ECA, ARA II o diuréticos ahorradores de potasio.' },
-            { id: 23, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro como alternativa botánica; no combinar de rutina con CUORE y revisar anticoagulantes o antihipertensivos.' },
-            { id: 82, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Krill Oil como alternativa a OMEGA NORDIC, no para sumar ambos aceites de forma automática.' }
+            { id: 128, serving: '3 cápsulas (2.05 g)', usage: 'Tomar una vez al día con alimentos únicamente con autorización clínica, después de revisar potasio en sangre, función renal y medicamentos.', rationale: 'El potasio en cápsulas no es una recomendación rutinaria para hipertensión. Puede ser peligroso con enfermedad renal, potasio elevado, inhibidores de la ECA, ARA II o diuréticos ahorradores de potasio.' },
+            { id: 136, serving: '1 cápsula (500 mg)', usage: 'Tomar una vez al día con alimentos que contengan grasas, únicamente como apoyo complementario acordado con el profesional.', rationale: 'Coenzima Q10 como opción de apoyo general. La evidencia para reducir presión es variable y no debe presentarse como antihipertensivo.' },
+            { id: 10, serving: '3 cápsulas', usage: 'Tomar una vez al día con alimentos solo después de revisar todos sus botánicos y medicamentos. Elegir esta fórmula o el ajo negro, no ambas de rutina.', rationale: 'CUORE contiene ajo, zapote blanco, enebro, té verde y otros ingredientes. Es una alternativa multicomponente que requiere mayor revisión de interacciones y tolerancia.' }
         ],
-        lifestyleTips: ['Realizar actividad cardiovascular moderada.', 'Aumentar el consumo de vegetales de hoja verde y pescado.', 'Limitar grasas trans y azúcares.']
+        lifestyleTips: ['Medir la presión sentado, después de reposar, con brazalete adecuado y registrar varias lecturas.', 'Mantener el tratamiento prescrito; nunca suspenderlo o ajustar la dosis por una lectura aislada o por empezar un suplemento.', 'Priorizar un patrón tipo DASH, reducir sodio de alimentos procesados, hacer actividad física regular y moderar alcohol.', 'Revisar apnea del sueño, peso, diabetes, función renal y otros factores con el equipo de salud.', 'Una presión de 180/120 mmHg o más acompañada de dolor de pecho, falta de aire, déficit neurológico, confusión o alteración visual requiere atención urgente.']
     },
     {
         id: 'varices_circulacion',
@@ -422,7 +426,7 @@ window.manualData.padecimientos = [
         description: 'Los cálculos pueden ser de calcio, ácido úrico, estruvita o cistina. La prevención cambia según el tipo de piedra y los resultados de sangre y orina; ningún producto debe presentarse como capaz de disolver todos los cálculos.',
         symptoms: ['Dolor intenso en espalda, costado o abdomen bajo', 'Sangre en la orina', 'Náuseas o vómitos', 'Antecedentes de expulsión o diagnóstico por imagen'],
         comboPrincipal: [
-            { id: 213, serving: '1 tableta', usage: 'Tomar esta porción antes de cada alimento principal (3 tabletas al día).', rationale: 'Fórmula herbal con Chanca Piedra, Yumel, Cola de Caballo, Perejil, Hierba del Sapo, Cardo Mariano y Taray para apoyo tradicional del sistema urinario. Puede complementar otras fórmulas del protocolo respetando las porciones del empaque; no afirmar que disuelve todos los cálculos y revisar hidratación, función renal y medicamentos.' },
+            { id: 213, serving: '1 tableta', usage: 'Tomar esta porción antes de cada alimento principal (3 tabletas al día).', rationale: 'Fórmula herbal con Chanca Piedra, Yumel, Cola de Caballo, Perejil, Hierba del Sapo, Cardo Mariano y Taray para apoyo tradicional del sistema urinario. Elegir CHA-HA STONE o YUMEL SIMILA (ID 115), no ambos; no afirmar que disuelve cálculos y revisar hidratación, función renal y medicamentos.' },
             { id: 47, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción al día únicamente después de identificar el tipo de cálculo y con autorización profesional. Con alimentos.', rationale: 'Citrato de potasio puede ser útil en determinados cálculos y alteraciones del citrato urinario. Requiere revisar función renal, potasio y medicamentos.' },
             { id: 139, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos, según la ficha y con revisión profesional.', rationale: 'RINICHI como fórmula botánica urinaria tradicional que puede complementar CHA-HA STONE. No disuelve piedras y debe evitarse ante enfermedad renal, cardíaca o uso de diuréticos, litio o ciertos antihipertensivos.' },
             { id: 28, serving: '100 ml', usage: 'Tomar esta porción al día como parte de la ingesta de líquidos, según tolerancia. En ayunas o entre comidas.', rationale: 'Bebida de aloe como apoyo de hidratación general; no modifica el tipo de cálculo ni sustituye el consumo de agua.' }
@@ -430,7 +434,7 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 177, serving: '1 sobre (2 g) por taza', usage: 'Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza de infusión al día según tolerancia y las indicaciones del empaque. Después de las comidas.', rationale: 'Té RINICHI como complemento líquido del protocolo; puede combinarse con las fórmulas en cápsulas respetando porciones, hidratación y tolerancia.' },
             { id: 148, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos, según la ficha del producto.', rationale: 'Hierba del Sapo de uso tradicional como complemento de CHA-HA STONE y RINICHI. No afirmar que fragmenta o disuelve cálculos; evitar ante enfermedad renal, hipotensión o desequilibrios electrolíticos.' },
-            { id: 129, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Probióticos como apoyo digestivo general durante cambios de alimentación; no actúan sobre el cálculo.' }
+            { id: 115, serving: '20 gotas', usage: 'Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, solo después de identificar el tipo de cálculo y recibir valoración profesional.', rationale: 'Alternativa tradicional a CHA-HA STONE, no un producto para combinar con él porque CHA-HA ya contiene Yumel. No existe evidencia clínica de que YUMEL disuelva, expulse o prevenga cálculos renales.' }
         ],
         lifestyleTips: ['Priorizar agua natural en la cantidad recomendada por el profesional.', 'No restringir calcio alimentario ni alcalinizar la orina sin conocer el tipo de cálculo.', 'Reducir sodio y ajustar oxalato, purinas o proteína únicamente según el diagnóstico.', 'Buscar atención urgente ante fiebre, escalofríos, ausencia de orina, vómitos persistentes o dolor incontrolable.']
     },
@@ -584,7 +588,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 136, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Coenzima Q10 como apoyo de energía celular; puede valorarse si existen síntomas musculares asociados a estatinas, sin suspenderlas.' },
-            { id: 13, serving: '2 cápsulas (1 g)', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Cúrcuma como apoyo antioxidante general, no como producto para bajar directamente LDL o triglicéridos.' },
+            { id: 115, serving: '20 gotas', usage: 'Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, con revisión médica y seguimiento del perfil de lípidos.', rationale: 'YUMEL como alternativa tradicional de evidencia clínica limitada. Un reporte humano preliminar no permite asegurar reducción de LDL o triglicéridos; no sustituye estatinas, fibratos ni el seguimiento de laboratorio. Elegir YUMEL o berberina (ID 36), no ambos de rutina.' },
             { id: 145, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Lecitina y colina como apoyo nutricional al metabolismo de grasas; no sustituye el tratamiento de la dislipidemia.' },
             { id: 36, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Berberina como alternativa complementaria: los metaanálisis muestran reducciones modestas de LDL y triglicéridos, generalmente con 900-1500 mg al día. Esta presentación aporta una dosis menor; revisar interacciones con antidiabéticos, antihipertensivos, anticoagulantes y otros medicamentos.' }
         ],
@@ -882,25 +886,88 @@ window.manualData.padecimientos = [
         lifestyleTips: ['Ejercicios de impacto o con peso (caminar, pesas).', 'Dieta rica en calcio (verdes, sardinas).', 'Evitar el tabaquismo y el exceso de alcohol.']
     },
     {
-        id: 'recuperacion_deportiva',
-        name: 'Recuperación y Rendimiento Deportivo',
-        emoji: '🏋️',
+        id: 'sarcopenia_fragilidad',
+        name: 'Sarcopenia y Fragilidad en Personas Mayores (Apoyo Supervisado)',
+        emoji: '🧓',
         color: 'yellow',
-        description: 'El crecimiento muscular no ocurre durante el entrenamiento, sino durante la recuperación. El ejercicio intenso causa micro-desgarros y agota las reservas de energía (glucógeno).',
-        symptoms: ['Dolor muscular post-entrenamiento (DOMS)', 'Fatiga y disminución del rendimiento', 'Sensación de no recuperarse entre sesiones', 'Calambres o rigidez muscular'],
+        description: 'La sarcopenia es la pérdida progresiva de fuerza y masa muscular asociada con la edad o con enfermedades, inactividad y desnutrición. No se diagnostica solo por verse delgado: requiere valorar fuerza, función física, alimentación y causas médicas. El entrenamiento de fuerza adaptado y una ingesta suficiente de energía y proteína son la base; los productos son opciones para cubrir necesidades concretas.',
+        symptomsTitle: 'Datos a identificar y derivar:',
+        protocolTitle: 'Opciones de apoyo nutricional individualizado:',
+        symptoms: ['Pérdida visible de masa o peso involuntario', 'Dificultad para levantarse de una silla o subir escaleras', 'Marcha más lenta o debilidad de agarre', 'Caídas frecuentes o temor a caer', 'Baja ingesta, falta de apetito o dificultad para tragar', 'Pérdida funcional después de hospitalización o reposo prolongado'],
         comboPrincipal: [
-            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar esta porción después del entrenamiento, con alimentos.', rationale: 'Aislado de suero de rápida absorción.' },
-            { id: 158, serving: '1 medida (39.5 g)', usage: 'Tomar esta porción después del entrenamiento.', rationale: 'Proteína vegana con 30g de proteína y BCAAs.' },
-            { id: 7, serving: '5 g', usage: 'Tomar esta porción al día, después del entrenamiento.', rationale: 'Creatina satura los músculos de fosfocreatina.' },
-            { id: 71, serving: '5-10 g', usage: 'Tomar esta porción después del entrenamiento o antes de dormir.', rationale: 'Glutamina reduce el dolor muscular (DOMS).' }
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar una vez al día después del ejercicio o entre comidas, únicamente si el nutriólogo determina que la alimentación no cubre la meta individual de proteína.', rationale: 'Aislado de suero con 29 g de proteína por porción. Es una forma práctica de complementar, no una dosis universal ni un reemplazo de comidas completas.' },
+            { id: 7, serving: '5 g', usage: 'Tomar una vez al día de forma constante; en días de entrenamiento puede usarse después de la sesión y en días de descanso con una comida.', rationale: 'Creatina monohidratada como coadyuvante del entrenamiento de fuerza. El beneficio depende de acompañarla con ejercicio progresivo; revisar función renal y estado de hidratación.' },
+            { id: 166, serving: '1 cápsula', usage: 'Tomar una vez al día con alimentos que contengan grasas, solo si existe insuficiencia documentada y un profesional define el seguimiento.', rationale: 'Vitamina D3 de 5000 UI. Puede ser útil para corregir insuficiencia, pero no aumenta músculo de forma automática y no debe mantenerse sin control de laboratorio.' }
         ],
         comboSecundario: [
-            { id: 83, serving: '3 cápsulas', usage: 'Tomar esta porción antes de entrenar.', rationale: 'Arginina mejora el flujo sanguíneo.' },
-            { id: 92, serving: '2 cápsulas', usage: 'Tomar esta porción por la noche. Con alimentos.', rationale: 'Magnesio Malato previene calambres.' },
-            { id: 123, serving: '3 softgels', usage: 'Tomar esta porción al día. Con un desayuno que contenga grasas.', rationale: 'Omega-3 reduce la inflamación.' },
-            { id: 159, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Antes de cada alimento.', rationale: 'Multivitamínico para atletas.' }
+            { id: 154, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos únicamente cuando el plan nutricional identifique ingesta insuficiente de calcio o riesgo óseo.', rationale: 'Calcio citrato con vitamina D3 como apoyo óseo en fragilidad. No es un tratamiento directo de la sarcopenia y requiere revisar calcio total, riñón y medicamentos.' },
+            { id: 225, serving: '1 pastilla', usage: 'Masticar o disolver completamente en la boca una vez al día, solo ante deficiencia, dieta vegetal estricta, malabsorción o indicación profesional.', rationale: 'Vitamina B12 para corregir una necesidad documentada que puede contribuir a anemia, neuropatía o debilidad. No debe asumirse que toda fatiga en el adulto mayor es falta de B12.' },
+            { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal únicamente cuando la evaluación dietética muestre una ingesta insuficiente o restrictiva.', rationale: 'Multivitamínico y mineral como opción condicional. No sustituye proteína, energía, ejercicio ni el estudio de pérdida de peso.' }
         ],
-        lifestyleTips: ['Consumir proteína y creatina dentro de los 45 minutos post-entreno.', 'Hidratación adecuada.', 'Dormir al menos 7-8 horas.', 'Otras proteínas y creatinas de la tienda (elegir según objetivo/sabor): WHEY HARDER (ID 112), WHEY CHOCONUEZ NANOFEAR (ID 111), MASS FEAR (ID 96, ganador de peso), BEEF FEAR (ID 35), ALBÚMINA PROWINNER (ID 24), VEGI PROTEIN NANO FEAR (ID 219), ISOFEAR (ID 220), PROTEÍNA VEGANA HABITS cacao/vainilla (ID 134/135), CREATINA NANO FEAR (ID 8), CREATINA REFRESHER (ID 191/209), CLA (ID 19) y L-CARNITINA/L-LISINA PROWINNER (ID 215/217).']
+        lifestyleTips: ['Realizar entrenamiento de fuerza adaptado y supervisado de forma regular, además de ejercicios de equilibrio.', 'Distribuir alimentos con proteína a lo largo del día; el nutriólogo debe calcular la cantidad total, especialmente en enfermedad renal o hepática.', 'Evaluar pérdida de peso, dentición, deglución, depresión, medicamentos y otras causas de baja ingesta.', 'No combinar varias proteínas, creatinas o multivitamínicos: elegir una opción según dieta, tolerancia y objetivo.', 'Una caída con lesión, debilidad de aparición reciente, dificultad para tragar o pérdida rápida de peso requiere valoración médica.']
+    },
+    {
+        id: 'fuerza_hipertrofia',
+        name: 'Fuerza, Potencia e Hipertrofia (Objetivo Deportivo)',
+        emoji: '🏋️',
+        color: 'yellow',
+        description: 'Guía para adultos sanos que realizan entrenamiento de fuerza o esfuerzos repetidos de alta intensidad. La programación del entrenamiento, la energía total, el sueño y la proteína diaria determinan la mayor parte del progreso. Creatina y proteína tienen el mejor respaldo; los demás productos son condicionales y no forman un stack obligatorio.',
+        symptomsTitle: 'Objetivo y contexto:',
+        protocolTitle: 'Opciones de suplementación; elegir según necesidad:',
+        symptoms: ['Mejorar fuerza o potencia con entrenamiento estructurado', 'Aumentar masa muscular con sobrecarga progresiva', 'Cubrir una brecha real de proteína en la alimentación', 'Mantener rendimiento en series o esfuerzos repetidos', 'Contar con descanso y consumo energético adecuados'],
+        comboPrincipal: [
+            { id: 7, serving: '5 g', usage: 'Tomar una vez al día de forma constante, incluidos los días de descanso. En días de entrenamiento puede usarse después de la sesión, de acuerdo con la ficha.', rationale: 'Creatina monohidratada como opción principal para fuerza y esfuerzos repetidos. No necesita combinarse con otra creatina ni ciclarse; elegir solo una presentación.' },
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar una vez al día después del entrenamiento o entre comidas únicamente cuando la dieta no cubra la proteína necesaria.', rationale: 'Aislado de suero como fuente completa y práctica de proteína. Importa más cubrir y distribuir la meta diaria que consumirla exactamente dentro de 45 minutos.' },
+            { id: 83, serving: '3 cápsulas (3 g)', usage: 'Tomar antes de la actividad física según la ficha técnica y suspender si causa mareo, malestar gastrointestinal o disminución excesiva de la presión.', rationale: 'Arginina y ornitina como opción preentrenamiento de evidencia limitada. No debe prometerse mayor fuerza ni combinarse sin revisión con nitratos, antihipertensivos o productos similares.' }
+        ],
+        comboSecundario: [
+            { id: 123, serving: '3 cápsulas (3 g)', usage: 'Tomar una vez al día con un desayuno que contenga grasas y revisar anticoagulantes o riesgo de sangrado.', rationale: 'Omega-3 como apoyo general de recuperación. No aumenta de manera consistente la hipertrofia o la fuerza y no sustituye proteína ni creatina.' },
+            { id: 92, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos solamente si la alimentación o la valoración profesional indican una ingesta insuficiente de magnesio.', rationale: 'Magnesio malato como opción condicional. En deportistas con estado adecuado no se ha demostrado una mejora consistente de fuerza o potencia.' },
+            { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal únicamente si existe dieta restrictiva, ingesta insuficiente o una necesidad identificada.', rationale: 'Multivitamínico para cubrir brechas, no como producto ergogénico. Una dieta adecuada no requiere añadirlo automáticamente.' }
+        ],
+        lifestyleTips: ['Elegir una sola creatina: Birdman (ID 7), Nano Fear (ID 8) o Refresher (ID 191/209).', 'Elegir una sola proteína según dieta y tolerancia: WPI 90 (ID 113), whey (ID 111/112), vegetal (ID 134/135/158/219), huevo (ID 24) o ISOFEAR (ID 220).', 'BEEF FEAR (ID 35) ya combina proteína y creatina; si se elige, no añadir otra creatina.', 'La proteína total diaria y la constancia del entrenamiento importan más que una ventana rígida postentrenamiento.', 'Dolor torácico, desmayo, palpitaciones nuevas, falta de aire desproporcionada u orina oscura requieren suspender el ejercicio y buscar atención.']
+    },
+    {
+        id: 'resistencia_deportiva',
+        name: 'Resistencia y Sesiones Prolongadas (Apoyo Deportivo)',
+        emoji: '🚴',
+        color: 'yellow',
+        description: 'Guía para sesiones prolongadas, deportes de resistencia o jornadas con poco tiempo entre entrenamientos. El combustible principal son los carbohidratos, junto con líquidos y electrolitos ajustados a duración, calor y sudoración. CREATINA REFRESHER aporta creatina y electrolitos cuantificados en 500 ml de agua, mientras MASS FEAR aporta 180 g de carbohidratos, 42 g de proteína y 907 kcal por porción para recuperación energética o superávit. Cumplen funciones complementarias, pero la porción grande de MASS FEAR no equivale a una bebida para consumir durante el ejercicio.',
+        symptomsTitle: 'Objetivo y contexto:',
+        protocolTitle: 'Opciones de hidratación, combustible y recuperación:',
+        symptoms: ['Entrenamientos intensos de más de 60-70 minutos', 'Competencias o sesiones en clima caluroso', 'Dos sesiones el mismo día o recuperación corta', 'Necesidad de reponer energía después del esfuerzo', 'Sudoración elevada o cambios importantes de peso durante la sesión'],
+        comboPrincipal: [
+            { id: 191, serving: '1 cucharada medidora (10 g)', usage: 'Disolver en 500 ml de agua y tomar antes o durante el entrenamiento, según la ficha. Elegir esta presentación o Refresher Pink, nunca ambas.', rationale: 'Opción de hidratación con 5 g de creatina monohidratada, 522 mg de sodio, 170 mg de potasio y 61 mg de magnesio por porción. Sí aporta electrolitos cuantificados; al declarar 0 kcal y 0 azúcares, debe acompañarse de una estrategia de carbohidratos cuando la duración e intensidad del ejercicio lo requieran.' },
+            { id: 96, serving: '1 medida (245 g)', usage: 'Diluir en 500-700 ml de agua o leche y tomar antes o después del entrenamiento, según la ficha. Por su alta densidad energética, ajustar su inclusión a la meta calórica y a la tolerancia digestiva.', rationale: 'Ganador de masa que aporta 180 g de carbohidratos, 42 g de proteína y 907 kcal por porción. Es una opción cuantificada para reponer energía después de sesiones demandantes o cubrir un superávit, pero no está formulado como bebida de carbohidratos y electrolitos para consumir durante la competencia.' },
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar después del entrenamiento o entre comidas cuando la dieta no cubra la proteína; no utilizar como sustituto de los carbohidratos durante la sesión.', rationale: 'Proteína para remodelación y recuperación muscular. No es combustible agudo para resistencia ni una bebida de hidratación.' }
+        ],
+        comboSecundario: [
+            { id: 97, serving: '2.5 g (1 cucharada)', usage: 'Preparar una vez al día por la mañana o antes de una sesión temprana, evitando su uso tarde si altera el sueño.', rationale: 'Matcha como bebida naturalmente cafeinada. La etiqueta no cuantifica cafeína, así que no puede equipararse a las dosis ergogénicas estudiadas ni garantizar una mejora del rendimiento.' },
+            { id: 92, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos únicamente si existe ingesta insuficiente o deficiencia identificada; no usar como reposición inmediata del sudor.', rationale: 'Magnesio condicional. No previene universalmente calambres ni sustituye sodio, líquidos o carbohidratos durante el ejercicio.' },
+            { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal solo cuando una dieta restrictiva o la evaluación nutricional muestre una brecha de micronutrientes.', rationale: 'Multivitamínico para corregir brechas dietéticas, no para producir energía inmediata ni mejorar por sí mismo la resistencia.' }
+        ],
+        lifestyleTips: ['Para ejercicio prolongado, ajustar carbohidratos y líquidos a la duración, intensidad, clima y tasa de sudoración; CREATINA REFRESHER aporta electrolitos sin carbohidratos y MASS FEAR aporta una carga alta de carbohidratos para antes o después, no para beber durante la sesión.', 'Beber de acuerdo con sed, clima, duración y tasa de sudoración; beber agua en exceso también puede causar hiponatremia.', 'Probar cualquier estrategia durante el entrenamiento antes de usarla en competencia.', 'Creatina Refresher Lemon (ID 191: 522 mg de sodio, 170 mg de potasio y 61 mg de magnesio) y Pink (ID 209: 523 mg de sodio, 174.5 mg de potasio y 61 mg de magnesio) son variantes de sabor, no productos para combinar.', 'Confusión, colapso por calor, vómito persistente, cefalea intensa o aumento de peso durante una prueba prolongada requieren suspender y buscar atención.']
+    },
+    {
+        id: 'recuperacion_deportiva',
+        name: 'Recuperación Entre Sesiones (Apoyo Deportivo)',
+        emoji: '🔄',
+        color: 'yellow',
+        description: 'La recuperación depende principalmente de suficiente energía, carbohidratos, proteína, líquidos, sodio, sueño y una carga de entrenamiento bien programada. Esta guía reúne opciones con funciones diferentes y distingue entre respaldo razonable, uso condicional y evidencia limitada. No está destinada a tratar lesiones, rabdomiólisis ni sobreentrenamiento.',
+        symptomsTitle: 'Objetivo y contexto:',
+        protocolTitle: 'Opciones de apoyo; seleccionar solo las necesarias:',
+        symptoms: ['Poco tiempo entre dos sesiones o competencias', 'Dificultad para cubrir energía o proteína con alimentos', 'Dolor muscular esperado después de una carga nueva', 'Disminución transitoria del rendimiento por fatiga acumulada', 'Necesidad de revisar sueño, hidratación y programación del entrenamiento'],
+        comboPrincipal: [
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Tomar después del entrenamiento o entre comidas cuando la alimentación no alcance la meta individual de proteína.', rationale: 'Proteína completa para apoyar la remodelación muscular y mantener la fuerza durante la recuperación. No elimina de forma consistente el dolor muscular y no exige una ventana exacta de 45 minutos.' },
+            { id: 96, serving: '1 medida (245 g)', usage: 'Diluir en 500-700 ml de agua o leche y tomar antes o después del entrenamiento cuando exista una necesidad energética alta, considerando la meta calórica y la tolerancia digestiva.', rationale: 'Aporta 180 g de carbohidratos, 42 g de proteína y 907 kcal por porción para reponer energía y apoyar la recuperación o el aumento de peso. No es necesaria para toda persona y su aporte debe contabilizarse dentro de la alimentación diaria.' },
+            { id: 123, serving: '3 cápsulas (3 g)', usage: 'Tomar una vez al día con un desayuno que contenga grasas, revisando anticoagulantes y riesgo de sangrado.', rationale: 'Omega-3 como apoyo opcional; algunos estudios muestran cambios pequeños en dolor muscular, pero los resultados y las dosis son heterogéneos. No acelera por sí solo la recuperación.' }
+        ],
+        comboSecundario: [
+            { id: 125, serving: '10 g', usage: 'Tomar una vez al día en ayunas o entre comidas, como opción para tejido conectivo y no como sustituto de una proteína completa.', rationale: 'Péptidos de colágeno para apoyo de tejido conectivo. La evidencia deportiva es limitada y no equivale a whey, huevo, soya u otra proteína completa para masa muscular.' },
+            { id: 92, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos solo cuando exista ingesta insuficiente o deficiencia identificada.', rationale: 'Magnesio malato condicional. No debe venderse como prevención universal de calambres ni como recuperador para todos los deportistas.' },
+            { id: 71, serving: '5 g', usage: 'Tomar después del entrenamiento o antes de dormir según la ficha, únicamente como opción secundaria y después de cubrir energía y proteína.', rationale: 'Glutamina con evidencia insuficiente para mejorar de manera consistente DOMS, fuerza, composición corporal o rendimiento en atletas bien nutridos. No debe presentarse como ergogénico probado.' }
+        ],
+        lifestyleTips: ['Priorizar comidas con carbohidratos y proteína, hidratación individualizada y al menos 7-9 horas de sueño.', 'Ajustar volumen e intensidad si el rendimiento disminuye varios días; más suplementos no corrigen una carga mal programada.', 'Elegir una sola proteína; las variantes de whey, vegetal, huevo o beef son alternativas según dieta y tolerancia.', 'Dolor localizado intenso, inflamación marcada, incapacidad para apoyar, debilidad extrema u orina oscura no son DOMS normales y requieren valoración.', 'En deportistas sujetos a controles antidopaje, preferir productos con certificación independiente del lote.']
     },
     {
         id: 'neuropatia_periferica',
