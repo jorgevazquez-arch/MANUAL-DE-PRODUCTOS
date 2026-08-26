@@ -393,6 +393,12 @@
                 </span>`;
         }
 
+        function renderGuideProductImage(product, sizeClass = 'w-14 h-14') {
+            const productName = escapeGuideAttribute(product?.name || 'Producto');
+            const imageUrl = escapeGuideAttribute(product?.image || '');
+            return `<span class="guide-product-image ${sizeClass}" aria-hidden="true"><img src="${imageUrl}" alt="" onerror="this.onerror=null; this.src='https://placehold.co/112x112/e2e8f0/475569?text=IMG';" title="${productName}"></span>`;
+        }
+
         function renderPadecimientosWeb() {
             const container = document.getElementById('padecimientosGuideWeb');
             if (!container) return;
@@ -476,7 +482,8 @@
                                                     const p = productos.find(prod => prod.id === item.id);
                                                     return p ? `
                                                         <li class="flex flex-col">
-                                                            <div class="flex items-center gap-2">
+                                                            <div class="flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 ${renderGuideRationaleIcon(item, p)}
                                                              </div>
@@ -494,7 +501,8 @@
                                                     const p = productos.find(prod => prod.id === item.id);
                                                     return p ? `
                                                         <li class="flex flex-col">
-                                                            <div class="flex items-center gap-2">
+                                                            <div class="flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
                                                                 <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 ${renderGuideRationaleIcon(item, p)}
                                                              </div>
@@ -648,13 +656,13 @@
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Paquete Principal</td></tr>
                                  ${pad.comboPrincipal.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
                                  }).join('')}
                                  ${pad.comboSecundario.length > 0 ? `
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Apoyo Adicional</td></tr>
                                  ${pad.comboSecundario.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2">${p.name}</td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
                                  }).join('')}` : ''}
                             </tbody>
                         </table>
@@ -1103,6 +1111,30 @@
             });
         }
 
+        function getSinergiasPorPadecimiento(pad, productId) {
+            const principales = (pad.comboPrincipal || []).map(item => ({ ...item, tipo: 'Principal' }));
+            const adicionales = (pad.comboSecundario || []).map(item => ({ ...item, tipo: 'Apoyo adicional' }));
+
+            return [...principales, ...adicionales]
+                .filter(item => item.id !== productId)
+                .map(item => ({ ...item, producto: productos.find(product => product.id === item.id) }))
+                .filter(item => item.producto);
+        }
+
+        function renderSinergiaProducto(item) {
+            const product = item.producto;
+            const rationale = escapeGuideAttribute(item.rationale || `Complementa el protocolo de esta guía como ${item.tipo.toLowerCase()}.`);
+            return `
+                <button type="button" onclick="openModal(${product.id})" title="${rationale}"
+                    class="text-left flex items-center gap-2 rounded-xl border border-indigo-100 bg-white p-2 hover:border-indigo-300 hover:shadow-sm transition-all">
+                    <span class="guide-synergy-product-photo">${renderGuideProductImage(product)}</span>
+                    <span class="min-w-0">
+                        <span class="block text-xs font-bold leading-tight text-gray-800">${product.name}</span>
+                        <span class="block mt-0.5 text-[10px] font-semibold uppercase tracking-wide ${item.tipo === 'Principal' ? 'text-girasol-green-700' : 'text-blue-700'}">${item.tipo}</span>
+                    </span>
+                </button>`;
+        }
+
         // Intenta interpretar lo que se escribió/escaneó en el buscador
         // principal como un código de barras. Si hay coincidencia exacta,
         // abre la ficha del producto directamente (ideal para escáneres).
@@ -1191,12 +1223,24 @@
             const padContainer = document.getElementById('modalPadecimientos');
             const relacionados = getPadecimientosRelacionados(p.id);
             if (relacionados.length > 0) {
-                padContainer.innerHTML = relacionados.map(pad => `
-                    <button onclick="closeModalFn(); document.getElementById('padecimientosGuideWeb').scrollIntoView({behavior:'smooth'}); setTimeout(() => scrollToPadecimiento('${pad.id}'), 400);"
-                        class="text-xs font-bold bg-white border border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-full hover:bg-indigo-100 transition-colors flex items-center gap-1">
-                        <span>${pad.emoji || '🎯'}</span> ${pad.name}
-                    </button>
-                `).join('');
+                padContainer.innerHTML = relacionados.map(pad => {
+                    const sinergias = getSinergiasPorPadecimiento(pad, p.id);
+                    const selectedRole = (pad.comboPrincipal || []).some(item => item.id === p.id) ? 'Producto principal' : 'Apoyo adicional';
+                    return `
+                        <section class="rounded-2xl border border-indigo-200 bg-indigo-50/70 p-3">
+                            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                                <button type="button" onclick="closeModalFn(); document.getElementById('padecimientosGuideWeb').scrollIntoView({behavior:'smooth'}); setTimeout(() => scrollToPadecimiento('${pad.id}'), 400);"
+                                    class="text-left text-sm font-bold text-indigo-800 hover:underline flex items-center gap-1.5">
+                                    <span>${pad.emoji || '🎯'}</span><span>${pad.name}</span>
+                                </button>
+                                <span class="rounded-full bg-white border border-indigo-200 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-indigo-600">${selectedRole}</span>
+                            </div>
+                            <p class="text-[11px] font-semibold text-gray-600 mb-2">Productos que hacen sinergia en esta guía:</p>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                ${sinergias.map(renderSinergiaProducto).join('')}
+                            </div>
+                        </section>`;
+                }).join('');
                 padWrap.classList.remove('hidden');
             } else {
                 padContainer.innerHTML = '';
