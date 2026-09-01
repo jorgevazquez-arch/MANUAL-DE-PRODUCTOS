@@ -761,25 +761,32 @@
     </div>
 
     <!-- BARRA FLOTANTE DE COMPARADOR -->
-    <div id="compareBar" class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 hidden no-print bg-gray-900 text-white rounded-full shadow-2xl px-5 py-3 flex items-center gap-4">
-        <span id="compareCount" class="text-sm font-semibold">0 seleccionados</span>
-        <button id="compareViewBtn" class="bg-girasol-yellow-500 hover:bg-girasol-yellow-600 text-gray-900 text-sm font-bold px-4 py-1.5 rounded-full transition-colors disabled:opacity-40 disabled:cursor-not-allowed" disabled>Comparar</button>
-        <button id="compareClearBtn" class="text-gray-300 hover:text-white text-xs underline">Limpiar</button>
+    <div id="compareBar" class="compare-bar fixed bottom-4 z-40 hidden no-print">
+        <span class="compare-bar-status"><span class="compare-bar-dot" aria-hidden="true"></span><span id="compareCount" aria-live="polite" aria-atomic="true">0 seleccionados</span></span>
+        <span class="compare-bar-actions">
+            <button id="compareViewBtn" class="compare-bar-primary" disabled>Comparar</button>
+            <button id="compareClearBtn" class="compare-bar-clear">Limpiar</button>
+        </span>
     </div>
 
     <!-- MODAL COMPARADOR -->
-    <div id="compareModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-bg opacity-0 pointer-events-none transition-opacity duration-300 ease-out no-print">
-        <div class="bg-white rounded-3xl max-w-5xl w-full max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300 ease-out">
-            <div class="sticky top-0 bg-white/90 backdrop-blur-sm z-10 flex justify-between items-center p-4 border-b border-gray-100">
-                <h3 class="text-xl font-bold text-gray-900">⚖️ Comparador de Productos</h3>
-                <button id="closeCompareModal" class="p-2 hover:bg-gray-100 rounded-full transition-colors" aria-label="Cerrar comparador">
-                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    <div id="compareModal" class="fixed inset-0 z-50 flex items-center justify-center p-3 md:p-5 modal-bg opacity-0 pointer-events-none transition-opacity duration-300 ease-out no-print" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="compareModalTitle" inert>
+        <article class="compare-sheet transform scale-95 transition-transform duration-300 ease-out">
+            <header class="compare-sheet-toolbar">
+                <div>
+                    <span class="compare-sheet-kicker">Selección de productos</span>
+                    <h3 id="compareModalTitle">Comparador</h3>
+                    <p>Revisa las diferencias importantes antes de elegir una recomendación.</p>
+                </div>
+                <button id="closeCompareModal" class="compare-sheet-close" aria-label="Cerrar comparador">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
                 </button>
+            </header>
+            <div class="compare-sheet-content">
+                <div class="compare-sheet-note"><span aria-hidden="true">↔</span><span>Compara porción, horario, ingredientes y precauciones. No es necesario elegir el producto con más ingredientes, sino el que mejor corresponda a la necesidad identificada.</span></div>
+                <div id="compareTableWrap" class="compare-matrix-wrap"></div>
             </div>
-            <div class="p-4 md:p-6">
-                <div id="compareTableWrap" class="overflow-x-auto"></div>
-            </div>
-        </div>
+        </article>
     </div>
 
     <!-- MODAL (Ficha Técnica) - borrador editorial -->

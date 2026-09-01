@@ -1522,6 +1522,13 @@
         const compareModal = document.getElementById('compareModal');
         const closeCompareModal = document.getElementById('closeCompareModal');
         const compareTableWrap = document.getElementById('compareTableWrap');
+        const comparePanel = compareModal.querySelector('.compare-sheet');
+        const compareToolbar = compareModal.querySelector('.compare-sheet-toolbar');
+        let compareModalTrigger = null;
+
+        function syncCompareStickyOffset() {
+            comparePanel.style.setProperty('--compare-toolbar-height', `${compareToolbar.offsetHeight}px`);
+        }
 
         function updateCompareBar() {
             const count = compareList.length;
@@ -1567,67 +1574,120 @@
             const items = compareList.map((id) => productos.find((product) => product.id === id)).filter(Boolean);
             if (items.length < 2) return;
 
-            const rows = [
-                { label: 'Categoría', get: (product) => product.category },
-                { label: 'Descripción', get: (product) => product.shortDesc || '-' },
-                { label: 'Ingredientes', get: (product) => product.ingredients || '-' },
-                { label: 'Porción sugerida', get: (product) => product.serving || '-' },
-                { label: 'Horario', get: (product) => product.timing || '-' },
-                { label: 'Modo de uso', get: (product) => product.intakeInstructions || '-' },
-                { label: 'Beneficios clave', get: (product) => product.benefits && product.benefits.length
-                    ? `<ul class="list-disc list-inside space-y-0.5">${product.benefits.map((benefit) => `<li>${benefit}</li>`).join('')}</ul>`
-                    : '-' },
-                { label: 'Contraindicaciones', get: (product) => product.contraindications || '-' },
-                { label: 'Interacciones (medicamentos)', get: (product) => product.interactions || '-' },
-                { label: 'Interacciones (alimentos)', get: (product) => product.foodInteractions || '-' }
+            const sections = [
+                {
+                    kicker: 'Para decidir',
+                    title: 'Información práctica',
+                    rows: [
+                        { label: 'Qué aporta', get: (product) => product.shortDesc || '-' },
+                        { label: 'Beneficios clave', get: (product) => product.benefits && product.benefits.length
+                            ? `<ul class="compare-benefits">${product.benefits.map((benefit) => `<li>${benefit}</li>`).join('')}</ul>`
+                            : '-' },
+                        { label: 'Ingredientes', get: (product) => product.ingredients || '-' },
+                        { label: 'Porción sugerida', get: (product) => product.serving || '-' },
+                        { label: 'Horario', get: (product) => product.timing || '-' },
+                        { label: 'Modo de uso', get: (product) => product.intakeInstructions || '-' }
+                    ]
+                },
+                {
+                    kicker: 'Antes de recomendar',
+                    title: 'Precauciones',
+                    rows: [
+                        { label: 'Contraindicaciones', get: (product) => product.contraindications || '-' },
+                        { label: 'Interacciones con medicamentos', get: (product) => product.interactions || '-' },
+                        { label: 'Interacciones con alimentos', get: (product) => product.foodInteractions || '-' }
+                    ]
+                }
             ];
 
-            const columnWidth = items.length === 2 ? 'w-1/2' : 'w-1/3';
-            let html = '<table class="w-full text-sm border-collapse"><thead><tr>';
-            html += '<th class="text-left align-bottom p-3 w-40"></th>';
-
+            let html = `<div class="compare-matrix" style="--compare-count:${items.length}">`;
+            html += `<div class="compare-products-row">
+                <div class="compare-products-label"><span>Comparando</span><strong>${items.length} productos</strong></div>`;
             items.forEach((product) => {
-                html += `<th class="align-bottom p-3 ${columnWidth} border-b-2 border-girasol-green-200">
-                    <div class="flex flex-col items-center text-center gap-2">
-                        <div class="w-20 h-20 bg-gray-50 rounded-xl flex items-center justify-center p-2">
-                            <img src="${product.image}" alt="${product.name}" class="max-h-full max-w-full object-contain" onerror="this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(product.name)}'">
-                        </div>
-                        <span class="font-bold text-girasol-green-900">${product.name}</span>
-                    </div>
-                </th>`;
+                const categoryInfo = categoryIcons[product.category] || { emoji: '🌿', name: product.category || 'Producto' };
+                html += `<article class="compare-product-head" data-category="${escapeGuideAttribute(product.category)}">
+                    <span class="compare-product-category"><span aria-hidden="true">${categoryInfo.emoji}</span>${categoryInfo.name}</span>
+                    <span class="compare-product-image"><img src="${escapeGuideAttribute(product.image)}" alt="${escapeGuideAttribute(product.name)}" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=IMG';"></span>
+                    <h4>${product.name}</h4>
+                </article>`;
             });
+            html += '</div>';
 
-            html += '</tr></thead><tbody>';
-            rows.forEach((row, index) => {
-                html += `<tr class="${index % 2 === 0 ? 'bg-gray-50/60' : ''}">`;
-                html += `<td class="p-3 font-semibold text-gray-700 align-top">${row.label}</td>`;
-                items.forEach((product) => {
-                    html += `<td class="p-3 text-gray-600 align-top">${row.get(product)}</td>`;
+            sections.forEach((section) => {
+                html += `<section class="compare-section">
+                    <header class="compare-section-heading"><span>${section.kicker}</span><h4>${section.title}</h4></header>`;
+                section.rows.forEach((row) => {
+                    html += `<div class="compare-row"><h5 class="compare-row-label">${row.label}</h5>`;
+                    items.forEach((product) => {
+                        const value = row.get(product);
+                        const emptyClass = value === '-' ? ' is-empty' : '';
+                        html += `<div class="compare-value${emptyClass}">
+                            <span class="compare-mobile-product">${product.name}</span>
+                            <div>${value}</div>
+                        </div>`;
+                    });
+                    html += '</div>';
                 });
-                html += '</tr>';
+                html += '</section>';
             });
-            html += '</tbody></table>';
+            html += '</div>';
 
             compareTableWrap.innerHTML = html;
+            compareModalTrigger = compareViewBtn;
+            comparePanel.scrollTop = 0;
+            compareModal.inert = false;
+            compareModal.setAttribute('aria-hidden', 'false');
             compareModal.classList.remove('opacity-0', 'pointer-events-none');
-            compareModal.querySelector('div').classList.remove('scale-95');
+            comparePanel.classList.remove('scale-95');
             document.body.style.overflow = 'hidden';
+            syncCompareStickyOffset();
+            requestAnimationFrame(() => {
+                syncCompareStickyOffset();
+                closeCompareModal.focus({ preventScroll: true });
+            });
         }
 
         function closeCompareModalFn() {
+            if (compareModal.getAttribute('aria-hidden') === 'true') return;
             compareModal.classList.add('opacity-0', 'pointer-events-none');
-            compareModal.querySelector('div').classList.add('scale-95');
+            comparePanel.classList.add('scale-95');
+            compareModal.setAttribute('aria-hidden', 'true');
+            compareModal.inert = true;
             document.body.style.overflow = '';
+            if (compareModalTrigger && document.contains(compareModalTrigger)) {
+                compareModalTrigger.focus({ preventScroll: true });
+            }
         }
 
         compareViewBtn.addEventListener('click', openCompareModal);
         compareClearBtn.addEventListener('click', clearCompareSelection);
         closeCompareModal.addEventListener('click', closeCompareModalFn);
+        window.addEventListener('resize', () => {
+            if (compareModal.getAttribute('aria-hidden') === 'false') syncCompareStickyOffset();
+        });
         compareModal.addEventListener('click', (event) => {
             if (event.target === compareModal) closeCompareModalFn();
         });
         document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape') closeCompareModalFn();
+            if (compareModal.getAttribute('aria-hidden') === 'true') return;
+            if (event.key === 'Escape') {
+                closeCompareModalFn();
+                return;
+            }
+            if (event.key !== 'Tab') return;
+
+            const focusable = [...compareModal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
+                .filter(element => !element.disabled && element.offsetParent !== null);
+            if (!focusable.length) return;
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (event.shiftKey && document.activeElement === first) {
+                event.preventDefault();
+                last.focus();
+            } else if (!event.shiftKey && document.activeElement === last) {
+                event.preventDefault();
+                first.focus();
+            }
         });
 
         // Eventos
