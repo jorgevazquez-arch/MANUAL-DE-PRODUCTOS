@@ -1184,6 +1184,33 @@
         .padecimiento-editorial-preview::before { width: 15rem; height: 15rem; }
         .padecimiento-editorial-preview::after { width: 10rem; height: 10rem; transform: translate(3rem, -2rem); }
 
+        .padecimiento-editorial-preview-title {
+            position: absolute;
+            top: 1.15rem;
+            left: 50%;
+            z-index: 3;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #c4b5fd;
+            font-size: 0.62rem;
+            font-weight: 900;
+            letter-spacing: 0.16em;
+            line-height: 1;
+            text-transform: uppercase;
+            white-space: nowrap;
+            transform: translateX(-50%);
+        }
+
+        .padecimiento-editorial-preview-title::before {
+            content: '';
+            width: 0.42rem;
+            height: 0.42rem;
+            border-radius: 9999px;
+            background: var(--guide-accent);
+            box-shadow: 0 0 0 0.22rem rgba(124, 58, 237, 0.18);
+        }
+
         .padecimiento-editorial-preview-item {
             position: relative;
             z-index: 2;
@@ -1200,7 +1227,7 @@
             text-align: center;
         }
 
-        .padecimiento-editorial-preview-item:nth-child(2) { transform: translateY(-1rem); }
+        .padecimiento-editorial-preview-item.is-featured { transform: translateY(-1rem); }
         .padecimiento-editorial-preview-item .guide-product-image {
             width: 5.6rem !important;
             height: 5.6rem !important;
@@ -1589,6 +1616,11 @@
                 width: 4.8rem;
                 font-size: 0.55rem;
             }
+            .padecimiento-editorial-preview-title {
+                top: 0.65rem;
+                font-size: 0.56rem;
+            }
+            .padecimiento-editorial-preview-item.is-featured { transform: translateY(-0.35rem); }
             .padecimiento-editorial-preview-item .guide-product-image {
                 width: 4rem !important;
                 height: 4rem !important;

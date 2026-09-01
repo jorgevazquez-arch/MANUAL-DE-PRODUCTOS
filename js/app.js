@@ -524,10 +524,10 @@
                 const textColor = `text-${pad.color}-700`;
                 const isEditorialPrototype = pad.id === 'insomnio';
                 const editorialPreview = isEditorialPrototype
-                    ? pad.comboPrincipal.map(item => {
+                    ? pad.comboPrincipal.map((item, index) => {
                         const product = productos.find(prod => prod.id === item.id);
                         return product ? `
-                            <span class="padecimiento-editorial-preview-item">
+                            <span class="padecimiento-editorial-preview-item${index === 1 ? ' is-featured' : ''}">
                                 ${renderGuideProductImage(product, 'w-20 h-20')}
                                 <span>${product.name}</span>
                             </span>` : '';
@@ -548,7 +548,10 @@
                                     <span><strong>${String(pad.comboPrincipal.length).padStart(2, '0')}</strong> productos principales</span>
                                     <span><strong>${String(pad.comboSecundario.length).padStart(2, '0')}</strong> apoyos adicionales</span>
                                 </span>
-                                <span class="padecimiento-editorial-preview" aria-hidden="true">${editorialPreview}</span>
+                                <span class="padecimiento-editorial-preview" aria-hidden="true">
+                                    <span class="padecimiento-editorial-preview-title">Paquete principal</span>
+                                    ${editorialPreview}
+                                </span>
                             ` : ''}
                             <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
                                 ${isEditorialPrototype ? `<span class="padecimiento-toggle-closed">Explorar guía</span><span class="padecimiento-toggle-open">Ocultar guía</span>` : ''}
