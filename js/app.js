@@ -462,18 +462,19 @@
         }
 
         function getAdvisorQuestions(pad) {
-            if (Array.isArray(pad.advisorQuestions) && pad.advisorQuestions.length) {
-                return pad.advisorQuestions;
-            }
-
+            const customQuestions = Array.isArray(pad.advisorQuestions)
+                ? pad.advisorQuestions.map(question => String(question || '').trim()).filter(Boolean)
+                : [];
             const characteristicSymptoms = (pad.symptoms || []).slice(0, 3);
-            return [
-                `¿Cuándo comenzaron las molestias relacionadas con ${pad.name} y aparecieron de forma repentina o gradual?`,
-                ...characteristicSymptoms.map(symptom => `¿Presenta ${String(symptom).replace(/[.!?]+$/g, '').toLowerCase()}? Si es así, ¿con qué frecuencia y qué intensidad?`),
-                '¿Qué situaciones, alimentos, horarios o actividades hacen que las molestias empeoren o mejoren?',
-                '¿Los síntomas se han mantenido iguales, han mejorado o han empeorado recientemente?',
-                '¿Qué ha probado hasta ahora para aliviar estas molestias y qué resultado obtuvo?'
+            const generatedQuestions = [
+                `¿Cuál de las molestias asociadas con ${pad.name} es la que más le afecta y en qué momento suele aparecer?`,
+                ...characteristicSymptoms.map(symptom => `En cuanto a ${String(symptom).replace(/[.!?]+$/g, '').toLowerCase()}, ¿con qué frecuencia ocurre y qué tan intensa es?`),
+                '¿Qué situaciones, alimentos, horarios o actividades hacen que estas molestias aparezcan, empeoren o mejoren?'
             ];
+
+            return [...customQuestions, ...generatedQuestions]
+                .filter((question, index, questions) => questions.indexOf(question) === index)
+                .slice(0, 5);
         }
 
         function renderPadecimientosWeb() {
