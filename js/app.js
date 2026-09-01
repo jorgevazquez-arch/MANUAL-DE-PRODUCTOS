@@ -34,6 +34,7 @@
         }
 
         const categoryIcons = {
+            'all': { emoji: '🛍️', name: 'Todos los productos' },
             'digestivo': { emoji: '🌿', name: 'Digestivo' },
             'laxantes': { emoji: '🚽', name: 'Laxantes' },
             'inmune': { emoji: '🛡️', name: 'Inmune' },
@@ -46,6 +47,17 @@
             'clinico': { emoji: '❤️', name: 'Clínico' },
             'deportivo': { emoji: '🏋️', name: 'Deportivo' }
         };
+
+        const guideColorGroups = [
+            { key: 'purple', emoji: '🟣', name: 'Sistema Nervioso y Hormonal' },
+            { key: 'green', emoji: '🟢', name: 'Sistema Digestivo y Hepático' },
+            { key: 'orange', emoji: '🟠', name: 'Metabolismo y Glucosa' },
+            { key: 'pink', emoji: '🩷', name: 'Salud Masculina y Femenina' },
+            { key: 'red', emoji: '🔴', name: 'Salud Cardiovascular y Clínica' },
+            { key: 'blue', emoji: '🔵', name: 'Sistema Inmune y Respiratorio' },
+            { key: 'yellow', emoji: '🟡', name: 'Sistema Locomotor y Deportivo' },
+            { key: 'gray', emoji: '⚪', name: 'Condiciones Complejas' }
+        ];
 
         const categoryDescriptions = {
             'digestivo': "Esta sección es el corazón del bienestar. Incluye todo lo necesario para una digestión óptima: enzimas para descomponer alimentos, probióticos para equilibrar la flora, fibras para regular el tránsito y botánicos para reparar y desinflamar la mucosa gástrica (gastritis, colitis). También abarca el soporte hepático y biliar, crucial para el metabolismo de las grasas.",
@@ -80,9 +92,60 @@
             filterLinks.forEach(link => {
                 const filter = link.dataset.filter;
                 if (categoryIcons[filter]) {
-                    link.innerHTML = `<span class="w-6 text-center">${categoryIcons[filter].emoji}</span> ${categoryIcons[filter].name}`;
+                    const productCount = filter === 'all'
+                        ? productos.length
+                        : productos.filter(product => product.category === filter).length;
+                    link.innerHTML = `
+                        <span class="sidebar-guide-group-name">
+                            <span class="w-6 text-center" aria-hidden="true">${categoryIcons[filter].emoji}</span>
+                            <span>${categoryIcons[filter].name}</span>
+                        </span>
+                        <span class="sidebar-guide-count" aria-label="${productCount} productos">${productCount}</span>`;
                 }
             });
+
+            const guideList = document.getElementById('sidebarGuideList');
+            if (guideList) {
+                guideList.innerHTML = guideColorGroups
+                    .map(group => {
+                        const groupGuides = padecimientos
+                            .filter(pad => pad.color === group.key)
+                            .sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
+                        if (!groupGuides.length) return '';
+
+                        return `
+                            <details class="sidebar-guide-group" data-guide-color="${group.key}">
+                                <summary>
+                                    <span class="sidebar-guide-group-name"><span aria-hidden="true">${group.emoji}</span><span>${group.name}</span></span>
+                                    <span class="sidebar-guide-count">${groupGuides.length}</span>
+                                </summary>
+                                <div class="sidebar-guide-group-list">
+                                    ${groupGuides.map(pad => `
+                                        <a href="#padecimiento-${escapeGuideAttribute(pad.id)}" data-sidebar-guide="${escapeGuideAttribute(pad.id)}">
+                                            <span aria-hidden="true">${pad.emoji || '🎯'}</span>
+                                            <span>${pad.name}</span>
+                                        </a>`).join('')}
+                                </div>
+                            </details>`;
+                    })
+                    .join('');
+
+                guideList.addEventListener('click', event => {
+                    const link = event.target.closest('[data-sidebar-guide]');
+                    if (!link) return;
+                    event.preventDefault();
+
+                    searchInput.value = '';
+                    clearSearchBtn.classList.add('hidden');
+                    document.querySelectorAll('#padColorLegend .pad-color-btn').forEach(button => {
+                        button.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    });
+                    const allGuidesButton = document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]');
+                    if (allGuidesButton) allGuidesButton.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    filterPadecimientos();
+                    scrollToPadecimiento(link.dataset.sidebarGuide);
+                });
+            }
         }
 
         function updateCategoryDescription(categoryKey) {
@@ -307,7 +370,8 @@
 
             // Clone the content to avoid removing it from the web view
             const interactionsContent = document.getElementById('interactions_guide_web').cloneNode(true);
-            const glosarioContent = document.getElementById('glosario_pdf_container').cloneNode(true);
+            const glosarioSource = document.querySelector('#glosarioContainer .hidden');
+            const glosarioContent = glosarioSource ? glosarioSource.cloneNode(true) : document.createElement('div');
 
             anexoContainer.innerHTML = `
                 <h1 class="text-4xl font-black text-girasol-green-900 mb-8 border-b-4 border-girasol-yellow-500 pb-4">SECCIÓN 6: ANEXOS</h1>
@@ -358,8 +422,6 @@
         // ================================================================
         //  LÓGICA PARA RENDERIZAR LA GUÍA DE PADECIMIENTOS
         // ================================================================
-        const GUIDE_SPECIALIST_NOTE = 'Consultar con el especialista antes de iniciar, ajustar o combinar este producto.';
-
         function getGuideServing(item, product) {
             const serving = String(item?.serving || '').trim();
             return serving || String(product?.serving || 'Porción no especificada').trim();
@@ -399,6 +461,21 @@
             return `<span class="guide-product-image ${sizeClass}" aria-hidden="true"><img src="${imageUrl}" alt="" onerror="this.onerror=null; this.src='https://placehold.co/112x112/e2e8f0/475569?text=IMG';" title="${productName}"></span>`;
         }
 
+        function getAdvisorQuestions(pad) {
+            if (Array.isArray(pad.advisorQuestions) && pad.advisorQuestions.length) {
+                return pad.advisorQuestions;
+            }
+
+            const characteristicSymptoms = (pad.symptoms || []).slice(0, 3);
+            return [
+                `¿Cuándo comenzaron las molestias relacionadas con ${pad.name} y aparecieron de forma repentina o gradual?`,
+                ...characteristicSymptoms.map(symptom => `¿Presenta ${String(symptom).replace(/[.!?]+$/g, '').toLowerCase()}? Si es así, ¿con qué frecuencia y qué intensidad?`),
+                '¿Qué situaciones, alimentos, horarios o actividades hacen que las molestias empeoren o mejoren?',
+                '¿Los síntomas se han mantenido iguales, han mejorado o han empeorado recientemente?',
+                '¿Qué ha probado hasta ahora para aliviar estas molestias y qué resultado obtuvo?'
+            ];
+        }
+
         function renderPadecimientosWeb() {
             const container = document.getElementById('padecimientosGuideWeb');
             if (!container) return;
@@ -424,7 +501,7 @@
                     <div class="p-8 md:p-10 border-t-2 border-gray-200">
                     <div class="mb-8 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
                         <strong class="block mb-1">Importante: son opciones, no seis productos para tomar juntos.</strong>
-                        Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto, evita duplicar ingredientes o mecanismos y deriva al especialista cuando corresponda.
+                        Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto y evita duplicar ingredientes o mecanismos.
                     </div>
                     <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center font-semibold">
                         <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-900 text-white transition-all">🎯 Todos</button>
@@ -468,8 +545,12 @@
                                      <ul class="list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
                                          ${pad.symptoms.map(s => `<li>${s}</li>`).join('')}
                                      </ul>
-                                     <div class="mt-4 rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm font-semibold leading-relaxed text-amber-900">
-                                         <span aria-hidden="true">⚠️</span> ${GUIDE_SPECIALIST_NOTE}
+                                     <div class="mt-4 rounded-xl border border-sky-200 bg-sky-50 p-3">
+                                         <h5 class="mb-2 flex items-center gap-2 text-sm font-bold text-sky-900"><span aria-hidden="true">💬</span> Preguntas para el asesor</h5>
+                                         <ul class="space-y-2 text-sm text-sky-950">
+                                             ${getAdvisorQuestions(pad).map(question => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">•</span><span>${question}</span></li>`).join('')}
+                                         </ul>
+                                         <p class="mt-3 border-t border-sky-200 pt-2 text-xs font-medium text-sky-800">Escucha y registra las respuestas para orientar la recomendación.</p>
                                      </div>
                                  </div>
                                 <div class="${bgColor} p-4 rounded-lg">
@@ -535,7 +616,7 @@
 
         // Nueva función para filtrar padecimientos por texto y color
         function filterPadecimientos() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            const searchTerm = normalizeGuideSearch(document.getElementById('searchInput').value);
             const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
             const activeColor = activeColorButton ? activeColorButton.dataset.colorFilter : 'all';
 
@@ -549,7 +630,7 @@
             let visibleCount = 0;
 
             items.forEach(item => {
-                const itemSearchTerms = item.dataset.searchTerms;
+                const itemSearchTerms = normalizeGuideSearch(item.dataset.searchTerms);
                 const itemColor = item.dataset.color;
 
                 const matchesSearch = searchTerm === '' || itemSearchTerms.includes(searchTerm);
@@ -583,6 +664,34 @@
 
             const emptyMsg = document.getElementById('padColorEmptyMsg');
             if (emptyMsg) emptyMsg.classList.toggle('hidden', visibleCount > 0);
+        }
+
+        function normalizeGuideSearch(value) {
+            return String(value || '')
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '')
+                .toLowerCase()
+                .trim();
+        }
+
+        function goToMatchingPadecimiento(searchValue, forceFirstMatch = false) {
+            const term = normalizeGuideSearch(searchValue);
+            if (term.length < 3) return false;
+
+            const matches = padecimientos.filter(pad => {
+                const searchable = normalizeGuideSearch(`${pad.name} ${pad.description} ${(pad.symptoms || []).join(' ')}`);
+                const element = document.getElementById(`padecimiento-${pad.id}`);
+                return searchable.includes(term) && element && element.style.display !== 'none';
+            });
+
+            const exactNameMatch = matches.find(pad => normalizeGuideSearch(pad.name) === term);
+            const startsWithNameMatch = matches.find(pad => normalizeGuideSearch(pad.name).startsWith(term));
+            const destination = exactNameMatch || (matches.length === 1 ? matches[0] : (forceFirstMatch ? startsWithNameMatch || matches[0] : null));
+            if (!destination) return false;
+
+            setProductsPanelOpen(false);
+            scrollToPadecimiento(destination.id);
+            return true;
         }
 
         // Filtra las tarjetas de padecimientos según el color seleccionado en la leyenda
@@ -634,7 +743,7 @@
             let html = `
                 <h1 class="text-4xl font-black text-girasol-green-900 mb-8 border-b-4 border-girasol-yellow-500 pb-4">SECCIÓN 4: GUÍA DE APOYO POR PADECIMIENTO</h1>
                 <div class="mb-8 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
-                    <strong>Importante:</strong> los productos de cada guía son opciones para individualizar la recomendación; no se indica tomar los seis juntos. Evitar duplicar ingredientes o mecanismos y consultar con el especialista antes de iniciar, ajustar o combinar.
+                    <strong>Importante:</strong> los productos de cada guía son opciones para individualizar la recomendación; no se indica tomarlos todos juntos. Evitar duplicar ingredientes o mecanismos.
                 </div>`;
 
             padecimientos.forEach(pad => {
@@ -642,8 +751,6 @@
                     <section class="padecimiento-pdf-item">
                          <h2 class="padecimiento-pdf-title">${pad.emoji} ${pad.name}</h2>
                          <p class="padecimiento-pdf-desc">${pad.description}</p>
-                         <div class="mb-4 rounded-lg border border-amber-300 bg-amber-50 p-3 text-sm font-semibold text-amber-900">⚠️ ${GUIDE_SPECIALIST_NOTE}</div>
-                        
                         <table class="w-full border-collapse mb-4">
                             <thead>
                                 <tr class="bg-gray-50">
@@ -763,8 +870,83 @@
         const clearSearchBtn = document.getElementById('clearSearchBtn');
         const resultCount = document.getElementById('resultCount');
         const modal = document.getElementById('productModal');
+        const modalSheet = modal.querySelector('.product-sheet');
+        let productModalTrigger = null;
         const productsCatalog = document.getElementById('productsCatalog');
         const productsCatalogSummary = document.getElementById('productsCatalogSummary');
+        const manualSidebar = document.getElementById('manualSidebar');
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const sidebarBackdrop = document.getElementById('sidebarBackdrop');
+        const desktopSidebarQuery = window.matchMedia('(min-width: 1024px)');
+        const sidebarPrimarySections = [...document.querySelectorAll('details[name="sidebar-primary-navigation"]')];
+
+        function readSidebarPreference() {
+            try {
+                return window.localStorage.getItem('manualSidebarCollapsed') === 'true';
+            } catch (error) {
+                return false;
+            }
+        }
+
+        function saveSidebarPreference(isCollapsed) {
+            try {
+                window.localStorage.setItem('manualSidebarCollapsed', String(isCollapsed));
+            } catch (error) {
+                // El menú sigue funcionando aunque el navegador bloquee localStorage.
+            }
+        }
+
+        function updateSidebarControls() {
+            const isDesktop = desktopSidebarQuery.matches;
+            const isOpen = isDesktop
+                ? !document.body.classList.contains('sidebar-collapsed')
+                : document.body.classList.contains('sidebar-mobile-open');
+
+            sidebarToggle.setAttribute('aria-expanded', String(isOpen));
+            sidebarToggle.title = isOpen ? 'Ocultar menú' : 'Mostrar menú';
+            sidebarToggle.classList.toggle('is-open', isOpen);
+        }
+
+        function closeMobileSidebar() {
+            document.body.classList.remove('sidebar-mobile-open');
+            updateSidebarControls();
+        }
+
+        function toggleSidebar() {
+            if (desktopSidebarQuery.matches) {
+                const isCollapsed = document.body.classList.toggle('sidebar-collapsed');
+                saveSidebarPreference(isCollapsed);
+            } else {
+                document.body.classList.toggle('sidebar-mobile-open');
+            }
+            updateSidebarControls();
+        }
+
+        if (readSidebarPreference()) document.body.classList.add('sidebar-collapsed');
+        sidebarPrimarySections.forEach(section => {
+            section.addEventListener('toggle', () => {
+                if (!section.open) return;
+                sidebarPrimarySections.forEach(otherSection => {
+                    if (otherSection !== section) otherSection.open = false;
+                });
+            });
+        });
+        sidebarToggle.addEventListener('click', toggleSidebar);
+        sidebarBackdrop.addEventListener('click', closeMobileSidebar);
+        manualSidebar.addEventListener('click', event => {
+            if (!desktopSidebarQuery.matches && event.target.closest('a')) closeMobileSidebar();
+        });
+        desktopSidebarQuery.addEventListener('change', () => {
+            document.body.classList.remove('sidebar-mobile-open');
+            updateSidebarControls();
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && document.body.classList.contains('sidebar-mobile-open')) {
+                closeMobileSidebar();
+                sidebarToggle.focus();
+            }
+        });
+        updateSidebarControls();
 
         function setProductsPanelOpen(isOpen) {
             productsCatalog.open = isOpen;
@@ -840,7 +1022,7 @@
                 const delay = (i % 9) * 0.05;
 
                 return `
-                    <div class="product-card reveal bg-white overflow-hidden flex flex-col h-full p-4" style="--cat-a:${catA}; --cat-b:${catB}; animation-delay:${delay}s;">
+                    <div class="product-card reveal bg-white overflow-hidden flex flex-col h-full p-4" data-product-card data-product-id="${p.id}" role="button" tabindex="0" aria-label="Abrir ficha técnica de ${escapeGuideAttribute(p.name)}" style="--cat-a:${catA}; --cat-b:${catB}; animation-delay:${delay}s;">
                         <div class="flex items-center gap-4 mb-4">
                             <div class="w-24 h-24 flex-shrink-0 bg-gray-50 rounded-xl flex items-center justify-center p-2">
                                 <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" loading="lazy" onerror="this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
@@ -851,11 +1033,8 @@
                             </div>
                         </div>
                         <p class="text-xs text-gray-600 mb-3 flex-1 line-clamp-3">${p.shortDesc}</p>
-                <div class="flex items-center justify-between mt-auto">
-                            <button onclick="openModal(${p.id})" class="text-girasol-green-600 hover:text-girasol-green-800 text-sm font-medium transition-colors flex items-center gap-1 self-start">
-                                Ver ficha técnica <span class="text-lg">→</span>
-                            </button>
-                            <label class="flex items-center gap-1.5 text-xs text-gray-500 cursor-pointer select-none">
+                <div class="flex items-center justify-end mt-auto">
+                            <label data-card-control class="flex items-center gap-1.5 text-xs text-gray-500 cursor-pointer select-none">
                                 <input type="checkbox" class="compare-checkbox w-4 h-4 accent-girasol-green-600" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
                                 Comparar
                             </label>
@@ -872,6 +1051,20 @@
         }
 
         // Enlaces del menú lateral
+        grid.addEventListener('click', event => {
+            if (event.target.closest('[data-card-control]')) return;
+            const card = event.target.closest('[data-product-card]');
+            if (card) openModal(Number(card.dataset.productId));
+        });
+
+        grid.addEventListener('keydown', event => {
+            if (event.target.closest('[data-card-control]')) return;
+            if (event.target.matches('[data-product-card]') && (event.key === 'Enter' || event.key === ' ')) {
+                event.preventDefault();
+                openModal(Number(event.target.dataset.productId));
+            }
+        });
+
         document.querySelectorAll('.filter-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -894,6 +1087,7 @@
         });
 
         // Buscador (texto, padecimiento, síntoma o código de barras)
+        let guideSearchNavigationTimer = null;
         searchInput.addEventListener('input', function() {
             const rawValue = this.value;
             const searchTerm = rawValue.toLowerCase().trim();
@@ -912,6 +1106,13 @@
 
             renderProducts(activeFilter, searchTerm);
             filterPadecimientos();
+
+            clearTimeout(guideSearchNavigationTimer);
+            if (searchTerm !== '') {
+                guideSearchNavigationTimer = setTimeout(() => {
+                    goToMatchingPadecimiento(searchTerm);
+                }, 450);
+            }
         });
 
         // Respaldo: si el escáner envía "Enter" al terminar de leer el código.
@@ -923,6 +1124,8 @@
                     clearSearchBtn.classList.add('hidden');
                     renderProducts(document.querySelector('.filter-btn.active')?.dataset.filter || 'all', '');
                     filterPadecimientos();
+                } else if (goToMatchingPadecimiento(this.value, true)) {
+                    e.preventDefault();
                 }
             }
         });
@@ -1199,10 +1402,16 @@
             const p = productos.find(prod => prod.id === id);
             if (!p) return;
 
+            if (modal.getAttribute('aria-hidden') === 'true') {
+                productModalTrigger = document.activeElement;
+            }
+            modal.dataset.category = p.category || '';
+            modalSheet.scrollTop = 0;
             document.getElementById('modalName').textContent = p.name;
             document.getElementById('modalImage').src = p.image;
+            document.getElementById('modalImage').alt = p.name;
             document.getElementById('modalImage').onerror = function() { this.src = 'https://placehold.co/200x200/e2e8f0/475569?text=' + encodeURIComponent(p.name); };
-            document.getElementById('modalCategory').textContent = p.category.toUpperCase();
+            document.getElementById('modalCategory').textContent = (categoryIcons[p.category]?.name || p.category).toUpperCase();
             document.getElementById('modalDescription').textContent = p.shortDesc;
             document.getElementById('modalIngredients').textContent = p.ingredients || 'No especificado';
             document.getElementById('modalServing').textContent = p.serving || 'No especificado';
@@ -1247,15 +1456,24 @@
                 padWrap.classList.add('hidden');
             }
 
+            modal.inert = false;
+            modal.setAttribute('aria-hidden', 'false');
             modal.classList.remove('opacity-0', 'pointer-events-none');
-            document.querySelector('#productModal > div').classList.remove('scale-95');
+            modalSheet.classList.remove('scale-95');
             document.body.style.overflow = 'hidden';
+            window.requestAnimationFrame(() => closeModal.focus({ preventScroll: true }));
         }
 
         function closeModalFn() {
+            const wasOpen = modal.getAttribute('aria-hidden') === 'false';
             modal.classList.add('opacity-0', 'pointer-events-none');
-            document.querySelector('#productModal > div').classList.add('scale-95');
+            modal.inert = true;
+            modal.setAttribute('aria-hidden', 'true');
+            modalSheet.classList.add('scale-95');
             document.body.style.overflow = 'auto';
+            if (wasOpen && productModalTrigger && typeof productModalTrigger.focus === 'function' && document.contains(productModalTrigger)) {
+                productModalTrigger.focus({ preventScroll: true });
+            }
         }
 
         // ============================================================
@@ -1380,7 +1598,27 @@
         const closeModal = document.getElementById('closeModal');
         closeModal.addEventListener('click', closeModalFn);
         modal.addEventListener('click', (e) => { if (e.target === modal) closeModalFn(); });
-        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModalFn(); });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModalFn();
+                return;
+            }
+            if (e.key !== 'Tab' || modal.getAttribute('aria-hidden') === 'true') return;
+
+            const focusable = [...modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
+                .filter(element => !element.disabled && element.offsetParent !== null);
+            if (focusable.length === 0) return;
+
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+                e.preventDefault();
+                last.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+                e.preventDefault();
+                first.focus();
+            }
+        });
 
         // Filtros por botones
         document.querySelectorAll('.filter-btn').forEach(btn => {

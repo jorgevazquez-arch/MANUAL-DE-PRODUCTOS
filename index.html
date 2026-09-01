@@ -11,6 +11,18 @@
 </head>
 <body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
 
+    <button id="sidebarToggle" type="button" aria-controls="manualSidebar" aria-expanded="true"
+        class="sidebar-toggle no-print" title="Ocultar menú">
+        <span id="sidebarToggleIcon" class="sidebar-toggle-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path class="sidebar-toggle-arrow" stroke-linecap="round" stroke-linejoin="round" d="m15 6-6 6 6 6"></path>
+            </svg>
+        </span>
+        <span class="sidebar-toggle-label" aria-hidden="true">MENÚ</span>
+        <span class="sr-only">Mostrar u ocultar menú lateral</span>
+    </button>
+    <button id="sidebarBackdrop" type="button" class="sidebar-backdrop no-print" aria-label="Cerrar menú lateral" tabindex="-1"></button>
+
     <!-- Botón Flotante para Imprimir (igual que el original) -->
     <div class="fixed bottom-6 right-6 z-50 no-print hidden">
         <button data-action="print" class="bg-girasol-green-700 hover:bg-girasol-green-800 text-white font-bold py-3 px-6 rounded-full shadow-xl flex items-center gap-2 transition-transform hover:scale-105">
@@ -21,52 +33,63 @@
         </button>
     </div>
 
-    <div class="max-w-[1400px] mx-auto flex print-container">
+    <div id="manualLayout" class="max-w-[1400px] mx-auto flex print-container">
         
         <!-- Menú Lateral (idéntico al original) -->
-        <aside class="w-64 hidden lg:block py-8 pr-6 no-print sticky top-0 h-screen overflow-y-auto border-r border-gray-200">
+        <aside id="manualSidebar" class="w-64 hidden lg:block py-8 pr-6 no-print sticky top-0 h-screen overflow-y-auto border-r border-gray-200">
             <div class="mb-8">
                 <img src="https://investigacioncbg.com/wp-content/uploads/2026/03/logogirasolcolores-1.png" alt="Logo El Girasol" class="h-16 w-auto mb-3">
                 <p class="text-xs text-girasol-green-700 font-bold uppercase tracking-wider">Catálogo Asesores</p>
             </div>
-            <nav class="space-y-5 text-sm font-medium text-gray-600">
-                <div>
-                    <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Módulo 1: Fundamentos</p>
-                    <a href="#" data-filter="digestivo" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="laxantes" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="inmune" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="nervioso" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                </div>
-                <div>
-                    <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Módulo 2: Estilo de Vida</p>
-                    <a href="#" data-filter="metabolismo" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="hormonal" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="piel" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                </div>
-                <div>
-                    <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Módulo 3 & 4</p>
-                    <a href="#" data-filter="clinico" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                    <a href="#" data-filter="deportivo" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                </div>
-                <div>
-                    <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Módulo 5: Nutrición General</p>
-                    <a href="#" data-filter="nutricional" class="filter-link flex items-center gap-3 py-1 hover:text-girasol-green-700 transition-colors"></a>
-                </div>
-                <div class="border-t border-gray-200 pt-4">
-                    <p class="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Guías y Anexos</p>
-                    <a href="#padecimientosGuideWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🎯 Guía por Padecimiento</a>
-                    <a href="#introWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">⭐ Introducción al Manual</a>
-                    <a href="#guiaLenguajeWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">📜 Guía de Lenguaje</a>
-                    <a href="#arteDeVenderWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">💡 El Arte de Vender</a>
-                    <a href="#guiaRapidaWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🚀 Venta Rápida (Combos)</a>
-                    <a href="#faqWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">❓ Preguntas Frecuentes</a>
-                    <a href="#anexo" class="block py-1 hover:text-girasol-green-700 transition-colors">📚 Anexo y Glosario</a>
-                </div>
+            <nav class="space-y-7 text-sm font-medium text-gray-600">
+                <details id="sidebarProductsSection" name="sidebar-primary-navigation" class="sidebar-nav-section" open>
+                    <summary id="sidebarProductsTitle" class="sidebar-section-title">
+                        <span class="flex items-center gap-2"><span aria-hidden="true">🛍️</span><span>Productos</span></span>
+                        <svg class="sidebar-section-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="sidebar-section-content space-y-1">
+                        <a href="#" data-filter="all" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="digestivo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="laxantes" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="inmune" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="nervioso" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="metabolismo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="hormonal" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="piel" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="locomotor" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="clinico" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="deportivo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                        <a href="#" data-filter="nutricional" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
+                    </div>
+                </details>
+
+                <details id="sidebarGuidesSection" name="sidebar-primary-navigation" class="sidebar-nav-section border-t border-gray-200 pt-5">
+                    <summary id="sidebarGuidesTitle" class="sidebar-section-title">
+                        <span class="flex items-center gap-2"><span aria-hidden="true">🎯</span><span>Guía por padecimiento</span></span>
+                        <svg class="sidebar-section-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                    </summary>
+                    <div class="sidebar-section-content">
+                        <a href="#padecimientosGuideWeb" class="sidebar-guide-overview">Ver todas las guías</a>
+                        <div id="sidebarGuideList" class="sidebar-guide-list mt-2 space-y-0.5"></div>
+                    </div>
+                </details>
+
+                <section class="border-t border-gray-200 pt-5">
+                    <h2 class="sidebar-section-title sidebar-section-title-static">Recursos</h2>
+                    <div class="mt-2 space-y-1">
+                        <a href="#introWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">⭐ Introducción al Manual</a>
+                        <a href="#guiaLenguajeWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">📜 Guía de Lenguaje</a>
+                        <a href="#arteDeVenderWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">💡 El Arte de Vender</a>
+                        <a href="#guiaRapidaWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🚀 Venta Rápida (Combos)</a>
+                        <a href="#faqWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">❓ Preguntas Frecuentes</a>
+                        <a href="#anexo" class="block py-1 hover:text-girasol-green-700 transition-colors">📚 Anexo y Glosario</a>
+                    </div>
+                </section>
             </nav>
         </aside>
 
         <!-- Contenido Principal -->
-        <main class="w-full lg:w-[calc(100%-16rem)] lg:pl-10 py-8 print-container">
+        <main id="manualMain" class="w-full lg:w-[calc(100%-16rem)] lg:pl-10 py-8 print-container">
 
             <!-- PORTADA PARA PDF (igual) -->
             <div class="cover-page hidden print:flex text-center bg-girasol-green-50/50 rounded-3xl border border-girasol-green-100 p-10">
@@ -759,75 +782,120 @@
         </div>
     </div>
 
-    <!-- MODAL (Ficha Técnica) - con el estilo de tu manual -->
-    <div id="productModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-bg opacity-0 pointer-events-none transition-opacity duration-300 ease-out no-print">
-        <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300 ease-out">
-            <div class="sticky top-0 bg-white/90 backdrop-blur-sm z-10 flex justify-between items-center p-4 border-b border-gray-100">
-                <h3 class="text-xl font-bold text-gray-900" id="modalName">Nombre</h3>
-                <button id="closeModal" class="p-2 hover:bg-gray-100 rounded-full transition-colors">
-                    <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
-            </div>
-            <div class="p-6 space-y-5">
-                <div class="flex flex-col gap-6 mb-4">
-                    <div class="flex-shrink-0 bg-gray-50 rounded-2xl p-6 flex items-center justify-center w-full h-72 md:h-96 border border-gray-100"><img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain"></div>
-                    <div class="flex-1"><span id="modalCategory" class="badge-cat inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full mb-2">Categoría</span><p id="modalDescription" class="text-gray-600 text-sm leading-relaxed">Descripción corta</p></div>
+    <!-- MODAL (Ficha Técnica) - borrador editorial -->
+    <div id="productModal" class="fixed inset-0 z-50 flex items-center justify-center p-3 md:p-5 modal-bg opacity-0 pointer-events-none transition-opacity duration-300 ease-out no-print" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalName" inert>
+        <article class="product-sheet w-full max-h-[92vh] overflow-y-auto shadow-2xl transform scale-95 transition-transform duration-300 ease-out">
+            <header class="product-sheet-toolbar">
+                <div class="product-sheet-toolbar-label">
+                    <span class="product-sheet-toolbar-mark" aria-hidden="true"></span>
+                    <span>Ficha de producto</span>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div class="bg-girasol-green-50/60 p-4 rounded-2xl border border-girasol-green-100">
-                        <h4 class="font-bold text-girasol-green-800 text-sm flex items-center gap-2">🧪 Ingredientes</h4>
-                        <p id="modalIngredients" class="text-sm text-gray-700 mt-1">-</p>
+                <button id="closeModal" class="product-sheet-close" aria-label="Cerrar ficha del producto">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                </button>
+            </header>
+
+            <div class="product-sheet-content">
+                <section class="product-sheet-hero">
+                    <figure class="product-sheet-visual">
+                        <span class="product-sheet-orbit product-sheet-orbit-one" aria-hidden="true"></span>
+                        <span class="product-sheet-orbit product-sheet-orbit-two" aria-hidden="true"></span>
+                        <div class="product-sheet-image-frame">
+                            <img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain">
+                        </div>
+                        <figcaption>Imagen de referencia</figcaption>
+                    </figure>
+
+                    <div class="product-sheet-intro">
+                        <span id="modalCategory" class="product-sheet-category">Categoría</span>
+                        <h3 id="modalName">Nombre</h3>
+                        <p id="modalDescription" class="product-sheet-description">Descripción corta</p>
+
+                        <div class="product-sheet-facts">
+                            <div class="product-sheet-fact">
+                                <span class="product-sheet-fact-number" aria-hidden="true">01</span>
+                                <div>
+                                    <span class="product-sheet-fact-label">Porción sugerida</span>
+                                    <p id="modalServing">-</p>
+                                </div>
+                            </div>
+                            <div class="product-sheet-fact">
+                                <span class="product-sheet-fact-number" aria-hidden="true">02</span>
+                                <div>
+                                    <span class="product-sheet-fact-label">Mejor momento</span>
+                                    <p id="modalTiming">-</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bg-amber-50/60 p-4 rounded-2xl border border-amber-100">
-                        <h4 class="font-bold text-amber-800 text-sm flex items-center gap-2">💊 Porción Sugerida</h4>
-                        <p id="modalServing" class="text-sm text-gray-700 mt-1">-</p>
-                    </div>
-                    
-                    <div class="bg-cyan-50/60 p-4 rounded-2xl border border-cyan-100 md:col-span-2">
-                        <h4 class="font-bold text-cyan-800 text-sm flex items-center gap-2">🕒 Horario y Modo de Uso</h4>
-                        <div class="text-sm text-gray-700 mt-1 space-y-2">
-                            <p><strong class="font-semibold">Horario:</strong> <span id="modalTiming">-</span></p>
-                            <p><strong class="font-semibold">Instrucciones:</strong> <span id="modalIntakeInstructions">-</span></p>
+                </section>
+
+                <section class="product-sheet-editorial">
+                    <div class="product-sheet-main">
+                        <div class="product-sheet-section">
+                            <p class="product-sheet-eyebrow">Lo esencial</p>
+                            <h4>Beneficios clave</h4>
+                            <ul id="modalBenefits" class="product-sheet-benefits"></ul>
+                        </div>
+
+                        <div class="product-sheet-section product-sheet-ingredients">
+                            <p class="product-sheet-eyebrow">Composición</p>
+                            <h4>Ingredientes</h4>
+                            <p id="modalIngredients">-</p>
                         </div>
                     </div>
 
-                    <div class="bg-emerald-50/60 p-4 rounded-2xl border border-emerald-100 md:col-span-2">
-                        <h4 class="font-bold text-emerald-800 text-sm flex items-center gap-2">✅ Beneficios Clave</h4>
-                        <ul id="modalBenefits" class="list-disc list-inside text-sm text-gray-700 mt-1 space-y-1"></ul>
-                    </div>
+                    <aside class="product-sheet-aside">
+                        <p class="product-sheet-aside-kicker">Guía de consumo</p>
+                        <h4>Cómo tomarlo</h4>
+                        <p id="modalIntakeInstructions">-</p>
+                        <div class="product-sheet-aside-rule"></div>
+                        <p class="product-sheet-aside-kicker">Antes de recomendar</p>
+                        <h4>Consideraciones</h4>
+                        <p id="modalContra">-</p>
+                    </aside>
+                </section>
 
-                    <div class="bg-red-50/60 p-4 rounded-2xl border border-red-100">
-                        <h4 class="font-bold text-red-800 text-sm flex items-center gap-2">⚠️ Contraindicaciones</h4>
-                        <p id="modalContra" class="text-sm text-gray-700 mt-1">-</p>
-                    </div>
+                <section class="product-sheet-interactions" aria-label="Interacciones del producto">
+                    <article>
+                        <span class="product-sheet-detail-icon" aria-hidden="true">Rx</span>
+                        <div>
+                            <h4>Interacciones con medicamentos</h4>
+                            <p id="modalInter">-</p>
+                        </div>
+                    </article>
+                    <article>
+                        <span class="product-sheet-detail-icon" aria-hidden="true">Al</span>
+                        <div>
+                            <h4>Interacciones con alimentos</h4>
+                            <p id="modalFoodInter">-</p>
+                        </div>
+                    </article>
+                </section>
 
-                    <div class="bg-blue-50/60 p-4 rounded-2xl border border-blue-100">
-                        <h4 class="font-bold text-blue-800 text-sm flex items-center gap-2">🔄 Interacciones (Medicamentos)</h4>
-                        <p id="modalInter" class="text-sm text-gray-700 mt-1">-</p>
+                <section id="modalPadecimientosWrap" class="product-sheet-synergy hidden">
+                    <div class="product-sheet-synergy-heading">
+                        <div>
+                            <p class="product-sheet-eyebrow">Venta complementaria orientada</p>
+                            <h4>Guías relacionadas y productos en sinergia</h4>
+                        </div>
+                        <span aria-hidden="true">↗</span>
                     </div>
+                    <p class="product-sheet-synergy-copy">Productos que complementan esta recomendación dentro de cada padecimiento. Son opciones para individualizar, no una indicación para tomarlos todos juntos.</p>
+                    <div id="modalPadecimientos" class="space-y-3"></div>
+                </section>
 
-                    <div class="bg-orange-50/60 p-4 rounded-2xl border border-orange-100 md:col-span-2">
-                        <h4 class="font-bold text-orange-800 text-sm flex items-center gap-2">🍔 Interacciones (Alimentos)</h4>
-                        <p id="modalFoodInter" class="text-sm text-gray-700 mt-1">-</p>
-                    </div>
-
-                    <div id="modalPadecimientosWrap" class="bg-indigo-50/60 p-4 rounded-2xl border border-indigo-100 md:col-span-2 hidden">
-                        <h4 class="font-bold text-indigo-800 text-sm flex items-center gap-2">🎯 Guías relacionadas y productos en sinergia</h4>
-                        <p class="text-xs text-indigo-600 mt-1 mb-3">Productos que complementan esta recomendación dentro de cada padecimiento. Son opciones para individualizar, no una indicación para tomarlos todos juntos.</p>
-                        <div id="modalPadecimientos" class="space-y-3"></div>
-                    </div>
-                </div>
                 <!-- ADVERTENCIA COFEPRIS -->
-                <div class="mt-6 bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
-                    <p class="font-bold text-red-700 text-sm">⚠️ AVISO IMPORTANTE</p>
-                    <div class="text-xs text-red-600 space-y-1 mt-2">
+                <footer class="product-sheet-legal">
+                    <p class="product-sheet-legal-title">Aviso importante</p>
+                    <div>
                         <p>ESTE PRODUCTO NO ES UN MEDICAMENTO. SU CONSUMO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO CONSUME.</p>
                         <p>CONSULTE A SU MÉDICO ANTES DE INICIAR CUALQUIER SUPLEMENTACIÓN, ESPECIALMENTE SI ESTÁ EMBARAZADA, EN LACTANCIA, O BAJO TRATAMIENTO MÉDICO.</p>
                         <p>ESTOS PRODUCTOS NO ESTÁN DESTINADOS A DIAGNOSTICAR, TRATAR, CURAR O PREVENIR NINGUNA ENFERMEDAD.</p>
                     </div>
-                </div>
+                </footer>
             </div>
-        </div>
+        </article>
     </div>
 
     <script src="./data/productos.js"></script>

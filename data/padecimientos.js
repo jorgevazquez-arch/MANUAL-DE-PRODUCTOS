@@ -312,7 +312,10 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 23, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro como apoyo nutricional general, sin presentarlo como tratamiento antifúngico.' },
             { id: 131, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Probiótico alternativo al producto 129. Elegir una sola presentación; la evidencia como coadyuvante se concentra en candidiasis oral y no permite generalizar a todos los tipos de candidiasis.' },
-            { id: 224, serving: '4 gotas', usage: 'Tomar esta porción diluida, 2 veces al día con alimentos.', rationale: 'Presentación líquida alternativa al producto 2, no para combinar con él. La actividad antifúngica del orégano se sustenta principalmente en estudios de laboratorio y no reemplaza el tratamiento indicado.' }
+            { id: 224, serving: '4 gotas', usage: 'Tomar esta porción diluida, 2 veces al día con alimentos.', rationale: 'Presentación líquida alternativa al producto 2, no para combinar con él. La actividad antifúngica del orégano se sustenta principalmente en estudios de laboratorio y no reemplaza el tratamiento indicado.' },
+            { id: 16, serving: '15 gotas', usage: 'Tomar esta porción diluida con alimentos como alternativa a las demás presentaciones de orégano.', rationale: 'Aceite de orégano líquido como opción complementaria; no combinarlo con los productos 2, 208, 216 o 224.' },
+            { id: 208, serving: '1 cápsula', usage: 'Tomar esta porción con alimentos como alternativa a las demás presentaciones de orégano.', rationale: 'Aceite de orégano en cápsula como opción complementaria; elegir una sola presentación y no atribuirle eficacia antifúngica clínica demostrada.' },
+            { id: 216, serving: '1 cápsula', usage: 'Tomar esta porción con alimentos como alternativa a las demás presentaciones de orégano.', rationale: 'Aceites de orégano y coco como otra alternativa, no para combinar con los productos 2, 208 o 224.' }
         ],
         lifestyleTips: ['Confirmar el diagnóstico con un profesional de la salud.', 'Seguir el tratamiento antifúngico indicado cuando corresponda.', 'Mantener una alimentación equilibrada sin prometer que eliminar azúcar erradica por sí sola la infección.', 'No combinar varias presentaciones de aceite de orégano.']
     },
@@ -749,7 +752,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Zinc para convertir T4 en T3.' },
-            { id: 142, serving: '1 cápsula', usage: 'Tomar esta porción al día.', rationale: 'Selenio cofactor para la deiodinasa.' },
+            { id: 142, serving: '1 tableta', usage: 'Tomar esta porción al día, únicamente con seguimiento profesional.', rationale: 'Selenio como cofactor de enzimas que participan en el metabolismo tiroideo.' },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B para el metabolismo energético.' }
         ],
         lifestyleTips: ['Evitar el consumo excesivo de vegetales crudos crucíferos.', 'Asegurar un buen aporte de yodo, selenio y zinc.', 'Consultar al médico para tratamiento hormonal.']
@@ -814,31 +817,144 @@ window.manualData.padecimientos = [
             { id: 185, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Adaptógeno que modula y fortalece la respuesta inmunológica.' },
             { id: 188, serving: '20 gotas', usage: 'Tomar esta porción al día. Puede tomarse con o sin alimentos.', rationale: 'Propóleo y Equinácea en formato líquido para un apoyo rápido y directo.' },
             { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Vitamina D3 como modulador clave del sistema inmune.' },
-            { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Zinc para la función de los linfocitos T.' }
+            { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Zinc para la función de los linfocitos T.' },
+            { id: 202, serving: '2 cápsulas', usage: 'Tomar esta porción al día con el estómago vacío.', rationale: 'Calostro con hoja de olivo, astrágalo y eleutero como alternativa al producto 186; elegir una sola presentación de calostro.' },
+            { id: 244, serving: '1 cápsula', usage: 'Tomar esta porción al día, por la mañana o por la noche.', rationale: 'Chaga, Reishi, probióticos y L-carnitina como opción de apoyo general; evitar acumularlo con varias fórmulas de hongos.' }
         ],
         lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.', 'Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA (ID 38), MORINGA ORGÁNICA (ID 100), AJO NEGRO + MORINGA (ID 21), CUATECOMATE (ID 201) y HONIG ABAGREEN VERDE/ROJO (ID 155/156).']
     },
     {
-        id: 'respiratorio',
-        name: 'Afecciones Respiratorias (EPOC, Bronquitis, Asma)',
-        emoji: '🛡️',
+        id: 'resfriado_comun',
+        name: 'Resfriado Común y Malestar Estacional',
+        emoji: '🤧',
         color: 'blue',
-        description: 'En muchas afecciones respiratorias, el problema es doble: una infección (viral o bacteriana) y una producción excesiva de moco espeso que obstruye las vías.',
-        symptoms: ['Tos con flema', 'Dificultad para respirar o sibilancias', 'Presión en el pecho', 'Congestión'],
+        description: 'El resfriado común suele ser una infección viral autolimitada de vías respiratorias superiores. Estas opciones buscan confort y apoyo nutricional; no eliminan el virus, no sustituyen el descanso y no deben presentarse como tratamiento para influenza o COVID-19.',
+        symptoms: ['Congestión o secreción nasal', 'Estornudos y garganta irritada', 'Tos leve', 'Malestar general sin dificultad respiratoria'],
         comboPrincipal: [
-            { id: 188, serving: '20 gotas', usage: 'Tomar esta porción al día. Puede tomarse con o sin alimentos.', rationale: 'Extracto líquido con Propóleo, Equinácea y Mentol para un alivio rápido y apoyo inmune directo.' },
-            { id: 184, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día, con alimentos.', rationale: 'Fórmula completa con acción antiviral (Saúco), inmunoestimulante (Equinácea) y antimicrobiana (Ajo Negro).' },
-            { id: 116, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAC como mucolítico para romper el moco.' },
-            { id: 16, serving: '15 gotas', usage: 'Tomar esta porción diluida, 2-3 veces al día. Con alimentos.', rationale: 'Carvacrol contra bacterias y virus respiratorios.' }
+            { id: 55, serving: '1 cápsula', usage: 'Tomar esta porción al día por la mañana, con alimentos que contengan grasas.', rationale: 'Vitamina C, D3 y equinácea como opción combinada de apoyo nutricional estacional; la evidencia sobre equinácea es variable.' },
+            { id: 152, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Zinc con jengibre como apoyo nutricional de corta duración; elegirlo en lugar de otra fórmula de zinc.' },
+            { id: 243, serving: '10 ml', usage: 'Tomar esta porción durante el día o acompañada de té, según la ficha técnica.', rationale: 'Miel y extractos botánicos para confort de garganta y tos; no usar miel en menores de un año.' }
         ],
         comboSecundario: [
-            { id: 185, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Astrágalo como adaptógeno apoya la vitalidad y la función inmune durante la convalecencia.' },
-            { id: 170, serving: '1 sobre (2 g) por taza', usage: 'Preparar esta porción en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día, preferentemente después de una comida, según la ficha técnica.', rationale: 'Infusión con eucalipto, gordolobo y propóleo.' },
-            { id: 155, serving: '1 cucharada', usage: 'Tomar esta porción cada 4 horas. Puede tomarse con o sin alimentos.', rationale: 'Fórmula líquida con miel y propóleo.' },
-            { id: 156, serving: '1-2 vasos dosificadores', usage: 'Tomar esta porción cada 4 horas. Puede tomarse con o sin alimentos.', rationale: 'Reforzado con Ajo Negro.' },
-            { id: 179, serving: '15 ml', usage: 'Tomar esta porción, 3 veces al día. Puede tomarse con o sin alimentos.', rationale: 'Jarabe tradicional con aceite de hígado de bacalao (vitaminas A y D) y extractos de eucalipto, saúco y gordolobo, de uso familiar para el apoyo respiratorio.' }
+            { id: 61, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Equinácea y vitamina C como alternativa al producto 55, no para duplicar ambas fórmulas.' },
+            { id: 212, serving: '1 tableta', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Gluconato de zinc como alternativa al producto 152; no combinar distintas presentaciones de zinc.' },
+            { id: 155, serving: '12 ml', usage: 'Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.', rationale: 'Miel, propóleo y botánicos cítricos como alternativa líquida para confort respiratorio.' }
         ],
-        lifestyleTips: ['Usar un humidificador.', 'Beber líquidos calientes como té de jengibre.', 'Evitar la exposición a humo y otros irritantes.']
+        lifestyleTips: ['Descansar y mantener una buena hidratación.', 'Usar solución salina nasal y humidificación limpia.', 'Evitar antibióticos para un resfriado viral.', 'Distinguir síntomas compatibles con influenza o COVID-19 cuando circulen estos virus.']
+    },
+    {
+        id: 'tos_irritacion_garganta',
+        name: 'Tos Seca e Irritación de Garganta',
+        emoji: '🗣️',
+        color: 'blue',
+        description: 'La tos seca puede aparecer por irritación, aire seco, goteo nasal, reflujo o una infección respiratoria reciente. Los productos de esta guía son alternativas para humectar y dar confort; no corrigen por sí solos la causa de la tos.',
+        symptoms: ['Cosquilleo o ardor en la garganta', 'Tos sin flema', 'Ronquera o necesidad frecuente de aclarar la garganta', 'Molestia que empeora por la noche o al hablar'],
+        comboPrincipal: [
+            { id: 243, serving: '10 ml', usage: 'Tomar esta porción durante el día o acompañada de té, según la ficha técnica.', rationale: 'Miel y extractos vegetales como opción para suavizar la garganta.' },
+            { id: 155, serving: '12 ml', usage: 'Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.', rationale: 'Miel con propóleo y limón como alternativa al producto 243; elegir un solo jarabe de miel.' },
+            { id: 188, serving: '20 gotas (1 ml)', usage: 'Tomar esta porción al día, directa o diluida.', rationale: 'Propóleo y equinácea en gotas como opción de confort; evitar ante alergia a productos apícolas.' }
+        ],
+        comboSecundario: [
+            { id: 170, serving: '1 sobre (2 g) por taza', usage: 'Tomar esta porción después de una comida, preparada como infusión.', rationale: 'Infusión caliente con eucalipto, gordolobo y propóleo para hidratación y confort.' },
+            { id: 179, serving: '15 ml', usage: 'Tomar esta porción con o sin alimentos según la ficha técnica.', rationale: 'Jarabe tradicional con eucalipto, saúco y gordolobo como alternativa líquida.' },
+            { id: 22, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro con propóleo como apoyo nutricional general; no sustituye el estudio de una tos persistente.' }
+        ],
+        lifestyleTips: ['Beber líquidos y evitar humo, aerosoles y aire muy seco.', 'No dar miel a menores de un año.', 'Observar si la tos se relaciona con reflujo, alergias o medicamentos.', 'Evitar hablar en exceso cuando existe ronquera.']
+    },
+    {
+        id: 'tos_flema_congestion',
+        name: 'Tos con Flema y Congestión Bronquial',
+        emoji: '🫁',
+        color: 'blue',
+        description: 'La tos productiva ayuda a movilizar secreciones. Esta guía ofrece alternativas para hidratación, confort y fluidez del moco; no permite determinar si la causa es viral, bacteriana o una enfermedad pulmonar crónica.',
+        symptoms: ['Tos con expectoración', 'Sensación de moco espeso o difícil de expulsar', 'Congestión en el pecho', 'Ruidos respiratorios asociados a secreciones'],
+        comboPrincipal: [
+            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'N-acetilcisteína como opción mucolítica para reducir la viscosidad de las secreciones.' },
+            { id: 201, serving: '10 ml', usage: 'Tomar esta porción después de los alimentos.', rationale: 'Cuatecomate, eucalipto y gordolobo de uso tradicional para confort respiratorio; no es apropiado para niños y contiene alcohol.' },
+            { id: 243, serving: '10 ml', usage: 'Tomar esta porción durante el día o acompañada de té, según la ficha técnica.', rationale: 'Miel y mezcla botánica como alternativa para acompañar tos y garganta irritada.' }
+        ],
+        comboSecundario: [
+            { id: 170, serving: '1 sobre (2 g) por taza', usage: 'Tomar esta porción después de una comida, preparada como infusión.', rationale: 'Infusión que aporta líquido caliente y botánicos respiratorios.' },
+            { id: 156, serving: '20 ml', usage: 'Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.', rationale: 'Miel, propóleo y ajo negro como alternativa líquida; considerar su contenido de azúcares.' },
+            { id: 179, serving: '15 ml', usage: 'Tomar esta porción con o sin alimentos según la ficha técnica.', rationale: 'Jarabe con eucalipto, saúco y gordolobo como otra opción; elegir un solo jarabe.' }
+        ],
+        lifestyleTips: ['Mantener hidratación suficiente para facilitar la movilización del moco.', 'Evitar tabaco, vapeo y humo de leña.', 'No suprimir automáticamente una tos productiva.', 'Vigilar cambios importantes en cantidad, color u olor de la flema.']
+    },
+    {
+        id: 'congestion_nasal_sinusal',
+        name: 'Congestión Nasal y Presión Sinusal',
+        emoji: '👃',
+        color: 'blue',
+        description: 'La congestión nasal y la presión facial pueden acompañar alergias o infecciones virales. Las opciones se enfocan en hidratación y manejo de secreciones; no se presentan como tratamiento de sinusitis bacteriana.',
+        symptoms: ['Nariz tapada o secreción espesa', 'Presión en frente, mejillas o alrededor de los ojos', 'Goteo hacia la garganta', 'Disminución temporal del olfato'],
+        comboPrincipal: [
+            { id: 178, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Quercetina como opción cuando predomina un componente alérgico; su beneficio clínico puede variar.' },
+            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'NAC para ayudar a disminuir la viscosidad de secreciones espesas.' },
+            { id: 201, serving: '10 ml', usage: 'Tomar esta porción después de los alimentos.', rationale: 'Eucalipto, gordolobo y cuatecomate de uso tradicional como apoyo de confort.' }
+        ],
+        comboSecundario: [
+            { id: 170, serving: '1 sobre (2 g) por taza', usage: 'Tomar esta porción después de una comida, preparada como infusión.', rationale: 'Líquido caliente y eucalipto como apoyo complementario.' },
+            { id: 188, serving: '20 gotas (1 ml)', usage: 'Tomar esta porción al día, directa o diluida.', rationale: 'Propóleo y equinácea como opción estacional, evitando alergias a productos apícolas.' },
+            { id: 243, serving: '10 ml', usage: 'Tomar esta porción durante el día o acompañada de té, según la ficha técnica.', rationale: 'Miel y botánicos para el goteo que irrita la garganta; no descongestiona de forma inmediata.' }
+        ],
+        lifestyleTips: ['Usar lavado nasal únicamente con solución salina y agua segura.', 'Mantener una hidratación adecuada.', 'Evitar humo y alérgenos identificados.', 'No usar aceites esenciales directamente dentro de la nariz.']
+    },
+    {
+        id: 'convalecencia_respiratoria',
+        name: 'Convalecencia Después de Infección Respiratoria',
+        emoji: '🌱',
+        color: 'blue',
+        description: 'Después de que la fase aguda ha terminado pueden persistir cansancio, menor apetito o sensación de debilidad. Esta guía reúne opciones nutricionales y de bienestar general; no acelera de forma garantizada la recuperación ni sustituye sueño, alimentación y actividad progresiva.',
+        symptoms: ['Cansancio posterior a la infección', 'Apetito reducido', 'Debilidad o baja tolerancia a la actividad', 'Sensación de recuperación lenta sin síntomas agudos graves'],
+        comboPrincipal: [
+            { id: 202, serving: '2 cápsulas', usage: 'Tomar esta porción al día con el estómago vacío.', rationale: 'Calostro, hoja de olivo, astrágalo y eleutero como opción de apoyo general durante la recuperación.' },
+            { id: 244, serving: '1 cápsula', usage: 'Tomar esta porción al día, por la mañana o por la noche.', rationale: 'Chaga, Reishi, probióticos y L-carnitina como fórmula de bienestar inmune, digestivo y energético.' },
+            { id: 100, serving: '3 cápsulas', usage: 'Distribuir esta porción durante el día, antes de las comidas.', rationale: 'Moringa como alimento concentrado de origen vegetal para complementar la dieta.' }
+        ],
+        comboSecundario: [
+            { id: 21, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro y moringa como alternativa de apoyo nutricional antioxidante.' },
+            { id: 38, serving: '1 sobre (20 g)', usage: 'Preparar esta porción según la ficha técnica y consumir preferentemente durante la mañana.', rationale: 'Café con moringa y hongos como bebida opcional para personas que toleran cafeína; no usar como sustituto del descanso.' },
+            { id: 40, serving: '1 sobre (4.5 g)', usage: 'Preparar esta porción por la mañana según la ficha técnica.', rationale: 'Café con Ganoderma, Shiitake y arándanos como alternativa al producto 38; elegir sólo una bebida con cafeína.' }
+        ],
+        lifestyleTips: ['Retomar la actividad física gradualmente.', 'Priorizar sueño, hidratación, proteína y alimentos variados.', 'Evitar depender de cafeína cuando existe insomnio o palpitaciones.', 'Diferenciar convalecencia de fiebre nueva o empeoramiento respiratorio.']
+    },
+    {
+        id: 'asma_diagnosticada',
+        name: 'Asma Diagnosticada (Apoyo Nutricional, No de Rescate)',
+        emoji: '🫁',
+        color: 'blue',
+        description: 'El asma es una enfermedad inflamatoria de las vías respiratorias que requiere un plan de control y medicamentos inhalados cuando están indicados. Ningún suplemento de esta guía funciona como broncodilatador de rescate ni sustituye el inhalador.',
+        symptoms: ['Sibilancias recurrentes', 'Opresión en el pecho', 'Tos nocturna o con ejercicio', 'Episodios de falta de aire con desencadenantes definidos'],
+        comboPrincipal: [
+            { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día con un desayuno que contenga grasas.', rationale: 'Omega-3 como aporte nutricional de EPA y DHA; no se promete control de síntomas ni sustitución del tratamiento inhalado.' },
+            { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas sólo cuando exista insuficiencia de vitamina D.', rationale: 'D3 de dosis alta para corregir una necesidad documentada; no funciona como medicamento de rescate.' },
+            { id: 94, serving: '3 cápsulas', usage: 'Tomar esta porción por la noche únicamente cuando el aporte de magnesio sea apropiado.', rationale: 'Magnesio como apoyo nutricional ante ingesta insuficiente; la vía oral no resuelve una crisis asmática.' }
+        ],
+        comboSecundario: [
+            { id: 178, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Quercetina como alternativa cuando coexiste un componente alérgico; la evidencia para controlar asma es insuficiente.' },
+            { id: 108, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos sólo si la dieta no cubre la vitamina C necesaria.', rationale: 'Vitamina C para cubrir una necesidad nutricional, sin atribuirle efecto broncodilatador.' },
+            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos sólo cuando existan secreciones espesas y sea bien tolerada.', rationale: 'NAC como opción para moco espeso; no usar para sustituir el inhalador ni durante una crisis como medida de rescate.' }
+        ],
+        lifestyleTips: ['Conservar disponible el inhalador de rescate indicado.', 'Identificar desencadenantes como humo, polvo, ejercicio o alérgenos.', 'Revisar periódicamente la técnica del inhalador.', 'No usar suplementos para intentar detener una crisis.']
+    },
+    {
+        id: 'epoc_diagnosticada',
+        name: 'EPOC Diagnosticada (Apoyo Nutricional)',
+        emoji: '🫁',
+        color: 'blue',
+        description: 'La EPOC es una enfermedad pulmonar crónica distinta del asma y de una infección aguda. El apoyo nutricional puede enfocarse en secreciones, masa muscular y deficiencias; no revierte la obstrucción pulmonar ni sustituye inhaladores, rehabilitación o abandono del tabaco.',
+        symptoms: ['Falta de aire persistente al esfuerzo', 'Tos crónica con o sin flema', 'Menor tolerancia a la actividad', 'Pérdida de peso o masa muscular en algunos casos'],
+        comboPrincipal: [
+            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos cuando predominen secreciones espesas.', rationale: 'NAC como opción mucolítica; su conveniencia depende del tipo de síntomas y del tratamiento actual.' },
+            { id: 113, serving: '34 g (1 scoop)', usage: 'Tomar esta porción entre comidas cuando la alimentación no cubra la meta de proteína.', rationale: 'Proteína aislada para complementar la ingesta y apoyar la conservación de masa muscular.' },
+            { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día con un desayuno que contenga grasas.', rationale: 'Omega-3 como aporte de EPA y DHA dentro de una estrategia nutricional general.' }
+        ],
+        comboSecundario: [
+            { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas sólo ante insuficiencia documentada.', rationale: 'Vitamina D3 de dosis alta para corregir insuficiencia, no para mejorar automáticamente la función pulmonar.' },
+            { id: 94, serving: '3 cápsulas', usage: 'Tomar esta porción por la noche sólo cuando el aporte de magnesio sea apropiado.', rationale: 'Magnesio como apoyo nutricional condicional; revisar tolerancia y función renal.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con una comida que contenga grasas.', rationale: 'Ubiquinol como apoyo de metabolismo energético general; no tiene un efecto respiratorio específico demostrado.' }
+        ],
+        lifestyleTips: ['Evitar completamente tabaco, vapeo y humo de leña.', 'Mantener rehabilitación pulmonar y actividad adaptada.', 'Asegurar suficiente proteína y energía si existe pérdida de peso.', 'Mantener al día las medidas preventivas y el tratamiento inhalado indicado.']
     },
 
     // ================================================================
@@ -1003,14 +1119,15 @@ window.manualData.padecimientos = [
             { id: 187, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Fórmula integral con Calostro, Astrágalo y Reishi para modular la respuesta inmune y apoyar la vitalidad.' },
             { id: 124, serving: '2 tabletas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Guanábana, Reishi y Shiitake con actividad inmunomoduladora.' },
             { id: 54, serving: '3-6 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Curcumina reduce la inflamación sistémica.' },
-            { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Vitamina D3 como potente modulador inmune.' }
+            { id: 66, serving: '56 ml', usage: 'Considerar únicamente con autorización expresa del oncólogo. Seguir la ficha técnica y no usar durante quimioterapia o radioterapia sin revisión de posibles interacciones.', rationale: 'Mezcla herbolaria tradicional empleada como apoyo general; no trata el cáncer y no existe evidencia suficiente para atribuirle un beneficio oncológico específico.' }
         ],
         comboSecundario: [
             { id: 185, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Astrágalo es un adaptógeno clásico para fortalecer el sistema inmune durante tratamientos.' },
             { id: 186, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Calostro aporta inmunoglobulinas y factores de crecimiento para mantener las defensas y la integridad de los tejidos.' },
             { id: 98, serving: '2-4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Melena de León protege de la neurotoxicidad.' },
             { id: 101, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Ubiquinol protege el corazón de la cardiotoxicidad.' },
-            { id: 111, serving: '1-2 scoops', usage: 'Tomar esta porción al día. Dentro de los 45 minutos posteriores al entrenamiento.', rationale: 'Proteína hidrolizada para combatir la sarcopenia.' }
+            { id: 111, serving: '1-2 scoops', usage: 'Tomar esta porción al día. Dentro de los 45 minutos posteriores al entrenamiento.', rationale: 'Proteína hidrolizada para combatir la sarcopenia.' },
+            { id: 142, serving: '1 tableta', usage: 'Considerar únicamente después de la quimioterapia y con autorización del oncólogo, especialmente si existe deficiencia documentada. No iniciar durante quimioterapia, radioterapia o tratamiento de mantenimiento sin indicación expresa.', rationale: 'El selenio participa en enzimas antioxidantes y puede considerarse para corregir una deficiencia durante la recuperación posquimioterapia; no se recomienda de forma rutinaria ni ha demostrado prevenir recurrencias o tratar el cáncer.' }
         ],
         lifestyleTips: ['Mantener una dieta antiinflamatoria rica en vegetales y grasas saludables.', 'Priorizar el descanso y el manejo del estrés.', 'Comunicación constante con el equipo médico.']
     },
