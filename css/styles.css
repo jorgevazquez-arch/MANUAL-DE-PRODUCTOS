@@ -1068,6 +1068,8 @@
             --guide-accent: #7c3aed;
             --guide-soft: #f5f3ff;
             --guide-deep: #4c1d95;
+            container-name: editorial-guide;
+            container-type: inline-size;
             overflow: hidden;
             border: 1px solid #ddd6fe !important;
             border-left-width: 1px !important;
@@ -1523,6 +1525,21 @@
             .padecimiento-editorial .padecimiento-layout { grid-template-columns: 1fr !important; }
         }
 
+        @container editorial-guide (max-width: 50rem) {
+            .padecimiento-editorial .padecimiento-summary {
+                grid-template-columns: 1fr;
+                grid-template-areas: "kicker" "title" "stats" "preview" "toggle";
+                background: #fff;
+            }
+            .padecimiento-editorial .padecimiento-summary::after { inset: 0 0 auto 0; }
+            .padecimiento-editorial-preview {
+                min-height: 12rem;
+                padding: 1.25rem;
+                border-radius: 1.35rem;
+                background: #211f20;
+            }
+        }
+
         @media (max-width: 900px) {
             .padecimiento-editorial .padecimiento-summary {
                 grid-template-columns: 1fr;
@@ -1543,9 +1560,9 @@
             .padecimiento-editorial .padecimiento-summary { padding: 1.35rem !important; }
             .padecimiento-editorial .padecimiento-title { font-size: 1.85rem !important; }
             .padecimiento-editorial-stats { gap: 0.4rem; }
-            .padecimiento-editorial-stats > span { font-size: 0.48rem; }
+            .padecimiento-editorial-stats > span { font-size: 0.54rem; }
             .padecimiento-editorial-preview { gap: 0.35rem; padding: 1rem 0.5rem; }
-            .padecimiento-editorial-preview-item { width: 5.9rem; font-size: 0.5rem; }
+            .padecimiento-editorial-preview-item { width: 5.9rem; font-size: 0.56rem; }
             .padecimiento-editorial-preview-item .guide-product-image { width: 4.7rem !important; height: 4.7rem !important; }
             .padecimiento-editorial .padecimiento-body { padding: 0.7rem !important; }
             .padecimiento-editorial .padecimiento-overview,
@@ -1556,6 +1573,28 @@
             .padecimiento-editorial .padecimiento-product-list { grid-template-columns: 1fr; }
             .padecimiento-editorial .padecimiento-tips-list { display: grid; grid-template-columns: 1fr; }
             .padecimiento-editorial .padecimiento-tips-list li { border-radius: 0.9rem; }
+            .padecimiento-editorial .padecimiento-product-serving,
+            .padecimiento-editorial .padecimiento-product-usage { font-size: 0.7rem !important; }
+        }
+
+        @media (max-width: 360px) {
+            .padecimiento-editorial .padecimiento-summary { padding: 1rem !important; }
+            .padecimiento-editorial .padecimiento-title { font-size: 1.7rem !important; }
+            .padecimiento-editorial-preview {
+                min-height: 9.5rem;
+                gap: 0.2rem;
+                padding: 0.75rem 0.35rem;
+            }
+            .padecimiento-editorial-preview-item {
+                width: 4.8rem;
+                font-size: 0.55rem;
+            }
+            .padecimiento-editorial-preview-item .guide-product-image {
+                width: 4rem !important;
+                height: 4rem !important;
+                padding: 0.35rem;
+                border-radius: 1rem;
+            }
         }
 
         .wave-divider {

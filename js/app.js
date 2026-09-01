@@ -498,7 +498,7 @@
                             </span>
                         </span>
                     </summary>
-                    <div class="p-8 md:p-10 border-t-2 border-gray-200">
+                    <div class="p-4 sm:p-6 md:p-10 border-t-2 border-gray-200">
                     <div class="mb-8 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
                         <strong class="block mb-1">Importante: son opciones, no seis productos para tomar juntos.</strong>
                         Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto y evita duplicar ingredientes o mecanismos.
