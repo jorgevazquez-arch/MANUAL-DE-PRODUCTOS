@@ -528,11 +528,10 @@
                 const titleLengthClass = pad.name.length > 52
                     ? ' padecimiento-title-very-long'
                     : (pad.name.length > 32 ? ' padecimiento-title-long' : '');
-                const editorialPreview = pad.comboPrincipal.map((item, index) => {
+                const editorialPreview = pad.comboPrincipal.map(item => {
                     const product = productos.find(prod => prod.id === item.id);
-                    const featuredClass = pad.comboPrincipal.length === 3 && index === 1 ? ' is-featured' : '';
                     return product ? `
-                        <button type="button" class="padecimiento-editorial-preview-item${featuredClass}" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
+                        <button type="button" class="padecimiento-editorial-preview-item" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
                             ${renderGuideProductImage(product, 'w-20 h-20')}
                             <span>${product.name}</span>
                         </button>` : '';
@@ -546,14 +545,9 @@
                         <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
                             <span class="padecimiento-editorial-kicker"><span aria-hidden="true">${guideGroup.emoji}</span> ${guideGroup.name}</span>
                             <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
-                            <span class="padecimiento-editorial-stats">
-                                <span><strong>${String(pad.symptoms.length).padStart(2, '0')}</strong> datos a identificar</span>
-                                <span><strong>${String(pad.comboPrincipal.length).padStart(2, '0')}</strong> productos principales</span>
-                                <span><strong>${String(pad.comboSecundario.length).padStart(2, '0')}</strong> apoyos adicionales</span>
-                            </span>
                             <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
                                 <span class="padecimiento-editorial-preview-title">Paquete principal</span>
-                                ${editorialPreview}
+                                <span class="padecimiento-editorial-preview-products">${editorialPreview}</span>
                             </span>
                             <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
                                 <span class="padecimiento-toggle-closed">Explorar guía</span><span class="padecimiento-toggle-open">Ocultar guía</span>
