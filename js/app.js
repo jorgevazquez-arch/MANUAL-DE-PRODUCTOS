@@ -522,73 +522,102 @@
                 const colorClass = `border-${pad.color}-500`;
                 const bgColor = `bg-${pad.color}-50`;
                 const textColor = `text-${pad.color}-700`;
+                const isEditorialPrototype = pad.id === 'insomnio';
+                const editorialPreview = isEditorialPrototype
+                    ? pad.comboPrincipal.map(item => {
+                        const product = productos.find(prod => prod.id === item.id);
+                        return product ? `
+                            <span class="padecimiento-editorial-preview-item">
+                                ${renderGuideProductImage(product, 'w-20 h-20')}
+                                <span>${product.name}</span>
+                            </span>` : '';
+                    }).join('')
+                    : '';
                 
                 // Crear un string con todos los términos de búsqueda relevantes para este padecimiento
                 const searchTerms = `${pad.name} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
 
                 html += `
-                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${searchTerms}" class="group bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
-                        <summary class="p-6 cursor-pointer list-none flex justify-between items-center">
-                            <h3 class="text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
-                            <span class="group-open:rotate-180 transition-transform duration-300">
+                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card ${isEditorialPrototype ? 'padecimiento-editorial' : ''} bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
+                        <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
+                            ${isEditorialPrototype ? `<span class="padecimiento-editorial-kicker">Guía editorial · Sistema Nervioso y Hormonal</span>` : ''}
+                            <h3 class="padecimiento-title text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
+                            ${isEditorialPrototype ? `
+                                <span class="padecimiento-editorial-stats">
+                                    <span><strong>${String(pad.symptoms.length).padStart(2, '0')}</strong> datos a identificar</span>
+                                    <span><strong>${String(pad.comboPrincipal.length).padStart(2, '0')}</strong> productos principales</span>
+                                    <span><strong>${String(pad.comboSecundario.length).padStart(2, '0')}</strong> apoyos adicionales</span>
+                                </span>
+                                <span class="padecimiento-editorial-preview" aria-hidden="true">${editorialPreview}</span>
+                            ` : ''}
+                            <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
+                                ${isEditorialPrototype ? `<span class="padecimiento-toggle-closed">Explorar guía</span><span class="padecimiento-toggle-open">Ocultar guía</span>` : ''}
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                                 </svg>
                             </span>
                         </summary>
-                        <div class="p-6 border-t border-gray-200">
-                            <p class="padecimiento-description text-sm text-gray-500 italic mb-4" data-original-text="${pad.description.replace(/"/g, '&quot;')}">${pad.description}</p>
+                        <div class="padecimiento-body p-6 border-t border-gray-200">
+                            <div class="padecimiento-overview">
+                                ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Comprender el padecimiento</span><h4>Qué está ocurriendo</h4>` : ''}
+                                <p class="padecimiento-description text-sm text-gray-500 italic mb-4" data-original-text="${escapeGuideAttribute(pad.description)}">${pad.description}</p>
+                            </div>
                             
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                <div>
-                                    <h4 class="font-bold text-gray-700 mb-2">${pad.symptomsTitle || 'Síntomas a Identificar:'}</h4>
-                                     <ul class="list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
-                                         ${pad.symptoms.map(s => `<li>${s}</li>`).join('')}
+                            <div class="padecimiento-layout grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="padecimiento-assessment">
+                                    <div class="padecimiento-symptoms">
+                                        ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Señales de conversación</span>` : ''}
+                                        <h4 class="padecimiento-symptoms-title font-bold text-gray-700 mb-2">${pad.symptomsTitle || 'Síntomas a Identificar:'}</h4>
+                                     <ul class="padecimiento-symptoms-list list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
+                                         ${pad.symptoms.map((s, index) => `<li>${isEditorialPrototype ? `<span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>` : ''}${s}</li>`).join('')}
                                      </ul>
-                                     <div class="mt-4 rounded-xl border border-sky-200 bg-sky-50 p-3">
+                                    </div>
+                                     <div class="padecimiento-questions mt-4 rounded-xl border border-sky-200 bg-sky-50 p-3">
+                                         ${isEditorialPrototype ? `<span class="padecimiento-questions-kicker">Guía para conversar</span>` : ''}
                                          <h5 class="mb-2 flex items-center gap-2 text-sm font-bold text-sky-900"><span aria-hidden="true">💬</span> Preguntas para el asesor</h5>
                                          <ul class="space-y-2 text-sm text-sky-950">
-                                             ${getAdvisorQuestions(pad).map(question => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">•</span><span>${question}</span></li>`).join('')}
+                                             ${getAdvisorQuestions(pad).map((question, index) => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">${isEditorialPrototype ? String(index + 1).padStart(2, '0') : '•'}</span><span>${question}</span></li>`).join('')}
                                          </ul>
-                                         <p class="mt-3 border-t border-sky-200 pt-2 text-xs font-medium text-sky-800">Escucha y registra las respuestas para orientar la recomendación.</p>
+                                         <p class="padecimiento-questions-note mt-3 border-t border-sky-200 pt-2 text-xs font-medium text-sky-800">Escucha y registra las respuestas para orientar la recomendación.</p>
                                      </div>
                                  </div>
-                                <div class="${bgColor} p-4 rounded-lg">
-                                    <h4 class="font-bold ${textColor} mb-2">${pad.protocolTitle || 'Protocolo Sugerido:'}</h4>
+                                <div class="padecimiento-protocol ${bgColor} p-4 rounded-lg">
+                                    ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Selección por objetivo</span>` : ''}
+                                    <h4 class="padecimiento-protocol-title font-bold ${textColor} mb-2">${pad.protocolTitle || 'Protocolo Sugerido:'}</h4>
                                     <div class="space-y-4">
-                                        <div>
-                                            <strong class="text-sm font-semibold text-gray-800">Paquete Principal:</strong>
-                                            <ul class="text-sm text-gray-700 space-y-2 mt-2">
+                                        <div class="padecimiento-product-group padecimiento-product-group-main">
+                                            <strong class="padecimiento-product-group-title text-sm font-semibold text-gray-800">Paquete Principal:</strong>
+                                            <ul class="padecimiento-product-list text-sm text-gray-700 space-y-2 mt-2">
                                                 ${pad.comboPrincipal.map(item => {
                                                     const p = productos.find(prod => prod.id === item.id);
                                                     return p ? `
-                                                        <li class="flex flex-col">
-                                                            <div class="flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
+                                                        <li class="padecimiento-product flex flex-col">
+                                                            <div class="padecimiento-product-card flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-image flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-name hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 ${renderGuideRationaleIcon(item, p)}
                                                              </div>
-                                                             <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                             <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
+                                                             <span class="padecimiento-product-serving text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
+                                                             <span class="padecimiento-product-usage text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
                                                          </li>` : '';
                                                 }).join('')}
                                             </ul>
                                         </div>
                                         ${pad.comboSecundario.length > 0 ? `
-                                        <div>
-                                            <strong class="text-sm font-semibold text-gray-800">Apoyo Adicional (Cross-sell):</strong>
-                                            <ul class="text-sm text-gray-700 space-y-2 mt-2">
+                                        <div class="padecimiento-product-group padecimiento-product-group-support">
+                                            <strong class="padecimiento-product-group-title text-sm font-semibold text-gray-800">Apoyo Adicional (Cross-sell):</strong>
+                                            <ul class="padecimiento-product-list text-sm text-gray-700 space-y-2 mt-2">
                                                 ${pad.comboSecundario.map(item => {
                                                     const p = productos.find(prod => prod.id === item.id);
                                                     return p ? `
-                                                        <li class="flex flex-col">
-                                                            <div class="flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="hover:underline font-bold text-girasol-green-700">${p.name}</a>
+                                                        <li class="padecimiento-product flex flex-col">
+                                                            <div class="padecimiento-product-card flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-image flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
+                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-name hover:underline font-bold text-girasol-green-700">${p.name}</a>
                                                                 ${renderGuideRationaleIcon(item, p)}
                                                              </div>
-                                                             <span class="text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                             <span class="text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
+                                                             <span class="padecimiento-product-serving text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
+                                                             <span class="padecimiento-product-usage text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
                                                          </li>` : '';
                                                 }).join('')}
                                             </ul>
@@ -596,9 +625,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-4 bg-gray-50 p-3 rounded-lg border border-gray-200">
+                            <div class="padecimiento-tips mt-4 bg-gray-50 p-3 rounded-lg border border-gray-200">
                                  <h4 class="font-bold text-gray-700 mb-2 text-sm flex items-center gap-2">💡 Consejos Clave:</h4>
-                                 <ul class="list-disc list-inside text-xs text-gray-600 space-y-1">
+                                 <ul class="padecimiento-tips-list list-disc list-inside text-xs text-gray-600 space-y-1">
                                     ${pad.lifestyleTips.map(tip => `<li>${tip}</li>`).join('')}
                                  </ul>
                             </div>

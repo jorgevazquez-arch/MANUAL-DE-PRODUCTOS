@@ -1063,6 +1063,501 @@
         .pad-card[open] { transform: translateY(-2px); }
         .pad-card .pad-body { animation: fadeInUp 0.4s var(--ease-organic); }
 
+        /* Prototipo editorial: guía de Insomnio y Despertares Nocturnos */
+        .padecimiento-editorial {
+            --guide-accent: #7c3aed;
+            --guide-soft: #f5f3ff;
+            --guide-deep: #4c1d95;
+            overflow: hidden;
+            border: 1px solid #ddd6fe !important;
+            border-left-width: 1px !important;
+            border-radius: 2rem !important;
+            background: #f8fafc !important;
+            box-shadow: 0 22px 45px -36px rgba(76, 29, 149, 0.75);
+        }
+
+        .padecimiento-editorial > summary::-webkit-details-marker { display: none; }
+
+        .padecimiento-editorial .padecimiento-summary {
+            position: relative;
+            display: grid !important;
+            grid-template-columns: minmax(0, 1.08fr) minmax(21rem, 0.92fr);
+            grid-template-areas:
+                "kicker preview"
+                "title preview"
+                "stats preview"
+                "toggle preview";
+            min-height: 17.5rem;
+            align-items: center;
+            gap: 0.9rem 2rem;
+            overflow: hidden;
+            padding: clamp(1.75rem, 3.4vw, 3rem) !important;
+            background: linear-gradient(90deg, #fff 0 56%, #211f20 56% 100%);
+        }
+
+        .padecimiento-editorial .padecimiento-summary::after {
+            content: '';
+            position: absolute;
+            inset: 0 44% auto 0;
+            height: 0.24rem;
+            background: linear-gradient(90deg, var(--guide-accent), transparent);
+        }
+
+        .padecimiento-editorial-kicker,
+        .padecimiento-editorial-eyebrow,
+        .padecimiento-questions-kicker {
+            display: block;
+            color: var(--guide-accent);
+            font-size: 0.62rem;
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+        }
+
+        .padecimiento-editorial-kicker {
+            grid-area: kicker;
+            align-self: end;
+        }
+
+        .padecimiento-editorial .padecimiento-title {
+            grid-area: title;
+            max-width: 16ch;
+            color: #171717 !important;
+            font-size: clamp(2rem, 3.4vw, 3.2rem) !important;
+            font-weight: 800 !important;
+            letter-spacing: -0.045em;
+            line-height: 1.03;
+            overflow-wrap: anywhere;
+        }
+
+        .padecimiento-editorial-stats {
+            grid-area: stats;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.65rem;
+            align-self: start;
+        }
+
+        .padecimiento-editorial-stats > span {
+            display: flex;
+            min-width: 0;
+            flex-direction: column;
+            padding-top: 0.7rem;
+            border-top: 1px solid #dbe3eb;
+            color: #64748b;
+            font-size: 0.58rem;
+            font-weight: 800;
+            letter-spacing: 0.06em;
+            line-height: 1.35;
+            text-transform: uppercase;
+        }
+
+        .padecimiento-editorial-stats strong {
+            margin-bottom: 0.18rem;
+            color: var(--guide-deep);
+            font-size: 1rem;
+            letter-spacing: -0.03em;
+        }
+
+        .padecimiento-editorial-preview {
+            grid-area: preview;
+            position: relative;
+            display: flex;
+            min-width: 0;
+            align-items: center;
+            justify-content: center;
+            gap: 0.65rem;
+            align-self: stretch;
+            padding: 1rem 0;
+        }
+
+        .padecimiento-editorial-preview::before,
+        .padecimiento-editorial-preview::after {
+            content: '';
+            position: absolute;
+            border: 1px solid rgba(196, 181, 253, 0.18);
+            border-radius: 9999px;
+        }
+
+        .padecimiento-editorial-preview::before { width: 15rem; height: 15rem; }
+        .padecimiento-editorial-preview::after { width: 10rem; height: 10rem; transform: translate(3rem, -2rem); }
+
+        .padecimiento-editorial-preview-item {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            width: 6.7rem;
+            min-width: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.55rem;
+            color: #f8fafc;
+            font-size: 0.58rem;
+            font-weight: 800;
+            line-height: 1.25;
+            text-align: center;
+        }
+
+        .padecimiento-editorial-preview-item:nth-child(2) { transform: translateY(-1rem); }
+        .padecimiento-editorial-preview-item .guide-product-image {
+            width: 5.6rem !important;
+            height: 5.6rem !important;
+            padding: 0.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.72);
+            border-radius: 1.25rem;
+            box-shadow: 0 18px 28px -20px rgba(0, 0, 0, 0.9);
+        }
+
+        .padecimiento-editorial .padecimiento-toggle {
+            grid-area: toggle;
+            display: inline-flex;
+            width: max-content;
+            align-items: center;
+            gap: 0.55rem;
+            align-self: start;
+            padding: 0.55rem 0.8rem;
+            border: 1px solid #ddd6fe;
+            border-radius: 9999px;
+            color: var(--guide-deep);
+            background: var(--guide-soft);
+            font-size: 0.67rem;
+            font-weight: 900;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            transform: none !important;
+        }
+
+        .padecimiento-editorial .padecimiento-toggle svg {
+            width: 1rem;
+            height: 1rem;
+            color: var(--guide-accent) !important;
+            transition: transform 200ms ease;
+        }
+
+        .padecimiento-toggle-open { display: none; }
+        .padecimiento-editorial[open] .padecimiento-toggle-closed { display: none; }
+        .padecimiento-editorial[open] .padecimiento-toggle-open { display: inline; }
+        .padecimiento-editorial[open] .padecimiento-toggle svg { transform: rotate(180deg); }
+
+        .padecimiento-editorial .padecimiento-body {
+            display: grid;
+            gap: 1rem;
+            padding: 1rem !important;
+            border-top: 1px solid #ede9fe !important;
+            background: #f8fafc;
+            animation: fadeInUp 0.42s var(--ease-organic);
+        }
+
+        .padecimiento-editorial .padecimiento-overview,
+        .padecimiento-editorial .padecimiento-symptoms,
+        .padecimiento-editorial .padecimiento-protocol {
+            border: 1px solid #e5e7eb;
+            border-radius: 1.4rem;
+            background: #fff;
+        }
+
+        .padecimiento-editorial .padecimiento-overview {
+            padding: clamp(1.35rem, 2.8vw, 2rem);
+        }
+
+        .padecimiento-editorial .padecimiento-overview h4,
+        .padecimiento-editorial .padecimiento-symptoms-title,
+        .padecimiento-editorial .padecimiento-protocol-title {
+            margin: 0.35rem 0 0.75rem;
+            color: #1f2937 !important;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.22rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+        }
+
+        .padecimiento-editorial .padecimiento-description {
+            max-width: 70rem;
+            margin: 0 !important;
+            color: #64748b !important;
+            font-size: 0.84rem !important;
+            font-style: normal !important;
+            line-height: 1.8;
+        }
+
+        .padecimiento-editorial .padecimiento-layout {
+            grid-template-columns: minmax(18rem, 0.82fr) minmax(0, 1.18fr) !important;
+            gap: 1rem !important;
+            align-items: start;
+        }
+
+        .padecimiento-editorial .padecimiento-assessment {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .padecimiento-editorial .padecimiento-symptoms {
+            padding: 1.4rem;
+        }
+
+        .padecimiento-editorial .padecimiento-symptoms-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.65rem;
+            padding: 0 !important;
+            list-style: none !important;
+        }
+
+        .padecimiento-editorial .padecimiento-symptoms-list li {
+            display: flex;
+            min-width: 0;
+            align-items: flex-start;
+            gap: 0.55rem;
+            padding: 0.72rem;
+            border: 1px solid #e7e5e4;
+            border-radius: 0.9rem;
+            color: #475569;
+            background: #fafafa;
+            font-size: 0.72rem;
+            line-height: 1.5;
+        }
+
+        .padecimiento-editorial .padecimiento-symptoms-list li > span {
+            display: inline-flex;
+            width: 1.55rem;
+            height: 1.55rem;
+            flex: 0 0 1.55rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            color: #fff;
+            background: var(--guide-accent);
+            font-size: 0.55rem;
+            font-weight: 900;
+        }
+
+        .padecimiento-editorial .padecimiento-questions {
+            position: relative;
+            overflow: hidden;
+            margin-top: 0 !important;
+            padding: 1.45rem !important;
+            border: 0 !important;
+            border-radius: 1.4rem !important;
+            color: #e5e7eb;
+            background:
+                radial-gradient(circle at 100% 0, rgba(124, 58, 237, 0.34), transparent 43%),
+                #211f20 !important;
+            box-shadow: 0 18px 38px -30px rgba(0, 0, 0, 0.88);
+        }
+
+        .padecimiento-editorial .padecimiento-questions::before {
+            content: '';
+            position: absolute;
+            inset: 0 auto 0 0;
+            width: 0.28rem;
+            background: var(--guide-accent);
+        }
+
+        .padecimiento-editorial .padecimiento-questions-kicker { color: #c4b5fd; }
+        .padecimiento-editorial .padecimiento-questions h5 {
+            margin: 0.4rem 0 1rem;
+            color: #fff !important;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.15rem !important;
+            font-weight: 800;
+        }
+
+        .padecimiento-editorial .padecimiento-questions ul {
+            display: grid;
+            gap: 0.72rem !important;
+        }
+
+        .padecimiento-editorial .padecimiento-questions li {
+            gap: 0.7rem !important;
+            color: #d1d5db;
+            font-size: 0.73rem;
+            line-height: 1.55;
+        }
+
+        .padecimiento-editorial .padecimiento-questions li > span:first-child {
+            display: inline-flex;
+            width: 1.55rem;
+            height: 1.55rem;
+            flex: 0 0 1.55rem;
+            align-items: center;
+            justify-content: center;
+            border-radius: 9999px;
+            color: #fff !important;
+            background: var(--guide-accent);
+            font-size: 0.55rem;
+        }
+
+        .padecimiento-editorial .padecimiento-questions-note {
+            border-color: rgba(255, 255, 255, 0.14) !important;
+            color: #cbd5e1 !important;
+        }
+
+        .padecimiento-editorial .padecimiento-protocol {
+            padding: 1.4rem !important;
+            border-color: #ddd6fe;
+            background: linear-gradient(145deg, var(--guide-soft), #fff 44%) !important;
+        }
+
+        .padecimiento-editorial .padecimiento-product-group + .padecimiento-product-group {
+            padding-top: 1.15rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .padecimiento-editorial .padecimiento-product-group-title {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            color: #334155 !important;
+            font-size: 0.7rem !important;
+            font-weight: 900 !important;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .padecimiento-editorial .padecimiento-product-group-title::before {
+            content: '';
+            width: 0.55rem;
+            height: 0.55rem;
+            border-radius: 9999px;
+            background: var(--guide-accent);
+        }
+
+        .padecimiento-editorial .padecimiento-product-group-support .padecimiento-product-group-title::before {
+            background: #94a3b8;
+        }
+
+        .padecimiento-editorial .padecimiento-product-list {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0.7rem;
+        }
+
+        .padecimiento-editorial .padecimiento-product-list > * { margin-top: 0 !important; }
+
+        .padecimiento-editorial .padecimiento-product {
+            min-width: 0;
+            padding: 0.72rem;
+            border: 1px solid #e5e7eb;
+            border-radius: 1rem;
+            background: rgba(255, 255, 255, 0.92);
+            transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+        }
+
+        .padecimiento-editorial .padecimiento-product-group-main .padecimiento-product {
+            border-color: #ddd6fe;
+        }
+
+        .padecimiento-editorial .padecimiento-product:hover {
+            border-color: var(--guide-accent);
+            box-shadow: 0 12px 24px -20px rgba(76, 29, 149, 0.72);
+            transform: translateY(-2px);
+        }
+
+        .padecimiento-editorial .padecimiento-product-card {
+            min-width: 0;
+            padding: 0 !important;
+            border: 0 !important;
+            background: transparent !important;
+            box-shadow: none !important;
+        }
+
+        .padecimiento-editorial .padecimiento-product-image .guide-product-image {
+            width: 3.8rem !important;
+            height: 3.8rem !important;
+            padding: 0.35rem;
+            border-radius: 0.9rem;
+        }
+
+        .padecimiento-editorial .padecimiento-product-name {
+            min-width: 0;
+            color: var(--guide-deep) !important;
+            font-size: 0.72rem;
+            line-height: 1.35;
+            overflow-wrap: anywhere;
+        }
+
+        .padecimiento-editorial .guide-rationale-icon { margin-left: auto; }
+
+        .padecimiento-editorial .padecimiento-product-serving,
+        .padecimiento-editorial .padecimiento-product-usage {
+            display: block;
+            margin-top: 0.45rem;
+            padding-left: 0 !important;
+            font-size: 0.63rem !important;
+            line-height: 1.45;
+        }
+
+        .padecimiento-editorial .padecimiento-product-usage { color: #5b21b6 !important; }
+
+        .padecimiento-editorial .padecimiento-tips {
+            margin-top: 0 !important;
+            padding: 1.25rem !important;
+            border-color: #ddd6fe !important;
+            border-radius: 1.25rem !important;
+            background: linear-gradient(135deg, var(--guide-soft), #fff 68%) !important;
+        }
+
+        .padecimiento-editorial .padecimiento-tips h4 {
+            margin-bottom: 0.8rem;
+            color: var(--guide-deep) !important;
+        }
+
+        .padecimiento-editorial .padecimiento-tips-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.55rem;
+            padding: 0 !important;
+            list-style: none !important;
+        }
+
+        .padecimiento-editorial .padecimiento-tips-list li {
+            padding: 0.55rem 0.75rem;
+            border: 1px solid #e9d5ff;
+            border-radius: 9999px;
+            color: #5b21b6;
+            background: rgba(255, 255, 255, 0.86);
+            line-height: 1.4;
+        }
+
+        @media (max-width: 1100px) {
+            .padecimiento-editorial .padecimiento-layout { grid-template-columns: 1fr !important; }
+        }
+
+        @media (max-width: 900px) {
+            .padecimiento-editorial .padecimiento-summary {
+                grid-template-columns: 1fr;
+                grid-template-areas: "kicker" "title" "stats" "preview" "toggle";
+                background: #fff;
+            }
+            .padecimiento-editorial .padecimiento-summary::after { inset: 0 0 auto 0; }
+            .padecimiento-editorial-preview {
+                min-height: 12rem;
+                padding: 1.25rem;
+                border-radius: 1.35rem;
+                background: #211f20;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .padecimiento-editorial { border-radius: 1.4rem !important; }
+            .padecimiento-editorial .padecimiento-summary { padding: 1.35rem !important; }
+            .padecimiento-editorial .padecimiento-title { font-size: 1.85rem !important; }
+            .padecimiento-editorial-stats { gap: 0.4rem; }
+            .padecimiento-editorial-stats > span { font-size: 0.48rem; }
+            .padecimiento-editorial-preview { gap: 0.35rem; padding: 1rem 0.5rem; }
+            .padecimiento-editorial-preview-item { width: 5.9rem; font-size: 0.5rem; }
+            .padecimiento-editorial-preview-item .guide-product-image { width: 4.7rem !important; height: 4.7rem !important; }
+            .padecimiento-editorial .padecimiento-body { padding: 0.7rem !important; }
+            .padecimiento-editorial .padecimiento-overview,
+            .padecimiento-editorial .padecimiento-symptoms,
+            .padecimiento-editorial .padecimiento-questions,
+            .padecimiento-editorial .padecimiento-protocol { padding: 1.05rem !important; }
+            .padecimiento-editorial .padecimiento-symptoms-list,
+            .padecimiento-editorial .padecimiento-product-list { grid-template-columns: 1fr; }
+            .padecimiento-editorial .padecimiento-tips-list { display: grid; grid-template-columns: 1fr; }
+            .padecimiento-editorial .padecimiento-tips-list li { border-radius: 0.9rem; }
+        }
+
         .wave-divider {
             width: 100%;
             height: 26px;
