@@ -21,7 +21,7 @@ window.manualData.padecimientos = [
             { id: 150, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.', rationale: 'L-Teanina para calma sin somnolencia.' },
             { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Melena de León con efectos ansiolíticos.' }
         ],
-        lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176).']
+        lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES o TÉ MANZANILLA.']
     },
     {
         id: 'fatiga_burnout',
@@ -60,7 +60,7 @@ window.manualData.padecimientos = [
             { id: 163, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Combina Ashwagandha, L-Teanina y Magnesio.' },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: 'Vitaminas B para la producción de neurotransmisores.' }
         ],
-        lifestyleTips: ['Evitar pantallas (luz azul) al menos 1 hora antes de dormir.', 'Mantener un horario de sueño regular.', 'Tomar una infusión relajante como TÉ 7 AZAHARES (ID 169) o TÉ MANZANILLA (ID 176).']
+        lifestyleTips: ['Evitar pantallas (luz azul) al menos 1 hora antes de dormir.', 'Mantener un horario de sueño regular.', 'Tomar una infusión relajante como TÉ 7 AZAHARES o TÉ MANZANILLA.']
     },
     {
         id: 'memoria_enfoque',
@@ -117,7 +117,7 @@ window.manualData.padecimientos = [
             { id: 17, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ácido Alfa Lipoico para el dolor neuropático.' },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Complejo B para la producción de energía.' }
         ],
-        lifestyleTips: ['Realizar ejercicio de bajo impacto como caminar, nadar o yoga.', 'Practicar técnicas de manejo del estrés.', 'Mantener una rutina de sueño regular.', 'Utilizar FIX UZEN (ID 167) para masajear los puntos de dolor.']
+        lifestyleTips: ['Realizar ejercicio de bajo impacto como caminar, nadar o yoga.', 'Practicar técnicas de manejo del estrés.', 'Mantener una rutina de sueño regular.', 'Utilizar FIX UZEN para masajear los puntos de dolor.']
     },
     {
         id: 'ciatica',
@@ -136,7 +136,7 @@ window.manualData.padecimientos = [
             { id: 91, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Aporte general de magnesio para la relajación muscular.' },
             { id: 167, serving: 'Una aplicación (capa fina)', usage: 'Aplicar una capa fina en la zona afectada 2-3 veces al día.', rationale: 'FIX UZEN como apoyo tópico para aliviar temporalmente la tensión y el dolor local; no sustituye la valoración si hay debilidad, pérdida de sensibilidad o alteración de esfínteres.' }
         ],
-        lifestyleTips: ['Realizar estiramientos específicos para el piramidal y la espalda baja.', 'Evitar estar sentado por períodos prolongados.', 'Aplicar calor en la zona lumbar.', 'Masajear la zona con FIX UZEN (ID 167).']
+        lifestyleTips: ['Realizar estiramientos específicos para el piramidal y la espalda baja.', 'Evitar estar sentado por períodos prolongados.', 'Aplicar calor en la zona lumbar.', 'Masajear la zona con FIX UZEN.']
     },
     {
         id: 'depresion_apoyo',
@@ -198,7 +198,7 @@ window.manualData.padecimientos = [
             { id: 141, serving: '2 cápsulas', usage: 'Tomar esta porción con alimentos.', rationale: 'Fórmula de apoyo digestivo.' },
             { id: 129, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Probióticos como apoyo de la microbiota durante o después de un tratamiento indicado. No erradican H. pylori ni sustituyen los antibióticos.' }
         ],
-        lifestyleTips: ['Evitar alimentos irritantes como picante, café, alcohol y fritos.', 'Realizar comidas más pequeñas y frecuentes.', 'Manejar el estrés.', 'Consumir infusiones con Toronjil como TÉ JOUNKINS LAX (ID 189) para apoyar la relajación.']
+        lifestyleTips: ['Evitar alimentos irritantes como picante, café, alcohol y fritos.', 'Realizar comidas más pequeñas y frecuentes.', 'Manejar el estrés.', 'Consumir infusiones con Toronjil como TÉ JOUNKINS LAX para apoyar la relajación.']
     },
     {
         id: 'enfermedad_inflamatoria_intestinal',
@@ -821,7 +821,7 @@ window.manualData.padecimientos = [
             { id: 202, serving: '2 cápsulas', usage: 'Tomar esta porción al día con el estómago vacío.', rationale: 'Calostro con hoja de olivo, astrágalo y eleutero como alternativa al producto 186; elegir una sola presentación de calostro.' },
             { id: 244, serving: '1 cápsula', usage: 'Tomar esta porción al día, por la mañana o por la noche.', rationale: 'Chaga, Reishi, probióticos y L-carnitina como opción de apoyo general; evitar acumularlo con varias fórmulas de hongos.' }
         ],
-        lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.', 'Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA (ID 38), MORINGA ORGÁNICA (ID 100), AJO NEGRO + MORINGA (ID 21), CUATECOMATE (ID 201) y HONIG ABAGREEN VERDE/ROJO (ID 155/156).']
+        lifestyleTips: ['Dormir 7-8 horas diarias.', 'Aumentar el consumo de frutas y verduras ricas en Vitamina C.', 'Reducir el estrés crónico.', 'Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA, MORINGA ORGÁNICA, AJO NEGRO + MORINGA, CUATECOMATE y HONIG ABAGREEN VERDE/ROJO.']
     },
     {
         id: 'resfriado_comun',
@@ -979,7 +979,7 @@ window.manualData.padecimientos = [
             { id: 157, serving: '1 cápsula', usage: 'Tomar esta porción al día. Después de las comidas.', rationale: 'Fórmula integral con Glucosamina y Cúrcuma.' },
             { id: 183, serving: 'Una aplicación (capa fina)', usage: 'Aplicar una capa fina en la zona afectada 2-3 veces al día.', rationale: 'Gel con salicilato de metilo (efecto rubefaciente) y Centella Asiática para alivio local del dolor articular, como complemento del apoyo oral.' }
         ],
-        lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA (ID 175).', 'Aplicar FIX UZEN (ID 167).', 'Otras opciones articulares de la tienda: CARTÍLAGO PRONAT (ID 204) y MOROIZY / MOROIZY GEL (ID 51/182).']
+        lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA.', 'Aplicar FIX UZEN.', 'Otras opciones articulares de la tienda: CARTÍLAGO PRONAT y MOROIZY / MOROIZY GEL.']
     },
     {
         id: 'osteoporosis',
@@ -1041,7 +1041,7 @@ window.manualData.padecimientos = [
             { id: 92, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos solamente si la alimentación o la valoración profesional indican una ingesta insuficiente de magnesio.', rationale: 'Magnesio malato como opción condicional. En deportistas con estado adecuado no se ha demostrado una mejora consistente de fuerza o potencia.' },
             { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal únicamente si existe dieta restrictiva, ingesta insuficiente o una necesidad identificada.', rationale: 'Multivitamínico para cubrir brechas, no como producto ergogénico. Una dieta adecuada no requiere añadirlo automáticamente.' }
         ],
-        lifestyleTips: ['Elegir una sola creatina: Birdman (ID 7), Nano Fear (ID 8) o Refresher (ID 191/209).', 'Elegir una sola proteína según dieta y tolerancia: WPI 90 (ID 113), whey (ID 111/112), vegetal (ID 134/135/158/219), huevo (ID 24) o ISOFEAR (ID 220).', 'BEEF FEAR (ID 35) ya combina proteína y creatina; si se elige, no añadir otra creatina.', 'La proteína total diaria y la constancia del entrenamiento importan más que una ventana rígida postentrenamiento.', 'Dolor torácico, desmayo, palpitaciones nuevas, falta de aire desproporcionada u orina oscura requieren suspender el ejercicio y buscar atención.']
+        lifestyleTips: ['Elegir una sola creatina: Birdman, Nano Fear o Refresher.', 'Elegir una sola proteína según dieta y tolerancia: WPI 90, whey, vegetal, huevo o ISOFEAR.', 'BEEF FEAR ya combina proteína y creatina; si se elige, no añadir otra creatina.', 'La proteína total diaria y la constancia del entrenamiento importan más que una ventana rígida postentrenamiento.', 'Dolor torácico, desmayo, palpitaciones nuevas, falta de aire desproporcionada u orina oscura requieren suspender el ejercicio y buscar atención.']
     },
     {
         id: 'resistencia_deportiva',
@@ -1062,7 +1062,7 @@ window.manualData.padecimientos = [
             { id: 92, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos únicamente si existe ingesta insuficiente o deficiencia identificada; no usar como reposición inmediata del sudor.', rationale: 'Magnesio condicional. No previene universalmente calambres ni sustituye sodio, líquidos o carbohidratos durante el ejercicio.' },
             { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal solo cuando una dieta restrictiva o la evaluación nutricional muestre una brecha de micronutrientes.', rationale: 'Multivitamínico para corregir brechas dietéticas, no para producir energía inmediata ni mejorar por sí mismo la resistencia.' }
         ],
-        lifestyleTips: ['Para ejercicio prolongado, ajustar carbohidratos y líquidos a la duración, intensidad, clima y tasa de sudoración; CREATINA REFRESHER aporta electrolitos sin carbohidratos y MASS FEAR aporta una carga alta de carbohidratos para antes o después, no para beber durante la sesión.', 'Beber de acuerdo con sed, clima, duración y tasa de sudoración; beber agua en exceso también puede causar hiponatremia.', 'Probar cualquier estrategia durante el entrenamiento antes de usarla en competencia.', 'Creatina Refresher Lemon (ID 191: 522 mg de sodio, 170 mg de potasio y 61 mg de magnesio) y Pink (ID 209: 523 mg de sodio, 174.5 mg de potasio y 61 mg de magnesio) son variantes de sabor, no productos para combinar.', 'Confusión, colapso por calor, vómito persistente, cefalea intensa o aumento de peso durante una prueba prolongada requieren suspender y buscar atención.']
+        lifestyleTips: ['Para ejercicio prolongado, ajustar carbohidratos y líquidos a la duración, intensidad, clima y tasa de sudoración; CREATINA REFRESHER aporta electrolitos sin carbohidratos y MASS FEAR aporta una carga alta de carbohidratos para antes o después, no para beber durante la sesión.', 'Beber de acuerdo con sed, clima, duración y tasa de sudoración; beber agua en exceso también puede causar hiponatremia.', 'Probar cualquier estrategia durante el entrenamiento antes de usarla en competencia.', 'Creatina Refresher Lemon (522 mg de sodio, 170 mg de potasio y 61 mg de magnesio) y Pink (523 mg de sodio, 174.5 mg de potasio y 61 mg de magnesio) son variantes de sabor, no productos para combinar.', 'Confusión, colapso por calor, vómito persistente, cefalea intensa o aumento de peso durante una prueba prolongada requieren suspender y buscar atención.']
     },
     {
         id: 'recuperacion_deportiva',
@@ -1381,7 +1381,7 @@ window.manualData.padecimientos = [
             { id: 132, serving: '1 cápsula (750 mg)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Probity con acetil L-carnitina y té verde para apoyo metabólico.' },
             { id: 42, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción al día. Antes de las comidas.', rationale: 'Caralluma fimbriata, tradicionalmente usada para el control del apetito.' }
         ],
-        lifestyleTips: ['Estas fórmulas son un apoyo complementario; el resultado depende principalmente de la dieta y actividad física.', 'No combinar varias fórmulas laxantes/depurativas al mismo tiempo para evitar molestias digestivas.', 'Otras variantes disponibles en tienda: DEMOGRASS PLUS (ID 57), DEMOGRASS LX+ (ID 190), GOJI TRIM (ID 73), GOJIZEN MAX (ID 75), SUKUNAI KIROS MAX (ID 221), PIÑALINAZA (ID 222), DYNEEM (ID 195), BPASS (ID 37), XIMO (ID 114), TÉ PIÑALIM / TÉ PIÑALIM PLUS (ID 146/197) y CAFÉ CON MORINGA (ID 38).', 'Si hay alguna condición médica (hipertensión, diabetes, embarazo), consultar antes de usar fórmulas termogénicas o diuréticas.']
+        lifestyleTips: ['Estas fórmulas son un apoyo complementario; el resultado depende principalmente de la dieta y actividad física.', 'No combinar varias fórmulas laxantes/depurativas al mismo tiempo para evitar molestias digestivas.', 'Otras variantes disponibles en tienda: DEMOGRASS PLUS, DEMOGRASS LX+, GOJI TRIM, GOJIZEN MAX, SUKUNAI KIROS MAX, PIÑALINAZA, DYNEEM, BPASS, XIMO, TÉ PIÑALIM / TÉ PIÑALIM PLUS y CAFÉ CON MORINGA.', 'Si hay alguna condición médica (hipertensión, diabetes, embarazo), consultar antes de usar fórmulas termogénicas o diuréticas.']
     },
     {
         id: 'piel_antienvejecimiento',
@@ -1400,6 +1400,6 @@ window.manualData.padecimientos = [
             { id: 18, serving: '15 g (1 cuchara)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ácido hialurónico con colágeno para la hidratación profunda de la piel.' },
             { id: 108, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitamina C, cofactor esencial para la síntesis de colágeno.' }
         ],
-        lifestyleTips: ['Usar protector solar diario, el principal factor de envejecimiento prematuro evitable.', 'Mantener buena hidratación con agua simple.', 'Dormir bien, ya que la piel se regenera principalmente durante el sueño.', 'LEUCAPS (ID 86), rico en luteína y zeaxantina, también aporta antioxidantes para la piel.']
+        lifestyleTips: ['Usar protector solar diario, el principal factor de envejecimiento prematuro evitable.', 'Mantener buena hidratación con agua simple.', 'Dormir bien, ya que la piel se regenera principalmente durante el sueño.', 'LEUCAPS, rico en luteína y zeaxantina, también aporta antioxidantes para la piel.']
     }
 ];
