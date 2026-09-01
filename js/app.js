@@ -523,39 +523,40 @@
                 const colorClass = `border-${pad.color}-500`;
                 const bgColor = `bg-${pad.color}-50`;
                 const textColor = `text-${pad.color}-700`;
-                const isEditorialPrototype = pad.id === 'insomnio';
-                const editorialPreview = isEditorialPrototype
-                    ? pad.comboPrincipal.map((item, index) => {
-                        const product = productos.find(prod => prod.id === item.id);
-                        return product ? `
-                            <span class="padecimiento-editorial-preview-item${index === 1 ? ' is-featured' : ''}">
-                                ${renderGuideProductImage(product, 'w-20 h-20')}
-                                <span>${product.name}</span>
-                            </span>` : '';
-                    }).join('')
-                    : '';
+                const guideGroup = guideColorGroups.find(group => group.key === pad.color)
+                    || { emoji: '🎯', name: 'Guía por padecimiento' };
+                const titleLengthClass = pad.name.length > 52
+                    ? ' padecimiento-title-very-long'
+                    : (pad.name.length > 32 ? ' padecimiento-title-long' : '');
+                const editorialPreview = pad.comboPrincipal.map((item, index) => {
+                    const product = productos.find(prod => prod.id === item.id);
+                    const featuredClass = pad.comboPrincipal.length === 3 && index === 1 ? ' is-featured' : '';
+                    return product ? `
+                        <button type="button" class="padecimiento-editorial-preview-item${featuredClass}" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
+                            ${renderGuideProductImage(product, 'w-20 h-20')}
+                            <span>${product.name}</span>
+                        </button>` : '';
+                }).join('');
                 
                 // Crear un string con todos los términos de búsqueda relevantes para este padecimiento
                 const searchTerms = `${pad.name} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
 
                 html += `
-                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card ${isEditorialPrototype ? 'padecimiento-editorial' : ''} bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
+                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card padecimiento-editorial bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
                         <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
-                            ${isEditorialPrototype ? `<span class="padecimiento-editorial-kicker">Guía editorial · Sistema Nervioso y Hormonal</span>` : ''}
-                            <h3 class="padecimiento-title text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
-                            ${isEditorialPrototype ? `
-                                <span class="padecimiento-editorial-stats">
-                                    <span><strong>${String(pad.symptoms.length).padStart(2, '0')}</strong> datos a identificar</span>
-                                    <span><strong>${String(pad.comboPrincipal.length).padStart(2, '0')}</strong> productos principales</span>
-                                    <span><strong>${String(pad.comboSecundario.length).padStart(2, '0')}</strong> apoyos adicionales</span>
-                                </span>
-                                <span class="padecimiento-editorial-preview" aria-hidden="true">
-                                    <span class="padecimiento-editorial-preview-title">Paquete principal</span>
-                                    ${editorialPreview}
-                                </span>
-                            ` : ''}
+                            <span class="padecimiento-editorial-kicker"><span aria-hidden="true">${guideGroup.emoji}</span> ${guideGroup.name}</span>
+                            <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
+                            <span class="padecimiento-editorial-stats">
+                                <span><strong>${String(pad.symptoms.length).padStart(2, '0')}</strong> datos a identificar</span>
+                                <span><strong>${String(pad.comboPrincipal.length).padStart(2, '0')}</strong> productos principales</span>
+                                <span><strong>${String(pad.comboSecundario.length).padStart(2, '0')}</strong> apoyos adicionales</span>
+                            </span>
+                            <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
+                                <span class="padecimiento-editorial-preview-title">Paquete principal</span>
+                                ${editorialPreview}
+                            </span>
                             <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
-                                ${isEditorialPrototype ? `<span class="padecimiento-toggle-closed">Explorar guía</span><span class="padecimiento-toggle-open">Ocultar guía</span>` : ''}
+                                <span class="padecimiento-toggle-closed">Explorar guía</span><span class="padecimiento-toggle-open">Ocultar guía</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                                 </svg>
@@ -563,30 +564,30 @@
                         </summary>
                         <div class="padecimiento-body p-6 border-t border-gray-200">
                             <div class="padecimiento-overview">
-                                ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Comprender el padecimiento</span><h4>Qué está ocurriendo</h4>` : ''}
+                                <span class="padecimiento-editorial-eyebrow">Comprender el padecimiento</span><h4>Qué está ocurriendo</h4>
                                 <p class="padecimiento-description text-sm text-gray-500 italic mb-4" data-original-text="${escapeGuideAttribute(pad.description)}">${pad.description}</p>
                             </div>
                             
                             <div class="padecimiento-layout grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div class="padecimiento-assessment">
                                     <div class="padecimiento-symptoms">
-                                        ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Señales de conversación</span>` : ''}
+                                        <span class="padecimiento-editorial-eyebrow">Señales de conversación</span>
                                         <h4 class="padecimiento-symptoms-title font-bold text-gray-700 mb-2">${pad.symptomsTitle || 'Síntomas a Identificar:'}</h4>
                                      <ul class="padecimiento-symptoms-list list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
-                                         ${pad.symptoms.map((s, index) => `<li>${isEditorialPrototype ? `<span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>` : ''}${s}</li>`).join('')}
+                                         ${pad.symptoms.map((s, index) => `<li><span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${s}</li>`).join('')}
                                      </ul>
                                     </div>
                                      <div class="padecimiento-questions mt-4 rounded-xl border border-sky-200 bg-sky-50 p-3">
-                                         ${isEditorialPrototype ? `<span class="padecimiento-questions-kicker">Guía para conversar</span>` : ''}
+                                         <span class="padecimiento-questions-kicker">Guía para conversar</span>
                                          <h5 class="mb-2 flex items-center gap-2 text-sm font-bold text-sky-900"><span aria-hidden="true">💬</span> Preguntas para el asesor</h5>
                                          <ul class="space-y-2 text-sm text-sky-950">
-                                             ${getAdvisorQuestions(pad).map((question, index) => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">${isEditorialPrototype ? String(index + 1).padStart(2, '0') : '•'}</span><span>${question}</span></li>`).join('')}
+                                             ${getAdvisorQuestions(pad).map((question, index) => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><span>${question}</span></li>`).join('')}
                                          </ul>
                                          <p class="padecimiento-questions-note mt-3 border-t border-sky-200 pt-2 text-xs font-medium text-sky-800">Escucha y registra las respuestas para orientar la recomendación.</p>
                                      </div>
-                                 </div>
+                                </div>
                                 <div class="padecimiento-protocol ${bgColor} p-4 rounded-lg">
-                                    ${isEditorialPrototype ? `<span class="padecimiento-editorial-eyebrow">Selección por objetivo</span>` : ''}
+                                    <span class="padecimiento-editorial-eyebrow">Selección por objetivo</span>
                                     <h4 class="padecimiento-protocol-title font-bold ${textColor} mb-2">${pad.protocolTitle || 'Protocolo Sugerido:'}</h4>
                                     <div class="space-y-4">
                                         <div class="padecimiento-product-group padecimiento-product-group-main">
@@ -642,6 +643,14 @@
 
             html += `</div></div></details>`;
             container.innerHTML = html;
+
+            container.addEventListener('click', event => {
+                const previewProduct = event.target.closest('[data-guide-preview-product]');
+                if (!previewProduct) return;
+                event.preventDefault();
+                event.stopPropagation();
+                openModal(Number(previewProduct.dataset.guidePreviewProduct));
+            });
 
             // Activar filtrado por color una vez que el HTML ya está en el DOM
             setupPadecimientosColorFilter();
