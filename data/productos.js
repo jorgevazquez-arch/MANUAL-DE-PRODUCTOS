@@ -451,7 +451,7 @@ window.manualData.productos = [
     code: "7503029679408",
     name: "ÁCIDO ALFA LIPÓICO",
     category: "metabolismo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ACIDO-ALFA-LIPOICO1.webp",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-ALFA-LIPICO.jpg",
     shortDesc: "Suplemento de ácido alfa lipóico, potente antioxidante y cofactor del metabolismo energético mitocondrial.",
     ingredients: "Ácido alfa lipóico (ácido tióctico) 300 mg por porción.",
     serving: "2 cápsulas (300 mg)",
@@ -1464,7 +1464,7 @@ window.manualData.productos = [
 {
   id: 55,
   code: "7503029679101",
-  name: "D3 1000 IU / 1000 UI + VITAMINA C & EQUINÁCEA",
+  name: "D3 1000 UI + VITAMINA C & EQUINÁCEA",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
   shortDesc: "Suplemento alimenticio en presentación de 30 cápsulas con vitamina C, vitamina D3 y equinácea, formulado como apoyo nutricional para la función inmunológica y el bienestar estacional.",
@@ -3339,7 +3339,7 @@ window.manualData.productos = [
   code: "7503021404060",
   name: "PROBITY",
   category: "metabolismo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/probity-1.jpg",
+  image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PROBITY-RENDER-V2-AGOSTO2026.jpeg",
   shortDesc: "Fórmula multibotánica con acetil L-carnitina, té verde, chá de bugre, vinagre de manzana, alcachofa, papaína, ciruela pasa, jamaica, lúpulo, espirulina y cromo, para el metabolismo energético y el bienestar general.",
   ingredients: "Acetil L-carnitina, extracto de té verde, chá de bugre, vinagre de manzana, alcachofa, papaína, ciruela pasa, jamaica, lúpulo, espirulina, cromo (cantidades no especificadas).",
   serving: "1 cápsula (750 mg, aunque el nombre indica 600 mg)",
@@ -3765,15 +3765,14 @@ window.manualData.productos = [
   name: "TREONATO DE MAGNESIO",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TREONATO-MAGNESIO1.jpg",
-  shortDesc: "L-Treonato de magnesio (288 mg por porción, aporta 36 mg de magnesio elemental) con extracto de té verde, vitamina C y vitamina D, para la función cognitiva y la salud neurológica.",
-  ingredients: "L-Treonato de magnesio (288 mg), té verde (100 mg), vitamina C (137.06 mg), vitamina D (0.01 mcg) por porción.",
+  shortDesc: "L-Treonato de magnesio (288 mg por porción, aporta 36 mg de magnesio elemental), vitamina C y vitamina D, para la función cognitiva y la salud neurológica.",
+  ingredients: "L-Treonato de magnesio (288 mg), vitamina C (137.06 mg), vitamina D (0.01 mcg) por porción.",
   serving: "2 cápsulas (1 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
     "Forma de magnesio que atraviesa la barrera hematoencefálica",
     "Apoya la plasticidad sináptica y la memoria",
-    "Té verde con antioxidantes",
     "Vitamina C para la protección celular",
     "Vitamina D para la absorción del magnesio",
     "Favorece la función cognitiva"
@@ -3963,7 +3962,7 @@ window.manualData.productos = [
     code: "7503021404206",
     name: "NUYO",
     category: "locomotor",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NUYO.png",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-NUYO-RENDER-V3-AGOSTO2026.jpeg",
     shortDesc: "Suplemento alimenticio integral con glucosamina, MSM, cúrcuma, nogal, vitaminas y minerales, diseñado para apoyar la salud articular, la función cognitiva y el equilibrio metabólico.",
     ingredients: "Metilsulfonilmetano (MSM) (125 mg), glucosamina (100 mg), cúrcuma (Curcuma longa) (100 mg), nogal (Juglans regia) (50 mg), vitamina C (30 mg), calcio (40 mg), magnesio (30 mg), vitamina B2 (riboflavina) (2 mg), vitamina B6 (piridoxina) (2 mg), zinc (10 mg), hierro (5 mg), potasio (5 mg), vitamina B12 (cianocobalamina) (100 µg), fósforo (0.9 mg).",
     serving: "1 cápsula al día",
@@ -4514,7 +4513,7 @@ window.manualData.productos = [
     code: "7502002826105",
     name: "PURE INOSITOL POWDER",
     category: "metabolismo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PURE-INOSITOL-POWDER.png",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PURE-INOSITOL-RENDER-V2-AGOSTO2026.jpeg",
     shortDesc: "Polvo de inositol 100% puro (5 g por porción), un compuesto del complejo de vitamina B que participa en la señalización celular, el metabolismo lipídico y el bienestar general. Libre de gluten y aditivos.",
     ingredients: "Inositol (100% puro).",
     serving: "5 g al día (1 cucharadita)",
@@ -6066,5 +6065,605 @@ window.manualData.productos = [
     contraindications: "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
     foodInteractions: "No especificado",
     interactions: "Revisar tratamientos inmunosupresores, anticoagulantes y medicamentos de uso crónico antes de consumir."
+},
+
+  // 247. FORTI OSITOS
+  {
+    id: 247,
+    code: "",
+    name: "FORTI OSITOS",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-OSITOS.webp",
+    shortDesc: "Gomitas pediátricas con vitaminas A, C, D, complejo B, zinc, calcio, L-lisina y Omega 3. Sin azúcar, sabores fresa y piña.",
+    ingredients: "Vitamina C (ácido ascórbico), Vitamina A (retinol), Vitamina D (colecalciferol), Zinc, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Calcio, L-Lisina, Omega 3, Sucralosa, gelificantes, sabores (fresa y piña), colorantes.",
+    serving: "2 gomitas al día",
+    timing: "Preferentemente con el desayuno o el almuerzo",
+    intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
+    benefits: [
+      "Apoya el sistema inmunológico con vitaminas A, C, D y Zinc",
+      "Contribuye al metabolismo energético con el complejo B",
+      "Favorece el crecimiento óseo con calcio",
+      "Aporta L-Lisina para la síntesis proteica",
+      "Omega 3 para el desarrollo neurológico",
+      "Sin azúcares fermentables, seguras para la salud dental"
+    ],
+    contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
+    foodInteractions: "No especificado",
+    interactions: "Evitar el consumo simultáneo con grandes volúmenes de té o bebidas con taninos que puedan interferir con la asimilación del zinc."
+  },
+
+  // 248. FORT Q OSITOS
+  {
+    id: 248,
+    code: "",
+    name: "FORT Q OSITOS",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
+    shortDesc: "Gomitas pediátricas con Ácido Glutámico, L-Lisina, complejo B, vitamina C, zinc, calcio y Omega 3. Sin azúcar, sabores fresa y zarzamora.",
+    ingredients: "Ácido Glutámico, L-Lisina, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Vitamina C, Zinc, Calcio, Omega 3, Sucralosa, gelificantes, sabores (fresa y zarzamora), colorantes.",
+    serving: "2 gomitas al día",
+    timing: "Preferentemente con el desayuno o el almuerzo",
+    intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
+    benefits: [
+      "Apoya la función cognitiva y el neurodesarrollo",
+      "Ácido Glutámico como precursor de neurotransmisores",
+      "Complejo B para el metabolismo energético",
+      "Calcio y Zinc para el crecimiento y la inmunidad",
+      "Omega 3 para la fluidez de membranas neuronales",
+      "Sin azúcares fermentables, seguras para la salud dental"
+    ],
+    contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
+    foodInteractions: "No especificado",
+    interactions: "Evitar el consumo simultáneo con grandes volúmenes de té o bebidas con taninos que puedan interferir con la asimilación del zinc."
+  },
+
+  // 249. KINDERVITAL FRUITY
+  {
+    id: 249,
+    code: "",
+    name: "KINDERVITAL FRUITY",
+    category: "nutricional",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/KINDERVITAL.webp",
+    shortDesc: "Tónico multivitamínico pediátrico con calcio, vitaminas A, C, D, E, complejo B y extractos botánicos. Sabor frutal, sin colorantes artificiales.",
+    ingredients: "Calcio (de gluconato y lactato de calcio), Vitamina D (colecalciferol), Vitamina A (palmitato de retinilo), Vitamina C (ácido ascórbico), Vitamina E (acetato de d-alfa tocoferol), Vitaminas B1, B2, B3, B6, B12, Extractos acuosos de zanahoria, cilantro, berro, menta, espinaca, manzanilla, Jugos de frutas concentrados (algarroba, albaricoque, piña, uva, maracuyá, manzana, limón), Goma guar, Goma xantana.",
+    serving: "10 ml (1 vasito dosificador) al día",
+    timing: "Preferentemente antes del desayuno o de una comida principal",
+    intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador incluido. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
+    benefits: [
+      "Calcio biodisponible para la mineralización ósea",
+      "Vitamina D para la absorción del calcio",
+      "Complejo B para el metabolismo energético",
+      "Vitaminas A, C, E como antioxidantes",
+      "Extractos botánicos con efecto carminativo",
+      "Sabor frutal natural, sin colorantes artificiales"
+    ],
+    contraindications: "Contraindicado en hipercalcemia, hipercalciuria, litiasis renal, hiperparatiroidismo. Precaución en alergias a plantas de la familia umbelíferas (cilantro) o asteráceas (manzanilla).",
+    foodInteractions: "No especificado",
+    interactions: "El calcio forma complejos insolubles con tetraciclinas, fluoroquinolonas y levotiroxina. Separar la toma al menos 2-3 horas (4 horas para levotiroxina). Antagonismo con hierro: no administrar en el mismo horario."
+  },
+
+  // 250. FLORADIX + H FRUITY
+  {
+    id: 250,
+    code: "",
+    name: "FLORADIX + H FRUITY",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/FLORADIX-FRUITY.webp",
+    shortDesc: "Tónico líquido con hierro gluconato, vitaminas del complejo B, vitamina C y extractos botánicos. Para el soporte de la oxigenación celular y la eritropoyesis.",
+    ingredients: "Hierro (de gluconato ferroso) 7.5 mg, Vitamina C (ácido ascórbico), Vitaminas B1, B2, B6, B12, Extracto acuoso de levadura, Extractos de zanahoria, espinaca, grama, alga marina, hibisco, Frutos de alcaravea (Carum carvi), Concentrados de jugos de fruta (pera, uva, grosella, zarzamora, cereza, naranja, remolacha, limón, manzana), Algarroba, Miel, Extracto de germen de trigo (contiene gluten).",
+    serving: "Adultos: 10 ml dos veces al día. Niños (6-12 años): 10 ml una vez al día.",
+    timing: "30 minutos antes de las comidas (desayuno y comida), en ayunas",
+    intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
+    benefits: [
+      "Hierro gluconato de alta biodisponibilidad y tolerancia gástrica",
+      "Vitamina C para mantener el hierro en estado ferroso absorbible",
+      "Complejo B para la eritropoyesis y el metabolismo energético",
+      "Extracto de alcaravea para prevenir el meteorismo y el estreñimiento",
+      "Base de jugos de fruta para enmascarar el sabor metálico",
+      "Libre de conservadores y colorantes artificiales"
+    ],
+    contraindications: "Contiene germen de trigo (gluten). Contraindicado en enfermedad celíaca o sensibilidad al gluten. Contraindicado en hemocromatosis, hemosiderosis, talasemias o anemias sideroblásticas. Consultar en úlceras y gastritis activa.",
+    foodInteractions: "No especificado",
+    interactions: "El hierro forma complejos insolubles con levotiroxina, bisfosfonatos, levodopa, tetraciclinas y quinolonas. Separar al menos 4 horas. Evitar el consumo simultáneo con café, té, leche o vino tinto (taninos, calcio y fitatos inhiben la absorción)."
+  },
+
+  // 251. COLOSTRUM POWDER
+  {
+    id: 251,
+    code: "",
+    name: "COLOSTRUM POWDER",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COLOSTRUM-HUMBLE.jpg",
+    shortDesc: "Calostro bovino en polvo estandarizado al 20% de IgG (800 mg por porción). Grass-fed, sin aditivos. Para el soporte de la mucosa intestinal y la inmunidad local.",
+    ingredients: "Calostro bovino en polvo (4000 mg por porción), estandarizado al 20% de Inmunoglobulinas G (IgG). Contiene trazas de IgA, IgM, lactoferrina, factores de crecimiento (IGF-1, IGF-2, TGF-β, EGF), polipéptidos ricos en prolina (PRPs) y oligosacáridos.",
+    serving: "4 g (1 scoop, 4 medidas del dosificador) al día",
+    timing: "En ayunas (30 minutos antes del desayuno) o antes de dormir",
+    intakeInstructions: "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
+    benefits: [
+      "800 mg de IgG por porción para neutralizar patógenos",
+      "Factores de crecimiento para la reparación de la mucosa intestinal",
+      "Lactoferrina con acción antimicrobiana",
+      "Oligosacáridos prebióticos para la microbiota",
+      "Polipéptidos ricos en prolina como inmunomoduladores",
+      "Grass-fed y sin aditivos"
+    ],
+    contraindications: "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
+    foodInteractions: "No especificado",
+    interactions: "Precaución con inmunosupresores (Ciclosporina, Tacrolimus)."
+  },
+
+  // 252. BLOOM PRE-WORKOUT
+  {
+    id: 252,
+    code: "",
+    name: "BLOOM PRE-WORKOUT",
+    category: "deportivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/BLOOM-PRE-WORK-LIMONADA.avif",
+    shortDesc: "Suplemento pre-entreno con L-Citrulina, Beta Alanina, Guaraná, L-Tirosina, L-Teanina, MCT, vitaminas B6, B12, C y electrolitos. Sabor Limonada Rosa.",
+    ingredients: "L-Citrulina, Citrulina Malato, Beta Alanina, Remolacha roja en polvo, Extracto de Guaraná (Paullinia cupana), L-Tirosina, L-Teanina, Triglicéridos de Cadena Media (MCT), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Vitamina C (ácido ascórbico), Calcio, Sodio, Pimienta negra en polvo, Ácido cítrico, Saborizante, Dióxido de silicio, Silicato de calcio, Sucralosa, Acesulfame K.",
+    serving: "7 g (1 cucharada dosificadora) al día",
+    timing: "15-30 minutos antes del entrenamiento",
+    intakeInstructions: "Mezclar 7 g (1 cucharada) en 300 ml de agua fría. Agitar vigorosamente en shaker. Consumir 15-30 minutos antes del entrenamiento. No consumir entre 4 y 6 horas antes de dormir.",
+    benefits: [
+      "Vasodilatación y bombeo muscular con L-Citrulina",
+      "Retraso de la fatiga con Beta Alanina",
+      "Enfoque y concentración con Guaraná, L-Tirosina y L-Teanina",
+      "Energía rápida con MCT",
+      "Electrolitos para la hidratación y función neuromuscular",
+      "Sin azúcares añadidos"
+    ],
+    contraindications: "Contraindicado en hipertensión, arritmias, enfermedad coronaria, infarto previo, ansiedad, trastornos de pánico, esquizofrenia, embarazo, lactancia y menores de 15 años.",
+    foodInteractions: "No especificado",
+    interactions: "No combinar con antihipertensivos, vasodilatadores (sildenafil), inhibidores de la MAO, antiarrítmicos u otras fuentes de cafeína. Evitar el alcohol."
+  },
+
+  // 253. MORINGA, ROMERO Y HOJA DE GUAYABA
+  {
+    id: 253,
+    code: "",
+    name: "MORINGA, ROMERO Y HOJA DE GUAYABA",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/MORINGA-ROMERO-HOJAS-DE-GUAYABA.jpg",
+    shortDesc: "Fórmula botánica con Moringa, Romero y Hoja de Guayaba. Para el soporte metabólico, la gestión glucémica y la protección antioxidante.",
+    ingredients: "Hojas de Moringa (Moringa oleifera) en polvo, Hojas de Romero (Salvia rosmarinus) en polvo, Hojas de Guayaba (Psidium guajava L.) en polvo, Cápsula vegetal.",
+    serving: "1 cápsula al día",
+    timing: "15-30 minutos antes o durante la comida más pesada del día (rica en carbohidratos)",
+    intakeInstructions: "Ingerir 1 cápsula con un vaso de agua natural (200 ml). No exceder la dosis recomendada.",
+    benefits: [
+      "Inhibición de la alfa-glucosidasa para una curva glucémica más suave",
+      "Moringa con isotiocianatos y ácido clorogénico",
+      "Romero con ácido carnósico y rosmarínico (activador de Nrf2)",
+      "Hojas de guayaba con taninos y flavonoides",
+      "Apoyo a la digestión y al confort intestinal",
+      "Potente perfil antioxidante"
+    ],
+    contraindications: "Contraindicado en embarazo y lactancia (efectos emenagogos y abortivos). No usar en menores de 12 años. Precaución en hipoglucemia, anemia ferropénica (taninos).",
+    foodInteractions: "No especificado",
+    interactions: "No combinar con hipoglucemiantes orales o insulina (riesgo de hipoglucemia aditiva). Precaución con litio y diuréticos. Separar al menos 3 horas de suplementos de hierro, zinc o calcio."
+  },
+
+  // 254. YUMEL TASAY INKA
+  {
+    id: 254,
+    code: "",
+    name: "YUMEL TASAY INKA",
+    category: "clinico",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/YUMEL-TASAY-INKA-scaled.jpg",
+    shortDesc: "Extracto líquido de corteza de Guatteria gaumeri (Yumel). Para la homeostasis lipídica y el soporte hepato-biliar.",
+    ingredients: "Extracto líquido de corteza de Guatteria gaumeri (Yumel), Vehículo de extracción (base hidroalcohólica o glicerinada).",
+    serving: "20 gotas, 3 veces al día (máximo 60 gotas diarias)",
+    timing: "15-20 minutos antes de los alimentos (desayuno, comida y cena)",
+    intakeInstructions: "Diluir 20 gotas en medio vaso de agua purificada (100-150 ml). No consumir sublingual puro. No exceder la dosis sugerida.",
+    benefits: [
+      "Modulación de la homeostasis lipídica (inhibición parcial de HMG-CoA reductasa)",
+      "Efecto colerético y colagogo (estimula la bilis)",
+      "Apoyo a la digestión de grasas",
+      "Alcaloides aporfínicos con actividad biológica",
+      "Uso tradicional en la herbolaria mexicana",
+      "Formato líquido de rápida absorción"
+    ],
+    contraindications: "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
+    foodInteractions: "No especificado",
+    interactions: "No combinar con estatinas, fibratos, paracetamol crónico, antimicóticos orales o fármacos hepatotóxicos. Evitar el alcohol y el jugo de toronja durante el consumo."
+  },
+
+  // 255. PRO PROPÓLEO Y MENTA
+  {
+    id: 255,
+    code: "",
+    name: "PRO PROPÓLEO Y MENTA",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PRO-PROLEO-Y-MENTA.jpg",
+    shortDesc: "Perlas botánicas con extracto de propóleo y menta. Para el confort orofaríngeo y el soporte local de las mucosas.",
+    ingredients: "Extracto de Propóleo, Extracto de Menta (Mentha sp.), Sacarosa (perlas de azúcar).",
+    serving: "1 porción (3 g, aproximadamente 30 perlas), 1-4 veces al día",
+    timing: "A demanda, ante pérdida de confort faríngeo",
+    intakeInstructions: "Colocar las perlas en la boca y permitir que se disuelvan lentamente con la saliva. No masticar ni tragar enteras.",
+    benefits: [
+      "Propóleo con flavonoides y ésteres fenólicos",
+      "Apoyo a la respuesta inmunológica local",
+      "Menta con mentol para una sensación refrescante",
+      "Efecto descongestivo y alivio de la irritación faríngea",
+      "Disolución lenta para acción tópica prolongada",
+      "Sin grasas ni proteínas"
+    ],
+    contraindications: "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
+    foodInteractions: "No especificado",
+    interactions: "Precaución en dosis altas con anticoagulantes (Warfarina). Evitar el consumo simultáneo con bebidas muy calientes."
+  },
+
+  // 256. PASIFLORINA
+  {
+    id: 256,
+    code: "",
+    name: "PASIFLORINA",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PASIFLORINA.jpg",
+    shortDesc: "Perlas botánicas con extracto de Pasiflora (Passiflora incarnata). Para la relajación, la reducción del estrés y el apoyo al sueño.",
+    ingredients: "Extracto de Pasiflora (Passiflora incarnata), Sacarosa (perlas de azúcar).",
+    serving: "1 porción (3 g, aproximadamente 30 perlas), 1-3 veces al día",
+    timing: "30-45 minutos antes de acostarse (para sueño) o en el momento de mayor exigencia mental (para estrés)",
+    intakeInstructions: "Colocar las perlas bajo la lengua y dejar que se disuelvan con la saliva (vía sublingual). Alternativamente, masticar o tragar con medio vaso de agua.",
+    benefits: [
+      "Modulación alostérica de los receptores GABA-A",
+      "Apoyo a la relajación y reducción del estrés mental",
+      "Facilitación de la conciliación del sueño",
+      "Flavonoides (vitexina, luteolina, apigenina) con actividad ansiolítica",
+      "Efecto antiespasmódico leve",
+      "Fórmula tradicional de rápida absorción"
+    ],
+    contraindications: "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
+    foodInteractions: "No especificado",
+    interactions: "Potencia los efectos de depresores del SNC (sedantes, ansiolíticos, barbitúricos, antidepresivos tricíclicos). Prohibida su combinación con alcohol. Evitar el consumo simultáneo con altas dosis de cafeína."
+  },
+
+  // 257. TIAMINA JARABE GN+VIDA
+  {
+    id: 257,
+    code: "",
+    name: "TIAMINA JARABE GN+VIDA",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
+    shortDesc: "Jarabe con Complejo B (B1, B6, B12, B5), Ácido Glutámico, vitaminas C, D, E y extracto de espinaca y maíz. Para el soporte cognitivo y energético.",
+    ingredients: "Vitamina B1 (tiamina), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Ácido Pantoténico (B5), Ácido Glutámico, Vitamina C, Vitamina E, Vitamina D, Extracto de hoja de espinaca, Extracto de semilla de maíz, Agua bidestilada.",
+    serving: "Adultos: 5 ml (1 cucharadita) 4 veces al día (total 20 ml). Niños (4-12 años): 5 ml 2 veces al día (total 10 ml).",
+    timing: "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
+    intakeInstructions: "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
+    benefits: [
+      "Tiamina (B1) para el metabolismo energético cerebral",
+      "Vitamina B6 para la síntesis de neurotransmisores",
+      "Vitamina B12 para la integridad de la vaina de mielina",
+      "Ácido Glutámico para el equilibrio excitación/relajación",
+      "Vitaminas C, D, E como antioxidantes",
+      "Extracto de espinaca y maíz como vehículo fitoquímico"
+    ],
+    contraindications: "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
+    foodInteractions: "No especificado",
+    interactions: "La Vitamina B6 antagoniza la Levodopa. Los diuréticos de asa aumentan la excreción de B1. Los antiácidos reducen la absorción de B12. No tomar con té negro, café o alcohol."
+  },
+
+  // 258. GEL CORPORAL XIHUITL
+  {
+    id: 258,
+    code: "",
+    name: "GEL CORPORAL XIHUITL",
+    category: "locomotor",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/XIHUITL.jpg",
+    shortDesc: "Gel tópico con salicilato de metilo, mentol, alcanfor, trementina, extractos de árnica, garra del diablo, castaño de indias y centella asiática. Para el alivio de molestias musculares y articulares.",
+    ingredients: "Salicilato de Metilo, Mentol, Alcanfor, Trementina, Aceites esenciales de Eucalipto y Guayacol, Extracto de Árnica (Arnica montana), Extracto de Garra del Diablo (Harpagophytum procumbens), Extracto de Castaño de Indias (Aesculus hippocastanum), Extracto de Centella Asiática, Extracto de Romero, Ajo, Cebolla, Apio, Yodo Orgánico, Clorofila, Éter, Aceite de Almendras, Vaselina, Carbomero, Liquigerm, Emulsificantes, Neutralizadores.",
+    serving: "Aplicación tópica según necesidad, 2-3 veces al día",
+    timing: "Mañana, mediodía y noche (o según necesidad)",
+    intakeInstructions: "Aplicar la cantidad necesaria para cubrir la zona afectada y dar un masaje circular y ascendente durante 20 minutos o hasta su completa absorción. Lavar las manos exhaustivamente con agua y jabón después de cada aplicación. Uso exclusivamente tópico.",
+    benefits: [
+      "Salicilato de metilo con acción analgésica tópica (AINE local)",
+      "Mentol y alcanfor para el efecto de frío/contrairritación",
+      "Trementina y aceites esenciales como rubefacientes",
+      "Árnica y garra del diablo con acción antiinflamatoria",
+      "Castaño de indias y centella asiática como venotónicos",
+      "Éter como potenciador de penetración"
+    ],
+    contraindications: "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina/AINEs, y menores de 12 años.",
+    foodInteractions: "No especificado",
+    interactions: "La aplicación tópica extensa y crónica de salicilato puede potenciar el efecto de anticoagulantes orales (Warfarina)."
+  },
+
+  // 259. FW FACTOR WOMEN
+  {
+    id: 259,
+    code: "",
+    name: "FW FACTOR WOMEN",
+    category: "hormonal",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Factor-Women.png",
+    shortDesc: "Suplemento con 20 ingredientes bioactivos para la fisiología femenina: Isoflavonas de soya, Dong Quai, Black Cohosh, Maca, Guaraná, Ginseng, Rusco, Castaño de Indias, Jalea Real, Polen, vitaminas B12 y E.",
+    ingredients: "Isoflavonas de Soya (Glycine max), Dong Quai (Angelica sinensis), Black Cohosh (Actaea racemosa), Maca (Lepidium meyenii), Damiana de California (Turnera diffusa), Garañona (Castilleja tenuiflora), Butcher's Broom (Ruscus aculeatus), Castaño de Indias (Aesculus hippocastanum L.), Uva Roja (Vitis vinifera), Ginseng (Panax ginseng), Guaraná (Paullinia cupana), Acai (Euterpe oleracea mart), Canela (Cinnamomum zeylanicum), Semilla de Calabaza (Cucurbita pepo L.), Zarzaparrilla (Smilax aspera), Perejil (Petroselinum crispum), Vitamina B12 (cianocobalamina) 3 µg, Vitamina E (DL-Alfa Tocoferol) 5 mg, Jalea Real Liofilizada, Polen en polvo.",
+    serving: "2 cápsulas al día (1400 mg)",
+    timing: "Por la mañana o al mediodía, siempre acompañadas de alimentos (evitar en ayunas)",
+    intakeInstructions: "Ingerir 2 cápsulas con un vaso grande de agua (mínimo 250 ml). No consumir por la noche (puede causar insomnio por Guaraná y Ginseng).",
+    benefits: [
+      "Isoflavonas de soya con acción SERM para el equilibrio hormonal",
+      "Black Cohosh para la mitigación de bochornos",
+      "Dong Quai y Maca para la vitalidad y el confort pélvico",
+      "Rusco y castaño de indias como soporte venotónico",
+      "Guaraná y ginseng para la energía y la adaptación al estrés",
+      "Jalea real y polen para la vitalidad celular"
+    ],
+    contraindications: "Contraindicado en cánceres hormonodependientes (mama, ovario, útero ER+), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
+    foodInteractions: "No especificado",
+    interactions: "No combinar con TRH, anticonceptivos orales, anticoagulantes (Warfarina, Heparina, Aspirina) o fármacos hepatotóxicos. Separar al menos 4 horas de cualquier medicamento."
+  },
+
+  // 260. COMPUESTO VEGETAL DE LYDIA
+  {
+    id: 260,
+    code: "",
+    name: "COMPUESTO VEGETAL DE LYDIA",
+    category: "hormonal",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COMPUESTO-DE-LYDIA.jpg",
+    shortDesc: "Tónico herbolaria con extractos de anís, jengibre y canela. Para el soporte pélvico femenino, el confort digestivo y la reducción de la tensión abdominal.",
+    ingredients: "Fruto de Anís (Pimpinella anisum), Raíz de Jengibre (Zingiber officinale), Corteza de Canela (Cinnamomum ceylanicum), Agua purificada, Benzoato de Sodio (conservador), Ácido Cítrico (estabilizador).",
+    serving: "15 ml (1 cucharada sopera), 1 a 3 veces al día",
+    timing: "15-20 minutos antes de los alimentos, en ayunas",
+    intakeInstructions: "Agitar antes de usar. Medir 15 ml con el vaso o la cuchara dosificadora del producto; no usar una cuchara doméstica. Puede tomarse puro o diluido en 200-250 ml de agua (tibia o ambiente).",
+    benefits: [
+      "Anís con efecto carminativo y antiespasmódico pélvico",
+      "Jengibre con acción antiinflamatoria (inhibición de COX-2)",
+      "Canela con efecto antiespasmódico y modulador glucémico",
+      "Apoyo al confort durante el ciclo menstrual (dismenorrea)",
+      "Reducción de la distensión abdominal y el meteorismo",
+      "Fórmula líquida de absorción rápida"
+    ],
+    contraindications: "Contraindicado en embarazo (efectos emenagogos), lactancia y menores de edad. Precaución en úlcera péptica y trastornos de sangrado.",
+    foodInteractions: "No especificado",
+    interactions: "Puede potenciar el efecto de anticoagulantes (Warfarina, Aspirina) e hipoglucemiantes (Insulina, Metformina)."
+  },
+
+  // 261. ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA
+  {
+    id: 261,
+    code: "",
+    name: "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
+    shortDesc: "Ampolletas líquidas con 22 nutrientes: Ácido Glutámico, L-Glutamina, Complejo B completo, Calcio, Magnesio, Hierro, Zinc, Selenio, L-Arginina, L-Lisina, Omega 3, 6, 9, Lecitina de soya y vitaminas A, C, D, E.",
+    ingredients: "Ácido Glutámico 500 mg, L-Glutamina 100 mg, Lecitina de Soya 500 mg, Vitamina B1 (tiamina) 800 µg, Vitamina B2 (riboflavina) 840 µg, Vitamina B3 (niacina) 11 mg, Vitamina B6 (piridoxina) 930 µg, Ácido Fólico (B9) 380 µg, Vitamina B12 (cobalamina) 2.1 µg, Calcio 300 mg, Magnesio 248 mg, Hierro 17 mg, Zinc 10 mg, Selenio 41 µg, L-Arginina 100 mg, L-Lisina 100 mg, Omega 3, 6, 9 100 mg, Vitamina A 568 µg, Vitamina C 60 mg, Vitamina D 5.6 µg, Vitamina E 11 µg.",
+    serving: "1 ampolleta (10 ml) al día",
+    timing: "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
+    intakeInstructions: "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
+    benefits: [
+      "Ácido Glutámico como neurotransmisor excitatorio",
+      "L-Glutamina para el equilibrio glutamato/GABA",
+      "Lecitina de soya como precursor de acetilcolina",
+      "Complejo B completo para el metabolismo energético y la mielinización",
+      "Magnesio como antagonista NMDA",
+      "Hierro, zinc y selenio para la oxigenación y la neuroprotección"
+    ],
+    contraindications: "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
+    foodInteractions: "No especificado",
+    interactions: "La Vitamina B6 antagoniza la Levodopa. El Calcio, Magnesio y Hierro quelan antibióticos (tetraciclinas, fluoroquinolonas) y levotiroxina. Separar al menos 3-4 horas."
+  },
+
+  // 262. BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS
+  {
+    id: 262,
+    code: "",
+    name: "BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS",
+    category: "nutricional",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Baria-Sure-Fresa-1.1kg.png",
+    shortDesc: "Suplemento en polvo con citrato de calcio (~1500 mg por porción), 15 cepas probióticas, inulina de agave y proteína de suero (WPC). Sabor fresa, sin azúcar añadido.",
+    ingredients: "Citrato de Calcio (~1500 mg por porción), Concentrado de Proteína de Suero de Leche (WPC), 15 Cepas Probióticas (mezcla patentada de Lactobacillus, Bifidobacterium y Bacillus coagulans), Inulina de Agave, Saborizante natural a fresa, Edulcorante (sin azúcar añadido).",
+    serving: "15 g (aproximadamente 2 cucharadas dosificadoras) al día",
+    timing: "Puede tomarse con o sin alimentos. Se sugiere con alimentos ligeros por la mañana o media tarde.",
+    intakeInstructions: "Disolver 15 g en 240-250 ml de agua purificada o leche (animal o vegetal). Mezclar vigorosamente hasta homogeneizar. No mezclar en líquidos calientes.",
+    benefits: [
+      "Citrato de calcio con alta absorción (24% superior al carbonato)",
+      "Absorción independiente del pH gástrico (ideal para hipoclorhidria)",
+      "15 cepas probióticas para la salud intestinal",
+      "Inulina de agave como prebiótico (AGCC, segunda ola de absorción de calcio)",
+      "WPC como sustrato estructural para la matriz ósea",
+      "Efecto alcalinizante urinario (reduce el riesgo de litiasis renal)"
+    ],
+    contraindications: "Contiene WPC (proteína de suero). Contraindicado en alergia a la proteína de la leche de vaca. Contraindicado en hipercalcemia e hiperparatiroidismo.",
+    foodInteractions: "No especificado",
+    interactions: "Separar al menos 4 horas de levotiroxina y bisfosfonatos. Separar 2-3 horas de antibióticos (quinolonas, tetraciclinas). Evitar mezclar con alimentos ricos en fitatos u oxalatos."
+  },
+
+  // 263. PLATA COLOIDAL BLU SILVER
+  {
+    id: 263,
+    code: "",
+    name: "PLATA COLOIDAL BLU SILVER",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PLATA-COLOIDAL.webp",
+    shortDesc: "Suspensión acuosa de plata coloidal a 10 ppm. Para el apoyo inmunológico estacional y la higiene de mucosas, de forma episódica.",
+    ingredients: "Plata elemental (Ag⁰ + Ag⁺) en suspensión coloidal (10 ppm), Agua purificada.",
+    serving: "Adultos: ½ a 1 cucharadita (2.5-5 ml) de 1 a 2 veces al día. Niños: ¼ a ½ cucharadita (1.25-2.5 ml) de 1 a 2 veces al día.",
+    timing: "En ayunas (30 min antes o 2 h después de alimentos)",
+    intakeInstructions: "Mantener bajo la lengua 30-60 segundos antes de tragar (vía sublingual). No usar utensilios metálicos; emplear plástico, vidrio o cerámica.",
+    benefits: [
+      "Efecto oligodinámico: los iones de plata interrumpen la respiración celular microbiana",
+      "Apoyo a la respuesta inmunológica frente a desafíos estacionales",
+      "Higiene de mucosas (gárgaras, enjuagues bucales)",
+      "Suspensión de alta pureza (10 ppm)",
+      "Uso episódico y ciclado para evitar acumulación",
+      "No contiene estabilizantes ni solventes químicos"
+    ],
+    contraindications: "No consumir de forma continua o vitalicia (riesgo de argiria). Contraindicado en embarazo, lactancia, insuficiencia renal o hepática, e hipersensibilidad a la plata.",
+    foodInteractions: "No especificado",
+    interactions: "Reduce la absorción de antibióticos (quinolonas, tetraciclinas), levotiroxina y penicilamina. Separar al menos 4 horas de cualquier medicamento."
+  },
+
+  // 264. Ácido Pantoténico (B-5)
+  {
+    id: 264,
+    code: "",
+    name: "ÁCIDO PANTOTÉNICO (B-5)",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-PANTOTENICO.webp",
+    shortDesc: "Vitamina B-5 en alta concentración (500 mg por cápsula). Precursor de Coenzima A para el metabolismo energético, la síntesis lipídica y la función suprarrenal.",
+    ingredients: "Ácido Pantoténico (como Pantotenato de Calcio) 500 mg, Calcio 45 mg, Hipromelosa (cápsula vegetal), Ácido Esteárico (vegetal).",
+    serving: "1 cápsula al día",
+    timing: "Preferentemente por la mañana o al mediodía, junto con una comida o justo después de comer",
+    intakeInstructions: "Ingerir la cápsula con un vaso completo de agua natural. No exceder la dosis recomendada sin supervisión profesional.",
+    benefits: [
+      "Precursor directo de Coenzima A (CoA)",
+      "Esencial para la beta-oxidación de ácidos grasos",
+      "Participa en el ciclo de Krebs y la producción de ATP",
+      "Sustrato para la síntesis de cortisol y DHEA",
+      "Apoyo a la función suprarrenal y la respuesta al estrés",
+      "Estudios clínicos en el manejo de la piel propensa al acné"
+    ],
+    contraindications: "Las megaporciones (500 mg) no han sido validadas para la seguridad fetal. Requiere consulta médica en embarazo y lactancia. Precaución en hemofilia e insuficiencia renal crónica.",
+    foodInteractions: "No especificado",
+    interactions: "El calcio puede interferir con la absorción de tetraciclinas. El B5 compite por el transportador SMVT con la Biotina (B7) y el Ácido Alfa-Lipoico. El uso prolongado de megaporciones puede inducir deficiencia subclínica de biotina."
+  },
+
+  // 265. Zeolita
+  {
+    id: 265,
+    code: "",
+    name: "ZEOLITA",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZEOLITA.avif",
+    shortDesc: "Suplemento de clinoptilolita (zeolita) en cápsulas. Mineral microporoso con capacidad de adsorción e intercambio catiónico para el soporte gastrointestinal.",
+    ingredients: "Zeolita (Clinoptilolita) 320 mg, Cápsula vegetal.",
+    serving: "1 cápsula al día",
+    timing: "Con el estómago vacío, preferentemente 30-60 minutos antes del desayuno o justo antes de dormir",
+    intakeInstructions: "Ingerir la cápsula entera con un vaso grande de agua (mínimo 250-300 ml). No exceder la dosis recomendada sin supervisión profesional.",
+    benefits: [
+      "Adsorción de metales pesados (plomo, cadmio, mercurio)",
+      "Intercambio catiónico (captura de amoníaco y cationes tóxicos)",
+      "Apoyo a la integridad de la barrera intestinal",
+      "Reducción de la carga tóxica sistémica",
+      "Actúa tópicamente en el tracto gastrointestinal (no se absorbe)",
+      "Perfil de seguridad clínica favorable"
+    ],
+    contraindications: "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
+    foodInteractions: "No especificado",
+    interactions: "Puede adsorber fármacos como litio, antibióticos (tetraciclinas), cisplatino y medicamentos de liberación prolongada. Tomar con al menos 2 horas de diferencia. Anula la absorción de minerales (Hierro, Zinc, Calcio, Magnesio) y multivitamínicos."
+  },
+
+  // 266. TLANCHALAGUA PROSA
+  {
+    id: 266,
+    code: "",
+    name: "TLANCHALAGUA PROSA",
+    category: "digestivo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/TLANCHALAGUA-scaled.webp",
+    shortDesc: "Suplemento en cápsulas con una mezcla de cinco plantas medicinales mexicanas: Tlanchalagua, Cocolmeca, Tejocote, Lima y Té Limón. Para el bienestar digestivo y la depuración fisiológica.",
+    ingredients: "Tlanchalagua (Erythraea stricta, L.), Cocolmeca (Smilax cardifolia, L.), Tejocote (Crataegus mexicana, L.), Lima (Citrus Limetta, L.), Té Limón (Cymbopogon nardus, L.).",
+    serving: "2 cápsulas tres veces al día, antes de los alimentos",
+    timing: "Antes de los alimentos principales (desayuno, comida y cena)",
+    intakeInstructions: "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
+    benefits: [
+      "Tlanchalagua como tónico amargo digestivo",
+      "Cocolmeca con propiedades depurativas",
+      "Tejocote para el apoyo cardiovascular y antioxidante",
+      "Lima y té limón con aceites esenciales y flavonoides",
+      "Fórmula tradicional mexicana sin excipientes",
+      "100% natural"
+    ],
+    contraindications: "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
+    foodInteractions: "No especificado",
+    interactions: "No especificado"
+  },
+
+  // 267. Premium Panax Ginseng
+  {
+    id: 267,
+    code: "",
+    name: "PREMIUM PANAX GINSENG",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PANAX-GINSENG.avif",
+    shortDesc: "Extracto líquido de Ginseng Rojo (Panax ginseng) con 8 años de maduración. Adaptógeno para la energía, la vitalidad y la resistencia al estrés.",
+    ingredients: "Raíz de Panax ginseng (Ginseng Rojo) 2400 mg por ampolla, Miel (0.51 g de carbohidratos), Agua purificada.",
+    serving: "1 ampolla (10 ml) al día",
+    timing: "Preferentemente por la mañana, en ayunas o con el desayuno",
+    intakeInstructions: "Agitar vigorosamente antes de abrir. Consumir directamente del vial o diluir en 100 ml de agua natural a temperatura ambiente. No exceder la dosis recomendada.",
+    benefits: [
+      "Adaptógeno que modula el eje HPA (Hipotálamo-Hipófisis-Adrenal)",
+      "Regulación de la secreción de cortisol",
+      "Estimulación de la síntesis de ATP mitocondrial",
+      "Mejora de la microcirculación cerebral",
+      "Refuerzo de la actividad de macrófagos y células NK",
+      "Ginsenósidos secundarios (Rg3, Rh2) de mayor bioactividad"
+    ],
+    contraindications: "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
+    foodInteractions: "No especificado",
+    interactions: "Precaución con hipoglucemiantes (riesgo de hipoglucemia), anticoagulantes (riesgo de sangrado), inhibidores de la MAO y antidepresivos. Evitar el consumo conjunto con bebidas con alta cafeína."
+  },
+
+  // 268. Aceite Rosa Mosqueta
+  {
+    id: 268,
+    code: "",
+    name: "ACEITE DE ROSA MOSQUETA",
+    category: "piel",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACEITE-DE-ROSA-MOSQUETA.webp",
+    shortDesc: "Aceite vegetal puro obtenido por prensado en frío de las semillas de Rosa moschata. Rico en ácidos grasos esenciales (Omega-6 y Omega-3) y vitamina E. Para la regeneración cutánea y el cuidado de la piel.",
+    ingredients: "Aceite de Rosa Mosqueta (Rosa moschata) 100% puro, obtenido por prensado en frío. Contiene ácido linoleico (40-50%), ácido linolénico (30-35%), ácido oleico (15-20%), trazas de ácido trans-retinoico, tocoferoles (Vitamina E) y fitoesteroles.",
+    serving: "Aplicación tópica según necesidad, 1-3 veces al día",
+    timing: "Preferentemente en la rutina nocturna. Si se usa de día, acompañar con protector solar.",
+    intakeInstructions: "Aplicar 2-4 gotas sobre la zona deseada y masajear suavemente con movimientos circulares hasta la absorción total. Uso exclusivamente tópico. No ingerir.",
+    benefits: [
+      "Ácido linoleico para la síntesis de ceramidas y la barrera cutánea",
+      "Ácido linolénico para la modulación inflamatoria",
+      "Trazas de ácido trans-retinoico para la estimulación del colágeno",
+      "Vitamina E para la protección antioxidante",
+      "Regeneración de cicatrices, estrías y arrugas",
+      "Hidratación profunda y reducción de la pérdida de agua transepidérmica"
+    ],
+    contraindications: "Contraindicado en acné activo severo, rosácea pustulosa o pieles altamente seborreicas. No aplicar sobre heridas abiertas, quemaduras de tercer grado o tejido sin epitelizar.",
+    foodInteractions: "No especificado",
+    interactions: "Precaución al usar junto con retinoides tópicos recetados o peelings químicos fuertes. No mezclar directamente con peróxido de benzoilo tópico."
+  },
+
+// 269. JUGO DE NONI
+{
+    id: 269,
+    code: "",
+    name: "JUGO DE NONI",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/JUGO-NONI-scaled.jpg",
+    shortDesc: "Suspensión botánica acuosa de Noni (Morinda citrifolia) con extracto seco concentrado. Rico en iridoides, escopoletina y polisacáridos. Apoyo antioxidante e inmunológico.",
+    ingredients: "Jugo de Noni (Morinda citrifolia), Extracto Seco de Fruto de Noni, Agua Desmineralizada, Goma Xantana, Ácido Cítrico, Sabor y Colorante Artificial Uva, Sorbato de Potasio, Benzoato de Sodio, Stevia (Stevia rebaudiana).",
+    serving: "30 ml (2 cucharadas soperas), 1 a 2 veces al día",
+    timing: "Preferentemente en ayunas, 30 minutos antes del desayuno",
+    intakeInstructions: "Agitar vigorosamente antes de servir. Puede consumirse puro o diluido en 150 ml de agua o jugo bajo en azúcar. No exceder la dosis recomendada. Una vez abierto, mantener refrigerado.",
+    benefits: [
+        "Alta concentración de iridoides con potente actividad antioxidante",
+        "Escopoletina que apoya la microcirculación y la función endotelial",
+        "Polisacáridos que modulan la respuesta inmunológica innata",
+        "Protección celular frente al estrés oxidativo",
+        "Apoyo al bienestar general y a la vitalidad",
+        "Fórmula de espectro completo con jugo natural y extracto concentrado"
+    ],
+    contraindications: "Contraindicado en insuficiencia renal crónica (alto contenido de potasio), hepatopatías (riesgo de toxicidad hepática idiosincrática), embarazo y lactancia. Personas con hipertensión o bajo tratamiento con diuréticos ahorradores de potasio deben consultar a un profesional de la salud.",
+    foodInteractions: "No especificado",
+    interactions: "Puede interactuar con fármacos ahorradores de potasio (espironolactona, losartán, captopril) y anticoagulantes (warfarina). No combinar con bebidas lácteas en la misma toma (quelación de polifenoles). Separar 2 horas de suplementos minerales (hierro, calcio)."
+},
+
+// 270. CÚRCUMA & JENGIBRE
+{
+    id: 270,
+    code: "",
+    name: "CÚRCUMA & JENGIBRE",
+    category: "metabolismo",
+    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma-1.jpg",
+    shortDesc: "Combinación de polvo de raíz de cúrcuma y jengibre en cápsulas. Apoyo a la modulación inflamatoria, confort digestivo y protección antioxidante. 90 cápsulas de 500 mg.",
+    ingredients: "Polvo de raíz de Cúrcuma (Curcuma longa), Polvo de raíz de Jengibre (Zingiber officinale), excipientes (cápsula vegetal o gelatinosa).",
+    serving: "3 cápsulas al día (1 antes de cada alimento principal)",
+    timing: "Con alimentos que contengan grasas saludables",
+    intakeInstructions: "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
+    benefits: [
+        "Apoya la modulación de la respuesta inflamatoria",
+        "Contribuye al confort digestivo y a la motilidad gástrica",
+        "Protege las células del estrés oxidativo",
+        "Apoyo osteoarticular en casos de sobrecarga",
+        "Estimula la microcirculación periférica",
+        "Sinergia entre cúrcuma y jengibre para un efecto integral"
+    ],
+    contraindications: "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
+    foodInteractions: "No especificado",
+    interactions: "Puede interactuar con anticoagulantes y antiagregantes plaquetarios. Precaución con medicamentos metabolizados por el hígado."
 },
 ];

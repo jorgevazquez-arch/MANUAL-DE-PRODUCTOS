@@ -1,4 +1,42 @@
         const { productos, padecimientos } = window.manualData;
+        let activeManualTab = 'productos';
+        let matchingSearchProductIds = new Set();
+        const manualTabSections = {
+            productos: ['productsCatalog'],
+            guias: ['padecimientosGuideWeb'],
+            recursos: ['introWeb', 'guiaLenguajeWeb', 'arteDeVenderWeb', 'guiaRapidaWeb', 'faqWeb', 'anexo']
+        };
+
+        function updateManualView() {
+            const searching = searchInput.value.trim() !== '';
+            Object.entries(manualTabSections).forEach(([tab, ids]) => {
+                const visible = searching ? tab !== 'recursos' : tab === activeManualTab;
+                ids.forEach(id => document.getElementById(id)?.classList.toggle('manual-view-hidden', !visible));
+            });
+            document.getElementById('filterContainer').classList.toggle('manual-view-hidden', searching || activeManualTab !== 'productos');
+            document.getElementById('padColorLegend')?.classList.toggle('manual-view-hidden', searching || activeManualTab !== 'guias');
+            document.querySelectorAll('#padColorLegend .pad-color-btn').forEach(button => {
+                button.setAttribute('aria-pressed', String(button.classList.contains('active')));
+            });
+            document.querySelectorAll('[data-nav-target]').forEach(button => {
+                const selected = !searching && button.dataset.navTarget === activeManualTab;
+                button.classList.toggle('active', selected);
+                button.setAttribute('aria-selected', String(selected));
+            });
+            if (searching || activeManualTab === 'productos') productsCatalog.open = true;
+            const guideCatalog = document.getElementById('padecimientosCatalog');
+            if (guideCatalog && (searching || activeManualTab === 'guias')) guideCatalog.open = true;
+            const guideCount = [...document.querySelectorAll('.padecimiento-card')].filter(card => card.style.display !== 'none').length;
+            document.getElementById('globalSearchStatus').textContent = searching
+                ? `${matchingSearchProductIds.size} productos · ${guideCount} guías relacionadas`
+                : '';
+        }
+
+        function selectManualTab(tab) {
+            activeManualTab = tab;
+            if (searchInput.value.trim()) clearSearchBtn.click();
+            updateManualView();
+        }
 
         // ============================================================
         //  COMPARADOR DE PRODUCTOS
@@ -92,20 +130,27 @@
             filterLinks.forEach(link => {
                 const filter = link.dataset.filter;
                 if (categoryIcons[filter]) {
-                    const productCount = filter === 'all'
-                        ? productos.length
-                        : productos.filter(product => product.category === filter).length;
                     link.innerHTML = `
-                        <span class="sidebar-guide-group-name">
-                            <span class="w-6 text-center" aria-hidden="true">${categoryIcons[filter].emoji}</span>
-                            <span>${categoryIcons[filter].name}</span>
-                        </span>
-                        <span class="sidebar-guide-count" aria-label="${productCount} productos">${productCount}</span>`;
+                        <span class="flex items-center gap-2.5 min-w-0">
+                            <span class="w-5 text-center text-sm flex-shrink-0" aria-hidden="true">${categoryIcons[filter].emoji}</span>
+                            <span class="truncate">${categoryIcons[filter].name}</span>
+                        </span>`;
                 }
             });
 
             const guideList = document.getElementById('sidebarGuideList');
             if (guideList) {
+                const dotColorMap = {
+                    purple: 'bg-purple-500',
+                    green: 'bg-emerald-500',
+                    orange: 'bg-orange-500',
+                    pink: 'bg-pink-500',
+                    red: 'bg-rose-500',
+                    blue: 'bg-blue-500',
+                    yellow: 'bg-amber-400',
+                    gray: 'bg-slate-400'
+                };
+
                 guideList.innerHTML = guideColorGroups
                     .map(group => {
                         const groupGuides = padecimientos
@@ -113,17 +158,24 @@
                             .sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }));
                         if (!groupGuides.length) return '';
 
+                        const dotClass = dotColorMap[group.key] || 'bg-emerald-500';
+
                         return `
                             <details class="sidebar-guide-group" data-guide-color="${group.key}">
-                                <summary>
-                                    <span class="sidebar-guide-group-name"><span aria-hidden="true">${group.emoji}</span><span>${group.name}</span></span>
-                                    <span class="sidebar-guide-count">${groupGuides.length}</span>
+                                <summary class="sidebar-guide-summary">
+                                    <span class="sidebar-guide-group-name">
+                                        <span class="sidebar-guide-dot ${dotClass}" aria-hidden="true"></span>
+                                        <span class="truncate">${group.name}</span>
+                                    </span>
+                                    <svg class="sidebar-apple-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd"/>
+                                    </svg>
                                 </summary>
                                 <div class="sidebar-guide-group-list">
                                     ${groupGuides.map(pad => `
-                                        <a href="#padecimiento-${escapeGuideAttribute(pad.id)}" data-sidebar-guide="${escapeGuideAttribute(pad.id)}">
-                                            <span aria-hidden="true">${pad.emoji || '🎯'}</span>
-                                            <span>${pad.name}</span>
+                                        <a href="#padecimiento-${escapeGuideAttribute(pad.id)}" data-sidebar-guide="${escapeGuideAttribute(pad.id)}" class="sidebar-guide-item">
+                                            <span class="text-xs flex-shrink-0" aria-hidden="true">${pad.emoji || '🎯'}</span>
+                                            <span class="truncate">${pad.name}</span>
                                         </a>`).join('')}
                                 </div>
                             </details>`;
@@ -135,6 +187,10 @@
                     if (!link) return;
                     event.preventDefault();
 
+                    // Marcar guía activa visualmente
+                    guideList.querySelectorAll('a').forEach(a => a.classList.remove('is-active-guide'));
+                    link.classList.add('is-active-guide');
+
                     searchInput.value = '';
                     clearSearchBtn.classList.add('hidden');
                     document.querySelectorAll('#padColorLegend .pad-color-btn').forEach(button => {
@@ -144,6 +200,11 @@
                     if (allGuidesButton) allGuidesButton.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
                     filterPadecimientos();
                     scrollToPadecimiento(link.dataset.sidebarGuide);
+
+                    // En móvil, cerrar el sidebar para mostrar el resultado
+                    if (!desktopSidebarQuery.matches && document.body.classList.contains('sidebar-mobile-open')) {
+                        closeMobileSidebar();
+                    }
                 });
             }
         }
@@ -160,7 +221,7 @@
                 const description = categoryDescriptions[categoryKey];
                 
                 displayContainer.innerHTML = `
-                    <div class="bg-white border border-gray-200 rounded-3xl p-6 shadow-sm transition-all duration-300">
+                    <div class="bg-white rounded-3xl p-6 shadow-sm transition-all duration-300">
                         <h2 class="text-2xl font-bold text-gray-900 flex items-center gap-3 mb-3">${categoryInfo.emoji} ${categoryInfo.name}</h2>
                         <p class="text-sm text-gray-600 leading-relaxed">${description}</p>
                     </div>
@@ -400,22 +461,31 @@
         }
 
         function scrollToPadecimiento(padecimientoId) {
+            selectManualTab('guias');
             const guide = document.getElementById('padecimientosCatalog');
             if (guide) guide.open = true;
 
             const element = document.getElementById(`padecimiento-${padecimientoId}`);
             if (element) {
-                // Si es un <details> (acordeón), lo abrimos para que se vea el contenido
+                // Abrir el grupo de clasificación padre si existe
+                const classificationGroup = element.closest('.pad-classification-group');
+                if (classificationGroup) classificationGroup.open = true;
+
+                // Abrir si es acordeón
                 if (element.tagName === 'DETAILS') {
                     element.open = true;
                 }
-                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                // Efecto de resaltado sutil
-                element.style.transition = 'background-color 0.5s ease-in-out';
-                element.style.backgroundColor = '#fffbeb'; // Un amarillo muy claro (amber-50)
+
+                // Smooth scroll con offset para que no quede pegado al top
+                const yOffset = -(document.getElementById('mainCentralHeader')?.offsetHeight || 0) - 20;
+                const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+
+                // Animación de resaltado suave (glow pulse)
+                element.classList.add('scroll-highlight');
                 setTimeout(() => {
-                    element.style.backgroundColor = '';
-                }, 2000);
+                    element.classList.remove('scroll-highlight');
+                }, 2200);
             }
         }
 
@@ -504,27 +574,48 @@
                         <strong class="block mb-1">Importante: son opciones, no seis productos para tomar juntos.</strong>
                         Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto y evita duplicar ingredientes o mecanismos.
                     </div>
-                    <div id="padColorLegend" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-xs text-center font-semibold">
-                        <button type="button" data-color-filter="all" class="pad-color-btn active p-2 rounded-lg bg-gray-800 border border-gray-900 text-white transition-all">🎯 Todos</button>
-                        <button type="button" data-color-filter="purple" class="pad-color-btn p-2 rounded-lg bg-purple-600 border border-purple-700 text-white hover:bg-purple-700 transition-all">🟣 Sistema Nervioso y Hormonal</button>
-                        <button type="button" data-color-filter="green" class="pad-color-btn p-2 rounded-lg bg-girasol-green-600 border border-girasol-green-700 text-white hover:bg-girasol-green-700 transition-all">🟢 Sistema Digestivo y Hepático</button>
-                        <button type="button" data-color-filter="orange" class="pad-color-btn p-2 rounded-lg bg-orange-500 border border-orange-600 text-white hover:bg-orange-600 transition-all">🟠 Metabolismo y Glucosa</button>
-                        <button type="button" data-color-filter="pink" class="pad-color-btn p-2 rounded-lg bg-pink-500 border border-pink-600 text-white hover:bg-pink-600 transition-all">🩷 Salud Masculina y Femenina</button>
-                        <button type="button" data-color-filter="red" class="pad-color-btn p-2 rounded-lg bg-red-600 border border-red-700 text-white hover:bg-red-700 transition-all">🔴 Salud Cardiovascular y Clínica</button>
-                        <button type="button" data-color-filter="blue" class="pad-color-btn p-2 rounded-lg bg-blue-600 border border-blue-700 text-white hover:bg-blue-700 transition-all">🔵 Sistema Inmune y Respiratorio</button>
-                        <button type="button" data-color-filter="yellow" class="pad-color-btn p-2 rounded-lg bg-girasol-yellow-500 border-girasol-yellow-600 text-girasol-yellow-900 hover:bg-girasol-yellow-600 transition-all">🟡 Sistema Locomotor y Deportivo</button>
-                        <button type="button" data-color-filter="gray" class="pad-color-btn p-2 rounded-lg bg-gray-500 border border-gray-600 text-white hover:bg-gray-600 transition-all">⚪️ Condiciones Complejas</button>
-                    </div>
                     <p id="padColorEmptyMsg" class="hidden text-center text-gray-500 italic mb-6">No hay padecimientos registrados para este color.</p>
                     <div class="space-y-4">
             `;
-            
-            padecimientos.forEach(pad => {
+
+            // Agrupar padecimientos por clasificación (color)
+            guideColorGroups.forEach(group => {
+                const groupPads = padecimientos.filter(pad => pad.color === group.key);
+                if (groupPads.length === 0) return;
+
+                // Colores de fondo/borde por grupo
+                const groupColors = {
+                    purple: { bg: 'bg-purple-50', border: 'border-purple-300', text: 'text-purple-800', hoverBg: 'hover:bg-purple-100/60' },
+                    green: { bg: 'bg-emerald-50', border: 'border-emerald-300', text: 'text-emerald-800', hoverBg: 'hover:bg-emerald-100/60' },
+                    orange: { bg: 'bg-orange-50', border: 'border-orange-300', text: 'text-orange-800', hoverBg: 'hover:bg-orange-100/60' },
+                    pink: { bg: 'bg-pink-50', border: 'border-pink-300', text: 'text-pink-800', hoverBg: 'hover:bg-pink-100/60' },
+                    red: { bg: 'bg-red-50', border: 'border-red-300', text: 'text-red-800', hoverBg: 'hover:bg-red-100/60' },
+                    blue: { bg: 'bg-blue-50', border: 'border-blue-300', text: 'text-blue-800', hoverBg: 'hover:bg-blue-100/60' },
+                    yellow: { bg: 'bg-yellow-50', border: 'border-yellow-300', text: 'text-yellow-800', hoverBg: 'hover:bg-yellow-100/60' },
+                    gray: { bg: 'bg-gray-50', border: 'border-gray-300', text: 'text-gray-800', hoverBg: 'hover:bg-gray-100/60' }
+                };
+                const gc = groupColors[group.key] || groupColors.gray;
+
+                html += `
+                    <details class="pad-classification-group rounded-2xl ${gc.bg} overflow-hidden transition-all duration-300 open:shadow-md shadow-sm" data-classification="${group.key}">
+                        <summary class="p-5 md:p-6 cursor-pointer list-none flex items-center justify-between ${gc.hoverBg} transition-colors">
+                            <span class="flex items-center gap-3">
+                                <span class="text-2xl" aria-hidden="true">${group.emoji}</span>
+                                <span>
+                                    <span class="block text-lg md:text-xl font-black ${gc.text}">${group.name}</span>
+                                    <span class="block text-xs text-gray-500 font-medium mt-0.5">${groupPads.length} padecimiento${groupPads.length !== 1 ? 's' : ''}</span>
+                                </span>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180" style="transition: transform 0.3s;" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </summary>
+                        <div class="p-3 md:p-5 space-y-4">
+                `;
+
+                groupPads.forEach(pad => {
                 const colorClass = `border-${pad.color}-500`;
-                const bgColor = `bg-${pad.color}-50`;
-                const textColor = `text-${pad.color}-700`;
-                const guideGroup = guideColorGroups.find(group => group.key === pad.color)
-                    || { emoji: '🎯', name: 'Guía por padecimiento' };
+                const guideGroup = group;
                 const titleLengthClass = pad.name.length > 52
                     ? ' padecimiento-title-very-long'
                     : (pad.name.length > 32 ? ' padecimiento-title-long' : '');
@@ -537,11 +628,10 @@
                         </button>` : '';
                 }).join('');
                 
-                // Crear un string con todos los términos de búsqueda relevantes para este padecimiento
                 const searchTerms = `${pad.name} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
 
                 html += `
-                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card padecimiento-editorial bg-white rounded-2xl shadow-sm border-l-8 ${colorClass} transition-all duration-300 open:shadow-lg scroll-mt-24">
+                    <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card padecimiento-editorial bg-white rounded-2xl shadow-sm transition-all duration-300 open:shadow-lg scroll-mt-24">
                         <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
                             <span class="padecimiento-editorial-kicker"><span aria-hidden="true">${guideGroup.emoji}</span> ${guideGroup.name}</span>
                             <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
@@ -570,66 +660,92 @@
                                      <ul class="padecimiento-symptoms-list list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
                                          ${pad.symptoms.map((s, index) => `<li><span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${s}</li>`).join('')}
                                      </ul>
-                                    </div>
-                                     <div class="padecimiento-questions mt-4 rounded-xl border border-sky-200 bg-sky-50 p-3">
-                                         <span class="padecimiento-questions-kicker">Guía para conversar</span>
-                                         <h5 class="mb-2 flex items-center gap-2 text-sm font-bold text-sky-900"><span aria-hidden="true">💬</span> Preguntas para el asesor</h5>
-                                         <ul class="space-y-2 text-sm text-sky-950">
-                                             ${getAdvisorQuestions(pad).map((question, index) => `<li class="flex items-start gap-2"><span class="mt-0.5 font-black text-sky-600" aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><span>${question}</span></li>`).join('')}
-                                         </ul>
-                                         <p class="padecimiento-questions-note mt-3 border-t border-sky-200 pt-2 text-xs font-medium text-sky-800">Escucha y registra las respuestas para orientar la recomendación.</p>
-                                     </div>
-                                </div>
-                                <div class="padecimiento-protocol ${bgColor} p-4 rounded-lg">
-                                    <span class="padecimiento-editorial-eyebrow">Selección por objetivo</span>
-                                    <h4 class="padecimiento-protocol-title font-bold ${textColor} mb-2">${pad.protocolTitle || 'Protocolo Sugerido:'}</h4>
-                                    <div class="space-y-4">
-                                        <div class="padecimiento-product-group padecimiento-product-group-main">
-                                            <strong class="padecimiento-product-group-title text-sm font-semibold text-gray-800">Paquete Principal:</strong>
-                                            <ul class="padecimiento-product-list text-sm text-gray-700 space-y-2 mt-2">
-                                                ${pad.comboPrincipal.map(item => {
-                                                    const p = productos.find(prod => prod.id === item.id);
-                                                    return p ? `
-                                                        <li class="padecimiento-product flex flex-col">
-                                                            <div class="padecimiento-product-card flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-image flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-name hover:underline font-bold text-girasol-green-700">${p.name}</a>
-                                                                ${renderGuideRationaleIcon(item, p)}
-                                                             </div>
-                                                             <span class="padecimiento-product-serving text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                             <span class="padecimiento-product-usage text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
-                                                         </li>` : '';
-                                                }).join('')}
-                                            </ul>
-                                        </div>
-                                        ${pad.comboSecundario.length > 0 ? `
-                                        <div class="padecimiento-product-group padecimiento-product-group-support">
-                                            <strong class="padecimiento-product-group-title text-sm font-semibold text-gray-800">Apoyo Adicional (Cross-sell):</strong>
-                                            <ul class="padecimiento-product-list text-sm text-gray-700 space-y-2 mt-2">
-                                                ${pad.comboSecundario.map(item => {
-                                                    const p = productos.find(prod => prod.id === item.id);
-                                                    return p ? `
-                                                        <li class="padecimiento-product flex flex-col">
-                                                            <div class="padecimiento-product-card flex items-center gap-3 rounded-xl bg-white/80 p-2 border border-white shadow-sm">
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-image flex-shrink-0" aria-label="Abrir ficha de ${escapeGuideAttribute(p.name)}">${renderGuideProductImage(p)}</a>
-                                                                <a href="#" onclick="openModal(${p.id}); return false;" class="padecimiento-product-name hover:underline font-bold text-girasol-green-700">${p.name}</a>
-                                                                ${renderGuideRationaleIcon(item, p)}
-                                                             </div>
-                                                             <span class="padecimiento-product-serving text-xs text-gray-500 pl-1">Porción: ${getGuideServing(item, p)}</span>
-                                                             <span class="padecimiento-product-usage text-xs font-medium text-blue-700 pl-1">Modo de uso: ${getGuideUsage(item, p)}</span>
-                                                         </li>` : '';
-                                                }).join('')}
-                                            </ul>
-                                        </div>` : ''}
+                                    </div>`;
+
+                // Preguntas del asesor
+                const advisorQuestions = getAdvisorQuestions(pad);
+                html += `
+                                    <div class="padecimiento-advisor-questions">
+                                        <span class="padecimiento-editorial-eyebrow">Para investigar</span>
+                                        <h4 class="padecimiento-advisor-questions-title">Preguntas del Asesor</h4>
+                                        <ol class="padecimiento-advisor-questions-list">
+                                            ${advisorQuestions.map(q => `<li>${q}</li>`).join('')}
+                                        </ol>
+                                    </div>`;
+                html += `
+                                </div>`;
+
+                // Combo Principal
+                html += `
+                                <div class="padecimiento-combos">
+                                    <div class="padecimiento-combo-principal">
+                                        <span class="padecimiento-editorial-eyebrow">Lo esencial</span>
+                                        <h4>Combo Principal</h4>
+                                        <ul class="padecimiento-editorial-product-list">`;
+                pad.comboPrincipal.forEach(item => {
+                    const product = productos.find(p => p.id === item.id);
+                    if (!product) return;
+                    const serving = getGuideServing(item, product);
+                    const usage = getGuideUsage(item, product);
+                    html += `
+                                            <li>
+                                                <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
+                                                    <span class="padecimiento-editorial-product-left">
+                                                        ${renderGuideProductImage(product)}
+                                                        <span class="padecimiento-editorial-product-info">
+                                                            <span class="padecimiento-editorial-product-name">${product.name}</span>
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
+                                                            ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}
+                                                        </span>
+                                                    </span>
+                                                    ${renderGuideRationaleIcon(item, product)}
+                                                </button>
+                                            </li>`;
+                });
+                html += `
+                                        </ul>
+                                    </div>`;
+
+                // Combo Secundario
+                html += `
+                                    <div class="padecimiento-combo-secundario">
+                                        <span class="padecimiento-editorial-eyebrow">Potenciadores</span>
+                                        <h4>Apoyos Secundarios</h4>
+                                        <ul class="padecimiento-editorial-product-list secondary">`;
+                pad.comboSecundario.forEach(item => {
+                    const product = productos.find(p => p.id === item.id);
+                    if (!product) return;
+                    const serving = getGuideServing(item, product);
+                    const usage = getGuideUsage(item, product);
+                    html += `
+                                            <li>
+                                                <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
+                                                    <span class="padecimiento-editorial-product-left">
+                                                        ${renderGuideProductImage(product)}
+                                                        <span class="padecimiento-editorial-product-info">
+                                                            <span class="padecimiento-editorial-product-name">${product.name}</span>
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
+                                                            ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}
+                                                        </span>
+                                                    </span>
+                                                    ${renderGuideRationaleIcon(item, product)}
+                                                </button>
+                                            </li>`;
+                });
+                html += `
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="padecimiento-tips mt-4 bg-gray-50 p-3 rounded-lg border border-gray-200">
-                                 <h4 class="font-bold text-gray-700 mb-2 text-sm flex items-center gap-2">💡 Consejos Clave:</h4>
-                                 <ul class="padecimiento-tips-list list-disc list-inside text-xs text-gray-600 space-y-1">
-                                    ${pad.lifestyleTips.map(tip => `<li>${tip}</li>`).join('')}
-                                 </ul>
-                            </div>
+                        </div>
+                    </details>
+                `;
+                });
+
+                // Cerrar el grupo de clasificación
+                html += `
                         </div>
                     </details>
                 `;
@@ -654,7 +770,10 @@
         function filterPadecimientos() {
             const searchTerm = normalizeGuideSearch(document.getElementById('searchInput').value);
             const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
-            const activeColor = activeColorButton ? activeColorButton.dataset.colorFilter : 'all';
+            const activeColor = searchTerm ? 'all' : (activeColorButton ? activeColorButton.dataset.colorFilter : 'all');
+            const relatedGuideIds = new Set(searchTerm ? padecimientos.filter(pad =>
+                [...pad.comboPrincipal, ...pad.comboSecundario].some(product => matchingSearchProductIds.has(product.id))
+            ).map(pad => `padecimiento-${pad.id}`) : []);
 
             // Limpiar resaltados anteriores
             const allDescriptions = document.querySelectorAll('.padecimiento-description');
@@ -669,7 +788,7 @@
                 const itemSearchTerms = normalizeGuideSearch(item.dataset.searchTerms);
                 const itemColor = item.dataset.color;
 
-                const matchesSearch = searchTerm === '' || itemSearchTerms.includes(searchTerm);
+                const matchesSearch = searchTerm === '' || itemSearchTerms.includes(searchTerm) || relatedGuideIds.has(item.id);
                 const matchesColor = activeColor === 'all' || itemColor === activeColor;
 
                 if (matchesSearch && matchesColor) {
@@ -697,6 +816,23 @@
             if (searchTerm === '') {
                 items.forEach(item => item.removeAttribute('open'));
             }
+
+            // Actualizar visibilidad de grupos de clasificación
+            document.querySelectorAll('.pad-classification-group').forEach(group => {
+                const childPads = group.querySelectorAll('details[data-color]');
+                const hasVisible = Array.from(childPads).some(p => p.style.display !== 'none');
+                group.style.display = hasVisible ? '' : 'none';
+                // Si hay búsqueda activa, abrir los grupos con coincidencias
+                if (searchTerm !== '' && hasVisible) {
+                    group.open = true;
+                } else if (searchTerm === '') {
+                    group.removeAttribute('open');
+                }
+                // Si hay filtro de color activo, abrir ese grupo
+                if (activeColor !== 'all' && group.dataset.classification === activeColor) {
+                    group.open = true;
+                }
+            });
 
             const emptyMsg = document.getElementById('padColorEmptyMsg');
             if (emptyMsg) emptyMsg.classList.toggle('hidden', visibleCount > 0);
@@ -744,6 +880,8 @@
                     // Estado visual del botón activo
                     buttons.forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
                     btn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    buttons.forEach(button => button.setAttribute('aria-pressed', String(button === btn)));
+                    document.getElementById('padecimientosCatalog').open = true;
 
                     filterPadecimientos(); // Llama a la función de filtrado combinada
                 });
@@ -760,7 +898,7 @@
             return `
                 <a href="#" onclick="openModal(${p.id}); return false;" class="flex items-center gap-3 bg-white p-2 rounded-lg shadow-sm hover:shadow-md hover:bg-gray-50 transition-all border border-gray-200">
                     <div class="w-10 h-10 flex-shrink-0 bg-gray-100 rounded-md flex items-center justify-center p-1">
-                        <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" onerror="this.src='https://placehold.co/100x100/e2e8f0/475569?text=IMG'">
+                        <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" onerror="this.onerror=null; this.src='https://placehold.co/100x100/e2e8f0/475569?text=IMG'">
                     </div>
                     <div>
                         <p class="font-bold text-natura-800 text-sm leading-tight">${p.name}</p>
@@ -933,6 +1071,7 @@
         }
 
         function updateSidebarControls() {
+            if (!sidebarToggle) return;
             const isDesktop = desktopSidebarQuery.matches;
             const isOpen = isDesktop
                 ? !document.body.classList.contains('sidebar-collapsed')
@@ -958,38 +1097,41 @@
             updateSidebarControls();
         }
 
-        if (readSidebarPreference()) document.body.classList.add('sidebar-collapsed');
-        sidebarPrimarySections.forEach(section => {
-            section.addEventListener('toggle', () => {
-                if (!section.open) return;
-                sidebarPrimarySections.forEach(otherSection => {
-                    if (otherSection !== section) otherSection.open = false;
+        if (manualSidebar && sidebarToggle && sidebarBackdrop) {
+            if (readSidebarPreference()) document.body.classList.add('sidebar-collapsed');
+            sidebarPrimarySections.forEach(section => {
+                section.addEventListener('toggle', () => {
+                    if (!section.open) return;
+                    sidebarPrimarySections.forEach(otherSection => {
+                        if (otherSection !== section) otherSection.open = false;
+                    });
                 });
             });
-        });
-        sidebarToggle.addEventListener('click', toggleSidebar);
-        sidebarBackdrop.addEventListener('click', closeMobileSidebar);
-        manualSidebar.addEventListener('click', event => {
-            if (!desktopSidebarQuery.matches && event.target.closest('a')) closeMobileSidebar();
-        });
-        desktopSidebarQuery.addEventListener('change', () => {
-            document.body.classList.remove('sidebar-mobile-open');
+            sidebarToggle.addEventListener('click', toggleSidebar);
+            sidebarBackdrop.addEventListener('click', closeMobileSidebar);
+            manualSidebar.addEventListener('click', event => {
+                if (!desktopSidebarQuery.matches && event.target.closest('a')) closeMobileSidebar();
+            });
+            desktopSidebarQuery.addEventListener('change', () => {
+                document.body.classList.remove('sidebar-mobile-open');
+                updateSidebarControls();
+            });
+            document.addEventListener('keydown', event => {
+                if (event.key === 'Escape' && document.body.classList.contains('sidebar-mobile-open')) {
+                    closeMobileSidebar();
+                    sidebarToggle.focus();
+                }
+            });
             updateSidebarControls();
-        });
-        document.addEventListener('keydown', event => {
-            if (event.key === 'Escape' && document.body.classList.contains('sidebar-mobile-open')) {
-                closeMobileSidebar();
-                sidebarToggle.focus();
-            }
-        });
-        updateSidebarControls();
+        }
 
         function setProductsPanelOpen(isOpen) {
             productsCatalog.open = isOpen;
         }
 
         function renderProducts(filter = 'all', search = '') {
-            const searchTerm = search.toLowerCase().trim();
+            const searchTerm = normalizeGuideSearch(search);
+            if (searchTerm) filter = 'all';
             
             let results = [];
 
@@ -1001,21 +1143,21 @@
                 results = productos
                     .map(p => {
                         let matchField = null;
-                        if (p.code && String(p.code).toLowerCase().includes(searchTerm)) {
+                        if (p.code && normalizeGuideSearch(p.code).includes(searchTerm)) {
                             matchField = 'Código de Barras';
-                        } else if (p.name.toLowerCase().includes(searchTerm)) {
+                        } else if (normalizeGuideSearch(p.name).includes(searchTerm)) {
                             matchField = 'Nombre';
-                        } else if (p.shortDesc && p.shortDesc.toLowerCase().includes(searchTerm)) {
+                        } else if (p.shortDesc && normalizeGuideSearch(p.shortDesc).includes(searchTerm)) {
                             matchField = 'Descripción';
-                        } else if (p.ingredients && p.ingredients.toLowerCase().includes(searchTerm)) {
+                        } else if (p.ingredients && normalizeGuideSearch(p.ingredients).includes(searchTerm)) {
                             matchField = 'Ingredientes';
-                        } else if (p.benefits && p.benefits.some(b => b.toLowerCase().includes(searchTerm))) {
+                        } else if (p.benefits && p.benefits.some(b => normalizeGuideSearch(b).includes(searchTerm))) {
                             matchField = 'Beneficios';
-                        } else if (p.contraindications && p.contraindications.toLowerCase().includes(searchTerm)) {
+                        } else if (p.contraindications && normalizeGuideSearch(p.contraindications).includes(searchTerm)) {
                             matchField = 'Contraindicaciones';
-                        } else if (p.interactions && p.interactions.toLowerCase().includes(searchTerm)) {
+                        } else if (p.interactions && normalizeGuideSearch(p.interactions).includes(searchTerm)) {
                             matchField = 'Interacciones';
-                        } else if (p.foodInteractions && p.foodInteractions.toLowerCase().includes(searchTerm)) {
+                        } else if (p.foodInteractions && normalizeGuideSearch(p.foodInteractions).includes(searchTerm)) {
                             matchField = 'Interacciones con Alimentos';
                         }
 
@@ -1030,6 +1172,7 @@
                     .filter(p => p !== null);
             }
 
+            matchingSearchProductIds = new Set(searchTerm ? results.map(product => product.id) : []);
             // Ordenar alfabéticamente los resultados
             results.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -1061,7 +1204,7 @@
                     <div class="product-card reveal bg-white overflow-hidden flex flex-col h-full p-4" data-product-card data-product-id="${p.id}" role="button" tabindex="0" aria-label="Abrir ficha técnica de ${escapeGuideAttribute(p.name)}" style="--cat-a:${catA}; --cat-b:${catB}; animation-delay:${delay}s;">
                         <div class="flex items-center gap-4 mb-4">
                             <div class="w-24 h-24 flex-shrink-0 bg-gray-50 rounded-xl flex items-center justify-center p-2">
-                                <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" loading="lazy" onerror="this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
+                                <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
                             </div>
                             <div class="flex-1">
                         <h4 class="text-lg font-black text-girasol-green-900 leading-tight">${p.name}</h4>
@@ -1101,29 +1244,51 @@
             }
         });
 
+        function setActiveCategory(filter, options = {}) {
+            const { scroll = false, syncProducts = true } = options;
+
+            // Actualizar enlaces en el sidebar
+            document.querySelectorAll('.filter-link').forEach(link => {
+                const isActive = link.dataset.filter === filter;
+                link.classList.toggle('active', isActive);
+            });
+
+            // Actualizar botones en el hero
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                const isActive = btn.dataset.filter === filter;
+                btn.classList.toggle('active', isActive);
+                btn.classList.toggle('bg-white/30', isActive);
+                btn.classList.toggle('bg-white/10', !isActive);
+            });
+
+            if (syncProducts) {
+                setProductsPanelOpen(true);
+                renderProducts(filter, searchInput.value);
+                filterPadecimientos();
+                updateCategoryDescription(filter);
+            }
+
+            if (scroll) {
+                const target = document.getElementById('activeCategoryDescription') || document.getElementById('productsCatalog');
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+
+            // En móvil, cerrar el menú lateral tras seleccionar
+            if (!desktopSidebarQuery.matches && document.body.classList.contains('sidebar-mobile-open')) {
+                closeMobileSidebar();
+            }
+        }
+
         document.querySelectorAll('.filter-link').forEach(link => {
             link.addEventListener('click', function(e) {
                 e.preventDefault();
-                const filter = this.dataset.filter;
-                // Actualizar botones para que se vea activo
-                document.querySelectorAll('.filter-btn').forEach(b => {
-                    b.classList.remove('active', 'bg-white/30');
-                    b.classList.add('bg-white/10');
-                    if (b.dataset.filter === filter) {
-                        b.classList.add('active', 'bg-white/30');
-                        b.classList.remove('bg-white/10');
-                    }
-                });
-                setProductsPanelOpen(true);
-                renderProducts(filter, searchInput.value);
-                updateCategoryDescription(filter);
-                // Scroll al inicio de la grilla
-                document.getElementById('activeCategoryDescription').scrollIntoView({ behavior: 'smooth' });
+                setActiveCategory(this.dataset.filter, { scroll: true });
             });
         });
 
         // Buscador (texto, padecimiento, síntoma o código de barras)
-        let guideSearchNavigationTimer = null;
         searchInput.addEventListener('input', function() {
             const rawValue = this.value;
             const searchTerm = rawValue.toLowerCase().trim();
@@ -1137,18 +1302,14 @@
                 clearSearchBtn.classList.add('hidden');
                 renderProducts(activeFilter, '');
                 filterPadecimientos();
+                updateManualView();
                 return;
             }
 
             renderProducts(activeFilter, searchTerm);
             filterPadecimientos();
 
-            clearTimeout(guideSearchNavigationTimer);
-            if (searchTerm !== '') {
-                guideSearchNavigationTimer = setTimeout(() => {
-                    goToMatchingPadecimiento(searchTerm);
-                }, 450);
-            }
+            updateManualView();
         });
 
         // Respaldo: si el escáner envía "Enter" al terminar de leer el código.
@@ -1160,8 +1321,12 @@
                     clearSearchBtn.classList.add('hidden');
                     renderProducts(document.querySelector('.filter-btn.active')?.dataset.filter || 'all', '');
                     filterPadecimientos();
-                } else if (goToMatchingPadecimiento(this.value, true)) {
+                    updateManualView();
+                } else if (this.value.trim()) {
                     e.preventDefault();
+                    const headerHeight = document.getElementById('mainCentralHeader')?.offsetHeight || 0;
+                    const target = matchingSearchProductIds.size ? productsCatalog : document.getElementById('padecimientosGuideWeb');
+                    window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - headerHeight - 20, behavior: 'smooth' });
                 }
             }
         });
@@ -1193,6 +1358,8 @@
             updateCategoryDescription('all');
             renderProducts('all', '');
             filterPadecimientos();
+
+            updateManualView();
         });
 
         function renderPdfSections() {
@@ -1220,7 +1387,7 @@
                             <!-- CABECERA: Imagen y Título -->
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="w-28 h-28 flex-shrink-0 bg-gray-50 rounded-xl flex items-center justify-center p-2">
-                                    <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" onerror="this.src='https.placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
+                                    <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
                                 </div>
                                 <div class="flex-1">
                                     <h4 class="text-xl font-black text-girasol-green-900 leading-tight">${p.name}</h4>
@@ -1536,6 +1703,15 @@
             compareCount.textContent = count === 0 ? '0 seleccionados' : `${count} de ${MAX_COMPARE} seleccionados`;
             compareBar.classList.toggle('hidden', count === 0);
 
+            // Sincronizar badge del menú lateral
+            const sidebarCompareBadge = document.getElementById('sidebarCompareBadge');
+            const sidebarCompareCount = document.getElementById('sidebarCompareCount');
+            if (sidebarCompareBadge && sidebarCompareCount) {
+                sidebarCompareCount.textContent = count;
+                sidebarCompareBadge.classList.toggle('hidden', count === 0);
+                sidebarCompareBadge.classList.toggle('flex', count > 0);
+            }
+
             if (count > 0 && wasHidden) {
                 compareBar.classList.remove('pop-in');
                 void compareBar.offsetWidth;
@@ -1719,24 +1895,35 @@
         // Filtros por botones
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => {
-                    b.classList.remove('active');
-                    b.classList.add('bg-white/10');
-                });
-                this.classList.add('active');
-                this.classList.remove('bg-white/10');
-                const filter = this.dataset.filter;
-                setProductsPanelOpen(true);
-                renderProducts(filter, searchInput.value);
-                filterPadecimientos();
-                updateCategoryDescription(filter);
+                setActiveCategory(this.dataset.filter, { scroll: false });
             });
         });
 
         document.querySelector('[data-action="print"]')?.addEventListener('click', () => window.print());
 
+        function initSidebarInteractiveFeatures() {
+            const buttons = [...document.querySelectorAll('[data-nav-target]')];
+            buttons.forEach((button, index) => {
+                button.addEventListener('click', () => {
+                    selectManualTab(button.dataset.navTarget);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+                button.addEventListener('keydown', event => {
+                    const movement = { ArrowRight: 1, ArrowLeft: -1 }[event.key];
+                    if (!movement && event.key !== 'Home' && event.key !== 'End') return;
+                    event.preventDefault();
+                    const next = event.key === 'Home' ? 0 : event.key === 'End' ? buttons.length - 1
+                        : (index + movement + buttons.length) % buttons.length;
+                    buttons[next].focus();
+                    buttons[next].click();
+                });
+            });
+            updateManualView();
+        }
+
         // Inicializar
         populateSideMenuFilters();
+        setActiveCategory('all', { syncProducts: false });
         renderProducts('all', '');
         updateCategoryDescription('all');
         renderPadecimientosWeb();
@@ -1751,6 +1938,7 @@
         renderGlosario();
         renderAnexosPdf();
         updateCompareBar();
+        initSidebarInteractiveFeatures();
 
         // Exponer modal al global
         window.openModal = openModal;

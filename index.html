@@ -11,85 +11,32 @@
 </head>
 <body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
 
-    <button id="sidebarToggle" type="button" aria-controls="manualSidebar" aria-expanded="true"
-        class="sidebar-toggle no-print" title="Ocultar menú">
-        <span id="sidebarToggleIcon" class="sidebar-toggle-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path class="sidebar-toggle-arrow" stroke-linecap="round" stroke-linejoin="round" d="m15 6-6 6 6 6"></path>
-            </svg>
-        </span>
-        <span class="sidebar-toggle-label" aria-hidden="true">MENÚ</span>
-        <span class="sr-only">Mostrar u ocultar menú lateral</span>
-    </button>
-    <button id="sidebarBackdrop" type="button" class="sidebar-backdrop no-print" aria-label="Cerrar menú lateral" tabindex="-1"></button>
-
-    <!-- Botón Flotante para Imprimir (igual que el original) -->
-    <div class="fixed bottom-6 right-6 z-50 no-print hidden">
-        <button data-action="print" class="bg-girasol-green-700 hover:bg-girasol-green-800 text-white font-bold py-3 px-6 rounded-full shadow-xl flex items-center gap-2 transition-transform hover:scale-105">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
-            </svg>
-            Exportar a PDF
-        </button>
-    </div>
-
-    <div id="manualLayout" class="max-w-[1400px] mx-auto flex print-container">
-        
-        <!-- Menú Lateral (idéntico al original) -->
-        <aside id="manualSidebar" class="w-64 hidden lg:block py-8 pr-6 no-print sticky top-0 h-screen overflow-y-auto border-r border-gray-200">
-            <div class="mb-8">
-                <img src="https://investigacioncbg.com/wp-content/uploads/2026/09/LOGO-GIRASOL-139-x-62-px.png" alt="Logo El Girasol" class="h-16 w-auto mb-3">
-                <p class="text-xs text-girasol-green-700 font-bold uppercase tracking-wider">Catálogo Asesores</p>
+    <!-- Header Central de Navegación Estilo Apple (Centrado) -->
+    <header id="mainCentralHeader" class="no-print sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 py-3.5 mb-6 transition-all duration-300">
+        <div class="max-w-[1200px] mx-auto px-4 flex flex-col items-center justify-center gap-3.5 text-center">
+            <!-- Logo El Girasol (Más grande y centrado) -->
+            <div class="flex items-center justify-center">
+                <img src="https://investigacioncbg.com/wp-content/uploads/2026/09/LOGO-GIRASOL-139-x-62-px.png" alt="Logo El Girasol" class="h-16 md:h-20 w-auto object-contain drop-shadow-sm">
             </div>
-            <nav class="space-y-7 text-sm font-medium text-gray-600">
-                <details id="sidebarProductsSection" name="sidebar-primary-navigation" class="sidebar-nav-section" open>
-                    <summary id="sidebarProductsTitle" class="sidebar-section-title">
-                        <span class="flex items-center gap-2"><span aria-hidden="true">🛍️</span><span>Productos</span></span>
-                        <svg class="sidebar-section-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-                    </summary>
-                    <div class="sidebar-section-content space-y-1">
-                        <a href="#" data-filter="all" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="digestivo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="laxantes" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="inmune" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="nervioso" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="metabolismo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="hormonal" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="piel" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="locomotor" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="clinico" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="deportivo" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                        <a href="#" data-filter="nutricional" class="filter-link flex items-center gap-3 py-1.5 hover:text-girasol-green-700 transition-colors"></a>
-                    </div>
-                </details>
 
-                <details id="sidebarGuidesSection" name="sidebar-primary-navigation" class="sidebar-nav-section border-t border-gray-200 pt-5">
-                    <summary id="sidebarGuidesTitle" class="sidebar-section-title">
-                        <span class="flex items-center gap-2"><span aria-hidden="true">🎯</span><span>Guía por padecimiento</span></span>
-                        <svg class="sidebar-section-chevron" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-                    </summary>
-                    <div class="sidebar-section-content">
-                        <a href="#padecimientosGuideWeb" class="sidebar-guide-overview">Ver todas las guías</a>
-                        <div id="sidebarGuideList" class="sidebar-guide-list mt-2 space-y-0.5"></div>
-                    </div>
-                </details>
-
-                <section class="border-t border-gray-200 pt-5">
-                    <h2 class="sidebar-section-title sidebar-section-title-static">Recursos</h2>
-                    <div class="mt-2 space-y-1">
-                        <a href="#introWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">⭐ Introducción al Manual</a>
-                        <a href="#guiaLenguajeWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">📜 Guía de Lenguaje</a>
-                        <a href="#arteDeVenderWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">💡 El Arte de Vender</a>
-                        <a href="#guiaRapidaWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">🚀 Venta Rápida (Combos)</a>
-                        <a href="#faqWeb" class="block py-1 hover:text-girasol-green-700 transition-colors">❓ Preguntas Frecuentes</a>
-                        <a href="#anexo" class="block py-1 hover:text-girasol-green-700 transition-colors">📚 Anexo y Glosario</a>
-                    </div>
-                </section>
+            <!-- 3 Botones Principales de Navegación (Centrados) -->
+            <nav class="flex flex-wrap items-center justify-center gap-2 p-1.5 bg-gray-100/90 rounded-2xl shadow-inner" role="tablist" aria-label="Navegación principal">
+                <button type="button" data-nav-target="productos" class="main-nav-btn active px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all duration-200 cursor-pointer" role="tab" aria-selected="true">
+                    📦 Productos
+                </button>
+                <button type="button" data-nav-target="guias" class="main-nav-btn px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all duration-200 cursor-pointer" role="tab" aria-selected="false">
+                    📋 Guías por Padecimiento
+                </button>
+                <button type="button" data-nav-target="recursos" class="main-nav-btn px-5 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all duration-200 cursor-pointer" role="tab" aria-selected="false">
+                    📚 Recursos
+                </button>
             </nav>
-        </aside>
+        </div>
+    </header>
 
+    <div id="manualLayout" class="max-w-[1200px] mx-auto px-4 py-6 print-container">
         <!-- Contenido Principal -->
-        <main id="manualMain" class="w-full lg:w-[calc(100%-16rem)] lg:pl-10 py-8 print-container">
+        <main id="manualMain" class="w-full py-4 print-container">
 
             <!-- PORTADA PARA PDF (igual) -->
             <div class="cover-page hidden print:flex text-center bg-girasol-green-50/50 rounded-3xl border border-girasol-green-100 p-10">
@@ -365,21 +312,19 @@
             <!-- HEADER PARA WEB (igual) -->
             <div class="no-print bg-gradient-to-br from-girasol-green-900 via-girasol-green-800 to-girasol-green-700 rounded-3xl p-8 md:p-12 text-white shadow-xl mb-12 relative overflow-hidden">
                 <div class="absolute -top-10 -right-10 w-64 h-64 bg-girasol-500 rounded-full mix-blend-multiply filter blur-3xl opacity-40"></div>
-                <div class="inline-block bg-white/20 backdrop-blur-sm text-xs font-bold px-3 py-1 rounded-full mb-4 border border-white/30 uppercase tracking-widest">
-                    El Girasol • Base de Datos
-                </div>
                 <h1 class="text-4xl md:text-5xl font-black mb-4 relative z-10 leading-tight">Catálogo de Alta Especialidad</h1>
                 <p class="text-lg text-girasol-green-100 max-w-3xl relative z-10 font-light">Todas las fichas técnicas consolidadas. Identifica la función principal, ingredientes clave y sinergias (cross-selling) para ofrecer un servicio impecable a tus clientes.</p>
                 <!-- Añado buscador dentro del header -->
-                <div class="relative z-10 mt-6 max-w-xl">
-                    <input id="searchInput" type="text" placeholder="🔍 Buscar producto, padecimiento, síntoma..." class="w-full px-5 py-3 pl-5 pr-12 rounded-full border-0 shadow-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-girasol-500 outline-none">
+                <div class="relative z-10 mt-6 max-w-xl mx-auto">
+                    <input id="searchInput" type="text" aria-label="Buscar productos y guías relacionadas" placeholder="🔍 Buscar producto, padecimiento, síntoma..." class="w-full px-5 py-3 pl-5 pr-12 rounded-full border-0 shadow-lg text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-girasol-500 outline-none">
                     <button id="clearSearchBtn" class="absolute inset-y-0 right-0 flex items-center pr-4 text-gray-400 hover:text-gray-600 transition-colors hidden" title="Limpiar búsqueda">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" />
                         </svg>
                     </button>
                 </div>
-                <p class="relative z-10 mt-2 text-xs text-girasol-green-100/80 max-w-xl">📷 También puedes escanear el código de barras del producto en este mismo buscador.</p>
+                <p class="relative z-10 mt-2 text-xs text-girasol-green-100/80 max-w-xl mx-auto text-center">📷 También puedes escanear el código de barras del producto en este mismo buscador.</p>
+                <p id="globalSearchStatus" class="relative z-10 mt-3 text-sm text-center" role="status" aria-live="polite"></p>
                 <!-- Filtros rápidos (botones) -->
                 <div class="relative z-10 mt-4 flex flex-wrap gap-2" id="filterContainer">
                     <button data-filter="all" class="filter-btn active px-4 py-1.5 text-xs font-bold rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white hover:bg-white/30 transition">Todos</button>
@@ -394,6 +339,17 @@
                     <button data-filter="clinico" class="filter-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">❤️ Clínico</button>
                     <button data-filter="deportivo" class="filter-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">💪 Deportivo</button>
                     <button data-filter="nutricional" class="filter-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🍎 Nutricional</button>
+                </div>
+                <div id="padColorLegend" class="relative z-10 mt-4 flex flex-wrap gap-2 manual-view-hidden" role="group" aria-label="Clasificaciones de guías por padecimiento">
+                    <button type="button" data-color-filter="all" aria-pressed="true" class="pad-color-btn active px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🎯 Todos</button>
+                    <button type="button" data-color-filter="purple" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🟣 Sistema Nervioso y Hormonal</button>
+                    <button type="button" data-color-filter="green" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🟢 Sistema Digestivo y Hepático</button>
+                    <button type="button" data-color-filter="orange" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🟠 Metabolismo y Glucosa</button>
+                    <button type="button" data-color-filter="pink" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🩷 Salud Masculina y Femenina</button>
+                    <button type="button" data-color-filter="red" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🔴 Salud Cardiovascular y Clínica</button>
+                    <button type="button" data-color-filter="blue" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🔵 Sistema Inmune y Respiratorio</button>
+                    <button type="button" data-color-filter="yellow" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">🟡 Sistema Locomotor y Deportivo</button>
+                    <button type="button" data-color-filter="gray" aria-pressed="false" class="pad-color-btn px-4 py-1.5 text-xs font-bold rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white hover:bg-white/30 transition">⚪️ Condiciones Complejas</button>
                 </div>
             </div>
 
@@ -459,9 +415,9 @@
                 <!-- El contenido se inyectará aquí con JavaScript -->
             </section>
 
-            <!-- ANEXO FUNCIONAL (igual que el original, lo dejo estático) -->
+            <!-- ANEXO FUNCIONAL -->
             <section id="anexo" class="mt-20 scroll-mt-24 no-print">
-                <details class="group bg-white rounded-2xl shadow-sm border border-gray-200 transition-all duration-300 open:shadow-lg open:border-girasol-green-300 scroll-mt-24">
+                <details id="anexoDetails" open class="group bg-white rounded-2xl shadow-sm border border-gray-200 transition-all duration-300 open:shadow-lg open:border-girasol-green-300 scroll-mt-24">
                     <summary class="p-6 md:p-8 cursor-pointer list-none flex justify-between items-center hover:bg-gray-50 rounded-t-2xl">
                         <h2 class="text-2xl md:text-3xl font-black text-girasol-green-900 flex items-center gap-3">
                             <span>📚</span> Anexo y Glosario

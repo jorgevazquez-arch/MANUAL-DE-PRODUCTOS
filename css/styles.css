@@ -1,181 +1,403 @@
         body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
 
+        /* ============================================================
+           SIDEBAR & NAVEGACIÓN MODERNA, DINÁMICA E INTERACTIVA
+           ============================================================ */
+
+        /* Botón Flotante para Alternar Menú (Cápsula Minimalista Apple) */
         .sidebar-toggle {
             position: fixed;
             top: 50%;
-            left: calc((100vw - min(1400px, 100vw)) / 2 + 16rem - 1px);
+            left: calc((100vw - min(1400px, 100vw)) / 2 + 16.5rem - 1px);
             z-index: 60;
             display: inline-flex;
-            width: 1.8rem;
-            height: 6.4rem;
+            width: 1.35rem;
+            height: 3.4rem;
             flex-direction: column;
-            gap: 0.45rem;
             align-items: center;
             justify-content: center;
-            border: 1px solid #d1fae5;
-            border-left: 0;
-            border-radius: 0 0.75rem 0.75rem 0;
-            background: rgb(255 255 255 / 0.96);
-            color: #166534;
-            box-shadow: 6px 4px 14px rgb(15 23 42 / 0.1);
-            backdrop-filter: blur(10px);
+            border: none;
+            border-radius: 0 9999px 9999px 0;
+            background: rgba(255, 255, 255, 0.88);
+            color: #64748b;
+            box-shadow: 2px 4px 14px rgba(0, 0, 0, 0.07);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             transform: translateY(-50%);
-            transition: left 260ms ease, transform 180ms ease, background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+            cursor: pointer;
+            transition: left 240ms cubic-bezier(0.16, 1, 0.3, 1),
+                        transform 160ms ease,
+                        background-color 160ms ease,
+                        color 160ms ease,
+                        box-shadow 160ms ease;
         }
         .sidebar-toggle:hover {
-            border-color: rgb(21 128 61 / 0.35);
-            background: #f0fdf4;
-            box-shadow: 0 8px 20px rgb(15 23 42 / 0.13);
+            background: #ffffff;
+            color: #166534;
             transform: translate(2px, -50%);
+            box-shadow: 3px 6px 16px rgba(0, 0, 0, 0.08);
         }
-        .sidebar-toggle:focus-visible { outline: 3px solid #fde047; outline-offset: 2px; }
-        .sidebar-toggle-icon { display: inline-flex; width: 1rem; height: 1rem; }
-        .sidebar-toggle-icon svg { width: 100%; height: 100%; }
+        .sidebar-toggle:focus-visible {
+            outline: 2px solid #16a34a;
+            outline-offset: 2px;
+        }
+        .sidebar-toggle-icon {
+            display: inline-flex;
+            width: 0.85rem;
+            height: 0.85rem;
+            align-items: center;
+            justify-content: center;
+        }
+        .sidebar-toggle-icon svg {
+            width: 100%;
+            height: 100%;
+            stroke-width: 2.2;
+        }
         .sidebar-toggle-label {
-            font-size: 0.55rem;
-            font-weight: 800;
-            letter-spacing: 0.14em;
-            line-height: 1;
-            writing-mode: vertical-rl;
+            display: none;
         }
         .sidebar-toggle-arrow {
             transform-box: fill-box;
             transform-origin: center;
-            transition: transform 220ms ease;
+            transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
         }
-        .sidebar-toggle:not(.is-open) .sidebar-toggle-arrow { transform: rotate(180deg); }
-        .sidebar-section-title {
+        .sidebar-toggle:not(.is-open) .sidebar-toggle-arrow {
+            transform: rotate(180deg);
+        }
+
+        /* Contenedor del Sidebar estilo Apple */
+        #manualSidebar {
+            background: rgba(255, 255, 255, 0.96);
+            border-right: none;
+            box-shadow: 2px 0 16px -4px rgba(0, 0, 0, 0.03);
+            scrollbar-width: thin;
+            scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
+        }
+        #manualSidebar::-webkit-scrollbar,
+        .sidebar-nav-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+        #manualSidebar::-webkit-scrollbar-track,
+        .sidebar-nav-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        #manualSidebar::-webkit-scrollbar-thumb,
+        .sidebar-nav-scroll::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.12);
+            border-radius: 9999px;
+            transition: background-color 150ms ease;
+        }
+        #manualSidebar::-webkit-scrollbar-thumb:hover,
+        .sidebar-nav-scroll::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 0, 0, 0.25);
+        }
+
+        /* Header de Marca Minimalista (Sin recuadros, sin fecha, sin badges) */
+        .sidebar-brand-minimal {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.25rem 0.35rem 0.85rem;
+            border-bottom: none;
+        }
+
+        /* Buscador Flotante Estilo Spotlight de Apple */
+        .sidebar-spotlight-pill {
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-radius: 9999px;
+            background: rgba(0, 0, 0, 0.04);
+            border: none;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+            transition: all 200ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .sidebar-spotlight-pill:focus-within {
+            background: #ffffff;
+            border: none;
+            box-shadow: 0 3px 14px -2px rgba(0, 0, 0, 0.08), 0 0 0 2px rgba(22, 163, 74, 0.15);
+        }
+        .sidebar-spotlight-input {
+            width: 100%;
+            padding: 0.42rem 2rem 0.42rem 2.1rem;
+            border-radius: 9999px;
+            border: 0;
+            background: transparent;
+            font-size: 0.76rem;
+            color: #1e293b;
+            outline: none;
+        }
+        .sidebar-spotlight-input::placeholder {
+            color: #94a3b8;
+            font-size: 0.74rem;
+        }
+        .sidebar-kbd-hint {
+            position: absolute;
+            right: 0.55rem;
+            font-size: 0.6rem;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-weight: 500;
+            padding: 0.1rem 0.35rem;
+            border-radius: 0.35rem;
+            background: rgba(0, 0, 0, 0.04);
+            color: #94a3b8;
+            border: none;
+            line-height: 1.2;
+            transition: opacity 150ms ease;
+        }
+        .sidebar-spotlight-pill:focus-within .sidebar-kbd-hint,
+        .sidebar-spotlight-pill.has-value .sidebar-kbd-hint {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .sidebar-spotlight-clear {
+            position: absolute;
+            inset-block: 0;
+            right: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #94a3b8;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            padding: 0 0.2rem;
+            transition: color 150ms ease;
+        }
+        .sidebar-spotlight-clear:hover {
+            color: #1e293b;
+        }
+
+        /* Control Segmentado Estilo macOS / iOS */
+        .sidebar-segmented-bar {
+            display: flex;
+            align-items: center;
+            padding: 2px;
+            border-radius: 0.75rem;
+            background: rgba(0, 0, 0, 0.04);
+            border: none;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+        }
+        .sidebar-segment-btn {
+            border: 0;
+            cursor: pointer;
+            border-radius: 0.6rem;
+            color: #64748b;
+            font-size: 0.72rem;
+            font-weight: 500;
+            padding: 0.35rem 0.5rem;
+            transition: all 180ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .sidebar-segment-btn:hover:not(.active) {
+            color: #0f172a;
+        }
+        .sidebar-segment-btn.active {
+            background: #ffffff;
+            color: #0f172a;
+            font-weight: 600;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 1px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Encabezados de Sección Apple (Sin recuadros, tipografía sutil uppercase) */
+        .sidebar-apple-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 0.75rem;
-            margin-bottom: 0.6rem;
-            padding: 0.45rem 0.35rem;
-            border-radius: 0.55rem;
-            color: #14532d;
-            font-family: 'Poppins', sans-serif;
-            font-size: 0.72rem;
-            font-weight: 800;
-            letter-spacing: 0.12em;
+            padding: 0.4rem 0.45rem 0.25rem;
+            color: #94a3b8;
+            font-size: 0.67rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
             cursor: pointer;
             user-select: none;
-            transition: background-color 150ms ease, color 150ms ease;
+            list-style: none;
+            transition: color 150ms ease;
         }
-        .sidebar-section-title:hover { background: #f0fdf4; color: #166534; }
-        .sidebar-section-title-static { cursor: default; }
-        .sidebar-section-title-static:hover { background: transparent; color: #14532d; }
-        .sidebar-nav-section > summary { list-style: none; }
-        .sidebar-nav-section > summary::-webkit-details-marker { display: none; }
-        .sidebar-section-chevron {
-            width: 1rem;
-            height: 1rem;
-            flex: 0 0 1rem;
-            color: #86a88e;
-            transition: transform 200ms ease;
+        .sidebar-apple-header:hover {
+            color: #475569;
         }
-        .sidebar-nav-section[open] .sidebar-section-chevron { transform: rotate(180deg); }
-        .sidebar-section-content { animation: sidebarSectionReveal 180ms ease-out; }
-        .sidebar-guide-overview {
-            display: block;
-            margin-bottom: 0.35rem;
-            padding: 0.4rem 0.45rem;
-            border-radius: 0.5rem;
-            background: #f0fdf4;
-            color: #166534;
-            font-size: 0.72rem;
-            font-weight: 700;
+        .sidebar-apple-header::-webkit-details-marker { display: none; }
+        .sidebar-apple-chevron {
+            width: 0.85rem;
+            height: 0.85rem;
+            color: #94a3b8;
+            transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
         }
-        .sidebar-guide-overview:hover { background: #dcfce7; }
-        .sidebar-guide-group {
-            border-bottom: 1px solid #f1f5f9;
+        .sidebar-nav-section[open] .sidebar-apple-chevron {
+            transform: rotate(180deg);
         }
-        .sidebar-guide-group > summary {
+
+        /* Enlaces de Menú Estilo macOS Finder / Settings (Completamente sin recuadros) */
+        .filter-link {
+            position: relative;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 0.5rem;
-            padding: 0.48rem 0.35rem;
-            border-radius: 0.45rem;
+            padding: 0.42rem 0.65rem;
+            border-radius: 0.65rem;
+            color: #374151;
+            font-size: 0.77rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 160ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .filter-link:hover {
+            background: rgba(0, 0, 0, 0.035);
+            color: #111827;
+        }
+        .filter-link.active {
+            background: rgba(22, 101, 52, 0.09);
+            color: #166534;
+            font-weight: 600;
+        }
+
+        /* Guía por Padecimiento (Minimalista Apple, sin cajas) */
+        .sidebar-guide-overview {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.42rem 0.65rem;
+            margin-bottom: 0.35rem;
+            border-radius: 0.65rem;
+            color: #166534;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 150ms ease;
+        }
+        .sidebar-guide-overview:hover {
+            background: rgba(22, 101, 52, 0.08);
+        }
+        .sidebar-guide-group {
+            margin-bottom: 0.15rem;
+        }
+        .sidebar-guide-summary {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.4rem;
+            padding: 0.38rem 0.55rem;
+            border-radius: 0.6rem;
             list-style: none;
             color: #475569;
             cursor: pointer;
+            font-size: 0.72rem;
+            font-weight: 500;
             transition: background-color 150ms ease, color 150ms ease;
         }
-        .sidebar-guide-group > summary::-webkit-details-marker { display: none; }
-        .sidebar-guide-group > summary:hover { background: #f8fafc; color: #14532d; }
+        .sidebar-guide-summary::-webkit-details-marker { display: none; }
+        .sidebar-guide-summary:hover {
+            background: rgba(0, 0, 0, 0.03);
+            color: #111827;
+        }
+        .sidebar-guide-group[open] > .sidebar-guide-summary {
+            color: #111827;
+            font-weight: 600;
+        }
+        .sidebar-guide-group[open] > .sidebar-guide-summary .sidebar-apple-chevron {
+            transform: rotate(90deg);
+        }
         .sidebar-guide-group-name {
             display: flex;
-            min-width: 0;
-            align-items: flex-start;
-            gap: 0.4rem;
-            font-size: 0.68rem;
-            font-weight: 700;
-            line-height: 1.25;
-        }
-        .sidebar-guide-count {
-            display: inline-flex;
-            min-width: 1.35rem;
-            height: 1.35rem;
             align-items: center;
-            justify-content: center;
-            flex: 0 0 auto;
+            gap: 0.45rem;
+            min-width: 0;
+        }
+        .sidebar-guide-dot {
+            width: 0.45rem;
+            height: 0.45rem;
             border-radius: 9999px;
-            background: #f1f5f9;
-            color: #64748b;
-            font-size: 0.58rem;
-            font-weight: 800;
+            flex-shrink: 0;
+            box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.9);
         }
-        .filter-link {
-            justify-content: space-between;
-            border-radius: 0.45rem;
-            padding-right: 0.35rem;
-            padding-left: 0.35rem;
-        }
-        .filter-link:hover { background: #f8fafc; }
-        .sidebar-guide-group[open] > summary { background: #f8fafc; color: #14532d; }
         .sidebar-guide-group-list {
-            margin: 0.15rem 0 0.45rem 0.65rem;
-            padding-left: 0.45rem;
-            border-left: 2px solid #e2e8f0;
+            margin: 0.15rem 0 0.35rem 0.75rem;
+            padding-left: 0.5rem;
+            border-left: none;
             animation: sidebarSectionReveal 160ms ease-out;
-        }
-        .sidebar-guide-group[data-guide-color="purple"] .sidebar-guide-group-list { border-left-color: #c084fc; }
-        .sidebar-guide-group[data-guide-color="green"] .sidebar-guide-group-list { border-left-color: #4ade80; }
-        .sidebar-guide-group[data-guide-color="orange"] .sidebar-guide-group-list { border-left-color: #fb923c; }
-        .sidebar-guide-group[data-guide-color="pink"] .sidebar-guide-group-list { border-left-color: #f472b6; }
-        .sidebar-guide-group[data-guide-color="red"] .sidebar-guide-group-list { border-left-color: #f87171; }
-        .sidebar-guide-group[data-guide-color="blue"] .sidebar-guide-group-list { border-left-color: #60a5fa; }
-        .sidebar-guide-group[data-guide-color="yellow"] .sidebar-guide-group-list { border-left-color: #facc15; }
-        .sidebar-guide-group[data-guide-color="gray"] .sidebar-guide-group-list { border-left-color: #94a3b8; }
-        @keyframes sidebarSectionReveal {
-            from { opacity: 0; transform: translateY(-4px); }
-            to { opacity: 1; transform: translateY(0); }
         }
         .sidebar-guide-list a {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             gap: 0.45rem;
-            padding: 0.3rem 0.35rem;
-            border-radius: 0.45rem;
+            padding: 0.28rem 0.45rem;
+            border-radius: 0.5rem;
             color: #64748b;
             font-size: 0.72rem;
             line-height: 1.25;
-            transition: color 150ms ease, background-color 150ms ease, transform 150ms ease;
+            text-decoration: none;
+            transition: all 140ms ease;
         }
         .sidebar-guide-list a:hover {
-            background: #f0fdf4;
-            color: #166534;
-            transform: translateX(2px);
+            background: rgba(0, 0, 0, 0.035);
+            color: #111827;
         }
+        .sidebar-guide-list a.is-active-guide {
+            background: rgba(22, 101, 52, 0.09);
+            color: #166534;
+            font-weight: 600;
+        }
+
+        /* Recursos Estilo Apple List */
+        .sidebar-resource-link {
+            display: flex;
+            align-items: center;
+            gap: 0.55rem;
+            padding: 0.4rem 0.65rem;
+            border-radius: 0.65rem;
+            color: #475569;
+            font-size: 0.75rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .sidebar-resource-link:hover {
+            background: rgba(0, 0, 0, 0.035);
+            color: #111827;
+        }
+        .sidebar-resource-link.is-active-section {
+            background: rgba(22, 101, 52, 0.09);
+            color: #166534;
+            font-weight: 600;
+        }
+
+        /* Botón Comparador Flotante Minimalista */
+        .sidebar-compare-pill {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0.45rem 0.75rem;
+            border-radius: 9999px;
+            background: #166534;
+            color: #ffffff;
+            font-size: 0.73rem;
+            font-weight: 600;
+            border: 0;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(22, 101, 52, 0.25);
+            transition: all 180ms ease;
+        }
+        .sidebar-compare-pill:hover {
+            background: #14532d;
+            box-shadow: 0 4px 12px rgba(22, 101, 52, 0.35);
+            transform: translateY(-1px);
+        }
+
+        @keyframes sidebarSectionReveal {
+            from { opacity: 0; transform: translateY(-3px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
         .sidebar-backdrop { display: none; }
         #manualSidebar, #manualMain {
             transition: width 260ms ease, flex-basis 260ms ease, padding 260ms ease, opacity 180ms ease, transform 260ms ease;
         }
 
         @media (min-width: 1024px) {
-            #manualSidebar { flex: 0 0 16rem; width: 16rem; }
+            #manualSidebar { flex: 0 0 16.5rem; width: 16.5rem; }
             #manualMain { flex: 1 1 auto; }
             body.sidebar-collapsed #manualSidebar {
                 width: 0 !important;
@@ -203,14 +425,14 @@
                 position: fixed;
                 inset: 0 auto 0 0;
                 z-index: 55;
-                display: block !important;
+                display: flex !important;
                 width: min(20rem, 86vw) !important;
                 height: 100dvh;
-                padding: 5rem 1.5rem 2rem !important;
+                padding: 4.5rem 1.25rem 1.5rem !important;
                 overflow-y: auto;
-                border-right: 1px solid #e5e7eb;
-                background: #fff;
-                box-shadow: 20px 0 45px rgb(15 23 42 / 0.2);
+                border-right: none;
+                background: #ffffff;
+                box-shadow: 20px 0 45px rgba(15, 23, 42, 0.2);
                 opacity: 0;
                 pointer-events: none;
                 transform: translateX(-105%);
@@ -227,7 +449,7 @@
                 z-index: 50;
                 display: block;
                 border: 0;
-                background: rgb(15 23 42 / 0.5);
+                background: rgba(15, 23, 42, 0.5);
                 opacity: 0;
                 pointer-events: none;
                 transition: opacity 220ms ease;
@@ -2126,3 +2348,49 @@
             .compare-product-category { letter-spacing: 0.04em; }
             .compare-product-image { width: 3.25rem; height: 3.25rem; }
         }
+
+        /* Animación de resaltado al navegar a un padecimiento */
+        .scroll-highlight {
+            animation: scrollGlow 2.2s ease-out forwards;
+        }
+        @keyframes scrollGlow {
+            0%   { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.35); }
+            15%  { box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.25); background-color: rgba(240, 253, 244, 0.9); }
+            100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); background-color: transparent; }
+        }
+
+        /* Navegación Central Estilo Apple */
+        .main-nav-btn {
+            color: #475569;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+        }
+        .main-nav-btn:hover:not(.active) {
+            color: #0f172a;
+            background: rgba(255, 255, 255, 0.6);
+        }
+        .main-nav-btn.active {
+            background: #ffffff;
+            color: #166534;
+            font-weight: 700;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+        }
+
+        @media print {
+            .no-print { display: none !important; }
+        }
+/* Las pestañas y la búsqueda controlan la vista web sin alterar el PDF. */
+@media screen {
+    .manual-view-hidden { display: none !important; }
+}
+/* Filtros de guías: mismas cápsulas que las clasificaciones del catálogo. */
+#padColorLegend .pad-color-btn.active {
+    background-color: rgb(255 255 255 / 30%);
+    border-color: rgb(255 255 255 / 65%);
+    box-shadow: none;
+}
+#padColorLegend .pad-color-btn:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
