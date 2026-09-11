@@ -6070,7 +6070,7 @@ window.manualData.productos = [
   // 247. FORTI OSITOS
   {
     id: 247,
-    code: "",
+    code: "7506021101113",
     name: "FORTI OSITOS",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-OSITOS.webp",
@@ -6095,8 +6095,8 @@ window.manualData.productos = [
   // 248. FORT Q OSITOS
   {
     id: 248,
-    code: "",
-    name: "FORT Q OSITOS",
+    code: "75060221101120",
+    name: "FORTI Q OSITOS",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
     shortDesc: "Gomitas pediátricas con Ácido Glutámico, L-Lisina, complejo B, vitamina C, zinc, calcio y Omega 3. Sin azúcar, sabores fresa y zarzamora.",
@@ -6120,7 +6120,7 @@ window.manualData.productos = [
   // 249. KINDERVITAL FRUITY
   {
     id: 249,
-    code: "",
+    code: "4004148341977",
     name: "KINDERVITAL FRUITY",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/KINDERVITAL.webp",
@@ -6145,7 +6145,7 @@ window.manualData.productos = [
   // 250. FLORADIX + H FRUITY
   {
     id: 250,
-    code: "",
+    code: "4004148350528",
     name: "FLORADIX + H FRUITY",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/FLORADIX-FRUITY.webp",
@@ -6170,7 +6170,7 @@ window.manualData.productos = [
   // 251. COLOSTRUM POWDER
   {
     id: 251,
-    code: "",
+    code: "198715573923",
     name: "COLOSTRUM POWDER",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COLOSTRUM-HUMBLE.jpg",
@@ -6195,7 +6195,7 @@ window.manualData.productos = [
   // 252. BLOOM PRE-WORKOUT
   {
     id: 252,
-    code: "",
+    code: "7502293530705",
     name: "BLOOM PRE-WORKOUT",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/BLOOM-PRE-WORK-LIMONADA.avif",
@@ -6220,7 +6220,7 @@ window.manualData.productos = [
   // 253. MORINGA, ROMERO Y HOJA DE GUAYABA
   {
     id: 253,
-    code: "",
+    code: "7502214011368",
     name: "MORINGA, ROMERO Y HOJA DE GUAYABA",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/MORINGA-ROMERO-HOJAS-DE-GUAYABA.jpg",
@@ -6270,7 +6270,7 @@ window.manualData.productos = [
   // 255. PRO PROPÓLEO Y MENTA
   {
     id: 255,
-    code: "",
+    code: "7501735620080",
     name: "PRO PROPÓLEO Y MENTA",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PRO-PROLEO-Y-MENTA.jpg",
@@ -6295,7 +6295,7 @@ window.manualData.productos = [
   // 256. PASIFLORINA
   {
     id: 256,
-    code: "",
+    code: "7501735620479",
     name: "PASIFLORINA",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PASIFLORINA.jpg",
@@ -6320,7 +6320,7 @@ window.manualData.productos = [
   // 257. TIAMINA JARABE GN+VIDA
   {
     id: 257,
-    code: "",
+    code: "7502217901222",
     name: "TIAMINA JARABE GN+VIDA",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
@@ -6345,7 +6345,7 @@ window.manualData.productos = [
   // 258. GEL CORPORAL XIHUITL
   {
     id: 258,
-    code: "",
+    code: "7502214012076",
     name: "GEL CORPORAL XIHUITL",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/XIHUITL.jpg",
@@ -6370,7 +6370,7 @@ window.manualData.productos = [
   // 259. FW FACTOR WOMEN
   {
     id: 259,
-    code: "",
+    code: "7502214011009",
     name: "FW FACTOR WOMEN",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Factor-Women.png",
@@ -6395,7 +6395,7 @@ window.manualData.productos = [
   // 260. COMPUESTO VEGETAL DE LYDIA
   {
     id: 260,
-    code: "",
+    code: "7501735650353",
     name: "COMPUESTO VEGETAL DE LYDIA",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COMPUESTO-DE-LYDIA.jpg",
@@ -6420,7 +6420,7 @@ window.manualData.productos = [
   // 261. ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA
   {
     id: 261,
-    code: "",
+    code: "7502217900034",
     name: "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
@@ -6445,7 +6445,7 @@ window.manualData.productos = [
   // 262. BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS
   {
     id: 262,
-    code: "",
+    code: "7502214013522",
     name: "BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Baria-Sure-Fresa-1.1kg.png",
@@ -6470,7 +6470,7 @@ window.manualData.productos = [
   // 263. PLATA COLOIDAL BLU SILVER
   {
     id: 263,
-    code: "",
+    code: "7503015606012",
     name: "PLATA COLOIDAL BLU SILVER",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PLATA-COLOIDAL.webp",
@@ -6495,7 +6495,7 @@ window.manualData.productos = [
   // 264. Ácido Pantoténico (B-5)
   {
     id: 264,
-    code: "",
+    code: "733739004864",
     name: "ÁCIDO PANTOTÉNICO (B-5)",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-PANTOTENICO.webp",
@@ -6520,7 +6520,7 @@ window.manualData.productos = [
   // 265. Zeolita
   {
     id: 265,
-    code: "",
+    code: "7502214013409",
     name: "ZEOLITA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZEOLITA.avif",
@@ -6545,7 +6545,7 @@ window.manualData.productos = [
   // 266. TLANCHALAGUA PROSA
   {
     id: 266,
-    code: "",
+    code: "7501734411603",
     name: "TLANCHALAGUA PROSA",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/TLANCHALAGUA-scaled.webp",
@@ -6570,7 +6570,7 @@ window.manualData.productos = [
   // 267. Premium Panax Ginseng
   {
     id: 267,
-    code: "",
+    code: "61835819069",
     name: "PREMIUM PANAX GINSENG",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PANAX-GINSENG.avif",
@@ -6595,7 +6595,7 @@ window.manualData.productos = [
   // 268. Aceite Rosa Mosqueta
   {
     id: 268,
-    code: "",
+    code: "7503021404053",
     name: "ACEITE DE ROSA MOSQUETA",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACEITE-DE-ROSA-MOSQUETA.webp",
@@ -6620,7 +6620,7 @@ window.manualData.productos = [
 // 269. JUGO DE NONI
 {
     id: 269,
-    code: "",
+    code: "7503025069500",
     name: "JUGO DE NONI",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/JUGO-NONI-scaled.jpg",
@@ -6645,7 +6645,7 @@ window.manualData.productos = [
 // 270. CÚRCUMA & JENGIBRE
 {
     id: 270,
-    code: "",
+    code: "753025069838",
     name: "CÚRCUMA & JENGIBRE",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma-1.jpg",

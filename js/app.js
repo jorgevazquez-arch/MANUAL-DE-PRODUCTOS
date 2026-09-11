@@ -642,7 +642,7 @@
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
                             </svg>
                         </summary>
-                        <div class="p-3 md:p-5 space-y-4">
+                        <div class="padecimiento-grid p-3 md:p-5">
                 `;
 
                 groupPads.forEach(pad => {
@@ -667,6 +667,7 @@
                         <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
                             <span class="padecimiento-editorial-kicker"><span aria-hidden="true">${guideGroup.emoji}</span> ${guideGroup.name}</span>
                             <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
+                            <p class="padecimiento-card-description">${pad.description}</p>
                             <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
                                 <span class="padecimiento-editorial-preview-title">Paquete principal</span>
                                 <span class="padecimiento-editorial-preview-products">${editorialPreview}</span>
@@ -1244,10 +1245,15 @@
                             </div>
                         </div>
                         <p class="text-xs text-gray-600 mb-3 flex-1 line-clamp-3">${p.shortDesc}</p>
-                <div class="flex items-center justify-end mt-auto">
-                            <label data-card-control class="flex items-center gap-1.5 text-xs text-gray-500 cursor-pointer select-none">
-                                <input type="checkbox" class="compare-checkbox w-4 h-4 accent-girasol-green-600" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
-                                Comparar
+                        <div class="flex items-center justify-end mt-auto">
+                            <label data-card-control class="gl-checkbox">
+                                <input type="checkbox" class="gl-checkbox__input compare-checkbox" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
+                                <span class="gl-checkbox__box" aria-hidden="true">
+                                    <svg class="gl-checkbox__check" viewBox="0 0 16 16" fill="none">
+                                        <path d="M3 8.25 6.35 11.5 13 4.75" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                <span class="gl-checkbox__label">Comparar</span>
                             </label>
                         </div>
                         ${matchBadge}
