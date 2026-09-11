@@ -4081,11 +4081,11 @@ window.manualData.productos = [
     interactions: "No especificado"
   },
 
-    // PRODUCTO 163 - ASH + MAG COMPLEX
+    // PRODUCTO 163 - ASHWA + MAG COMPLEX
     {
         id: 163,
         code: "7500645001668",
-        name: "ASH + MAG COMPLEX",
+        name: "ASHWA + MAG COMPLEX",
         category: "nervioso",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/RENDER-ASHWA-MAG-COMPLEX-1.jpeg",
         shortDesc: "Suplemento que combina extracto estandarizado de Ashwagandha (600 mg), L-Teanina (200 mg) y Bisglicinato de Magnesio (225 mg de magnesio elemental) para apoyar la respuesta al estrés, la relajación funcional y el sistema nervioso.",

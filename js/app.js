@@ -4,6 +4,11 @@
         const reducedManualMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
         const manualEntranceAnimations = new Map();
 
+        function getManualHeaderOffset() {
+            if (window.matchMedia('(min-width: 1024px)').matches) return 0;
+            return document.getElementById('mainCentralHeader')?.offsetHeight || 0;
+        }
+
         function animateManualEntrance(element, distance = 10) {
             if (!element) return;
             manualEntranceAnimations.get(element)?.cancel();
@@ -509,7 +514,7 @@
                 }
 
                 // Smooth scroll con offset para que no quede pegado al top
-                const yOffset = -(document.getElementById('mainCentralHeader')?.offsetHeight || 0) - 20;
+                const yOffset = -getManualHeaderOffset() - 20;
                 const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
                 window.scrollTo({ top: y, behavior: 'smooth' });
 
@@ -1361,7 +1366,7 @@
                     updateManualView();
                 } else if (this.value.trim()) {
                     e.preventDefault();
-                    const headerHeight = document.getElementById('mainCentralHeader')?.offsetHeight || 0;
+                    const headerHeight = getManualHeaderOffset();
                     const target = matchingSearchProductIds.size ? productsCatalog : document.getElementById('padecimientosGuideWeb');
                     window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - headerHeight - 20, behavior: 'smooth' });
                 }

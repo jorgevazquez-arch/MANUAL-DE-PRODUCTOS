@@ -3030,7 +3030,7 @@
             box-shadow: 0 14px 24px -10px rgb(15 23 42 / 18%), 0 5px 10px -7px rgba(var(--guide-accent-rgb), 0.35) !important;
         }
     }
-    @media (max-width: 1024px) {
+    @media (max-width: 1279px) {
         #padecimientosCatalog .padecimiento-grid {
             grid-template-columns: repeat(2, minmax(280px, 340px));
         }
@@ -3065,6 +3065,174 @@
         #padecimientosCatalog .padecimiento-editorial:not([open]) { transition: none; }
         #padecimientosCatalog .padecimiento-editorial:not([open]):hover { transform: none; }
     }
+}
+
+/* Navegación principal compacta y siempre visible. */
+#mainCentralHeader .main-header-inner {
+    grid-template-columns: minmax(0, 1fr);
+}
+.primary-nav-drawer {
+    position: fixed;
+    top: 50%;
+    left: 14px;
+    z-index: 70;
+    display: flex;
+    width: 80px;
+    height: auto;
+    flex-direction: column;
+    padding: 7px;
+    overflow: visible;
+    visibility: visible;
+    border: 1px solid rgb(48 59 56 / 20%);
+    border-radius: 18px;
+    background: rgb(255 255 255 / 96%);
+    box-shadow: 0 16px 34px -20px rgb(15 23 42 / 55%);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    transform: translateY(-50%);
+}
+#primaryNavDrawer .main-navigation {
+    display: flex;
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    margin-top: 0;
+    padding: 0;
+}
+#primaryNavDrawer .main-nav-btn {
+    width: 64px;
+    height: 64px;
+    min-height: 64px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background: transparent;
+    text-align: center;
+}
+#primaryNavDrawer .nav-card-title {
+    width: auto;
+    justify-content: center;
+    gap: 0 !important;
+}
+#primaryNavDrawer .nav-card-icon {
+    width: 24px;
+    height: 24px;
+    transition: color 220ms ease, transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+#primaryNavDrawer .main-nav-btn.active {
+    border-color: rgb(48 59 56 / 10%);
+    box-shadow: 0 9px 18px -13px rgb(15 23 42 / 55%);
+}
+#primaryNavDrawer .main-nav-btn[data-nav-target="productos"].active { background: #fff0ee; color: #a92b24; }
+#primaryNavDrawer .main-nav-btn[data-nav-target="guias"].active { background: #eaf7f5; color: #17665d; }
+#primaryNavDrawer .main-nav-btn[data-nav-target="recursos"].active { background: #fff8e5; color: #785500; }
+#primaryNavDrawer .main-nav-btn .nav-card-label {
+    position: absolute;
+    top: 50%;
+    left: calc(100% + 13px);
+    display: block;
+    width: max-content;
+    max-width: 210px;
+    padding: 7px 10px;
+    visibility: hidden;
+    border-radius: 9px;
+    color: #fff;
+    background: #303b38;
+    box-shadow: 0 8px 20px -12px rgb(15 23 42 / 65%);
+    opacity: 0;
+    margin-left: 0;
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
+    transform: translate(-5px, -50%);
+    transition: opacity 160ms ease, transform 180ms ease, visibility 180ms;
+    pointer-events: none;
+}
+#primaryNavDrawer .main-nav-btn:is(:hover, :focus-visible) .nav-card-label {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, -50%);
+}
+@media (min-width: 1024px) {
+    #mainCentralHeader {
+        position: fixed;
+        top: 12px;
+        left: 14px;
+        width: 176px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+    #mainCentralHeader .main-header-inner {
+        display: block;
+        width: 176px;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+    #mainCentralHeader .main-header-logo {
+        width: 176px;
+        height: auto;
+        max-height: 82px;
+    }
+    .primary-nav-drawer { left: 62px; }
+    #manualLayout {
+        width: calc(100% - 190px);
+        max-width: none;
+        margin-right: 0;
+        margin-left: 190px;
+        padding-top: 8px;
+        padding-right: clamp(16px, 2.2vw, 34px);
+        padding-left: clamp(16px, 2.2vw, 34px);
+    }
+    #manualMain {
+        width: 100%;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 0;
+    }
+}
+@media (hover: hover) and (pointer: fine) {
+    #primaryNavDrawer .main-nav-btn:not(.active):hover {
+        background: #f1f2ee;
+    }
+    #primaryNavDrawer .main-nav-btn:is(:hover, :focus-visible, .active) .nav-card-icon {
+        transform: scale(1.18);
+    }
+}
+@media (max-width: 600px) {
+    .primary-nav-drawer {
+        top: auto;
+        bottom: 10px;
+        left: 50%;
+        width: auto;
+        padding: 5px;
+        transform: translateX(-50%);
+    }
+    #primaryNavDrawer .main-navigation {
+        flex-direction: row;
+    }
+    #primaryNavDrawer .main-nav-btn {
+        width: 58px;
+        height: 54px;
+        min-height: 54px;
+    }
+    #primaryNavDrawer .main-nav-btn .nav-card-label { display: none; }
+    body { padding-bottom: 76px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #primaryNavDrawer .nav-card-icon,
+    #primaryNavDrawer .main-nav-btn .nav-card-label { transition: none; }
 }
 
 /* Densidad de lectura compacta, conservando la composición editorial. */
