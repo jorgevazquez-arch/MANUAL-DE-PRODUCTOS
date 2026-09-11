@@ -1079,7 +1079,6 @@
         const modalSheet = modal.querySelector('.product-sheet');
         let productModalTrigger = null;
         const productsCatalog = document.getElementById('productsCatalog');
-        const productsCatalogSummary = document.getElementById('productsCatalogSummary');
         const manualSidebar = document.getElementById('manualSidebar');
         const sidebarToggle = document.getElementById('sidebarToggle');
         const sidebarBackdrop = document.getElementById('sidebarBackdrop');
@@ -1213,7 +1212,6 @@
             if (results.length === 0) {
                 grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-400 font-medium">No encontramos ningún suplemento con esos criterios. 🧐</div>`;
                 resultCount.textContent = '0 resultados';
-                productsCatalogSummary.textContent = 'Sin productos con los filtros actuales';
                 return;
             }
 
@@ -1260,7 +1258,6 @@
             initRevealObserver();
 
             resultCount.textContent = `Mostrando ${results.length} de ${productos.length} suplementos`;
-            productsCatalogSummary.textContent = `${results.length} de ${productos.length} productos visibles`;
         }
 
         // Enlaces del menú lateral
