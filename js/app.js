@@ -1,6 +1,31 @@
         const { productos, padecimientos } = window.manualData;
         let activeManualTab = 'productos';
         let matchingSearchProductIds = new Set();
+        const reducedManualMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        const manualEntranceAnimations = new Map();
+
+        function animateManualEntrance(element, distance = 10) {
+            if (!element) return;
+            manualEntranceAnimations.get(element)?.cancel();
+            if (reducedManualMotion.matches || typeof element.animate !== 'function') return;
+            const animation = element.animate([
+                { opacity: 0, transform: `translateY(${distance}px)` },
+                { opacity: 1, transform: 'translateY(0)' }
+            ], { duration: 300, easing: 'cubic-bezier(0.22, 1, 0.36, 1)' });
+            manualEntranceAnimations.set(element, animation);
+            const cleanup = () => {
+                if (manualEntranceAnimations.get(element) === animation) manualEntranceAnimations.delete(element);
+            };
+            animation.onfinish = cleanup;
+            animation.oncancel = cleanup;
+        }
+
+        reducedManualMotion.addEventListener('change', () => {
+            if (reducedManualMotion.matches) {
+                manualEntranceAnimations.forEach(animation => animation.cancel());
+                manualEntranceAnimations.clear();
+            }
+        });
         const manualTabSections = {
             productos: ['productsCatalog'],
             guias: ['padecimientosGuideWeb'],
@@ -11,7 +36,14 @@
             const searching = searchInput.value.trim() !== '';
             Object.entries(manualTabSections).forEach(([tab, ids]) => {
                 const visible = searching ? tab !== 'recursos' : tab === activeManualTab;
-                ids.forEach(id => document.getElementById(id)?.classList.toggle('manual-view-hidden', !visible));
+                ids.forEach(id => {
+                    const section = document.getElementById(id);
+                    if (!section) return;
+                    const wasHidden = section.classList.contains('manual-view-hidden');
+                    section.classList.toggle('manual-view-hidden', !visible);
+                    if (!visible) manualEntranceAnimations.get(section)?.cancel();
+                    if (visible && wasHidden) animateManualEntrance(section);
+                });
             });
             document.getElementById('filterContainer').classList.toggle('manual-view-hidden', searching || activeManualTab !== 'productos');
             document.getElementById('padColorLegend')?.classList.toggle('manual-view-hidden', searching || activeManualTab !== 'guias');
@@ -555,12 +587,12 @@
                 <details id="padecimientosCatalog" open class="group/guide bg-white border border-gray-200 rounded-3xl shadow-sm transition-all duration-300 open:shadow-lg open:border-girasol-green-300 overflow-hidden">
                     <summary class="p-8 md:p-10 cursor-pointer list-none transition-colors hover:bg-blue-50/40">
                         <span class="block text-center">
-                        <span class="inline-block bg-blue-100 text-blue-800 font-black px-4 py-1 rounded-full text-sm uppercase tracking-widest mb-3">Guía de Protocolos</span>
-                            <span class="text-3xl md:text-4xl font-black text-girasol-green-900 flex items-center justify-center gap-3">
+                        <span class="section-eyebrow">Guía de Protocolos</span>
+                            <span class="section-title">
                                 <span aria-hidden="true">🎯</span> Guía de Apoyo Nutricional
                             </span>
                             <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza el buscador principal para filtrar por padecimiento, síntoma o suplemento. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</span>
-                            <span class="mt-5 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-bold text-blue-700">
+                            <span class="section-toggle">
                                 <span class="group-open/guide:hidden">Mostrar padecimientos</span>
                                 <span class="hidden group-open/guide:inline">Ocultar padecimientos</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 group-open/guide:rotate-180 transition-transform duration-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -668,8 +700,8 @@
                                     <div class="padecimiento-advisor-questions">
                                         <span class="padecimiento-editorial-eyebrow">Para investigar</span>
                                         <h4 class="padecimiento-advisor-questions-title">Preguntas del Asesor</h4>
-                                        <ol class="padecimiento-advisor-questions-list">
-                                            ${advisorQuestions.map(q => `<li>${q}</li>`).join('')}
+                                        <ol class="padecimiento-advisor-questions-list" role="list">
+                                            ${advisorQuestions.map((q, index) => `<li><span class="advisor-question-number" aria-hidden="true">${index + 1}</span><span class="advisor-question-text">${q}</span></li>`).join('')}
                                         </ol>
                                     </div>`;
                 html += `
@@ -1130,6 +1162,8 @@
         }
 
         function renderProducts(filter = 'all', search = '') {
+            // Liberar las tarjetas anteriores al regenerar los resultados.
+            revealObserver?.disconnect();
             const searchTerm = normalizeGuideSearch(search);
             if (searchTerm) filter = 'all';
             
@@ -1198,7 +1232,7 @@
                     nutricional: ['#059669', '#6ee7b7']
                 };
                 const [catA, catB] = catColors[p.category] || ['#16a34a', '#86efac'];
-                const delay = (i % 9) * 0.05;
+                const delay = (i % 3) * 0.035;
 
                 return `
                     <div class="product-card reveal bg-white overflow-hidden flex flex-col h-full p-4" data-product-card data-product-id="${p.id}" role="button" tabindex="0" aria-label="Abrir ficha técnica de ${escapeGuideAttribute(p.name)}" style="--cat-a:${catA}; --cat-b:${catB}; animation-delay:${delay}s;">
@@ -1902,11 +1936,23 @@
         document.querySelector('[data-action="print"]')?.addEventListener('click', () => window.print());
 
         function initSidebarInteractiveFeatures() {
+            // La apertura sigue siendo nativa; solo se anima su contenido visible.
+            document.getElementById('manualMain').addEventListener('click', event => {
+                if (event.defaultPrevented || event.target.closest('button, a, input, select, textarea')) return;
+                const summary = event.target.closest('summary');
+                const details = summary?.parentElement;
+                if (!details?.matches('#productsCatalog, #padecimientosCatalog, .pad-classification-group, .padecimiento-card')) return;
+                requestAnimationFrame(() => {
+                    const content = summary.nextElementSibling;
+                    if (details.open && content) animateManualEntrance(content, 6);
+                    else if (content) manualEntranceAnimations.get(content)?.cancel();
+                });
+            });
             const buttons = [...document.querySelectorAll('[data-nav-target]')];
             buttons.forEach((button, index) => {
                 button.addEventListener('click', () => {
                     selectManualTab(button.dataset.navTarget);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    window.scrollTo({ top: 0, behavior: reducedManualMotion.matches ? 'instant' : 'smooth' });
                 });
                 button.addEventListener('keydown', event => {
                     const movement = { ArrowRight: 1, ArrowLeft: -1 }[event.key];

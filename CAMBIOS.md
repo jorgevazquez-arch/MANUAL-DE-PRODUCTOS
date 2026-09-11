@@ -57,6 +57,20 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 
 ## Fechas principales
 
+### Ajustes visuales posteriores del 10 de septiembre
+
+- Menú compacto que expande el nombre al pasar el cursor o usar el teclado; la pestaña activa conserva el texto y en celular se muestran todos los títulos.
+- Botones sin bordes, en gris neutro y con acentos suaves del logo al seleccionarlos.
+- Encabezado más pequeño con buscador centrado, fondo salvia y filtros discretos.
+- Fondo gris cálido y presentación coordinada de las secciones de productos y guías.
+- Transiciones breves al cambiar de pestaña, abrir guías y mostrar productos, respetando la preferencia de movimiento reducido.
+- Conservación del diseño editorial de las guías abiertas, incluido el panel oscuro del paquete principal.
+- Combos ordenados en tarjetas con imágenes alineadas, nombres resaltados y datos de uso separados.
+- Títulos, imágenes y espacios más compactos, sin ocultar información.
+- Cinco preguntas del asesor organizadas en un recuadro oscuro, con numeración y separadores.
+
+### Historial de entregas
+
 - **16 de julio de 2026:** primera publicación del manual.
 - **20 de julio al 20 de agosto:** actualizaciones sucesivas del archivo principal; se normalizó el nombre a `index.html` y el 27 de julio se publicó una entrega de cinco productos nuevos.
 - **21 de agosto:** separación del manual en archivos, incorporación del comparador y las validaciones, y mejoras de navegación.

@@ -1,6 +1,95 @@
         body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
-
+        /* Navegación compacta: gris neutro y acento de marca al seleccionar. */
+        #mainCentralHeader .main-navigation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            padding: 4px;
+        }
+        .main-nav-btn {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 3px;
+            min-width: 0;
+            min-height: 44px;
+            padding: 10px 13px;
+            border: 0;
+            border-radius: 12px;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            color: #48484a;
+            background: #f5f5f7;
+            cursor: pointer;
+            transition: background-color 180ms, color 180ms, transform 180ms;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .main-nav-btn[data-nav-target="productos"].active {
+            background: #fff0ee;
+            color: #a92b24;
+        }
+        .main-nav-btn[data-nav-target="guias"].active {
+            background: #eaf7f5;
+            color: #17665d;
+        }
+        .main-nav-btn[data-nav-target="recursos"].active {
+            background: #fff8e5;
+            color: #785500;
+        }
+        .nav-card-title { display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 0.78rem; font-weight: 600; line-height: 1.35; }
+        .nav-card-icon { width: 17px; height: 17px; flex-shrink: 0; stroke: currentColor; }
+        .nav-card-description { display: none; }
+        .nav-card-label { display: grid; grid-template-columns: 1fr; }
+        .nav-card-label > span { overflow: hidden; }
+        .main-nav-btn:focus-visible {
+            outline: 2px solid #6e6e73;
+            outline-offset: 3px;
+            z-index: 2;
+        }
+        .main-nav-btn:active { transform: scale(0.98); }
+        @media (hover: hover) and (pointer: fine) {
+            .main-nav-btn .nav-card-title { gap: 0; }
+            .main-nav-btn .nav-card-label {
+                grid-template-columns: 0fr;
+                opacity: 0;
+                margin-left: 0;
+                white-space: nowrap;
+                transition: grid-template-columns 320ms cubic-bezier(0.22, 1, 0.36, 1), opacity 200ms ease, margin-left 320ms cubic-bezier(0.22, 1, 0.36, 1);
+            }
+            .main-nav-btn:is(:hover, :focus-visible, .active) .nav-card-label {
+                grid-template-columns: 1fr;
+                opacity: 1;
+                margin-left: 7px;
+            }
+            .main-navigation .main-nav-btn:not(.active):hover {
+                background: #ebebee;
+            }
+        }
+        @media (max-width: 600px), (hover: none), (pointer: coarse) {
+            #mainCentralHeader .main-navigation { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 560px; gap: 6px; padding: 3px; }
+            .main-nav-btn {
+                min-height: 48px;
+                padding: 7px 5px;
+                border-radius: 10px;
+            }
+            .nav-card-title { font-size: 0.7rem; }
+            .nav-card-title { gap: 4px; }
+            .main-nav-btn .nav-card-label { grid-template-columns: 1fr; opacity: 1; margin-left: 0; white-space: normal; }
+            .nav-card-description { display: none; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .main-nav-btn .nav-card-label { transition: none; }
+            .main-navigation .main-nav-btn {
+                transition: none;
+                transform: none;
+                filter: none;
+            }
+        }
         /* ============================================================
            SIDEBAR & NAVEGACIÓN MODERNA, DINÁMICA E INTERACTIVA
            ============================================================ */
@@ -1226,7 +1315,11 @@
         }
 
         .reveal { opacity: 0; }
-        .reveal.in-view { animation: fadeInUp 0.65s var(--ease-organic) forwards; }
+        .reveal.in-view { opacity: 1; animation: manualCardReveal 420ms cubic-bezier(0.22, 1, 0.36, 1) backwards; }
+        @keyframes manualCardReveal {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
         @keyframes popIn {
             from { opacity: 0; transform: translateY(10px) scale(0.96); }
@@ -1579,7 +1672,7 @@
             padding: 1rem !important;
             border-top: 1px solid var(--guide-border) !important;
             background: #f8fafc;
-            animation: fadeInUp 0.42s var(--ease-organic);
+            /* La entrada se controla al abrir la guía, sin duplicar animaciones. */
         }
 
         .padecimiento-editorial .padecimiento-protocol {
@@ -1809,6 +1902,105 @@
         }
 
         .padecimiento-editorial .guide-rationale-icon { margin-left: auto; }
+
+        /* Tarjetas de los combos: clases utilizadas por el renderizado actual. */
+        .padecimiento-editorial .padecimiento-combos {
+            display: grid;
+            align-content: start;
+            gap: 22px;
+            min-width: 0;
+        }
+        .padecimiento-editorial .padecimiento-combo-principal,
+        .padecimiento-editorial .padecimiento-combo-secundario { min-width: 0; }
+        .padecimiento-editorial .padecimiento-combos h4 {
+            margin: 5px 0 14px;
+            color: var(--guide-deep);
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.35;
+        }
+        .padecimiento-editorial .padecimiento-editorial-product-list {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            gap: 12px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .padecimiento-editorial-product-list > li { min-width: 0; }
+        .padecimiento-editorial .padecimiento-editorial-product-card {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 20px;
+            align-items: start;
+            gap: 10px;
+            width: 100%;
+            padding: 14px;
+            border: 1px solid var(--guide-border);
+            border-radius: 14px;
+            background: #fff;
+            color: #334155;
+            text-align: left;
+            font-family: inherit;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgb(15 23 42 / 3%);
+            transition: background-color 160ms, border-color 160ms;
+        }
+        .padecimiento-editorial .padecimiento-editorial-product-left {
+            display: grid;
+            grid-template-columns: 72px minmax(0, 1fr);
+            align-items: start;
+            gap: 14px;
+            min-width: 0;
+        }
+        .padecimiento-editorial-product-left > .guide-product-image {
+            width: 72px;
+            height: 72px;
+            padding: 6px;
+            border: 0;
+            border-radius: 12px;
+            background: #f5f6f4;
+        }
+        .padecimiento-editorial .padecimiento-editorial-product-info {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 7px;
+            min-width: 0;
+            overflow-wrap: anywhere;
+        }
+        .padecimiento-editorial .padecimiento-editorial-product-name {
+            display: block;
+            padding: 8px 10px;
+            border-radius: 8px;
+            background: var(--guide-soft);
+            color: var(--guide-deep);
+            font-size: 0.85rem;
+            font-weight: 800;
+            line-height: 1.4;
+        }
+        .padecimiento-editorial .padecimiento-editorial-product-meta {
+            display: block;
+            font-size: 0.78rem;
+            line-height: 1.6;
+            color: #475569;
+        }
+        .padecimiento-editorial-product-meta strong { color: #1e293b; font-weight: 700; }
+        .padecimiento-editorial .padecimiento-editorial-product-card > .guide-rationale-icon {
+            margin: 4px 0 0;
+        }
+        .padecimiento-editorial .secondary .padecimiento-editorial-product-card { border-color: #e2e8f0; }
+        .padecimiento-editorial .secondary .padecimiento-editorial-product-name { background: #f1f5f9; color: #334155; }
+        .padecimiento-editorial .padecimiento-editorial-product-card:hover { border-color: var(--guide-accent); background: #fafbf9; }
+        .padecimiento-editorial .padecimiento-editorial-product-card:focus-visible { outline: 2px solid var(--guide-accent); outline-offset: 3px; }
+        @media (max-width: 480px) {
+            .padecimiento-editorial .padecimiento-editorial-product-card { padding: 10px; gap: 6px; }
+            .padecimiento-editorial .padecimiento-editorial-product-left { grid-template-columns: 52px minmax(0, 1fr); gap: 9px; }
+            .padecimiento-editorial-product-left > .guide-product-image { width: 52px; height: 52px; padding: 4px; }
+            .padecimiento-editorial .padecimiento-editorial-product-name { font-size: 0.78rem; padding: 6px 8px; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .padecimiento-editorial .padecimiento-editorial-product-card { transition: none; }
+        }
 
         .padecimiento-editorial .padecimiento-product-serving,
         .padecimiento-editorial .padecimiento-product-usage {
@@ -2359,23 +2551,6 @@
             100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); background-color: transparent; }
         }
 
-        /* Navegación Central Estilo Apple */
-        .main-nav-btn {
-            color: #475569;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-        }
-        .main-nav-btn:hover:not(.active) {
-            color: #0f172a;
-            background: rgba(255, 255, 255, 0.6);
-        }
-        .main-nav-btn.active {
-            background: #ffffff;
-            color: #166534;
-            font-weight: 700;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
-        }
 
         @media print {
             .no-print { display: none !important; }
@@ -2393,4 +2568,240 @@
 #padColorLegend .pad-color-btn:focus-visible {
     outline: 2px solid white;
     outline-offset: 3px;
+}
+
+/* Encabezado ligero con búsqueda central y filtros discretos. */
+#catalogHeader {
+    padding: 24px;
+    margin-bottom: 28px;
+    border-radius: 18px;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    text-align: center;
+}
+#catalogHeader h1 { margin: 0; font-size: clamp(1.25rem, 2.4vw, 1.65rem); font-weight: 600; line-height: 1.3; }
+#catalogHeader .catalog-description { margin: 8px 0 18px; font-size: 0.875rem; color: #646469; }
+#catalogHeader .catalog-search { position: relative; max-width: 580px; margin: 0 auto; }
+#catalogHeader #searchInput {
+    width: 100%; min-height: 48px; padding: 12px 44px;
+    border: 0; border-radius: 14px; background: #fff;
+    color: #1d1d1f; font-size: 1rem; box-shadow: 0 2px 10px rgb(0 0 0 / 4%);
+}
+#catalogHeader #searchInput::placeholder { color: #6e6e73; }
+#catalogHeader #searchInput:focus-visible { outline: 2px solid #258879; outline-offset: 2px; }
+#catalogHeader .catalog-search-icon { position: absolute; left: 15px; top: 14px; width: 20px; height: 20px; color: #6e6e73; pointer-events: none; }
+#catalogHeader .catalog-search-clear { position: absolute; right: 2px; top: 2px; width: 44px; height: 44px; padding: 12px; border: 0; border-radius: 12px; color: #646469; background: transparent; cursor: pointer; }
+#catalogHeader .catalog-search-clear:hover { background: #f5f5f7; }
+#catalogHeader .catalog-search-hint { margin-top: 8px; font-size: 0.7rem; color: #6e6e73; }
+#globalSearchStatus:empty { display: none; }
+#globalSearchStatus:not(:empty) { margin-top: 12px; font-size: 0.8rem; color: #48484a; }
+#catalogHeader .catalog-filters { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 18px; }
+#catalogHeader .catalog-filter {
+    padding: 7px 11px; border: 0; border-radius: 999px;
+    background: #ececef; color: #48484a; font-size: 0.72rem;
+    font-weight: 500; line-height: 1.4; box-shadow: none; transform: none;
+    cursor: pointer; transition: background-color 150ms, color 150ms;
+}
+#catalogHeader .catalog-filter:hover { background: #e2e2e6; }
+#catalogHeader .catalog-filter.active { background: #dcefe9; color: #175d4f; font-weight: 600; box-shadow: none; transform: none; }
+#catalogHeader .catalog-filter:focus-visible,
+#catalogHeader .catalog-search-clear:focus-visible { outline: 2px solid #258879; outline-offset: 2px; }
+@media (max-width: 600px) {
+    #catalogHeader { padding: 20px 14px; }
+    #catalogHeader .catalog-description { font-size: 0.8rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #catalogHeader .catalog-filter { transition: none; }
+}
+
+/* Superficies coordinadas: piedra cálida, salvia y acentos de clasificación. */
+@media screen {
+    :root {
+        --manual-canvas: #edece8;
+        --manual-surface: #f7f6f2;
+        --manual-inset: #eeeee8;
+        --manual-ink: #303b38;
+        --manual-muted: #606a65;
+        --manual-radius: 18px;
+    }
+    body { background: var(--manual-canvas); color: var(--manual-ink); }
+    #mainCentralHeader { background: rgb(237 236 232 / 95%); border: 0; box-shadow: none; }
+    #mainCentralHeader .main-nav-btn:not(.active) { background: #e2e3de; }
+    #catalogHeader {
+        background: #dfe9e4;
+        color: var(--manual-ink);
+        border-radius: var(--manual-radius);
+    }
+    #catalogHeader .catalog-description,
+    #catalogHeader .catalog-search-hint { color: var(--manual-muted); }
+    #catalogHeader #searchInput { background: #fafbf8; }
+    #catalogHeader .catalog-filter { background: #edf2ed; color: #475950; }
+    #catalogHeader .catalog-filter:hover { background: #d0e0d7; }
+    #catalogHeader .catalog-filter.active { background: #c3d9cf; color: #214d3e; }
+    #productsCatalog, #padecimientosCatalog {
+        border: 0;
+        border-radius: var(--manual-radius);
+        background: var(--manual-surface);
+        box-shadow: none;
+    }
+    #productsCatalog > summary, #padecimientosCatalog > summary {
+        padding: 24px;
+        background: #e9e9e1;
+        color: var(--manual-ink);
+    }
+    #padecimientosCatalog > summary { background: #e2eae5; }
+    #productsCatalog > summary:hover { background: #e2e3d9; }
+    #padecimientosCatalog > summary:hover { background: #dbe5de; }
+    .section-eyebrow {
+        display: block; margin-bottom: 7px; color: var(--manual-muted);
+        font-size: 0.65rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase;
+    }
+    .section-title {
+        display: flex; align-items: center; justify-content: center; gap: 10px;
+        font-family: 'Poppins', sans-serif; font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+        font-weight: 600; line-height: 1.3;
+    }
+    #productsCatalog > summary .text-gray-600,
+    #padecimientosCatalog > summary .text-gray-600 {
+        margin-top: 10px; color: var(--manual-muted); font-size: 0.85rem;
+    }
+    #productsCatalogSummary { color: #51665a; font-size: 0.75rem; font-weight: 500; }
+    .section-toggle {
+        display: inline-flex; align-items: center; gap: 6px;
+        margin-top: 14px; color: #475e51; font-size: 0.75rem; font-weight: 500;
+    }
+    #productsPanel, #padecimientosCatalog > div {
+        padding: 22px; border: 0; background: var(--manual-surface);
+    }
+    #padecimientosGuideWeb { margin-top: 28px; }
+    #productGrid { gap: 16px; }
+    #productGrid .product-card {
+        border: 0; border-radius: 16px; background: var(--manual-inset);
+        box-shadow: none; transition: background-color 180ms, transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    #productGrid .product-card::before { height: 2px; opacity: 0.55; }
+    #productGrid .product-card h4 { color: var(--manual-ink); font-size: 0.95rem; font-weight: 600; }
+    #productGrid .product-card .bg-gray-50 { background: #fafbf8; }
+    #productGrid .product-card:hover { transform: translateY(-2px); background: #e6ebe3; box-shadow: none; }
+    #productGrid .product-card:focus-visible { outline: 2px solid #258879; outline-offset: 3px; }
+    #padecimientosCatalog .pad-classification-group { border-radius: 16px; box-shadow: none; }
+    #padecimientosCatalog .pad-classification-group > summary { padding: 16px 18px; }
+    #padecimientosCatalog .pad-classification-group > summary .font-black { font-size: 1rem; font-weight: 600; }
+    #padecimientosCatalog .padecimiento-editorial:not([open]) {
+        border: 0 !important; border-radius: 16px !important;
+        background: var(--manual-surface); box-shadow: none !important;
+    }
+    #padecimientosCatalog .padecimiento-editorial:not([open]) .padecimiento-summary {
+        background: var(--manual-inset);
+    }
+    #padecimientosCatalog .padecimiento-editorial:not([open]) .padecimiento-summary::after { height: 2px; opacity: 0.5; }
+    @media (max-width: 600px) {
+        #productsCatalog > summary, #padecimientosCatalog > summary { padding: 20px 16px; }
+        #productsPanel, #padecimientosCatalog > div { padding: 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        #productGrid .product-card { transition: none; }
+        #productGrid .product-card:hover { transform: none; }
+    }
+}
+
+/* Densidad de lectura compacta, conservando la composición editorial. */
+@media screen {
+    #catalogHeader { padding: 20px; margin-bottom: 22px; }
+    #catalogHeader h1 { font-size: clamp(1.15rem, 2vw, 1.4rem); }
+    #catalogHeader .catalog-description { font-size: 0.8rem; margin-bottom: 14px; }
+    #productsCatalog > summary, #padecimientosCatalog > summary { padding: 18px; }
+    .section-title { font-size: clamp(1.1rem, 2vw, 1.4rem); }
+    #productsCatalog > summary .text-gray-600,
+    #padecimientosCatalog > summary .text-gray-600 { font-size: 0.8rem; margin-top: 7px; }
+    .section-toggle { margin-top: 10px; }
+    #productsPanel, #padecimientosCatalog > div { padding: 16px; }
+    #productGrid { gap: 12px; }
+    #productGrid .product-card { padding: 12px; }
+    #productGrid .product-card h4 { font-size: 0.875rem; }
+    #padecimientosCatalog .pad-classification-group > summary { padding: 12px 16px; }
+    #padecimientosCatalog .pad-classification-group > summary .font-black { font-size: 0.9rem; }
+    #padecimientosCatalog .padecimiento-editorial[open] .padecimiento-summary {
+        padding: clamp(1.1rem, 2.5vw, 2rem) !important;
+        min-height: 12rem;
+        gap: 0.65rem 1.3rem;
+    }
+    #padecimientosCatalog .padecimiento-editorial[open] .padecimiento-title {
+        font-size: clamp(1.55rem, 2.7vw, 2.5rem) !important;
+        line-height: 1.1;
+    }
+    #padecimientosCatalog .padecimiento-editorial:not([open]) .padecimiento-title {
+        font-size: 1.05rem !important;
+    }
+    #padecimientosCatalog .padecimiento-overview { padding: 10px 4px; }
+    #padecimientosCatalog .padecimiento-overview h4,
+    #padecimientosCatalog .padecimiento-symptoms-title,
+    #padecimientosCatalog .padecimiento-advisor-questions-title {
+        font-size: 1rem; font-weight: 700; margin: 5px 0 9px;
+    }
+    #padecimientosCatalog .padecimiento-description { font-size: 0.8rem !important; line-height: 1.6; }
+    #padecimientosCatalog .padecimiento-assessment { gap: 12px; }
+    #padecimientosCatalog .padecimiento-symptoms { padding: 10px 4px; }
+    #padecimientosCatalog .padecimiento-symptoms-list { gap: 7px; }
+    #padecimientosCatalog .padecimiento-symptoms-list li { padding: 7px 0; }
+    #padecimientosCatalog .padecimiento-advisor-questions {
+        padding: 16px;
+        border-radius: 14px;
+        border-left: 3px solid var(--guide-accent);
+        background: #252627;
+        color: #f1f5f9;
+    }
+    #padecimientosCatalog .padecimiento-advisor-questions .padecimiento-editorial-eyebrow {
+        color: var(--guide-on-dark);
+    }
+    #padecimientosCatalog .padecimiento-advisor-questions-title { color: #fff; margin-bottom: 12px; }
+    #padecimientosCatalog .padecimiento-advisor-questions-list {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+    #padecimientosCatalog .padecimiento-advisor-questions-list > li {
+        display: grid;
+        grid-template-columns: 24px minmax(0, 1fr);
+        align-items: start;
+        gap: 10px;
+        padding: 9px 0;
+    }
+    #padecimientosCatalog .padecimiento-advisor-questions-list > li + li {
+        border-top: 1px solid rgb(255 255 255 / 12%);
+    }
+    #padecimientosCatalog .advisor-question-number {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+        background: var(--guide-soft);
+        color: var(--guide-deep);
+        font-size: 0.72rem;
+        font-weight: 700;
+    }
+    #padecimientosCatalog .advisor-question-text { min-width: 0; padding-top: 2px; overflow-wrap: anywhere; }
+    #padecimientosCatalog .padecimiento-combos { gap: 16px; }
+    #padecimientosCatalog .padecimiento-combos h4 { font-size: 0.95rem; margin-bottom: 10px; }
+    #padecimientosCatalog .padecimiento-editorial-product-list { gap: 8px; }
+    #padecimientosCatalog .padecimiento-editorial-product-card { padding: 10px; gap: 8px; }
+    #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 60px minmax(0, 1fr); gap: 10px; }
+    #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 60px; height: 60px; padding: 5px; }
+    #padecimientosCatalog .padecimiento-editorial-product-info { gap: 4px; }
+    #padecimientosCatalog .padecimiento-editorial-product-name { padding: 5px 8px; font-size: 0.8rem; line-height: 1.35; }
+    #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.78rem; line-height: 1.45; }
+    @media (max-width: 480px) {
+        #catalogHeader { padding: 16px 12px; }
+        #productsPanel, #padecimientosCatalog > div { padding: 12px; }
+        #padecimientosCatalog .padecimiento-editorial-product-card { padding: 9px; gap: 5px; }
+        #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 48px minmax(0, 1fr); gap: 8px; }
+        #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 48px; height: 48px; padding: 4px; }
+    }
 }
