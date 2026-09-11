@@ -1,5 +1,31 @@
         body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+        #mainCentralHeader {
+            padding: 6px 0;
+            margin-bottom: 12px;
+        }
+        .main-header-inner {
+            display: grid;
+            grid-template-columns: 120px minmax(0, 1fr) 120px;
+            align-items: center;
+            gap: 14px;
+        }
+        .main-header-brand {
+            display: flex;
+            align-items: center;
+            justify-self: start;
+        }
+        .main-header-logo {
+            display: block;
+            width: 104px;
+            height: auto;
+            max-height: 46px;
+            object-fit: contain;
+        }
+        .main-header-balance {
+            width: 104px;
+            justify-self: end;
+        }
         /* Navegación compacta: gris neutro y acento de marca al seleccionar. */
         #mainCentralHeader .main-navigation {
             display: flex;
@@ -7,7 +33,9 @@
             align-items: center;
             gap: 8px;
             width: 100%;
+            max-width: 560px;
             padding: 4px;
+            justify-self: center;
         }
         .main-nav-btn {
             position: relative;
@@ -71,6 +99,21 @@
             }
         }
         @media (max-width: 600px), (hover: none), (pointer: coarse) {
+            #mainCentralHeader {
+                padding: 4px 0;
+                margin-bottom: 8px;
+            }
+            .main-header-inner {
+                grid-template-columns: 70px minmax(0, 1fr);
+                gap: 6px;
+                padding-right: 8px;
+                padding-left: 8px;
+            }
+            .main-header-logo {
+                width: 68px;
+                max-height: 34px;
+            }
+            .main-header-balance { display: none; }
             #mainCentralHeader .main-navigation { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 560px; gap: 6px; padding: 3px; }
             .main-nav-btn {
                 min-height: 48px;
