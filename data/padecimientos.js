@@ -759,22 +759,22 @@ window.manualData.padecimientos = [
     },
     {
         id: 'hipertiroidismo',
-        name: 'Hipertiroidismo (Apoyo Calmante)',
+        name: 'Hipertiroidismo (Apoyo sintomático bajo control médico)',
         emoji: '🟣',
         color: 'purple',
-        description: 'En el hipertiroidismo, el "termostato" del cuerpo está atascado en "alto", creando un estado hipermetabólico que acelera todo el sistema y causa un gran estrés oxidativo.',
+        description: 'En el hipertiroidismo, el cuerpo se encuentra en un estado de hiperactividad metabólica y nerviosa. Esta guía no sustituye el tratamiento médico ni la valoración especializada; su enfoque es solo un apoyo sintomático, siempre con supervisión profesional.',
         symptoms: ['Pérdida de peso involuntaria, nerviosismo, ansiedad', 'Palpitaciones, temblores', 'Intolerancia al calor, sudoración excesiva'],
         comboPrincipal: [
-            { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ashwagandha modula la respuesta al estrés.' },
-            { id: 94, serving: '2-4 cápsulas', usage: 'Tomar esta porción al día. Preferentemente antes de dormir.', rationale: 'Magnesio calma la hiperexcitabilidad neuromuscular.' },
-            { id: 68, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'GABA contrarresta la ansiedad.' }
+            { id: 150, serving: '1 cápsula', usage: 'Tomar esta porción al día. Preferentemente antes de dormir.', rationale: 'L-Teanina ayuda a inducir calma y relajación sin sedación intensa.' },
+            { id: 94, serving: '2-4 cápsulas', usage: 'Tomar esta porción al día. Preferentemente antes de dormir.', rationale: 'Magnesio ayuda a calmar la hiperexcitabilidad nerviosa y muscular.' },
+            { id: 68, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'GABA favorece la relajación y ayuda a reducir la ansiedad.' }
         ],
         comboSecundario: [
-            { id: 150, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.', rationale: 'L-Teanina induce calma sin sedación.' },
-            { id: 117, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAD+ apoya la función mitocondrial.' },
-            { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B para el estado hipermetabólico.' }
+            { id: 117, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAD+ apoya la función mitocondrial y la recuperación celular.' },
+            { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B apoyan el estado hipermetabólico.' },
+            { id: 61, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitamina C y equinácea ayudan a sostener la respuesta antioxidante y de defensa durante periodos de estrés metabólico.' }
         ],
-        lifestyleTips: ['Evitar estimulantes como la cafeína.', 'Practicar técnicas de relajación.', 'Dieta rica en antioxidantes.']
+        lifestyleTips: ['Evitar estimulantes como la cafeína.', 'Practicar técnicas de relajación.', 'Mantener una dieta rica en antioxidantes.', 'Seguir control médico y revisión endocrinológica.']
     },
 
     // ================================================================
