@@ -19,7 +19,8 @@ window.manualData.padecimientos = [
             { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: 'Ashwagandha para regular el cortisol.' },
             { id: 94, serving: '3 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: 'Fórmula nocturna para el sueño.' },
             { id: 150, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.', rationale: 'L-Teanina para calma sin somnolencia.' },
-            { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Melena de León con efectos ansiolíticos.' }
+            { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Melena de León con efectos ansiolíticos.' },
+            { id: 271, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana o al mediodía con alimentos. Consultar antes si toma antidepresivos o sedantes.', rationale: 'Opción de apoyo cuando el estrés se acompaña de dificultad para concentrarse; combina Albizia, Bacopa y L-teanina. La fórmula completa no cuenta con ensayos clínicos propios.' }
         ],
         lifestyleTips: ['Practicar técnicas de respiración profunda.', 'Limitar el consumo de cafeína y estimulantes.', 'Realizar ejercicio físico regularmente.', 'Consumir infusiones calmantes como TÉ 7 AZAHARES o TÉ MANZANILLA.']
     },
@@ -41,7 +42,8 @@ window.manualData.padecimientos = [
             { id: 117, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAD+ y Resveratrol para la energía mitocondrial.' },
             { id: 181, serving: '4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Magnesio Bisglicinato (alta biodisponibilidad) contribuye a la reducción del cansancio y la fatiga, y apoya la función muscular y nerviosa.' },
             { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) recarga la producción de ATP mitocondrial, combatiendo la fatiga celular del burnout. Complementa al NAD+ en la cadena de transporte de electrones.' },
-            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ALA, cromo e inulina para apoyar el metabolismo energético y el aprovechamiento de la glucosa como combustible celular.' }
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ALA, cromo e inulina para apoyar el metabolismo energético y el aprovechamiento de la glucosa como combustible celular.' },
+            { id: 272, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana o al mediodía con alimentos; evitarla cerca de la hora de dormir. Consultar antes si toma antidepresivos o antihipertensivos.', rationale: 'Opción para fatiga mental asociada al estrés: contiene Rhodiola y L-teanina. Los estudios de Rhodiola usan otras preparaciones y la eficacia de esta fórmula para burnout no está establecida.' }
         ],
         lifestyleTips: ['Priorizar el descanso y el sueño de calidad.', 'Establecer límites claros entre el trabajo y la vida personal.', 'Incorporar técnicas de relajación como meditación, yoga o mindfulness.', 'Mantener una dieta rica en nutrientes.']
     },
@@ -79,7 +81,9 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 82, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'DHA del Krill Oil para la estructura cerebral.' },
             { id: 87, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción una vez al día con alimentos, preferentemente por la mañana.', rationale: 'L-Tirosina precursora de dopamina.' },
-            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Ubiquinol recarga la energía de las mitocondrias neuronales.' }
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Ubiquinol recarga la energía de las mitocondrias neuronales.' },
+            { id: 271, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana o al mediodía con alimentos. Consultar antes si toma antidepresivos o sedantes.', rationale: 'Opción de apoyo al enfoque con Bacopa en polvo y L-teanina. La evidencia clínica en memoria procede principalmente de extractos estandarizados de Bacopa, distintos de esta fórmula.' },
+            { id: 272, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana o al mediodía con alimentos; evitarla cerca de la hora de dormir. Consultar antes si toma antidepresivos o antihipertensivos.', rationale: 'Opción cuando la dificultad para concentrarse acompaña al estrés y la fatiga mental; contiene Rhodiola y L-teanina. La evidencia para esta combinación específica es limitada.' }
         ],
         lifestyleTips: ['Realizar ejercicios mentales (crucigramas, aprender algo nuevo).', 'Dormir lo suficiente para la consolidación de la memoria.', 'Dieta rica en Omega 3 y antioxidantes.']
     },

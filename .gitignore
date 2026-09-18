@@ -4,3 +4,6 @@
 /css/validacion.css
 /js/validacion.js
 /tools/validate-manual.ps1
+
+.vercel/
+.env.local
