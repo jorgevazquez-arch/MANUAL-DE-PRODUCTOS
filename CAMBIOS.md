@@ -1,6 +1,6 @@
 # Cambios del manual de El Girasol
 
-Actualizado al 10 de septiembre de 2026.
+Actualizado al 18 de septiembre de 2026.
 
 Resumen de los cambios publicados desde la primera versión del 16 de julio de 2026. Los ajustes repetidos se agrupan para facilitar la lectura. Las primeras actualizaciones tienen mensajes genéricos en GitHub, por lo que se resumen sin atribuirles detalles que no quedaron documentados.
 
@@ -21,7 +21,8 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 ## Catálogo y fichas de productos
 
 - Se agregaron productos y se actualizaron nombres, imágenes y datos de las fichas en distintas entregas.
-- El catálogo publicado llegó a 267 productos.
+- El catálogo contiene 269 productos.
+- Se agregaron ALBIZIA + BACOPA y ALBIZIA + RHODIOLA con sus composiciones, indicaciones de uso y precauciones. Sus fichas de origen no incluyen código de barras.
 - Se renovó el diseño de las tarjetas y las fichas técnicas.
 - Se ajustó el tamaño de las imágenes dentro de las fichas.
 - Se habilitó la apertura de la ficha al hacer clic en toda la tarjeta del producto.
@@ -53,9 +54,13 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 - Se eliminó el pequeño recuadro vacío sobre el título del catálogo.
 - Se separaron el diseño, la lógica y los datos en archivos para facilitar el mantenimiento.
 - Se incorporaron herramientas de validación; actualmente se ejecutan localmente antes de publicar.
-- La validación de la versión publicada confirma 267 productos, 70 guías y 440 referencias válidas de productos dentro de las guías.
+- La validación local confirma 269 productos, 70 guías y 440 referencias válidas de productos dentro de las guías.
 
 ## Fechas principales
+
+### 18 de septiembre de 2026
+
+- Se incorporaron ALBIZIA + BACOPA y ALBIZIA + RHODIOLA al catálogo en la categoría del sistema nervioso.
 
 ### Ajustes visuales posteriores del 10 de septiembre
 

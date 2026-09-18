@@ -6666,4 +6666,55 @@ window.manualData.productos = [
     foodInteractions: "No especificado",
     interactions: "Puede interactuar con anticoagulantes y antiagregantes plaquetarios. Precaución con medicamentos metabolizados por el hígado."
 },
+
+// 271. ALBIZIA + BACOPA
+{
+    id: 271,
+    code: "",
+    name: "ALBIZIA + BACOPA",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-BACOPA-ALBIZIA–-V0–-SEPT2026.jpeg",
+    shortDesc: "Suplemento de Albizia, Bacopa, L-teanina y magnesio, orientado al apoyo de la concentración y la calma. Envase con 60 cápsulas.",
+    ingredients: "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; partes aéreas de Bacopa monnieri en polvo 200 mg; L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
+    serving: "2 cápsulas (900 mg)",
+    timing: "Por la mañana o al mediodía, con alimentos",
+    intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. No exceder la porción diaria recomendada.",
+    benefits: [
+        "Apoya la concentración y la memoria",
+        "Contribuye al bienestar mental y a la calma",
+        "Aporta L-teanina, asociada con un estado de alerta relajada",
+        "Aporta magnesio, necesario para el funcionamiento normal del sistema nervioso",
+        "Combina componentes botánicos con actividad antioxidante",
+        "Fórmula sin estimulantes añadidos"
+    ],
+    contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
+    foodInteractions: "La ficha recomienda tomarlo con alimentos que contengan grasas saludables.",
+    interactions: "Consultar antes de combinar con medicamentos colinérgicos o anticolinérgicos, antidepresivos o sedantes. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; consultar cómo separar las tomas."
+},
+
+// 272. ALBIZIA + RHODIOLA
+{
+    id: 272,
+    code: "",
+    name: "ALBIZIA + RHODIOLA",
+    category: "nervioso",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-RHODIOLA-ALBIZIA–-V0–-SEPT2026.jpeg",
+    shortDesc: "Suplemento de Albizia, Rhodiola, L-teanina y magnesio, orientado al apoyo frente al estrés y la fatiga mental. Envase con 60 cápsulas.",
+    ingredients: "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; extracto de raíz de Rhodiola rosea 200 mg, estandarizado al 3 % de salidrósidos (aporta 6 mg); L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
+    serving: "2 cápsulas (900 mg)",
+    timing: "Por la mañana o al mediodía, con alimentos",
+    intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. Evitar la toma cerca de la hora de dormir. No exceder la porción diaria recomendada.",
+    benefits: [
+        "Apoya la respuesta al estrés físico y mental",
+        "Contribuye a mantener la atención y la claridad mental",
+        "Aporta L-teanina, asociada con un estado de alerta relajada",
+        "Aporta magnesio, necesario para el funcionamiento normal del sistema nervioso",
+        "Combina componentes botánicos con actividad antioxidante",
+        "Fórmula sin estimulantes añadidos"
+    ],
+    contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Evitar en personas con trastorno bipolar. Consultar a un profesional de la salud si se padece alguna condición médica.",
+    foodInteractions: "La ficha recomienda tomarlo con alimentos que contengan grasas saludables.",
+    interactions: "Consultar antes de combinar con antidepresivos, antihipertensivos o sedantes; se han comunicado posibles interacciones de Rhodiola con antidepresivos y losartán. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; consultar cómo separar las tomas."
+},
+
 ];
