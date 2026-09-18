@@ -54,13 +54,14 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 - Se eliminó el pequeño recuadro vacío sobre el título del catálogo.
 - Se separaron el diseño, la lógica y los datos en archivos para facilitar el mantenimiento.
 - Se incorporaron herramientas de validación; actualmente se ejecutan localmente antes de publicar.
-- La validación local confirma 269 productos, 70 guías y 440 referencias válidas de productos dentro de las guías.
+- La validación local confirma 269 productos, 70 guías y 459 referencias válidas de productos dentro de las guías.
 
 ## Fechas principales
 
 ### 18 de septiembre de 2026
 
 - Se incorporaron ALBIZIA + BACOPA y ALBIZIA + RHODIOLA al catálogo en la categoría del sistema nervioso.
+- Se sincronizaron 19 recomendaciones adicionales de las guías y se versionó la carga de los datos para que el navegador solicite los archivos actualizados.
 
 ### Ajustes visuales posteriores del 10 de septiembre
 
