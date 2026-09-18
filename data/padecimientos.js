@@ -1424,5 +1424,105 @@ window.manualData.padecimientos = [
             { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) es un potente antioxidante celular que protege las mitocondrias del daño por radicales libres; los niveles de CoQ10 disminuyen con la edad, acelerando el envejecimiento celular.' }
         ],
         lifestyleTips: ['Usar protector solar diario, el principal factor de envejecimiento prematuro evitable.', 'Mantener buena hidratación con agua simple.', 'Dormir bien, ya que la piel se regenera principalmente durante el sueño.', 'LEUCAPS, rico en luteína y zeaxantina, también aporta antioxidantes para la piel.']
+    },
+    {
+        id: 'post_cirugia_bariatrica',
+        name: 'Después de Cirugía Bariátrica (Seguimiento Nutricional)',
+        emoji: '🩺',
+        color: 'gray',
+        description: 'Después de una manga gástrica o un bypass pueden aparecer deficiencias de proteína, hierro, vitamina B12, vitamina D, calcio y otros nutrientes. El plan depende del procedimiento, el tiempo transcurrido, los análisis y la tolerancia. Estas opciones complementan el esquema bariátrico prescrito y no forman un paquete para tomar completo.',
+        symptomsTitle: 'Situaciones que requieren revisar el plan:',
+        symptoms: ['Manga gástrica o bypass con seguimiento nutricional pendiente', 'Ingesta de proteína menor que la meta fijada por nutrición', 'Cansancio, palidez, hormigueo o debilidad nuevos', 'Vómitos frecuentes o dificultad para tolerar alimentos y suplementos', 'Análisis con deficiencia de hierro, vitamina B12, vitamina D o calcio'],
+        comboPrincipal: [
+            { id: 225, serving: '1 pastilla', usage: 'Usar según la pauta del equipo bariátrico; masticar o disolver completamente. La vía y frecuencia de B12 pueden cambiar según el procedimiento y los análisis.', rationale: 'Vitamina B12 como opción cuando el plan indica suplementación. La necesidad y la dosis deben individualizarse; algunas personas requieren otra presentación o vía.' },
+            { id: 113, serving: '1 scoop (34 g)', usage: 'Mezclar y tomar entre comidas solo si la alimentación no cubre la meta de proteína y el equipo tratante autoriza suplementos de suero.', rationale: 'Aislado de suero con 29 g de proteína por porción. Ayuda a cubrir una brecha de ingesta, sin reemplazar comidas ni el plan de progresión de texturas.' },
+            { id: 262, serving: '15 g', usage: 'Preparar con agua a temperatura ambiente según la ficha; usar solo si el equipo bariátrico confirma tolerancia y el aporte de calcio elemental en la etiqueta.', rationale: 'Contiene citrato de calcio y proteína de suero. La ficha expresa 1500 mg de citrato de calcio, pero no aclara cuánto calcio elemental aporta; no asumir equivalencia ni duplicarlo con otro calcio.' }
+        ],
+        comboSecundario: [
+            { id: 154, serving: '2 cápsulas', usage: 'Usar solo si el plan requiere calcio adicional; confirmar el aporte elemental y separar su toma del hierro según el equipo tratante.', rationale: 'Otra presentación de citrato de calcio con vitamina D. Es una alternativa a otras fuentes de calcio del catálogo, no una suma automática.' },
+            { id: 166, serving: '1 cápsula', usage: 'Tomar con alimentos únicamente si el profesional indica esta concentración y programa control de vitamina D y calcio.', rationale: 'Aporta 5000 UI de vitamina D3 por cápsula, por encima del límite superior habitual para adultos de 4000 UI al día; requiere indicación y seguimiento.' },
+            { id: 250, serving: '10 ml por toma', usage: 'Seguir la frecuencia indicada por el equipo bariátrico; la ficha general propone dos tomas al día. Confirmar que el hierro aportado cubra la pauta individual y separarlo del calcio.', rationale: 'Tónico con hierro. Su contenido puede ser insuficiente para tratar una deficiencia tras cirugía; la dosis debe basarse en el hierro elemental y en análisis.' }
+        ],
+        lifestyleTips: ['Mantener seguimiento de por vida con el equipo bariátrico y solicitar los análisis indicados para el procedimiento.', 'No reemplazar el multivitamínico bariátrico prescrito por un producto general del catálogo.', 'Separar calcio e hierro según la pauta profesional y comparar siempre cantidades elementales, no solo el peso de la sal.', 'Vómitos persistentes, debilidad marcada, hormigueo nuevo o incapacidad para ingerir líquidos requieren valoración pronta; los vómitos prolongados elevan el riesgo de falta de tiamina.', 'Elegir una fuente de proteína y una de calcio de acuerdo con tolerancia, alergia a la leche y metas individuales.'],
+        advisorQuestions: ['¿Qué cirugía se realizó y hace cuánto tiempo?', '¿Qué esquema de vitaminas y minerales indicó el equipo bariátrico?', '¿Hay resultados recientes de hemograma, ferritina, vitamina B12, 25(OH)D y calcio?', '¿Cuánta proteína y líquido logra consumir y ha tenido vómitos o intolerancia?', '¿Toma hierro, calcio u otros suplementos que puedan duplicarse con los productos del catálogo?']
+    },
+    {
+        id: 'deficiencia_magnesio',
+        name: 'Deficiencia de Magnesio (Evaluación y Apoyo)',
+        emoji: '🧩',
+        color: 'orange',
+        description: 'La deficiencia sintomática de magnesio es poco común en personas sanas, pero puede aparecer con pérdidas digestivas, ciertos medicamentos, ingesta insuficiente o enfermedad. El cansancio y los calambres no la confirman por sí solos. La causa, la función renal y el magnesio elemental aportado por cada fórmula orientan la elección.',
+        symptomsTitle: 'Datos para valorar la posible deficiencia:',
+        symptoms: ['Pérdidas digestivas prolongadas o problemas de absorción', 'Uso prolongado de diuréticos o inhibidores de la bomba de protones', 'Ingesta muy baja o alimentación restrictiva', 'Debilidad, hormigueo o contracciones musculares persistentes', 'Alteraciones de potasio o calcio detectadas en análisis'],
+        comboPrincipal: [
+            { id: 92, serving: '2 cápsulas', usage: 'Tomar con alimentos solo si la valoración indica suplementación; contabilizar 200 mg de magnesio elemental y revisar otros productos con magnesio.', rationale: 'Malato de magnesio con 200 mg elementales por porción, cantidad claramente indicada en la ficha. Es una opción de comparación, no una dosis universal para corregir deficiencia.' },
+            { id: 50, serving: '2 cápsulas', usage: 'Tomar con alimentos solo si se confirma que esta presentación es adecuada; revisar la etiqueta física antes de usarla.', rationale: 'Cloruro con 240 mg de magnesio elemental por porción. La unidad de vitamina D en la ficha es inconsistente y debe verificarse en el envase.' }
+        ],
+        comboSecundario: [
+            { id: 91, serving: '1 cápsula', usage: 'Tomar con alimentos solo después de confirmar en la etiqueta cuánto magnesio elemental aporta.', rationale: 'Mezcla de citrato, gluconato y óxido; la ficha expresa el peso de las sales, no el magnesio elemental disponible.' },
+            { id: 227, serving: '1 cápsula', usage: 'Tomar con alimentos según la ficha, siempre que el profesional confirme el aporte elemental y la dosis necesaria.', rationale: 'Citrato en cápsulas; el peso de citrato declarado no equivale a magnesio elemental.' },
+            { id: 228, serving: '1 cápsula', usage: 'Tomar preferentemente por la noche según la ficha, solo tras revisar el aporte elemental en el envase.', rationale: 'Glicinato de magnesio. La ficha no especifica la cantidad elemental, por lo que no permite calcular por sí sola una pauta de corrección.' },
+            { id: 181, serving: '4 cápsulas', usage: 'Usar únicamente si un profesional indica esta porción y vigila función renal, tolerancia y magnesio total de otros suplementos.', rationale: 'Aporta 400 mg de magnesio elemental por porción, por encima del límite superior habitual de 350 mg al día procedentes de suplementos para adultos.' }
+        ],
+        lifestyleTips: ['Priorizar legumbres, frutos secos, semillas y verduras de hoja como fuentes alimentarias de magnesio.', 'Comparar magnesio elemental entre presentaciones y no combinar varias fórmulas por rutina.', 'Consultar antes de suplementar si existe enfermedad renal o uso de diuréticos, antibióticos o bisfosfonatos; algunos medicamentos deben separarse del magnesio.', 'La diarrea, las náuseas y el dolor abdominal pueden indicar mala tolerancia o exceso de suplemento.', 'Calambres persistentes, palpitaciones, debilidad importante o desmayos requieren valoración de otras causas.'],
+        advisorQuestions: ['¿Existe una valoración médica o análisis que sugiera falta de magnesio?', '¿Hay enfermedad renal, diarrea prolongada o problemas de absorción?', '¿Toma diuréticos, omeprazol u otros protectores gástricos, antibióticos o bisfosfonatos?', '¿Qué otras fórmulas con magnesio consume y cuánto magnesio elemental aportan?', '¿Presenta palpitaciones, debilidad intensa o calambres que necesiten valoración?']
+    },
+    {
+        id: 'dismenorrea',
+        name: 'Dolor Menstrual (Dismenorrea)',
+        emoji: '🌸',
+        color: 'pink',
+        minimumUniqueProducts: 4,
+        description: 'Los cólicos menstruales pueden relacionarse con las contracciones del útero, aunque el dolor nuevo, intenso o progresivo puede tener otra causa. El calor local y los analgésicos indicados por un profesional tienen mejor respaldo para el alivio inmediato. Los suplementos del catálogo son opciones complementarias con evidencia variable; no deben retrasar la valoración ginecológica.',
+        symptoms: ['Cólicos en bajo vientre durante la menstruación', 'Dolor que puede irradiarse hacia espalda o muslos', 'Náusea o malestar digestivo coincidente con el periodo', 'Ausentismo o limitación de actividades por dolor', 'Dolor que aumenta con los meses o aparece fuera del periodo'],
+        comboPrincipal: [
+            { id: 81, serving: '2 cápsulas', usage: 'Tomar con alimentos según la ficha solo si no hay contraindicaciones y después de revisar anticoagulantes, gastritis o embarazo.', rationale: 'Jengibre en polvo; algunos ensayos en dismenorrea primaria sugieren menor dolor, pero las preparaciones y pautas estudiadas no son idénticas a este producto.' }
+        ],
+        comboSecundario: [
+            { id: 123, serving: '3 cápsulas', usage: 'Tomar con el desayuno según la ficha, solo tras revisar alergia al pescado y medicamentos que aumentan el sangrado.', rationale: 'Omega-3 como opción de uso continuado; la evidencia para dolor menstrual es variable y no proporciona alivio inmediato garantizado.' },
+            { id: 92, serving: '2 cápsulas', usage: 'Tomar con alimentos solo si existe ingesta insuficiente o indicación profesional; revisar enfermedad renal y otros suplementos de magnesio.', rationale: 'Magnesio malato con 200 mg elementales. La investigación para aliviar cólicos menstruales es insuficiente para considerarlo tratamiento principal.' },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar con alimentos únicamente después de revisar anticoagulantes, trastornos de coagulación y problemas biliares.', rationale: 'Curcumina con estudios pequeños y resultados contradictorios en dismenorrea; la dosis y fórmula de esta presentación no se han probado para este uso.' }
+        ],
+        lifestyleTips: ['Usar calor local y registrar intensidad, duración y relación del dolor con el ciclo.', 'Consultar sobre analgésicos antiinflamatorios y otras opciones habituales si el dolor limita actividades.', 'Buscar valoración si el dolor empieza por primera vez después de años de ciclos sin dolor, empeora, aparece fuera del periodo o se acompaña de sangrado abundante.', 'No sumar jengibre, cúrcuma y omega-3 sin revisar riesgo de sangrado y medicamentos.', 'Distinguir esta guía del síndrome premenstrual, que suele empezar antes del sangrado y puede incluir síntomas físicos y emocionales.'],
+        advisorQuestions: ['¿Desde cuándo hay dolor y ocurre solo durante la menstruación?', '¿El dolor empeora, incapacita o aparece fuera del periodo?', '¿Hay sangrado muy abundante, fiebre, dolor durante relaciones sexuales o posibilidad de embarazo?', '¿Qué analgésicos, anticonceptivos o tratamientos indicó ginecología?', '¿Toma anticoagulantes o tiene gastritis, enfermedad biliar o alergia al pescado?']
+    },
+    {
+        id: 'diarrea_antibioticos',
+        name: 'Diarrea Asociada a Antibióticos (Evaluación y Apoyo)',
+        emoji: '🦠',
+        color: 'green',
+        minimumSecondaryProducts: 1,
+        minimumUniqueProducts: 2,
+        description: 'La diarrea durante o después de un antibiótico puede ser un efecto adverso o una infección por Clostridioides difficile. Si aparece, se debe contactar a un profesional para valorar hidratación y necesidad de pruebas. El beneficio preventivo de probióticos depende de cepas concretas: las fórmulas de este catálogo no documentan equivalencia con las combinaciones recomendadas en guías clínicas.',
+        symptomsTitle: 'Datos que requieren evaluación:',
+        symptoms: ['Antibiótico en curso o terminado recientemente', 'Heces sueltas repetidas o diarrea acuosa', 'Dolor abdominal, náusea o pérdida de apetito', 'Fiebre, sangre en heces o signos de deshidratación', 'Antecedente de infección por C. difficile o ingreso hospitalario reciente'],
+        comboPrincipal: [
+            { id: 129, serving: '1 cápsula', usage: 'Considerar con alimentos solo si el profesional confirma que la cepa y el contexto clínico justifican usarlo; seguir el antibiótico como fue indicado.', rationale: 'Probiótico con varias especies. La ficha no identifica todas las cepas al nivel usado en los estudios, por lo que no puede prometerse prevención de diarrea ni de C. difficile.' }
+        ],
+        comboSecundario: [
+            { id: 131, serving: '1 cápsula', usage: 'Considerar con alimentos únicamente tras revisar las cepas y cantidades en el envase y descartar inmunosupresión o enfermedad grave.', rationale: 'Otra mezcla probiótica con cepas identificadas; su ficha declara 100 billones en total, pero suma 25 billones para cada una de siete cepas. Verificar el envase: la combinación no coincide claramente con las formulaciones clínicas estudiadas.' }
+        ],
+        lifestyleTips: ['Contactar al profesional si aparece diarrea durante o después de un antibiótico; no suspenderlo ni cambiarlo por cuenta propia.', 'Mantener líquidos y seguir indicaciones sobre sales de rehidratación si hay pérdidas importantes.', 'Fiebre, dolor abdominal intenso, sangre en heces, deshidratación o diarrea persistente requieren valoración pronta.', 'No recomendar probióticos por rutina a personas inmunodeprimidas, gravemente enfermas o con alto riesgo de infección sin autorización médica.', 'No presentar estos probióticos como tratamiento de una infección por C. difficile confirmada.'],
+        advisorQuestions: ['¿Qué antibiótico toma, desde cuándo y para qué infección?', '¿Cuántas evacuaciones líquidas tiene al día y cuándo comenzaron?', '¿Hay fiebre, dolor intenso, sangre en heces o señales de deshidratación?', '¿Existe inmunosupresión, enfermedad grave o antecedente de C. difficile?', '¿Un profesional ha indicado o descartado un probiótico de cepa específica?']
+    },
+    {
+        id: 'deficiencia_vitamina_d',
+        name: 'Deficiencia de Vitamina D (Evaluación y Apoyo)',
+        emoji: '☀️',
+        color: 'orange',
+        minimumUniqueProducts: 4,
+        description: 'La vitamina D ayuda a absorber calcio y mantener la salud ósea. Su estado se valora, cuando hay indicación clínica, mediante 25-hidroxivitamina D [25(OH)D]. Como referencia, menos de 12 ng/ml se asocia con deficiencia y entre 12 y menos de 20 ng/ml puede indicar aporte inadecuado; la interpretación y el tratamiento se individualizan. Muchas personas no tienen síntomas, aunque una deficiencia importante puede causar dolor óseo y debilidad muscular.',
+        symptomsTitle: 'Factores de riesgo y señales para consultar:',
+        symptoms: ['Malabsorción, cirugía bariátrica o dieta con muy poca vitamina D', 'Fragilidad ósea, fracturas o dolor óseo persistente', 'Debilidad muscular sin causa clara', 'Uso de medicamentos que alteran la absorción o metabolismo de vitamina D', 'Resultado de 25(OH)D bajo interpretado por un profesional'],
+        comboPrincipal: [
+            { id: 245, serving: '1 cápsula', usage: 'Tomar con una comida que contenga grasas solo si el plan individual requiere vitamina D; consultar antes si usa warfarina.', rationale: 'Aporta vitamina D3 1000 UI con vitamina K2. La K2 no es necesaria para corregir toda deficiencia y puede interferir con anticoagulantes cumarínicos.' }
+        ],
+        comboSecundario: [
+            { id: 109, serving: '1 cápsula', usage: 'Tomar con alimentos que contengan grasas según la ficha solo si la combinación y sus cantidades encajan en el plan indicado.', rationale: 'Aporta vitamina D3 400 UI junto con magnesio, K2 y zinc; revisar duplicación de ingredientes y anticoagulantes.' },
+            { id: 154, serving: '2 cápsulas', usage: 'Tomar con alimentos únicamente si también se indicó calcio; confirmar cuánto calcio elemental aporta y evitar duplicarlo.', rationale: 'Calcio citrato con vitamina D3 400 UI. El calcio adicional depende de la dieta y situación ósea; no toda deficiencia de vitamina D lo requiere.' },
+            { id: 166, serving: '1 cápsula', usage: 'Usar solo si el profesional prescribe esta concentración y define duración y seguimiento de 25(OH)D y calcio.', rationale: 'Aporta 5000 UI de vitamina D3 por cápsula, por encima del límite superior habitual de 4000 UI diarios en adultos; no es una opción de automedicación prolongada.' }
+        ],
+        lifestyleTips: ['No solicitar análisis de 25(OH)D de rutina a toda persona sana; valorar pruebas según riesgo e indicación clínica.', 'Revisar alimentos con vitamina D y fortificados; la exposición solar debe seguir medidas de protección de la piel.', 'Sumar la vitamina D presente en todos los suplementos antes de elegir una presentación.', 'Consultar antes si hay cálculos renales, calcio alto, enfermedad renal, sarcoidosis o uso de diuréticos tiazídicos.', 'No usar dosis altas durante meses sin seguimiento; el exceso puede elevar el calcio y dañar riñones.'],
+        advisorQuestions: ['¿Existe un resultado de 25(OH)D y por qué se solicitó?', '¿Hay cirugía bariátrica, malabsorción, fracturas o problemas óseos?', '¿Qué vitamina D y calcio obtiene ya de alimentos, medicamentos y suplementos?', '¿Usa warfarina, tiazidas, corticoides u orlistat?', '¿Tiene cálculos renales, calcio elevado, enfermedad renal o sarcoidosis?']
     }
 ];
