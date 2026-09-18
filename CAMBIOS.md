@@ -54,7 +54,7 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 - Se eliminó el pequeño recuadro vacío sobre el título del catálogo.
 - Se separaron el diseño, la lógica y los datos en archivos para facilitar el mantenimiento.
 - Se incorporaron herramientas de validación; actualmente se ejecutan localmente antes de publicar.
-- La validación local confirma 269 productos, 75 guías y 485 referencias válidas de productos dentro de las guías.
+- La validación local confirma 269 productos, 75 guías y 486 referencias válidas de productos dentro de las guías.
 
 ## Fechas principales
 
@@ -65,6 +65,7 @@ Resumen de los cambios publicados desde la primera versión del 16 de julio de 2
 - Se añadió ALBIZIA + BACOPA como opción adicional en Ansiedad y Estrés Crónico y Memoria y Enfoque Mental; ALBIZIA + RHODIOLA, en Fatiga Crónica y Burnout y Memoria y Enfoque Mental. Las recomendaciones indican el alcance limitado de la evidencia de las fórmulas completas.
 - Se crearon cinco guías: seguimiento nutricional después de cirugía bariátrica, deficiencia de magnesio, dolor menstrual, diarrea asociada a antibióticos y deficiencia de vitamina D.
 - Se ajustó la redacción de la guía de vitamina D para centrar el uso de la presentación concentrada en una pauta y seguimiento individuales.
+- Se añadió la D3 de 1000 UI de Zennatura como alternativa a la D3 + K2 de NOW en la guía de vitamina D. Ambas aportan la misma cantidad de D3; la guía pide elegir una sola presentación y revisar la pertinencia de sus ingredientes adicionales.
 - Las guías con pocas opciones pertinentes conservan mínimos propios de referencias para evitar recomendaciones de relleno. Se señalaron las dosis altas, las cantidades elementales no declaradas y las fórmulas probióticas sin equivalencia clínica comprobada.
 - Referencias para estas guías: [ASMBS](https://asmbs.org/wp-content/uploads/2017/06/ASMBS-Nutritional-Guidelines-2016-Update.pdf), [NIH sobre magnesio](https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/), [NIH sobre vitamina D](https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/), [ACOG sobre dolor menstrual](https://www.acog.org/womens-health/faqs/dysmenorrhea-painful-periods), [AGA sobre probióticos](https://gastro.org/clinical-guidance/role-of-probiotics-in-the-management-of-gastrointestinal-disorders/) y [CDC sobre C. difficile](https://www.cdc.gov/c-diff/about/index.html).
 

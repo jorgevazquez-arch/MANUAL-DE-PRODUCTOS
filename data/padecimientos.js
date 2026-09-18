@@ -1510,19 +1510,21 @@ window.manualData.padecimientos = [
         name: 'Deficiencia de Vitamina D (Evaluación y Apoyo)',
         emoji: '☀️',
         color: 'orange',
+        primaryOptionsLabel: 'Alternativas de D3 1000 UI',
         minimumUniqueProducts: 4,
         description: 'La vitamina D ayuda a absorber calcio y mantener la salud ósea. Su estado se valora, cuando hay indicación clínica, mediante 25-hidroxivitamina D [25(OH)D]. Como referencia, menos de 12 ng/ml se asocia con deficiencia y entre 12 y menos de 20 ng/ml puede indicar aporte inadecuado; la interpretación y el tratamiento se individualizan. Muchas personas no tienen síntomas, aunque una deficiencia importante puede causar dolor óseo y debilidad muscular.',
         symptomsTitle: 'Factores de riesgo y señales para consultar:',
         symptoms: ['Malabsorción, cirugía bariátrica o dieta con muy poca vitamina D', 'Fragilidad ósea, fracturas o dolor óseo persistente', 'Debilidad muscular sin causa clara', 'Uso de medicamentos que alteran la absorción o metabolismo de vitamina D', 'Resultado de 25(OH)D bajo interpretado por un profesional'],
         comboPrincipal: [
-            { id: 245, serving: '1 cápsula', usage: 'Tomar con una comida que contenga grasas solo si el plan individual requiere vitamina D; consultar antes si usa warfarina.', rationale: 'Aporta vitamina D3 1000 UI con vitamina K2. La K2 no es necesaria para corregir toda deficiencia y puede interferir con anticoagulantes cumarínicos.' }
+            { id: 245, serving: '1 cápsula', usage: 'Elegir esta presentación con el profesional y tomarla con una comida que contenga grasas; consultar antes si usa warfarina.', rationale: 'Aporta vitamina D3 1000 UI con vitamina K2. La K2 no es necesaria para corregir toda deficiencia y puede interferir con anticoagulantes cumarínicos.' },
+            { id: 55, serving: '1 cápsula', usage: 'Elegirla como alternativa a NOW y tomarla con alimentos; revisar alergia a equinácea y uso de inmunosupresores.', rationale: 'Aporta la misma cantidad de vitamina D3 (1000 UI). La vitamina C y la equinácea tienen otros fines; no hacen de esta fórmula un tratamiento específico superior para la deficiencia de vitamina D.' }
         ],
         comboSecundario: [
             { id: 109, serving: '1 cápsula', usage: 'Tomar con alimentos que contengan grasas según la ficha solo si la combinación y sus cantidades encajan en el plan indicado.', rationale: 'Aporta vitamina D3 400 UI junto con magnesio, K2 y zinc; revisar duplicación de ingredientes y anticoagulantes.' },
             { id: 154, serving: '2 cápsulas', usage: 'Tomar con alimentos únicamente si también se indicó calcio; confirmar cuánto calcio elemental aporta y evitar duplicarlo.', rationale: 'Calcio citrato con vitamina D3 400 UI. El calcio adicional depende de la dieta y situación ósea; no toda deficiencia de vitamina D lo requiere.' },
             { id: 166, serving: '1 cápsula', usage: 'Usar solo si el profesional prescribe esta concentración y define duración y seguimiento de 25(OH)D y calcio.', rationale: 'Aporta 5000 UI de vitamina D3 por cápsula. La necesidad de esta presentación y el tiempo de uso dependen de la valoración individual.' }
         ],
-        lifestyleTips: ['No solicitar análisis de 25(OH)D de rutina a toda persona sana; valorar pruebas según riesgo e indicación clínica.', 'Revisar alimentos con vitamina D y fortificados; la exposición solar debe seguir medidas de protección de la piel.', 'Sumar la vitamina D presente en todos los suplementos antes de elegir una presentación.', 'Consultar antes si hay cálculos renales, calcio alto, enfermedad renal, sarcoidosis o uso de diuréticos tiazídicos.', 'No usar dosis altas durante meses sin seguimiento; el exceso puede elevar el calcio y dañar riñones.'],
+        lifestyleTips: ['No solicitar análisis de 25(OH)D de rutina a toda persona sana; valorar pruebas según riesgo e indicación clínica.', 'Revisar alimentos con vitamina D y fortificados; la exposición solar debe seguir medidas de protección de la piel.', 'NOW y Zennatura aportan D3 1000 UI: elegir una sola presentación y sumar la vitamina D de todos los suplementos.', 'Consultar antes si hay cálculos renales, calcio alto, enfermedad renal, sarcoidosis o uso de diuréticos tiazídicos.', 'No usar dosis altas durante meses sin seguimiento; el exceso puede elevar el calcio y dañar riñones.'],
         advisorQuestions: ['¿Existe un resultado de 25(OH)D y por qué se solicitó?', '¿Hay cirugía bariátrica, malabsorción, fracturas o problemas óseos?', '¿Qué vitamina D y calcio obtiene ya de alimentos, medicamentos y suplementos?', '¿Usa warfarina, tiazidas, corticoides u orlistat?', '¿Tiene cálculos renales, calcio elevado, enfermedad renal o sarcoidosis?']
     }
 ];

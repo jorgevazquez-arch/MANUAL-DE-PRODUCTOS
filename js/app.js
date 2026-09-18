@@ -674,7 +674,7 @@
                             <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
                             <p class="padecimiento-card-description">${pad.description}</p>
                             <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
-                                <span class="padecimiento-editorial-preview-title">Paquete principal</span>
+                                <span class="padecimiento-editorial-preview-title">${pad.primaryOptionsLabel || 'Paquete principal'}</span>
                                 <span class="padecimiento-editorial-preview-products">${editorialPreview}</span>
                             </span>
                             <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
@@ -717,8 +717,8 @@
                 html += `
                                 <div class="padecimiento-combos">
                                     <div class="padecimiento-combo-principal">
-                                        <span class="padecimiento-editorial-eyebrow">Lo esencial</span>
-                                        <h4>Combo Principal</h4>
+                                        <span class="padecimiento-editorial-eyebrow">${pad.primaryOptionsLabel ? 'Elegir una opción' : 'Lo esencial'}</span>
+                                        <h4>${pad.primaryOptionsLabel || 'Combo Principal'}</h4>
                                         <ul class="padecimiento-editorial-product-list">`;
                 pad.comboPrincipal.forEach(item => {
                     const product = productos.find(p => p.id === item.id);
@@ -972,7 +972,7 @@
                                  </tr>
                             </thead>
                             <tbody>
-                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Paquete Principal</td></tr>
+                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">${pad.primaryOptionsLabel || 'Paquete Principal'}</td></tr>
                                  ${pad.comboPrincipal.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
                                      return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
