@@ -39,7 +39,9 @@ window.manualData.padecimientos = [
             { id: 109, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos grasos.', rationale: 'Vitamina D3 esencial para la energía.' },
             { id: 5, serving: '3 cápsulas', usage: 'Tomar esta porción por la mañana con alimentos.', rationale: 'Complejo B y Ginseng para el metabolismo energético.' },
             { id: 117, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAD+ y Resveratrol para la energía mitocondrial.' },
-            { id: 181, serving: '4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Magnesio Bisglicinato (alta biodisponibilidad) contribuye a la reducción del cansancio y la fatiga, y apoya la función muscular y nerviosa.' }
+            { id: 181, serving: '4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'El Magnesio Bisglicinato (alta biodisponibilidad) contribuye a la reducción del cansancio y la fatiga, y apoya la función muscular y nerviosa.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) recarga la producción de ATP mitocondrial, combatiendo la fatiga celular del burnout. Complementa al NAD+ en la cadena de transporte de electrones.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ALA, cromo e inulina para apoyar el metabolismo energético y el aprovechamiento de la glucosa como combustible celular.' }
         ],
         lifestyleTips: ['Priorizar el descanso y el sueño de calidad.', 'Establecer límites claros entre el trabajo y la vida personal.', 'Incorporar técnicas de relajación como meditación, yoga o mindfulness.', 'Mantener una dieta rica en nutrientes.']
     },
@@ -153,7 +155,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ashwagandha modula el eje del estrés.' },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B para la síntesis de neurotransmisores.' },
-            { id: 94, serving: '2 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: 'Magnesio con efecto calmante.' }
+            { id: 94, serving: '2 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: 'Magnesio con efecto calmante.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) mejora la producción de energía en mitocondrias neuronales; niveles bajos de CoQ10 se han asociado a síntomas depresivos.' }
         ],
         lifestyleTips: ['Buscar apoyo psicoterapéutico.', 'Exponerse a la luz solar diariamente.', 'Mantener una rutina y establecer metas pequeñas.']
     },
@@ -358,6 +361,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 128, serving: '3 cápsulas (2.05 g)', usage: 'Tomar una vez al día con alimentos únicamente con autorización clínica, después de revisar potasio en sangre, función renal y medicamentos.', rationale: 'El potasio en cápsulas no es una recomendación rutinaria para hipertensión. Puede ser peligroso con enfermedad renal, potasio elevado, inhibidores de la ECA, ARA II o diuréticos ahorradores de potasio.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas, únicamente como apoyo complementario con autorización del cardiólogo.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la función endotelial y la producción de energía del músculo cardíaco; forma reducida con mayor biodisponibilidad que la CoQ10 convencional. Puede ser útil si se toman estatinas.' },
             { id: 136, serving: '1 cápsula (500 mg)', usage: 'Tomar una vez al día con alimentos que contengan grasas, únicamente como apoyo complementario acordado con el profesional.', rationale: 'Coenzima Q10 como opción de apoyo general. La evidencia para reducir presión es variable y no debe presentarse como antihipertensivo.' },
             { id: 10, serving: '3 cápsulas', usage: 'Tomar una vez al día con alimentos solo después de revisar todos sus botánicos y medicamentos. Elegir esta fórmula o el ajo negro, no ambas de rutina.', rationale: 'CUORE contiene ajo, zapote blanco, enebro, té verde y otros ingredientes. Es una alternativa multicomponente que requiere mayor revisión de interacciones y tolerancia.' }
         ],
@@ -379,6 +383,7 @@ window.manualData.padecimientos = [
             { id: 23, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro como alternativa oral, revisando anticoagulantes y riesgo de sangrado.' },
             { id: 122, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Omega-3 como apoyo cardiovascular general; no presentarlo como producto que adelgaza la sangre.' },
             { id: 138, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Resveratrol como apoyo antioxidante, revisando medicamentos.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la energía del endotelio vascular y la función antioxidante de las paredes venosas.' },
             { id: 183, serving: 'Una aplicación (capa fina)', usage: 'Aplicar una capa fina en la zona afectada 2-3 veces al día.', rationale: 'Gel refrescante como alternativa al gel 182; no es necesario utilizar ambos.' }
         ],
         lifestyleTips: ['Elevar las piernas por encima del nivel del corazón.', 'Usar medias de compresión graduada.', 'Caminar a paso ligero a diario.', 'Evitar ropa excesivamente ajustada.']
@@ -532,7 +537,9 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 122, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Omega-3 como apoyo nutricional cardiovascular general, no como producto para bajar directamente la glucosa.' },
             { id: 17, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ácido alfa lipoico como apoyo antioxidante, especialmente si existe neuropatía; no sustituye el control de glucosa.' },
-            { id: 103, serving: '15 ml', usage: 'Tomar esta porción diluida en agua antes de una comida, según tolerancia.', rationale: 'Vinagre de manzana como opción alimentaria complementaria; evitar en gastritis, úlcera o reflujo y vigilar glucosa con medicamentos.' }
+            { id: 103, serving: '15 ml', usage: 'Tomar esta porción diluida en agua antes de una comida, según tolerancia.', rationale: 'Vinagre de manzana como opción alimentaria complementaria; evitar en gastritis, úlcera o reflujo y vigilar glucosa con medicamentos.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) mejora la función mitocondrial y reduce el estrés oxidativo; la resistencia a la insulina se asocia con disfunción mitocondrial.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ácido clorogénico, ALA, cromo e inulina para apoyar el metabolismo de la glucosa y la sensibilidad a la insulina.' }
         ],
         lifestyleTips: ['Priorizar alimentos ricos en fibra y reducir bebidas azucaradas.', 'Hacer ejercicio aeróbico y de fuerza de forma regular.', 'Caminar después de las comidas cuando sea posible.', 'No indicar ayuno intermitente automáticamente; debe individualizarse según medicamentos, embarazo, edad y antecedentes.']
     },
@@ -555,7 +562,9 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 17, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ácido alfa lipoico como apoyo complementario principalmente cuando existe neuropatía; no sustituye el control glucémico.' },
             { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Omega-3 como apoyo al perfil de triglicéridos, revisando anticoagulantes.' },
-            { id: 103, serving: '15 ml', usage: 'Tomar esta porción diluida en agua antes de una comida, según tolerancia.', rationale: 'Vinagre de manzana como opción alimentaria complementaria; evitar en gastritis, úlcera o reflujo y vigilar glucosa si se usan antidiabéticos.' }
+            { id: 103, serving: '15 ml', usage: 'Tomar esta porción diluida en agua antes de una comida, según tolerancia.', rationale: 'Vinagre de manzana como opción alimentaria complementaria; evitar en gastritis, úlcera o reflujo y vigilar glucosa si se usan antidiabéticos.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la función mitocondrial y cardiovascular; la diabetes genera estrés oxidativo que agota la CoQ10 endógena.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ácido clorogénico, ALA, cromo e inulina para apoyar el metabolismo de la glucosa y la sensibilidad a la insulina.' }
         ],
         lifestyleTips: ['Priorizar alimentos de bajo índice glucémico y ricos en fibra.', 'Distribuir las comidas en porciones más pequeñas y frecuentes.', 'Realizar actividad física regular, especialmente caminar después de comer.', 'Dar seguimiento a los niveles de glucosa con supervisión médica.']
     },
@@ -574,7 +583,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 95, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Producto de apoyo comercial para control de peso, sin sustituir un plan alimentario ni prometer supresión clínicamente demostrada del apetito.' },
             { id: 25, serving: '10 g (2 cucharadas)', usage: 'Tomar esta porción al día. En ayunas o con alimentos.', rationale: 'Espirulina como complemento nutricional, no como producto adelgazante.' },
-            { id: 146, serving: '1 sobre (3 g) por taza', usage: 'Preparar cada taza con 1 sobre (3 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día. Preferentemente por la noche.', rationale: 'Infusión sin azúcar como alternativa de bebida; no presentarla como tratamiento para bajar de peso.' }
+            { id: 146, serving: '1 sobre (3 g) por taza', usage: 'Preparar cada taza con 1 sobre (3 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día. Preferentemente por la noche.', rationale: 'Infusión sin azúcar como alternativa de bebida; no presentarla como tratamiento para bajar de peso.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ácido clorogénico, ALA, cromo e inulina para apoyar el metabolismo de la glucosa y la sensibilidad a la insulina como parte del manejo del síndrome metabólico.' }
         ],
         lifestyleTips: ['Priorizar proteína en cada comida para mayor saciedad.', 'Reducir azúcares refinados y harinas procesadas.', 'Incorporar entrenamiento de fuerza para mejorar la composición corporal.', 'Dormir al menos 7-8 horas, ya que la falta de sueño altera el apetito y el metabolismo.', 'Ver también la guía "Control de Peso" para fórmulas comerciales adicionales (Demograss, Goji Trim, D Master, etc.).']
     },
@@ -590,10 +600,12 @@ window.manualData.padecimientos = [
             { id: 23, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Ajo negro como apoyo cardiovascular general; revisar anticoagulantes, antihipertensivos y antidiabéticos.' }
         ],
         comboSecundario: [
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas. Especialmente recomendado si se toman estatinas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®), forma reducida de la Coenzima Q10 con mayor biodisponibilidad. Las estatinas agotan los niveles endógenos de CoQ10; el ubiquinol puede contrarrestar síntomas musculares y fatiga asociados.' },
             { id: 136, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Coenzima Q10 como apoyo de energía celular; puede valorarse si existen síntomas musculares asociados a estatinas, sin suspenderlas.' },
             { id: 115, serving: '20 gotas', usage: 'Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, con revisión médica y seguimiento del perfil de lípidos.', rationale: 'YUMEL como alternativa tradicional de evidencia clínica limitada. Un reporte humano preliminar no permite asegurar reducción de LDL o triglicéridos; no sustituye estatinas, fibratos ni el seguimiento de laboratorio. Elegir YUMEL o berberina (ID 36), no ambos de rutina.' },
             { id: 145, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Lecitina y colina como apoyo nutricional al metabolismo de grasas; no sustituye el tratamiento de la dislipidemia.' },
-            { id: 36, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Berberina como alternativa complementaria: los metaanálisis muestran reducciones modestas de LDL y triglicéridos, generalmente con 900-1500 mg al día. Esta presentación aporta una dosis menor; revisar interacciones con antidiabéticos, antihipertensivos, anticoagulantes y otros medicamentos.' }
+            { id: 36, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción al día con alimentos.', rationale: 'Berberina como alternativa complementaria: los metaanálisis muestran reducciones modestas de LDL y triglicéridos, generalmente con 900-1500 mg al día. Esta presentación aporta una dosis menor; revisar interacciones con antidiabéticos, antihipertensivos, anticoagulantes y otros medicamentos.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ácido clorogénico, ALA, cromo e inulina para apoyar el metabolismo de glucosa y lípidos.' }
         ],
         lifestyleTips: ['Reducir el consumo de grasas trans y azúcares refinados.', 'Aumentar el consumo de fibra soluble (avena, leguminosas, chía).', 'Realizar ejercicio cardiovascular de forma regular.', 'Dar seguimiento con análisis de sangre periódicos.']
     },
@@ -616,7 +628,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ashwagandha regula el cortisol.' },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B como cofactores energéticos.' },
-            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAC aumenta el glutatión para combatir el estrés oxidativo.' }
+            { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'NAC aumenta el glutatión para combatir el estrés oxidativo.' },
+            { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'AMP-ON combina hesperidina, Gynostemma, ALA, cromo e inulina para apoyar el metabolismo energético y el aprovechamiento eficiente de la glucosa como combustible celular.' }
         ],
         lifestyleTips: ['Gestión de la energía (pacing).', 'Sueño reparador.', 'Dieta antiinflamatoria y baja en carbohidratos refinados.']
     },
@@ -677,7 +690,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción diaria. Con alimentos.', rationale: 'Zinc esencial para la producción de testosterona.' },
             { id: 33, serving: '2 cápsulas', usage: 'Tomar esta porción por la tarde/noche. Con alimentos.', rationale: 'Ashwagandha reduce el cortisol.' },
-            { id: 143, serving: '1 cápsula', usage: 'Tomar esta porción diaria. Con alimentos.', rationale: 'Shilajit y Tongkat Ali potencian la vitalidad.' }
+            { id: 143, serving: '1 cápsula', usage: 'Tomar esta porción diaria. Con alimentos.', rationale: 'Shilajit y Tongkat Ali potencian la vitalidad.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) mejora la función endotelial y la circulación; apoya la producción de energía celular necesaria para la vitalidad y el rendimiento.' }
         ],
         lifestyleTips: ['Realizar entrenamiento de fuerza (pesas) y rutinas HIIT.', 'Controlar el peso y evitar el exceso de grasa abdominal.', 'Priorizar el descanso profundo (7-8 horas).', 'Reducir el consumo de alcohol y manejar el estrés.']
     },
@@ -753,7 +767,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Zinc para convertir T4 en T3.' },
             { id: 142, serving: '1 tableta', usage: 'Tomar esta porción al día, únicamente con seguimiento profesional.', rationale: 'Selenio como cofactor de enzimas que participan en el metabolismo tiroideo.' },
-            { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B para el metabolismo energético.' }
+            { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitaminas B para el metabolismo energético.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la producción de energía mitocondrial; el hipotiroidismo reduce la actividad metabólica celular y el ubiquinol contribuye a compensar esa baja producción de ATP.' }
         ],
         lifestyleTips: ['Evitar el consumo excesivo de vegetales crudos crucíferos.', 'Asegurar un buen aporte de yodo, selenio y zinc.', 'Consultar al médico para tratamiento hormonal.']
     },
@@ -1018,7 +1033,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 154, serving: '2 cápsulas', usage: 'Tomar una vez al día con alimentos únicamente cuando el plan nutricional identifique ingesta insuficiente de calcio o riesgo óseo.', rationale: 'Calcio citrato con vitamina D3 como apoyo óseo en fragilidad. No es un tratamiento directo de la sarcopenia y requiere revisar calcio total, riñón y medicamentos.' },
             { id: 225, serving: '1 pastilla', usage: 'Masticar o disolver completamente en la boca una vez al día, solo ante deficiencia, dieta vegetal estricta, malabsorción o indicación profesional.', rationale: 'Vitamina B12 para corregir una necesidad documentada que puede contribuir a anemia, neuropatía o debilidad. No debe asumirse que toda fatiga en el adulto mayor es falta de B12.' },
-            { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal únicamente cuando la evaluación dietética muestre una ingesta insuficiente o restrictiva.', rationale: 'Multivitamínico y mineral como opción condicional. No sustituye proteína, energía, ejercicio ni el estudio de pérdida de peso.' }
+            { id: 159, serving: '3 cápsulas', usage: 'Tomar una cápsula antes de cada comida principal únicamente cuando la evaluación dietética muestre una ingesta insuficiente o restrictiva.', rationale: 'Multivitamínico y mineral como opción condicional. No sustituye proteína, energía, ejercicio ni el estudio de pérdida de peso.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas, únicamente si el profesional lo autoriza.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la función mitocondrial del músculo envejecido; los niveles de CoQ10 disminuyen con la edad, contribuyendo a la sarcopenia.' }
         ],
         lifestyleTips: ['Realizar entrenamiento de fuerza adaptado y supervisado de forma regular, además de ejercicios de equilibrio.', 'Distribuir alimentos con proteína a lo largo del día; el nutriólogo debe calcular la cantidad total, especialmente en enfermedad renal o hepática.', 'Evaluar pérdida de peso, dentición, deglución, depresión, medicamentos y otras causas de baja ingesta.', 'No combinar varias proteínas, creatinas o multivitamínicos: elegir una opción según dieta, tolerancia y objetivo.', 'Una caída con lesión, debilidad de aparición reciente, dificultad para tragar o pérdida rápida de peso requiere valoración médica.']
     },
@@ -1100,7 +1116,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 92, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Magnesio Malato mejora la conducción nerviosa.' },
             { id: 12, serving: '1 cápsula', usage: 'Tomar esta porción dos veces al día. Con alimentos que contengan grasas.', rationale: 'Cúrcuma, Jengibre y Moringa como antiinflamatorios.' },
-            { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción diarias. Con alimentos.', rationale: 'Melena de León estimula el Factor de Crecimiento Nervioso.' }
+            { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción diarias. Con alimentos.', rationale: 'Melena de León estimula el Factor de Crecimiento Nervioso.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la función mitocondrial de los nervios periféricos y reduce el estrés oxidativo asociado al daño nervioso.' }
         ],
         lifestyleTips: ['Control estricto de glucosa en caso de diabetes.', 'Revisar los pies diariamente.', 'Masajear las extremidades suavemente.', 'Evitar el alcohol por completo.']
     },
@@ -1245,7 +1262,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 87, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción una vez al día con alimentos, preferentemente por la mañana.', rationale: 'L-Tirosina, precursora de dopamina y noradrenalina, para apoyar la atención.' },
             { id: 4, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: 'Complejo B para el metabolismo energético neuronal.' },
-            { id: 120, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Omega-3 adicional (EPA/DHA) para apoyo cognitivo.' }
+            { id: 120, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: 'Omega-3 adicional (EPA/DHA) para apoyo cognitivo.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) apoya la producción de ATP en las mitocondrias neuronales, contribuyendo a la energía cerebral necesaria para la atención y la concentración.' }
         ],
         lifestyleTips: ['Mantener horarios y rutinas estructuradas y predecibles.', 'Reducir el consumo de azúcares refinados y colorantes artificiales.', 'Favorecer el ejercicio físico regular, que mejora la atención y el estado de ánimo.', 'Este protocolo es un apoyo nutricional complementario; el diagnóstico y tratamiento del TDAH deben ser guiados por un especialista.']
     },
@@ -1398,7 +1416,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 62, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Eveaux combina colágeno, queratina, vitaminas y minerales para el cuidado integral de piel, cabello y uñas.' },
             { id: 18, serving: '15 g (1 cuchara)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ácido hialurónico con colágeno para la hidratación profunda de la piel.' },
-            { id: 108, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitamina C, cofactor esencial para la síntesis de colágeno.' }
+            { id: 108, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Vitamina C, cofactor esencial para la síntesis de colágeno.' },
+            { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: 'Ubiquinol (CoQ10 activa Kaneka®) es un potente antioxidante celular que protege las mitocondrias del daño por radicales libres; los niveles de CoQ10 disminuyen con la edad, acelerando el envejecimiento celular.' }
         ],
         lifestyleTips: ['Usar protector solar diario, el principal factor de envejecimiento prematuro evitable.', 'Mantener buena hidratación con agua simple.', 'Dormir bien, ya que la piel se regenera principalmente durante el sueño.', 'LEUCAPS, rico en luteína y zeaxantina, también aporta antioxidantes para la piel.']
     }
