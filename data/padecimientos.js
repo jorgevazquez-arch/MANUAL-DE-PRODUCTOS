@@ -733,7 +733,8 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 137, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Shatavari como tónico femenino.' },
             { id: 125, serving: '10 g', usage: 'Tomar esta porción al día, en ayunas o entre comidas.', rationale: 'Colágeno para la piel y los huesos.' },
-            { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ashwagandha regula el cortisol.' }
+            { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: 'Ashwagandha regula el cortisol.' },
+            { id: 273, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: 'La ficha lo orienta al bienestar femenino durante el climaterio; contiene cohosh negro e isoflavonas de soja.' }
         ],
         lifestyleTips: ['Vestir en capas para manejar los bochornos.', 'Realizar ejercicio de fuerza para la salud ósea.', 'Incluir soya y linaza en la dieta.']
     },

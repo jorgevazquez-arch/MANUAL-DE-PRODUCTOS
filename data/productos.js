@@ -6717,4 +6717,27 @@ window.manualData.productos = [
     interactions: "Consultar antes de combinar con antidepresivos, antihipertensivos o sedantes; se han comunicado posibles interacciones de Rhodiola con antidepresivos y losartán. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; consultar cómo separar las tomas."
 },
 
+// 273. COHOSH NEGRO CON ISOFLAVONAS
+{
+    id: 273,
+    code: "",
+    name: "COHOSH NEGRO CON ISOFLAVONAS",
+    category: "hormonal",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/10/COHOSH-NEGRO.jpg",
+    shortDesc: "Combinación de cohosh negro y isoflavonas de soja para apoyar el bienestar femenino durante el climaterio. Envase con 90 cápsulas.",
+    ingredients: "Por cápsula (500 mg): mezcla de extracto de raíz y rizoma de cohosh negro (Actaea racemosa) e isoflavonas de soja (Glycine max). La ficha no especifica la cantidad individual de cada ingrediente.",
+    serving: "3 cápsulas (1,500 mg de mezcla)",
+    timing: "Con alimentos, distribuido durante el día",
+    intakeInstructions: "Tomar 3 cápsulas al día con alimentos y un vaso de agua, según la ficha del producto. No exceder la porción indicada.",
+    benefits: [
+        "Apoya el bienestar femenino durante el climaterio",
+        "Combina cohosh negro e isoflavonas de soja",
+        "Aporta ingredientes botánicos en cápsulas",
+        "Puede complementar hábitos saludables durante la transición hormonal"
+    ],
+    contraindications: "No usar durante el embarazo o la lactancia. Personas con antecedentes o enfermedades hepáticas, condiciones sensibles a hormonas, alergia a la soja o bajo tratamiento médico deben consultar a un profesional de la salud antes de consumirlo.",
+    foodInteractions: "La ficha recomienda consumirlo con alimentos. No especifica otras interacciones con alimentos.",
+    interactions: "Consultar a un profesional de la salud antes de combinarlo con medicamentos, tratamientos hormonales u otros suplementos con fitoestrógenos. La ficha advierte precaución por posibles interacciones y por antecedentes hepáticos."
+},
+
 ];
