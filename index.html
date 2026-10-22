@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
-    <link rel="stylesheet" href="./css/styles.css?v=20261021-asesoria-r1">
+    <link rel="stylesheet" href="./css/styles.css?v=20261022-aviso-interno">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
@@ -47,8 +47,12 @@
         <!-- Contenido Principal -->
         <main id="manualMain" class="w-full py-4 print-container">
 
-            <aside class="no-print mb-5 border-l-2 border-girasol-green-600 pl-3 py-1 text-gray-500" role="note" aria-label="Aviso de uso interno">
-                <p class="text-xs leading-relaxed"><strong class="font-semibold text-gray-600">Material interno de capacitación:</strong> exclusivo para la fuerza de ventas de El Girasol. Apoya la orientación comercial y no sustituye la valoración de un profesional de la salud.</p>
+            <aside class="internal-training-notice no-print mb-5" role="note" aria-label="Aviso de uso interno">
+                <span class="internal-training-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v6c4 3 8 3 12 0v-6M22 9v7"/></svg></span>
+                <div class="internal-training-copy">
+                    <strong>Material interno de capacitación</strong>
+                    <p>Exclusivo para la fuerza de ventas de El Girasol. Apoya la orientación comercial y no sustituye la valoración de un profesional de la salud.</p>
+                </div>
             </aside>
 
             <!-- PORTADA PARA PDF (igual) -->
