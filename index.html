@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
-    <link rel="stylesheet" href="./css/styles.css?v=20261021-r1">
+    <link rel="stylesheet" href="./css/styles.css?v=20261021-asesoria-r1">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
@@ -338,6 +338,7 @@
                 </div>
                 <p class="catalog-search-hint">También puedes escanear un código de barras.</p>
                 <p id="globalSearchStatus" role="status" aria-live="polite"></p>
+                <p id="guideSearchContext" class="advisor-search-context" hidden>Las coincidencias por guía son referencias de capacitación, no una indicación de uso del producto.</p>
                 <div id="filterContainer" class="catalog-filters" role="group" aria-label="Clasificaciones de productos">
                     <button type="button" data-filter="all" class="filter-btn catalog-filter active">Todos</button>
                     <button type="button" data-filter="digestivo" class="filter-btn catalog-filter">🌿 Digestivo</button>
@@ -783,6 +784,10 @@
                         <span id="modalCategory" class="product-sheet-category">Categoría</span>
                         <h3 id="modalName">Nombre</h3>
                         <p id="modalDescription" class="product-sheet-description">Descripción corta</p>
+                        <div class="advisor-choice-note">
+                            <span>Lo que lo distingue</span>
+                            <p id="modalChoiceNote"></p>
+                        </div>
 
                         <div class="product-sheet-facts">
                             <div class="product-sheet-fact">
@@ -807,6 +812,13 @@
                                     <small id="modalYieldNote"></small>
                                 </div>
                             </div>
+                            <div class="product-sheet-fact">
+                                <span class="product-sheet-fact-number" aria-hidden="true">04</span>
+                                <div>
+                                    <span class="product-sheet-fact-label">Contenido del envase</span>
+                                    <p id="modalPackageContent">-</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -816,6 +828,7 @@
                         <div class="product-sheet-section">
                             <p class="product-sheet-eyebrow">Lo esencial</p>
                             <h4>Beneficios clave</h4>
+                            <p class="product-sheet-benefit-reminder" id="modalBenefitSummary" hidden></p>
                             <ul id="modalBenefits" class="product-sheet-benefits"></ul>
                         </div>
 
@@ -842,6 +855,8 @@
                     <aside class="product-sheet-aside">
                         <p class="product-sheet-aside-kicker">Guía de consumo</p>
                         <h4>Cómo tomarlo</h4>
+                        <dl id="modalUsageGuide" class="advisor-usage-list"></dl>
+                        <p class="product-sheet-aside-kicker">Indicaciones registradas</p>
                         <p id="modalIntakeInstructions">-</p>
                         <div class="product-sheet-aside-rule"></div>
                         <p class="product-sheet-aside-kicker">Antes de recomendar</p>
@@ -852,16 +867,16 @@
 
                 <section class="product-sheet-interactions" aria-label="Interacciones del producto">
                     <article>
-                        <span class="product-sheet-detail-icon" aria-hidden="true">Rx</span>
+                        <span class="product-sheet-detail-icon" aria-hidden="true">💊</span>
                         <div>
-                            <h4>Interacciones con medicamentos</h4>
+                            <h4>Al combinar con medicamentos</h4>
                             <p id="modalInter">-</p>
                         </div>
                     </article>
                     <article>
-                        <span class="product-sheet-detail-icon" aria-hidden="true">Al</span>
+                        <span class="product-sheet-detail-icon" aria-hidden="true">🍌</span>
                         <div>
-                            <h4>Interacciones con alimentos</h4>
+                            <h4>Con alimentos y bebidas</h4>
                             <p id="modalFoodInter">-</p>
                         </div>
                     </article>
@@ -870,12 +885,14 @@
                 <section id="modalPadecimientosWrap" class="product-sheet-synergy hidden">
                     <div class="product-sheet-synergy-heading">
                         <div>
-                            <p class="product-sheet-eyebrow">Venta complementaria orientada</p>
-                            <h4>Guías relacionadas y productos en sinergia</h4>
+                            <p class="product-sheet-eyebrow">Comparar y elegir</p>
+                            <h4>Alternativas, complementos y guías relacionadas</h4>
                         </div>
                         <span aria-hidden="true">↗</span>
                     </div>
-                    <p class="product-sheet-synergy-copy">Productos que complementan esta recomendación dentro de cada padecimiento. Son opciones para individualizar, no una indicación para tomarlos todos juntos.</p>
+                    <p class="product-sheet-synergy-copy">Las alternativas son opciones para comparar. Los complementos tienen un aporte distinto que debe revisarse antes de combinar. Compartir una guía no demuestra sinergia.</p>
+                    <div id="modalProductAlternatives"></div>
+                    <div id="modalProductComplements"></div>
                     <div id="modalPadecimientos" class="space-y-3"></div>
                 </section>
 
@@ -892,9 +909,10 @@
         </article>
     </div>
 
-    <script src="./data/productos.js?v=20261021-274-r1"></script>
+    <script src="./data/productos.js?v=20261021-interacciones-r1"></script>
     <script src="./data/padecimientos.js?v=20260918-75-r6"></script>
-    <script src="./js/app.js?v=20261021-r1"></script>
+    <script src="./data/asesoria.js?v=20261021-asesoria-r1"></script>
+    <script src="./js/app.js?v=20261021-asesoria-r1"></script>
 
 </body>
 </html>

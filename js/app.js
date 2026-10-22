@@ -1,6 +1,7 @@
         const { productos, padecimientos } = window.manualData;
         let activeManualTab = 'productos';
         let matchingSearchProductIds = new Set();
+        let directSearchProductIds = new Set();
         const reducedManualMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
         const manualEntranceAnimations = new Map();
 
@@ -67,6 +68,8 @@
             document.getElementById('globalSearchStatus').textContent = searching
                 ? `${matchingSearchProductIds.size} productos · ${guideCount} guías relacionadas`
                 : '';
+            document.getElementById('guideSearchContext').hidden = !searching
+                || !padecimientos.some(guide => window.manualAdvisor.guideMatches(guide, searchInput.value));
         }
 
         function selectManualTab(tab) {
@@ -531,14 +534,14 @@
         // ================================================================
         function getGuideServing(item, product) {
             const serving = String(item?.serving || '').trim();
-            return serving || String(product?.serving || 'Porción no especificada').trim();
+            return String(product?.serving || '').trim() || serving || 'Porción no especificada';
         }
 
         function getGuideUsage(item, product) {
             const guideUsage = String(item?.usage || '').trim();
             const legacyTiming = String(item?.timing || '').trim();
             const productTiming = String(product?.timing || '').trim();
-            return guideUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
+            return product?.intakeInstructions || guideUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
         }
 
         function escapeGuideAttribute(value) {
@@ -596,7 +599,7 @@
                             <span class="section-title">
                                 <span aria-hidden="true">🎯</span> Guía de Apoyo Nutricional
                             </span>
-                            <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Utiliza el buscador principal para filtrar por padecimiento, síntoma o suplemento. Haz clic en un padecimiento para desplegar la información y en un suplemento para ver su ficha técnica.</span>
+                            <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Busca por padecimiento, síntoma o suplemento, por ejemplo «prediabetes» o «resistencia a la insulina». Los términos clínicos sirven para localizar material de capacitación; no son beneficios atribuidos al producto ni un diagnóstico.</span>
                             <span class="section-toggle">
                                 <span class="group-open/guide:hidden">Mostrar padecimientos</span>
                                 <span class="hidden group-open/guide:inline">Ocultar padecimientos</span>
@@ -665,7 +668,7 @@
                         </button>` : '';
                 }).join('');
                 
-                const searchTerms = `${pad.name} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
+                const searchTerms = `${pad.name} ${(pad.searchAliases || []).join(' ')} ${pad.description} ${pad.symptoms.join(' ')} ${pad.comboPrincipal.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')} ${pad.comboSecundario.map(item => productos.find(p => p.id === item.id)?.name || '').join(' ')}`.toLowerCase();
 
                 html += `
                     <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card padecimiento-editorial bg-white rounded-2xl shadow-sm transition-all duration-300 open:shadow-lg scroll-mt-24">
@@ -718,7 +721,7 @@
                                 <div class="padecimiento-combos">
                                     <div class="padecimiento-combo-principal">
                                         <span class="padecimiento-editorial-eyebrow">${pad.primaryOptionsLabel ? 'Elegir una opción' : 'Lo esencial'}</span>
-                                        <h4>${pad.primaryOptionsLabel || 'Combo Principal'}</h4>
+                                        <h4>${pad.primaryOptionsLabel || 'Opciones principales para elegir'}</h4>
                                         <ul class="padecimiento-editorial-product-list">`;
                 pad.comboPrincipal.forEach(item => {
                     const product = productos.find(p => p.id === item.id);
@@ -748,8 +751,8 @@
                 // Combo Secundario
                 html += `
                                     <div class="padecimiento-combo-secundario">
-                                        <span class="padecimiento-editorial-eyebrow">Potenciadores</span>
-                                        <h4>Apoyos Secundarios</h4>
+                                        <span class="padecimiento-editorial-eyebrow">Opciones adicionales</span>
+                                        <h4>Otras opciones de la guía</h4>
                                         <ul class="padecimiento-editorial-product-list secondary">`;
                 pad.comboSecundario.forEach(item => {
                     const product = productos.find(p => p.id === item.id);
@@ -810,7 +813,7 @@
             const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
             const activeColor = searchTerm ? 'all' : (activeColorButton ? activeColorButton.dataset.colorFilter : 'all');
             const relatedGuideIds = new Set(searchTerm ? padecimientos.filter(pad =>
-                [...pad.comboPrincipal, ...pad.comboSecundario].some(product => matchingSearchProductIds.has(product.id))
+                [...pad.comboPrincipal, ...pad.comboSecundario].some(product => directSearchProductIds.has(product.id))
             ).map(pad => `padecimiento-${pad.id}`) : []);
 
             // Limpiar resaltados anteriores
@@ -881,6 +884,8 @@
                 .normalize('NFD')
                 .replace(/[\u0300-\u036f]/g, '')
                 .toLowerCase()
+                .replace(/[-_]/g, ' ')
+                .replace(/\s+/g, ' ')
                 .trim();
         }
 
@@ -889,7 +894,7 @@
             if (term.length < 3) return false;
 
             const matches = padecimientos.filter(pad => {
-                const searchable = normalizeGuideSearch(`${pad.name} ${pad.description} ${(pad.symptoms || []).join(' ')}`);
+                const searchable = normalizeGuideSearch(`${pad.name} ${(pad.searchAliases || []).join(' ')} ${pad.description} ${(pad.symptoms || []).join(' ')}`);
                 const element = document.getElementById(`padecimiento-${pad.id}`);
                 return searchable.includes(term) && element && element.style.display !== 'none';
             });
@@ -1184,7 +1189,7 @@
                         let matchField = null;
                         if (p.code && normalizeGuideSearch(p.code).includes(searchTerm)) {
                             matchField = 'Código de Barras';
-                        } else if (normalizeGuideSearch(p.name).includes(searchTerm)) {
+                        } else if (normalizeGuideSearch(p.name).includes(searchTerm) || (p.searchAliases || []).some(alias => normalizeGuideSearch(alias).includes(searchTerm))) {
                             matchField = 'Nombre';
                         } else if (p.shortDesc && normalizeGuideSearch(p.shortDesc).includes(searchTerm)) {
                             matchField = 'Descripción';
@@ -1198,6 +1203,10 @@
                             matchField = 'Interacciones';
                         } else if (p.foodInteractions && normalizeGuideSearch(p.foodInteractions).includes(searchTerm)) {
                             matchField = 'Interacciones con Alimentos';
+                        } else if (p.choiceNote && normalizeGuideSearch(p.choiceNote).includes(searchTerm)) {
+                            matchField = 'Diferencia de fórmula';
+                        } else if (window.manualAdvisor.getProductGuideMatches(p.id, searchTerm).length) {
+                            matchField = 'Guía relacionada · consulta interna';
                         }
 
                         if (matchField) {
@@ -1212,6 +1221,7 @@
             }
 
             matchingSearchProductIds = new Set(searchTerm ? results.map(product => product.id) : []);
+            directSearchProductIds = new Set(searchTerm ? results.filter(product => product.matchField !== 'Guía relacionada · consulta interna').map(product => product.id) : []);
             // Ordenar alfabéticamente los resultados
             results.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -1250,6 +1260,7 @@
                             </div>
                         </div>
                         <p class="text-xs text-gray-600 mb-3 flex-1 line-clamp-3">${p.shortDesc}</p>
+                        <p class="advisor-card-choice">${escapeGuideAttribute(p.choiceNote)}</p>
                         <div class="flex items-center justify-end mt-auto">
                             <label data-card-control class="gl-checkbox">
                                 <input type="checkbox" class="gl-checkbox__input compare-checkbox" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
@@ -1559,26 +1570,30 @@
             });
         }
 
-        function getSinergiasPorPadecimiento(pad, productId) {
+        function getProductosRelacionadosPorGuia(pad, productId) {
+            const selected = productos.find(product => product.id === productId);
             const principales = (pad.comboPrincipal || []).map(item => ({ ...item, tipo: 'Principal' }));
             const adicionales = (pad.comboSecundario || []).map(item => ({ ...item, tipo: 'Apoyo adicional' }));
 
             return [...principales, ...adicionales]
                 .filter(item => item.id !== productId)
                 .map(item => ({ ...item, producto: productos.find(product => product.id === item.id) }))
-                .filter(item => item.producto);
+                .filter(item => item.producto)
+                .map(item => ({ ...item, relationship: window.manualAdvisor.getRelationship(selected, item.producto) }));
         }
 
         function renderSinergiaProducto(item) {
             const product = item.producto;
-            const rationale = escapeGuideAttribute(item.rationale || `Complementa el protocolo de esta guía como ${item.tipo.toLowerCase()}.`);
+            const label = { alternative: 'Alternativa a comparar', complement: 'Complemento por valorar', related: 'Otra opción de esta guía' }[item.relationship] || 'Otra opción de esta guía';
+            const rationale = escapeGuideAttribute(product.choiceNote || label);
             return `
                 <button type="button" onclick="openModal(${product.id})" title="${rationale}"
                     class="text-left flex items-center gap-2 rounded-xl border border-indigo-100 bg-white p-2 hover:border-indigo-300 hover:shadow-sm transition-all">
                     <span class="guide-synergy-product-photo">${renderGuideProductImage(product)}</span>
                     <span class="min-w-0">
                         <span class="block text-xs font-bold leading-tight text-gray-800">${product.name}</span>
-                        <span class="block mt-0.5 text-[10px] font-semibold uppercase tracking-wide ${item.tipo === 'Principal' ? 'text-girasol-green-700' : 'text-blue-700'}">${item.tipo}</span>
+                        <span class="block mt-0.5 text-[10px] font-semibold uppercase tracking-wide text-gray-600">${label}</span>
+                        <span class="advisor-relation-description">${escapeGuideAttribute(product.choiceNote)}</span>
                     </span>
                 </button>`;
         }
@@ -1644,108 +1659,166 @@
         });
 
         function parseYieldNumber(value) {
-            const raw = String(value || '').trim();
+            const raw = String(value ?? '').trim();
             if (/^\d{1,3},\d{3}$/.test(raw)) return Number(raw.replace(',', ''));
             return Number(raw.replace(',', '.'));
         }
 
+        function getYieldAmount(text, type) {
+            const units = type === 'count'
+                ? 'cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|tablets?|capletas?|pastillas?|tabs|comprimidos|sobres?|bolsitas?|sachets?|sticks?|ampolletas?|ampollas?'
+                : type === 'weight' ? 'kg|kilogramos?|gr|gramos?|g'
+                    : 'ml|mililitros?|litros?|l';
+            const match = String(text || '').match(new RegExp(
+                '(\\d+(?:[.,]\\d+)?)(?:\\s*(?:a|o|hasta|[-–])\\s*(\\d+(?:[.,]\\d+)?))?\\s*(' + units + ')\\b', 'i'));
+            if (!match) return null;
+            const unit = match[3].toLowerCase();
+            const factor = /^(kg|kilogramos?)$/.test(unit) ? 1000
+                : /^(l|litros?)$/.test(unit) ? 1000 : 1;
+            return {
+                min: parseYieldNumber(match[1]) * factor,
+                max: parseYieldNumber(match[2] || match[1]) * factor,
+                label: match[0],
+                end: match.index + match[0].length,
+                index: match.index
+            };
+        }
+
+        function getYieldFrequency(text) {
+            const words = { una: 1, un: 1, dos: 2, tres: 3, cuatro: 4, cinco: 5, seis: 6 };
+            const number = '(\\d+|una|un|dos|tres|cuatro|cinco|seis)';
+            const value = (word) => words[word.toLowerCase()] || Number(word);
+            const range = String(text || '').match(new RegExp(
+                number + '(?:\\s*(?:a|o|hasta|[-–])\\s*' + number + ')?\\s*(?:veces|tomas|porciones)\\s*(?:(?:al|por)\\s*día|\\/\\s*día|diarias?)', 'i'));
+            if (range) return { min: value(range[1]), max: value(range[2] || range[1]), label: range[0] };
+            const upTo = String(text || '').match(new RegExp('hasta\\s*' + number + '\\s*veces', 'i'));
+            if (upTo) return { min: 1, max: value(upTo[1]), label: upTo[0] };
+            const hours = String(text || '').match(/cada\s*(\d+)\s*horas/i);
+            if (hours) return { min: 24 / Number(hours[1]), max: 24 / Number(hours[1]), label: hours[0] + ' durante 24 horas' };
+            if (/cada tercer día/i.test(text)) return { min: 1 / 3, max: 1 / 3, label: 'cada tercer día' };
+            if (/cada (?:comida|alimento)|desayuno,\s*comida y cena/i.test(text)) {
+                return { min: 3, max: 3, label: '3 comidas al día' };
+            }
+            if (/(?:al|por)\s*día|diariamente/i.test(text)) return { min: 1, max: 1, label: '1 vez al día' };
+            return null;
+        }
+
+        function getYieldReferenceText(text) {
+            // Keep one population at a time: never combine an adult dose with a child's frequency.
+            let reference = String(text || '');
+            const adults = reference.search(/\badultos\b/i);
+            if (adults >= 0) reference = reference.slice(adults);
+            return reference.split(/(?:\.\s*|;\s*)(?=(?:niños|niñas|jóvenes|adultos deportistas|adultos no deportistas)\b)/i)[0];
+        }
+
         function getProductYield(product) {
             const explicit = product.yieldInfo;
-            if (explicit?.durationDays) {
-                return { value: formatYieldDays(Math.round(Number(explicit.durationDays))), note: explicit.note || 'Estimado según la presentación y el consumo indicados.' };
+            if (Number(explicit?.durationDays) > 0) {
+                return { value: formatYieldDays(Number(explicit.durationDays)), note: explicit.note || 'Calculado con el contenido y el consumo diario registrados.' };
             }
-            if (explicit?.servingsPerContainer && explicit?.servingsPerDay) {
-                const days = Math.round(Number(explicit.servingsPerContainer) / Number(explicit.servingsPerDay));
-                return { value: formatYieldDays(days), note: explicit.note || 'Estimado según las porciones indicadas.' };
+            if (Number(explicit?.servingsPerContainer) > 0 && Number(explicit?.servingsPerDay) > 0) {
+                return {
+                    value: formatYieldDays(Number(explicit.servingsPerContainer) / Number(explicit.servingsPerDay)),
+                    note: explicit.note || 'Contenido en porciones dividido entre las porciones indicadas al día.'
+                };
             }
 
-            const productName = product.name || '';
-            const unitCountMatch = productName.match(/(\d+(?:[.,]\d+)?)\s*(cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|tablets?|pastillas?|tabs|comprimidos|sobres|sachets|sticks|ampolletas?|ampollas?|porciones|servicios)\b/i);
-            const packageSizeMatch = productName.match(/(\d+(?:[.,]\d+)?)\s*(kg|kilogramos?|gr|g|lbs?|ml|mililitros?|l|litros?)\b/i);
+            const serving = getYieldReferenceText(product.serving);
+            const directions = getYieldReferenceText(product.intakeInstructions);
+            const timing = String(product.timing || '');
+            if (/tópic|uso externo|cocinar|freír|hornear/i.test(serving + ' ' + directions)) {
+                return { value: 'Variable según uso', note: 'La cantidad usada en cada aplicación o preparación no está definida.' };
+            }
 
-            let packageAmount = null;
-            let packageUnit = null;
-            let packageLabel = '';
-            if (product.nutritionFacts?.servingsPerContainer) {
-                packageAmount = parseYieldNumber(product.nutritionFacts.servingsPerContainer);
-                packageUnit = 'servings';
-                packageLabel = `${packageAmount} porciones`;
-            } else if (unitCountMatch) {
-                packageAmount = parseYieldNumber(unitCountMatch[1]);
-                packageUnit = 'count';
-                packageLabel = `${packageAmount} ${unitCountMatch[2]}`;
-            } else if (packageSizeMatch) {
-                const rawAmount = parseYieldNumber(packageSizeMatch[1]);
-                const rawUnit = packageSizeMatch[2].toLowerCase();
-                if (/^(kg|kilogramos?)$/.test(rawUnit)) {
-                    packageAmount = rawAmount * 1000;
-                    packageUnit = 'weight';
-                    packageLabel = `${rawAmount} kg`;
-                } else if (/^lbs?$/.test(rawUnit)) {
-                    packageAmount = rawAmount * 453.592;
-                    packageUnit = 'weight';
-                    packageLabel = `${rawAmount} lb`;
-                } else if (/^(gr|g)$/.test(rawUnit)) {
-                    packageAmount = rawAmount;
-                    packageUnit = 'weight';
-                    packageLabel = `${rawAmount} g`;
-                } else if (/^(l|litros?)$/.test(rawUnit)) {
-                    packageAmount = rawAmount * 1000;
-                    packageUnit = 'volume';
-                    packageLabel = `${rawAmount} L`;
-                } else {
-                    packageAmount = rawAmount;
-                    packageUnit = 'volume';
-                    packageLabel = `${rawAmount} ml`;
+            const source = product.packageContent || product.name || '';
+            let type = 'count';
+            let container = getYieldAmount(source, type);
+            if (!container) { type = 'weight'; container = getYieldAmount(source, type); }
+            if (!container) { type = 'volume'; container = getYieldAmount(source, type); }
+            // Pounds are a weight, never litres.
+            if (/(\d+(?:[.,]\d+)?)\s*lbs?\b/i.test(source)
+                && (!container || source.search(/\d+(?:[.,]\d+)?\s*lbs?\b/i) < container.index)) {
+                const pounds = source.match(/(\d+(?:[.,]\d+)?)\s*lbs?\b/i);
+                type = 'weight';
+                container = { min: parseYieldNumber(pounds[1]) * 453.59237, label: pounds[0] };
+            }
+            if (!container || !(container.min > 0)) {
+                return { value: 'Falta contenido del envase', note: 'Se necesita la cantidad total para dividirla entre el consumo diario.' };
+            }
+
+            const servingDose = getYieldAmount(serving, type);
+            const directionDose = getYieldAmount(directions, type);
+            // Explicit totals override per-intake quantities, including parenthesized daily totals.
+            const dailyTotal = (text) => {
+                const unitText = type === 'count'
+                    ? '(?:cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|capletas?|pastillas?|sobres?|bolsitas?|ampolletas?|ampollas?)'
+                    : type === 'weight' ? '(?:kg|gr|gramos?|g)' : '(?:ml|mililitros?|litros?|l)';
+                const direct = String(text || '').match(new RegExp(
+                    '(\\d+(?:[.,]\\d+)?(?:\\s*(?:a|o|[-–])\\s*\\d+(?:[.,]\\d+)?)?)\\s*' + unitText + '\\s*(?:(?:al|por)\\s*día|diari[oa]s?)', 'i'));
+                return direct ? getYieldAmount(direct[0], type) : null;
+            };
+            const servingFrequency = getYieldFrequency(serving);
+            let total = dailyTotal(serving) || (!servingFrequency ? dailyTotal(directions) : null);
+            let frequency = null;
+            let assumed = false;
+            let dose = null;
+            if (!total) {
+                dose = servingDose || (/gotas?/i.test(serving) && type === 'volume' ? null : directionDose);
+                if (!dose) {
+                    const drops = /\bgotas?\b/i.test(serving);
+                    return {
+                        value: drops ? 'Falta equivalencia de gotas' : 'Falta equivalencia de la porción',
+                        note: drops
+                            ? 'La porción está en gotas y el envase en ml; se necesita la equivalencia del proveedor para calcular la duración.'
+                            : 'La porción registrada no se puede convertir a la unidad del envase.'
+                    };
                 }
-            }
-
-            if (!packageAmount || !packageUnit) {
-                return { value: 'Datos incompletos', note: 'El catálogo aún no registra cuántas cápsulas, tabletas, sobres, gramos o mililitros contiene este envase.' };
-            }
-
-            if (packageUnit === 'servings') {
-                return { value: packageLabel, note: 'La duración depende de cuántas porciones se indiquen al día.' };
-            }
-
-            const servingAndDirections = `${product.serving || ''} ${product.intakeInstructions || ''} ${product.timing || ''}`;
-            if (/adultos|niños|niñas|1\s*(?:a|-|hasta)\s*\d+\s*(?:cápsulas?|tabletas?|ml|g|gotas?)/i.test(servingAndDirections)) {
-                return { value: packageLabel, note: 'La dosis varía según la persona; confirmar la duración con la etiqueta.' };
-            }
-
-            const amountPattern = packageUnit === 'count'
-                ? /(\d+(?:[.,]\d+)?)\s*(?:cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|tablets?|pastillas?|tabs|comprimidos|sobres|sachets|sticks|ampolletas?|ampollas?)/i
-                : packageUnit === 'weight'
-                    ? /(\d+(?:[.,]\d+)?)\s*(?:kg|kilogramos?|gr|g)\b/i
-                    : /(\d+(?:[.,]\d+)?)\s*(?:ml|mililitros?|l|litros?)\b/i;
-            const doseMatch = (product.intakeInstructions || '').match(amountPattern) || (product.serving || '').match(amountPattern);
-            const frequencyText = `${product.intakeInstructions || ''} ${product.timing || ''} ${product.serving || ''}`;
-            const frequencyMatch = frequencyText.match(/(\d+|una|un|dos|tres|cuatro|cinco|seis)\s*(?:veces|tomas)\s*(?:al|por)\s*día/i);
-            const spells = { una: 1, un: 1, dos: 2, tres: 3, cuatro: 4, cinco: 5, seis: 6 };
-            let frequency = frequencyMatch ? (Number(frequencyMatch[1]) || spells[frequencyMatch[1].toLowerCase()]) : null;
-            if (!frequency && /(?:al|por)\s*día|diariamente|cada 24 horas/i.test(frequencyText)) frequency = 1;
-
-            const assumedOnePortionDaily = Boolean(doseMatch && !frequency);
-            if (assumedOnePortionDaily) frequency = 1;
-            if (doseMatch && frequency) {
-                const dailyAmount = parseYieldNumber(doseMatch[1]) * frequency;
-                if (dailyAmount > 0) {
-                    const days = Math.round(packageAmount / dailyAmount);
-                    const note = assumedOnePortionDaily
-                        ? `Estimado suponiendo 1 porción al día del envase de ${packageLabel}; confirmar la frecuencia en la etiqueta.`
-                        : `Estimado con el envase de ${packageLabel} y la dosis diaria registrada.`;
-                    return { value: formatYieldDays(days), note };
+                // A serving in ml or grams is preferable to the water used to dilute it.
+                const measureRange = type === 'weight' && serving.match(/(\d+)\s*(?:a|o|[-–])\s*(\d+)\s*medidas?\s*\([^)]*cada una/i);
+                if (measureRange) dose = { ...dose, min: dose.min * Number(measureRange[1]), max: dose.max * Number(measureRange[2]) };
+                const directionFrequency = getYieldFrequency(directions);
+                frequency = servingFrequency && servingFrequency.label !== '1 vez al día'
+                    ? servingFrequency : directionFrequency || servingFrequency || getYieldFrequency(timing);
+                if (/\bhasta\s+\d+\s*veces/i.test(serving + ' ' + directions) && frequency) {
+                    frequency.min = 1;
+                    frequency.label = '1 a ' + frequency.max + ' veces al día';
                 }
+                if (!frequency && /por la noche|antes de acostarse/i.test(serving + ' ' + directions + ' ' + timing)) {
+                    frequency = { min: 1, max: 1, label: '1 toma por noche' };
+                }
+                assumed = !frequency;
+                frequency ||= { min: 1, max: 1, label: '1 porción al día' };
+                total = { min: dose.min * frequency.min, max: dose.max * frequency.max, label: dose.label };
             }
-
-            return { value: packageLabel, note: 'Falta confirmar una dosis diaria para calcular los días de uso.' };
+            if (!(total.min > 0) || !(total.max > 0)) {
+                return { value: 'Falta consumo diario', note: 'Se necesita la cantidad que se consume al día para calcular la duración.' };
+            }
+            const minDays = container.min / total.max;
+            const maxDays = container.min / total.min;
+            const number = (value) => Number(value.toFixed(1)).toLocaleString('es-MX', { maximumFractionDigits: 1 });
+            let unit = type === 'count' ? container.label.replace(/^\d+(?:[.,]\d+)?\s*/, '') : type === 'weight' ? 'g' : 'ml';
+            if (type === 'count' && total.min === 1 && total.max === 1) unit = unit.replace(/s$/, '');
+            const dailyLabel = total.min === total.max ? number(total.min) : number(total.min) + ' a ' + number(total.max);
+            const population = (serving.match(/^([^:]+):/) || directions.match(/^([^:]+):/))?.[1];
+            const populationNote = population && /adultos|niños|niñas|jóvenes/i.test(population)
+                ? ' Referencia: ' + population + '.' : '';
+            return {
+                value: Math.abs(maxDays - minDays) < 0.001
+                    ? formatYieldDays(minDays)
+                    : number(minDays) + ' a ' + number(maxDays) + ' días',
+                note: container.label + ' ÷ ' + dailyLabel + ' ' + unit + ' al día.'
+                    + (frequency && dose ? ' Porción: ' + dose.label + '; ' + frequency.label + '.' : '')
+                    + populationNote
+                    + (assumed ? ' Estimado a 1 porción diaria; la frecuencia no está indicada.' : '')
+            };
         }
 
         function formatYieldDays(days) {
-            const safeDays = Math.max(1, days);
-            const months = safeDays / 30;
-            const monthText = Number.isInteger(months) ? String(months) : months.toFixed(1).replace('.', ',');
-            return `≈ ${safeDays} días (≈ ${monthText} ${months === 1 ? 'mes' : 'meses'})`;
+            const number = (value) => Number(value.toFixed(1)).toLocaleString('es-MX', { maximumFractionDigits: 1 });
+            const dayLabel = number(days);
+            if (days < 30) return dayLabel + (days === 1 ? ' día' : ' días');
+            const months = days / 30;
+            return dayLabel + ' días (' + number(months) + (months === 1 ? ' mes' : ' meses') + ')';
         }
 
         function openModal(id) {
@@ -1763,8 +1836,12 @@
             document.getElementById('modalImage').onerror = function() { this.src = 'https://placehold.co/200x200/e2e8f0/475569?text=' + encodeURIComponent(p.name); };
             document.getElementById('modalCategory').textContent = (categoryIcons[p.category]?.name || p.category).toUpperCase();
             document.getElementById('modalDescription').textContent = p.shortDesc;
+            document.getElementById('modalChoiceNote').textContent = p.choiceNote;
+            document.getElementById('modalUsageGuide').innerHTML = window.manualAdvisor.getPracticalUsage(p)
+                .map(([label, value]) => `<div><dt>${escapeGuideAttribute(label)}</dt><dd>${escapeGuideAttribute(value)}</dd></div>`).join('');
             document.getElementById('modalIngredients').textContent = p.ingredients || 'No especificado';
             document.getElementById('modalServing').textContent = p.serving || 'No especificado';
+            document.getElementById('modalPackageContent').textContent = p.packageContent || 'No especificado';
             const productYield = getProductYield(p);
             document.getElementById('modalYield').textContent = productYield.value;
             document.getElementById('modalYieldNote').textContent = productYield.note;
@@ -1795,22 +1872,44 @@
             // Nuevos campos
             document.getElementById('modalTiming').textContent = p.timing || 'Según lo indicado en la porción sugerida.';
             document.getElementById('modalIntakeInstructions').textContent = p.intakeInstructions || 'Seguir las indicaciones del empaque.';
-            document.getElementById('modalFoodInter').textContent = p.foodInteractions || 'No se han reportado interacciones significativas con alimentos. Tomar preferentemente con comidas para mejor tolerancia, a menos que se indique lo contrario.';
+            document.getElementById('modalFoodInter').textContent = p.foodInteractions || 'La ficha no indica precauciones específicas con alimentos.';
 
             const benefitsList = document.getElementById('modalBenefits');
+            const benefitSummary = document.getElementById('modalBenefitSummary');
+            benefitSummary.textContent = p.benefitSummary ? `Para recordarlo: ${p.benefitSummary}` : '';
+            benefitSummary.hidden = !p.benefitSummary;
             benefitsList.innerHTML = p.benefits ? p.benefits.map(b => `<li>${b}</li>`).join('') : '<li>No especificado</li>';
 
             document.getElementById('modalContra').textContent = p.contraindications || 'No especificado';
-            document.getElementById('modalInter').textContent = p.interactions || 'No especificado';
+            document.getElementById('modalInter').textContent = p.interactions || 'La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.';
 
             // Guías de padecimiento relacionadas (para el asesor en punto de venta)
             const padWrap = document.getElementById('modalPadecimientosWrap');
             const padContainer = document.getElementById('modalPadecimientos');
             const relacionados = getPadecimientosRelacionados(p.id);
-            if (relacionados.length > 0) {
+            const alternatives = p.alternativeProductIds.map(id => productos.find(product => product.id === id)).filter(Boolean);
+            const possibleComplements = p.complementaryProductIds
+                .filter(id => !p.alternativeProductIds.includes(id))
+                .map(id => productos.find(product => product.id === id)).filter(Boolean);
+            document.getElementById('modalProductAlternatives').innerHTML = alternatives.length ? `
+                <details class="advisor-alternatives">
+                    <summary>Alternativas para comparar (${alternatives.length})</summary>
+                    <p>${escapeGuideAttribute(p.comparisonTip)} Son opciones distintas, no equivalentes en dosis ni una indicación para tomarlas juntas.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${alternatives.map(producto => renderSinergiaProducto({ producto, relationship: 'alternative' })).join('')}</div>
+                </details>` : '';
+            document.getElementById('modalProductComplements').innerHTML = possibleComplements.length ? `
+                <details class="advisor-alternatives">
+                    <summary>Complementos posibles (${possibleComplements.length})</summary>
+                    <p>Aportan algo distinto. Valorar si se necesita ese aporte y revisar porciones, ingredientes repetidos e interacciones antes de combinar; no significa que la pareja tenga un efecto superior demostrado.</p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${possibleComplements.map(producto => renderSinergiaProducto({ producto, relationship: 'complement' })).join('')}</div>
+                </details>` : '';
+            if (relacionados.length > 0 || alternatives.length > 0 || possibleComplements.length > 0) {
                 padContainer.innerHTML = relacionados.map(pad => {
-                    const sinergias = getSinergiasPorPadecimiento(pad, p.id);
-                    const selectedRole = (pad.comboPrincipal || []).some(item => item.id === p.id) ? 'Producto principal' : 'Apoyo adicional';
+                    const related = getProductosRelacionadosPorGuia(pad, p.id);
+                    const complements = related.filter(item => item.relationship === 'complement');
+                    const others = related.filter(item => item.relationship === 'related');
+                    const renderGroup = (title, items) => items.length ? `<h5 class="advisor-relation-title">${title}</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${items.map(renderSinergiaProducto).join('')}</div>` : '';
+                    const selectedRole = (pad.comboPrincipal || []).some(item => item.id === p.id) ? 'Opción de la guía' : 'Opción adicional';
                     return `
                         <section class="rounded-2xl border border-indigo-200 bg-indigo-50/70 p-3">
                             <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
@@ -1820,10 +1919,10 @@
                                 </button>
                                 <span class="rounded-full bg-white border border-indigo-200 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-indigo-600">${selectedRole}</span>
                             </div>
-                            <p class="text-[11px] font-semibold text-gray-600 mb-2">Productos que hacen sinergia en esta guía:</p>
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                                ${sinergias.map(renderSinergiaProducto).join('')}
-                            </div>
+                            <p class="advisor-guide-context">Consulta interna por tema. El nombre de la guía no describe un beneficio demostrado de este producto.</p>
+                            ${renderGroup('Complementos posibles: revisar porciones, duplicados e interacciones', complements)}
+                            ${renderGroup('Otras opciones relacionadas: combinación no evaluada', others)}
+                            ${!complements.length && !others.length ? '<p class="advisor-guide-context">Las opciones similares están en «Alternativas para comparar».</p>' : ''}
                         </section>`;
                 }).join('');
                 padWrap.classList.remove('hidden');
@@ -1933,6 +2032,8 @@
                             ? `<ul class="compare-benefits">${product.benefits.map((benefit) => `<li>${benefit}</li>`).join('')}</ul>`
                             : '-' },
                         { label: 'Ingredientes', get: (product) => product.ingredients || '-' },
+                        { label: 'Lo que lo distingue', get: (product) => escapeGuideAttribute(product.choiceNote || '-') },
+                        { label: 'Contenido del envase', get: (product) => product.packageContent || '-' },
                         { label: 'Porción sugerida', get: (product) => product.serving || '-' },
                         { label: 'Horario', get: (product) => product.timing || '-' },
                         { label: 'Modo de uso', get: (product) => product.intakeInstructions || '-' }

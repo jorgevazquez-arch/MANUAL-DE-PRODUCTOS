@@ -3585,3 +3585,48 @@ html.dark-mode body .product-sheet-nutrition-table th,
 html.dark-mode body .product-sheet-nutrition-table td { color: #e5e5e8; border-color: #414147; }
 .product-sheet-yield-fact small { display: block; margin-top: 0.25rem; color: #6b7280; font-size: 0.68rem; line-height: 1.4; }
 html.dark-mode body .product-sheet-yield-fact small { color: #b4b4ba; }
+
+.product-sheet-benefit-reminder {
+    margin: 0.85rem 0 1rem;
+    padding: 0.8rem 1rem;
+    border: 1px solid #dedee2;
+    border-radius: 0.85rem;
+    background: #f5f5f6;
+    color: #35353b;
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+html.dark-mode body .product-sheet-benefit-reminder {
+    border-color: #45454b;
+    background: #2b2b30;
+    color: #ededf0;
+}
+
+.advisor-choice-note {
+    margin-top: 1rem;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid #71717a;
+    border-radius: 0 0.8rem 0.8rem 0;
+    background: #f4f4f5;
+    color: #3f3f46;
+    font-size: 0.82rem;
+    line-height: 1.6;
+}
+.advisor-choice-note > span,
+.advisor-usage-list dt { display: block; font-size: 0.65rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+.advisor-choice-note p { margin-top: 0.3rem; }
+.advisor-card-choice { padding: 0.7rem 0; border-top: 1px solid #e4e4e7; color: #52525b; font-size: 0.72rem; line-height: 1.55; margin-bottom: 0.75rem; }
+.advisor-usage-list { display: grid; gap: 0.9rem; margin: 1rem 0 1.4rem; }
+.advisor-usage-list dd { margin: 0.25rem 0 0; font-size: 0.8rem; line-height: 1.65; }
+.advisor-alternatives { border: 1px solid #d4d4d8; padding: 1rem; border-radius: 1rem; margin-bottom: 1.2rem; }
+.advisor-alternatives summary { cursor: pointer; font-size: 0.9rem; font-weight: 750; }
+.advisor-alternatives > p,
+.advisor-guide-context { color: #52525b; font-size: 0.75rem; line-height: 1.6; margin: 0.75rem 0; }
+.advisor-relation-title { font-size: 0.76rem; font-weight: 700; margin: 1rem 0 0.6rem; }
+.advisor-relation-description { display: block; font-size: 0.7rem; font-weight: 400; line-height: 1.5; margin-top: 0.35rem; color: #52525b; }
+.advisor-search-context { margin: 0.5rem 0 0; font-size: 0.75rem; color: #52525b; line-height: 1.6; }
+html.dark-mode body .advisor-choice-note { background: #2b2b30; border-color: #a1a1aa; color: #ededf0; }
+html.dark-mode body .advisor-alternatives,
+html.dark-mode body .advisor-card-choice { border-color: #45454b; }
+html.dark-mode body :is(.advisor-card-choice, .advisor-relation-description, .advisor-alternatives > p, .advisor-guide-context, .advisor-search-context) { color: #c4c4cc; }

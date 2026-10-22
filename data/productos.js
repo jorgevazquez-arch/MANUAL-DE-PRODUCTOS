@@ -2,9 +2,9 @@
 //  DATA: Catálogo de productos - El Girasol
 //  Define la variable global `productos` (array de objetos).
 //  Edítalo con cualquier editor de texto; cada producto sigue
-//  el mismo formato: { id, code, name, category, image,
+//  el mismo formato: { id, code, name, packageContent, category, image,
 //  shortDesc, ingredients, serving, timing, intakeInstructions,
-//  benefits[], contraindications, foodInteractions, interactions }
+//  benefits[], benefitSummary, contraindications, foodInteractions, interactions }
 //  ⚠️ El 'id' debe ser único y NUNCA reutilizarse en otro producto.
 //  Después de editar, abre validate.html para revisar errores.
 // ============================================================
@@ -18,6 +18,7 @@ window.manualData.productos = [
     id: 1,
     code: "7503021404145",
     name: "CLORURO DE MAGNESIO 250 gr",
+    benefitSummary: "Magnesio para músculos, nervios y energía",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CLORURO-MAGNESIO-250.jpg",
     shortDesc: "Suplemento de magnesio en polvo de alta biodisponibilidad, contribuye a la función muscular y nerviosa y a la reducción del cansancio.",
@@ -26,16 +27,15 @@ window.manualData.productos = [
     timing: "Una vez al día, preferentemente con alimentos",
     intakeInstructions: "Disolver 4 g en 200-250 ml de agua o jugo. Consumir con alimentos.",
     benefits: [
-      "Contribuye a la reducción del cansancio y la fatiga",
-      "Apoya el funcionamiento normal de los músculos",
-      "Mantiene la salud ósea",
-      "Participa en la producción de energía",
-      "Favorece la función nerviosa",
-      "Ayuda al equilibrio electrolítico"
+      "Ayuda a aprovechar los alimentos para producir energía",
+      "Contribuye a reducir el cansancio cuando falta magnesio",
+      "Apoya el movimiento normal de los músculos",
+      "Participa en el buen funcionamiento de los nervios",
+      "Ayuda a mantener los huesos en buen estado"
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos de la conducción cardíaca, o bajo tratamiento con diuréticos, antibióticos (tetraciclinas, quinolonas) o bifosfonatos deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con diuréticos, antibióticos (tetraciclinas, quinolonas) y bifosfonatos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas."
   },
 
   // ================================================================
@@ -45,6 +45,7 @@ window.manualData.productos = [
     id: 2,
     code: "7500645001439",
     name: "COCONUT + OREGANO OIL (60 cápsulas)",
+    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Coconut-y-Oregano1.jpg",
     shortDesc: "Combinación de aceite de coco virgen extra y orégano estandarizado en carvacrol, para apoyo digestivo y antioxidante.",
@@ -53,16 +54,15 @@ window.manualData.productos = [
     timing: "Una vez al día, con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos y un vaso de agua.",
     benefits: [
-      "Apoya la salud digestiva",
-      "Aporta antioxidantes naturales",
-      "Contribuye al bienestar general",
-      "Proporciona ácidos grasos de cadena media (MCT)",
-      "Favorece la función inmunológica",
-      "Ayuda a mantener la salud de la piel"
+      "Combina aceite de coco y orégano en una sola cápsula",
+      "El coco aporta grasas que el cuerpo puede usar como energía",
+      "El orégano aporta compuestos con actividad antioxidante",
+      "Su enfoque es complementar el cuidado digestivo",
+      "Permite incorporar estos ingredientes sin su sabor intenso"
     ],
     contraindications: "No recomendado durante el embarazo o lactancia sin consulta médica. Personas con alergia a plantas de la familia Lamiaceae (menta, tomillo, albahaca) deben consultar a su profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -72,6 +72,7 @@ window.manualData.productos = [
     id: 3,
     code: "7503016797153",
     name: "COLÁGENO HIDROLIZADO 500 g",
+    benefitSummary: "Nutrición para el cuidado de piel y articulaciones",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/colageno-hidrolizado.png",
     shortDesc: "Péptidos de colágeno hidrolizado en polvo, enriquecido con vitamina C y biotina, para apoyar la piel, articulaciones y tejido conectivo.",
@@ -80,16 +81,15 @@ window.manualData.productos = [
     timing: "Una vez al día, en ayunas o entre comidas",
     intakeInstructions: "Disolver 10 g (1 cucharada) en 200-300 ml de agua, jugo o bebida fría o templada. Consumir una vez al día.",
     benefits: [
-      "Mejora la hidratación, elasticidad y densidad de la piel",
-      "Contribuye al mantenimiento de las articulaciones",
-      "Apoya la salud del cabello y las uñas",
-      "Aporta aminoácidos esenciales",
-      "Favorece la producción de colágeno endógeno",
-      "Ayuda a la recuperación del tejido conectivo"
+      "Aporta proteína para complementar la alimentación",
+      "Ofrece materiales que el cuerpo utiliza para mantener sus tejidos",
+      "Puede apoyar la hidratación y elasticidad de la piel con uso constante",
+      "Complementa el cuidado de las articulaciones",
+      "Se integra fácilmente en bebidas o alimentos"
     ],
     contraindications: "Personas con alergia a la proteína bovina o porcina, o bajo tratamiento con anticoagulantes, deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
   },
 
   // ================================================================
@@ -99,6 +99,7 @@ window.manualData.productos = [
     id: 4,
     code: "7503021404671",
     name: "COMPLEJO B CON ARANDANO (90 cápsulas)",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/COMPLEJO-B-CON-ARANDANO-C90-CAPS-ZN.png",
     shortDesc: "Complejo de vitaminas del grupo B con extracto de arándano, para el metabolismo energético, la función neurológica y la protección celular.",
@@ -107,16 +108,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Contribuye al metabolismo energético normal",
-      "Apoya la función neurológica y la salud mental",
-      "Ayuda a la reducción del cansancio y la fatiga",
-      "Protege las células frente al estrés oxidativo",
-      "Favorece la formación de glóbulos rojos",
-      "Contribuye a la salud visual"
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Apoya el funcionamiento normal de los nervios",
+      "Contribuye a disminuir el cansancio por falta de estas vitaminas",
+      "Participa en la formación normal de glóbulos rojos",
+      "El arándano complementa el aporte de antioxidantes"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes y antidiabéticos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos o controlar el azúcar en la sangre."
   },
 
   // ================================================================
@@ -126,6 +126,7 @@ window.manualData.productos = [
     id: 5,
     code: "7503024738087",
     name: "COMPLEJO B Y GINSENG 60 caps",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/complejo-y-ginseng.jpg",
     shortDesc: "Complejo de vitaminas B con arándanos, vitaminas A, C, D y ginseng siberiano, para energía, vitalidad y protección celular.",
@@ -134,16 +135,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la función cognitiva y la concentración",
-      "Contribuye al metabolismo energético",
-      "Favorece la reducción del cansancio",
-      "Protege las células del estrés oxidativo",
-      "Ayuda a la salud urinaria (cranberry)",
-      "Apoya la función inmunológica"
+      "Las vitaminas B ayudan al cuerpo a aprovechar la energía de la comida",
+      "Complementa la alimentación en etapas de mayor actividad",
+      "El ginseng se usa tradicionalmente como apoyo a la vitalidad",
+      "Apoya el funcionamiento del sistema nervioso",
+      "Aporta ingredientes antioxidantes para el cuidado de las células"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
   },
 
   // ================================================================
@@ -153,6 +153,7 @@ window.manualData.productos = [
     id: 6,
     code: "7500645000517",
     name: "CRANBERRY URY, ARANDANO ROJO 1000 mg",
+    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CRANBERRY-URY.jpg",
     shortDesc: "Extracto de arándano rojo (Vaccinium vitis-idaea) en cápsulas, para apoyar la salud del tracto urinario.",
@@ -161,16 +162,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos. Acompañar con una ingesta adecuada de agua.",
     benefits: [
-      "Apoya la salud del tracto urinario",
-      "Reduce la adherencia bacteriana en la vejiga",
-      "Aporta antioxidantes naturales",
-      "Ayuda a la eliminación de líquidos",
-      "Contribuye al bienestar general",
-      "Favorece la salud de la mujer"
+      "Su ingrediente principal es el arándano rojo",
+      "Se utiliza como complemento del cuidado de las vías urinarias",
+      "Aporta compuestos vegetales con actividad antioxidante",
+      "Su enfoque es el bienestar urinario cotidiano",
+      "Permite incorporar arándano en una presentación práctica"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con antecedentes de cálculos renales de oxalato o bajo tratamiento con anticoagulantes (warfarina) deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes (warfarina) y medicamentos metabolizados por CYP2C9."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma warfarina, un medicamento para evitar coágulos. También se deben revisar otros medicamentos que el hígado procesa por la misma vía; el médico o farmacéutico puede identificarlos."
   },
 
   // ================================================================
@@ -180,6 +180,7 @@ window.manualData.productos = [
     id: 7,
     code: "7503025737355",
     name: "CREATINA MONOHIDRATADA BIRDMAN",
+    benefitSummary: "Creatina para esfuerzos cortos, fuerza y entrenamiento",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CreatinaBirdman1.webp",
     shortDesc: "Creatina monohidratada pura en polvo, para mejorar el rendimiento físico en ejercicios de alta intensidad y corta duración.",
@@ -188,16 +189,15 @@ window.manualData.productos = [
     timing: "Una vez al día, preferentemente después del entrenamiento",
     intakeInstructions: "Mezclar 5 g (1 cuchara) en 200-250 ml de agua o bebida de elección. Consumir una vez al día.",
     benefits: [
-      "Mejora el rendimiento en ejercicios de alta intensidad",
-      "Aumenta la fuerza y potencia muscular",
-      "Favorece la recuperación muscular",
-      "Contribuye al aumento de masa magra",
-      "Ayuda a la hidratación celular",
-      "Es una ayuda ergogénica respaldada científicamente"
+      "Ayuda a rendir mejor en esfuerzos cortos e intensos",
+      "Apoya la fuerza en ejercicios como pesas y sprints",
+      "Ayuda a sostener el rendimiento en series repetidas",
+      "Puede favorecer la ganancia muscular junto con entrenamiento",
+      "Complementa una rutina deportiva constante"
     ],
     contraindications: "Personas con patologías renales preexistentes deben consultar a su médico antes de iniciar la suplementación.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -207,6 +207,7 @@ window.manualData.productos = [
     id: 8,
     code: "7500645000555",
     name: "CREATINA NANO FEAR",
+    benefitSummary: "Creatina para esfuerzos cortos, fuerza y entrenamiento",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Imagen-de-WhatsApp-2025-07-25-a-las-19.18.36_5cced7d4.jpg",
     shortDesc: "Creatina monohidratada de alta pureza en polvo, para optimizar el rendimiento deportivo y la recuperación muscular.",
@@ -215,16 +216,15 @@ window.manualData.productos = [
     timing: "Preferentemente después del entrenamiento",
     intakeInstructions: "Disolver 5 g (1 cucharada) en 250 ml de agua o jugo. Consumir preferentemente después del entrenamiento.",
     benefits: [
-      "Aumenta la fuerza y potencia muscular",
-      "Mejora el rendimiento en ejercicios de alta intensidad",
-      "Favorece la recuperación muscular",
-      "Contribuye a la síntesis de proteínas",
-      "Apoya la hidratación celular",
-      "Es una ayuda ergogénica de máxima calidad"
+      "Apoya la fuerza en entrenamientos de alta intensidad",
+      "Ayuda a rendir en esfuerzos breves y repetidos",
+      "Puede acompañar el aumento de masa muscular con ejercicio",
+      "Permite complementar la creatina que el cuerpo produce",
+      "Se puede integrar a una rutina diaria de entrenamiento"
     ],
     contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico antes de usar este producto.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -234,6 +234,7 @@ window.manualData.productos = [
     id: 9,
     code: "7503026253540",
     name: "CUACHALALATE + TEPEZCOHUITE",
+    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/cuachalalate1.jpg",
     shortDesc: "Combinación de cortezas de cuachalalate y tepezcohuite, de la medicina tradicional mexicana, para el bienestar digestivo y dérmico.",
@@ -242,16 +243,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la salud digestiva y la mucosa gástrica",
-      "Contribuye a la regeneración de la piel",
-      "Aporta propiedades antiinflamatorias",
-      "Ayuda a la cicatrización de tejidos",
-      "Es de origen botánico tradicional mexicano",
-      "Favorece el bienestar general"
+      "Combina dos plantas de uso tradicional mexicano",
+      "Se utiliza como complemento del bienestar digestivo",
+      "El cuachalalate tiene uso tradicional para el confort estomacal",
+      "Aporta compuestos vegetales para complementar la alimentación",
+      "Reúne ambos ingredientes en una sola presentación"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes y antiinflamatorios."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o para el dolor y la inflamación."
   },
 
   // ================================================================
@@ -261,6 +261,7 @@ window.manualData.productos = [
     id: 10,
     code: "7503024738216",
     name: "CUORE",
+    benefitSummary: "Complemento nutricional para el cuidado del corazón",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CUORE1.jpg",
     shortDesc: "Fórmula botánica y vitamínica para apoyar la salud cardiovascular y el bienestar general.",
@@ -269,16 +270,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la salud cardiovascular",
-      "Contribuye al metabolismo energético",
-      "Aporta antioxidantes naturales",
-      "Favorece la circulación",
-      "Ayuda a la función neurológica",
-      "Protege las células del estrés oxidativo"
+      "Está orientado al cuidado del corazón y la circulación",
+      "Complementa la alimentación con ingredientes antioxidantes",
+      "Apoya el cuidado cotidiano de las células",
+      "Se integra a hábitos de alimentación y actividad física",
+      "Su enfoque es el bienestar cardiovascular general"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
   },
 
   // ================================================================
@@ -288,6 +288,7 @@ window.manualData.productos = [
     id: 11,
     code: "7503021404763",
     name: "CURCUMA POWDER",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CURCUMA-POLVO.png",
     shortDesc: "Cúrcuma orgánica en polvo, rica en curcuminoides, con actividad antioxidante y de apoyo a la salud articular y digestiva.",
@@ -296,16 +297,15 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas (para mejorar la absorción)",
     intakeInstructions: "Mezclar 3 g (1 cucharadita) en bebidas, jugos, té o alimentos. Consumir una vez al día.",
     benefits: [
-      "Apoya la salud articular y digestiva",
-      "Aporta potentes antioxidantes",
-      "Contribuye a la protección celular",
-      "Ayuda al bienestar general",
-      "Es orgánica y libre de aditivos",
-      "Favorece la función metabólica"
+      "Permite incorporar cúrcuma a bebidas y comidas",
+      "Aporta compuestos vegetales con actividad antioxidante",
+      "Se usa tradicionalmente como complemento digestivo",
+      "Puede acompañar el cuidado de las articulaciones",
+      "Su formato en polvo facilita variar las preparaciones"
     ],
     contraindications: "Personas con obstrucción de vías biliares, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios, antidiabéticos y medicamentos metabolizados por CYP3A4."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado."
   },
 
   // ================================================================
@@ -315,6 +315,7 @@ window.manualData.productos = [
     id: 12,
     code: "7503021404527",
     name: "CURCUMA, JENGIBRE Y MORINGA",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcuma-y-Moringa1-1.jpg",
     shortDesc: "Combinación de cúrcuma, jengibre y moringa en cápsulas, para apoyo antioxidante, antiinflamatorio y nutricional.",
@@ -323,16 +324,15 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
     benefits: [
-      "Aporta antioxidantes y compuestos antiinflamatorios",
-      "Apoya la salud articular y digestiva",
-      "Contribuye a la protección celular",
-      "Favorece el metabolismo energético",
-      "Es rica en nutrientes esenciales",
-      "Ayuda al bienestar general"
+      "Reúne cúrcuma, jengibre y moringa",
+      "El jengibre tiene uso tradicional para el confort digestivo",
+      "La cúrcuma aporta compuestos antioxidantes",
+      "La moringa complementa el aporte de ingredientes vegetales",
+      "Combina cuidado digestivo y nutrición en una sola fórmula"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios, antidiabéticos y medicamentos metabolizados por CYP3A4."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado."
   },
 
   // ================================================================
@@ -342,6 +342,7 @@ window.manualData.productos = [
     id: 13,
     code: "7503021404183",
     name: "CÚRCUMA",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma.jpg",
     shortDesc: "Raíz de cúrcuma en polvo en cápsulas, con propiedades antioxidantes y de apoyo al bienestar general.",
@@ -350,16 +351,15 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
     benefits: [
-      "Aporta antioxidantes naturales",
-      "Apoya la salud digestiva",
-      "Contribuye a la protección celular",
-      "Ayuda al bienestar general",
-      "Es de origen vegetal",
-      "Favorece la función hepática"
+      "Aporta cúrcuma en una presentación fácil de usar",
+      "Contiene compuestos vegetales con actividad antioxidante",
+      "Tiene uso tradicional como complemento digestivo",
+      "Puede acompañar el cuidado de las articulaciones",
+      "Facilita incorporar la especia sin preparar una bebida"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios y antidiabéticos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, como anticoagulantes o antiagregantes, o para controlar el azúcar en la sangre."
   },
 
   // ================================================================
@@ -369,6 +369,7 @@ window.manualData.productos = [
     id: 14,
     code: "7503021714091",
     name: "ACEITE DE COCO 1 L",
+    benefitSummary: "Aceite de coco para cocinar y aportar energía",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-COCO.webp",
     shortDesc: "Aceite de coco comestible orgánico, RBD (Refinado, Blanqueado y Desodorizado), sin olor ni sabor, para uso culinario.",
@@ -377,16 +378,15 @@ window.manualData.productos = [
     timing: "Apto para cocinar a altas temperaturas",
     intakeInstructions: "Utilizar para preparar, freír o cocinar alimentos.",
     benefits: [
-      "Alta estabilidad térmica para frituras",
-      "Sin olor ni sabor, no altera los alimentos",
-      "Fuente de energía concentrada",
-      "Larga vida útil por su resistencia a la oxidación",
-      "Versátil en la cocina",
-      "Orgánico y sin OGM"
+      "Aporta grasa para cocinar y complementar la alimentación",
+      "Su sabor neutro permite usarlo en distintas recetas",
+      "Es útil para cocinar, hornear y preparar alimentos",
+      "Aporta energía como otros aceites de cocina",
+      "Su presentación grande resulta práctica para uso frecuente"
     ],
     contraindications: "Consumir con moderación como parte de una dieta variada y equilibrada.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -396,6 +396,7 @@ window.manualData.productos = [
     id: 15,
     code: "7503021709882",
     name: "ACEITE DE COCO ORGÁNICO 420 ml",
+    benefitSummary: "Aceite de coco para cocinar y aportar energía",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-DE-COCO-ORGANICO.webp",
     shortDesc: "Aceite de coco extra virgen orgánico, sin refinar, para uso culinario y cosmético, con aroma y sabor natural.",
@@ -404,16 +405,15 @@ window.manualData.productos = [
     timing: "Apto para frituras, horneado y uso cosmético",
     intakeInstructions: "Utilizar para preparar, freír o cocinar alimentos. Recomendado para cuidado de la piel y cabello.",
     benefits: [
-      "Conserva el aroma y sabor natural del coco",
-      "Alta estabilidad térmica",
-      "Versátil en cocina y cosmética",
-      "Fuente de MCT y ácido láurico",
-      "Orgánico y sin OGM",
-      "Hidratante natural para piel y cabello"
+      "Conserva el aroma y sabor característico del coco",
+      "Aporta grasa para complementar distintas recetas",
+      "Se puede incorporar a bebidas, postres y preparaciones de cocina",
+      "En uso externo ayuda a suavizar piel y cabello",
+      "Permite usar un mismo ingrediente en cocina y cuidado personal"
     ],
     contraindications: "Consumir con moderación. Para uso cosmético, realizar prueba de sensibilidad en la piel.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -423,6 +423,7 @@ window.manualData.productos = [
     id: 16,
     code: "7500645001118",
     name: "ACEITE DE ORÉGANO (20 ml)",
+    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ACEITE-OREGANO1.jpg",
     shortDesc: "Aceite esencial de orégano en gotas, rico en carvacrol y timol, para apoyo respiratorio y digestivo.",
@@ -431,16 +432,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Diluir 0.75 ml (3 gotas) en agua, jugo o infusión. Tomar con alimentos.",
     benefits: [
-      "Apoya la salud respiratoria",
-      "Contribuye a la salud digestiva",
-      "Aporta antioxidantes naturales",
-      "Ayuda al bienestar general",
-      "Tiene uso tradicional",
-      "Es de origen vegetal"
+      "Aporta compuestos antioxidantes propios del orégano",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "Permite incorporar orégano en formato líquido",
+      "El gotero facilita medir la cantidad indicada en la etiqueta",
+      "Su sabor concentrado permite identificarlo como extracto, no como bebida"
     ],
     contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con gastritis, úlceras, enfermedades hepáticas o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
   },
 
   // ================================================================
@@ -450,6 +450,7 @@ window.manualData.productos = [
     id: 17,
     code: "7503029679408",
     name: "ÁCIDO ALFA LIPÓICO",
+    benefitSummary: "Cuidado antioxidante de las células",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-ALFA-LIPICO.jpg",
     shortDesc: "Suplemento de ácido alfa lipóico, potente antioxidante y cofactor del metabolismo energético mitocondrial.",
@@ -458,16 +459,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Potente antioxidante hidro y liposoluble",
-      "Regenera otros antioxidantes (vitamina C, E, glutatión)",
-      "Apoya el metabolismo energético",
-      "Contribuye a la protección celular",
-      "Participa en la función mitocondrial",
-      "Ayuda al bienestar metabólico"
+      "Aporta un antioxidante que participa en el cuidado celular",
+      "Ayuda a proteger las células frente al desgaste diario",
+      "Participa en los procesos con los que el cuerpo obtiene energía",
+      "Complementa el cuidado nutricional del metabolismo",
+      "Su aporte se centra en ácido alfa lipoico"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con deficiencia de tiamina, diabetes, hipoglucemia o bajo tratamiento con antidiabéticos o quimioterápicos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede disminuir los niveles de azúcar en sangre; interactúa con antidiabéticos y medicamentos para la tiroides."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede hacer que el azúcar en la sangre baje más de lo esperado al combinarse con tratamientos para la diabetes. También consultar si el cliente usa medicamentos para la tiroides."
   },
 
   // ================================================================
@@ -477,6 +477,7 @@ window.manualData.productos = [
     id: 18,
     code: "7503026253755",
     name: "ÁCIDO HIALURÓNICO",
+    benefitSummary: "Nutrición para el cuidado de piel y articulaciones",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ACIDO-HIALURONICO1.webp",
     shortDesc: "Suplemento en polvo que combina colágeno hidrolizado, ácido hialurónico, omega-3, arándano y aloe vera para la salud de la piel y articulaciones.",
@@ -485,16 +486,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Disolver 15 g en 200-300 ml de agua, jugo o bebida vegetal. Consumir una vez al día.",
     benefits: [
-      "Mejora la hidratación y elasticidad de la piel",
-      "Apoya la salud de las articulaciones",
-      "Aporta antioxidantes y omega-3",
-      "Contribuye a la regeneración del colágeno",
-      "Favorece la función inmunológica",
-      "Ayuda al bienestar general"
+      "Combina colágeno y ácido hialurónico para el cuidado de la piel",
+      "Puede apoyar la hidratación y elasticidad de la piel",
+      "Aporta proteína que ayuda a mantener los tejidos",
+      "Complementa el cuidado de las articulaciones",
+      "Incluye omega 3 y antioxidantes como parte de la fórmula"
     ],
     contraindications: "Personas con alergia a pescados (omega-3) o a alguno de los componentes, o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
   },
 
   // ================================================================
@@ -504,6 +504,7 @@ window.manualData.productos = [
     id: 19,
     code: "7503016797832",
     name: "ÁCIDO LINOLEICO CONJUGADO (CLA)",
+    benefitSummary: "Complemento de alimentación y actividad física",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/unnamed-1.jpg",
     shortDesc: "Ácido linoleico conjugado (CLA) en cápsulas, para apoyar la composición corporal y el metabolismo lipídico.",
@@ -512,16 +513,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la reducción de grasa corporal",
-      "Contribuye al mantenimiento de la masa muscular magra",
-      "Modula el metabolismo lipídico",
-      "Ayuda a la recuperación muscular",
-      "Es un ácido graso esencial",
-      "Favorece la composición corporal"
+      "Aporta CLA, un tipo de grasa presente en algunos alimentos",
+      "Se utiliza como complemento de rutinas de composición corporal",
+      "Puede acompañar un plan de alimentación y ejercicio",
+      "Su enfoque es complementar la dieta de personas activas",
+      "Permite incorporar CLA sin modificar las comidas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas o renales deben consultar a su médico antes de usar este producto.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -531,6 +531,7 @@ window.manualData.productos = [
     id: 20,
     code: "7500645000753",
     name: "AGUAJE COMPLEX",
+    benefitSummary: "Bienestar femenino y cambios de etapa",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Aguaje1.jpg",
     shortDesc: "Combinación de aguaje, fenogreco, maca negra y maca amarilla, para el equilibrio hormonal femenino y la vitalidad.",
@@ -539,16 +540,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya el equilibrio hormonal femenino",
-      "Contribuye a la vitalidad y energía",
-      "Ayuda a la salud de la piel y el cabello",
-      "Favorece el bienestar durante la menopausia",
-      "Es de origen botánico tradicional",
-      "Ayuda al confort hormonal"
+      "Combina ingredientes botánicos orientados al bienestar femenino",
+      "Se utiliza tradicionalmente como apoyo a la vitalidad",
+      "Puede acompañar una rutina de autocuidado durante cambios hormonales",
+      "Aporta compuestos vegetales que complementan la alimentación",
+      "Su presentación facilita incorporar la mezcla a la rutina"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles a estrógenos (fibromas, endometriosis, cáncer de mama) o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Contiene fitoestrógenos; puede interactuar con tratamientos hormonales."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Contiene compuestos vegetales que pueden tener efectos parecidos a los estrógenos, hormonas del cuerpo. Consultar antes de combinar con tratamientos hormonales."
   },
 
   // ================================================================
@@ -558,6 +558,7 @@ window.manualData.productos = [
     id: 21,
     code: "7503021404855",
     name: "AJO NEGRO + MORINGA",
+    benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/AJO-NEGRO-MORINGA1.jpg",
     shortDesc: "Combinación de ajo negro fermentado y moringa, con vitaminas C y B, para apoyo inmunológico y cardiovascular.",
@@ -566,16 +567,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "Apoya el sistema inmunológico",
-      "Contribuye a la salud cardiovascular",
-      "Aporta antioxidantes y vitaminas",
-      "Ayuda a la reducción del cansancio",
-      "Favorece el metabolismo energético",
-      "Es de origen vegetal"
+      "Reúne ajo negro y moringa en una sola fórmula",
+      "Aporta compuestos vegetales con actividad antioxidante",
+      "Complementa el cuidado nutricional del corazón",
+      "Permite incorporar ambos ingredientes sin prepararlos",
+      "Su enfoque es el bienestar general y la alimentación variada"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al ajo o a la moringa, con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
   },
 
   // ================================================================
@@ -585,6 +585,7 @@ window.manualData.productos = [
     id: 22,
     code: "7503021404862",
     name: "AJO NEGRO CON PROPÓLEO",
+    benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Ajo-Negro-Propoleo1.jpg",
     shortDesc: "Combinación de ajo negro y extracto de propóleo, para el apoyo del sistema inmunológico y la salud respiratoria.",
@@ -593,16 +594,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "Apoya el sistema inmunológico",
-      "Contribuye a la salud de las vías respiratorias",
-      "Aporta antioxidantes naturales",
-      "Ayuda a la defensa del organismo",
-      "Es de origen apícola y vegetal",
-      "Favorece el bienestar general"
+      "Combina ajo negro y propóleo",
+      "Aporta compuestos antioxidantes de origen vegetal y apícola",
+      "Se utiliza tradicionalmente para el bienestar en cambios de temporada",
+      "Complementa una rutina de cuidado general",
+      "Permite incorporar los dos ingredientes en cápsulas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (miel, propóleo, polen) o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes y antiagregantes plaquetarios."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos."
   },
 
   // ================================================================
@@ -612,6 +612,7 @@ window.manualData.productos = [
     id: 23,
     code: "7503021404558",
     name: "AJO NEGRO",
+    benefitSummary: "Complemento nutricional para el cuidado del corazón",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ajo-negro.jpg",
     shortDesc: "Ajo negro fermentado y envejecido, con vitaminas C y B6, para apoyo cardiovascular e inmunológico.",
@@ -620,16 +621,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la salud cardiovascular",
-      "Contribuye a la función inmunológica",
-      "Aporta antioxidantes y compuestos azufrados",
-      "Ayuda a la reducción del cansancio",
-      "Mejora la biodisponibilidad",
-      "Es de origen vegetal"
+      "Aporta compuestos antioxidantes del ajo negro",
+      "Complementa el cuidado nutricional del corazón",
+      "Permite consumir ajo sin incorporarlo a las comidas",
+      "Su fórmula se centra en un ingrediente vegetal",
+      "Acompaña hábitos de alimentación y actividad física"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al ajo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
   },
 
   // ================================================================
@@ -639,6 +639,7 @@ window.manualData.productos = [
     id: 24,
     code: "7501062912209",
     name: "ALBÚMINA DE HUEVO PROWINNER",
+    benefitSummary: "Proteína para músculos y recuperación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/AlbuminadeHuevo_1.webp",
     shortDesc: "Proteína de clara de huevo pasteurizada, en polvo, rica en aminoácidos esenciales y vitaminas, ideal para deportistas.",
@@ -647,16 +648,15 @@ window.manualData.productos = [
     timing: "Dos o tres veces al día",
     intakeInstructions: "Mezclar 30 g (1 medida) en jugos, leche, licuados o agua. Tomar dos o tres veces al día.",
     benefits: [
-      "Fuente de proteína de alto valor biológico (VB > 100)",
-      "Aporta aminoácidos esenciales para la recuperación muscular",
-      "Enriquecida con vitaminas y minerales",
-      "Baja en grasa y carbohidratos",
-      "Libre de lactosa",
-      "Ideal para deportistas y atletas"
+      "Aporta proteína de huevo para completar la alimentación",
+      "Ayuda al mantenimiento y desarrollo de los músculos",
+      "Proporciona los componentes que el cuerpo usa para formar proteína",
+      "Puede apoyar la recuperación después del ejercicio",
+      "Ofrece una alternativa de proteína sin lactosa"
     ],
     contraindications: "Personas con alergias al huevo o soya deben evitar su consumo. Mujeres embarazadas o en lactancia deben consultar a su médico.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -666,6 +666,7 @@ window.manualData.productos = [
     id: 25,
     code: "7503021404831",
     name: "ALGA ESPIRULINA EN POLVO",
+    benefitSummary: "Espirulina para complementar la alimentación",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ALGAESPIRULINA.png",
     shortDesc: "Espirulina orgánica en polvo, superalimento rico en proteínas, vitaminas, minerales y antioxidantes.",
@@ -674,16 +675,15 @@ window.manualData.productos = [
     timing: "En ayunas o con alimentos",
     intakeInstructions: "Mezclar 10 g (2 cucharadas) en agua, jugos, licuados o espolvorear sobre ensaladas. Consumir una vez al día.",
     benefits: [
-      "Fuente concentrada de proteínas de alta calidad",
-      "Rica en vitaminas del grupo B, hierro, calcio y magnesio",
-      "Aporta antioxidantes y clorofila",
-      "Apoya el sistema inmunológico",
-      "Contribuye al metabolismo energético",
-      "Es orgánica y vegana"
+      "Permite añadir espirulina a bebidas y alimentos",
+      "Aporta nutrientes propios de esta alga",
+      "Contiene compuestos con actividad antioxidante",
+      "Complementa una alimentación de origen vegetal",
+      "Su formato en polvo facilita incorporarla a distintas recetas"
     ],
     contraindications: "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos e inmunosupresores."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante."
   },
 
   // ================================================================
@@ -693,6 +693,7 @@ window.manualData.productos = [
     id: 26,
     code: "7503021404848",
     name: "ALGA ESPIRULINA ORGANICA",
+    benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Alga-Spirulina-Organica1.jpg",
     shortDesc: "Espirulina orgánica en cápsulas, enriquecida con vitaminas y minerales, para apoyo nutricional completo.",
@@ -701,16 +702,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Aporta una amplia gama de nutrientes esenciales",
-      "Apoya el sistema inmunológico",
-      "Contribuye al metabolismo energético",
-      "Protege las células del estrés oxidativo",
-      "Ayuda a la salud de la piel y el cabello",
-      "Es orgánica y de origen vegetal"
+      "Aporta espirulina en cápsulas",
+      "Complementa la alimentación con nutrientes de origen vegetal",
+      "Contiene compuestos antioxidantes propios del alga",
+      "Permite consumirla sin su sabor característico",
+      "Es una opción práctica para incorporar espirulina a la rutina"
     ],
     contraindications: "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos e inmunosupresores."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante."
   },
 
   // ================================================================
@@ -720,6 +720,7 @@ window.manualData.productos = [
     id: 27,
     code: "7503016797030",
     name: "ALOE VERA CON ARANDANO",
+    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeVeraArandano.jpg",
     shortDesc: "Bebida de aloe vera con arándano y vitamina C, para el bienestar digestivo y la salud del tracto urinario.",
@@ -728,16 +729,15 @@ window.manualData.productos = [
     timing: "En ayunas o antes de la primera comida",
     intakeInstructions: "Agitar bien. Consumir 90 ml al día, preferentemente en ayunas o antes de la primera comida.",
     benefits: [
-      "Apoya la salud digestiva",
-      "Contribuye a la salud del tracto urinario",
-      "Aporta vitamina C antioxidante",
-      "Ayuda a la hidratación",
-      "Es 100% natural",
-      "Favorece el bienestar general"
+      "Combina sábila y arándano en una bebida",
+      "Se utiliza como complemento del bienestar digestivo",
+      "La vitamina C contribuye al funcionamiento de las defensas",
+      "La vitamina C también ayuda al cuidado de las células",
+      "El arándano complementa el enfoque de bienestar urinario"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El aloe vera puede tener efecto laxante en exceso."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada."
   },
 
   // ================================================================
@@ -747,6 +747,7 @@ window.manualData.productos = [
     id: 28,
     code: "7503016797337",
     name: "ALOE VERA LIQUIDO TROPICAL",
+    benefitSummary: "Sábila y vitamina C en una bebida",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0003_freepik__isolate-only-the-bottle-frontal-symmetrical-studio__56412-1.jpg",
     shortDesc: "Bebida de aloe vera con vitamina C y sabor tropical, para hidratación y bienestar digestivo.",
@@ -755,16 +756,15 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Agitar bien. Tomar 100 ml al día, preferentemente en ayunas o entre comidas.",
     benefits: [
-      "Apoya la hidratación y el bienestar digestivo",
-      "Contribuye a la salud de la piel",
-      "Aporta vitamina C antioxidante",
-      "Es bajo en calorías",
-      "Sabor tropical refrescante",
-      "Favorece el equilibrio fisiológico"
+      "Permite incorporar sábila en una bebida de sabor tropical",
+      "Complementa la rutina de bienestar digestivo",
+      "La vitamina C apoya las defensas del organismo",
+      "La vitamina C aporta protección antioxidante",
+      "Ofrece una presentación líquida para quien prefiere evitar cápsulas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El aloe vera puede tener efecto laxante en exceso."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada."
   },
 
   // ================================================================
@@ -774,6 +774,7 @@ window.manualData.productos = [
     id: 29,
     code: "7500645001460",
     name: "AMP-ON 60 caps 600mg",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/ZN-–-AMP-ON-–-60-caps-600-mg-–-Render-–-V2-–-Marzo2026-2.jpg",
     shortDesc: "Complejo metabólico con α-glucosil hesperidina, inulina, Gynostemma, ácido clorogénico, ALA, probiótico y minerales.",
@@ -782,16 +783,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya el metabolismo de la glucosa y lípidos",
-      "Contribuye a la sensibilidad a la insulina",
-      "Aporta antioxidantes y cofactores enzimáticos",
-      "Favorece la salud intestinal con probióticos",
-      "Ayuda al bienestar metabólico",
-      "Es una fórmula sin estimulantes agresivos"
+      "Su fórmula está orientada al aprovechamiento de azúcares y grasas",
+      "Complementa un plan de alimentación y actividad física",
+      "Incluye probióticos, bacterias que pueden apoyar el equilibrio intestinal",
+      "Aporta ingredientes antioxidantes para el cuidado celular",
+      "Reúne apoyo nutricional y digestivo en una sola fórmula"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El cromo y el zinc pueden interactuar con medicamentos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El cromo y el zinc pueden cambiar el efecto o la absorción de algunos medicamentos. Si el cliente usa un tratamiento, revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -801,6 +801,7 @@ window.manualData.productos = [
     id: 30,
     code: "7503025069791",
     name: "ARTMUUB 1.1 kg",
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB_1-1.webp",
     shortDesc: "Suplemento en polvo multinutriente con proteínas, omega-3, vitaminas (C, E, D), minerales (magnesio, zinc) y fibra.",
@@ -809,16 +810,15 @@ window.manualData.productos = [
     timing: "En ayunas o como reemplazo de comida",
     intakeInstructions: "Disolver 30 g (2 cucharadas) en 300-400 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     benefits: [
-      "Apoya el metabolismo energético",
-      "Contribuye a la función cognitiva y cardiovascular",
-      "Aporta proteínas y fibra para la saciedad",
-      "Fortalece el sistema inmunológico",
-      "Ayuda a la salud ósea y muscular",
-      "Es una nutrición completa en polvo"
+      "Complementa la alimentación con proteína y otros nutrientes",
+      "La proteína ayuda a conservar los músculos",
+      "La fibra contribuye al bienestar digestivo y la sensación de llenura",
+      "Aporta vitaminas y minerales para funciones normales del cuerpo",
+      "Su formato en polvo facilita preparar una porción"
     ],
     contraindications: "Personas con alergia a pescados (omega-3), trastornos de coagulación, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, antidiabéticos y diuréticos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos)."
   },
 
   // ================================================================
@@ -828,6 +828,7 @@ window.manualData.productos = [
     id: 31,
     code: "7503029679736",
     name: "ARTMUUB 200 CAPS",
+    benefitSummary: "Cuidado articular y nutrición para el movimiento",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB1.png",
     shortDesc: "Fórmula articular con glucosamina, condroitina y MSM, para el mantenimiento del cartílago y la movilidad articular.",
@@ -836,16 +837,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la salud del cartílago articular",
-      "Contribuye a la movilidad y flexibilidad",
-      "Ayuda a la reparación del tejido conectivo",
-      "Reduce el desgaste articular",
-      "Es una fórmula condroprotectora",
-      "Favorece el bienestar músculo-esquelético"
+      "Aporta ingredientes orientados al cuidado de las articulaciones",
+      "Complementa la nutrición de los tejidos que permiten el movimiento",
+      "Puede acompañar una rutina para mantener la movilidad",
+      "Su enfoque es el bienestar articular cotidiano",
+      "Se integra a hábitos de movimiento y alimentación"
     ],
     contraindications: "Personas con alergia a crustáceos (glucosamina), mujeres embarazadas, personas con diabetes o asma deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede afectar la glucemia en diabéticos; interactúa con anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede cambiar el azúcar en la sangre de personas con diabetes. También consultar si el cliente toma medicamentos para evitar coágulos."
   },
 
   // ================================================================
@@ -855,6 +855,7 @@ window.manualData.productos = [
     id: 32,
     code: "7500645000418",
     name: "ASHWAGANDA ROOT",
+    benefitSummary: "Calma, bienestar mental y rutina de descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
     shortDesc: "Extracto y polvo de raíz de ashwagandha, adaptógeno para manejo del estrés, sueño y vitalidad.",
@@ -863,16 +864,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Ayuda a manejar el estrés y la ansiedad",
-      "Contribuye a la calidad del sueño",
-      "Apoya la función cognitiva",
-      "Favorece el equilibrio físico y mental",
-      "Es un adaptógeno tradicional",
-      "Ayuda a la vitalidad general"
+      "La ashwagandha puede apoyar la respuesta al estrés cotidiano",
+      "Puede ayudar a favorecer la relajación",
+      "Puede acompañar una mejor rutina de descanso",
+      "Su enfoque combina calma y bienestar mental",
+      "Se utiliza como apoyo en etapas de mayor demanda diaria"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede causar somnolencia; interactúa con medicamentos ansiolíticos, hipnóticos, inmunosupresores y antidiabéticos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede dar sueño y aumentar el efecto de medicamentos para la ansiedad o para dormir. También consultar si usa tratamientos para la diabetes o para disminuir la actividad de las defensas."
   },
 
   // ================================================================
@@ -882,6 +882,7 @@ window.manualData.productos = [
     id: 33,
     code: "7503026253410",
     name: "ASHWAGANDHA",
+    benefitSummary: "Calma, bienestar mental y rutina de descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
     shortDesc: "Extracto estandarizado de ashwagandha en tabletas, adaptógeno para estrés, sueño y equilibrio emocional.",
@@ -890,16 +891,15 @@ window.manualData.productos = [
     timing: "Con alimentos, por la mañana o antes de dormir",
     intakeInstructions: "Tomar 1 tableta al día con alimentos.",
     benefits: [
-      "Reduce el estrés y la respuesta al cortisol",
-      "Mejora la calidad del sueño",
-      "Apoya la memoria y concentración",
-      "Favorece el equilibrio emocional",
-      "Aumenta la energía y resistencia física",
-      "Apoya el sistema inmunológico"
+      "Puede ayudar a manejar la sensación de estrés cotidiano",
+      "Puede favorecer la calidad del descanso",
+      "Apoya una rutina orientada a la calma y la concentración",
+      "Permite incorporar ashwagandha en tabletas",
+      "Su enfoque es el equilibrio entre actividad y descanso"
     ],
     contraindications: "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con medicamentos para la tiroides, diabetes e inmunosupresores."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos para la tiroides, la diabetes o para disminuir la actividad de las defensas."
   },
 
   // ================================================================
@@ -909,6 +909,7 @@ window.manualData.productos = [
     id: 34,
     code: "7500645001101",
     name: "ASTAXANTINA",
+    benefitSummary: "Cuidado antioxidante de las células",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2025/01/astaxantina.jpg",
     shortDesc: "Astaxantina de microalga Haematococcus pluvialis, potente antioxidante para la salud de la piel, ojos y articulaciones.",
@@ -917,16 +918,15 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 1 cápsula al día con una comida que contenga grasas.",
     benefits: [
-      "Potente antioxidante (superior a vitamina E)",
-      "Protege la piel del daño oxidativo",
-      "Apoya la salud ocular",
-      "Contribuye a la salud articular",
-      "Favorece la función cardiovascular",
-      "Ayuda al envejecimiento saludable"
+      "Aporta astaxantina, un antioxidante",
+      "Ayuda al cuidado de las células frente al desgaste diario",
+      "Complementa el cuidado de la piel",
+      "Acompaña el bienestar de los ojos",
+      "Se integra a una rutina de cuidado general"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la microalga o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes, inmunosupresores y medicamentos para la presión arterial."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, tratar la presión arterial o disminuir la actividad de las defensas."
   },
 
   // ================================================================
@@ -936,6 +936,7 @@ window.manualData.productos = [
     id: 35,
     code: "646437080682",
     name: "BEEF FEAR",
+    benefitSummary: "Proteína para músculos y recuperación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/BEEF-FEAR-CHOCO-5001.png",
     shortDesc: "Proteína de carne hidrolizada en polvo, rica en aminoácidos, creatina y taurina, para recuperación y fuerza muscular.",
@@ -944,16 +945,15 @@ window.manualData.productos = [
     timing: "Antes o después del entrenamiento",
     intakeInstructions: "Diluir 33 g en 240-300 ml de agua fría o leche. Tomar antes o después del entrenamiento.",
     benefits: [
-      "Alta concentración de proteína de carne hidrolizada",
-      "Aporta creatina y taurina naturales",
-      "Perfil completo de aminoácidos",
-      "Bajo en grasa y carbohidratos",
-      "Favorece la recuperación muscular",
-      "Ideal para atletas de alto rendimiento"
+      "Aporta proteína de res para completar la alimentación",
+      "Ayuda a mantener y desarrollar los músculos",
+      "Ofrece componentes necesarios para formar proteína muscular",
+      "Puede apoyar la recuperación después de entrenar",
+      "Es una alternativa a las proteínas de suero de leche"
     ],
     contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -963,6 +963,7 @@ window.manualData.productos = [
     id: 36,
     code: "7500645000524",
     name: "BERBERINA",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/10/BERBERINE1-1.jpg",
     shortDesc: "Berberina HCI, alcaloide natural para apoyar el metabolismo de la glucosa y lípidos.",
@@ -990,16 +991,15 @@ window.manualData.productos = [
       note: "Rendimiento de 30 días: 30 porciones de 2 cápsulas, a 1 porción al día."
     },
     benefits: [
-      "Apoya el metabolismo de la glucosa",
-      "Contribuye a la sensibilidad a la insulina",
-      "Ayuda a mantener niveles saludables de lípidos",
-      "Modula la microbiota intestinal",
-      "Es un alcaloide natural",
-      "Favorece el bienestar metabólico"
+      "Se utiliza como complemento del cuidado del metabolismo",
+      "Puede apoyar el manejo de azúcares como parte de hábitos saludables",
+      "También se estudia como apoyo al manejo de grasas en la sangre",
+      "Aporta zinc, necesario para funciones normales del organismo",
+      "Su fórmula combina berberina y zinc en una sola porción"
     ],
     contraindications: "No administrar a menores de 18 años. Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o ciclosporina deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con antidiabéticos, antihipertensivos, anticoagulantes y ciclosporina."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para el azúcar, la presión o los coágulos. También requiere revisión si el cliente toma ciclosporina, usada para disminuir la actividad de las defensas."
   },
 
   // ================================================================
@@ -1009,6 +1009,7 @@ window.manualData.productos = [
     id: 37,
     code: "7508304671641",
     name: "BPASS Bio Life 500 mg",
+    benefitSummary: "Complemento de alimentación y actividad física",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BPASS1.webp",
     shortDesc: "Fórmula exclusiva con 10 ingredientes naturales, incluyendo L-carnitina, para apoyo metabólico y energético.",
@@ -1017,16 +1018,15 @@ window.manualData.productos = [
     timing: "En ayunas",
     intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
     benefits: [
-      "Apoya el metabolismo energético",
-      "Contribuye a la utilización de grasas",
-      "Aporta antioxidantes de plantas",
-      "Ayuda a la saciedad",
-      "Es una fórmula sinérgica natural",
-      "Favorece el bienestar general"
+      "Combina plantas y L-carnitina para complementar una rutina activa",
+      "La L-carnitina participa en el uso de grasas como energía",
+      "Aporta ingredientes vegetales con actividad antioxidante",
+      "Puede acompañar un plan de alimentación y ejercicio",
+      "Su enfoque es el apoyo nutricional al metabolismo"
     ],
     contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -1036,6 +1036,7 @@ window.manualData.productos = [
     id: 38,
     code: "7508304686836",
     name: "CAFE CON MORINGA 22 sobres",
+    benefitSummary: "Una bebida con antioxidantes y cafeína",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CAFECONMORINGA.webp",
     shortDesc: "Bebida en polvo con café arábico, moringa, hongos medicinales (Reishi, Shiitake, Maitake) y stevia.",
@@ -1044,16 +1045,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar el contenido de un sobre en agua caliente, disolver y disfrutar. Cada sobre rinde 3 tazas.",
     benefits: [
-      "Combina el sabor del café con superalimentos",
-      "Aporta antioxidantes y compuestos bioactivos",
-      "Contiene hongos medicinales tradicionales",
-      "Sin gluten ni soya",
-      "Edulcorado con stevia natural",
-      "Favorece el bienestar general"
+      "Combina el sabor del café con moringa y hongos",
+      "La cafeína del café ayuda a mantenerse alerta",
+      "Aporta compuestos antioxidantes del café y las plantas",
+      "Los sobres facilitan preparar una porción",
+      "Es una alternativa para variar la bebida de café habitual"
     ],
     contraindications: "NO CONSUMIR EN EMBARAZO. Personas intolerantes a los componentes deben evitarlo.",
-    foodInteractions: "No especificado",
-    interactions: "Contiene cafeína; evitar en personas sensibles."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Contiene cafeína. Las personas sensibles pueden sentir nerviosismo o dificultad para dormir; revisar si corresponde su consumo."
   },
 
   // ================================================================
@@ -1063,6 +1063,7 @@ window.manualData.productos = [
     id: 39,
     code: "7503025069005",
     name: "CAFE DE OLLA 600 g",
+    benefitSummary: "Una bebida con antioxidantes y cafeína",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/cafe.jpg",
     shortDesc: "Mezcla de café tostado con especias tradicionales, sin azúcares añadidos, baja en carbohidratos.",
@@ -1071,16 +1072,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Disolver 15 g en 200-250 ml de agua caliente. Mezclar bien. Endulzar al gusto.",
     benefits: [
-      "Sabor tradicional de café de olla sin azúcar",
-      "Bajo en carbohidratos (0.3 g por porción)",
-      "Aporta antioxidantes del café y especias",
-      "Ayuda a la concentración",
-      "Es versátil y reconfortante",
-      "Favorece el bienestar general"
+      "Ofrece el sabor tradicional del café de olla",
+      "La cafeína ayuda a mantenerse alerta",
+      "El café y las especias aportan compuestos antioxidantes",
+      "Puede disfrutarse como bebida dentro de la rutina diaria",
+      "Permite preparar café de olla sin elaborar la mezcla desde cero"
     ],
     contraindications: "Personas sensibles a la cafeína, hipertensión no controlada, trastornos de ansiedad o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "La cafeína puede interactuar con ciertos medicamentos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La cafeína puede cambiar el efecto de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento."
   },
 
   // ================================================================
@@ -1090,6 +1090,7 @@ window.manualData.productos = [
     id: 40,
     code: "7500645000814",
     name: "CAFE SOLUBLE 30 sobres",
+    benefitSummary: "Una bebida con antioxidantes y cafeína",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CAFESOLUBLE.jpg",
     shortDesc: "Café soluble con extractos de Ganoderma, Shiitake y mezcla de arándanos, para energía y soporte inmune.",
@@ -1098,16 +1099,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Disolver 1 sobre en 200-250 ml de agua caliente. Endulzar al gusto.",
     benefits: [
-      "Combina café con hongos adaptógenos",
-      "Aporta antioxidantes y polifenoles",
-      "Apoya el sistema inmunológico",
-      "Ayuda a la concentración",
-      "Sin azúcares añadidos",
-      "Favorece el bienestar integral"
+      "Combina café con hongos de uso tradicional",
+      "La cafeína contribuye a mantenerse alerta",
+      "El café aporta compuestos antioxidantes",
+      "Los sobres facilitan llevar y preparar una porción",
+      "Es una opción para variar el café cotidiano"
     ],
     contraindications: "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, alergia a hongos o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "La cafeína puede interactuar con ciertos medicamentos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La cafeína puede cambiar el efecto de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento."
   },
 
   // ================================================================
@@ -1117,6 +1117,7 @@ window.manualData.productos = [
     id: 41,
     code: "7503021404633",
     name: "CANELA CROMO",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CANELA-CROMO1.jpg",
     shortDesc: "Complejo de canela y picolinato de cromo con vitaminas y minerales, para el metabolismo de la glucosa.",
@@ -1125,16 +1126,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya el metabolismo de la glucosa",
-      "Mejora la sensibilidad a la insulina",
-      "Aporta vitaminas y minerales esenciales",
-      "Ayuda a reducir antojos de azúcar",
-      "Protege las células del estrés oxidativo",
-      "Favorece el bienestar metabólico"
+      "El cromo ayuda al cuerpo a aprovechar los alimentos",
+      "Contribuye al mantenimiento normal de la glucosa",
+      "La canela aporta compuestos vegetales antioxidantes",
+      "Complementa una alimentación orientada al cuidado metabólico",
+      "Reúne canela y cromo en una sola fórmula"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la canela, enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El cromo interactúa con antidiabéticos; la vitamina K (no presente) con anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos."
   },
 
   // ================================================================
@@ -1144,6 +1144,7 @@ window.manualData.productos = [
     id: 42,
     code: "7503025069043",
     name: "CARA LLUMA",
+    benefitSummary: "Complemento de alimentación y actividad física",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CARALLUMA1.jpg",
     shortDesc: "Extracto de Caralluma fimbriata, planta tradicional para apoyar el control del apetito y el peso.",
@@ -1152,16 +1153,15 @@ window.manualData.productos = [
     timing: "Antes de las comidas",
     intakeInstructions: "Tomar 1 cápsula al día antes de las comidas principales.",
     benefits: [
-      "Ayuda a reducir el apetito",
-      "Contribuye al control del peso",
-      "Aumenta la sensación de saciedad",
-      "Es de origen vegetal tradicional",
-      "Apoya el metabolismo",
-      "Favorece un estilo de vida saludable"
+      "La caralluma se utiliza tradicionalmente para acompañar el control del apetito",
+      "Puede complementar hábitos orientados a la sensación de llenura",
+      "Se integra a un plan de alimentación y ejercicio",
+      "Su enfoque es apoyar una rutina de control de peso",
+      "Ofrece el ingrediente vegetal en cápsulas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede causar molestias gastrointestinales leves."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede causar molestias leves en el estómago o el intestino."
   },
 
   // ================================================================
@@ -1171,6 +1171,7 @@ window.manualData.productos = [
     id: 43,
     code: "7503016797115",
     name: "CARSYL GREEN",
+    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/carsyl.png",
     shortDesc: "Fórmula botánica con cardo mariano, boldo, ruibarbo, cuasia y diente de león, para apoyo hepático y digestivo.",
@@ -1179,16 +1180,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Apoya la función hepática",
-      "Contribuye a la digestión y secreción biliar",
-      "Ayuda al bienestar digestivo",
-      "Es de origen botánico tradicional",
-      "Favorece la depuración fisiológica",
-      "Apoya el sistema digestivo"
+      "Combina plantas de uso tradicional digestivo",
+      "Se utiliza como complemento del cuidado del hígado",
+      "Puede acompañar el confort después de las comidas",
+      "Su enfoque es el bienestar digestivo cotidiano",
+      "Permite incorporar la mezcla botánica en cápsulas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El ruibarbo puede tener efecto laxante; interactúa con anticoagulantes y diuréticos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El ruibarbo puede acelerar las evacuaciones. Consultar si el cliente toma medicamentos para evitar coágulos o eliminar líquidos."
   },
 
   // ================================================================
@@ -1198,6 +1198,7 @@ window.manualData.productos = [
     id: 44,
     code: "7501734412877",
     name: "CASTAÑO DE INDIAS",
+    benefitSummary: "Circulación y confort de las piernas",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CASTANODEINDIAS.webp",
     shortDesc: "Extracto de castaño de Indias (Aesculus hippocastanum), rico en escina, para apoyo a la circulación venosa.",
@@ -1206,16 +1207,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas tres veces al día, antes de los alimentos.",
     benefits: [
-      "Apoya la circulación venosa",
-      "Contribuye al tono venoso",
-      "Ayuda a reducir la permeabilidad capilar",
-      "Tiene acción antiinflamatoria",
-      "Es de origen botánico tradicional",
-      "Favorece el bienestar vascular"
+      "Se utiliza como complemento del cuidado de la circulación de las piernas",
+      "Puede apoyar el confort cuando se sienten piernas pesadas",
+      "Su enfoque es el bienestar de las venas",
+      "Acompaña hábitos como caminar y evitar largos periodos inmóvil",
+      "Ofrece castaño de indias en una presentación práctica"
     ],
     contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    foodInteractions: "No especificado",
-    interactions: "No se conocen interacciones significativas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
   },
 
   // ================================================================
@@ -1225,6 +1225,7 @@ window.manualData.productos = [
     id: 45,
     code: "7503026253601",
     name: "CHROMIUM",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0001s_0002_Presentacion-blanco.jpg",
     shortDesc: "L-carnitina tartrato y polinicotinato de cromo para apoyo al metabolismo energético y la función celular.",
@@ -1233,16 +1234,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "Apoya el metabolismo energético",
-      "Contribuye al transporte de ácidos grasos",
-      "Potencia la acción de la insulina",
-      "Ayuda a la reducción del cansancio",
-      "Es una fórmula sinérgica",
-      "Favorece el bienestar metabólico"
+      "Su fórmula está orientada al aprovechamiento de los alimentos",
+      "El cromo participa en el manejo normal de la glucosa",
+      "Complementa una rutina de cuidado metabólico",
+      "Acompaña hábitos de alimentación y actividad física",
+      "Permite incorporar los nutrientes de la fórmula en cápsulas"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con diabetes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "El cromo interactúa con antidiabéticos y anticoagulantes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para controlar el azúcar o evitar coágulos."
   },
 
   // ================================================================
@@ -1252,6 +1252,7 @@ window.manualData.productos = [
     id: 46,
     code: "7500645001033",
     name: "CITRATO DE MAGNESIO POWDER 500 gr",
+    benefitSummary: "Magnesio y colágeno para complementar la nutrición",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0001s_0002_Presentacion-blanco.jpg",
     shortDesc: "Citrato de magnesio en polvo con colágeno hidrolizado, para apoyo muscular, óseo y de la piel.",
@@ -1260,16 +1261,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Disolver 10 g en 200-300 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     benefits: [
-      "Aporta magnesio de alta biodisponibilidad",
-      "Contribuye a la función muscular y nerviosa",
-      "Apoya la salud ósea",
-      "Incluye colágeno para piel y articulaciones",
-      "Bajo en calorías y carbohidratos",
-      "Favorece el bienestar general"
+      "Aporta magnesio para el funcionamiento normal de músculos y nervios",
+      "Contribuye al aprovechamiento de los alimentos para obtener energía",
+      "Ayuda a mantener los huesos en buen estado",
+      "Incluye colágeno para complementar la nutrición de los tejidos",
+      "Su formato en polvo facilita mezclarlo con una bebida"
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con diuréticos, antibióticos (tetraciclinas, quinolonas) y bifosfonatos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas."
   },
 
   // ================================================================
@@ -1279,6 +1279,7 @@ window.manualData.productos = [
     id: 47,
     code: "7503029679002",
     name: "CITRATO DE POTASIO",
+    benefitSummary: "Potasio para músculos y equilibrio de minerales",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/potassium.jpg",
     shortDesc: "Suplemento de potasio en forma de citrato, para el equilibrio electrolítico y la función muscular.",
@@ -1287,16 +1288,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Contribuye al equilibrio electrolítico",
-      "Apoya la función muscular y nerviosa",
-      "Ayuda a mantener la presión arterial normal",
-      "Es una forma orgánica de alta biodisponibilidad",
-      "Favorece el bienestar general",
-      "Complementa la dieta en casos de pérdida de líquidos"
+      "Aporta potasio, un mineral necesario para los músculos",
+      "Apoya la comunicación normal entre nervios y músculos",
+      "Contribuye a mantener una presión arterial normal",
+      "Participa en el equilibrio de agua y minerales del cuerpo",
+      "Complementa el aporte de potasio de la alimentación"
     ],
     contraindications: "Personas con enfermedad renal, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos ahorradores de potasio o inhibidores de la ECA deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con diuréticos ahorradores de potasio, inhibidores de la ECA y ARA II."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para la presión o para eliminar líquidos que hacen que el cuerpo retenga potasio. La combinación puede aumentar demasiado el potasio; el médico o farmacéutico debe revisar el tratamiento."
   },
 
   // ================================================================
@@ -1306,6 +1306,7 @@ window.manualData.productos = [
     id: 48,
     code: "7503016797139",
     name: "CLOROFILA LIQUIDA 500 ml",
+    benefitSummary: "Clorofila para preparar una bebida refrescante",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/CLOROFILALIQUIDA.jpg",
     shortDesc: "Solución de clorofila líquida, para apoyo a la depuración fisiológica y la salud intestinal.",
@@ -1314,16 +1315,15 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Diluir 15 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
     benefits: [
-      "Apoya la depuración fisiológica",
-      "Contribuye a la salud intestinal",
-      "Ayuda a refrescar el aliento",
-      "Es baja en calorías y azúcares",
-      "Aporta antioxidantes",
-      "Favorece el bienestar general"
+      "Permite incorporar clorofila en una bebida",
+      "Puede dar una sensación refrescante en la boca",
+      "Su presentación facilita mezclarla con agua",
+      "Es una alternativa para variar las bebidas de la rutina",
+      "Su aporte se centra en clorofila líquida"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede teñir las heces de verde, fenómeno inofensivo."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila."
   },
 
   // ================================================================
@@ -1333,6 +1333,7 @@ window.manualData.productos = [
     id: 49,
     code: "7503029679118",
     name: "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
+    benefitSummary: "Clorofila para preparar una bebida refrescante",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/CLOROFILA1.webp",
     shortDesc: "Clorofila líquida con hierbabuena, menta piperita y té matcha, para bienestar digestivo y antioxidante.",
@@ -1341,16 +1342,15 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Agitar antes de usar. Diluir 20 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
     benefits: [
-      "Apoya la digestión y el bienestar intestinal",
-      "Aporta antioxidantes de clorofila y matcha",
-      "Favorece la depuración fisiológica",
-      "Efecto refrescante y carminativo",
-      "Sin calorías ni azúcares",
-      "Favorece el equilibrio general"
+      "Combina clorofila, hierbabuena y matcha",
+      "La hierbabuena aporta sabor y sensación refrescante",
+      "Tiene un enfoque de bienestar digestivo tradicional",
+      "El matcha aporta compuestos antioxidantes",
+      "Se mezcla con agua para preparar una bebida"
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede teñir las heces de verde, fenómeno inofensivo."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila."
   },
 
   // ================================================================
@@ -1360,6 +1360,7 @@ window.manualData.productos = [
     id: 50,
     code: "7503021404602",
     name: "CLORURO DE MAGNESIO",
+    benefitSummary: "Magnesio para músculos, nervios y energía",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/cloruro.jpg",
     shortDesc: "Cloruro de magnesio en cápsulas con vitamina C, calcio y vitamina D, para función muscular y nerviosa.",
@@ -1368,22 +1369,22 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Aporta magnesio de alta biodisponibilidad",
-      "Contribuye a la función muscular y nerviosa",
-      "Ayuda a reducir el cansancio",
-      "Apoya la salud ósea",
-      "Incluye vitamina C y D",
-      "Favorece el bienestar general"
+      "Aporta magnesio para el movimiento normal de los músculos",
+      "Apoya el funcionamiento de los nervios",
+      "Ayuda a aprovechar los alimentos para producir energía",
+      "Contribuye al mantenimiento de los huesos",
+      "Incluye vitaminas C y D para complementar la fórmula"
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con diuréticos, antibióticos (tetraciclinas, quinolonas) y bifosfonatos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas."
   },
   // 51. MOROIZY 90 caps 500 mg
 {
   id: 51,
   code: "7503021404961",
   name: "MOROIZY",
+  benefitSummary: "Cuidado articular y nutrición para el movimiento",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MOROIZY.jpg",
   shortDesc: "Fórmula botánica y vitamínica que combina extractos de plantas tradicionalmente utilizadas para el bienestar articular, la circulación y la función inmune.",
@@ -1392,16 +1393,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la salud articular",
-    "Contribuye a la función inmune",
-    "Aporta antioxidantes",
-    "Ayuda a la circulación",
-    "Favorece la recuperación muscular",
-    "Es de origen botánico"
+    "Su fórmula está orientada al bienestar de las articulaciones",
+    "Aporta ingredientes vegetales con actividad antioxidante",
+    "Complementa una rutina de cuidado del movimiento",
+    "Puede acompañar hábitos para mantener la movilidad",
+    "Reúne ingredientes botánicos en una sola presentación"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la aspirina o a los salicilatos, trastornos de coagulación, úlcera gástrica, o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios, antidiabéticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para evitar coágulos o controlar el azúcar en la sangre."
 },
 
 // 52. MYO + D-CHIRO Inositol 500 mg (90 caps)
@@ -1409,6 +1409,7 @@ window.manualData.productos = [
   id: 52,
   code: "7500645000838",
   name: "MYO + D-CHIRO INOSITOL 500 mg",
+  benefitSummary: "Apoyo nutricional al bienestar metabólico",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MYO-DCHIRO1.png",
   shortDesc: "Fórmula con Myo-Inositol y D-Chiro-Inositol en proporción 40:1, con arándano azul, para el equilibrio hormonal y metabólico.",
@@ -1417,16 +1418,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 4 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya el equilibrio hormonal femenino",
-    "Contribuye a la sensibilidad a la insulina",
-    "Ayuda a la regularidad del ciclo menstrual",
-    "Protege las células del estrés oxidativo",
-    "Es una combinación fisiológica (40:1)",
-    "Favorece el bienestar metabólico"
+    "Combina dos formas de inositol en proporción 40:1",
+    "Se utiliza como complemento del bienestar hormonal femenino",
+    "Puede apoyar la regularidad menstrual en algunos contextos",
+    "Participa en la forma en que las células responden a la insulina",
+    "Acompaña hábitos de alimentación y actividad física"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos, anticoagulantes o medicamentos que afectan los niveles de glucosa deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos y anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para controlar el azúcar o evitar coágulos."
 },
 
 // 53. MYO + D-CHIRO INOSITOL POWDER 300g - 40:1
@@ -1434,6 +1434,7 @@ window.manualData.productos = [
   id: 53,
   code: "7500645001071",
   name: "MYO + D-CHIRO INOSITOL POWDER 300g - 40:1",
+  benefitSummary: "Apoyo nutricional al bienestar metabólico",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MYO-DCHIRO-INOSITOL-POWDER1.jpg",
   shortDesc: "Polvo puro de inositol en proporción 40:1 (Myo 4000 mg, D-Chiro 100 mg por porción), sin excipientes.",
@@ -1442,16 +1443,15 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 4.1 g en agua, jugo o bebida vegetal. Consumir una vez al día.",
   benefits: [
-    "Proporción fisiológica 40:1 de inositoles",
-    "Apoya el metabolismo de la glucosa",
-    "Contribuye al equilibrio hormonal",
-    "100% puro, sin aditivos",
-    "Favorece la salud ovárica",
-    "Ayuda al bienestar metabólico"
+    "Aporta dos formas de inositol en proporción 40:1",
+    "Se utiliza como apoyo nutricional del bienestar hormonal femenino",
+    "Participa en procesos relacionados con el manejo de la glucosa",
+    "Su formato en polvo facilita mezclar la porción indicada",
+    "Complementa una rutina de cuidado metabólico"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan la glucosa deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para la diabetes, porque la combinación puede cambiar el control del azúcar en la sangre."
 },
 
 // 54. Curcumina (90 caps, con piperina y vitamina C)
@@ -1459,6 +1459,7 @@ window.manualData.productos = [
   id: 54,
   code: "7503026253557",
   name: "CURCUMINA",
+  benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcumina1-1.jpg",
   shortDesc: "Extracto de cúrcuma al 95% de curcuminoides, con pimienta negra y vitamina C para mejorar la biodisponibilidad.",
@@ -1467,16 +1468,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
   benefits: [
-    "Alta concentración de curcuminoides",
-    "Potente actividad antioxidante",
-    "Apoya la salud articular y digestiva",
-    "Mejora la biodisponibilidad con piperina",
-    "Protege las células del estrés oxidativo",
-    "Contribuye al bienestar general"
+    "Aporta los compuestos característicos de la cúrcuma",
+    "Contribuye al cuidado antioxidante de las células",
+    "Puede acompañar el bienestar de las articulaciones",
+    "Tiene uso tradicional como complemento digestivo",
+    "Incluye pimienta negra para complementar la fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antiagregantes plaquetarios, antidiabéticos y fármacos metabolizados por CYP3A4."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o controlar el azúcar. También revisar otros tratamientos que procesa el hígado."
 },
 
 // 55. D3 1000 IU / 1000 UI + Vitamina C & Equinácea (30 cápsulas)
@@ -1484,6 +1484,7 @@ window.manualData.productos = [
   id: 55,
   code: "7503029679101",
   name: "D3 1000 UI + VITAMINA C & EQUINÁCEA",
+  benefitSummary: "Vitamina C para defensas, colágeno y cuidado celular",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
   shortDesc: "Suplemento alimenticio en presentación de 30 cápsulas con vitamina C, vitamina D3 y equinácea, formulado como apoyo nutricional para la función inmunológica y el bienestar estacional.",
@@ -1492,16 +1493,15 @@ window.manualData.productos = [
   timing: "Por la mañana o con alimentos, preferentemente con una comida que contenga grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos, preferentemente por la mañana. No exceder la porción diaria recomendada.",
   benefits: [
-    "Vitamina C que contribuye al funcionamiento normal del sistema inmunológico",
-    "Vitamina D3 que participa en la función inmunológica y en la absorción de calcio",
-    "Vitamina C con actividad antioxidante para la protección celular",
-    "Equinácea de uso tradicional como apoyo al bienestar estacional",
-    "Contribuye al mantenimiento de la salud ósea y muscular",
-    "Fórmula combinada de vitaminas y extracto botánico"
+    "La vitamina C apoya el funcionamiento de las defensas",
+    "La vitamina D ayuda a absorber el calcio",
+    "La vitamina D también contribuye al cuidado de huesos y músculos",
+    "La vitamina C ayuda al cuidado antioxidante de las células",
+    "La equinácea tiene uso tradicional en cambios de temporada"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "Tomar con alimentos; una comida que contenga grasas favorece la absorción de la vitamina D3. En personas sensibles, los 300 mg de vitamina C podrían ocasionar molestias gastrointestinales.",
-  interactions: "Puede interactuar con anticoagulantes, inmunosupresores y antidiabéticos."
+  foodInteractions: "Tomar con alimentos. Una comida con algo de grasa ayuda a aprovechar la vitamina D3. La vitamina C puede causar molestias de estómago en personas sensibles.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas."
 },
 
 // 56. DEMOGRASS CLÁSICO (30 cápsulas)
@@ -1509,6 +1509,7 @@ window.manualData.productos = [
   id: 56,
   code: "7501172019331",
   name: "DEMOGRASS CLÁSICO",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSCLASICO.webp",
   shortDesc: "Mezcla de 9 ingredientes naturales con alta fibra, para apoyar la salud digestiva y el bienestar general.",
@@ -1517,16 +1518,15 @@ window.manualData.productos = [
   timing: "En ayunas",
   intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
   benefits: [
-    "Aporta fibra dietética",
-    "Apoya la salud digestiva",
-    "Contribuye a la saciedad",
-    "Contiene enzimas y plantas tradicionales",
-    "Bajo en calorías",
-    "Favorece el bienestar general"
+    "Combina fibra e ingredientes vegetales",
+    "Se utiliza como complemento del bienestar digestivo",
+    "La fórmula incluye ingredientes como bromelina",
+    "Puede acompañar hábitos de alimentación ordenada",
+    "Su enfoque es el cuidado digestivo dentro de una rutina saludable"
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a un médico antes de usar.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 57. Demograss Plus (30 cápsulas, 14 ingredientes)
@@ -1534,6 +1534,7 @@ window.manualData.productos = [
   id: 57,
   code: "7501172018228",
   name: "DEMOGRASS PLUS",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPLUS.webp",
   shortDesc: "Mezcla de 14 ingredientes naturales, incluyendo tés y plantas tradicionales, alta en fibra, para apoyo digestivo.",
@@ -1542,16 +1543,15 @@ window.manualData.productos = [
   timing: "En ayunas",
   intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
   benefits: [
-    "Alto contenido de fibra",
-    "Apoya la salud digestiva",
-    "Contribuye a la depuración",
-    "Rico en polifenoles y antioxidantes",
-    "Sin grasas ni sodio",
-    "Favorece el bienestar general"
+    "Reúne varias plantas en una sola fórmula",
+    "Aporta ingredientes vegetales y fibra",
+    "Se utiliza como complemento del bienestar digestivo",
+    "Incluye compuestos vegetales con actividad antioxidante",
+    "Puede acompañar un plan de alimentación y actividad física"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades crónicas deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 58. DIOLA ROSE (90 caps)
@@ -1559,6 +1559,7 @@ window.manualData.productos = [
   id: 58,
   code: "7500645000791",
   name: "DIOLA ROSE",
+  benefitSummary: "Calma, bienestar mental y rutina de descanso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Diola-Rose1-1.jpg",
   shortDesc: "Fórmula sinérgica que combina Rhodiola Rosea (450 mg), un adaptógeno que apoya la resistencia al estrés físico y mental, con citrato de magnesio (500 mg) de alta biodisponibilidad y polen de abeja (50 mg) para promover la vitalidad y la recuperación.",
@@ -1567,16 +1568,15 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para resultados óptimos en la adaptación al estrés y la vitalidad, se recomienda un uso continuo de al menos 4-8 semanas.",
   benefits: [
-    "Rhodiola Rosea como adaptógeno que apoya la resistencia al estrés físico y mental",
-    "Ayuda a reducir la fatiga y mejorar el rendimiento cognitivo",
-    "Citrato de magnesio que contribuye a la función muscular y nerviosa",
-    "Favorece el equilibrio electrolítico y la reducción del cansancio",
-    "Polen de abeja que aporta nutrientes para la vitalidad y recuperación",
-    "Fórmula con mínimo aporte calórico (0.60 kcal por porción)"
+    "La rhodiola puede apoyar la adaptación al estrés cotidiano",
+    "Puede acompañar la vitalidad en etapas de mayor actividad",
+    "El magnesio ayuda al funcionamiento normal de músculos y nervios",
+    "El magnesio contribuye al aprovechamiento de la energía",
+    "Combina ingredientes para el bienestar físico y mental"
   ],
   contraindications: "No consumir por menores de 12 años. No consumir durante el embarazo o lactancia. Producto elaborado en líneas que procesan derivados de soya, leche, pescado y crustáceos. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-  foodInteractions: "No especificado",
-  interactions: "No especificado"
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 59. DT Green (15 caps)
@@ -1584,6 +1584,7 @@ window.manualData.productos = [
   id: 59,
   code: "7503016797207",
   name: "DT GREEN",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0005s_0002_Presentacion-blanco.jpg",
   shortDesc: "Fórmula botánica con té, papaya, toronja, malva, espirulina y jengibre, para apoyo a la depuración y digestión.",
@@ -1592,16 +1593,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la depuración del organismo",
-    "Contribuye a la salud digestiva",
-    "Aporta antioxidantes y enzimas",
-    "Ayuda a la función hepática",
-    "Es de origen natural",
-    "Favorece el bienestar general"
+    "Reúne plantas y enzimas en una sola fórmula",
+    "Tiene un enfoque de bienestar digestivo",
+    "Aporta compuestos vegetales antioxidantes",
+    "Se utiliza tradicionalmente como complemento del cuidado del hígado",
+    "Permite incorporar la mezcla botánica en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "La toronja puede interactuar con numerosos fármacos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La fórmula incluye toronja, que puede cambiar el efecto de muchos medicamentos. Si el cliente toma alguno, revisar la combinación antes de usar."
 },
 
 // 60. Endis (90 caps, enzimas digestivas)
@@ -1609,6 +1609,7 @@ window.manualData.productos = [
   id: 60,
   code: "7503021404657",
   name: "ENDIS",
+  benefitSummary: "Enzimas para descomponer alimentos y apoyar la digestión",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ENENDIS.png",
   shortDesc: "Fórmula enzimática con papaya, papaina, bromelina, amilasa, lipasa, pancreatina y hierbabuena, para apoyo digestivo.",
@@ -1617,16 +1618,15 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 2 cápsulas antes de las comidas principales.",
   benefits: [
-    "Facilita la digestión de proteínas, carbohidratos y grasas",
-    "Reduce la sensación de pesadez",
-    "Aporta enzimas de origen vegetal y animal",
-    "Contiene hierbabuena para el confort digestivo",
-    "Ayuda a la absorción de nutrientes",
-    "Favorece el bienestar gastrointestinal"
+    "Las enzimas ayudan a descomponer los alimentos durante la digestión",
+    "Incluye enzimas para proteínas, grasas y carbohidratos",
+    "Puede apoyar el confort después de comer",
+    "La hierbabuena complementa el enfoque digestivo",
+    "Está orientado a personas que buscan apoyo con comidas pesadas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la papaya, piña, menta, úlcera gástrica activa, pancreatitis aguda o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede aumentar el riesgo de sangrado con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar el riesgo de sangrado si se combina con medicamentos para evitar coágulos."
 },
 
 // 61. EQUINACEA Y VITAMINA C 500 mg (90 caps)
@@ -1634,6 +1634,7 @@ window.manualData.productos = [
   id: 61,
   code: "7503029679057",
   name: "EQUINACEA Y VITAMINA C",
+  benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Equinacea1.jpg",
   shortDesc: "Combinación de equinácea y vitamina C para fortalecer las defensas naturales del organismo.",
@@ -1642,16 +1643,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Fortalecimiento del sistema inmunológico",
-    "Aporta vitamina C antioxidante",
-    "Ayuda a reducir el cansancio",
-    "Tradicionalmente usado en cambios estacionales",
-    "Fórmula sinérgica",
-    "Favorece el bienestar general"
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "También ayuda al cuidado antioxidante de las células",
+    "Contribuye a reducir el cansancio por falta de vitamina C",
+    "La equinácea tiene uso tradicional en cambios de temporada",
+    "Reúne una vitamina y un ingrediente botánico"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
 },
 
 // PRODUCTO 62 - EVEAUX 500 mg
@@ -1659,6 +1659,7 @@ window.manualData.productos = [
   id: 62,
   code: "7503021404589",
   name: "EVEAUX 500 mg",
+  benefitSummary: "Nutrición para el cuidado de piel y articulaciones",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/eveaux.jpg",
   shortDesc: "Suplemento integral con vitaminas, minerales, aminoácidos esenciales, colágeno, queratina, sílice y ácido hialurónico, diseñado para apoyar la salud de la piel, el cabello y las uñas.",
@@ -1667,16 +1668,15 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos para mejorar la absorción",
   intakeInstructions: "Tomar 3 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Apoya la salud de la piel, el cabello y las uñas",
-    "Biotina que contribuye al mantenimiento de la piel y el cabello",
-    "Vitaminas C y E con actividad antioxidante para la protección celular",
-    "Aminoácidos esenciales que contribuyen a la síntesis de colágeno y queratina",
-    "Ácido hialurónico que favorece la hidratación y elasticidad de la piel",
-    "Fórmula integral con vitaminas, minerales y compuestos estructurales"
+    "Complementa el cuidado de piel, cabello y uñas",
+    "La biotina contribuye al mantenimiento del cabello y la piel",
+    "La vitamina C ayuda a formar colágeno",
+    "El ácido hialurónico complementa el cuidado de la hidratación de la piel",
+    "Las vitaminas C y E ayudan al cuidado antioxidante"
   ],
   contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-  foodInteractions: "No especificado",
-  interactions: "No especificado"
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 63. Fenogreco (90 caps)
@@ -1684,6 +1684,7 @@ window.manualData.productos = [
   id: 63,
   code: "7503026253885",
   name: "FENOGRECO",
+  benefitSummary: "Apoyo nutricional al bienestar metabólico",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/fenogreco-1.jpg",
   shortDesc: "Semilla de fenogreco en polvo, rica en fibra y saponinas, para apoyo digestivo y metabólico.",
@@ -1692,16 +1693,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la digestión y el metabolismo",
-    "Contribuye al mantenimiento de niveles normales de glucosa",
-    "Rico en fibra soluble",
-    "Ayuda a la salud hormonal",
-    "Es de origen vegetal",
-    "Favorece el bienestar general"
+    "Aporta fenogreco, una semilla de uso tradicional",
+    "Contiene fibra y otros compuestos vegetales",
+    "Se utiliza como complemento del bienestar digestivo",
+    "También se estudia por su relación con el manejo de la glucosa",
+    "Puede acompañar una alimentación orientada al cuidado metabólico"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos, anticoagulantes y hormonales."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para el azúcar, para evitar coágulos o tratamientos hormonales."
 },
 
 // 64. FITMINGO 510 GR VAINILLA (proteína vegetal)
@@ -1709,6 +1709,7 @@ window.manualData.productos = [
   id: 64,
   code: "7503037273384",
   name: "FITMINGO 510 GR VAINILLA",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FITMINGO_LISTINGS_VAINILLA510_01_1.webp",
   shortDesc: "Proteína vegetal de chícharo y arroz, enriquecida con inositoles, ácido hialurónico y vitamina D3, sin alérgenos comunes.",
@@ -1717,16 +1718,15 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 34 g en 250-300 ml de agua o bebida vegetal. Tomar una vez al día.",
   benefits: [
-    "Proteína completa de origen vegetal",
-    "Alto contenido de BCAA's",
-    "Incluye inositoles para equilibrio metabólico",
-    "Aporta ácido hialurónico para articulaciones",
-    "Vitamina D3 para salud ósea",
-    "Sin soya, gluten, lácteos ni azúcares añadidos"
+    "Aporta proteína vegetal para completar la alimentación",
+    "Ayuda al mantenimiento de los músculos",
+    "Incluye inositoles como parte de la fórmula",
+    "La vitamina D contribuye al cuidado de los huesos",
+    "Ofrece una alternativa a las proteínas de origen lácteo"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al coco o trazas de almendra deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "Contiene coco y trazas de almendra."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene coco y puede tener trazas de almendra. Revisar si el cliente tiene alergia a estos alimentos."
 },
 
 // 66. FLOR ESSENCE (500 ml, remedio herbolario)
@@ -1734,6 +1734,7 @@ window.manualData.productos = [
   id: 66,
   code: "61998080702",
   name: "FLOR-ESSENCE",
+  benefitSummary: "Mezcla de ingredientes tradicionales para el bienestar general",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FlorEssence1.webp",
   shortDesc: "Remedio herbolario con ocho hierbas tradicionales (bardana, acedera, olmo, kelp, cardo santo, berro, trébol rojo, ruibarbo), para el fortalecimiento de las defensas naturales.",
@@ -1742,16 +1743,15 @@ window.manualData.productos = [
   timing: "Por la noche antes de acostarse y por la mañana 1 hora antes del primer alimento",
   intakeInstructions: "Agitar antes de usar. Diluir en igual cantidad de agua purificada. Tomar a sorbos lentamente.",
   benefits: [
-    "Fortalecimiento de las defensas naturales",
-    "Apoyo a la función digestiva y hepática",
-    "Aporta compuestos antioxidantes",
-    "Tradicionalmente usado como depurativo",
-    "Mezcla de hierbas de uso ancestral",
-    "Favorece el bienestar general"
+    "Combina ocho hierbas de uso tradicional",
+    "Se utiliza como complemento del bienestar digestivo",
+    "Aporta compuestos vegetales con actividad antioxidante",
+    "Permite incorporar la mezcla en formato líquido",
+    "Su enfoque es el bienestar general desde la herbolaria tradicional"
   ],
   contraindications: "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
-  foodInteractions: "No especificado",
-  interactions: "Puede producir espasmos gastrointestinales. Consultar con médico en caso de radioterapia o quimioterapia."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede causar cólicos o molestias en el estómago y el intestino. Si el cliente recibe radioterapia o quimioterapia, consultar con su equipo médico antes de usar."
 },
 
 // 67. FUNGONE
@@ -1759,6 +1759,7 @@ window.manualData.productos = [
   id: 67,
   code: "7503026253618",
   name: "FUNGONE",
+  benefitSummary: "Mezcla de ingredientes tradicionales para el bienestar general",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Fungone1.jpg",
   shortDesc: "Fórmula avanzada que combina siete hongos medicinales (Reishi, Maitake, Chaga, Shiitake, Cordyceps, Turkey Tail y Melena de León) para apoyar el sistema inmunológico, la función cognitiva y la vitalidad.",
@@ -1767,16 +1768,15 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Combina siete hongos medicinales de reconocido prestigio",
-    "Apoya el sistema inmunológico con beta-glucanos y polisacáridos",
-    "Favorece la función cognitiva y la salud neurológica (Melena de León)",
-    "Contribuye a la vitalidad y la energía celular (Cordyceps)",
-    "Poderoso perfil antioxidante (Chaga, Reishi)",
-    "Promueve el equilibrio del organismo y la respuesta al estrés"
+    "Reúne distintos hongos de uso tradicional",
+    "Aporta compuestos propios de los hongos de la fórmula",
+    "Se estudian como apoyo al funcionamiento de las defensas",
+    "Combina ingredientes orientados a la vitalidad y el bienestar mental",
+    "Facilita incorporar varios hongos en una sola presentación"
   ],
   contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a los hongos, trastornos autoinmunitarios, o bajo tratamiento inmunosupresor o anticoagulante deben consultar a un profesional de la salud antes de consumirlo.",
-  foodInteractions: "No especificado",
-  interactions: "No especificado"
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 68. GABA (30 caps)
@@ -1784,6 +1784,7 @@ window.manualData.productos = [
   id: 68,
   code: "7503021404695",
   name: "GABA",
+  benefitSummary: "Calma, bienestar mental y rutina de descanso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GABA1.jpg",
   shortDesc: "Suplemento de GABA con zinc, selenio, vitamina B5 y B12, para apoyo a la relajación y función neurológica.",
@@ -1792,16 +1793,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la relajación y el equilibrio neuronal",
-    "Contribuye a la reducción del estrés",
-    "Mejora la calidad del sueño",
-    "Aporta micronutrientes esenciales",
-    "Favorece la función cognitiva",
-    "Ayuda al bienestar mental"
+    "Su enfoque es favorecer una rutina de relajación",
+    "Puede acompañar el descanso al final del día",
+    "Aporta GABA y los nutrientes indicados en la fórmula",
+    "Se utiliza como complemento del bienestar mental",
+    "Permite incorporar el ingrediente en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas bajo tratamiento con ansiolíticos, hipnóticos o anticonvulsivantes, o con condiciones médicas deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede potenciar el efecto de ansiolíticos, hipnóticos y anticonvulsivantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar el sueño o la sedación al combinarse con medicamentos para la ansiedad, para dormir o para controlar convulsiones."
 },
 
 // 69. GENTILAX (laxante con fenolftaleína) - se incluye pero con advertencia
@@ -1809,6 +1809,7 @@ window.manualData.productos = [
   id: 69,
   code: "7501737500038",
   name: "GENTILAX",
+  benefitSummary: "Apoyo ocasional a la evacuación",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/gentilax.webp",
   shortDesc: "Laxante estimulante a base de fenolftaleína, para alivio del estreñimiento ocasional. Uso bajo prescripción médica.",
@@ -1817,15 +1818,15 @@ window.manualData.productos = [
   timing: "Antes de acostarse",
   intakeInstructions: "Tomar 1-2 tabletas antes de acostarse, según indicación médica. No usar por más de una semana.",
   benefits: [
-    "Alivio efectivo del estreñimiento ocasional",
-    "Acción en 6-12 horas",
-    "Dosificación flexible",
-    "Uso esporádico",
-    "Bajo supervisión médica"
+    "Es un producto orientado al estreñimiento ocasional",
+    "Ayuda a estimular el movimiento del intestino",
+    "Su finalidad es facilitar la evacuación cuando corresponde su uso",
+    "La etiqueta indica cómo ajustar la toma",
+    "El beneficio se limita al uso ocasional indicado"
   ],
   contraindications: "No administrar en casos de dolor abdominal de origen desconocido, obstrucción intestinal, embarazo, lactancia, o en menores de 8 años sin prescripción médica.",
-  foodInteractions: "No especificado",
-  interactions: "El uso prolongado puede causar dependencia y alteraciones electrolíticas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Usarlo durante demasiado tiempo puede hacer que el intestino dependa del laxante y alterar las sales y minerales del cuerpo. Respetar el tiempo de uso indicado."
 },
 
 // 70. Ginkgo Biloba (90 caps)
@@ -1833,6 +1834,7 @@ window.manualData.productos = [
   id: 70,
   code: "7503026253502",
   name: "GINKGO BILOBA",
+  benefitSummary: "Complemento del cuidado de la atención y la memoria",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
   shortDesc: "Extracto estandarizado de Ginkgo biloba, para apoyar la función cognitiva, la memoria y la circulación.",
@@ -1841,16 +1843,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la función cognitiva y la memoria",
-    "Mejora la microcirculación",
-    "Protege las células del estrés oxidativo",
-    "Uso tradicional en problemas circulatorios",
-    "Contribuye al bienestar neurológico",
-    "Ayuda a la concentración"
+    "Se utiliza como complemento del cuidado de la memoria",
+    "Puede acompañar tareas que requieren atención",
+    "Tiene uso tradicional para el bienestar circulatorio",
+    "Aporta compuestos vegetales con actividad antioxidante",
+    "Su enfoque combina bienestar mental y circulación"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede aumentar el riesgo de sangrado con anticoagulantes y antiagregantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar el riesgo de sangrado con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes."
 },
 
 // 71. GLUTAMINE FEAR (300 g)
@@ -1858,6 +1859,7 @@ window.manualData.productos = [
   id: 71,
   code: "7503021404244",
   name: "GLUTAMINE FEAR",
+  benefitSummary: "Glutamina para complementar la nutrición",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Glutamina_1_46f39ebf-7ea9-40eb-9fe2-91c439e45717.webp",
   shortDesc: "L-Glutamina en polvo de alta pureza, para la recuperación muscular y el soporte del sistema inmune.",
@@ -1866,16 +1868,15 @@ window.manualData.productos = [
   timing: "Post-entreno o antes de dormir",
   intakeInstructions: "Diluir 5 g en 200-250 ml de agua fría. Consumir después del entrenamiento o antes de dormir.",
   benefits: [
-    "Aminoácido condicionalmente esencial",
-    "Apoya la recuperación muscular",
-    "Contribuye a la función inmunológica",
-    "Ayuda al equilibrio del nitrógeno",
-    "Sin carbohidratos ni grasas",
-    "Alta pureza"
+    "Aporta glutamina, un componente de las proteínas",
+    "Complementa la alimentación de personas físicamente activas",
+    "La glutamina participa en el mantenimiento de distintos tejidos",
+    "También sirve como fuente de energía para algunas células",
+    "Su formato en polvo facilita incorporarla a una bebida"
   ],
   contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "Puede contener trazas de alérgenos por procesamiento en instalaciones compartidas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede tener trazas de alimentos que causan alergia porque se fabrica en instalaciones compartidas. Revisar la etiqueta si el cliente tiene alergias."
 },
 
 // 72. GLUTATHIONE BLEND 500 mg (120 caps)
@@ -1883,6 +1884,7 @@ window.manualData.productos = [
   id: 72,
   code: "7500645000456",
   name: "GLUTATHIONE BLEND",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/gluta.jpg",
   shortDesc: "Combinación de glutatión reducido y vitamina C, para la protección celular y la desintoxicación.",
@@ -1891,16 +1893,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Potente antioxidante celular",
-    "Apoya la desintoxicación hepática",
-    "Regenera la vitamina C y E",
-    "Contribuye a la función inmunológica",
-    "Protege las células del estrés oxidativo",
-    "Fórmula sinérgica"
+    "Combina ingredientes orientados al cuidado antioxidante",
+    "El glutatión participa en la protección normal de las células",
+    "Complementa los sistemas antioxidantes del cuerpo",
+    "Su enfoque es el cuidado celular cotidiano",
+    "Permite reunir los ingredientes de la fórmula en una sola toma"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, quimioterapia o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, quimioterapia e inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, recibe quimioterapia o toma tratamientos que disminuyen la actividad de las defensas."
 },
 
 // 73. GOJI TRIM® 500 mg BIO LIFE (30 caps)
@@ -1908,6 +1909,7 @@ window.manualData.productos = [
   id: 73,
   code: "690939403401",
   name: "GOJI TRIM 500 mg BIO LIFE",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GOJI.webp",
   shortDesc: "Suplemento a base de semillas de baya de Goji, con linaza, raíz de lima, malva y lecitina de soya, para apoyo nutricional.",
@@ -1916,16 +1918,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Fuente de antioxidantes y nutrientes",
-    "Apoya la salud digestiva e inmunológica",
-    "Aporta fibra y minerales",
-    "Tradicionalmente usado como tónico",
-    "Ayuda al bienestar general",
-    "Contiene soya"
+    "Aporta goji y otros ingredientes vegetales",
+    "Contiene compuestos con actividad antioxidante",
+    "Su fórmula tiene un enfoque de bienestar digestivo",
+    "Complementa la alimentación con una mezcla de plantas",
+    "Permite incorporar goji en una presentación práctica"
   ],
   contraindications: "Contiene soya. Consultar a médico si se tienen alergias o condiciones médicas.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 74. GOJI (30 caps)
@@ -1933,6 +1934,7 @@ window.manualData.productos = [
   id: 74,
   code: "7506022814081",
   name: "GOJI",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GOJI1.jpg",
   shortDesc: "Extracto de baya de Goji con pingüica, diente de león, extractos cítricos, ácido clorogénico y BHB, para apoyo metabólico.",
@@ -1941,16 +1943,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Rico en antioxidantes y polisacáridos",
-    "Apoya el metabolismo energético",
-    "Contribuye al bienestar digestivo",
-    "Ayuda a la depuración fisiológica",
-    "Es de origen vegetal",
-    "Favorece el bienestar general"
+    "Aporta compuestos antioxidantes propios del goji",
+    "Complementa una alimentación variada",
+    "Su enfoque es el cuidado celular y el bienestar general",
+    "Permite incorporar goji sin preparar el fruto",
+    "Ofrece ingredientes de origen vegetal en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a frutas de la familia Solanaceae o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes (vitamina K)."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para evitar coágulos: la vitamina K de la fórmula puede cambiar su efecto."
 },
 
 // 75. GOJIZEN MAX (ACTUALIZADO)
@@ -1958,6 +1959,7 @@ window.manualData.productos = [
   id: 75,
   code: "7503025069036",
   name: "GOJIZEN MAX",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0000_freepik__reflective-red-plastic-bottle-gently-tapered-shoul__80768.jpg",
   shortDesc: "Suplemento alimenticio que combina una mezcla botánica de bayas de Goji, mango africano, linaza, piña y papaya con micronutrientes esenciales (vitamina B12, magnesio y calcio) para apoyar el bienestar general y el metabolismo.",
@@ -1966,16 +1968,15 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Mezcla botánica con bayas de Goji, mango africano, linaza, piña y papaya",
-    "Apoya el bienestar general y el metabolismo",
-    "Aporta enzimas digestivas naturales (bromelina y papaína)",
-    "Contiene vitamina C y E con actividad antioxidante",
-    "Fibra botánica que favorece el tránsito intestinal",
-    "Fórmula con mínimo aporte calórico (1 kcal por porción)"
+    "Combina goji, mango africano, linaza, piña y papaya",
+    "Incluye ingredientes vegetales con enfoque digestivo",
+    "La piña y la papaya contienen enzimas propias de estas frutas",
+    "Las vitaminas C y E complementan el cuidado antioxidante",
+    "Reúne varios ingredientes en una sola fórmula"
   ],
   contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-  foodInteractions: "No especificado",
-  interactions: "No especificado"
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 76. GREEN LX 300 mg (50 tabletas)
@@ -1983,6 +1984,7 @@ window.manualData.productos = [
   id: 76,
   code: "7503016797597",
   name: "GREEN LX",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GREEEN-XL.jpg",
   shortDesc: "Fórmula botánica con ciruela pasa, tamarindo, papaya, sábila y manzana, para apoyar el tránsito intestinal regular.",
@@ -1991,16 +1993,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 tableta al día con alimentos.",
   benefits: [
-    "Apoya la regularidad intestinal",
-    "Contribuye al confort digestivo",
-    "Fuente de fibra y enzimas",
-    "Ayuda a la sensación de ligereza",
-    "De origen natural",
-    "Favorece el bienestar digestivo"
+    "Está orientado al bienestar y la regularidad intestinal",
+    "Combina ingredientes vegetales con enfoque digestivo",
+    "Puede acompañar hábitos de alimentación y consumo de agua",
+    "Su objetivo práctico es favorecer el confort intestinal",
+    "Permite incorporar la mezcla en tabletas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El aloe vera puede tener efecto laxante."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La sábila puede acelerar las evacuaciones o causar diarrea."
 },
 
 // 77. HERCAMPURRI 500 mg (90 caps)
@@ -2008,6 +2009,7 @@ window.manualData.productos = [
   id: 77,
   code: "7503026253908",
   name: "HERCAMPURI",
+  benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/HERCAMPURRI.jpg",
   shortDesc: "Suplemento de hercampuri (Gentianella alborosea), planta andina tradicional para el apoyo digestivo.",
@@ -2016,16 +2018,15 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 3 cápsulas al día antes de las comidas principales.",
   benefits: [
-    "Estimula la digestión y secreción biliar",
-    "Ayuda a aliviar digestiones pesadas",
-    "Tradicionalmente usado en los Andes",
-    "Apoya la función hepática",
-    "Es de origen vegetal",
-    "Favorece el bienestar digestivo"
+    "El hercampuri tiene uso tradicional digestivo",
+    "Se utiliza para acompañar el confort después de las comidas",
+    "Su sabor amargo es característico de la planta",
+    "Tradicionalmente se relaciona con el cuidado del hígado y la bilis",
+    "Ofrece el ingrediente botánico en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con medicamentos que afectan la secreción gástrica."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos que modifican la producción de ácido del estómago."
 },
 
 // 78. HPR PROS GREEN ZEN (120 caps)
@@ -2033,6 +2034,7 @@ window.manualData.productos = [
   id: 78,
   code: "7500645000340",
   name: "HPR PROS",
+  benefitSummary: "Bienestar prostático y cuidado masculino",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/HPRPros.jpg",
   shortDesc: "Fórmula para la salud del tracto urinario y función inmune, con arándano, semilla de calabaza, ciruelo africano, equinácea, cúrcuma, zinc y selenio.",
@@ -2041,16 +2043,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la salud del tracto urinario",
-    "Contribuye a la función prostática",
-    "Fortalece el sistema inmunológico",
-    "Aporta antioxidantes y minerales",
-    "Fórmula integral para la salud masculina",
-    "Favorece el bienestar general"
+    "Su enfoque es el bienestar prostático masculino",
+    "Combina ingredientes para complementar el cuidado urinario",
+    "Aporta antioxidantes y minerales de la fórmula",
+    "Puede integrarse a una rutina de autocuidado masculino",
+    "Reúne ingredientes botánicos y nutricionales"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hepática, trastornos autoinmunes o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El zinc en dosis altas puede interferir con la absorción de cobre."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El zinc en cantidades altas puede hacer que el cuerpo absorba menos cobre. Revisar si el cliente ya toma otros suplementos con zinc."
 },
 
 // 79. INOSITOL POWDER (120 caps)
@@ -2058,6 +2059,7 @@ window.manualData.productos = [
   id: 79,
   code: "7500645000395",
   name: "INOSITOL POWDER",
+  benefitSummary: "Apoyo nutricional al bienestar metabólico",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Inositol1.jpg",
   shortDesc: "Myo-inositol en cápsulas, para apoyar el metabolismo de la glucosa y el equilibrio hormonal.",
@@ -2066,16 +2068,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la señalización de la insulina",
-    "Contribuye al metabolismo de los carbohidratos",
-    "Ayuda al equilibrio hormonal",
-    "Es un pseudovitamínico del complejo B",
-    "Favorece el bienestar metabólico",
-    "Fórmula sencilla y pura"
+    "Aporta inositol para complementar la alimentación",
+    "Participa en la comunicación normal entre las células",
+    "Interviene en procesos relacionados con la respuesta a la insulina",
+    "Se utiliza como complemento del bienestar metabólico",
+    "Permite incorporar inositol en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan el estado de ánimo deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para la diabetes, porque la combinación puede cambiar el control del azúcar en la sangre."
 },
 
 // 80. ISOFLAVONAS DE SOYA 500 mg (90 caps)
@@ -2083,6 +2084,7 @@ window.manualData.productos = [
   id: 80,
   code: "7503021404503",
   name: "ISOFLAVONAS DE SOYA 500 mg",
+  benefitSummary: "Bienestar femenino y cambios de etapa",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ISOFLAVONAS1.webp",
   shortDesc: "Fórmula con isoflavonas de soya, camote silvestre, arándano rojo, vitaminas A, E, B1, B12, para el bienestar femenino y equilibrio hormonal.",
@@ -2091,16 +2093,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya el equilibrio hormonal femenino",
-    "Contribuye a la salud de la piel y el cabello",
-    "Ayuda a aliviar síntomas de la menopausia",
-    "Aporta antioxidantes y vitaminas",
-    "Favorece la salud del tracto urinario",
-    "Es de origen vegetal"
+    "Aporta isoflavonas de soya",
+    "Se utiliza como complemento del bienestar durante la menopausia",
+    "Puede ayudar con algunos malestares de esa etapa en ciertas personas",
+    "Acompaña una rutina de cuidado femenino",
+    "Permite incorporar los compuestos de la soya en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la soya, antecedentes de cáncer de mama o endometrio, o bajo tratamiento hormonal deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Las isoflavonas pueden tener efectos estrogénicos; supervisar en casos de sensibilidad hormonal."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Las isoflavonas pueden tener efectos parecidos a los estrógenos, hormonas del cuerpo. Consultar si el cliente tiene una condición sensible a las hormonas."
 },
 
 // 81. JENGIBRE 500 mg (60 caps)
@@ -2108,6 +2109,7 @@ window.manualData.productos = [
   id: 81,
   code: "7503021404176",
   name: "JENGIBRE",
+  benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/JENGIBRE.jpg",
   shortDesc: "Raíz de jengibre en polvo en cápsulas, para apoyo digestivo y alivio de náuseas.",
@@ -2116,16 +2118,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la digestión y alivia las náuseas",
-    "Contribuye a la función carminativa",
-    "Aporta antioxidantes y compuestos antiinflamatorios",
-    "Tradicionalmente usado para el confort estomacal",
-    "Es de origen vegetal",
-    "Favorece el bienestar digestivo"
+    "Tiene uso tradicional para el confort del estómago",
+    "Puede ayudar con la sensación de náusea en ciertos contextos",
+    "Se utiliza para acompañar la digestión después de comer",
+    "Aporta compuestos antioxidantes del jengibre",
+    "Permite incorporar la raíz sin su sabor intenso"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
 },
 
 // 82. Krill Oil (80 cápsulas)
@@ -2133,6 +2134,7 @@ window.manualData.productos = [
   id: 82,
   code: "7500645000463",
   name: "KRILL OIL",
+  benefitSummary: "Complemento nutricional para el cuidado del corazón",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/krill-1.jpg",
   shortDesc: "Aceite de krill concentrado en EPA, DHA, fosfolípidos y astaxantina, para apoyo cardiovascular y cerebral.",
@@ -2141,16 +2143,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Fuente de omega-3 de alta biodisponibilidad",
-    "Apoya la función cardiovascular y cerebral",
-    "Contiene astaxantina antioxidante",
-    "Fosfolípidos para mejor absorción",
-    "Ayuda a mantener niveles normales de triglicéridos",
-    "Favorece la salud ocular y cognitiva"
+    "Aporta omega 3 de origen marino",
+    "El omega 3 complementa el cuidado del corazón",
+    "El DHA es un componente importante del cerebro y los ojos",
+    "Incluye astaxantina como ingrediente antioxidante",
+    "Permite incorporar grasas marinas a la alimentación"
   ],
   contraindications: "Personas con alergia a crustáceos o mariscos, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
 },
 
 // 83. L-ARGININA NANO FEAR 850MG (100 cápsulas)
@@ -2158,6 +2159,7 @@ window.manualData.productos = [
   id: 83,
   code: "7503021404596",
   name: "L-ARGININA NANO FEAR 850MG",
+  benefitSummary: "Arginina como complemento de una rutina activa",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-ARGININA-1.jpg",
   shortDesc: "L-Arginina con L-Ornitina, para mejorar el flujo sanguíneo y el rendimiento deportivo.",
@@ -2166,16 +2168,15 @@ window.manualData.productos = [
   timing: "Antes del entrenamiento",
   intakeInstructions: "Tomar 3 cápsulas antes de la actividad física.",
   benefits: [
-    "Precursor del óxido nítrico",
-    "Mejora la vasodilatación y el flujo sanguíneo",
-    "Apoya el rendimiento y la recuperación muscular",
-    "Ayuda a la síntesis de creatina",
-    "Reduce la fatiga muscular",
-    "Fórmula con L-Ornitina sinérgica"
+    "Aporta arginina, un componente de las proteínas",
+    "Participa en la producción de sustancias que relajan los vasos sanguíneos",
+    "Se utiliza como complemento de rutinas deportivas",
+    "Acompaña la nutrición de personas físicamente activas",
+    "Combina arginina y ornitina en una sola fórmula"
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, hipotensión arterial, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 84. L-CARNITINA, GUARANÁ Y GARCINIA (100 cápsulas)
@@ -2183,6 +2184,7 @@ window.manualData.productos = [
   id: 84,
   code: "7501062913671",
   name: "L-CARNITINA, GUARANÁ Y GARCINIA",
+  benefitSummary: "Energía y alerta para acompañar el entrenamiento",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Carnitina1.webp",
   shortDesc: "Fórmula termogénica con L-carnitina, guaraná, cafeína, Garcinia, cayena y extractos vegetales, para apoyo al metabolismo y la oxidación de grasas.",
@@ -2191,16 +2193,15 @@ window.manualData.productos = [
   timing: "Antes del desayuno y antes de la comida",
   intakeInstructions: "Tomar 2 cápsulas antes del desayuno y 2 antes de la comida (4 cápsulas al día).",
   benefits: [
-    "Potente termogénico natural",
-    "Apoya la oxidación de ácidos grasos",
-    "Aumenta el gasto energético",
-    "Mejora el enfoque y la energía",
-    "Contiene extractos de plantas y cafeína",
-    "Favorece la composición corporal"
+    "La cafeína y el guaraná ayudan a mantenerse alerta",
+    "Puede apoyar la energía percibida antes de la actividad física",
+    "La L-carnitina participa en el uso de grasas como energía",
+    "El cromo contribuye al manejo normal de la glucosa",
+    "Complementa una rutina de alimentación y ejercicio"
   ],
   contraindications: "Personas con hipertensión, enfermedades cardíacas, hepáticas o renales, sensibilidad a la cafeína, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "Puede potenciar los efectos de estimulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar los efectos de otros estimulantes, como mayor nerviosismo o dificultad para dormir. Revisar otros productos con cafeína."
 },
 
 // 85. L-CARNOSINE ZINC (30 cápsulas)
@@ -2208,6 +2209,7 @@ window.manualData.productos = [
   id: 85,
   code: "7500645001521",
   name: "L-CARNOSINE ZINC",
+  benefitSummary: "Nutrición para el cuidado de la capa digestiva",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZN-–-ZINC-L-CARNOSINE-–-30-caps-–-Render-–-V2-–-Marzo2026.jpg",
   shortDesc: "Quelato de zinc con L-carnosina, jengibre e inulina de agave, para el confort digestivo y la salud de las mucosas.",
@@ -2216,16 +2218,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la integridad de la mucosa digestiva",
-    "Contribuye a la función inmunológica",
-    "Aporta zinc de alta biodisponibilidad",
-    "Incluye jengibre para el confort gástrico",
-    "Inulina prebiótica para la microbiota",
-    "Favorece el bienestar gastrointestinal"
+    "Su enfoque es el cuidado de la capa que recubre el estómago",
+    "El zinc contribuye al mantenimiento normal de los tejidos",
+    "El jengibre tiene uso tradicional para el confort digestivo",
+    "La inulina es una fibra que sirve de alimento a bacterias intestinales",
+    "Reúne apoyo nutricional y digestivo en una sola fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con condiciones médicas deben consultar a un especialista.",
-  foodInteractions: "No especificado",
-  interactions: "El zinc en exceso puede interferir con la absorción de cobre."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El exceso de zinc puede hacer que el cuerpo absorba menos cobre. Revisar otros suplementos que el cliente ya consuma."
 },
 
 // 86. Leucaps (60 cápsulas, luteína y zeaxantina)
@@ -2233,6 +2234,7 @@ window.manualData.productos = [
   id: 86,
   code: "7503025069401",
   name: "LEUCAPS",
+  benefitSummary: "Luteína y zeaxantina para el cuidado visual",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/leucaps.jpg",
   shortDesc: "Extracto de flor de cempasúchil (Tagetes erecta) rico en luteína y zeaxantina, para la salud ocular.",
@@ -2241,16 +2243,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
   benefits: [
-    "Apoya la salud de la mácula y la retina",
-    "Filtra la luz azul dañina",
-    "Actúa como antioxidante ocular",
-    "Contribuye a la función visual normal",
-    "De origen vegetal",
-    "Favorece la salud visual a largo plazo"
+    "Aporta luteína y zeaxantina para complementar el cuidado visual",
+    "Estos componentes se encuentran naturalmente en la retina",
+    "Contribuye al cuidado antioxidante de los ojos",
+    "Su enfoque es el bienestar visual cotidiano",
+    "Permite incorporar estos pigmentos vegetales en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
 },
 
 // 87. L-TIROSINA 500 mg (60 caps)
@@ -2258,6 +2259,7 @@ window.manualData.productos = [
   id: 87,
   code: "7503026253076",
   name: "L-TIROSINA",
+  benefitSummary: "Complemento del cuidado de la atención y la memoria",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-TYROSINE1.webp",
   shortDesc: "L-Tirosina con arándano azul y vitamina C, para apoyo cognitivo y reducción del estrés.",
@@ -2266,16 +2268,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Precursor de neurotransmisores (dopamina, noradrenalina)",
-    "Apoya la función cognitiva y el estado de ánimo",
-    "Ayuda a la respuesta al estrés",
-    "Aporta antioxidantes de arándano y vitamina C",
-    "Favorece la concentración",
-    "Fórmula sinérgica"
+    "La tirosina participa en la formación de mensajeros del cerebro",
+    "Se utiliza como complemento en tareas de atención",
+    "Puede acompañar el desempeño mental en situaciones de demanda",
+    "La vitamina C contribuye al cuidado antioxidante",
+    "El arándano complementa el aporte de compuestos vegetales"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con inhibidores de la MAO, levodopa, anticoagulantes y antidiabéticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si usa ciertos antidepresivos llamados IMAO, levodopa para el Parkinson, medicamentos para evitar coágulos o para controlar el azúcar."
 },
 
 // 88. MACA NEGRA (polvo, 150 g)
@@ -2283,6 +2284,7 @@ window.manualData.productos = [
   id: 88,
   code: "7503021404893",
   name: "MACA NEGRA",
+  benefitSummary: "Vitalidad y uso tradicional",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MACANEGRA.webp",
   shortDesc: "Raíz de maca negra en polvo, adaptógeno andino para la vitalidad y el equilibrio hormonal.",
@@ -2291,16 +2293,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Disolver 4 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "Adaptógeno natural para la energía",
-    "Apoya el equilibrio hormonal",
-    "Mejora la función sexual y la fertilidad",
-    "Aumenta la resistencia física",
-    "Tradicionalmente usado en los Andes",
-    "Favorece el bienestar general"
+    "La maca tiene uso tradicional como apoyo a la vitalidad",
+    "Puede acompañar etapas de mayor actividad física y mental",
+    "Se utiliza como complemento del bienestar sexual",
+    "Aporta maca negra en polvo para mezclar con alimentos",
+    "Permite variar la alimentación con un ingrediente vegetal"
   ],
   contraindications: "No consumir durante el embarazo ni lactancia. Personas con trastornos hormonales sensibles o bajo tratamiento médico deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
 },
 
 // 89. MACA, JENGIBRE Y DAMIANA 500 mg (60 caps)
@@ -2308,6 +2309,7 @@ window.manualData.productos = [
   id: 89,
   code: "7503021404213",
   name: "MACA, JENGIBRE Y DAMIANA",
+  benefitSummary: "Vitalidad y uso tradicional",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/maca-1.jpg",
   shortDesc: "Combinación de maca, jengibre y damiana para la vitalidad, el equilibrio hormonal y el bienestar sexual.",
@@ -2316,16 +2318,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya la vitalidad y la energía",
-    "Contribuye al equilibrio hormonal",
-    "Favorece la función sexual",
-    "Ayuda a la digestión y circulación",
-    "Es de origen vegetal",
-    "Favorece el bienestar general"
+    "La maca y la damiana tienen uso tradicional para la vitalidad",
+    "Puede acompañar una rutina de bienestar sexual",
+    "El jengibre complementa el enfoque digestivo",
+    "Reúne tres ingredientes vegetales en una sola fórmula",
+    "Su enfoque es el bienestar y la energía cotidiana"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos, anticoagulantes y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para controlar el azúcar, evitar coágulos o tratar la presión arterial."
 },
 
 // 90. Maca (90 caps, mezcla de amarilla, roja y negra)
@@ -2333,6 +2334,7 @@ window.manualData.productos = [
   id: 90,
   code: "7503029679941",
   name: "MACA 90 CAPS",
+  benefitSummary: "Vitalidad y uso tradicional",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/maca.jpg",
   shortDesc: "Mezcla de maca amarilla, roja y negra con pimienta negra, para energía, equilibrio hormonal y vitalidad.",
@@ -2341,16 +2343,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Combinación de las tres variedades de maca",
-    "Apoya la energía y la resistencia",
-    "Contribuye al equilibrio hormonal",
-    "Mejora la función sexual y cognitiva",
-    "Con pimienta negra para mejor absorción",
-    "Favorece el bienestar general"
+    "Combina maca amarilla, roja y negra",
+    "Tiene uso tradicional como apoyo a la vitalidad",
+    "Puede acompañar una rutina de actividad física",
+    "Se utiliza como complemento del bienestar sexual",
+    "Permite incorporar las tres variedades sin preparar el polvo"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales o bajo tratamiento médico deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antihipertensivos y anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para la presión arterial o para evitar coágulos."
 },
 
 // 91. Magnesio Blend (120 caps, citrato, gluconato, óxido)
@@ -2358,6 +2359,7 @@ window.manualData.productos = [
   id: 91,
   code: "7500645000425",
   name: "MAGNESIO BLEND",
+  benefitSummary: "Magnesio para músculos, nervios y energía",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/blend.jpg",
   shortDesc: "Mezcla de tres formas de magnesio (citrato, gluconato, óxido) para una absorción optimizada.",
@@ -2366,16 +2368,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Combina tres formas de magnesio",
-    "Contribuye a la función muscular y nerviosa",
-    "Ayuda a reducir el cansancio",
-    "Apoya el equilibrio electrolítico",
-    "Mejora la biodisponibilidad",
-    "Favorece el bienestar general"
+    "Aporta magnesio en tres formas distintas",
+    "Ayuda al funcionamiento normal de los músculos",
+    "Apoya el funcionamiento de los nervios",
+    "Contribuye a reducir el cansancio por falta de magnesio",
+    "Participa en el equilibrio de agua y minerales del cuerpo"
   ],
   contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con diuréticos, antibióticos (tetraciclinas, quinolonas) y bifosfonatos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas."
 },
 
 // 92. MAGNESIUM MALATE (60 caps)
@@ -2383,6 +2384,7 @@ window.manualData.productos = [
   id: 92,
   code: "7500645001491",
   name: "MAGNESIUM MALATE",
+  benefitSummary: "Magnesio para músculos, nervios y energía",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesio-Malate1.jpg",
   shortDesc: "Malato de magnesio dibásico con avena y vitamina B6 activa (P-5-P), para energía y función neuromuscular.",
@@ -2391,16 +2393,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Magnesio de alta biodisponibilidad",
-    "Aporta ácido málico para producción de energía",
-    "Vitamina B6 activa para el metabolismo",
-    "Apoya la función muscular y nerviosa",
-    "Contribuye a la reducción del cansancio",
-    "Favorece el bienestar general"
+    "El magnesio contribuye al funcionamiento de músculos y nervios",
+    "Ayuda a aprovechar los alimentos para producir energía",
+    "La vitamina B6 también participa en el uso de la energía",
+    "Puede complementar la alimentación en etapas de mayor actividad",
+    "Aporta magnesio en forma de malato"
   ],
   contraindications: "Consultar a médico en caso de embarazo, lactancia o condiciones médicas.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 93. MagnesiumAM600mg (120 caps, citrato + bisglicinato)
@@ -2408,6 +2409,7 @@ window.manualData.productos = [
   id: 93,
   code: "7500645001453",
   name: "MAGNESIUM AM 600mg",
+  benefitSummary: "Magnesio para músculos, nervios y energía",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual1.jpg",
   shortDesc: "Magnesio dual (citrato y bisglicinato) con vitamina B6 e inulina, para apoyo energético y muscular.",
@@ -2416,16 +2418,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 4 cápsulas al día con alimentos.",
   benefits: [
-    "Dos formas de magnesio de alta absorción",
-    "Aporta aproximadamente 600 mg de magnesio elemental",
-    "Vitamina B6 para potenciar la absorción",
-    "Inulina prebiótica para la salud intestinal",
-    "Apoya la función muscular y energética",
-    "Favorece el bienestar general"
+    "Combina dos formas de magnesio",
+    "Apoya el funcionamiento normal de los músculos",
+    "Contribuye al buen funcionamiento de los nervios",
+    "Ayuda a aprovechar los alimentos para obtener energía",
+    "La inulina complementa la fórmula con fibra"
   ],
   contraindications: "Consultar a médico si se tienen enfermedades renales o se está embarazada.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con medicamentos que afectan la absorción de magnesio."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Algunos medicamentos pueden cambiar la cantidad de magnesio que el cuerpo absorbe. El médico o farmacéutico debe revisar la combinación y los horarios."
 },
 
 // 94. Magnesium PM 600mg (90 caps, fórmula nocturna)
@@ -2433,6 +2434,7 @@ window.manualData.productos = [
   id: 94,
   code: "7500645001538",
   name: "MAGNESIUM PM 600mg",
+  benefitSummary: "Calma, bienestar mental y rutina de descanso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual-PM1.jpg",
   shortDesc: "Magnesio dual (bisglicinato y citrato) con glicina, L-teanina, manzanilla, 5-HTP y vitamina B6, para el descanso nocturno.",
@@ -2441,16 +2443,15 @@ window.manualData.productos = [
   timing: "Por la noche, 30-60 min antes de dormir",
   intakeInstructions: "Tomar 3 cápsulas por la noche.",
   benefits: [
-    "Fórmula nocturna para el descanso",
-    "Magnesio de alta absorción",
-    "Contiene glicina, L-teanina y manzanilla relajantes",
-    "5-HTP precursor de serotonina",
-    "Vitamina B6 e inulina para apoyo digestivo",
-    "Favorece la calidad del sueño"
+    "Está pensado para acompañar una rutina de descanso",
+    "La teanina y la manzanilla se utilizan para favorecer la relajación",
+    "El magnesio contribuye al funcionamiento normal de los nervios",
+    "Incluye glicina y otros ingredientes relacionados con el descanso",
+    "Reúne varios componentes en una fórmula nocturna"
   ],
   contraindications: "No se recomienda su uso simultáneo con medicamentos antidepresivos, ansiolíticos o inductores del sueño sin consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede potenciar el efecto de sedantes y antidepresivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar el efecto de medicamentos para dormir o relajarse. También requiere revisión si el cliente toma antidepresivos."
 },
 
 // 95. MANGO AFRICANO (30 caps)
@@ -2458,6 +2459,7 @@ window.manualData.productos = [
   id: 95,
   code: "7500645000531",
   name: "MANGO AFRICANO (30 cápsulas)",
+  benefitSummary: "Complemento de alimentación y actividad física",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/mango-africano.jpg",
   shortDesc: "Extracto de Irvingia gabonensis con ácido clorogénico, BHB y otros extractos, para apoyo metabólico.",
@@ -2466,16 +2468,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya el metabolismo energético",
-    "Aporta antioxidantes y compuestos bioactivos",
-    "Tradicionalmente usado para control de peso",
-    "BHB como fuente energética alternativa",
-    "Fórmula sinérgica",
-    "Favorece el bienestar metabólico"
+    "Combina mango africano y otros ingredientes vegetales",
+    "Se utiliza como complemento de hábitos de cuidado del peso",
+    "Aporta compuestos vegetales antioxidantes",
+    "Puede acompañar un plan de alimentación y actividad física",
+    "Su enfoque es el bienestar metabólico general"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hepáticos o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos, anticoagulantes y diuréticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para controlar el azúcar, evitar coágulos o eliminar líquidos."
 },
 
 // 96. MASS FEAR 8 LBS (ganador de masa)
@@ -2483,6 +2484,7 @@ window.manualData.productos = [
   id: 96,
   code: "7500645001187",
   name: "MASS FEAR 8 LBS",
+  benefitSummary: "Calorías y proteína para acompañar la ganancia muscular",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MASS-FEAR-CHOCOLATE-NUT4-1.png",
   shortDesc: "Ganador de masa con proteína de suero y carbohidratos, para aumento de peso y recuperación muscular.",
@@ -2491,16 +2493,15 @@ window.manualData.productos = [
   timing: "Antes o después del entrenamiento",
   intakeInstructions: "Diluir 245 g en 500-700 ml de agua o leche. Tomar antes o después del entrenamiento.",
   benefits: [
-    "Alta densidad energética (907 kcal por porción)",
-    "42 g de proteína por porción",
-    "180 g de carbohidratos para recuperación",
-    "Bajo en grasas saturadas",
-    "Ayuda a la ganancia de masa muscular",
-    "Favorece la recuperación y el rendimiento"
+    "Aporta calorías para quien necesita aumentar su consumo de energía",
+    "Ofrece proteína para mantener y desarrollar los músculos",
+    "Los carbohidratos ayudan a reponer energía después del ejercicio",
+    "Facilita sumar alimento en una bebida",
+    "Puede acompañar una rutina de aumento de masa muscular"
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 97. MATCHA ORGÁNICO 100 g
@@ -2508,6 +2509,7 @@ window.manualData.productos = [
   id: 97,
   code: "7503026253861",
   name: "MATCHA ORGÁNICO 100g",
+  benefitSummary: "Una bebida con antioxidantes y cafeína",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/Matcha.jpg",
   shortDesc: "Té verde matcha orgánico en polvo, rico en antioxidantes y L-teanina, para energía y claridad mental.",
@@ -2516,16 +2518,15 @@ window.manualData.productos = [
   timing: "Por la mañana o al inicio de la jornada",
   intakeInstructions: "Mezclar 2.5 g en 240 ml de agua caliente (70-80°C) y batir hasta obtener espuma.",
   benefits: [
-    "Alto contenido de catequinas antioxidantes",
-    "L-teanina para relajación y enfoque",
-    "Cafeína natural para energía sostenida",
-    "Apoya la protección celular",
-    "Tradicionalmente usado en la ceremonia del té",
-    "Favorece el bienestar general"
+    "El matcha aporta antioxidantes propios del té verde",
+    "Su cafeína ayuda a mantenerse alerta",
+    "Contiene teanina, un componente natural del té",
+    "Se puede incorporar a bebidas y recetas",
+    "Es una alternativa para variar el café u otras bebidas con cafeína"
   ],
   contraindications: "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, embarazo o lactancia deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede contener trazas de soya, pescado y crustáceos por procesamiento compartido."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede tener trazas de soya, pescado y crustáceos por su fabricación en instalaciones compartidas. Revisar si el cliente tiene alergia a estos alimentos."
 },
 
 // 98. Melena de León (90 caps)
@@ -2533,6 +2534,7 @@ window.manualData.productos = [
   id: 98,
   code: "7500645000852",
   name: "MELENA DE LEÓN",
+  benefitSummary: "Complemento del cuidado de la atención y la memoria",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MELENA-LEON1.jpg",
   shortDesc: "Extracto de hongo Melena de León con L-Treonato de Magnesio y quinoa, para la función cognitiva y la memoria.",
@@ -2541,16 +2543,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Estimula el factor de crecimiento nervioso (NGF)",
-    "Apoya la memoria y la concentración",
-    "Aporta magnesio de alta biodisponibilidad cerebral",
-    "Protege las células del estrés oxidativo",
-    "Tradicionalmente usado en la medicina asiática",
-    "Favorece la salud neurológica"
+    "La melena de león se estudia como apoyo al bienestar mental",
+    "Su enfoque es complementar el cuidado de memoria y concentración",
+    "El magnesio contribuye al funcionamiento normal de los nervios",
+    "Combina un hongo y un mineral en una sola fórmula",
+    "Puede acompañar hábitos de descanso y actividad mental"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a hongos, trastornos autoinmunes o bajo tratamiento con anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes e inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o para disminuir la actividad de las defensas."
 },
 
 // 99. MIEL MULTIFLORA (560 g)
@@ -2558,6 +2559,7 @@ window.manualData.productos = [
   id: 99,
   code: "7503021404954",
   name: "MIEL MULTIFLORA",
+  benefitSummary: "Miel para endulzar y suavizar la garganta",
     category: "nutricional",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MIEL-MULTIFLORA.png",
   shortDesc: "Miel de abeja 100% natural, sin aditivos, para sustituir el azúcar refinado en bebidas y alimentos.",
@@ -2566,16 +2568,15 @@ window.manualData.productos = [
   timing: "A cualquier hora",
   intakeInstructions: "Consumir 20 g al día como edulcorante en bebidas o alimentos.",
   benefits: [
-    "Edulcorante natural sin azúcares añadidos",
-    "Aporta energía de rápida absorción",
-    "Contiene enzimas y antioxidantes",
-    "Tradicionalmente usado para calmar la tos",
-    "100% natural, sin procesamiento",
-    "Favorece el bienestar general"
+    "Endulza bebidas y alimentos con sabor a miel",
+    "Aporta energía a través de sus azúcares naturales",
+    "Puede dar una sensación de suavidad en la garganta",
+    "Se puede incorporar a infusiones y recetas",
+    "Permite variar el sabor de la alimentación cotidiana"
   ],
   contraindications: "No administrar a menores de 1 año (riesgo de botulismo). Personas con diabetes o alergia a productos apícolas deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Consumir con moderación por su contenido de azúcares."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene azúcares. Tenerlo en cuenta dentro de la alimentación, especialmente si el cliente debe controlar su consumo de azúcar."
 },
 
 // 100. MORINGA ORGÁNICA (90 caps)
@@ -2583,6 +2584,7 @@ window.manualData.productos = [
   id: 100,
   code: "7503021404565",
   name: "MORINGA ORGÁNICA",
+  benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0003s_0002_Presentacion_blanco.webp",
   shortDesc: "Hoja de moringa orgánica en polvo, superalimento rico en nutrientes y antioxidantes.",
@@ -2591,22 +2593,22 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 3 cápsulas al día (una antes de cada comida).",
   benefits: [
-    "Fuente concentrada de vitaminas, minerales y proteínas",
-    "Apoya el sistema inmunológico",
-    "Protege las células del estrés oxidativo",
-    "Ayuda a la nutrición celular",
-    "100% orgánica",
-    "Favorece el bienestar general"
+    "Aporta hoja de moringa en cápsulas",
+    "Contiene nutrientes y compuestos propios de la planta",
+    "Ofrece compuestos vegetales con actividad antioxidante",
+    "Complementa una alimentación variada",
+    "Permite incorporar moringa sin preparar sus hojas"
   ],
   contraindications: "No consumir durante el embarazo o lactancia. Personas con alergia, trastornos de la tiroides o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
   },
 // 101. UBIQUINOL KANEKA (30 cápsulas, 120 mg de ubiquinol)
 {
   id: 101,
   code: "7500645001576",
   name: "UBIQUINOL KANEKA",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZN-–-UBIQUINOL-KANEKA-30-CAPS–-RENDER–-V1–-MAYO2026.jpeg",
   shortDesc: "Suplemento de ubiquinol (Coenzima Q10 en su forma reducida activa) de Kaneka®, con MCT, vitamina E y extracto de romero para máxima absorción y estabilidad.",
@@ -2615,16 +2617,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas (desayuno o comida)",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasa (huevo, aguacate, nueces).",
   benefits: [
-    "Forma activa de la Coenzima Q10, no requiere conversión",
-    "Potente antioxidante que protege las células del daño oxidativo",
-    "Apoya la salud cardiovascular y la función endotelial",
-    "Aumenta la energía celular (producción de ATP)",
-    "Ideal para personas mayores de 40 años o que toman estatinas",
-    "Alta biodisponibilidad gracias a la matriz lipídica"
+    "Aporta ubiquinol, una forma de coenzima Q10",
+    "Participa en los procesos con los que las células producen energía",
+    "Contribuye al cuidado antioxidante",
+    "Se utiliza como complemento del bienestar cardiovascular",
+    "Incluye una base de aceite en la fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes (warfarina)."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma warfarina, un medicamento para evitar coágulos, porque puede cambiar su efecto."
 },
 
 // 102. UC-II® Collagen Boswellia Curcumin (60 caps, fórmula articular)
@@ -2632,6 +2633,7 @@ window.manualData.productos = [
   id: 102,
   code: "7500645001507",
   name: "UC-II® Collagen Boswellia Curcumin",
+  benefitSummary: "Cuidado articular y nutrición para el movimiento",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Boswelia1.jpg",
   shortDesc: "Fórmula articular avanzada con colágeno tipo II no desnaturalizado (UC-II®), Boswellia, cúrcuma, ácido hialurónico, vitamina C y piperina.",
@@ -2640,16 +2642,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (1 con el desayuno y 1 con la cena).",
   benefits: [
-    "Colágeno tipo II nativo que induce tolerancia oral",
-    "Boswellia y cúrcuma con actividad antioxidante y moduladora",
-    "Ácido hialurónico para la lubricación articular",
-    "Vitamina C como cofactor en la síntesis de colágeno",
-    "Piperina para mejorar la biodisponibilidad",
-    "Apoya la movilidad y el confort articular"
+    "Su enfoque principal es el confort de las articulaciones",
+    "Puede acompañar una rutina para conservar la movilidad",
+    "La vitamina C contribuye a formar colágeno",
+    "Combina colágeno tipo II y ácido hialurónico",
+    "La cúrcuma y la boswellia complementan la fórmula botánica"
   ],
   contraindications: "No recomendado durante el embarazo o lactancia. Personas alérgicas al cartílago de pollo o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes y antiagregantes plaquetarios."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos."
 },
 
 // 103. Vinagre de Manzana (500 ml, líquido)
@@ -2657,6 +2658,7 @@ window.manualData.productos = [
   id: 103,
   code: "7503025069890",
   name: "VINAGRE DE MANZANA",
+  benefitSummary: "Vinagre de manzana para variar la alimentación",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ManzanaVinagre.jpg",
   shortDesc: "Vinagre de sidra de manzana líquido, fermentado artesanal, con la 'madre' (bacterias del ácido acético, pectina y enzimas), sin azúcares añadidos.",
@@ -2665,16 +2667,15 @@ window.manualData.productos = [
   timing: "Antes de las comidas principales",
   intakeInstructions: "Diluir 15 ml en un vaso de agua (200-250 ml) y beber antes de las comidas. No consumir puro.",
   benefits: [
-    "Modula la respuesta glucémica postprandial",
-    "Apoya la digestión y la sensación de saciedad",
-    "Contiene ácido acético y compuestos fenólicos",
-    "Preserva la 'madre' con enzimas y probióticos naturales",
-    "Bajo en calorías y sin azúcares añadidos",
-    "Favorece el bienestar metabólico"
+    "Aporta el sabor ácido característico del vinagre de manzana",
+    "Se puede integrar a aderezos y preparaciones",
+    "Ofrece una opción para variar los sabores de la comida",
+    "Se estudia su relación con la respuesta de glucosa después de comer",
+    "Complementa hábitos de alimentación dentro de un plan equilibrado"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, gastritis crónica, o bajo tratamiento con antidiabéticos, diuréticos ahorradores de potasio o anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con antidiabéticos, diuréticos y anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para controlar el azúcar, eliminar líquidos o evitar coágulos."
 },
 
 // 104. Vinagre Sidra de Manzana (90 caps, en cápsulas con cúrcuma, jengibre, canela y pimienta negra)
@@ -2682,6 +2683,7 @@ window.manualData.productos = [
   id: 104,
   code: "7500645000432",
   name: "VINAGRE SIDRA DE MANZANA",
+  benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
   shortDesc: "Vinagre de sidra de manzana en polvo concentrado en cápsulas, combinado con cúrcuma, jengibre, canela y pimienta negra para potenciar su acción.",
@@ -2690,16 +2692,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Vinagre de manzana en formato práctico sin el sabor ácido",
-    "Sinergia con especias con actividad antioxidante y metabólica",
-    "Apoya la digestión y la modulación glucémica",
-    "Cúrcuma y jengibre con propiedades antiinflamatorias",
-    "Canela y pimienta negra mejoran la biodisponibilidad",
-    "Favorece el bienestar metabólico"
+    "Permite incorporar vinagre de manzana sin su sabor ácido",
+    "Incluye jengibre, canela y cúrcuma",
+    "Estas especias tienen uso tradicional digestivo",
+    "Aporta compuestos vegetales con actividad antioxidante",
+    "Su enfoque combina alimentación y bienestar digestivo"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
 },
 
 // 105. VITA RX MENS (120 caps, multivitamínico y mineral para hombres)
@@ -2707,6 +2708,7 @@ window.manualData.productos = [
   id: 105,
   code: "7500645000333",
   name: "VITA RX MENS",
+  benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/VitaRX-1.jpg",
   shortDesc: "Fórmula integral para hombres con creatina, arginina, BCAA's, maca negra, ginseng, vitaminas y minerales para energía, rendimiento y vitalidad.",
@@ -2715,16 +2717,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya el rendimiento físico y la energía",
-    "Combina aminoácidos, adaptógenos y vitaminas",
-    "Contribuye al metabolismo energético",
-    "Favorece la función inmunológica y reproductiva",
-    "Ayuda a la reducción del cansancio",
-    "Fórmula completa para el hombre activo"
+    "Las vitaminas B ayudan a obtener energía de los alimentos",
+    "Aporta vitaminas y minerales para complementar la alimentación",
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "Incluye ingredientes asociados tradicionalmente con la vitalidad",
+    "Está orientado a la nutrición del hombre activo"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad hepática, renal o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Contiene vitamina K, que puede interferir con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene vitamina K, que puede cambiar el efecto de algunos medicamentos para evitar coágulos."
 },
 
 // 106. VITA RX TESTO (120 caps, fórmula para la vitalidad masculina y equilibrio hormonal)
@@ -2732,6 +2733,7 @@ window.manualData.productos = [
   id: 106,
   code: "7500645000401",
   name: "VITA RX TESTO",
+  benefitSummary: "Nutrición y vitalidad masculina",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides_0001s_0002_Presentacion-blanco.jpg",
   shortDesc: "Fórmula botánica y mineral para el bienestar masculino, con Tribulus, fenogreco, maca negra, L-arginina, zinc, selenio y extractos tradicionales.",
@@ -2740,16 +2742,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la vitalidad y el equilibrio hormonal masculino",
-    "Combina plantas adaptógenas y minerales esenciales",
-    "Contribuye a la función reproductiva",
-    "Ayuda a la reducción del cansancio",
-    "Favorece la función sexual",
-    "Fórmula tradicional y científica"
+    "El zinc contribuye a la función reproductiva normal",
+    "El magnesio apoya el funcionamiento muscular",
+    "Combina plantas de uso tradicional para la vitalidad masculina",
+    "Puede acompañar una rutina de bienestar sexual",
+    "Complementa el cuidado nutricional masculino"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas, hormonales o bajo tratamiento médico (especialmente hormonales) deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con tratamientos hormonales."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con tratamientos hormonales."
 },
 
 // 107. VITA RX WOMENS (120 caps, multivitamínico y mineral para mujeres)
@@ -2757,6 +2758,7 @@ window.manualData.productos = [
   id: 107,
   code: "7500645000326",
   name: "VITA RX WOMENS",
+  benefitSummary: "Nutrición para piel, cabello y cuidado femenino",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/2VitaRX.jpg",
   shortDesc: "Fórmula completa para mujeres con colágeno, maca amarilla, arándano, ácido hialurónico, vitaminas y minerales para la salud de la piel, cabello, uñas y bienestar general.",
@@ -2765,16 +2767,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya la salud de la piel, cabello y uñas",
-    "Contribuye al equilibrio hormonal femenino",
-    "Aporta colágeno y ácido hialurónico",
-    "Favorece la salud del tracto urinario",
-    "Rico en antioxidantes y vitaminas",
-    "Fórmula integral para la mujer"
+    "La biotina contribuye al mantenimiento de piel y cabello",
+    "La vitamina C ayuda a formar colágeno",
+    "Incluye vitaminas y minerales para complementar la alimentación",
+    "Las vitaminas C y E aportan cuidado antioxidante",
+    "Su enfoque reúne nutrición y cuidado personal femenino"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Contiene vitamina K, que puede interferir con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene vitamina K, que puede cambiar el efecto de algunos medicamentos para evitar coágulos."
 },
 
 // 108. Vitamina C-1000 NOW (100 caps, 1000 mg de vitamina C con bioflavonoides)
@@ -2782,6 +2783,7 @@ window.manualData.productos = [
   id: 108,
   code: "73373900690",
   name: "VITAMINA C-1000 NOW",
+  benefitSummary: "Vitamina C para defensas, colágeno y cuidado celular",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VITAMINAC-1000.jpg",
   shortDesc: "Vitamina C (ácido ascórbico) en alta concentración (1000 mg por cápsula) con complejo de bioflavonoides cítricos (100 mg) y rutina (25 mg), para apoyo inmunológico y antioxidante.",
@@ -2790,16 +2792,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día.",
   benefits: [
-    "Alta concentración de vitamina C (1000 mg)",
-    "Contribuye al funcionamiento normal del sistema inmunológico",
-    "Protege las células del estrés oxidativo",
-    "Incluye bioflavonoides y rutina para potenciar la absorción",
-    "Apoya la síntesis de colágeno",
-    "Ayuda a reducir el cansancio"
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "Ayuda a formar colágeno para piel, encías y otros tejidos",
+    "Favorece la absorción del hierro de alimentos vegetales",
+    "Contribuye a reducir el cansancio por falta de vitamina C",
+    "Ayuda al cuidado antioxidante de las células"
   ],
   contraindications: "Solo para adultos. Consultar a médico si se está embarazada o lactando, o si se toman medicamentos.",
-  foodInteractions: "No especificado",
-  interactions: "La vitamina C en dosis altas puede interactuar con anticoagulantes y quimioterapia."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Las cantidades altas de vitamina C requieren revisión si el cliente toma medicamentos para evitar coágulos o recibe quimioterapia."
 },
 
 // 109. Vitamina D3 + Magnesio, K2 y Zinc (60 caps)
@@ -2807,6 +2808,7 @@ window.manualData.productos = [
   id: 109,
   code: "7500645000067",
   name: "VITAMINA D3 + MAGNESIO, K2 Y ZINC",
+  benefitSummary: "Nutrientes para el mantenimiento de los huesos",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/D3-1.jpg",
   shortDesc: "Fórmula sinérgica de vitamina D3, magnesio, vitamina K2, zinc y aceite de coco en polvo para la salud ósea, inmunológica y cardiovascular.",
@@ -2815,16 +2817,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasas.",
   benefits: [
-    "Vitamina D3 para la función muscular e inmunológica",
-    "Magnesio como cofactor para activar la vitamina D",
-    "Vitamina K2 para dirigir el calcio a los huesos",
-    "Zinc para la función inmunológica",
-    "Aceite de coco para mejorar la absorción de vitaminas liposolubles",
-    "Apoya la salud ósea y cardiovascular"
+    "La vitamina D ayuda a absorber el calcio",
+    "Las vitaminas D y K contribuyen al mantenimiento de los huesos",
+    "El magnesio apoya el funcionamiento normal de los músculos",
+    "El zinc contribuye al funcionamiento de las defensas",
+    "Reúne varios nutrientes para el cuidado óseo y muscular"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave o bajo tratamiento con anticoagulantes cumarínicos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "La vitamina K puede interactuar con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La vitamina K puede cambiar el efecto de algunos medicamentos para evitar coágulos. Consultar antes de combinar."
 },
 
 // 110. Vitamina E 1000 Greenlife (60 perlas)
@@ -2832,6 +2833,7 @@ window.manualData.productos = [
   id: 110,
   code: "7503016797535",
   name: "VITAMINA E 1000 GREENLIFE",
+  benefitSummary: "Vitamina E y cuidado antioxidante",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/vitamina-e-1000-1200mg-zennaturamx-457200.webp",
   shortDesc: "Vitamina E en alta concentración (66 mg = 66 UI por perla) con aceite de germen de trigo, como antioxidante liposoluble para la protección celular y la salud de la piel.",
@@ -2840,16 +2842,15 @@ window.manualData.productos = [
   timing: "Durante la comida principal",
   intakeInstructions: "Tomar 1 perla al día durante la comida principal.",
   benefits: [
-    "Vitamina E de alta concentración",
-    "Protege las células del daño oxidativo",
-    "Apoya la salud de la piel y las mucosas",
-    "Contribuye a la función inmunológica",
-    "Vehículo en aceite de germen de trigo para mejor absorción",
-    "Favorece el envejecimiento saludable"
+    "Aporta vitamina E para complementar la alimentación",
+    "Ayuda a proteger las células frente al desgaste diario",
+    "Complementa el cuidado antioxidante de la dieta",
+    "Se presenta en una base de aceite",
+    "Su enfoque es el aporte de vitamina E"
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
 },
 
 // 111. WHEY CHOCONUEZ NANOFEAR (proteína hidrolizada de suero de leche, 500 g)
@@ -2857,6 +2858,7 @@ window.manualData.productos = [
   id: 111,
   code: "7500645001132",
   name: "WHEY CHOCONUEZ NANOFEAR",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/WHEY-PROTEIN-500-VAINILLA-CANELA1.png",
   shortDesc: "Proteína hidrolizada de suero de leche en polvo, de rápida absorción, sin grasas ni carbohidratos, con alto contenido de aminoácidos esenciales y BCAA's.",
@@ -2865,16 +2867,15 @@ window.manualData.productos = [
   timing: "Dentro de los 45 minutos post-entreno",
   intakeInstructions: "Mezclar 35 g con 240 ml de agua y agitar. Consumir post-entreno o entre comidas.",
   benefits: [
-    "Proteína hidrolizada de rápida absorción",
-    "Alto valor biológico (BV > 150)",
-    "Perfil completo de aminoácidos esenciales y BCAA",
-    "Cero grasas y cero carbohidratos",
-    "Ideal para la ventana anabólica post-entreno",
-    "Favorece la recuperación y el crecimiento muscular"
+    "Aporta proteína de suero de leche",
+    "Ayuda a mantener y desarrollar los músculos",
+    "Ofrece componentes que el cuerpo necesita para formar proteína",
+    "Puede apoyar la recuperación después de entrenar",
+    "Su sabor choconuez facilita variar los batidos"
   ],
   contraindications: "Personas con alergia a lácteos, enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 112. WHEY PROTEIN HARDER (1 kg, aislado de suero al 90% sin carbohidratos)
@@ -2882,6 +2883,7 @@ window.manualData.productos = [
   id: 112,
   code: "7503026253731",
   name: "WHEY PROTEIN HARDER",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WP-HARDER.png",
   shortDesc: "Aislado de suero de leche al 90% (96% de proteína por 100 g), sin carbohidratos, sin lactosa, sin edulcorantes, sin saborizantes.",
@@ -2890,16 +2892,15 @@ window.manualData.productos = [
   timing: "Post-entreno",
   intakeInstructions: "Tomar 23 g en 350 ml de agua o leche baja en grasa después del entrenamiento.",
   benefits: [
-    "96% de proteína por 100 g de producto",
-    "Sin carbohidratos, sin lactosa",
-    "Sin colorantes, saborizantes ni edulcorantes",
-    "Alta pureza y perfil completo de aminoácidos",
-    "Ideal para definición y dietas estrictas",
-    "Favorece la recuperación muscular"
+    "Aporta proteína concentrada de suero de leche",
+    "Ayuda al mantenimiento y desarrollo muscular",
+    "Facilita completar la proteína diaria en una bebida",
+    "Puede acompañar la recuperación después del ejercicio",
+    "Su fórmula sencilla permite combinarla con otros alimentos"
   ],
   contraindications: "No consumir durante el embarazo o lactancia. Personas con intolerancia a la leche deben evitar su consumo.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 113. WPI 90 (WHEY PROTEIN ISOLATE 90, 1.02 kg)
@@ -2907,6 +2908,7 @@ window.manualData.productos = [
   id: 113,
   code: "7503026253731",
   name: "WPI 90 (WHEY PROTEIN ISOLATE 90)",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZN-–-WHEY-PROEIN-ISOLATE-90-–1.02-KG–-RENDER–-V1–-MAYO2026.jpeg",
   shortDesc: "Aislado de proteína de suero de leche al 90%, con 29 g de proteína por porción, menos de 1 g de grasa y 0.5 g de carbohidratos.",
@@ -2915,16 +2917,15 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 34 g en 240 ml de agua o bebida de su preferencia. Tomar una vez al día.",
   benefits: [
-    "Alta concentración de proteína (29 g por scoop)",
-    "Bajo en grasa (0.7 g) y carbohidratos (0.5 g)",
-    "Perfil completo de aminoácidos esenciales",
-    "Alta digestibilidad y baja en lactosa",
-    "Ideal para definición y recuperación",
-    "Proceso de microfiltración en frío"
+    "Aporta 29 g de proteína por porción según la ficha",
+    "Ayuda a mantener y desarrollar los músculos",
+    "Ofrece una opción con poca grasa y carbohidratos",
+    "Facilita completar la proteína de la alimentación",
+    "Puede acompañar una rutina de recuperación deportiva"
   ],
   contraindications: "Alérgicos a la proteína de leche deben evitar su consumo. Consultar a médico en caso de enfermedades renales o hepáticas.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 114. Ximo (30 caps, 450 mg, fórmula botánica con espirulina, tejocote, piña, nopal, vitaminas C y A)
@@ -2932,6 +2933,7 @@ window.manualData.productos = [
   id: 114,
   code: "7503021404725",
   name: "XIMO",
+  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/Ximo-1.jpg",
   shortDesc: "Fórmula botánica y vitamínica con espirulina, raíz de tejocote, piña, nopal, vitamina C y vitamina A, para apoyo a la desintoxicación y el metabolismo.",
@@ -2940,16 +2942,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya los procesos naturales de desintoxicación",
-    "Contribuye al metabolismo energético",
-    "Aporta antioxidantes y nutrientes",
-    "Favorece la sensación de ligereza",
-    "Combina plantas tradicionales y vitaminas",
-    "Fórmula baja en calorías"
+    "Combina plantas con vitaminas A y C",
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "Las vitaminas de la fórmula complementan el cuidado celular",
+    "Aporta ingredientes vegetales en cápsulas",
+    "Puede acompañar hábitos de alimentación y actividad física"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "La raíz de tejocote puede tener efectos hipoglucemiantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La raíz de tejocote puede bajar el azúcar en la sangre. Revisar si el cliente usa medicamentos para la diabetes."
 },
 
 // 115. Yumel (Yumel Simila, solución oral homeopática de Guatteria gaumeri)
@@ -2957,6 +2958,7 @@ window.manualData.productos = [
   id: 115,
   code: "7502221950681",
   name: "YUMEL SIMILA",
+  benefitSummary: "Yumel: preparación tradicional por valorar",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Yumel1.webp",
   shortDesc: "Preparación homeopática en tintura madre de Guatteria gaumeri, de uso tradicional mexicano. Su eficacia clínica para cálculos o colesterol no está establecida.",
@@ -2965,16 +2967,14 @@ window.manualData.productos = [
   timing: "Tres veces al día, antes de los alimentos",
   intakeInstructions: "Mezclar 20 gotas en un cuarto de vaso con agua natural. Tomar 3 veces al día antes de los alimentos.",
   benefits: [
-    "Preparación de uso tradicional mexicano",
-    "Tradicionalmente usado para cálculos renales y biliares",
-    "Uso tradicional como apoyo en colesterol elevado",
-    "Preparación homeopática con tintura madre",
-    "Fácil administración en gotas",
-    "Uso supervisado por un profesional de la salud"
+    "Es una preparación tradicional de yumel en gotas",
+    "El gotero facilita medir la cantidad indicada en su etiqueta",
+    "Permite incorporar el extracto sin preparar la corteza",
+    "Su utilidad debe valorarse según la etiqueta y la orientación profesional"
   ],
   contraindications: "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
-  foodInteractions: "No especificado",
-  interactions: "Interacciones no adecuadamente estudiadas. Por prudencia, revisar estatinas y otros medicamentos metabolizados por el hígado, anticoagulantes, antiagregantes y cirugías programadas antes de usar."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Las combinaciones con medicamentos no están suficientemente estudiadas. Revisar con un profesional si usa tratamientos para el colesterol, medicamentos que procesa el hígado o para evitar coágulos. También consultar si tiene una cirugía programada."
 },
 
 // 116. NAC N-AcetylCysteine 500 mg ZN (60 caps, 500 mg de N-Acetilcisteína por cápsula)
@@ -2982,6 +2982,7 @@ window.manualData.productos = [
   id: 116,
   code: "7500645000777",
   name: "NAC N-AcetylCysteine 500 mg ZN",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/NAC1.jpg",
   shortDesc: "N-Acetilcisteína (NAC) en cápsulas de 500 mg, precursor del glutatión, para la protección celular y el apoyo antioxidante.",
@@ -2990,16 +2991,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Precursor directo del glutatión, antioxidante maestro",
-    "Protege las células del estrés oxidativo",
-    "Apoya la función inmunológica",
-    "Ayuda a la salud de las vías respiratorias",
-    "Sin rellenos ni excipientes",
-    "Alta pureza (1000 mg por porción)"
+    "Aporta NAC, un ingrediente que el cuerpo usa para formar glutatión",
+    "El glutatión participa en el cuidado antioxidante de las células",
+    "Complementa la nutrición orientada al cuidado celular",
+    "Su fórmula se centra en N-acetilcisteína",
+    "Permite incorporar NAC en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica o bajo tratamiento con anticoagulantes, nitroglicerina o medicamentos que afectan la función hepática deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes y nitroglicerina."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o con nitroglicerina, utilizada para algunos problemas del corazón."
 },
 
 // 117. NAD + Resveratrol (90 caps, 300 mg de NAD, 50 mg de resveratrol, 50 mg de acai)
@@ -3007,6 +3007,7 @@ window.manualData.productos = [
   id: 117,
   code: "7500645000869",
   name: "NAD + Resveratrol",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2024/02/nad.jpg",
   shortDesc: "Combinación de NAD (nicotinamida adenina dinucleótido), resveratrol y baya de acai, para el soporte de la energía celular, la longevidad y la protección antioxidante.",
@@ -3015,16 +3016,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "NAD+ para el metabolismo energético y la reparación del ADN",
-    "Resveratrol activador de sirtuinas",
-    "Acai con antioxidantes y antocianinas",
-    "Apoya la salud celular y la longevidad",
-    "Favorece la función mitocondrial",
-    "Protege las células del estrés oxidativo"
+    "Combina NAD con resveratrol y acai",
+    "El NAD participa en procesos normales de uso de energía",
+    "El resveratrol y el acai aportan compuestos antioxidantes",
+    "Su enfoque es complementar el cuidado celular",
+    "Reúne los ingredientes en una sola presentación"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos que afectan la presión arterial deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El resveratrol puede interactuar con medicamentos metabolizados por CYP3A4."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El resveratrol puede cambiar la forma en que el cuerpo procesa algunos medicamentos a través del hígado. Si el cliente sigue un tratamiento, revisar la combinación con su médico o farmacéutico."
 },
 
 // 118. NEEM CON NOPAL (9 caps, 3 porciones, combina neem, nopal y ácido alfa lipoico)
@@ -3032,6 +3032,7 @@ window.manualData.productos = [
   id: 118,
   code: "7503025069593",
   name: "NEEM CON NOPAL",
+  benefitSummary: "Apoyo nutricional al bienestar metabólico",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides_0008s_0002_Presentacion-blanco.jpg",
   shortDesc: "Fórmula sinérgica con neem, nopal y ácido alfa lipoico, para apoyo a la desintoxicación, el control glucémico y la protección celular.",
@@ -3040,16 +3041,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Neem con propiedades depurativas y hepatoprotectoras",
-    "Nopal con fibra para la regulación glucémica",
-    "Ácido alfa lipoico como antioxidante mitocondrial",
-    "Apoya los procesos naturales de desintoxicación",
-    "Contribuye al bienestar metabólico",
-    "Fórmula de plantas tradicionales"
+    "Combina neem, nopal y ácido alfa lipoico",
+    "Aporta ingredientes vegetales para complementar la alimentación",
+    "El ácido alfa lipoico participa en el cuidado antioxidante",
+    "Tiene un enfoque de bienestar digestivo y metabólico",
+    "Permite incorporar la mezcla en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática grave, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El neem puede ser abortivo; no usar durante el embarazo."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "No usar durante el embarazo: la ficha advierte que el neem puede provocar la pérdida del embarazo."
 },
 
 // 119. NMN Advanced Resveratrol 550 mg ZN (30 caps, NMN, resveratrol, astrágalo, quercetina, piperina)
@@ -3057,6 +3057,7 @@ window.manualData.productos = [
   id: 119,
   code: "7500645001354",
   name: "NMN ADVANCED RESVERATROL",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2025/09/NMN-1.png",
   shortDesc: "Fórmula avanzada de NMN (β-Nicotinamida mononucleótido) con trans-resveratrol, astrágalo, quercetina y pimienta negra, para la vitalidad celular y el envejecimiento saludable.",
@@ -3065,16 +3066,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "NMN como precursor directo del NAD+",
-    "Trans-resveratrol y quercetina como antioxidantes sinérgicos",
-    "Astrágalo adaptógeno para la inmunidad",
-    "Piperina para mejorar la biodisponibilidad",
-    "Apoya la energía celular y la longevidad",
-    "Protege las células del estrés oxidativo"
+    "Combina NMN con resveratrol y otros ingredientes vegetales",
+    "El NMN participa en rutas relacionadas con el NAD del cuerpo",
+    "El resveratrol y la quercetina aportan compuestos antioxidantes",
+    "Su enfoque es el cuidado nutricional de las células",
+    "Permite incorporar estos ingredientes en una sola fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El NMN es seguro en dosis moderadas; supervisar en enfermedades hepáticas o renales."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de usar si el cliente tiene una enfermedad del hígado o de los riñones. Respetar la porción indicada."
 },
 
 // 120. OMEGA 3 NANO FEAR (90 softgels, aceite de salmón concentrado con EPA 1198.8 mg y DHA 601.2 mg por porción)
@@ -3082,6 +3082,7 @@ window.manualData.productos = [
   id: 120,
   code: "7503016797849",
   name: "OMEGA 3 NANO FEAR",
+  benefitSummary: "Complemento nutricional para el cuidado del corazón",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Omega-Nano.png",
   shortDesc: "Aceite de salmón concentrado en softgels, con alto contenido de EPA (1198.8 mg) y DHA (601.2 mg) por porción, y vitamina E como antioxidante.",
@@ -3090,16 +3091,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 3 softgels al día con alimentos.",
   benefits: [
-    "Alta concentración de EPA y DHA (2:1)",
-    "Vitamina E para proteger los ácidos grasos",
-    "Apoya la salud cardiovascular y cerebral",
-    "Contribuye al mantenimiento de triglicéridos",
-    "Favorece la función cognitiva y visual",
-    "Omega-3 de alta pureza y biodisponibilidad"
+    "Aporta omega 3 de pescado",
+    "El EPA y el DHA complementan el cuidado del corazón",
+    "El DHA es importante para el cerebro",
+    "El DHA también forma parte de la retina de los ojos",
+    "Incluye vitamina E como ingrediente antioxidante"
   ],
   contraindications: "Personas con trastornos hemorrágicos, en tratamiento anticoagulante, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "Puede prolongar el tiempo de sangrado con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos."
 },
 
 // 122. OMEGA 3 SALMON OIL 1g ZN (120 caps, aceite de salmón con EPA 180 mg y DHA 150 mg por cápsula)
@@ -3107,6 +3107,7 @@ window.manualData.productos = [
   id: 122,
   code: "7500645000036",
   name: "OMEGA 3 SALMON OIL",
+  benefitSummary: "Complemento nutricional para el cuidado del corazón",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/OMEGA3-1.jpg",
   shortDesc: "Aceite de salmón en cápsulas de 1 g, con EPA (180 mg), DHA (150 mg) y vitamina E, para el mantenimiento de la salud cardiovascular, cerebral y ocular.",
@@ -3115,16 +3116,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Aceite de salmón natural con EPA y DHA",
-    "Vitamina E como antioxidante",
-    "Apoya la salud cardiovascular",
-    "Contribuye a la función cerebral",
-    "Ayuda a la salud visual",
-    "Bajo en calorías y sin carbohidratos"
+    "Permite incorporar aceite de salmón en cápsulas",
+    "Aporta EPA y DHA, dos tipos de omega 3",
+    "Complementa el cuidado nutricional del corazón",
+    "El DHA forma parte del cerebro y los ojos",
+    "Incluye vitamina E en la fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede prolongar el tiempo de sangrado con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos."
 },
 
 // 123. OMEGA NORDIC 3000 (90 caps, aceite de pescado concentrado EPAX® con EPA 900 mg y DHA 600 mg por porción)
@@ -3132,6 +3132,7 @@ window.manualData.productos = [
   id: 123,
   code: "7500645001644",
   name: "OMEGA NORDIC 3000",
+  benefitSummary: "Complemento nutricional para el cuidado del corazón",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ZN-%E2%80%93-UOMEGA-NORDIC-3000-90-CAPS%E2%80%93-RENDER%E2%80%93-V1%E2%80%93-MAYO2026.jpeg",
   shortDesc: "Aceite de pescado concentrado EPAX® con 3000 mg de aceite por porción, aportando 900 mg de EPA y 600 mg de DHA, de alta pureza.",
@@ -3140,16 +3141,15 @@ window.manualData.productos = [
   timing: "Con desayuno rico en grasas",
   intakeInstructions: "Tomar 3 cápsulas al día con el desayuno.",
   benefits: [
-    "Aceite de pescado de alta concentración (EPAX®)",
-    "Proporción EPA:DHA 3:2",
-    "Apoya la función cardíaca y vascular",
-    "Contribuye a la función cerebral",
-    "Alta pureza y control de metales pesados",
-    "Favorece la salud articular y general"
+    "Aporta aceite de pescado concentrado",
+    "Ofrece EPA y DHA para complementar la alimentación",
+    "Los omega 3 participan en el funcionamiento normal del corazón",
+    "El DHA es un componente importante del cerebro",
+    "Permite incorporar grasas marinas sin preparar pescado"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede prolongar el tiempo de sangrado con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos."
 },
 
 // 124. ON-C-LEN 750 mg (60 tabletas, fórmula botánica con diente de león, guanábana, shiitake, reishi, té verde, jengibre, ajo, polen)
@@ -3157,6 +3157,7 @@ window.manualData.productos = [
   id: 124,
   code: "7500645000807",
   name: "ON-C-LEN",
+  benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0005s_0002_Presentacion-blanco.jpg",
   shortDesc: "Fórmula botánica con extractos de diente de león, guanábana, hongos shiitake y reishi, té verde, jengibre, ajo y polen de flores, para el fortalecimiento de las defensas naturales.",
@@ -3165,16 +3166,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 tabletas al día con alimentos.",
   benefits: [
-    "Combina plantas y hongos con actividad inmunomoduladora",
-    "Hongos shiitake y reishi ricos en β-glucanos",
-    "Diente de león y guanábana con compuestos bioactivos",
-    "Té verde, jengibre y ajo como antioxidantes",
-    "Polen de flores como fuente de nutrientes",
-    "Apoya las defensas naturales del organismo"
+    "Combina hongos y plantas de uso tradicional",
+    "Incluye shiitake y reishi",
+    "El té verde, el jengibre y el ajo aportan compuestos antioxidantes",
+    "Su enfoque es complementar el bienestar general",
+    "Reúne varios ingredientes vegetales en tabletas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El polen puede producir reacciones alérgicas en individuos sensibles."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El polen puede causar una reacción alérgica en personas sensibles. Revisar si el cliente tiene alergia a productos de polen."
 },
 
 // 125. PÉPTIDOS COLÁGENO HIDROLIZADO (1 kg, polvo de colágeno hidrolizado bovino puro)
@@ -3182,6 +3182,7 @@ window.manualData.productos = [
   id: 125,
   code: "7500645000296",
   name: "PÉPTIDOS COLÁGENO HIDROLIZADO",
+  benefitSummary: "Nutrición para el cuidado de piel y articulaciones",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/PeptidosColagenoHidrolizado.jpg",
   shortDesc: "Polvo de péptidos de colágeno hidrolizado bovino de alta pureza, sin grasas ni azúcares, para la salud de la piel, articulaciones y tejido conectivo.",
@@ -3190,16 +3191,15 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 10 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "Péptidos de colágeno de bajo peso molecular (1000-5000 Da)",
-    "Alta biodisponibilidad y absorción",
-    "Apoya la hidratación y elasticidad de la piel",
-    "Contribuye a la salud articular y ósea",
-    "Sin grasas, azúcares ni aditivos",
-    "Favorece la regeneración del tejido conectivo"
+    "Aporta proteína de colágeno para complementar la alimentación",
+    "Ofrece componentes que el cuerpo utiliza para mantener tejidos",
+    "Puede apoyar la hidratación y elasticidad de la piel",
+    "Complementa el cuidado de las articulaciones",
+    "Su polvo se puede incorporar a distintas bebidas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El consumo excesivo de proteínas puede sobrecargar la función renal."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Si el cliente tiene problemas de riñón, su médico debe valorar la cantidad de proteína que puede consumir. Evitar exceder la porción indicada."
 },
 
 // 126. PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO (990 g, colágeno + ácido hialurónico)
@@ -3207,6 +3207,7 @@ window.manualData.productos = [
   id: 126,
   code: "7500645000302",
   name: "PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO",
+  benefitSummary: "Nutrición para el cuidado de piel y articulaciones",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ColagenoHidrolizado.jpg",
   shortDesc: "Polvo de péptidos de colágeno hidrolizado bovino (10.5 g) con ácido hialurónico (500 mg) por porción, para la hidratación y elasticidad de la piel y la salud articular.",
@@ -3215,16 +3216,15 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 11 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "Colágeno hidrolizado con ácido hialurónico",
-    "Ácido hialurónico para la retención de agua en la piel",
-    "Sinergia para la hidratación y firmeza cutánea",
-    "Apoya la salud de las articulaciones",
-    "Bajo en calorías y sin azúcares",
-    "Favorece la elasticidad y turgencia de la piel"
+    "Combina colágeno con ácido hialurónico",
+    "Puede apoyar la hidratación y elasticidad de la piel",
+    "Aporta proteína para complementar la alimentación",
+    "Complementa el cuidado de las articulaciones",
+    "Permite incorporar ambos ingredientes en una bebida"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El consumo excesivo de proteínas puede sobrecargar la función renal."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Si el cliente tiene problemas de riñón, su médico debe valorar la cantidad de proteína que puede consumir. Evitar exceder la porción indicada."
 },
 
 // 127. PETALOS DE ROSA CON VIT C (90 caps, 1000 mg, con vitamina C, zinc, cromo, rosa y naranja)
@@ -3232,6 +3232,7 @@ window.manualData.productos = [
   id: 127,
   code: "7503029679378",
   name: "PETALOS DE ROSA CON VIT C",
+  benefitSummary: "Vitamina C para defensas, colágeno y cuidado celular",
   category: "piel",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/petalos-de-rosa-1.jpg",
   shortDesc: "Fórmula con pétalos de rosa, naranja, vitamina C (300 mg), zinc (10 mg) y cromo (22 µg) para la protección celular, la función inmunológica y la salud de la piel.",
@@ -3240,16 +3241,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Vitamina C para el sistema inmunológico y la piel",
-    "Zinc para la reparación celular",
-    "Cromo para el metabolismo de la glucosa",
-    "Pétalos de rosa y naranja con antioxidantes",
-    "Protege las células del estrés oxidativo",
-    "Apoya la función inmunológica"
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "Ayuda a formar colágeno para mantener los tejidos",
+    "El zinc contribuye al cuidado normal de la piel",
+    "El cromo participa en el manejo normal de la glucosa",
+    "La rosa y la naranja complementan el aporte vegetal"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El cromo puede interactuar con antidiabéticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos."
 },
 
 // 128. POTASSIUM DUAL COMPLEX (90 caps, citrato y cloruro de potasio, magnesio, calcio, vitamina B6 e inulina)
@@ -3257,6 +3257,7 @@ window.manualData.productos = [
   id: 128,
   code: "7500645001477",
   name: "POTASSIUM DUAL COMPLEX",
+  benefitSummary: "Potasio para músculos y equilibrio de minerales",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Potassium-Dual1.jpg",
   shortDesc: "Complejo de potasio dual (citrato y cloruro) con 500 mg de potasio elemental por porción, magnesio, calcio, vitamina B6 e inulina, para el equilibrio electrolítico y la función neuromuscular.",
@@ -3265,16 +3266,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Doble fuente de potasio (citrato + cloruro)",
-    "Aporta 500 mg de potasio elemental",
-    "Magnesio y calcio para la función neuromuscular",
-    "Vitamina B6 como cofactor",
-    "Inulina prebiótica para la salud digestiva",
-    "Apoya el equilibrio hidroelectrolítico"
+    "Aporta potasio para el funcionamiento de los músculos",
+    "Participa en la comunicación entre nervios y músculos",
+    "Contribuye al equilibrio de agua y minerales del cuerpo",
+    "El magnesio complementa el cuidado muscular",
+    "Reúne potasio, calcio y magnesio en una sola fórmula"
   ],
   contraindications: "Personas con alteraciones renales severas o uso de diuréticos ahorradores de potasio deben consultar a su médico antes de consumirlo.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con diuréticos ahorradores de potasio e inhibidores de la ECA."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma ciertos medicamentos para la presión o para eliminar líquidos que pueden aumentar el potasio. El médico o farmacéutico debe revisar la combinación."
 },
 
 // 129. Probióticos 60 Billones 500MG (60 caps, 60 billones UFC con L. acidophilus, L. sporogenes, L. rhamnosus e inulina)
@@ -3282,6 +3282,7 @@ window.manualData.productos = [
   id: 129,
   code: "7503029679729",
   name: "PROBIOTICOS 60 BILLONES 500MG",
+  benefitSummary: "Probióticos para complementar el equilibrio intestinal",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/03/pro.jpg",
   shortDesc: "Probióticos de alta concentración (60 billones UFC por cápsula) con tres cepas (L. acidophilus, L. sporogenes, L. rhamnosus) e inulina de agave, para el equilibrio de la microbiota intestinal.",
@@ -3290,16 +3291,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "60 billones de UFC por cápsula",
-    "Cepas con respaldo científico",
-    "L. sporogenes es formador de esporas, resistente al ácido",
-    "Inulina como prebiótico",
-    "Apoya la salud digestiva e inmunológica",
-    "Favorece el equilibrio de la microbiota"
+    "Aporta bacterias utilizadas para complementar el equilibrio intestinal",
+    "Se utiliza como apoyo al bienestar digestivo",
+    "La inulina sirve de alimento a ciertas bacterias del intestino",
+    "Permite incorporar probióticos en cápsulas",
+    "Su utilidad depende de las bacterias incluidas y de cada persona"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
 },
 
 // 130. PROBIOTICOS 60 BILLONES MUJERES ZN (60 caps, 60 billones UFC con probióticos, vitamina C, arándano rojo e inulina)
@@ -3307,6 +3307,7 @@ window.manualData.productos = [
   id: 130,
   code: "7500645001057",
   name: "PROBIOTICOS 60 BILLONES MUJERES ZN",
+  benefitSummary: "Probióticos para complementar el equilibrio intestinal",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0009s_0002_Presentacion-blanco-1.jpg",
   shortDesc: "Probióticos de alta concentración (60 billones UFC) con vitamina C, arándano rojo e inulina, diseñados para el bienestar digestivo e inmunológico de la mujer.",
@@ -3315,16 +3316,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "Alta concentración de probióticos (60 billones UFC)",
-    "Vitamina C para el sistema inmunológico",
-    "Arándano rojo para la salud del tracto urinario",
-    "Inulina como prebiótico",
-    "Fórmula específica para mujeres",
-    "Apoya la salud digestiva y femenina"
+    "Combina probióticos con vitamina C y arándano",
+    "Los probióticos se utilizan como apoyo al equilibrio intestinal",
+    "La vitamina C contribuye al funcionamiento de las defensas",
+    "El arándano complementa el enfoque de bienestar femenino",
+    "Reúne ingredientes digestivos y nutricionales en una sola fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
 },
 
 // 131. Probióticos 100 Billones 500MG ZN (60 caps, 100 billones UFC con 7 cepas e inulina)
@@ -3332,6 +3332,7 @@ window.manualData.productos = [
   id: 131,
   code: "7500645000449",
   name: "Probióticos 100 Billones 500MG ZN",
+  benefitSummary: "Probióticos para complementar el equilibrio intestinal",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
   shortDesc: "Probióticos de ultra alta concentración (100 billones UFC) con 7 cepas (Bifidobacterium, Lactobacillus, Streptococcus thermophilus) e inulina de agave, en cápsulas de liberación retardada.",
@@ -3340,16 +3341,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "100 billones de UFC por cápsula",
-    "7 cepas probióticas de alta calidad",
-    "Liberación retardada para proteger las bacterias",
-    "Inulina como prebiótico",
-    "Apoya la salud digestiva e inmunológica",
-    "Ideal para periodos de estrés o antibióticos"
+    "Combina distintos tipos de bacterias usadas como probióticos",
+    "Se utiliza para complementar el equilibrio intestinal",
+    "Puede acompañar el bienestar digestivo según cada persona",
+    "Incluye inulina, una fibra que alimenta ciertas bacterias intestinales",
+    "Permite incorporar la mezcla en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
 },
 
 // 132. PROBITY 30 caps 600 mg (fórmula multibotánica con acetil L-carnitina, té verde, chá de bugre, vinagre de manzana, etc.)
@@ -3357,6 +3357,7 @@ window.manualData.productos = [
   id: 132,
   code: "7503021404060",
   name: "PROBITY",
+  benefitSummary: "Complemento de alimentación y actividad física",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PROBITY-RENDER-V2-AGOSTO2026.jpeg",
   shortDesc: "Fórmula multibotánica con acetil L-carnitina, té verde, chá de bugre, vinagre de manzana, alcachofa, papaína, ciruela pasa, jamaica, lúpulo, espirulina y cromo, para el metabolismo energético y el bienestar general.",
@@ -3365,16 +3366,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Combina aminoácidos, plantas y enzimas",
-    "Acetil L-carnitina para la energía celular",
-    "Té verde y alcachofa con acción antioxidante",
-    "Vinagre de manzana y papaína para la digestión",
-    "Chá de bugre y jamaica para el metabolismo",
-    "Cromo para el metabolismo de la glucosa"
+    "Combina plantas, carnitina y una enzima digestiva",
+    "La papaína ayuda a descomponer proteínas durante la digestión",
+    "El té verde aporta compuestos antioxidantes",
+    "El cromo contribuye al manejo normal de la glucosa",
+    "Su enfoque combina bienestar digestivo y cuidado metabólico"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El té verde contiene cafeína; puede interactuar con estimulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene cafeína del té verde. Puede aumentar el efecto de otros estimulantes."
 },
 
 // 133. ProHiman (30 caps, 200 mg, con raíz de lima, linaza, malva, omegas 3,6,9, lecitina de soya)
@@ -3382,6 +3382,7 @@ window.manualData.productos = [
   id: 133,
   code: "7503016797863",
   name: "PROHIMAN",
+  benefitSummary: "Fibra y complemento del bienestar intestinal",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ProHiman.jpg",
   shortDesc: "Fórmula con raíz de lima, linaza, malva, complejo de omegas 3,6,9 y lecitina de soya, para el confort digestivo y el metabolismo.",
@@ -3390,16 +3391,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Raíz de lima y malva para el confort digestivo",
-    "Linaza con fibra y ácidos grasos",
-    "Complejo de omegas 3,6,9 para la salud cardiovascular",
-    "Lecitina de soya para el metabolismo lipídico",
-    "Favorece el tránsito intestinal",
-    "Apoya la sensación de ligereza"
+    "Combina linaza, malva y otros ingredientes",
+    "Tiene un enfoque de confort digestivo",
+    "Incluye grasas omega 3, 6 y 9",
+    "La lecitina complementa el aporte de grasas de la fórmula",
+    "Permite incorporar la mezcla en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la soya o a la linaza, con obstrucción intestinal o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "La linaza contiene vitamina K, que puede interactuar con anticoagulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha advierte que la vitamina K de la linaza puede cambiar el efecto de medicamentos para evitar coágulos. Revisar la combinación antes de usar."
 },
 
 // 134. PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS (488 g, proteína de chícharo y arroz, BCAA, probióticos)
@@ -3407,6 +3407,7 @@ window.manualData.productos = [
   id: 134,
   code: "7501468148738",
   name: "PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/7501468148738_1.webp",
   shortDesc: "Proteína vegana en polvo sabor cacao, a base de chícharo y arroz integral, con 22.3 g de proteína, 6 g de BCAA's y 610 millones de UFC de probióticos por porción.",
@@ -3415,16 +3416,15 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 30.5 g con 250-300 ml de agua o bebida vegetal.",
   benefits: [
-    "Proteína completa de origen vegetal",
-    "Aporta 22.3 g de proteína por porción",
-    "6 g de BCAA's para la recuperación muscular",
-    "Probióticos para la salud digestiva",
-    "Sin azúcares añadidos, sin gluten",
-    "100% natural y vegana"
+    "Aporta proteína vegetal de chícharo y arroz",
+    "Ayuda a mantener y desarrollar los músculos",
+    "Facilita completar la proteína de la alimentación",
+    "Incluye probióticos como complemento digestivo",
+    "Su sabor cacao permite variar los batidos sin usar proteína láctea"
   ],
   contraindications: "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 135. PROTEÍNA VEGANA VAINILLA HABITS (488 g, proteína de chícharo y arroz, BCAA, probióticos, vainilla)
@@ -3432,6 +3432,7 @@ window.manualData.productos = [
   id: 135,
   code: "7501468148721",
   name: "PROTEÍNA VEGANA VAINILLA HABITS",
+  benefitSummary: "Proteína para músculos y recuperación",
   category: "deportivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/habitsvainilla1.webp",
   shortDesc: "Proteína vegana en polvo sabor vainilla, a base de chícharo y arroz integral, con 22.3 g de proteína, 6 g de BCAA's y 610 millones de UFC de probióticos por porción.",
@@ -3440,16 +3441,15 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 30.5 g con 250-300 ml de agua o bebida vegetal.",
   benefits: [
-    "Proteína completa de origen vegetal",
-    "Aporta 22.3 g de proteína por porción",
-    "6 g de BCAA's para la recuperación muscular",
-    "Probióticos para la salud digestiva",
-    "Sin azúcares añadidos, sin gluten",
-    "Sabor a vainilla natural"
+    "Aporta proteína vegetal de chícharo y arroz",
+    "Ayuda al mantenimiento de la masa muscular",
+    "Puede acompañar la recuperación después del ejercicio",
+    "Incluye probióticos como parte de la fórmula",
+    "Su sabor vainilla facilita combinarla con frutas y bebidas"
   ],
   contraindications: "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 136. Q10 (Coenzima Q10, 30 caps, con baya dorada, vitamina B6)
@@ -3457,6 +3457,7 @@ window.manualData.productos = [
   id: 136,
   code: "7503021404879",
   name: "Q10 (Coenzima Q10)",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2025/05/COENZIMA-Q10.png",
   shortDesc: "Coenzima Q10 (120 mg) con baya dorada (200 mg) y vitamina B6 (10 mg) para el apoyo a la energía celular y la función cardiovascular.",
@@ -3465,16 +3466,15 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasas.",
   benefits: [
-    "Coenzima Q10 para la producción de ATP",
-    "Baya dorada con antioxidantes y vitamina C",
-    "Vitamina B6 para el metabolismo energético",
-    "Apoya la función cardiovascular",
-    "Protege las células del estrés oxidativo",
-    "Fórmula con ingredientes naturales"
+    "La coenzima Q10 participa en la producción de energía de las células",
+    "Aporta ingredientes con actividad antioxidante",
+    "La vitamina B6 ayuda a aprovechar la energía de los alimentos",
+    "Se utiliza como complemento del cuidado cardiovascular",
+    "Combina Q10, una vitamina y un ingrediente vegetal"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes o hipotensores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes y hipotensores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para evitar coágulos o bajar la presión arterial."
 },
 
 // 137. Raíz de Shatavari + Schisandra 1000 mg ZN (60 caps, shatavari, schisandra, jalea real)
@@ -3482,6 +3482,7 @@ window.manualData.productos = [
   id: 137,
   code: "7500645000845",
   name: "RAÍZ DE SHATAVARI * SCHISANDRA 1000 mg ZN",
+  benefitSummary: "Bienestar femenino y cambios de etapa",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/RAIZ-SHATAVARI1-2.jpg",
   shortDesc: "Fórmula adaptógena con raíz de shatavari (500 mg), schisandra (350 mg) y jalea real (50 mg), para el equilibrio hormonal, la vitalidad y la adaptación al estrés.",
@@ -3490,16 +3491,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Shatavari para el equilibrio hormonal femenino",
-    "Schisandra como adaptógeno",
-    "Jalea real como tónico energético",
-    "Apoya la función reproductiva",
-    "Ayuda a la adaptación al estrés",
-    "Fórmula tradicional y científica"
+    "Combina shatavari, schisandra y jalea real",
+    "Tiene uso tradicional como apoyo a la vitalidad",
+    "Su enfoque es el bienestar femenino",
+    "La schisandra se utiliza tradicionalmente en etapas de demanda",
+    "Permite incorporar los ingredientes en una sola presentación"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (jalea real), trastornos hormonales sensibles o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos e inmunosupresores."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante."
 },
 
 // 138. RESVERATROL 500 mg ZN (120 caps, resveratrol, semilla de uva, vitamina C, acai)
@@ -3507,6 +3507,7 @@ window.manualData.productos = [
   id: 138,
   code: "7500645000760",
   name: "RESVERATROL 500 mg ZN",
+  benefitSummary: "Cuidado antioxidante de las células",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/RESVERATROL1.jpg",
   shortDesc: "Fórmula antioxidante con resveratrol (250 mg), extracto de semilla de uva (150 mg), vitamina C (50 mg) y acai (50 mg), para la protección celular y la salud cardiovascular.",
@@ -3515,16 +3516,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Resveratrol activador de sirtuinas",
-    "Semilla de uva rica en OPC",
-    "Vitamina C para la protección celular",
-    "Acai con antocianinas y antioxidantes",
-    "Apoya la salud cardiovascular",
-    "Protege las células del estrés oxidativo"
+    "Combina resveratrol, semilla de uva, acai y vitamina C",
+    "Aporta compuestos antioxidantes de distintos orígenes",
+    "La vitamina C contribuye a proteger las células",
+    "Complementa el cuidado nutricional del corazón",
+    "Su enfoque es el cuidado celular cotidiano"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El resveratrol puede interactuar con medicamentos metabolizados por CYP3A4."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El resveratrol puede cambiar la forma en que el cuerpo procesa algunos medicamentos a través del hígado. Si el cliente sigue un tratamiento, revisar la combinación con su médico o farmacéutico."
 },
 
 // 139. Rinichi (90 caps, 500 mg, palo azul, cola de caballo, cabellos de elote, zinc, selenio)
@@ -3532,6 +3532,7 @@ window.manualData.productos = [
   id: 139,
   code: "7503021404541",
   name: "RINICHI",
+  benefitSummary: "Bienestar urinario y plantas de uso tradicional",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/rinichi.jpg",
   shortDesc: "Fórmula tradicional con palo azul, cola de caballo, cabellos de elote, zinc y selenio para el apoyo a la función renal y del tracto urinario.",
@@ -3540,16 +3541,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos. Mantener hidratación adecuada.",
   benefits: [
-    "Plantas tradicionales con acción diurética y depurativa",
-    "Palo azul y cola de caballo para la salud renal",
-    "Cabellos de elote con propiedades antiinflamatorias",
-    "Zinc y selenio para la protección celular",
-    "Apoya el bienestar del tracto urinario",
-    "Fórmula basada en la herbolaria mexicana"
+    "Combina plantas de uso tradicional para el bienestar urinario",
+    "Incluye palo azul, cola de caballo y cabellos de elote",
+    "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
+    "El zinc y el selenio complementan el cuidado antioxidante",
+    "Reúne la mezcla de plantas en cápsulas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal crónica, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos, litio o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con diuréticos y antihipertensivos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar antes de combinar con medicamentos para eliminar líquidos o tratar la presión arterial."
 },
 
 // 140. Sábila con Nopal y Cuachalalate 1L (PROSA, líquido)
@@ -3557,6 +3557,7 @@ window.manualData.productos = [
   id: 140,
   code: "7501734422104",
   name: "SÁBILA CON NOPAL Y CUACHALALATE 1L",
+  benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Sabila_NopalyCuachalalate1.webp",
   shortDesc: "Suplemento líquido con sábila, nopal, cuachalalate y vitamina C, sin aloína, para el bienestar digestivo y el apoyo a la función inmunológica.",
@@ -3565,16 +3566,15 @@ window.manualData.productos = [
   timing: "Antes de cada alimento",
   intakeInstructions: "Tomar 30 ml 3 veces al día, antes de cada alimento. Agitar antes de usar. Refrigerar después de abrir.",
   benefits: [
-    "Sábila, nopal y cuachalalate de la herbolaria mexicana",
-    "Sin aloína para un consumo seguro",
-    "Vitamina C para la protección celular",
-    "Apoya la salud digestiva",
-    "Certificación Kosher",
-    "Favorece el bienestar general"
+    "Combina sábila, nopal y cuachalalate en una bebida",
+    "Tiene un enfoque de bienestar digestivo tradicional",
+    "La vitamina C contribuye al cuidado antioxidante",
+    "Permite incorporar los ingredientes sin preparar las plantas",
+    "Ofrece una alternativa líquida a las cápsulas"
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 141. SDOMACHUS 500 mg (60 caps, fórmula digestiva con aloe vera, cardamomo, jengibre, agave, magnesio, B6, colpachi, B12, zinc, selenio)
@@ -3582,6 +3582,7 @@ window.manualData.productos = [
   id: 141,
   code: "7503021404572",
   name: "SDOMACHUS 500 mg",
+  benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
   shortDesc: "Fórmula botánica y mineral para el bienestar digestivo con aloe vera, cardamomo, jengibre, agave, magnesio, vitamina B6, colpachi, B12, zinc y selenio.",
@@ -3590,16 +3591,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Aloe vera y cardamomo para el confort digestivo",
-    "Jengibre con propiedades carminativas",
-    "Agave como fibra prebiótica",
-    "Magnesio y vitaminas B para el metabolismo",
-    "Zinc y selenio como antioxidantes",
-    "Apoya la función digestiva y general"
+    "Combina ingredientes orientados al confort del estómago",
+    "El jengibre y el cardamomo tienen uso tradicional digestivo",
+    "La fibra de agave complementa el aporte intestinal",
+    "Las vitaminas B ayudan a obtener energía de los alimentos",
+    "Los minerales de la fórmula complementan la nutrición"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El aloe vera en dosis altas puede tener efecto laxante."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Las cantidades altas de sábila pueden acelerar las evacuaciones o causar diarrea."
 },
 
 // 142. Selenio 90 tabs 100 mcg (PRONACEN, selenio en levadura)
@@ -3607,6 +3607,7 @@ window.manualData.productos = [
   id: 142,
   code: "7503000733686",
   name: "SELENIO PRONACEN",
+  benefitSummary: "Minerales para defensas y cuidado celular",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SELENIO.webp",
   shortDesc: "Suplemento de selenio en levadura (100 mcg por tableta), con alta biodisponibilidad, para la protección celular y la función inmunológica y tiroidea.",
@@ -3615,16 +3616,15 @@ window.manualData.productos = [
   timing: "Una vez al día",
   intakeInstructions: "Tomar una tableta al día.",
   benefits: [
-    "Selenio en forma orgánica de levadura",
-    "Alta biodisponibilidad (70-80%)",
-    "Contribuye a la protección celular",
-    "Apoya la función inmunológica y tiroidea",
-    "Dosis de 100 mcg por tableta",
-    "Favorece la salud general"
+    "El selenio contribuye al funcionamiento de las defensas",
+    "Participa en el funcionamiento normal de la tiroides",
+    "Ayuda al cuidado antioxidante de las células",
+    "Contribuye al mantenimiento normal de cabello y uñas",
+    "Aporta selenio a partir de levadura"
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 143. Shilajit & Tongkat Ali Blend (60 caps, shilajit, tongkat ali, maca, tribulus, zinc, B6, D3)
@@ -3632,6 +3632,7 @@ window.manualData.productos = [
   id: 143,
   code: "7500645001002",
   name: "SHILAJIT & TONGKAT ALI BLEND",
+  benefitSummary: "Nutrición y vitalidad masculina",
   category: "hormonal",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SHILAJIT1.jpg",
   shortDesc: "Fórmula para la vitalidad masculina con shilajit, tongkat ali, maca, tribulus terrestris, zinc, vitamina B6 y D3, para el equilibrio hormonal y la energía.",
@@ -3640,16 +3641,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Shilajit y tongkat ali para la vitalidad",
-    "Maca y tribulus para el equilibrio hormonal",
-    "Zinc para la función reproductiva",
-    "Vitaminas B6 y D3 para el bienestar",
-    "Apoya la energía y la función sexual",
-    "Fórmula adaptógena y mineral"
+    "Combina plantas usadas tradicionalmente para la vitalidad",
+    "El zinc contribuye a la función reproductiva normal",
+    "La vitamina B6 ayuda a aprovechar la energía de los alimentos",
+    "La vitamina D contribuye al funcionamiento muscular",
+    "Complementa el cuidado nutricional masculino"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a algún componente, trastornos hepáticos o renales, o bajo tratamiento con hormonas, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El shilajit debe ser de alta pureza; puede contener metales pesados si no está purificado."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha advierte que el shilajit sin purificar puede contener metales pesados. Verificar la calidad y el origen del producto."
 },
 
 // 144. SIMILAXOL (50 tabletas, laxante homeopático con fenolftaleína amarilla SM)
@@ -3657,6 +3657,7 @@ window.manualData.productos = [
   id: 144,
   code: "75020286",
   name: "SIMILAXOL",
+  benefitSummary: "Revisar fórmula y seguridad antes de recomendar",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SIMILAXOL.webp",
   shortDesc: "Medicamento homeopático laxante a base de fenolftaleína amarilla SM (100 mg por tableta), para el alivio del estreñimiento ocasional.",
@@ -3665,16 +3666,14 @@ window.manualData.productos = [
   timing: "Por la noche al acostarse",
   intakeInstructions: "Tomar 1-2 tabletas por la noche al acostarse. No usar por más de una semana.",
   benefits: [
-    "Alivio del estreñimiento ocasional",
-    "Acción en 6-12 horas",
-    "Dosificación sencilla",
-    "Preparación homeopática SM",
-    "Indicado para adultos y niños mayores de 5 años",
-    "Uso bajo supervisión médica"
+    "La ficha lo presenta como un producto para estreñimiento ocasional",
+    "Su uso busca facilitar la evacuación",
+    "La elección del producto depende de su etiqueta vigente",
+    "La fórmula requiere valoración profesional antes de recomendarse"
   ],
   contraindications: "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
-  foodInteractions: "No especificado",
-  interactions: "El uso prolongado puede causar dependencia."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El uso prolongado puede hacer que el intestino dependa del producto para evacuar. La fórmula también requiere revisión profesional antes de recomendarse."
 },
 
 // 145. SOY LECITHIN + CHOLINE (30 caps, lecitina de soya 1200 mg, colina bitartrato 100 mg, jengibre, inulina)
@@ -3682,6 +3681,7 @@ window.manualData.productos = [
   id: 145,
   code: "7500645001484",
   name: "SOY LECITHIN + CHOLINE",
+  benefitSummary: "Colina para el funcionamiento normal del hígado",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/SOY-LECITIN1.jpg",
   shortDesc: "Suplemento de lecitina de soya (1200 mg) y colina bitartrato (100 mg) con jengibre e inulina, para el metabolismo lipídico y la función hepática.",
@@ -3690,16 +3690,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Lecitina de soya rica en fosfolípidos",
-    "Colina para el metabolismo hepático",
-    "Jengibre para el confort digestivo",
-    "Inulina como prebiótico",
-    "Apoya la función hepática y la memoria",
-    "Fuente de colina natural"
+    "La colina participa en el funcionamiento normal del hígado",
+    "Ayuda al cuerpo a utilizar las grasas de los alimentos",
+    "La lecitina aporta componentes de las células",
+    "El jengibre complementa el enfoque digestivo",
+    "La inulina añade fibra a la fórmula"
   ],
   contraindications: "Personas con alergia a la soya no deben consumir este producto. Mujeres embarazadas o en lactancia deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 146. Té Piñalim (30 sobres de 3 g, piña, linaza, té verde, té rojo, té blanco)
@@ -3707,6 +3706,7 @@ window.manualData.productos = [
   id: 146,
   code: "7502217902526",
   name: "TÉ PIÑALIM (Infusión)",
+  benefitSummary: "Piña, linaza y té en una infusión",
   category: "laxantes",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Pinalimte1.webp",
   shortDesc: "Infusión herbal con piña, linaza, té verde, té rojo y té blanco, orgánica y kosher, para el bienestar digestivo y antioxidante.",
@@ -3715,16 +3715,15 @@ window.manualData.productos = [
   timing: "Preferentemente por la noche",
   intakeInstructions: "Colocar un sobre en agua caliente (65°C), esperar 3-5 minutos, endulzar al gusto. Tomar una taza al día.",
   benefits: [
-    "Mezcla de piña, linaza y tres tipos de té",
-    "0 kcal, sin azúcares ni grasas",
-    "Orgánico y con certificación Kosher",
-    "Fuente de antioxidantes y fibra",
-    "Apoya la digestión y el bienestar",
-    "Fácil preparación"
+    "Combina piña, linaza y tres tipos de té",
+    "Aporta compuestos antioxidantes propios del té",
+    "Ofrece una bebida para acompañar la rutina después de comer",
+    "Permite variar el sabor de las bebidas cotidianas",
+    "Los sobres facilitan preparar una taza"
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "No especificado",
-  interactions: "No se conocen interacciones significativas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
 },
 
 // 147. Tiamina 3000 Alexyac (100 tabletas, fórmula premium con tiamina, cafeína, guaraná, jalea real, polen, etc.)
@@ -3732,6 +3731,7 @@ window.manualData.productos = [
   id: 147,
   code: "7503024065572",
   name: "TIAMINA 3000 ALEXYAC",
+  benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TIAMINA-ALEXYAC.webp",
   shortDesc: "Fórmula premium con vitamina B1 (tiamina), vitamina E, ácido fólico, CoQ10, cafeína, guaraná, jalea real, polen, lecitina de soya, miel y minerales.",
@@ -3740,16 +3740,15 @@ window.manualData.productos = [
   timing: "Según indicación",
   intakeInstructions: "Tomar de 1 a 2 tabletas al día.",
   benefits: [
-    "Tiamina para el metabolismo energético",
-    "Cafeína y guaraná como estimulantes",
-    "Jalea real, polen y miel como tónicos",
-    "CoQ10 y vitamina E como antioxidantes",
-    "Ácido fólico para la formación de glóbulos rojos",
-    "Fórmula premium para la vitalidad"
+    "La vitamina B1 ayuda a aprovechar los alimentos para producir energía",
+    "La cafeína y el guaraná ayudan a mantenerse alerta",
+    "El ácido fólico participa en la formación normal de la sangre",
+    "La vitamina E complementa el cuidado antioxidante",
+    "Está orientado a complementar la vitalidad y la nutrición"
   ],
   contraindications: "No se use durante el embarazo y lactancia. Contiene cafeína y guaraná, evitar en personas sensibles. Consultar a médico si se tiene intolerancia a los ingredientes.",
-  foodInteractions: "No especificado",
-  interactions: "La cafeína puede interactuar con estimulantes y medicamentos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "La cafeína puede aumentar el efecto de otros estimulantes y cambiar el de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento."
 },
 
 // 148. TO ADZEN / HIERBA DE SAPO 500 mg (90 caps, hierba del sapo en polvo)
@@ -3757,6 +3756,7 @@ window.manualData.productos = [
   id: 148,
   code: "7503026253892",
   name: "TO ADZEN / HIERBA DE SAPO 500 mg",
+  benefitSummary: "Hierba del sapo y uso tradicional digestivo",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0006s_0002_Presentacion-blanco.jpg",
   shortDesc: "Suplemento de hierba del sapo (Eryngium carlinae) en polvo, planta tradicional mexicana para el apoyo digestivo, diurético y metabólico.",
@@ -3765,16 +3765,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Hierba del Sapo con uso tradicional mexicano",
-    "Apoya la función digestiva",
-    "Efecto diurético y depurativo",
-    "Contribuye al control metabólico",
-    "100% puro, sin excipientes",
-    "Favorece el bienestar general"
+    "Aporta hierba del sapo en cápsulas",
+    "Tiene uso tradicional dentro de la herbolaria mexicana",
+    "Se utiliza como complemento del bienestar digestivo",
+    "Su enfoque tradicional también incluye el cuidado metabólico",
+    "Permite incorporar la planta sin preparar una infusión"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede tener efectos diuréticos; usar con precaución en desequilibrios electrolíticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Puede aumentar la eliminación de líquidos. Consultar si el cliente tiene alteraciones de las sales y minerales del cuerpo."
 },
 
 // 149. Treonato de magnesio (60 caps, L-treonato de magnesio, té verde, vitaminas C y D)
@@ -3782,6 +3781,7 @@ window.manualData.productos = [
   id: 149,
   code: "7500645000746",
   name: "TREONATO DE MAGNESIO",
+  benefitSummary: "Complemento del cuidado de la atención y la memoria",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TREONATO-MAGNESIO1.jpg",
   shortDesc: "L-Treonato de magnesio (288 mg por porción, aporta 36 mg de magnesio elemental), vitamina C y vitamina D, para la función cognitiva y la salud neurológica.",
@@ -3790,15 +3790,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Forma de magnesio que atraviesa la barrera hematoencefálica",
-    "Apoya la plasticidad sináptica y la memoria",
-    "Vitamina C para la protección celular",
-    "Vitamina D para la absorción del magnesio",
-    "Favorece la función cognitiva"
+    "Aporta magnesio en forma de treonato",
+    "El magnesio contribuye al funcionamiento normal de los nervios",
+    "Se estudia como complemento del bienestar mental",
+    "La vitamina C contribuye al cuidado antioxidante",
+    "Combina un mineral con vitaminas"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con insuficiencia renal o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Puede interactuar con anticoagulantes, antidiabéticos y diuréticos."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos)."
 },
 
 // 150. TRIPTOFANO TEANINA 500 mg (30 caps, L-triptófano, azahar, teanina, vitamina D3)
@@ -3806,6 +3806,7 @@ window.manualData.productos = [
   id: 150,
   code: "7503025069852",
   name: "TRIPTOFANO TEANINA 500 mg",
+  benefitSummary: "Calma, bienestar mental y rutina de descanso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TRIPTOFANO1.jpg",
   shortDesc: "Fórmula para la relajación y el sueño con L-triptófano (300 mg), azahar (100 mg), teanina (100 mg) y vitamina D3 (10 mcg), para el bienestar emocional y el descanso.",
@@ -3814,22 +3815,22 @@ window.manualData.productos = [
   timing: "Antes de dormir o con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente antes de dormir.",
   benefits: [
-    "L-Triptófano precursor de serotonina y melatonina",
-    "Teanina para la relajación sin somnolencia",
-    "Azahar con propiedades calmantes",
-    "Vitamina D3 para el equilibrio del estado de ánimo",
-    "Apoya la calidad del sueño",
-    "Favorece el bienestar emocional"
+    "Combina triptófano, teanina y azahar",
+    "El triptófano participa en la formación de mensajeros relacionados con ánimo y descanso",
+    "La teanina y el azahar se utilizan para favorecer la relajación",
+    "Puede acompañar una rutina de descanso",
+    "Su enfoque es el bienestar emocional y la calma"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos (ISRS, IMAO), ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-    interactions: "Puede causar somnolencia; evitar conducir después de su consumo."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede dar sueño. Evitar conducir después de consumirlo."
 },
 // 151. Zen Greens 200G (polvo verde con prebióticos, vegetales, enzimas y probióticos)
 {
   id: 151,
   code: "7500645001446",
   name: "ZEN GREENS 200G",
+  benefitSummary: "Fibra y complemento del bienestar intestinal",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZenGreen1.jpg",
   shortDesc: "Suplemento en polvo que combina fibras prebióticas (inulina, FOS, fibra de acacia), vegetales verdes deshidratados, extractos botánicos, enzimas digestivas y probióticos para apoyar el bienestar digestivo y la vitalidad cotidiana.",
@@ -3838,16 +3839,15 @@ window.manualData.productos = [
   timing: "Preferentemente por la mañana en ayunas o con el desayuno",
   intakeInstructions: "Disolver 1 medida (6 g) en 250-300 ml de agua fría o zumo, removiendo hasta disolución completa. Consumir una vez al día.",
   benefits: [
-    "Aporta fibras prebióticas que estimulan el crecimiento de bacterias beneficiosas",
-    "Contiene vegetales verdes ricos en clorofila, fibra y minerales alcalinizantes",
-    "Incluye enzimas digestivas (bromelina, papaína) para facilitar la digestión",
-    "Proporciona probióticos vivos para el equilibrio de la microbiota intestinal",
-    "Combina extractos botánicos con actividad antioxidante y metabólica",
-    "Favorece el bienestar digestivo y la vitalidad general"
+    "Aporta fibra para complementar la alimentación",
+    "Parte de esa fibra sirve de alimento a bacterias intestinales",
+    "Incluye probióticos para complementar el equilibrio intestinal",
+    "Las enzimas de la fórmula ayudan a descomponer alimentos",
+    "Reúne vegetales y otros ingredientes en una bebida"
   ],
   contraindications: "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "Contiene cafeína (aprox. 10-15 mg por dosis); puede interactuar con estimulantes."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Contiene aproximadamente 10 a 15 mg de cafeína por porción. Puede aumentar el efecto de otros estimulantes."
 },
 
 // 152. Zinc con Ginger (zinc 20 mg + jengibre 400 mg por cápsula)
@@ -3855,6 +3855,7 @@ window.manualData.productos = [
   id: 152,
   code: "7503029679163",
   name: "ZINC CON GINGER",
+  benefitSummary: "Zinc para defensas y jengibre para confort digestivo",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ZincYJengibre.jpg",
   shortDesc: "Fórmula sinérgica que combina zinc (20 mg elemental) con raíz de jengibre (400 mg), para apoyar la función inmunológica, la protección celular y el bienestar digestivo.",
@@ -3863,16 +3864,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Zinc para el funcionamiento normal del sistema inmunológico",
-    "Contribuye a la protección de las células frente al estrés oxidativo",
-    "Jengibre con propiedades digestivas y carminativas",
-    "Apoya el metabolismo de los macronutrientes",
-    "Ayuda al mantenimiento de la piel, cabello y uñas",
-    "Fórmula sinérgica para el bienestar general"
+    "El zinc contribuye al funcionamiento de las defensas",
+    "Ayuda al mantenimiento normal de piel, cabello y uñas",
+    "Participa en el uso de proteínas, grasas y carbohidratos",
+    "El jengibre tiene uso tradicional para el confort digestivo",
+    "Combina un mineral y un ingrediente vegetal"
   ],
   contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con alergia al jengibre, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El zinc puede interferir con la absorción de cobre si se consume en exceso. Separar la toma de calcio, hierro o fibra al menos 2 horas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "El exceso de zinc puede reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra."
 },
 
 // 153. ZINC (zinc elemental 20 mg por cápsula)
@@ -3880,6 +3880,7 @@ window.manualData.productos = [
   id: 153,
   code: "7500645000319",
   name: "ZINC",
+  benefitSummary: "Minerales para defensas y cuidado celular",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZINCYAVENA_1.webp",
   shortDesc: "Suplemento de zinc elemental (20 mg por cápsula) para apoyar la función inmunológica, la protección celular, el metabolismo de macronutrientes y el mantenimiento de la piel, cabello y uñas.",
@@ -3888,16 +3889,15 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoya el funcionamiento normal del sistema inmunológico",
-    "Contribuye a la protección de las células frente al estrés oxidativo",
-    "Participa en el metabolismo normal de los macronutrientes",
-    "Ayuda al mantenimiento de la piel, cabello y uñas",
-    "Cofactor de más de 300 enzimas",
-    "Fórmula sencilla y de alta pureza"
+    "Contribuye al funcionamiento normal de las defensas",
+    "Ayuda al mantenimiento de piel, cabello y uñas",
+    "Participa en el uso normal de los nutrientes",
+    "Contribuye al cuidado antioxidante de las células",
+    "Apoya la función reproductiva normal"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antibióticos, penicilamina o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "No especificado",
-  interactions: "El zinc en dosis altas puede interferir con la absorción de cobre. Separar la toma de calcio, hierro o fibra al menos 2 horas."
+  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+  interactions: "Las cantidades altas de zinc pueden reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra."
 }
 ,
 // PRODUCTO 154 - Calcium Citrate 510 mg
@@ -3905,6 +3905,7 @@ window.manualData.productos = [
     id: 154,
     code: "7500645001514",
     name: "CALCIUM CITRATE 510 mg",
+    benefitSummary: "Nutrientes para el mantenimiento de los huesos",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/CALCIUM-CITRATE1.jpg",
     shortDesc: "Suplemento de calcio altamente biodisponible con vitamina D3 y extracto de avena, ideal para el mantenimiento óseo y muscular.",
@@ -3913,16 +3914,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día, acompañadas de alimentos y un vaso de agua. Puede dividirse en una o dos tomas según preferencia.",
     benefits: [
-        "Apoya la mineralización y mantenimiento óseo",
-        "Contribuye al funcionamiento normal de los músculos",
-        "Favorece la transmisión nerviosa",
-        "Vitamina D3 que estimula la absorción intestinal del calcio",
-        "Fórmula con citrato de calcio, ideal para personas con baja producción de ácido gástrico",
-        "Extracto de avena que complementa el bienestar general"
+      "Aporta calcio para mantener huesos y dientes",
+      "La vitamina D ayuda a absorber el calcio",
+      "El calcio también participa en el funcionamiento muscular",
+      "Contribuye a la comunicación normal entre los nervios",
+      "Complementa el aporte de calcio de la alimentación"
     ],
     contraindications: "Personas con hipercalcemia, insuficiencia renal o que tomen digitálicos deben consultar a su médico antes de consumirlo. No recomendado en caso de hipersensibilidad a alguno de sus componentes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 155 - HONIG ABAGREEN VERDE
@@ -3930,6 +3930,7 @@ window.manualData.productos = [
     id: 155,
     code: "7503016797009",
     name: "HONIG ABANGREEN LIMON",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREENVERDE.png",
     shortDesc: "Fórmula líquida a base de miel, propóleo y extractos botánicos con vitamina C, diseñada para apoyar la función respiratoria y las defensas naturales.",
@@ -3938,16 +3939,15 @@ window.manualData.productos = [
     timing: "Cada 4 horas, con o sin alimentos",
     intakeInstructions: "Adultos y niños mayores de 10 años: Tomar 1 cucharada (12 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
     benefits: [
-        "Apoya la función respiratoria",
-        "Favorece las defensas naturales del organismo",
-        "Vitamina C que contribuye a la protección celular",
-        "Miel con propiedades emolientes para la garganta",
-        "Propóleo con compuestos fenólicos y flavonoides",
-        "Extractos botánicos con uso tradicional en bienestar respiratorio"
+      "La miel aporta una sensación de suavidad en la garganta",
+      "El mentol ofrece una sensación refrescante",
+      "La vitamina C contribuye al funcionamiento de las defensas",
+      "Incluye plantas de uso tradicional respiratorio",
+      "Combina miel, propóleo e ingredientes botánicos"
     ],
     contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. No consumir durante el embarazo o periodo de lactancia sin consultar a un profesional de la salud. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 156 - HONIG ABAGREEN ROJO
@@ -3955,6 +3955,7 @@ window.manualData.productos = [
     id: 156,
     code: "7503024738094",
     name: "HONIG ABANGREEN AJO NEGRO",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREEN-ROJO.png",
     shortDesc: "Fórmula líquida a base de miel, propóleo, ajo negro y extractos botánicos con vitamina C, para el apoyo respiratorio y las defensas inmunológicas.",
@@ -3963,16 +3964,15 @@ window.manualData.productos = [
     timing: "Cada 4 horas, con o sin alimentos",
     intakeInstructions: "Adultos: Tomar 2 vasos dosificadores (20 ml) cada 4 horas. Niños: Tomar 1 vaso dosificador (10 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
     benefits: [
-        "Apoya la función respiratoria y las defensas naturales",
-        "Ajo negro con compuestos azufrados y alta capacidad antioxidante",
-        "Vitamina C que contribuye a la función normal del sistema inmunitario",
-        "Miel y propóleo con propiedades emolientes y antioxidantes",
-        "Extractos botánicos con uso tradicional en bienestar respiratorio",
-        "Fórmula 100% natural"
+      "La miel ayuda a suavizar la sensación en la garganta",
+      "El mentol aporta frescura",
+      "La vitamina C contribuye al funcionamiento de las defensas",
+      "El ajo negro aporta compuestos antioxidantes",
+      "Incluye plantas de uso tradicional para el bienestar respiratorio"
     ],
     contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 }
 ,
 // PRODUCTO 157 - NUYO
@@ -3980,6 +3980,7 @@ window.manualData.productos = [
     id: 157,
     code: "7503021404206",
     name: "NUYO",
+    benefitSummary: "Cuidado articular y nutrición para el movimiento",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-NUYO-RENDER-V3-AGOSTO2026.jpeg",
     shortDesc: "Suplemento alimenticio integral con glucosamina, MSM, cúrcuma, nogal, vitaminas y minerales, diseñado para apoyar la salud articular, la función cognitiva y el equilibrio metabólico.",
@@ -3988,16 +3989,15 @@ window.manualData.productos = [
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente después de los alimentos, acompañada de agua. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-        "Apoya la salud articular y la integridad del cartílago",
-        "Contribuye al mantenimiento de la función cognitiva",
-        "Favorece el equilibrio metabólico general",
-        "Aporta azufre biodisponible para la formación de colágeno y tejidos conectivos",
-        "Fórmula antioxidante con cúrcuma y nogal",
-        "Complejo vitamínico-mineral que contribuye al metabolismo energético y la protección celular"
+      "Su enfoque principal es complementar el cuidado articular",
+      "La vitamina C contribuye a formar colágeno",
+      "El calcio y el magnesio apoyan huesos y músculos",
+      "Las vitaminas B participan en el uso de la energía",
+      "La cúrcuma complementa el aporte de ingredientes antioxidantes"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 158 - PROTEÍNA CACAO HIGH PERFORMANCE
@@ -4005,6 +4005,7 @@ window.manualData.productos = [
     id: 158,
     code: "7501468149636",
     name: "PROTEÍNA CACAO HIGH PERFORMANCE",
+    benefitSummary: "Proteína para músculos y recuperación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/HABITHP.webp",
     shortDesc: "Proteína vegana de alto rendimiento con 30g de proteína, 6g de BCAAs, probióticos (770M UFC) y electrolitos, diseñada para atletas y personas activas.",
@@ -4013,16 +4014,15 @@ window.manualData.productos = [
     timing: "Dentro de los 60 minutos posteriores al entrenamiento o como colación proteica",
     intakeInstructions: "Mezclar 1 medida (39.5 g) con 350 ml de agua fría o leche vegetal. Agitar en shaker durante 20-30 segundos hasta disolver. Se recomienda consumir de 1 a 2 porciones al día, dependiendo de las necesidades proteicas y nivel de actividad física.",
     benefits: [
-        "30 g de proteína vegetal por porción",
-        "6 g de aminoácidos de cadena ramificada (BCAAs)",
-        "770 millones de UFC de probióticos (Lactobacillus acidophilus y Bifidobacterium bifidum)",
-        "Electrolitos que apoyan la hidratación y función neuromuscular",
-        "Perfil completo de aminoácidos esenciales",
-        "Sin gluten, sin OGM, sin lácteos, sin soya y sin ingredientes artificiales"
+      "Aporta proteína vegetal para completar la alimentación",
+      "Ayuda a mantener y desarrollar los músculos",
+      "Incluye los componentes necesarios para formar proteína",
+      "Añade probióticos como complemento digestivo",
+      "Su sabor cacao ofrece una alternativa a los batidos lácteos"
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud antes de consumir este producto. Este producto es fabricado en instalaciones que también procesan lácteos y derivados de soya.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 159 - VITA RX NANO FEAR
@@ -4030,6 +4030,7 @@ window.manualData.productos = [
     id: 159,
     code: "7503016797627",
     name: "VITA RX NANO FEAR",
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VITARX-NANO1.png",
     shortDesc: "Suplemento multivitamínico y mineral de alta densidad nutricional con 100% de la Ingesta Diaria Recomendada de vitaminas esenciales, complementado con glicina y glutamina para atletas y personas activas.",
@@ -4038,16 +4039,15 @@ window.manualData.productos = [
     timing: "1 cápsula antes de cada alimento (distribuir con las comidas principales)",
     intakeInstructions: "Tomar 3 cápsulas al día (1 antes de cada alimento) para optimizar la absorción de vitaminas liposolubles. No exceder la porción diaria recomendada.",
     benefits: [
-        "100% de la Ingesta Diaria Recomendada de vitaminas esenciales (A, D3, E, C, B1, B2, B3, B5, B6, B12, K, ácido fólico y biotina)",
-        "Apoya el metabolismo energético y la función inmunológica",
-        "Contribuye a la protección celular frente al estrés oxidativo",
-        "Favorece la salud ósea y la función neuromuscular",
-        "Glicina y glutamina que apoyan la recuperación muscular",
-        "Fórmula completa para el rendimiento deportivo y la salud general"
+      "Aporta vitaminas y minerales para complementar la dieta",
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Las vitaminas C y D contribuyen al funcionamiento de las defensas",
+      "El calcio y el magnesio apoyan huesos y músculos",
+      "Reúne varios nutrientes para personas activas"
     ],
     contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
  // PRODUCTO 160 - MCT OIL BIRDMAN
@@ -4055,6 +4055,7 @@ window.manualData.productos = [
         id: 160,
         code: "7503025737362",
         name: "MCT OIL BIRDMAN",
+        benefitSummary: "Grasas tipo MCT para complementar la energía",
         category: "metabolismo",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MCTOIL-BIRDMAN.webp",
         shortDesc: "Triglicéridos de cadena media (MCT) de alta pureza con ácido caprílico (C8) al 98%, extraído de aceite de coco, diseñado para proporcionar energía rápida y apoyar la cetosis.",
@@ -4063,16 +4064,15 @@ window.manualData.productos = [
         timing: "Puede tomarse en cualquier momento, solo o añadido a café, batidos o comidas",
         intakeInstructions: "Tomar 1 cucharada sopera (15 ml) al día, solo o añadido a café, batidos, ensaladas o comidas. Para quienes son nuevos en MCT, se recomienda comenzar con 1/2 cucharada (7.5 ml) y aumentar gradualmente para evitar molestias digestivas. Agitar antes de usar.",
         benefits: [
-            "Ácido caprílico (C8) al 98%, el MCT más ketogénico",
-            "Proporciona energía rápida y eficiente al cerebro y los músculos",
-            "Apoya la cetosis en dietas cetogénicas y bajas en carbohidratos",
-            "No eleva los niveles de glucosa en sangre",
-            "Favorece el enfoque y la claridad mental",
-            "Sin carbohidratos, sin proteínas y sin sodio"
+          "Aporta grasas que el cuerpo puede usar como energía",
+          "Ofrece una opción para complementar dietas con pocos carbohidratos",
+          "Se puede añadir a bebidas y preparaciones",
+          "Su fórmula se centra en aceite de coco tipo C8",
+          "Facilita aumentar el aporte de grasa de una comida"
         ],
         contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
-        foodInteractions: "No especificado",
-        interactions: "No especificado"
+        foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+        interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
     },
 
     // PRODUCTO 161 - VGREEN
@@ -4080,6 +4080,7 @@ window.manualData.productos = [
     id: 161,
     code: "7503016797498",
     name: "VGREEN",
+    benefitSummary: "Complemento de alimentación y actividad física",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VGREEN.png",
     shortDesc: "Suplemento a base de té verde, guaraná, rodiola, schisandra, damiana, zarzaparrilla y toronjil, diseñado para apoyar la vitalidad, el equilibrio emocional y la protección celular.",
@@ -4088,16 +4089,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Tomar 2 cápsulas al día, de preferencia por la mañana, acompañadas de suficiente agua. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-      "Té verde con alto contenido de catequinas para la protección celular",
-      "Guaraná como estimulante natural que favorece la vitalidad",
-      "Rodiola y schisandra como plantas adaptógenas que apoyan la respuesta al estrés",
-      "Damiana, zarzaparrilla y toronjil para el bienestar general",
-      "Fórmula con mínimo aporte calórico (0.9 kcal por porción)",
-      "Sin grasas ni sodio añadidos"
+      "El té verde aporta compuestos antioxidantes",
+      "El guaraná contiene cafeína, que ayuda a mantenerse alerta",
+      "Combina plantas usadas tradicionalmente para la vitalidad",
+      "Puede acompañar una rutina de alimentación y actividad física",
+      "Reúne varios ingredientes botánicos en cápsulas"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
     // PRODUCTO 163 - ASHWA + MAG COMPLEX
@@ -4105,6 +4105,7 @@ window.manualData.productos = [
         id: 163,
         code: "7500645001668",
         name: "ASHWA + MAG COMPLEX",
+        benefitSummary: "Calma, bienestar mental y rutina de descanso",
         category: "nervioso",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/RENDER-ASHWA-MAG-COMPLEX-1.jpeg",
         shortDesc: "Suplemento que combina extracto estandarizado de Ashwagandha (600 mg), L-Teanina (200 mg) y Bisglicinato de Magnesio (225 mg de magnesio elemental) para apoyar la respuesta al estrés, la relajación funcional y el sistema nervioso.",
@@ -4113,16 +4114,15 @@ window.manualData.productos = [
         timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. La porción diaria completa (3 cápsulas) proporciona 600 mg de Ashwagandha, 200 mg de L-Teanina y 225 mg de magnesio elemental. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
         benefits: [
-            "Ashwagandha como adaptógeno que apoya la respuesta al estrés",
-            "L-Teanina que favorece la relajación sin somnolencia",
-            "Magnesio de alta biodisponibilidad (bisglicinato) que contribuye a la función nerviosa y muscular",
-            "Ayuda a reducir el cansancio y la fatiga",
-            "Fórmula que promueve el equilibrio emocional y la concentración",
-            "Combinación sinérgica para el bienestar del sistema nervioso"
+          "La ashwagandha puede apoyar la respuesta al estrés cotidiano",
+          "La teanina se utiliza como complemento de la relajación",
+          "El magnesio contribuye al funcionamiento de los nervios",
+          "También apoya el movimiento normal de los músculos",
+          "Su enfoque es acompañar una rutina de calma y descanso"
         ],
         contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula. Personas con hipertiroidismo, trastornos autoinmunitarios o bajo tratamiento farmacológico (sedantes, ansiolíticos, hipoglucemiantes, antihipertensivos) deben consultar a un profesional de la salud antes de consumirlo.",
-        foodInteractions: "No especificado",
-        interactions: "No especificado"
+        foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+        interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
     }
     ,
 
@@ -4131,6 +4131,7 @@ window.manualData.productos = [
     id: 164,
     code: "7503016797634",
     name: "ALOE VERA NOPAL CON CUACHALALATE",
+    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeCuachalalate.jpg",
     shortDesc: "Bebida funcional que combina aloe vera, nopal y cuachalalate, tres plantas de reconocido uso tradicional en México, enriquecida con vitamina C para apoyar la salud gastrointestinal, el bienestar metabólico y la hidratación.",
@@ -4139,16 +4140,15 @@ window.manualData.productos = [
     timing: "Preferentemente en ayunas o entre comidas",
     intakeInstructions: "Agitar bien el envase antes de cada uso. Consumir 90 ml al día (un vaso dosificador), preferentemente en ayunas o entre comidas. Puede tomarse solo o mezclado con agua si se desea un sabor más suave. No exceder la porción diaria recomendada. Una vez abierto, consumir en un plazo de 1 mes.",
     benefits: [
-        "Aloe vera que apoya la salud gastrointestinal y la hidratación",
-        "Nopal con fibra que contribuye al bienestar metabólico",
-        "Cuachalalate con uso tradicional para la salud digestiva y la cicatrización de tejidos",
-        "Vitamina C con actividad antioxidante que protege las células",
-        "Bebida baja en calorías (27 kcal por porción)",
-        "Fórmula con plantas mexicanas de reconocido uso tradicional"
+      "Combina sábila, nopal y cuachalalate",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "La vitamina C contribuye al funcionamiento de las defensas",
+      "También complementa el cuidado antioxidante de las células",
+      "Permite incorporar las plantas en una bebida preparada"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 165 - TÉ VERDE
@@ -4156,6 +4156,7 @@ window.manualData.productos = [
     id: 165,
     code: "7503024738278",
     name: "TÉ VERDE",
+    benefitSummary: "Una bebida con antioxidantes y cafeína",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-VERDE--scaled.png",
     shortDesc: "Infusión elaborada con hojas de té verde (Camellia sinensis) 100% puras, reconocido por su alto contenido de catequinas y su perfil antioxidante.",
@@ -4164,16 +4165,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml) y dejar infusionar 3-5 minutos. Retirar el sobre y disfrutar.",
     benefits: [
-        "Alto contenido de catequinas y flavonoides con actividad antioxidante",
-        "Contribuye a la protección celular frente al estrés oxidativo",
-        "Tradicionalmente utilizado para apoyar el metabolismo energético",
-        "Contiene teanina que promueve la relajación sin somnolencia",
-        "Estimulante suave por su contenido natural de cafeína",
-        "100% hojas puras, sin mezclas ni aditivos"
+      "Aporta compuestos antioxidantes propios del té verde",
+      "Su cafeína ayuda a mantenerse alerta",
+      "Contiene teanina de forma natural",
+      "Permite preparar una bebida para distintos momentos del día",
+      "Los sobres facilitan llevar y preparar una taza"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 166 - D3 5000 UI
@@ -4181,6 +4181,7 @@ window.manualData.productos = [
     id: 166,
     code: "7500645000821",
     name: "D3 5000 UI",
+    benefitSummary: "Nutrientes para el mantenimiento de los huesos",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2024/02/D3.jpg",
     shortDesc: "Suplemento de vitamina D3 (5000 UI) en cápsula blanda con aceite de olivo y avena en polvo como vehículo lipídico para optimizar su absorción.",
@@ -4189,16 +4190,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos que contengan grasas",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos que contengan grasas para optimizar la absorción. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-        "5000 UI de vitamina D3 por cápsula",
-        "Contribuye a la absorción del calcio y el fósforo",
-        "Apoya el mantenimiento de los huesos y dientes",
-        "Favorece la función muscular normal",
-        "Contribuye a la función inmunológica",
-        "Aceite de olivo que facilita la absorción de la vitamina liposoluble"
+      "La vitamina D ayuda a absorber calcio y fósforo",
+      "Contribuye al mantenimiento de huesos y dientes",
+      "Apoya el funcionamiento normal de los músculos",
+      "Contribuye al funcionamiento de las defensas",
+      "Permite complementar la vitamina D cuando corresponde su uso"
     ],
     contraindications: "No consumir durante el embarazo o lactancia sin supervisión médica. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 167 - FIX UZEN
@@ -4206,6 +4206,7 @@ window.manualData.productos = [
     id: 167,
     code: "7503025069647",
     name: "FIX UZEN",
+    benefitSummary: "Masaje, frescura y confort local",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FIX-UZEN-scaled.png",
     shortDesc: "Gel tópico formulado con extracto de árnica, salicilato de metilo, glucosamina y mentol natural, diseñado para el alivio de molestias musculares y articulares.",
@@ -4214,16 +4215,15 @@ window.manualData.productos = [
     timing: "Según necesidad, 2-3 veces al día",
     intakeInstructions: "Aplicar una cantidad suficiente de gel sobre la zona afectada. Masajear suavemente hasta que se absorba completamente. Repetir 2-3 veces al día según sea necesario. Lavar las manos después de cada aplicación. Uso exclusivamente tópico, no ingerir.",
     benefits: [
-        "Extracto de árnica para el alivio de contusiones y molestias musculares",
-        "Salicilato de metilo que proporciona sensación de calor y alivio local",
-        "Glucosamina como soporte para la salud articular",
-        "Mentol natural con efecto refrescante y calmante",
-        "Fácil aplicación y rápida absorción",
-        "Fórmula tópica de uso externo"
+      "Facilita el masaje de zonas con sensación de tensión",
+      "El mentol aporta una sensación refrescante",
+      "Los ingredientes de uso externo pueden dar confort local",
+      "Incluye árnica en la fórmula",
+      "Su textura permite aplicarlo directamente sobre la piel"
     ],
     contraindications: "No se use en menores de 12 años. Evitar contacto con ojos, mucosas y heridas abiertas. Si se presenta irritación o reacción alérgica, suspender su uso y consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 168 - HPR PROS GREEN
@@ -4231,6 +4231,7 @@ window.manualData.productos = [
     id: 168,
     code: "'7503016797382",
     name: "HPR PROS GREEN",
+    benefitSummary: "Bienestar prostático y cuidado masculino",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/HPR-PROSGREEN-LIFE.png",
     shortDesc: "Suplemento con polen de flores, pelo de elote, perejil, Omega 3, buchu, pygeum, licopeno, vitaminas B6 y E, y zinc, diseñado para el bienestar prostático y general.",
@@ -4239,16 +4240,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-        "Pygeum y zinc para el bienestar prostático",
-        "Omega 3 que contribuye al mantenimiento de la función cardíaca",
-        "Licopeno y vitaminas E y C con actividad antioxidante",
-        "Polen de flores como fuente natural de nutrientes",
-        "Fórmula baja en calorías (0.52 kcal por porción)",
-        "Línea GREEN LIFE con ingredientes botánicos"
+      "Su enfoque es complementar el bienestar prostático",
+      "Combina pygeum y otros ingredientes vegetales",
+      "El zinc contribuye a la función reproductiva normal",
+      "La vitamina E y el licopeno complementan el cuidado antioxidante",
+      "Reúne nutrientes e ingredientes botánicos para el cuidado masculino"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (polen) deben evitar su consumo.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 169 - TÉ 7 AZAHARES
@@ -4256,6 +4256,7 @@ window.manualData.productos = [
     id: 169,
     code: "7503024738261",
     name: "TÉ 7 AZAHARES",
+    benefitSummary: "Infusión para una pausa y una rutina de calma",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-7-AZAHARES-scaled.png",
     shortDesc: "Infusión herbal compuesta por 9 ingredientes botánicos de reconocido uso tradicional en México (yerbaniz, manzanilla, zapote blanco, azahar, hierbabuena, pasiflora, toronjil, flor de manita y tila) para favorecer la relajación y el bienestar.",
@@ -4264,16 +4265,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Colocar la bolsita en una taza, agregar agua caliente (200 ml) a 65°C, dejar infusionar 3-5 minutos, retirar la bolsita y disfrutar.",
     benefits: [
-        "Mezcla de 9 plantas de la herbolaria mexicana",
-        "Tradicionalmente utilizada para favorecer la relajación",
-        "Apoya el bienestar emocional y la calidad del sueño",
-        "Sin cafeína, ideal para consumir por la noche",
-        "Aroma y sabor suave de flores y hierbas",
-        "Fórmula 100% natural sin aditivos"
+      "Tiene uso tradicional para favorecer la relajación",
+      "Puede acompañar una rutina de descanso",
+      "Permite hacer una pausa con una bebida caliente",
+      "Su mezcla de flores y hierbas aporta aroma suave",
+      "Ofrece una opción sin cafeína según la ficha"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 170 - TÉ ABANGREEN
@@ -4281,6 +4281,7 @@ window.manualData.productos = [
     id: 170,
     code: "7503024738339",
     name: "TÉ ABANGREEN",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ABANGREEN-scaled.png",
     shortDesc: "Infusión herbal que combina eucalipto, tejocote, gordolobo, tabachín, sáuco y propóleo, plantas de reconocido uso tradicional para el bienestar respiratorio.",
@@ -4289,16 +4290,15 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Eucalipto para el bienestar respiratorio",
-        "Gordolobo con uso tradicional en vías respiratorias",
-        "Sáuco con perfil antioxidante",
-        "Propóleo con compuestos fenólicos y flavonoides",
-        "Mezcla de plantas medicinales mexicanas",
-        "Sin cafeína, ideal para cualquier momento del día"
+      "Combina plantas de uso tradicional respiratorio",
+      "Una bebida caliente puede dar confort en la garganta",
+      "El eucalipto aporta su aroma característico",
+      "El saúco y el propóleo complementan la mezcla",
+      "Los sobres facilitan preparar una taza"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (propóleo) deben evitar su consumo.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 171 - TÉ ÁRNICA
@@ -4306,6 +4306,7 @@ window.manualData.productos = [
     id: 171,
     code: "7503024738285",
     name: "TÉ ÁRNICA",
+    benefitSummary: "Árnica mexicana: uso tradicional por valorar",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ARNICA-scaled.png",
     shortDesc: "Infusión herbal elaborada con hojas de árnica mexicana (Heterotheca inuloides), una planta de reconocido uso tradicional en la herbolaria mexicana para el bienestar general.",
@@ -4314,16 +4315,14 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Árnica mexicana (Heterotheca inuloides) de uso tradicional",
-        "Planta nativa de México utilizada desde la época prehispánica",
-        "Contiene flavonoides con actividad antioxidante",
-        "Sin cafeína, sin aditivos ni conservadores",
-        "100% hojas puras sin mezclas",
-        "Apoya el bienestar general a través de su uso tradicional"
+      "Permite preparar una infusión de árnica mexicana",
+      "Conserva el sabor y aroma característicos de la planta",
+      "Tiene una larga tradición dentro de la herbolaria mexicana",
+      "Su ficha describe un uso tradicional, con beneficios clínicos por confirmar"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 172 - TÉ CUACHALALATE
@@ -4331,6 +4330,7 @@ window.manualData.productos = [
     id: 172,
     code: "7503024738254",
     name: "TÉ CUACHALALATE",
+    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
     shortDesc: "Infusión elaborada con corteza de cuachalalate (Amphipterygium adstringens), una planta medicinal de reconocido uso tradicional en México para el bienestar general.",
@@ -4339,16 +4339,15 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Cuachalalate, árbol endémico de México",
-        "Planta de uso tradicional en la herbolaria mexicana",
-        "Contiene triterpenos con propiedades tradicionales",
-        "Sin cafeína, sin aditivos ni conservadores",
-        "100% corteza pura sin mezclas",
-        "Apoya el bienestar general a través de su uso tradicional"
+      "Permite preparar una infusión de cuachalalate",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "Su fórmula se centra en la corteza de esta planta",
+      "Ofrece una opción sin cafeína según la ficha",
+      "Los sobres facilitan preparar una taza"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 173 - TÉ HOJA SEN
@@ -4356,6 +4355,7 @@ window.manualData.productos = [
     id: 173,
     code: "7503024738247",
     name: "TÉ HOJA SEN",
+    benefitSummary: "Apoyo ocasional a la evacuación",
     category: "laxantes",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-HOJA-SEN-scaled.png",
     shortDesc: "Infusión elaborada con hojas de sen (Senna alexandrina), una planta de reconocido uso tradicional por sus propiedades digestivas. Uso ocasional.",
@@ -4364,16 +4364,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar. Uso ocasional, no prolongar por más de 7 días consecutivos.",
     benefits: [
-        "Hoja de sen de uso tradicional para el bienestar digestivo",
-        "Contiene sennósidos que estimulan suavemente la motilidad intestinal",
-        "Sin cafeína, sin aditivos ni conservadores",
-        "100% hojas puras sin mezclas",
-        "Uso ocasional para el bienestar digestivo",
-        "Fórmula sencilla y natural"
+      "El sen ayuda a estimular el movimiento del intestino",
+      "Su uso se dirige al estreñimiento ocasional",
+      "Puede facilitar la evacuación cuando corresponde su uso",
+      "Permite preparar la planta en forma de infusión",
+      "Su beneficio se limita al uso ocasional indicado en la etiqueta"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 174 - TÉ JENGIBRE CANELA
@@ -4381,6 +4380,7 @@ window.manualData.productos = [
     id: 174,
     code: "7503025069395",
     name: "TÉ JENGIBRE CANELA",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
     shortDesc: "Infusión que combina té verde, jengibre y canela, tres ingredientes de reconocido uso tradicional por sus propiedades digestivas y antioxidantes.",
@@ -4389,16 +4389,15 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Té verde con catequinas y flavonoides antioxidantes",
-        "Jengibre tradicionalmente utilizado para apoyar la digestión",
-        "Canela con aroma y sabor característico y perfil antioxidante",
-        "Infusión cálida y especiada",
-        "Sin aditivos ni conservadores",
-        "Ideal después de las comidas"
+      "El jengibre tiene uso tradicional para acompañar la digestión",
+      "El té verde aporta compuestos antioxidantes",
+      "La canela da sabor y aroma a la bebida",
+      "Puede disfrutarse después de las comidas",
+      "Combina té y especias en un sobre"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 175 - TÉ JENGIBRE Y CÚRCUMA
@@ -4406,6 +4405,7 @@ window.manualData.productos = [
     id: 175,
     code: "7503024738308",
     name: "TÉ JENGIBRE Y CÚRCUMA",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
     shortDesc: "Infusión herbal que combina jengibre y cúrcuma, dos plantas de reconocido uso tradicional por sus propiedades digestivas y antioxidantes.",
@@ -4414,16 +4414,15 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Jengibre con gingeroles para el bienestar digestivo",
-        "Cúrcuma con curcuminoides de actividad antioxidante",
-        "Combinación sinérgica de dos especias tradicionales",
-        "Sin cafeína, sin aditivos ni conservadores",
-        "Infusión cálida y aromática",
-        "Ideal después de las comidas"
+      "El jengibre tiene uso tradicional para el confort digestivo",
+      "La cúrcuma aporta compuestos antioxidantes",
+      "Ofrece una bebida cálida para después de comer",
+      "Combina dos especias sin preparar las raíces",
+      "Es una alternativa sin cafeína según la ficha"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 176 - TÉ MANZANILLA
@@ -4431,6 +4430,7 @@ window.manualData.productos = [
     id: 176,
     code: "7503026253311",
     name: "TÉ MANZANILLA",
+    benefitSummary: "Infusión para una pausa y una rutina de calma",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-MANZANILLA-1-scaled.png",
     shortDesc: "Infusión herbal 100% orgánica compuesta por flores de manzanilla (Chamaemelum nobile), reconocida por sus propiedades digestivas y relajantes. Sin cafeína.",
@@ -4439,16 +4439,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche o después de las comidas",
     intakeInstructions: "Calentar agua hasta punto de ebullición. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "100% orgánica, sin pesticidas ni fertilizantes sintéticos",
-        "Tradicionalmente utilizada para apoyar la digestión",
-        "Favorece la relajación y el descanso",
-        "100% libre de cafeína",
-        "Flores de manzanilla seleccionadas por su calidad y aroma",
-        "Sin aditivos ni conservadores"
+      "Tiene uso tradicional para el confort después de comer",
+      "Puede acompañar una rutina de relajación",
+      "Ofrece una bebida sin cafeína",
+      "Su aroma suave ayuda a crear un momento de pausa",
+      "Los sobres facilitan preparar una taza"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 177 - TÉ RINICHI
@@ -4456,6 +4455,7 @@ window.manualData.productos = [
     id: 177,
     code: "7503024738353",
     name: "TÉ RINICHI",
+    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-RINICHI-scaled.png",
     shortDesc: "Infusión herbal que combina pingüica, palo azul, pelo de elote y cola de caballo, cuatro plantas de reconocido uso tradicional en la herbolaria mexicana para el bienestar renal y urinario.",
@@ -4464,16 +4464,15 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-        "Pingüica con uso tradicional diurético",
-        "Pelo de elote para apoyar la función renal",
-        "Cola de caballo rica en sílice y flavonoides",
-        "Palo azul de la herbolaria mexicana",
-        "Sin cafeína, sin aditivos ni conservadores",
-        "Fórmula con plantas medicinales mexicanas"
+      "Combina plantas de uso tradicional para el bienestar urinario",
+      "Incluye palo azul, pingüica y cabellos de elote",
+      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
+      "Permite incorporar las plantas como infusión",
+      "Los sobres evitan preparar la mezcla desde cero"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con problemas renales o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 178 - QUERCETIN
@@ -4481,6 +4480,7 @@ window.manualData.productos = [
     id: 178,
     code: "7503029679767",
     name: "QUERCETIN",
+    benefitSummary: "Cuidado antioxidante de las células",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/QUERCETIN.png",
     shortDesc: "Suplemento de quercetina (1000 mg por porción), un flavonoide natural con actividad antioxidante y moduladora de la respuesta inflamatoria, en cápsulas veganas libres de gluten.",
@@ -4489,16 +4489,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas diariamente (1000 mg de quercetina), de preferencia con los alimentos. Consumir diariamente. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-        "Flavonoide natural con actividad antioxidante",
-        "Neutraliza especies reactivas de oxígeno (ROS)",
-        "Apoya el equilibrio de la respuesta inmunológica",
-        "Favorece la función endotelial y la elasticidad vascular",
-        "Cápsulas veganas y libres de gluten",
-        "Fórmula pura sin aditivos"
+      "Aporta quercetina, un compuesto presente en distintas plantas",
+      "Tiene actividad antioxidante",
+      "Complementa el cuidado nutricional de las células",
+      "Se estudia su relación con las defensas del organismo",
+      "Permite incorporar quercetina en cápsulas"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 179 - BACAO GREEN JARABE
@@ -4506,6 +4505,7 @@ window.manualData.productos = [
     id: 179,
     code: "7503016797054",
     name: "BACAO GREEN JARABE",
+    benefitSummary: "Vitaminas A y D con plantas de uso tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BACAO-JARABE.png",
     shortDesc: "Jarabe tradicional con aceite de hígado de bacalao (fuente de vitaminas A y D), hipofosfitos minerales y extractos botánicos (eucalipto, saúco, gordolobo) para el apoyo respiratorio y la nutrición general.",
@@ -4514,16 +4514,15 @@ window.manualData.productos = [
     timing: "Según necesidad, con o sin alimentos",
     intakeInstructions: "Adultos: Tomar 1 copita de 15 ml, 3 veces al día. Jóvenes: Tomar 1 copita de 15 ml, 2 veces al día. Niños: Tomar media copita, 3 veces al día. Agitar antes de usar.",
     benefits: [
-        "Aceite de hígado de bacalao con vitaminas A y D para la función inmunológica",
-        "Hipofosfitos minerales para el metabolismo energético",
-        "Extractos de eucalipto, saúco y gordolobo con uso tradicional respiratorio",
-        "Apoya la salud ósea y la función muscular",
-        "Fórmula tradicional de uso familiar",
-        "Ingredientes 100% naturales"
+      "Aporta vitaminas A y D a partir de aceite de hígado de bacalao",
+      "La vitamina A contribuye al mantenimiento de la visión",
+      "La vitamina D ayuda a absorber el calcio",
+      "Ambas vitaminas contribuyen al funcionamiento de las defensas",
+      "Incluye plantas de uso tradicional respiratorio"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 1 año. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente pescado).",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 180 - PURE INOSITOL POWDER
@@ -4531,6 +4530,7 @@ window.manualData.productos = [
     id: 180,
     code: "7502002826105",
     name: "PURE INOSITOL POWDER",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PURE-INOSITOL-RENDER-V2-AGOSTO2026.jpeg",
     shortDesc: "Polvo de inositol 100% puro (5 g por porción), un compuesto del complejo de vitamina B que participa en la señalización celular, el metabolismo lipídico y el bienestar general. Libre de gluten y aditivos.",
@@ -4539,16 +4539,15 @@ window.manualData.productos = [
     timing: "Preferentemente acompañado de algún alimento",
     intakeInstructions: "Disolver 5 g (aproximadamente una cucharadita) en un vaso de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente acompañado de algún alimento. No exceder la porción diaria recomendada.",
     benefits: [
-        "100% inositol puro, sin excipientes ni aditivos",
-        "Participa en la señalización celular y el metabolismo lipídico",
-        "Apoya el bienestar general y el equilibrio metabólico",
-        "Libre de gluten y sin organismos genéticamente modificados (NON-GMO)",
-        "Mínimo aporte calórico (3.1 kcal por porción)",
-        "Fórmula versátil para mezclar con bebidas"
+      "Aporta inositol en polvo",
+      "Participa en la comunicación normal entre las células",
+      "Se utiliza como complemento del bienestar metabólico",
+      "Su fórmula de un solo ingrediente facilita identificar su aporte",
+      "Se puede mezclar con una bebida"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 181 - MAGNESIUM BISGLYCINATE
@@ -4556,6 +4555,7 @@ window.manualData.productos = [
     id: 181,
     code: "7500645001606",
     name: "MAGNESIUM BISGLYCINATE",
+    benefitSummary: "Magnesio para músculos, nervios y energía",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BISGLICINATO-MAGNESIO.png",
     shortDesc: "Suplemento de magnesio en forma de bisglicinato (400 mg de magnesio elemental por porción), una forma quelada de alta biodisponibilidad que favorece la función muscular y nerviosa, con inulina de agave como prebiótico.",
@@ -4564,16 +4564,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 4 cápsulas al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-        "400 mg de magnesio elemental por porción (alta biodisponibilidad)",
-        "Forma bisglicinato quelada con glicina para mejor absorción",
-        "Contribuye a la reducción del cansancio y la fatiga",
-        "Apoya el funcionamiento normal de los músculos y el sistema nervioso",
-        "Inulina de agave como prebiótico para la salud intestinal",
-        "Excelente tolerancia digestiva"
+      "El magnesio contribuye al funcionamiento de los músculos",
+      "Apoya el funcionamiento normal de los nervios",
+      "Ayuda a obtener energía de los alimentos",
+      "Contribuye a reducir el cansancio por falta de magnesio",
+      "Aporta magnesio en forma de bisglicinato"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 182 - MOROIZY GEL
@@ -4581,6 +4580,7 @@ window.manualData.productos = [
     id: 182,
     code: "7503026253700",
     name: "MOROIZY GEL",
+    benefitSummary: "Masaje, frescura y confort local",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/MOROIZY.png",
     shortDesc: "Gel tópico formulado con extractos botánicos (castaño de indias, hamamelis, centella asiática, saúco, árnica, manzanilla y ginkgo biloba) para el cuidado de la piel y el confort general. Uso externo.",
@@ -4589,16 +4589,15 @@ window.manualData.productos = [
     timing: "2-3 veces al día",
     intakeInstructions: "Aplicar sobre la zona afectada de 2 a 3 veces al día, masajeando suavemente hasta su absorción. Uso exclusivamente tópico, no ingerir. Evitar contacto con ojos y mucosas. Si se presenta irritación, suspender su uso.",
     benefits: [
-        "Castaño de indias y hamamelis para el cuidado de la piel",
-        "Centella asiática para la regeneración y reparación de tejidos",
-        "Árnica para el alivio de molestias musculares y contusiones",
-        "Manzanilla con propiedades calmantes y suavizantes",
-        "Ginkgo biloba con perfil antioxidante",
-        "Fórmula de rápida absorción y sensación refrescante"
+      "Facilita el masaje de las zonas donde se aplica",
+      "Ofrece una sensación refrescante sobre la piel",
+      "La manzanilla complementa el cuidado de la piel",
+      "Incluye árnica y otros extractos botánicos",
+      "Su presentación en gel facilita la aplicación local"
     ],
     contraindications: "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 183 - CT-O
@@ -4606,6 +4605,7 @@ window.manualData.productos = [
     id: 183,
     code: "7503026253717",
     name: "CT-O",
+    benefitSummary: "Masaje, frescura y confort local",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CT-O.png",
     shortDesc: "Gel corporal con extractos botánicos (castaño de indias, hamamelis, centella asiática, ginkgo biloba) y salicilato de metilo, diseñado para el cuidado de la piel y el confort general. Uso tópico.",
@@ -4614,16 +4614,15 @@ window.manualData.productos = [
     timing: "2-3 veces al día",
     intakeInstructions: "Aplicar sobre la piel limpia y seca de las zonas deseadas (como piernas o zonas de tensión) y realizar un masaje suave con movimientos circulares ascendentes hasta su completa absorción. Se recomienda aplicar de 2 a 3 veces al día. Uso exclusivamente tópico, no ingerir.",
     benefits: [
-        "Castaño de indias para el confort de piernas cansadas",
-        "Hamamelis para el cuidado de la piel",
-        "Centella asiática para la regeneración de tejidos",
-        "Ginkgo biloba con perfil antioxidante",
-        "Salicilato de metilo con sensación refrescante y calmante",
-        "Gel de rápida absorción y fácil aplicación"
+      "Está orientado al confort de piernas cansadas",
+      "Facilita acompañar el masaje de las piernas",
+      "Ofrece una sensación refrescante sobre la piel",
+      "Incluye castaño de indias y hamamelis",
+      "Su formato en gel facilita aplicarlo por zonas"
     ],
     contraindications: "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 }
 ,
 // PRODUCTO 184 - ZENMUN
@@ -4631,6 +4630,7 @@ window.manualData.productos = [
     id: 184,
     code: "7503029679156",
     name: "ZENMUN",
+    benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Zenmun1.jpg",
     shortDesc: "Fórmula avanzada para fortalecer las defensas naturales del organismo, con bayas de saúco, equinácea, ajo negro, vitamina C (300 mg), vitamina D3 (400 UI) y zinc (20 mg), ideal para épocas de cambios estacionales.",
@@ -4639,16 +4639,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (&gt;3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-        "Bayas de saúco con actividad antiviral y antioxidante",
-        "Equinácea que estimula la respuesta inmunológica",
-        "Ajo negro con compuestos azufrados biodisponibles",
-        "Vitamina C (300 mg) que contribuye a la función normal del sistema inmunitario",
-        "Vitamina D3 (400 UI) que modula la respuesta inmune",
-        "Zinc (20 mg) esencial para la función de las células inmunitarias"
+      "Las vitaminas C y D contribuyen al funcionamiento de las defensas",
+      "El zinc también participa en la función normal del sistema de defensas",
+      "La vitamina C aporta cuidado antioxidante",
+      "Incluye saúco, equinácea y ajo negro",
+      "Combina nutrientes y plantas para complementar el cuidado diario"
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a plantas de la familia Asteraceae (equinácea), al ajo o a alguno de los componentes, con enfermedades autoinmunes, o bajo tratamiento con inmunosupresores, anticoagulantes (warfarina) o antidiabéticos deben consultar a un profesional de la salud antes de consumirlo. La vitamina D3 en dosis elevadas puede acumularse; no exceder la dosis recomendada sin supervisión médica.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 }
 ,
 // PRODUCTO 185 - ASTRÁGALO
@@ -4656,6 +4655,7 @@ window.manualData.productos = [
     id: 185,
     code: "7502214013263",
     name: "ASTRÁGALO",
+    benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ASTRAGALO.png",
     shortDesc: "Suplemento de Astrágalo (Astragalus membranaceus), una planta adaptógena de la medicina tradicional china con polisacáridos y flavonoides que apoyan la función inmunológica y la vitalidad.",
@@ -4664,16 +4664,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Astrágalo al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Planta adaptógena de la medicina tradicional china",
-        "Polisacáridos que contribuyen a la modulación de la respuesta inmunológica",
-        "Flavonoides con propiedades antioxidantes que apoyan la salud celular",
-        "Astragalósidos con actividad biológica estudiada",
-        "Apoya la vitalidad y la resistencia frente a factores de estrés",
-        "Fórmula tradicional para el equilibrio orgánico"
+      "Aporta astrágalo, una planta de uso tradicional",
+      "Se utiliza tradicionalmente como apoyo a la vitalidad",
+      "Contiene compuestos vegetales con actividad antioxidante",
+      "Se estudia su relación con el funcionamiento de las defensas",
+      "Su enfoque es complementar el bienestar general"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 186 - CALOSTRO BOVINO
@@ -4681,6 +4680,7 @@ window.manualData.productos = [
     id: 186,
     code: "7502214013317",
     name: "CALOSTRO BOVINO",
+    benefitSummary: "Calostro como complemento nutricional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CALOSTRO-BOVINO.png",
     shortDesc: "Suplemento de calostro bovino liofilizado (200 mg por cápsula), una fuente natural de inmunoglobulinas, factores de crecimiento y lactoferrina para el apoyo inmunológico y la salud celular.",
@@ -4689,16 +4689,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Calostro Bovino al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Inmunoglobulinas (IgG, IgA, IgM) para el mantenimiento de la función inmunológica",
-        "Factores de crecimiento (IGF-1, TGF-β) que participan en la regeneración celular",
-        "Lactoferrina con propiedades moduladoras de la respuesta inmunológica",
-        "Fuente natural de nutrientes y compuestos bioactivos",
-        "Apoya la salud celular y tisular",
-        "Fibra dietética que contribuye a la salud digestiva"
+      "Aporta calostro bovino en cápsulas",
+      "Contiene componentes propios del calostro",
+      "Se estudia como complemento del bienestar intestinal",
+      "Su fórmula permite incorporar calostro sin preparar una bebida",
+      "Su utilidad depende de la cantidad y composición del producto"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos).",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 187 - CÉLULAS MADRE
@@ -4706,6 +4705,7 @@ window.manualData.productos = [
     id: 187,
     code: "7502214013270",
     name: "CÉLULAS MADRE",
+    benefitSummary: "Mezcla de ingredientes tradicionales para el bienestar general",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CELULAS-MADRE.png",
     shortDesc: "Fórmula avanzada que combina calostro bovino (150 mg), astrágalo (50 mg), hongo reishi (50 mg), espirulina (30 mg) y FO-TI (25 mg) para el apoyo inmunológico, la vitalidad y el equilibrio orgánico.",
@@ -4714,16 +4714,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Células Madre al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Calostro bovino con inmunoglobulinas y factores de crecimiento",
-        "Astrágalo con polisacáridos inmunomoduladores",
-        "Hongo Reishi con beta-glucanos y triterpenos",
-        "Espirulina como fuente de nutrientes y antioxidantes",
-        "FO-TI con uso tradicional en la medicina china",
-        "Fórmula integral para la vitalidad y el equilibrio orgánico"
+      "Aporta calostro, hongos y plantas de la fórmula",
+      "La espirulina complementa el aporte de ingredientes nutritivos",
+      "Incluye compuestos vegetales con actividad antioxidante",
+      "Su enfoque es el bienestar general y la vitalidad",
+      "Su composición corresponde a una mezcla nutricional y botánica"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos y hongos).",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 188 - EXTRACTO DE PROPÓLEO ABAGREEN
@@ -4731,6 +4730,7 @@ window.manualData.productos = [
     id: 188,
     code: "7503016797375",
     name: "EXTRACTO DE PROPÓLEO ABAGREEN",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABAGREEN-GOTERO.png",
     shortDesc: "Extracto líquido de propóleo en gotero, combinado con mentol natural y equinácea, para el apoyo de las defensas naturales y el bienestar respiratorio.",
@@ -4739,16 +4739,15 @@ window.manualData.productos = [
     timing: "Con o sin alimentos",
     intakeInstructions: "Añadir 20 gotas (1 ml) del extracto en agua, jugo o tomar directamente. Una vez al día. Agitar antes de usar. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Propóleo con flavonoides y ácidos fenólicos con propiedades antioxidantes",
-        "Equinácea reconocida en la herbolaria tradicional para el apoyo inmunológico",
-        "Mentol natural que aporta sensación refrescante y confort respiratorio",
-        "Formato líquido en gotero para fácil administración",
-        "Fórmula tradicional para el cuidado diario",
-        "Apoya el bienestar general y las defensas naturales"
+      "El mentol aporta una sensación refrescante",
+      "El propóleo contiene compuestos antioxidantes",
+      "La equinácea tiene uso tradicional en cambios de temporada",
+      "El gotero facilita medir la cantidad indicada",
+      "Reúne propóleo e ingredientes botánicos en formato líquido"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No administrar en menores de 3 años. Personas con alergia a productos apícolas (propóleo, miel) o a plantas de la familia Asteraceae (equinácea) deben evitar su consumo.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // PRODUCTO 189 - TÉ JOUNKINS LAX
@@ -4756,6 +4755,7 @@ window.manualData.productos = [
     id: 189,
     code: "7501090510439",
     name: "TÉ JOUNKINS LAX",
+    benefitSummary: "Infusión para una pausa y una rutina de calma",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JOUNKINS.png",
     shortDesc: "Infusión herbal tradicional con Cenizo (Leucophyllum frutescens) y Toronjil (Agastache mexicana), una mezcla original para el bienestar digestivo y la relajación.",
@@ -4764,16 +4764,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche",
     intakeInstructions: "Preparar una taza con agua caliente, agregar una bolsita de té y dejar reposar de 3 a 5 minutos. Tomar 1 taza al día, preferentemente por la noche. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Cenizo con uso tradicional en la herbolaria mexicana para el bienestar digestivo",
-        "Toronjil con propiedades relajantes y agradable sabor cítrico",
-        "Mezcla original con tradición desde 1976",
-        "Bebida aromática y reconfortante",
-        "Apoya la relajación y el descanso",
-        "Fórmula herbal tradicional mexicana"
+      "El toronjil tiene uso tradicional para favorecer la relajación",
+      "La mezcla se utiliza como complemento del bienestar digestivo",
+      "Puede acompañar una pausa al final del día",
+      "Su aroma herbal hace agradable la preparación",
+      "Los sobres facilitan preparar una taza"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
   // 190. DEMOGRASS LX+
@@ -4781,6 +4780,7 @@ window.manualData.productos = [
     id: 190,
     code: "7502214011542",
     name: "DEMOGRASS LX+",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "laxantes",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
     shortDesc: "Suplemento con 7 extractos botánicos y fibras naturales: forskolina, ciruela, tamarindo, inulina, papaya, nopal y linaza.",
@@ -4789,14 +4789,15 @@ window.manualData.productos = [
     timing: "Preferentemente antes de la comida principal",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
     benefits: [
-      "Apoyo al metabolismo energético",
-      "Bienestar digestivo",
-      "Equilibrio de la microbiota (inulina prebiótica)",
-      "Bajo aporte calórico"
+      "Combina plantas, frutas e inulina",
+      "La inulina es una fibra que alimenta ciertas bacterias del intestino",
+      "Su enfoque es complementar el bienestar digestivo",
+      "Incluye ciruela, tamarindo, papaya, nopal y linaza",
+      "Puede acompañar hábitos de alimentación y consumo de agua"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
   // 191. CREATINA REFRESHER LEMON TWIST
@@ -4804,6 +4805,7 @@ window.manualData.productos = [
     id: 191,
     code: "7503037273957",
     name: "CREATINA REFRESHER LEMON TWIST",
+    benefitSummary: "Creatina para esfuerzos cortos, fuerza y entrenamiento",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINAREFRESHER-BM.webp",
     shortDesc: "Bebida en polvo con 5 g de creatina monohidratada, electrolitos y vitaminas. Sabor Lemon Twist, sin azúcar.",
@@ -4812,14 +4814,15 @@ window.manualData.productos = [
     timing: "Antes o durante el entrenamiento",
     intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
     benefits: [
-      "5 g de creatina monohidratada por porción",
-      "Electrolitos: 522 mg de sodio, 170 mg de potasio, 61 mg de magnesio",
-      "Vitaminas C, D, E y B12",
-      "0 kcal, 0 azúcares"
+      "La creatina ayuda a rendir en esfuerzos cortos e intensos",
+      "Puede apoyar la fuerza junto con entrenamiento",
+      "Incluye minerales que participan en la función muscular",
+      "Aporta vitaminas para complementar la alimentación",
+      "Su sabor limón facilita integrarla a una bebida de entrenamiento"
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
   // 192. NEUROCEBRYL COMPUESTO
@@ -4827,6 +4830,7 @@ window.manualData.productos = [
     id: 192,
     code: "7578945632172",
     name: "NEUROCEBRYL COMPUESTO",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NEUROCEBRYL-COMPUESTO.webp",
     shortDesc: "Suplemento líquido multivitamínico con complejo B, vitaminas antioxidantes (A, C, D3, E), calcio, jalea real e inositol.",
@@ -4835,14 +4839,15 @@ window.manualData.productos = [
     timing: "Oral, directamente",
     intakeInstructions: "Ingerir directamente el contenido de la ampolleta. EN NINGÚN CASO DEBERÁ INYECTARSE.",
     benefits: [
-      "Metabolismo energético",
-      "Protección antioxidante",
-      "Función nerviosa",
-      "Fórmula líquida de fácil absorción"
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Contribuyen al funcionamiento normal de los nervios",
+      "Las vitaminas de la fórmula complementan el cuidado celular",
+      "Reúne varios nutrientes en una sola presentación",
+      "Su formato líquido ofrece una alternativa a tabletas y cápsulas"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 193. NAC NOW
@@ -4850,6 +4855,7 @@ window.manualData.productos = [
     id: 193,
     code: "733739000859",
     name: "NAC NOW",
+    benefitSummary: "Cuidado antioxidante de las células",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NAC-NOW.webp",
     shortDesc: "N-Acetil Cisteína (NAC) 600 mg con Selenio 25 mcg. Precursor del glutatión para la protección celular.",
@@ -4858,14 +4864,15 @@ window.manualData.productos = [
     timing: "Con el estómago vacío",
     intakeInstructions: "Tomar 1 cápsula, 2 veces al día, con el estómago vacío o según indicación de un profesional de la salud.",
     benefits: [
-      "Precursor del glutatión, el principal antioxidante intracelular",
-      "Protección celular contra el estrés oxidativo",
-      "Apoyo a la función inmunológica",
-      "Salud del sistema respiratorio"
+      "Aporta NAC, un ingrediente usado para formar glutatión",
+      "El glutatión participa en el cuidado antioxidante de las células",
+      "Complementa la nutrición orientada al cuidado celular",
+      "Permite incorporar N-acetilcisteína en cápsulas",
+      "Su aporte principal es el NAC de la fórmula"
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna enfermedad.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 194. LECHE DE SOYA SYMKEN
@@ -4873,6 +4880,7 @@ window.manualData.productos = [
     id: 194,
     code: "661951732107",
     name: "LECHE DE SOYA SYMKEN",
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LECHE-DE-SOYA-SYMKEN.webp",
     shortDesc: "Bebida instantánea en polvo a base de proteína aislada de soya, adicionada con vitaminas y minerales.",
@@ -4881,13 +4889,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Verter 3 cucharadas soperas al ras (aprox. 25 g) en un vaso. Añadir agua potable a temperatura ambiente hasta llenar el vaso (250 ml). Remover vigorosamente.",
     benefits: [
-      "Fuente de proteína vegetal (6.5 g por porción)",
-      "Sin colesterol",
-      "Enriquecido con vitaminas y minerales"
+      "Aporta proteína vegetal de soya",
+      "Ayuda a completar la proteína de la alimentación",
+      "Incluye vitaminas y minerales",
+      "Ofrece una alternativa a las bebidas de origen lácteo",
+      "Su formato en polvo permite preparar la cantidad deseada"
     ],
     contraindications: "Contiene soya.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 195. DYNEEM
@@ -4895,6 +4905,11 @@ window.manualData.productos = [
     id: 195,
     code: "7503016797221",
     name: "DYNEEM",
+    yieldInfo: {
+      durationDays: 30,
+      note: "Frasco 1: 90 cápsulas ÷ 3 al día = 30 días. Frasco 2: 60 cápsulas ÷ 2 al día = 30 días. Los dos frascos se consumen en paralelo."
+    },
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DYNEEM-GREENLIFE.webp",
     shortDesc: "Suplemento en dos frascos: Frasco 1 (hierbas) y Frasco 2 (vitaminas, minerales y jalea real).",
@@ -4903,13 +4918,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula del Frasco 1, 3 veces al día. Tomar 1 cápsula del Frasco 2 por la mañana y 1 por la tarde.",
     benefits: [
-      "Bienestar metabólico",
-      "Nutrición integral",
-      "Apoyo a la función inmunológica"
+      "Combina una fórmula de plantas con otra de nutrientes",
+      "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
+      "Sus vitaminas y minerales complementan la alimentación",
+      "El zinc y la vitamina C contribuyen al funcionamiento de las defensas",
+      "Presenta por separado los dos grupos de ingredientes"
     ],
     contraindications: "No consumir durante el embarazo o período de lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 196. DEMOGRASS PREMIER
@@ -4917,6 +4934,7 @@ window.manualData.productos = [
     id: 196,
     code: "7501172019348",
     name: "DEMOGRASS PREMIER",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPREMIER.webp",
     shortDesc: "Suplemento con 10 ingredientes botánicos: matake, cayena, cúrcuma, espirulina, arándano, moringa, enebro, olivo, inulina y naranjo amargo.",
@@ -4925,14 +4943,15 @@ window.manualData.productos = [
     timing: "En ayunas",
     intakeInstructions: "Tomar 1 cápsula al día en ayunas, con un vaso de agua.",
     benefits: [
-      "Bienestar metabólico",
-      "Protección celular",
-      "Salud digestiva",
-      "Sinergia botánica"
+      "Combina distintos ingredientes vegetales",
+      "Tiene un enfoque de bienestar digestivo",
+      "Aporta compuestos vegetales antioxidantes",
+      "Puede acompañar un plan de alimentación y actividad física",
+      "Reúne la mezcla en una presentación práctica"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 197. TÉ PIÑALIM PLUS
@@ -4940,22 +4959,24 @@ window.manualData.productos = [
     id: 197,
     code: "7502217905350",
     name: "TÉ PIÑALIM PLUS",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-PINALIM-PLUS.webp",
     shortDesc: "Infusión herbal con piña, linaza, tés verde, rojo y blanco, aguaje peruano y corazón de alcachofa. USDA Organic, Kosher.",
     ingredients: "Pulpa de piña (16%), linaza (14%), té verde, té rojo y té blanco (14% cada uno), aguaje peruano (14%) y corazón de alcachofa (14%).",
-    serving: "1 taza al día (preferentemente por la noche)",
+    serving: "1 sobre (1 taza) al día, preferentemente por la noche",
     timing: "Por la noche",
     intakeInstructions: "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
     benefits: [
-      "Bienestar digestivo",
-      "Protección celular",
-      "Equilibrio metabólico",
-      "Bebida natural sin calorías ni azúcares"
+      "Combina piña, linaza y distintos tés",
+      "Los tés aportan compuestos antioxidantes",
+      "Ofrece una bebida para acompañar la rutina después de comer",
+      "Puede sustituir otras bebidas si se prepara sin azúcar",
+      "Los sobres facilitan preparar una porción"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 198. SÁBILA 1 LT PROSA
@@ -4963,6 +4984,7 @@ window.manualData.productos = [
     id: 198,
     code: "7501734420100",
     name: "SÁBILA 1 LT PROSA",
+    benefitSummary: "Sábila y vitamina C en una bebida",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SABILA-PROSA.webp",
     shortDesc: "Suplemento líquido de pulpa de sábila sin aloína, enriquecido con vitamina C.",
@@ -4971,14 +4993,15 @@ window.manualData.productos = [
     timing: "Antes de cada alimento",
     intakeInstructions: "Tomar 60 ml (2 copitas), 3 veces al día, antes de cada alimento. Refrigerar después de abrir.",
     benefits: [
-      "Hidratación y bienestar celular",
-      "Bienestar digestivo",
-      "Protección antioxidante (Vitamina C)",
-      "Bajo aporte calórico"
+      "Permite incorporar sábila en una bebida",
+      "Su enfoque es el bienestar digestivo tradicional",
+      "La vitamina C contribuye al funcionamiento de las defensas",
+      "También ayuda al cuidado antioxidante de las células",
+      "Ofrece una alternativa líquida para quien evita cápsulas"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 199. D MASTER PLATINUM
@@ -4986,6 +5009,7 @@ window.manualData.productos = [
     id: 199,
     code: "690939301219",
     name: "D MASTER PLATINUM",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMasterPlatinum1.webp",
     shortDesc: "Suplemento con 8 extractos vegetales: gayuba, té verde, uva, manzana, jamaica, cacao, linaza y sábila.",
@@ -4994,14 +5018,15 @@ window.manualData.productos = [
     timing: "Por la mañana, después de los alimentos",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana, después de los alimentos, con abundante agua.",
     benefits: [
-      "Bienestar urinario",
-      "Protección celular",
-      "Equilibrio digestivo",
-      "Sinergia herbal"
+      "Combina plantas de uso tradicional",
+      "Su ficha orienta la mezcla al bienestar urinario y digestivo",
+      "Aporta compuestos vegetales antioxidantes",
+      "Puede acompañar hábitos generales de autocuidado",
+      "Reúne varios ingredientes en cápsulas"
     ],
     contraindications: "No consumir durante el embarazo. No tomarlo personas muy nerviosas. No tomarlo personas que estén tomando medicamentos. No tomarlo personas diabéticas e hipertensas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 200. D MASTER
@@ -5009,6 +5034,7 @@ window.manualData.productos = [
     id: 200,
     code: "690939301226",
     name: "D MASTER",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMaster1.webp",
     shortDesc: "Suplemento con 7 extractos y fibras vegetales: linaza, sábila, nopal, té verde, fibra de piña, malva y raíz de lima.",
@@ -5017,14 +5043,15 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche, con un vaso de agua",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua.",
     benefits: [
-      "Bienestar digestivo",
-      "Equilibrio metabólico",
-      "Protección celular",
-      "Sinergia herbal"
+      "Aporta una mezcla de ingredientes vegetales",
+      "Su enfoque es complementar el bienestar digestivo",
+      "Incluye compuestos antioxidantes de las plantas",
+      "Puede acompañar un plan de alimentación y actividad física",
+      "Permite incorporar la mezcla sin preparar las plantas"
     ],
     contraindications: "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 201. CUATECOMATE
@@ -5032,6 +5059,7 @@ window.manualData.productos = [
     id: 201,
     code: "7501735610036",
     name: "CUATECOMATE",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Cuartecomate1.webp",
     shortDesc: "Solución líquida de extractos vegetales (Cuatecomate, Eucalipto, Gordolobo) con 1.9% de alcohol.",
@@ -5040,13 +5068,15 @@ window.manualData.productos = [
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 10 ml (2 cucharadas soperas) después de los alimentos. No es recomendable para niños.",
     benefits: [
-      "Bienestar respiratorio",
-      "Bienestar digestivo",
-      "Fórmula tradicional"
+      "Combina cuatecomate y otros ingredientes tradicionales",
+      "Tiene uso tradicional para el confort de la garganta",
+      "Su presentación líquida permite medir una porción",
+      "La miel y los ingredientes dulces aportan sabor",
+      "Puede incorporarse a una rutina de cuidado estacional según la etiqueta"
     ],
     contraindications: "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 202. SUPER COLOSTRUM NOW
@@ -5054,6 +5084,7 @@ window.manualData.productos = [
     id: 202,
     code: "733739032164",
     name: "SUPER COLOSTRUM NOW",
+    benefitSummary: "Calostro como complemento nutricional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SUPER-CALOSTRUM-NOW.webp",
     shortDesc: "Calostro bovino seco (1,000 mg) con InmunEnhancer™, hoja de olivo, astrágalo y eleuthero.",
@@ -5062,14 +5093,15 @@ window.manualData.productos = [
     timing: "Con el estómago vacío",
     intakeInstructions: "Tomar 2 cápsulas al día, preferiblemente con el estómago vacío para una mejor absorción.",
     benefits: [
-      "Apoyo a la función inmunológica",
-      "Salud celular y tisular",
-      "Equilibrio intestinal",
-      "Sinergia botánica"
+      "Aporta calostro bovino en cápsulas",
+      "Contiene componentes propios del calostro",
+      "Se estudia como complemento del bienestar intestinal",
+      "Permite incorporar calostro sin su sabor característico",
+      "Su enfoque es el apoyo nutricional complementario"
     ],
     contraindications: "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 203. NOPSOR POMADA
@@ -5077,6 +5109,7 @@ window.manualData.productos = [
     id: 203,
     code: "7504023954027",
     name: "NOPSOR POMADA",
+    benefitSummary: "Hidratación, suavidad y cuidado de la piel",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/POMADA-NOPSOR.jpg",
     shortDesc: "Pomada tópica con alquitrán de hulla, ácido salicílico y extractos vegetales.",
@@ -5085,13 +5118,15 @@ window.manualData.productos = [
     timing: "Por la noche",
     intakeInstructions: "Lavar la zona afectada, secar perfectamente y aplicar una cantidad generosa de Pomada Nopsor, dejándola actuar durante la noche. Uso externo únicamente.",
     benefits: [
-      "Alivio de la picazón y enrojecimiento",
-      "Descamación controlada",
-      "Hidratación y barrera cutánea"
+      "Ayuda a mantener la piel hidratada",
+      "Puede dar confort cuando hay resequedad",
+      "Su base ayuda a proteger la superficie de la piel",
+      "Facilita el cuidado local de áreas resecas",
+      "Su formato en pomada permite aplicarla por zonas"
     ],
     contraindications: "Uso externo únicamente. Evitar el contacto con ojos y mucosas. Sólo para un periodo máximo de 4 días. No usar en niños menores de 3 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 204. CARTÍLAGO PRONAT
@@ -5099,6 +5134,7 @@ window.manualData.productos = [
       id: 204,
       code: "7501062946013",
       name: "CARTÍLAGO PRONAT",
+      benefitSummary: "Cuidado articular y nutrición para el movimiento",
       category: "locomotor",
       image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARTILAGO.png",
       shortDesc: "100% Cartílago de Tiburón puro en cápsulas. Rico en proteínas, colágeno, glucosamina, condroitina, calcio, fósforo, magnesio y zinc.",
@@ -5107,14 +5143,15 @@ window.manualData.productos = [
       timing: "Antes de cada alimento (desayuno, comida y cena)",
       intakeInstructions: "Tomar 3 cápsulas antes de cada alimento (desayuno, comida y cena) = 9 cápsulas al día. Recomendado a partir de 12 años.",
       benefits: [
-          "Soporte articular: aporta glucosamina y condroitina naturales",
-          "Salud ósea: rico en calcio y fósforo",
-          "Función inmunológica: el zinc contribuye al sistema inmunológico",
-          "Bienestar general: perfil nutricional completo"
+        "Aporta ingredientes orientados al cuidado articular",
+        "El calcio y el fósforo contribuyen al mantenimiento de los huesos",
+        "El zinc contribuye al funcionamiento de las defensas",
+        "Complementa la nutrición relacionada con el movimiento",
+        "Reúne cartílago y minerales en cápsulas"
       ],
       contraindications: "Contiene derivados de pescado (tiburón). No consumir si se es alérgico a los productos del mar. No se recomienda en menores de 12 años. Consultar con un profesional de la salud si se está embarazada, en período de lactancia o bajo tratamiento médico.",
-      foodInteractions: "No especificado",
-      interactions: "No especificado"
+      foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+      interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 205. LEVADURA DE CERVEZA PRONAT
@@ -5122,6 +5159,7 @@ window.manualData.productos = [
     id: 205,
     code: "7501062910113",
     name: "LEVADURA DE CERVEZA",
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/LEVADURA.png",
     shortDesc: "Levadura de cerveza (Saccharomyces cerevisiae) en tabletas. Rica en proteínas, fibra, fósforo y vitaminas del complejo B.",
@@ -5130,14 +5168,15 @@ window.manualData.productos = [
     timing: "Antes de cada comida",
     intakeInstructions: "Tomar 3 tabletas antes de cada comida (desayuno, comida y cena) = 9 tabletas al día. Recomendado a partir de 12 años.",
     benefits: [
-      "Metabolismo energético",
-      "Salud digestiva",
-      "Salud ósea",
-      "Bienestar general"
+      "Aporta levadura de cerveza en tabletas",
+      "Complementa la alimentación con componentes propios de la levadura",
+      "Las vitaminas B presentes participan en el uso de la energía",
+      "Permite incorporar levadura sin añadirla a las comidas",
+      "Su enfoque es el complemento nutricional diario"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 206. OMEGA MAXIMUM PRONAT
@@ -5145,6 +5184,7 @@ window.manualData.productos = [
     id: 206,
     code: "7501062912827",
     name: "OMEGA MAXIMUM PRONAT",
+    benefitSummary: "Complemento nutricional para el cuidado del corazón",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OMEGA-MAXIMUM.png",
     shortDesc: "Combinación de aceite de pescado (EPA/DHA), aceite de Sacha Inchi y aceite de linaza. Con vitamina E.",
@@ -5153,14 +5193,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula, 3 veces al día, de preferencia con los alimentos. Recomendado a partir de 18 años.",
     benefits: [
-      "Salud cardiovascular",
-      "Perfil lipídico completo",
-      "Protección antioxidante",
-      "Bienestar general"
+      "Combina grasas de origen marino y vegetal",
+      "Aporta omega 3 para complementar la alimentación",
+      "El EPA y el DHA participan en el funcionamiento del corazón",
+      "El DHA es un componente del cerebro y los ojos",
+      "Incluye vitamina E como ingrediente antioxidante"
     ],
     contraindications: "Contiene derivados de pescado.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 207. 2MR
@@ -5168,6 +5209,7 @@ window.manualData.productos = [
     id: 207,
     code: "7503021404916",
     name: "2MR",
+    benefitSummary: "Calma, bienestar mental y rutina de descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
     shortDesc: "Combinación de L-Triptófano (295 mg), Rhodiola rosea (200 mg) y Melatonina (5 mg) por cápsula.",
@@ -5176,13 +5218,15 @@ window.manualData.productos = [
     timing: "Por la noche después de cenar",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
     benefits: [
-      "Precursor de serotonina (L-Triptófano)",
-      "Adaptógeno (Rhodiola rosea)",
-      "Regulación del ciclo sueño-vigilia (Melatonina)"
+      "La melatonina ayuda a regular el horario de sueño",
+      "Puede facilitar conciliar el sueño cuando corresponde su uso",
+      "El triptófano participa en la formación de mensajeros relacionados con el descanso",
+      "La rhodiola complementa el enfoque de bienestar mental",
+      "Reúne ingredientes orientados a una rutina de descanso"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 208. CÁPSULAS DE ACEITE DE ORÉGANO
@@ -5190,6 +5234,7 @@ window.manualData.productos = [
     id: 208,
     code: "7503008731042",
     name: "CÁPSULAS DE ACEITE DE ORÉGANO",
+    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OREGANO-ORGANICO.png",
     shortDesc: "Aceite de orégano orgánico (Lippia graveolens) con aceite de oliva. Libre de OMG.",
@@ -5198,13 +5243,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula, hasta 3 veces al día (adultos) o 1 cápsula al día (niños mayores de 7 años). Tomar suficiente agua.",
     benefits: [
-      "Bienestar respiratorio",
-      "Salud digestiva",
-      "Protección celular"
+      "Aporta aceite de orégano en cápsulas",
+      "Contiene compuestos antioxidantes propios del orégano",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "Permite incorporarlo sin el sabor intenso del aceite",
+      "Su formato facilita llevar la porción indicada"
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 209. CREATINA REFRESHER PINK
@@ -5212,6 +5259,7 @@ window.manualData.productos = [
     id: 209,
     code: "7503057040911",
     name: "CREATINA REFRESHER PINK",
+    benefitSummary: "Creatina para esfuerzos cortos, fuerza y entrenamiento",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CREATINA-REFRESHER-PINK.png",
     shortDesc: "Bebida en polvo con 5 g de creatina monohidratada, electrolitos y vitaminas. Sabor Pink Lemonade, sin azúcar.",
@@ -5220,14 +5268,15 @@ window.manualData.productos = [
     timing: "Antes o durante el entrenamiento",
     intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
     benefits: [
-      "5 g de creatina monohidratada por porción",
-      "Electrolitos: 523 mg de sodio, 174.5 mg de potasio, 61 mg de magnesio",
-      "Vitaminas C, D, E y B12",
-      "0 kcal, 0 azúcares"
+      "La creatina ayuda a rendir en esfuerzos cortos e intensos",
+      "Puede apoyar la fuerza junto con entrenamiento",
+      "Incluye minerales que participan en la función muscular",
+      "Aporta vitaminas para complementar la alimentación",
+      "Su sabor permite variar la bebida de entrenamiento"
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica deben consultar a su profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 210. PATA DE VACA
@@ -5235,6 +5284,7 @@ window.manualData.productos = [
     id: 210,
     code: "7502214013294",
     name: "PATA DE VACA",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PATA-DE-VACA.png",
     shortDesc: "Suplemento con Bauhinia forticata (300 mg por cápsula). Para el bienestar metabólico.",
@@ -5243,14 +5293,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula de Pata de Vaca al día, con alimentos.",
     benefits: [
-      "Apoyo al bienestar metabólico",
-      "Salud celular",
-      "Bienestar digestivo",
-      "Equilibrio general"
+      "Aporta pata de vaca en cápsulas",
+      "Tiene uso tradicional en el cuidado metabólico",
+      "Contiene compuestos vegetales que complementan la alimentación",
+      "Su enfoque también incluye el bienestar digestivo tradicional",
+      "Permite incorporar la planta sin preparar una infusión"
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 211. PALO AZUL UVA URSI
@@ -5258,6 +5309,7 @@ window.manualData.productos = [
     id: 211,
     code: "7502214013218",
     name: "PALO AZUL UVA URSI",
+    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PALO-AZUL.png",
     shortDesc: "Combinación de Palo Azul (Cyclolepis genistoides) y Uva Ursi (Arctostaphylos uva-ursi). 150 mg de cada extracto.",
@@ -5266,13 +5318,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula de Palo Azul Uva Ursi al día.",
     benefits: [
-      "Apoyo al sistema urinario",
-      "Sinergia herbal",
-      "Bienestar metabólico"
+      "Combina palo azul y uva ursi",
+      "Tiene uso tradicional para el bienestar urinario",
+      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
+      "Reúne ambos ingredientes botánicos en cápsulas",
+      "Su enfoque es el cuidado urinario complementario"
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 212. GLUCONATO DE ZINC PRONACEN
@@ -5280,6 +5334,7 @@ window.manualData.productos = [
     id: 212,
     code: "7503000733662",
     name: "GLUCONATO DE ZINC PRONACEN",
+    benefitSummary: "Minerales para defensas y cuidado celular",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GLUCONATO-DE-ZINC-PROSA.png",
     shortDesc: "Suplemento de zinc en forma de gluconato. 20 mg de zinc elemental por tableta.",
@@ -5288,14 +5343,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
     benefits: [
-      "Función inmunológica",
-      "Salud de la piel",
-      "Crecimiento y desarrollo",
-      "Metabolismo celular"
+      "El zinc contribuye al funcionamiento de las defensas",
+      "Ayuda al mantenimiento normal de piel, cabello y uñas",
+      "Participa en la formación normal de proteínas",
+      "Contribuye al cuidado antioxidante de las células",
+      "Permite complementar el zinc de la alimentación"
     ],
     contraindications: "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 213. CHA-CHA STONE
@@ -5303,6 +5359,7 @@ window.manualData.productos = [
     id: 213,
     code: "7501170130021",
     name: "CHA-HA STONE",
+    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CHA-CHA-STONE.png",
     shortDesc: "Suplemento con 7 extractos de plantas: Chanca Piedra, Yumel, Cola de Caballo, Perejil, Hierba del Sapo, Cardo Mariano y Taray.",
@@ -5311,14 +5368,15 @@ window.manualData.productos = [
     timing: "Antes de cada alimento",
     intakeInstructions: "Tomar 3 tabletas al día: 1 tableta antes de cada alimento principal (desayuno, comida y cena).",
     benefits: [
-      "Apoyo al sistema urinario",
-      "Bienestar digestivo y hepático",
-      "Equilibrio hidrosalino",
-      "Sinergia herbal"
+      "Combina plantas de uso tradicional urinario",
+      "Su enfoque incluye el bienestar digestivo",
+      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
+      "Permite incorporar varios ingredientes vegetales en tabletas",
+      "Complementa una rutina de cuidado general"
     ],
     contraindications: "No consumir durante el embarazo o período de lactancia. No usar si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 214. BEBIDA DE ALPISTLE
@@ -5326,6 +5384,7 @@ window.manualData.productos = [
     id: 214,
     code: "7503026253656",
     name: "BEBIDA DE ALPISTE",
+    benefitSummary: "Una bebida vegetal para variar la alimentación",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BEBIDA-DE-ALPISTLE.png",
     shortDesc: "Bebida instantánea en polvo con harina de alpiste, maltodextrina y goma xantana.",
@@ -5334,13 +5393,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Disolver 10 g (aproximadamente 2 cucharadas) en 100 ml de agua, mezclar hasta obtener una consistencia homogénea y consumir de inmediato.",
     benefits: [
-      "Fuente de nutrientes de origen vegetal",
-      "Carbohidratos de absorción rápida (maltodextrina)",
-      "Textura agradable (goma xantana)"
+      "Ofrece una bebida preparada con ingredientes vegetales",
+      "Aporta energía a través de los carbohidratos de la fórmula",
+      "Permite variar las bebidas de la alimentación",
+      "Su presentación en polvo facilita medir una porción",
+      "Se puede integrar a distintas preparaciones"
     ],
     contraindications: "Puede contener trazas de soya, almendra y coco.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 215. L-CARNITINA PROWINNER
@@ -5348,6 +5409,7 @@ window.manualData.productos = [
     id: 215,
     code: "7501062913671",
     name: "L-CARNITINA PROWINNER",
+    benefitSummary: "Complemento de alimentación y actividad física",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-CARNITINA-PROWINNER.png",
     shortDesc: "L-Carnitina 100% pura en cápsulas de 450 mg. Para el metabolismo energético.",
@@ -5356,14 +5418,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
     benefits: [
-      "Metabolismo energético",
-      "Rendimiento físico",
-      "Función cardiovascular",
-      "Bienestar general"
+      "La L-carnitina participa en el uso de grasas como energía",
+      "Complementa la alimentación de personas físicamente activas",
+      "Su fórmula se centra en L-carnitina",
+      "Permite incorporar el ingrediente sin preparar una bebida",
+      "Puede acompañar un plan de alimentación y entrenamiento"
     ],
     contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 216. ACEITE DE ORÉGANO Y COCO
@@ -5371,6 +5434,7 @@ window.manualData.productos = [
     id: 216,
     code: "7503008731387",
     name: "ACEITE DE ORÉGANO Y COCO",
+    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-DE-OREGANO-Y-COCO-CAPS.png",
     shortDesc: "Combinación de aceite de coco y aceite esencial de orégano. Libre de OMG.",
@@ -5379,14 +5443,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente. Beber suficiente agua.",
     benefits: [
-      "Sinergia de aceites",
-      "Apoyo metabólico",
-      "Bienestar general",
-      "Libre de OMG"
+      "Combina aceite de orégano y coco",
+      "El coco aporta grasas que el cuerpo puede usar como energía",
+      "El orégano contiene compuestos antioxidantes",
+      "Tiene un enfoque tradicional de bienestar digestivo",
+      "Las cápsulas permiten evitar el sabor intenso de los aceites"
     ],
     contraindications: "No recomendado en mujeres embarazadas o en período de lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 217. L-LISINA PROWINNER
@@ -5394,6 +5459,7 @@ window.manualData.productos = [
     id: 217,
     code: "7501062912735",
     name: "L-LISINA PROWINNER",
+    benefitSummary: "Lisina para la formación de proteínas",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/L-LISINA-PROWINNER.png",
     shortDesc: "L-Lisina 100% pura en cápsulas de 450 mg. Aminoácido esencial para la formación de proteínas.",
@@ -5402,14 +5468,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
     benefits: [
-      "Formación de proteínas estructurales",
-      "Metabolismo del calcio",
-      "Función inmunológica",
-      "Recuperación y crecimiento"
+      "Aporta lisina, un componente que el cuerpo necesita obtener de la dieta",
+      "Participa en la formación de proteínas",
+      "Ayuda a cubrir necesidades nutricionales de crecimiento y mantenimiento",
+      "Complementa la alimentación de personas activas",
+      "Su fórmula permite incorporar lisina en cápsulas"
     ],
     contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 218. 5-HTP
@@ -5417,6 +5484,7 @@ window.manualData.productos = [
     id: 218,
     code: "7500645000043",
     name: "5-HTP",
+    benefitSummary: "Calma, bienestar mental y rutina de descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/5-htp.png",
     shortDesc: "5-Hidroxitriptófano (100 mg) precursor de la serotonina. Libre de gluten y aditivos.",
@@ -5425,14 +5493,15 @@ window.manualData.productos = [
     timing: "Con las comidas",
     intakeInstructions: "Tomar 1 cápsula (500 mg) al día, preferiblemente con las comidas, o según indicación de un especialista.",
     benefits: [
-      "Precursor de serotonina",
-      "Regulación del estado de ánimo",
-      "Sueño y apetito",
-      "Bienestar general"
+      "Aporta 5-HTP, un ingrediente usado para formar serotonina",
+      "La serotonina participa en procesos relacionados con ánimo y descanso",
+      "Se estudia como complemento del bienestar emocional",
+      "Su enfoque incluye acompañar una rutina de descanso",
+      "Permite identificar el aporte de 5-HTP de la fórmula"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con antidepresivos (ISRS, IMAO) y otros medicamentos que aumentan la serotonina."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de combinar con antidepresivos, incluidos los llamados ISRS e IMAO, o con otros medicamentos que aumentan la serotonina, una sustancia que participa en el estado de ánimo y otras funciones."
   },
 
   // 219. VEGI PROTEIN NANO FEAR
@@ -5440,6 +5509,7 @@ window.manualData.productos = [
     id: 219,
     code: "7503021404794",
     name: "VEGI PROTEIN NANO FEAR",
+    benefitSummary: "Proteína para músculos y recuperación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VEGI-PROTEIN-NANO-FEAR.png",
     shortDesc: "Proteína vegana orgánica con mezcla de guisante, arroz, calabaza, sésamo, soya, girasol y almendras. 25 g de proteína por porción.",
@@ -5448,15 +5518,15 @@ window.manualData.productos = [
     timing: "Antes y/o después del entrenamiento",
     intakeInstructions: "Mezclar 1 cucharada (30 g) en 360 ml de agua y licuar. Consumir antes y/o después del entrenamiento.",
     benefits: [
-      "25 g de proteína por porción",
-      "Perfil completo de aminoácidos",
-      "9,228 mg de BCAA's por porción",
-      "Enzimas digestivas para mejor absorción",
-      "Bajo índice glucémico"
+      "Aporta proteína vegetal para completar la alimentación",
+      "Ayuda al mantenimiento y desarrollo muscular",
+      "Ofrece componentes necesarios para formar proteína",
+      "Incluye enzimas como complemento digestivo",
+      "Ofrece una alternativa a las proteínas de suero de leche"
     ],
     contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 220. ISOFEAR
@@ -5464,6 +5534,7 @@ window.manualData.productos = [
     id: 220,
     code: "646437080118",
     name: "ISOFEAR",
+    benefitSummary: "Proteína para músculos y recuperación",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Isofear_Chocolate_2kg_1_4c878549-63bf-435f-8a4d-0c2b9d51ebf6.webp",
     shortDesc: "Aislado de proteína de suero hidrolizada. 25 g de proteína, 0 g de carbohidratos y grasas por porción.",
@@ -5472,15 +5543,15 @@ window.manualData.productos = [
     timing: "Post-entreno o entre comidas",
     intakeInstructions: "Mezclar de 1 a 2 medidas (30 g cada una) en 360 ml de tu bebida favorita. Agitar hasta disolver.",
     benefits: [
-      "25 g de proteína por porción",
-      "0 g de carbohidratos y grasas",
-      "19.6 g de BCAA's por 100 g",
-      "Proteína hidrolizada de rápida absorción",
-      "Con L-Carnitina"
+      "Aporta proteína de suero para complementar la dieta",
+      "Ayuda al mantenimiento y desarrollo de los músculos",
+      "Puede acompañar la recuperación después de entrenar",
+      "Facilita sumar proteína en una bebida",
+      "Incluye L-carnitina como parte de la fórmula"
     ],
     contraindications: "No debe ser consumido por personas con hipersensibilidad a los ingredientes. Alérgenos: SOYA, LÁCTEOS, HUEVO, TRIGO, NUEZ Y CACAHUATE.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 221. SUKUNAI KIROS MAX
@@ -5488,6 +5559,7 @@ window.manualData.productos = [
     id: 221,
     code: "7502243203727",
     name: "SUKUNAI KIROS MAX",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SukunaiKirosMax1-1.webp",
     shortDesc: "Suplemento con 7 extractos vegetales (linaza, raíz de lima, malva, mango africano, piña, papaya, lecitina de soya) y vitamina B12, magnesio y calcio.",
@@ -5496,13 +5568,15 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche, con un vaso de agua",
     intakeInstructions: "Tomar 1 cápsula al día con un vaso de agua. No exceder la porción indicada.",
     benefits: [
-      "Bienestar digestivo: fibras y enzimas",
-      "Perfil nutricional: Vitamina B12, Magnesio y Calcio",
-      "Sinergia botánica: 7 extractos vegetales"
+      "Combina plantas e ingredientes con enfoque digestivo",
+      "Incluye enzimas que participan en la descomposición de alimentos",
+      "Aporta vitaminas y minerales de la fórmula",
+      "Puede acompañar hábitos de alimentación ordenada",
+      "Reúne varios ingredientes en cápsulas"
     ],
     contraindications: "No consumir durante el embarazo. Contiene soya (lecitina).",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 222. PIÑALINAZA
@@ -5510,6 +5584,7 @@ window.manualData.productos = [
     id: 222,
     code: "7503006152023",
     name: "PIÑALINAZA",
+    benefitSummary: "Fibra y complemento del bienestar intestinal",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Pinalinaza1.webp",
     shortDesc: "Suplemento en polvo con linaza canadiense, piña, toronja, naranja y nopal. Rico en fibra y Omega 3, 6 y 9.",
@@ -5518,13 +5593,15 @@ window.manualData.productos = [
     timing: "Antes de cada comida (3 veces al día)",
     intakeInstructions: "Mezclar 2 cucharadas soperas (7.8 g) con agua, jugo o añadir a preparaciones. Tomar 3 veces al día antes de las comidas.",
     benefits: [
-      "Alto contenido de fibra dietética (25.89 g por 100 g)",
-      "Aporte de Omega 3, 6 y 9",
-      "Apoya la salud digestiva y el tránsito intestinal"
+      "Aporta fibra para complementar la alimentación",
+      "La fibra contribuye a la regularidad intestinal",
+      "Puede ayudar a aumentar la sensación de llenura",
+      "Incluye grasas procedentes de la linaza",
+      "Su polvo se puede incorporar a distintas preparaciones"
     ],
     contraindications: "No está indicado para mujeres embarazadas y niños menores de 12 años.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 223. WEREKE PROSA
@@ -5532,6 +5609,7 @@ window.manualData.productos = [
     id: 223,
     code: "7501734412846",
     name: "WEREKE PROSA",
+    benefitSummary: "Apoyo nutricional al bienestar metabólico",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WEREKE.webp",
     shortDesc: "Suplemento con 8 extractos vegetales de uso tradicional mexicano, incluyendo Wereke, Gatuña, Guayacán, Tamarindo, Nopal y Manzanilla.",
@@ -5540,13 +5618,15 @@ window.manualData.productos = [
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día, después de los alimentos.",
     benefits: [
-      "Bienestar digestivo",
-      "Equilibrio metabólico",
-      "Aporte de fibras y carbohidratos complejos"
+      "Combina wereke y otras plantas de uso tradicional",
+      "Su enfoque es el bienestar digestivo y metabólico",
+      "Permite incorporar ingredientes de la herbolaria mexicana",
+      "Se integra a hábitos de alimentación y actividad física",
+      "Reúne la mezcla botánica en cápsulas"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 224. ACEITE DE ORÉGANO GOTAS ORE
@@ -5554,6 +5634,7 @@ window.manualData.productos = [
     id: 224,
     code: "7503008731202",
     name: "ACEITE DE ORÉGANO GOTAS ORE",
+    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-OREGANO-GOTERO-20-ML.webp",
     shortDesc: "Aceite de orégano 100% natural estandarizado al 80% de carvacrol.",
@@ -5562,14 +5643,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Diluir las gotas en agua, jugo o leche. No usar en menores de 2 años.",
     benefits: [
-      "80% de carvacrol",
-      "Bienestar respiratorio",
-      "Protección celular",
-      "Bienestar digestivo"
+      "Aporta aceite de orégano con carvacrol",
+      "Contiene compuestos vegetales con actividad antioxidante",
+      "Tiene uso tradicional como complemento digestivo",
+      "El gotero facilita medir la cantidad indicada",
+      "Permite incorporar el aceite sin preparar la planta"
     ],
     contraindications: "No usar durante el embarazo.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 225. B12 NOW
@@ -5577,6 +5659,7 @@ window.manualData.productos = [
     id: 225,
     code: "733739004598",
     name: "B12 NOW",
+    benefitSummary: "Vitamina B12 para nervios y formación de la sangre",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/B12-NOW.webp",
     shortDesc: "Vitamina B12 2,000 mcg en pastillas sublinguales. Combinación de cianocobalamina, metilcobalamina y dibencozida.",
@@ -5585,14 +5668,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Masticar la pastilla o disolverla completamente en la boca (sublingual o debajo de la lengua) hasta que se deshaga. No tragar entera.",
     benefits: [
-      "2,000 mcg de Vitamina B12",
-      "Tres formas activas",
-      "Salud del sistema nervioso",
-      "Producción de energía"
+      "La vitamina B12 ayuda al funcionamiento de los nervios",
+      "Participa en la formación normal de glóbulos rojos",
+      "Ayuda a obtener energía de los alimentos",
+      "Contribuye a reducir el cansancio por falta de B12",
+      "Permite complementar el aporte de esta vitamina en la dieta"
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
     
   // 226. CARSYL GREEN JARABE 80 ML
@@ -5600,6 +5684,7 @@ window.manualData.productos = [
     id: 226,
     code: "7503016797122",
     name: "CARSYL GREEN JARABE 80 ML",
+    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
     shortDesc: "Jarabe con 6 extractos botánicos: Boldo, Cardo Mariano, Cusura, Diente de León, Anagirida y Marrubio. Para el bienestar digestivo y hepático.",
@@ -5608,20 +5693,22 @@ window.manualData.productos = [
     timing: "Preferentemente antes de las comidas principales",
     intakeInstructions: "Agitar bien antes de usar. Administrar directamente o diluido en un poco de agua. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales.",
     benefits: [
-        "Apoyo a la función hepática (silimarina del Cardo Mariano)",
-        "Bienestar digestivo",
-        "Efecto depurativo",
-        "Sinergia botánica de 6 extractos"
+      "Incluye cardo mariano y otros ingredientes vegetales",
+      "Tiene uso tradicional como complemento del cuidado del hígado",
+      "Su enfoque es el bienestar digestivo",
+      "Puede acompañar el confort después de las comidas",
+      "Su presentación líquida ofrece una alternativa a las cápsulas"
     ],
     contraindications: "No especificado. Consultar lote y fecha de caducidad en el envase.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 // 245. VITAMINA D3 & K2 NOW
 {
     id: 245,
     code: "733739003690",
     name: "VITAMINA D3 & K2 NOW",
+    benefitSummary: "Nutrientes para el mantenimiento de los huesos",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/D3K2.avif",
     shortDesc: "Combinación sinérgica de Vitamina D3 (25 mcg / 1,000 IU) y Vitamina K2 (45 mcg, MK-4). Vegano, Non-GMO y libre de alérgenos. Apoya la salud ósea y cardiovascular.",
@@ -5630,20 +5717,22 @@ window.manualData.productos = [
     timing: "Con una comida que contenga grasas",
     intakeInstructions: "Tomar 1 cápsula al día, acompañada de una comida que contenga grasas para una óptima absorción. Solo para adultos.",
     benefits: [
-        "Salud ósea: la D3 mejora la absorción de calcio y la K2 lo dirige a los huesos",
-        "Salud cardiovascular: la K2 previene la calcificación de las arterias",
-        "Sinergia liposoluble: ambas vitaminas se absorben mejor con grasas",
-        "Libre de alérgenos: no contiene gluten, soja, lácteos, huevo, pescado ni frutos secos"
+      "La vitamina D ayuda a absorber el calcio",
+      "Las vitaminas D y K contribuyen al mantenimiento de los huesos",
+      "La vitamina D apoya el funcionamiento de los músculos",
+      "También contribuye al funcionamiento de las defensas",
+      "Combina dos vitaminas relacionadas con el cuidado óseo"
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos (especialmente anticoagulantes o para la presión arterial) o padece alguna condición médica.",
-    foodInteractions: "Tomar con alimentos que contengan grasas para mejorar la absorción.",
-    interactions: "Puede interactuar con anticoagulantes cumarínicos (warfarina)."
+    foodInteractions: "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
+    interactions: "Consultar si el cliente toma warfarina u otros anticoagulantes similares, medicamentos para evitar coágulos."
 },
 // 246. L-GLUTAMINE + NAG
 {
     id: 246,
     code: "7500645001583",
     name: "L-GLUTAMINE + NAG",
+    benefitSummary: "Nutrición para el cuidado de la capa digestiva",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/L-GLUTAMINE-NAG.jpg",
     shortDesc: "Fórmula en polvo para el soporte de la mucosa digestiva y la barrera intestinal. Combina L-Glutamina, NAG, Zinc L-carnosina, Aloe vera, Vitamina D3 e Inulina de agave. Sabor frambuesa-limón.",
@@ -5652,17 +5741,15 @@ window.manualData.productos = [
     timing: "Con alimentos, preferentemente con la comida principal",
     intakeInstructions: "Mezclar 1 scoop (6 g) en 250 ml de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente con alimentos.",
     benefits: [
-        "Soporte nutricional para la mucosa digestiva y la barrera intestinal",
-        "L-Glutamina como combustible principal de los enterocitos",
-        "NAG (N-Acetil-D-Glucosamina) precursor de mucina y glicoproteínas",
-        "Zinc L-carnosina para la conservación de la barrera gastrointestinal",
-        "Aloe vera para el bienestar y confort gastrointestinal",
-        "Vitamina D3 para el mantenimiento de la integridad epitelial",
-        "Inulina de agave como fibra prebiótica y vehículo funcional"
+      "Su enfoque es el cuidado de la capa que recubre el intestino",
+      "La glutamina sirve de alimento a algunas células intestinales",
+      "El zinc contribuye al mantenimiento normal de los tejidos",
+      "La inulina aporta fibra para complementar la alimentación",
+      "Incluye sábila y otros ingredientes de enfoque digestivo"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
     // 227. CITRATO DE MAGNESIO 90 CAPS
@@ -5670,6 +5757,7 @@ window.manualData.productos = [
     id: 227,
     code: "7503026253991",
     name: "CITRATO DE MAGNESIO 90 CAPS",
+    benefitSummary: "Magnesio para músculos, nervios y energía",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/CITRATO-MAGNESIO1-1.jpg",
     shortDesc: "Suplemento de citrato de magnesio, forma orgánica de alta biodisponibilidad y excelente tolerancia digestiva. 500 mg por cápsula.",
@@ -5678,15 +5766,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Contribuye a la reducción del cansancio y la fatiga",
-        "Apoya el funcionamiento normal de los músculos",
-        "Favorece el equilibrio electrolítico",
-        "Ayuda al mantenimiento de los huesos",
-        "Forma de magnesio de alta biodisponibilidad y excelente tolerancia digestiva"
+      "El magnesio ayuda al funcionamiento normal de los músculos",
+      "Apoya el funcionamiento de los nervios",
+      "Ayuda a obtener energía de los alimentos",
+      "Contribuye a mantener los huesos en buen estado",
+      "Participa en el equilibrio de agua y minerales del cuerpo"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes de la fórmula.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
     
     // 228. GLICINATO DE MAGNESIO 90 CAPS
@@ -5694,6 +5782,7 @@ window.manualData.productos = [
     id: 228,
     code: "7500645000876",
     name: "GLICINATO DE MAGNESIO 90 CAPS",
+    benefitSummary: "Magnesio para músculos, nervios y energía",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/GLICINATO1.webp",
     shortDesc: "Suplemento de glicinato de magnesio, forma quelada de alta biodisponibilidad y excelente tolerancia digestiva, combinado con tallo de brócoli en polvo. Libre de gluten y lactosa.",
@@ -5702,16 +5791,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche acompañada de un vaso de agua. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Contribuye a la reducción del cansancio y la fatiga",
-        "Apoya el funcionamiento normal de los músculos",
-        "Favorece el equilibrio electrolítico",
-        "Ayuda al mantenimiento de los huesos",
-        "Alta biodisponibilidad y excelente tolerancia digestiva",
-        "Aporta compuestos bioactivos del brócoli con perfil antioxidante"
+      "Aporta magnesio en forma de glicinato",
+      "Contribuye al funcionamiento de músculos y nervios",
+      "Ayuda a aprovechar la energía de los alimentos",
+      "Apoya el mantenimiento de los huesos",
+      "Incluye brócoli como ingrediente vegetal de la fórmula"
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
     // 229. OMEGA INFANTIL PRONAT
@@ -5719,6 +5807,7 @@ window.manualData.productos = [
     id: 229,
     code: "7501062914722",
     name: "OMEGA INFANTIL PRONAT",
+    benefitSummary: "Omega 3 para complementar la alimentación infantil",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/OMEGA-KIDS.avif",
     shortDesc: "Suplemento en gomitas masticables con aceite de salmón noruego (EPA 152 mg, DHA 96 mg) y vitamina E. Ideal para niños a partir de 6 años.",
@@ -5727,20 +5816,22 @@ window.manualData.productos = [
     timing: "Después de los alimentos, preferentemente por la mañana",
     intakeInstructions: "Ingerir 4 gomitas una vez al día, después de los alimentos, de preferencia por la mañana. Masticar bien antes de tragar. Recomendado a partir de 6 años.",
     benefits: [
-        "Desarrollo cognitivo: el DHA es componente clave del cerebro y la retina",
-        "Salud visual: el DHA contribuye a la función visual normal",
-        "Modulación inflamatoria: EPA y DHA participan en la respuesta inflamatoria",
-        "Formato infantil: gomitas masticables con sabor agradable"
+      "Aporta omega 3 en una presentación masticable",
+      "El DHA forma parte del cerebro",
+      "El DHA también es importante para los ojos",
+      "Permite incorporar aceite de pescado en gomitas",
+      "Su presentación está orientada a la edad indicada en la etiqueta"
     ],
     contraindications: "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 230. VITAMINA K2
 {
     id: 230,
     name: "VITAMINA K2",
+    benefitSummary: "Nutrientes para el mantenimiento de los huesos",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/D3-K2-NOW.avif",
     shortDesc: "Vitamina K2 (MK-4) 100 mcg con polvo de alfalfa. Vegano, Non-GMO y Kosher. Apoya la salud ósea y cardiovascular.",
@@ -5749,14 +5840,15 @@ window.manualData.productos = [
     timing: "Con una comida que contenga grasas",
     intakeInstructions: "Tomar 1 cápsula al día, acompañada de una comida con grasas (como aguacate, frutos secos o aceites) para mejorar la absorción. Solo para adultos.",
     benefits: [
-        "Salud ósea: activa la osteocalcina para fijar el calcio en los huesos",
-        "Salud cardiovascular: previene la calcificación de los vasos sanguíneos",
-        "Alta biodisponibilidad: forma MK-4 biológicamente activa",
-        "Sin alérgenos comunes: libre de trigo, gluten, soja, leche, huevo, pescado"
+      "La vitamina K participa en el mantenimiento de los huesos",
+      "Interviene en el funcionamiento de proteínas relacionadas con el calcio",
+      "También contribuye a la coagulación normal de la sangre",
+      "Permite complementar la vitamina K de la alimentación",
+      "Su fórmula aporta vitamina K2"
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos anticoagulantes (como warfarina) o padece alguna condición médica.",
-    foodInteractions: "Tomar con alimentos que contengan grasas para mejorar la absorción.",
-    interactions: "Puede interactuar con anticoagulantes cumarínicos (warfarina)."
+    foodInteractions: "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
+    interactions: "Consultar si el cliente toma warfarina u otros anticoagulantes similares, medicamentos para evitar coágulos."
 },
 
 // 231. TÓNICO INDIO TZAPOTLATENA
@@ -5764,6 +5856,7 @@ window.manualData.productos = [
     id: 231,
     code: "7501735661014",
     name: "TÓNICO INDIO TZAPOTLATENA",
+    benefitSummary: "Plantas tradicionales para digestión y bienestar",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/tonico-indio-tzapotlatena-1l.webp",
     shortDesc: "Elixir herbal con 9 extractos de plantas (Boldo, Damiana, Alfalfa, Calea zacatechichi, Aristolochia, etc.). Inspirado en la tradición de los guerreros aztecas.",
@@ -5772,14 +5865,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 1 copita (10 ml), equivalente a 2 cucharadas soperas, antes de los alimentos.",
     benefits: [
-        "Bienestar digestivo: boldo y otras plantas apoyan la función digestiva y hepática",
-        "Vitalidad y tónico: damiana y alfalfa son reconocidas como tónicos generales",
-        "Relajación: Calea zacatechichi utilizada tradicionalmente para favorecer el descanso",
-        "Equilibrio general: combinación de 9 extractos"
+      "Combina plantas de uso tradicional digestivo",
+      "El boldo complementa el enfoque de bienestar después de comer",
+      "Incluye ingredientes tradicionalmente asociados con la vitalidad",
+      "El toronjil y otras plantas pueden acompañar una rutina de calma",
+      "Su formato líquido permite incorporar la mezcla sin preparar las plantas"
     ],
     contraindications: "Contiene alcohol (extracto hidroalcohólico). Consultar con médico en caso de embarazo, lactancia o condiciones médicas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 232. CACAO ORGÁNICO EN POLVO CULTO
@@ -5787,6 +5881,7 @@ window.manualData.productos = [
     id: 232,
     code: "7500000000000",
     name: "CACAO ORGÁNICO EN POLVO CULTO",
+    benefitSummary: "Cacao: sabor, fibra y compuestos antioxidantes",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/CACAO-ORGANICO-EN-POLVO.jpg",
     shortDesc: "100% Cacao en polvo criollo de Tabasco. Sin azúcares añadidos, conservadores ni aditivos. Rico en teobromina, flavonoides y fibra.",
@@ -5795,15 +5890,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Mezclar 1 cucharada sopera (5 g) en leche, agua, bebidas vegetales (batidos/smoothies), o utilizar para preparaciones de repostería.",
     benefits: [
-        "Protección antioxidante: flavonoides que neutralizan radicales libres",
-        "Energía y concentración: teobromina con efecto estimulante suave",
-        "Salud cardiovascular: flavonoides asociados al bienestar circulatorio",
-        "Bienestar digestivo: alto contenido de fibra dietética (32 g/100 g)",
-        "Versatilidad culinaria: ideal para bebidas, batidos y repostería"
+      "Aporta el sabor del cacao puro a bebidas y recetas",
+      "Contiene compuestos antioxidantes propios del cacao",
+      "Aporta fibra para complementar la alimentación",
+      "La teobromina tiene un efecto estimulante suave",
+      "Permite preparar bebidas y postres ajustando el dulzor al gusto"
     ],
     contraindications: "Contiene cafeína natural. Consumir con moderación en personas sensibles a la cafeína.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 233. DIETERS DRINK
@@ -5811,6 +5906,7 @@ window.manualData.productos = [
     id: 233,
     code: "7501730103168",
     name: "DIETERS DRINK",
+    benefitSummary: "Apoyo ocasional a la evacuación",
     category: "laxantes",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/DIETERS-DRINK.jpg",
     shortDesc: "Suplemento en capletas con hoja de sen y malva. Para el apoyo al tránsito intestinal y el confort digestivo.",
@@ -5819,14 +5915,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche",
     intakeInstructions: "Tomar 2 capletas al día, preferentemente por la noche, con un vaso lleno de agua. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Tránsito intestinal: el sen estimula la motilidad intestinal",
-        "Confort digestivo: la malva aporta mucílagos que calman la mucosa intestinal",
-        "Bajo aporte calórico: 2 kcal por porción, sin azúcares",
-        "Uso nocturno: administración por la noche para efecto natural por la mañana"
+      "El sen estimula el movimiento del intestino",
+      "Su uso se dirige al estreñimiento ocasional",
+      "Puede facilitar la evacuación cuando corresponde su uso",
+      "La malva complementa la fórmula con componentes vegetales",
+      "Su beneficio se limita al uso ocasional indicado en la etiqueta"
     ],
     contraindications: "Evitar su uso en caso de embarazo, lactancia, problemas gastrointestinales severos o si se está tomando algún medicamento.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 234. ACTIKROLL PARA NIÑOS
@@ -5834,6 +5931,7 @@ window.manualData.productos = [
     id: 234,
     code: "714908101065",
     name: "ACTIKROLL PARA NIÑOS",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/ACTIKROLL.jpg",
     shortDesc: "Jarabe multivitamínico con jalea real, ácido glutámico, vitaminas del complejo B y glicerofosfato de sodio. Para niños de 1 a 6 años y mayores.",
@@ -5842,14 +5940,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Agítese antes de usarse. Utilizar el vaso dosificador incluido. Niños de 1 a 6 años: ½ cucharadita (2.5 ml), 3 veces al día. Niños mayores de 6 años: 1 cucharadita (5.0 ml), 3 veces al día.",
     benefits: [
-        "Metabolismo energético: vitaminas del complejo B",
-        "Función nerviosa: ácido glutámico y vitaminas B1, B6 y B12",
-        "Crecimiento y desarrollo: jalea real y ácido fólico",
-        "Fórmula pediátrica: dosis adaptadas y sabores agradables"
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Contribuyen al funcionamiento normal de los nervios",
+      "El ácido fólico participa en la formación de nuevas células",
+      "Complementa la alimentación con los nutrientes de la fórmula",
+      "Su formato líquido está orientado a la edad indicada en la etiqueta"
     ],
     contraindications: "Contiene azúcares añadidos (40 g/100 ml). Cepillar los dientes después de cada toma. Consumir en las dosis recomendadas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 235. NOPAL PROSA
@@ -5857,6 +5956,7 @@ window.manualData.productos = [
     id: 235,
     code: "7501734412006",
     name: "NOPAL PROSA",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/NOPAL-PROSA.avif",
     shortDesc: "Nopal en polvo 100% puro en cápsulas de 400 mg. Rico en fibra soluble e insoluble, flavonoides, betalaínas, vitaminas y minerales.",
@@ -5865,14 +5965,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
     benefits: [
-        "Bienestar digestivo: fibra que contribuye al tránsito intestinal",
-        "Equilibrio metabólico: reconocido por su enfoque en la regulación de la glucosa",
-        "Saciedad: fibra soluble que ayuda a controlar el apetito",
-        "Sin aditivos: 100% polvo de nopal puro"
+      "Aporta nopal en cápsulas",
+      "El nopal contiene fibra y otros componentes vegetales",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "También se utiliza en rutinas de cuidado metabólico",
+      "Permite incorporar nopal sin añadirlo a las comidas"
     ],
     contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 236. SÁBILA Y NOPAL PROSA
@@ -5880,6 +5981,7 @@ window.manualData.productos = [
     id: 236,
     code: "7501734412402",
     name: "SÁBILA Y NOPAL PROSA",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/SABILA-Y-NOPAL-PROSA.avif",
     shortDesc: "Combinación de hoja de sábila en polvo y penca de nopal en polvo. Dos plantas tradicionales para el bienestar digestivo y metabólico.",
@@ -5888,14 +5990,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
     benefits: [
-        "Bienestar digestivo: fibra y polisacáridos para el tránsito intestinal",
-        "Equilibrio metabólico: el nopal es reconocido por su enfoque en la glucosa y lípidos",
-        "Hidratación celular: compuestos de la sábila",
-        "Sinergia botánica: combinación de sábila y nopal"
+      "Combina sábila y nopal",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "Aporta componentes vegetales propios de ambas plantas",
+      "Se utiliza para acompañar hábitos de cuidado metabólico",
+      "Permite incorporar los dos ingredientes en cápsulas"
     ],
     contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 237. AJO 150 CAPS PROSA
@@ -5903,6 +6006,7 @@ window.manualData.productos = [
     id: 237,
     code: "7501734410200",
     name: "AJO 150 CAPS PROSA",
+    benefitSummary: "Complemento nutricional para el cuidado del corazón",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/AJO-PROSA.avif",
     shortDesc: "Bulbo de ajo deshidratado en polvo 100% puro en cápsulas de 500 mg. Rico en compuestos sulfurados (alicina), vitaminas y minerales.",
@@ -5911,14 +6015,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos. En personas con sensibilidad gástrica, acompañar con alimentos sólidos.",
     benefits: [
-        "Bienestar cardiovascular: reconocido por su enfoque en la salud del corazón",
-        "Función metabólica: compuestos bioactivos que contribuyen al equilibrio metabólico",
-        "Perfil antioxidante: vitamina C y compuestos sulfurados",
-        "Sin excipientes: 100% polvo de ajo puro"
+      "Aporta ajo en polvo",
+      "Contiene compuestos propios de este ingrediente vegetal",
+      "Complementa una alimentación orientada al cuidado del corazón",
+      "Tiene un enfoque de cuidado antioxidante",
+      "Permite incorporar ajo sin su sabor en las comidas"
     ],
     contraindications: "El ajo en ayunas o en grandes dosis puede causar ligeras molestias gástricas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 238. COMPLEJO B MULTIVITAMINICO YPENZA
@@ -5926,6 +6031,7 @@ window.manualData.productos = [
     id: 238,
     code: "7502214015403",
     name: "COMPLEJO B MULTIVITAMINICO YPENZA",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/COMPLEJO-B-YPENZA.jpg",
     shortDesc: "Complejo de vitaminas B (B1, B2, B6, B12) y magnesio en tabletas de 500 mg. Apoya el metabolismo energético y la función nerviosa.",
@@ -5934,15 +6040,15 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
     benefits: [
-        "Metabolismo energético: vitaminas B y magnesio",
-        "Función nerviosa: tiamina (B1), B6 y B12",
-        "Salud celular: riboflavina (B2) y magnesio",
-        "Sinergia nutricional: combinación de vitaminas B y magnesio",
-        "Fácil administración: tableta de 500 mg con dosis única diaria"
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Las vitaminas B1, B6 y B12 apoyan el funcionamiento de los nervios",
+      "El magnesio contribuye al movimiento normal de los músculos",
+      "Ayuda a complementar el aporte de vitaminas B de la dieta",
+      "Reúne vitaminas y un mineral en una sola tableta"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 239. CREMA FACIAL NUTRITIVA DE BAYAS DE GOJI
@@ -5950,6 +6056,7 @@ window.manualData.productos = [
     id: 239,
     code: "7503021404787",
     name: "CREMA FACIAL NUTRITIVA DE BAYAS DE GOJI",
+    benefitSummary: "Hidratación, suavidad y cuidado de la piel",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/BAYAS-DE-GOJI.jpg",
     shortDesc: "Crema facial con FPS 45, bayas de goji, aceite de argán, ácido hialurónico, colágeno, aloe vera, avena y aguacate. Nutrición profunda y protección solar.",
@@ -5958,15 +6065,15 @@ window.manualData.productos = [
     timing: "Mañana y noche",
     intakeInstructions: "Aplicar diariamente por la mañana y por la noche sobre el rostro y el cuello, siempre sobre la piel limpia y seca. Untar con suaves masajes circulares para favorecer la absorción. Uso externo exclusivamente.",
     benefits: [
-        "Nutrición profunda: aceites y extractos que aportan nutrientes esenciales",
-        "Protección solar: FPS 45 previene el envejecimiento prematuro",
-        "Hidratación duradera: ácido hialurónico y aloe vera",
-        "Antioxidantes naturales: bayas de goji y vitamina E",
-        "Regeneración: colágeno y aceite de argán"
+      "Ayuda a mantener la piel hidratada",
+      "Aporta una sensación de suavidad",
+      "El ácido hialurónico ayuda a retener humedad en la piel",
+      "Incluye goji y vitamina E como ingredientes antioxidantes",
+      "Complementa una rutina de cuidado facial"
     ],
     contraindications: "Uso externo exclusivamente. Evitar el contacto con los ojos. En caso de irritación, suspender su uso. Realizar prueba en una pequeña zona de la piel si se tiene piel sensible.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 240. ACEITE DE OLIVA DEMOGRASS 60 CAPS
@@ -5974,6 +6081,7 @@ window.manualData.productos = [
     id: 240,
     code: "7502214019647",
     name: "ACEITE DE OLIVA DEMOGRASS 60 CAPS",
+    benefitSummary: "Aceite de oliva en perlas",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/ACEITA-DE-OLIVA.webp",
     shortDesc: "Aceite de oliva 100% puro en perlas de 1.4 g. Alto contenido de ácidos grasos monoinsaturados (72.8 g/100 g) para la salud cardiovascular.",
@@ -5982,14 +6090,15 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 perla de Aceite de Oliva al día. No exceder la porción máxima recomendada.",
     benefits: [
-        "Salud cardiovascular: ácidos grasos monoinsaturados",
-        "Protección antioxidante: polifenoles y vitamina E",
-        "Bienestar general: componente clave de la dieta mediterránea",
-        "Fácil administración: presentación en perlas"
+      "Aporta aceite de oliva en perlas",
+      "Contiene grasas presentes en este aceite",
+      "Complementa el aporte de grasas de la alimentación",
+      "Incluye compuestos propios del aceite de oliva",
+      "Permite incorporarlo sin añadir aceite a las comidas"
     ],
     contraindications: "No especificado",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 241. LEVADURA DE CERVEZA 300g PRONAT
@@ -5997,6 +6106,7 @@ window.manualData.productos = [
     id: 241,
     code: "7501062910113",
     name: "LEVADURA DE CERVEZA 300g PRONAT",
+    benefitSummary: "Nutrientes para complementar la alimentación",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/LEVADURA-CERVEZA-300-G-PRONAT.webp",
     shortDesc: "Levadura de cerveza desecada y desamargada 100% pura en polvo. Rica en proteínas (39 g/100 g), fibra (22 g/100 g) y vitaminas del complejo B.",
@@ -6005,15 +6115,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar 1 cucharada (8 g) a su líquido favorito (agua, jugo, leche, té), o espolvorear sobre sopas, frutas o verduras.",
     benefits: [
-        "Energía y vitalidad: vitaminas del complejo B",
-        "Salud digestiva: fibra dietética",
-        "Función nerviosa: tiamina (B1) y otras vitaminas B",
-        "Sin aditivos artificiales: libre de colorantes, conservadores y saborizantes",
-        "Versátil: fácil de incorporar a bebidas y comidas"
+      "Aporta levadura de cerveza en polvo",
+      "Complementa la alimentación con nutrientes propios de la levadura",
+      "Las vitaminas B presentes ayudan a aprovechar la energía",
+      "Incluye fibra para complementar la dieta",
+      "Se puede añadir a distintas bebidas y comidas"
     ],
     contraindications: "Puede contener Soya.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 242. PREBIAN
@@ -6021,6 +6131,7 @@ window.manualData.productos = [
     id: 242,
     code: "7500464128416",
     name: "PREBIAN",
+    benefitSummary: "Fibra y complemento del bienestar intestinal",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/PREBIAN.jpg",
     shortDesc: "Fibras prebióticas solubles (oligofructosa y fructanos de achicoria) 100% puras. Inodoro, insípido, sin gluten, vegano y bajo índice glucémico.",
@@ -6029,15 +6140,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar 1 o 2 cucharadas (7.5 g a 15 g) de Prebian a bebidas o alimentos. No usar en bebidas carbonatadas. Sugerencias: té, café, agua natural, fruta, cereal, smoothies, repostería y jugos.",
     benefits: [
-        "Salud digestiva: promueve el crecimiento de bacterias benéficas",
-        "Saciedad y control de peso: fibra soluble",
-        "Equilibrio glucémico: no aporta azúcares",
-        "Versatilidad: inodoro e insípido, no altera el sabor",
-        "100% fibra dietética: 7.5 g de fibra por porción"
+      "Aporta fibra para complementar la alimentación",
+      "Sirve de alimento a ciertas bacterias beneficiosas del intestino",
+      "Puede contribuir a la regularidad intestinal",
+      "Puede aumentar la sensación de llenura",
+      "Su sabor discreto facilita mezclarla con alimentos y bebidas"
     ],
     contraindications: "No usar en bebidas carbonatadas (puede generar gas o efervescencia excesiva).",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 243. PULMOBRON MIEL
@@ -6045,6 +6156,7 @@ window.manualData.productos = [
     id: 243,
     code: "7506022802583",
     name: "PULMOBRON MIEL",
+    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/PULMOBRON.webp",
     shortDesc: "Jarabe natural con miel, propóleo y 14 extractos vegetales (sauco, gordolobo, equinácea, eucalipto, tomillo, romero, menta, etc.). Para el bienestar respiratorio.",
@@ -6053,14 +6165,15 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Adultos: Tomar 1 cucharada sopera (10 ml) como suplemento alimenticio. Niños: Tomar 1 cucharadita cafetera (5 ml). Puede tomarse con té de preferencia.",
     benefits: [
-        "Bienestar respiratorio: sauco, gordolobo, eucalipto, tomillo y menta",
-        "Apoyo inmunológico: propóleo y equinácea",
-        "Bienestar digestivo: ajo, cebolla morada y malva",
-        "Fórmula natural: 100% natural con miel"
+      "La miel puede dar una sensación de suavidad en la garganta",
+      "Combina plantas de uso tradicional respiratorio",
+      "La menta y el eucalipto aportan sensación de frescura",
+      "Incluye propóleo y equinácea",
+      "Su presentación permite medir la porción indicada"
     ],
     contraindications: "No consumir en menores de 3 años ni en mujeres embarazadas. Puede cristalizarse; calentar al baño maría para recuperar su estado original.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
 },
 
 // 244. SUKUNAI KIROS BLUE
@@ -6068,6 +6181,7 @@ window.manualData.productos = [
     id: 244,
     code: "7508304644010",
     name: "SUKUNAI KIROS BLUE",
+    benefitSummary: "Mezcla de ingredientes tradicionales para el bienestar general",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/SUKUNAIKIROSBLEU.webp",
     shortDesc: "Combinación de Hongo Chaga, Hongo Reishi, L-Carnitina y Probióticos. Para el apoyo al sistema inmunológico, el metabolismo energético y la salud digestiva.",
@@ -6076,14 +6190,15 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua. No exceder la porción indicada.",
     benefits: [
-        "Apoyo al sistema inmunológico mediante hongos adaptógenos",
-        "Aporte de L-Carnitina para el metabolismo energético",
-        "Probióticos como apoyo digestivo complementario",
-        "Fórmula de apoyo general para personas activas"
+      "Combina hongos, L-carnitina y probióticos",
+      "Los probióticos se utilizan como apoyo al equilibrio intestinal",
+      "La L-carnitina participa en el uso de grasas como energía",
+      "Los hongos aportan componentes propios de estos ingredientes",
+      "Reúne ingredientes nutricionales y botánicos para personas activas"
     ],
     contraindications: "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
-    foodInteractions: "No especificado",
-    interactions: "Revisar tratamientos inmunosupresores, anticoagulantes y medicamentos de uso crónico antes de consumir."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar antes de recomendarlo si el cliente usa medicamentos que disminuyen las defensas, para evitar coágulos o cualquier tratamiento de uso continuo."
 },
 
   // 247. FORTI OSITOS
@@ -6091,6 +6206,7 @@ window.manualData.productos = [
     id: 247,
     code: "7506021101113",
     name: "FORTI OSITOS",
+    benefitSummary: "Nutrientes para complementar la alimentación infantil",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-OSITOS.webp",
     shortDesc: "Gomitas pediátricas con vitaminas A, C, D, complejo B, zinc, calcio, L-lisina y Omega 3. Sin azúcar, sabores fresa y piña.",
@@ -6099,16 +6215,15 @@ window.manualData.productos = [
     timing: "Preferentemente con el desayuno o el almuerzo",
     intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
     benefits: [
-      "Apoya el sistema inmunológico con vitaminas A, C, D y Zinc",
-      "Contribuye al metabolismo energético con el complejo B",
-      "Favorece el crecimiento óseo con calcio",
-      "Aporta L-Lisina para la síntesis proteica",
-      "Omega 3 para el desarrollo neurológico",
-      "Sin azúcares fermentables, seguras para la salud dental"
+      "Las vitaminas A, C y D contribuyen al funcionamiento de las defensas",
+      "El calcio y la vitamina D apoyan el cuidado de los huesos",
+      "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
+      "Complementa la alimentación con varios nutrientes",
+      "Las gomitas ofrecen una alternativa masticable para la edad indicada"
     ],
     contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
-    foodInteractions: "No especificado",
-    interactions: "Evitar el consumo simultáneo con grandes volúmenes de té o bebidas con taninos que puedan interferir con la asimilación del zinc."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc."
   },
 
   // 248. FORT Q OSITOS
@@ -6116,6 +6231,7 @@ window.manualData.productos = [
     id: 248,
     code: "75060221101120",
     name: "FORTI Q OSITOS",
+    benefitSummary: "Nutrientes para complementar la alimentación infantil",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
     shortDesc: "Gomitas pediátricas con Ácido Glutámico, L-Lisina, complejo B, vitamina C, zinc, calcio y Omega 3. Sin azúcar, sabores fresa y zarzamora.",
@@ -6124,16 +6240,15 @@ window.manualData.productos = [
     timing: "Preferentemente con el desayuno o el almuerzo",
     intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
     benefits: [
-      "Apoya la función cognitiva y el neurodesarrollo",
-      "Ácido Glutámico como precursor de neurotransmisores",
-      "Complejo B para el metabolismo energético",
-      "Calcio y Zinc para el crecimiento y la inmunidad",
-      "Omega 3 para la fluidez de membranas neuronales",
-      "Sin azúcares fermentables, seguras para la salud dental"
+      "Las vitaminas B contribuyen al funcionamiento de los nervios",
+      "Ayudan al cuerpo a obtener energía de los alimentos",
+      "El calcio complementa el cuidado de los huesos",
+      "El zinc y la vitamina C contribuyen al funcionamiento de las defensas",
+      "Su presentación masticable facilita incorporarlo según la edad indicada"
     ],
     contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
-    foodInteractions: "No especificado",
-    interactions: "Evitar el consumo simultáneo con grandes volúmenes de té o bebidas con taninos que puedan interferir con la asimilación del zinc."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc."
   },
 
   // 249. KINDERVITAL FRUITY
@@ -6141,6 +6256,7 @@ window.manualData.productos = [
     id: 249,
     code: "4004148341977",
     name: "KINDERVITAL FRUITY",
+    benefitSummary: "Nutrientes para complementar la alimentación infantil",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/KINDERVITAL.webp",
     shortDesc: "Tónico multivitamínico pediátrico con calcio, vitaminas A, C, D, E, complejo B y extractos botánicos. Sabor frutal, sin colorantes artificiales.",
@@ -6149,16 +6265,15 @@ window.manualData.productos = [
     timing: "Preferentemente antes del desayuno o de una comida principal",
     intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador incluido. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
     benefits: [
-      "Calcio biodisponible para la mineralización ósea",
-      "Vitamina D para la absorción del calcio",
-      "Complejo B para el metabolismo energético",
-      "Vitaminas A, C, E como antioxidantes",
-      "Extractos botánicos con efecto carminativo",
-      "Sabor frutal natural, sin colorantes artificiales"
+      "Aporta calcio para mantener huesos y dientes",
+      "La vitamina D ayuda a absorber el calcio",
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Incluye vitaminas para complementar la alimentación infantil",
+      "Su formato líquido y sabor frutal ofrecen una alternativa a las tabletas"
     ],
     contraindications: "Contraindicado en hipercalcemia, hipercalciuria, litiasis renal, hiperparatiroidismo. Precaución en alergias a plantas de la familia umbelíferas (cilantro) o asteráceas (manzanilla).",
-    foodInteractions: "No especificado",
-    interactions: "El calcio forma complejos insolubles con tetraciclinas, fluoroquinolonas y levotiroxina. Separar la toma al menos 2-3 horas (4 horas para levotiroxina). Antagonismo con hierro: no administrar en el mismo horario."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El calcio puede hacer que se absorban menos algunos antibióticos y la levotiroxina, usada para la tiroides. La ficha pide separar 2 a 3 horas de esos antibióticos y 4 horas de la levotiroxina; confirmar el horario con el médico o farmacéutico. No tomar al mismo tiempo que el hierro."
   },
 
   // 250. FLORADIX + H FRUITY
@@ -6166,6 +6281,7 @@ window.manualData.productos = [
     id: 250,
     code: "4004148350528",
     name: "FLORADIX + H FRUITY",
+    benefitSummary: "Hierro para formación de la sangre y transporte de oxígeno",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/FLORADIX-FRUITY.webp",
     shortDesc: "Tónico líquido con hierro gluconato, vitaminas del complejo B, vitamina C y extractos botánicos. Para el soporte de la oxigenación celular y la eritropoyesis.",
@@ -6174,16 +6290,15 @@ window.manualData.productos = [
     timing: "30 minutos antes de las comidas (desayuno y comida), en ayunas",
     intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
     benefits: [
-      "Hierro gluconato de alta biodisponibilidad y tolerancia gástrica",
-      "Vitamina C para mantener el hierro en estado ferroso absorbible",
-      "Complejo B para la eritropoyesis y el metabolismo energético",
-      "Extracto de alcaravea para prevenir el meteorismo y el estreñimiento",
-      "Base de jugos de fruta para enmascarar el sabor metálico",
-      "Libre de conservadores y colorantes artificiales"
+      "El hierro participa en la formación normal de glóbulos rojos",
+      "Ayuda al transporte de oxígeno en el cuerpo",
+      "Contribuye a reducir el cansancio cuando falta hierro",
+      "La vitamina C favorece la absorción del hierro",
+      "Su formato líquido permite medir la porción indicada"
     ],
     contraindications: "Contiene germen de trigo (gluten). Contraindicado en enfermedad celíaca o sensibilidad al gluten. Contraindicado en hemocromatosis, hemosiderosis, talasemias o anemias sideroblásticas. Consultar en úlceras y gastritis activa.",
-    foodInteractions: "No especificado",
-    interactions: "El hierro forma complejos insolubles con levotiroxina, bisfosfonatos, levodopa, tetraciclinas y quinolonas. Separar al menos 4 horas. Evitar el consumo simultáneo con café, té, leche o vino tinto (taninos, calcio y fitatos inhiben la absorción)."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El hierro puede reducir la absorción de levotiroxina para la tiroides, ciertos tratamientos para los huesos, levodopa para el Parkinson y algunos antibióticos. La ficha pide dejar al menos 4 horas de separación; confirmar el horario con el médico o farmacéutico. Evitar tomarlo junto con café, té, leche o vino tinto, porque se puede absorber menos hierro."
   },
 
   // 251. COLOSTRUM POWDER
@@ -6191,6 +6306,7 @@ window.manualData.productos = [
     id: 251,
     code: "198715573923",
     name: "COLOSTRUM POWDER",
+    benefitSummary: "Calostro como complemento nutricional",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COLOSTRUM-HUMBLE.jpg",
     shortDesc: "Calostro bovino en polvo estandarizado al 20% de IgG (800 mg por porción). Grass-fed, sin aditivos. Para el soporte de la mucosa intestinal y la inmunidad local.",
@@ -6199,16 +6315,15 @@ window.manualData.productos = [
     timing: "En ayunas (30 minutos antes del desayuno) o antes de dormir",
     intakeInstructions: "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
     benefits: [
-      "800 mg de IgG por porción para neutralizar patógenos",
-      "Factores de crecimiento para la reparación de la mucosa intestinal",
-      "Lactoferrina con acción antimicrobiana",
-      "Oligosacáridos prebióticos para la microbiota",
-      "Polipéptidos ricos en prolina como inmunomoduladores",
-      "Grass-fed y sin aditivos"
+      "Aporta calostro bovino en polvo",
+      "Contiene componentes propios del calostro, incluidas proteínas",
+      "Se estudia como complemento del bienestar intestinal",
+      "Su fórmula permite incorporarlo a preparaciones frías",
+      "Ofrece una alternativa al calostro en cápsulas"
     ],
     contraindications: "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
-    foodInteractions: "No especificado",
-    interactions: "Precaución con inmunosupresores (Ciclosporina, Tacrolimus)."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos que disminuyen la actividad de las defensas, como ciclosporina o tacrolimus."
   },
 
   // 252. BLOOM PRE-WORKOUT
@@ -6216,6 +6331,7 @@ window.manualData.productos = [
     id: 252,
     code: "7502293530705",
     name: "BLOOM PRE-WORKOUT",
+    benefitSummary: "Energía y alerta para acompañar el entrenamiento",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/BLOOM-PRE-WORK-LIMONADA.avif",
     shortDesc: "Suplemento pre-entreno con L-Citrulina, Beta Alanina, Guaraná, L-Tirosina, L-Teanina, MCT, vitaminas B6, B12, C y electrolitos. Sabor Limonada Rosa.",
@@ -6224,16 +6340,15 @@ window.manualData.productos = [
     timing: "15-30 minutos antes del entrenamiento",
     intakeInstructions: "Mezclar 7 g (1 cucharada) en 300 ml de agua fría. Agitar vigorosamente en shaker. Consumir 15-30 minutos antes del entrenamiento. No consumir entre 4 y 6 horas antes de dormir.",
     benefits: [
-      "Vasodilatación y bombeo muscular con L-Citrulina",
-      "Retraso de la fatiga con Beta Alanina",
-      "Enfoque y concentración con Guaraná, L-Tirosina y L-Teanina",
-      "Energía rápida con MCT",
-      "Electrolitos para la hidratación y función neuromuscular",
-      "Sin azúcares añadidos"
+      "La cafeína del guaraná ayuda a mantenerse alerta",
+      "Está orientado a complementar la rutina antes de entrenar",
+      "La citrulina y la beta alanina se estudian para el rendimiento deportivo",
+      "Los minerales participan en el funcionamiento muscular",
+      "Su formato en polvo facilita preparar una porción"
     ],
     contraindications: "Contraindicado en hipertensión, arritmias, enfermedad coronaria, infarto previo, ansiedad, trastornos de pánico, esquizofrenia, embarazo, lactancia y menores de 15 años.",
-    foodInteractions: "No especificado",
-    interactions: "No combinar con antihipertensivos, vasodilatadores (sildenafil), inhibidores de la MAO, antiarrítmicos u otras fuentes de cafeína. Evitar el alcohol."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha indica no combinar con medicamentos para la presión, para dilatar los vasos sanguíneos como sildenafil, ciertos antidepresivos llamados IMAO, tratamientos para alteraciones del ritmo del corazón u otras fuentes de cafeína. Evitar el alcohol. Revisar el tratamiento antes de recomendar."
   },
 
   // 253. MORINGA, ROMERO Y HOJA DE GUAYABA
@@ -6241,6 +6356,7 @@ window.manualData.productos = [
     id: 253,
     code: "7502214011368",
     name: "MORINGA, ROMERO Y HOJA DE GUAYABA",
+    benefitSummary: "Tres plantas para complementar el bienestar digestivo",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/MORINGA-ROMERO-HOJAS-DE-GUAYABA.jpg",
     shortDesc: "Fórmula botánica con Moringa, Romero y Hoja de Guayaba. Para el soporte metabólico, la gestión glucémica y la protección antioxidante.",
@@ -6249,16 +6365,15 @@ window.manualData.productos = [
     timing: "15-30 minutos antes o durante la comida más pesada del día (rica en carbohidratos)",
     intakeInstructions: "Ingerir 1 cápsula con un vaso de agua natural (200 ml). No exceder la dosis recomendada.",
     benefits: [
-      "Inhibición de la alfa-glucosidasa para una curva glucémica más suave",
-      "Moringa con isotiocianatos y ácido clorogénico",
-      "Romero con ácido carnósico y rosmarínico (activador de Nrf2)",
-      "Hojas de guayaba con taninos y flavonoides",
-      "Apoyo a la digestión y al confort intestinal",
-      "Potente perfil antioxidante"
+      "Combina moringa, romero y hoja de guayaba",
+      "Aporta compuestos vegetales con actividad antioxidante",
+      "Tiene uso tradicional como complemento del bienestar digestivo",
+      "Se estudian sus ingredientes en relación con el manejo de la glucosa",
+      "Permite incorporar las tres plantas sin preparar una infusión"
     ],
     contraindications: "Contraindicado en embarazo y lactancia (efectos emenagogos y abortivos). No usar en menores de 12 años. Precaución en hipoglucemia, anemia ferropénica (taninos).",
-    foodInteractions: "No especificado",
-    interactions: "No combinar con hipoglucemiantes orales o insulina (riesgo de hipoglucemia aditiva). Precaución con litio y diuréticos. Separar al menos 3 horas de suplementos de hierro, zinc o calcio."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "No combinar con insulina u otros medicamentos para la diabetes: el azúcar podría bajar demasiado. También consultar si usa litio o medicamentos para eliminar líquidos. La ficha pide separar al menos 3 horas del hierro, zinc o calcio."
   },
 
   // 254. YUMEL TASAY INKA
@@ -6266,6 +6381,7 @@ window.manualData.productos = [
     id: 254,
     code: "",
     name: "YUMEL TASAY INKA",
+    benefitSummary: "Yumel y uso tradicional para la digestión",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/YUMEL-TASAY-INKA-scaled.jpg",
     shortDesc: "Extracto líquido de corteza de Guatteria gaumeri (Yumel). Para la homeostasis lipídica y el soporte hepato-biliar.",
@@ -6274,16 +6390,15 @@ window.manualData.productos = [
     timing: "15-20 minutos antes de los alimentos (desayuno, comida y cena)",
     intakeInstructions: "Diluir 20 gotas en medio vaso de agua purificada (100-150 ml). No consumir sublingual puro. No exceder la dosis sugerida.",
     benefits: [
-      "Modulación de la homeostasis lipídica (inhibición parcial de HMG-CoA reductasa)",
-      "Efecto colerético y colagogo (estimula la bilis)",
-      "Apoyo a la digestión de grasas",
-      "Alcaloides aporfínicos con actividad biológica",
-      "Uso tradicional en la herbolaria mexicana",
-      "Formato líquido de rápida absorción"
+      "Aporta extracto de yumel en gotas",
+      "Tiene uso tradicional como complemento digestivo",
+      "Se utiliza tradicionalmente para acompañar la digestión de grasas",
+      "El gotero facilita medir la porción indicada",
+      "Permite incorporar el extracto sin preparar la corteza"
     ],
     contraindications: "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No combinar con estatinas, fibratos, paracetamol crónico, antimicóticos orales o fármacos hepatotóxicos. Evitar el alcohol y el jugo de toronja durante el consumo."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha indica no combinar con medicamentos para el colesterol, como estatinas o fibratos, uso continuo de paracetamol, tratamientos orales para hongos u otros medicamentos que puedan dañar el hígado. Evitar alcohol y jugo de toronja. Revisar la combinación con un profesional."
   },
 
   // 255. PRO PROPÓLEO Y MENTA
@@ -6291,6 +6406,7 @@ window.manualData.productos = [
     id: 255,
     code: "7501735620080",
     name: "PRO PROPÓLEO Y MENTA",
+    benefitSummary: "Menta y propóleo para frescura y confort de garganta",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PRO-PROLEO-Y-MENTA.jpg",
     shortDesc: "Perlas botánicas con extracto de propóleo y menta. Para el confort orofaríngeo y el soporte local de las mucosas.",
@@ -6299,16 +6415,15 @@ window.manualData.productos = [
     timing: "A demanda, ante pérdida de confort faríngeo",
     intakeInstructions: "Colocar las perlas en la boca y permitir que se disuelvan lentamente con la saliva. No masticar ni tragar enteras.",
     benefits: [
-      "Propóleo con flavonoides y ésteres fenólicos",
-      "Apoyo a la respuesta inmunológica local",
-      "Menta con mentol para una sensación refrescante",
-      "Efecto descongestivo y alivio de la irritación faríngea",
-      "Disolución lenta para acción tópica prolongada",
-      "Sin grasas ni proteínas"
+      "La menta aporta una sensación refrescante en la boca",
+      "La disolución de las perlas acompaña el confort de la garganta",
+      "El propóleo aporta compuestos propios de este ingrediente apícola",
+      "Permite incorporar menta y propóleo sin preparar una bebida",
+      "Su presentación facilita llevar una porción"
     ],
     contraindications: "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
-    foodInteractions: "No especificado",
-    interactions: "Precaución en dosis altas con anticoagulantes (Warfarina). Evitar el consumo simultáneo con bebidas muy calientes."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa anticoagulantes como warfarina, especialmente si consume cantidades altas de este producto. Evitar tomarlo al mismo tiempo que bebidas muy calientes."
   },
 
   // 256. PASIFLORINA
@@ -6316,6 +6431,7 @@ window.manualData.productos = [
     id: 256,
     code: "7501735620479",
     name: "PASIFLORINA",
+    benefitSummary: "Calma, bienestar mental y rutina de descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PASIFLORINA.jpg",
     shortDesc: "Perlas botánicas con extracto de Pasiflora (Passiflora incarnata). Para la relajación, la reducción del estrés y el apoyo al sueño.",
@@ -6324,16 +6440,15 @@ window.manualData.productos = [
     timing: "30-45 minutos antes de acostarse (para sueño) o en el momento de mayor exigencia mental (para estrés)",
     intakeInstructions: "Colocar las perlas bajo la lengua y dejar que se disuelvan con la saliva (vía sublingual). Alternativamente, masticar o tragar con medio vaso de agua.",
     benefits: [
-      "Modulación alostérica de los receptores GABA-A",
-      "Apoyo a la relajación y reducción del estrés mental",
-      "Facilitación de la conciliación del sueño",
-      "Flavonoides (vitexina, luteolina, apigenina) con actividad ansiolítica",
-      "Efecto antiespasmódico leve",
-      "Fórmula tradicional de rápida absorción"
+      "La pasiflora tiene uso tradicional para favorecer la relajación",
+      "Puede acompañar una rutina de descanso",
+      "Su enfoque es el bienestar y la calma al final del día",
+      "Las perlas ofrecen una alternativa a cápsulas e infusiones",
+      "Permite incorporar pasiflora en una presentación pequeña"
     ],
     contraindications: "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
-    foodInteractions: "No especificado",
-    interactions: "Potencia los efectos de depresores del SNC (sedantes, ansiolíticos, barbitúricos, antidepresivos tricíclicos). Prohibida su combinación con alcohol. Evitar el consumo simultáneo con altas dosis de cafeína."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede aumentar el sueño y la sedación de medicamentos para dormir, para la ansiedad y de algunos antidepresivos. No combinar con alcohol. Evitar cantidades altas de cafeína."
   },
 
   // 257. TIAMINA JARABE GN+VIDA
@@ -6341,6 +6456,7 @@ window.manualData.productos = [
     id: 257,
     code: "7502217901222",
     name: "TIAMINA JARABE GN+VIDA",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
     shortDesc: "Jarabe con Complejo B (B1, B6, B12, B5), Ácido Glutámico, vitaminas C, D, E y extracto de espinaca y maíz. Para el soporte cognitivo y energético.",
@@ -6349,16 +6465,15 @@ window.manualData.productos = [
     timing: "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
     intakeInstructions: "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
     benefits: [
-      "Tiamina (B1) para el metabolismo energético cerebral",
-      "Vitamina B6 para la síntesis de neurotransmisores",
-      "Vitamina B12 para la integridad de la vaina de mielina",
-      "Ácido Glutámico para el equilibrio excitación/relajación",
-      "Vitaminas C, D, E como antioxidantes",
-      "Extracto de espinaca y maíz como vehículo fitoquímico"
+      "La vitamina B1 ayuda a obtener energía de los alimentos",
+      "Las vitaminas B6 y B12 apoyan el funcionamiento de los nervios",
+      "La B12 participa en la formación normal de glóbulos rojos",
+      "Incluye otras vitaminas para complementar la alimentación",
+      "Su formato en jarabe permite medir la porción indicada"
     ],
     contraindications: "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
-    foodInteractions: "No especificado",
-    interactions: "La Vitamina B6 antagoniza la Levodopa. Los diuréticos de asa aumentan la excreción de B1. Los antiácidos reducen la absorción de B12. No tomar con té negro, café o alcohol."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. Algunos medicamentos para eliminar líquidos aumentan la pérdida de vitamina B1, y los antiácidos pueden reducir la absorción de B12. No tomar con té negro, café o alcohol."
   },
 
   // 258. GEL CORPORAL XIHUITL
@@ -6366,6 +6481,7 @@ window.manualData.productos = [
     id: 258,
     code: "7502214012076",
     name: "GEL CORPORAL XIHUITL",
+    benefitSummary: "Masaje, frescura y confort local",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/XIHUITL.jpg",
     shortDesc: "Gel tópico con salicilato de metilo, mentol, alcanfor, trementina, extractos de árnica, garra del diablo, castaño de indias y centella asiática. Para el alivio de molestias musculares y articulares.",
@@ -6374,16 +6490,15 @@ window.manualData.productos = [
     timing: "Mañana, mediodía y noche (o según necesidad)",
     intakeInstructions: "Aplicar la cantidad necesaria para cubrir la zona afectada y dar un masaje circular y ascendente durante 20 minutos o hasta su completa absorción. Lavar las manos exhaustivamente con agua y jabón después de cada aplicación. Uso exclusivamente tópico.",
     benefits: [
-      "Salicilato de metilo con acción analgésica tópica (AINE local)",
-      "Mentol y alcanfor para el efecto de frío/contrairritación",
-      "Trementina y aceites esenciales como rubefacientes",
-      "Árnica y garra del diablo con acción antiinflamatoria",
-      "Castaño de indias y centella asiática como venotónicos",
-      "Éter como potenciador de penetración"
+      "Facilita el masaje de zonas con molestias locales",
+      "El mentol y el alcanfor aportan sensación de frío o calor",
+      "Sus ingredientes de uso externo pueden dar confort local",
+      "Incluye árnica y otros extractos botánicos",
+      "El gel permite aplicar el producto directamente sobre la piel"
     ],
     contraindications: "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina/AINEs, y menores de 12 años.",
-    foodInteractions: "No especificado",
-    interactions: "La aplicación tópica extensa y crónica de salicilato puede potenciar el efecto de anticoagulantes orales (Warfarina)."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Usarlo durante mucho tiempo o sobre zonas extensas de piel puede aumentar el efecto de anticoagulantes como warfarina. Consultar antes si el cliente usa esos medicamentos."
   },
 
   // 259. FW FACTOR WOMEN
@@ -6391,6 +6506,7 @@ window.manualData.productos = [
     id: 259,
     code: "7502214011009",
     name: "FW FACTOR WOMEN",
+    benefitSummary: "Bienestar femenino y cambios de etapa",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Factor-Women.png",
     shortDesc: "Suplemento con 20 ingredientes bioactivos para la fisiología femenina: Isoflavonas de soya, Dong Quai, Black Cohosh, Maca, Guaraná, Ginseng, Rusco, Castaño de Indias, Jalea Real, Polen, vitaminas B12 y E.",
@@ -6399,16 +6515,15 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, siempre acompañadas de alimentos (evitar en ayunas)",
     intakeInstructions: "Ingerir 2 cápsulas con un vaso grande de agua (mínimo 250 ml). No consumir por la noche (puede causar insomnio por Guaraná y Ginseng).",
     benefits: [
-      "Isoflavonas de soya con acción SERM para el equilibrio hormonal",
-      "Black Cohosh para la mitigación de bochornos",
-      "Dong Quai y Maca para la vitalidad y el confort pélvico",
-      "Rusco y castaño de indias como soporte venotónico",
-      "Guaraná y ginseng para la energía y la adaptación al estrés",
-      "Jalea real y polen para la vitalidad celular"
+      "Su enfoque es complementar el bienestar femenino",
+      "Las isoflavonas y el cohosh se estudian para algunos malestares de la menopausia",
+      "La vitamina B12 ayuda a aprovechar la energía de los alimentos",
+      "El guaraná aporta cafeína para mantenerse alerta",
+      "Combina nutrientes y plantas usadas tradicionalmente para la vitalidad"
     ],
     contraindications: "Contraindicado en cánceres hormonodependientes (mama, ovario, útero ER+), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
-    foodInteractions: "No especificado",
-    interactions: "No combinar con TRH, anticonceptivos orales, anticoagulantes (Warfarina, Heparina, Aspirina) o fármacos hepatotóxicos. Separar al menos 4 horas de cualquier medicamento."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha indica no combinar con terapia de reemplazo hormonal, anticonceptivos, medicamentos para evitar coágulos como warfarina, heparina o aspirina, ni con medicamentos que puedan dañar el hígado. También pide separar al menos 4 horas de cualquier medicamento. Revisar con el médico o farmacéutico: separar horarios no elimina todos los riesgos."
   },
 
   // 260. COMPUESTO VEGETAL DE LYDIA
@@ -6416,6 +6531,7 @@ window.manualData.productos = [
     id: 260,
     code: "7501735650353",
     name: "COMPUESTO VEGETAL DE LYDIA",
+    benefitSummary: "Confort digestivo y uso tradicional durante el ciclo menstrual",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COMPUESTO-DE-LYDIA.jpg",
     shortDesc: "Tónico herbolaria con extractos de anís, jengibre y canela. Para el soporte pélvico femenino, el confort digestivo y la reducción de la tensión abdominal.",
@@ -6424,16 +6540,15 @@ window.manualData.productos = [
     timing: "15-20 minutos antes de los alimentos, en ayunas",
     intakeInstructions: "Agitar antes de usar. Medir 15 ml con el vaso o la cuchara dosificadora del producto; no usar una cuchara doméstica. Puede tomarse puro o diluido en 200-250 ml de agua (tibia o ambiente).",
     benefits: [
-      "Anís con efecto carminativo y antiespasmódico pélvico",
-      "Jengibre con acción antiinflamatoria (inhibición de COX-2)",
-      "Canela con efecto antiespasmódico y modulador glucémico",
-      "Apoyo al confort durante el ciclo menstrual (dismenorrea)",
-      "Reducción de la distensión abdominal y el meteorismo",
-      "Fórmula líquida de absorción rápida"
+      "El anís tiene uso tradicional para el confort digestivo",
+      "Puede acompañar el bienestar cuando hay sensación de gases",
+      "El jengibre complementa el enfoque digestivo",
+      "Se utiliza tradicionalmente para el confort durante el ciclo menstrual",
+      "Su presentación líquida permite medir la porción indicada"
     ],
     contraindications: "Contraindicado en embarazo (efectos emenagogos), lactancia y menores de edad. Precaución en úlcera péptica y trastornos de sangrado.",
-    foodInteractions: "No especificado",
-    interactions: "Puede potenciar el efecto de anticoagulantes (Warfarina, Aspirina) e hipoglucemiantes (Insulina, Metformina)."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede aumentar el efecto de medicamentos para evitar coágulos, como warfarina o aspirina, y de tratamientos para el azúcar, como insulina o metformina. Consultar antes de combinar."
   },
 
   // 261. ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA
@@ -6441,6 +6556,7 @@ window.manualData.productos = [
     id: 261,
     code: "7502217900034",
     name: "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
+    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
     shortDesc: "Ampolletas líquidas con 22 nutrientes: Ácido Glutámico, L-Glutamina, Complejo B completo, Calcio, Magnesio, Hierro, Zinc, Selenio, L-Arginina, L-Lisina, Omega 3, 6, 9, Lecitina de soya y vitaminas A, C, D, E.",
@@ -6449,16 +6565,15 @@ window.manualData.productos = [
     timing: "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
     benefits: [
-      "Ácido Glutámico como neurotransmisor excitatorio",
-      "L-Glutamina para el equilibrio glutamato/GABA",
-      "Lecitina de soya como precursor de acetilcolina",
-      "Complejo B completo para el metabolismo energético y la mielinización",
-      "Magnesio como antagonista NMDA",
-      "Hierro, zinc y selenio para la oxigenación y la neuroprotección"
+      "Las vitaminas B ayudan a obtener energía de los alimentos",
+      "Contribuyen al funcionamiento normal de los nervios",
+      "El hierro y el ácido fólico participan en la formación normal de la sangre",
+      "Los minerales complementan el aporte nutricional",
+      "Las ampolletas ofrecen una alternativa líquida a las tabletas"
     ],
     contraindications: "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
-    foodInteractions: "No especificado",
-    interactions: "La Vitamina B6 antagoniza la Levodopa. El Calcio, Magnesio y Hierro quelan antibióticos (tetraciclinas, fluoroquinolonas) y levotiroxina. Separar al menos 3-4 horas."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. El calcio, magnesio y hierro pueden hacer que se absorban menos algunos antibióticos y la levotiroxina para la tiroides. La ficha pide separar las tomas al menos 3 a 4 horas; confirmar el horario con el médico o farmacéutico."
   },
 
   // 262. BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS
@@ -6466,6 +6581,7 @@ window.manualData.productos = [
     id: 262,
     code: "7502214013522",
     name: "BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS",
+    benefitSummary: "Calcio para huesos y complemento digestivo",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Baria-Sure-Fresa-1.1kg.png",
     shortDesc: "Suplemento en polvo con citrato de calcio (~1500 mg por porción), 15 cepas probióticas, inulina de agave y proteína de suero (WPC). Sabor fresa, sin azúcar añadido.",
@@ -6474,16 +6590,15 @@ window.manualData.productos = [
     timing: "Puede tomarse con o sin alimentos. Se sugiere con alimentos ligeros por la mañana o media tarde.",
     intakeInstructions: "Disolver 15 g en 240-250 ml de agua purificada o leche (animal o vegetal). Mezclar vigorosamente hasta homogeneizar. No mezclar en líquidos calientes.",
     benefits: [
-      "Citrato de calcio con alta absorción (24% superior al carbonato)",
-      "Absorción independiente del pH gástrico (ideal para hipoclorhidria)",
-      "15 cepas probióticas para la salud intestinal",
-      "Inulina de agave como prebiótico (AGCC, segunda ola de absorción de calcio)",
-      "WPC como sustrato estructural para la matriz ósea",
-      "Efecto alcalinizante urinario (reduce el riesgo de litiasis renal)"
+      "Aporta calcio para mantener huesos y dientes",
+      "El calcio también participa en el funcionamiento muscular",
+      "Los probióticos complementan el enfoque de bienestar intestinal",
+      "La inulina es una fibra que alimenta ciertas bacterias del intestino",
+      "Reúne apoyo nutricional óseo y digestivo en un polvo"
     ],
     contraindications: "Contiene WPC (proteína de suero). Contraindicado en alergia a la proteína de la leche de vaca. Contraindicado en hipercalcemia e hiperparatiroidismo.",
-    foodInteractions: "No especificado",
-    interactions: "Separar al menos 4 horas de levotiroxina y bisfosfonatos. Separar 2-3 horas de antibióticos (quinolonas, tetraciclinas). Evitar mezclar con alimentos ricos en fitatos u oxalatos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha pide separar al menos 4 horas de la levotiroxina para la tiroides y ciertos tratamientos para los huesos. También indica separar 2 a 3 horas de algunos antibióticos; confirmar los horarios con el médico o farmacéutico. Evitar mezclarlo con alimentos que dificultan la absorción del calcio."
   },
 
   // 263. PLATA COLOIDAL BLU SILVER
@@ -6491,6 +6606,7 @@ window.manualData.productos = [
     id: 263,
     code: "7503015606012",
     name: "PLATA COLOIDAL BLU SILVER",
+    benefitSummary: "Sin beneficios demostrados por consumo oral",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PLATA-COLOIDAL.webp",
     shortDesc: "Suspensión acuosa de plata coloidal a 10 ppm. Para el apoyo inmunológico estacional y la higiene de mucosas, de forma episódica.",
@@ -6499,16 +6615,14 @@ window.manualData.productos = [
     timing: "En ayunas (30 min antes o 2 h después de alimentos)",
     intakeInstructions: "Mantener bajo la lengua 30-60 segundos antes de tragar (vía sublingual). No usar utensilios metálicos; emplear plástico, vidrio o cerámica.",
     benefits: [
-      "Efecto oligodinámico: los iones de plata interrumpen la respiración celular microbiana",
-      "Apoyo a la respuesta inmunológica frente a desafíos estacionales",
-      "Higiene de mucosas (gárgaras, enjuagues bucales)",
-      "Suspensión de alta pureza (10 ppm)",
-      "Uso episódico y ciclado para evitar acumulación",
-      "No contiene estabilizantes ni solventes químicos"
+      "Su ficha declara plata en suspensión acuosa",
+      "No hay beneficios demostrados de consumir plata coloidal",
+      "La plata no es un nutriente necesario para el cuerpo",
+      "Su utilidad y seguridad requieren revisión antes de recomendarla"
     ],
     contraindications: "No consumir de forma continua o vitalicia (riesgo de argiria). Contraindicado en embarazo, lactancia, insuficiencia renal o hepática, e hipersensibilidad a la plata.",
-    foodInteractions: "No especificado",
-    interactions: "Reduce la absorción de antibióticos (quinolonas, tetraciclinas), levotiroxina y penicilamina. Separar al menos 4 horas de cualquier medicamento."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede reducir la absorción de algunos antibióticos, levotiroxina para la tiroides y penicilamina. La ficha pide separar al menos 4 horas de cualquier medicamento, pero esto no demuestra que sea seguro consumir plata coloidal. Revisar antes de recomendar."
   },
 
   // 264. Ácido Pantoténico (B-5)
@@ -6516,6 +6630,7 @@ window.manualData.productos = [
     id: 264,
     code: "733739004864",
     name: "ÁCIDO PANTOTÉNICO (B-5)",
+    benefitSummary: "Vitamina B5 para aprovechar la energía de los alimentos",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-PANTOTENICO.webp",
     shortDesc: "Vitamina B-5 en alta concentración (500 mg por cápsula). Precursor de Coenzima A para el metabolismo energético, la síntesis lipídica y la función suprarrenal.",
@@ -6524,16 +6639,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana o al mediodía, junto con una comida o justo después de comer",
     intakeInstructions: "Ingerir la cápsula con un vaso completo de agua natural. No exceder la dosis recomendada sin supervisión profesional.",
     benefits: [
-      "Precursor directo de Coenzima A (CoA)",
-      "Esencial para la beta-oxidación de ácidos grasos",
-      "Participa en el ciclo de Krebs y la producción de ATP",
-      "Sustrato para la síntesis de cortisol y DHEA",
-      "Apoyo a la función suprarrenal y la respuesta al estrés",
-      "Estudios clínicos en el manejo de la piel propensa al acné"
+      "La vitamina B5 ayuda a obtener energía de los alimentos",
+      "Participa en el uso de las grasas de la dieta",
+      "Contribuye al desempeño mental normal",
+      "Ayuda a complementar el aporte de vitamina B5",
+      "Su fórmula se centra en ácido pantoténico"
     ],
     contraindications: "Las megaporciones (500 mg) no han sido validadas para la seguridad fetal. Requiere consulta médica en embarazo y lactancia. Precaución en hemofilia e insuficiencia renal crónica.",
-    foodInteractions: "No especificado",
-    interactions: "El calcio puede interferir con la absorción de tetraciclinas. El B5 compite por el transportador SMVT con la Biotina (B7) y el Ácido Alfa-Lipoico. El uso prolongado de megaporciones puede inducir deficiencia subclínica de biotina."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "El calcio puede hacer que se absorban menos ciertos antibióticos. La vitamina B5 puede competir con la biotina y el ácido alfa lipoico por su absorción. Evitar cantidades muy altas durante mucho tiempo; la ficha advierte que podrían reducir la disponibilidad de biotina."
   },
 
   // 265. Zeolita
@@ -6541,6 +6655,7 @@ window.manualData.productos = [
     id: 265,
     code: "7502214013409",
     name: "ZEOLITA",
+    benefitSummary: "Beneficios y seguridad pendientes de confirmar",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZEOLITA.avif",
     shortDesc: "Suplemento de clinoptilolita (zeolita) en cápsulas. Mineral microporoso con capacidad de adsorción e intercambio catiónico para el soporte gastrointestinal.",
@@ -6549,16 +6664,14 @@ window.manualData.productos = [
     timing: "Con el estómago vacío, preferentemente 30-60 minutos antes del desayuno o justo antes de dormir",
     intakeInstructions: "Ingerir la cápsula entera con un vaso grande de agua (mínimo 250-300 ml). No exceder la dosis recomendada sin supervisión profesional.",
     benefits: [
-      "Adsorción de metales pesados (plomo, cadmio, mercurio)",
-      "Intercambio catiónico (captura de amoníaco y cationes tóxicos)",
-      "Apoyo a la integridad de la barrera intestinal",
-      "Reducción de la carga tóxica sistémica",
-      "Actúa tópicamente en el tracto gastrointestinal (no se absorbe)",
-      "Perfil de seguridad clínica favorable"
+      "Aporta clinoptilolita, un tipo de mineral llamado zeolita",
+      "Las propiedades de capturar sustancias se estudian principalmente en laboratorio",
+      "No está demostrado que esta fórmula elimine metales del cuerpo",
+      "Su utilidad y seguridad requieren revisión antes de recomendarla"
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
-    foodInteractions: "No especificado",
-    interactions: "Puede adsorber fármacos como litio, antibióticos (tetraciclinas), cisplatino y medicamentos de liberación prolongada. Tomar con al menos 2 horas de diferencia. Anula la absorción de minerales (Hierro, Zinc, Calcio, Magnesio) y multivitamínicos."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Puede atrapar algunos medicamentos y reducir su absorción, como litio, ciertos antibióticos, cisplatino y medicamentos diseñados para actuar durante varias horas. La ficha pide dejar al menos 2 horas de diferencia. También puede reducir la absorción de hierro, zinc, calcio, magnesio y multivitamínicos; confirmar la combinación con un profesional."
   },
 
   // 266. TLANCHALAGUA PROSA
@@ -6566,6 +6679,7 @@ window.manualData.productos = [
     id: 266,
     code: "7501734411603",
     name: "TLANCHALAGUA PROSA",
+    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/TLANCHALAGUA-scaled.webp",
     shortDesc: "Suplemento en cápsulas con una mezcla de cinco plantas medicinales mexicanas: Tlanchalagua, Cocolmeca, Tejocote, Lima y Té Limón. Para el bienestar digestivo y la depuración fisiológica.",
@@ -6574,16 +6688,15 @@ window.manualData.productos = [
     timing: "Antes de los alimentos principales (desayuno, comida y cena)",
     intakeInstructions: "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
     benefits: [
-      "Tlanchalagua como tónico amargo digestivo",
-      "Cocolmeca con propiedades depurativas",
-      "Tejocote para el apoyo cardiovascular y antioxidante",
-      "Lima y té limón con aceites esenciales y flavonoides",
-      "Fórmula tradicional mexicana sin excipientes",
-      "100% natural"
+      "Combina plantas de la herbolaria mexicana",
+      "La tlanchalagua tiene uso tradicional digestivo",
+      "El tejocote y otras plantas aportan compuestos vegetales",
+      "Su enfoque es el bienestar digestivo tradicional",
+      "Permite incorporar la mezcla en cápsulas"
     ],
     contraindications: "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
-    foodInteractions: "No especificado",
-    interactions: "No especificado"
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
   },
 
   // 267. Premium Panax Ginseng
@@ -6591,6 +6704,7 @@ window.manualData.productos = [
     id: 267,
     code: "61835819069",
     name: "PREMIUM PANAX GINSENG",
+    benefitSummary: "Vitalidad y uso tradicional",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PANAX-GINSENG.avif",
     shortDesc: "Extracto líquido de Ginseng Rojo (Panax ginseng) con 8 años de maduración. Adaptógeno para la energía, la vitalidad y la resistencia al estrés.",
@@ -6599,16 +6713,15 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana, en ayunas o con el desayuno",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Consumir directamente del vial o diluir en 100 ml de agua natural a temperatura ambiente. No exceder la dosis recomendada.",
     benefits: [
-      "Adaptógeno que modula el eje HPA (Hipotálamo-Hipófisis-Adrenal)",
-      "Regulación de la secreción de cortisol",
-      "Estimulación de la síntesis de ATP mitocondrial",
-      "Mejora de la microcirculación cerebral",
-      "Refuerzo de la actividad de macrófagos y células NK",
-      "Ginsenósidos secundarios (Rg3, Rh2) de mayor bioactividad"
+      "El ginseng tiene uso tradicional como apoyo a la vitalidad",
+      "Puede acompañar etapas de mayor actividad física y mental",
+      "Se estudia como apoyo frente a la sensación de fatiga",
+      "Su presentación líquida evita preparar la raíz",
+      "Las ampolletas permiten llevar la porción indicada"
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
-    foodInteractions: "No especificado",
-    interactions: "Precaución con hipoglucemiantes (riesgo de hipoglucemia), anticoagulantes (riesgo de sangrado), inhibidores de la MAO y antidepresivos. Evitar el consumo conjunto con bebidas con alta cafeína."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa medicamentos para el azúcar, porque podría bajar demasiado, o para evitar coágulos, por el riesgo de sangrado. También revisar antidepresivos, incluidos los llamados IMAO. Evitar combinar con bebidas con mucha cafeína."
   },
 
   // 268. Aceite Rosa Mosqueta
@@ -6616,6 +6729,7 @@ window.manualData.productos = [
     id: 268,
     code: "7503021404053",
     name: "ACEITE DE ROSA MOSQUETA",
+    benefitSummary: "Hidratación, suavidad y cuidado de la piel",
     category: "piel",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACEITE-DE-ROSA-MOSQUETA.webp",
     shortDesc: "Aceite vegetal puro obtenido por prensado en frío de las semillas de Rosa moschata. Rico en ácidos grasos esenciales (Omega-6 y Omega-3) y vitamina E. Para la regeneración cutánea y el cuidado de la piel.",
@@ -6624,16 +6738,15 @@ window.manualData.productos = [
     timing: "Preferentemente en la rutina nocturna. Si se usa de día, acompañar con protector solar.",
     intakeInstructions: "Aplicar 2-4 gotas sobre la zona deseada y masajear suavemente con movimientos circulares hasta la absorción total. Uso exclusivamente tópico. No ingerir.",
     benefits: [
-      "Ácido linoleico para la síntesis de ceramidas y la barrera cutánea",
-      "Ácido linolénico para la modulación inflamatoria",
-      "Trazas de ácido trans-retinoico para la estimulación del colágeno",
-      "Vitamina E para la protección antioxidante",
-      "Regeneración de cicatrices, estrías y arrugas",
-      "Hidratación profunda y reducción de la pérdida de agua transepidérmica"
+      "Ayuda a suavizar la piel seca",
+      "Aporta grasas que ayudan a conservar la humedad de la piel",
+      "Complementa el cuidado de la barrera protectora de la piel",
+      "Puede mejorar la apariencia de zonas resecas con uso constante",
+      "Permite aplicar unas gotas en las áreas indicadas"
     ],
     contraindications: "Contraindicado en acné activo severo, rosácea pustulosa o pieles altamente seborreicas. No aplicar sobre heridas abiertas, quemaduras de tercer grado o tejido sin epitelizar.",
-    foodInteractions: "No especificado",
-    interactions: "Precaución al usar junto con retinoides tópicos recetados o peelings químicos fuertes. No mezclar directamente con peróxido de benzoilo tópico."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente usa cremas recetadas con derivados de vitamina A, como retinoides, o tratamientos fuertes para renovar la piel. No mezclar directamente con peróxido de benzoilo, usado en algunos tratamientos para el acné."
   },
 
 // 269. JUGO DE NONI
@@ -6641,6 +6754,7 @@ window.manualData.productos = [
     id: 269,
     code: "7503025069500",
     name: "JUGO DE NONI",
+    benefitSummary: "Noni como complemento de origen vegetal",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/JUGO-NONI-scaled.jpg",
     shortDesc: "Suspensión botánica acuosa de Noni (Morinda citrifolia) con extracto seco concentrado. Rico en iridoides, escopoletina y polisacáridos. Apoyo antioxidante e inmunológico.",
@@ -6649,16 +6763,15 @@ window.manualData.productos = [
     timing: "Preferentemente en ayunas, 30 minutos antes del desayuno",
     intakeInstructions: "Agitar vigorosamente antes de servir. Puede consumirse puro o diluido en 150 ml de agua o jugo bajo en azúcar. No exceder la dosis recomendada. Una vez abierto, mantener refrigerado.",
     benefits: [
-        "Alta concentración de iridoides con potente actividad antioxidante",
-        "Escopoletina que apoya la microcirculación y la función endotelial",
-        "Polisacáridos que modulan la respuesta inmunológica innata",
-        "Protección celular frente al estrés oxidativo",
-        "Apoyo al bienestar general y a la vitalidad",
-        "Fórmula de espectro completo con jugo natural y extracto concentrado"
+      "Aporta jugo de noni en una presentación líquida",
+      "Contiene compuestos vegetales con actividad antioxidante",
+      "Se utiliza tradicionalmente como complemento del bienestar general",
+      "Permite incorporar noni sin preparar el fruto",
+      "Su formato facilita medir la porción indicada"
     ],
     contraindications: "Contraindicado en insuficiencia renal crónica (alto contenido de potasio), hepatopatías (riesgo de toxicidad hepática idiosincrática), embarazo y lactancia. Personas con hipertensión o bajo tratamiento con diuréticos ahorradores de potasio deben consultar a un profesional de la salud.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con fármacos ahorradores de potasio (espironolactona, losartán, captopril) y anticoagulantes (warfarina). No combinar con bebidas lácteas en la misma toma (quelación de polifenoles). Separar 2 horas de suplementos minerales (hierro, calcio)."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si usa medicamentos que pueden aumentar el potasio, como espironolactona, losartán o captopril, o anticoagulantes como warfarina. La ficha indica no mezclar con bebidas lácteas en la misma toma y separar 2 horas del hierro o calcio."
 },
 
 // 270. CÚRCUMA & JENGIBRE
@@ -6666,6 +6779,7 @@ window.manualData.productos = [
     id: 270,
     code: "753025069838",
     name: "CÚRCUMA & JENGIBRE",
+    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma-1.jpg",
     shortDesc: "Combinación de polvo de raíz de cúrcuma y jengibre en cápsulas. Apoyo a la modulación inflamatoria, confort digestivo y protección antioxidante. 90 cápsulas de 500 mg.",
@@ -6674,16 +6788,15 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas saludables",
     intakeInstructions: "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     benefits: [
-        "Apoya la modulación de la respuesta inflamatoria",
-        "Contribuye al confort digestivo y a la motilidad gástrica",
-        "Protege las células del estrés oxidativo",
-        "Apoyo osteoarticular en casos de sobrecarga",
-        "Estimula la microcirculación periférica",
-        "Sinergia entre cúrcuma y jengibre para un efecto integral"
+      "El jengibre tiene uso tradicional para el confort digestivo",
+      "La cúrcuma aporta compuestos antioxidantes",
+      "Puede acompañar el cuidado de las articulaciones",
+      "Combina dos especias en una sola fórmula",
+      "Permite incorporarlas sin su sabor característico"
     ],
     contraindications: "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
-    foodInteractions: "No especificado",
-    interactions: "Puede interactuar con anticoagulantes y antiagregantes plaquetarios. Precaución con medicamentos metabolizados por el hígado."
+    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. También revisar otros tratamientos que procesa el hígado."
 },
 
 // 271. ALBIZIA + BACOPA
@@ -6691,6 +6804,7 @@ window.manualData.productos = [
     id: 271,
     code: "",
     name: "ALBIZIA + BACOPA",
+    benefitSummary: "Complemento del cuidado de la atención y la memoria",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-BACOPA-ALBIZIA–-V0–-SEPT2026.jpeg",
     shortDesc: "Suplemento de Albizia, Bacopa, L-teanina y magnesio, orientado al apoyo de la concentración y la calma. Envase con 60 cápsulas.",
@@ -6699,16 +6813,15 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. No exceder la porción diaria recomendada.",
     benefits: [
-        "Apoya la concentración y la memoria",
-        "Contribuye al bienestar mental y a la calma",
-        "Aporta L-teanina, asociada con un estado de alerta relajada",
-        "Aporta magnesio, necesario para el funcionamiento normal del sistema nervioso",
-        "Combina componentes botánicos con actividad antioxidante",
-        "Fórmula sin estimulantes añadidos"
+      "La bacopa se estudia como apoyo a la memoria y la atención",
+      "La teanina puede acompañar una rutina de calma",
+      "El magnesio contribuye al funcionamiento normal de los nervios",
+      "La albizia tiene uso tradicional para el bienestar emocional",
+      "Su enfoque combina concentración y relajación"
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "La ficha recomienda tomarlo con alimentos que contengan grasas saludables.",
-    interactions: "Consultar antes de combinar con medicamentos colinérgicos o anticolinérgicos, antidepresivos o sedantes. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; consultar cómo separar las tomas."
+    foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
+    interactions: "Consultar si usa medicamentos que cambian la acción de la acetilcolina, una sustancia que transmite mensajes entre los nervios, o tratamientos para depresión, sueño o ansiedad. El magnesio puede reducir la absorción de ciertos antibióticos y tratamientos para los huesos; un profesional debe indicar cómo separar las tomas."
 },
 
 // 272. ALBIZIA + RHODIOLA
@@ -6716,6 +6829,7 @@ window.manualData.productos = [
     id: 272,
     code: "",
     name: "ALBIZIA + RHODIOLA",
+    benefitSummary: "Bienestar mental ante la demanda cotidiana",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-RHODIOLA-ALBIZIA–-V0–-SEPT2026.jpeg",
     shortDesc: "Suplemento de Albizia, Rhodiola, L-teanina y magnesio, orientado al apoyo frente al estrés y la fatiga mental. Envase con 60 cápsulas.",
@@ -6724,16 +6838,15 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. Evitar la toma cerca de la hora de dormir. No exceder la porción diaria recomendada.",
     benefits: [
-        "Apoya la respuesta al estrés físico y mental",
-        "Contribuye a mantener la atención y la claridad mental",
-        "Aporta L-teanina, asociada con un estado de alerta relajada",
-        "Aporta magnesio, necesario para el funcionamiento normal del sistema nervioso",
-        "Combina componentes botánicos con actividad antioxidante",
-        "Fórmula sin estimulantes añadidos"
+      "La rhodiola puede apoyar la respuesta al estrés cotidiano",
+      "Puede acompañar la vitalidad en etapas de mayor demanda",
+      "La teanina se utiliza como complemento de la relajación",
+      "El magnesio contribuye al funcionamiento de los nervios",
+      "Su enfoque combina claridad mental y calma"
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Evitar en personas con trastorno bipolar. Consultar a un profesional de la salud si se padece alguna condición médica.",
-    foodInteractions: "La ficha recomienda tomarlo con alimentos que contengan grasas saludables.",
-    interactions: "Consultar antes de combinar con antidepresivos, antihipertensivos o sedantes; se han comunicado posibles interacciones de Rhodiola con antidepresivos y losartán. El magnesio puede reducir la absorción de tetraciclinas, quinolonas y bisfosfonatos orales; consultar cómo separar las tomas."
+    foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
+    interactions: "Consultar si usa antidepresivos, medicamentos para la presión o para dormir. La ficha menciona posibles interacciones de la rhodiola con antidepresivos y losartán. El magnesio puede reducir la absorción de ciertos antibióticos y tratamientos para los huesos; un profesional debe indicar cómo separar las tomas."
 },
 
 // 273. COHOSH NEGRO CON ISOFLAVONAS
@@ -6741,6 +6854,7 @@ window.manualData.productos = [
     id: 273,
     code: "",
     name: "COHOSH NEGRO CON ISOFLAVONAS",
+    benefitSummary: "Bienestar femenino y cambios de etapa",
     category: "hormonal",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/10/COHOSH-NEGRO.jpg",
     shortDesc: "Combinación de cohosh negro y isoflavonas de soja para apoyar el bienestar femenino durante el climaterio. Envase con 90 cápsulas.",
@@ -6749,14 +6863,15 @@ window.manualData.productos = [
     timing: "Con alimentos, distribuido durante el día",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos y un vaso de agua, según la ficha del producto. No exceder la porción indicada.",
     benefits: [
-        "Apoya el bienestar femenino durante el climaterio",
-        "Combina cohosh negro e isoflavonas de soja",
-        "Aporta ingredientes botánicos en cápsulas",
-        "Puede complementar hábitos saludables durante la transición hormonal"
+      "Se utiliza como complemento del bienestar durante la menopausia",
+      "El cohosh y las isoflavonas se estudian para algunos malestares de esa etapa",
+      "Puede ayudar con los bochornos en ciertas personas",
+      "Su enfoque es acompañar el bienestar femenino durante esa transición",
+      "Reúne ambos ingredientes en cápsulas"
     ],
     contraindications: "No usar durante el embarazo o la lactancia. Personas con antecedentes o enfermedades hepáticas, condiciones sensibles a hormonas, alergia a la soja o bajo tratamiento médico deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "La ficha recomienda consumirlo con alimentos. No especifica otras interacciones con alimentos.",
-    interactions: "Consultar a un profesional de la salud antes de combinarlo con medicamentos, tratamientos hormonales u otros suplementos con fitoestrógenos. La ficha advierte precaución por posibles interacciones y por antecedentes hepáticos."
+    foodInteractions: "La ficha recomienda tomarlo con alimentos. No detalla otras precauciones con comidas o bebidas.",
+    interactions: "Consultar antes de combinar con medicamentos, tratamientos hormonales u otros suplementos con compuestos vegetales parecidos a los estrógenos. También revisar si el cliente tiene antecedentes de problemas del hígado."
 },
 
 // 274. EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C
@@ -6764,6 +6879,7 @@ window.manualData.productos = [
     id: 274,
     code: "",
     name: "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
+    benefitSummary: "Vitamina C para defensas y cuidado celular",
     category: "inmune",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/10/GUANABANA.webp",
     shortDesc: "Extracto líquido de hojas de guanábana con vitamina C. Presentación de 1 L; la ficha recibida indica 60 mg de vitamina C por cada 60 mL.",
@@ -6776,13 +6892,295 @@ window.manualData.productos = [
         note: "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
     },
     benefits: [
-        "Aporta 60 mg de vitamina C por cada 60 mL, según la ficha técnica recibida",
-        "Combina vitamina C con extracto líquido de hojas de guanábana",
-        "Presentación líquida de 1 L"
+      "La vitamina C contribuye al funcionamiento normal de las defensas",
+      "También ayuda al cuidado antioxidante de las células",
+      "Participa en la formación normal de colágeno",
+      "Favorece la absorción del hierro de alimentos vegetales",
+      "Combina vitamina C y extracto de hojas de guanábana en una bebida"
     ],
     contraindications: "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
-    foodInteractions: "No especificadas de forma verificable en la etiqueta proporcionada.",
-    interactions: "La ficha recibida recomienda consultar antes de combinarlo con medicamentos para la presión arterial o la glucosa. Debido a que el extracto de hojas no está cuantificado, consultar con un profesional de la salud antes de combinarlo con medicamentos."
+    foodInteractions: "La etiqueta compartida no detalla qué precauciones tomar al combinarlo con alimentos.",
+    interactions: "Consultar si el cliente toma medicamentos para la presión o el azúcar. La ficha no indica cuánto extracto de hojas contiene; revisar con un profesional antes de combinarlo con cualquier tratamiento."
 },
 
 ];
+
+// Contenido declarado por envase. Se aplica a todos los productos para que
+// el catálogo y el cálculo de rendimiento usen la misma fuente de datos.
+const productPackageContents = {
+  1: "250 g",
+  2: "60 cápsulas",
+  3: "500 g",
+  4: "90 cápsulas",
+  5: "60 cápsulas",
+  6: "90 cápsulas",
+  7: "450 g",
+  8: "500 g",
+  9: "90 cápsulas",
+  10: "90 cápsulas",
+  11: "250 g",
+  12: "90 cápsulas",
+  13: "60 cápsulas",
+  14: "1 L",
+  15: "420 ml",
+  16: "19.5 ml",
+  17: "60 cápsulas",
+  18: "Polvo (peso no especificado)",
+  19: "80 cápsulas",
+  20: "90 cápsulas",
+  21: "90 cápsulas",
+  22: "90 cápsulas",
+  23: "90 cápsulas",
+  24: "500 g",
+  25: "250 g",
+  26: "180 cápsulas",
+  27: "990 ml",
+  28: "1 L",
+  29: "60 cápsulas",
+  30: "1.1 kg",
+  31: "200 cápsulas",
+  32: "60 cápsulas",
+  33: "60 tabletas",
+  34: "30 cápsulas",
+  35: "500 g",
+  36: "60 cápsulas",
+  37: "30 cápsulas",
+  38: "22 sobres",
+  39: "600 g",
+  40: "30 sobres",
+  41: "120 cápsulas",
+  42: "30 cápsulas",
+  43: "60 cápsulas",
+  44: "150 cápsulas",
+  45: "60 cápsulas",
+  46: "500 g",
+  47: "90 cápsulas",
+  48: "500 ml",
+  49: "500 ml",
+  50: "100 cápsulas",
+  51: "90 cápsulas",
+  52: "90 cápsulas",
+  53: "300 g",
+  54: "90 cápsulas",
+  55: "30 cápsulas",
+  56: "30 cápsulas",
+  57: "30 cápsulas",
+  58: "90 cápsulas",
+  59: "15 cápsulas",
+  60: "90 cápsulas",
+  61: "90 cápsulas",
+  62: "90 cápsulas",
+  63: "90 cápsulas",
+  64: "510 g",
+  66: "500 ml",
+  67: "60 cápsulas",
+  68: "30 cápsulas",
+  69: "50 tabletas",
+  70: "90 cápsulas",
+  71: "300 g",
+  72: "120 cápsulas",
+  73: "30 cápsulas",
+  74: "30 cápsulas",
+  75: "30 cápsulas",
+  76: "50 tabletas",
+  77: "90 cápsulas",
+  78: "120 cápsulas",
+  79: "120 cápsulas",
+  80: "90 cápsulas",
+  81: "60 cápsulas",
+  82: "80 cápsulas",
+  83: "100 cápsulas",
+  84: "100 cápsulas",
+  85: "30 cápsulas",
+  86: "60 cápsulas",
+  87: "60 cápsulas",
+  88: "150 g",
+  89: "60 cápsulas",
+  90: "90 cápsulas",
+  91: "120 cápsulas",
+  92: "60 cápsulas",
+  93: "120 cápsulas",
+  94: "90 cápsulas",
+  95: "30 cápsulas",
+  96: "8 lb (3.63 kg)",
+  97: "100 g",
+  98: "90 cápsulas",
+  99: "560 g",
+  100: "90 cápsulas",
+  101: "30 cápsulas",
+  102: "60 cápsulas",
+  103: "500 ml",
+  104: "90 cápsulas",
+  105: "120 cápsulas",
+  106: "120 cápsulas",
+  107: "120 cápsulas",
+  108: "100 cápsulas",
+  109: "60 cápsulas",
+  110: "60 perlas",
+  111: "500 g",
+  112: "1 kg",
+  113: "1.02 kg",
+  114: "30 cápsulas",
+  115: "30 ml",
+  116: "60 cápsulas",
+  117: "90 cápsulas",
+  118: "9 cápsulas",
+  119: "30 cápsulas",
+  120: "90 softgels",
+  122: "120 cápsulas",
+  123: "90 cápsulas",
+  124: "60 tabletas",
+  125: "1 kg",
+  126: "990 g",
+  127: "90 cápsulas",
+  128: "90 cápsulas",
+  129: "60 cápsulas",
+  130: "60 cápsulas",
+  131: "60 cápsulas",
+  132: "30 cápsulas",
+  133: "30 cápsulas",
+  134: "488 g",
+  135: "488 g",
+  136: "30 cápsulas",
+  137: "60 cápsulas",
+  138: "120 cápsulas",
+  139: "90 cápsulas",
+  140: "1 L",
+  141: "60 cápsulas",
+  142: "90 tabletas",
+  143: "60 cápsulas",
+  144: "50 tabletas",
+  145: "30 cápsulas",
+  146: "30 sobres",
+  147: "100 tabletas",
+  148: "90 cápsulas",
+  149: "60 cápsulas",
+  150: "30 cápsulas",
+  151: "200 g",
+  152: "90 cápsulas",
+  153: "90 cápsulas",
+  154: "60 cápsulas",
+  155: "240 ml",
+  156: "240 ml",
+  157: "30 cápsulas",
+  158: "578 g",
+  159: "90 cápsulas",
+  160: "420 ml",
+  161: "60 cápsulas",
+  163: "30 cápsulas",
+  164: "990 ml",
+  165: "30 sobres",
+  166: "90 cápsulas",
+  167: "240 g",
+  168: "60 cápsulas",
+  169: "30 bolsitas de té",
+  170: "30 sobres",
+  171: "30 sobres",
+  172: "30 sobres",
+  173: "30 sobres",
+  174: "30 sobres",
+  175: "30 sobres",
+  176: "30 sobres",
+  177: "30 sobres",
+  178: "60 cápsulas",
+  179: "340 ml",
+  180: "50 g",
+  181: "120 cápsulas",
+  182: "Gel tópico (cantidad no especificada)",
+  183: "240 g",
+  184: "60 cápsulas",
+  185: "30 cápsulas",
+  186: "30 cápsulas",
+  187: "30 cápsulas",
+  188: "30 ml",
+  189: "30 bolsitas de té",
+  190: "30 tabletas",
+  191: "300 g",
+  192: "10 ampolletas",
+  193: "100 cápsulas",
+  194: "1080 g",
+  195: "150 cápsulas (2 frascos: 90 + 60)",
+  196: "30 cápsulas",
+  197: "30 sobres",
+  198: "1 L",
+  199: "15 cápsulas",
+  200: "30 cápsulas",
+  201: "1 L",
+  202: "90 cápsulas",
+  203: "125 g",
+  204: "135 cápsulas (90 + 45 gratis)",
+  205: "250 tabletas (150 g)",
+  206: "90 cápsulas (117 g)",
+  207: "30 cápsulas",
+  208: "65 cápsulas",
+  209: "300 g",
+  210: "30 cápsulas",
+  211: "30 cápsulas",
+  212: "90 tabletas",
+  213: "90 tabletas",
+  214: "500 g",
+  215: "90 cápsulas",
+  216: "50 cápsulas",
+  217: "90 cápsulas",
+  218: "30 cápsulas",
+  219: "1.77 kg",
+  220: "5 lb (2.27 kg)",
+  221: "30 cápsulas",
+  222: "500 g",
+  223: "150 cápsulas",
+  224: "20 ml",
+  225: "100 pastillas",
+  226: "120 ml",
+  227: "90 cápsulas",
+  228: "90 cápsulas",
+  229: "120 gomitas",
+  230: "100 cápsulas",
+  231: "1 L",
+  232: "Presentación variable (peso no especificado)",
+  233: "120 capletas",
+  234: "250 ml",
+  235: "150 cápsulas",
+  236: "150 cápsulas",
+  237: "150 cápsulas",
+  238: "60 tabletas",
+  239: "120 g",
+  240: "60 perlas",
+  241: "300 g",
+  242: "150 g",
+  243: "220 ml",
+  244: "30 cápsulas",
+  245: "100 cápsulas",
+  246: "180 g",
+  247: "110 gomitas aprox.",
+  248: "110 gomitas aprox.",
+  249: "250 ml",
+  250: "250 ml",
+  251: "120 g",
+  252: "175 g",
+  253: "30 cápsulas",
+  254: "30 ml",
+  255: "30 g",
+  256: "30 g",
+  257: "340 ml",
+  258: "Gel tópico (cantidad no especificada)",
+  259: "60 cápsulas",
+  260: "355 ml",
+  261: "10 ampolletas de 10 ml",
+  262: "1.1 kg",
+  263: "500 ml",
+  264: "100 cápsulas",
+  265: "30 cápsulas",
+  266: "150 cápsulas (45 g)",
+  267: "30 ampolletas de 10 ml",
+  268: "30 ml",
+  269: "1 L",
+  270: "90 cápsulas",
+  271: "60 cápsulas",
+  272: "60 cápsulas",
+  273: "90 cápsulas (45 g)",
+  274: "1 L"
+};
+
+window.manualData.productos.forEach((product) => {
+  product.packageContent = productPackageContents[product.id] || "Cantidad no especificada";
+});
