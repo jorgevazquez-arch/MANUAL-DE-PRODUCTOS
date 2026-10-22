@@ -7,7 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css?v=20261021-r1">
+    <script>
+        try {
+            if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
+        } catch (_) { /* El tema sigue funcionando aunque el almacenamiento esté deshabilitado. */ }
+    </script>
 </head>
 <body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
 
@@ -16,6 +21,10 @@
         <div class="main-header-inner max-w-[1200px] mx-auto px-4">
             <div class="main-header-brand">
                 <img src="https://investigacioncbg.com/wp-content/uploads/2026/09/LOGO-GIRASOL-139-x-62-px.png" alt="Logo El Girasol" class="main-header-logo drop-shadow-sm">
+                <button type="button" id="themeToggle" class="theme-toggle" aria-label="Activar modo oscuro" aria-pressed="false" title="Activar modo oscuro">
+                    <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+                    <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+                </button>
             </div>
         </div>
     </header>
@@ -38,12 +47,19 @@
         <!-- Contenido Principal -->
         <main id="manualMain" class="w-full py-4 print-container">
 
+            <aside class="no-print mb-5 border-l-2 border-girasol-green-600 pl-3 py-1 text-gray-500" role="note" aria-label="Aviso de uso interno">
+                <p class="text-xs leading-relaxed"><strong class="font-semibold text-gray-600">Material interno de capacitación:</strong> exclusivo para la fuerza de ventas de El Girasol. Apoya la orientación comercial y no sustituye la valoración de un profesional de la salud.</p>
+            </aside>
+
             <!-- PORTADA PARA PDF (igual) -->
             <div class="cover-page hidden print:flex text-center bg-girasol-green-50/50 rounded-3xl border border-girasol-green-100 p-10">
                 <img src="https://investigacioncbg.com/wp-content/uploads/2025/06/logozencolores.png" alt="ZENnatura" class="h-40 w-auto mx-auto mb-10">
                 <h1 class="text-6xl font-black text-girasol-green-900 mb-6 uppercase tracking-tight">Manual de Apoyo Nutricional</h1>
                 <p class="text-2xl text-girasol-green-700 font-medium mb-12">Guía para el Asesor en Ventas</p>
-                <p class="mt-12 text-gray-600 font-medium text-lg max-w-3xl mx-auto">Este manual es una guía informativa para el equipo de ventas sobre los suplementos alimenticios disponibles en El Girasol. Las recomendaciones aquí presentadas son sugerencias de apoyo nutricional y no sustituyen la opinión de un profesional de la salud.</p>
+                <div class="mt-2 max-w-3xl mx-auto rounded-xl border-2 border-amber-500 bg-amber-50 px-6 py-5 text-amber-950">
+                    <p class="text-lg font-extrabold uppercase tracking-wide">Uso exclusivo para capacitación interna de la fuerza de ventas</p>
+                    <p class="mt-3 text-base leading-relaxed">Material de apoyo comercial e informativo sobre los suplementos disponibles en El Girasol. No está destinado a distribución pública ni constituye consejo médico, diagnóstico o tratamiento. Las dudas sobre salud deben canalizarse con un profesional de la salud.</p>
+                </div>
                 <p class="mt-auto pt-12 text-xl text-girasol-green-800 font-bold">Edición 2026</p>
             </div>
 
@@ -783,6 +799,14 @@
                                     <p id="modalTiming">-</p>
                                 </div>
                             </div>
+                            <div class="product-sheet-fact product-sheet-yield-fact">
+                                <span class="product-sheet-fact-number" aria-hidden="true">03</span>
+                                <div>
+                                    <span class="product-sheet-fact-label">Rendimiento estimado</span>
+                                    <p id="modalYield">Por confirmar</p>
+                                    <small id="modalYieldNote"></small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -794,6 +818,19 @@
                             <h4>Beneficios clave</h4>
                             <ul id="modalBenefits" class="product-sheet-benefits"></ul>
                         </div>
+
+                        <section class="product-sheet-section product-sheet-nutrition hidden" id="modalNutritionWrap" aria-labelledby="modalNutritionTitle">
+                            <p class="product-sheet-eyebrow">Composición por porción</p>
+                            <h4 id="modalNutritionTitle">Información nutrimental</h4>
+                            <p class="product-sheet-nutrition-serving" id="modalNutritionServing"></p>
+                            <div class="product-sheet-nutrition-table-wrap">
+                                <table class="product-sheet-nutrition-table">
+                                    <thead><tr><th scope="col">Cantidad</th><th scope="col">Por porción</th><th scope="col">Por 100 g</th></tr></thead>
+                                    <tbody id="modalNutritionBody"></tbody>
+                                </table>
+                            </div>
+                            <p class="product-sheet-nutrition-note" id="modalNutritionNote"></p>
+                        </section>
 
                         <div class="product-sheet-section product-sheet-ingredients">
                             <p class="product-sheet-eyebrow">Composición</p>
@@ -855,9 +892,9 @@
         </article>
     </div>
 
-    <script src="./data/productos.js?v=20260918-269-r2"></script>
+    <script src="./data/productos.js?v=20261021-274-r1"></script>
     <script src="./data/padecimientos.js?v=20260918-75-r6"></script>
-    <script src="./js/app.js?v=20260918-75-r6"></script>
+    <script src="./js/app.js?v=20261021-r1"></script>
 
 </body>
 </html>

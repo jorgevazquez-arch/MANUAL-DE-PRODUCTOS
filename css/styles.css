@@ -3335,3 +3335,253 @@
         #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 48px; height: 48px; padding: 4px; }
     }
 }
+
+/* Modo oscuro del manual */
+.theme-toggle {
+    display: inline-flex;
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 9999px;
+    background: #f8fafc;
+    color: #334155;
+    cursor: pointer;
+    transition: background-color 160ms ease, color 160ms ease, border-color 160ms ease;
+}
+.theme-toggle:hover { background: #eef2f7; }
+.theme-toggle:focus-visible { outline: 2px solid #15803d; outline-offset: 3px; }
+.theme-toggle svg { width: 20px; height: 20px; }
+.theme-icon-moon { display: none; }
+.dark-mode .theme-icon-sun { display: none; }
+.dark-mode .theme-icon-moon { display: block; }
+
+html.dark-mode,
+html.dark-mode body { color-scheme: dark; background-color: #111827; color: #e5e7eb; }
+html.dark-mode body { background-image: none; }
+html.dark-mode body #mainCentralHeader,
+html.dark-mode body #manualSidebar,
+html.dark-mode body .modal-bg > div,
+html.dark-mode body .product-sheet,
+html.dark-mode body .product-sheet-content {
+    background-color: #1f2937 !important;
+    color: #e5e7eb;
+    border-color: #374151 !important;
+}
+html.dark-mode body .theme-toggle { background: #374151; border-color: #4b5563; color: #fbbf24; }
+html.dark-mode body .theme-toggle:hover { background: #4b5563; }
+html.dark-mode body .main-nav-btn { color: #d1d5db; background: #293548; }
+html.dark-mode body .main-nav-btn[data-nav-target="productos"].active { color: #fecaca; background: #542d32; }
+html.dark-mode body .main-nav-btn[data-nav-target="guias"].active { color: #a7f3d0; background: #17443f; }
+html.dark-mode body .main-nav-btn[data-nav-target="recursos"].active { color: #fde68a; background: #4a3c19; }
+html.dark-mode body .main-nav-btn:not(.active):hover { background: #374151; }
+html.dark-mode body :is(.bg-white, .bg-white\/95, .bg-gray-50, .bg-gray-100, .bg-slate-50, .bg-slate-100, .bg-indigo-50, .bg-blue-50, .bg-amber-50, .bg-green-50) {
+    background-color: #1f2937 !important;
+}
+html.dark-mode body :is(.text-gray-900, .text-gray-800, .text-gray-700, .text-gray-600, .text-gray-500, .text-slate-900, .text-slate-800, .text-slate-700, .text-slate-600, .text-slate-500) {
+    color: #d1d5db !important;
+}
+/* Utilities de color adicionales: conserva contraste en textos que usan la paleta de marca o de estado. */
+html.dark-mode body [class*="text-girasol-"],
+html.dark-mode body [class*="text-amber-"],
+html.dark-mode body [class*="text-green-"],
+html.dark-mode body [class*="text-red-"],
+html.dark-mode body [class*="text-blue-"],
+html.dark-mode body [class*="text-indigo-"],
+html.dark-mode body [class*="text-purple-"],
+html.dark-mode body [class*="text-yellow-"] {
+    color: #e5e7eb !important;
+}
+html.dark-mode body [class*="bg-girasol-green-50"],
+html.dark-mode body [class*="bg-girasol-yellow-50"],
+html.dark-mode body [class*="bg-girasol-green-100"],
+html.dark-mode body [class*="bg-girasol-yellow-100"] {
+    background-color: #1f2937 !important;
+}
+html.dark-mode body :is(.border-gray-100, .border-gray-200, .border-gray-300, .border-slate-100, .border-slate-200, .border-slate-300) {
+    border-color: #374151 !important;
+}
+html.dark-mode body .product-card,
+html.dark-mode body .padecimiento-editorial,
+html.dark-mode body .padecimiento-editorial .padecimiento-protocol,
+html.dark-mode body .padecimiento-editorial .padecimiento-questions,
+html.dark-mode body .padecimiento-editorial-product-card,
+html.dark-mode body .product-sheet-section,
+html.dark-mode body .product-sheet-synergy,
+html.dark-mode body .compare-products-panel,
+html.dark-mode body .compare-product-head,
+html.dark-mode body .compare-products-row {
+    background-color: #1f2937 !important;
+    color: #e5e7eb;
+    border-color: #374151 !important;
+}
+html.dark-mode body .padecimiento-editorial .padecimiento-body { background: #17202d; }
+html.dark-mode body .padecimiento-editorial .padecimiento-overview h4,
+html.dark-mode body .padecimiento-editorial .padecimiento-symptoms-title,
+html.dark-mode body .padecimiento-editorial .padecimiento-protocol-title,
+html.dark-mode body .product-card h4,
+html.dark-mode body .compare-product-head h4 { color: #e5e7eb !important; }
+html.dark-mode body input,
+html.dark-mode body select,
+html.dark-mode body textarea { background-color: #1f2937; color: #f3f4f6; border-color: #4b5563; }
+html.dark-mode body input::placeholder,
+html.dark-mode body textarea::placeholder { color: #9ca3af; }
+html.dark-mode body .sidebar-toggle { background: rgb(31 41 55 / 92%); color: #d1d5db; }
+
+/* Acabado visual coordinado para el tema oscuro en la vista web. */
+@media screen {
+    html.dark-mode {
+        --manual-canvas: #141416;
+        --manual-surface: #202023;
+        --manual-inset: #29292d;
+        --manual-ink: #f1f1f3;
+        --manual-muted: #b4b4ba;
+    }
+    html.dark-mode body,
+    html.dark-mode body #manualMain { color: var(--manual-ink); }
+    html.dark-mode body #mainCentralHeader,
+    html.dark-mode body #primaryNavDrawer {
+        background: rgb(32 32 35 / 96%) !important;
+        border-color: #3b3b40 !important;
+        box-shadow: 0 12px 32px -20px rgb(0 0 0 / 75%);
+    }
+    html.dark-mode body #primaryNavDrawer .main-nav-btn:not(.active) { background: #2a2a2e; }
+    html.dark-mode body #primaryNavDrawer .main-nav-btn.active,
+    html.dark-mode body .main-nav-btn[data-nav-target].active { color: #f0f0f2 !important; background: #3a3a3f !important; border-color: #515158 !important; }
+    html.dark-mode body #catalogHeader {
+        background: linear-gradient(145deg, #303034, #222225) !important;
+        color: #f1f1f3 !important;
+        border: 1px solid #414146;
+        box-shadow: 0 16px 36px -28px rgb(0 0 0 / 85%);
+    }
+    html.dark-mode body #catalogHeader h1,
+    html.dark-mode body #manualMain h1,
+    html.dark-mode body #manualMain h2,
+    html.dark-mode body #manualMain h3,
+    html.dark-mode body #manualMain h4,
+    html.dark-mode body #manualMain h5,
+    html.dark-mode body #manualMain h6 { color: #f1f6f2 !important; }
+    html.dark-mode body #catalogHeader .catalog-description,
+    html.dark-mode body #catalogHeader .catalog-search-hint { color: #bdc9c1 !important; }
+    html.dark-mode body #catalogHeader #searchInput {
+        background: #18181b !important;
+        color: #f1f6f2 !important;
+        border: 1px solid #48484e;
+        box-shadow: inset 0 1px 2px rgb(0 0 0 / 22%);
+    }
+    html.dark-mode body #catalogHeader #searchInput::placeholder { color: #98a99e !important; }
+    html.dark-mode body #catalogHeader .catalog-filter {
+        background: #303035 !important;
+        color: #dddddf !important;
+        border: 1px solid #45454b;
+    }
+    html.dark-mode body #catalogHeader .catalog-filter:hover { background: #3a3a40 !important; }
+    html.dark-mode body #catalogHeader .catalog-filter.active {
+        background: #4a4a50 !important;
+        color: #ffffff !important;
+        border-color: #66666d;
+    }
+    html.dark-mode body #productsPanel,
+    html.dark-mode body #padecimientosCatalog > div {
+        background: #19191c !important;
+        border-color: #343439 !important;
+    }
+    html.dark-mode body #productGrid .product-card,
+    html.dark-mode body .product-card[data-product-card] {
+        background: linear-gradient(155deg, #303034, #242427) !important;
+        border: 1px solid #414147 !important;
+        box-shadow: 0 12px 28px -23px rgb(0 0 0 / 90%);
+    }
+    html.dark-mode body #productGrid .product-card:hover,
+    html.dark-mode body .product-card[data-product-card]:hover {
+        background: linear-gradient(155deg, #39393e, #2b2b30) !important;
+        border-color: #5a5a61 !important;
+        box-shadow: 0 18px 34px -22px rgb(0 0 0 / 95%), 0 0 0 1px rgb(220 220 225 / 8%);
+    }
+    html.dark-mode body .product-card { --cat-a: #a0a0a5 !important; --cat-b: #d0d0d4 !important; }
+    html.dark-mode body .product-card::before { opacity: 0.75; filter: grayscale(1); }
+    html.dark-mode body .product-card [style*="color:"] { color: #c3c3c8 !important; }
+    html.dark-mode body .product-card img,
+    html.dark-mode body .guide-product-image img { filter: drop-shadow(0 3px 5px rgb(0 0 0 / 16%)); }
+    html.dark-mode body .guide-product-image,
+    html.dark-mode body #productGrid .product-card .bg-gray-50 {
+        background: #eeeeef !important;
+        border-color: #626268 !important;
+        box-shadow: 0 4px 12px rgb(0 0 0 / 24%);
+    }
+    html.dark-mode body .padecimiento-editorial {
+        --guide-accent: #b2b2b7 !important;
+        --guide-accent-rgb: 178, 178, 183 !important;
+        --guide-soft: #303034 !important;
+        --guide-deep: #e5e5e8 !important;
+        --guide-on-dark: #e0e0e3 !important;
+        --guide-border: #48484e !important;
+        background: linear-gradient(150deg, #29292d, #202023) !important;
+        border-color: #48484e !important;
+        box-shadow: 0 18px 42px -34px rgb(0 0 0 / 90%) !important;
+    }
+    html.dark-mode body .padecimiento-editorial .padecimiento-summary {
+        background: linear-gradient(110deg, #36363b, #29292d) !important;
+        border-color: #48484e !important;
+    }
+    html.dark-mode body .padecimiento-editorial .padecimiento-body,
+    html.dark-mode body .padecimiento-editorial .padecimiento-protocol,
+    html.dark-mode body .padecimiento-editorial .padecimiento-questions,
+    html.dark-mode body .padecimiento-editorial .padecimiento-advisor-questions {
+        background: #202023 !important;
+        border-color: #3b3b40 !important;
+        color: #d9e5dd !important;
+    }
+    html.dark-mode body .padecimiento-editorial-product-card,
+    html.dark-mode body .padecimiento-editorial .padecimiento-product {
+        background: #2b2b2f !important;
+        border-color: #45454b !important;
+        color: #e5f0e8 !important;
+    }
+    html.dark-mode body .padecimiento-editorial .padecimiento-card-description,
+    html.dark-mode body .padecimiento-editorial .padecimiento-editorial-preview-item,
+    html.dark-mode body .padecimiento-editorial .padecimiento-editorial-product-meta { color: #bdcbc2 !important; }
+    html.dark-mode body .padecimiento-editorial .padecimiento-toggle {
+        background: #3a3a40 !important;
+        color: #f0f0f2 !important;
+        border-color: #56565d !important;
+    }
+    html.dark-mode body .no-print[role="note"] { border-left-color: #9b9ba1 !important; }
+    html.dark-mode body .no-print[role="note"] p { color: #bdbdc2 !important; }
+    html.dark-mode body .no-print[role="note"] strong { color: #ededf0 !important; }
+    html.dark-mode body :is([class*="bg-red-50"], [class*="bg-rose-50"], [class*="bg-orange-50"], [class*="bg-yellow-50"], [class*="bg-emerald-50"], [class*="bg-teal-50"], [class*="bg-cyan-50"], [class*="bg-sky-50"], [class*="bg-blue-50"], [class*="bg-indigo-50"], [class*="bg-violet-50"], [class*="bg-purple-50"], [class*="bg-pink-50"], [class*="bg-green-50"]) {
+        background-color: #252528 !important;
+    }
+}
+
+@media (max-width: 600px), (hover: none), (pointer: coarse) {
+    .main-header-inner { grid-template-columns: 1fr; }
+    .main-header-brand { position: relative; justify-content: center; }
+    .main-header-logo { max-width: calc(100% - 48px); }
+    .theme-toggle { position: absolute; right: 0; width: 38px; height: 38px; flex-basis: 38px; margin-left: 0; }
+}
+
+.product-sheet-nutrition-serving,
+.product-sheet-nutrition-note {
+    margin: 0.45rem 0 0.75rem;
+    color: #66716b;
+    font-size: 0.78rem;
+    line-height: 1.5;
+}
+.product-sheet-nutrition-table-wrap { width: 100%; overflow-x: auto; }
+.product-sheet-nutrition-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; text-align: left; }
+.product-sheet-nutrition-table th,
+.product-sheet-nutrition-table td { padding: 0.55rem 0.45rem; border-bottom: 1px solid #e5e7eb; }
+.product-sheet-nutrition-table th { color: #4b5563; font-size: 0.7rem; font-weight: 700; }
+.product-sheet-nutrition-table td:not(:first-child),
+.product-sheet-nutrition-table th:not(:first-child) { text-align: right; white-space: nowrap; }
+.product-sheet-nutrition-table td:first-child { font-weight: 600; }
+html.dark-mode body .product-sheet-nutrition-serving,
+html.dark-mode body .product-sheet-nutrition-note { color: #bdbdc2; }
+html.dark-mode body .product-sheet-nutrition-table th,
+html.dark-mode body .product-sheet-nutrition-table td { color: #e5e5e8; border-color: #414147; }
+.product-sheet-yield-fact small { display: block; margin-top: 0.25rem; color: #6b7280; font-size: 0.68rem; line-height: 1.4; }
+html.dark-mode body .product-sheet-yield-fact small { color: #b4b4ba; }

@@ -1643,6 +1643,111 @@
             }
         });
 
+        function parseYieldNumber(value) {
+            const raw = String(value || '').trim();
+            if (/^\d{1,3},\d{3}$/.test(raw)) return Number(raw.replace(',', ''));
+            return Number(raw.replace(',', '.'));
+        }
+
+        function getProductYield(product) {
+            const explicit = product.yieldInfo;
+            if (explicit?.durationDays) {
+                return { value: formatYieldDays(Math.round(Number(explicit.durationDays))), note: explicit.note || 'Estimado según la presentación y el consumo indicados.' };
+            }
+            if (explicit?.servingsPerContainer && explicit?.servingsPerDay) {
+                const days = Math.round(Number(explicit.servingsPerContainer) / Number(explicit.servingsPerDay));
+                return { value: formatYieldDays(days), note: explicit.note || 'Estimado según las porciones indicadas.' };
+            }
+
+            const productName = product.name || '';
+            const unitCountMatch = productName.match(/(\d+(?:[.,]\d+)?)\s*(cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|tablets?|pastillas?|tabs|comprimidos|sobres|sachets|sticks|ampolletas?|ampollas?|porciones|servicios)\b/i);
+            const packageSizeMatch = productName.match(/(\d+(?:[.,]\d+)?)\s*(kg|kilogramos?|gr|g|lbs?|ml|mililitros?|l|litros?)\b/i);
+
+            let packageAmount = null;
+            let packageUnit = null;
+            let packageLabel = '';
+            if (product.nutritionFacts?.servingsPerContainer) {
+                packageAmount = parseYieldNumber(product.nutritionFacts.servingsPerContainer);
+                packageUnit = 'servings';
+                packageLabel = `${packageAmount} porciones`;
+            } else if (unitCountMatch) {
+                packageAmount = parseYieldNumber(unitCountMatch[1]);
+                packageUnit = 'count';
+                packageLabel = `${packageAmount} ${unitCountMatch[2]}`;
+            } else if (packageSizeMatch) {
+                const rawAmount = parseYieldNumber(packageSizeMatch[1]);
+                const rawUnit = packageSizeMatch[2].toLowerCase();
+                if (/^(kg|kilogramos?)$/.test(rawUnit)) {
+                    packageAmount = rawAmount * 1000;
+                    packageUnit = 'weight';
+                    packageLabel = `${rawAmount} kg`;
+                } else if (/^lbs?$/.test(rawUnit)) {
+                    packageAmount = rawAmount * 453.592;
+                    packageUnit = 'weight';
+                    packageLabel = `${rawAmount} lb`;
+                } else if (/^(gr|g)$/.test(rawUnit)) {
+                    packageAmount = rawAmount;
+                    packageUnit = 'weight';
+                    packageLabel = `${rawAmount} g`;
+                } else if (/^(l|litros?)$/.test(rawUnit)) {
+                    packageAmount = rawAmount * 1000;
+                    packageUnit = 'volume';
+                    packageLabel = `${rawAmount} L`;
+                } else {
+                    packageAmount = rawAmount;
+                    packageUnit = 'volume';
+                    packageLabel = `${rawAmount} ml`;
+                }
+            }
+
+            if (!packageAmount || !packageUnit) {
+                return { value: 'Datos incompletos', note: 'El catálogo aún no registra cuántas cápsulas, tabletas, sobres, gramos o mililitros contiene este envase.' };
+            }
+
+            if (packageUnit === 'servings') {
+                return { value: packageLabel, note: 'La duración depende de cuántas porciones se indiquen al día.' };
+            }
+
+            const servingAndDirections = `${product.serving || ''} ${product.intakeInstructions || ''} ${product.timing || ''}`;
+            if (/adultos|niños|niñas|1\s*(?:a|-|hasta)\s*\d+\s*(?:cápsulas?|tabletas?|ml|g|gotas?)/i.test(servingAndDirections)) {
+                return { value: packageLabel, note: 'La dosis varía según la persona; confirmar la duración con la etiqueta.' };
+            }
+
+            const amountPattern = packageUnit === 'count'
+                ? /(\d+(?:[.,]\d+)?)\s*(?:cápsulas?|caps(?:ules?)?|softgels?|perlas?|gomitas?|gummies?|tabletas?|tablets?|pastillas?|tabs|comprimidos|sobres|sachets|sticks|ampolletas?|ampollas?)/i
+                : packageUnit === 'weight'
+                    ? /(\d+(?:[.,]\d+)?)\s*(?:kg|kilogramos?|gr|g)\b/i
+                    : /(\d+(?:[.,]\d+)?)\s*(?:ml|mililitros?|l|litros?)\b/i;
+            const doseMatch = (product.intakeInstructions || '').match(amountPattern) || (product.serving || '').match(amountPattern);
+            const frequencyText = `${product.intakeInstructions || ''} ${product.timing || ''} ${product.serving || ''}`;
+            const frequencyMatch = frequencyText.match(/(\d+|una|un|dos|tres|cuatro|cinco|seis)\s*(?:veces|tomas)\s*(?:al|por)\s*día/i);
+            const spells = { una: 1, un: 1, dos: 2, tres: 3, cuatro: 4, cinco: 5, seis: 6 };
+            let frequency = frequencyMatch ? (Number(frequencyMatch[1]) || spells[frequencyMatch[1].toLowerCase()]) : null;
+            if (!frequency && /(?:al|por)\s*día|diariamente|cada 24 horas/i.test(frequencyText)) frequency = 1;
+
+            const assumedOnePortionDaily = Boolean(doseMatch && !frequency);
+            if (assumedOnePortionDaily) frequency = 1;
+            if (doseMatch && frequency) {
+                const dailyAmount = parseYieldNumber(doseMatch[1]) * frequency;
+                if (dailyAmount > 0) {
+                    const days = Math.round(packageAmount / dailyAmount);
+                    const note = assumedOnePortionDaily
+                        ? `Estimado suponiendo 1 porción al día del envase de ${packageLabel}; confirmar la frecuencia en la etiqueta.`
+                        : `Estimado con el envase de ${packageLabel} y la dosis diaria registrada.`;
+                    return { value: formatYieldDays(days), note };
+                }
+            }
+
+            return { value: packageLabel, note: 'Falta confirmar una dosis diaria para calcular los días de uso.' };
+        }
+
+        function formatYieldDays(days) {
+            const safeDays = Math.max(1, days);
+            const months = safeDays / 30;
+            const monthText = Number.isInteger(months) ? String(months) : months.toFixed(1).replace('.', ',');
+            return `≈ ${safeDays} días (≈ ${monthText} ${months === 1 ? 'mes' : 'meses'})`;
+        }
+
         function openModal(id) {
             const p = productos.find(prod => prod.id === id);
             if (!p) return;
@@ -1660,6 +1765,32 @@
             document.getElementById('modalDescription').textContent = p.shortDesc;
             document.getElementById('modalIngredients').textContent = p.ingredients || 'No especificado';
             document.getElementById('modalServing').textContent = p.serving || 'No especificado';
+            const productYield = getProductYield(p);
+            document.getElementById('modalYield').textContent = productYield.value;
+            document.getElementById('modalYieldNote').textContent = productYield.note;
+
+            const nutritionWrap = document.getElementById('modalNutritionWrap');
+            const nutritionFacts = p.nutritionFacts;
+            const nutritionBody = document.getElementById('modalNutritionBody');
+            nutritionBody.replaceChildren();
+            if (nutritionFacts) {
+                document.getElementById('modalNutritionServing').textContent = `Tamaño de la porción: ${nutritionFacts.servingSize || 'No especificado'} · Porciones por envase: ${nutritionFacts.servingsPerContainer || 'No especificado'}`;
+                (nutritionFacts.rows || []).forEach((fact) => {
+                    const row = document.createElement('tr');
+                    [fact.nutrient, fact.perServing, fact.per100g].forEach((value) => {
+                        const cell = document.createElement('td');
+                        cell.textContent = value || '—';
+                        row.appendChild(cell);
+                    });
+                    nutritionBody.appendChild(row);
+                });
+                const nutritionNote = document.getElementById('modalNutritionNote');
+                nutritionNote.textContent = nutritionFacts.note || '';
+                nutritionNote.hidden = !nutritionFacts.note;
+                nutritionWrap.classList.remove('hidden');
+            } else {
+                nutritionWrap.classList.add('hidden');
+            }
 
             // Nuevos campos
             document.getElementById('modalTiming').textContent = p.timing || 'Según lo indicado en la porción sugerida.';
@@ -1974,6 +2105,21 @@
             });
             updateManualView();
         }
+
+        const themeToggle = document.getElementById('themeToggle');
+        function updateThemeToggle(isDark) {
+            document.documentElement.classList.toggle('dark-mode', isDark);
+            document.body.classList.toggle('dark-mode', isDark);
+            themeToggle?.setAttribute('aria-pressed', String(isDark));
+            themeToggle?.setAttribute('aria-label', isDark ? 'Activar modo claro' : 'Activar modo oscuro');
+            themeToggle?.setAttribute('title', isDark ? 'Activar modo claro' : 'Activar modo oscuro');
+        }
+        updateThemeToggle(document.documentElement.classList.contains('dark-mode'));
+        themeToggle?.addEventListener('click', () => {
+            const isDark = !document.documentElement.classList.contains('dark-mode');
+            updateThemeToggle(isDark);
+            try { localStorage.setItem('manual-theme', isDark ? 'dark' : 'light'); } catch (_) { /* El tema queda activo durante esta visita. */ }
+        });
 
         // Inicializar
         populateSideMenuFilters();

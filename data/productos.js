@@ -964,12 +964,31 @@ window.manualData.productos = [
     code: "7500645000524",
     name: "BERBERINA",
     category: "metabolismo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/08/ber.jpg",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/10/BERBERINE1-1.jpg",
     shortDesc: "Berberina HCI, alcaloide natural para apoyar el metabolismo de la glucosa y lípidos.",
-    ingredients: "Berberina HCI 500 mg por cápsula.",
-    serving: "1 cápsula (500 mg)",
+    ingredients: "Por porción de 2 cápsulas (1.01 g): berberina HCL 1,000 mg y zinc 1 mg (procedente de 5 mg de glicinato de zinc).",
+    serving: "2 cápsulas (1.01 g)",
     timing: "Con alimentos",
-    intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
+    intakeInstructions: "Consultar la etiqueta para conocer el modo de empleo. La porción de la información nutrimental es de 2 cápsulas (1.01 g).",
+    nutritionFacts: {
+      servingSize: "2 cápsulas (1.01 g)",
+      servingsPerContainer: "30",
+      rows: [
+        { nutrient: "Contenido energético", perServing: "0.12 kcal / 0.49 kJ", per100g: "12 kcal / 49 kJ" },
+        { nutrient: "Proteínas", perServing: "0 g", per100g: "0 g" },
+        { nutrient: "Grasas totales (lípidos)", perServing: "0 g", per100g: "0 g" },
+        { nutrient: "Carbohidratos (hidratos de carbono)", perServing: "0.03 g", per100g: "3 g" },
+        { nutrient: "Sodio", perServing: "0 mg", per100g: "0 mg" },
+        { nutrient: "Berberina HCL", perServing: "1,000 mg", per100g: "99 g" },
+        { nutrient: "Zinc", perServing: "1 mg", per100g: "100 mg" }
+      ],
+      note: "El zinc corresponde a 5 mg de glicinato de zinc por porción."
+    },
+    yieldInfo: {
+      servingsPerContainer: 30,
+      servingsPerDay: 1,
+      note: "Rendimiento de 30 días: 30 porciones de 2 cápsulas, a 1 porción al día."
+    },
     benefits: [
       "Apoya el metabolismo de la glucosa",
       "Contribuye a la sensibilidad a la insulina",
@@ -6738,6 +6757,32 @@ window.manualData.productos = [
     contraindications: "No usar durante el embarazo o la lactancia. Personas con antecedentes o enfermedades hepáticas, condiciones sensibles a hormonas, alergia a la soja o bajo tratamiento médico deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha recomienda consumirlo con alimentos. No especifica otras interacciones con alimentos.",
     interactions: "Consultar a un profesional de la salud antes de combinarlo con medicamentos, tratamientos hormonales u otros suplementos con fitoestrógenos. La ficha advierte precaución por posibles interacciones y por antecedentes hepáticos."
+},
+
+// 274. EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C
+{
+    id: 274,
+    code: "",
+    name: "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
+    category: "inmune",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/10/GUANABANA.webp",
+    shortDesc: "Extracto líquido de hojas de guanábana con vitamina C. Presentación de 1 L; la ficha recibida indica 60 mg de vitamina C por cada 60 mL.",
+    ingredients: "Extracto acuoso de hojas de guanábana (cantidad no especificada), vitamina C (60 mg por 60 mL), agua purificada, ácidos cítrico y tartárico, stevia (12 mg por 60 mL), saborizante de guanábana, dióxido de titanio, color caramelo, benzoato de sodio y sorbato de potasio; según la ficha técnica recibida.",
+    serving: "30 mL (1 oz) por toma; la ficha recibida indica 2 tomas al día (60 mL al día).",
+    timing: "Confirmar el horario de consumo en la etiqueta vigente.",
+    intakeInstructions: "Agitar antes de usar. La ficha recibida indica 30 mL dos veces al día y refrigerar después de abrir; confirmar modo de empleo y conservación en la etiqueta del envase actual.",
+    yieldInfo: {
+        durationDays: 16.6667,
+        note: "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
+    },
+    benefits: [
+        "Aporta 60 mg de vitamina C por cada 60 mL, según la ficha técnica recibida",
+        "Combina vitamina C con extracto líquido de hojas de guanábana",
+        "Presentación líquida de 1 L"
+    ],
+    contraindications: "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
+    foodInteractions: "No especificadas de forma verificable en la etiqueta proporcionada.",
+    interactions: "La ficha recibida recomienda consultar antes de combinarlo con medicamentos para la presión arterial o la glucosa. Debido a que el extracto de hojas no está cuantificado, consultar con un profesional de la salud antes de combinarlo con medicamentos."
 },
 
 ];
