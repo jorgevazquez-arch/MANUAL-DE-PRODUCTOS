@@ -2,6 +2,8 @@
 
 **Guia para el asesor en ventas | Edicion 2026**
 
+> **Material de formación interna. No es publicidad ni información dirigida al consumidor.**
+
 > Material informativo interno. No constituye consejo, diagnostico ni tratamiento medico. Consultar a un profesional de la salud antes de iniciar suplementacion.
 
 # SECCIÓN 1: INTRODUCCIÓN PARA EL ASESOR

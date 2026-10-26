@@ -1,4 +1,28 @@
         body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+        .company-policy-notice {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 18px 24px;
+            border-bottom: 2px solid #c6dace;
+            background: #fff;
+            color: #14532d;
+            text-align: center;
+            font-size: clamp(19px, 2vw, 26px);
+            line-height: 1.5;
+        }
+        .company-policy-notice strong { max-width: 1100px; }
+        html.dark-mode .company-policy-notice {
+            border-bottom-color: #46624f;
+            background: #1f2937;
+            color: #dcfce7;
+        }
+        @media (max-width: 600px) {
+            .company-policy-notice { padding: 16px; }
+        }
+        @media (min-width: 1024px) {
+            .company-policy-notice { margin-left: 190px; }
+        }
         h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
         .internal-training-notice {
             display: flex;

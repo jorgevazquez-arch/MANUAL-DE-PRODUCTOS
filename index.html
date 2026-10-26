@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
-    <link rel="stylesheet" href="./css/styles.css?v=20261022-aviso-interno">
+    <link rel="stylesheet" href="./css/styles.css?v=20261026-politica-interna-r5">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
@@ -15,6 +15,10 @@
     </script>
 </head>
 <body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
+
+    <aside class="company-policy-notice no-print" role="note" aria-label="Política de uso interno">
+        <strong>Material de formación interna. No es publicidad ni información dirigida al consumidor.</strong>
+    </aside>
 
     <!-- Encabezado compacto con el logo a la izquierda -->
     <header id="mainCentralHeader" class="no-print sticky top-0 z-40 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 transition-all duration-300">
@@ -47,14 +51,6 @@
         <!-- Contenido Principal -->
         <main id="manualMain" class="w-full py-4 print-container">
 
-            <aside class="internal-training-notice no-print mb-5" role="note" aria-label="Aviso de uso interno">
-                <span class="internal-training-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v6c4 3 8 3 12 0v-6M22 9v7"/></svg></span>
-                <div class="internal-training-copy">
-                    <strong>Material interno de capacitación</strong>
-                    <p>Exclusivo para la fuerza de ventas de El Girasol. Apoya la orientación comercial y no sustituye la valoración de un profesional de la salud.</p>
-                </div>
-            </aside>
-
             <!-- PORTADA PARA PDF (igual) -->
             <div class="cover-page hidden print:flex text-center bg-girasol-green-50/50 rounded-3xl border border-girasol-green-100 p-10">
                 <img src="https://investigacioncbg.com/wp-content/uploads/2025/06/logozencolores.png" alt="ZENnatura" class="h-40 w-auto mx-auto mb-10">
@@ -62,6 +58,7 @@
                 <p class="text-2xl text-girasol-green-700 font-medium mb-12">Guía para el Asesor en Ventas</p>
                 <div class="mt-2 max-w-3xl mx-auto rounded-xl border-2 border-amber-500 bg-amber-50 px-6 py-5 text-amber-950">
                     <p class="text-lg font-extrabold uppercase tracking-wide">Uso exclusivo para capacitación interna de la fuerza de ventas</p>
+                    <p class="mt-3 text-base font-bold">Material de formación interna. No es publicidad ni información dirigida al consumidor.</p>
                     <p class="mt-3 text-base leading-relaxed">Material de apoyo comercial e informativo sobre los suplementos disponibles en El Girasol. No está destinado a distribución pública ni constituye consejo médico, diagnóstico o tratamiento. Las dudas sobre salud deben canalizarse con un profesional de la salud.</p>
                 </div>
                 <p class="mt-auto pt-12 text-xl text-girasol-green-800 font-bold">Edición 2026</p>
@@ -905,6 +902,7 @@
                     <p class="product-sheet-legal-title">Aviso importante</p>
                     <div>
                         <p>ESTE PRODUCTO NO ES UN MEDICAMENTO. SU CONSUMO ES RESPONSABILIDAD DE QUIEN LO RECOMIENDA Y DE QUIEN LO CONSUME.</p>
+                        <p><strong>Material de formación interna. No es publicidad ni información dirigida al consumidor.</strong></p>
                         <p>CONSULTE A SU MÉDICO ANTES DE INICIAR CUALQUIER SUPLEMENTACIÓN, ESPECIALMENTE SI ESTÁ EMBARAZADA, EN LACTANCIA, O BAJO TRATAMIENTO MÉDICO.</p>
                         <p>ESTOS PRODUCTOS NO ESTÁN DESTINADOS A DIAGNOSTICAR, TRATAR, CURAR O PREVENIR NINGUNA ENFERMEDAD.</p>
                     </div>
