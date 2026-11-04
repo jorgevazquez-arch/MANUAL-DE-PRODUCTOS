@@ -19,7 +19,7 @@ Cada producto recibe `choiceNote`, una línea visible en su ficha, tarjeta y com
 
 La ficha muestra porción, momento indicado, relación con alimentos y distribución de tomas. Se reutilizan los datos registrados del producto. No se inventa una hora óptima ni se autoriza dividir la porción si la ficha no lo detalla. Las indicaciones completas siguen visibles.
 
-Las guías utilizan primero la porción y las instrucciones del catálogo del producto, para evitar discrepancias con dosis antiguas guardadas en las guías. Si falta el dato del producto, conservan como respaldo el dato de la guía.
+Las guías utilizan la porción del catálogo como referencia y conservan las condiciones de uso de la guía junto con las instrucciones del catálogo. La pauta individual indicada por el profesional prevalece; las instrucciones generales no deben ocultar restricciones clínicas. Si existe discrepancia de cantidades, verificar la etiqueta y la pauta antes de recomendar.
 
 ## Relaciones entre productos
 

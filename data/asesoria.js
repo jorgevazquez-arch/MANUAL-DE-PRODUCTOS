@@ -13,7 +13,7 @@
         26: 'Espirulina en cápsulas para quien prefiere evitar el sabor del polvo.',
         32: 'Combina extracto y polvo de raíz de ashwagandha, sin magnesio añadido.',
         33: 'Ashwagandha en tabletas: extracto de raíz, frente a las mezclas con otros ingredientes.',
-        35: 'Proteína de res: una fuente distinta al suero de leche, huevo o vegetales.',
+        35: 'Proteína de res con creatina y taurina: la ficha declara 7600 mg de creatina por porción; verificar etiqueta y no sumar creatina sin revisar el total.',
         36: 'Berberina con zinc; la tabla vigente del catálogo usa una porción de 2 cápsulas.',
         46: 'Citrato en polvo con colágeno: opción para quien prefiere una bebida a las cápsulas.',
         50: 'Cloruro en cápsulas con otros nutrientes; alternativa al cloruro en polvo.',
@@ -94,7 +94,41 @@
         [48, 49], [27, 28, 140, 164, 198], [14, 15]
     ];
     // Explicit pairs only. A shared guide alone never establishes complementarity.
-    const complementPairs = [[7, 111], [7, 134], [8, 111], [8, 134], [125, 108]];
+    // Proteínas sin creatina declarada: no extender a proteína de res (35),
+    // cuya ficha ya declara creatina, ni a mezclas con otros activos.
+    const sportProteinIds = [111, 112, 113, 134, 135, 158];
+    const complementPairs = [
+        ...[7, 8].flatMap(id => sportProteinIds.map(proteinId => [id, proteinId])),
+        [125, 108]
+    ];
+    const clinicalReviewGuides = new Set([
+        'cancer_apoyo', 'cirrosis', 'enfermedad_renal', 'enfermedad_renal_diagnosticada',
+        'epilepsia', 'parkinson', 'hipotiroidismo', 'hipertiroidismo',
+        'asma_diagnosticada', 'epoc_diagnosticada', 'enfermedad_inflamatoria_intestinal'
+    ]);
+    padecimientos.forEach(guide => {
+        if (clinicalReviewGuides.has(guide.id)) {
+            guide.safetyNote = 'Revisión profesional previa: esta guía contiene relaciones históricas pendientes de validación clínica individual. No armar paquetes ni iniciar suplementos por el diagnóstico. El equipo tratante debe revisar cada fórmula, medicamentos, función renal o hepática y objetivos nutricionales; ningún producto sustituye el tratamiento.';
+        } else if (['diabetes_tipo2', 'resistencia_insulina', 'somp'].includes(guide.id)) {
+            guide.safetyNote = 'No sumar berberina, canela/cromo e inositoles por rutina. Revisar el tratamiento y el control de glucosa con el profesional antes de añadir suplementos; compartir esta guía no demuestra que la combinación sea segura o superior.';
+        } else if (['ansiedad', 'insomnio', 'depresion_apoyo'].includes(guide.id)) {
+            guide.safetyNote = 'No apilar fórmulas para calma o sueño. Magnesium PM ya contiene 5-HTP, teanina y magnesio; la fórmula de triptófano también contiene teanina. Si usa antidepresivos, sedantes u otros medicamentos, solicitar revisión médica o farmacéutica antes de combinar.';
+        }
+    });
+    // Ampliar formatos de proteína solo en guías deportivas existentes.
+    // Son alternativas entre sí; no se propone consumir varias proteínas.
+    ['fuerza_hipertrofia', 'resistencia_deportiva', 'recuperacion_deportiva'].forEach(id => {
+        const guide = padecimientos.find(item => item.id === id);
+        if (!guide) return;
+        const existing = new Set([...guide.comboPrincipal, ...guide.comboSecundario].map(item => item.id));
+        sportProteinIds.filter(productId => !existing.has(productId)).forEach(productId => {
+            guide.comboSecundario.push({
+                id: productId,
+                usage: 'Elegir una fuente de proteína si la alimentación no cubre el objetivo individual. Revisar alergias y tolerancia; consultar antes si hay enfermedad renal o hepática. Seguir la etiqueta vigente.',
+                rationale: 'Alternativa de fuente, sabor o presentación a la proteína de esta guía. No es un suplemento adicional obligatorio ni implica tomar varias proteínas juntas.'
+            });
+        });
+    });
     const aliases = {
         resistencia_insulina: ['prediabetes', 'pre diabetes', 'resistencia a la insulina', 'glucosa elevada'],
         diabetes_tipo2: ['diabetes tipo 2', 'diabetes tipo ii', 'diabetes 2'],

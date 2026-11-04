@@ -2,6 +2,18 @@
         let activeManualTab = 'productos';
         let matchingSearchProductIds = new Set();
         let directSearchProductIds = new Set();
+        function getSearchGuides(query) {
+            const term = normalizeGuideSearch(query);
+            if (!term) return [];
+            const namedGuides = padecimientos.filter(guide => window.manualAdvisor.guideMatches(guide, term));
+            if (namedGuides.length) return namedGuides;
+            const symptomText = value => normalizeGuideSearch(value).replace(/\barticul\w*/g, 'articul');
+            const words = symptomText(term).split(' ').filter(word => !['de', 'del', 'en', 'el', 'la', 'los', 'las', 'y', 'o', 'al'].includes(word));
+            return padecimientos.filter(guide => words.length > 0 && (guide.symptoms || []).some(symptom => {
+                    const text = symptomText(symptom);
+                    return words.every(word => text.includes(word));
+                }));
+        }
         const reducedManualMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
         const manualEntranceAnimations = new Map();
 
@@ -40,6 +52,11 @@
 
         function updateManualView() {
             const searching = searchInput.value.trim() !== '';
+            const guideFirst = getSearchGuides(searchInput.value).length > 0;
+            const guideSection = document.getElementById('padecimientosGuideWeb');
+            const productSection = document.getElementById('productsCatalog');
+            if (guideFirst) productSection.before(guideSection);
+            else productSection.after(guideSection);
             Object.entries(manualTabSections).forEach(([tab, ids]) => {
                 const visible = searching ? tab !== 'recursos' : tab === activeManualTab;
                 ids.forEach(id => {
@@ -66,10 +83,10 @@
             if (guideCatalog && (searching || activeManualTab === 'guias')) guideCatalog.open = true;
             const guideCount = [...document.querySelectorAll('.padecimiento-card')].filter(card => card.style.display !== 'none').length;
             document.getElementById('globalSearchStatus').textContent = searching
-                ? `${matchingSearchProductIds.size} productos · ${guideCount} guías relacionadas`
+                ? `${guideCount} guías relacionadas · ${matchingSearchProductIds.size} productos`
                 : '';
             document.getElementById('guideSearchContext').hidden = !searching
-                || !padecimientos.some(guide => window.manualAdvisor.guideMatches(guide, searchInput.value));
+                || !guideFirst;
         }
 
         function selectManualTab(tab) {
@@ -541,7 +558,11 @@
             const guideUsage = String(item?.usage || '').trim();
             const legacyTiming = String(item?.timing || '').trim();
             const productTiming = String(product?.timing || '').trim();
-            return product?.intakeInstructions || guideUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
+            const catalogUsage = String(product?.intakeInstructions || '').trim();
+            if (guideUsage && catalogUsage && guideUsage !== catalogUsage) {
+                return `Condición de esta guía: ${guideUsage} Referencia del catálogo (no sustituye la pauta individual): ${catalogUsage}`;
+            }
+            return guideUsage || catalogUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
         }
 
         function escapeGuideAttribute(value) {
@@ -677,7 +698,7 @@
                             <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
                             <p class="padecimiento-card-description">${pad.description}</p>
                             <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
-                                <span class="padecimiento-editorial-preview-title">${pad.primaryOptionsLabel || 'Paquete principal'}</span>
+                                <span class="padecimiento-editorial-preview-title">${pad.primaryOptionsLabel || 'Opciones para valorar'}</span>
                                 <span class="padecimiento-editorial-preview-products">${editorialPreview}</span>
                             </span>
                             <span class="padecimiento-toggle group-open:rotate-180 transition-transform duration-300">
@@ -703,16 +724,6 @@
                                      </ul>
                                     </div>`;
 
-                // Preguntas del asesor
-                const advisorQuestions = getAdvisorQuestions(pad);
-                html += `
-                                    <div class="padecimiento-advisor-questions">
-                                        <span class="padecimiento-editorial-eyebrow">Para investigar</span>
-                                        <h4 class="padecimiento-advisor-questions-title">Preguntas del Asesor</h4>
-                                        <ol class="padecimiento-advisor-questions-list" role="list">
-                                            ${advisorQuestions.map((q, index) => `<li><span class="advisor-question-number" aria-hidden="true">${index + 1}</span><span class="advisor-question-text">${q}</span></li>`).join('')}
-                                        </ol>
-                                    </div>`;
                 html += `
                                 </div>`;
 
@@ -810,6 +821,7 @@
         // Nueva función para filtrar padecimientos por texto y color
         function filterPadecimientos() {
             const searchTerm = normalizeGuideSearch(document.getElementById('searchInput').value);
+            const matchedGuides = new Set(getSearchGuides(searchTerm).map(guide => `padecimiento-${guide.id}`));
             const activeColorButton = document.querySelector('#padColorLegend .pad-color-btn.active');
             const activeColor = searchTerm ? 'all' : (activeColorButton ? activeColorButton.dataset.colorFilter : 'all');
             const relatedGuideIds = new Set(searchTerm ? padecimientos.filter(pad =>
@@ -829,7 +841,8 @@
                 const itemSearchTerms = normalizeGuideSearch(item.dataset.searchTerms);
                 const itemColor = item.dataset.color;
 
-                const matchesSearch = searchTerm === '' || itemSearchTerms.includes(searchTerm) || relatedGuideIds.has(item.id);
+                const matchesSearch = matchedGuides.size ? matchedGuides.has(item.id)
+                    : searchTerm === '' || itemSearchTerms.includes(searchTerm) || relatedGuideIds.has(item.id);
                 const matchesColor = activeColor === 'all' || itemColor === activeColor;
 
                 if (matchesSearch && matchesColor) {
@@ -977,7 +990,7 @@
                                  </tr>
                             </thead>
                             <tbody>
-                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">${pad.primaryOptionsLabel || 'Paquete Principal'}</td></tr>
+                                <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">${pad.primaryOptionsLabel || 'Opciones para valorar'}</td></tr>
                                  ${pad.comboPrincipal.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
                                      return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
@@ -1220,6 +1233,12 @@
                     .filter(p => p !== null);
             }
 
+            const searchGuides = getSearchGuides(searchTerm);
+            if (searchGuides.length) {
+                const guideProductIds = new Set(searchGuides.flatMap(guide => [...guide.comboPrincipal, ...guide.comboSecundario].map(item => item.id)));
+                results = productos.filter(product => guideProductIds.has(product.id))
+                    .map(product => ({ ...product, matchField: 'Guía relacionada · consulta interna' }));
+            }
             matchingSearchProductIds = new Set(searchTerm ? results.map(product => product.id) : []);
             directSearchProductIds = new Set(searchTerm ? results.filter(product => product.matchField !== 'Guía relacionada · consulta interna').map(product => product.id) : []);
             // Ordenar alfabéticamente los resultados
@@ -1378,7 +1397,8 @@
                 } else if (this.value.trim()) {
                     e.preventDefault();
                     const headerHeight = getManualHeaderOffset();
-                    const target = matchingSearchProductIds.size ? productsCatalog : document.getElementById('padecimientosGuideWeb');
+                    const target = getSearchGuides(this.value).length || !matchingSearchProductIds.size
+                        ? document.getElementById('padecimientosGuideWeb') : productsCatalog;
                     window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - headerHeight - 20, behavior: 'smooth' });
                 }
             }

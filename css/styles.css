@@ -1289,8 +1289,12 @@
         }
 
         .product-sheet-legal {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.75rem;
+            line-height: 1.6;
+            text-transform: uppercase;
             display: grid;
-            grid-template-columns: 9rem minmax(0, 1fr);
+            grid-template-columns: minmax(0, 1fr);
             gap: 1rem;
             padding: 1.1rem 1.25rem;
             border: 1px solid #fecaca;
@@ -1300,18 +1304,26 @@
         }
 
         .product-sheet-legal-title {
-            font-size: 0.7rem;
+            font-size: inherit;
             font-weight: 900;
-            letter-spacing: 0.12em;
+            letter-spacing: normal;
             text-transform: uppercase;
         }
 
         .product-sheet-legal > div {
             display: grid;
-            gap: 0.3rem;
-            font-size: 0.62rem;
-            line-height: 1.5;
+            gap: 0.6rem;
+            font-size: inherit;
+            line-height: inherit;
         }
+
+        .product-sheet-legal-policy {
+            padding: 0.7rem 0.85rem;
+            border: 1px solid currentColor;
+            border-left-width: 4px;
+            border-radius: 0.5rem;
+        }
+        .product-sheet-legal-policy strong { font-weight: 800; }
 
         @media (max-width: 900px) {
             .product-sheet-hero { grid-template-columns: minmax(14rem, 0.82fr) minmax(0, 1.18fr); }
@@ -1822,7 +1834,7 @@
         }
 
         .padecimiento-editorial .padecimiento-layout {
-            grid-template-columns: minmax(18rem, 0.82fr) minmax(0, 1.18fr) !important;
+            grid-template-columns: minmax(14rem, 0.65fr) minmax(0, 1.35fr) !important;
             gap: 1rem !important;
             align-items: start;
         }
@@ -3401,18 +3413,18 @@
     #padecimientosCatalog .padecimiento-combos { gap: 16px; }
     #padecimientosCatalog .padecimiento-combos h4 { font-size: 0.95rem; margin-bottom: 10px; }
     #padecimientosCatalog .padecimiento-editorial-product-list { gap: 8px; }
-    #padecimientosCatalog .padecimiento-editorial-product-card { padding: 10px; gap: 8px; }
-    #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 60px minmax(0, 1fr); gap: 10px; }
-    #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 60px; height: 60px; padding: 5px; }
+    #padecimientosCatalog .padecimiento-editorial-product-card { padding: 16px; gap: 12px; }
+    #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; }
+    #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 96px; height: 96px; padding: 6px; }
     #padecimientosCatalog .padecimiento-editorial-product-info { gap: 4px; }
-    #padecimientosCatalog .padecimiento-editorial-product-name { padding: 5px 8px; font-size: 0.8rem; line-height: 1.35; }
-    #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.78rem; line-height: 1.45; }
+    #padecimientosCatalog .padecimiento-editorial-product-name { padding: 7px 10px; font-size: 1rem; line-height: 1.35; }
+    #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.9rem; line-height: 1.5; }
     @media (max-width: 480px) {
         #catalogHeader { padding: 16px 12px; }
         #productsPanel, #padecimientosCatalog > div { padding: 12px; }
-        #padecimientosCatalog .padecimiento-editorial-product-card { padding: 9px; gap: 5px; }
-        #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 48px minmax(0, 1fr); gap: 8px; }
-        #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 48px; height: 48px; padding: 4px; }
+        #padecimientosCatalog .padecimiento-editorial-product-card { padding: 12px; gap: 6px; }
+        #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 72px minmax(0, 1fr); gap: 10px; }
+        #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 72px; height: 72px; padding: 4px; }
     }
 }
 
