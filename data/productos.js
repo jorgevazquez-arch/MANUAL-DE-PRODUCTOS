@@ -101,7 +101,7 @@ window.manualData.productos = [
     name: "COMPLEJO B CON ARANDANO (90 cápsulas)",
     benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
     category: "metabolismo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/COMPLEJO-B-CON-ARANDANO-C90-CAPS-ZN.png",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/11/complejobyarandanoportada.webp",
     shortDesc: "Complejo de vitaminas del grupo B con extracto de arándano, para el metabolismo energético, la función neurológica y la protección celular.",
     ingredients: "Vitaminas B1, B2, B3, B5, B6, B7, B9, B12; extracto de arándano (Vaccinium myrtillus).",
     serving: "3 cápsulas",
