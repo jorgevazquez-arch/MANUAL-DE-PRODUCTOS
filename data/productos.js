@@ -6508,7 +6508,7 @@ window.manualData.productos = [
     name: "FW FACTOR WOMEN",
     benefitSummary: "Bienestar femenino y cambios de etapa",
     category: "hormonal",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Factor-Women.png",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/FACTOR-WOMEN-YPENZA.webp",
     shortDesc: "Suplemento con 20 ingredientes bioactivos para la fisiología femenina: Isoflavonas de soya, Dong Quai, Black Cohosh, Maca, Guaraná, Ginseng, Rusco, Castaño de Indias, Jalea Real, Polen, vitaminas B12 y E.",
     ingredients: "Isoflavonas de Soya (Glycine max), Dong Quai (Angelica sinensis), Black Cohosh (Actaea racemosa), Maca (Lepidium meyenii), Damiana de California (Turnera diffusa), Garañona (Castilleja tenuiflora), Butcher's Broom (Ruscus aculeatus), Castaño de Indias (Aesculus hippocastanum L.), Uva Roja (Vitis vinifera), Ginseng (Panax ginseng), Guaraná (Paullinia cupana), Acai (Euterpe oleracea mart), Canela (Cinnamomum zeylanicum), Semilla de Calabaza (Cucurbita pepo L.), Zarzaparrilla (Smilax aspera), Perejil (Petroselinum crispum), Vitamina B12 (cianocobalamina) 3 µg, Vitamina E (DL-Alfa Tocoferol) 5 mg, Jalea Real Liofilizada, Polen en polvo.",
     serving: "2 cápsulas al día (1400 mg)",
