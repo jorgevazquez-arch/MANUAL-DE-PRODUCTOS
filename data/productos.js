@@ -6583,7 +6583,7 @@ window.manualData.productos = [
     name: "BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS",
     benefitSummary: "Calcio para huesos y complemento digestivo",
     category: "nutricional",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/01/Baria-Sure-Fresa-1.1kg.png",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/11/BARIA-SURE.webp",
     shortDesc: "Suplemento en polvo con citrato de calcio (~1500 mg por porción), 15 cepas probióticas, inulina de agave y proteína de suero (WPC). Sabor fresa, sin azúcar añadido.",
     ingredients: "Citrato de Calcio (~1500 mg por porción), Concentrado de Proteína de Suero de Leche (WPC), 15 Cepas Probióticas (mezcla patentada de Lactobacillus, Bifidobacterium y Bacillus coagulans), Inulina de Agave, Saborizante natural a fresa, Edulcorante (sin azúcar añadido).",
     serving: "15 g (aproximadamente 2 cucharadas dosificadoras) al día",
