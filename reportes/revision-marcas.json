@@ -1,0 +1,837 @@
+{
+  "date": "2026-11-09",
+  "scope": "Validación de IDs concretos de whitelist y omisiones, mediante SKU y tienda oficial; para productos retirados de tienda se inspeccionó visualmente etiqueta del catálogo. No implica verificación de toda whitelist restante.",
+  "confirmedIds": [
+    2,
+    3,
+    16,
+    18,
+    20,
+    32,
+    33,
+    45,
+    49,
+    53,
+    67,
+    79,
+    86,
+    87,
+    88,
+    92,
+    93,
+    94,
+    95,
+    102,
+    103,
+    104,
+    119,
+    122,
+    128,
+    136,
+    137,
+    145,
+    148,
+    150,
+    151,
+    154,
+    163,
+    166,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    181,
+    182,
+    227,
+    228,
+    246
+  ],
+  "rejectedIds": [
+    110,
+    185,
+    186,
+    187
+  ],
+  "uncertainIds": [
+    168,
+    242
+  ],
+  "sources": [
+    {
+      "id": 2,
+      "url": "https://cbelgirasol.com.mx/products/coconut-oregano-oil",
+      "title": "Coconut + Oregano Oil",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001439"
+      ],
+      "catalogCode": "7500645001439",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 2,
+      "url": "https://www.zennatura.mx/products/coconut-oregano-oil-de-60-caps-500mg",
+      "title": "Coconut + Oregano Oil | 60 caps | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645001439"
+      ],
+      "catalogCode": "7500645001439",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 18,
+      "url": "https://cbelgirasol.com.mx/products/acido-hialuronico-1100-grs-zn",
+      "title": "ÁCIDO HIALURONICO Y COLÁGENO HIDROLIZADO | ZENNATURA 1.1KG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503026253755"
+      ],
+      "catalogCode": "7503026253755",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 18,
+      "url": "https://www.zennatura.mx/products/acido-hialuronico-y-colageno-hidrolizado-1-1kg",
+      "title": "Ácido Hialurónico y Colágeno Hidrolizado | 1.1 kg (polvo)",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253755"
+      ],
+      "catalogCode": "7503026253755",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 45,
+      "url": "https://cbelgirasol.com.mx/products/polinicotinato-de-cromo-y-l-carnitina-tartrato-zennatura-400mg",
+      "title": "POLINICOTINATO DE CROMO Y L-CARNITINA TARTRATO | ZENNATURA 400MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503026253601"
+      ],
+      "catalogCode": "7503026253601",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 45,
+      "url": "https://www.zennatura.mx/products/polinicotinato-de-cromo-l-carnitina-tartrato-estearato-de-magnesio",
+      "title": "Chromium | Polinicotinato de Cromo y L-Carnitina Tartrato | 60 caps | 400 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253601"
+      ],
+      "catalogCode": "7503026253601",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 49,
+      "url": "https://cbelgirasol.com.mx/products/clorofila-liquida-zennatura-500mg",
+      "title": "CLOROFILA LIQUIDA | ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503029679118"
+      ],
+      "catalogCode": "7503029679118",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 49,
+      "url": "https://www.zennatura.mx/products/clorofila-liquida-500mg",
+      "title": "Clorofila | 500 ml",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503029679118"
+      ],
+      "catalogCode": "7503029679118",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 79,
+      "url": "https://cbelgirasol.com.mx/products/inositol-en-polvo-zennatura-500mg",
+      "title": "INOSITOL EN CAPSULAS| ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7500645000395"
+      ],
+      "catalogCode": "7500645000395",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 79,
+      "url": "https://www.zennatura.mx/products/inositol-en-polvo-500mg",
+      "title": "Inositol Powder | 120 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000395"
+      ],
+      "catalogCode": "7500645000395",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 86,
+      "url": "https://cbelgirasol.com.mx/products/leucaps-zen-c-60-caps-zn",
+      "title": "BETACAROTENO | ZENNATURA LEUCAPSZEN 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503025069401"
+      ],
+      "catalogCode": "7503025069401",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 86,
+      "url": "https://www.zennatura.mx/products/betacaroteno-500mg",
+      "title": "Leucaps | Betacaroteno | 60 Cápsulas | 1000 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503025069401"
+      ],
+      "catalogCode": "7503025069401",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 88,
+      "url": "https://cbelgirasol.com.mx/products/maca-negra-organica-c-150-grs-zn",
+      "title": "MACA NEGRA ORGANICA C/150 GRS ZN",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503021404893"
+      ],
+      "catalogCode": "7503021404893",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 92,
+      "url": "https://cbelgirasol.com.mx/products/magnesium-malate-de-700mg",
+      "title": "Magnesium Malate De 700MG",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001491"
+      ],
+      "catalogCode": "7500645001491",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 93,
+      "url": "https://cbelgirasol.com.mx/products/magnesium-dual-am-de-600mg",
+      "title": "Magnesium Dual AM De 600MG",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001453"
+      ],
+      "catalogCode": "7500645001453",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 94,
+      "url": "https://cbelgirasol.com.mx/products/magnesium-dual-pm-de-600mg",
+      "title": "Magnesium Dual PM De 600MG",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001538"
+      ],
+      "catalogCode": "7500645001538",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 95,
+      "url": "https://cbelgirasol.com.mx/products/mango-africano-zennatura",
+      "title": "MANGO AFRICANO | ZENNATURA",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7500645000531"
+      ],
+      "catalogCode": "7500645000531",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 95,
+      "url": "https://www.zennatura.mx/products/mango-africano-500mg",
+      "title": "Mango Africano | 30 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000531"
+      ],
+      "catalogCode": "7500645000531",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 102,
+      "url": "https://cbelgirasol.com.mx/products/uc-ii-collagen-boswellia-curcumin",
+      "title": "UC-II Collagen Boswellia Curcumin",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001507"
+      ],
+      "catalogCode": "7500645001507",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 103,
+      "url": "https://www.zennatura.mx/products/vinagre-de-manazana-organico-liquido-500ml",
+      "title": "Vinagre de Manzana Orgánico Líquido | Con la Madre | 500 ml",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "75030250698909"
+      ],
+      "catalogCode": "7503025069890",
+      "matchingBasis": "Nombre, presentación líquida 500ml con madre y fórmula; SKU tienda tiene un dígito adicional (75030250698909 vs 7503025069890)."
+    },
+    {
+      "id": 104,
+      "url": "https://cbelgirasol.com.mx/products/vinagre-de-sidra-de-manzana-organico-zennatura",
+      "title": "VINAGRE DE SIDRA DE MANZANA ORGÁNICO | ZENNATURA",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7500645000432"
+      ],
+      "catalogCode": "7500645000432",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 104,
+      "url": "https://www.zennatura.mx/products/vinagre-de-sidra-de-manzana-500mg",
+      "title": "Vinagre de Sidra de Manzana | 120 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000432"
+      ],
+      "catalogCode": "7500645000432",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 122,
+      "url": "https://cbelgirasol.com.mx/products/omega-3-salmon-zennatura",
+      "title": "OMEGA 3 SALMÓN | ZENNATURA",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7500645000036"
+      ],
+      "catalogCode": "7500645000036",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 122,
+      "url": "https://www.zennatura.mx/products/omega-3-salmon-oil-1gr",
+      "title": "Omega 3 | Salmon Oil con Vitamina E | 120 Cápsulas | 1 g",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000036"
+      ],
+      "catalogCode": "7500645000036",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 136,
+      "url": "https://cbelgirasol.com.mx/products/coenzima-q10-zennatura-500mg",
+      "title": "COENZIMA Q10 | ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503021404879"
+      ],
+      "catalogCode": "7503021404879",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 136,
+      "url": "https://www.zennatura.mx/products/coenzima-q10-500mg",
+      "title": "Coenzima Q10 | 30 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503021404879"
+      ],
+      "catalogCode": "7503021404879",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 137,
+      "url": "https://www.zennatura.mx/products/raiz-de-shatavari-schisandra-1000mg",
+      "title": "Raíz de Shatavari + Schisandra | 60 Cápsulas | 1000 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000845"
+      ],
+      "catalogCode": "7500645000845",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 145,
+      "url": "https://cbelgirasol.com.mx/products/soy-lecithin-choline-de-650mg",
+      "title": "Soy Lecithin + Choline De 650MG",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001484"
+      ],
+      "catalogCode": "7500645001484",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 148,
+      "url": "https://cbelgirasol.com.mx/products/hierba-del-sapo-zennatura-500mg",
+      "title": "HIERBA DEL SAPO | ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503026253892"
+      ],
+      "catalogCode": "7503026253892",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 148,
+      "url": "https://www.zennatura.mx/products/hierba-del-sapo-c-90-caps-zen",
+      "title": "To Adzen | Hierba del Sapo | 90 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253892"
+      ],
+      "catalogCode": "7503026253892",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 151,
+      "url": "https://cbelgirasol.com.mx/products/zen-greens-200g",
+      "title": "Zen Greens 200G",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001446"
+      ],
+      "catalogCode": "7500645001446",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 154,
+      "url": "https://cbelgirasol.com.mx/products/calcium-citrate-51omg",
+      "title": "Calcium Citrate 51Omg",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001514"
+      ],
+      "catalogCode": "7500645001514",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 163,
+      "url": "https://www.zennatura.mx/products/ashwa-mag-complex-120-caps-770mg",
+      "title": "Ashwa + Mag Complex | 120 caps | 770mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [],
+      "catalogCode": "7500645001668",
+      "matchingBasis": "Producto y presentación figuran en tienda oficial propia y línea Nueva Generación. No inferir de SKU ausente."
+    },
+    {
+      "id": 182,
+      "url": "https://www.zennatura.mx/products/casta-o-de-indias-150g",
+      "title": "Moroizy | Gel Herbal de Aplicación Tópica | Castaño de Indias de 150 g",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253700"
+      ],
+      "catalogCode": "7503026253700",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 227,
+      "url": "https://cbelgirasol.com.mx/products/citrato-de-magnesio-zennatura-250mg",
+      "title": "CITRATO DE MAGNESIO | ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503026253991"
+      ],
+      "catalogCode": "7503026253991",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 227,
+      "url": "https://www.zennatura.mx/products/citrato-de-magnesio-500mg",
+      "title": "Citrato de Magnesio | 90 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253991"
+      ],
+      "catalogCode": "7503026253991",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 228,
+      "url": "https://cbelgirasol.com.mx/products/glicinato-de-magnesio-zennatura-500mg",
+      "title": "GLICINATO DE MAGNESIO | ZENNATURA 500MG",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7500645000876"
+      ],
+      "catalogCode": "7500645000876",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 228,
+      "url": "https://www.zennatura.mx/products/glicinato-de-magnesio-500mg",
+      "title": "Glicinato de Magnesio | 90 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000876"
+      ],
+      "catalogCode": "7500645000876",
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+    },
+    {
+      "id": 246,
+      "url": "https://www.zennatura.mx/products/l-glutamina-nag-90g",
+      "title": "L-Glutamina + NAG | Polvo | 90 g",
+      "vendor": "ZenNaturaMX",
+      "sku": [],
+      "catalogCode": "7500645001583",
+      "matchingBasis": "Producto y presentación figuran en tienda oficial propia y línea Nueva Generación. No inferir de SKU ausente."
+    },
+    {
+      "ids": [
+        2,
+        92,
+        93,
+        94,
+        102,
+        145,
+        151,
+        154,
+        163,
+        246
+      ],
+      "url": "https://zennatura.mx/nueva-generacion/",
+      "matchingBasis": "Página oficial presenta estos productos como Línea Zen Natura 2026; títulos coinciden con catálogo."
+    },
+    {
+      "id": 3,
+      "url": "https://www.zennatura.mx/products/colageno-en-polvo-hidrolizado-500gr",
+      "title": "Colágeno Hidrolizado | en Polvo | Sin Sabor | 500 gr",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503016797153"
+      ],
+      "catalogCode": "7503016797153",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 3,
+      "url": "https://cbelgirasol.com.mx/products/colageno-hidrolizado-en-polvo-500-grs-gl",
+      "title": "COLÁGENO EN POLVO HIDROLIZADO | ZENNATURA 500GR",
+      "vendor": "GREEN LIFE",
+      "sku": [
+        "7503016797153"
+      ],
+      "catalogCode": "7503016797153",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 16,
+      "url": "https://www.zennatura.mx/products/aceite-de-oregano-20ml",
+      "title": "Aceite de Orégano Orgánico | 20 ml (70% carvacrol)",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645001118"
+      ],
+      "catalogCode": "7500645001118",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 16,
+      "url": "https://cbelgirasol.com.mx/products/aceite-de-oregano-organico-20-ml-70-carvacrol",
+      "title": "Aceite de Orégano Orgánico | 20 ml (70% carvacrol)",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001118"
+      ],
+      "catalogCode": "7500645001118",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 20,
+      "url": "https://www.zennatura.mx/products/aguaje-complex-de-500mg",
+      "title": "Aguaje Complex | 90 caps | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645000753"
+      ],
+      "catalogCode": "7500645000753",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 53,
+      "url": "https://www.zennatura.mx/products/myo-d-chiro-inositol-en-polvo-300g",
+      "title": "Myo + D-Chiro Inositol | Relación 40:1  | Polvo | 300 g",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7500645001071"
+      ],
+      "catalogCode": "7500645001071",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 67,
+      "url": "https://www.zennatura.mx/products/fungone-de-1gr",
+      "title": "Fungone | Complejo de Hongos Funcionales | 60 caps | 1 g",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253618"
+      ],
+      "catalogCode": "7503026253618",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 87,
+      "url": "https://www.zennatura.mx/products/l-tyrosine-500mg",
+      "title": "L-Tyrosine | 60 Cápsulas | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "sku": [
+        "7503026253076"
+      ],
+      "catalogCode": "7503026253076",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 128,
+      "url": "https://cbelgirasol.com.mx/products/potassium-dual-complex",
+      "title": "Potassium Dual Complex",
+      "vendor": "El Girasol",
+      "sku": [
+        "7500645001477"
+      ],
+      "catalogCode": "7500645001477",
+      "matchingBasis": "Coincidencia exacta de SKU/código; marca explícita en tienda oficial propia o texto Zen Natura."
+    },
+    {
+      "id": 119,
+      "url": "https://www.zennatura.mx/products/nmn-advanced-resveratrol-30-caps-550-mg",
+      "title": "NMN Advanced Resveratrol | 30 Cápsulas | 550 mg",
+      "vendor": "ZenNaturaMX",
+      "matchingBasis": "Mismo producto y fórmula identificable en tienda oficial propia; SKU nulo. NMN300/resveratrol100/astrágalo100/quercetina45/pimienta5 para119; bisglicinato con inulina120caps500mg para181."
+    },
+    {
+      "id": 181,
+      "url": "https://www.zennatura.mx/products/bisglicinato-de-magnesio-120-caps-500mg",
+      "title": "Bisglicinato de Magnesio | 120 caps | 500 mg",
+      "vendor": "ZenNaturaMX",
+      "matchingBasis": "Mismo producto y fórmula identificable en tienda oficial propia; SKU nulo. NMN300/resveratrol100/astrágalo100/quercetina45/pimienta5 para119; bisglicinato con inulina120caps500mg para181."
+    },
+    {
+      "id": 32,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
+      "title": "ASHWAGANDA ROOT",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 33,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
+      "title": "ASHWAGANDHA",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 150,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/06/TRIPTOFANO1.jpg",
+      "title": "TRIPTOFANO TEANINA 500 mg",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 166,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2024/02/D3.jpg",
+      "title": "D3 5000 UI",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 169,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-7-AZAHARES-scaled.png",
+      "title": "TÉ 7 AZAHARES",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 170,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ABANGREEN-scaled.png",
+      "title": "TÉ ABANGREEN",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 171,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ARNICA-scaled.png",
+      "title": "TÉ ÁRNICA",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 172,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
+      "title": "TÉ CUACHALALATE",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 173,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-HOJA-SEN-scaled.png",
+      "title": "TÉ HOJA SEN",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 174,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
+      "title": "TÉ JENGIBRE CANELA",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 175,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
+      "title": "TÉ JENGIBRE Y CÚRCUMA",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 176,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-MANZANILLA-1-scaled.png",
+      "title": "TÉ MANZANILLA",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 177,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-RINICHI-scaled.png",
+      "title": "TÉ RINICHI",
+      "matchingBasis": "Imagen del producto descargada y leída visualmente: nombre exacto y logotipo ZENnatura legibles en etiqueta. No se dedujo marca por dominio, nombre de archivo ni prefijo de código."
+    },
+    {
+      "id": 185,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/ASTRAGALO.png",
+      "title": "ASTRÁGALO",
+      "matchingBasis": "Imagen leída visualmente: etiqueta YPENZA SILVER/Ypenza claramente legible. Rechazado como Zennatura."
+    },
+    {
+      "id": 186,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/CALOSTRO-BOVINO.png",
+      "title": "CALOSTRO BOVINO",
+      "matchingBasis": "Imagen leída visualmente: etiqueta YPENZA SILVER/Ypenza claramente legible. Rechazado como Zennatura."
+    },
+    {
+      "id": 187,
+      "url": "https://investigacioncbg.com/wp-content/uploads/2026/07/CELULAS-MADRE.png",
+      "title": "CÉLULAS MADRE",
+      "matchingBasis": "Imagen leída visualmente: etiqueta YPENZA SILVER/Ypenza claramente legible. Rechazado como Zennatura."
+    },
+    {
+      "id": 242,
+      "url": "https://www.sears.com.mx/producto/3644415/prebian-150g-prebioticos-para-probioticos-fibra-sin-sabor",
+      "catalogCode": "7500464128416",
+      "matchingBasis": "SKU exacto identifica marca Prebian. No aparece en catálogos oficiales Zennatura consultados; se conserva sin marca prioritaria."
+    }
+  ],
+  "notes": [
+    {
+      "id": 18,
+      "result": "CONFIRMADO: mismo SKU7503026253755; misma mezcla colágeno/ácido hialurónico/vitaminaE/sábila/omega3, 1.1kg. No confundir con125/126."
+    },
+    {
+      "id": 45,
+      "result": "CONFIRMADO: mismo SKU7503026253601, polinicotinato de cromo CON carnitina. El nombre CHROMIUM es incompleto. La composición actual ya refleja esa mezcla; no presentarlo como cromo aislado."
+    },
+    {
+      "id": 49,
+      "result": "CONFIRMADO: SKU exacto y mezcla hierbabuena/menta/matcha; no confundir con48 Green Life."
+    },
+    {
+      "id": 79,
+      "result": "CONFIRMADO: SKU exacto es inositol EN CÁPSULAS; POWDER y handle en-polvo son nombres históricos erróneos. No confundir con polvo50g Green Life."
+    },
+    {
+      "id": 86,
+      "result": "Marca CONFIRMADA por SKU exacto, pero fórmula pendiente: tienda dice BETACAROTENO mientras catálogo declara luteína/zeaxantina; no inferir equivalencia ni corregir ingredientes sin ficha física."
+    },
+    {
+      "id": 88,
+      "result": "CONFIRMADO: SKU exacto para maca NEGRA ORGÁNICA en polvo150g; no confundir con cápsulas de maca amarilla/roja/negra/pimienta."
+    },
+    {
+      "id": 95,
+      "result": "CONFIRMADO: SKU exacto y mezcla mango/pingüica/diente de león; la tienda no confirma todos los ingredientes adicionales/cantidades que declara el catálogo."
+    },
+    {
+      "id": 103,
+      "result": "Marca CONFIRMADA por producto líquido con madre500ml en tienda oficial; diferencia de1 dígito SKU se registra, no se corrige código a ciegas."
+    },
+    {
+      "id": 104,
+      "result": "Marca CONFIRMADA por SKU, pero existe inconsistencia de fórmula: SKU7500645000432 corresponde a vinagre500mg aislado120caps. La mezcla vinagre900/cúrcuma300/jengibre180/canela115/pimienta5 corresponde a otro producto Zennatura SKU7503026253090 de90caps. Confirmar etiqueta antes de seguir recomendando la mezcla como104."
+    },
+    {
+      "id": 137,
+      "result": "CONFIRMADO en tienda oficial por SKU7500645000845 y mezcla shatavari500/schisandra350/jalea50."
+    },
+    {
+      "id": 148,
+      "result": "CONFIRMADO mismo SKU, hierba del sapo500mg90caps; TO ADZEN es nombre comercial."
+    },
+    {
+      "id": 227,
+      "result": "Marca CONFIRMADA por SKU7503026253991. Cantidades siguen inconsistentes: tienda500mg/cápsula y3/día, catálogo750mg por3cápsulas y1/día. No se cambia dosis por ordenar marca."
+    },
+    {
+      "id": 228,
+      "result": "CONFIRMADO mismo SKU, tienda especifica glicinato+estearato+brócoli; no confundir con glicinato puro o polvo."
+    },
+    {
+      "id": 182,
+      "result": "CONFIRMADO GEL, no cápsulas51: tienda oficial vende Moroizy Gel Herbal de Aplicación Tópica Castaño de Indias150g con SKU7503026253700 exacto."
+    },
+    {
+      "id": 110,
+      "result": "NO ZENNATURA: nombre y vendor tienda GREEN LIFE. Un nombre de archivo de imagen que contiene zennaturamx no cambia la marca.",
+      "url": "https://cbelgirasol.com.mx/collections/funcional-vitaminas"
+    },
+    {
+      "id": 168,
+      "result": "EXCLUIR por identidad ambigua: catálogo código7503016797382, imagen GreenLife y fórmula polen/omega3/licopeno. Tienda HPR Prosgreen Zennatura tiene código7500645000340 y fórmula cúrcuma/calabaza/equinácea. No son el mismo producto.",
+      "url": "https://cbelgirasol.com.mx/products/curcuma-semilla-de-calabaza-aranando-y-zinc-zennatura-500mg-hpr-prosgreen"
+    },
+    {
+      "id": 246,
+      "result": "Marca propia confirmada por página oficial y línea Nueva Generación, pero descripción pública de tienda parece copiada de magnesio; no utilizarla como evidencia de eficacia o fórmula."
+    },
+    {
+      "guide": "deficiencia_vitamina_d",
+      "productId": 55,
+      "result": "Porción1cápsula coincide con catálogo:1000UI=25mcg D3. 1000mg es peso total cápsula, no dosis D. Prioridad comercial no implica mejor corrección de deficiencia que otras fórmulas."
+    },
+    {
+      "scope": "sorting",
+      "result": "sort por grupo solo cambia orden; conserva referencias a objetos, porciones y pertenencia a principal/adicional. Correcto para preferencia de marca sin cambiar roles."
+    },
+    {
+      "id": 3,
+      "result": "CONFIRMADO Zennatura por SKU exacto en tienda oficial propia; vendorGREENLIFE en ElGirasol contradice título y tienda propia. No hay motivo para relegar producto3 frente125 por marca."
+    },
+    {
+      "ids": [
+        32,
+        33,
+        150,
+        166,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177
+      ],
+      "result": "Marca confirmada mediante lectura visual individual del logotipo de cada etiqueta. No hubo coincidenciaSKU en tiendas actuales; no se usó inferencia por prefijo ni dominio."
+    },
+    {
+      "ids": [
+        185,
+        186,
+        187
+      ],
+      "result": "Marca leída en etiquetas: YPENZA SILVER. Son ajenos a Zennatura para la prioridad solicitada."
+    },
+    {
+      "id": 242,
+      "result": "No atribuir a Zennatura: producto identificado como marca Prebian con SKU exacto en otro distribuidor. Falta evidencia propia."
+    }
+  ]
+}

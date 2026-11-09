@@ -1,6 +1,8 @@
 # Beneficios para capacitación de ventas
 
-Actualización: 21 de octubre de 2026. Alcance: 271 productos del catálogo web.
+Actualización: 9 de noviembre de 2026. Alcance: 271 productos del catálogo web.
+
+La revisión individual de descripciones, resúmenes y beneficios está documentada en [el reporte de contenido del 9 de noviembre](revision-contenido-2026-11-09.md). Las guías dan prioridad a Zennatura cuando la fórmula corresponde a la necesidad.
 
 Cada producto incluye `benefits`, con ideas breves en lenguaje cotidiano, y `benefitSummary`, una frase de repaso visible como «Para recordarlo» en la ficha web.
 

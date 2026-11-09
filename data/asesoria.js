@@ -108,11 +108,11 @@
     ]);
     padecimientos.forEach(guide => {
         if (clinicalReviewGuides.has(guide.id)) {
-            guide.safetyNote = 'Revisión profesional previa: esta guía contiene relaciones históricas pendientes de validación clínica individual. No armar paquetes ni iniciar suplementos por el diagnóstico. El equipo tratante debe revisar cada fórmula, medicamentos, función renal o hepática y objetivos nutricionales; ningún producto sustituye el tratamiento.';
+            guide.safetyNote = 'Antes de recomendar, el profesional que atiende a la persona debe revisar la fórmula, sus medicamentos y cómo están sus riñones y su hígado. Elegir el apoyo según sus necesidades de alimentación, sin armar un paquete solo por el nombre de la enfermedad.';
         } else if (['diabetes_tipo2', 'resistencia_insulina', 'somp'].includes(guide.id)) {
-            guide.safetyNote = 'No sumar berberina, canela/cromo e inositoles por rutina. Revisar el tratamiento y el control de glucosa con el profesional antes de añadir suplementos; compartir esta guía no demuestra que la combinación sea segura o superior.';
+            guide.safetyNote = 'Elegir una opción según la necesidad, sin juntar por rutina berberina, canela con cromo e inositoles. Revisar los medicamentos y el control del azúcar en sangre antes de añadir un suplemento.';
         } else if (['ansiedad', 'insomnio', 'depresion_apoyo'].includes(guide.id)) {
-            guide.safetyNote = 'No apilar fórmulas para calma o sueño. Magnesium PM ya contiene 5-HTP, teanina y magnesio; la fórmula de triptófano también contiene teanina. Si usa antidepresivos, sedantes u otros medicamentos, solicitar revisión médica o farmacéutica antes de combinar.';
+            guide.safetyNote = 'Elegir una fórmula para calma o descanso, sin juntar varias por rutina. Magnesium PM y triptófano con teanina repiten ingredientes. Si la persona toma antidepresivos, medicamentos para dormir u otros tratamientos, revisar la combinación con su médico o farmacéutico.';
         }
     });
     // Ampliar formatos de proteína solo en guías deportivas existentes.
@@ -141,7 +141,7 @@
         menopausia: ['bochornos', 'sofocos', 'climaterio'],
         insomnio: ['insomnio', 'no puedo dormir', 'despertares nocturnos'],
         deficiencia_magnesio: ['falta de magnesio', 'magnesio bajo'],
-        deficiencia_vitamina_d: ['falta de vitamina d', 'vitamina d baja']
+        deficiencia_vitamina_d: ['falta de vitamina d', 'vitamina d baja', 'déficit de vitamina d']
     };
     const guideMatches = (guide, query) => window.manualSearch.guideNameMatches(guide, query);
     padecimientos.forEach(guide => { guide.searchAliases = aliases[guide.id] || []; });

@@ -1,0 +1,719 @@
+{
+  "reviewedIds": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183
+  ],
+  "changes": [
+    {
+      "id": 92,
+      "shortDesc": "Magnesio con vitamina B6 para apoyar músculos y nervios y ayudar al cuerpo a obtener energía de los alimentos.",
+      "benefits": [
+        "Apoya el movimiento normal de los músculos",
+        "Contribuye al buen funcionamiento de los nervios",
+        "Ayuda a aprovechar la energía de los alimentos",
+        "La vitamina B6 complementa el aprovechamiento de la energía"
+      ]
+    },
+    {
+      "id": 93,
+      "shortDesc": "Combina dos formas de magnesio y vitamina B6 para apoyar el movimiento de los músculos y el aprovechamiento de la energía.",
+      "benefits": [
+        "Apoya el movimiento normal de los músculos",
+        "Contribuye al buen funcionamiento de los nervios",
+        "Ayuda a aprovechar la energía de los alimentos",
+        "Permite complementar la alimentación con dos formas de magnesio"
+      ]
+    },
+    {
+      "id": 94,
+      "shortDesc": "Combina magnesio, teanina, manzanilla y otros ingredientes para acompañar una rutina de relajación y descanso nocturno.",
+      "benefits": [
+        "Puede acompañar la relajación al final del día",
+        "La teanina y la manzanilla se utilizan para favorecer la calma",
+        "El magnesio contribuye al funcionamiento de los nervios",
+        "Complementa una rutina de descanso nocturno"
+      ]
+    },
+    {
+      "id": 95,
+      "shortDesc": "Mezcla de mango africano y otras plantas para acompañar la alimentación y la actividad física en el cuidado del peso.",
+      "benefitSummary": "Complemento de hábitos para el cuidado del peso",
+      "benefits": [
+        "Permite incorporar mango africano y otras plantas sin preparar una mezcla",
+        "Puede acompañar un plan de alimentación y actividad física",
+        "No se ha establecido que esta fórmula produzca una pérdida de peso por sí sola"
+      ]
+    },
+    {
+      "id": 96,
+      "shortDesc": "Proteína de suero de leche con carbohidratos para sumar calorías, completar la alimentación y acompañar la ganancia de músculo con ejercicio."
+    },
+    {
+      "id": 97,
+      "shortDesc": "Té verde en polvo con antioxidantes naturales y cafeína, que ayuda a mantenerse alerta. Se puede preparar en bebidas y recetas."
+    },
+    {
+      "id": 98,
+      "shortDesc": "Melena de león con magnesio como complemento del cuidado de la memoria y la concentración; los beneficios de esta mezcla aún se estudian.",
+      "benefitSummary": "Memoria y concentración: apoyo en estudio",
+      "benefits": [
+        "La melena de león se estudia como apoyo a memoria y concentración",
+        "El magnesio contribuye al funcionamiento de los nervios",
+        "Permite complementar una rutina de descanso y actividad mental",
+        "Los resultados de estudios de ingredientes no garantizan el mismo beneficio de esta mezcla"
+      ]
+    },
+    {
+      "id": 99,
+      "shortDesc": "Miel de abeja para endulzar alimentos y bebidas, aportar energía y dar una sensación de suavidad en la garganta."
+    },
+    {
+      "id": 100,
+      "shortDesc": "Moringa en cápsulas para incorporar compuestos vegetales antioxidantes y complementar una alimentación variada.",
+      "benefitSummary": "Moringa para complementar la alimentación",
+      "benefits": [
+        "Complementa una alimentación variada con hoja de moringa",
+        "Sus compuestos vegetales tienen actividad antioxidante",
+        "Permite incorporar la planta sin preparar sus hojas"
+      ]
+    },
+    {
+      "id": 101,
+      "shortDesc": "Ubiquinol, una forma de coenzima Q10, para complementar el cuidado de las células y los procesos con los que el cuerpo produce energía.",
+      "benefitSummary": "Coenzima Q10 para el cuidado de las células",
+      "benefits": [
+        "La coenzima Q10 participa en la producción de energía del cuerpo",
+        "Complementa el cuidado de las células frente al desgaste diario",
+        "La vitamina E también participa en el cuidado de las células",
+        "Permite incorporar ubiquinol en una cápsula"
+      ]
+    },
+    {
+      "id": 102,
+      "shortDesc": "Combina colágeno tipo II, cúrcuma, boswellia y vitamina C para complementar el cuidado de las articulaciones y la movilidad."
+    },
+    {
+      "id": 103,
+      "shortDesc": "Vinagre de manzana líquido para dar sabor a aderezos y comidas y variar la alimentación cotidiana.",
+      "benefitSummary": "Sabor y variedad para las comidas",
+      "benefits": [
+        "Da sabor ácido a aderezos y comidas",
+        "Permite variar los sabores de la alimentación",
+        "Se puede incorporar en pequeñas cantidades a distintas recetas"
+      ]
+    },
+    {
+      "id": 104,
+      "shortDesc": "Vinagre de manzana en cápsulas con datos de fórmula que necesitan confirmación. Revisar la etiqueta para identificar la presentación y sus ingredientes antes de recomendarlo.",
+      "benefitSummary": "Vinagre en cápsulas: confirmar la fórmula vigente",
+      "benefits": [
+        "Permite incorporar vinagre de manzana en cápsulas",
+        "Los ingredientes y la porción deben confirmarse con la etiqueta de esta presentación"
+      ]
+    },
+    {
+      "id": 105,
+      "shortDesc": "Vitaminas, minerales y plantas para complementar la alimentación del hombre activo y ayudar a aprovechar la energía de los alimentos.",
+      "benefitSummary": "Nutrición y energía para el hombre activo"
+    },
+    {
+      "id": 106,
+      "shortDesc": "Plantas de uso tradicional con zinc y magnesio para complementar la nutrición y el cuidado masculino."
+    },
+    {
+      "id": 107,
+      "shortDesc": "Vitaminas y minerales con colágeno y plantas para complementar la alimentación y el cuidado de piel y cabello."
+    },
+    {
+      "id": 108,
+      "shortDesc": "Vitamina C de 1000 mg por cápsula para apoyar las defensas, la formación de colágeno y el cuidado de las células."
+    },
+    {
+      "id": 109,
+      "shortDesc": "Vitamina D3 con magnesio, K2 y zinc para apoyar el cuidado de huesos y músculos y el funcionamiento de las defensas.",
+      "benefitSummary": "Cuidado de huesos, músculos y defensas"
+    },
+    {
+      "id": 110,
+      "shortDesc": "Vitamina E con aceite de germen de trigo para complementar el cuidado de las células frente al desgaste diario.",
+      "benefitSummary": "Vitamina E para el cuidado de las células"
+    },
+    {
+      "id": 111,
+      "shortDesc": "Proteína de suero de leche sabor choconuez para completar la proteína diaria y apoyar el mantenimiento y desarrollo de los músculos."
+    },
+    {
+      "id": 112,
+      "shortDesc": "Proteína de suero de leche para completar la alimentación y apoyar el mantenimiento y desarrollo de los músculos.",
+      "benefits": [
+        "Aporta proteína de suero de leche",
+        "Ayuda al mantenimiento y desarrollo muscular",
+        "Facilita completar la proteína diaria en una bebida",
+        "Puede acompañar la recuperación después del ejercicio",
+        "Su fórmula sencilla permite combinarla con otros alimentos"
+      ]
+    },
+    {
+      "id": 113,
+      "shortDesc": "Proteína de suero de leche con 29 g de proteína por porción para completar la alimentación y acompañar la recuperación después del ejercicio."
+    },
+    {
+      "id": 114,
+      "shortDesc": "Mezcla de plantas con vitaminas A y C para complementar la alimentación, las defensas y el cuidado de las células.",
+      "benefitSummary": "Vitaminas A y C para defensas y cuidado celular",
+      "benefits": [
+        "La vitamina C contribuye al funcionamiento de las defensas",
+        "La vitamina A apoya la visión",
+        "Las vitaminas A y C complementan el cuidado de las células",
+        "No se ha demostrado que esta mezcla elimine toxinas o produzca pérdida de peso"
+      ]
+    },
+    {
+      "id": 115,
+      "shortDesc": "Preparación tradicional de yumel en gotas. Su utilidad para cálculos o colesterol no está demostrada y requiere valoración antes de recomendarla."
+    },
+    {
+      "id": 116,
+      "shortDesc": "NAC en cápsulas para ayudar al cuerpo a formar glutatión, una sustancia que participa en el cuidado de las células.",
+      "benefits": [
+        "Ayuda al cuerpo a formar glutatión",
+        "El glutatión participa en el cuidado de las células frente al desgaste diario",
+        "Permite incorporar NAC en cápsulas"
+      ]
+    },
+    {
+      "id": 117,
+      "shortDesc": "Combina NAD, resveratrol y acai como complemento del cuidado de las células; no se ha demostrado que esta fórmula alargue la vida.",
+      "benefitSummary": "Ingredientes para el cuidado de las células",
+      "benefits": [
+        "El resveratrol y el acai tienen compuestos antioxidantes",
+        "El NAD participa en procesos con los que el cuerpo usa energía",
+        "No se ha demostrado que esta fórmula alargue la vida o retrase el envejecimiento"
+      ]
+    },
+    {
+      "id": 118,
+      "shortDesc": "Neem y nopal con ácido alfa lipoico para complementar la alimentación y el cuidado de las células.",
+      "benefitSummary": "Plantas y cuidado de las células",
+      "benefits": [
+        "Permite incorporar neem y nopal en cápsulas",
+        "El ácido alfa lipoico participa en el cuidado de las células",
+        "No se ha establecido que esta fórmula elimine toxinas o controle la glucosa"
+      ]
+    },
+    {
+      "id": 119,
+      "shortDesc": "NMN con resveratrol y otros ingredientes como complemento del cuidado de las células; sus beneficios sobre el envejecimiento aún se estudian.",
+      "benefitSummary": "Ingredientes para el cuidado de las células",
+      "benefits": [
+        "El resveratrol y la quercetina tienen compuestos antioxidantes",
+        "Permite incorporar NMN y plantas en una misma fórmula",
+        "No se ha demostrado que esta mezcla retrase el envejecimiento"
+      ]
+    },
+    {
+      "id": 120,
+      "shortDesc": "Omega 3 de pescado con EPA, DHA y vitamina E para complementar el cuidado del corazón, el cerebro y los ojos."
+    },
+    {
+      "id": 122,
+      "shortDesc": "Aceite de salmón con omega 3 y vitamina E para complementar el cuidado del corazón, el cerebro y los ojos."
+    },
+    {
+      "id": 123,
+      "shortDesc": "Aceite de pescado con omega 3 para apoyar el funcionamiento del corazón y complementar el cuidado del cerebro."
+    },
+    {
+      "id": 124,
+      "shortDesc": "Mezcla de hongos y plantas con compuestos antioxidantes para complementar el cuidado diario.",
+      "benefitSummary": "Hongos y plantas para el cuidado diario",
+      "benefits": [
+        "Permite incorporar hongos y plantas en tabletas",
+        "El té verde, el jengibre y el ajo contienen compuestos antioxidantes",
+        "No se han establecido beneficios específicos de esta mezcla sobre las defensas"
+      ]
+    },
+    {
+      "id": 125,
+      "shortDesc": "Colágeno en polvo para complementar la alimentación y el cuidado de la piel y las articulaciones."
+    },
+    {
+      "id": 126,
+      "shortDesc": "Colágeno con ácido hialurónico para complementar el cuidado de la piel, su hidratación y las articulaciones."
+    },
+    {
+      "id": 127,
+      "shortDesc": "Vitamina C con zinc, rosa y naranja para apoyar las defensas, la formación de colágeno y el cuidado de la piel."
+    },
+    {
+      "id": 128,
+      "shortDesc": "Potasio con magnesio, calcio y vitamina B6 para apoyar músculos y nervios y el equilibrio de agua y minerales del cuerpo.",
+      "benefitSummary": "Músculos y equilibrio de agua y minerales"
+    },
+    {
+      "id": 129,
+      "shortDesc": "Probióticos con inulina para complementar el equilibrio de las bacterias del intestino y el bienestar digestivo.",
+      "benefits": [
+        "Complementa el equilibrio de las bacterias del intestino",
+        "Puede acompañar el bienestar digestivo",
+        "Permite incorporar probióticos en cápsulas",
+        "Su utilidad depende del tipo de bacterias y de las necesidades de cada persona"
+      ]
+    },
+    {
+      "id": 130,
+      "shortDesc": "Probióticos con vitamina C y arándano para complementar el bienestar digestivo y apoyar las defensas.",
+      "benefitSummary": "Equilibrio intestinal y apoyo a las defensas",
+      "benefits": [
+        "Los probióticos complementan el equilibrio intestinal",
+        "La vitamina C contribuye al funcionamiento de las defensas",
+        "Combina apoyo digestivo y nutricional en una misma fórmula"
+      ]
+    },
+    {
+      "id": 131,
+      "shortDesc": "Mezcla de probióticos con inulina para complementar el equilibrio intestinal y el bienestar digestivo.",
+      "benefits": [
+        "Complementa el equilibrio de las bacterias del intestino",
+        "Puede acompañar el bienestar digestivo",
+        "Permite incorporar distintos probióticos en una misma cápsula",
+        "La utilidad depende de las bacterias incluidas y de cada persona"
+      ]
+    },
+    {
+      "id": 132,
+      "shortDesc": "Mezcla de plantas, carnitina, cromo y una enzima digestiva para complementar el cuidado digestivo y el aprovechamiento de los alimentos.",
+      "benefitSummary": "Bienestar digestivo y aprovechamiento de alimentos"
+    },
+    {
+      "id": 133,
+      "shortDesc": "Linaza y malva con grasas omega 3, 6 y 9 para complementar la alimentación y el bienestar digestivo.",
+      "benefitSummary": "Plantas y grasas para complementar la alimentación",
+      "benefits": [
+        "La linaza y la malva tienen uso tradicional para el bienestar digestivo",
+        "Permite complementar la alimentación con grasas omega 3, 6 y 9",
+        "Reúne ingredientes vegetales en cápsulas"
+      ]
+    },
+    {
+      "id": 134,
+      "shortDesc": "Proteína vegetal de chícharo y arroz sabor cacao para completar la alimentación y apoyar el mantenimiento y desarrollo muscular."
+    },
+    {
+      "id": 135,
+      "shortDesc": "Proteína vegetal de chícharo y arroz sabor vainilla para completar la alimentación y apoyar los músculos y la recuperación después del ejercicio."
+    },
+    {
+      "id": 136,
+      "shortDesc": "Coenzima Q10 con vitamina B6 para complementar el cuidado de las células y ayudar a aprovechar la energía de los alimentos.",
+      "benefitSummary": "Coenzima Q10 y aprovechamiento de la energía"
+    },
+    {
+      "id": 137,
+      "shortDesc": "Shatavari, schisandra y jalea real, ingredientes de uso tradicional para acompañar el bienestar y la vitalidad femenina.",
+      "benefitSummary": "Uso tradicional para la vitalidad femenina",
+      "benefits": [
+        "El shatavari tiene uso tradicional en el cuidado femenino",
+        "La schisandra se utiliza tradicionalmente para acompañar la vitalidad",
+        "Permite incorporar las plantas sin preparar una infusión",
+        "No se ha establecido que esta fórmula equilibre las hormonas"
+      ]
+    },
+    {
+      "id": 138,
+      "shortDesc": "Resveratrol, semilla de uva, acai y vitamina C para complementar el cuidado de las células frente al desgaste diario.",
+      "benefits": [
+        "La vitamina C contribuye al cuidado de las células",
+        "El resveratrol, la uva y el acai contienen compuestos antioxidantes",
+        "Permite reunir estos ingredientes en una sola cápsula"
+      ]
+    },
+    {
+      "id": 139,
+      "shortDesc": "Mezcla de plantas de uso tradicional para el bienestar urinario, con zinc y selenio para complementar el cuidado de las células."
+    },
+    {
+      "id": 140,
+      "shortDesc": "Bebida de sábila, nopal y cuachalalate de uso tradicional digestivo, con vitamina C para complementar el cuidado de las células."
+    },
+    {
+      "id": 141,
+      "shortDesc": "Sábila, cardamomo y jengibre con vitaminas y minerales para acompañar el bienestar digestivo y complementar la alimentación.",
+      "benefitSummary": "Bienestar digestivo y complemento nutricional",
+      "benefits": [
+        "El jengibre y el cardamomo tienen uso tradicional para el confort digestivo",
+        "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
+        "Los minerales complementan el cuidado nutricional"
+      ]
+    },
+    {
+      "id": 142,
+      "shortDesc": "Selenio para apoyar las defensas, el funcionamiento de la tiroides y el cuidado de cabello, uñas y células.",
+      "benefitSummary": "Selenio para defensas, tiroides y cuidado celular"
+    },
+    {
+      "id": 143,
+      "shortDesc": "Mezcla de plantas con zinc y vitaminas B6 y D3 para complementar la nutrición y la vitalidad masculina.",
+      "benefits": [
+        "El zinc apoya la función reproductiva normal",
+        "La vitamina B6 ayuda a aprovechar la energía de los alimentos",
+        "La vitamina D contribuye al funcionamiento de los músculos",
+        "Las plantas tienen uso tradicional en la vitalidad masculina; no se ha demostrado que esta mezcla eleve la testosterona"
+      ]
+    },
+    {
+      "id": 144,
+      "shortDesc": "La ficha lo presenta para el estreñimiento ocasional, pero declara fenolftaleína. Revisar la etiqueta y la seguridad antes de recomendarlo.",
+      "benefits": [
+        "La ficha describe un uso para facilitar la evacuación",
+        "La fórmula declarada requiere revisar la etiqueta vigente y su seguridad antes de recomendarla"
+      ]
+    },
+    {
+      "id": 145,
+      "shortDesc": "Lecitina de soya y colina para apoyar el funcionamiento del hígado y el aprovechamiento de las grasas de los alimentos."
+    },
+    {
+      "id": 146,
+      "shortDesc": "Infusión de piña, linaza y distintos tés para acompañar la rutina después de comer y sumar antioxidantes de las plantas."
+    },
+    {
+      "id": 147,
+      "shortDesc": "Vitamina B1 y otros nutrientes para ayudar a aprovechar la energía de los alimentos, con cafeína y guaraná para mantenerse alerta."
+    },
+    {
+      "id": 148,
+      "shortDesc": "Hierba del sapo en cápsulas, de uso tradicional como complemento del bienestar digestivo."
+    },
+    {
+      "id": 149,
+      "shortDesc": "Magnesio en forma de treonato con vitamina C para apoyar los nervios y el cuidado de las células; el beneficio de esta fórmula para la memoria no está establecido.",
+      "benefitSummary": "Magnesio para nervios y cuidado de las células",
+      "benefits": [
+        "El magnesio contribuye al funcionamiento normal de los nervios",
+        "La vitamina C ayuda al cuidado de las células",
+        "Permite complementar la alimentación con magnesio",
+        "No se ha establecido un beneficio de esta fórmula para la memoria"
+      ]
+    },
+    {
+      "id": 150,
+      "shortDesc": "Triptófano, teanina y azahar con vitamina D3 para acompañar una rutina de relajación y descanso.",
+      "benefits": [
+        "La teanina y el azahar se utilizan para favorecer la relajación",
+        "Puede acompañar una rutina de descanso",
+        "El triptófano participa en procesos relacionados con el ánimo y el descanso"
+      ]
+    },
+    {
+      "id": 151,
+      "shortDesc": "Fibra con vegetales, probióticos y enzimas para complementar el equilibrio intestinal y ayudar a digerir los alimentos.",
+      "benefitSummary": "Fibra y apoyo al bienestar digestivo",
+      "benefits": [
+        "La fibra complementa la alimentación",
+        "Parte de la fibra sirve de alimento a bacterias del intestino",
+        "Los probióticos complementan el equilibrio intestinal",
+        "Las enzimas ayudan a digerir los alimentos"
+      ]
+    },
+    {
+      "id": 152,
+      "shortDesc": "Zinc para apoyar las defensas y el cuidado de piel, cabello y uñas, con jengibre de uso tradicional digestivo."
+    },
+    {
+      "id": 153,
+      "shortDesc": "Zinc para apoyar las defensas y el cuidado de piel, cabello, uñas y células.",
+      "benefitSummary": "Zinc para defensas, piel, cabello y uñas"
+    },
+    {
+      "id": 154,
+      "shortDesc": "Calcio con vitamina D3 para complementar el cuidado de huesos y dientes y apoyar el funcionamiento de los músculos.",
+      "benefitSummary": "Calcio y vitamina D para huesos y músculos"
+    },
+    {
+      "id": 155,
+      "shortDesc": "Miel y propóleo con plantas de uso tradicional respiratorio, mentol y vitamina C para dar confort a la garganta y apoyar las defensas."
+    },
+    {
+      "id": 156,
+      "shortDesc": "Miel y propóleo con ajo negro, plantas y vitamina C para dar confort a la garganta y complementar el cuidado de las defensas."
+    },
+    {
+      "id": 157,
+      "shortDesc": "Glucosamina, MSM y cúrcuma con vitaminas y minerales para complementar el cuidado de las articulaciones, los huesos y los músculos."
+    },
+    {
+      "id": 158,
+      "shortDesc": "Proteína vegetal sabor cacao para completar la alimentación y apoyar los músculos, con probióticos como complemento digestivo.",
+      "benefits": [
+        "La proteína vegetal ayuda a mantener y desarrollar los músculos",
+        "Facilita completar la proteína de la alimentación",
+        "Incluye probióticos como complemento digestivo",
+        "Su sabor cacao ofrece una alternativa a los batidos de leche"
+      ]
+    },
+    {
+      "id": 159,
+      "shortDesc": "Vitaminas y minerales para complementar la alimentación de personas activas y apoyar las defensas, los músculos y el aprovechamiento de energía.",
+      "benefitSummary": "Nutrición para personas activas"
+    },
+    {
+      "id": 160,
+      "shortDesc": "Aceite de coco tipo MCT para sumar grasas que el cuerpo puede usar como energía y enriquecer bebidas y comidas.",
+      "benefits": [
+        "Suma grasas que el cuerpo puede usar como energía",
+        "Permite aumentar las calorías de una comida o bebida",
+        "Se puede incorporar a un plan de alimentación con pocos carbohidratos"
+      ]
+    },
+    {
+      "id": 161,
+      "shortDesc": "Té verde y otras plantas para complementar el cuidado de las células, con guaraná que contiene cafeína y ayuda a mantenerse alerta.",
+      "benefitSummary": "Antioxidantes vegetales y apoyo para estar alerta",
+      "benefits": [
+        "El té verde contiene compuestos antioxidantes",
+        "El guaraná contiene cafeína, que ayuda a mantenerse alerta",
+        "Permite incorporar distintas plantas en cápsulas"
+      ]
+    },
+    {
+      "id": 163,
+      "shortDesc": "Ashwagandha, teanina y magnesio para acompañar la respuesta al estrés cotidiano y una rutina de relajación y descanso.",
+      "benefits": [
+        "La ashwagandha puede apoyar la respuesta al estrés cotidiano",
+        "La teanina se utiliza para favorecer la relajación",
+        "El magnesio contribuye al funcionamiento de los nervios",
+        "El magnesio también apoya el movimiento normal de los músculos"
+      ]
+    },
+    {
+      "id": 164,
+      "shortDesc": "Bebida de sábila, nopal y cuachalalate de uso tradicional digestivo, con vitamina C para apoyar las defensas."
+    },
+    {
+      "id": 165,
+      "shortDesc": "Té verde para preparar una bebida con antioxidantes naturales y cafeína, que ayuda a mantenerse alerta.",
+      "benefitSummary": "Té verde con antioxidantes y cafeína",
+      "benefits": [
+        "El té verde contiene compuestos antioxidantes",
+        "Su cafeína ayuda a mantenerse alerta",
+        "Ofrece una bebida para variar la rutina",
+        "Los sobres facilitan llevar y preparar una taza"
+      ]
+    },
+    {
+      "id": 166,
+      "shortDesc": "Vitamina D3 de 5000 UI para apoyar huesos, músculos y defensas cuando se requiere esta cantidad. Su elección necesita valoración profesional.",
+      "benefitSummary": "Vitamina D3 para huesos, músculos y defensas"
+    },
+    {
+      "id": 167,
+      "shortDesc": "Gel de uso externo con árnica y mentol para acompañar el masaje y dar frescura y confort en zonas con tensión muscular."
+    },
+    {
+      "id": 168,
+      "shortDesc": "Mezcla de plantas con zinc y vitamina E para complementar el cuidado masculino y el bienestar de la próstata.",
+      "benefits": [
+        "Su enfoque es complementar el bienestar prostático",
+        "Combina ciruelo africano y otros ingredientes vegetales",
+        "El zinc contribuye a la función reproductiva normal",
+        "La vitamina E y el licopeno complementan el cuidado antioxidante",
+        "Reúne nutrientes e ingredientes botánicos para el cuidado masculino"
+      ]
+    },
+    {
+      "id": 169,
+      "shortDesc": "Mezcla de hierbas y flores de uso tradicional para acompañar una pausa de relajación y la rutina de descanso."
+    },
+    {
+      "id": 170,
+      "shortDesc": "Infusión con eucalipto, gordolobo y otras plantas de uso tradicional respiratorio para dar confort a la garganta."
+    },
+    {
+      "id": 171,
+      "shortDesc": "Infusión de árnica mexicana de uso tradicional. Sus beneficios al beberla no están confirmados; valorar su seguridad antes de recomendarla.",
+      "benefits": [
+        "Permite preparar una bebida con el sabor y aroma del árnica mexicana",
+        "Su uso proviene de la tradición herbolaria; no se han confirmado beneficios al beber esta infusión"
+      ]
+    },
+    {
+      "id": 172,
+      "shortDesc": "Infusión de cuachalalate de uso tradicional para acompañar el bienestar digestivo."
+    },
+    {
+      "id": 173,
+      "shortDesc": "Infusión de sen para ayudar a evacuar en casos de estreñimiento ocasional. Su uso debe ser breve y conforme a la etiqueta."
+    },
+    {
+      "id": 174,
+      "shortDesc": "Té verde con jengibre y canela para acompañar el bienestar digestivo y disfrutar una bebida con antioxidantes naturales."
+    },
+    {
+      "id": 175,
+      "shortDesc": "Infusión de jengibre y cúrcuma, ingredientes de uso tradicional digestivo, para disfrutar después de comer."
+    },
+    {
+      "id": 176,
+      "shortDesc": "Infusión de manzanilla sin cafeína para acompañar el bienestar digestivo y una rutina de relajación."
+    },
+    {
+      "id": 177,
+      "shortDesc": "Infusión de plantas de uso tradicional para el bienestar urinario y la eliminación de líquidos; no trata enfermedades de los riñones."
+    },
+    {
+      "id": 178,
+      "shortDesc": "Quercetina en cápsulas como complemento del cuidado de las células frente al desgaste diario.",
+      "benefitSummary": "Quercetina para el cuidado de las células",
+      "benefits": [
+        "La quercetina tiene actividad antioxidante",
+        "Permite incorporar este compuesto vegetal en cápsulas",
+        "No se han establecido beneficios específicos de esta fórmula sobre alergias o defensas"
+      ]
+    },
+    {
+      "id": 179,
+      "shortDesc": "Jarabe con aceite de hígado de bacalao y plantas de uso tradicional respiratorio; sus vitaminas A y D apoyan las defensas, la visión y los huesos."
+    },
+    {
+      "id": 180,
+      "shortDesc": "Inositol en polvo para complementar el cuidado nutricional; participa en la comunicación entre las células y el aprovechamiento de nutrientes.",
+      "benefitSummary": "Complemento nutricional con inositol",
+      "benefits": [
+        "Participa en la comunicación entre las células",
+        "Complementa el cuidado nutricional y el aprovechamiento de nutrientes",
+        "Su presentación en polvo permite mezclarlo con una bebida"
+      ]
+    },
+    {
+      "id": 181,
+      "shortDesc": "Magnesio en forma de bisglicinato para apoyar músculos y nervios y ayudar a reducir el cansancio cuando falta este mineral."
+    },
+    {
+      "id": 182,
+      "shortDesc": "Gel de uso externo con plantas para acompañar el masaje y el cuidado de la piel en las zonas donde se aplica.",
+      "benefitSummary": "Masaje y cuidado de la piel",
+      "benefits": [
+        "Facilita el masaje de las zonas donde se aplica",
+        "La manzanilla complementa el cuidado de la piel",
+        "Su presentación en gel facilita la aplicación local"
+      ]
+    },
+    {
+      "id": 183,
+      "shortDesc": "Gel de uso externo con plantas para acompañar el masaje y dar confort a las piernas cansadas.",
+      "benefitSummary": "Masaje y confort de piernas cansadas",
+      "benefits": [
+        "Permite acompañar el masaje de piernas cansadas",
+        "Da confort local en las zonas donde se aplica",
+        "Su formato en gel facilita aplicarlo por zonas"
+      ]
+    }
+  ],
+  "notes": [
+    "Cada producto de las posiciones 90 a 179 se comparó con ingredientes, descripción, resumen y beneficios. Se conservan campos de fórmula, dosis, porciones y seguridad.",
+    "ID 110: el nombre comercial E 1000 y la ficha de 66 mg/66 UI no son concordantes; no trasladar a la descripción promesas de alta concentración. La equivalencia de unidades requiere confirmar etiqueta original.",
+    "ID 112: descripción original declaraba simultáneamente 90% y 96% y ausencia de lactosa no acreditada en ingredientes; se retiraron esas afirmaciones del resumen editorial.",
+    "ID 131: ingredientes suman siete aportes de 25 billones frente al nombre 100 billones; se evita repetir una cantidad hasta confirmar etiqueta. No se modifican ingredientes.",
+    "ID 149: la dosis declarada no respalda extrapolar estudios de otras preparaciones a mejoría de memoria; se centra en la función conocida del magnesio y vitamina C.",
+    "ID 144: la declaración de fenolftaleína exige revisión de la fuente y seguridad; no presentar como una opción de uso cotidiano.",
+    "ID 171: no se atribuye beneficio terapéutico a ingerir árnica mexicana; conservar valoración de seguridad.",
+    "IDs 117,119: se retiran promesas de longevidad y retraso del envejecimiento de la descripción.",
+    "IDs 129,130,131,151,181: no se atribuye efecto prebiótico específico a cantidades pequeñas de inulina sin sustento; se conservan beneficios generales cuando hay mezcla de fibras o probióticos.",
+    "ID 166: 5000 UI no se presenta como opción rutinaria; se conserva necesidad de valoración profesional.",
+    "Identificación inequívoca de Zennatura por nombre con ZN o URL de render ZN: IDs 101, 113, 116, 123, 130, 131, 132, 137, 138, 157 y 180. ID 110 dice GREENLIFE aunque su URL contiene zennaturamx: el host o tienda no prueba la marca.",
+    {
+      "id": 104,
+      "issue": "Revisión final por código: mezcla con cúrcuma/jengibre/canela de otra presentación. Se retiran beneficios específicos de la mezcla hasta confirmar etiqueta.",
+      "source": "https://www.zennatura.mx/products/vinagre-de-sidra-de-manzana-500mg"
+    }
+  ]
+}

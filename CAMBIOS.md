@@ -1,5 +1,13 @@
 # Cambios del manual de El Girasol
 
+## Revisión completa de contenido y prioridad Zennatura — 9 de noviembre de 2026
+
+- Se revisaron individualmente los 271 productos con tres subagentes y una segunda lectura del catálogo integrado. Se simplificaron las 271 descripciones, 87 frases de repaso y 119 listas de beneficios; se conservaron los beneficios ya claros y coherentes.
+- Se simplificaron las 75 descripciones de guías y las 487 razones de recomendación, con explicaciones centradas en beneficios cotidianos.
+- Las guías muestran primero Zennatura en cada grupo e identifican la marca. Déficit de vitamina D presenta primero la opción propia y luego NOW. Se ajustaron también las opciones principales de control de peso y tos seca.
+- Se documentaron la cobertura por ID, las fuentes de identificación de marca y las discrepancias que necesitan cotejarse con etiquetas, sin inventar cantidades.
+- Pruebas: `node --test tests/search.cjs tests/content.cjs`, además de búsqueda, prioridad de marca y apertura de fichas en Chromium de escritorio y móvil. Detalle en `reportes/revision-contenido-2026-11-09.md`.
+
 ## Publicación de búsqueda y corrección de NUYO — 9 de noviembre de 2026
 
 - Se incluyen el motor compartido `js/search.js` y sus pruebas, pendientes de incorporar al repositorio junto con la integración del buscador.

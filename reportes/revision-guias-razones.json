@@ -1,0 +1,3014 @@
+{
+  "reviewedGuideIds": [
+    "ansiedad",
+    "fatiga_burnout",
+    "insomnio",
+    "memoria_enfoque",
+    "migrana",
+    "fibromialgia",
+    "ciatica",
+    "depresion_apoyo",
+    "quistes_miomas",
+    "gastritis_ulcera",
+    "enfermedad_inflamatoria_intestinal",
+    "erge_acidez",
+    "higado_graso",
+    "cirrosis",
+    "piedras_vesicula",
+    "candida",
+    "estrenimiento_cronico",
+    "hipertension",
+    "varices_circulacion",
+    "enfermedad_renal",
+    "enfermedad_renal_diagnosticada",
+    "calculos_renales",
+    "infecciones_urinarias",
+    "inflamacion_edema",
+    "artritis_reumatoide",
+    "acido_urico",
+    "resistencia_insulina",
+    "diabetes_tipo2",
+    "sobrepeso_metabolico",
+    "colesterol_trigliceridos",
+    "fatiga_cronica",
+    "caida_cabello_fem",
+    "caida_cabello_masc",
+    "disfuncion_libido",
+    "prostata",
+    "menopausia",
+    "irregularidad_menstrual",
+    "hipotiroidismo",
+    "hipertiroidismo",
+    "alergias_respiratorias",
+    "defensas_bajas",
+    "resfriado_comun",
+    "tos_irritacion_garganta",
+    "tos_flema_congestion",
+    "congestion_nasal_sinusal",
+    "convalecencia_respiratoria",
+    "asma_diagnosticada",
+    "epoc_diagnosticada",
+    "desgaste_articular",
+    "osteoporosis",
+    "sarcopenia_fragilidad",
+    "fuerza_hipertrofia",
+    "resistencia_deportiva",
+    "recuperacion_deportiva",
+    "neuropatia_periferica",
+    "cancer_apoyo",
+    "psoriasis_vitiligo",
+    "acne_espinillas",
+    "somp",
+    "urticaria",
+    "espolon_fascitis",
+    "tdah",
+    "intestino_irritable",
+    "celulitis",
+    "epilepsia",
+    "anemia",
+    "parkinson",
+    "intestino_permeable",
+    "control_peso",
+    "piel_antienvejecimiento",
+    "post_cirugia_bariatrica",
+    "deficiencia_magnesio",
+    "dismenorrea",
+    "diarrea_antibioticos",
+    "deficiencia_vitamina_d"
+  ],
+  "changes": [
+    {
+      "guideId": "ansiedad",
+      "productId": 163,
+      "group": "comboPrincipal",
+      "rationale": "Ashwagandha y teanina para acompañar la relajación, con magnesio para el buen funcionamiento de los nervios."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 68,
+      "group": "comboPrincipal",
+      "rationale": "Se utiliza como complemento de una rutina de calma; su beneficio al tomarlo puede variar."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "Magnesio con plantas para acompañar la relajación antes de dormir."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 150,
+      "group": "comboSecundario",
+      "rationale": "Teanina, azahar y triptófano para acompañar calma y descanso; puede causar somnolencia."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 98,
+      "group": "comboSecundario",
+      "rationale": "Se estudia para el bienestar mental; no se ha confirmado que esta fórmula trate ansiedad."
+    },
+    {
+      "guideId": "ansiedad",
+      "productId": 271,
+      "group": "comboSecundario",
+      "rationale": "Albizia, bacopa y teanina para acompañar calma y concentración. Los beneficios de esta fórmula completa aún no se han confirmado en estudios con personas."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 58,
+      "group": "comboPrincipal",
+      "rationale": "La rhodiola se utiliza para acompañar estrés y cansancio; la respuesta varía según la persona."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 32,
+      "group": "comboPrincipal",
+      "rationale": "La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 98,
+      "group": "comboPrincipal",
+      "rationale": "La melena de león se estudia como complemento del cuidado de memoria y concentración."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 109,
+      "group": "comboSecundario",
+      "rationale": "La vitamina D y el magnesio apoyan músculos y huesos; valorar si hay una necesidad nutricional."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 5,
+      "group": "comboSecundario",
+      "rationale": "Las vitaminas B ayudan a aprovechar la energía de los alimentos."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 117,
+      "group": "comboSecundario",
+      "rationale": "El NAD participa en el uso de energía y el resveratrol contiene antioxidantes; no se ha demostrado que esta mezcla resuelva el agotamiento."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 181,
+      "group": "comboSecundario",
+      "rationale": "El magnesio apoya músculos y nervios y ayuda a reducir el cansancio cuando falta este mineral."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "La coenzima Q10 participa en la producción de energía del cuerpo; no se ha demostrado que esta fórmula trate el agotamiento."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "El cromo participa en el aprovechamiento de nutrientes; no prometer que esta mezcla resuelve el agotamiento."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 272,
+      "group": "comboSecundario",
+      "rationale": "Rhodiola y teanina para acompañar estrés y cansancio mental. Los estudios de otros extractos no confirman el mismo beneficio de esta fórmula."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 94,
+      "group": "comboPrincipal",
+      "rationale": "Magnesio con teanina, manzanilla y otros ingredientes para acompañar la relajación antes de dormir."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 68,
+      "group": "comboPrincipal",
+      "rationale": "Se utiliza como complemento de una rutina de calma; su efecto sobre el sueño puede variar."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 150,
+      "group": "comboPrincipal",
+      "rationale": "Triptófano con teanina y azahar para acompañar la relajación y el descanso."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la relajación en etapas de estrés."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 163,
+      "group": "comboSecundario",
+      "rationale": "Ashwagandha y teanina para acompañar la calma, con magnesio para los nervios."
+    },
+    {
+      "guideId": "insomnio",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Las vitaminas B apoyan los nervios; no funcionan como producto para dormir."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 149,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya los nervios. No se ha confirmado que la cantidad y mezcla de esta presentación mejoren la memoria."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 98,
+      "group": "comboPrincipal",
+      "rationale": "La melena de león se estudia para memoria y concentración; no afirmar que genera o regenera neuronas."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 70,
+      "group": "comboPrincipal",
+      "rationale": "Ginkgo como apoyo a memoria y concentración, con resultados variables; revisar medicamentos y riesgo de sangrado."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 82,
+      "group": "comboSecundario",
+      "rationale": "Aporta DHA, una grasa omega 3 importante para el cerebro."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 87,
+      "group": "comboSecundario",
+      "rationale": "La tirosina participa en procesos relacionados con atención; no garantiza mejorar la concentración."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "La coenzima Q10 participa en la producción de energía, sin beneficio específico demostrado de esta fórmula para memoria."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 271,
+      "group": "comboSecundario",
+      "rationale": "Bacopa y teanina para acompañar memoria y concentración. Los extractos estudiados son diferentes de esta fórmula."
+    },
+    {
+      "guideId": "memoria_enfoque",
+      "productId": 272,
+      "group": "comboSecundario",
+      "rationale": "Rhodiola y teanina para acompañar estrés y cansancio mental; la mejora de concentración con esta mezcla no está confirmada."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 92,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya músculos y nervios. El uso para migraña se valora según cantidad e indicación profesional."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 149,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya los nervios; no se ha demostrado que esta fórmula prevenga o alivie las crisis de migraña."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 4,
+      "group": "comboPrincipal",
+      "rationale": "Las vitaminas B ayudan a aprovechar energía; su presencia no equivale a las cantidades estudiadas para migraña."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "La coenzima Q10 participa en la producción de energía; valorar como complemento sin prometer alivio de una crisis."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 70,
+      "group": "comboSecundario",
+      "rationale": "El ginkgo se utiliza para memoria y circulación; no tiene un beneficio establecido para tratar migraña."
+    },
+    {
+      "guideId": "migrana",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para complementar alimentación y cuidado del corazón; no se presenta como tratamiento de migraña."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 92,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya músculos y ayuda con el cansancio cuando falta; no es tratamiento específico de fibromialgia."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 101,
+      "group": "comboPrincipal",
+      "rationale": "La coenzima Q10 participa en la producción de energía; el beneficio de esta fórmula sobre fibromialgia no está confirmado."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Ingredientes para el cuidado articular; no sustituyen el manejo del dolor de fibromialgia."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "Puede acompañar relajación y descanso; evitar sumar otras fórmulas para dormir sin revisión."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "El ácido alfa lipoico participa en el cuidado de las células; valorar su utilidad para dolor con el profesional."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Las vitaminas B ayudan a aprovechar la energía de los alimentos."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 92,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya los músculos; no libera un nervio comprimido ni corrige la causa de ciática."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Cúrcuma y vitamina C para el cuidado de las células; no se ha establecido que esta fórmula reduzca presión sobre el nervio."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 4,
+      "group": "comboPrincipal",
+      "rationale": "Las vitaminas B apoyan los nervios, sin prometer regenerarlos."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Puede valorarse como complemento ante molestias de los nervios; no corrige su compresión."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 91,
+      "group": "comboSecundario",
+      "rationale": "El magnesio complementa el cuidado muscular y de los nervios."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 167,
+      "group": "comboSecundario",
+      "rationale": "Gel para masaje y confort local. Debilidad, pérdida de sensibilidad o problemas para controlar orina o evacuación requieren atención médica."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 150,
+      "group": "comboPrincipal",
+      "rationale": "Triptófano, teanina y azahar para acompañar el descanso. Revisar antes de usar con antidepresivos; no sustituye su tratamiento."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para complementar alimentación y cuidado del cerebro; no sustituye el tratamiento del ánimo."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta solo con necesidad identificada y seguimiento profesional."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B para nervios y aprovechamiento de energía cuando la alimentación no cubre necesidades."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "Fórmula para acompañar relajación y descanso. Revisar antidepresivos y otros productos para dormir."
+    },
+    {
+      "guideId": "depresion_apoyo",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "La coenzima Q10 participa en producción de energía; no se ha demostrado que esta fórmula trate depresión."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 52,
+      "group": "comboPrincipal",
+      "rationale": "Inositoles para valorar si también hay ovario poliquístico; no eliminan quistes ni miomas."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "La cúrcuma contiene antioxidantes; no se ha demostrado que esta fórmula reduzca miomas."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta para una falta documentada; no se presenta para reducir miomas."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 43,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen hormonas o toxinas del cuerpo."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para complementar alimentación, sin prometer reducción de quistes o miomas."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 180,
+      "group": "comboSecundario",
+      "rationale": "Inositol en polvo como alternativa a cápsulas; elegir una presentación y revisar si existe una necesidad específica."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 246,
+      "group": "comboPrincipal",
+      "rationale": "Glutamina y zinc L-carnosina para el cuidado de la capa que recubre el estómago; no sustituye tratar la úlcera."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 9,
+      "group": "comboPrincipal",
+      "rationale": "Cuachalalate y tepezcohuite de uso tradicional digestivo; no prometer que cicatrizan úlceras."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 28,
+      "group": "comboPrincipal",
+      "rationale": "Sábila de uso tradicional digestivo; suspender si aumentan las molestias."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 85,
+      "group": "comboSecundario",
+      "rationale": "Alternativa para el cuidado del estómago. El producto 246 ya contiene zinc L-carnosina: no sumar ambos por rutina."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 141,
+      "group": "comboSecundario",
+      "rationale": "Jengibre, cardamomo y otras plantas de uso tradicional para confort digestivo."
+    },
+    {
+      "guideId": "gastritis_ulcera",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Apoyo digestivo durante o después del tratamiento indicado. No elimina H. pylori ni reemplaza antibióticos."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína si falta en la alimentación. La cantidad depende de síntomas, nutrición y salud de riñones e hígado."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 225,
+      "group": "comboPrincipal",
+      "rationale": "B12 si existe una falta o dificultad para absorberla. Revisar análisis y antecedentes de cirugía antes de recomendar."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta para falta documentada; necesita seguimiento y no debe mantenerse sin revisión."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 246,
+      "group": "comboSecundario",
+      "rationale": "Apoyo nutricional según tolerancia. No trata inflamación de Crohn o colitis; su fibra puede aumentar gases y molestias."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 131,
+      "group": "comboSecundario",
+      "rationale": "El beneficio depende de las bacterias y de la enfermedad. No añadir automáticamente durante una crisis."
+    },
+    {
+      "guideId": "enfermedad_inflamatoria_intestinal",
+      "productId": 151,
+      "group": "comboSecundario",
+      "rationale": "Fibra solo si se tolera. Evitar si hay estrechamiento, obstrucción o inflamación intestinal intensa."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 9,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional digestivo; no prometer reparación del esófago ni alivio comprobado del reflujo."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 164,
+      "group": "comboPrincipal",
+      "rationale": "Sábila, nopal y cuachalalate de uso tradicional digestivo; suspender si aumenta acidez."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal; no corrigen por sí mismos el reflujo."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 246,
+      "group": "comboSecundario",
+      "rationale": "Glutamina y zinc L-carnosina para cuidado digestivo; no se ha confirmado que esta mezcla repare daño por reflujo."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 85,
+      "group": "comboSecundario",
+      "rationale": "Alternativa al 246 para cuidado del estómago; no sumar ambos por rutina."
+    },
+    {
+      "guideId": "erge_acidez",
+      "productId": 66,
+      "group": "comboSecundario",
+      "rationale": "Mezcla de plantas de uso tradicional; no se ha establecido que mejore el reflujo."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 145,
+      "group": "comboPrincipal",
+      "rationale": "La colina ayuda a utilizar grasas y al funcionamiento del hígado; no elimina por sí sola grasa acumulada."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para cuidado del corazón y triglicéridos; no sustituye el tratamiento de hígado graso."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "La NAC ayuda a formar glutatión, que participa en el cuidado de las células."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 54,
+      "group": "comboSecundario",
+      "rationale": "Cúrcuma para cuidado de las células. Revisar anticoagulantes; evitar con piedras u obstrucción de vesícula sin autorización profesional."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 43,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional digestivo; no es un limpiador ni tratamiento del hígado graso."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 77,
+      "group": "comboSecundario",
+      "rationale": "Hercampuri de uso tradicional digestivo. Evitar con problemas de vesícula; no elimina grasa del hígado."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 111,
+      "group": "comboPrincipal",
+      "rationale": "Proteína si hay pérdida de peso o músculo. El médico o nutriólogo define cantidad según hígado, riñones y alimentación."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 145,
+      "group": "comboPrincipal",
+      "rationale": "La colina apoya el uso de grasas; no repara daño de cirrosis ni reemplaza tratamiento."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "NAC para cuidado de las células. Revisar medicamentos, sangrado, úlcera y estado del paciente antes de usar."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 solo si el profesional lo considera adecuado; revisar riesgo de sangrado."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 43,
+      "group": "comboSecundario",
+      "rationale": "Cardo mariano y otras plantas. Evitar con enfermedad grave del hígado u obstrucción de vesícula sin supervisión; no regenera hígado."
+    },
+    {
+      "guideId": "cirrosis",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no trata cirrosis y necesita revisión profesional."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 145,
+      "group": "comboPrincipal",
+      "rationale": "La colina ayuda a utilizar grasas; no disuelve piedras ni evita una obstrucción."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para bienestar digestivo; no eliminan piedras de vesícula."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 60,
+      "group": "comboPrincipal",
+      "rationale": "Enzimas para digerir alimentos. No usar con inflamación del páncreas, úlcera activa o alergia a ingredientes."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 28,
+      "group": "comboSecundario",
+      "rationale": "Sábila como complemento de bienestar digestivo; no limpia vesícula ni elimina piedras."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento nutricional; no trata piedras y requiere revisar riesgo de sangrado."
+    },
+    {
+      "guideId": "piedras_vesicula",
+      "productId": 115,
+      "group": "comboSecundario",
+      "rationale": "Preparación tradicional sin beneficio demostrado para disolver piedras. Evitar con dolor, fiebre, piel amarilla, vómitos o posible obstrucción y buscar atención."
+    },
+    {
+      "guideId": "candida",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal durante o después del tratamiento indicado."
+    },
+    {
+      "guideId": "candida",
+      "productId": 2,
+      "group": "comboPrincipal",
+      "rationale": "Orégano solo como complemento según valoración; puede irritar aparato digestivo y no sustituye medicamento contra hongos."
+    },
+    {
+      "guideId": "candida",
+      "productId": 67,
+      "group": "comboPrincipal",
+      "rationale": "Mezcla de hongos como complemento nutricional. No trata candidiasis; revisar medicamentos para defensas, anticoagulantes y enfermedades autoinmunes."
+    },
+    {
+      "guideId": "candida",
+      "productId": 23,
+      "group": "comboSecundario",
+      "rationale": "Ajo negro como complemento nutricional; no trata candidiasis."
+    },
+    {
+      "guideId": "candida",
+      "productId": 131,
+      "group": "comboSecundario",
+      "rationale": "Alternativa al 129: elegir uno. No asegura beneficio en todos los tipos de candidiasis ni sustituye tratamiento."
+    },
+    {
+      "guideId": "candida",
+      "productId": 224,
+      "group": "comboSecundario",
+      "rationale": "Alternativa en gotas al 2: elegir una. Resultados de laboratorio no demuestran que trate candidiasis en personas."
+    },
+    {
+      "guideId": "candida",
+      "productId": 16,
+      "group": "comboSecundario",
+      "rationale": "Orégano líquido como alternativa; no sumar con productos 2, 208, 216 o 224."
+    },
+    {
+      "guideId": "candida",
+      "productId": 208,
+      "group": "comboSecundario",
+      "rationale": "Orégano en cápsulas como alternativa; elegir una presentación sin prometer tratamiento de candidiasis."
+    },
+    {
+      "guideId": "candida",
+      "productId": 216,
+      "group": "comboSecundario",
+      "rationale": "Orégano y coco como alternativa; no sumar con productos 2, 208 o 224."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 151,
+      "group": "comboPrincipal",
+      "rationale": "La fibra puede favorecer regularidad. Introducir poco a poco para evitar gases o hinchazón."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 131,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal; una cantidad mayor no garantiza mejor resultado."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 140,
+      "group": "comboPrincipal",
+      "rationale": "Sábila sin aloína, nopal y cuachalalate para bienestar digestivo tradicional; no es laxante estimulante."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 76,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional para acompañar evacuación. Elegir como alternativa sin sumar otros laxantes."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 46,
+      "group": "comboSecundario",
+      "rationale": "El magnesio puede facilitar evacuar al atraer agua al intestino; revisar especialmente si hay enfermedad renal."
+    },
+    {
+      "guideId": "estrenimiento_cronico",
+      "productId": 173,
+      "group": "comboSecundario",
+      "rationale": "Sen para evacuar en estreñimiento ocasional. Reservar para uso breve y no sumar otros laxantes."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 181,
+      "group": "comboPrincipal",
+      "rationale": "Magnesio para músculos y nervios. No sustituye medicamentos de presión; puede causar diarrea o acumularse con enfermedad renal."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para cuidado del corazón; no equivale a medicamento ni garantiza controlar presión."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 23,
+      "group": "comboPrincipal",
+      "rationale": "Ajo negro para cuidado del corazón. No sumar fórmulas con ajo ni reducir medicamentos por cuenta propia."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 128,
+      "group": "comboSecundario",
+      "rationale": "Potasio solo cuando se indica. Puede ser peligroso con enfermedad renal, potasio alto y algunos medicamentos para presión o eliminar líquidos."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para producción de energía; revisar tratamiento actual sin prometer controlar presión."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 136,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 como complemento nutricional; no es medicamento para bajar presión."
+    },
+    {
+      "guideId": "hipertension",
+      "productId": 10,
+      "group": "comboSecundario",
+      "rationale": "Mezcla con ajo y otras plantas. Revisar medicamentos y tolerancia antes de elegirla como alternativa."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 44,
+      "group": "comboPrincipal",
+      "rationale": "Para confort de piernas cuando hay problema de venas evaluado. Usar extractos adecuados; no recomendar semillas crudas."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 182,
+      "group": "comboPrincipal",
+      "rationale": "Gel para masaje y confort de piernas pesadas; no aplicar en piel lastimada."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 108,
+      "group": "comboPrincipal",
+      "rationale": "La vitamina C ayuda a formar colágeno para mantener tejidos."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 23,
+      "group": "comboSecundario",
+      "rationale": "Ajo negro como alternativa nutricional; revisar anticoagulantes y sangrado."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 122,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para cuidado del corazón; no elimina várices ni adelgaza sangre."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 138,
+      "group": "comboSecundario",
+      "rationale": "Resveratrol para cuidado de las células; revisar medicamentos."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula trate várices."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "productId": 183,
+      "group": "comboSecundario",
+      "rationale": "Gel para masaje y confort como alternativa al 182; elegir uno solo."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 6,
+      "group": "comboPrincipal",
+      "rationale": "Arándano para ayudar a prevenir algunas infecciones urinarias repetidas; no trata infección activa."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 139,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional urinario. Revisar hidratación y medicamentos para eliminar líquidos, presión o litio."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 148,
+      "group": "comboPrincipal",
+      "rationale": "Hierba del sapo de uso tradicional urinario. No disuelve piedras; evitar con enfermedad renal, presión baja o medicamentos para eliminar líquidos."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 28,
+      "group": "comboSecundario",
+      "rationale": "Sábila para bienestar digestivo e hidratación general; no trata riñones."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 151,
+      "group": "comboSecundario",
+      "rationale": "Fibra para bienestar digestivo; no limpia ni cambia la acidez de los riñones."
+    },
+    {
+      "guideId": "enfermedad_renal",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Probióticos para bienestar digestivo; no tratan enfermedades renales ni sustituyen valoración médica."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para cuidado del corazón solo si se indica; no recupera funcionamiento del riñón."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 101,
+      "group": "comboPrincipal",
+      "rationale": "Coenzima Q10 para cuidado de las células; no recupera funcionamiento del riñón."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para bienestar digestivo. Evitar con defensas muy bajas; no limpian riñones."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 111,
+      "group": "comboSecundario",
+      "rationale": "Proteína solo si el plan la requiere. La cantidad depende del estado renal, diálisis y alimentación."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 6,
+      "group": "comboSecundario",
+      "rationale": "Arándano para prevención urinaria según valoración. Revisar piedras de oxalato o uso de warfarina."
+    },
+    {
+      "guideId": "enfermedad_renal_diagnosticada",
+      "productId": 28,
+      "group": "comboSecundario",
+      "rationale": "Sábila para bienestar digestivo. Ajustar líquidos al plan renal; no trata riñones."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 213,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional urinario. Elegir esta fórmula o YUMEL, no ambas; no disuelve piedras. Revisar riñones, hidratación y medicamentos."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 47,
+      "group": "comboPrincipal",
+      "rationale": "Para ciertos tipos de piedras cuando se indica. Antes se revisan riñones, potasio y medicamentos."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 139,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional; no disuelven piedras. Evitar con enfermedad renal o cardíaca y revisar medicamentos antes de sumar otra fórmula urinaria."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 28,
+      "group": "comboPrincipal",
+      "rationale": "Sábila como aporte de líquido; no modifica piedras ni sustituye agua."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 177,
+      "group": "comboSecundario",
+      "rationale": "Infusión de uso tradicional urinario. Revisar antes de sumar cápsulas con las mismas plantas para no duplicarlas."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 148,
+      "group": "comboSecundario",
+      "rationale": "Hierba del sapo tradicional; no rompe ni disuelve piedras. Evitar con enfermedad renal, presión baja o alteraciones de minerales."
+    },
+    {
+      "guideId": "calculos_renales",
+      "productId": 115,
+      "group": "comboSecundario",
+      "rationale": "Alternativa a CHA-HA STONE, que ya contiene yumel. No se ha demostrado que esta presentación disuelva, expulse o prevenga piedras."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 6,
+      "group": "comboPrincipal",
+      "rationale": "Arándano para ayudar a prevenir algunas infecciones urinarias repetidas; no elimina infección existente."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 130,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para bienestar intestinal. No se ha establecido que esta mezcla prevenga o trate infecciones vaginales o urinarias."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 108,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C para complementar alimentación; no aumentar cantidad para tratar infección urinaria."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 22,
+      "group": "comboSecundario",
+      "rationale": "Ajo negro y propóleo como complemento; no es antibiótico ni sustituye tratamiento."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 61,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C para defensas; la mezcla no trata infección urinaria."
+    },
+    {
+      "guideId": "infecciones_urinarias",
+      "productId": 27,
+      "group": "comboSecundario",
+      "rationale": "Sábila y arándano como aporte de líquido. No equivale a arándano con cantidades verificadas ni se suma por rutina al 6."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 44,
+      "group": "comboPrincipal",
+      "rationale": "Para confort de piernas solo si la hinchazón se debe a un problema de venas ya evaluado."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 182,
+      "group": "comboPrincipal",
+      "rationale": "Gel para masaje y pesadez de piernas; no aplicar en piel lastimada."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 47,
+      "group": "comboSecundario",
+      "rationale": "Potasio solo para indicaciones concretas; no por rutina para eliminar líquidos."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para complementar alimentación; no trata directamente retención de líquidos."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 183,
+      "group": "comboSecundario",
+      "rationale": "Gel como alternativa al 182; no usar en piel lastimada ni sumar ambos por rutina."
+    },
+    {
+      "guideId": "inflamacion_edema",
+      "productId": 122,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como alternativa al 123, no para combinar; no trata retención de líquidos."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Complemento del cuidado articular; no sustituye medicamentos que controlan enfermedad."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 como complemento; revisar anticoagulantes y sangrado."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 54,
+      "group": "comboSecundario",
+      "rationale": "Cúrcuma como alternativa al 102; no sumar por rutina porque se repite ingrediente y pueden aumentar interacciones."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "NAC para formar glutatión y complementar cuidado de las células."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 166,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D de dosis alta solo si hay falta o indicación profesional."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Probióticos para bienestar digestivo; no se ha demostrado que esta mezcla controle artritis."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Cúrcuma para cuidado de las células; no sustituye tratar un ataque de gota."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 47,
+      "group": "comboSecundario",
+      "rationale": "Potasio para indicaciones urinarias concretas; no baja por sí solo ácido úrico en sangre."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 151,
+      "group": "comboSecundario",
+      "rationale": "Fibra para complementar alimentación; no trata gota ni cambia la acidez de todo el cuerpo."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento; no trata ataque de gota ni baja por sí solo ácido úrico."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 178,
+      "group": "comboSecundario",
+      "rationale": "Quercetina estudiada para ácido úrico con resultados iniciales; no se ha demostrado que prevenga o trate ataques de gota."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 108,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C estudiada para ácido úrico con cambios pequeños. Esta presentación no equivale a la cantidad estudiada; necesita revisión y no sustituye medicamentos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 36,
+      "group": "comboPrincipal",
+      "rationale": "Berberina como alternativa para manejo de glucosa con revisión de medicamentos; no sumar automáticamente otras fórmulas para bajar azúcar."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 41,
+      "group": "comboPrincipal",
+      "rationale": "Canela y cromo para aprovechamiento de nutrientes. Revisar glucosa, riñones, hígado y medicamentos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 52,
+      "group": "comboPrincipal",
+      "rationale": "Inositoles como alternativa si también hay ovario poliquístico; revisar tratamiento para glucosa."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 122,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para cuidado del corazón; no se presenta como producto para bajar azúcar."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Cuidado de las células con valoración si hay molestias de los nervios; no reemplaza control de glucosa."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 103,
+      "group": "comboSecundario",
+      "rationale": "Vinagre como alimento para dar sabor. Evitar si irrita estómago y vigilar glucosa con medicamentos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula corrija resistencia a la insulina."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "El cromo participa en uso de nutrientes. Revisar medicamentos para glucosa; no garantiza corregir resistencia a la insulina."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 36,
+      "group": "comboPrincipal",
+      "rationale": "Berberina como alternativa complementaria. Puede aumentar efecto de medicamentos para diabetes; necesita revisión y vigilancia del azúcar."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 41,
+      "group": "comboPrincipal",
+      "rationale": "Canela y cromo como alternativa. Vigilar azúcar y revisar riñones, hígado y medicamentos."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 52,
+      "group": "comboPrincipal",
+      "rationale": "Inositoles como alternativa sobre todo si también hay ovario poliquístico; no reemplazan tratamiento de diabetes."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Para valorar como complemento ante molestias de los nervios; no reemplaza control del azúcar."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para cuidado del corazón y triglicéridos; revisar anticoagulantes."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 103,
+      "group": "comboSecundario",
+      "rationale": "Vinagre como alimento para dar sabor. Evitar si irrita estómago y vigilar azúcar si toma medicamentos."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no sustituye tratamiento ni seguimiento de diabetes."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "El cromo participa en aprovechamiento de nutrientes; revisar medicamentos y glucosa antes de incorporar la mezcla."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 84,
+      "group": "comboPrincipal",
+      "rationale": "Cafeína y guaraná para estar alerta. Evitar con presión alta, enfermedad cardíaca o sensibilidad a estimulantes; no garantiza perder grasa."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 41,
+      "group": "comboPrincipal",
+      "rationale": "Canela y cromo para aprovechamiento de nutrientes; revisar glucosa, riñones, hígado y medicamentos."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 165,
+      "group": "comboPrincipal",
+      "rationale": "Bebida con antioxidantes que puede tomarse sin azúcar; no garantiza pérdida de peso."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 95,
+      "group": "comboSecundario",
+      "rationale": "Mezcla para acompañar alimentación y ejercicio; no se ha confirmado que reduzca apetito o peso por sí sola."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 25,
+      "group": "comboSecundario",
+      "rationale": "Espirulina para complementar alimentación, sin presentarla como adelgazante."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 146,
+      "group": "comboSecundario",
+      "rationale": "Infusión para variar bebidas sin añadir azúcar; no es tratamiento para bajar peso."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "Cromo, fibra y plantas para complementar alimentación; no garantiza perder peso ni corregir síndrome metabólico."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para alimentación y cuidado del corazón; no equivale a medicamento para triglicéridos altos."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 23,
+      "group": "comboPrincipal",
+      "rationale": "Ajo negro para cuidado del corazón; revisar medicamentos para sangrado, presión y glucosa."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células. Consultar si hay dolor muscular con estatinas; no garantiza resolverlo ni justifica suspenderlas."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 136,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 como complemento. Consultar por molestias musculares al usar estatinas, sin suspenderlas."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 115,
+      "group": "comboSecundario",
+      "rationale": "Preparación tradicional sin beneficio confirmado para bajar colesterol o triglicéridos. No sustituye medicamentos ni análisis; no sumar con berberina por rutina."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 145,
+      "group": "comboSecundario",
+      "rationale": "La colina ayuda a utilizar grasas; no reemplaza tratamiento de colesterol o triglicéridos altos."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 36,
+      "group": "comboSecundario",
+      "rationale": "Berberina como alternativa complementaria. La ficha declara 1000 mg por dos cápsulas; revisar conveniencia y medicamentos para glucosa, presión o sangrado."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "El cromo participa en aprovechamiento de nutrientes; la mezcla no sustituye tratamiento de colesterol o triglicéridos."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 117,
+      "group": "comboPrincipal",
+      "rationale": "El NAD participa en procesos de energía; no se ha demostrado que esta mezcla trate síndrome de fatiga crónica."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 101,
+      "group": "comboPrincipal",
+      "rationale": "La coenzima Q10 participa en producción de energía; no garantiza resolver la fatiga."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 92,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio ayuda a aprovechar energía y al funcionamiento muscular, especialmente si falta."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Las vitaminas B ayudan a aprovechar energía de los alimentos."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "La NAC ayuda a formar glutatión para cuidado de las células; no se ha confirmado que esta fórmula resuelva fatiga crónica."
+    },
+    {
+      "guideId": "fatiga_cronica",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "El cromo participa en uso de nutrientes; no se presenta como tratamiento del cansancio crónico."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 125,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno para alimentación y cuidado de tejidos; no se ha demostrado que esta presentación frene caída del cabello."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 62,
+      "group": "comboPrincipal",
+      "rationale": "Biotina y selenio para mantenimiento del cabello, sobre todo si existe una falta nutricional."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 107,
+      "group": "comboPrincipal",
+      "rationale": "Vitaminas y minerales para complementar alimentación y cuidado del cabello."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 20,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional femenino; no se ha establecido que esta fórmula corrija hormonas o detenga caída del cabello."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "El zinc ayuda al mantenimiento del cabello cuando se cubren necesidades del mineral."
+    },
+    {
+      "guideId": "caida_cabello_fem",
+      "productId": 26,
+      "group": "comboSecundario",
+      "rationale": "Complemento con hierro y nutrientes; revisar si hay una falta antes de atribuir caída del cabello a alimentación."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 106,
+      "group": "comboPrincipal",
+      "rationale": "Zinc y plantas para cuidado masculino; no se ha establecido que esta mezcla detenga caída del cabello."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 125,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno como complemento; no se ha demostrado que esta presentación fortalezca o regenere folículos."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 78,
+      "group": "comboPrincipal",
+      "rationale": "Zinc y plantas para cuidado masculino; no prometer bloqueo de hormonas relacionadas con caída del cabello."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 143,
+      "group": "comboSecundario",
+      "rationale": "Complemento nutricional masculino; no se ha demostrado que elevar testosterona trate caída del cabello."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "El zinc apoya mantenimiento del cabello si hay necesidad nutricional; no es un bloqueador hormonal."
+    },
+    {
+      "guideId": "caida_cabello_masc",
+      "productId": 105,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas y minerales como complemento; no sustituye estudiar la causa de caída del cabello."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 88,
+      "group": "comboPrincipal",
+      "rationale": "Maca de uso tradicional para vitalidad y bienestar sexual; su respuesta varía."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 83,
+      "group": "comboPrincipal",
+      "rationale": "La arginina participa en circulación, pero no garantiza mejorar erección. Revisar medicamentos para corazón y presión."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 106,
+      "group": "comboPrincipal",
+      "rationale": "Zinc y plantas para cuidado masculino; no se ha demostrado que esta mezcla eleve testosterona."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "El zinc apoya función reproductiva normal; no garantiza elevar testosterona ni mejorar erección."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 33,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 143,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional para vitalidad masculina, sin garantizar mejoría sexual."
+    },
+    {
+      "guideId": "disfuncion_libido",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no tiene beneficio establecido para tratar problemas de erección."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 168,
+      "group": "comboPrincipal",
+      "rationale": "Pygeum, licopeno y zinc para complementar bienestar de la próstata."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 78,
+      "group": "comboPrincipal",
+      "rationale": "Semilla de calabaza, ciruelo africano y zinc para cuidado masculino; no garantiza reducir tamaño de próstata."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 153,
+      "group": "comboPrincipal",
+      "rationale": "El zinc apoya función reproductiva normal; no trata por sí solo problemas de próstata."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 6,
+      "group": "comboSecundario",
+      "rationale": "El arándano puede ayudar a prevenir algunas infecciones urinarias repetidas; no trata molestias por próstata ni infección activa."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 139,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional urinario; no sustituyen revisar dificultad o dolor al orinar."
+    },
+    {
+      "guideId": "prostata",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento; no se ha establecido que esta fórmula trate inflamación de próstata."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 80,
+      "group": "comboPrincipal",
+      "rationale": "Las isoflavonas pueden acompañar manejo de bochornos en algunas mujeres; la respuesta varía y requiere revisar antecedentes."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 20,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional femenino, sin prometer equilibrio hormonal o mejoría del deseo sexual."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 94,
+      "group": "comboPrincipal",
+      "rationale": "Fórmula para relajación y descanso, no como tratamiento de menopausia."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 137,
+      "group": "comboSecundario",
+      "rationale": "Shatavari y schisandra de uso tradicional para bienestar y vitalidad femenina."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 125,
+      "group": "comboSecundario",
+      "rationale": "Colágeno para alimentación y cuidado de piel; el cuidado de huesos también depende de calcio, vitamina D y ejercicio."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 32,
+      "group": "comboSecundario",
+      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+    },
+    {
+      "guideId": "menopausia",
+      "productId": 273,
+      "group": "comboSecundario",
+      "rationale": "Cohosh negro e isoflavonas para valorar como apoyo a molestias de esta etapa; revisar antecedentes y salud del hígado."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 52,
+      "group": "comboPrincipal",
+      "rationale": "Inositoles para valorar si hay ovario poliquístico; no toda irregularidad menstrual tiene esa causa."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 20,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional femenino; no se ha confirmado que esta fórmula equilibre hormonas o regularice ciclo."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 32,
+      "group": "comboPrincipal",
+      "rationale": "Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "Puede acompañar relajación y descanso; no se ha establecido que esta mezcla quite cólicos."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para complementar alimentación; no regulariza por sí solo el ciclo."
+    },
+    {
+      "guideId": "irregularidad_menstrual",
+      "productId": 107,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas y minerales para complementar alimentación de la mujer."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 87,
+      "group": "comboPrincipal",
+      "rationale": "La tirosina participa en formación de hormonas tiroideas, pero tomarla no sustituye hormona recetada ni garantiza mejorar enfermedad."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 32,
+      "group": "comboPrincipal",
+      "rationale": "La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 26,
+      "group": "comboPrincipal",
+      "rationale": "Espirulina con nutrientes. La ficha no asegura aporte de yodo; no usar para corregirlo por cuenta propia."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "Zinc si hay una falta nutricional; no sustituye tratamiento de tiroides."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 142,
+      "group": "comboSecundario",
+      "rationale": "Selenio para funcionamiento de tiroides; complementar solo si corresponde y evitar exceso."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B para aprovechar energía; no sustituyen tratamiento de tiroides."
+    },
+    {
+      "guideId": "hipotiroidismo",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "La coenzima Q10 participa en producción de energía; no se ha demostrado que esta fórmula compense hipotiroidismo."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 150,
+      "group": "comboPrincipal",
+      "rationale": "Teanina y azahar para acompañar relajación; revisar tratamiento actual y no usar para controlar tiroides."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 94,
+      "group": "comboPrincipal",
+      "rationale": "Fórmula para relajación y descanso con revisión de medicamentos; no controla actividad de tiroides."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 68,
+      "group": "comboPrincipal",
+      "rationale": "Complemento de una rutina de calma; el beneficio varía y no trata tiroides."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 117,
+      "group": "comboSecundario",
+      "rationale": "NAD y resveratrol para cuidado de las células; no se ha demostrado que esta mezcla mejore hipertiroidismo."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B si hay necesidad nutricional; no reducen actividad de tiroides."
+    },
+    {
+      "guideId": "hipertiroidismo",
+      "productId": 61,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C para defensas y cuidado celular; revisar plantas si hay enfermedad autoinmune de tiroides."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 178,
+      "group": "comboPrincipal",
+      "rationale": "Quercetina para cuidado de las células; no se ha confirmado que esta fórmula funcione como medicamento para alergia."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "NAC para moco espeso cuando el profesional la considera adecuada; no trata causa alérgica."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 61,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina C para defensas; no se presenta como medicamento para quitar alergia."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 185,
+      "group": "comboSecundario",
+      "rationale": "Astrágalo de uso tradicional; no se ha establecido que esta presentación controle alergia."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 188,
+      "group": "comboSecundario",
+      "rationale": "Mentol y propóleo para frescura y confort de garganta; evitar con alergia a productos de abeja."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 184,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas C y D y zinc para defensas; no se ha establecido que esta mezcla controle alergia."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 170,
+      "group": "comboSecundario",
+      "rationale": "Infusión caliente de plantas de uso tradicional respiratorio para confort de garganta."
+    },
+    {
+      "guideId": "alergias_respiratorias",
+      "productId": 155,
+      "group": "comboSecundario",
+      "rationale": "Miel y mentol para suavidad y frescura de garganta; revisar alergia al propóleo y azúcar."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 187,
+      "group": "comboPrincipal",
+      "rationale": "Calostro y plantas sin beneficio demostrado para generar células madre o corregir defensas bajas. Necesita revisión médica si hay inmunosupresión."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 184,
+      "group": "comboPrincipal",
+      "rationale": "Vitaminas C y D y zinc para defensas. Revisar medicamentos y plantas si hay inmunosupresión; no sustituye manejo médico."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 186,
+      "group": "comboPrincipal",
+      "rationale": "Calostro como complemento nutricional; no se ha demostrado que esta presentación corrija inmunosupresión."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 185,
+      "group": "comboSecundario",
+      "rationale": "Astrágalo de uso tradicional para valorar con el médico; puede interferir con medicamentos que reducen defensas."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 188,
+      "group": "comboSecundario",
+      "rationale": "Propóleo y mentol para confort de garganta; no ofrece recuperación rápida demostrada de defensas."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 166,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D para defensas; esta dosis alta requiere necesidad identificada y seguimiento."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "Zinc para funcionamiento de defensas, especialmente si alimentación no cubre necesidades."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 202,
+      "group": "comboSecundario",
+      "rationale": "Calostro con plantas como alternativa al 186; elegir uno y revisar con el médico si hay defensas bajas."
+    },
+    {
+      "guideId": "defensas_bajas",
+      "productId": 244,
+      "group": "comboSecundario",
+      "rationale": "Hongos y probióticos como complemento; evitar sumar mezclas y revisar seguridad si hay inmunosupresión."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 55,
+      "group": "comboPrincipal",
+      "rationale": "Vitaminas C y D para defensas; el beneficio de equinácea en resfriado es variable."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 152,
+      "group": "comboPrincipal",
+      "rationale": "Zinc para defensas con jengibre de uso tradicional digestivo; elegir una fórmula de zinc."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 243,
+      "group": "comboPrincipal",
+      "rationale": "Miel y plantas para suavizar garganta y acompañar tos; no dar miel a menores de un año."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 61,
+      "group": "comboSecundario",
+      "rationale": "Alternativa al 55 para defensas; no duplicar ambas mezclas."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 212,
+      "group": "comboSecundario",
+      "rationale": "Otra presentación de zinc como alternativa al 152; elegir una sola."
+    },
+    {
+      "guideId": "resfriado_comun",
+      "productId": 155,
+      "group": "comboSecundario",
+      "rationale": "Miel y mentol para suavidad y frescura de garganta como alternativa líquida."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 243,
+      "group": "comboPrincipal",
+      "rationale": "La miel puede suavizar garganta; las plantas complementan su uso tradicional respiratorio."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 155,
+      "group": "comboPrincipal",
+      "rationale": "Otra opción con miel y propóleo para suavizar garganta; elegir un solo jarabe de miel."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 188,
+      "group": "comboSecundario",
+      "rationale": "Propóleo y mentol para confort de garganta; evitar con alergia a productos de abeja."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 170,
+      "group": "comboPrincipal",
+      "rationale": "Infusión caliente para aportar líquido y confort de garganta."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 179,
+      "group": "comboSecundario",
+      "rationale": "Jarabe de uso tradicional respiratorio como alternativa líquida; no sumar varios jarabes."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
+      "productId": 22,
+      "group": "comboSecundario",
+      "rationale": "Ajo negro y propóleo como complemento; una tos persistente necesita revisión."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "La NAC puede ayudar a hacer menos espeso el moco cuando el profesional la considera adecuada."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 201,
+      "group": "comboPrincipal",
+      "rationale": "Plantas tradicionales para confort respiratorio. Contiene alcohol y no es apropiado para niños."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 243,
+      "group": "comboPrincipal",
+      "rationale": "La miel ayuda a suavizar garganta; elegir como alternativa para acompañar tos."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 170,
+      "group": "comboSecundario",
+      "rationale": "Infusión caliente que aporta líquido y puede dar confort de garganta."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 156,
+      "group": "comboSecundario",
+      "rationale": "Miel y propóleo como alternativa líquida para garganta; tomar en cuenta azúcar."
+    },
+    {
+      "guideId": "tos_flema_congestion",
+      "productId": 179,
+      "group": "comboSecundario",
+      "rationale": "Jarabe de uso tradicional respiratorio como alternativa; elegir uno solo."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 178,
+      "group": "comboPrincipal",
+      "rationale": "Quercetina como complemento; no se ha confirmado que esta fórmula alivie alergia o destape nariz."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "NAC para moco espeso; no quita por sí sola causa de congestión."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 201,
+      "group": "comboPrincipal",
+      "rationale": "Plantas tradicionales para confort respiratorio; revisar edad, alcohol y medicamentos."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 170,
+      "group": "comboSecundario",
+      "rationale": "Una infusión caliente aporta líquido y puede dar confort de garganta."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 188,
+      "group": "comboSecundario",
+      "rationale": "Mentol y propóleo para frescura y confort; evitar con alergia a productos de abeja."
+    },
+    {
+      "guideId": "congestion_nasal_sinusal",
+      "productId": 243,
+      "group": "comboSecundario",
+      "rationale": "La miel ayuda a suavizar garganta irritada por goteo nasal; no destapa nariz de inmediato."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 202,
+      "group": "comboPrincipal",
+      "rationale": "Calostro y plantas como complemento según valoración; no se ha confirmado que aceleren recuperación."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 244,
+      "group": "comboPrincipal",
+      "rationale": "Hongos y probióticos para bienestar digestivo y alimentación; no garantizan recuperar defensas."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 100,
+      "group": "comboPrincipal",
+      "rationale": "Moringa para incorporar compuestos vegetales y complementar alimentación variada."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 21,
+      "group": "comboSecundario",
+      "rationale": "Ajo negro y moringa como alternativa para alimentación y cuidado de las células."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 38,
+      "group": "comboSecundario",
+      "rationale": "Café con plantas como bebida opcional si tolera cafeína; no sustituye descanso."
+    },
+    {
+      "guideId": "convalecencia_respiratoria",
+      "productId": 40,
+      "group": "comboSecundario",
+      "rationale": "Otra bebida con café y hongos como alternativa al 38; elegir una opción con cafeína."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 como complemento; no controla una crisis ni sustituye inhaladores."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta para falta documentada; no sirve como rescate de una crisis."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 94,
+      "group": "comboPrincipal",
+      "rationale": "Fórmula con magnesio solo si hay necesidad nutricional; no abre vías respiratorias durante crisis."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 178,
+      "group": "comboSecundario",
+      "rationale": "Quercetina como complemento sin beneficio establecido para controlar asma."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 108,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C para necesidad nutricional; no abre vías respiratorias."
+    },
+    {
+      "guideId": "asma_diagnosticada",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "NAC para moco espeso solo según valoración; no sustituye inhalador ni se usa como rescate."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 116,
+      "group": "comboPrincipal",
+      "rationale": "La NAC puede ayudar con moco espeso; su conveniencia depende de síntomas y tratamiento actual."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína para completar alimentación y conservar músculos."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para complementar alimentación y cuidado del corazón."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 166,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D de dosis alta para falta identificada; no mejora automáticamente funcionamiento de pulmones."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "Fórmula con magnesio si hay necesidad; revisar tolerancia, medicamentos y riñones."
+    },
+    {
+      "guideId": "epoc_diagnosticada",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado beneficio específico de esta fórmula para respirar mejor."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Mezcla para acompañar confort articular y movilidad; elegir según tolerancia y medicamentos."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 30,
+      "group": "comboPrincipal",
+      "rationale": "Proteína, vitaminas y omega 3 como complemento; verificar en envase unidad de vitamina D antes de recomendar."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Cúrcuma para cuidado de las células y valorar como apoyo al confort articular."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 125,
+      "group": "comboSecundario",
+      "rationale": "Colágeno para alimentación y cuidado articular; no regenera cartílago por sí solo."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 18,
+      "group": "comboSecundario",
+      "rationale": "Colágeno y ácido hialurónico para complementar cuidado de piel y articulaciones."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 31,
+      "group": "comboSecundario",
+      "rationale": "Glucosamina, condroitina y MSM para cuidado articular; no prometer reparación de cartílago."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 157,
+      "group": "comboSecundario",
+      "rationale": "Glucosamina, cúrcuma y nutrientes para complementar cuidado de articulaciones, huesos y músculos."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 183,
+      "group": "comboSecundario",
+      "rationale": "Gel para masaje y confort local; no sustituye valorar causa del dolor ni cuidado de articulación."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D para absorber calcio; esta dosis alta requiere valoración y seguimiento."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 125,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno como complemento; no sustituye calcio, vitamina D ni tratamiento de osteoporosis."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 154,
+      "group": "comboPrincipal",
+      "rationale": "Calcio con vitamina D3 para huesos y dientes; revisar calcio de toda la dieta."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 46,
+      "group": "comboSecundario",
+      "rationale": "Magnesio si se necesita; revisar riñones y cantidad antes de recomendar."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 91,
+      "group": "comboSecundario",
+      "rationale": "Mezcla de magnesio como complemento; no equivale a tratamiento de osteoporosis."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 126,
+      "group": "comboSecundario",
+      "rationale": "Colágeno con ácido hialurónico como alternativa al 125; no sumar ambos por rutina."
+    },
+    {
+      "guideId": "osteoporosis",
+      "productId": 110,
+      "group": "comboSecundario",
+      "rationale": "Vitamina E para cuidado de las células; no se ha demostrado que esta presentación prevenga fracturas."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína para completar alimentación y conservar músculo. La cantidad se adapta a cada persona y no sustituye comidas completas."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 7,
+      "group": "comboPrincipal",
+      "rationale": "Creatina para acompañar ejercicio de fuerza y cuidado muscular. Revisar riñones e hidratación antes de usar."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta para falta identificada; no genera músculo por sí sola y necesita seguimiento."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 154,
+      "group": "comboSecundario",
+      "rationale": "Calcio y vitamina D para huesos. Revisar calcio total, riñones y medicamentos; no trata directamente pérdida de músculo."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 225,
+      "group": "comboSecundario",
+      "rationale": "B12 si hay falta documentada. No asumir que todo cansancio o debilidad de una persona mayor se deba a esta vitamina."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 159,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas y minerales si alimentación no cubre necesidades; no sustituyen proteína, comida suficiente, ejercicio ni revisar pérdida de peso."
+    },
+    {
+      "guideId": "sarcopenia_fragilidad",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula recupere músculo perdido."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 7,
+      "group": "comboPrincipal",
+      "rationale": "La creatina puede mejorar fuerza y esfuerzos repetidos con entrenamiento. Elegir una presentación; no necesita alternarse por ciclos."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína para completar meta diaria y apoyar músculos; no exige tomarla dentro de un plazo exacto después de entrenar."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 83,
+      "group": "comboPrincipal",
+      "rationale": "Arginina y ornitina antes de entrenar, con beneficio variable. Revisar medicamentos para corazón o presión y productos similares."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento; no sustituye proteína, creatina o entrenamiento ni garantiza más músculo."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "Magnesio si hay necesidad nutricional; no garantiza más fuerza cuando ya se cubren necesidades."
+    },
+    {
+      "guideId": "fuerza_hipertrofia",
+      "productId": 159,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas y minerales para faltantes de alimentación; no mejoran automáticamente rendimiento."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 191,
+      "group": "comboPrincipal",
+      "rationale": "Creatina y minerales para complementar hidratación. No aporta azúcar ni energía: el ejercicio prolongado puede necesitar alimentos o bebidas con carbohidratos."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 96,
+      "group": "comboPrincipal",
+      "rationale": "Carbohidratos y proteína para reponer energía después de esfuerzo alto o sumar calorías; no es bebida para hidratar durante competencia."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína para conservar y recuperar músculos; no sustituye agua ni energía durante ejercicio prolongado."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 97,
+      "group": "comboSecundario",
+      "rationale": "La cafeína natural del matcha ayuda a estar alerta. Como no se indica cuánto contiene, no garantiza un efecto concreto en rendimiento."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "Magnesio si hay necesidad; no evita todos los calambres ni sustituye agua, sal y energía durante ejercicio."
+    },
+    {
+      "guideId": "resistencia_deportiva",
+      "productId": 159,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas y minerales para faltantes de dieta; no dan energía inmediata ni mejoran por sí solos resistencia."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína para apoyar recuperación y mantenimiento muscular; no elimina siempre dolor ni exige plazo exacto para tomarla."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 96,
+      "group": "comboPrincipal",
+      "rationale": "Carbohidratos y proteína para reponer energía y sumar calorías si se necesitan; incluir ese aporte en alimentación diaria."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 como complemento opcional; los resultados para molestias musculares varían y no garantiza acelerar recuperación."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 125,
+      "group": "comboSecundario",
+      "rationale": "Colágeno para cuidado de tendones y otros tejidos. No equivale a proteína completa para desarrollar músculo."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "Magnesio para necesidad nutricional; no es recuperador universal ni previene todos los calambres."
+    },
+    {
+      "guideId": "recuperacion_deportiva",
+      "productId": 71,
+      "group": "comboSecundario",
+      "rationale": "Glutamina como complemento sin beneficio confirmado para rendimiento, crecimiento muscular o dolor después de entrenar en personas bien alimentadas."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 17,
+      "group": "comboPrincipal",
+      "rationale": "Ácido alfa lipoico para valorar ante molestias de los nervios; no regenera nervios ni sustituye tratar causa."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 5,
+      "group": "comboPrincipal",
+      "rationale": "Vitaminas B para nervios si hay necesidad nutricional; no prometer reparación del daño."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 120,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 con grasas importantes para cerebro y nervios, sin garantizar reparación de lesiones."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "El magnesio apoya funcionamiento normal de nervios y músculos."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 12,
+      "group": "comboSecundario",
+      "rationale": "Cúrcuma, jengibre y moringa para alimentación y cuidado de las células."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 98,
+      "group": "comboSecundario",
+      "rationale": "La melena de león se estudia para bienestar mental; no se ha confirmado que esta fórmula regenere nervios."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula repare daño de nervios."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 187,
+      "group": "comboPrincipal",
+      "rationale": "Calostro y plantas sin beneficio demostrado para cáncer. Contiene fo-ti y necesita revisión del equipo tratante por posibles problemas del hígado e interacciones."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 124,
+      "group": "comboPrincipal",
+      "rationale": "Hongos y plantas sin beneficio demostrado para tratar cáncer; revisar todos los ingredientes con equipo tratante."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Cúrcuma como complemento solo con aprobación del equipo tratante; puede interferir con medicamentos y no trata cáncer."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 66,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional sin beneficio específico confirmado durante tratamiento de cáncer; necesitan revisión del equipo tratante."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 185,
+      "group": "comboSecundario",
+      "rationale": "Astrágalo de uso tradicional sin beneficio confirmado de esta presentación durante tratamiento de cáncer. Revisar interacciones."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 186,
+      "group": "comboSecundario",
+      "rationale": "Calostro como complemento nutricional, sin beneficio confirmado para recuperar defensas o reparar tejidos durante tratamiento de cáncer."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 98,
+      "group": "comboSecundario",
+      "rationale": "No se ha demostrado que esta fórmula evite daño a nervios por tratamiento de cáncer. Revisar con equipo tratante antes de usar."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "No se ha demostrado que esta fórmula evite daño al corazón por tratamiento de cáncer. Revisar con equipo tratante antes de usar."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 111,
+      "group": "comboSecundario",
+      "rationale": "Proteína para completar alimentación si hay pérdida muscular; nutrición debe definir cantidad según necesidades y tolerancia."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 142,
+      "group": "comboSecundario",
+      "rationale": "Selenio solo con falta identificada e indicación del equipo tratante. No se recomienda por rutina ni se ha demostrado que trate cáncer o evite su regreso."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Mezcla para cuidado articular; no se ha demostrado que esta fórmula controle psoriasis o vitiligo."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "La vitamina D apoya defensas; dosis alta solo con necesidad identificada y seguimiento."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 como complemento nutricional; no reemplaza tratamiento de piel."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 54,
+      "group": "comboSecundario",
+      "rationale": "Cúrcuma como alternativa al 102 sin duplicar ingredientes; no se ha confirmado beneficio de esta fórmula para estas enfermedades de piel."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Probióticos para equilibrio intestinal; no se ha establecido que esta mezcla controle enfermedad de piel."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "El zinc contribuye al mantenimiento normal de piel si se cubren necesidades."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 153,
+      "group": "comboPrincipal",
+      "rationale": "Zinc para cuidado de piel; no garantiza quitar acné ni sustituye revisar causa."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 48,
+      "group": "comboPrincipal",
+      "rationale": "Clorofila para preparar una bebida; no se ha demostrado que tomarla trate acné."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal; no se ha confirmado beneficio de esta mezcla para acné."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 52,
+      "group": "comboSecundario",
+      "rationale": "Inositoles para valorar si hay ovario poliquístico; no todo acné tiene esa causa ni se corrige con esta fórmula."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 43,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen toxinas o mejoren acné."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 26,
+      "group": "comboSecundario",
+      "rationale": "Espirulina con vitaminas y minerales para complementar alimentación y cuidado de las células."
+    },
+    {
+      "guideId": "somp",
+      "productId": 53,
+      "group": "comboPrincipal",
+      "rationale": "Inositoles como alternativa para valorar en ovario poliquístico; el beneficio sobre ciclo y glucosa varía y no es tratamiento universal."
+    },
+    {
+      "guideId": "somp",
+      "productId": 36,
+      "group": "comboPrincipal",
+      "rationale": "Berberina como alternativa complementaria para glucosa; revisar medicamentos y vigilar azúcar."
+    },
+    {
+      "guideId": "somp",
+      "productId": 109,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D, magnesio, K2 y zinc para una necesidad nutricional; no asumir que toda persona tiene falta ni prometer equilibrio hormonal."
+    },
+    {
+      "guideId": "somp",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "La NAC se estudia en ovario poliquístico; no garantiza mejorar ovulación y requiere valorar tratamiento actual."
+    },
+    {
+      "guideId": "somp",
+      "productId": 41,
+      "group": "comboSecundario",
+      "rationale": "Canela y cromo como alternativa; revisar medicamentos y glucosa sin sumar fórmulas por rutina."
+    },
+    {
+      "guideId": "somp",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Probióticos para equilibrio intestinal; no se ha confirmado que esta mezcla regule hormonas."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 178,
+      "group": "comboPrincipal",
+      "rationale": "Quercetina para cuidado de las células; no se ha demostrado que esta fórmula sustituya medicamento para urticaria."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 108,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina C para alimentación y defensas; no aumentar cantidad para quitar ronchas."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 153,
+      "group": "comboPrincipal",
+      "rationale": "Zinc para piel y defensas; no controla por sí solo urticaria."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Probióticos para bienestar intestinal; no se ha establecido que esta mezcla quite urticaria."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento; no alivia de inmediato ronchas."
+    },
+    {
+      "guideId": "urticaria",
+      "productId": 48,
+      "group": "comboSecundario",
+      "rationale": "Clorofila para preparar bebida; no se ha demostrado que limpie cuerpo o quite urticaria."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Mezcla para cuidado articular; no elimina espolón ni se ha confirmado que trate fascitis."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 125,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno para alimentación y tejidos; no garantiza reparar planta del pie."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 167,
+      "group": "comboPrincipal",
+      "rationale": "Gel para masaje, frescura y confort local; no corrige causa del dolor."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 31,
+      "group": "comboSecundario",
+      "rationale": "Glucosamina, condroitina y MSM para cuidado articular; no garantiza resolver fascitis."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 94,
+      "group": "comboSecundario",
+      "rationale": "El magnesio apoya músculos y la mezcla acompaña descanso; no corrige por sí sola causa del dolor de pie."
+    },
+    {
+      "guideId": "espolon_fascitis",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento, sin prometer que quite dolor del espolón."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 149,
+      "group": "comboPrincipal",
+      "rationale": "El magnesio apoya nervios; no se ha confirmado que esta fórmula mejore atención o trate TDAH."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 82,
+      "group": "comboPrincipal",
+      "rationale": "Aporta DHA, una grasa importante para cerebro; no sustituye tratamiento de TDAH."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 153,
+      "group": "comboPrincipal",
+      "rationale": "Zinc como complemento si hay necesidad; no asumir que toda persona con TDAH tiene falta."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 87,
+      "group": "comboSecundario",
+      "rationale": "La tirosina participa en procesos relacionados con atención; esta fórmula no tiene beneficio establecido para tratar TDAH."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B para nervios y aprovechamiento de energía si hay necesidad nutricional."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 120,
+      "group": "comboSecundario",
+      "rationale": "Otra presentación de omega 3 como alternativa al krill; elegir una sin duplicar por rutina."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula mejore atención en TDAH."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 131,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal. El resultado depende de bacterias y persona; confirmar cantidad del envase."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 246,
+      "group": "comboPrincipal",
+      "rationale": "Apoyo nutricional digestivo según tolerancia. Su inulina puede producir gases; introducir poco a poco y suspender si aumentan molestias."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 60,
+      "group": "comboPrincipal",
+      "rationale": "Enzimas que ayudan a descomponer alimentos; no se ha confirmado que esta mezcla quite todos los síntomas de intestino irritable."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 151,
+      "group": "comboSecundario",
+      "rationale": "Fibra para regularidad; empezar poco a poco y ajustar si aumenta gases o hinchazón."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 176,
+      "group": "comboSecundario",
+      "rationale": "Manzanilla de uso tradicional para confort digestivo y una pausa de relajación."
+    },
+    {
+      "guideId": "intestino_irritable",
+      "productId": 81,
+      "group": "comboSecundario",
+      "rationale": "Jengibre para acompañar manejo de náusea y de uso tradicional digestivo; respuesta variable."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 126,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno y ácido hialurónico para cuidado e hidratación de piel; no se ha confirmado que elimine celulitis."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 183,
+      "group": "comboPrincipal",
+      "rationale": "Gel para acompañar masaje de piel; no elimina celulitis ni cambia por sí solo causa."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 165,
+      "group": "comboPrincipal",
+      "rationale": "Té verde con antioxidantes y cafeína; no garantiza quemar grasa o reducir celulitis."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "Vinagre en cápsulas con datos de fórmula pendientes de confirmar. Revisar la etiqueta antes de recomendar; no atribuirle beneficios para la celulitis."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 215,
+      "group": "comboSecundario",
+      "rationale": "La carnitina participa en uso de grasas como energía; tomarla no garantiza perder grasa ni eliminar celulitis."
+    },
+    {
+      "guideId": "celulitis",
+      "productId": 18,
+      "group": "comboSecundario",
+      "rationale": "Colágeno y ácido hialurónico para cuidado de piel, sin prometer eliminar celulitis."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 181,
+      "group": "comboPrincipal",
+      "rationale": "Magnesio para nervios si hay necesidad; revisar con el médico interacciones con medicamentos para convulsiones."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 123,
+      "group": "comboPrincipal",
+      "rationale": "Omega 3 para alimentación y cerebro; no controla convulsiones."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 166,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D de dosis alta con falta identificada, que puede aparecer con algunos tratamientos; requiere seguimiento."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B para nervios y aprovechamiento de energía; no sustituyen medicamentos para convulsiones."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "NAC para formar glutatión y cuidado de las células; no se ha establecido que esta fórmula controle convulsiones."
+    },
+    {
+      "guideId": "epilepsia",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 como complemento; revisar siempre medicamentos para convulsiones antes de usar."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 225,
+      "group": "comboPrincipal",
+      "rationale": "La B12 ayuda a formar sangre cuando falta. Presentación y cantidad dependen de causa; algunas personas necesitan otra vía."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 108,
+      "group": "comboPrincipal",
+      "rationale": "La vitamina C ayuda a absorber hierro de alimentos vegetales; no sustituye tratamiento de una falta de hierro."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 26,
+      "group": "comboPrincipal",
+      "rationale": "Complemento con hierro y nutrientes; no equivale por sí solo a tratar anemia ni sustituye una fuente verificada de B12."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Ácido fólico y B12 para formar sangre; primero identificar qué nutriente falta."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 205,
+      "group": "comboSecundario",
+      "rationale": "Levadura para complementar alimentación; la ficha no confirma cantidades de hierro o vitaminas para tratar anemia."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 153,
+      "group": "comboSecundario",
+      "rationale": "Zinc si hay falta identificada; no sustituye averiguar si anemia es por hierro, B12, sangrado u otra causa."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 101,
+      "group": "comboPrincipal",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula frene Parkinson."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 117,
+      "group": "comboPrincipal",
+      "rationale": "NAD y resveratrol como complemento; no se ha demostrado que esta mezcla prolongue vida de neuronas o frene enfermedad."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 72,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina C y glutatión para cuidado de las células; no sustituyen tratamiento de Parkinson."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 98,
+      "group": "comboSecundario",
+      "rationale": "Melena de león en estudio para bienestar mental; no se ha confirmado que esta fórmula regenere neuronas o mejore Parkinson."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 para alimentación y cerebro; no frena por sí solo enfermedad."
+    },
+    {
+      "guideId": "parkinson",
+      "productId": 149,
+      "group": "comboSecundario",
+      "rationale": "El magnesio apoya nervios; no se ha establecido que esta fórmula mejore memoria en Parkinson."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 246,
+      "group": "comboPrincipal",
+      "rationale": "Glutamina y zinc L-carnosina para cuidado digestivo. Su inulina puede producir gases; introducir poco a poco según tolerancia."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 131,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos para equilibrio intestinal; elegir una presentación sin sumar mezclas de alta concentración."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 151,
+      "group": "comboSecundario",
+      "rationale": "Fibra como alternativa gradual. No sumar de inicio al 246 si las fibras producen gases o molestias."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 85,
+      "group": "comboSecundario",
+      "rationale": "Zinc L-carnosina como alternativa al 246; no duplicar ambos por rutina."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 9,
+      "group": "comboSecundario",
+      "rationale": "Plantas de uso tradicional digestivo; no prometer reparación o cicatrización del intestino."
+    },
+    {
+      "guideId": "intestino_permeable",
+      "productId": 242,
+      "group": "comboSecundario",
+      "rationale": "Fibra como alternativa, no para sumar de inicio a otras mezclas con inulina. No se ha confirmado que repare intestino; reducir o suspender con más gases, dolor o hinchazón."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 196,
+      "group": "comboSecundario",
+      "rationale": "Plantas para acompañar alimentación y ejercicio; no se ha confirmado que esta fórmula reduzca peso por sí sola."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 59,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen toxinas o produzcan pérdida de grasa."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 199,
+      "group": "comboPrincipal",
+      "rationale": "Plantas de uso tradicional urinario y digestivo; eliminar líquido no equivale a perder grasa."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 56,
+      "group": "comboSecundario",
+      "rationale": "Otra mezcla de plantas como alternativa; no se ha confirmado que esta fórmula reduzca peso por sí sola."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 76,
+      "group": "comboSecundario",
+      "rationale": "Plantas para evacuación cuando corresponde; evacuar más no equivale a perder grasa ni se deben sumar laxantes."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 132,
+      "group": "comboPrincipal",
+      "rationale": "Plantas y enzimas para complementar cuidado digestivo; no garantiza pérdida de peso."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 42,
+      "group": "comboSecundario",
+      "rationale": "Caralluma usada tradicionalmente para apetito; el beneficio varía y no garantiza bajar de peso."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 3,
+      "group": "comboPrincipal",
+      "rationale": "Colágeno con vitamina C y biotina para complementar cuidado de piel y cabello."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 34,
+      "group": "comboPrincipal",
+      "rationale": "Astaxantina para cuidado de las células; no sustituye protección solar ni garantiza evitar envejecimiento de piel."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 110,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina E para cuidado de las células; no asumir cantidad alta por nombre comercial."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 62,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas, minerales y nutrientes para complementar cuidado de piel y cabello."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 18,
+      "group": "comboSecundario",
+      "rationale": "Colágeno y ácido hialurónico para cuidado e hidratación de piel."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 108,
+      "group": "comboSecundario",
+      "rationale": "Vitamina C para formar colágeno y mantener piel y otros tejidos."
+    },
+    {
+      "guideId": "piel_antienvejecimiento",
+      "productId": 101,
+      "group": "comboSecundario",
+      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula retrase envejecimiento."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 225,
+      "group": "comboPrincipal",
+      "rationale": "B12 cuando el plan la indica. Ajustar cantidad y presentación; algunas personas necesitan otra vía."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Proteína según plan de recuperación, sin sustituir comidas ni adelantar texturas indicadas."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 262,
+      "group": "comboPrincipal",
+      "rationale": "Calcio con proteína. La ficha no aclara cuánto calcio aprovechable aporta; confirmar envase antes de comparar o sumar otro calcio."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 154,
+      "group": "comboSecundario",
+      "rationale": "Calcio con vitamina D como alternativa a otras fuentes; no sumar por rutina."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 166,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D de dosis alta: frecuencia y duración según análisis y plan profesional."
+    },
+    {
+      "guideId": "post_cirugia_bariatrica",
+      "productId": 250,
+      "group": "comboSecundario",
+      "rationale": "Tónico con hierro cuya cantidad puede no alcanzar para corregir una falta tras cirugía. Revisar hierro real del envase y análisis."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 92,
+      "group": "comboPrincipal",
+      "rationale": "Magnesio para músculos y nervios, con 200 mg aprovechables por porción según ficha. Corregir una falta requiere decidir cantidad individual."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 50,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 240 mg de magnesio aprovechable por porción. Confirmar unidad de vitamina D porque la ficha es inconsistente."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 91,
+      "group": "comboSecundario",
+      "rationale": "Magnesio como complemento. El peso de las sales no indica cuánto magnesio aprovechable aporta."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 227,
+      "group": "comboSecundario",
+      "rationale": "Magnesio en cápsulas; confirmar aporte real, que no equivale al peso de citrato escrito en ficha."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 228,
+      "group": "comboSecundario",
+      "rationale": "Magnesio en forma de glicinato; la ficha no aclara aporte aprovechable para calcular una corrección."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 181,
+      "group": "comboSecundario",
+      "rationale": "Aporta 400 mg de magnesio aprovechable por porción; puede causar diarrea y supera cantidad suplementaria habitual sin supervisión. Revisar antes de recomendar."
+    },
+    {
+      "guideId": "dismenorrea",
+      "productId": 81,
+      "group": "comboPrincipal",
+      "rationale": "Jengibre estudiado como apoyo a cólicos; los resultados no garantizan igual beneficio de esta presentación."
+    },
+    {
+      "guideId": "dismenorrea",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega 3 como complemento opcional; beneficio para cólicos variable y sin alivio inmediato garantizado."
+    },
+    {
+      "guideId": "dismenorrea",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "Magnesio para músculos y nervios si se necesita; sin beneficio suficiente para ser tratamiento principal de cólicos."
+    },
+    {
+      "guideId": "dismenorrea",
+      "productId": 54,
+      "group": "comboSecundario",
+      "rationale": "Cúrcuma con resultados iniciales variables; esta mezcla no se ha confirmado para aliviar cólicos."
+    },
+    {
+      "guideId": "diarrea_antibioticos",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Probióticos como apoyo durante tratamiento; la ficha no permite asegurar que esta mezcla prevenga diarrea o infección por C. difficile."
+    },
+    {
+      "guideId": "diarrea_antibioticos",
+      "productId": 131,
+      "group": "comboSecundario",
+      "rationale": "Alternativa al 129. Confirmar cantidad del envase porque la ficha suma cantidades inconsistentes; no coincide claramente con mezclas estudiadas."
+    },
+    {
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 245,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina D3 de 1000 UI con K2 para huesos. La K2 no siempre es necesaria y puede interferir con warfarina y similares."
+    },
+    {
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 55,
+      "group": "comboPrincipal",
+      "rationale": "Primera opción Zennatura si la fórmula es adecuada. La D3 ayuda a absorber calcio y cuidar huesos y músculos; la vitamina C complementa el apoyo a las defensas."
+    },
+    {
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 109,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D3 de 400 UI con magnesio, K2 y zinc para huesos y músculos. Revisar si ya usa estos nutrientes o anticoagulantes."
+    },
+    {
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 154,
+      "group": "comboSecundario",
+      "rationale": "Calcio con vitamina D3 de 400 UI para huesos. Añadir calcio solo si alimentación y valoración indican necesidad."
+    },
+    {
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 166,
+      "group": "comboSecundario",
+      "rationale": "Vitamina D3 de 5000 UI para necesidad identificada; frecuencia y duración requieren valoración y seguimiento."
+    }
+  ],
+  "notes": [
+    "Se revisaron individualmente las 487 razones de las 75 guías y se cotejaron ingredientes de productos repetidos. Se proponen 487 razones específicas.",
+    "Se retiran promesas de regenerar nervios, proteger del daño del tratamiento de cáncer, controlar hormonas, disolver cálculos, curar enfermedad o eliminar toxinas.",
+    "Se conservan advertencias justificadas de medicamentos, duplicación, dosis altas, función renal y hepática; se expresan con palabras sencillas.",
+    "Osteoporosis atribuía magnesio al producto 154 sin figurar en ingredientes; se corrige la razón.",
+    "Colesterol decía que berberina aportaba menos de 900–1500 mg, pero ficha actual declara 1000 mg por dos cápsulas; se corrige sin cambiar dosis.",
+    "NUYO 157 solo se describe por cuidado articular, huesos y músculos; no se atribuye cognición.",
+    "Té RINICHI no debe sumarse a cápsulas con las mismas plantas sin revisión de duplicación.",
+    "No se modifican IDs, grupos, porciones, instrucciones de uso ni descripciones de padecimientos.",
+    "Integración final: D3 55 se explica como primera opción de marca; se actualiza la razón de 104 por discrepancia de fórmula. Se mueve el objeto completo 132 a principales y196 a adicionales en control_peso;170 a principales y188 a adicionales en tos_irritacion_garganta. Las dosis se conservan. La instrucción de55 se adapta a prioridad propia y conserva revisión de alergia y medicamentos."
+  ]
+}

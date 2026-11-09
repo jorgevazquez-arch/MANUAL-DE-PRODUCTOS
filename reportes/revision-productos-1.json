@@ -1,0 +1,792 @@
+{
+  "reviewedIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+  ],
+  "changes": [
+    {
+      "id": 1,
+      "shortDesc": "Magnesio en polvo para ayudar al funcionamiento de músculos y nervios y reducir el cansancio cuando falta este mineral."
+    },
+    {
+      "id": 2,
+      "shortDesc": "Aceite de coco y orégano en cápsulas. El orégano se usa tradicionalmente para el bienestar digestivo y contiene compuestos que ayudan al cuidado de las células.",
+      "benefitSummary": "Bienestar digestivo tradicional con orégano",
+      "benefits": [
+        "El orégano tiene uso tradicional para el confort digestivo",
+        "Contiene compuestos vegetales que complementan el cuidado de las células",
+        "Permite incorporar coco y orégano sin su sabor intenso"
+      ]
+    },
+    {
+      "id": 3,
+      "shortDesc": "Colágeno en polvo con vitamina C y biotina para complementar el cuidado de la piel y las articulaciones. Se mezcla con bebidas o alimentos."
+    },
+    {
+      "id": 4,
+      "shortDesc": "Vitaminas B con arándano para ayudar a obtener energía de los alimentos, cuidar los nervios y reducir el cansancio por falta de estas vitaminas."
+    },
+    {
+      "id": 5,
+      "shortDesc": "Vitaminas B, arándanos y ginseng siberiano para complementar la alimentación en etapas de mayor actividad y apoyar la vitalidad."
+    },
+    {
+      "id": 6,
+      "shortDesc": "Arándano rojo en cápsulas para complementar el cuidado de las vías urinarias. Una opción práctica para incorporar este fruto a la rutina.",
+      "benefitSummary": "Arándano para complementar el cuidado urinario",
+      "benefits": [
+        "Complementa la rutina de cuidado de las vías urinarias",
+        "Contiene compuestos vegetales para el cuidado de las células",
+        "Permite incorporar arándano rojo en cápsulas"
+      ]
+    },
+    {
+      "id": 7,
+      "shortDesc": "Creatina en polvo para apoyar la fuerza y el rendimiento en esfuerzos cortos e intensos, junto con una rutina de entrenamiento."
+    },
+    {
+      "id": 8,
+      "shortDesc": "Creatina en polvo para apoyar la fuerza y mantener el rendimiento durante series cortas y repetidas de ejercicio."
+    },
+    {
+      "id": 9,
+      "shortDesc": "Cuachalalate y tepezcohuite en una sola fórmula. Son plantas de uso tradicional mexicano para acompañar el bienestar del estómago.",
+      "benefits": [
+        "El cuachalalate tiene uso tradicional para el confort del estómago",
+        "Combina dos plantas de la herbolaria mexicana en una sola toma",
+        "Permite incorporar las plantas sin preparar una infusión"
+      ]
+    },
+    {
+      "id": 10,
+      "shortDesc": "Mezcla de plantas y vitaminas B para complementar el cuidado del corazón y la circulación junto con alimentación y actividad física.",
+      "benefits": [
+        "Complementa el cuidado nutricional del corazón y la circulación",
+        "Contiene ingredientes para el cuidado de las células",
+        "Las vitaminas B ayudan a obtener energía de los alimentos"
+      ]
+    },
+    {
+      "id": 11,
+      "shortDesc": "Cúrcuma en polvo para añadir a comidas o bebidas. Tiene uso tradicional digestivo y contiene compuestos que ayudan al cuidado de las células."
+    },
+    {
+      "id": 12,
+      "shortDesc": "Cúrcuma, jengibre y moringa en cápsulas para acompañar el bienestar digestivo y complementar el cuidado de las células.",
+      "benefitSummary": "Cúrcuma y jengibre para bienestar digestivo",
+      "benefits": [
+        "El jengibre tiene uso tradicional para el confort del estómago",
+        "La cúrcuma contiene compuestos que ayudan al cuidado de las células",
+        "Combina tres ingredientes vegetales sin tener que prepararlos"
+      ]
+    },
+    {
+      "id": 13,
+      "shortDesc": "Cúrcuma en cápsulas para complementar el cuidado de las articulaciones y el bienestar digestivo, desde su uso tradicional."
+    },
+    {
+      "id": 14,
+      "shortDesc": "Aceite de coco de sabor y olor neutros para cocinar, hornear y preparar distintas recetas."
+    },
+    {
+      "id": 15,
+      "shortDesc": "Aceite de coco extra virgen con aroma y sabor natural para cocinar. En uso externo puede ayudar a suavizar la piel y el cabello."
+    },
+    {
+      "id": 16,
+      "shortDesc": "Orégano en gotas con aceite de oliva. Se usa tradicionalmente como complemento del bienestar digestivo y permite medir la porción con gotero.",
+      "benefits": [
+        "El orégano tiene uso tradicional para el bienestar digestivo",
+        "Contiene compuestos vegetales que complementan el cuidado de las células",
+        "El gotero permite medir la cantidad indicada en la etiqueta"
+      ]
+    },
+    {
+      "id": 17,
+      "shortDesc": "Ácido alfa lipoico para complementar el cuidado de las células y participar en los procesos con los que el cuerpo obtiene energía."
+    },
+    {
+      "id": 18,
+      "shortDesc": "Colágeno con ácido hialurónico, omega 3, arándano y sábila para complementar el cuidado de la piel y las articulaciones."
+    },
+    {
+      "id": 19,
+      "shortDesc": "CLA en cápsulas para complementar la alimentación dentro de una rutina de ejercicio y cuidado del peso.",
+      "benefits": [
+        "Permite incorporar CLA, un tipo de grasa, en cápsulas",
+        "Complementa la alimentación dentro de una rutina de ejercicio",
+        "No hay un beneficio consistente demostrado para bajar de peso"
+      ]
+    },
+    {
+      "id": 20,
+      "shortDesc": "Aguaje, fenogreco y dos variedades de maca para acompañar el bienestar femenino y la vitalidad, desde su uso tradicional.",
+      "benefitSummary": "Vitalidad y bienestar femenino tradicional",
+      "benefits": [
+        "La maca tiene uso tradicional como apoyo a la vitalidad",
+        "Acompaña una rutina de autocuidado femenino",
+        "Reúne aguaje, fenogreco y dos variedades de maca"
+      ]
+    },
+    {
+      "id": 21,
+      "shortDesc": "Ajo negro y moringa con vitaminas para complementar el cuidado de las células y una alimentación variada.",
+      "benefitSummary": "Ajo negro y moringa para el cuidado diario",
+      "benefits": [
+        "Combina ajo negro y moringa para complementar la alimentación",
+        "Contiene compuestos vegetales que ayudan al cuidado de las células",
+        "Permite incorporar estos ingredientes sin prepararlos"
+      ]
+    },
+    {
+      "id": 22,
+      "shortDesc": "Ajo negro y propóleo en cápsulas, usados tradicionalmente para acompañar el bienestar en los cambios de temporada.",
+      "benefitSummary": "Bienestar tradicional en cambios de temporada",
+      "benefits": [
+        "El propóleo se usa tradicionalmente para el bienestar en cambios de temporada",
+        "Combina ingredientes con compuestos que ayudan al cuidado de las células",
+        "Permite incorporar ajo negro y propóleo en cápsulas"
+      ]
+    },
+    {
+      "id": 23,
+      "shortDesc": "Ajo negro en cápsulas para complementar el cuidado nutricional del corazón y de las células, junto con hábitos saludables.",
+      "benefits": [
+        "Complementa el cuidado nutricional del corazón",
+        "Contiene compuestos del ajo negro que ayudan al cuidado de las células",
+        "Permite incorporar ajo negro sin añadirlo a las comidas"
+      ]
+    },
+    {
+      "id": 24,
+      "shortDesc": "Proteína de clara de huevo con vitaminas y minerales para completar la alimentación y ayudar al mantenimiento y recuperación de los músculos."
+    },
+    {
+      "id": 25,
+      "shortDesc": "Espirulina en polvo para enriquecer bebidas y alimentos con los nutrientes de esta alga y variar la alimentación."
+    },
+    {
+      "id": 26,
+      "shortDesc": "Espirulina en cápsulas con vitaminas y minerales para complementar la alimentación de forma práctica, sin el sabor del alga.",
+      "benefitSummary": "Espirulina, vitaminas y minerales para complementar la alimentación",
+      "benefits": [
+        "El calcio y el magnesio apoyan el cuidado de huesos y músculos",
+        "Las vitaminas B ayudan a obtener energía de los alimentos",
+        "La vitamina E complementa el cuidado de las células",
+        "Permite incorporar espirulina sin su sabor característico"
+      ]
+    },
+    {
+      "id": 27,
+      "shortDesc": "Bebida de sábila con arándano y vitamina C para complementar el bienestar digestivo y el cuidado de las defensas."
+    },
+    {
+      "id": 28,
+      "shortDesc": "Bebida de sábila de sabor tropical con vitamina C para complementar la rutina digestiva y el cuidado de las defensas."
+    },
+    {
+      "id": 29,
+      "shortDesc": "Mezcla de plantas, fibra, bacterias benéficas y minerales para complementar el cuidado digestivo y el aprovechamiento de los alimentos.",
+      "benefitSummary": "Cuidado digestivo y aprovechamiento de los alimentos",
+      "benefits": [
+        "El cromo participa en el aprovechamiento de los alimentos y el manejo normal del azúcar",
+        "La fibra y las bacterias benéficas complementan el cuidado intestinal",
+        "Contiene ingredientes que ayudan al cuidado de las células",
+        "Acompaña un plan de alimentación y actividad física"
+      ]
+    },
+    {
+      "id": 30,
+      "shortDesc": "Polvo con proteína, fibra, omega 3, vitaminas y minerales para completar la alimentación y ayudar a conservar los músculos.",
+      "benefitSummary": "Proteína y fibra para complementar la alimentación"
+    },
+    {
+      "id": 31,
+      "shortDesc": "Glucosamina, condroitina y MSM para complementar el cuidado de las articulaciones y acompañar una rutina de movimiento.",
+      "benefits": [
+        "Complementa la nutrición de los tejidos de las articulaciones",
+        "Puede acompañar una rutina para mantener la movilidad",
+        "Reúne glucosamina, condroitina y MSM en una sola fórmula"
+      ]
+    },
+    {
+      "id": 32,
+      "shortDesc": "Ashwagandha para ayudar a manejar el estrés cotidiano y favorecer la relajación y el descanso."
+    },
+    {
+      "id": 33,
+      "shortDesc": "Ashwagandha en tabletas para ayudar a manejar el estrés cotidiano y acompañar una mejor rutina de descanso."
+    },
+    {
+      "id": 34,
+      "shortDesc": "Astaxantina para complementar el cuidado de las células, la piel y los ojos frente al desgaste diario.",
+      "benefits": [
+        "Contiene astaxantina para complementar el cuidado de las células",
+        "Puede acompañar el cuidado de la piel",
+        "Complementa una rutina de cuidado de los ojos"
+      ]
+    },
+    {
+      "id": 35,
+      "shortDesc": "Proteína de res con creatina y taurina para completar la alimentación y ayudar al mantenimiento y recuperación de los músculos."
+    },
+    {
+      "id": 36,
+      "shortDesc": "Berberina con zinc para complementar un plan de alimentación y ejercicio enfocado en el cuidado del azúcar y las grasas en la sangre.",
+      "benefitSummary": "Complemento del cuidado del azúcar y las grasas",
+      "benefits": [
+        "Puede complementar el cuidado del azúcar en la sangre junto con alimentación y ejercicio",
+        "Se estudia como apoyo al cuidado de las grasas en la sangre",
+        "Incluye zinc para funciones normales del cuerpo"
+      ]
+    },
+    {
+      "id": 37,
+      "shortDesc": "Mezcla de plantas y L-carnitina para complementar la alimentación y acompañar una rutina de actividad física.",
+      "benefits": [
+        "La L-carnitina participa en el uso de grasas para obtener energía",
+        "Reúne ingredientes vegetales para complementar la alimentación",
+        "Acompaña una rutina de alimentación y ejercicio"
+      ]
+    },
+    {
+      "id": 38,
+      "shortDesc": "Café con moringa y hongos de uso tradicional. Una bebida para variar la rutina y ayudar a mantenerse alerta."
+    },
+    {
+      "id": 39,
+      "shortDesc": "Café con canela, clavo y anís para disfrutar el sabor tradicional del café de olla y ayudar a mantenerse alerta."
+    },
+    {
+      "id": 40,
+      "shortDesc": "Café soluble con hongos y arándanos en sobres para preparar una bebida práctica y ayudar a mantenerse alerta."
+    },
+    {
+      "id": 41,
+      "shortDesc": "Canela y cromo con vitaminas y minerales para ayudar al cuerpo a aprovechar los alimentos y complementar el cuidado del azúcar en la sangre."
+    },
+    {
+      "id": 42,
+      "shortDesc": "Caralluma en cápsulas, una planta de uso tradicional para acompañar el control del apetito junto con alimentación y ejercicio.",
+      "benefits": [
+        "La caralluma tiene uso tradicional para acompañar el control del apetito",
+        "Puede complementar hábitos orientados a sentir mayor llenura",
+        "Acompaña un plan de alimentación y ejercicio"
+      ]
+    },
+    {
+      "id": 43,
+      "shortDesc": "Mezcla de plantas de uso tradicional para acompañar el bienestar digestivo y el confort después de comer.",
+      "benefits": [
+        "Sus plantas tienen uso tradicional para el bienestar digestivo",
+        "Puede acompañar el confort después de comer",
+        "Permite incorporar la mezcla sin preparar varias plantas"
+      ]
+    },
+    {
+      "id": 44,
+      "shortDesc": "Castaño de Indias para complementar el cuidado de la circulación de las piernas y ayudar con la sensación de pesadez."
+    },
+    {
+      "id": 45,
+      "shortDesc": "Cromo y L-carnitina para complementar el aprovechamiento de los alimentos y el cuidado del azúcar en la sangre.",
+      "benefitSummary": "Cromo para el aprovechamiento de los alimentos",
+      "benefits": [
+        "El cromo participa en el manejo normal del azúcar en la sangre",
+        "La L-carnitina participa en el uso de grasas para obtener energía",
+        "Acompaña hábitos de alimentación y actividad física"
+      ]
+    },
+    {
+      "id": 46,
+      "shortDesc": "Magnesio en polvo con colágeno para apoyar músculos, nervios y huesos y complementar la nutrición de los tejidos."
+    },
+    {
+      "id": 47,
+      "shortDesc": "Potasio en cápsulas para apoyar músculos y nervios y ayudar al equilibrio de agua y minerales del cuerpo."
+    },
+    {
+      "id": 48,
+      "shortDesc": "Clorofila líquida para mezclar con agua y variar las bebidas de la rutina con una sensación refrescante.",
+      "benefitSummary": "Clorofila para una bebida refrescante",
+      "benefits": [
+        "Permite preparar una bebida de clorofila al mezclarla con agua",
+        "Puede dar una sensación refrescante en la boca",
+        "Ofrece una alternativa para variar las bebidas habituales"
+      ]
+    },
+    {
+      "id": 49,
+      "shortDesc": "Clorofila con hierbabuena, menta y matcha para preparar una bebida refrescante. Las plantas tienen uso tradicional digestivo.",
+      "benefitSummary": "Bebida refrescante con hierbabuena y matcha",
+      "benefits": [
+        "La hierbabuena y la menta dan sabor y sensación refrescante",
+        "Las plantas tienen uso tradicional para el confort digestivo",
+        "El matcha contiene compuestos que ayudan al cuidado de las células",
+        "Se mezcla con agua para preparar una bebida"
+      ]
+    },
+    {
+      "id": 50,
+      "shortDesc": "Magnesio en cápsulas con vitaminas C y D y calcio para apoyar músculos, nervios y huesos."
+    },
+    {
+      "id": 51,
+      "shortDesc": "Mezcla de plantas, vitaminas y zinc para complementar el cuidado de las articulaciones y acompañar una rutina de movimiento.",
+      "benefitSummary": "Cuidado articular y movimiento",
+      "benefits": [
+        "Sus plantas tienen uso tradicional para el bienestar de las articulaciones",
+        "La vitamina C ayuda a formar colágeno para el cuidado de los tejidos",
+        "Las vitaminas C y E complementan el cuidado de las células",
+        "Acompaña una rutina de movimiento"
+      ]
+    },
+    {
+      "id": 52,
+      "shortDesc": "Dos formas de inositol con arándano para complementar el bienestar femenino y el cuidado del azúcar en la sangre.",
+      "benefitSummary": "Inositol para bienestar femenino y aprovechamiento del azúcar",
+      "benefits": [
+        "Complementa el bienestar femenino cuando hay una necesidad identificada",
+        "Participa en la forma en que el cuerpo responde a la insulina para aprovechar el azúcar",
+        "Acompaña hábitos de alimentación y actividad física"
+      ]
+    },
+    {
+      "id": 53,
+      "shortDesc": "Inositol en polvo para complementar el bienestar femenino y el aprovechamiento del azúcar. Se mezcla con la bebida indicada.",
+      "benefitSummary": "Inositol para bienestar femenino y aprovechamiento del azúcar",
+      "benefits": [
+        "Complementa el bienestar femenino cuando hay una necesidad identificada",
+        "Participa en procesos relacionados con el aprovechamiento del azúcar",
+        "Se mezcla con una bebida para facilitar la toma indicada"
+      ]
+    },
+    {
+      "id": 54,
+      "shortDesc": "Extracto de cúrcuma con vitamina C y pimienta negra para complementar el cuidado de las articulaciones y de las células.",
+      "benefits": [
+        "Contiene compuestos de la cúrcuma para complementar el cuidado de las células",
+        "Puede acompañar el bienestar de las articulaciones",
+        "La vitamina C ayuda a formar colágeno para los tejidos"
+      ]
+    },
+    {
+      "id": 55,
+      "shortDesc": "Vitamina D3 de 1000 UI con vitamina C y equinácea para apoyar defensas, huesos y músculos y ayudar a absorber el calcio.",
+      "benefitSummary": "Vitamina D para huesos y músculos; vitamina C para defensas"
+    },
+    {
+      "id": 56,
+      "shortDesc": "Mezcla de plantas como sábila, lino y nopal para acompañar el bienestar digestivo junto con hábitos de alimentación y consumo de agua.",
+      "benefitSummary": "Plantas para acompañar el bienestar digestivo",
+      "benefits": [
+        "Combina plantas de uso tradicional para el bienestar digestivo",
+        "Puede acompañar hábitos de alimentación y consumo de agua",
+        "Permite incorporar la mezcla en una sola presentación"
+      ]
+    },
+    {
+      "id": 57,
+      "shortDesc": "Mezcla de plantas y tés para acompañar el bienestar digestivo dentro de una rutina de alimentación y actividad física.",
+      "benefitSummary": "Plantas y tés para acompañar el bienestar digestivo",
+      "benefits": [
+        "Combina plantas y tés para complementar el cuidado digestivo",
+        "Contiene ingredientes vegetales que ayudan al cuidado de las células",
+        "Acompaña una rutina de alimentación y actividad física"
+      ]
+    },
+    {
+      "id": 58,
+      "shortDesc": "Rhodiola con magnesio y polen para acompañar etapas de mayor demanda diaria y apoyar músculos, nervios y vitalidad."
+    },
+    {
+      "id": 59,
+      "shortDesc": "Mezcla de plantas, frutas y jengibre para acompañar el bienestar digestivo y complementar una alimentación variada.",
+      "benefitSummary": "Plantas para acompañar el bienestar digestivo",
+      "benefits": [
+        "El jengibre tiene uso tradicional para el confort del estómago",
+        "Complementa una alimentación variada con plantas y frutas",
+        "Contiene ingredientes vegetales para el cuidado de las células"
+      ]
+    },
+    {
+      "id": 60,
+      "shortDesc": "Enzimas con papaya y hierbabuena para ayudar a descomponer los alimentos y favorecer el confort después de comidas pesadas."
+    },
+    {
+      "id": 61,
+      "shortDesc": "Vitamina C con equinácea para apoyar las defensas y acompañar el cuidado diario en los cambios de temporada."
+    },
+    {
+      "id": 62,
+      "shortDesc": "Vitaminas, minerales, proteína y otros ingredientes para complementar el cuidado de la piel, el cabello y las uñas."
+    },
+    {
+      "id": 63,
+      "shortDesc": "Fenogreco en cápsulas, una semilla de uso tradicional para complementar la alimentación y acompañar el bienestar digestivo.",
+      "benefits": [
+        "El fenogreco tiene uso tradicional para el bienestar digestivo",
+        "Contiene fibra propia de la semilla",
+        "Permite incorporar fenogreco sin preparar la semilla"
+      ]
+    },
+    {
+      "id": 64,
+      "shortDesc": "Proteína de chícharo y arroz con inositoles y vitamina D para ayudar a conservar los músculos y complementar la alimentación sin proteína de leche."
+    },
+    {
+      "id": 66,
+      "shortDesc": "Mezcla líquida de ocho plantas de uso tradicional para acompañar el bienestar digestivo.",
+      "benefitSummary": "Plantas de uso tradicional para bienestar digestivo",
+      "benefits": [
+        "Combina plantas de uso tradicional para el bienestar digestivo",
+        "Permite incorporar la mezcla en una presentación líquida",
+        "Reúne ocho plantas en una sola fórmula"
+      ]
+    },
+    {
+      "id": 67,
+      "shortDesc": "Mezcla de siete hongos de uso tradicional para complementar la alimentación. Su composición no permite prometer mejoras de memoria o de las defensas.",
+      "benefitSummary": "Hongos de uso tradicional para complementar la alimentación",
+      "benefits": [
+        "Permite incorporar varios hongos de uso tradicional en una sola presentación",
+        "Complementa la variedad de ingredientes de la alimentación",
+        "La ficha no permite asegurar una mejora de memoria, energía o defensas"
+      ]
+    },
+    {
+      "id": 68,
+      "shortDesc": "GABA con vitaminas y minerales para acompañar una rutina de relajación y descanso.",
+      "benefits": [
+        "Se utiliza como complemento de una rutina de relajación",
+        "Puede acompañar el descanso al final del día, con respuesta variable",
+        "La vitamina B12 contribuye al funcionamiento normal de los nervios"
+      ]
+    },
+    {
+      "id": 69,
+      "shortDesc": "Producto laxante cuya ficha declara fenolftaleína. Requiere validar la fórmula y su seguridad antes de recomendarlo para el estreñimiento.",
+      "benefitSummary": "Fórmula laxante pendiente de validación",
+      "benefits": [
+        "Su efecto laxante consiste en estimular el movimiento del intestino",
+        "La fenolftaleína declarada requiere revisar seguridad y ficha actual",
+        "No presentarlo como una opción de recomendación habitual"
+      ]
+    },
+    {
+      "id": 70,
+      "shortDesc": "Ginkgo biloba en cápsulas, de uso tradicional para el bienestar circulatorio. El beneficio sobre la memoria en personas sanas no está demostrado.",
+      "benefitSummary": "Ginkgo de uso tradicional circulatorio",
+      "benefits": [
+        "Permite incorporar extracto de ginkgo en cápsulas",
+        "Tiene uso tradicional relacionado con el bienestar circulatorio",
+        "No hay un beneficio demostrado para mejorar la memoria en personas sanas"
+      ]
+    },
+    {
+      "id": 71,
+      "shortDesc": "Glutamina en polvo para complementar la alimentación de personas activas. Es uno de los componentes que el cuerpo utiliza para formar proteínas.",
+      "benefits": [
+        "Complementa la alimentación con glutamina, un componente de las proteínas",
+        "El cuerpo utiliza glutamina para mantener distintos tejidos",
+        "Se mezcla con una bebida para facilitar su consumo"
+      ]
+    },
+    {
+      "id": 72,
+      "shortDesc": "Glutatión con vitamina C para complementar el cuidado de las células frente al desgaste diario.",
+      "benefits": [
+        "La vitamina C contribuye al cuidado de las células",
+        "También apoya las defensas y la formación de colágeno",
+        "Combina vitamina C y glutatión en una cápsula"
+      ]
+    },
+    {
+      "id": 73,
+      "shortDesc": "Goji con linaza y otras plantas para complementar la alimentación y acompañar el bienestar digestivo.",
+      "benefits": [
+        "La linaza y las plantas de la fórmula acompañan el bienestar digestivo tradicional",
+        "Permite incorporar goji sin preparar el fruto",
+        "Complementa la variedad de ingredientes vegetales de la alimentación"
+      ]
+    },
+    {
+      "id": 74,
+      "shortDesc": "Goji con una mezcla de plantas y otros ingredientes para complementar la alimentación dentro de una rutina de cuidado general.",
+      "benefitSummary": "Goji y plantas para complementar la alimentación",
+      "benefits": [
+        "Permite incorporar goji y otras plantas en cápsulas",
+        "Contiene ingredientes vegetales que complementan el cuidado de las células",
+        "Acompaña una alimentación variada y actividad física"
+      ]
+    },
+    {
+      "id": 75,
+      "shortDesc": "Goji, mango africano, linaza, piña y papaya con vitaminas y minerales para complementar la alimentación y el bienestar digestivo.",
+      "benefits": [
+        "Combina ingredientes vegetales de uso digestivo tradicional",
+        "Las vitaminas C y E complementan el cuidado de las células",
+        "La vitamina B12 ayuda a obtener energía de los alimentos",
+        "Reúne varios ingredientes en una sola fórmula"
+      ]
+    },
+    {
+      "id": 76,
+      "shortDesc": "Ciruela pasa, tamarindo, papaya, sábila y manzana para acompañar la regularidad y el confort intestinal.",
+      "benefits": [
+        "Sus ingredientes vegetales acompañan el bienestar intestinal",
+        "Puede complementar hábitos de alimentación y consumo de agua",
+        "Su objetivo es favorecer el confort al ir al baño"
+      ]
+    },
+    {
+      "id": 77,
+      "shortDesc": "Hercampuri en cápsulas, una planta de uso tradicional andino para acompañar el confort después de comer.",
+      "benefits": [
+        "El hercampuri tiene uso tradicional para el bienestar digestivo",
+        "Se utiliza para acompañar el confort después de las comidas",
+        "Permite incorporar esta planta sin preparar una infusión"
+      ]
+    },
+    {
+      "id": 78,
+      "shortDesc": "Mezcla de plantas con zinc y selenio para complementar el cuidado de la próstata y las vías urinarias masculinas.",
+      "benefits": [
+        "Sus plantas se utilizan como complemento del cuidado urinario masculino",
+        "El zinc contribuye a funciones normales del cuerpo",
+        "El zinc y el selenio ayudan al cuidado de las células"
+      ]
+    },
+    {
+      "id": 79,
+      "shortDesc": "Inositol en cápsulas para complementar el cuidado del azúcar en la sangre y el bienestar femenino.",
+      "benefitSummary": "Inositol para el aprovechamiento del azúcar",
+      "benefits": [
+        "Participa en la forma en que el cuerpo aprovecha el azúcar",
+        "Se utiliza como complemento del bienestar femenino",
+        "Permite incorporar inositol en cápsulas"
+      ]
+    },
+    {
+      "id": 80,
+      "shortDesc": "Isoflavonas de soya con plantas y vitaminas para acompañar el bienestar femenino durante la menopausia.",
+      "benefits": [
+        "Las isoflavonas pueden ayudar con algunos malestares de la menopausia en ciertas personas",
+        "La vitamina E complementa el cuidado de las células",
+        "Las vitaminas B ayudan a obtener energía de los alimentos"
+      ]
+    },
+    {
+      "id": 81,
+      "shortDesc": "Jengibre en cápsulas para acompañar el bienestar del estómago y ayudar con las náuseas en algunas situaciones."
+    },
+    {
+      "id": 82,
+      "shortDesc": "Aceite de krill con omega 3 para complementar el cuidado del corazón, el cerebro y los ojos."
+    },
+    {
+      "id": 83,
+      "shortDesc": "Arginina y ornitina para complementar la nutrición de personas activas y los procesos que ayudan a relajar los vasos sanguíneos.",
+      "benefitSummary": "Arginina para complementar una rutina activa",
+      "benefits": [
+        "La arginina participa en procesos que ayudan a relajar los vasos sanguíneos",
+        "Complementa la nutrición de personas físicamente activas",
+        "Reúne arginina y ornitina en una sola fórmula"
+      ]
+    },
+    {
+      "id": 84,
+      "shortDesc": "Cafeína y guaraná con L-carnitina y otros ingredientes para ayudar a mantenerse alerta y acompañar el entrenamiento."
+    },
+    {
+      "id": 85,
+      "shortDesc": "Zinc con carnosina, jengibre y fibra para complementar el cuidado de la capa que recubre el estómago y el confort digestivo.",
+      "benefitSummary": "Cuidado de la capa que recubre el estómago",
+      "benefits": [
+        "Complementa el cuidado de la capa que recubre el estómago",
+        "El zinc contribuye al mantenimiento normal de los tejidos",
+        "El jengibre tiene uso tradicional para el confort digestivo",
+        "La fibra sirve de alimento a bacterias benéficas del intestino"
+      ]
+    },
+    {
+      "id": 86,
+      "shortDesc": "Fórmula para el cuidado visual cuya composición necesita confirmarse: la tienda y el catálogo registran ingredientes distintos. Revisar la etiqueta antes de recomendarla.",
+      "benefits": [
+        "La fórmula vigente debe confirmarse antes de explicar sus beneficios",
+        "El catálogo y la tienda mencionan ingredientes distintos para este producto"
+      ],
+      "benefitSummary": "Cuidado visual: confirmar ingredientes en etiqueta"
+    },
+    {
+      "id": 87,
+      "shortDesc": "Tirosina con arándano y vitamina C para complementar el cuidado de la atención en etapas de mayor demanda mental.",
+      "benefitSummary": "Complemento para etapas de mayor demanda mental",
+      "benefits": [
+        "La tirosina participa en el funcionamiento normal del cerebro",
+        "Se utiliza como complemento en etapas de mayor demanda de atención",
+        "La vitamina C ayuda al cuidado de las células"
+      ]
+    },
+    {
+      "id": 88,
+      "shortDesc": "Maca negra en polvo, de uso tradicional para acompañar la vitalidad y el bienestar sexual.",
+      "benefits": [
+        "La maca tiene uso tradicional como apoyo a la vitalidad",
+        "Se utiliza como complemento del bienestar sexual",
+        "Su polvo permite mezclarla con bebidas o alimentos"
+      ]
+    },
+    {
+      "id": 89,
+      "shortDesc": "Maca, jengibre y damiana para acompañar la vitalidad y el bienestar sexual desde su uso tradicional.",
+      "benefits": [
+        "La maca y la damiana tienen uso tradicional para la vitalidad y el bienestar sexual",
+        "El jengibre complementa el bienestar digestivo",
+        "Permite incorporar tres plantas en una sola fórmula"
+      ]
+    },
+    {
+      "id": 90,
+      "shortDesc": "Maca amarilla, roja y negra con pimienta negra para acompañar la vitalidad y el bienestar sexual desde su uso tradicional.",
+      "benefits": [
+        "La maca tiene uso tradicional como apoyo a la vitalidad",
+        "Se utiliza como complemento del bienestar sexual",
+        "Reúne tres variedades de maca sin tener que preparar el polvo"
+      ]
+    },
+    {
+      "id": 91,
+      "shortDesc": "Tres formas de magnesio en una cápsula para apoyar músculos y nervios y reducir el cansancio cuando falta este mineral."
+    }
+  ],
+  "notes": [
+    {
+      "id": 30,
+      "issue": "Ingredientes declaran vitamina D 9.9 mg y ya señalan posible error por mcg. Validar ficha del fabricante antes de recomendar; no se modifican cantidades."
+    },
+    {
+      "id": 34,
+      "issue": "Ingredientes declaran astaxantina 250 mg; confirmar cantidad y si corresponde al extracto o al ingrediente activo. No se modifican cantidades."
+    },
+    {
+      "id": 50,
+      "issue": "Ingredientes declaran vitamina D 4 mg y ya señalan probable error por 4 mcg. Validar ficha antes de recomendar; no se modifican cantidades."
+    },
+    {
+      "id": 69,
+      "issue": "La ficha declara fenolftaleína. Se evita recomendarla como opción habitual por preocupación de seguridad. Validar formulación y ficha vigente.",
+      "source": "https://ntp.niehs.nih.gov/sites/default/files/ntp/roc/content/profiles/phenolphthalein.pdf"
+    },
+    {
+      "id": 70,
+      "issue": "Se retiran promesas de mejora de memoria y atención en personas sanas; no están demostradas.",
+      "source": "https://www.nccih.nih.gov/health/ginkgo"
+    },
+    {
+      "id": 6,
+      "issue": "La ficha llama cranberry a Vaccinium vitis-idaea; confirmar especie en etiqueta antes de extrapolar resultados de Vaccinium macrocarpon. Se conservan ingredientes."
+    },
+    {
+      "id": 67,
+      "issue": "Se retiran afirmaciones de función cognitiva y aumento de defensas de la mezcla completa, al no contar con respaldo específico del producto."
+    },
+    {
+      "scope": "primeros 90 productos",
+      "review": "Se revisaron descripción, resumen, beneficios e ingredientes individualmente. Los beneficios que se conservan ya estaban en lenguaje básico y concordaban con el enfoque de la fórmula. Se eliminaron tecnicismos, superioridad de absorción sin respaldo, promesas hormonales, detox y beneficios redundantes de formato."
+    },
+    {
+      "id": 86,
+      "issue": "Revisión final: tienda oficial identifica betacaroteno y catálogo luteína/zeaxantina para el mismo código. No se atribuyen beneficios de ingredientes concretos hasta confirmar etiqueta.",
+      "source": "https://www.zennatura.mx/products/betacaroteno-500mg"
+    }
+  ]
+}

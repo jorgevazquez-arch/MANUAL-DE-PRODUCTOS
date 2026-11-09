@@ -624,7 +624,8 @@
                     </summary>
                     <div class="p-4 sm:p-6 md:p-10 border-t-2 border-gray-200">
                     <div class="mb-8 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
-                        <strong class="block mb-1">Importante: los productos de cada guía son opciones para elegir.</strong>
+                        <strong class="block mb-1">Recomienda primero Zennatura cuando su fórmula se ajuste a la necesidad.</strong>
+                        En cada grupo encontrarás primero las opciones Zennatura. Usa otras marcas como alternativas según la fórmula, la presentación y las necesidades de la persona.
                         Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto y evita duplicar ingredientes o mecanismos.
                     </div>
                     <p id="padColorEmptyMsg" class="hidden text-center text-gray-500 italic mb-6">No hay padecimientos registrados para este color.</p>
@@ -738,6 +739,7 @@
                                                         ${renderGuideProductImage(product)}
                                                         <span class="padecimiento-editorial-product-info">
                                                             <span class="padecimiento-editorial-product-name">${product.name}</span>
+                                                            ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
                                                             <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
                                                             <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
                                                             ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}
@@ -769,6 +771,7 @@
                                                         ${renderGuideProductImage(product)}
                                                         <span class="padecimiento-editorial-product-info">
                                                             <span class="padecimiento-editorial-product-name">${product.name}</span>
+                                                            ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
                                                             <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
                                                             <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
                                                             ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}

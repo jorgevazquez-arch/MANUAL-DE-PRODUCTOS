@@ -1,0 +1,781 @@
+{
+  "reviewedIds": [
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    245,
+    246,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "changes": [
+    {
+      "id": 184,
+      "shortDesc": "Vitaminas C y D, zinc y plantas para apoyar las defensas y el cuidado diario de las células.",
+      "benefitSummary": "Vitaminas C y D con zinc para las defensas",
+      "benefits": [
+        "Las vitaminas C y D ayudan al funcionamiento de las defensas",
+        "El zinc también participa en el cuidado de las defensas",
+        "La vitamina C ayuda a proteger las células",
+        "Combina estos nutrientes con saúco, equinácea y ajo negro"
+      ]
+    },
+    {
+      "id": 185,
+      "shortDesc": "Astrágalo en cápsulas, una planta usada tradicionalmente para acompañar la vitalidad y el bienestar general.",
+      "benefitSummary": "Astrágalo y vitalidad de uso tradicional",
+      "benefits": [
+        "El astrágalo tiene uso tradicional como apoyo a la vitalidad",
+        "Permite incorporar esta planta sin preparar la raíz",
+        "Se estudia su relación con el funcionamiento de las defensas; no es un efecto confirmado de esta fórmula"
+      ]
+    },
+    {
+      "id": 186,
+      "shortDesc": "Calostro bovino en cápsulas como complemento de la alimentación; se estudia su apoyo al bienestar intestinal.",
+      "benefits": [
+        "Ofrece calostro bovino en cápsulas como complemento de la alimentación",
+        "Permite incorporarlo sin preparar una bebida",
+        "Se estudia su relación con el bienestar intestinal; la utilidad depende de la composición y cantidad"
+      ]
+    },
+    {
+      "id": 187,
+      "shortDesc": "Mezcla de calostro, reishi, astrágalo, espirulina y FO-TI para complementar la alimentación. El nombre comercial no significa que contenga células madre.",
+      "benefitSummary": "Calostro, plantas y hongos como complemento nutricional",
+      "benefits": [
+        "Combina calostro, espirulina, reishi y plantas en cápsulas",
+        "Permite incorporar la mezcla sin preparar cada ingrediente",
+        "Es una mezcla nutricional y de plantas; no contiene células madre ni demuestra regeneración de órganos"
+      ]
+    },
+    {
+      "id": 188,
+      "shortDesc": "Propóleo, mentol y equinácea en gotas para dar frescura y acompañar el cuidado tradicional de la garganta."
+    },
+    {
+      "id": 189,
+      "shortDesc": "Infusión de cenizo y toronjil para acompañar una pausa de relajación y el bienestar digestivo tradicional."
+    },
+    {
+      "id": 190,
+      "shortDesc": "Mezcla de plantas, frutas e inulina para complementar la alimentación y el bienestar digestivo.",
+      "benefitSummary": "Plantas y fibra para bienestar digestivo"
+    },
+    {
+      "id": 191,
+      "shortDesc": "Creatina en polvo para apoyar la fuerza y el rendimiento en esfuerzos cortos e intensos. Incluye minerales y vitaminas, con sabor limón."
+    },
+    {
+      "id": 192,
+      "shortDesc": "Vitaminas B y otros nutrientes en una presentación líquida para ayudar a aprovechar la energía de los alimentos y cuidar los nervios."
+    },
+    {
+      "id": 193,
+      "shortDesc": "NAC con selenio para complementar el cuidado de las células. El NAC ayuda al cuerpo a formar glutatión, una de sus sustancias de protección.",
+      "benefits": [
+        "El NAC ayuda al cuerpo a formar glutatión, que participa en la protección de las células",
+        "El selenio contribuye al cuidado de las células",
+        "Ofrece una fórmula en cápsulas para complementar la alimentación"
+      ]
+    },
+    {
+      "id": 194,
+      "shortDesc": "Bebida de soya en polvo con proteína, vitaminas y minerales para complementar la alimentación."
+    },
+    {
+      "id": 195,
+      "shortDesc": "Dos fórmulas separadas, una de plantas y otra de vitaminas, minerales y jalea real, para complementar la alimentación diaria."
+    },
+    {
+      "id": 196,
+      "shortDesc": "Mezcla de plantas e inulina para acompañar el bienestar digestivo y los hábitos de alimentación.",
+      "benefitSummary": "Plantas y fibra para complementar el bienestar digestivo"
+    },
+    {
+      "id": 197,
+      "shortDesc": "Infusión con piña, linaza y distintos tés para variar las bebidas y acompañar una rutina después de comer."
+    },
+    {
+      "id": 198,
+      "shortDesc": "Sábila con vitamina C en una bebida para acompañar el bienestar digestivo tradicional y apoyar las defensas."
+    },
+    {
+      "id": 199,
+      "shortDesc": "Mezcla de plantas, entre ellas gayuba, té verde y jamaica, de uso tradicional para el bienestar urinario y digestivo.",
+      "benefitSummary": "Plantas de uso tradicional urinario y digestivo"
+    },
+    {
+      "id": 200,
+      "shortDesc": "Mezcla de linaza, sábila, nopal y otras plantas para acompañar el bienestar digestivo y la alimentación diaria."
+    },
+    {
+      "id": 201,
+      "shortDesc": "Cuatecomate con eucalipto y gordolobo en una presentación líquida de uso tradicional para el confort de la garganta. Contiene alcohol.",
+      "benefits": [
+        "Tiene uso tradicional para el confort de la garganta",
+        "El eucalipto complementa la mezcla de plantas de uso respiratorio tradicional",
+        "Su presentación líquida permite medir la porción indicada"
+      ]
+    },
+    {
+      "id": 202,
+      "shortDesc": "Calostro bovino con plantas como complemento de la alimentación; se estudia el calostro por su relación con el bienestar intestinal.",
+      "benefits": [
+        "Combina calostro con plantas en cápsulas",
+        "Ofrece una alternativa al calostro en polvo",
+        "Se estudia la relación del calostro con el bienestar intestinal; el efecto de esta mezcla no está confirmado"
+      ]
+    },
+    {
+      "id": 203,
+      "shortDesc": "Pomada de uso externo para ayudar a proteger y suavizar zonas de piel seca. Incluye ácido salicílico, alquitrán de hulla y extractos vegetales."
+    },
+    {
+      "id": 204,
+      "shortDesc": "Cartílago de tiburón en cápsulas como complemento nutricional orientado al cuidado de las articulaciones.",
+      "benefits": [
+        "Ofrece cartílago de tiburón en cápsulas como complemento nutricional",
+        "Permite incorporarlo sin preparar una bebida",
+        "Su enfoque es el cuidado articular; no se ha demostrado que regenere el cartílago"
+      ]
+    },
+    {
+      "id": 205,
+      "shortDesc": "Levadura de cerveza en tabletas para complementar la alimentación sin añadir levadura a las comidas."
+    },
+    {
+      "id": 206,
+      "shortDesc": "Aceites de pescado, sacha inchi y linaza con vitamina E para complementar el consumo de omega 3 y el cuidado del corazón."
+    },
+    {
+      "id": 207,
+      "shortDesc": "Melatonina con triptófano y rhodiola para acompañar la rutina de descanso y ayudar a regular el horario de sueño."
+    },
+    {
+      "id": 208,
+      "shortDesc": "Aceite de orégano con aceite de oliva en cápsulas para acompañar el bienestar digestivo tradicional, sin el sabor intenso del aceite."
+    },
+    {
+      "id": 209,
+      "shortDesc": "Creatina en polvo para apoyar la fuerza y el rendimiento en esfuerzos cortos e intensos. Incluye minerales y vitaminas, con sabor limonada rosa."
+    },
+    {
+      "id": 210,
+      "shortDesc": "Pata de vaca en cápsulas, una planta usada tradicionalmente para acompañar el cuidado de la alimentación y el bienestar general.",
+      "benefitSummary": "Pata de vaca de uso tradicional",
+      "benefits": [
+        "La pata de vaca tiene uso tradicional en el cuidado de la alimentación",
+        "Permite incorporar la planta sin preparar una infusión",
+        "Su fórmula no demuestra por sí sola que controle el azúcar en sangre"
+      ]
+    },
+    {
+      "id": 211,
+      "shortDesc": "Palo azul y uva ursi en cápsulas, plantas de uso tradicional para acompañar el bienestar urinario."
+    },
+    {
+      "id": 212,
+      "shortDesc": "Zinc para apoyar las defensas y el cuidado de la piel, el cabello y las uñas.",
+      "benefitSummary": "Zinc para defensas, piel, cabello y uñas"
+    },
+    {
+      "id": 213,
+      "shortDesc": "Mezcla de siete plantas de uso tradicional para acompañar el bienestar urinario y digestivo."
+    },
+    {
+      "id": 214,
+      "shortDesc": "Bebida de alpiste en polvo para variar las bebidas de la alimentación. Su fórmula incluye azúcar y otros carbohidratos."
+    },
+    {
+      "id": 215,
+      "shortDesc": "L-carnitina en cápsulas para complementar la alimentación de personas activas; participa en el uso de grasas como energía.",
+      "benefitSummary": "L-carnitina para complementar la alimentación de personas activas"
+    },
+    {
+      "id": 216,
+      "shortDesc": "Aceites de orégano y coco en cápsulas para acompañar el bienestar digestivo tradicional, sin su sabor intenso."
+    },
+    {
+      "id": 217,
+      "shortDesc": "Lisina en cápsulas para complementar el aporte de un nutriente necesario para formar y mantener las proteínas del cuerpo.",
+      "benefits": [
+        "La lisina ayuda a formar las proteínas del cuerpo",
+        "Participa en el mantenimiento de los tejidos",
+        "Permite complementar el aporte de lisina de la alimentación"
+      ]
+    },
+    {
+      "id": 218,
+      "shortDesc": "5-HTP en cápsulas, un ingrediente que el cuerpo usa para formar serotonina, relacionada con el ánimo y el descanso. Su utilidad debe valorarse según cada persona.",
+      "benefitSummary": "Ingrediente relacionado con ánimo y descanso",
+      "benefits": [
+        "El 5-HTP se usa en el cuerpo para formar serotonina, relacionada con el ánimo y el descanso",
+        "Se estudia como complemento del bienestar emocional",
+        "Su utilidad para mejorar el sueño no está confirmada para todas las personas"
+      ]
+    },
+    {
+      "id": 219,
+      "shortDesc": "Proteína vegetal en polvo para completar la alimentación y apoyar el mantenimiento y desarrollo de los músculos. Alternativa a la proteína de leche."
+    },
+    {
+      "id": 220,
+      "shortDesc": "Proteína de suero en polvo con L-carnitina para completar el consumo de proteína y acompañar la recuperación después de entrenar."
+    },
+    {
+      "id": 221,
+      "shortDesc": "Mezcla de plantas y vitamina B12 para acompañar el bienestar digestivo y complementar la alimentación.",
+      "benefitSummary": "Plantas y vitamina B12 como complemento de la alimentación",
+      "benefits": [
+        "Combina plantas de uso tradicional para el bienestar digestivo",
+        "La vitamina B12 ayuda a obtener energía de los alimentos",
+        "Reúne la mezcla en cápsulas sin preparar cada planta"
+      ]
+    },
+    {
+      "id": 222,
+      "shortDesc": "Linaza con frutas y nopal en polvo para complementar el consumo de fibra y apoyar la regularidad intestinal."
+    },
+    {
+      "id": 223,
+      "shortDesc": "Wereke con otras plantas de la herbolaria mexicana para acompañar el bienestar digestivo tradicional.",
+      "benefitSummary": "Plantas mexicanas de uso tradicional digestivo",
+      "benefits": [
+        "Combina wereke y otras plantas de la herbolaria mexicana",
+        "Tiene uso tradicional para acompañar el bienestar digestivo",
+        "Permite incorporar la mezcla sin preparar las plantas"
+      ]
+    },
+    {
+      "id": 224,
+      "shortDesc": "Aceite de orégano con aceite de oliva en gotas para acompañar el bienestar digestivo tradicional.",
+      "benefits": [
+        "Aporta aceite de orégano en gotas",
+        "Contiene compuestos vegetales con actividad antioxidante",
+        "Tiene uso tradicional como complemento digestivo",
+        "El gotero facilita medir la cantidad indicada",
+        "Permite incorporar el aceite sin preparar la planta"
+      ]
+    },
+    {
+      "id": 225,
+      "shortDesc": "Vitamina B12 en pastillas para apoyar el funcionamiento de los nervios y la formación de la sangre, especialmente cuando falta esta vitamina."
+    },
+    {
+      "id": 226,
+      "shortDesc": "Jarabe de boldo, cardo mariano y otras plantas de uso tradicional para acompañar el bienestar después de comer."
+    },
+    {
+      "id": 245,
+      "shortDesc": "Vitaminas D3 y K2 para ayudar a absorber el calcio y mantener los huesos. La vitamina D también apoya los músculos y las defensas."
+    },
+    {
+      "id": 246,
+      "shortDesc": "Glutamina con zinc, fibra y otros ingredientes para complementar la nutrición de las células que recubren el intestino. Polvo sabor frambuesa-limón.",
+      "benefitSummary": "Nutrición para las células que recubren el intestino",
+      "benefits": [
+        "La glutamina sirve de alimento a algunas células del intestino",
+        "El zinc participa en el mantenimiento de los tejidos",
+        "La inulina alimenta ciertas bacterias beneficiosas del intestino",
+        "Reúne nutrientes orientados al bienestar digestivo"
+      ]
+    },
+    {
+      "id": 227,
+      "shortDesc": "Citrato de magnesio en cápsulas para apoyar los músculos, los nervios y el aprovechamiento de la energía de los alimentos."
+    },
+    {
+      "id": 228,
+      "shortDesc": "Glicinato de magnesio con brócoli en cápsulas para apoyar los músculos, los nervios y el aprovechamiento de la energía de los alimentos.",
+      "benefits": [
+        "El magnesio contribuye al funcionamiento de músculos y nervios",
+        "Ayuda a aprovechar la energía de los alimentos",
+        "Apoya el mantenimiento de los huesos",
+        "Combina magnesio con brócoli en cápsulas"
+      ]
+    },
+    {
+      "id": 229,
+      "shortDesc": "Omega 3 de pescado con vitamina E en gomitas para complementar la alimentación infantil y el cuidado del cerebro y los ojos. Para la edad indicada en la etiqueta."
+    },
+    {
+      "id": 230,
+      "shortDesc": "Vitamina K2 con alfalfa para complementar la alimentación y ayudar al mantenimiento de los huesos.",
+      "benefits": [
+        "La vitamina K ayuda al mantenimiento de los huesos",
+        "Participa en la coagulación normal de la sangre",
+        "Permite complementar la vitamina K de la alimentación"
+      ]
+    },
+    {
+      "id": 231,
+      "shortDesc": "Tónico de plantas cuya ficha declara Aristolochia. La fórmula requiere revisión de seguridad antes de recomendar su consumo.",
+      "benefitSummary": "Fórmula pendiente de revisión de seguridad",
+      "benefits": [
+        "No presentar beneficios como confirmados mientras se revisa la fórmula",
+        "La ficha declara Aristolochia, una planta que puede contener sustancias dañinas para los riñones",
+        "Confirmar la composición actual y su seguridad antes de recomendar el consumo"
+      ]
+    },
+    {
+      "id": 232,
+      "shortDesc": "Cacao puro en polvo para dar sabor a bebidas y recetas, con fibra y compuestos propios del cacao que ayudan al cuidado de las células."
+    },
+    {
+      "id": 233,
+      "shortDesc": "Sen con malva para facilitar la evacuación en casos de estreñimiento ocasional."
+    },
+    {
+      "id": 234,
+      "shortDesc": "Vitaminas B con jalea real en jarabe para complementar la alimentación infantil y apoyar el aprovechamiento de la energía de los alimentos.",
+      "benefitSummary": "Vitaminas para complementar la alimentación infantil"
+    },
+    {
+      "id": 235,
+      "shortDesc": "Nopal en cápsulas para complementar la alimentación e incorporar este ingrediente de uso tradicional digestivo.",
+      "benefitSummary": "Nopal como complemento de la alimentación"
+    },
+    {
+      "id": 236,
+      "shortDesc": "Sábila y nopal en cápsulas para acompañar el bienestar digestivo tradicional."
+    },
+    {
+      "id": 237,
+      "shortDesc": "Ajo en cápsulas para complementar una alimentación orientada al cuidado del corazón, sin añadir su sabor a las comidas."
+    },
+    {
+      "id": 238,
+      "shortDesc": "Vitaminas B con magnesio para ayudar a obtener energía de los alimentos y apoyar los músculos y los nervios."
+    },
+    {
+      "id": 239,
+      "shortDesc": "Crema facial con goji, aceites, sábila y ácido hialurónico para hidratar y suavizar la piel. Su ficha declara FPS 45.",
+      "benefits": [
+        "Ayuda a mantener la piel hidratada",
+        "Aporta una sensación de suavidad",
+        "El ácido hialurónico ayuda a retener humedad en la piel",
+        "Los aceites y extractos vegetales complementan el cuidado facial"
+      ]
+    },
+    {
+      "id": 240,
+      "shortDesc": "Aceite de oliva en perlas para complementar el consumo de grasas de la alimentación."
+    },
+    {
+      "id": 241,
+      "shortDesc": "Levadura de cerveza en polvo para complementar la alimentación con proteína, fibra y vitaminas B."
+    },
+    {
+      "id": 242,
+      "shortDesc": "Fibra de achicoria para alimentar bacterias beneficiosas del intestino y apoyar la regularidad intestinal. Se mezcla con alimentos y bebidas."
+    },
+    {
+      "id": 243,
+      "shortDesc": "Jarabe con propóleo y plantas como gordolobo, eucalipto y menta, de uso tradicional para el confort de la garganta.",
+      "benefits": [
+        "Sus ingredientes dulces pueden dar una sensación de suavidad en la garganta",
+        "Combina plantas de uso tradicional respiratorio",
+        "La menta y el eucalipto aportan sensación de frescura",
+        "Su presentación permite medir la porción indicada"
+      ]
+    },
+    {
+      "id": 244,
+      "shortDesc": "Hongos chaga y reishi con L-carnitina y probióticos para complementar la alimentación y acompañar el bienestar intestinal."
+    },
+    {
+      "id": 247,
+      "shortDesc": "Vitaminas y minerales en gomitas para complementar la alimentación infantil y apoyar las defensas, los huesos y el aprovechamiento de la energía."
+    },
+    {
+      "id": 248,
+      "shortDesc": "Vitaminas y minerales en gomitas para complementar la alimentación infantil y apoyar los nervios, los huesos y las defensas."
+    },
+    {
+      "id": 249,
+      "shortDesc": "Vitaminas con calcio en una presentación líquida de sabor frutal para complementar la alimentación infantil y apoyar los huesos."
+    },
+    {
+      "id": 250,
+      "shortDesc": "Hierro con vitaminas en una presentación líquida para apoyar la formación de la sangre y reducir el cansancio cuando falta hierro."
+    },
+    {
+      "id": 251,
+      "shortDesc": "Calostro bovino en polvo para complementar la alimentación; se estudia su relación con el bienestar intestinal. Se incorpora a preparaciones frías.",
+      "benefits": [
+        "Ofrece calostro en polvo como complemento de la alimentación",
+        "Se incorpora a preparaciones frías",
+        "Es una alternativa al calostro en cápsulas",
+        "Se estudia su relación con el bienestar intestinal; la respuesta depende de la fórmula y cantidad"
+      ]
+    },
+    {
+      "id": 252,
+      "shortDesc": "Bebida para antes de entrenar con guaraná, vitaminas, minerales y otros ingredientes orientados a la alerta y el rendimiento físico."
+    },
+    {
+      "id": 253,
+      "shortDesc": "Moringa, romero y hoja de guayaba en cápsulas para acompañar el bienestar digestivo tradicional y complementar la alimentación con ingredientes vegetales.",
+      "benefitSummary": "Tres plantas de uso tradicional digestivo",
+      "benefits": [
+        "Combina tres plantas de uso tradicional digestivo",
+        "Sus ingredientes contienen sustancias que se estudian por su relación con el cuidado de las células",
+        "Permite incorporar las tres plantas sin preparar una infusión"
+      ]
+    },
+    {
+      "id": 254,
+      "shortDesc": "Yumel en gotas, una planta usada tradicionalmente para acompañar el bienestar digestivo después de comidas con grasa."
+    },
+    {
+      "id": 255,
+      "shortDesc": "Perlas de menta y propóleo para dar frescura a la boca y acompañar el confort de la garganta."
+    },
+    {
+      "id": 256,
+      "shortDesc": "Pasiflora en perlas para acompañar una rutina de relajación y descanso, según su uso tradicional."
+    },
+    {
+      "id": 257,
+      "shortDesc": "Vitaminas B y otros nutrientes en jarabe para ayudar a obtener energía de los alimentos y apoyar el funcionamiento de los nervios."
+    },
+    {
+      "id": 258,
+      "shortDesc": "Gel de uso externo con mentol, alcanfor y plantas para facilitar el masaje y dar confort en zonas con molestias musculares o articulares."
+    },
+    {
+      "id": 259,
+      "shortDesc": "Mezcla de plantas y vitaminas para acompañar el bienestar femenino, la vitalidad y algunos malestares durante la menopausia.",
+      "benefitSummary": "Vitalidad y bienestar durante la menopausia",
+      "benefits": [
+        "Su enfoque es acompañar el bienestar femenino durante la menopausia",
+        "Las isoflavonas y el cohosh pueden ayudar con algunos bochornos en ciertas personas",
+        "La vitamina B12 ayuda a obtener energía de los alimentos",
+        "El guaraná aporta cafeína para mantenerse alerta"
+      ]
+    },
+    {
+      "id": 260,
+      "shortDesc": "Anís, jengibre y canela en una presentación líquida de uso tradicional para el confort digestivo y durante el ciclo menstrual."
+    },
+    {
+      "id": 261,
+      "shortDesc": "Vitaminas, minerales y otros nutrientes en ampolletas bebibles para complementar la alimentación y apoyar la energía, los nervios y la formación de la sangre."
+    },
+    {
+      "id": 262,
+      "shortDesc": "Calcio con probióticos e inulina en polvo para apoyar los huesos y acompañar el bienestar intestinal. Sabor fresa.",
+      "benefitSummary": "Calcio para huesos y cuidado intestinal"
+    },
+    {
+      "id": 263,
+      "shortDesc": "Plata coloidal en agua. No tiene beneficios demostrados por consumo oral y no es una opción para reforzar las defensas.",
+      "benefits": [
+        "No hay beneficios demostrados de consumir plata coloidal",
+        "La plata no es un nutriente que el cuerpo necesite",
+        "No debe recomendarse para reforzar las defensas"
+      ]
+    },
+    {
+      "id": 264,
+      "shortDesc": "Vitamina B5 en cápsulas para ayudar a aprovechar la energía de los alimentos y complementar el aporte de esta vitamina.",
+      "benefitSummary": "Vitamina B5 para aprovechar la energía de los alimentos"
+    },
+    {
+      "id": 265,
+      "shortDesc": "Zeolita en cápsulas. Sus posibles beneficios digestivos y su seguridad necesitan confirmación; no se ha demostrado que esta fórmula elimine metales del cuerpo.",
+      "benefits": [
+        "No se ha demostrado que esta fórmula elimine metales del cuerpo",
+        "Su utilidad para el bienestar digestivo y su seguridad necesitan confirmación",
+        "Sus propiedades de capturar sustancias en laboratorio no demuestran el mismo efecto al consumirla"
+      ]
+    },
+    {
+      "id": 266,
+      "shortDesc": "Tlanchalagua con otras plantas de la herbolaria mexicana para acompañar el bienestar digestivo tradicional."
+    },
+    {
+      "id": 267,
+      "shortDesc": "Ginseng rojo en ampolletas, usado tradicionalmente para acompañar la vitalidad y etapas de mayor cansancio."
+    },
+    {
+      "id": 268,
+      "shortDesc": "Aceite de rosa mosqueta para suavizar la piel seca y ayudar a conservar su humedad."
+    },
+    {
+      "id": 269,
+      "shortDesc": "Noni en una presentación líquida para acompañar el bienestar general según su uso tradicional."
+    },
+    {
+      "id": 270,
+      "shortDesc": "Cúrcuma y jengibre en cápsulas para acompañar el bienestar digestivo y el cuidado de las articulaciones."
+    },
+    {
+      "id": 271,
+      "shortDesc": "Albizia con bacopa, teanina y magnesio para acompañar la calma y el cuidado de la atención y la memoria.",
+      "benefitSummary": "Calma y cuidado de la atención y la memoria",
+      "benefits": [
+        "La bacopa se estudia por su relación con la memoria y la atención",
+        "La teanina puede acompañar una rutina de calma",
+        "El magnesio ayuda al funcionamiento de los nervios",
+        "La albizia tiene uso tradicional para el bienestar emocional"
+      ]
+    },
+    {
+      "id": 272,
+      "shortDesc": "Albizia con rhodiola, teanina y magnesio para acompañar la calma y la vitalidad en etapas de estrés y cansancio mental.",
+      "benefitSummary": "Calma y vitalidad ante el estrés cotidiano",
+      "benefits": [
+        "La rhodiola se estudia como apoyo ante el cansancio relacionado con el estrés",
+        "La teanina puede acompañar una rutina de calma",
+        "El magnesio ayuda al funcionamiento de los nervios",
+        "La albizia tiene uso tradicional para el bienestar emocional"
+      ]
+    },
+    {
+      "id": 273,
+      "shortDesc": "Cohosh negro con isoflavonas de soja para acompañar el bienestar durante la menopausia y algunos malestares como los bochornos.",
+      "benefitSummary": "Bienestar durante la menopausia"
+    },
+    {
+      "id": 274,
+      "shortDesc": "Extracto de hojas de guanábana con vitamina C para apoyar las defensas y el cuidado de las células. El beneficio nutricional descrito corresponde a la vitamina C.",
+      "benefits": [
+        "La vitamina C ayuda al funcionamiento de las defensas",
+        "Ayuda a proteger las células",
+        "Participa en la formación de colágeno para piel, huesos y otros tejidos",
+        "Favorece el aprovechamiento del hierro de alimentos vegetales"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "ids": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        245,
+        246,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274
+      ],
+      "review": "Revisión individual de descripción, resumen, beneficios e ingredientes. Se conservan beneficios ya claros y coherentes; se simplifican las 91 descripciones."
+    },
+    {
+      "id": 227,
+      "issue": "Descripción original: 500 mg por cápsula. Ingredientes: 750 mg por porción de 3 cápsulas. Se omite cifra en descripción; verificar etiqueta antes de cambiar fórmulas o porciones."
+    },
+    {
+      "id": 228,
+      "issue": "La ficha declara 150 mg de estearato de magnesio entre ingredientes; confirmar etiqueta, no contar ese ingrediente como aporte nutricional de magnesio."
+    },
+    {
+      "id": 231,
+      "issue": "Aristolochia sp. declarada: posible exposición a ácidos aristolóquicos con daño renal y riesgo de cáncer. Requiere confirmar composición y suspender recomendación hasta aclararla. La pauta 10 ml = 2 cucharadas también es inconsistente.",
+      "sources": [
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/aristolochic-acids",
+        "https://www.accessdata.fda.gov/CMS_IA/importalert_141.html"
+      ]
+    },
+    {
+      "id": 201,
+      "issue": "Se retiró miel de beneficios porque no aparece en los ingredientes declarados."
+    },
+    {
+      "id": 243,
+      "issue": "El nombre incluye MIEL y descripción antigua también, pero ingredientes listan fructosa/glucosa sin miel; se evita atribuir beneficio específicamente a miel hasta confirmar etiqueta."
+    },
+    {
+      "id": 239,
+      "issue": "Se retiró vitamina E de beneficios porque no figura en ingredientes; FPS 45 se identifica como dato de la ficha, pendiente de respaldo del fabricante."
+    },
+    {
+      "id": 221,
+      "issue": "Se retiró la afirmación de enzimas no declaradas y el supuesto aporte de magnesio nutricional: la lista solo declara estearato de magnesio."
+    },
+    {
+      "id": 263,
+      "issue": "Se retira promesa de apoyo inmunológico de descripción para concordar con beneficios. Plata coloidal oral no tiene beneficios demostrados.",
+      "sources": [
+        "https://www.nccih.nih.gov/health/colloidal-silver-what-you-need-to-know"
+      ]
+    },
+    {
+      "id": 245,
+      "issue": "Se omite promesa cardiovascular y certificaciones no demostradas por ingredientes; la descripción queda en funciones nutricionales de vitaminas D y K."
+    },
+    {
+      "id": 273,
+      "issue": "Se sustituye climaterio por menopausia. Beneficios se conservan como apoyo posible para algunas personas."
+    }
+  ]
+}
