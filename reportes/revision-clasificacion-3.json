@@ -1,0 +1,1308 @@
+{
+  "reviewedIds": [
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    245,
+    246,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "reviews": [
+    {
+      "id": 184,
+      "name": "ZENMUN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha presenta ZENMUN como fórmula de defensas, con vitaminas C/D, zinc y plantas; ésa es su función principal.",
+      "evidence": [
+        "GUIAS WEB HTML/ZENMUN .html — Descripción técnica y encabezado Defensa Inmune",
+        "data/productos.js — producto id 184: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 185,
+      "name": "ASTRÁGALO",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El astrágalo se presenta principalmente por su enfoque tradicional en las defensas; vitalidad es un uso secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/ASTRÁGALO.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 185: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 186,
+      "name": "CALOSTRO BOVINO",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de calostro Ypenza destaca primero su enfoque inmunológico; se conserva la clasificación por ese propósito, sin dar por demostrados sus efectos.",
+      "evidence": [
+        "GUIAS WEB HTML/CALOSTRO BOVINO.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 186: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 187,
+      "name": "CÉLULAS MADRE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La mezcla de calostro, astrágalo y reishi está presentada principalmente para defensas. El nombre Células Madre no la convierte en producto de regeneración.",
+      "evidence": [
+        "GUIAS WEB HTML/CÉLULAS MADRE.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 187: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 188,
+      "name": "EXTRACTO DE PROPÓLEO ABAGREEN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "Propóleo, mentol y equinácea tienen en la ficha un enfoque de defensas y confort respiratorio, no de digestión.",
+      "evidence": [
+        "GUIAS WEB HTML/EXTRACTO DE PROPÓLEO ABAGREEN.html — Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 188: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 189,
+      "name": "TÉ JOUNKINS LAX",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha combina bienestar digestivo con relajación. Se conserva digestivo por su uso tradicional principal en esa sección; el nombre LAX no basta para clasificarlo como laxante y no declara sen.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ JOUNKINS LAX.html — Descripción técnica, ingredientes y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 189: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 190,
+      "name": "DEMOGRASS LX+",
+      "from": "laxantes",
+      "to": "digestivo",
+      "reason": "La ficha describe fibra, frutas y plantas para tránsito intestinal y bienestar digestivo/metabólico; no centra el uso en estreñimiento ocasional ni declara un laxante estimulante.",
+      "evidence": [
+        "GUIAS WEB HTML/DEMOGRASS LX+.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 190: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 191,
+      "name": "CREATINA REFRESHER LEMON TWIST",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La creatina con electrolitos se presenta para fuerza, hidratación y rendimiento del entrenamiento; vitaminas secundarias no cambian su enfoque deportivo.",
+      "evidence": [
+        "GUIAS WEB HTML/CREATINA REFRESHER LEMON TWIST.html — Guía Práctica, público y uso sugerido",
+        "data/productos.js — producto id 191: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 192,
+      "name": "NEUROCEBRYL COMPUESTO",
+      "from": "nervioso",
+      "to": "metabolismo",
+      "reason": "La descripción de la fórmula B con otras vitaminas empieza por aprovechamiento de energía y luego nervios. No hay un enfoque específico de sueño, atención o memoria que justifique elegir nervioso solo por el nombre comercial.",
+      "evidence": [
+        "GUIAS WEB HTML/NEUROCEBRYL COMPUESTO.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 192: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 193,
+      "name": "NAC NOW",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "NAC y selenio se presentan principalmente para protección antioxidante general y formación de glutatión; la ficha no centra el producto en glucosa, peso o producción de energía.",
+      "evidence": [
+        "GUIAS WEB HTML/NAC NOW.html — Descripción técnica y función principal del componente",
+        "data/productos.js — producto id 193: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 194,
+      "name": "LECHE DE SOYA SYMKEN",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Es una bebida de soya en polvo con proteína y micronutrientes para completar la alimentación, no una fórmula deportiva específica.",
+      "evidence": [
+        "GUIAS WEB HTML/LECHE DE SOYA SYMKEN.html — Descripción técnica y forma de preparación",
+        "data/productos.js — producto id 194: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 195,
+      "name": "DYNEEM",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "El sistema de dos frascos está orientado en la ficha al bienestar metabólico, con un complejo nutricional secundario. No se decide por una planta aislada.",
+      "evidence": [
+        "GUIAS WEB HTML/DYNEEM.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 195: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 196,
+      "name": "DEMOGRASS PREMIER",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha presenta la mezcla Demograss Premier principalmente con enfoque metabólico y energético; la inulina digestiva es una parte secundaria.",
+      "evidence": [
+        "GUIAS WEB HTML/DEMOGRASS PREMIER.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 196: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 197,
+      "name": "TÉ PIÑALIM PLUS",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "Piñalim Plus se presenta como infusión de bienestar digestivo con piña y linaza; otros tés y referencias metabólicas no son su único propósito.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ PIÑALIM PLUS.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 197: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 198,
+      "name": "SÁBILA 1 LT PROSA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La sábila líquida está presentada principalmente para bienestar digestivo; la vitamina C añadida no convierte la bebida en fórmula de defensas.",
+      "evidence": [
+        "GUIAS WEB HTML/SÁBILA 1 LT PROSA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 198: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 199,
+      "name": "D MASTER PLATINUM",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha destaca bienestar urinario por la gayuba; los ingredientes digestivos y antioxidantes son secundarios dentro de esta presentación.",
+      "evidence": [
+        "GUIAS WEB HTML/D MASTER PLATINUM.html — Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 199: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 200,
+      "name": "D MASTER",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La mezcla de linaza, sábila, nopal y malva se presenta principalmente para tránsito y bienestar digestivo.",
+      "evidence": [
+        "GUIAS WEB HTML/D MASTER.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 200: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 201,
+      "name": "CUATECOMATE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El cuatecomate líquido con eucalipto y gordolobo se presenta ante todo para confort respiratorio, que pertenece al grupo inmune del catálogo.",
+      "evidence": [
+        "GUIAS WEB HTML/CUATECOMATE.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 201: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 202,
+      "name": "SUPER COLOSTRUM NOW",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de Super Colostrum describe una mezcla de calostro e InmunEnhancer con plantas orientada a función inmune; no se cambia por el formato nutricional.",
+      "evidence": [
+        "GUIAS WEB HTML/SUPER COLOSTRUM NOW.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 202: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 203,
+      "name": "NOPSOR POMADA",
+      "from": "piel",
+      "to": "piel",
+      "reason": "Es una pomada externa para sequedad, irritación y descamación de la piel, sin enfoque muscular o articular.",
+      "evidence": [
+        "GUIAS WEB HTML/NOPSOR POMADA.html — Descripción técnica y modo de aplicación",
+        "data/productos.js — producto id 203: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 204,
+      "name": "CARTÍLAGO PRONAT",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "La ficha correcta de Cartílago PRONAT presenta cartílago de tiburón en cápsulas para apoyo articular y óseo.",
+      "evidence": [
+        "GUIAS WEB HTML/CARTÍLAGO.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 204: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 205,
+      "name": "LEVADURA DE CERVEZA",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "La ficha de Levadura de Cerveza PRONAT describe un aporte general de proteína, fibra y vitaminas B; no se clasifica por un solo nutriente.",
+      "evidence": [
+        "GUIAS WEB HTML/LEVADURA DE CERVEZA PRONAT.html — Descripción técnica y perfil nutricional",
+        "data/productos.js — producto id 205: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 206,
+      "name": "OMEGA MAXIMUM PRONAT",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La mezcla de aceites omega se presenta con función cardiovascular principal; el DHA cerebral es un beneficio secundario de la composición.",
+      "evidence": [
+        "GUIAS WEB HTML/OMEGA MAXIMUM PRONAT.html — Descripción técnica y propiedades de aceites",
+        "data/productos.js — producto id 206: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 207,
+      "name": "2MR",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "Melatonina, triptófano y rhodiola se destinan al horario de sueño y bienestar mental; la pauta nocturna concuerda con nervioso.",
+      "evidence": [
+        "GUIAS WEB HTML/2MR.html — Descripción técnica y uso sugerido",
+        "data/productos.js — producto id 207: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 208,
+      "name": "CÁPSULAS DE ACEITE DE ORÉGANO",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "En esta ficha de ORE, los beneficios se ordenan como bienestar respiratorio, digestivo y protección celular. Se conserva inmune por el enfoque respiratorio expresado, sin inferir eficacia contra infecciones.",
+      "evidence": [
+        "GUIAS WEB HTML/CÁPSULAS DE ACEITE DE ORÉGANO.html — Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 208: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 209,
+      "name": "CREATINA REFRESHER PINK",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La creatina Refresher Pink es una bebida para rendimiento e hidratación del entrenamiento, no un multivitamínico general.",
+      "evidence": [
+        "GUIAS WEB HTML/CREATINA REFRESHER PINK.html — Guía Práctica y descripción técnica",
+        "data/productos.js — producto id 209: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 210,
+      "name": "PATA DE VACA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de pata de vaca enfatiza el bienestar metabólico; su uso digestivo se describe como secundario y no demuestra control de glucosa.",
+      "evidence": [
+        "GUIAS WEB HTML/PATA DE VACA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 210: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 211,
+      "name": "PALO AZUL UVA URSI",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "Palo azul y uva ursi se presentan específicamente para bienestar de vías urinarias, dentro del grupo clínico definido.",
+      "evidence": [
+        "GUIAS WEB HTML/PALO AZUL UVA URSI.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 211: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 212,
+      "name": "GLUCONATO DE ZINC PRONACEN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha del zinc destaca primero función inmunológica y después piel y proteínas. La clasificación inmune concuerda con su enfoque principal.",
+      "evidence": [
+        "GUIAS WEB HTML/GLUCONATO DE ZINC PRONACEN.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 212: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 213,
+      "name": "CHA-HA STONE",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La mezcla Chanca Piedra/cola de caballo y otras plantas tiene enfoque urinario y hepático, no exclusivamente digestivo.",
+      "evidence": [
+        "GUIAS WEB HTML/CHA-CHA STONE.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 213: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 214,
+      "name": "BEBIDA DE ALPISTE",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Es una bebida instantánea de alpiste con carbohidratos para variar la alimentación; no se clasifica como producto de glucosa o cardiovascular por alusiones tradicionales del alpiste.",
+      "evidence": [
+        "GUIAS WEB HTML/BEBIDA DE ALPISTLE.html — Descripción técnica y composición",
+        "data/productos.js — producto id 214: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 215,
+      "name": "L-CARNITINA PROWINNER",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La L-carnitina PROWINNER se presenta expresamente para actividad física, rendimiento y recuperación, con pauta diferenciada para deportistas.",
+      "evidence": [
+        "GUIAS WEB HTML/L-CARNITINA PROWINNER.html — Descripción técnica, público y sugerencias de uso",
+        "data/productos.js — producto id 215: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 216,
+      "name": "ACEITE DE ORÉGANO Y COCO",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "La ficha de esta mezcla ORE destaca aceites/MCT, compuestos vegetales y nutrición general, sin una función inmune o respiratoria principal. No se extrapola la ficha de orégano solo.",
+      "evidence": [
+        "GUIAS WEB HTML/ACEITE DE ORÉGANO Y COCO.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 216: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 217,
+      "name": "L-LISINA PROWINNER",
+      "from": "deportivo",
+      "to": "nutricional",
+      "reason": "La lisina pura se presenta para complementar un aminoácido esencial en crecimiento y mantenimiento de tejidos, con usos también no deportivos. La marca PROWINNER no basta para hacerla exclusivamente deportiva.",
+      "evidence": [
+        "GUIAS WEB HTML/L-LISINA PROWINNER.html — Descripción técnica, público y uso sugerido",
+        "data/productos.js — producto id 217: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 218,
+      "name": "5-HTP",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "El 5-HTP se presenta por su relación con ánimo, sueño y apetito, con foco en bienestar mental; corresponde a nervioso.",
+      "evidence": [
+        "GUIAS WEB HTML/5-HTP.html — Descripción técnica",
+        "data/productos.js — producto id 218: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 219,
+      "name": "VEGI PROTEIN NANO FEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La proteína vegetal declara público atleta/deportista y uso antes o después de entrenar; su fin principal es muscular y deportivo.",
+      "evidence": [
+        "GUIAS WEB HTML/VEGI PROTEIN NANO FEAR.html — Guía Práctica, público y uso sugerido",
+        "data/productos.js — producto id 219: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 220,
+      "name": "ISOFEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "ISOFEAR es proteína de suero dirigida a deportistas y recuperación del entrenamiento; las enzimas son un componente secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/ISOFEAR 5lbs.html — Guía Práctica y descripción técnica",
+        "data/productos.js — producto id 220: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 221,
+      "name": "SUKUNAI KIROS MAX",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La mezcla de linaza, malva, frutas y otras plantas se presenta principalmente para bienestar intestinal; la B12 no cambia la función primaria a nervioso o metabolismo.",
+      "evidence": [
+        "GUIAS WEB HTML/SUKUNAI KIROS MAX.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 221: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 222,
+      "name": "PIÑALINAZA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La fibra de linaza con frutas y nopal se orienta a alimentación y regularidad intestinal. No es una fórmula de sen ni se declara como laxante de uso ocasional.",
+      "evidence": [
+        "GUIAS WEB HTML/PIÑALINAZA.html — Descripción técnica y composición",
+        "data/productos.js — producto id 222: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 223,
+      "name": "WEREKE PROSA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha de Wereke PROSA coloca primero el bienestar digestivo de su mezcla; no se reclasifica solo por asociaciones de wereke con glucosa.",
+      "evidence": [
+        "GUIAS WEB HTML/WEREKE PROSA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 223: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 224,
+      "name": "ACEITE DE ORÉGANO GOTAS ORE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de estas gotas de ORE destaca el uso respiratorio antes del digestivo y antioxidante. Se conserva inmune como agrupación del propósito respiratorio, no como prueba de eficacia.",
+      "evidence": [
+        "GUIAS WEB HTML/ACEITE DE ORÉGANO GOTAS ORE.html — Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 224: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 225,
+      "name": "B12 NOW",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de B12 reparte el propósito entre sangre, nervios y energía y la dirige a aporte general de B12/dietas con mayor necesidad. Se conserva metabolismo; no se decide solo por el primer beneficio listado.",
+      "evidence": [
+        "GUIAS WEB HTML/B12 NOW.html — Descripción técnica, función principal y público",
+        "data/productos.js — producto id 225: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 226,
+      "name": "CARSYL GREEN JARABE 80 ML",
+      "from": "digestivo",
+      "to": "clinico",
+      "reason": "La ficha del jarabe Carsyl destaca primero apoyo al hígado por cardo mariano y después digestión. Bajo el criterio acordado de hígado en clínico, corresponde moverlo.",
+      "evidence": [
+        "GUIAS WEB HTML/CARSYL GREEN JARABE 80 ML.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 226: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 245,
+      "name": "VITAMINA D3 & K2 NOW",
+      "from": "metabolismo",
+      "to": "locomotor",
+      "reason": "La combinación D3/K2 tiene como eje absorción de calcio y mantenimiento óseo. Su concentración y la necesidad de revisar anticoagulantes no la vuelven metabolismo o clínico.",
+      "evidence": [
+        "GUIAS WEB HTML/VITAMINA D3 & K2 NOW.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 245: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 246,
+      "name": "L-GLUTAMINE + NAG",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La glutamina se combina con NAG, zinc y fibra para nutrición de la capa que recubre estómago e intestino; no es glutamina deportiva simple.",
+      "evidence": [
+        "GUIAS WEB HTML/L-GLUTAMINE + NAG.html — Descripción técnica",
+        "data/productos.js — producto id 246: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 227,
+      "name": "CITRATO DE MAGNESIO 90 CAPS",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha del citrato es magnesio general para energía, músculos y nervios; no está centrada en efecto laxante ni sueño ni únicamente huesos.",
+      "evidence": [
+        "GUIAS WEB HTML/CITRATO DE MAGNESIO 90 CAPS.html — Descripción técnica y propiedades del componente",
+        "data/productos.js — producto id 227: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 228,
+      "name": "GLICINATO DE MAGNESIO 90 CAPS",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha del glicinato con brócoli se presenta como aporte general de magnesio para energía, músculos y nervios. La pauta nocturna sola no demuestra un enfoque de sueño.",
+      "evidence": [
+        "GUIAS WEB HTML/GLICINATO DE MAGNESIO 90 CAPS.html — Descripción técnica y propiedades del componente",
+        "data/productos.js — producto id 228: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 229,
+      "name": "OMEGA INFANTIL PRONAT",
+      "from": "clinico",
+      "to": "nervioso",
+      "reason": "La ficha infantil destaca desarrollo cognitivo por DHA y salud visual, no cuidado cardiovascular. Se elige nervioso por el enfoque cerebral explícito.",
+      "evidence": [
+        "GUIAS WEB HTML/OMEGA INFANTIL PRONAT.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 229: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 230,
+      "name": "VITAMINA K2",
+      "from": "metabolismo",
+      "to": "locomotor",
+      "reason": "La vitamina K2 se presenta por su papel en el manejo del calcio y salud ósea; alfalfa y referencias cardiovasculares no cambian el foco principal.",
+      "evidence": [
+        "GUIAS WEB HTML/VITAMINA K2.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 230: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 231,
+      "name": "TÓNICO INDIO TZAPOTLATENA",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "La ficha histórica del tónico empieza por bienestar digestivo y hepático, no por glucosa, peso o energía. Digestivo describe ese propósito, pero la declaración de Aristolochia exige mantener la revisión de seguridad y no recomendarlo por esa categoría.",
+      "evidence": [
+        "GUIAS WEB HTML/TÓNICO INDIO TZAPOTLATENA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 231: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 232,
+      "name": "CACAO ORGÁNICO EN POLVO CULTO",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Es cacao puro en polvo para bebidas y recetas; sus antioxidantes y estimulación suave no sustituyen el uso alimentario principal.",
+      "evidence": [
+        "GUIAS WEB HTML/CACAO ORGÁNICO EN POLVO CULTO.html — Descripción técnica y forma de preparación",
+        "data/productos.js — producto id 232: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 233,
+      "name": "DIETERS DRINK",
+      "from": "laxantes",
+      "to": "laxantes",
+      "reason": "El ingrediente principal es sen y la ficha indica estreñimiento ocasional y evacuación nocturna/matutina. Es laxante, no una bebida para adelgazar.",
+      "evidence": [
+        "GUIAS WEB HTML/DIETERS DRINK.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 233: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 234,
+      "name": "ACTIKROLL PARA NIÑOS",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha presenta un jarabe para complementar la nutrición infantil con vitaminas B, jalea real y otros nutrientes, sin una función metabólica exclusiva.",
+      "evidence": [
+        "GUIAS WEB HTML/ACTIKROLL PARA NIÑOS.html — Descripción técnica, público y perfil nutricional",
+        "data/productos.js — producto id 234: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 235,
+      "name": "NOPAL PROSA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha del nopal en cápsulas destaca primero fibra y función intestinal. Las alusiones a glucosa y lípidos no son razón para cambiar su finalidad digestiva registrada.",
+      "evidence": [
+        "GUIAS WEB HTML/NOPAL PROSA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 235: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 236,
+      "name": "SÁBILA Y NOPAL PROSA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "Sábila y nopal se presentan principalmente para tránsito y bienestar digestivo; no se cambia por posibles usos metabólicos secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/SÁBILA Y NOPAL PROSA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 236: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 237,
+      "name": "AJO 150 CAPS PROSA",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha del ajo PROSA destaca específicamente corazón y vasos sanguíneos; no es ajo culinario para usar en recetas.",
+      "evidence": [
+        "GUIAS WEB HTML/AJO 150 CAPS PROSA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 237: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 238,
+      "name": "COMPLEJO B MULTIVITAMINICO YPENZA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "El complejo B con magnesio enfatiza aprovechamiento de energía como función principal, con músculos y nervios como funciones asociadas.",
+      "evidence": [
+        "GUIAS WEB HTML/COMPLEJO B MULTIVITAMINICO YPENZA.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 238: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 239,
+      "name": "CREMA FACIAL NUTRITIVA DE BAYAS DE GOJI",
+      "from": "piel",
+      "to": "piel",
+      "reason": "Es una crema facial cosmética de hidratación y protección cutánea; corresponde a piel por aplicación y finalidad.",
+      "evidence": [
+        "GUIAS WEB HTML/CREMA FACIAL NUTRITIVA DE BAYAS DE GOJI.html — Descripción técnica y modo de aplicación",
+        "data/productos.js — producto id 239: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 240,
+      "name": "ACEITE DE OLIVA DEMOGRASS 60 CAPS",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "Aunque contiene aceite de oliva puro, la ficha de las perlas destaca como fin específico el cuidado cardiovascular. Se conserva clínico por ese propósito, no por una promesa sobre colesterol.",
+      "evidence": [
+        "GUIAS WEB HTML/ACEITE DE OLIVA DEMOGRASS 60 CAPS.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 240: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 241,
+      "name": "LEVADURA DE CERVEZA 300g PRONAT",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "La levadura en polvo es un alimento para añadir a preparaciones y aportar proteína, fibra y vitaminas, sin una finalidad clínica exclusiva.",
+      "evidence": [
+        "GUIAS WEB HTML/LEVADURA DE CERVEZA 300g PRONAT.html — Descripción técnica y forma de preparación",
+        "data/productos.js — producto id 241: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 242,
+      "name": "PREBIAN",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "El producto es fibra prebiótica de achicoria para bacterias intestinales y regularidad; las menciones de saciedad son secundarias.",
+      "evidence": [
+        "GUIAS WEB HTML/PREBIAN.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 242: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 243,
+      "name": "PULMOBRON MIEL",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El jarabe se dirige al confort respiratorio y de garganta por sus extractos y propóleo; la parte digestiva es secundaria.",
+      "evidence": [
+        "GUIAS WEB HTML/PULMOBRON MIEL.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 243: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 244,
+      "name": "SUKUNAI KIROS BLUE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de Chaga/Reishi con carnitina y probióticos enumera primero apoyo inmune de hongos, luego energía y digestión. Se conserva esa finalidad de catálogo sin afirmar eficacia de la mezcla.",
+      "evidence": [
+        "GUIAS WEB HTML/SUKUNAI KIROS BLUE.html — Descripción técnica y Beneficios Funcionales Conocidos",
+        "data/productos.js — producto id 244: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 247,
+      "name": "FORTI OSITOS",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "Es un multivitamínico infantil completo con ejes de defensas, crecimiento, huesos y energía. Conviene nutricional por su finalidad amplia, no inmune por un subconjunto de vitaminas.",
+      "evidence": [
+        "GUIAS WEB HTML/FORTI OSITOS.html — Descripción técnica y matriz nutricional",
+        "data/productos.js — producto id 247: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 248,
+      "name": "FORTI Q OSITOS",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "A diferencia del multivitamínico infantil general, la ficha de Forti Q enfatiza expresamente neurodesarrollo, función cognitiva y aprendizaje con ácido glutámico. Se conserva nervioso por ese enfoque.",
+      "evidence": [
+        "GUIAS WEB HTML/FORT Q OSITOS.html — Encabezado, descripción técnica y eje cognitivo",
+        "data/productos.js — producto id 248: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 249,
+      "name": "KINDERVITAL FRUITY",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Kindervital es un multivitamínico pediátrico para alimentación y crecimiento, con calcio y varias vitaminas. No es calcio solo ni un producto centrado exclusivamente en huesos.",
+      "evidence": [
+        "GUIAS WEB HTML/KINDERVITAL FRUITY.html — Descripción técnica y público",
+        "data/productos.js — producto id 249: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 250,
+      "name": "FLORADIX + H FRUITY",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Floradix se centra en aportar hierro para formación de sangre y necesidades de hierro. El cansancio es una consecuencia posible de su falta, no el motivo para clasificarlo como metabolismo energético.",
+      "evidence": [
+        "GUIAS WEB HTML/FLORADIX + H FRUITY.html — Descripción técnica y composición",
+        "data/productos.js — producto id 250: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 251,
+      "name": "COLOSTRUM POWDER",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El calostro Humble destaca su estandarización de inmunoglobulinas y propósito de defensas; se conserva inmune como finalidad declarada, no por ser solo un polvo nutricional.",
+      "evidence": [
+        "GUIAS WEB HTML/COLOSTRUM POWDER.html — Encabezado y descripción técnica",
+        "data/productos.js — producto id 251: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 252,
+      "name": "BLOOM PRE-WORKOUT",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "Es un preentreno explícito con ingredientes para entrenamiento, alerta y rendimiento. Su componente mental no cambia el propósito deportivo.",
+      "evidence": [
+        "GUIAS WEB HTML/BLOOM PRE-WORKOUT.html — Encabezado, descripción técnica y uso sugerido",
+        "data/productos.js — producto id 252: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 253,
+      "name": "MORINGA, ROMERO Y HOJA DE GUAYABA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha original centra el primer eje en apoyo metabólico/glucémico y el segundo en digestión. Se conserva metabolismo según ese propósito explícito, sin convertirlo en tratamiento del azúcar.",
+      "evidence": [
+        "GUIAS WEB HTML/MORINGA, ROMERO Y HOJA DE GUAYABA.html — Descripción técnica y ejes de la fórmula",
+        "data/productos.js — producto id 253: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 254,
+      "name": "YUMEL TASAY INKA",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha de Yumel Tasay Inka se presenta como apoyo hepato-biliar y lipídico. Ese foco corresponde a clínico, aunque se tome antes de comer.",
+      "evidence": [
+        "GUIAS WEB HTML/YUMEL TASAY INKA.html — Encabezado y descripción técnica",
+        "data/productos.js — producto id 254: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 255,
+      "name": "PRO PROPÓLEO Y MENTA",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "Las perlas de propóleo y menta se dirigen al confort local de vías respiratorias superiores y garganta, no a cosmética ni digestión.",
+      "evidence": [
+        "GUIAS WEB HTML/PRO PROPÓLEO Y MENTA.html — Descripción técnica",
+        "data/productos.js — producto id 255: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 256,
+      "name": "PASIFLORINA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La pasiflora en perlas se presenta para relajación y rutina de descanso; coincide con nervioso.",
+      "evidence": [
+        "GUIAS WEB HTML/PASIFLORINA.html — Encabezado y descripción técnica",
+        "data/productos.js — producto id 256: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 257,
+      "name": "TIAMINA JARABE GN+VIDA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha señala expresamente energía cerebral, función nerviosa y agudeza mental. No se cambia a metabolismo por contener vitaminas B.",
+      "evidence": [
+        "GUIAS WEB HTML/TIAMINA JARABE GN+VIDA.html — Descripción técnica",
+        "data/productos.js — producto id 257: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 258,
+      "name": "GEL CORPORAL XIHUITL",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "El gel está formulado para masaje y molestias musculares/articulares. Ser tópico no lo convierte en cosmético facial o hidratante.",
+      "evidence": [
+        "GUIAS WEB HTML/GEL CORPORAL XIHUITL.html — Encabezado, descripción técnica y modo de aplicación",
+        "data/productos.js — producto id 258: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 259,
+      "name": "FW FACTOR WOMEN",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La mezcla FW Factor Women está enfocada en bienestar femenino y transición hormonal, con otros ingredientes de apoyo secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/FW FACTOR WOMEN.html — Descripción técnica y ejes de la fórmula",
+        "data/productos.js — producto id 259: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 260,
+      "name": "COMPUESTO VEGETAL DE LYDIA",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La ficha del tónico Lydia declara un enfoque específico en la mujer adulta durante el ciclo menstrual; anís y jengibre digestivos no sustituyen esa finalidad principal.",
+      "evidence": [
+        "GUIAS WEB HTML/COMPUESTO VEGETAL DE LYDIA.html — Descripción técnica",
+        "data/productos.js — producto id 260: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 261,
+      "name": "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha declara como público personas con demanda cognitiva, fatiga mental y desgaste intelectual; el aporte de vitaminas y minerales sirve a ese enfoque nervioso.",
+      "evidence": [
+        "GUIAS WEB HTML/ÁCIDO GLUTÁMICO.html — Descripción técnica y público",
+        "data/productos.js — producto id 261: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 262,
+      "name": "BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS",
+      "from": "nutricional",
+      "to": "locomotor",
+      "reason": "El eje principal de Baria Sure es aporte de citrato de calcio para estructura ósea; proteína y probióticos sirven como acompañamiento de esa fórmula, no como objetivo nutricional general.",
+      "evidence": [
+        "GUIAS WEB HTML/BARIA SURE.html — Encabezado y descripción técnica",
+        "data/productos.js — producto id 262: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 263,
+      "name": "PLATA COLOIDAL BLU SILVER",
+      "from": "inmune",
+      "to": "otros",
+      "reason": "La ficha actual no reconoce beneficios por consumo oral y la plata no es un nutriente. Mantener inmune sugeriría una función que contradice esa información; corresponde a Otros productos, sin atribuir beneficio funcional.",
+      "evidence": [
+        "GUIAS WEB HTML/PLATA COLOIDAL BLU SILVER.html — data/productos.js: descripción, ingredientes y beneficios id263; ficha original para identidad",
+        "data/productos.js — producto id 263: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 264,
+      "name": "ÁCIDO PANTOTÉNICO (B-5)",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "B5 se presenta específicamente para uso de la energía de los alimentos y función de coenzima A; el calcio del pantotenato es secundario, no un producto óseo.",
+      "evidence": [
+        "GUIAS WEB HTML/Ácido Pantoténico (B-5).html — Descripción técnica y función principal",
+        "data/productos.js — producto id 264: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 265,
+      "name": "ZEOLITA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha identifica una preparación mineral de uso gastrointestinal. Se conserva digestivo solo por ese propósito, manteniendo explícito que beneficios y seguridad de la fórmula requieren confirmación.",
+      "evidence": [
+        "GUIAS WEB HTML/ZEOLITA.html — Encabezado y descripción técnica; ficha actual sin beneficios confirmados",
+        "data/productos.js — producto id 265: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 266,
+      "name": "TLANCHALAGUA PROSA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La mezcla de plantas amargas/aromáticas se presenta primero para uso tradicional digestivo; no se asigna piel o metabolismo por asociaciones aisladas de una planta.",
+      "evidence": [
+        "GUIAS WEB HTML/TLANCHALAGUA PROSA.html — Descripción técnica y Beneficios Funcionales de la Mezcla",
+        "data/productos.js — producto id 266: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 267,
+      "name": "PREMIUM PANAX GINSENG",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha del ginseng destaca adaptación al estrés físico y mental y contempla concentración; se conserva nervioso. Vitalidad y uso deportivo son ámbitos secundarios dentro de una ficha de varios usos.",
+      "evidence": [
+        "GUIAS WEB HTML/Premium Panax Ginseng.html — Descripción técnica y perfiles de uso",
+        "data/productos.js — producto id 267: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 268,
+      "name": "ACEITE DE ROSA MOSQUETA",
+      "from": "piel",
+      "to": "piel",
+      "reason": "Aceite de rosa mosqueta es de aplicación externa para hidratación y barrera cutánea, por lo que corresponde a piel.",
+      "evidence": [
+        "GUIAS WEB HTML/Aceite Rosa Mosqueta.html — Descripción técnica y modo de aplicación",
+        "data/productos.js — producto id 268: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 269,
+      "name": "JUGO DE NONI",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "El noni es una bebida botánica con perfil antioxidante y bienestar general de varios sistemas; no tiene como foco único defensas ni órgano clínico específico.",
+      "evidence": [
+        "GUIAS WEB HTML/JUGO DE NONI.html — Descripción técnica y perfiles de uso",
+        "data/productos.js — producto id 269: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 270,
+      "name": "CÚRCUMA & JENGIBRE",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "El producto combina raíces en polvo y la ficha actual lo enfoca claramente a pesadez/gases. La fuente original también describe motilidad gástrica y confort digestivo, no un producto de glucosa o peso.",
+      "evidence": [
+        "GUIAS WEB HTML/CÚRCUMA & JENGIBRE.html — Descripción técnica y ficha actual id270",
+        "data/productos.js — producto id 270: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 271,
+      "name": "ALBIZIA + BACOPA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha actual presenta Albizia/Bacopa con teanina para calma, atención y memoria. Ingredientes y propósito concuerdan con nervioso; falta el archivo original en la carpeta consultada.",
+      "evidence": [
+        "data/productos.js — producto id 271: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 272,
+      "name": "ALBIZIA + RHODIOLA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha actual presenta Albizia/Rhodiola con teanina para estrés y cansancio mental; no es una fórmula de energía deportiva. Se conserva nervioso, con documento original no localizado.",
+      "evidence": [
+        "data/productos.js — producto id 272: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 273,
+      "name": "COHOSH NEGRO CON ISOFLAVONAS",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La fórmula de cohosh e isoflavonas está destinada explícitamente al bienestar durante menopausia; corresponde a hormonal. No se localizó el archivo HTML original referenciado en el cruce.",
+      "evidence": [
+        "data/productos.js — producto id 273: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 274,
+      "name": "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha actual atribuye el enfoque de defensas a vitamina C, no a efectos anticancerígenos de guanábana. Se conserva inmune; archivo de ficha recibida no disponible en carpeta consultada.",
+      "evidence": [
+        "data/productos.js — producto id 274: nombre, ingredientes, descripción, beneficios y modo de uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    }
+  ],
+  "criteria": [
+    "Clasificación primaria por finalidad declarada en ficha completa, con ingredientes y modo de empleo como comprobación; no solo por el primer beneficio o nombre comercial.",
+    "Se consultaron los HTML originales cuando existían; el CSV solo ayudó a localizarlos y no se usó como prueba automática.",
+    "La categoría describe agrupación de catálogo; no valida eficacia clínica ni las promesas fuertes que aparecen en fichas históricas.",
+    "Se emplea otros únicamente para plata coloidal263, con autorización de integración de raíz; no para resolver ambigüedades corrientes."
+  ],
+  "notes": [
+    {
+      "ids": [
+        204,
+        205
+      ],
+      "issue": "El CSV relaciona id205 con CARTILAGO PRONAT.html, pero dicho archivo contiene texto y tabla de levadura. Para205 se utilizó LEVADURA DE CERVEZA PRONAT.html; para204 la ficha CARTÍLAGO.html de cápsulas de cartílago de tiburón. Corregir índice por identidad de ficha, no por coincidencia de nombre."
+    },
+    {
+      "ids": [
+        271,
+        272,
+        273,
+        274
+      ],
+      "issue": "Los HTML originales no están en la carpeta GUIAS WEB HTML. Se conserva clasificación con evidencia de la ficha actual del catálogo, asignando confidence medium por faltar documento original accesible."
+    },
+    {
+      "id": 231,
+      "issue": "La categoría propuesta describe el uso digestivo histórico y no autoriza su recomendación; continúa pendiente la revisión de composición/seguridad por Aristolochia."
+    },
+    {
+      "id": 263,
+      "issue": "No pertenece a clasificación inmune ni nutricional según la ficha actual; raíz añadirá Otros productos para no sugerir beneficio funcional."
+    }
+  ]
+}

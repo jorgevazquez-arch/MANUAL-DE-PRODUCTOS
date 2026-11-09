@@ -1,5 +1,13 @@
 # Cambios del manual de El Girasol
 
+## Revisión de clasificaciones según ficha — 9 de noviembre de 2026
+
+- Tres agentes revisaron individualmente los 271 productos: 67 cambian de categoría y 204 conservan su clasificación. Se usaron fichas HTML originales para 267 productos; los IDs 271–274 se revisaron con la ficha vigente del catálogo por falta de HTML original.
+- Se corrigieron, entre otros, WPI 90 a Deportivo, el vinagre de sidra de 90 cápsulas a Digestivo y las fórmulas óseas de calcio y vitaminas D/K a Locomotor. Se distinguen alimentos, multivitamínicos y antioxidantes generales de fórmulas con un objetivo específico.
+- Se agregó Otros productos para no presentar plata coloidal como apoyo inmune o nutricional. La categoría está disponible en filtros, fichas, comparador e impresión.
+- Se aclararon las descripciones de las categorías y se unificó el índice de impresión con el orden del catálogo PDF. El catálogo cambia únicamente el campo de clasificación; se conservan ingredientes, porciones, beneficios y precauciones.
+- Cada decisión tiene razón, fuente y confianza en los tres reportes `revision-clasificacion-*.json`. Detalle y casos de varias funciones: `reportes/resultado-clasificacion-2026-11-09.md`.
+
 ## Nueva guía de indigestión — 9 de noviembre de 2026
 
 - Se agrega «Indigestión y Pesadez Después de Comer» al grupo digestivo: el manual pasa a 76 guías.

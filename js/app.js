@@ -131,7 +131,8 @@
             'locomotor': { emoji: '💪', name: 'Locomotor' },
                 'nutricional': { emoji: '🍎', name: 'Nutricional' },
             'clinico': { emoji: '❤️', name: 'Clínico' },
-            'deportivo': { emoji: '🏋️', name: 'Deportivo' }
+            'deportivo': { emoji: '🏋️', name: 'Deportivo' },
+            'otros': { emoji: '🗂️', name: 'Otros productos' }
         };
 
         const guideColorGroups = [
@@ -146,17 +147,18 @@
         ];
 
         const categoryDescriptions = {
-            'digestivo': "Esta sección es el corazón del bienestar. Incluye todo lo necesario para una digestión óptima: enzimas para descomponer alimentos, probióticos para equilibrar la flora, fibras para regular el tránsito y botánicos para reparar y desinflamar la mucosa gástrica (gastritis, colitis). También abarca el soporte hepático y biliar, crucial para el metabolismo de las grasas.",
-            'laxantes': "Esta sección se especializa en productos para el alivio del estreñimiento ocasional. Incluye laxantes estimulantes y fórmulas botánicas que promueven la regularidad intestinal. Su recomendación debe ser cuidadosa y para uso a corto plazo, educando al cliente sobre la importancia de no generar dependencia.",
-            'inmune': "Aquí se encuentran los 'soldados' y 'armas' del sistema de defensa. Incluye desde vitaminas y minerales clave (Vitamina D, C, Zinc) hasta potentes botánicos (Equinácea, Ajo) y hongos medicinales que modulan la respuesta inmune. El objetivo es prevenir infecciones, acortar su duración y calmar respuestas autoinmunes.",
-            'nervioso': "El centro de control del cuerpo. Esta categoría se enfoca en nutrir y equilibrar el sistema nervioso. Encontrarás nootrópicos para mejorar la memoria y el enfoque, adaptógenos para combatir el estrés, y fórmulas específicas para calmar la ansiedad y promover un sueño profundo y reparador.",
-            'metabolismo': "El motor del cuerpo. Estos productos están diseñados para optimizar la forma en que el cuerpo produce y utiliza la energía. Aquí se encuentran las vitaminas del Complejo B, que son las 'chispas' de la producción de energía. También se enfoca en mejorar la sensibilidad a la insulina (clave en prediabetes y SOP), apoyar el control de peso, activar la quema de grasa y potenciar la energía a nivel celular (mitocondrias).",
-            'hormonal': "La orquesta química del cuerpo. Esta sección contiene suplementos para equilibrar las hormonas masculinas y femeninas. Aborda desde el soporte para la menopausia y el síndrome premenstrual, hasta la optimización de la testosterona, la libido y la vitalidad en general, usando adaptógenos y fito-hormonas.",
-            'piel': "La belleza y protección desde adentro. Aquí se agrupan fórmulas con potentes antioxidantes para combatir el envejecimiento, colágeno para la firmeza, y nutrientes específicos para la hidratación de la piel y la protección de los ojos contra el daño solar y la luz azul.",
-            'locomotor': "El chasis y la suspensión del cuerpo. Esta categoría se centra en la salud de huesos, articulaciones, músculos y cartílago. Incluye 'bloques de construcción' como el colágeno y la glucosamina, y potentes antiinflamatorios naturales como la cúrcuma para aliviar el dolor y mejorar la movilidad.",
-            'clinico': "Protocolos de alta especialidad. Esta sección agrupa suplementos con un impacto profundo en la fisiología, orientados al soporte cardiovascular (presión, colesterol), hepático (hígado graso) y renal. Su recomendación requiere un conocimiento más avanzado y una comprensión clara de las condiciones del cliente.",
-            'nutricional': "Los 'superalimentos' y la base nutricional. A diferencia de otras categorías que tratan condiciones, esta agrupa productos que ofrecen una alta densidad de nutrientes en su forma natural. Son para enriquecer la dieta, aportar energía, vitaminas, minerales y antioxidantes para el bienestar general. Aquí se encuentran la Miel y la Espirulina.",
-            'deportivo': "Optimización del rendimiento físico. Productos diseñados para atletas y personas activas. Incluye proteínas para la construcción muscular, creatina para la fuerza, pre-entrenos para la energía y suplementos para acelerar la recuperación, reducir el dolor muscular y prevenir lesiones."
+            'digestivo': "Productos cuyo enfoque principal es el estómago, el intestino y la digestión: enzimas, probióticos, fibras y plantas digestivas. Las fórmulas dirigidas principalmente al estreñimiento están en Laxantes.",
+            'laxantes': "Productos cuya ficha se enfoca principalmente en facilitar la evacuación o aliviar el estreñimiento. Revisar la forma y el tiempo de uso indicados para cada fórmula.",
+            'inmune': "Fórmulas cuya ficha se enfoca principalmente en las defensas o el confort de las vías respiratorias. La categoría ayuda a ubicarlas; cada ficha explica sus beneficios y límites.",
+            'nervioso': "Productos enfocados en relajación, descanso, atención, memoria o funcionamiento de los nervios, según su ficha.",
+            'metabolismo': "Fórmulas enfocadas en energía, aprovechamiento del azúcar o control de peso. Incluye complejos B para energía y minerales de uso general cuando no tienen un enfoque más específico.",
+            'hormonal': "Productos con un enfoque específico de bienestar femenino o masculino: menopausia, ciclo menstrual, próstata, deseo sexual o salud reproductiva.",
+            'piel': "Productos para el cuidado de piel, cabello, uñas u ojos. Incluye cosméticos y geles cuya función principal es el cuidado de la piel.",
+            'locomotor': "Productos enfocados en huesos, articulaciones, músculos y movimiento. Incluye calcio, vitaminas para huesos, fórmulas articulares y productos de masaje muscular según su ficha.",
+            'clinico': "Productos cuya ficha se enfoca en el cuidado del corazón, la circulación, el hígado o las vías urinarias. La elección depende de la fórmula y las necesidades de la persona.",
+            'nutricional': "Alimentos, bebidas, multivitamínicos y otros aportes nutricionales de uso general. Incluye antioxidantes cuando la ficha no los dirige principalmente a un órgano o función específica.",
+            'deportivo': "Productos dirigidos principalmente al entrenamiento y la recuperación: proteínas, creatina y otras fórmulas deportivas, según su ficha.",
+            'otros': "Productos que no corresponden a las categorías de apoyo nutricional o por sistema. Consultar su ficha antes de explicar su función."
         };
 
         const categoryOrderPdf = { // Títulos actualizados para SECCIÓN 3
@@ -171,6 +173,7 @@
             'piel': '3.9. Cuidado de la Piel y Ojos',
             'deportivo': '3.10. Suplementos Deportivos',
             'nutricional': '3.11. Apoyo Nutricional General',
+            'otros': '3.12. Otros Productos',
         };
 
         function populateSideMenuFilters() {
@@ -1217,7 +1220,7 @@
                             </div>
                             <div class="flex-1">
                         <h4 class="text-lg font-black text-girasol-green-900 leading-tight">${p.name}</h4>
-                        <p class="text-[10px] font-bold uppercase tracking-wider mt-1" style="color:${catA}">${p.category}</p>
+                        <p class="text-[10px] font-bold uppercase tracking-wider mt-1" style="color:${catA}">${categoryIcons[p.category]?.name || p.category}</p>
                             </div>
                         </div>
                         <p class="text-xs text-gray-600 mb-3 flex-1 line-clamp-3">${p.shortDesc}</p>
@@ -1490,19 +1493,7 @@
                 return acc;
             }, {});
 
-            const categoryOrder = {
-                'metabolismo': '3.1. Bienestar Metabólico y Control de Peso',
-                'clinico': '3.2. Salud Cardiovascular, Hepática y Urinaria',
-                'digestivo': '3.3. Bienestar Digestivo',
-                'laxantes': '3.4. Laxantes y Regularidad Intestinal',
-                'locomotor': '3.5. Salud Articular y Ósea',
-                'inmune': '3.6. Defensas Naturales y Salud Respiratoria',
-                'nervioso': '3.7. Sistema Nervioso y Sueño',
-                'hormonal': '3.8. Salud Hormonal',
-                'piel': '3.9. Cuidado de la Piel y Ojos',
-                'deportivo': '3.10. Suplementos Deportivos',
-                'nutricional': '3.11. Apoyo Nutricional General',
-            };
+            const categoryOrder = categoryOrderPdf;
 
             indexHTML += `<h2 class="text-2xl font-bold text-girasol-green-800 mb-4 mt-10 border-t pt-6">Índice de Suplementos por Categoría</h2>`;
             indexHTML += `<div class="columns-2 gap-8">`;

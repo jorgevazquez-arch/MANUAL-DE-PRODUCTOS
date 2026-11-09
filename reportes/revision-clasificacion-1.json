@@ -1,0 +1,1280 @@
+{
+  "date": "2026-11-09",
+  "scope": "Primeros 90 productos del array del catálogo; decisión individual por producto, contrastada con sus fichas HTML originales locales.",
+  "taxonomy": "Una clasificación primaria según el enfoque de la ficha y el catálogo actual. La categoría no confirma eficacia terapéutica ni seguridad.",
+  "reviewedIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "CLORURO DE MAGNESIO 250 gr",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "Magnesio general: energía, músculos y nervios; la ficha no prioriza una indicación articular o calmante.",
+      "evidence": [
+        "GUIAS WEB HTML/CLORURO DE MAGNESIO 250 gr.html:201 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 1: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 2,
+      "name": "COCONUT + OREGANO OIL (60 cápsulas)",
+      "from": "inmune",
+      "to": "digestivo",
+      "reason": "La descripción técnica define expresamente un soporte digestivo y antioxidante con coco y orégano; no una fórmula principal de defensas.",
+      "evidence": [
+        "GUIAS WEB HTML/COCONUT-OREGANO-OIL.html:274 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 2: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 3,
+      "name": "COLÁGENO HIDROLIZADO 500 g",
+      "from": "piel",
+      "to": "piel",
+      "reason": "El colágeno con vitamina C y biotina se orienta a piel, cabello y uñas; la función articular es compartida, no el único objetivo.",
+      "evidence": [
+        "GUIAS WEB HTML/Colágeno Hidrolizado 500 g.html:227 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 3: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 4,
+      "name": "COMPLEJO B CON ARANDANO (90 cápsulas)",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "El complejo B se presenta para energía y vitalidad general; arándano y funciones nerviosas son aportes secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/COMPLEJO B ARANDANO.html:205 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 4: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 5,
+      "name": "COMPLEJO B Y GINSENG 60 caps",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "Complejo B con ginseng orientado a vitalidad y energía diaria; no es una fórmula específica para sueño o memoria.",
+      "evidence": [
+        "GUIAS WEB HTML/COMPLEJO B Y GINSENG 60 caps.html:219 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 5: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 6,
+      "name": "CRANBERRY URY, ARANDANO ROJO 1000 mg",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha sitúa el arándano URY en el cuidado de las vías urinarias.",
+      "evidence": [
+        "GUIAS WEB HTML/CRANBERRY URY, ARANDANO ROJO 1000 mg.html:198 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 6: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 7,
+      "name": "CREATINA MONOHIDRATADA BIRDMAN",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "Creatina pura dirigida al rendimiento, fuerza y esfuerzos intensos del entrenamiento.",
+      "evidence": [
+        "GUIAS WEB HTML/CREATINA BIRDMAN.html:246 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 7: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 8,
+      "name": "CREATINA NANO FEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha de creatina Nano Fear identifica nutrición deportiva y rendimiento durante el ejercicio.",
+      "evidence": [
+        "GUIAS WEB HTML/CREATINA NANO FEAR.html:315 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 8: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 9,
+      "name": "CUACHALALATE + TEPEZCOHUITE",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La fórmula oral de dos cortezas prioriza bienestar del estómago; el uso dérmico tradicional del tepezcohuite no la convierte en cosmético.",
+      "evidence": [
+        "GUIAS WEB HTML/Cuachalalate + Tepezcohuite.html:199 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 9: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 10,
+      "name": "CUORE",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "CUORE está definido como fórmula cardiovascular y circulatoria; las vitaminas B no cambian ese objetivo principal.",
+      "evidence": [
+        "GUIAS WEB HTML/CUORE 90 caps 500 mg ZN.html:155 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 10: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 11,
+      "name": "CURCUMA POWDER",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha lo presenta como especia y alimento funcional en polvo para añadir a preparaciones, con aporte antioxidante general.",
+      "evidence": [
+        "GUIAS WEB HTML/CURCUMA POWDER.html:245 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 11: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 12,
+      "name": "CURCUMA, JENGIBRE Y MORINGA",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "La mezcla de raíces tiene función digestiva tradicional documentada y el texto vigente prioriza pesadez y gases; no hay enfoque principal de control de glucosa o peso.",
+      "evidence": [
+        "GUIAS WEB HTML/CURCUMA, JENGIBRE Y MORINGA 90 caps.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 12: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 13,
+      "name": "CÚRCUMA",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "La ficha reconoce uso tradicional digestivo de la raíz de cúrcuma y el enfoque vigente es pesadez, gases y digestión lenta; no es un complejo metabólico.",
+      "evidence": [
+        "GUIAS WEB HTML/Cúrcuma.html:204 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 13: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 14,
+      "name": "ACEITE DE COCO 1 L",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Es aceite de coco comestible RBD para cocinar, hornear y preparar alimentos; aportar grasa no lo hace suplemento de control metabólico.",
+      "evidence": [
+        "GUIAS WEB HTML/ACEITE DE COCO 1LT.html:681 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 14: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 15,
+      "name": "ACEITE DE COCO ORGÁNICO 420 ml",
+      "from": "piel",
+      "to": "nutricional",
+      "reason": "El aceite extra virgen es principalmente un ingrediente de cocina; la suavidad de piel y cabello es un uso externo secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/Aceite de Coco Orgánico 420 ml.html:661 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 15: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 16,
+      "name": "ACEITE DE ORÉGANO (20 ml)",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha original destaca vías respiratorias y bienestar en cambios estacionales; se conserva ese enfoque principal aunque también menciona digestión.",
+      "evidence": [
+        "GUIAS WEB HTML/Aceite-de-oregano.html:197 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 16: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 17,
+      "name": "ÁCIDO ALFA LIPÓICO",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de ALA centra la función en metabolismo energético y glucídico, además de antioxidación; no fija un órgano clínico como objetivo principal.",
+      "evidence": [
+        "GUIAS WEB HTML/Ácido Alfa Lipóico.html:204 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 17: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 18,
+      "name": "ÁCIDO HIALURÓNICO",
+      "from": "piel",
+      "to": "piel",
+      "reason": "El diseño de colágeno tipo I con ácido hialurónico prioriza hidratación y elasticidad de piel; las articulaciones son otro uso.",
+      "evidence": [
+        "GUIAS WEB HTML/ACIDO HIALURONICO Y COLAGENO HIDROLIZADO.html:189 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 18: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 19,
+      "name": "ÁCIDO LINOLEICO CONJUGADO (CLA)",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha identifica explícitamente público de atletas y deportistas y cuidado de composición corporal/masa magra durante actividad física.",
+      "evidence": [
+        "GUIAS WEB HTML/ÁCIDO LINOLEICO CONJUGADO l CLA NANOFEAR.html:314 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 19: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 20,
+      "name": "AGUAJE COMPLEX",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "Aguaje, fenogreco y macas se presentan para bienestar femenino y cambios de etapa; no se clasifica solo por energía.",
+      "evidence": [
+        "GUIAS WEB HTML/AGUAJE COMPLEX.html:203 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 20: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 21,
+      "name": "AJO NEGRO + MORINGA",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "La fórmula prioriza aporte vegetal y protección antioxidante general; las funciones cardiovascular, energética e inmune son compartidas sin una diana principal clara.",
+      "evidence": [
+        "GUIAS WEB HTML/AJO NEGRO + MORINGA zn.html:203 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 21: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 22,
+      "name": "AJO NEGRO CON PROPÓLEO",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de ajo con propóleo declara como enfoque las defensas naturales y las vías respiratorias.",
+      "evidence": [
+        "GUIAS WEB HTML/Ajo Negro con Propóleo.html:199 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 22: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 23,
+      "name": "AJO NEGRO",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha del ajo negro prioriza el cuidado cardiovascular, además del aporte antioxidante.",
+      "evidence": [
+        "GUIAS WEB HTML/AJO NEGRO.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 23: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 24,
+      "name": "ALBÚMINA DE HUEVO PROWINNER",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La albúmina se ofrece como fuente de proteína para deportistas y recuperación muscular, no como multivitamínico general.",
+      "evidence": [
+        "GUIAS WEB HTML/ALBÚMINA DE HUEVO PROWINNER.html:416 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 24: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 25,
+      "name": "ALGA ESPIRULINA EN POLVO",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Espirulina pura en polvo para enriquecer alimentos y bebidas; no se elige categoría por cada nutriente secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/ALGA ESPIRULINA EN POLVO.html:244 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 25: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 26,
+      "name": "ALGA ESPIRULINA ORGANICA",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Espirulina con vitaminas y minerales para refuerzo nutricional general; no hay un único órgano o uso deportivo dominante.",
+      "evidence": [
+        "GUIAS WEB HTML/ALGA ESPIRULINA ORGANICA 180 caps 500 mg.html:6 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 26: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 27,
+      "name": "ALOE VERA CON ARANDANO",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La bebida de sábila conserva un enfoque digestivo e hidratante; el arándano añade cuidado urinario secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/ALOE VERA CON ARANDANO.html:240 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 27: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 28,
+      "name": "ALOE VERA LIQUIDO TROPICAL",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La bebida de aloe tropical se formula para equilibrio digestivo; la vitamina C no hace que su función principal sean las defensas.",
+      "evidence": [
+        "GUIAS WEB HTML/ALOE VERA LIQUIDO TROPICAL.html:207 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 28: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 29,
+      "name": "AMP-ON 60 caps 600mg",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha original define AMP-ON como complejo metabólico con objetivo energético y de aprovechamiento de glucosa; fibra y bacterias son complementarios.",
+      "evidence": [
+        "GUIAS WEB HTML/AMP-ON  60 caps 600mg ZN.html:214 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 29: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 30,
+      "name": "ARTMUUB 1.1 kg",
+      "from": "deportivo",
+      "to": "nutricional",
+      "reason": "La ficha lo define como polvo de nutrición integral para adultos con proteína, fibra, omega y micronutrientes; no se dirige exclusivamente a deportistas ni equivale a Artmuub cápsulas.",
+      "evidence": [
+        "GUIAS WEB HTML/Artmuub 1.1 kg.html:215 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 30: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 31,
+      "name": "ARTMUUB 200 CAPS",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "Glucosamina, condroitina y MSM se presentan explícitamente para cartílago, movilidad y cuidado articular.",
+      "evidence": [
+        "GUIAS WEB HTML/Artmuub 200 caps.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 31: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 32,
+      "name": "ASHWAGANDA ROOT",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La raíz/extracto de ashwagandha se orienta al estrés, relajación y calidad del descanso.",
+      "evidence": [
+        "GUIAS WEB HTML/ASHWAGANDA ROOT ZN.html:188 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 32: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 33,
+      "name": "ASHWAGANDHA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha de ashwagandha en tabletas se centra en bienestar mental y respuesta al estrés, no en una necesidad hormonal específica.",
+      "evidence": [
+        "GUIAS WEB HTML/ASHWAGANDHA.HTML:210 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 33: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 34,
+      "name": "ASTAXANTINA",
+      "from": "piel",
+      "to": "piel",
+      "reason": "La ficha incluye piel y ojos entre los objetivos expresos y el catálogo actual prioriza ambos; no se mueve por su antioxidación general.",
+      "evidence": [
+        "GUIAS WEB HTML/ASTAXANTINA 250MG.html:198 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 34: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 35,
+      "name": "BEEF FEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La proteína de res con creatina y taurina está destinada a atletas y recuperación tras entrenamiento.",
+      "evidence": [
+        "GUIAS WEB HTML/BEEF FEAR 500 gr.html:327 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 35: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 36,
+      "name": "BERBERINA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de berberina y el catálogo centran el uso en cuidado de glucosa y grasas en sangre dentro de un plan de alimentación.",
+      "evidence": [
+        "GUIAS WEB HTML/BERBERINA.html:191 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 36: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 37,
+      "name": "BPASS Bio Life 500 mg",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha combina varias funciones y destaca la carnitina y el metabolismo energético. Se conserva Metabolismo como clasificación amplia, sin deducir un órgano específico ni prometer pérdida de peso.",
+      "evidence": [
+        "GUIAS WEB HTML/BPASS.html:631 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 37: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 38,
+      "name": "CAFE CON MORINGA 22 sobres",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "Es una bebida de café con moringa y hongos; la ficha no la define como suplemento principal de defensas ni como preentreno.",
+      "evidence": [
+        "GUIAS WEB HTML/CAFE CON MORINGA.html:633 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 38: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 39,
+      "name": "CAFE DE OLLA 600 g",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Café de olla con especias para preparar una bebida; cafeína y bajo aporte de azúcar no lo convierten en fórmula metabólica.",
+      "evidence": [
+        "GUIAS WEB HTML/CAFE DE OLLA 600 g zn.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 39: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 40,
+      "name": "CAFE SOLUBLE 30 sobres",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "La presentación es café soluble en sobres con hongos y frutos; se clasifica por su uso como bebida, sin prometer un efecto inmune de la mezcla.",
+      "evidence": [
+        "GUIAS WEB HTML/CAFE SOLUBLE 30 sobres.html:207 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 40: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 41,
+      "name": "CANELA CROMO",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "Canela con cromo está diseñada para aprovechamiento de alimentos y cuidado de glucosa; el resto de vitaminas y minerales es secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/CANELA CROMO 1 gr ZN.html:208 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 41: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 42,
+      "name": "CARA LLUMA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La caralluma se presenta como apoyo al apetito dentro de un plan de alimentación y ejercicio.",
+      "evidence": [
+        "GUIAS WEB HTML/CARA LLUMA 500 mg ZN.html:205 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 42: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 43,
+      "name": "CARSYL GREEN",
+      "from": "digestivo",
+      "to": "clinico",
+      "reason": "La ficha de CARSYL identifica bienestar hepático y función biliar de forma expresa; por la taxonomía acordada, hígado queda en clínico aunque también mencione digestión.",
+      "evidence": [
+        "GUIAS WEB HTML/CARSYL GREEN.html:227 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 43: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 44,
+      "name": "CASTAÑO DE INDIAS",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "El castaño de Indias se dirige al bienestar venoso y la circulación de las piernas.",
+      "evidence": [
+        "GUIAS WEB HTML/CASTAÑO DE INDIAS.html:568 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 44: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 45,
+      "name": "CHROMIUM",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "Cromo con carnitina tiene foco de aprovechamiento de alimentos y manejo normal de glucosa; no es cromo aislado ni fórmula hormonal.",
+      "evidence": [
+        "GUIAS WEB HTML/CHROMIUM.html:201 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 45: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 46,
+      "name": "CITRATO DE MAGNESIO POWDER 500 gr",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "Predomina el aporte de magnesio para energía, músculos y nervios; el colágeno agregado no fija por sí solo un objetivo exclusivamente articular.",
+      "evidence": [
+        "GUIAS WEB HTML/CITRATO DE MAGNESIO POWDER 500 gr.html:199 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 46: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 47,
+      "name": "CITRATO DE POTASIO",
+      "from": "clinico",
+      "to": "metabolismo",
+      "reason": "La ficha define un aporte mineral general para equilibrio de líquidos y función muscular/nerviosa; presión y orina son funciones secundarias, no una fórmula clínica específica.",
+      "evidence": [
+        "GUIAS WEB HTML/CITRATO DE POTASIO 90 caps 500 mg.html:198 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 47: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 48,
+      "name": "CLOROFILA LIQUIDA 500 ml",
+      "from": "digestivo",
+      "to": "nutricional",
+      "reason": "La fórmula de clorofilina sola tiene enfoque general y presentación para bebida; no hay un objetivo digestivo específico que deba inferirse de afirmaciones de depuración.",
+      "evidence": [
+        "GUIAS WEB HTML/CLOROFILA LIQUIDA 500 ml.html:204 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 48: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 49,
+      "name": "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "A diferencia de clorofilina sola, esta mezcla tiene hierbabuena y menta y la ficha define expresamente su enfoque digestivo.",
+      "evidence": [
+        "GUIAS WEB HTML/CLOROFILA LIQUIDA Y HIERBABUENA 500 ML.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 49: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 50,
+      "name": "CLORURO DE MAGNESIO",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "El cloruro es aporte de magnesio general para músculos, nervios y energía; las pequeñas vitaminas y calcio no cambian su función principal.",
+      "evidence": [
+        "GUIAS WEB HTML/CLORURO DE MAGNESIO 100 CAPS ZN.html:201 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 50: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 51,
+      "name": "MOROIZY",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "La ficha de MOROIZY oral pone primero cuidado articular y movimiento; circulación y vitaminas no desplazan ese foco.",
+      "evidence": [
+        "GUIAS WEB HTML/MOROIZY 90 caps 500 mg.html:211 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 51: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 52,
+      "name": "MYO + D-CHIRO INOSITOL 500 mg",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La combinación myo/D-chiro está expresamente dirigida al bienestar femenino, función ovárica y ciclos; el manejo del azúcar es una función compartida.",
+      "evidence": [
+        "GUIAS WEB HTML/MYO + D-CHIRO Inositol 500 mg ZN.html:208 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 52: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 53,
+      "name": "MYO + D-CHIRO INOSITOL POWDER 300g - 40:1",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La mezcla myo/D-chiro 40:1 tiene foco femenino/metabólico explícito y se mantiene junto a la presentación de cápsulas con el mismo objetivo.",
+      "evidence": [
+        "GUIAS WEB HTML/MYO + D-CHIRO INOSITOL POWDER 300g ZN.html:146 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 53: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 54,
+      "name": "CURCUMINA",
+      "from": "metabolismo",
+      "to": "locomotor",
+      "reason": "El extracto concentrado se explica en la ficha vigente por dolor y rigidez articular; su antioxidación no lo convierte en producto para peso o glucosa.",
+      "evidence": [
+        "GUIAS WEB HTML/Curcumina.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 54: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 55,
+      "name": "D3 1000 UI + VITAMINA C & EQUINÁCEA",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha lo identifica como complejo de defensa estacional con vitamina C y equinácea; la D3 ósea es un aporte adicional.",
+      "evidence": [
+        "GUIAS WEB HTML/D3 1000u 30 caps ZN.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 55: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 56,
+      "name": "DEMOGRASS CLÁSICO",
+      "from": "laxantes",
+      "to": "digestivo",
+      "reason": "La ficha describe mezcla con fibra y plantas para salud digestiva, sin definirlo como laxante para estreñimiento; no basta que contenga sábila para clasificarlo como tal.",
+      "evidence": [
+        "GUIAS WEB HTML/DEMOGRASS CLASICO.html:621 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 56: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 57,
+      "name": "DEMOGRASS PLUS",
+      "from": "laxantes",
+      "to": "digestivo",
+      "reason": "La ficha de la variante Plus describe plantas, fibra y tés con enfoque digestivo; no documenta una función laxante principal.",
+      "evidence": [
+        "GUIAS WEB HTML/Demograss Plus.html:613 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 57: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 58,
+      "name": "DIOLA ROSE",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La rhodiola se presenta para demanda física y mental y respuesta al estrés; el magnesio no convierte la fórmula en un mineral energético genérico.",
+      "evidence": [
+        "GUIAS WEB HTML/DIOLA ROSE.html:236 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 58: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 59,
+      "name": "DT GREEN",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "DT Green se orienta de forma expresa a ligereza y bienestar digestivo de su mezcla vegetal.",
+      "evidence": [
+        "GUIAS WEB HTML/DT Green.html:203 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 59: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 60,
+      "name": "ENDIS",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "ENDIS es una mezcla de enzimas para descomponer alimentos y apoyar el confort después de comer.",
+      "evidence": [
+        "GUIAS WEB HTML/Endis.html:207 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 60: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 61,
+      "name": "EQUINACEA Y VITAMINA C",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "Equinácea con vitamina C se presenta explícitamente para defensas y bienestar en cambios de temporada.",
+      "evidence": [
+        "GUIAS WEB HTML/EQUINACEA Y VITAMINA C 500 mg.html:199 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 61: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 62,
+      "name": "EVEAUX 500 mg",
+      "from": "piel",
+      "to": "piel",
+      "reason": "La ficha EVEAUX que coincide con colágeno, queratina, aminoácidos y ácido hialurónico tiene foco piel/cabello/uñas; existe otra ficha homónima multivitamínica que debe mantenerse diferenciada.",
+      "evidence": [
+        "GUIAS WEB HTML/EVEAUX 500MG.html:208 (descripción y propiedades de la ficha)",
+        "GUIAS WEB HTML/EVEAUX.html:241 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 62: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 63,
+      "name": "FENOGRECO",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha documenta uso tradicional digestivo de fenogreco; metabolismo y bienestar hormonal son funciones secundarias y no obligan a moverlo.",
+      "evidence": [
+        "GUIAS WEB HTML/Fenogreco.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 63: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 64,
+      "name": "FITMINGO 510 GR VAINILLA",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La base es proteína vegetal concentrada para completar proteína y mantener tejidos/músculos; las mezclas beauty e inositoles son aportes añadidos.",
+      "evidence": [
+        "GUIAS WEB HTML/Fitmingo 510gr.html:216 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 64: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 66,
+      "name": "FLOR-ESSENCE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha original de Flor-Essence declara apoyo de los mecanismos de defensa como enfoque de la mezcla; esto describe su propósito, no demuestra su eficacia.",
+      "evidence": [
+        "GUIAS WEB HTML/FLOR ESSENCE.html:566 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 66: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 67,
+      "name": "FUNGONE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha desarrolla el apoyo inmunológico como función principal compartida de la mezcla de siete hongos; no se le atribuye eficacia clínica por la clasificación.",
+      "evidence": [
+        "GUIAS WEB HTML/FUNGONE.html:210 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 67: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 68,
+      "name": "GABA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "GABA se presenta para relajación, bienestar mental y descanso; zinc y vitaminas son secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/GABA.html:226 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 68: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 69,
+      "name": "GENTILAX",
+      "from": "laxantes",
+      "to": "laxantes",
+      "reason": "La ficha identifica fenolftaleína como laxante para evacuación; la seguridad pendiente no cambia su grupo funcional ni autoriza recomendarlo.",
+      "evidence": [
+        "GUIAS WEB HTML/GENTILAX.html:529 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 69: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 70,
+      "name": "GINKGO BILOBA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha vincula el extracto estandarizado de ginkgo a memoria y función neurológica además de circulación; conservar el grupo no afirma que mejore memoria en personas sanas.",
+      "evidence": [
+        "GUIAS WEB HTML/Ginkgo Biloba.html:201 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 70: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 71,
+      "name": "GLUTAMINE FEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha identifica glutamina para atletas, recuperación y nutrición del entrenamiento.",
+      "evidence": [
+        "GUIAS WEB HTML/GLUTAMINE FEAR.html:323 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 71: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 72,
+      "name": "GLUTATHIONE BLEND",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "El objetivo principal de glutatión con vitamina C es aporte antioxidante general; no debe deducirse una categoría hepática o metabólica solo por mecanismos de sus ingredientes.",
+      "evidence": [
+        "GUIAS WEB HTML/Glutathione Blend De 500MG.html:207 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 72: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 73,
+      "name": "GOJI TRIM 500 mg BIO LIFE",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La descripción técnica prioriza goji, antioxidantes y nutrientes para bienestar general; linaza y malva son ingredientes complementarios. Se clasifica como nutricional, sin tomar su aporte digestivo secundario como finalidad principal.",
+      "evidence": [
+        "GUIAS WEB HTML/GOJI TRIM® 500 mg BIO LIFE.html:407 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 73: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 74,
+      "name": "GOJI",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de esta variante Goji con BHB y ácido clorogénico define metabolismo energético entre sus objetivos explícitos; no es el mismo producto que Goji Trim o Gojizen.",
+      "evidence": [
+        "GUIAS WEB HTML/GOJI.html:223 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 74: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 75,
+      "name": "GOJIZEN MAX",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "En la mezcla Gojizen la ficha y descripción vigente destacan fibra, tránsito y enzimas de frutas; se prioriza función digestiva sobre inferir adelgazamiento por mango africano.",
+      "evidence": [
+        "GUIAS WEB HTML/GOJIZEN MAX.html:243 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 75: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 76,
+      "name": "GREEN LX",
+      "from": "laxantes",
+      "to": "laxantes",
+      "reason": "GREEN LX se orienta a regularidad y confort al evacuar con frutas y sábila.",
+      "evidence": [
+        "GUIAS WEB HTML/GREEN LX 300 mg zn.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 76: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 77,
+      "name": "HERCAMPURI",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha del hercampuri prioriza digestión y pesadez después de comer; la mención metabólica es adicional.",
+      "evidence": [
+        "GUIAS WEB HTML/HERCAMPURRI 500 mg.html:198 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 77: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 78,
+      "name": "HPR PROS",
+      "from": "clinico",
+      "to": "hormonal",
+      "reason": "HPR Pros se centra en bienestar prostático y cuidado masculino; próstata pertenece a hormonal en la taxonomía vigente, no a urinario clínico general.",
+      "evidence": [
+        "GUIAS WEB HTML/HPR PROS GREEN ZEN.html:214 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 78: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 79,
+      "name": "INOSITOL POWDER",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "El inositol de un ingrediente tiene un enfoque metabólico general en la ficha; no se equipara automáticamente a las fórmulas myo/D-chiro para bienestar femenino.",
+      "evidence": [
+        "GUIAS WEB HTML/INOSITOL POWDER.html:198 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 79: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 80,
+      "name": "ISOFLAVONAS DE SOYA 500 mg",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "Isoflavonas y camote se presentan para bienestar femenino durante la menopausia.",
+      "evidence": [
+        "GUIAS WEB HTML/ISOFLAVONAS DE SOYA 500 mg ZN.html:204 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 80: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 81,
+      "name": "JENGIBRE",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha de jengibre prioriza estómago, náusea y digestión después de comer.",
+      "evidence": [
+        "GUIAS WEB HTML/JENGIBRE 500 mg.html:203 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 81: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 82,
+      "name": "KRILL OIL",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "El krill omega 3 prioriza cuidado cardiovascular; las funciones cerebral y visual son compartidas.",
+      "evidence": [
+        "GUIAS WEB HTML/Krill Oil.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 82: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 83,
+      "name": "L-ARGININA NANO FEAR 850MG",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha de arginina/ornitina identifica uso para atletas y actividad física.",
+      "evidence": [
+        "GUIAS WEB HTML/L-ARGININA NANO FEAR 850MG.html:317 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 83: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 84,
+      "name": "L-CARNITINA, GUARANÁ Y GARCINIA",
+      "from": "metabolismo",
+      "to": "deportivo",
+      "reason": "La ficha se dirige explícitamente a atletas/deportistas y al enfoque/energía durante ejercicio; no se clasifica solo por la palabra termogénico.",
+      "evidence": [
+        "GUIAS WEB HTML/L-CARNITINA, GUARANÁ Y GARCINIA.html:323 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 84: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 85,
+      "name": "L-CARNOSINE ZINC",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La fórmula de zinc L-carnosina se dirige a la capa que recubre el estómago y al confort digestivo.",
+      "evidence": [
+        "GUIAS WEB HTML/L-CARNOSINE ZINC.html:256 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 85: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 86,
+      "name": "LEUCAPS",
+      "from": "piel",
+      "to": "piel",
+      "reason": "El objetivo visual de la ficha local cabe en piel/ojos. La discrepancia de carotenoides con tienda requiere verificar fórmula, pero no justifica asignar otra función.",
+      "evidence": [
+        "GUIAS WEB HTML/Leucaps.html:202 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 86: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 87,
+      "name": "L-TIROSINA",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha de tirosina identifica atención, demanda mental y bienestar cerebral como objetivo.",
+      "evidence": [
+        "GUIAS WEB HTML/L-TIROSINA 500 mg.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 87: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 88,
+      "name": "MACA NEGRA",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La maca negra se presenta para vitalidad y bienestar sexual; no es una proteína deportiva ni un multivitamínico general.",
+      "evidence": [
+        "GUIAS WEB HTML/MACA NEGRA.html:205 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 88: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 89,
+      "name": "MACA, JENGIBRE Y DAMIANA",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "Maca con damiana prioriza bienestar sexual y vitalidad; el jengibre digestivo es secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/MACA, JENGIBRE Y DAMIANA 500 mg.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 89: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 90,
+      "name": "MACA 90 CAPS",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "Las tres macas se presentan para vitalidad y bienestar sexual/femenino-masculino; no se clasifica por una sola variedad o por pimienta.",
+      "evidence": [
+        "GUIAS WEB HTML/Maca.html:203 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 90: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 91,
+      "name": "MAGNESIO BLEND",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de mezcla de magnesios no fija una diana particular de sueño o articulaciones; es mineral general para energía, músculos y nervios.",
+      "evidence": [
+        "GUIAS WEB HTML/Magnesio Blend.html:200 (descripción y propiedades de la ficha)",
+        "data/productos.js, id 91: nombre, ingredientes, resumen, descripción, beneficios y uso"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    }
+  ],
+  "notes": [
+    "Las fichas originales están en GUIAS WEB HTML. El cruce CSV se usó para asociar cada archivo por ID; en EVEAUX se revisaron ambas fichas homónimas.",
+    "La categoría de Leucaps86 sigue siendo piel/ojos por su enfoque visual, aunque su fórmula vigente debe confirmarse por la discrepancia ya documentada entre carotenoides.",
+    "Artmuub30 en polvo es nutrición integral y no debe copiar la categoría locomotora de Artmuub31 en cápsulas.",
+    "FlorEssence66 y Fungone67 se mantienen en inmune por el propósito declarado en sus fichas originales, sin reintroducir promesas de eficacia en descripciones o beneficios.",
+    "Ginkgo70 conserva nervioso por el objetivo neurológico explícito de su ficha; esto no afirma beneficios de memoria en personas sanas.",
+    "No se cambia ninguna fórmula, porción, advertencia ni texto de beneficios; este archivo es la propuesta para integración por el agente principal.",
+    "Revisión final de BPASS37: se conserva metabolismo con confianza media por enfoque mixto y referencia explícita a metabolismo energético en la ficha. No falta documento fuente.",
+    "Segunda revisión cruzada: GOJI TRIM73 pasa a nutricional con confianza media tras releer la descripción técnica de la ficha original."
+  ]
+}

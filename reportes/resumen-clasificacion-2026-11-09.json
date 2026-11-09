@@ -1,0 +1,1918 @@
+{
+  "date": "2026-11-09",
+  "totalProducts": 271,
+  "changed": 67,
+  "kept": 204,
+  "originalHtmlProducts": 267,
+  "catalogOnlyProductIds": [
+    271,
+    272,
+    273,
+    274
+  ],
+  "before": {
+    "metabolismo": 59,
+    "inmune": 39,
+    "piel": 13,
+    "clinico": 25,
+    "deportivo": 25,
+    "digestivo": 41,
+    "hormonal": 15,
+    "nutricional": 10,
+    "locomotor": 9,
+    "nervioso": 26,
+    "laxantes": 9
+  },
+  "after": {
+    "metabolismo": 40,
+    "digestivo": 47,
+    "piel": 12,
+    "clinico": 22,
+    "deportivo": 24,
+    "nutricional": 38,
+    "inmune": 31,
+    "hormonal": 15,
+    "locomotor": 14,
+    "nervioso": 22,
+    "laxantes": 5,
+    "otros": 1
+  },
+  "sourceDocuments": [
+    {
+      "file": "2MR.html",
+      "sha256": "6d91a0cae56c3a7555e0d98753747508443ccb10a884ea5ce5f3a21199393d85",
+      "productIds": [
+        207
+      ]
+    },
+    {
+      "file": "5-HTP.html",
+      "sha256": "59bb6851e1d33752e479e181647c5c9825a89a6d7f4b56691184c5909b07dba2",
+      "productIds": [
+        218
+      ]
+    },
+    {
+      "file": "ACEITE DE COCO 1LT.html",
+      "sha256": "52cbb5a63150383cb3b8b001971b5382ee48b1ce4c791a384fd9d0da51fd368a",
+      "productIds": [
+        14
+      ]
+    },
+    {
+      "file": "Aceite de Coco Orgánico 420 ml.html",
+      "sha256": "a5be859ad374a12fb48755716ec9ef6d69e7b11dea1b0474a5e9d5e1681585a1",
+      "productIds": [
+        15
+      ]
+    },
+    {
+      "file": "ACEITE DE OLIVA DEMOGRASS 60 CAPS.html",
+      "sha256": "15192aed2ca5c28bd36452a1efad58dd5f0962f90bcac4fdeee05477109e2461",
+      "productIds": [
+        240
+      ]
+    },
+    {
+      "file": "ACEITE DE ORÉGANO GOTAS ORE.html",
+      "sha256": "3c621ba7a9bbe5daa454b0dd5f6f1fb33d9ca0e358ecde19f12d87511fdedc79",
+      "productIds": [
+        224
+      ]
+    },
+    {
+      "file": "ACEITE DE ORÉGANO Y COCO.html",
+      "sha256": "7b83fdbe6f814412286d0029813acd028875b104941829c09cb7db0d82fe5149",
+      "productIds": [
+        216
+      ]
+    },
+    {
+      "file": "Aceite Rosa Mosqueta.html",
+      "sha256": "f1113866be689a93540379513138a56e41d8a7c0a2270c3959213ccd7bf41f21",
+      "productIds": [
+        268
+      ]
+    },
+    {
+      "file": "Aceite-de-oregano.html",
+      "sha256": "7b7c690490df060c6e3ae69ff01f3a930bdaa61b50b4db1ac3411fd054681863",
+      "productIds": [
+        16
+      ]
+    },
+    {
+      "file": "Ácido Alfa Lipóico.html",
+      "sha256": "2692e91f79620bd1f5e9de54f51ac66ccbe9c71858767489c80dd98daff4d51a",
+      "productIds": [
+        17
+      ]
+    },
+    {
+      "file": "ÁCIDO GLUTÁMICO.html",
+      "sha256": "2cddf36fcc22e39d09d89fa52ae71673041a0e893b636faf193d9fc04d85d5da",
+      "productIds": [
+        261
+      ]
+    },
+    {
+      "file": "ACIDO HIALURONICO Y COLAGENO HIDROLIZADO.html",
+      "sha256": "934936b75b7decc7a05b67bdbf0300c0c3a31c5b94f1ba6640e100c548aef8ca",
+      "productIds": [
+        18
+      ]
+    },
+    {
+      "file": "ÁCIDO LINOLEICO CONJUGADO l CLA NANOFEAR.html",
+      "sha256": "cedd5022764f7be4e1d80faa87d98d3997ce1814a8539e53c0b70dd5938aa9e5",
+      "productIds": [
+        19
+      ]
+    },
+    {
+      "file": "Ácido Pantoténico (B-5).html",
+      "sha256": "866056c8fa855219b696414a8ade32b37996a0b75e3b776b35d10eed878bf3b8",
+      "productIds": [
+        264
+      ]
+    },
+    {
+      "file": "ACTIKROLL PARA NIÑOS.html",
+      "sha256": "cc6835eae15a9c851c2f7f1cf8805d7fd6d2f72a0879d8bada466e76440f034a",
+      "productIds": [
+        234
+      ]
+    },
+    {
+      "file": "AGUAJE COMPLEX.html",
+      "sha256": "d4b4352e4613ae7a4a4bd3b14c588d3f5c888f3627752284bb02536f4fc5bd09",
+      "productIds": [
+        20
+      ]
+    },
+    {
+      "file": "AJO 150 CAPS PROSA.html",
+      "sha256": "0dec8a4b689a6a07ab94be2a9b6b11d5bb76b23379f15c96b4e40ae7f66826ab",
+      "productIds": [
+        237
+      ]
+    },
+    {
+      "file": "AJO NEGRO + MORINGA zn.html",
+      "sha256": "689865106e3472b25ed12438bc89416561e33c389bcf6d199859173a7c8e888f",
+      "productIds": [
+        21
+      ]
+    },
+    {
+      "file": "Ajo Negro con Propóleo.html",
+      "sha256": "428f7d67fb98c2d16cca6b5a4342dfc91d1dbe781e2e291f351611608ee28d08",
+      "productIds": [
+        22
+      ]
+    },
+    {
+      "file": "AJO NEGRO.html",
+      "sha256": "754a3832a90adeb4915dfc40599f642cde250b1b2ddd918bc54c2422e6d8c1b5",
+      "productIds": [
+        23
+      ]
+    },
+    {
+      "file": "ALBÚMINA DE HUEVO PROWINNER.html",
+      "sha256": "d0def59289d7bd389ee9d7e171c3b51435a0a1a0f6fe2c04ce8caecb4a8b6b2c",
+      "productIds": [
+        24
+      ]
+    },
+    {
+      "file": "ALGA ESPIRULINA EN POLVO.html",
+      "sha256": "0a44618f3d6231379a57de09e6e7e88bd5c48fc5f96fc38836d4d8b92e00b99a",
+      "productIds": [
+        25
+      ]
+    },
+    {
+      "file": "ALGA ESPIRULINA ORGANICA 180 caps 500 mg.html",
+      "sha256": "dea4f3bebfc5ab682624c0cb5ce6b8a34c30eb60d98e24f7c4ab495feec2fbdc",
+      "productIds": [
+        26
+      ]
+    },
+    {
+      "file": "ALOE VERA CON ARANDANO.html",
+      "sha256": "d18017839a71959c8df21245a4494145d57645902704eb7efc965ac4ff749896",
+      "productIds": [
+        27
+      ]
+    },
+    {
+      "file": "ALOE VERA LIQUIDO TROPICAL.html",
+      "sha256": "633fef3fe175d7f9047e1976b9bdb60379b695bbb2f4334c2d28a161fffc5d24",
+      "productIds": [
+        28
+      ]
+    },
+    {
+      "file": "ALOE VERA NOPAL CON CUACHALALATE.html",
+      "sha256": "826169be765332d56bfa6bb8219d3791b9f613edf2d207089e89f3378b1d96bb",
+      "productIds": [
+        164
+      ]
+    },
+    {
+      "file": "AMP-ON  60 caps 600mg ZN.html",
+      "sha256": "fbcbab0b2be08126cbd959e6d349fc46e7b83add07ea52d90a8cfa3597e23fa8",
+      "productIds": [
+        29
+      ]
+    },
+    {
+      "file": "Artmuub 1.1 kg.html",
+      "sha256": "85bb830ed8a320feef516734b93be95a11ad88fedf3cea39d5655edf5e17eef9",
+      "productIds": [
+        30
+      ]
+    },
+    {
+      "file": "Artmuub 200 caps.html",
+      "sha256": "57b9d94c8860d181d99f61dc9779a37480b13002a49d651a30513a7fc23b75ba",
+      "productIds": [
+        31
+      ]
+    },
+    {
+      "file": "ASH + MAG COMPLEX.html",
+      "sha256": "20c760dfc2d813b48849c1b3345306d9030af18498727ffd97777ae4fbee2a59",
+      "productIds": [
+        163
+      ]
+    },
+    {
+      "file": "ASHWAGANDA ROOT ZN.html",
+      "sha256": "363d70a8835b7ce1b2fff27b8de83f902979df06b49bf5f3617bac253f4a2550",
+      "productIds": [
+        32
+      ]
+    },
+    {
+      "file": "ASHWAGANDHA.HTML",
+      "sha256": "f070edebe5f0fa8e165db7192516e0c0bdb17a0df1fbb4b1139fbefc94845d29",
+      "productIds": [
+        33
+      ]
+    },
+    {
+      "file": "ASTAXANTINA 250MG.html",
+      "sha256": "be01ab6c29eb53b665ea01ccad49138bd02e11ce7bd267dcb7be330cb3455393",
+      "productIds": [
+        34
+      ]
+    },
+    {
+      "file": "ASTRÁGALO.html",
+      "sha256": "93e2f0ecf4c611aaf98b0f10b0cd5cb8d6cc99c89794359f192a367adf117490",
+      "productIds": [
+        185
+      ]
+    },
+    {
+      "file": "B12 NOW.html",
+      "sha256": "909aa01a6376d00861e73dcfc857c77f808804551a35e484343f8fb136189536",
+      "productIds": [
+        225
+      ]
+    },
+    {
+      "file": "BACAO GREEN JARABE.html",
+      "sha256": "c210cb23a2b8bbf05891a26610478905a7c1be3d499d8a5fc93a9db290066dc3",
+      "productIds": [
+        179
+      ]
+    },
+    {
+      "file": "BARIA SURE.html",
+      "sha256": "45a1fb1a0d802534766a5e0ca3a82bd43287af1128fdf9909052a5ea41445e10",
+      "productIds": [
+        262
+      ]
+    },
+    {
+      "file": "BEBIDA DE ALPISTLE.html",
+      "sha256": "101c6dae007a2618f3d4db71176e81fbbf78ad35b9455a95f64502c79b4d983d",
+      "productIds": [
+        214
+      ]
+    },
+    {
+      "file": "BEEF FEAR 500 gr.html",
+      "sha256": "d1a143575c225e31aeb78e1dd4dd6f6e8d00b5fa9518e32ed81d1b1c909575a4",
+      "productIds": [
+        35
+      ]
+    },
+    {
+      "file": "BERBERINA.html",
+      "sha256": "ca9c0b56646c1c43b21c3b80fc2a1f4a19465466ab0f8579f69d1c2ee9edf517",
+      "productIds": [
+        36
+      ]
+    },
+    {
+      "file": "BLOOM PRE-WORKOUT.html",
+      "sha256": "fbcfb16f05e4a2241e4c9c8f9279f4e78edac169003e3eceb5a865739108d4a0",
+      "productIds": [
+        252
+      ]
+    },
+    {
+      "file": "BPASS.html",
+      "sha256": "885efce2520c0372f0c980bb5c6caaa8a5e726ab6246768db1cc0a30f2482726",
+      "productIds": [
+        37
+      ]
+    },
+    {
+      "file": "CACAO ORGÁNICO EN POLVO CULTO.html",
+      "sha256": "6f7a4be934ee51286c2e4a84461cb03805915827f8288bdb4416700548c29760",
+      "productIds": [
+        232
+      ]
+    },
+    {
+      "file": "CAFE CON MORINGA.html",
+      "sha256": "01049601c6e4573ab87c3922c9fb9784092e64d293b01c4cf08ea9be90195ace",
+      "productIds": [
+        38
+      ]
+    },
+    {
+      "file": "CAFE DE OLLA 600 g zn.html",
+      "sha256": "8fcb29b17e1eaa7783a91724bb1b3eca0f3ce73d5089b2089eabffd8fc28103d",
+      "productIds": [
+        39
+      ]
+    },
+    {
+      "file": "CAFE SOLUBLE 30 sobres.html",
+      "sha256": "81887946e352f94261d19e65e74e0c562977d172484eaab40bf367e8f51d0a00",
+      "productIds": [
+        40
+      ]
+    },
+    {
+      "file": "CalciumCitrate (1).html",
+      "sha256": "cc56ed3ace33f8b68d856d2782ac2f368508e15399dbeafd910913b8681fb24c",
+      "productIds": [
+        154
+      ]
+    },
+    {
+      "file": "CALOSTRO BOVINO.html",
+      "sha256": "d42c21243e0a3e314d667918a1f39fc0b16e2028f44bb01fea4a4833c13980e9",
+      "productIds": [
+        186
+      ]
+    },
+    {
+      "file": "CANELA CROMO 1 gr ZN.html",
+      "sha256": "0dde6bd2bb9f28681f8147118051b3f0296cbe1be261b22c8d58a00e63fe9a66",
+      "productIds": [
+        41
+      ]
+    },
+    {
+      "file": "CÁPSULAS DE ACEITE DE ORÉGANO.html",
+      "sha256": "529120bd8256312fe36199715df23796c1d669263e825d4592b5d54767452037",
+      "productIds": [
+        208
+      ]
+    },
+    {
+      "file": "CARA LLUMA 500 mg ZN.html",
+      "sha256": "a3ade41d9b668dbf149efe1a7f943c97625b069a844e94daa3543398298f6446",
+      "productIds": [
+        42
+      ]
+    },
+    {
+      "file": "CARSYL GREEN JARABE 80 ML.html",
+      "sha256": "c723675f993a48d400ed126ea2cf708cde56634b2648b01a9070fc8ed7e63fcc",
+      "productIds": [
+        226
+      ]
+    },
+    {
+      "file": "CARSYL GREEN.html",
+      "sha256": "5c511a2da07629b75adc89942df436c0a11407db3334e865f5b4377dd03d57a0",
+      "productIds": [
+        43
+      ]
+    },
+    {
+      "file": "CARTÍLAGO.html",
+      "sha256": "a1662c602390301db0eb0c06360f80f075603ed4b01498ddf1b2f66098195dda",
+      "productIds": [
+        204
+      ]
+    },
+    {
+      "file": "CASTAÑO DE INDIAS.html",
+      "sha256": "5f35cc1f7b094f314894ea6ef6a197c8c0106864bd6084efdcc4a7bec2d8584e",
+      "productIds": [
+        44
+      ]
+    },
+    {
+      "file": "CÉLULAS MADRE.html",
+      "sha256": "4888194647cd047b1c5b369b179a2bacd3a2c9d221eca7771674c1d2e9e3ad3b",
+      "productIds": [
+        187
+      ]
+    },
+    {
+      "file": "CHA-CHA STONE.html",
+      "sha256": "f06567e5ec5d6112180a155d2c3804673128c33bbf1d02760a609c87bdb555ca",
+      "productIds": [
+        213
+      ]
+    },
+    {
+      "file": "CHROMIUM.html",
+      "sha256": "2e698a26f461f3fa8a81ce546cd7beb39c039ebd3395142685172ec26b91d881",
+      "productIds": [
+        45
+      ]
+    },
+    {
+      "file": "CITRATO DE MAGNESIO 90 CAPS.html",
+      "sha256": "4942bc1c1d34bba5b80f31e7a9710ef94d9f59715f60972ea9ee603c2ce24e50",
+      "productIds": [
+        227
+      ]
+    },
+    {
+      "file": "CITRATO DE MAGNESIO POWDER 500 gr.html",
+      "sha256": "b30436c82dc1f665fae91b1ee57c739e86cf99981bcad37c7e750a14fe5a50f9",
+      "productIds": [
+        46
+      ]
+    },
+    {
+      "file": "CITRATO DE POTASIO 90 caps 500 mg.html",
+      "sha256": "e1157868f350b6c1858ae8367c03b2ec0c6dc8d6fcfbf35822a2bdbf4a545b85",
+      "productIds": [
+        47
+      ]
+    },
+    {
+      "file": "CLOROFILA LIQUIDA 500 ml.html",
+      "sha256": "095cbc6d922c8c3425e663dddbec4727316a51c2003ff8d0e5896162579ebec0",
+      "productIds": [
+        48
+      ]
+    },
+    {
+      "file": "CLOROFILA LIQUIDA Y HIERBABUENA 500 ML.html",
+      "sha256": "b7ba4e3eb40245f75ae5a2b65662b687767eeffabbc3b54e20e9822c11a9fcaa",
+      "productIds": [
+        49
+      ]
+    },
+    {
+      "file": "CLORURO DE MAGNESIO 100 CAPS ZN.html",
+      "sha256": "274dc2792aa65e29be0e2343e1a7e7433426dbff2d25c80e0875cb72ace910a7",
+      "productIds": [
+        50
+      ]
+    },
+    {
+      "file": "CLORURO DE MAGNESIO 250 gr.html",
+      "sha256": "01224ac3994e3a5b69ad113d8101768544a75b4bffd7e61cf42d4d10fbf6f928",
+      "productIds": [
+        1
+      ]
+    },
+    {
+      "file": "COCONUT-OREGANO-OIL.html",
+      "sha256": "55471841a6e3d6873e42106bd34167285204a0ee73bfef85aed4990eb643e426",
+      "productIds": [
+        2
+      ]
+    },
+    {
+      "file": "Colágeno Hidrolizado 500 g.html",
+      "sha256": "e5a039240d8e87d85d6f1f9c8d60f1ac0633733d5d4f7430520164f7dc133a8c",
+      "productIds": [
+        3
+      ]
+    },
+    {
+      "file": "COLOSTRUM POWDER.html",
+      "sha256": "c9a2ae337e55ba6279d0e2a7f2efbe4a0d20c290150062010b17d89e301edef8",
+      "productIds": [
+        251
+      ]
+    },
+    {
+      "file": "COMPLEJO B ARANDANO.html",
+      "sha256": "05131e332905277bfb7daeb15a05672ba29f7b2f3e654c877878c24ee0c05f95",
+      "productIds": [
+        4
+      ]
+    },
+    {
+      "file": "COMPLEJO B MULTIVITAMINICO YPENZA.html",
+      "sha256": "32ea9448735ff0da93e63fc3ac53fa8b89c00e0723d941a812f648348ac7d15d",
+      "productIds": [
+        238
+      ]
+    },
+    {
+      "file": "COMPLEJO B Y GINSENG 60 caps.html",
+      "sha256": "15ccd457f81f0a8add00162e1b82e6ea1c02c2ee8bee9ac4f3e2e3b345393e14",
+      "productIds": [
+        5
+      ]
+    },
+    {
+      "file": "COMPUESTO VEGETAL DE LYDIA.html",
+      "sha256": "a9460296f09ce4632fb81b29e974acc1ed8e64a3982e524b9d836d3ad47a6e4e",
+      "productIds": [
+        260
+      ]
+    },
+    {
+      "file": "CRANBERRY URY, ARANDANO ROJO 1000 mg.html",
+      "sha256": "96bd79c2fc8bdac15e954c66a3ee6fe098a921b73232d623298b8aeba83b0b3a",
+      "productIds": [
+        6
+      ]
+    },
+    {
+      "file": "CREATINA BIRDMAN.html",
+      "sha256": "e266106fcc80f328bb4ffbc419caccd19c97123eb121ba84ba926641958b483b",
+      "productIds": [
+        7
+      ]
+    },
+    {
+      "file": "CREATINA NANO FEAR.html",
+      "sha256": "274e91ab0bad5456c2413d7134f9ef088b5449823c835f1434f82ccfb02c56a6",
+      "productIds": [
+        8
+      ]
+    },
+    {
+      "file": "CREATINA REFRESHER LEMON TWIST.html",
+      "sha256": "abce9223845f979496a487ee1be3ef7a9cdb66b9b5c5b21712e7b7e670fd09bc",
+      "productIds": [
+        191
+      ]
+    },
+    {
+      "file": "CREATINA REFRESHER PINK.html",
+      "sha256": "1af7a6c0157a9f22a30ed8f2959e87a11a73d7cf9063ebed8e4a5f4d85fa4680",
+      "productIds": [
+        209
+      ]
+    },
+    {
+      "file": "CREMA FACIAL NUTRITIVA DE BAYAS DE GOJI.html",
+      "sha256": "0171d1f4c76bffe64fd1143e0ae1cc682b912cfbf3f5110053d669bd9d18fe7b",
+      "productIds": [
+        239
+      ]
+    },
+    {
+      "file": "CT-O.html",
+      "sha256": "6e43e37d1d9d510d57a27e5bb2c376e5825166b0133afcc11df0f08a36127b20",
+      "productIds": [
+        183
+      ]
+    },
+    {
+      "file": "Cuachalalate + Tepezcohuite.html",
+      "sha256": "bf94de14e30d7dcb4307330b30ca4cbf10bb0703c978560080116ed8c6033487",
+      "productIds": [
+        9
+      ]
+    },
+    {
+      "file": "CUATECOMATE.html",
+      "sha256": "1f3293dd92cf6a1c7dc7171185c4ddbd68821f9eeec790c7b287ce64ac9867d0",
+      "productIds": [
+        201
+      ]
+    },
+    {
+      "file": "CUORE 90 caps 500 mg ZN.html",
+      "sha256": "7ac5f497152cea6bb9207ea4569c200940a689b27965a98546b457e164f40c9b",
+      "productIds": [
+        10
+      ]
+    },
+    {
+      "file": "CÚRCUMA & JENGIBRE.html",
+      "sha256": "ea6967b08993d9604085acfe3e667243fe81d77d466f6910a9b168c3dc085493",
+      "productIds": [
+        270
+      ]
+    },
+    {
+      "file": "CURCUMA POWDER.html",
+      "sha256": "d301e727b8d63b8e0e7ea3da33d31d3bce344f07a27650125c6e34fbe7ee699a",
+      "productIds": [
+        11
+      ]
+    },
+    {
+      "file": "CURCUMA, JENGIBRE Y MORINGA 90 caps.html",
+      "sha256": "5ec47de314a88a35283a8f1eae487a0b478c4c0412ea7a873600a31c1afad7ac",
+      "productIds": [
+        12
+      ]
+    },
+    {
+      "file": "Cúrcuma.html",
+      "sha256": "b7f8f9fe6f5f3d750adb1bc4011439f172c0f6e98a37c85ceb273521382d32a6",
+      "productIds": [
+        13
+      ]
+    },
+    {
+      "file": "Curcumina.html",
+      "sha256": "924fb07691d668b653eccc01035d2a9223dfd72c8bba74780d6a5d88f44ccfa1",
+      "productIds": [
+        54
+      ]
+    },
+    {
+      "file": "D MASTER PLATINUM.html",
+      "sha256": "dde20999382cd3a7185d1dd1da8ee0a0b793eaf349ce337e61e8e61ce2418742",
+      "productIds": [
+        199
+      ]
+    },
+    {
+      "file": "D MASTER.html",
+      "sha256": "df1adafb12650cd4f6c00d9cecd7d5878e4d4fa3c34d9f6a9d4b43e1c90591bc",
+      "productIds": [
+        200
+      ]
+    },
+    {
+      "file": "D3 1000u 30 caps ZN.html",
+      "sha256": "afcb36d4c241787d196d317426dc2bccb1bd3645a078f75e4187141d45df324f",
+      "productIds": [
+        55
+      ]
+    },
+    {
+      "file": "D3 5000 UI.html",
+      "sha256": "5113cf9b82380fc7d1e6246bdb467308dcfeadab1133ccf26b82d7fbeaea19c0",
+      "productIds": [
+        166
+      ]
+    },
+    {
+      "file": "DEMOGRASS CLASICO.html",
+      "sha256": "feee0bd6eb6e8e726838a7b2891bb60b7e3636ea6d8335b9fff85d5a45c9102c",
+      "productIds": [
+        56
+      ]
+    },
+    {
+      "file": "DEMOGRASS LX+.html",
+      "sha256": "30cf36b1c34a5078ffc289c314502f1f3d4a5a055b16f34275985679ba0b4383",
+      "productIds": [
+        190
+      ]
+    },
+    {
+      "file": "Demograss Plus.html",
+      "sha256": "fbe89870e3ce1c0e588f41f0f1d8c9b3e39eb7b3ee13cff80125ddcd60285760",
+      "productIds": [
+        57
+      ]
+    },
+    {
+      "file": "DEMOGRASS PREMIER.html",
+      "sha256": "97ba4ecd754b45de022b70d58d501071deda8d31cd82363e8471813ab0e2fb76",
+      "productIds": [
+        196
+      ]
+    },
+    {
+      "file": "DIETERS DRINK.html",
+      "sha256": "3b094100a53fd333919e0c018a8b166d40ce7d67d383054b641cf26600957a74",
+      "productIds": [
+        233
+      ]
+    },
+    {
+      "file": "DIOLA ROSE.html",
+      "sha256": "0856d6025a554d4edadd605d21e974fbecae2413aa9c6986a07593e4fb55e470",
+      "productIds": [
+        58
+      ]
+    },
+    {
+      "file": "DT Green.html",
+      "sha256": "43f083013092d956597ad6e9918386bb9ddc99c70f84c0357f3595cc00343fdc",
+      "productIds": [
+        59
+      ]
+    },
+    {
+      "file": "DYNEEM.html",
+      "sha256": "112b55ee2cd8528934dea7d7223ec3175391487a8b06eeabf4fe449b04e783ec",
+      "productIds": [
+        195
+      ]
+    },
+    {
+      "file": "Endis.html",
+      "sha256": "f3aa57966644e5b367eb466bddfb5ff8c1dc15497acc6ed5bc5ef331abd6d01a",
+      "productIds": [
+        60
+      ]
+    },
+    {
+      "file": "EQUINACEA Y VITAMINA C 500 mg.html",
+      "sha256": "6b3eed4c2e87c11acae5fb8b5ce8d43b811515cc25af957e9e9a8b50b53c0f99",
+      "productIds": [
+        61
+      ]
+    },
+    {
+      "file": "EVEAUX 500MG.html",
+      "sha256": "a1a635db3dd39db76efb91f74707be78d1013ac2491c46572d46fc59bf3ac68e",
+      "productIds": [
+        62
+      ]
+    },
+    {
+      "file": "EVEAUX.html",
+      "sha256": "2dfef07d072fd2d598f8e45bcd532ffca42dbfdc6442ba4ac3f9bc3a31382094",
+      "productIds": [
+        62
+      ]
+    },
+    {
+      "file": "EXTRACTO DE PROPÓLEO ABAGREEN.html",
+      "sha256": "45b17de861885c856b19bf24f024aec43a523951ef83acf966ddd99f7dfb714f",
+      "productIds": [
+        188
+      ]
+    },
+    {
+      "file": "Fenogreco.html",
+      "sha256": "48682fbba7b6d20f5ad03e42dcbbe46ad42a9edbb6d05be5b6a94c5b3c0d3762",
+      "productIds": [
+        63
+      ]
+    },
+    {
+      "file": "Fitmingo 510gr.html",
+      "sha256": "f41a4b66a70af778660cb444e3f6c26703cc8d1749de1b8886a1a32558e307b5",
+      "productIds": [
+        64
+      ]
+    },
+    {
+      "file": "FIX UZEN.html",
+      "sha256": "cfbc3646c880a738cb89580d9208b318d73cc480950421253e9af74827f758b7",
+      "productIds": [
+        167
+      ]
+    },
+    {
+      "file": "FLOR ESSENCE.html",
+      "sha256": "aed6aadc621075c12fcf6afd927c7d6f5f0c466c70f818efacf25047f57dda60",
+      "productIds": [
+        66
+      ]
+    },
+    {
+      "file": "FLORADIX + H FRUITY.html",
+      "sha256": "e5c6596150fe0493d51ee97517dc281b75552c0743731010e5e6a46dd8118ecd",
+      "productIds": [
+        250
+      ]
+    },
+    {
+      "file": "FORT Q OSITOS.html",
+      "sha256": "e2f3ddd9aaea67f110a309a58d0429312a1d7de8aa9b532f2e1947c57b175350",
+      "productIds": [
+        248
+      ]
+    },
+    {
+      "file": "FORTI OSITOS.html",
+      "sha256": "a3293983d896de28729f4ea6fbc740dc3b3319f38fa4601c24bcdb3d787780fe",
+      "productIds": [
+        247
+      ]
+    },
+    {
+      "file": "FUNGONE.html",
+      "sha256": "ccc0fd3723c06436e82aeadfe6951386257117da793c8cac9a69f70e03af4eef",
+      "productIds": [
+        67
+      ]
+    },
+    {
+      "file": "FW FACTOR WOMEN.html",
+      "sha256": "dae0b74f7cdf742b014004f84b2ac4044fe1dc7b5cfcf36a91c09667e31de180",
+      "productIds": [
+        259
+      ]
+    },
+    {
+      "file": "GABA.html",
+      "sha256": "32ad64ae10a499fdcb860ff68d09d9a82d5d01bd7c2bb63bda397ce3db4b4e92",
+      "productIds": [
+        68
+      ]
+    },
+    {
+      "file": "GEL CORPORAL XIHUITL.html",
+      "sha256": "e7de8817e34503e14f65eeee65badd8605df5bebca3d413523255612969e945f",
+      "productIds": [
+        258
+      ]
+    },
+    {
+      "file": "GENTILAX.html",
+      "sha256": "19e3c5859b077c87713aa149599c39a1d2c173edfa5d04dd249ce5d72a5cdaf7",
+      "productIds": [
+        69
+      ]
+    },
+    {
+      "file": "Ginkgo Biloba.html",
+      "sha256": "8e8f0a83c0d745ce1210f842ad2aa2f1c21b5f663ad43552f6a0f1194182a7b9",
+      "productIds": [
+        70
+      ]
+    },
+    {
+      "file": "GLICINATO DE MAGNESIO 90 CAPS.html",
+      "sha256": "7eff1cd5305f5ae2923544ba334bbd8deaf3eb88302db0a2c136bc7b45e08ea8",
+      "productIds": [
+        228
+      ]
+    },
+    {
+      "file": "GLUCONATO DE ZINC PRONACEN.html",
+      "sha256": "4b54bf58c2822ebe2ba4bee4edaf23ca52f7eab766fbe292227470882f3343b1",
+      "productIds": [
+        212
+      ]
+    },
+    {
+      "file": "GLUTAMINE FEAR.html",
+      "sha256": "b4873269c446dc06ef67536178c29f9f4514f393bfcdd8811861617689c87e30",
+      "productIds": [
+        71
+      ]
+    },
+    {
+      "file": "Glutathione Blend De 500MG.html",
+      "sha256": "dbb69d29685124471de964bd61c3862f11a5406b2df587989f69402d31c6c350",
+      "productIds": [
+        72
+      ]
+    },
+    {
+      "file": "GOJI TRIM® 500 mg BIO LIFE.html",
+      "sha256": "854d9d7d777a1a8cf5f9b9d582efac07ae5895564c9fef140617721383474598",
+      "productIds": [
+        73
+      ]
+    },
+    {
+      "file": "GOJI.html",
+      "sha256": "85d9b27695a6aaf08eefe0af68bc6c5dd851903a1813a37dc267b3720e90f87c",
+      "productIds": [
+        74
+      ]
+    },
+    {
+      "file": "GOJIZEN MAX.html",
+      "sha256": "25ed162f5eb5992b74c9fcf64ec26228fb105ca196566c3803dc7cd8a3a1fa2b",
+      "productIds": [
+        75
+      ]
+    },
+    {
+      "file": "GREEN LX 300 mg zn.html",
+      "sha256": "f98c3f225d4678adc28538c28e0a0bd8da70d3aed8731aab1f58352330aacab7",
+      "productIds": [
+        76
+      ]
+    },
+    {
+      "file": "HERCAMPURRI 500 mg.html",
+      "sha256": "bdf53aad9e977e4b9bcd790dfc8e696963258f70cc495ed9b0c4fcdfb8f8e98b",
+      "productIds": [
+        77
+      ]
+    },
+    {
+      "file": "HONIG ABAGREEN ROJO.html",
+      "sha256": "83ce22dadd349afa70b3b9ca742e84d43f92a20f2c139de9b3694e22a3f874d3",
+      "productIds": [
+        156
+      ]
+    },
+    {
+      "file": "HONIG ABAGREEN VERDE.html",
+      "sha256": "c97fdced4675b705b137e796bd59dbb1144e28d1847adac34436b296d3eb08a2",
+      "productIds": [
+        155
+      ]
+    },
+    {
+      "file": "HPR PROS GREEN LIFE.html",
+      "sha256": "5f166d9dc29b810ffc0cfa3d6b0695864ad88dc03e51187e63a4a53611f9a548",
+      "productIds": [
+        168
+      ]
+    },
+    {
+      "file": "HPR PROS GREEN ZEN.html",
+      "sha256": "6137345309dc72596b7ea881f5e90028710bff64e1c6592de788a1246aec7e85",
+      "productIds": [
+        78
+      ]
+    },
+    {
+      "file": "INOSITOL POWDER.html",
+      "sha256": "a989f8c9d3cac3fbcaf7b2a5a5b2d786f30455a88391d6641f96fc69def87534",
+      "productIds": [
+        79
+      ]
+    },
+    {
+      "file": "ISOFEAR 5lbs.html",
+      "sha256": "a7a6f8c03e374bed672d40fb045fe078551095ebe89b964a4d4378f322171da0",
+      "productIds": [
+        220
+      ]
+    },
+    {
+      "file": "ISOFLAVONAS DE SOYA 500 mg ZN.html",
+      "sha256": "6e2430f6d614a54d857c5e34d80f16fe52ccea40594e58bbf87e1a88ccea40d6",
+      "productIds": [
+        80
+      ]
+    },
+    {
+      "file": "JENGIBRE 500 mg.html",
+      "sha256": "cd0c92c8a3cb00611c6b898885f48d3c7c55aab8041a5f04364c601eb45c12d2",
+      "productIds": [
+        81
+      ]
+    },
+    {
+      "file": "JUGO DE NONI.html",
+      "sha256": "c7cf894fae727d5b7a73c7e08ea4e66f34b9118af828718b8074ebc7e897d599",
+      "productIds": [
+        269
+      ]
+    },
+    {
+      "file": "KINDERVITAL FRUITY.html",
+      "sha256": "b63f8295ab1a3cd259cd69aac6637da67cdba7df6e786efa065ffb37b6eb72e0",
+      "productIds": [
+        249
+      ]
+    },
+    {
+      "file": "Krill Oil.html",
+      "sha256": "2a76476bfcf1a6a29a7bd23b0eca2bc5cdcba2ea8e5e36935e8044b228149f27",
+      "productIds": [
+        82
+      ]
+    },
+    {
+      "file": "L-ARGININA NANO FEAR 850MG.html",
+      "sha256": "4aa13ab19ef947c5f5057c1885819f9d3907b2e440e7bda9c7903437fd9f73a4",
+      "productIds": [
+        83
+      ]
+    },
+    {
+      "file": "L-CARNITINA PROWINNER.html",
+      "sha256": "0f9de5538adcd62743e3b5ab82d1932a8af460004591aac96dbffc97784526ea",
+      "productIds": [
+        215
+      ]
+    },
+    {
+      "file": "L-CARNITINA, GUARANÁ Y GARCINIA.html",
+      "sha256": "e9dfaf207adfea8d46cda4dfcf0dcd436b5cca28f96991ee30d7ae9ea7941325",
+      "productIds": [
+        84
+      ]
+    },
+    {
+      "file": "L-CARNOSINE ZINC.html",
+      "sha256": "8c5c70c8d71aa1365176380c99783bcb17961ae6e03ad72458aafd736e2880b5",
+      "productIds": [
+        85
+      ]
+    },
+    {
+      "file": "L-GLUTAMINE + NAG.html",
+      "sha256": "f63a4526bc6ecbb337fe0ae2ba1eea1710428fa255c0a0c6497f8cd4831f8865",
+      "productIds": [
+        246
+      ]
+    },
+    {
+      "file": "L-LISINA PROWINNER.html",
+      "sha256": "e4a83279d26b95d820ada16d94a2c9054faf138b1e5f24d8c739ecb3c4b49c4c",
+      "productIds": [
+        217
+      ]
+    },
+    {
+      "file": "L-TIROSINA 500 mg.html",
+      "sha256": "12a5a9b606a371695e9c86c4802a29f379ed61cd761865098e19490bedba9d87",
+      "productIds": [
+        87
+      ]
+    },
+    {
+      "file": "LECHE DE SOYA SYMKEN.html",
+      "sha256": "eb7fc46da645442413bf2e191018c9778133ede7d45f02cc780fced998d71cc5",
+      "productIds": [
+        194
+      ]
+    },
+    {
+      "file": "Leucaps.html",
+      "sha256": "8ff6309bf9d948ee12f10d613fb4e36737a9b6263e48c121beac1b8163187db8",
+      "productIds": [
+        86
+      ]
+    },
+    {
+      "file": "LEVADURA DE CERVEZA 300g PRONAT.html",
+      "sha256": "3af4d5607c24b3ac7c34e637d577d18b8cfe4637b4d53d0c2cfbfeefde0e039f",
+      "productIds": [
+        241
+      ]
+    },
+    {
+      "file": "LEVADURA DE CERVEZA PRONAT.html",
+      "sha256": "276f44f6a1576df7f158f0e7d2e4ee0e8a39c729b41a10c203b1f176fce4067d",
+      "productIds": [
+        205
+      ]
+    },
+    {
+      "file": "MACA NEGRA.html",
+      "sha256": "c3f000414a0e2da06e0700c5534aef8d945ac63255198b12c495f05a2f9a8cde",
+      "productIds": [
+        88
+      ]
+    },
+    {
+      "file": "MACA, JENGIBRE Y DAMIANA 500 mg.html",
+      "sha256": "2455bcea9859cbe8c961f99ee88a3c4b53eb7bf448704dd63eeace37ff3d8c2f",
+      "productIds": [
+        89
+      ]
+    },
+    {
+      "file": "Maca.html",
+      "sha256": "479092c4f56de7c491041502b11c6094243e70a87cef54f15e9425921a4e46d5",
+      "productIds": [
+        90
+      ]
+    },
+    {
+      "file": "Magnesio Blend.html",
+      "sha256": "588f3e02f3845d0393a46144cd5bc60e7a74f717ff1850dc8a5f4e5504d60bb5",
+      "productIds": [
+        91
+      ]
+    },
+    {
+      "file": "MAGNESIUM BISGLYCINATE.html",
+      "sha256": "5f7657aa6330cf1d6e7add6561c709848a1819f33f80bee3f8cc53fe6c29e859",
+      "productIds": [
+        181
+      ]
+    },
+    {
+      "file": "MAGNESIUM MALATE.html",
+      "sha256": "a4fbcacd078c36007bcc085626248b7066eb157de0ad92219b5d4cca8738c3b9",
+      "productIds": [
+        92
+      ]
+    },
+    {
+      "file": "MagnesiumAM600mg.html",
+      "sha256": "04a8d6f28117c599dfa4b24a84bc6c1af057ca187220010aa7e0b5b5589a2898",
+      "productIds": [
+        93
+      ]
+    },
+    {
+      "file": "MagnesiumPM600mg.html",
+      "sha256": "7aaa92c4cc83d6ca90014708914eb24ac4091d10c2f73b5594eb7a3ec1d76313",
+      "productIds": [
+        94
+      ]
+    },
+    {
+      "file": "MANGO AFRICANO.html",
+      "sha256": "4f6e059da143f7514517fa7e45e5a307f23d2c4b2401f7ea44976ae72f3bfecb",
+      "productIds": [
+        95
+      ]
+    },
+    {
+      "file": "MASS FEAR 8 LBS.html",
+      "sha256": "0a4e695f5c742ed7c67a6265c635f843ef20af33b99c64e447a1c4e504e34881",
+      "productIds": [
+        96
+      ]
+    },
+    {
+      "file": "MATCHA ORGÁNICO 100g.html",
+      "sha256": "f4f6a759dee646aa3010aa13c75f54696cf9d1d7a3187442bc4376691bf69e41",
+      "productIds": [
+        97
+      ]
+    },
+    {
+      "file": "MCT OIL BIRDMAN.html",
+      "sha256": "a7aa4fb39ebe69cf9d0ff3647eb77044915135ea1af43fa496be183e77f80818",
+      "productIds": [
+        160
+      ]
+    },
+    {
+      "file": "Melena de León.html",
+      "sha256": "cd3959a8c7e601b412994eb93d8d859aa797b6de18274053300e6ce0031d1986",
+      "productIds": [
+        98
+      ]
+    },
+    {
+      "file": "MIEL MULTIFLORA.html",
+      "sha256": "84e2fb57fc0a2908816124592fd48a95c66c4034c6bcf9feb4605cb3608c1322",
+      "productIds": [
+        99
+      ]
+    },
+    {
+      "file": "MORINGA ORGÁNICA.html",
+      "sha256": "d0fba434467eb945917c84e2c3dd94fa01545f864971f90890f5a5f4d52e467c",
+      "productIds": [
+        100
+      ]
+    },
+    {
+      "file": "MORINGA, ROMERO Y HOJA DE GUAYABA.html",
+      "sha256": "b710adc6d9577af7fea3303de9c481d078d28c2d00bdd336a892d7c1091d999d",
+      "productIds": [
+        253
+      ]
+    },
+    {
+      "file": "MOROIZY 90 caps 500 mg.html",
+      "sha256": "d515de00de98b0b171ad40be4a84966858bdfb3def8ecc6bedc89139ff3402a1",
+      "productIds": [
+        51
+      ]
+    },
+    {
+      "file": "MOROIZY GEL.html",
+      "sha256": "5dc5212d4ea79633530b76c8396c10e11e0b0f40cf911a51864d348346cc0895",
+      "productIds": [
+        182
+      ]
+    },
+    {
+      "file": "MYO + D-CHIRO Inositol 500 mg ZN.html",
+      "sha256": "e83777458c15a52ca958370036f000bca25e97e8654e4c61f5bc7ec9a57bab4e",
+      "productIds": [
+        52
+      ]
+    },
+    {
+      "file": "MYO + D-CHIRO INOSITOL POWDER 300g ZN.html",
+      "sha256": "136696d3bcad7b3ef724c627d13cefbfc95525655ac6a4b8b45bd82ce056be0e",
+      "productIds": [
+        53
+      ]
+    },
+    {
+      "file": "NAC N-AcetylCysteine 500 mg ZN.html",
+      "sha256": "ec9108d088813cb834df3dc889d8d29070d9ebfc6043a3f7cb95c25db00e20c3",
+      "productIds": [
+        116
+      ]
+    },
+    {
+      "file": "NAC NOW.html",
+      "sha256": "391a5d2ffed5b62b908faeaa4985d41f85badb8de6a498616bfe0fd933b5ebc8",
+      "productIds": [
+        193
+      ]
+    },
+    {
+      "file": "NAD + Resveratrol.html",
+      "sha256": "0b81dd6909ac56b5fb2454763796807b7abe69b99cba2695f265bf8c34e1185a",
+      "productIds": [
+        117
+      ]
+    },
+    {
+      "file": "NEEM CON NOPAL.html",
+      "sha256": "59d0ac04bf2ccb71ed44547d012e6c227f70354ea9c59879b0e4ebece995874d",
+      "productIds": [
+        118
+      ]
+    },
+    {
+      "file": "NEUROCEBRYL COMPUESTO.html",
+      "sha256": "9d5a17f342c4e0dff1158838ec2d7ed1baab3fb2a452f4e5fd2780c0d2c06ebc",
+      "productIds": [
+        192
+      ]
+    },
+    {
+      "file": "NMN Advanced Resveratrol 550 mg ZN.html",
+      "sha256": "e6b28a37e0e922ad1d7992a6c9089f5cfe66cd1862d055bc5ae7b23daa6d2c03",
+      "productIds": [
+        119
+      ]
+    },
+    {
+      "file": "NOPAL PROSA.html",
+      "sha256": "5dc06580e245cad0966c1e74ba366fc689ceb64eb6c36e7b2623bd30ab089495",
+      "productIds": [
+        235
+      ]
+    },
+    {
+      "file": "NOPSOR POMADA.html",
+      "sha256": "fdd9fe94d26dc600fee8d85912c79410d1d7c1591408102d1fc503f803d3e344",
+      "productIds": [
+        203
+      ]
+    },
+    {
+      "file": "NUYO.html",
+      "sha256": "de6b2c83830b07d89c06d53170eb467329ecf5d6ef7718ed43119197f1321fc1",
+      "productIds": [
+        157
+      ]
+    },
+    {
+      "file": "OMEGA 3 NANO FEAR.html",
+      "sha256": "470b3fa27c71fe1c037efdf72b1ce02db3a226ab5ca7d4e0f1c6dee7cabbdf40",
+      "productIds": [
+        120
+      ]
+    },
+    {
+      "file": "OMEGA 3 Nordic.html",
+      "sha256": "2a5991491c6f00f85e77fd9d5d27f7389d1ea03e9f3fda60fe5c35ebf5120af7",
+      "productIds": [
+        123
+      ]
+    },
+    {
+      "file": "OMEGA 3 SALMON OIL 1g ZN.html",
+      "sha256": "3b8da7b7dedb40eea3aac8eeb41a8bb83d7beb2d71c7fc9ec1b47d139c61c3c3",
+      "productIds": [
+        122
+      ]
+    },
+    {
+      "file": "OMEGA INFANTIL PRONAT.html",
+      "sha256": "a7b08623affc643c1f94385cc7b2f8e18be23e7212ceaec2bc281a8fc1241de9",
+      "productIds": [
+        229
+      ]
+    },
+    {
+      "file": "OMEGA MAXIMUM PRONAT.html",
+      "sha256": "c3cecaf3d510c6b3d73ed972e041854920d124ecfcdee4b1fe4f738b62356b21",
+      "productIds": [
+        206
+      ]
+    },
+    {
+      "file": "ON-C-LEN 750 mg ZN.html",
+      "sha256": "536e1ed2155e24f2e26ce2ffe299c75b2e76854c27a26a96df6c5e1749e15c77",
+      "productIds": [
+        124
+      ]
+    },
+    {
+      "file": "PALO AZUL UVA URSI.html",
+      "sha256": "7b65446b44d772cd4041389e00b4574efa5b6e975a83cf093340b899977811df",
+      "productIds": [
+        211
+      ]
+    },
+    {
+      "file": "PASIFLORINA.html",
+      "sha256": "5dea4a2fc03bd65344941e26aae84033dccb358c9b85b150c9956deee4a8b18e",
+      "productIds": [
+        256
+      ]
+    },
+    {
+      "file": "PATA DE VACA.html",
+      "sha256": "2af03e48ef43638d080a3dd591d586f696a156028db8e5cec6b173365e184b68",
+      "productIds": [
+        210
+      ]
+    },
+    {
+      "file": "PÉPTIDOS COLÁGENO HIDROLIZADO.html",
+      "sha256": "50d342ec5e50114cc971f9f3932faff79c9ab9ea32bcf371171ba40081757f0d",
+      "productIds": [
+        125
+      ]
+    },
+    {
+      "file": "PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO.html",
+      "sha256": "bcd667204096642d1c9afc4650563d73791c298aaa7138bb41f27830bb3a6f7e",
+      "productIds": [
+        126
+      ]
+    },
+    {
+      "file": "PETALOS DE ROSA CON VIT C.html",
+      "sha256": "f1b2530ba92b5a1ba33f3eda38f9842acadc5b281ef65694d5a249289220eccb",
+      "productIds": [
+        127
+      ]
+    },
+    {
+      "file": "PIÑALINAZA.html",
+      "sha256": "ad1c771a048c2ed66bbfeb54408340587457f49c85c969a3b7e3b22195942887",
+      "productIds": [
+        222
+      ]
+    },
+    {
+      "file": "PLATA COLOIDAL BLU SILVER.html",
+      "sha256": "dfcde54784467ffb688f54d7810b594cbf0536c6fa949dc2153cd7b82abbb530",
+      "productIds": [
+        263
+      ]
+    },
+    {
+      "file": "POTASSIUM DUAL COMPLEX.html",
+      "sha256": "0cea4f77f84fdc10d94ed9c06b0cb0d85fce9b8f4fc087afca9da516e3138986",
+      "productIds": [
+        128
+      ]
+    },
+    {
+      "file": "PREBIAN.html",
+      "sha256": "abfcc03064d4f3a9edb3a0abfee2f6978f0e33d51df9574090d329c47dff06e0",
+      "productIds": [
+        242
+      ]
+    },
+    {
+      "file": "Premium Panax Ginseng.html",
+      "sha256": "dfa37f24dc6317c4c66266a4fd80479b1e3bca79a6852ba7e3ca833877830733",
+      "productIds": [
+        267
+      ]
+    },
+    {
+      "file": "PRO PROPÓLEO Y MENTA.html",
+      "sha256": "356208874d205dc289db86e93dda8329713081e17662687a98ebb60dbce20634",
+      "productIds": [
+        255
+      ]
+    },
+    {
+      "file": "Probióticos 100 Billones 500MG ZN.html",
+      "sha256": "1b9dc1d1b940f45d29d9df03f3c08e2698f50e7ff48e74e649a24893bcc4fdfd",
+      "productIds": [
+        131
+      ]
+    },
+    {
+      "file": "Probióticos 60 Billones 500MG.html",
+      "sha256": "3fd5298d4aafd2ea2f199de99be12353163cb815185559e20c34bd6395c42ed5",
+      "productIds": [
+        129
+      ]
+    },
+    {
+      "file": "PROBIOTICOS 60 BILLONES MUJERES ZN.html",
+      "sha256": "7349568655c727da7c7f13c64be12f3358719b3a8ee841938e7fe6eb7a76815e",
+      "productIds": [
+        130
+      ]
+    },
+    {
+      "file": "PROBITY 30 caps 600 mg.html",
+      "sha256": "82ebe63e9d934b62f897078031747c014d77a6ecc5cd0bdc757ca53f5fd0bd4f",
+      "productIds": [
+        132
+      ]
+    },
+    {
+      "file": "ProHiman.html",
+      "sha256": "0d0434a47b34783cd44993dc83bf5be05b4c02772857a6995200798c5ef2bd5f",
+      "productIds": [
+        133
+      ]
+    },
+    {
+      "file": "PROTEÍNA CACAO HIGH PERFORMANCE.html",
+      "sha256": "0710889e927a298382f1ff23c720ac9ed7efec16346ea6782f229939a5b0f610",
+      "productIds": [
+        158
+      ]
+    },
+    {
+      "file": "PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS.html",
+      "sha256": "38a61cb44d3c62cf37e100d18241519c8914a64bab3b9ca31f54ae138fbb9b71",
+      "productIds": [
+        134
+      ]
+    },
+    {
+      "file": "PROTEÍNA VEGANA VAINILLA HABITS.html",
+      "sha256": "b4c132448c20ea0074589f9cd8cf3295bdcd23d24ef625375b7ce833a7e5c857",
+      "productIds": [
+        135
+      ]
+    },
+    {
+      "file": "PULMOBRON MIEL.html",
+      "sha256": "2e3ab03659008e2f290874620083523808f7a0ab99d7154c94a0dc90db26bf40",
+      "productIds": [
+        243
+      ]
+    },
+    {
+      "file": "PURE INOSITOL POWDER.html",
+      "sha256": "723db796ee2c4d026812bccb9c025267943e0051c1ad224119646154829faa21",
+      "productIds": [
+        180
+      ]
+    },
+    {
+      "file": "Q10.html",
+      "sha256": "30ccae922714e8c8f781c75d3f80a5b40406c1a50fdc4e43d19093cd1a0b404a",
+      "productIds": [
+        136
+      ]
+    },
+    {
+      "file": "QUERCETIN.html",
+      "sha256": "e27f6697c235ac8e2e36b3d210ff8a3e2a8045449f69a6da0ade5aa5eb8d5dcf",
+      "productIds": [
+        178
+      ]
+    },
+    {
+      "file": "Raíz de Shatavari + Schisandra 1000 mg ZN.html",
+      "sha256": "c064152cdd0f23680f0c362acb95851ce21a6d6e0c840b3a6620c411764a44ce",
+      "productIds": [
+        137
+      ]
+    },
+    {
+      "file": "RESVERATROL 500 mg ZN.html",
+      "sha256": "f01196009cb54afcc8e0979591d9345bcb8b9be5458f094c178d2a359396906d",
+      "productIds": [
+        138
+      ]
+    },
+    {
+      "file": "Rinichi.html",
+      "sha256": "83a8320fefe48a2f8aec95fcf21f1461f059fe9657afb66e4bfe038524447524",
+      "productIds": [
+        139
+      ]
+    },
+    {
+      "file": "SÁBILA 1 LT PROSA.html",
+      "sha256": "30f2ff1765b62e4d9a350260e38c23112480ced8a27e5eb37690e971bfa3139e",
+      "productIds": [
+        198
+      ]
+    },
+    {
+      "file": "Sábila con Nopal y Cuachalalate 1L.html",
+      "sha256": "34eb75e403d6e96a9df65d235e47ca206e332b6f7a7401c57679557ca6eb9678",
+      "productIds": [
+        140
+      ]
+    },
+    {
+      "file": "SÁBILA Y NOPAL PROSA.html",
+      "sha256": "4cc2effe90f2a7ed2141b243fb7d5b0ecf84cab2d6ce79ab6e4fc02e9399d56f",
+      "productIds": [
+        236
+      ]
+    },
+    {
+      "file": "SDOMACHUS 500 mg.html",
+      "sha256": "f9629515f998b5b4dbb082cfdeff3f35ccc4cf9af96c171288763ed6d87c8fb0",
+      "productIds": [
+        141
+      ]
+    },
+    {
+      "file": "Selenio 90 tabs 100 mcg.html",
+      "sha256": "f0a6bfd67c5a32860fd6af9e4077384b399ae72f95aec937ddd77e72fc38f010",
+      "productIds": [
+        142
+      ]
+    },
+    {
+      "file": "Shilajit & Tongkat Ali Blend.html",
+      "sha256": "6794f7a6a9cb1d1c02b2dc62600c3b7b432665f7ccd290252bf694ff57ee4583",
+      "productIds": [
+        143
+      ]
+    },
+    {
+      "file": "SIMILAXOL.html",
+      "sha256": "8b8422418b06c73f1f25b3266dc27c2c26cc224458bb51b7d9ae56f1766053b0",
+      "productIds": [
+        144
+      ]
+    },
+    {
+      "file": "SOY LECITHIN + CHOLINE.html",
+      "sha256": "19921ae60ca90494446db6e379e252807a562cf5f62950a1e34909f7a5a1b4b5",
+      "productIds": [
+        145
+      ]
+    },
+    {
+      "file": "SUKUNAI KIROS BLUE.html",
+      "sha256": "66667fb8f62deb8f77f76d8cd2148d81f9d99c05a310eff8e1428c7b071acec5",
+      "productIds": [
+        244
+      ]
+    },
+    {
+      "file": "SUKUNAI KIROS MAX.html",
+      "sha256": "0efc77d40194c8af6998e08fbac5b16d517b141e56ce2fd68b19a17642c11fb2",
+      "productIds": [
+        221
+      ]
+    },
+    {
+      "file": "SUPER COLOSTRUM NOW.html",
+      "sha256": "f8bfc978a064c9fa39c7d62dd894ea7eb5a8b7079c9fa6190b40088ebc0cb886",
+      "productIds": [
+        202
+      ]
+    },
+    {
+      "file": "TÉ 7 AZAHARES.html",
+      "sha256": "656ef0351ab90024bfbaccf91ac65e73b90b6134c140c3f70bb585d54b9f6d4f",
+      "productIds": [
+        169
+      ]
+    },
+    {
+      "file": "TÉ ABANGREEN.html",
+      "sha256": "b07684484933c7e893dd02da5915dcbf398a6cd2d63fc5b30639470cf2e7ee66",
+      "productIds": [
+        170
+      ]
+    },
+    {
+      "file": "TÉ ARNICA.html",
+      "sha256": "2c765a28cd340efb681bed6ea5d1c8387fce8fbbcddc94328af00c84af8867e6",
+      "productIds": [
+        171
+      ]
+    },
+    {
+      "file": "TÉ CUACHALALATE.html",
+      "sha256": "be30ed0ea568415cf1ea4eaea4a9ca1d44f47b159040738cf9ef21b46e92b5ed",
+      "productIds": [
+        172
+      ]
+    },
+    {
+      "file": "TÉ HOJA SEN.html",
+      "sha256": "f89c2176055dcdfa58f6932a19dc173abb9056d78c0a8c2df4ed32c1c9ec5992",
+      "productIds": [
+        173
+      ]
+    },
+    {
+      "file": "TÉ JENGIBRE CANELA.html",
+      "sha256": "befb194cae7d96761349491b724e3f0b4cf16256ba9e26a9bc8ea9999f90a0a3",
+      "productIds": [
+        174
+      ]
+    },
+    {
+      "file": "TÉ JENGIBRE Y CÚRCUMA.html",
+      "sha256": "c8740917d0c0f2d71f8dadccaf82bf92e0e39c935cc7d286bc74c21824996844",
+      "productIds": [
+        175
+      ]
+    },
+    {
+      "file": "TÉ JOUNKINS LAX.html",
+      "sha256": "f08f375611bf3f88ad4dda0a44d972c454ae1dccc063c8c2f906618d572131b6",
+      "productIds": [
+        189
+      ]
+    },
+    {
+      "file": "TÉ MANZANILLA.html",
+      "sha256": "fd9ff1d2f2d52792c6337e19394bc68e8d9512832198a10091d9a5ef1bd5f592",
+      "productIds": [
+        176
+      ]
+    },
+    {
+      "file": "TÉ PIÑALIM PLUS.html",
+      "sha256": "0d2f98f7c0dcd319c22b48655740472504d3e36aa5b10180f475d40d8c71237f",
+      "productIds": [
+        197
+      ]
+    },
+    {
+      "file": "Té Piñalim.html",
+      "sha256": "3cbfe8346b2e042c27afbcb29a50905989e2a6d35727278b5c77a6f734f4c7d1",
+      "productIds": [
+        146
+      ]
+    },
+    {
+      "file": "TÉ RINICHI.html",
+      "sha256": "ef86728bbefbee3ea02ce8412e1270fb1159bdbafedfb451e612b39de42efda7",
+      "productIds": [
+        177
+      ]
+    },
+    {
+      "file": "TÉ VERDE.html",
+      "sha256": "73c89c8edea1f35a7f3fb5184a139f94ebfb11f15d23f0651d7e8a3c18817c84",
+      "productIds": [
+        165
+      ]
+    },
+    {
+      "file": "Tiamina 3000 Alexyac.html",
+      "sha256": "7a9a3a5caa488b9ae4388a422a74b6ece8ed34f62cf4f159779a4f7588467ab6",
+      "productIds": [
+        147
+      ]
+    },
+    {
+      "file": "TIAMINA JARABE GN+VIDA.html",
+      "sha256": "7119681627604a434984842073f1cc116ffb4e65af28b0009e94f1777712a649",
+      "productIds": [
+        257
+      ]
+    },
+    {
+      "file": "TLANCHALAGUA PROSA.html",
+      "sha256": "06322f808328f4ee03ea9d8379766ac6ae3191138ecbf170aa7b32c25829b5e0",
+      "productIds": [
+        266
+      ]
+    },
+    {
+      "file": "TO ADZEN  HIERBA DE SAPO 500 mg.html",
+      "sha256": "d3e1b664d84ad6d37410bdc5df23cdf3479025ca09d2efdf9c97e0163ef4f9d6",
+      "productIds": [
+        148
+      ]
+    },
+    {
+      "file": "TÓNICO INDIO TZAPOTLATENA.html",
+      "sha256": "2175f091a0cea0313cc7a48db8e90e9cc6eabc61542cc95747bdc9432d55c8fd",
+      "productIds": [
+        231
+      ]
+    },
+    {
+      "file": "TREONATO DE MAGNESIO.html",
+      "sha256": "d98fccae133adc8999157e2fa6d6730553647886035f2d89abf5475c313ae6d7",
+      "productIds": [
+        149
+      ]
+    },
+    {
+      "file": "TRIPTOFANO TEANINA 500 mg.html",
+      "sha256": "cb0108910696ca941cdd62f3baa1cd50ddf05c35d86fe27d54c63e9acce67fab",
+      "productIds": [
+        150
+      ]
+    },
+    {
+      "file": "UBIQUINOL KANEKA.html",
+      "sha256": "2cf88d447ee93647e11722797ccb133191a46a7e473cbf241793f28ea9aed05f",
+      "productIds": [
+        101
+      ]
+    },
+    {
+      "file": "UC-II® Collagen Boswellia Curcumin .html",
+      "sha256": "58537acf10656cef3e65b5e02fb23886c2b127aa73ae0bddc575fe0db0456547",
+      "productIds": [
+        102
+      ]
+    },
+    {
+      "file": "VEGI PROTEIN NANO FEAR.html",
+      "sha256": "c763b654688c01cf157c58e597add1d89c5d2c8017620ba9deb5d4d935329a2e",
+      "productIds": [
+        219
+      ]
+    },
+    {
+      "file": "VGREEN.html",
+      "sha256": "070a913d35b07852e7af4aa7ebe944613dcd94289319a9897739010b83ba28f8",
+      "productIds": [
+        161
+      ]
+    },
+    {
+      "file": "Vinagre de Manzana.html",
+      "sha256": "758300bacc29e7ee7d36b57b20ba6a7f5e18e199634b9218405b14f7767ca22f",
+      "productIds": [
+        103
+      ]
+    },
+    {
+      "file": "Vinagre Sidra de Manzana.html",
+      "sha256": "d36ec62b295353c4be90404970383a25f696fe7cf8ccf04a984be617a04bc9d4",
+      "productIds": [
+        104
+      ]
+    },
+    {
+      "file": "VITA RX MENS.html",
+      "sha256": "c3a90f0a5a77306c5bdb37f570911d9a5a8443436594eb295f1ba5c8fdcc8d13",
+      "productIds": [
+        105
+      ]
+    },
+    {
+      "file": "VITA RX NANO FEAR.html",
+      "sha256": "5b1cff33408e1c59b240bb20685e60ee43d8df15fe8d0b7e67b5305179370cd6",
+      "productIds": [
+        159
+      ]
+    },
+    {
+      "file": "VITA RX TESTO.html",
+      "sha256": "120dedd524d6530c0258b3e803f7aa943ed187d5a76456ab61c334120eda1612",
+      "productIds": [
+        106
+      ]
+    },
+    {
+      "file": "VITA RX WOMENS.html",
+      "sha256": "7c4583f02739ba4fddf5b0e387eea3d87e9cf78c0d5ae52c548e1aec042b7998",
+      "productIds": [
+        107
+      ]
+    },
+    {
+      "file": "Vitamina C-1000 NOW.html",
+      "sha256": "b31265e8c05aaf03a8addae0dac9fda0f313bdb6ce0750ed588bf34ec4ddecc1",
+      "productIds": [
+        108
+      ]
+    },
+    {
+      "file": "VITAMINA D3 & K2 NOW.html",
+      "sha256": "36c373a47c469909b950a862e9322067a4583938c8a68b0f8719c9dd1c0dcf1f",
+      "productIds": [
+        245
+      ]
+    },
+    {
+      "file": "Vitamina D3 + Magnesio, K2 y Zinc.html",
+      "sha256": "3ca82b7f7593f3b168d479670eb8084f9e690ff21aa5135f719b73bd87b58ace",
+      "productIds": [
+        109
+      ]
+    },
+    {
+      "file": "Vitamina E 1000 Greenlife.html",
+      "sha256": "e1f2f094ed6e2a17de06e1be0d3ca448b93ad2294e37aafb4bd352b002ed0e66",
+      "productIds": [
+        110
+      ]
+    },
+    {
+      "file": "VITAMINA K2.html",
+      "sha256": "de40264100991fe7af530b731b7c36f7e9e9376775cd1106ed999c1f20867f95",
+      "productIds": [
+        230
+      ]
+    },
+    {
+      "file": "WEREKE PROSA.html",
+      "sha256": "9a060366316c4041553ea2658e405a2e72aadd7de2d862325753fdb26d1f0b55",
+      "productIds": [
+        223
+      ]
+    },
+    {
+      "file": "WHEY CHOCONUEZ NANOFEAR.html",
+      "sha256": "eaa8bcc99c1ad97e1b6bbb9c5d9c093d0f84289bc9185e472fc243cd17d8f82b",
+      "productIds": [
+        111
+      ]
+    },
+    {
+      "file": "WHEY PROTEIN HARDER.html",
+      "sha256": "e68fde9cb65183d1619f354178a9a66a59b33cbe78797dda21ee2258a5e2e7c2",
+      "productIds": [
+        112
+      ]
+    },
+    {
+      "file": "WPI 90.html",
+      "sha256": "0440c4b72e9911614b6ff61560d8da5ced3fbadb37b5578f17c00698a558b33b",
+      "productIds": [
+        113
+      ]
+    },
+    {
+      "file": "XIMO.html",
+      "sha256": "5ffbfef5b78e04fccd4c4489f60713a7b7954405abe9f3c789c194e8a78ab5df",
+      "productIds": [
+        114
+      ]
+    },
+    {
+      "file": "YUMEL TASAY INKA.html",
+      "sha256": "eeb8d964c4ea34501dce8e8381be37ccf10ea6f1a30bbee62b0d8828b23ec520",
+      "productIds": [
+        254
+      ]
+    },
+    {
+      "file": "YUMEL.html",
+      "sha256": "42ff3a3f588fd144e43858ca1fb62fed3268e6882cddd578e3fdd6f5f7b7ab9b",
+      "productIds": [
+        115
+      ]
+    },
+    {
+      "file": "Zen Greens 200G.html",
+      "sha256": "581df8f1ea845b097e5f992651467c5046382283bf407888354b26ade22d6c9a",
+      "productIds": [
+        151
+      ]
+    },
+    {
+      "file": "ZENMUN .html",
+      "sha256": "bfc39829c26b4c27e8eed6b647c1b0ee3b8e09ed98c628e10444f955772b1ac7",
+      "productIds": [
+        184
+      ]
+    },
+    {
+      "file": "ZEOLITA.html",
+      "sha256": "0efea96743ecd8809f3202421b26d020544e5c71d00816b15a675dcecbc0abdf",
+      "productIds": [
+        265
+      ]
+    },
+    {
+      "file": "Zinc con Ginger.html",
+      "sha256": "b1c4bc5a6566cecb0cfe6b0c572fc7f6e2a61edd81fbabe192477e59e30fdd20",
+      "productIds": [
+        152
+      ]
+    },
+    {
+      "file": "ZINC.html",
+      "sha256": "4a78044d6242f1f30769d8d250e0a54173e48118a36f2e720b01d98134de62af",
+      "productIds": [
+        153
+      ]
+    }
+  ]
+}

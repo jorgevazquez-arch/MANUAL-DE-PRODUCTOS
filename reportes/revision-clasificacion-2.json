@@ -1,0 +1,1365 @@
+{
+  "date": "2026-11-09",
+  "scope": "Posiciones 90 a 179 del catálogo: 90 fichas HTML originales revisadas individualmente. Una clasificación primaria por ficha; las funciones secundarias no determinan el grupo.",
+  "reviewedIds": [
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183
+  ],
+  "reviews": [
+    {
+      "id": 92,
+      "name": "MAGNESIUM MALATE",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha describe magnesio para energía, músculos y nervios sin un objetivo único de sueño o articulaciones.",
+      "evidence": [
+        "GUIAS WEB HTML/MAGNESIUM MALATE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 92; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 92"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 93,
+      "name": "MAGNESIUM AM 600mg",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La fórmula AM aporta dos sales de magnesio y B6 para uso diario y energía; no es una fórmula nocturna ni laxante.",
+      "evidence": [
+        "GUIAS WEB HTML/MagnesiumAM600mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 93; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 93"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 94,
+      "name": "MAGNESIUM PM 600mg",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La fórmula PM se dirige al descanso nocturno e incluye teanina, glicina, manzanilla y 5-HTP.",
+      "evidence": [
+        "GUIAS WEB HTML/MagnesiumPM600mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 94; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 94"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 95,
+      "name": "MANGO AFRICANO (30 cápsulas)",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha sitúa la mezcla en metabolismo, apetito y acompañamiento del cuidado del peso.",
+      "evidence": [
+        "GUIAS WEB HTML/MANGO AFRICANO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 95; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 95"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 96,
+      "name": "MASS FEAR 8 LBS",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha lo presenta como ganador de masa para entrenamiento y recuperación, con proteína y carbohidratos.",
+      "evidence": [
+        "GUIAS WEB HTML/MASS FEAR 8 LBS.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 96; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 96"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 97,
+      "name": "MATCHA ORGÁNICO 100g",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Es té verde puro en polvo para bebidas y recetas; la cafeína y los antioxidantes no lo convierten en una fórmula de control de peso.",
+      "evidence": [
+        "GUIAS WEB HTML/MATCHA ORGÁNICO 100g.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 97; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 97"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 98,
+      "name": "MELENA DE LEÓN",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha dirige melena de león con treonato al cuidado de memoria, concentración y bienestar neurológico.",
+      "evidence": [
+        "GUIAS WEB HTML/Melena de León.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 98; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 98"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 99,
+      "name": "MIEL MULTIFLORA",
+      "from": "nutricional",
+      "to": "nutricional",
+      "reason": "Es miel como alimento y edulcorante; el confort de garganta es un uso complementario.",
+      "evidence": [
+        "GUIAS WEB HTML/MIEL MULTIFLORA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 99; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 99"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 100,
+      "name": "MORINGA ORGÁNICA",
+      "from": "inmune",
+      "to": "nutricional",
+      "reason": "La ficha describe hoja de moringa de un solo ingrediente como apoyo nutricional general; defensas es un aporte secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/MORINGA ORGÁNICA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 100; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 100"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 101,
+      "name": "UBIQUINOL KANEKA",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La guía original de ubiquinol destaca función del corazón y cuidado cardiovascular además de energía celular.",
+      "evidence": [
+        "GUIAS WEB HTML/UBIQUINOL KANEKA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 101; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 101"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 102,
+      "name": "UC-II® Collagen Boswellia Curcumin",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "La fórmula está diseñada para articulaciones y movilidad con colágeno tipo II, boswellia y cúrcuma.",
+      "evidence": [
+        "GUIAS WEB HTML/UC-II® Collagen Boswellia Curcumin .html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 102; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 102"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 103,
+      "name": "VINAGRE DE MANZANA",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha líquida tiene enfoque doble digestivo y metabólico: incluye saciedad y respuesta del azúcar después de comer. Se conserva metabolismo como categoría principal, con digestión como cruce secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/Vinagre de Manzana.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 103; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 103"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 104,
+      "name": "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
+      "from": "metabolismo",
+      "to": "digestivo",
+      "reason": "La presentación confirmada de 90 cápsulas combina vinagre y especias y la ficha prioriza bienestar digestivo y sensación de ligereza.",
+      "evidence": [
+        "GUIAS WEB HTML/Vinagre Sidra de Manzana.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 104; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 104"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 105,
+      "name": "VITA RX MENS",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha de Vita RX Mens dirige la fórmula al rendimiento físico del hombre activo con creatina, arginina y BCAA; la clasificación no garantiza cantidades eficaces para deporte.",
+      "evidence": [
+        "GUIAS WEB HTML/VITA RX MENS.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 105; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 105"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 106,
+      "name": "VITA RX TESTO",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La ficha sitúa la mezcla en vitalidad y bienestar reproductivo masculino, no en un multivitamínico general.",
+      "evidence": [
+        "GUIAS WEB HTML/VITA RX TESTO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 106; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 106"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 107,
+      "name": "VITA RX WOMENS",
+      "from": "hormonal",
+      "to": "nutricional",
+      "reason": "Es un multivitamínico global para la mujer adulta con aportes de piel, defensas, huesos y energía. Ser para mujeres no lo convierte por sí solo en una fórmula hormonal.",
+      "evidence": [
+        "GUIAS WEB HTML/VITA RX WOMENS.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 107; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 107"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 108,
+      "name": "VITAMINA C-1000 NOW",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de vitamina C prioriza apoyo a defensas, con colágeno y antioxidantes como funciones adicionales.",
+      "evidence": [
+        "GUIAS WEB HTML/Vitamina C-1000 NOW.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 108; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 108"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 109,
+      "name": "VITAMINA D3 + MAGNESIO, K2 Y ZINC",
+      "from": "metabolismo",
+      "to": "locomotor",
+      "reason": "La ficha combina D3, K2 y magnesio y presenta primero el cuidado óseo; el zinc y el apoyo a defensas son complementarios.",
+      "evidence": [
+        "GUIAS WEB HTML/Vitamina D3 + Magnesio, K2 y Zinc.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 109; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 109"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 110,
+      "name": "VITAMINA E 1000 GREENLIFE",
+      "from": "piel",
+      "to": "nutricional",
+      "reason": "La función principal de la vitamina E en esta ficha es el aporte vitamínico y antioxidante general; la piel no es el único órgano objetivo.",
+      "evidence": [
+        "GUIAS WEB HTML/Vitamina E 1000 Greenlife.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 110; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 110"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 111,
+      "name": "WHEY CHOCONUEZ NANOFEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La ficha describe proteína de suero para recuperación después de entrenar y mantenimiento de músculo.",
+      "evidence": [
+        "GUIAS WEB HTML/WHEY CHOCONUEZ NANOFEAR.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 111; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 111"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 112,
+      "name": "WHEY PROTEIN HARDER",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La proteína de suero se usa después del entrenamiento y la ficha la dirige a recuperación muscular.",
+      "evidence": [
+        "GUIAS WEB HTML/WHEY PROTEIN HARDER.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 112; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 112"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 113,
+      "name": "WPI 90 (WHEY PROTEIN ISOLATE 90)",
+      "from": "clinico",
+      "to": "deportivo",
+      "reason": "La guía WPI 90 dice expresamente recuperación postentreno y masa muscular; aparecer en guías clínicas no cambia su clasificación primaria.",
+      "evidence": [
+        "GUIAS WEB HTML/WPI 90.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 113; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 113"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 114,
+      "name": "XIMO",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de Ximo describe apoyo metabólico y control del peso como orientación comercial principal; vitaminas A y C no cambian ese enfoque.",
+      "evidence": [
+        "GUIAS WEB HTML/XIMO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 114; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 114"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 115,
+      "name": "YUMEL SIMILA",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha lo identifica como preparación homeopática de yumel dirigida a problemas urinarios y biliares; no es un suplemento nutricional general. La categoría no valida su eficacia.",
+      "evidence": [
+        "GUIAS WEB HTML/YUMEL.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 115; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 115"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 116,
+      "name": "NAC N-AcetylCysteine 500 mg ZN",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha de NAC se centra en aporte precursor de glutatión y protección celular general, sin un objetivo principal de peso, glucosa o energía.",
+      "evidence": [
+        "GUIAS WEB HTML/NAC N-AcetylCysteine 500 mg ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 116; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 116"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 117,
+      "name": "NAD + Resveratrol",
+      "from": "nervioso",
+      "to": "metabolismo",
+      "reason": "La ficha de NAD con resveratrol prioriza energía celular y procesos metabólicos; no define memoria o sueño como objetivo principal.",
+      "evidence": [
+        "GUIAS WEB HTML/NAD + Resveratrol.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 117; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 117"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 118,
+      "name": "NEEM CON NOPAL",
+      "from": "digestivo",
+      "to": "metabolismo",
+      "reason": "La ficha de neem con nopal describe control de glucosa y bienestar metabólico como orientación de la mezcla, no un apoyo intestinal principal.",
+      "evidence": [
+        "GUIAS WEB HTML/NEEM CON NOPAL.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 118; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 118"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 119,
+      "name": "NMN ADVANCED RESVERATROL",
+      "from": "nervioso",
+      "to": "metabolismo",
+      "reason": "NMN con resveratrol tiene enfoque de energía y vitalidad celular en la ficha, no una función principal de sueño o atención.",
+      "evidence": [
+        "GUIAS WEB HTML/NMN Advanced Resveratrol 550 mg ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 119; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 119"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 120,
+      "name": "OMEGA 3 NANO FEAR",
+      "from": "deportivo",
+      "to": "clinico",
+      "reason": "La ficha del omega Nano Fear prioriza EPA y DHA para cuidado cardiovascular; la marca deportiva y la referencia secundaria a personas activas no hacen que sea una proteína o preentreno.",
+      "evidence": [
+        "GUIAS WEB HTML/OMEGA 3 NANO FEAR.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 120; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 120"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 122,
+      "name": "OMEGA 3 SALMON OIL",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha del aceite de salmón presenta cuidado cardiovascular junto con cerebro y ojos, por lo que se conserva el grupo cardiovascular.",
+      "evidence": [
+        "GUIAS WEB HTML/OMEGA 3 SALMON OIL 1g ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 122; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 122"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 123,
+      "name": "OMEGA NORDIC 3000",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "La ficha del omega concentrado prioriza función cardiovascular; las menciones a cerebro y articulaciones son adicionales.",
+      "evidence": [
+        "GUIAS WEB HTML/OMEGA 3 Nordic.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 123; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 123"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 124,
+      "name": "ON-C-LEN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha original de la mezcla de hongos y plantas la orienta expresamente a defensas. La clasificación no confirma eficacia de la fórmula.",
+      "evidence": [
+        "GUIAS WEB HTML/ON-C-LEN 750 mg ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 124; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 124"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 125,
+      "name": "PÉPTIDOS COLÁGENO HIDROLIZADO",
+      "from": "piel",
+      "to": "piel",
+      "reason": "La ficha incluye piel, cabello y uñas junto con articulaciones; se conserva piel por el enfoque de cuidado de tejidos y piel, sin tratarlo como proteína deportiva.",
+      "evidence": [
+        "GUIAS WEB HTML/PÉPTIDOS COLÁGENO HIDROLIZADO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 125; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 125"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 126,
+      "name": "PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO",
+      "from": "piel",
+      "to": "piel",
+      "reason": "La combinación de colágeno y ácido hialurónico se presenta para hidratación y elasticidad de piel, además de articulaciones.",
+      "evidence": [
+        "GUIAS WEB HTML/PÉPTIDOS DE COLÁGENO HIDROLIZADO + ÁCIDO HIALURÓNICO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 126; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 126"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 127,
+      "name": "PETALOS DE ROSA CON VIT C",
+      "from": "piel",
+      "to": "inmune",
+      "reason": "La ficha destaca vitamina C y zinc para defensas y protección celular; la relación con colágeno no es el objetivo único ni principal de la mezcla.",
+      "evidence": [
+        "GUIAS WEB HTML/PETALOS DE ROSA CON VIT C.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 127; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 127"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 128,
+      "name": "POTASSIUM DUAL COMPLEX",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha describe aporte mineral general para equilibrio de agua, energía, músculos y nervios; no establece una enfermedad urinaria ni un foco exclusivo en huesos.",
+      "evidence": [
+        "GUIAS WEB HTML/POTASSIUM DUAL COMPLEX.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 128; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 128"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 129,
+      "name": "PROBIOTICOS 60 BILLONES 500MG",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "Los probióticos con inulina tienen enfoque principal en equilibrio de las bacterias del intestino.",
+      "evidence": [
+        "GUIAS WEB HTML/Probióticos 60 Billones 500MG.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 129; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 129"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 130,
+      "name": "PROBIOTICOS 60 BILLONES MUJERES ZN",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La fórmula para mujeres sigue siendo principalmente probiótica e intestinal; arándano y vitamina C son aportes adicionales.",
+      "evidence": [
+        "GUIAS WEB HTML/PROBIOTICOS 60 BILLONES MUJERES ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 130; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 130"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 131,
+      "name": "Probióticos 100 Billones 500MG ZN",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha centra la mezcla de bacterias e inulina en bienestar intestinal; el posible aporte a defensas es secundario.",
+      "evidence": [
+        "GUIAS WEB HTML/Probióticos 100 Billones 500MG ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 131; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 131"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 132,
+      "name": "PROBITY",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha original de PROBITY prioriza metabolismo y vitalidad con carnitina, té verde, chá de bugre y cromo; su papaína y otros digestivos son aportes secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/PROBITY 30 caps 600 mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 132; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 132"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 133,
+      "name": "PROHIMAN",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "Linaza y malva y el enfoque digestivo de la ficha justifican mantenerla en digestivo, aunque aporte grasas.",
+      "evidence": [
+        "GUIAS WEB HTML/ProHiman.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 133; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 133"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 134,
+      "name": "PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La proteína vegetal HABITS está dirigida a deportistas y recuperación muscular; los probióticos no cambian el propósito primario.",
+      "evidence": [
+        "GUIAS WEB HTML/PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 134; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 134"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 135,
+      "name": "PROTEÍNA VEGANA VAINILLA HABITS",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La variante vainilla se describe como proteína para deportistas y recuperación después del entrenamiento.",
+      "evidence": [
+        "GUIAS WEB HTML/PROTEÍNA VEGANA VAINILLA HABITS.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 135; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 135"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 136,
+      "name": "Q10 (Coenzima Q10)",
+      "from": "clinico",
+      "to": "metabolismo",
+      "reason": "La ficha de esta Q10 con baya dorada y B6 prioriza producción de energía y reducción del cansancio; no define un órgano cardiovascular como foco principal de la fórmula.",
+      "evidence": [
+        "GUIAS WEB HTML/Q10.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 136; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 136"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 137,
+      "name": "RAÍZ DE SHATAVARI * SCHISANDRA 1000 mg ZN",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La ficha de shatavari con schisandra prioriza bienestar y vitalidad femenina y función reproductiva.",
+      "evidence": [
+        "GUIAS WEB HTML/Raíz de Shatavari + Schisandra 1000 mg ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 137; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 137"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 138,
+      "name": "RESVERATROL 500 mg ZN",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha define resveratrol con uva, acai y vitamina C como fórmula antioxidante general, sin órgano ni objetivo energético principal.",
+      "evidence": [
+        "GUIAS WEB HTML/RESVERATROL 500 mg ZN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 138; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 138"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 139,
+      "name": "RINICHI",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "Rinichi se presenta en la ficha como mezcla de uso tradicional para vías urinarias y manejo de líquidos.",
+      "evidence": [
+        "GUIAS WEB HTML/Rinichi.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 139; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 139"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 140,
+      "name": "SÁBILA CON NOPAL Y CUACHALALATE 1L",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La mezcla líquida de sábila, nopal y cuachalalate se dirige principalmente al bienestar del estómago y la digestión.",
+      "evidence": [
+        "GUIAS WEB HTML/Sábila con Nopal y Cuachalalate 1L.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 140; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 140"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 141,
+      "name": "SDOMACHUS 500 mg",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha de SDOMACHUS prioriza confort gastrointestinal y función digestiva, aunque contenga vitaminas y minerales.",
+      "evidence": [
+        "GUIAS WEB HTML/SDOMACHUS 500 mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 141; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 141"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 142,
+      "name": "SELENIO PRONACEN",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha presenta selenio como micronutriente de aporte general y antioxidante; no está formulado específicamente para energía ni para una alteración de la tiroides.",
+      "evidence": [
+        "GUIAS WEB HTML/Selenio 90 tabs 100 mcg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 142; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 142"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 143,
+      "name": "SHILAJIT & TONGKAT ALI BLEND",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La ficha de shilajit y tongkat ali dirige la mezcla a vitalidad y bienestar masculino y reproductivo.",
+      "evidence": [
+        "GUIAS WEB HTML/Shilajit & Tongkat Ali Blend.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 143; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 143"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 144,
+      "name": "SIMILAXOL",
+      "from": "laxantes",
+      "to": "laxantes",
+      "reason": "La indicación principal declarada es facilitar la evacuación en estreñimiento ocasional. Se conserva la advertencia sobre la fórmula registrada.",
+      "evidence": [
+        "GUIAS WEB HTML/SIMILAXOL.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 144; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 144"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 145,
+      "name": "SOY LECITHIN + CHOLINE",
+      "from": "metabolismo",
+      "to": "clinico",
+      "reason": "La ficha de lecitina y colina establece función del hígado y transporte de grasas como enfoque central; jengibre e inulina son secundarios.",
+      "evidence": [
+        "GUIAS WEB HTML/SOY LECITHIN + CHOLINE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 145; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 145"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 146,
+      "name": "TÉ PIÑALIM (Infusión)",
+      "from": "laxantes",
+      "to": "digestivo",
+      "reason": "La ficha describe una infusión de piña, linaza y tés con enfoque de rutina digestiva y antioxidantes; no declara sen ni otro objetivo laxante principal que justifique catalogarla como laxante.",
+      "evidence": [
+        "GUIAS WEB HTML/Té Piñalim.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 146; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 146"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 147,
+      "name": "TIAMINA 3000 ALEXYAC",
+      "from": "nervioso",
+      "to": "metabolismo",
+      "reason": "La fórmula de B1 con Q10, cafeína y guaraná se centra en energía y vitalidad; no hay un objetivo específico de calma, sueño o memoria que justifique nervioso como principal.",
+      "evidence": [
+        "GUIAS WEB HTML/Tiamina 3000 Alexyac.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 147; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 147"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 148,
+      "name": "TO ADZEN / HIERBA DE SAPO 500 mg",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha da a la hierba del sapo un uso tradicional digestivo, además de líquidos y metabolismo. Sin una prioridad única más fuerte, se conserva digestivo y se registra el cruce.",
+      "evidence": [
+        "GUIAS WEB HTML/TO ADZEN  HIERBA DE SAPO 500 mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 148; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 148"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 149,
+      "name": "TREONATO DE MAGNESIO",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La ficha de treonato define atención, función cognitiva y bienestar neurológico como objetivo; no se agrupa por defecto con los magnesios generales.",
+      "evidence": [
+        "GUIAS WEB HTML/TREONATO DE MAGNESIO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 149; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 149"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 150,
+      "name": "TRIPTOFANO TEANINA 500 mg",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "Triptófano, teanina y azahar se presentan para relajación y descanso.",
+      "evidence": [
+        "GUIAS WEB HTML/TRIPTOFANO TEANINA 500 mg.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 150; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 150"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 151,
+      "name": "ZEN GREENS 200G",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "Las fibras, probióticos y enzimas de Zen Greens están orientados expresamente a función digestiva e intestinal.",
+      "evidence": [
+        "GUIAS WEB HTML/Zen Greens 200G.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 151; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 151"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 152,
+      "name": "ZINC CON GINGER",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de zinc con jengibre prioriza defensas y uso estacional; la digestión es un aporte secundario del jengibre.",
+      "evidence": [
+        "GUIAS WEB HTML/Zinc con Ginger.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 152; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 152"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 153,
+      "name": "ZINC",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha del zinc relaciona su aporte principalmente con defensas, además de otras funciones nutricionales.",
+      "evidence": [
+        "GUIAS WEB HTML/ZINC.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 153; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 153"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 154,
+      "name": "CALCIUM CITRATE 510 mg",
+      "from": "clinico",
+      "to": "locomotor",
+      "reason": "Calcio con vitamina D está formulado para huesos, dientes y músculos; no corresponde a clínico por ser un mineral o requerir precauciones.",
+      "evidence": [
+        "GUIAS WEB HTML/CalciumCitrate (1).html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 154; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 154"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 155,
+      "name": "HONIG ABANGREEN LIMON",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El jarabe de miel, propóleo y plantas se dirige a garganta y bienestar respiratorio.",
+      "evidence": [
+        "GUIAS WEB HTML/HONIG ABAGREEN VERDE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 155; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 155"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 156,
+      "name": "HONIG ABANGREEN AJO NEGRO",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La variante con ajo negro conserva el objetivo respiratorio y de confort de garganta.",
+      "evidence": [
+        "GUIAS WEB HTML/HONIG ABAGREEN ROJO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 156; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 156"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 157,
+      "name": "NUYO",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "NUYO combina glucosamina, MSM y nutrientes con foco articular; las funciones secundarias no desplazan esa clasificación.",
+      "evidence": [
+        "GUIAS WEB HTML/NUYO.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 157; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 157"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 158,
+      "name": "PROTEÍNA CACAO HIGH PERFORMANCE",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "La proteína vegetal High Performance está diseñada para atletas, músculo y recuperación.",
+      "evidence": [
+        "GUIAS WEB HTML/PROTEÍNA CACAO HIGH PERFORMANCE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 158; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 158"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 159,
+      "name": "VITA RX NANO FEAR",
+      "from": "deportivo",
+      "to": "deportivo",
+      "reason": "Aunque es multivitamínico, su ficha está dirigida específicamente a atletas y apoyo a su rutina de ejercicio. Se conserva deportivo por ese público y uso explícitos.",
+      "evidence": [
+        "GUIAS WEB HTML/VITA RX NANO FEAR.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 159; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 159"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 160,
+      "name": "MCT OIL BIRDMAN",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Es aceite MCT para añadir grasas y calorías a alimentos y bebidas; no es una fórmula específica de control de glucosa ni peso.",
+      "evidence": [
+        "GUIAS WEB HTML/MCT OIL BIRDMAN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 160; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 160"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 161,
+      "name": "VGREEN",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "La ficha de VGREEN describe un aporte vegetal antioxidante y bienestar cotidiano; ni el guaraná ni las plantas secundarias establecen un objetivo primario de control de peso o glucosa.",
+      "evidence": [
+        "GUIAS WEB HTML/VGREEN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 161; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 161"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 163,
+      "name": "ASHWA + MAG COMPLEX",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "Ashwagandha, teanina y magnesio están formulados para estrés y relajación, no para magnesio general.",
+      "evidence": [
+        "GUIAS WEB HTML/ASH + MAG COMPLEX.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 163; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 163"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 164,
+      "name": "ALOE VERA NOPAL CON CUACHALALATE",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La bebida de sábila, nopal y cuachalalate tiene un objetivo digestivo principal en la ficha; su vitamina C es complementaria.",
+      "evidence": [
+        "GUIAS WEB HTML/ALOE VERA NOPAL CON CUACHALALATE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 164; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 164"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 165,
+      "name": "TÉ VERDE",
+      "from": "metabolismo",
+      "to": "nutricional",
+      "reason": "Es una infusión simple de té verde para consumo cotidiano, sin mezcla dirigida a control de peso o glucosa.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ VERDE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 165; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 165"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 166,
+      "name": "D3 5000 UI",
+      "from": "clinico",
+      "to": "locomotor",
+      "reason": "La ficha de D3 prioriza absorción de calcio y mantenimiento de huesos; la concentración alta exige revisión pero no convierte la categoría en clínico.",
+      "evidence": [
+        "GUIAS WEB HTML/D3 5000 UI.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 166; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 166"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 167,
+      "name": "FIX UZEN",
+      "from": "locomotor",
+      "to": "locomotor",
+      "reason": "La ficha de FIX UZEN describe de forma expresa masaje para molestias de músculos y articulaciones.",
+      "evidence": [
+        "GUIAS WEB HTML/FIX UZEN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 167; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 167"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 168,
+      "name": "HPR PROS GREEN",
+      "from": "hormonal",
+      "to": "hormonal",
+      "reason": "La ficha de esta presentación Green Life destaca bienestar de la próstata y cuidado masculino; el aporte de omega no la convierte en un omega cardiovascular.",
+      "evidence": [
+        "GUIAS WEB HTML/HPR PROS GREEN LIFE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 168; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 168"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 169,
+      "name": "TÉ 7 AZAHARES",
+      "from": "nervioso",
+      "to": "nervioso",
+      "reason": "La mezcla de azahares se presenta para relajación y rutina de sueño; las plantas digestivas son secundarias.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ 7 AZAHARES.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 169; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 169"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 170,
+      "name": "TÉ ABANGREEN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La combinación de eucalipto, gordolobo y otras plantas se orienta a bienestar respiratorio y garganta.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ ABANGREEN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 170; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 170"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 171,
+      "name": "TÉ ÁRNICA",
+      "from": "digestivo",
+      "to": "nutricional",
+      "reason": "La ficha describe una infusión sin cafeína para bienestar general y aporte de compuestos antioxidantes. No define digestión como función principal; la categoría nutricional no avala la seguridad de beber árnica.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ ARNICA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 171; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 171"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 172,
+      "name": "TÉ CUACHALALATE",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha es general sobre el uso tradicional del cuachalalate y el catálogo lo dirige al bienestar digestivo. Se conserva ese uso específico, sin moverlo por el solo aporte antioxidante.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ CUACHALALATE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 172; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 172"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 173,
+      "name": "TÉ HOJA SEN",
+      "from": "laxantes",
+      "to": "laxantes",
+      "reason": "La hoja de sen es la fórmula de apoyo a la evacuación ocasional; no es una infusión alimentaria general.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ HOJA SEN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 173; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 173"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 174,
+      "name": "TÉ JENGIBRE CANELA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha de jengibre con canela describe uso después de comer y confort digestivo; el té verde acompaña la mezcla.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ JENGIBRE CANELA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 174; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 174"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 175,
+      "name": "TÉ JENGIBRE Y CÚRCUMA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha de jengibre y cúrcuma prioriza digestión y molestias leves después de comer.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ JENGIBRE Y CÚRCUMA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 175; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 175"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 176,
+      "name": "TÉ MANZANILLA",
+      "from": "digestivo",
+      "to": "digestivo",
+      "reason": "La ficha permite digestión y relajación; se conserva digestivo por su uso después de comer, sin cambiarla a nervioso solo por su uso nocturno opcional.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ MANZANILLA.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 176; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 176"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 177,
+      "name": "TÉ RINICHI",
+      "from": "clinico",
+      "to": "clinico",
+      "reason": "El té Rinichi se presenta para vías urinarias y líquidos, no como infusión digestiva ni un laxante.",
+      "evidence": [
+        "GUIAS WEB HTML/TÉ RINICHI.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 177; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 177"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 178,
+      "name": "QUERCETIN",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "La ficha de quercetina incluye expresamente apoyo a la función inmunológica y respuesta inflamatoria, además de antioxidantes. Se conserva ese objetivo original sin afirmar eficacia en alergias.",
+      "evidence": [
+        "GUIAS WEB HTML/QUERCETIN.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 178; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 178"
+      ],
+      "confidence": "medium",
+      "status": "keep"
+    },
+    {
+      "id": 179,
+      "name": "BACAO GREEN JARABE",
+      "from": "inmune",
+      "to": "inmune",
+      "reason": "El jarabe con vitaminas A y D y plantas se dirige a apoyo respiratorio de temporada; no es un aceite nutricional simple.",
+      "evidence": [
+        "GUIAS WEB HTML/BACAO GREEN JARABE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 179; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 179"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 180,
+      "name": "PURE INOSITOL POWDER",
+      "from": "metabolismo",
+      "to": "metabolismo",
+      "reason": "La ficha de inositol puro sitúa su función en aprovechamiento de grasas y procesos metabólicos; no define una fórmula femenina o de sueño.",
+      "evidence": [
+        "GUIAS WEB HTML/PURE INOSITOL POWDER.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 180; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 180"
+      ],
+      "confidence": "high",
+      "status": "keep"
+    },
+    {
+      "id": 181,
+      "name": "MAGNESIUM BISGLYCINATE",
+      "from": "nervioso",
+      "to": "metabolismo",
+      "reason": "Es un magnesio general para energía, músculos y nervios sin ingredientes de relajación ni un objetivo nocturno explícito.",
+      "evidence": [
+        "GUIAS WEB HTML/MAGNESIUM BISGLYCINATE.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 181; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 181"
+      ],
+      "confidence": "high",
+      "status": "change"
+    },
+    {
+      "id": 182,
+      "name": "MOROIZY GEL",
+      "from": "locomotor",
+      "to": "piel",
+      "reason": "La descripción técnica del gel prioriza cuidado de la piel y confort local; los usos circulatorio y muscular aparecen como secundarios. No equivale a la fórmula articular FIX UZEN.",
+      "evidence": [
+        "GUIAS WEB HTML/MOROIZY GEL.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 182; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 182"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    },
+    {
+      "id": 183,
+      "name": "CT-O",
+      "from": "locomotor",
+      "to": "piel",
+      "reason": "La ficha de CT-O lo describe como gel corporal para cuidado de piel y confort de piernas cansadas, no como fórmula articular principal.",
+      "evidence": [
+        "GUIAS WEB HTML/CT-O.html :: Descripción técnica del producto y propiedades de sus componentes",
+        "data/productos.js :: id 183; nombre, ingredientes, beneficios y uso",
+        "reportes/cruce-fichas-productos.csv :: producto_id 183"
+      ],
+      "confidence": "medium",
+      "status": "change"
+    }
+  ],
+  "notes": [
+    "La categoría describe la finalidad de la ficha, no confirma la eficacia clínica de ingredientes o mezclas.",
+    "Las fichas HTML originales pueden contener afirmaciones o cantidades históricas; no se modifican descripciones, ingredientes, porciones ni precauciones.",
+    "Clínico se reserva aquí para un foco cardiovascular, hepático o urinario explícito; no se utiliza por la dosis alta o por requerir valoración.",
+    "Antioxidantes generales, alimentos y bebidas simples se agrupan en nutricional. Magnesios generales en metabolismo; fórmulas de descanso en nervioso.",
+    "Té de árnica171 se clasifica como infusión de bienestar general según su ficha, sin atribuirle una indicación digestiva o articular ni cambiar las precauciones."
+  ]
+}
