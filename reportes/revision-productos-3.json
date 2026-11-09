@@ -174,7 +174,13 @@
     {
       "id": 196,
       "shortDesc": "Mezcla de plantas e inulina para acompañar el bienestar digestivo y los hábitos de alimentación.",
-      "benefitSummary": "Plantas y fibra para complementar el bienestar digestivo"
+      "benefitSummary": "Plantas y fibra para complementar el bienestar digestivo",
+      "benefits": [
+        "La inulina es fibra que sirve de alimento a bacterias del intestino",
+        "La cúrcuma tiene uso tradicional para molestias digestivas leves, como pesadez y gases",
+        "La cúrcuma y otras plantas aportan sustancias antioxidantes",
+        "Puede acompañar un plan de alimentación y actividad física"
+      ]
     },
     {
       "id": 197,
@@ -593,7 +599,14 @@
     },
     {
       "id": 270,
-      "shortDesc": "Cúrcuma y jengibre en cápsulas para acompañar el bienestar digestivo y el cuidado de las articulaciones."
+      "shortDesc": "Cúrcuma y jengibre en cápsulas de uso tradicional digestivo. La cúrcuma se usa para aliviar pesadez y gases y aporta antioxidantes que ayudan a proteger las células.",
+      "benefitSummary": "Cúrcuma y jengibre para pesadez y gases",
+      "benefits": [
+        "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
+        "También aporta antioxidantes que ayudan a proteger las células del daño diario",
+        "El jengibre tiene uso tradicional para el confort del estómago",
+        "Permite incorporar ambas raíces sin su sabor característico"
+      ]
     },
     {
       "id": 271,
@@ -776,6 +789,9 @@
     {
       "id": 273,
       "issue": "Se sustituye climaterio por menopausia. Beneficios se conservan como apoyo posible para algunas personas."
+    },
+    {
+      "review": "Ajustes posteriores de funcion propia de curcuma: reportes/revision-curcuma-2026-11-09.json"
     }
   ]
 }

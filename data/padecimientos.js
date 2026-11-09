@@ -134,7 +134,7 @@ window.manualData.padecimientos = [
         symptoms: ['Dolor punzante que se irradia desde la espalda baja hacia una pierna', 'Hormigueo o entumecimiento en la pierna o pie', 'Debilidad muscular', 'Dolor que empeora al sentarse'],
         comboPrincipal: [
             { id: 92, serving: '2-4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "El magnesio apoya los músculos; no libera un nervio comprimido ni corrige la causa de ciática." },
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "Cúrcuma y vitamina C para el cuidado de las células; no se ha establecido que esta fórmula reduzca presión sobre el nervio." },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "La curcumina se incluye por su posible ayuda con dolor y rigidez de origen articular. No libera un nervio comprimido; revisar la causa del dolor ciático." },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Las vitaminas B apoyan los nervios, sin prometer regenerarlos." }
         ],
         comboSecundario: [
@@ -173,7 +173,7 @@ window.manualData.padecimientos = [
         symptoms: ['Periodos abundantes o dolorosos', 'Presión o dolor pélvico', 'Necesidad de orinar con frecuencia', 'Dolor durante las relaciones sexuales'],
         comboPrincipal: [
             { id: 52, serving: '4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Inositoles para valorar si también hay ovario poliquístico; no eliminan quistes ni miomas." },
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "La cúrcuma contiene antioxidantes; no se ha demostrado que esta fórmula reduzca miomas." },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha demostrado que esta fórmula reduzca quistes o miomas." },
             { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "Vitamina D de dosis alta para una falta documentada; no se presenta para reducir miomas." }
         ],
         comboSecundario: [
@@ -260,7 +260,7 @@ window.manualData.padecimientos = [
             { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "La NAC ayuda a formar glutatión, que participa en el cuidado de las células." }
         ],
         comboSecundario: [
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "Cúrcuma para cuidado de las células. Revisar anticoagulantes; evitar con piedras u obstrucción de vesícula sin autorización profesional." },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "La curcumina aporta antioxidantes que ayudan a proteger las células. Revisar anticoagulantes y problemas de vesícula; no atribuirle que elimina la grasa del hígado." },
             { id: 43, serving: '2 cápsulas (1 g)', usage: 'Tomar esta porción al día con alimentos.', rationale: "Plantas de uso tradicional digestivo; no es un limpiador ni tratamiento del hígado graso." },
             { id: 77, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción una vez al día antes de las comidas principales, según la ficha técnica.', rationale: "Hercampuri de uso tradicional digestivo. Evitar con problemas de vesícula; no elimina grasa del hígado." }
         ],
@@ -500,7 +500,7 @@ window.manualData.padecimientos = [
             { id: 123, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "Omega 3 como complemento; revisar anticoagulantes y sangrado." }
         ],
         comboSecundario: [
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "Cúrcuma como alternativa al 102; no sumar por rutina porque se repite ingrediente y pueden aumentar interacciones." },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "La curcumina se estudia por su posible ayuda con dolor e inflamación articular. Es una alternativa al 102; no sumarlos por rutina ni sustituir el tratamiento de reumatología." },
             { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "NAC para formar glutatión y complementar cuidado de las células." },
             { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día solo si la porción es apropiada para sus niveles y tratamiento. Con alimentos que contengan grasas.', rationale: "Vitamina D de dosis alta solo si hay falta o indicación profesional." },
             { id: 129, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos.', rationale: "Probióticos para bienestar digestivo; no se ha demostrado que esta mezcla controle artritis." }
@@ -515,7 +515,7 @@ window.manualData.padecimientos = [
         description: "La gota puede causar dolor e hinchazón intensos en una articulación por acumulación de cristales de ácido úrico. El apoyo nutricional se elige con el profesional y no reemplaza el tratamiento de un ataque.",
         symptoms: ['Dolor intenso y repentino en una articulación (a menudo el dedo gordo del pie)', 'Hinchazón y enrojecimiento', 'Sensibilidad extrema al tacto'],
         comboPrincipal: [
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos, fuera de un ataque agudo y con revisión profesional.', rationale: "Cúrcuma para cuidado de las células; no sustituye tratar un ataque de gota." }
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos, fuera de un ataque agudo y con revisión profesional.', rationale: "La curcumina aporta antioxidantes y se estudia por su posible ayuda con molestias articulares. No baja por sí sola el ácido úrico ni sustituye el tratamiento de un ataque de gota." }
         ],
         comboSecundario: [
             { id: 47, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción al día únicamente cuando un profesional lo indique después de evaluar orina, función renal y medicamentos. Con alimentos.', rationale: "Potasio para indicaciones urinarias concretas; no baja por sí solo ácido úrico en sangre." },
@@ -988,15 +988,15 @@ window.manualData.padecimientos = [
         description: "El desgaste de las articulaciones puede causar dolor, rigidez y dificultad para moverse. Las opciones buscan acompañar el cuidado articular, junto con movimiento adaptado y el seguimiento que corresponda.",
         symptoms: ['Dolor en las articulaciones durante o después del movimiento', 'Rigidez matutina', 'Pérdida de flexibilidad', 'Sonido de "crujido" al mover la articulación'],
         comboPrincipal: [
-            { id: 102, serving: '2 cápsulas (1 g)', usage: 'Tomar 1 cápsula con el desayuno y 1 con la cena, según la ficha técnica.', rationale: "Mezcla para acompañar confort articular y movilidad; elegir según tolerancia y medicamentos." },
+            { id: 102, serving: '2 cápsulas (1 g)', usage: 'Tomar 1 cápsula con el desayuno y 1 con la cena, según la ficha técnica.', rationale: "El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular." },
             { id: 30, serving: '30 g', usage: 'Tomar esta porción al día. En ayunas o como reemplazo de comida.', rationale: "Proteína, vitaminas y omega 3 como complemento; verificar en envase unidad de vitamina D antes de recomendar." },
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con comidas.', rationale: "Cúrcuma para cuidado de las células y valorar como apoyo al confort articular." }
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con comidas.', rationale: "La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma." }
         ],
         comboSecundario: [
             { id: 125, serving: '10 g', usage: 'Tomar esta porción al día, en ayunas o entre comidas.', rationale: "Colágeno para alimentación y cuidado articular; no regenera cartílago por sí solo." },
             { id: 18, serving: '15 g (1 cuchara)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Colágeno y ácido hialurónico para complementar cuidado de piel y articulaciones." },
             { id: 31, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Glucosamina, condroitina y MSM para cuidado articular; no prometer reparación de cartílago." },
-            { id: 157, serving: '1 cápsula', usage: 'Tomar esta porción al día. Después de las comidas.', rationale: "Glucosamina, cúrcuma y nutrientes para complementar cuidado de articulaciones, huesos y músculos." },
+            { id: 157, serving: '1 cápsula', usage: 'Tomar esta porción al día. Después de las comidas.', rationale: "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con molestias articulares. La vitamina C ayuda a formar colágeno y el calcio y magnesio apoyan huesos y músculos." },
             { id: 183, serving: 'Una aplicación (capa fina)', usage: 'Aplicar una capa fina en la zona afectada 2-3 veces al día.', rationale: "Gel para masaje y confort local; no sustituye valorar causa del dolor ni cuidado de articulación." }
         ],
         lifestyleTips: ['Mantener un peso saludable.', 'Ejercicios de bajo impacto como natación o ciclismo.', 'Aplicar calor o frío para aliviar el dolor.', 'Consumir TÉ JENGIBRE Y CÚRCUMA.', 'Aplicar FIX UZEN.', 'Otras opciones articulares de la tienda: CARTÍLAGO PRONAT y MOROIZY / MOROIZY GEL.']
@@ -1120,7 +1120,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 92, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "El magnesio apoya funcionamiento normal de nervios y músculos." },
-            { id: 12, serving: '1 cápsula', usage: 'Tomar esta porción dos veces al día. Con alimentos que contengan grasas.', rationale: "Cúrcuma, jengibre y moringa para alimentación y cuidado de las células." },
+            { id: 12, serving: '1 cápsula', usage: 'Tomar esta porción dos veces al día. Con alimentos que contengan grasas.', rationale: "La cúrcuma aporta antioxidantes y tiene uso tradicional digestivo. No atribuir a esta mezcla alivio del dolor de nervios ni reparación del nervio." },
             { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción diarias. Con alimentos.', rationale: "La melena de león se estudia para bienestar mental; no se ha confirmado que esta fórmula regenere nervios." },
             { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula repare daño de nervios." }
         ],
@@ -1140,7 +1140,7 @@ window.manualData.padecimientos = [
         comboPrincipal: [
             { id: 187, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Calostro y plantas sin beneficio demostrado para cáncer. Contiene fo-ti y necesita revisión del equipo tratante por posibles problemas del hígado e interacciones." },
             { id: 124, serving: '2 tabletas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Hongos y plantas sin beneficio demostrado para tratar cáncer; revisar todos los ingredientes con equipo tratante." },
-            { id: 54, serving: '3-6 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "Cúrcuma como complemento solo con aprobación del equipo tratante; puede interferir con medicamentos y no trata cáncer." },
+            { id: 54, serving: '3-6 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "La curcumina aporta antioxidantes. Durante el tratamiento del cáncer, valorar su uso solo con el equipo de oncología porque puede interferir con medicamentos; no se presenta como tratamiento del cáncer." },
             { id: 66, serving: '56 ml', usage: 'Considerar únicamente con autorización expresa del oncólogo. Seguir la ficha técnica y no usar durante quimioterapia o radioterapia sin revisión de posibles interacciones.', rationale: "Plantas de uso tradicional sin beneficio específico confirmado durante tratamiento de cáncer; necesitan revisión del equipo tratante." }
         ],
         comboSecundario: [
@@ -1166,7 +1166,7 @@ window.manualData.padecimientos = [
             { id: 123, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día. Con un desayuno que contenga grasas.', rationale: "Omega 3 como complemento nutricional; no reemplaza tratamiento de piel." }
         ],
         comboSecundario: [
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "Cúrcuma como alternativa al 102 sin duplicar ingredientes; no se ha confirmado beneficio de esta fórmula para estas enfermedades de piel." },
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha confirmado que esta fórmula mejore psoriasis o vitiligo; no combinarla por rutina con el 102." },
             { id: 129, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Probióticos para equilibrio intestinal; no se ha establecido que esta mezcla controle enfermedad de piel." },
             { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "El zinc contribuye al mantenimiento normal de piel si se cubren necesidades." }
         ],
@@ -1482,7 +1482,7 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 123, serving: '3 cápsulas', usage: 'Tomar con el desayuno según la ficha, solo tras revisar alergia al pescado y medicamentos que aumentan el sangrado.', rationale: "Omega 3 como complemento opcional; beneficio para cólicos variable y sin alivio inmediato garantizado." },
             { id: 92, serving: '2 cápsulas', usage: 'Tomar con alimentos solo si existe ingesta insuficiente o indicación profesional; revisar enfermedad renal y otros suplementos de magnesio.', rationale: "Magnesio para músculos y nervios si se necesita; sin beneficio suficiente para ser tratamiento principal de cólicos." },
-            { id: 54, serving: '3 cápsulas', usage: 'Tomar con alimentos únicamente después de revisar anticoagulantes, trastornos de coagulación y problemas biliares.', rationale: "Cúrcuma con resultados iniciales variables; esta mezcla no se ha confirmado para aliviar cólicos." }
+            { id: 54, serving: '3 cápsulas', usage: 'Tomar con alimentos únicamente después de revisar anticoagulantes, trastornos de coagulación y problemas biliares.', rationale: "La curcumina se estudia por su posible ayuda con inflamación y dolor menstrual, pero los resultados son variables y esta mezcla no tiene un efecto confirmado para aliviar cólicos." }
         ],
         lifestyleTips: ['Usar calor local y registrar intensidad, duración y relación del dolor con el ciclo.', 'Consultar sobre analgésicos antiinflamatorios y otras opciones habituales si el dolor limita actividades.', 'Buscar valoración si el dolor empieza por primera vez después de años de ciclos sin dolor, empeora, aparece fuera del periodo o se acompaña de sangrado abundante.', 'No sumar jengibre, cúrcuma y omega-3 sin revisar riesgo de sangrado y medicamentos.', 'Distinguir esta guía del síndrome premenstrual, que suele empezar antes del sangrado y puede incluir síntomas físicos y emocionales.'],
         advisorQuestions: ['¿Desde cuándo hay dolor y ocurre solo durante la menstruación?', '¿El dolor empeora, incapacita o aparece fuera del periodo?', '¿Hay sangrado muy abundante, fiebre, dolor durante relaciones sexuales o posibilidad de embarazo?', '¿Qué analgésicos, anticonceptivos o tratamientos indicó ginecología?', '¿Toma anticoagulantes o tiene gastritis, enfermedad biliar o alergia al pescado?']

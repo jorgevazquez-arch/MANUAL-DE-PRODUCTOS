@@ -178,7 +178,14 @@
     },
     {
       "id": 102,
-      "shortDesc": "Combina colágeno tipo II, cúrcuma, boswellia y vitamina C para complementar el cuidado de las articulaciones y la movilidad."
+      "shortDesc": "Fórmula para articulaciones con colágeno tipo II y boswellia. El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez, y la vitamina C ayuda a formar colágeno.",
+      "benefits": [
+        "Su enfoque principal es el confort de las articulaciones",
+        "Puede acompañar una rutina para conservar la movilidad",
+        "La vitamina C contribuye a formar colágeno",
+        "Combina colágeno tipo II y ácido hialurónico",
+        "El extracto de cúrcuma se incluye por su posible ayuda para disminuir el dolor y la rigidez articular"
+      ]
     },
     {
       "id": 103,
@@ -501,7 +508,8 @@
         "La fibra complementa la alimentación",
         "Parte de la fibra sirve de alimento a bacterias del intestino",
         "Los probióticos complementan el equilibrio intestinal",
-        "Las enzimas ayudan a digerir los alimentos"
+        "Las enzimas ayudan a digerir los alimentos",
+        "La cúrcuma aporta antioxidantes y tiene uso tradicional para molestias leves como pesadez y gases"
       ]
     },
     {
@@ -528,7 +536,14 @@
     },
     {
       "id": 157,
-      "shortDesc": "Glucosamina, MSM y cúrcuma con vitaminas y minerales para complementar el cuidado de las articulaciones, los huesos y los músculos."
+      "shortDesc": "Glucosamina y MSM para el cuidado articular, con vitaminas y minerales para huesos y músculos. La cúrcuma aporta antioxidantes y se incorpora por su posible ayuda con las molestias de las articulaciones.",
+      "benefits": [
+        "Su enfoque principal es el cuidado de las articulaciones",
+        "La vitamina C contribuye a formar colágeno",
+        "El calcio y el magnesio apoyan huesos y músculos",
+        "Las vitaminas B participan en el uso de la energía",
+        "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con las molestias articulares"
+      ]
     },
     {
       "id": 158,
@@ -639,7 +654,14 @@
     },
     {
       "id": 175,
-      "shortDesc": "Infusión de jengibre y cúrcuma, ingredientes de uso tradicional digestivo, para disfrutar después de comer."
+      "shortDesc": "Infusión de jengibre y cúrcuma de uso tradicional para molestias digestivas leves. La cúrcuma se usa para aliviar pesadez y gases después de comer.",
+      "benefitSummary": "Infusión para pesadez y gases después de comer",
+      "benefits": [
+        "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
+        "El jengibre tiene uso tradicional para el confort del estómago",
+        "Ofrece una bebida cálida para después de comer",
+        "Es una alternativa sin cafeína según la ficha"
+      ]
     },
     {
       "id": 176,
@@ -714,6 +736,9 @@
       "id": 104,
       "issue": "Revisión final por código: mezcla con cúrcuma/jengibre/canela de otra presentación. Se retiran beneficios específicos de la mezcla hasta confirmar etiqueta.",
       "source": "https://www.zennatura.mx/products/vinagre-de-sidra-de-manzana-500mg"
+    },
+    {
+      "review": "Ajustes posteriores de funcion propia de curcuma: reportes/revision-curcuma-2026-11-09.json"
     }
   ]
 }

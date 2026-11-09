@@ -345,7 +345,7 @@
       "guideId": "ciatica",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "Cúrcuma y vitamina C para el cuidado de las células; no se ha establecido que esta fórmula reduzca presión sobre el nervio."
+      "rationale": "La curcumina se incluye por su posible ayuda con dolor y rigidez de origen articular. No libera un nervio comprimido; revisar la causa del dolor ciático."
     },
     {
       "guideId": "ciatica",
@@ -423,7 +423,7 @@
       "guideId": "quistes_miomas",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "La cúrcuma contiene antioxidantes; no se ha demostrado que esta fórmula reduzca miomas."
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha demostrado que esta fórmula reduzca quistes o miomas."
     },
     {
       "guideId": "quistes_miomas",
@@ -585,7 +585,7 @@
       "guideId": "higado_graso",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "Cúrcuma para cuidado de las células. Revisar anticoagulantes; evitar con piedras u obstrucción de vesícula sin autorización profesional."
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. Revisar anticoagulantes y problemas de vesícula; no atribuirle que elimina la grasa del hígado."
     },
     {
       "guideId": "higado_graso",
@@ -1053,7 +1053,7 @@
       "guideId": "artritis_reumatoide",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "Cúrcuma como alternativa al 102; no sumar por rutina porque se repite ingrediente y pueden aumentar interacciones."
+      "rationale": "La curcumina se estudia por su posible ayuda con dolor e inflamación articular. Es una alternativa al 102; no sumarlos por rutina ni sustituir el tratamiento de reumatología."
     },
     {
       "guideId": "artritis_reumatoide",
@@ -1077,7 +1077,7 @@
       "guideId": "acido_urico",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "Cúrcuma para cuidado de las células; no sustituye tratar un ataque de gota."
+      "rationale": "La curcumina aporta antioxidantes y se estudia por su posible ayuda con molestias articulares. No baja por sí sola el ácido úrico ni sustituye el tratamiento de un ataque de gota."
     },
     {
       "guideId": "acido_urico",
@@ -2001,7 +2001,7 @@
       "guideId": "desgaste_articular",
       "productId": 102,
       "group": "comboPrincipal",
-      "rationale": "Mezcla para acompañar confort articular y movilidad; elegir según tolerancia y medicamentos."
+      "rationale": "El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular."
     },
     {
       "guideId": "desgaste_articular",
@@ -2013,7 +2013,7 @@
       "guideId": "desgaste_articular",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "Cúrcuma para cuidado de las células y valorar como apoyo al confort articular."
+      "rationale": "La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma."
     },
     {
       "guideId": "desgaste_articular",
@@ -2037,7 +2037,7 @@
       "guideId": "desgaste_articular",
       "productId": 157,
       "group": "comboSecundario",
-      "rationale": "Glucosamina, cúrcuma y nutrientes para complementar cuidado de articulaciones, huesos y músculos."
+      "rationale": "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con molestias articulares. La vitamina C ayuda a formar colágeno y el calcio y magnesio apoyan huesos y músculos."
     },
     {
       "guideId": "desgaste_articular",
@@ -2265,7 +2265,7 @@
       "guideId": "neuropatia_periferica",
       "productId": 12,
       "group": "comboSecundario",
-      "rationale": "Cúrcuma, jengibre y moringa para alimentación y cuidado de las células."
+      "rationale": "La cúrcuma aporta antioxidantes y tiene uso tradicional digestivo. No atribuir a esta mezcla alivio del dolor de nervios ni reparación del nervio."
     },
     {
       "guideId": "neuropatia_periferica",
@@ -2295,7 +2295,7 @@
       "guideId": "cancer_apoyo",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "Cúrcuma como complemento solo con aprobación del equipo tratante; puede interferir con medicamentos y no trata cáncer."
+      "rationale": "La curcumina aporta antioxidantes. Durante el tratamiento del cáncer, valorar su uso solo con el equipo de oncología porque puede interferir con medicamentos; no se presenta como tratamiento del cáncer."
     },
     {
       "guideId": "cancer_apoyo",
@@ -2361,7 +2361,7 @@
       "guideId": "psoriasis_vitiligo",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "Cúrcuma como alternativa al 102 sin duplicar ingredientes; no se ha confirmado beneficio de esta fórmula para estas enfermedades de piel."
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha confirmado que esta fórmula mejore psoriasis o vitiligo; no combinarla por rutina con el 102."
     },
     {
       "guideId": "psoriasis_vitiligo",
@@ -2955,7 +2955,7 @@
       "guideId": "dismenorrea",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "Cúrcuma con resultados iniciales variables; esta mezcla no se ha confirmado para aliviar cólicos."
+      "rationale": "La curcumina se estudia por su posible ayuda con inflamación y dolor menstrual, pero los resultados son variables y esta mezcla no tiene un efecto confirmado para aliviar cólicos."
     },
     {
       "guideId": "diarrea_antibioticos",
@@ -3009,6 +3009,7 @@
     "NUYO 157 solo se describe por cuidado articular, huesos y músculos; no se atribuye cognición.",
     "Té RINICHI no debe sumarse a cápsulas con las mismas plantas sin revisión de duplicación.",
     "No se modifican IDs, grupos, porciones, instrucciones de uso ni descripciones de padecimientos.",
-    "Integración final: D3 55 se explica como primera opción de marca; se actualiza la razón de 104 por discrepancia de fórmula. Se mueve el objeto completo 132 a principales y196 a adicionales en control_peso;170 a principales y188 a adicionales en tos_irritacion_garganta. Las dosis se conservan. La instrucción de55 se adapta a prioridad propia y conserva revisión de alergia y medicamentos."
+    "Integración final: D3 55 se explica como primera opción de marca; se actualiza la razón de 104 por discrepancia de fórmula. Se mueve el objeto completo 132 a principales y196 a adicionales en control_peso;170 a principales y188 a adicionales en tos_irritacion_garganta. Las dosis se conservan. La instrucción de55 se adapta a prioridad propia y conserva revisión de alergia y medicamentos.",
+    "Explicacion de funcion propia de curcuma actualizada: reportes/revision-curcuma-2026-11-09.json"
   ]
 }

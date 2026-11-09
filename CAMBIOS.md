@@ -1,5 +1,11 @@
 # Cambios del manual de El Girasol
 
+## Función propia de cúrcuma y curcumina — 9 de noviembre de 2026
+
+- Se revisaron las doce fórmulas con cúrcuma y se ajustaron once, incluidas NUYO y UC-II. Se explica la función del ingrediente en vez de decir que «complementa la fórmula».
+- Se distingue el uso digestivo tradicional de raíz e infusiones, el aporte antioxidante y la posible ayuda con dolor y rigidez de los extractos estudiados. El producto 104 sigue pendiente de confirmar su etiqueta por discrepancia de fórmula.
+- Se actualizaron doce explicaciones de guías y la nota de UC-II. Criterio, cambios por producto y fuentes: `reportes/revision-curcuma-2026-11-09.json`.
+
 ## Revisión completa de contenido y prioridad Zennatura — 9 de noviembre de 2026
 
 - Se revisaron individualmente los 271 productos con tres subagentes y una segunda lectura del catálogo integrado. Se simplificaron las 271 descripciones, 87 frases de repaso y 119 listas de beneficios; se conservaron los beneficios ya claros y coherentes.

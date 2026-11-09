@@ -156,21 +156,36 @@
     },
     {
       "id": 11,
-      "shortDesc": "Cúrcuma en polvo para añadir a comidas o bebidas. Tiene uso tradicional digestivo y contiene compuestos que ayudan al cuidado de las células."
+      "shortDesc": "Cúrcuma en polvo de uso tradicional para aliviar la pesadez y los gases después de comer. También aporta antioxidantes, sustancias que ayudan a proteger las células del daño diario.",
+      "benefitSummary": "Cúrcuma para pesadez digestiva y aporte antioxidante",
+      "benefits": [
+        "La cúrcuma tiene uso tradicional para aliviar la pesadez después de comer",
+        "También se usa tradicionalmente para molestias digestivas leves como los gases",
+        "Aporta antioxidantes que ayudan a proteger las células del daño diario",
+        "Se puede incorporar a comidas o preparar como bebida"
+      ]
     },
     {
       "id": 12,
-      "shortDesc": "Cúrcuma, jengibre y moringa en cápsulas para acompañar el bienestar digestivo y complementar el cuidado de las células.",
+      "shortDesc": "La cúrcuma y el jengibre tienen uso tradicional para molestias digestivas leves, como pesadez y gases. La moringa añade compuestos vegetales antioxidantes.",
       "benefitSummary": "Cúrcuma y jengibre para bienestar digestivo",
       "benefits": [
+        "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
+        "La cúrcuma también aporta antioxidantes que ayudan a proteger las células",
         "El jengibre tiene uso tradicional para el confort del estómago",
-        "La cúrcuma contiene compuestos que ayudan al cuidado de las células",
-        "Combina tres ingredientes vegetales sin tener que prepararlos"
+        "La moringa aporta otros compuestos vegetales antioxidantes"
       ]
     },
     {
       "id": 13,
-      "shortDesc": "Cúrcuma en cápsulas para complementar el cuidado de las articulaciones y el bienestar digestivo, desde su uso tradicional."
+      "shortDesc": "Raíz de cúrcuma en cápsulas, de uso tradicional para aliviar pesadez y gases después de comer. Aporta antioxidantes que ayudan a proteger las células.",
+      "benefitSummary": "Cúrcuma para pesadez digestiva y aporte antioxidante",
+      "benefits": [
+        "Tiene uso tradicional para aliviar la pesadez después de comer",
+        "También se usa tradicionalmente ante gases y digestión lenta",
+        "Aporta antioxidantes que ayudan a proteger las células del daño diario",
+        "Permite tomar la raíz en polvo sin preparar una bebida"
+      ]
     },
     {
       "id": 14,
@@ -451,12 +466,14 @@
     },
     {
       "id": 54,
-      "shortDesc": "Extracto de cúrcuma con vitamina C y pimienta negra para complementar el cuidado de las articulaciones y de las células.",
+      "shortDesc": "Extracto concentrado de cúrcuma que puede ayudar a disminuir el dolor y la rigidez en articulaciones con desgaste. Incluye vitamina C para formar colágeno y pimienta negra en la fórmula.",
       "benefits": [
-        "Contiene compuestos de la cúrcuma para complementar el cuidado de las células",
-        "Puede acompañar el bienestar de las articulaciones",
+        "La curcumina puede ayudar a disminuir el dolor y la rigidez de las articulaciones con desgaste",
+        "Puede facilitar el movimiento cuando esas molestias limitan las actividades",
+        "Aporta antioxidantes que ayudan a proteger las células del daño diario",
         "La vitamina C ayuda a formar colágeno para los tejidos"
-      ]
+      ],
+      "benefitSummary": "Curcumina: posible ayuda para dolor y rigidez articular"
     },
     {
       "id": 55,
@@ -641,8 +658,8 @@
       "shortDesc": "Mezcla de plantas con zinc y selenio para complementar el cuidado de la próstata y las vías urinarias masculinas.",
       "benefits": [
         "Sus plantas se utilizan como complemento del cuidado urinario masculino",
-        "El zinc contribuye a funciones normales del cuerpo",
-        "El zinc y el selenio ayudan al cuidado de las células"
+        "La cúrcuma aporta antioxidantes que ayudan a proteger las células del daño diario",
+        "El zinc y el selenio también participan en la protección de las células"
       ]
     },
     {
@@ -787,6 +804,9 @@
       "id": 86,
       "issue": "Revisión final: tienda oficial identifica betacaroteno y catálogo luteína/zeaxantina para el mismo código. No se atribuyen beneficios de ingredientes concretos hasta confirmar etiqueta.",
       "source": "https://www.zennatura.mx/products/betacaroteno-500mg"
+    },
+    {
+      "review": "Ajustes posteriores de funcion propia de curcuma: reportes/revision-curcuma-2026-11-09.json"
     }
   ]
 }
