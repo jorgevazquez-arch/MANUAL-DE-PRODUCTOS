@@ -131,6 +131,7 @@
         });
     });
     const aliases = {
+        indigestion: ['indigestión', 'dispepsia', 'empacho', 'mala digestión', 'digestión lenta', 'digestión pesada', 'pesadez después de comer', 'me cayó pesada la comida', 'llenura después de comer'],
         resistencia_insulina: ['prediabetes', 'pre diabetes', 'resistencia a la insulina', 'glucosa elevada'],
         diabetes_tipo2: ['diabetes tipo 2', 'diabetes tipo ii', 'diabetes 2'],
         somp: ['sop', 'ovario poliquistico', 'ovarios poliquisticos', 'sindrome de ovario poliquistico'],

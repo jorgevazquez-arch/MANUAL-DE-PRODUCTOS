@@ -1,5 +1,12 @@
 # Cambios del manual de El Girasol
 
+## Nueva guía de indigestión — 9 de noviembre de 2026
+
+- Se agrega «Indigestión y Pesadez Después de Comer» al grupo digestivo: el manual pasa a 76 guías.
+- Se encuentra también por empacho, dispepsia, mala digestión, digestión lenta y pesadez después de comer.
+- Incluye opciones Zennatura con su función, porción y condiciones de uso: ENDIS, SDOMACHUS, vinagre de sidra de 90 cápsulas y té de jengibre con cúrcuma. También incluye preguntas para el asesor y hábitos sencillos.
+- Fuentes y criterio: `reportes/guia-indigestion-2026-11-09.md`.
+
 ## Vinagre de sidra de manzana de 90 cápsulas — 9 de noviembre de 2026
 
 - Se identifica expresamente la presentación de 90 cápsulas con cúrcuma, jengibre, canela y pimienta negra y se corrige su código a 7503026253090, confirmado en la tienda. Se conservan ingredientes y porción de 3 cápsulas.

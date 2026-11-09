@@ -189,6 +189,27 @@ window.manualData.padecimientos = [
     //  🟢 VERDE: Sistema Digestivo y Hepático
     // ================================================================
     {
+        id: 'indigestion',
+        name: 'Indigestión y Pesadez Después de Comer',
+        emoji: '🍽️',
+        color: 'green',
+        primaryOptionsLabel: 'Opciones Zennatura según la molestia',
+        minimumUniqueProducts: 4,
+        description: 'La indigestión puede sentirse como pesadez, llenura con poca comida, gases o molestia en la parte alta del estómago. Primero se revisan las comidas y cuándo aparecen las molestias; después se elige una opción de apoyo digestivo. Si se repite o no mejora, hay que revisar la causa.',
+        symptoms: ['Pesadez después de comer', 'Llenarse muy pronto al comer', 'Sensación de llenura incómoda', 'Gases, eructos o abdomen hinchado', 'Molestia en la parte alta del estómago', 'Náusea leve después de comer'],
+        comboPrincipal: [
+            { id: 60, serving: '2 cápsulas', usage: 'Antes de las comidas principales, según la ficha. Revisar alergia a papaya, piña o menta y medicamentos para evitar coágulos.', rationale: 'ENDIS aporta enzimas que ayudan a descomponer proteínas, grasas y otros alimentos. Es una opción para valorar ante comidas pesadas; no toda indigestión se debe a falta de enzimas.' },
+            { id: 141, serving: '2 cápsulas (2 g)', usage: 'Tomar esta porción al día con alimentos, según la ficha. Revisar los medicamentos y suspender si causa diarrea o más molestias.', rationale: 'El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago. Esta mezcla también contiene sábila, que puede aflojar las evacuaciones; elegir según tolerancia.' }
+        ],
+        comboSecundario: [
+            { id: 104, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción una vez al día con alimentos, según la ficha. Evitar si hay úlcera o reflujo severo; si predomina ardor, revisar primero la causa. Consultar si toma medicamentos para azúcar, presión o coagulación.', rationale: 'La fórmula de 90 cápsulas contiene cúrcuma y jengibre de uso tradicional para pesadez y gases. El vinagre puede irritar a algunas personas; no elegirlo por rutina si hay acidez.' },
+            { id: 175, serving: '1 sobre (2 g) / 1 taza al día', usage: 'Preparar en 200 ml de agua caliente, dejar de 3 a 5 minutos y tomar preferentemente después de comer, según la ficha.', rationale: 'Jengibre y cúrcuma en infusión, de uso tradicional para molestias digestivas leves como pesadez y gases. Es otra forma de elegir esas plantas, sin sumar de rutina varias fórmulas con los mismos ingredientes.' }
+        ],
+        safetyNote: 'Si hay dolor fuerte o continuo, vómitos frecuentes, sangre al vomitar, evacuaciones negras, dificultad para tragar o pérdida de peso sin buscarla, solicitar valoración. Dolor de pecho o falta de aire requieren atención inmediata; no asumir que es empacho.',
+        lifestyleTips: ['Comer despacio y probar porciones más pequeñas.', 'Identificar qué comidas o bebidas empeoran las molestias y ajustar esas cantidades.', 'Revisar si las molestias comenzaron con un medicamento; no suspenderlo por cuenta propia.', 'Elegir una opción de apoyo y observar tolerancia, sin tomar todos los productos de la guía.', 'Si la molestia se repite o no mejora, consultar para identificar la causa.'],
+        advisorQuestions: ['¿Qué siente: pesadez, llenura, gases o ardor?', '¿Desde cuándo ocurre y con qué comidas empeora?', '¿Se llena con poca comida o tiene vómitos frecuentes?', '¿Hay dolor fuerte, sangre, evacuaciones negras, dificultad para tragar o pérdida de peso?', '¿Tiene reflujo, úlcera, alergia a papaya o piña, o toma medicamentos?']
+    },
+    {
         id: 'gastritis_ulcera',
         name: 'Gastritis y Úlcera Gástrica',
         emoji: '🌿',

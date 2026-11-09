@@ -70,6 +70,18 @@ test('síntomas y guías devuelven sus productos relacionados', () => {
         }
     }
 });
+
+test('indigestión y sus expresiones habituales encuentran la guía y sus opciones', () => {
+    const expected = [60, 104, 141, 175];
+    for (const query of ['indigestion', 'INDIGESTIÓN', 'dispepsia', 'empacho', 'mala digestión', 'digestión lenta', 'digestión pesada', 'pesadez después de comer', 'me cayó pesada la comida']) {
+        const guides = search.getGuides(padecimientos, productos, query);
+        assert(guides.some(guide => guide.id === 'indigestion'), query);
+        const ids = new Set(find(query).map(product => product.id));
+        for (const id of expected) assert(ids.has(id), `${query}: ${id}`);
+    }
+    assert(search.getGuides(padecimientos, productos, 'acidez').some(guide => guide.id === 'erge_acidez'));
+    assert(search.getGuides(padecimientos, productos, 'gastritis').some(guide => guide.id === 'gastritis_ulcera'));
+});
 test('códigos completos y parciales encuentran todos los productos registrados', () => {
     for (const product of productos.filter(product => product.code)) {
         assert(find(String(product.code)).some(result => result.id === product.id), product.name);

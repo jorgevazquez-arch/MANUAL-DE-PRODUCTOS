@@ -74,7 +74,8 @@
     "deficiencia_magnesio",
     "dismenorrea",
     "diarrea_antibioticos",
-    "deficiencia_vitamina_d"
+    "deficiencia_vitamina_d",
+    "indigestion"
   ],
   "changes": [
     {
@@ -2998,6 +2999,30 @@
       "productId": 166,
       "group": "comboSecundario",
       "rationale": "Vitamina D3 de 5000 UI para necesidad identificada; frecuencia y duración requieren valoración y seguimiento."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 60,
+      "group": "comboPrincipal",
+      "rationale": "ENDIS aporta enzimas que ayudan a descomponer proteínas, grasas y otros alimentos. Es una opción para valorar ante comidas pesadas; no toda indigestión se debe a falta de enzimas."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 141,
+      "group": "comboPrincipal",
+      "rationale": "El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago. Esta mezcla también contiene sábila, que puede aflojar las evacuaciones; elegir según tolerancia."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "La fórmula de 90 cápsulas contiene cúrcuma y jengibre de uso tradicional para pesadez y gases. El vinagre puede irritar a algunas personas; no elegirlo por rutina si hay acidez."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 175,
+      "group": "comboSecundario",
+      "rationale": "Jengibre y cúrcuma en infusión, de uso tradicional para molestias digestivas leves como pesadez y gases. Es otra forma de elegir esas plantas, sin sumar de rutina varias fórmulas con los mismos ingredientes."
     }
   ],
   "notes": [
@@ -3011,6 +3036,7 @@
     "No se modifican IDs, grupos, porciones, instrucciones de uso ni descripciones de padecimientos.",
     "Integración final: D3 55 se explica como primera opción de marca; se actualiza la razón de 104 por discrepancia de fórmula. Se mueve el objeto completo 132 a principales y196 a adicionales en control_peso;170 a principales y188 a adicionales en tos_irritacion_garganta. Las dosis se conservan. La instrucción de55 se adapta a prioridad propia y conserva revisión de alergia y medicamentos.",
     "Explicacion de funcion propia de curcuma actualizada: reportes/revision-curcuma-2026-11-09.json",
-    "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente."
+    "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente.",
+    "Nueva guia indigestion, cuatro opciones: reportes/guia-indigestion-2026-11-09.md."
   ]
 }
