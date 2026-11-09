@@ -143,11 +143,7 @@
         deficiencia_magnesio: ['falta de magnesio', 'magnesio bajo'],
         deficiencia_vitamina_d: ['falta de vitamina d', 'vitamina d baja']
     };
-    const normalize = (value) => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[-_]/g, ' ').replace(/\s+/g, ' ').trim();
-    const guideMatches = (guide, query) => {
-        const term = normalize(query);
-        return Boolean(term) && [guide.name, ...(guide.searchAliases || [])].some(value => normalize(value).includes(term));
-    };
+    const guideMatches = (guide, query) => window.manualSearch.guideNameMatches(guide, query);
     padecimientos.forEach(guide => { guide.searchAliases = aliases[guide.id] || []; });
     productos.forEach(product => {
         product.searchAliases = product.id === 93 ? ['magnesium dual am', 'magnesio dual am']

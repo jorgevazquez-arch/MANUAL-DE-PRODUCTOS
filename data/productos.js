@@ -3983,7 +3983,7 @@ window.manualData.productos = [
     benefitSummary: "Cuidado articular y nutrición para el movimiento",
     category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-NUYO-RENDER-V3-AGOSTO2026.jpeg",
-    shortDesc: "Suplemento alimenticio integral con glucosamina, MSM, cúrcuma, nogal, vitaminas y minerales, diseñado para apoyar la salud articular, la función cognitiva y el equilibrio metabólico.",
+    shortDesc: "Suplemento alimenticio con glucosamina, MSM, cúrcuma, nogal, vitaminas y minerales para complementar el cuidado articular y la nutrición para el movimiento.",
     ingredients: "Metilsulfonilmetano (MSM) (125 mg), glucosamina (100 mg), cúrcuma (Curcuma longa) (100 mg), nogal (Juglans regia) (50 mg), vitamina C (30 mg), calcio (40 mg), magnesio (30 mg), vitamina B2 (riboflavina) (2 mg), vitamina B6 (piridoxina) (2 mg), zinc (10 mg), hierro (5 mg), potasio (5 mg), vitamina B12 (cianocobalamina) (100 µg), fósforo (0.9 mg).",
     serving: "1 cápsula al día",
     timing: "Después de los alimentos",

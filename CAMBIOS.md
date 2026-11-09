@@ -1,5 +1,21 @@
 # Cambios del manual de El Girasol
 
+## Publicación de búsqueda y corrección de NUYO — 9 de noviembre de 2026
+
+- Se incluyen el motor compartido `js/search.js` y sus pruebas, pendientes de incorporar al repositorio junto con la integración del buscador.
+- Se verificó en Chromium, en escritorio (1440 × 1000) y móvil (390 × 844), que «vitamina C» devuelve 48 productos y permite abrir la ficha de VITAMINA C-1000 NOW.
+- Se retiraron de la descripción de NUYO las afirmaciones de función cognitiva y equilibrio metabólico; la descripción se centra en su composición y cuidado articular. Se actualizó la versión del archivo de productos para renovar la caché.
+
+## Correcciones de búsqueda — 6 de noviembre de 2026
+
+- Los nombres de productos tienen prioridad y las guías ya no sustituyen coincidencias directas.
+- Se unificó la búsqueda de productos, ingredientes, beneficios, guías y síntomas. Reconoce acentos, signos, espacios, palabras en distinto orden y formatos como B12/B-12 o 500mg/500 mg.
+- Se evitaron coincidencias de letras y números cortos dentro de otras palabras, como confundir vitamina C con calcio.
+- Se corrigieron la restauración de filtros y pestañas, la navegación al no encontrar resultados y el catálogo al entrar a una guía desde el menú.
+- El escáner espera si un código registrado todavía puede completarse con más dígitos; Enter permite confirmar el código exacto.
+- Se agregaron pruebas para los 271 productos, todas las guías y alias y todos los códigos registrados. Ejecutar con `node --test tests/search.cjs`.
+- Se verificaron apertura de fichas, filtros, pestañas, limpieza, búsquedas sin resultados y lectura de códigos en vistas de escritorio y móvil.
+
 Actualizado al 18 de septiembre de 2026.
 
 Resumen de los cambios publicados desde la primera versión del 16 de julio de 2026. Los ajustes repetidos se agrupan para facilitar la lectura. Las primeras actualizaciones tienen mensajes genéricos en GitHub, por lo que se resumen sin atribuirles detalles que no quedaron documentados.

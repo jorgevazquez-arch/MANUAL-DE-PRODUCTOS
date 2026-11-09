@@ -3,16 +3,7 @@
         let matchingSearchProductIds = new Set();
         let directSearchProductIds = new Set();
         function getSearchGuides(query) {
-            const term = normalizeGuideSearch(query);
-            if (!term) return [];
-            const namedGuides = padecimientos.filter(guide => window.manualAdvisor.guideMatches(guide, term));
-            if (namedGuides.length) return namedGuides;
-            const symptomText = value => normalizeGuideSearch(value).replace(/\barticul\w*/g, 'articul');
-            const words = symptomText(term).split(' ').filter(word => !['de', 'del', 'en', 'el', 'la', 'los', 'las', 'y', 'o', 'al'].includes(word));
-            return padecimientos.filter(guide => words.length > 0 && (guide.symptoms || []).some(symptom => {
-                    const text = symptomText(symptom);
-                    return words.every(word => text.includes(word));
-                }));
+            return window.manualSearch.getGuides(padecimientos, productos, query);
         }
         const reducedManualMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
         const manualEntranceAnimations = new Map();
@@ -51,7 +42,7 @@
         };
 
         function updateManualView() {
-            const searching = searchInput.value.trim() !== '';
+            const searching = normalizeGuideSearch(searchInput.value) !== '';
             const guideFirst = getSearchGuides(searchInput.value).length > 0;
             const guideSection = document.getElementById('padecimientosGuideWeb');
             const productSection = document.getElementById('productsCatalog');
@@ -255,6 +246,7 @@
                     });
                     const allGuidesButton = document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]');
                     if (allGuidesButton) allGuidesButton.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    renderProducts('all', '');
                     filterPadecimientos();
                     scrollToPadecimiento(link.dataset.sidebarGuide);
 
@@ -838,11 +830,11 @@
             let visibleCount = 0;
 
             items.forEach(item => {
-                const itemSearchTerms = normalizeGuideSearch(item.dataset.searchTerms);
+                const pad = padecimientos.find(guide => `padecimiento-${guide.id}` === item.id);
                 const itemColor = item.dataset.color;
 
                 const matchesSearch = matchedGuides.size ? matchedGuides.has(item.id)
-                    : searchTerm === '' || itemSearchTerms.includes(searchTerm) || relatedGuideIds.has(item.id);
+                    : searchTerm === '' || (pad && [pad.name, ...(pad.searchAliases || [])].some(value => window.manualSearch.matches(value, searchTerm))) || relatedGuideIds.has(item.id);
                 const matchesColor = activeColor === 'all' || itemColor === activeColor;
 
                 if (matchesSearch && matchesColor) {
@@ -893,13 +885,7 @@
         }
 
         function normalizeGuideSearch(value) {
-            return String(value || '')
-                .normalize('NFD')
-                .replace(/[\u0300-\u036f]/g, '')
-                .toLowerCase()
-                .replace(/[-_]/g, ' ')
-                .replace(/\s+/g, ' ')
-                .trim();
+            return window.manualSearch.normalize(value);
         }
 
         function goToMatchingPadecimiento(searchValue, forceFirstMatch = false) {
@@ -907,9 +893,9 @@
             if (term.length < 3) return false;
 
             const matches = padecimientos.filter(pad => {
-                const searchable = normalizeGuideSearch(`${pad.name} ${(pad.searchAliases || []).join(' ')} ${pad.description} ${(pad.symptoms || []).join(' ')}`);
+                const matches = getSearchGuides(term).some(guide => guide.id === pad.id);
                 const element = document.getElementById(`padecimiento-${pad.id}`);
-                return searchable.includes(term) && element && element.style.display !== 'none';
+                return matches && element && element.style.display !== 'none';
             });
 
             const exactNameMatch = matches.find(pad => normalizeGuideSearch(pad.name) === term);
@@ -1190,59 +1176,12 @@
             const searchTerm = normalizeGuideSearch(search);
             if (searchTerm) filter = 'all';
             
-            let results = [];
-
-            if (searchTerm === '') {
-                results = productos
-                    .filter(p => filter === 'all' || p.category === filter)
-                    .map(p => ({ ...p, matchField: null }));
-            } else {
-                results = productos
-                    .map(p => {
-                        let matchField = null;
-                        if (p.code && normalizeGuideSearch(p.code).includes(searchTerm)) {
-                            matchField = 'Código de Barras';
-                        } else if (normalizeGuideSearch(p.name).includes(searchTerm) || (p.searchAliases || []).some(alias => normalizeGuideSearch(alias).includes(searchTerm))) {
-                            matchField = 'Nombre';
-                        } else if (p.shortDesc && normalizeGuideSearch(p.shortDesc).includes(searchTerm)) {
-                            matchField = 'Descripción';
-                        } else if (p.ingredients && normalizeGuideSearch(p.ingredients).includes(searchTerm)) {
-                            matchField = 'Ingredientes';
-                        } else if (p.benefits && p.benefits.some(b => normalizeGuideSearch(b).includes(searchTerm))) {
-                            matchField = 'Beneficios';
-                        } else if (p.contraindications && normalizeGuideSearch(p.contraindications).includes(searchTerm)) {
-                            matchField = 'Contraindicaciones';
-                        } else if (p.interactions && normalizeGuideSearch(p.interactions).includes(searchTerm)) {
-                            matchField = 'Interacciones';
-                        } else if (p.foodInteractions && normalizeGuideSearch(p.foodInteractions).includes(searchTerm)) {
-                            matchField = 'Interacciones con Alimentos';
-                        } else if (p.choiceNote && normalizeGuideSearch(p.choiceNote).includes(searchTerm)) {
-                            matchField = 'Diferencia de fórmula';
-                        } else if (window.manualAdvisor.getProductGuideMatches(p.id, searchTerm).length) {
-                            matchField = 'Guía relacionada · consulta interna';
-                        }
-
-                        if (matchField) {
-                            const matchCat = filter === 'all' || p.category === filter;
-                            if (matchCat) {
-                                return { ...p, matchField };
-                            }
-                        }
-                        return null;
-                    })
-                    .filter(p => p !== null);
-            }
-
-            const searchGuides = getSearchGuides(searchTerm);
-            if (searchGuides.length) {
-                const guideProductIds = new Set(searchGuides.flatMap(guide => [...guide.comboPrincipal, ...guide.comboSecundario].map(item => item.id)));
-                results = productos.filter(product => guideProductIds.has(product.id))
-                    .map(product => ({ ...product, matchField: 'Guía relacionada · consulta interna' }));
-            }
+            const results = window.manualSearch.searchProducts(productos, padecimientos, search, filter);
             matchingSearchProductIds = new Set(searchTerm ? results.map(product => product.id) : []);
             directSearchProductIds = new Set(searchTerm ? results.filter(product => product.matchField !== 'Guía relacionada · consulta interna').map(product => product.id) : []);
-            // Ordenar alfabéticamente los resultados
-            results.sort((a, b) => a.name.localeCompare(b.name));
+            // Mostrar primero los nombres buscados y después otras coincidencias.
+            results.sort((a, b) => Number(b.matchField === 'Nombre') - Number(a.matchField === 'Nombre')
+                || a.name.localeCompare(b.name, 'es'));
 
             if (results.length === 0) {
                 grid.innerHTML = `<div class="col-span-full text-center py-20 text-gray-400 font-medium">No encontramos ningún suplemento con esos criterios. 🧐</div>`;
@@ -1318,6 +1257,7 @@
 
         function setActiveCategory(filter, options = {}) {
             const { scroll = false, syncProducts = true } = options;
+            if (syncProducts) selectManualTab('productos');
 
             // Actualizar enlaces en el sidebar
             document.querySelectorAll('.filter-link').forEach(link => {
@@ -1363,13 +1303,15 @@
         // Buscador (texto, padecimiento, síntoma o código de barras)
         searchInput.addEventListener('input', function() {
             const rawValue = this.value;
-            const searchTerm = rawValue.toLowerCase().trim();
+            const searchTerm = normalizeGuideSearch(rawValue);
             const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
             clearSearchBtn.classList.toggle('hidden', searchTerm === '');
 
             // Si un escáner terminó de "teclear" un código de barras completo,
             // abrir la ficha del producto directamente.
-            if (procesarPosibleCodigoBarras(rawValue)) {
+            const longerBarcode = productos.some(product => String(product.code || '').startsWith(rawValue.trim())
+                && String(product.code || '').length > rawValue.trim().length);
+            if (!longerBarcode && procesarPosibleCodigoBarras(rawValue)) {
                 this.value = '';
                 clearSearchBtn.classList.add('hidden');
                 renderProducts(activeFilter, '');
@@ -1397,7 +1339,7 @@
                 } else if (this.value.trim()) {
                     e.preventDefault();
                     const headerHeight = getManualHeaderOffset();
-                    const target = getSearchGuides(this.value).length || !matchingSearchProductIds.size
+                    const target = getSearchGuides(this.value).length
                         ? document.getElementById('padecimientosGuideWeb') : productsCatalog;
                     window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - headerHeight - 20, behavior: 'smooth' });
                 }
@@ -1428,6 +1370,7 @@
             }
 
             // Actualizar la vista
+            setActiveCategory('all', { syncProducts: false });
             updateCategoryDescription('all');
             renderProducts('all', '');
             filterPadecimientos();
