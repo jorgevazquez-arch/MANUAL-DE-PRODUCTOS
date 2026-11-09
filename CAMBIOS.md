@@ -1,5 +1,11 @@
 # Cambios del manual de El Girasol
 
+## Vinagre de sidra de manzana de 90 cápsulas — 9 de noviembre de 2026
+
+- Se identifica expresamente la presentación de 90 cápsulas con cúrcuma, jengibre, canela y pimienta negra y se corrige su código a 7503026253090, confirmado en la tienda. Se conservan ingredientes y porción de 3 cápsulas.
+- Se reemplazan los avisos genéricos por explicaciones de apoyo digestivo tradicional, aporte antioxidante y el posible efecto del vinagre sobre el azúcar como beneficio en estudio.
+- Se actualizan la nota para comparar fórmulas, la explicación de la guía y las versiones de carga. Fuentes y criterio: `reportes/revision-vinagre-90-2026-11-09.json`.
+
 ## Función propia de cúrcuma y curcumina — 9 de noviembre de 2026
 
 - Se revisaron las doce fórmulas con cúrcuma y se ajustaron once, incluidas NUYO y UC-II. Se explica la función del ingrediente en vez de decir que «complementa la fórmula».

@@ -37,7 +37,7 @@ La revisión es exhaustiva en redacción y coherencia con los datos disponibles;
 | 30 ARTMUUB / 50 Cloruro | Cantidades de vitamina D con unidades que necesitan confirmación. |
 | 34 Astaxantina | Confirmar la cantidad declarada del ingrediente. |
 | 86 Leucaps | Mismo código, pero la tienda indica betacaroteno y el catálogo luteína/zeaxantina. Se retiraron beneficios específicos de esos ingredientes hasta aclararlo. |
-| 104 Vinagre | El código corresponde a una presentación diferente de la mezcla registrada. Se retiraron beneficios específicos de la mezcla hasta confirmar etiqueta. |
+| 104 Vinagre de sidra, 90 cápsulas | Resuelto: se confirmó la mezcla con especias y la porción de 3 cápsulas. Se corrigió el código a 7503026253090 y se explicaron sus funciones digestivas. Detalle en `revision-vinagre-90-2026-11-09.json`. |
 | 110 Vitamina E Green Life | Nombre comercial y cantidades de la ficha no coinciden. No se clasifica como Zennatura. |
 | 112 Whey Harder | Porcentajes de proteína distintos; no se asegura ausencia de lactosa. |
 | 131 Probióticos | El total de microorganismos declarado y el nombre necesitan cotejo. |

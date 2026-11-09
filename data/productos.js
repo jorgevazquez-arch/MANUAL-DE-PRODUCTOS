@@ -2571,19 +2571,21 @@ window.manualData.productos = [
 // 104. Vinagre Sidra de Manzana (90 caps, en cápsulas con cúrcuma, jengibre, canela y pimienta negra)
 {
   id: 104,
-  code: "7500645000432",
-  name: "VINAGRE SIDRA DE MANZANA",
-  benefitSummary: "Vinagre en cápsulas: confirmar la fórmula vigente",
+  code: "7503026253090",
+  name: "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
+  benefitSummary: "Apoyo digestivo tradicional para pesadez y gases",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
-  shortDesc: "Vinagre de manzana en cápsulas con datos de fórmula que necesitan confirmación. Revisar la etiqueta para identificar la presentación y sus ingredientes antes de recomendarlo.",
+  shortDesc: "Vinagre de sidra de manzana con cúrcuma, jengibre, canela y pimienta negra. Su enfoque es la digestión: la cúrcuma y el jengibre tienen uso tradicional para aliviar pesadez y gases después de comer.",
   ingredients: "Vinagre de sidra de manzana en polvo (900 mg), cúrcuma (300 mg), jengibre (180 mg), canela (115 mg), pimienta negra (5 mg) por porción.",
   serving: "3 cápsulas (1.5 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Permite incorporar vinagre de manzana en cápsulas",
-    "Los ingredientes y la porción deben confirmarse con la etiqueta de esta presentación"
+    "La cúrcuma tiene uso tradicional para aliviar pesadez, gases y digestión lenta",
+    "El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago",
+    "La cúrcuma y la canela aportan antioxidantes, sustancias que ayudan a proteger las células del daño diario",
+    "El vinagre se estudia por su posible ayuda para que el azúcar suba menos después de comer; ese efecto no está confirmado para esta fórmula"
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",

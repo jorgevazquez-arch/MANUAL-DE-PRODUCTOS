@@ -91,6 +91,16 @@ test('las descripciones y beneficios usan lenguaje cotidiano y NUYO conserva su 
     assert(!/cognici|cognitiv/i.test([nuyo.shortDesc, nuyo.benefitSummary, ...nuyo.benefits].join(' ')));
 });
 
+test('vinagre de sidra conserva la presentación de 90 cápsulas con su código y mezcla propios', () => {
+    const product = productos.find(product => product.id === 104);
+    assert.equal(product.code, '7503026253090');
+    assert.equal(product.packageContent, '90 cápsulas');
+    assert.equal(product.serving, '3 cápsulas (1.5 g)');
+    for (const ingredient of ['cúrcuma', 'jengibre', 'canela', 'pimienta negra']) {
+        assert(product.ingredients.includes(ingredient), ingredient);
+    }
+});
+
 test('la página carga los datos de marcas después del catálogo y antes de la aplicación', () => {
     const html = read('index.html');
     const scripts = Array.from(html.matchAll(/<script src="(\.\/[^"]+)"/g), match => match[1].split('?')[0]);

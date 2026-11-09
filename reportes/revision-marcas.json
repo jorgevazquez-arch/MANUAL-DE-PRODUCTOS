@@ -283,7 +283,6 @@
       "matchingBasis": "Nombre, presentación líquida 500ml con madre y fórmula; SKU tienda tiene un dígito adicional (75030250698909 vs 7503025069890)."
     },
     {
-      "id": 104,
       "url": "https://cbelgirasol.com.mx/products/vinagre-de-sidra-de-manzana-organico-zennatura",
       "title": "VINAGRE DE SIDRA DE MANZANA ORGÁNICO | ZENNATURA",
       "vendor": "ZEN NATURA",
@@ -291,10 +290,11 @@
         "7500645000432"
       ],
       "catalogCode": "7500645000432",
-      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia.",
+      "historicalProductId": 104,
+      "status": "Referencia historica de otra presentacion (120 capsulas); no corresponde al producto104 de90 capsulas."
     },
     {
-      "id": 104,
       "url": "https://www.zennatura.mx/products/vinagre-de-sidra-de-manzana-500mg",
       "title": "Vinagre de Sidra de Manzana | 120 Cápsulas | 500 mg",
       "vendor": "ZenNaturaMX",
@@ -302,7 +302,9 @@
         "7500645000432"
       ],
       "catalogCode": "7500645000432",
-      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia."
+      "matchingBasis": "Coincidencia exacta de SKU/código; la marca se confirma por título/vendor o página oficial propia.",
+      "historicalProductId": 104,
+      "status": "Referencia historica de otra presentacion (120 capsulas); no corresponde al producto104 de90 capsulas."
     },
     {
       "id": 122,
@@ -717,6 +719,16 @@
       "url": "https://www.sears.com.mx/producto/3644415/prebian-150g-prebioticos-para-probioticos-fibra-sin-sabor",
       "catalogCode": "7500464128416",
       "matchingBasis": "SKU exacto identifica marca Prebian. No aparece en catálogos oficiales Zennatura consultados; se conserva sin marca prioritaria."
+    },
+    {
+      "id": 104,
+      "url": "https://cbelgirasol.com.mx/products/vinagre-manzana-organico-zennatura",
+      "vendor": "ZEN NATURA",
+      "sku": [
+        "7503026253090"
+      ],
+      "catalogCode": "7503026253090",
+      "matchingBasis": "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente."
     }
   ],
   "notes": [
@@ -832,6 +844,11 @@
     {
       "id": 242,
       "result": "No atribuir a Zennatura: producto identificado como marca Prebian con SKU exacto en otro distribuidor. Falta evidencia propia."
+    },
+    {
+      "id": 104,
+      "result": "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente.",
+      "source": "https://cbelgirasol.com.mx/products/vinagre-manzana-organico-zennatura"
     }
   ]
 }

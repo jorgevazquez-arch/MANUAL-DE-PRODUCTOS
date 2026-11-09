@@ -199,11 +199,13 @@
     },
     {
       "id": 104,
-      "shortDesc": "Vinagre de manzana en cápsulas con datos de fórmula que necesitan confirmación. Revisar la etiqueta para identificar la presentación y sus ingredientes antes de recomendarlo.",
-      "benefitSummary": "Vinagre en cápsulas: confirmar la fórmula vigente",
+      "shortDesc": "Vinagre de sidra de manzana con cúrcuma, jengibre, canela y pimienta negra. Su enfoque es la digestión: la cúrcuma y el jengibre tienen uso tradicional para aliviar pesadez y gases después de comer.",
+      "benefitSummary": "Apoyo digestivo tradicional para pesadez y gases",
       "benefits": [
-        "Permite incorporar vinagre de manzana en cápsulas",
-        "Los ingredientes y la porción deben confirmarse con la etiqueta de esta presentación"
+        "La cúrcuma tiene uso tradicional para aliviar pesadez, gases y digestión lenta",
+        "El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago",
+        "La cúrcuma y la canela aportan antioxidantes, sustancias que ayudan a proteger las células del daño diario",
+        "El vinagre se estudia por su posible ayuda para que el azúcar suba menos después de comer; ese efecto no está confirmado para esta fórmula"
       ]
     },
     {
@@ -739,6 +741,11 @@
     },
     {
       "review": "Ajustes posteriores de funcion propia de curcuma: reportes/revision-curcuma-2026-11-09.json"
+    },
+    {
+      "id": 104,
+      "issue": "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente.",
+      "source": "https://cbelgirasol.com.mx/products/vinagre-manzana-organico-zennatura"
     }
   ]
 }

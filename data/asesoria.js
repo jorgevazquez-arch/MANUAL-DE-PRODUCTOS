@@ -32,6 +32,7 @@
         96: 'Aporta proteína y una cantidad importante de calorías; distinto de una proteína sola.',
         101: 'Ubiquinol: una forma de coenzima Q10, en una base de aceite.',
         102: 'El extracto de cúrcuma se incluye por su posible ayuda con dolor y rigidez articular; también contiene colágeno tipo II y boswellia.',
+        104: '90 cápsulas: vinagre con cúrcuma, jengibre, canela y pimienta negra. Porción de 3 cápsulas según la ficha.',
         109: 'Combina vitamina D3, K2, magnesio y zinc en una sola fórmula.',
         111: 'Proteína de suero sabor choconuez; comparar la proteína por porción con otras opciones.',
         112: 'Aislado de suero con una fórmula sencilla, para combinar con otras preparaciones.',

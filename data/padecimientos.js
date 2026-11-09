@@ -1304,7 +1304,7 @@ window.manualData.padecimientos = [
             { id: 165, serving: '1 sobre (2 g) por taza', usage: 'Preparar esta porción en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día, preferentemente por la mañana, según la ficha técnica.', rationale: "Té verde con antioxidantes y cafeína; no garantiza quemar grasa o reducir celulitis." }
         ],
         comboSecundario: [
-            { id: 104, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción una vez al día con alimentos, según la ficha técnica.', rationale: "Vinagre en cápsulas con datos de fórmula pendientes de confirmar. Revisar la etiqueta antes de recomendar; no atribuirle beneficios para la celulitis." },
+            { id: 104, serving: '3 cápsulas (1.5 g)', usage: 'Tomar esta porción una vez al día con alimentos, según la ficha técnica.', rationale: "Fórmula de 90 cápsulas con cúrcuma y jengibre de uso tradicional para pesadez y gases. Su función es el apoyo digestivo; no tiene un efecto demostrado sobre la celulitis." },
             { id: 215, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "La carnitina participa en uso de grasas como energía; tomarla no garantiza perder grasa ni eliminar celulitis." },
             { id: 18, serving: '15 g (1 cuchara)', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Colágeno y ácido hialurónico para cuidado de piel, sin prometer eliminar celulitis." }
         ],

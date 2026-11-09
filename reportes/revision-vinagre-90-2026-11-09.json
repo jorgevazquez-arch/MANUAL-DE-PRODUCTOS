@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-09",
+  "productId": 104,
+  "presentation": "VINAGRE DE SIDRA DE MANZANA, 90 cápsulas de 500 mg, porción de 3 cápsulas (1.5 g)",
+  "barcode": "7503026253090",
+  "resolution": "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente.",
+  "sources": [
+    "https://cbelgirasol.com.mx/products/vinagre-manzana-organico-zennatura",
+    "https://cbelgirasol.com.mx/products/vinagre-manzana-organico-zennatura.js",
+    "https://zennatura.mx/producto/vinagre-de-manzana-organico-500mg/",
+    "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma",
+    "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7803290/"
+  ],
+  "criteria": [
+    "Explicar como uso tradicional la función digestiva de cúrcuma y jengibre, sin equiparar cantidades o demostrar eficacia de la mezcla completa.",
+    "Explicar el aporte antioxidante como función de ingredientes, sin prometer prevención o tratamiento de enfermedades.",
+    "El interés del vinagre en la subida del azúcar después de las comidas es un beneficio en estudio, no confirmado para esta fórmula; las cápsulas no son automáticamente equivalentes al vinagre líquido.",
+    "No se atribuyen quema de grasa, eliminación de celulitis ni desintoxicación.",
+    "La presentación de 120 cápsulas no se incorpora ni sustituye la solicitada."
+  ]
+}

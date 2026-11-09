@@ -123,23 +123,72 @@
     }
   ],
   "guideChanges": [
-    {"guideId":"ciatica","productId":54,"rationale":"La curcumina se incluye por su posible ayuda con dolor y rigidez de origen articular. No libera un nervio comprimido; revisar la causa del dolor ciático."},
-    {"guideId":"quistes_miomas","productId":54,"rationale":"La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha demostrado que esta fórmula reduzca quistes o miomas."},
-    {"guideId":"higado_graso","productId":54,"rationale":"La curcumina aporta antioxidantes que ayudan a proteger las células. Revisar anticoagulantes y problemas de vesícula; no atribuirle que elimina la grasa del hígado."},
-    {"guideId":"artritis_reumatoide","productId":54,"rationale":"La curcumina se estudia por su posible ayuda con dolor e inflamación articular. Es una alternativa al 102; no sumarlos por rutina ni sustituir el tratamiento de reumatología."},
-    {"guideId":"acido_urico","productId":54,"rationale":"La curcumina aporta antioxidantes y se estudia por su posible ayuda con molestias articulares. No baja por sí sola el ácido úrico ni sustituye el tratamiento de un ataque de gota."},
-    {"guideId":"desgaste_articular","productId":54,"rationale":"La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma."},
-    {"guideId":"desgaste_articular","productId":102,"rationale":"El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular."},
-    {"guideId":"desgaste_articular","productId":157,"rationale":"La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con molestias articulares. La vitamina C ayuda a formar colágeno y el calcio y magnesio apoyan huesos y músculos."},
-    {"guideId":"neuropatia_periferica","productId":12,"rationale":"La cúrcuma aporta antioxidantes y tiene uso tradicional digestivo. No atribuir a esta mezcla alivio del dolor de nervios ni reparación del nervio."},
-    {"guideId":"cancer_apoyo","productId":54,"rationale":"La curcumina aporta antioxidantes. Durante el tratamiento del cáncer, valorar su uso solo con el equipo de oncología porque puede interferir con medicamentos; no se presenta como tratamiento del cáncer."},
-    {"guideId":"psoriasis_vitiligo","productId":54,"rationale":"La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha confirmado que esta fórmula mejore psoriasis o vitiligo; no combinarla por rutina con el 102."},
-    {"guideId":"dismenorrea","productId":54,"rationale":"La curcumina se estudia por su posible ayuda con inflamación y dolor menstrual, pero los resultados son variables y esta mezcla no tiene un efecto confirmado para aliviar cólicos."}
+    {
+      "guideId": "ciatica",
+      "productId": 54,
+      "rationale": "La curcumina se incluye por su posible ayuda con dolor y rigidez de origen articular. No libera un nervio comprimido; revisar la causa del dolor ciático."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 54,
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha demostrado que esta fórmula reduzca quistes o miomas."
+    },
+    {
+      "guideId": "higado_graso",
+      "productId": 54,
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. Revisar anticoagulantes y problemas de vesícula; no atribuirle que elimina la grasa del hígado."
+    },
+    {
+      "guideId": "artritis_reumatoide",
+      "productId": 54,
+      "rationale": "La curcumina se estudia por su posible ayuda con dolor e inflamación articular. Es una alternativa al 102; no sumarlos por rutina ni sustituir el tratamiento de reumatología."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 54,
+      "rationale": "La curcumina aporta antioxidantes y se estudia por su posible ayuda con molestias articulares. No baja por sí sola el ácido úrico ni sustituye el tratamiento de un ataque de gota."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 54,
+      "rationale": "La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 102,
+      "rationale": "El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular."
+    },
+    {
+      "guideId": "desgaste_articular",
+      "productId": 157,
+      "rationale": "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con molestias articulares. La vitamina C ayuda a formar colágeno y el calcio y magnesio apoyan huesos y músculos."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 12,
+      "rationale": "La cúrcuma aporta antioxidantes y tiene uso tradicional digestivo. No atribuir a esta mezcla alivio del dolor de nervios ni reparación del nervio."
+    },
+    {
+      "guideId": "cancer_apoyo",
+      "productId": 54,
+      "rationale": "La curcumina aporta antioxidantes. Durante el tratamiento del cáncer, valorar su uso solo con el equipo de oncología porque puede interferir con medicamentos; no se presenta como tratamiento del cáncer."
+    },
+    {
+      "guideId": "psoriasis_vitiligo",
+      "productId": 54,
+      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha confirmado que esta fórmula mejore psoriasis o vitiligo; no combinarla por rutina con el 102."
+    },
+    {
+      "guideId": "dismenorrea",
+      "productId": 54,
+      "rationale": "La curcumina se estudia por su posible ayuda con inflamación y dolor menstrual, pero los resultados son variables y esta mezcla no tiene un efecto confirmado para aliviar cólicos."
+    }
   ],
   "notes": [
     "Se revisaron las doce fórmulas cuyo registro de ingredientes contiene cúrcuma. Se ajustan once; el producto104 conserva la indicación de confirmar etiqueta porque su composición corresponde a una presentación diferente.",
     "Los resultados sobre dolor y rigidez se estudian sobre todo con preparaciones concretas y extractos; no se trasladan como eficacia demostrada de NUYO, raíz en polvo o infusiones.",
     "En NUYO y mezclas con raíz de cúrcuma se explica la función del ingrediente, sin afirmar que la cantidad registrada reproduzca el efecto de los extractos estudiados.",
-    "La referencia de uso digestivo tradicional corresponde al ingrediente y preparaciones descritas por EMA; no es una prueba clínica de cada mezcla del catálogo."
+    "La referencia de uso digestivo tradicional corresponde al ingrediente y preparaciones descritas por EMA; no es una prueba clínica de cada mezcla del catálogo.",
+    "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente."
   ]
 }

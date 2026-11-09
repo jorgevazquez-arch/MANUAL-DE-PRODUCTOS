@@ -2619,7 +2619,7 @@
       "guideId": "celulitis",
       "productId": 104,
       "group": "comboSecundario",
-      "rationale": "Vinagre en cápsulas con datos de fórmula pendientes de confirmar. Revisar la etiqueta antes de recomendar; no atribuirle beneficios para la celulitis."
+      "rationale": "Fórmula de 90 cápsulas con cúrcuma y jengibre de uso tradicional para pesadez y gases. Su función es el apoyo digestivo; no tiene un efecto demostrado sobre la celulitis."
     },
     {
       "guideId": "celulitis",
@@ -3010,6 +3010,7 @@
     "Té RINICHI no debe sumarse a cápsulas con las mismas plantas sin revisión de duplicación.",
     "No se modifican IDs, grupos, porciones, instrucciones de uso ni descripciones de padecimientos.",
     "Integración final: D3 55 se explica como primera opción de marca; se actualiza la razón de 104 por discrepancia de fórmula. Se mueve el objeto completo 132 a principales y196 a adicionales en control_peso;170 a principales y188 a adicionales en tos_irritacion_garganta. Las dosis se conservan. La instrucción de55 se adapta a prioridad propia y conserva revisión de alergia y medicamentos.",
-    "Explicacion de funcion propia de curcuma actualizada: reportes/revision-curcuma-2026-11-09.json"
+    "Explicacion de funcion propia de curcuma actualizada: reportes/revision-curcuma-2026-11-09.json",
+    "El usuario confirma la presentación de 90 cápsulas. La fórmula registrada es correcta para esa presentación; el código anterior 7500645000432 identificaba otra presentación de 120 cápsulas. Se corrige el código, se conserva la fórmula y porción de 3 cápsulas y se explican beneficios por ingrediente."
   ]
 }
