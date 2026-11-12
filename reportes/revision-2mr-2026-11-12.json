@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-12",
+  "module": "Descanso",
+  "reviewedIds": [
+    207
+  ],
+  "criteria": "Conciliación del sueño como enfoque principal, con melatonina primero por su función. Triptófano como precursor y rhodiola como acompañante de uso tradicional para cansancio asociado al estrés. Beneficios breves y fuentes al final.",
+  "technicalReference": "Guías Web HTML/2MR.html",
+  "before": {
+    "id": 207,
+    "code": "7503021404916",
+    "name": "2MR",
+    "benefitSummary": "Calma, bienestar mental y rutina de descanso",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
+    "shortDesc": "Melatonina con triptófano y rhodiola para acompañar la rutina de descanso y ayudar a regular el horario de sueño.",
+    "ingredients": "L-Triptófano (295 mg), Rhodiola rosea (200 mg), Melatonina (5 mg).",
+    "serving": "1 cápsula al día",
+    "timing": "Por la noche después de cenar",
+    "intakeInstructions": "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
+    "benefits": [
+      "Puede ayudar a conciliar el sueño con melatonina y L-triptófano. Rhodiola rosea acompaña el cuidado del cansancio en días de estrés."
+    ],
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "packageContent": "30 cápsulas"
+  },
+  "after": {
+    "id": 207,
+    "code": "7503021404916",
+    "name": "2MR",
+    "benefitSummary": "Conciliación del sueño y rutina de descanso nocturno",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
+    "shortDesc": "Fórmula nocturna para acompañar la conciliación del sueño y establecer una rutina de descanso. La melatonina participa en la regulación del horario de sueño, mientras que el L-triptófano aporta material para producir serotonina y melatonina. La rhodiola complementa la mezcla desde su uso tradicional para el cansancio asociado al estrés.",
+    "researchNote": {
+      "focus": "Conciliación del sueño y rutina de descanso nocturno",
+      "sources": [
+        {
+          "title": "NCCIH: melatonina y horario de sueño",
+          "url": "https://www.nccih.nih.gov/health/melatonin-what-you-need-to-know"
+        },
+        {
+          "title": "L-triptófano como precursor de serotonina y melatonina",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8496306/"
+        },
+        {
+          "title": "NCCIH: rhodiola, usos tradicionales y precauciones",
+          "url": "https://www.nccih.nih.gov/health/rhodiola"
+        }
+      ]
+    },
+    "ingredients": "L-Triptófano (295 mg), Rhodiola rosea (200 mg), Melatonina (5 mg).",
+    "serving": "1 cápsula al día",
+    "timing": "Por la noche después de cenar",
+    "intakeInstructions": "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
+    "benefits": [
+      "Conciliación del sueño: la melatonina (5 mg) acompaña el inicio del sueño y ayuda a regular su horario.",
+      "Apoyo al descanso: el L-triptófano (295 mg) aporta material para producir serotonina y melatonina, que participan en el ciclo de sueño.",
+      "Cansancio asociado al estrés: Rhodiola rosea (200 mg) se usa tradicionalmente para acompañar la vitalidad en etapas de mayor exigencia."
+    ],
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo. La rhodiola puede dificultar el sueño en algunas personas; si ocurre, consultar con un profesional para revisar su uso.",
+    "packageContent": "30 cápsulas"
+  }
+}

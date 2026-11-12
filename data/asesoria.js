@@ -69,6 +69,7 @@
         206: 'Combina aceite de pescado, sacha inchi y linaza; mezcla fuentes marinas y vegetales.',
         208: 'Aceite de orégano en cápsulas, frente a la presentación líquida en gotas.',
         209: 'Creatina con minerales y vitaminas en sabor Pink; alternativa de sabor de esta fórmula.',
+        207: 'Melatonina con L-triptófano y rhodiola: enfoque principal en conciliación del sueño. La rhodiola acompaña el cansancio asociado al estrés y no debe describirse como sedante.',
         216: 'Combina orégano y coco en cápsulas, frente a las fórmulas de orégano solo.',
         219: 'Proteína vegetal con enzimas; alternativa al suero de leche.',
         220: 'Proteína de suero con L-carnitina; revisar la porción de una o dos medidas.',

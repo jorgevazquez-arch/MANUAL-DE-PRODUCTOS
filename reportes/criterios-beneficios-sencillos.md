@@ -18,6 +18,7 @@ Cada producto incluye `benefits`, con ideas breves en lenguaje cotidiano, y `ben
 - Explicar por separado la función de excipientes, vehículos, conservadores y saborizantes, sin inventarles efectos de salud. Identificar trazas y cantidades pequeñas cuando no sustentan un beneficio adicional.
 - La complementariedad de ingredientes no demuestra una sinergia clínica ni autoriza prometer que la mezcla sea más eficaz que sus componentes.
 - Presentar primero el aporte principal; después, los aportes complementarios y las características prácticas.
+- Trabajar por módulos de productos según se revisen con el usuario. En cada ficha, alinear enfoque, descripción, resumen y beneficios, con fuentes al final de la lista. Mantener beneficios breves, una idea por punto, y ordenar por función, dosis y preparación; el peso en miligramos por sí solo no determina qué ingrediente define el enfoque.
 - Usar «puede», «se estudia» o «uso tradicional» cuando la información no permite afirmar un resultado.
 - Distinguir los beneficios potenciales de características como el formato en polvo, el sabor o la facilidad de preparación.
 - Evitar promesas de curación, pérdida de peso, eliminación de toxinas, rejuvenecimiento, regeneración de tejidos o aumento de hormonas.
