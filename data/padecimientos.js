@@ -1010,7 +1010,7 @@ window.manualData.padecimientos = [
         symptoms: ['Dolor en las articulaciones durante o después del movimiento', 'Rigidez matutina', 'Pérdida de flexibilidad', 'Sonido de "crujido" al mover la articulación'],
         comboPrincipal: [
             { id: 102, serving: '2 cápsulas (1 g)', usage: 'Tomar 1 cápsula con el desayuno y 1 con la cena, según la ficha técnica.', rationale: "El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular." },
-            { id: 30, serving: '30 g', usage: 'Tomar esta porción al día. En ayunas o como reemplazo de comida.', rationale: "Proteína, vitaminas y omega 3 como complemento; verificar en envase unidad de vitamina D antes de recomendar." },
+            { id: 30, serving: '30 g', usage: 'Disolver 30 g en agua, jugo o leche vegetal y tomar una vez al día, en ayunas o entre comidas.', rationale: "Colágeno, cartílago de tiburón, glucosamina y condroitina para cuidar las articulaciones y mantener la comodidad al moverse." },
             { id: 54, serving: '3 cápsulas', usage: 'Tomar esta porción al día con comidas.', rationale: "La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma." }
         ],
         comboSecundario: [

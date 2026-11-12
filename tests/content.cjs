@@ -10,6 +10,7 @@ for (const file of ['data/productos.js', 'data/padecimientos.js', 'js/search.js'
     vm.runInContext(read(file), context);
 }
 const { productos, padecimientos } = context.window.manualData;
+const corrections = JSON.parse(read('reportes/correcciones-artmuub-inositol-2026-11-10.json'));
 
 test('la revisión cubre cada producto una sola vez y conserva los textos revisados', () => {
     const reports = [1, 2, 3].map(n => JSON.parse(read(`reportes/revision-productos-${n}.json`)));
@@ -17,6 +18,20 @@ test('la revisión cubre cada producto una sola vez y conserva los textos revisa
     assert.equal(reviewed.length, productos.length);
     assert.equal(new Set(reviewed).size, productos.length);
     const edits = new Map(reports.flatMap(report => report.changes).map(product => [product.id, product]));
+    const integral = JSON.parse(read('reportes/revision-beneficios-integrales-2026-11-10.json'));
+    assert.equal(integral.reviewedIds.length, productos.length);
+    assert.equal(new Set(integral.reviewedIds).size, productos.length);
+    assert.equal(integral.changes.length, productos.length);
+    assert.equal(new Set(integral.changes.map(change => change.id)).size, productos.length);
+    for (const change of integral.changes) {
+        const product = productos.find(product => product.id === change.id);
+        assert(product && integral.reviewedIds.includes(change.id), String(change.id));
+        // Si cambia una fórmula, sus beneficios necesitan una nueva revisión.
+        const corrected = corrections.productChanges.find(item => item.id === change.id);
+        assert.equal(product.ingredients, corrected?.ingredients || change.ingredients, `${change.id}: fórmula sin revisar`);
+        edits.set(change.id, { ...edits.get(change.id), ...change });
+    }
+    for (const change of corrections.productChanges) edits.set(change.id, { ...edits.get(change.id), ...change });
     for (const product of productos) {
         assert(reviewed.includes(product.id), product.name);
         for (const field of ['shortDesc', 'benefitSummary', 'benefits']) {
@@ -25,6 +40,47 @@ test('la revisión cubre cada producto una sola vez y conserva los textos revisa
             }
         }
     }
+});
+
+test('los beneficios integran los ingredientes antes omitidos y explican sus aportes', () => {
+    const cases = [
+        [2, ['coco', 'ácido láurico', 'orégano', 'carvacrol']],
+        [3, ['colágeno', 'vitamina C', 'biotina']],
+        [5, ['B1', 'B2', 'B5', 'B6', 'B9', 'B12', 'biotina', 'blueberry', 'cranberry', 'ginseng', 'vitamina A', 'vitamina D']],
+        [18, ['colágeno', 'arándano', 'aloe vera', 'omega 3', 'ácido hialurónico', 'vitamina E']],
+        [29, ['hesperidina', 'inulina', 'Gynostemma', 'ácido clorogénico', 'ácido alfa lipoico', 'Bifidobacterium lactis', 'zinc', 'cromo']],
+        [55, ['vitaminas C y D3', 'equinácea']],
+        [94, ['bisglicinato', 'citrato', 'glicina', 'L-teanina', 'manzanilla', '5-HTP', 'B6', 'inulina']],
+        [104, ['vinagre', 'cúrcuma', 'jengibre', 'canela', 'pimienta negra']],
+        [134, ['chícharo', 'arroz', 'BCAA', 'probióticos', 'cacao']],
+        [135, ['chícharo', 'arroz', 'BCAA', 'probióticos', 'vainilla', 'stevia']],
+        [151, ['inulina', 'FOS', 'acacia', 'espinaca', 'apio', 'pepino', 'nopal', 'piña', 'alfalfa', 'té verde', 'aloe vera', 'cúrcuma', 'jengibre', 'alcachofa', 'guaraná', 'clorofila', 'pimienta negra', 'bromelina', 'papaína', 'enzimas vegetales', 'Lactobacillus rhamnosus GG', 'Bifidobacterium bifidum']],
+        [157, ['MSM', 'glucosamina', 'cúrcuma', 'nogal', 'vitamina C', 'calcio', 'magnesio', 'B2', 'B6', 'zinc', 'hierro', 'potasio', 'B12', 'fósforo']],
+        [158, ['chícharo', 'arroz', 'leucina', 'isoleucina', 'valina', 'Lactobacillus acidophilus', 'Bifidobacterium bifidum', 'cocoa', 'cacao', 'sal rosa', 'stevia']],
+        [246, ['inulina', 'L-glutamina', 'NAG', 'aloe vera', 'zinc L-carnosina', 'D3', 'frambuesa', 'ácido cítrico', 'esteviol']],
+        [271, ['Albizia', 'Bacopa', 'L-teanina', 'magnesio', 'gelatina', 'agua']],
+        [272, ['Albizia', 'Rhodiola', 'L-teanina', 'magnesio', 'gelatina', 'agua']]
+    ];
+    for (const [id, ingredients] of cases) {
+        const text = productos.find(product => product.id === id).benefits.join(' ').toLowerCase();
+        for (const ingredient of ingredients) assert(text.includes(ingredient.toLowerCase()), `${id}: falta ${ingredient}`);
+    }
+    assert.match(productos.find(p => p.id === 3).benefits.join(' '), /ayuda a formar el colágeno/);
+    assert.match(productos.find(p => p.id === 1).benefits.join(' '), /pequeñas cantidades/);
+    assert.match(productos.find(p => p.id === 33).benefits.join(' '), /ayudan a dar forma a la cápsula/);
+    assert.match(productos.find(p => p.id === 263).benefits.join(' '), /evitar su consumo por vía oral/i);
+});
+
+test('los beneficios explican su uso sin comentarios técnicos sobre evidencia', () => {
+    const technical = /evidencia|demostr|demuestr|en estudio|estudiad|relacionad[oa]s? con sustancias|sin garantizar|sin asegurar|no hay base suficiente|enfoque metabólico/i;
+    for (const product of productos) {
+        for (const benefit of product.benefits) {
+            assert(!technical.test(benefit), `${product.id}: ${benefit}`);
+            assert(!/[,;]\.|\.{2,}/.test(benefit), `${product.id}: puntuación dañada`);
+        }
+    }
+    assert.match(productos.find(p => p.id === 150).benefits.join(' '), /relajarse y prepararse para dormir/);
+    assert.match(productos.find(p => p.id === 272).benefits.join(' '), /cansancio en días de estrés/);
 });
 
 test('todas las guías conservan referencias válidas y opciones sin duplicar', () => {
@@ -70,7 +126,8 @@ test('cada recomendación original tiene una razón revisada en la guía y grupo
         assert(guide && report.reviewedGuideIds.includes(guide.id), change.guideId);
         const item = guide[change.group].find(item => item.id === change.productId);
         assert(item, `${change.guideId}: ${change.productId}`);
-        assert.equal(item.rationale, change.rationale);
+        const corrected = corrections.guideChanges.find(item => item.guideId === change.guideId && item.group === change.group && item.productId === change.productId);
+        assert.equal(item.rationale, corrected?.rationale || change.rationale);
         assert(!/\p{L}\?\p{L}/u.test(item.rationale), `${change.guideId}: acentos dañados`);
     }
     const raw = vm.createContext({ window: {} });

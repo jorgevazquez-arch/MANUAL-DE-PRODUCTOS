@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-10",
+  "reason": "ARTMUUB 1.1 kg tiene enfoque articular y contiene colágeno, cartílago de tiburón, glucosamina y condroitina. La fibra es secundaria. El usuario aclaró que Pure Inositol debe conservarse como estaba, en polvo; se revirtió su cambio a cápsulas. El 11 de noviembre se actualizó Wereke al enfoque tradicional de cuidado del azúcar, con clasificación de metabolismo y apoyo digestivo secundario.",
+  "notes": [
+    "No se asignan cantidades individuales a los ingredientes articulares sin etiqueta.",
+    "Se conserva la anotación de unidad por verificar de vitamina D en ingredientes."
+  ],
+  "previousCategories": {
+    "30": "nutricional",
+    "223": "digestivo"
+  },
+  "productChanges": [
+    {
+      "id": 30,
+      "code": "7503025069791",
+      "name": "ARTMUUB 1.1 kg",
+      "benefitSummary": "Cuidado de las articulaciones y facilidad de movimiento",
+      "category": "locomotor",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB_1-1.webp",
+      "shortDesc": "Fórmula para acompañar el cuidado de las articulaciones y mantener la comodidad al moverse. Combina colágeno, cartílago de tiburón, glucosamina y condroitina como ingredientes principales de su enfoque articular. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D complementan el cuidado de huesos y músculos. También incluye omega 3, vitamina E y zinc para el cuidado celular, además de fibra como aporte digestivo secundario.",
+      "ingredients": "Colágeno, cartílago de tiburón, glucosamina y condroitina (cantidades individuales no especificadas). Aporte por porción: proteínas (9 g), omega-3 (EPA 280 mg, DHA 210 mg, DPA 210 mg), vitamina C (390 mg), magnesio (150 mg), vitamina E (99.9 mg), zinc (9.9 mg), vitamina D (9.9 mg, posible error: mcg), fibra (4.4 g).",
+      "serving": "30 g",
+      "timing": "En ayunas o entre comidas",
+      "intakeInstructions": "Disolver 30 g (2 cucharadas) en 300-400 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
+      "benefits": [
+        "Cuidado articular y comodidad al moverse: combina colágeno, cartílago de tiburón, glucosamina y condroitina. En ensayos con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla.",
+        "Formación de colágeno: la vitamina C ayuda al cuerpo a formar este componente de los tejidos.",
+        "Movimiento y cuidado de huesos y músculos: magnesio y vitamina D complementan el aporte nutricional de la fórmula.",
+        "Cuidado celular: omega 3 EPA, DHA y DPA, vitamina E y zinc completan el aporte de grasas y antioxidantes. La fibra queda como apoyo adicional al movimiento del intestino."
+      ],
+      "contraindications": "Personas con alergia a pescados (omega-3), trastornos de coagulación, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos).",
+      "packageContent": "1.1 kg"
+    },
+    {
+      "id": 223,
+      "name": "WEREKE PROSA",
+      "category": "metabolismo"
+    }
+  ],
+  "guideChanges": [
+    {
+      "guideId": "desgaste_articular",
+      "group": "comboPrincipal",
+      "productId": 30,
+      "id": 30,
+      "serving": "30 g",
+      "usage": "Disolver 30 g en agua, jugo o leche vegetal y tomar una vez al día, en ayunas o entre comidas.",
+      "rationale": "Colágeno, cartílago de tiburón, glucosamina y condroitina para cuidar las articulaciones y mantener la comodidad al moverse."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-12",
+  "scope": "Integrar el contenido de los diez bloques como puntos de beneficios clave y conservar las fuentes al final de la lista.",
+  "criteria": "La información útil se integra por función sin subtítulo ni párrafo independiente. Se conservan los contextos de uso tradicional y preparación estudiada y el carácter experimental de los resultados oncológicos. researchNote se conserva como registro y fuente de referencias, pero su texto y foco ya no se renderizan como bloque aparte.",
+  "changes": [
+    {
+      "id": 13,
+      "name": "CÚRCUMA",
+      "previousBenefits": [
+        "La raíz de cúrcuma se usa para el bienestar del estómago después de comer."
+      ],
+      "benefits": [
+        "Bienestar después de comer: la raíz de cúrcuma tiene uso tradicional para acompañar molestias digestivas leves, como pesadez, gases y sensación de digestión lenta.",
+        "Permite incorporar la raíz de cúrcuma en cápsulas, con 1,000 mg de polvo por porción, dentro de la rutina de cuidado digestivo."
+      ]
+    },
+    {
+      "id": 30,
+      "name": "ARTMUUB 1.1 kg",
+      "previousBenefits": [
+        "Ayuda a cuidar las articulaciones y mantener la comodidad al moverse con colágeno, cartílago de tiburón, glucosamina y condroitina.",
+        "La vitamina C ayuda a formar colágeno. Magnesio y vitamina D complementan el cuidado de huesos y músculos para el movimiento.",
+        "Omega 3 EPA, DHA y DPA, vitamina E y zinc complementan el cuidado de las células. La fibra aporta un apoyo adicional al movimiento del intestino."
+      ],
+      "benefits": [
+        "Cuidado articular y comodidad al moverse: combina colágeno, cartílago de tiburón, glucosamina y condroitina. En ensayos con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla.",
+        "Formación de colágeno: la vitamina C ayuda al cuerpo a formar este componente de los tejidos.",
+        "Movimiento y cuidado de huesos y músculos: magnesio y vitamina D complementan el aporte nutricional de la fórmula.",
+        "Cuidado celular: omega 3 EPA, DHA y DPA, vitamina E y zinc completan el aporte de grasas y antioxidantes. La fibra queda como apoyo adicional al movimiento del intestino."
+      ]
+    },
+    {
+      "id": 51,
+      "name": "MOROIZY",
+      "previousBenefits": [
+        "Apoyo conjunto para molestias e inflamación: combina el uso tradicional calmante, analgésico y desinflamatorio del sauce blanco con hamamelis y corteza de ajo para complementar el cuidado circulatorio y el bienestar diario. Incluye el alivio de molestias articulares para moverse con mayor comodidad.",
+        "Protección circulatoria y celular: las vitaminas C y E aportan antioxidantes para proteger las células. La vitamina C también ayuda a formar colágeno para mantener los vasos sanguíneos, y el zinc complementa el cuidado de los tejidos.",
+        "Energía y vitalidad: la vitamina B12 ayuda a aprovechar los alimentos para obtener energía, formar glóbulos rojos y reducir el cansancio causado por falta de esta vitamina."
+      ],
+      "benefits": [
+        "Alivio de molestias e inflamación: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves y comodidad al moverse.",
+        "Cuidado circulatorio: hamamelis y corteza de ajo completan la mezcla de plantas. La vitamina C ayuda a formar colágeno para mantener los tejidos y vasos sanguíneos.",
+        "Protección celular: las vitaminas C y E aportan antioxidantes y el zinc complementa el cuidado de los tejidos.",
+        "Energía y vitalidad: la vitamina B12 ayuda a aprovechar los alimentos, formar glóbulos rojos y reducir el cansancio causado por falta de esta vitamina."
+      ]
+    },
+    {
+      "id": 54,
+      "name": "CURCUMINA",
+      "previousBenefits": [
+        "Puede ayudar a mantener la comodidad de las articulaciones con curcumina. La vitamina C ayuda a formar colágeno y la pimienta negra al aprovechamiento de la curcumina."
+      ],
+      "benefits": [
+        "Comodidad y movimiento articular: los curcuminoides se han investigado para molestias de las articulaciones. En ensayos con preparaciones específicas se han observado mejoras en dolor y función física de personas con artrosis de rodilla.",
+        "Cuidado de los tejidos: la vitamina C ayuda al cuerpo a formar colágeno y complementa el enfoque articular de la fórmula.",
+        "Aprovechamiento de la curcumina: la pimienta negra acompaña el extracto de cúrcuma al 95 % y favorece su absorción."
+      ]
+    },
+    {
+      "id": 91,
+      "name": "MAGNESIO BLEND",
+      "previousBenefits": [
+        "Funcionamiento muscular y nervioso: aporta magnesio de citrato, gluconato y óxido para ayudar a músculos y nervios a funcionar bien.",
+        "Energía diaria: el magnesio ayuda al cuerpo a obtener energía de los alimentos y complementa su aporte en la alimentación."
+      ],
+      "benefits": [
+        "Funcionamiento muscular y nervioso: el magnesio ayuda a la contracción de los músculos y al buen funcionamiento de los nervios.",
+        "Energía diaria: participa en la producción de energía a partir de los alimentos y complementa el aporte de magnesio de la alimentación.",
+        "Reúne citrato, gluconato y óxido como tres fuentes de magnesio en una cápsula."
+      ]
+    },
+    {
+      "id": 93,
+      "name": "MAGNESIUM AM 600mg",
+      "previousBenefits": [
+        "Actividad diaria: el magnesio del citrato y el bisglicinato ayuda al funcionamiento de músculos y nervios.",
+        "Aprovechamiento de energía: el magnesio y la vitamina B6 ayudan a utilizar los alimentos para obtener energía.",
+        "Incluye una pequeña cantidad de inulina como aporte de fibra."
+      ],
+      "benefits": [
+        "Apoyo muscular durante el día: el magnesio del citrato y el bisglicinato ayuda a músculos y nervios a funcionar bien.",
+        "Aprovechamiento de energía: magnesio y vitamina B6 participan en el uso de los nutrientes y la obtención de energía de los alimentos para la actividad cotidiana.",
+        "La inulina añade una pequeña cantidad de fibra como aporte complementario."
+      ]
+    },
+    {
+      "id": 94,
+      "name": "MAGNESIUM PM 600mg",
+      "previousBenefits": [
+        "Puede ayudar a relajarse antes de dormir con glicina, L-teanina, manzanilla y 5-HTP.",
+        "El magnesio del bisglicinato y el citrato y la vitamina B6 ayudan a músculos y nervios a funcionar bien. Incluye una pequeña cantidad de inulina como fibra."
+      ],
+      "benefits": [
+        "Calma y preparación para dormir: combina L-teanina, glicina, manzanilla y 5-HTP como parte de su orientación nocturna. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño.",
+        "Funcionamiento de músculos y nervios: el magnesio del bisglicinato y el citrato complementa el aporte de este mineral durante la rutina de descanso.",
+        "La vitamina B6 acompaña el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra."
+      ]
+    },
+    {
+      "id": 124,
+      "name": "ON-C-LEN",
+      "previousBenefits": [
+        "Aporte de hongos: reishi y shiitake contienen componentes naturales como beta-glucanos y complementan la mezcla alimentaria.",
+        "Compuestos antioxidantes: el té verde y el ajo aportan componentes vegetales a la fórmula.",
+        "Bienestar digestivo: jengibre y diente de león se usan tradicionalmente para acompañar la comodidad del estómago.",
+        "Apoyo diurético: el diente de león se usa tradicionalmente para favorecer la eliminación de orina.",
+        "Apoyo hepatobiliar: el diente de león tiene uso tradicional para favorecer la secreción de bilis, que participa en la digestión de las grasas.",
+        "Complemento vegetal: polen de flores y guanábana completan la mezcla de ingredientes."
+      ],
+      "benefits": [
+        "Aporte de hongos: reishi y shiitake contienen componentes naturales como beta-glucanos y complementan la mezcla alimentaria.",
+        "Compuestos antioxidantes: té verde y ajo aportan componentes vegetales a la fórmula.",
+        "Bienestar digestivo: jengibre y diente de león se usan tradicionalmente para acompañar la comodidad del estómago.",
+        "Apoyo diurético: el diente de león se usa tradicionalmente para favorecer la eliminación de orina.",
+        "Apoyo hepatobiliar: el diente de león tiene uso tradicional para favorecer la secreción de bilis, que participa en la digestión de las grasas.",
+        "Investigación de sus ingredientes: en modelos experimentales, extractos específicos de diente de león, té verde, reishi y guanábana se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Estos hallazgos corresponden a ingredientes con preparaciones y concentraciones definidas; su incorporación durante tratamiento requiere revisión del oncólogo.",
+        "Complemento vegetal: polen de flores y guanábana completan la mezcla de ingredientes."
+      ]
+    },
+    {
+      "id": 145,
+      "name": "SOY LECITHIN + CHOLINE",
+      "previousBenefits": [
+        "Cuidado de las células: la lecitina de soya aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro, el hígado y el resto del cuerpo.",
+        "Metabolismo de las grasas e hígado: la colina ayuda al cuerpo a transportar y aprovechar las grasas, apoyando el funcionamiento normal del hígado.",
+        "Memoria y cerebro: la colina del bitartrato y de la lecitina de soya ayuda a producir acetilcolina, que el cerebro necesita para la memoria y el aprendizaje.",
+        "Bienestar digestivo: el jengibre se usa para la comodidad del estómago y la inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino."
+      ],
+      "benefits": [
+        "Cuidado de las células: la lecitina de soya aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro, el hígado y otros órganos.",
+        "Metabolismo de las grasas e hígado: la colina participa en el transporte y aprovechamiento de las grasas y apoya el funcionamiento normal del hígado.",
+        "Memoria y aprendizaje: la colina del bitartrato y de la lecitina ayuda a producir acetilcolina, que el cerebro utiliza en estas funciones.",
+        "Bienestar digestivo: el jengibre acompaña la comodidad del estómago y la inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino."
+      ]
+    },
+    {
+      "id": 228,
+      "name": "GLICINATO DE MAGNESIO 90 CAPS",
+      "previousBenefits": [
+        "Funcionamiento muscular y nervioso: el magnesio del glicinato ayuda a músculos y nervios a funcionar bien.",
+        "Puede incorporarse a la rutina de relajación y preparación para el descanso como complemento del aporte de magnesio.",
+        "El tallo de brócoli completa la mezcla vegetal. Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la mezcla."
+      ],
+      "benefits": [
+        "Funcionamiento muscular y nervioso: el magnesio del glicinato ayuda a músculos y nervios a funcionar bien y complementa el aporte de este mineral.",
+        "Rutina de relajación: puede incorporarse a la preparación para el descanso. En un ensayo con bisglicinato que aportaba 250 mg de magnesio elemental al día durante cuatro semanas se observaron mejoras en algunos indicadores de sueño.",
+        "El tallo de brócoli completa la mezcla vegetal. Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la fórmula."
+      ]
+    }
+  ]
+}

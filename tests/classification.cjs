@@ -11,6 +11,7 @@ const { productos } = context.window.manualData;
 const reports = [1, 2, 3].map(n => JSON.parse(read(`reportes/revision-clasificacion-${n}.json`)));
 const reviews = reports.flatMap(report => report.reviews);
 const summary = JSON.parse(read('reportes/resumen-clasificacion-2026-11-09.json'));
+const corrections = JSON.parse(read('reportes/correcciones-artmuub-inositol-2026-11-10.json'));
 
 test('cada producto tiene una sola clasificación revisada con razón y evidencia', () => {
     const reviewedIds = reports.flatMap(report => report.reviewedIds);
@@ -21,8 +22,9 @@ test('cada producto tiene una sola clasificación revisada con razón y evidenci
     for (const product of productos) {
         const review = reviews.find(review => review.id === product.id);
         assert(review, product.name);
-        assert.equal(review.name, product.name);
-        assert.equal(product.category, review.to, product.name);
+        const corrected = corrections.productChanges.find(item => item.id === product.id);
+        assert.equal(corrected?.name || review.name, product.name);
+        assert.equal(product.category, corrected?.category || review.to, product.name);
         assert.equal(review.status, review.from === review.to ? 'keep' : 'change');
         assert(review.reason && review.evidence.length, product.name);
         assert(['high', 'medium', 'low'].includes(review.confidence));
@@ -59,7 +61,15 @@ test('el resumen conserva el conteo y distingue las fichas originales de las vig
         acc[product.category] = (acc[product.category] || 0) + 1;
         return acc;
     }, {});
-    assert.deepEqual(counts, summary.after);
+    const expectedCounts = { ...summary.after };
+    for (const product of corrections.productChanges) {
+        const previous = corrections.previousCategories[product.id];
+        if (previous !== product.category) {
+            expectedCounts[previous]--;
+            expectedCounts[product.category]++;
+        }
+    }
+    assert.deepEqual(counts, expectedCounts);
     assert.equal(summary.totalProducts, productos.length);
     assert.equal(summary.changed, reviews.filter(review => review.status === 'change').length);
     assert.equal(summary.changed + summary.kept, productos.length);

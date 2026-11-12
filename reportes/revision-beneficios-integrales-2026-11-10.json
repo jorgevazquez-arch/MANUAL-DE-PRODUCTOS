@@ -1,0 +1,2601 @@
+{
+  "date": "2026-11-10",
+  "reviewedIds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    245,
+    246,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274
+  ],
+  "criteria": "Beneficios breves en palabras cotidianas: para qué sirve el producto y cómo se complementan todos sus ingredientes. Sin comentarios de evidencia, mecanismos abstractos ni promesas de curación. Los ingredientes de preparación se explican por su función práctica.",
+  "sources": [
+    "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+    "https://www.nccih.nih.gov/health/herbsataglance",
+    "https://www.nccih.nih.gov/health/ashwagandha",
+    "https://www.nccih.nih.gov/health/turmeric",
+    "https://www.nccih.nih.gov/health/black-cohosh",
+    "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/",
+    "https://ods.od.nih.gov/factsheets/list-all/",
+    "https://zennatura.mx/products/moroizy-500mg",
+    "https://cbelgirasol.com.mx/products/moroizy-zennatura",
+    "https://ods.od.nih.gov/factsheets/VitaminB12-Consumer/",
+    "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex",
+    "https://www.ema.europa.eu/en/medicines/herbal/hamamelidis-folium",
+    "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/",
+    "https://www.cancer.gov/about-cancer/treatment/cam/patient/dietary-interactions-pdq",
+    "https://www.cancer.gov/about-cancer/treatment/cam/hp/mushrooms-pdq",
+    "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola",
+    "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-taraxacum-officinale-fh-wigg-radix_en.pdf",
+    "https://www.nccih.nih.gov/health/dandelion",
+    "https://pubmed.ncbi.nlm.nih.gov/27564258/",
+    "https://pubmed.ncbi.nlm.nih.gov/9600345/",
+    "https://pubmed.ncbi.nlm.nih.gov/31637001/",
+    "https://pubmed.ncbi.nlm.nih.gov/39839727/",
+    "https://pubmed.ncbi.nlm.nih.gov/27477804/",
+    "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma",
+    "https://pubmed.ncbi.nlm.nih.gov/24853120/",
+    "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/",
+    "https://pubmed.ncbi.nlm.nih.gov/31623400/",
+    "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+  ],
+  "changes": [
+    {
+      "id": 1,
+      "ingredients": "Cloruro de magnesio hexahidratado (MgCl₂·6H₂O), con trazas de calcio, hierro y vitamina A.",
+      "benefits": [
+        "Ayuda a que músculos y nervios funcionen bien y a obtener energía de los alimentos con el magnesio del cloruro de magnesio.",
+        "También contiene pequeñas cantidades de calcio, hierro y vitamina A."
+      ]
+    },
+    {
+      "id": 2,
+      "ingredients": "Aceite de coco virgen extra en polvo (300 mg), ácido láurico (100 mg), orégano en polvo estandarizado al 70 % de carvacrol (100 mg) por cápsula.",
+      "benefits": [
+        "Se usa para el bienestar del estómago con orégano y su carvacrol. El aceite de coco y el ácido láurico aportan la parte grasa de la mezcla."
+      ]
+    },
+    {
+      "id": 3,
+      "ingredients": "Colágeno hidrolizado (péptidos de bajo peso molecular), vitamina C (ácido ascórbico), biotina.",
+      "benefits": [
+        "Ayuda a cuidar piel y articulaciones: el colágeno aporta proteína y la vitamina C ayuda a formar el colágeno del cuerpo.",
+        "La biotina ayuda a mantener la piel en buen estado y a aprovechar los alimentos."
+      ]
+    },
+    {
+      "id": 4,
+      "ingredients": "Vitaminas B1, B2, B3, B5, B6, B7, B9, B12; extracto de arándano (Vaccinium myrtillus).",
+      "benefits": [
+        "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5, B6 y B7. Las B1, B6 y B12 también cuidan el funcionamiento de los nervios.",
+        "Las B9 y B12 ayudan a formar glóbulos rojos. El arándano aporta antioxidantes para cuidar las células."
+      ]
+    },
+    {
+      "id": 5,
+      "ingredients": "Arándanos (blueberry, cranberry), vitaminas B1, B2, B5, B6, B9, B12, biotina, vitaminas A, C, D, ginseng siberiano (Eleutherococcus senticosus).",
+      "benefits": [
+        "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B5, B6 y biotina. El ginseng siberiano se usa para la vitalidad en días de mayor actividad.",
+        "Las vitaminas B6, B9 y B12 ayudan al funcionamiento de los nervios y a formar glóbulos rojos.",
+        "Los arándanos blueberry y cranberry y la vitamina C aportan antioxidantes. La vitamina A cuida la piel y la vitamina D ayuda a mantener huesos y músculos."
+      ]
+    },
+    {
+      "id": 6,
+      "ingredients": "Extracto en polvo del fruto de arándano rojo (Vaccinium vitis-idaea) 1000 mg.",
+      "benefits": [
+        "Aporta extracto de arándano rojo para complementar el cuidado diario de las vías urinarias."
+      ]
+    },
+    {
+      "id": 7,
+      "ingredients": "Creatina monohidratada 100% pura.",
+      "benefits": [
+        "Apoya el rendimiento en esfuerzos cortos y repetidos con creatina monohidratada, que ayuda a reponer energía rápida para los músculos durante el entrenamiento."
+      ]
+    },
+    {
+      "id": 8,
+      "ingredients": "Creatina monohidratada 100% pura.",
+      "benefits": [
+        "Apoya fuerza y rendimiento en esfuerzos cortos y repetidos con creatina monohidratada, acompañada de entrenamiento y alimentación suficientes."
+      ]
+    },
+    {
+      "id": 9,
+      "ingredients": "Cuachalalate (Amphipterygium adstringens) corteza 750 mg, Tepezcohuite (Mimosa tenuiflora) corteza 750 mg por porción.",
+      "benefits": [
+        "Se usa para el bienestar del estómago con cortezas de cuachalalate y tepezcohuite."
+      ]
+    },
+    {
+      "id": 10,
+      "ingredients": "Ajo deodorizado, zapote blanco, alpiste, enebro, té verde, extracto de olivo, semilla de uva, vitaminas B1, B6, B12.",
+      "benefits": [
+        "Complementa el cuidado del corazón con ajo deodorizado y olivo. La semilla de uva y el té verde aportan antioxidantes para cuidar las células.",
+        "La vitamina B1 ayuda al corazón a funcionar bien. Las B6 y B12 ayudan a aprovechar los alimentos y a formar glóbulos rojos.",
+        "Zapote blanco, alpiste y enebro completan la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 11,
+      "ingredients": "Cúrcuma en polvo orgánica (Curcuma longa) 100%.",
+      "benefits": [
+        "La cúrcuma orgánica se usa para el bienestar del estómago después de comer y aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 12,
+      "ingredients": "Raíz de cúrcuma (Curcuma longa) 900 mg, raíz de jengibre (Zingiber officinale) 300 mg, hoja de moringa (Moringa oleifera) 300 mg por porción.",
+      "benefits": [
+        "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. La moringa aporta antioxidantes para cuidar las células."
+      ]
+    },
+    {
+      "id": 13,
+      "ingredients": "Raíz de cúrcuma (Curcuma longa) en polvo 1000 mg por porción.",
+      "benefits": [
+        "Bienestar después de comer: la raíz de cúrcuma tiene uso tradicional para acompañar molestias digestivas leves, como pesadez, gases y sensación de digestión lenta.",
+        "Permite incorporar la raíz de cúrcuma en cápsulas, con 1,000 mg de polvo por porción, dentro de la rutina de cuidado digestivo."
+      ],
+      "shortDesc": "Raíz de cúrcuma en cápsulas para acompañar el bienestar del estómago después de comer. Su uso tradicional se enfoca en molestias digestivas leves, como pesadez, gases y sensación de digestión lenta. También contiene compuestos vegetales que complementan el aporte antioxidante de la alimentación. Esta presentación utiliza la raíz en polvo y se distingue de la curcumina concentrada, cuyo enfoque dentro del catálogo es el cuidado de las articulaciones.",
+      "researchNote": {
+        "focus": "Pesadez, gases y digestión lenta",
+        "text": "Bienestar del estómago después de comer: la raíz de cúrcuma se utiliza tradicionalmente para acompañar molestias leves como pesadez, gases y digestión lenta. La EMA recoge este uso digestivo de preparaciones de cúrcuma. Estas cápsulas aportan 1,000 mg de raíz en polvo por porción, una presentación que permite incorporarla a la rutina. La información seleccionada se centra en la comodidad digestiva y en el uso de la raíz, que da identidad a este producto.",
+        "sources": [
+          {
+            "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "ingredients": "Aceite de coco orgánico RBD (Refinado, Blanqueado y Desodorizado).",
+      "benefits": [
+        "Aporta grasa y energía para preparar alimentos con aceite de coco RBD, refinado, blanqueado y desodorizado. Su sabor neutro facilita su uso en distintas recetas."
+      ]
+    },
+    {
+      "id": 15,
+      "ingredients": "Aceite de coco extra virgen orgánico (prensado en frío).",
+      "benefits": [
+        "Aporta grasa y energía con aceite de coco extra virgen prensado en frío. Su aroma y sabor complementan recetas dulces o saladas."
+      ]
+    },
+    {
+      "id": 16,
+      "ingredients": "Aceite esencial de orégano (Origanum vulgare), con aceite base vegetal (oliva).",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con aceite esencial de orégano. El aceite de oliva sirve como base para diluirlo y distribuirlo en la preparación."
+      ]
+    },
+    {
+      "id": 17,
+      "ingredients": "Ácido alfa lipóico (ácido tióctico) 300 mg por porción.",
+      "benefits": [
+        "Aporta ácido alfa lipóico o tióctico para cuidar las células y ayudar al cuerpo a obtener energía de los alimentos."
+      ]
+    },
+    {
+      "id": 18,
+      "ingredients": "Colágeno hidrolizado tipo 1 (9 g), arándano azul (800 mg), aloe vera (280 mg), omega 3 (400 mg EPA/DHA), ácido hialurónico (200 mg), vitamina E (50 mg) por porción.",
+      "benefits": [
+        "Ayuda a cuidar piel y articulaciones con proteína del colágeno tipo 1. El ácido hialurónico complementa el cuidado de la hidratación de la piel.",
+        "El arándano azul y la vitamina E aportan antioxidantes. El omega 3 EPA/DHA aporta grasas para las células y el aloe vera completa la mezcla."
+      ]
+    },
+    {
+      "id": 19,
+      "ingredients": "Ácido linoleico conjugado (CLA) de alta pureza, procedente de aceite de cártamo.",
+      "benefits": [
+        "Puede acompañar los objetivos de cuidado de la grasa corporal dentro de un plan de alimentación y ejercicio.",
+        "Aporta ácido linoleico conjugado CLA procedente de aceite de cártamo como complemento de las grasas de la alimentación."
+      ],
+      "shortDesc": "Ácido linoleico conjugado procedente de aceite de cártamo, utilizado como complemento dentro de planes de alimentación y ejercicio orientados al cuidado de la grasa corporal. Su función se explica como un posible apoyo a los objetivos de composición corporal, junto con entrenamiento y consumo suficiente de proteína. Para la capacitación conviene distinguir reducción de grasa, pérdida de peso y mantenimiento muscular: son objetivos diferentes y no deben presentarse como un resultado automático de las cápsulas.",
+      "benefitSummary": "Posible apoyo al cuidado de la grasa corporal con ejercicio"
+    },
+    {
+      "id": 20,
+      "ingredients": "Aguaje (Mauritia flexuosa) 750 mg, fenogreco (Trigonella foenum-graecum) 375 mg, maca negra (Lepidium meyenii) 250 mg, maca amarilla (Lepidium meyenii) 125 mg por porción.",
+      "benefits": [
+        "Acompaña la vitalidad femenina con maca negra y maca amarilla. El aguaje y el fenogreco completan el aporte vegetal."
+      ]
+    },
+    {
+      "id": 21,
+      "ingredients": "Hoja de moringa (250 mg), bulbo de ajo negro (249 mg), vitamina C (0.5 mg), vitaminas B1, B2, B6 por cápsula.",
+      "benefits": [
+        "Cuidado antioxidante: ajo negro y moringa complementan el aporte de compuestos vegetales para cuidar las células.",
+        "Las vitaminas B1, B2 y B6 ayudan a obtener energía de los alimentos y al funcionamiento de los nervios.",
+        "Incluye una pequeña cantidad de vitamina C como acompañante de la mezcla."
+      ],
+      "shortDesc": "Combina ajo negro y hoja de moringa para complementar el aporte de compuestos vegetales y antioxidantes. La moringa amplía la composición de la fórmula y la distingue del ajo negro solo. Incluye vitaminas B1, B2 y B6, que participan en el aprovechamiento de alimentos y el funcionamiento de los nervios, además de una pequeña cantidad de vitamina C. El cuidado antioxidante tiene prioridad, seguido del aporte nutricional y las funciones complementarias de las vitaminas.",
+      "benefitSummary": "Ajo negro y moringa para antioxidantes, con vitaminas B"
+    },
+    {
+      "id": 22,
+      "ingredients": "Extracto de propóleo estandarizado en flavonoides (250 mg), bulbo de ajo negro (250 mg) por cápsula.",
+      "benefits": [
+        "Acompaña el cuidado en cambios de temporada con propóleo para la comodidad de la garganta, y ajo negro, que añade antioxidantes."
+      ]
+    },
+    {
+      "id": 23,
+      "ingredients": "Ajo negro (Allium sativum fermentado) 1.5 g, vitamina C 0.62 mg, vitamina B6 0.03 mg por porción.",
+      "benefits": [
+        "Cuidado cardiovascular: el ajo negro complementa una alimentación orientada al cuidado del corazón.",
+        "Cuidado celular: los compuestos vegetales del ajo negro complementan el aporte de antioxidantes.",
+        "Incluye pequeñas cantidades de vitaminas C y B6 como acompañantes de la fórmula."
+      ],
+      "shortDesc": "Ajo fermentado en cápsulas para complementar el cuidado cardiovascular y el aporte de antioxidantes de la alimentación. Sus compuestos vegetales acompañan el cuidado de las células y dan a esta fórmula su enfoque principal. Incluye pequeñas cantidades de vitaminas C y B6, que se mencionan como acompañantes. Se distingue de otras mezclas porque su ingrediente central es el ajo negro; sus funciones deben explicarse según la preparación y porción utilizadas.",
+      "benefitSummary": "Ajo negro para cuidado cardiovascular y antioxidante"
+    },
+    {
+      "id": 24,
+      "ingredients": "Albúmina de huevo pasteurizada, vitaminas (C, E, B1, B2, B3, B6, B12, A, D3, ácido fólico), minerales (potasio, fósforo, calcio, magnesio, hierro, zinc, cobre, yodo).",
+      "benefits": [
+        "Ayuda a cuidar y recuperar los músculos con proteína de albúmina de huevo. Vitaminas B1, B2, B3, B6, B12 y ácido fólico ayudan a obtener energía y a formar glóbulos rojos.",
+        "Potasio, fósforo, calcio, magnesio y vitamina D3 ayudan a músculos y huesos. Hierro y cobre ayudan a transportar oxígeno en la sangre y yodo al funcionamiento de la tiroides.",
+        "Vitaminas C y E aportan antioxidantes. Vitamina A y zinc ayudan a cuidar la piel y las defensas."
+      ]
+    },
+    {
+      "id": 25,
+      "ingredients": "Alga espirulina orgánica (Arthrospira platensis) 100%.",
+      "benefits": [
+        "Complementa una alimentación variada con espirulina orgánica y sus componentes naturales. El polvo permite añadirla a bebidas o alimentos."
+      ]
+    },
+    {
+      "id": 26,
+      "ingredients": "Alga espirulina orgánica (1,135 mg), calcio (150 mg), magnesio (150 mg), vitamina E (15 mg), hierro (8 mg), vitaminas B1, B2, B6, B12, zinc, cobre, vitamina A por porción.",
+      "benefits": [
+        "Complementa la alimentación con espirulina. Vitaminas B1, B2, B6 y B12 ayudan a obtener energía y al funcionamiento de los nervios.",
+        "Calcio y magnesio ayudan a cuidar músculos y huesos. Hierro y cobre ayudan a formar glóbulos rojos.",
+        "Zinc y vitamina A ayudan a cuidar la piel y las defensas. La vitamina E aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 27,
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), jugo de arándano (Vaccinium macrocarpon), vitamina C (27 mg por porción).",
+      "benefits": [
+        "Arándano y aloe vera complementan el cuidado diario. La sábila se usa para el bienestar digestivo y la vitamina C apoya las defensas y aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 28,
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), vitamina C (30 mg por porción), saborizantes naturales tropicales.",
+      "benefits": [
+        "La vitamina C apoya las defensas y aporta antioxidantes. El aloe vera se usa para el bienestar digestivo y los saborizantes tropicales dan sabor a la bebida."
+      ]
+    },
+    {
+      "id": 29,
+      "ingredients": "α-Glucosil hesperidina (300 mg), inulina de agave (300 mg), Gynostemma pentaphyllum (200 mg), ácido clorogénico (200 mg), ácido alfa lipoico (100 mg), Bifidobacterium lactis (1 billón UFC), zinc (2.5 mg), cromo picolinato (25 µg) por porción.",
+      "benefits": [
+        "Ayuda al cuidado intestinal con Bifidobacterium lactis. La inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino.",
+        "El cromo picolinato y el zinc ayudan a aprovechar los alimentos. El ácido alfa lipoico y la α-glucosil hesperidina aportan antioxidantes.",
+        "Gynostemma pentaphyllum y ácido clorogénico completan la mezcla para el cuidado de la alimentación."
+      ]
+    },
+    {
+      "id": 30,
+      "ingredients": "Proteínas (9 g), omega-3 (EPA 280 mg, DHA 210 mg, DPA 210 mg), vitamina C (390 mg), magnesio (150 mg), vitamina E (99.9 mg), zinc (9.9 mg), vitamina D (9.9 mg, posible error: mcg), fibra (4.4 g) por porción.",
+      "benefits": [
+        "Cuidado articular y comodidad al moverse: combina colágeno, cartílago de tiburón, glucosamina y condroitina. En ensayos con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla.",
+        "Formación de colágeno: la vitamina C ayuda al cuerpo a formar este componente de los tejidos.",
+        "Movimiento y cuidado de huesos y músculos: magnesio y vitamina D complementan el aporte nutricional de la fórmula.",
+        "Cuidado celular: omega 3 EPA, DHA y DPA, vitamina E y zinc completan el aporte de grasas y antioxidantes. La fibra queda como apoyo adicional al movimiento del intestino."
+      ],
+      "shortDesc": "Fórmula para acompañar el cuidado de las articulaciones y mantener la comodidad al moverse. Combina colágeno, cartílago de tiburón, glucosamina y condroitina como ingredientes principales de su enfoque articular. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D complementan el cuidado de huesos y músculos. También incluye omega 3, vitamina E y zinc para el cuidado celular, además de fibra como aporte digestivo secundario.",
+      "researchNote": {
+        "focus": "Articulaciones y comodidad al moverse",
+        "text": "Cuidado de las articulaciones y comodidad al moverse: la fórmula reúne colágeno, cartílago de tiburón, glucosamina y condroitina dentro de su enfoque articular. En estudios con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D acompañan el cuidado de huesos y músculos. Omega 3, vitamina E y zinc complementan el cuidado celular, y la fibra queda como apoyo digestivo secundario. Las fuentes permiten conocer las funciones y preparaciones estudiadas de sus ingredientes.",
+        "sources": [
+          {
+            "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
+          },
+          {
+            "title": "Glucosamina y condroitina: ensayo clínico sobre dolor y función de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "ingredients": "Glucosamina (sulfato) 600 mg, condroitina (sulfato) 500 mg, MSM 400 mg por porción.",
+      "benefits": [
+        "Puede ayudar a mantener la comodidad y el movimiento de las articulaciones con glucosamina, condroitina y MSM."
+      ]
+    },
+    {
+      "id": 32,
+      "ingredients": "Extracto de raíz de ashwagandha (600 mg, estandarizado al 5% withanólidos), polvo de raíz de ashwagandha (700 mg) por porción.",
+      "benefits": [
+        "Puede ayudar a relajarse y descansar con extracto de ashwagandha y polvo de su raíz."
+      ]
+    },
+    {
+      "id": 33,
+      "ingredients": "Extracto de raíz de ashwagandha (500 mg, estandarizado al 5% withanólidos), celulosa microcristalina, estearato magnésico.",
+      "benefits": [
+        "Puede ayudar a relajarse y descansar con ashwagandha. La celulosa microcristalina y el estearato magnésico ayudan a dar forma a la cápsula."
+      ]
+    },
+    {
+      "id": 34,
+      "ingredients": "Astaxantina 250 mg (de Haematococcus pluvialis), en cápsula blanda con aceite base.",
+      "benefits": [
+        "Aporta astaxantina de Haematococcus pluvialis, un antioxidante para cuidar las células. El aceite base permite preparar la cápsula blanda."
+      ]
+    },
+    {
+      "id": 35,
+      "ingredients": "Proteína de carne hidrolizada (23 g por porción), creatina natural (7,600 mg), taurina (3,000 mg), perfil de aminoácidos completo.",
+      "benefits": [
+        "Ayuda a cuidar y recuperar los músculos con proteína de carne hidrolizada. La creatina ayuda a rendir en esfuerzos cortos y repetidos.",
+        "La taurina completa la fórmula para el entrenamiento."
+      ]
+    },
+    {
+      "id": 36,
+      "ingredients": "Por porción de 2 cápsulas (1.01 g): berberina HCL 1,000 mg y zinc 1 mg (procedente de 5 mg de glicinato de zinc).",
+      "benefits": [
+        "Complementa el cuidado del azúcar y las grasas en la sangre con berberina HCL. El zinc del glicinato ayuda a aprovechar los alimentos."
+      ]
+    },
+    {
+      "id": 37,
+      "ingredients": "L-carnitina, polvo de raíz de India Lotus, Tejocote, Nopal, Café verde, Clorofila, Piña, Toronja, Apio, Alcachofa.",
+      "benefits": [
+        "Complementa la alimentación de personas activas con L-carnitina, que ayuda al cuerpo a usar grasas para obtener energía, y café verde.",
+        "Nopal, piña y alcachofa acompañan el cuidado digestivo. Apio, toronja y clorofila completan el aporte vegetal.",
+        "La mezcla también contiene raíz de India Lotus y tejocote."
+      ]
+    },
+    {
+      "id": 38,
+      "ingredients": "Café arábico, moringa, Reishi, Shiitake, Maitake, stevia, sustituto de crema.",
+      "benefits": [
+        "Ayuda a estar más despierto con la cafeína del café arábico. Moringa, Reishi, Shiitake y Maitake completan la mezcla de plantas y hongos.",
+        "La stevia da dulzor y el sustituto de crema da una textura cremosa."
+      ]
+    },
+    {
+      "id": 39,
+      "ingredients": "Café tostado en grano (Coffea arabica), especias tradicionales (canela, clavo, anís estrella).",
+      "benefits": [
+        "Ayuda a estar más despierto por la cafeína del café tostado arábico. Canela, clavo y anís estrella aportan aromas y compuestos vegetales que complementan la bebida tradicional."
+      ]
+    },
+    {
+      "id": 40,
+      "ingredients": "Café soluble, extracto de Ganoderma (500 mg), extracto de Shiitake (500 mg), mezcla de arándanos (cranberry, bilberry, blueberry) 2 mg por sobre.",
+      "benefits": [
+        "Ayuda a estar más despierto con la cafeína del café soluble. Ganoderma y Shiitake complementan la bebida con hongos.",
+        "Incluye pequeñas cantidades de arándanos cranberry, bilberry y blueberry."
+      ]
+    },
+    {
+      "id": 41,
+      "ingredients": "Canela (950 mg), vitamina C (300 mg), potasio (200 mg), fósforo (200 mg), vitamina E (200 mg), calcio (100 mg), hierro (20 mg), vitaminas B1 (15 mg), B2 (14.9 mg), picolinato de cromo (200 mcg), vitamina B12 (12 mcg) por porción.",
+      "benefits": [
+        "Ayuda a aprovechar los alimentos con cromo y vitaminas B1, B2 y B12. La canela completa la mezcla para el cuidado del azúcar.",
+        "Potasio, fósforo y calcio ayudan al cuidado de músculos y huesos. Hierro ayuda a transportar oxígeno y vitaminas C y E aportan antioxidantes."
+      ]
+    },
+    {
+      "id": 42,
+      "ingredients": "Extracto de Caralluma fimbriata (partes aéreas) 500 mg por cápsula.",
+      "benefits": [
+        "Contiene Caralluma fimbriata, una planta que se usa como complemento de la alimentación para el cuidado del apetito."
+      ]
+    },
+    {
+      "id": 43,
+      "ingredients": "Hoja de cardo mariano, hojas de boldo, ruibarbo, cuasia, diente de león (extractos en proporción no especificada).",
+      "benefits": [
+        "Acompaña el bienestar del estómago con boldo, cuasia y diente de león. Cardo mariano y ruibarbo completan la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 44,
+      "ingredients": "Extracto de castaño de Indias (Aesculus hippocastanum) 400 mg por cápsula.",
+      "benefits": [
+        "Puede ayudar a aliviar la sensación de piernas pesadas con extracto de castaño de Indias."
+      ]
+    },
+    {
+      "id": 45,
+      "ingredients": "L-carnitina tartrato (100 mg), polinicotinato de cromo (aporte de 20.32 mcg de cromo elemental) por cápsula.",
+      "benefits": [
+        "Ayuda a aprovechar los alimentos con cromo procedente de polinicotinato. La L-carnitina tartrato participa en el uso de grasas para obtener energía."
+      ]
+    },
+    {
+      "id": 46,
+      "ingredients": "Citrato de magnesio (aporte de 500 mg de magnesio elemental por porción), colágeno hidrolizado (1.5 g por porción).",
+      "benefits": [
+        "Ayuda al funcionamiento de músculos y nervios con magnesio del citrato. El colágeno hidrolizado aporta proteína para cuidar la piel y las articulaciones."
+      ]
+    },
+    {
+      "id": 47,
+      "ingredients": "Citrato de potasio 750 mg (aporte de 240.24 mg de potasio elemental) por porción.",
+      "benefits": [
+        "Ayuda a músculos y nervios a funcionar bien y a mantener el equilibrio de agua con potasio del citrato de potasio."
+      ]
+    },
+    {
+      "id": 48,
+      "ingredients": "Clorofilina sódico-cúprica (extracto de clorofila), agua purificada, estabilizantes.",
+      "benefits": [
+        "Aporta clorofilina sódico-cúprica para preparar una bebida. El agua purificada la diluye y los estabilizantes mantienen la mezcla uniforme."
+      ]
+    },
+    {
+      "id": 49,
+      "ingredients": "Extracto de clorofila (10 ml), extracto de hierbabuena (5 ml), extracto de menta piperita (2.5 ml), extracto de té matcha (2.5 ml) por porción.",
+      "benefits": [
+        "Hierbabuena y menta piperita dan frescura y se usan para el bienestar digestivo. Té matcha aporta antioxidantes y clorofila da color a la bebida."
+      ]
+    },
+    {
+      "id": 50,
+      "ingredients": "Magnesio elemental (240 mg), vitamina C (10 mg), calcio (4 mg), vitamina D (4 mg – probable error: 4 mcg) por porción.",
+      "benefits": [
+        "Ayuda al funcionamiento de los músculos y al cuidado de los huesos con magnesio y calcio. La vitamina C ayuda a formar colágeno.",
+        "Contiene vitamina D. Consultar la etiqueta para confirmar la cantidad."
+      ]
+    },
+    {
+      "id": 51,
+      "ingredients": "Sauce blanco (Salix alba), corteza de ajo, hamamelis, vitamina C, vitamina E, vitamina B12, zinc.",
+      "benefits": [
+        "Alivio de molestias e inflamación: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves y comodidad al moverse.",
+        "Cuidado circulatorio: hamamelis y corteza de ajo completan la mezcla de plantas. La vitamina C ayuda a formar colágeno para mantener los tejidos y vasos sanguíneos.",
+        "Protección celular: las vitaminas C y E aportan antioxidantes y el zinc complementa el cuidado de los tejidos.",
+        "Energía y vitalidad: la vitamina B12 ayuda a aprovechar los alimentos, formar glóbulos rojos y reducir el cansancio causado por falta de esta vitamina."
+      ],
+      "shortDesc": "Fórmula para acompañar el alivio de molestias e inflamación y complementar el cuidado circulatorio. Reúne sauce blanco, de uso tradicional calmante, analgésico y desinflamatorio, con hamamelis y corteza de ajo. El sauce blanco también se utiliza para molestias articulares y comodidad al moverse. Las vitaminas C y E aportan antioxidantes, el zinc complementa el cuidado de los tejidos y la B12 ayuda a formar glóbulos rojos y aprovechar los alimentos para obtener energía.",
+      "benefitSummary": "Alivio de molestias e inflamación y cuidado circulatorio",
+      "researchNote": {
+        "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
+        "text": "Apoyo para aliviar molestias y acompañar el cuidado circulatorio: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves. Hamamelis y corteza de ajo completan la mezcla de orientación circulatoria. La vitamina C participa en la formación de colágeno para los tejidos, y la vitamina E aporta antioxidantes. B12 y zinc complementan el cuidado nutricional de la fórmula. Las fuentes enlazadas explican los usos tradicionales del sauce y las funciones nutricionales que ayudan a entender el aporte de cada ingrediente.",
+        "sources": [
+          {
+            "title": "EMA: corteza de sauce, usos y precauciones",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
+          },
+          {
+            "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "ingredients": "Myo-Inositol (1900 mg), D-Chiro-Inositol (50 mg), polvo de fruto de arándano azul (50 mg) por porción.",
+      "benefits": [
+        "Complementa el cuidado del azúcar y el bienestar femenino con myo-inositol y D-chiro-inositol. El arándano azul aporta antioxidantes para cuidar las células."
+      ]
+    },
+    {
+      "id": 53,
+      "ingredients": "Myo-Inositol (4000 mg), D-Chiro-Inositol (100 mg) por porción.",
+      "benefits": [
+        "Complementa el cuidado del azúcar y el bienestar femenino con myo-inositol y D-chiro-inositol en proporción 40:1."
+      ]
+    },
+    {
+      "id": 54,
+      "ingredients": "Curcumina al 95% de curcuminoides (1050 mg), vitamina C (300 mg), pimienta negra (20 mg) por porción.",
+      "benefits": [
+        "Comodidad y movimiento articular: los curcuminoides se han investigado para molestias de las articulaciones. En ensayos con preparaciones específicas se han observado mejoras en dolor y función física de personas con artrosis de rodilla.",
+        "Cuidado de los tejidos: la vitamina C ayuda al cuerpo a formar colágeno y complementa el enfoque articular de la fórmula.",
+        "Aprovechamiento de la curcumina: la pimienta negra acompaña el extracto de cúrcuma al 95 % y favorece su absorción."
+      ],
+      "shortDesc": "Fórmula con extracto concentrado de cúrcuma para acompañar la comodidad y el movimiento de las articulaciones, especialmente cuando hay molestias y rigidez. La vitamina C ayuda al cuerpo a formar colágeno para sus tejidos, mientras que la pimienta negra favorece el aprovechamiento de la curcumina. Su diferencia frente a la cúrcuma en polvo está en la concentración del extracto y en los ingredientes que complementan su enfoque articular.",
+      "researchNote": {
+        "focus": "Comodidad y movimiento de las articulaciones",
+        "text": "Comodidad y movimiento de las articulaciones: los curcuminoides se han estudiado por su interés en el alivio de molestias articulares. Algunos ensayos con preparaciones específicas han observado mejoras en dolor y función física de personas con artrosis de rodilla. Esta fórmula combina extracto de cúrcuma al 95 % con vitamina C, que participa en la formación de colágeno, y pimienta negra, que favorece el aprovechamiento de la curcumina. El conjunto de ingredientes orienta la explicación hacia el cuidado articular y el mantenimiento de los tejidos.",
+        "sources": [
+          {
+            "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
+          },
+          {
+            "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+            "url": "https://www.nccih.nih.gov/health/turmeric"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "ingredients": "Por cápsula de 1000 mg: Vitamina C (como ácido ascórbico) 300 mg, Vitamina D3 (como colecalciferol) 1000 UI / 25 mcg, Equinácea (Echinacea purpurea) 200 mg y excipiente c.b.p.",
+      "benefits": [
+        "Apoya las defensas con vitaminas C y D3. La equinácea acompaña el cuidado en cambios de temporada.",
+        "Complementa el mantenimiento de huesos y músculos con vitamina D3 y la formación de colágeno con vitamina C."
+      ]
+    },
+    {
+      "id": 56,
+      "ingredients": "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, bromelina.",
+      "benefits": [
+        "Acompaña el bienestar digestivo con lino y nopal como fuentes vegetales de fibra, aloe vera y milenrama de uso tradicional, y bromelina como enzima que descompone proteínas.",
+        "Guaraná, naranjo, alisma y lima completan la mezcla vegetal."
+      ]
+    },
+    {
+      "id": 57,
+      "ingredients": "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, zarzaparrilla, diente de león, té rojo, té blanco.",
+      "benefits": [
+        "Acompaña el bienestar digestivo con lino, nopal, aloe vera y milenrama. El diente de león y la zarzaparrilla completan la mezcla de uso tradicional.",
+        "Guaraná, té rojo y té blanco pueden aportar cafeína. Naranjo, alisma y lima añaden otros componentes vegetales."
+      ]
+    },
+    {
+      "id": 58,
+      "ingredients": "Citrato de magnesio (aporte de magnesio elemental ≈ 70 mg) (500 mg), Rhodiola Rosea (extracto de raíz estandarizado en rosavinas y salidrósido) (450 mg), polen de abeja en polvo (50 mg).",
+      "benefits": [
+        "Puede ayudar con el cansancio en días de estrés con Rhodiola rosea. El magnesio del citrato ayuda a músculos y nervios a funcionar bien y el polen de abeja completa el aporte alimentario."
+      ]
+    },
+    {
+      "id": 59,
+      "ingredients": "Hojas de té, papaya, toronja, malva, espirulina, jengibre.",
+      "benefits": [
+        "Acompaña el bienestar digestivo con jengibre y malva. Papaya y toronja añaden componentes de frutas, mientras las hojas de té y la espirulina completan el aporte vegetal."
+      ]
+    },
+    {
+      "id": 60,
+      "ingredients": "Papaya (400 mg), papaina (180 mg), bromelina (170 mg), fosfato de calcio (100 mg), amilasa (50 mg), pancreatina (50 mg), lipasa (30 mg), hierbabuena (20 mg) por porción.",
+      "benefits": [
+        "Ayuda a descomponer alimentos: papaína, bromelina y enzimas de la papaya actúan sobre proteínas, amilasa sobre almidones y lipasa sobre grasas. La pancreatina aporta una mezcla de enzimas digestivas.",
+        "Acompaña el bienestar después de comer con hierbabuena de uso tradicional. El fosfato de calcio completa el aporte mineral."
+      ]
+    },
+    {
+      "id": 61,
+      "ingredients": "Equinácea (200 mg), vitamina C (300 mg) por cápsula.",
+      "benefits": [
+        "Apoya las defensas con vitamina C, mientras la equinácea acompaña el cuidado tradicional en cambios de temporada."
+      ]
+    },
+    {
+      "id": 62,
+      "ingredients": "Concentrado de proteína de soya, vitaminas (A, B1, B3, B5, B7, B9, C, D, E), selenio, aminoácidos (L-cisteína, L-metionina, L-leucina, L-valina, L-lisina), colágeno, queratina, sílice, ácido hialurónico.",
+      "benefits": [
+        "Aporta materiales para cuidar piel, cabello y uñas con proteína de soya, colágeno, queratina y aminoácidos L-cisteína, L-metionina, L-leucina, L-valina y L-lisina.",
+        "Vitaminas A, B1, B3, B5, B7 y B9 ayudan a cuidar la piel y a aprovechar los alimentos. Vitamina C ayuda a formar colágeno y D a cuidar los huesos.",
+        "Vitamina E y selenio aportan antioxidantes. Ácido hialurónico y sílice completan el cuidado de la piel."
+      ]
+    },
+    {
+      "id": 63,
+      "ingredients": "Fenogreco (Trigonella foenum-graecum) en polvo 1500 mg por porción.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con fenogreco en polvo. Sus componentes vegetales complementan la alimentación."
+      ]
+    },
+    {
+      "id": 64,
+      "ingredients": "Proteína de chícharo, proteína de arroz, inulina de agave, myo-inositol, D-chiro inositol, ácido hialurónico, bisglicinato de zinc, vitamina D3, stevia, canela.",
+      "benefits": [
+        "Apoya el cuidado de los músculos con proteínas de chícharo y arroz. Vitamina D3 y bisglicinato de zinc complementan el funcionamiento de los músculos y el cuidado de la piel y otros tejidos.",
+        "Acompaña la nutrición femenina con myo-inositol y D-chiro-inositol. El ácido hialurónico completa el cuidado de la piel.",
+        "La inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino. Canela y stevia dan sabor y dulzor."
+      ]
+    },
+    {
+      "id": 66,
+      "ingredients": "Bardana (1135 mg), acedera (573 mg), olmo (143 mg), kelp (53 mg), cardo santo (53 mg), berro (53 mg), trébol rojo (53 mg), ruibarbo (37 mg) por 100 ml.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con bardana, acedera, olmo y ruibarbo. Cardo santo y berro complementan la mezcla de plantas.",
+        "Kelp y trébol rojo amplían la composición vegetal."
+      ]
+    },
+    {
+      "id": 67,
+      "ingredients": "Hongo Reishi (Ganoderma lucidum), hongo Maitake (Grifola frondosa), hongo Chaga (Inonotus obliquus), hongo Shiitake (Lentinula edodes), hongo Cordyceps (Cordyceps sinensis), hongo Turkey Tail (Trametes versicolor), hongo Melena de León (Hericium erinaceus) en polvo.",
+      "benefits": [
+        "Complementa la alimentación con una mezcla de hongos: Reishi, Maitake, Chaga, Shiitake, Cordyceps, Turkey Tail y Melena de León."
+      ]
+    },
+    {
+      "id": 68,
+      "ingredients": "GABA (1200 mg), zinc (20 mg), selenio (100 mcg), vitamina B5 (20 mg), vitamina B12 (12 mcg) por porción.",
+      "benefits": [
+        "Se usa para acompañar la calma con GABA. Las vitaminas B5 y B12 ayudan a aprovechar los alimentos y al funcionamiento de los nervios.",
+        "El zinc y el selenio complementan el cuidado de las células."
+      ]
+    },
+    {
+      "id": 69,
+      "ingredients": "Fenolftaleína 60 mg por tableta.",
+      "benefits": [
+        "Contiene fenolftaleína, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
+      ]
+    },
+    {
+      "id": 70,
+      "ingredients": "Extracto de Ginkgo biloba (estandarizado a 24% flavonoides glicósidos y 6% terpenlactonas).",
+      "benefits": [
+        "Contiene Ginkgo biloba con flavonoides y terpenlactonas. Se usa para acompañar el cuidado de la memoria y la circulación."
+      ]
+    },
+    {
+      "id": 71,
+      "ingredients": "L-Glutamina pura (5000 mg por porción).",
+      "benefits": [
+        "Complementa la alimentación con L-glutamina, aminoácido utilizado para formar proteínas y por células del intestino."
+      ]
+    },
+    {
+      "id": 72,
+      "ingredients": "Vitamina C (250 mg), glutatión (100 mg) por cápsula.",
+      "benefits": [
+        "Ayuda a cuidar las células con glutatión y vitamina C. La vitamina C también apoya las defensas y ayuda a formar colágeno."
+      ]
+    },
+    {
+      "id": 73,
+      "ingredients": "Semilla de baya de Goji, linaza, raíz de lima, malva, lecitina de soya.",
+      "benefits": [
+        "Acompaña el bienestar intestinal con linaza como fuente vegetal de fibra y malva de uso tradicional. Semilla de goji, raíz de lima y lecitina de soya completan el aporte vegetal y de grasas."
+      ]
+    },
+    {
+      "id": 74,
+      "ingredients": "Bayas de Goji, pingüica, raíz de diente de león, extractos cítricos, ácido clorogénico, BHB.",
+      "benefits": [
+        "Aporta antioxidantes del goji, los extractos cítricos y el ácido clorogénico. Pingüica y diente de león se usan para el cuidado urinario.",
+        "También contiene BHB como parte de la mezcla."
+      ]
+    },
+    {
+      "id": 75,
+      "ingredients": "Bayas de Goji (Lycium barbarum), mango africano (Irvingia gabonensis), linaza (Linum usitatissimum), raíz de lima, piña (Ananas comosus), papaya (Carica papaya), lecitina de soya, vitamina C, vitamina E, vitamina B12 (cianocobalamina) (6 µg), magnesio elemental (9 mg), calcio elemental (8 mg).",
+      "benefits": [
+        "Acompaña el bienestar digestivo con linaza, piña y papaya. Goji, mango africano, raíz de lima y lecitina de soya completan la mezcla vegetal.",
+        "Las vitaminas C y E aportan antioxidantes y la B12 ayuda al funcionamiento de los nervios y a formar glóbulos rojos. Incluye pequeñas cantidades de magnesio y calcio."
+      ]
+    },
+    {
+      "id": 76,
+      "ingredients": "Ciruela pasa, tamarindo, papaya, sábila, manzana.",
+      "benefits": [
+        "Acompaña el movimiento del intestino con ciruela pasa, tamarindo, papaya y manzana. La sábila completa la mezcla para el bienestar digestivo."
+      ]
+    },
+    {
+      "id": 77,
+      "ingredients": "Hercampuri (Gentianella alborosea) en polvo 1500 mg por porción.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con hercampuri en polvo."
+      ]
+    },
+    {
+      "id": 78,
+      "ingredients": "Arándano (125 mg), semilla de calabaza (100 mg), ciruelo africano (90 mg), equinácea (90 mg), cúrcuma (75 mg), zinc (20 mg), selenio (100 mcg) por cápsula.",
+      "benefits": [
+        "Acompaña el cuidado de la próstata y la comodidad al orinar con semilla de calabaza y ciruelo africano. El arándano completa el aporte vegetal.",
+        "Zinc y selenio ayudan a cuidar las células. Equinácea y cúrcuma completan la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 79,
+      "ingredients": "Myo-inositol 500 mg por cápsula.",
+      "benefits": [
+        "Complementa el cuidado del azúcar con myo-inositol."
+      ]
+    },
+    {
+      "id": 80,
+      "ingredients": "Arándano rojo (636 mg), camote silvestre (600 mg), vitamina E (150 mg), isoflavonas de soya (90 mg), vitamina B1 (15 mg), vitamina A (900 mcg), vitamina B12 (12 mcg) por porción.",
+      "benefits": [
+        "Puede ayudar con las molestias de la menopausia con isoflavonas de soya. Camote silvestre y arándano rojo completan la mezcla vegetal.",
+        "Las vitaminas A y E cuidan la piel y las B1 y B12 ayudan al funcionamiento de los nervios."
+      ]
+    },
+    {
+      "id": 81,
+      "ingredients": "Raíz de jengibre (Zingiber officinale) en polvo 1000 mg por porción.",
+      "benefits": [
+        "El jengibre se usa para el bienestar del estómago y puede ayudar con algunas molestias de náusea."
+      ]
+    },
+    {
+      "id": 82,
+      "ingredients": "Aceite de krill (1.2 g) con EPA (400 mg), DHA (200 mg), fosfolípidos (300 mg), astaxantina (30 mg) por cápsula.",
+      "benefits": [
+        "Complementa el cuidado del corazón con EPA y DHA del aceite de krill. Sus fosfolípidos aportan grasas para las células y la astaxantina aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 83,
+      "ingredients": "L-Arginina (2550 mg), L-Ornitina (150 mg) por porción.",
+      "benefits": [
+        "Complementa la alimentación para el ejercicio con L-arginina, que participa en la circulación de la sangre, y L-ornitina, que ayuda al cuerpo a procesar las proteínas."
+      ]
+    },
+    {
+      "id": 84,
+      "ingredients": "L-Carnitina tartrato (240 mg), extracto de guaraná (200 mg), cafeína (180 mg), L-tirosina (80 mg), extracto de Garcinia (50 mg), pimienta cayena (50 mg), vitamina B5 (20 mg), pimienta negra (5 mg), cromo (40 mcg) por porción.",
+      "benefits": [
+        "Ayuda a estar más despierto para entrenar con cafeína y guaraná. L-carnitina tartrato y vitamina B5 ayudan a usar los alimentos para obtener energía.",
+        "L-tirosina, garcinia, pimienta cayena, pimienta negra y cromo completan la fórmula para personas activas."
+      ]
+    },
+    {
+      "id": 85,
+      "ingredients": "Zinc L-carnosina (50 mg, aporta 15 mg de zinc elemental), jengibre en polvo (50 mg), inulina de agave c.s.p. por cápsula.",
+      "benefits": [
+        "Complementa el cuidado de la capa que protege el estómago con zinc L-carnosina. El jengibre acompaña el bienestar digestivo y la inulina de agave aporta fibra."
+      ]
+    },
+    {
+      "id": 86,
+      "ingredients": "Extracto de flor de cempasúchil estandarizado en luteína y zeaxantina.",
+      "benefits": [
+        "Ayuda a complementar el cuidado de la vista con luteína y zeaxantina del extracto de cempasúchil."
+      ]
+    },
+    {
+      "id": 87,
+      "ingredients": "L-Tirosina (350 mg), polvo de arándano azul (100 mg), vitamina C (50 mg) por cápsula.",
+      "benefits": [
+        "Complementa la alimentación en días de mucho trabajo mental con L-tirosina. El arándano azul y la vitamina C aportan antioxidantes para cuidar las células."
+      ]
+    },
+    {
+      "id": 88,
+      "ingredients": "Maca negra (Lepidium meyenii) en polvo 4 g por porción.",
+      "benefits": [
+        "Acompaña la vitalidad de uso tradicional con maca negra en polvo, como complemento de la alimentación."
+      ]
+    },
+    {
+      "id": 89,
+      "ingredients": "Raíz de maca (500 mg), raíz de jengibre (300 mg), hoja de damiana (200 mg) por porción.",
+      "benefits": [
+        "Acompaña la vitalidad con maca y damiana. El jengibre complementa el bienestar del estómago."
+      ]
+    },
+    {
+      "id": 90,
+      "ingredients": "Maca amarilla (600 mg), maca roja (450 mg), maca negra (435 mg), pimienta negra (15 mg) por porción.",
+      "benefits": [
+        "Maca amarilla, roja y negra se usan para la vitalidad. La pimienta negra completa la mezcla."
+      ]
+    },
+    {
+      "id": 91,
+      "ingredients": "Citrato de magnesio (150 mg), gluconato de magnesio (150 mg), óxido de magnesio (150 mg) por cápsula.",
+      "benefits": [
+        "Funcionamiento muscular y nervioso: el magnesio ayuda a la contracción de los músculos y al buen funcionamiento de los nervios.",
+        "Energía diaria: participa en la producción de energía a partir de los alimentos y complementa el aporte de magnesio de la alimentación.",
+        "Reúne citrato, gluconato y óxido como tres fuentes de magnesio en una cápsula."
+      ],
+      "shortDesc": "Combina citrato, gluconato y óxido de magnesio para complementar el aporte de este mineral. El magnesio ayuda al funcionamiento de músculos y nervios y participa en la obtención de energía de los alimentos. Su enfoque es el apoyo general a estas funciones, especialmente cuando la alimentación aporta poco magnesio. Las tres sales son fuentes del mismo mineral; para comparar esta presentación con otras debemos revisar cuánto magnesio elemental aporta la porción.",
+      "benefitSummary": "Tres fuentes de magnesio para músculos, nervios y energía",
+      "researchNote": {
+        "focus": "Aporte general de magnesio para músculos, nervios y energía",
+        "text": "Apoyo a músculos, nervios y energía diaria: el magnesio participa en la contracción muscular, el funcionamiento de los nervios y la producción de energía a partir de los alimentos. Magnesio Blend reúne citrato, gluconato y óxido como tres fuentes del mineral en una cápsula. Su función principal es complementar el aporte de magnesio de la alimentación y acompañar estas funciones cotidianas. Las fuentes explican el papel nutricional del mineral y cómo se interpreta su aporte elemental.",
+        "sources": [
+          {
+            "title": "NIH ODS: funciones, formas y aporte elemental de magnesio",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "ingredients": "Malato de magnesio dibásico (1300 mg, aporta 200 mg de magnesio elemental), avena (20 mg), vitamina B6 como P-5-P (2 mg) por porción.",
+      "benefits": [
+        "Ayuda al funcionamiento de músculos y nervios con magnesio del malato dibásico y vitamina B6 como P-5-P. Incluye una pequeña cantidad de avena."
+      ]
+    },
+    {
+      "id": 93,
+      "ingredients": "Citrato de magnesio (1800 mg), bisglicinato de magnesio (500 mg), vitamina B6 (5 mg), inulina (100 mg) por porción.",
+      "benefits": [
+        "Apoyo muscular durante el día: el magnesio del citrato y el bisglicinato ayuda a músculos y nervios a funcionar bien.",
+        "Aprovechamiento de energía: magnesio y vitamina B6 participan en el uso de los nutrientes y la obtención de energía de los alimentos para la actividad cotidiana.",
+        "La inulina añade una pequeña cantidad de fibra como aporte complementario."
+      ],
+      "shortDesc": "Fórmula de magnesio y vitamina B6 para acompañar el funcionamiento muscular y el aprovechamiento de energía durante la actividad diaria. Combina citrato y bisglicinato de magnesio, mientras que la B6 complementa el funcionamiento de los nervios y el uso de nutrientes. Incluye una pequeña cantidad de inulina como fibra. Su orientación diurna se explica como apoyo nutricional para las actividades cotidianas, sin confundirlo con una bebida energética o un estimulante.",
+      "benefitSummary": "Magnesio y B6 para músculos y actividad diaria",
+      "researchNote": {
+        "focus": "Funcionamiento muscular y aprovechamiento de energía durante el día",
+        "text": "Apoyo muscular y aprovechamiento de energía para la actividad diaria: el magnesio ayuda a músculos y nervios a funcionar bien, mientras que la vitamina B6 participa en el uso de los nutrientes. La fórmula AM combina citrato y bisglicinato de magnesio con B6 para acompañar estas funciones durante el día. La inulina añade un aporte secundario de fibra. Su enfoque se entiende desde la nutrición cotidiana, el movimiento y la obtención de energía de los alimentos.",
+        "sources": [
+          {
+            "title": "NIH ODS: magnesio y funciones musculares y energéticas",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          },
+          {
+            "title": "NIH ODS: vitamina B6 y aprovechamiento de nutrientes",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "ingredients": "Bisglicinato de magnesio (500 mg), citrato de magnesio (400 mg), glicina (450 mg), L-teanina (200 mg), extracto de manzanilla (100 mg), 5-HTP (25 mg), vitamina B6 (2 mg), inulina (100 mg) por porción.",
+      "benefits": [
+        "Calma y preparación para dormir: combina L-teanina, glicina, manzanilla y 5-HTP como parte de su orientación nocturna. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño.",
+        "Funcionamiento de músculos y nervios: el magnesio del bisglicinato y el citrato complementa el aporte de este mineral durante la rutina de descanso.",
+        "La vitamina B6 acompaña el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra."
+      ],
+      "researchNote": {
+        "focus": "Calma y preparación para el descanso nocturno",
+        "text": "Calma y preparación para el descanso nocturno: esta fórmula combina magnesio con L-teanina, glicina, manzanilla y 5-HTP. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño; otro ensayo con bisglicinato de magnesio encontró mejoras en indicadores de descanso. Estas investigaciones sobre ingredientes ayudan a explicar la orientación nocturna de la fórmula. La vitamina B6 complementa el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra.",
+        "sources": [
+          {
+            "title": "L-teanina: ensayo con 200 mg diarios y medidas de sueño",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+          },
+          {
+            "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "ingredients": "Mango africano (150 mg), pinguica (75 mg), diente de león (75 mg), ácido clorogénico (75 mg), extractos cítricos (50 mg), BHB (50 mg) por cápsula.",
+      "benefits": [
+        "Complementa la alimentación para el cuidado del peso con mango africano, extractos cítricos y ácido clorogénico.",
+        "Pingüica y diente de león se usan para el cuidado urinario. La mezcla también contiene BHB."
+      ]
+    },
+    {
+      "id": 96,
+      "ingredients": "Proteína de suero de leche, carbohidratos, fibra, grasas saludables.",
+      "benefits": [
+        "Complementa el aporte de calorías para la ganancia muscular con carbohidratos y grasas, mientras la proteína de suero aporta aminoácidos para los músculos. La fibra acompaña el movimiento del intestino dentro del mismo plan de alimentación y entrenamiento."
+      ]
+    },
+    {
+      "id": 97,
+      "ingredients": "Matcha orgánico en polvo (Camellia sinensis) 100%.",
+      "benefits": [
+        "Ayuda a estar más despierto con cafeína del matcha orgánico. El té verde en polvo también aporta antioxidantes a la bebida."
+      ]
+    },
+    {
+      "id": 98,
+      "ingredients": "Melena de León (Hericium erinaceus) extracto (500 mg), L-Treonato de magnesio (450 mg), quinoa en polvo (50 mg) por porción.",
+      "benefits": [
+        "Se usa para acompañar el cuidado de la atención y la memoria con Melena de León. El magnesio del L-treonato ayuda al funcionamiento de los nervios y la quinoa completa la mezcla."
+      ]
+    },
+    {
+      "id": 99,
+      "ingredients": "Miel de abeja multiflora 100% natural.",
+      "benefits": [
+        "Endulza alimentos y bebidas y aporta energía con miel multiflora. También puede ayudar a suavizar la garganta."
+      ]
+    },
+    {
+      "id": 100,
+      "ingredients": "Hoja de moringa (Moringa oleifera) orgánica en polvo 500 mg por cápsula.",
+      "benefits": [
+        "Complementa una alimentación variada con hoja de moringa orgánica y sus componentes vegetales."
+      ]
+    },
+    {
+      "id": 101,
+      "ingredients": "Ubiquinol (Kaneka QH®) 120 mg, aceite de triglicéridos de cadena media (MCT) 250 mg, lecitina de girasol 25 mg, vitamina E (alfa tocoferol) 10 mg, extracto de romero 5 mg, dióxido de silicio 5 mg por cápsula.",
+      "benefits": [
+        "Ayuda al cuerpo a obtener energía con ubiquinol, una forma de coenzima Q10. Vitamina E y romero ayudan a conservar el aceite.",
+        "El aceite MCT y la lecitina de girasol mantienen el ubiquinol mezclado. El dióxido de silicio facilita la preparación de la cápsula."
+      ]
+    },
+    {
+      "id": 102,
+      "ingredients": "Boswellia serrata extracto (400 mg), extracto de cúrcuma al 95% de curcuminoides (300 mg), vitamina C (100 mg), ácido hialurónico (100 mg), colágeno tipo II no desnaturalizado UC-II® (40 mg), piperina (5 mg) por cápsula.",
+      "benefits": [
+        "Puede ayudar a mantener la comodidad y el movimiento de las articulaciones con colágeno tipo II UC-II®, boswellia y curcumina.",
+        "Vitamina C ayuda a formar colágeno y ácido hialurónico complementa el cuidado articular. La piperina ayuda al aprovechamiento de algunos ingredientes."
+      ]
+    },
+    {
+      "id": 103,
+      "ingredients": "Vinagre de sidra de manzana (ácido acético natural 5%) con la 'madre'.",
+      "benefits": [
+        "Da sabor ácido a aderezos y comidas con vinagre de sidra de manzana y su ácido acético. Contiene la madre del vinagre."
+      ]
+    },
+    {
+      "id": 104,
+      "ingredients": "Vinagre de sidra de manzana en polvo (900 mg), cúrcuma (300 mg), jengibre (180 mg), canela (115 mg), pimienta negra (5 mg) por porción.",
+      "benefits": [
+        "Pesadez después de comer: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago.",
+        "El vinagre de sidra de manzana en polvo, la canela y la pimienta negra completan la mezcla de uso digestivo."
+      ],
+      "shortDesc": "Combina vinagre de sidra de manzana en polvo con especias de uso tradicional digestivo. Jengibre y cúrcuma acompañan la comodidad del estómago después de comer, mientras que canela y pimienta negra completan la fórmula. El enfoque inicial es pesadez y bienestar digestivo. Para ampliar su explicación hacia el cuidado del azúcar y las grasas necesitamos conocer el aporte de ácido acético de la presentación, además de la cantidad de vinagre en polvo."
+    },
+    {
+      "id": 105,
+      "ingredients": "Creatina (120 mg), arginina (108 mg), vitamina C (90 mg), maca negra (66 mg), BCAA's (48 mg), ginseng (30 mg), vitamina K (30 mg), vitaminas B1, B2, B5, B6, B12, vitamina E, magnesio, calcio, cobre, zinc, hierro, vitamina A, biotina, vitamina D3 por cápsula.",
+      "benefits": [
+        "Complementa la alimentación del hombre activo con creatina, arginina y BCAA. Maca negra y ginseng se usan para la vitalidad.",
+        "Las vitaminas B1, B2, B5, B6, B12 y biotina ayudan a aprovechar los alimentos. Hierro y cobre ayudan a transportar oxígeno en la sangre.",
+        "Magnesio, calcio y vitaminas D3 y K ayudan a cuidar músculos y huesos. Vitaminas A y C y zinc apoyan las defensas y la vitamina E aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 106,
+      "ingredients": "Magnesio (70 mg), Tribulus (50 mg), fenogreco (50 mg), damiana (30 mg), Cnidium (30 mg), maca negra (25 mg), L-arginina (25 mg), Mucuna Pruriens (25 mg), avena (25 mg), longjack (25 mg), semilla de calabaza (25 mg), ciruelo africano (25 mg), zinc (10 mg), selenio (10 mcg) por cápsula.",
+      "benefits": [
+        "Complementa el cuidado masculino con magnesio para músculos y nervios, zinc para la función reproductiva y selenio para cuidar las células.",
+        "Tribulus, fenogreco, damiana, Cnidium, maca negra, Mucuna pruriens y longjack se usan para la vitalidad masculina.",
+        "Semilla de calabaza y ciruelo africano acompañan el cuidado urinario. L-arginina y avena completan la mezcla."
+      ]
+    },
+    {
+      "id": 107,
+      "ingredients": "Colágeno (150 mg), maca amarilla (100 mg), arándano (75 mg), vitamina C (60 mg), semilla de uva (35 mg), vitamina E (14 mg), vitaminas B1, B2, B5, B6, ácido hialurónico, calcio, magnesio, zinc, cobre, hierro, vitamina A, biotina, vitamina K, vitamina D3 por cápsula.",
+      "benefits": [
+        "Ayuda a cuidar la piel con colágeno, vitamina C y ácido hialurónico. Arándano, semilla de uva y vitamina E aportan antioxidantes.",
+        "Vitaminas B1, B2, B5, B6 y biotina ayudan a aprovechar los alimentos. Hierro y cobre ayudan a formar glóbulos rojos. Maca amarilla se usa para la vitalidad.",
+        "Vitamina A y zinc ayudan a cuidar la piel. Calcio, magnesio y vitaminas D3 y K ayudan a cuidar huesos y músculos."
+      ]
+    },
+    {
+      "id": 108,
+      "ingredients": "Vitamina C (como ácido ascórbico) 1000 mg, complejo de bioflavonoides cítricos 100 mg, polvo de rutina (de Sophora japonica) 25 mg por cápsula.",
+      "benefits": [
+        "Apoya las defensas y la formación de colágeno con vitamina C. El complejo de bioflavonoides cítricos y la rutina de Sophora japonica complementan el aporte de antioxidantes."
+      ]
+    },
+    {
+      "id": 109,
+      "ingredients": "Aceite de pulpa de coco en polvo (450 mg), óxido de magnesio (200 mg, aporta 120 mg de Mg elemental), óxido de zinc (20 mg, aporta 16 mg de Zn elemental), vitamina K2 (30 mcg), vitamina D3 (10 mcg / 400 UI) por cápsula.",
+      "benefits": [
+        "Ayuda a cuidar los huesos con vitamina D3, que ayuda a absorber calcio, y K2. El magnesio también ayuda al funcionamiento de los músculos.",
+        "Zinc y vitamina D3 apoyan las defensas. El aceite de pulpa de coco en polvo completa la mezcla."
+      ]
+    },
+    {
+      "id": 110,
+      "ingredients": "Vitamina E (dl-alfa tocoferol acetato) 66 mg (66 UI), aceite de germen de trigo.",
+      "benefits": [
+        "La vitamina E aporta antioxidantes para cuidar las células. El aceite de germen de trigo sirve de base para preparar la cápsula."
+      ]
+    },
+    {
+      "id": 111,
+      "ingredients": "Proteína hidrolizada de suero de leche (25 g de proteína por porción).",
+      "benefits": [
+        "Apoya el cuidado y recuperación de los músculos con proteína hidrolizada de suero de leche, que aporta aminoácidos como complemento de la alimentación y el entrenamiento."
+      ]
+    },
+    {
+      "id": 112,
+      "ingredients": "Aislado de suero de leche al 90% (Microfiltración de Flujo Cruzado).",
+      "benefits": [
+        "Apoya el cuidado y recuperación de los músculos con aislado de proteína de suero de leche al 90 %, que complementa el aporte diario de aminoácidos."
+      ]
+    },
+    {
+      "id": 113,
+      "ingredients": "Aislado de proteína de suero de leche (29 g de proteína por porción).",
+      "benefits": [
+        "Apoya el cuidado y recuperación de los músculos con aislado de proteína de suero de leche y sus 29 g de proteína declarados por porción, dentro de un plan de alimentación y entrenamiento."
+      ]
+    },
+    {
+      "id": 114,
+      "ingredients": "Espirulina (140 mg), raíz de tejocote (120 mg), piña (70 mg), nopal (70 mg), vitamina C (50 mg), vitamina A (900 mcg) por cápsula.",
+      "benefits": [
+        "Ayuda a las defensas con vitaminas A y C. La espirulina complementa la alimentación, y piña y nopal acompañan el cuidado digestivo.",
+        "La mezcla también contiene raíz de tejocote."
+      ]
+    },
+    {
+      "id": 115,
+      "ingredients": "Guatteria gaumeri TM (Tintura Madre) 100 ml por 100 ml.",
+      "benefits": [
+        "Preparación de yumel Guatteria gaumeri en gotas. Consultar su uso con un profesional."
+      ]
+    },
+    {
+      "id": 116,
+      "ingredients": "N-Acetilcisteína (NAC) 1000 mg por porción (2 cápsulas).",
+      "benefits": [
+        "Ayuda a cuidar las células con NAC, que el cuerpo usa para producir su propio antioxidante, el glutatión."
+      ]
+    },
+    {
+      "id": 117,
+      "ingredients": "NAD (300 mg), estearato de magnesio (100 mg), resveratrol (50 mg), baya de acai (50 mg) por cápsula.",
+      "benefits": [
+        "Complementa la alimentación con NAD. Resveratrol y baya de acai aportan antioxidantes para cuidar las células.",
+        "El estearato de magnesio facilita la preparación de la cápsula."
+      ]
+    },
+    {
+      "id": 118,
+      "ingredients": "Neem (750 mg), nopal (600 mg), ácido alfa lipoico (150 mg) por porción.",
+      "benefits": [
+        "Complementa el cuidado de la alimentación con nopal y neem. El ácido alfa lipoico aporta antioxidantes para cuidar las células."
+      ]
+    },
+    {
+      "id": 119,
+      "ingredients": "β-Nicotinamida mononucleótido (NMN) 300 mg, trans-resveratrol 100 mg, astrágalo 100 mg, quercetina 45 mg, extracto de pimienta negra 5 mg por cápsula.",
+      "benefits": [
+        "Complementa la alimentación con NMN. Trans-resveratrol y quercetina aportan antioxidantes para cuidar las células.",
+        "El astrágalo se usa para la vitalidad. El extracto de pimienta negra ayuda al aprovechamiento de algunos ingredientes."
+      ]
+    },
+    {
+      "id": 120,
+      "ingredients": "Aceite de salmón concentrado (Omega 3 total 2998.8 mg: EPA 1198.8 mg, DHA 601.2 mg), vitamina E (α-tocoferol) 100.8 mg por porción.",
+      "benefits": [
+        "Complementa el cuidado del corazón con EPA y DHA del aceite de salmón. La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger las grasas de la preparación."
+      ]
+    },
+    {
+      "id": 122,
+      "ingredients": "Aceite de salmón (1000 mg), vitamina E (150 mg), EPA (180 mg), DHA (150 mg) por cápsula.",
+      "benefits": [
+        "Complementa el cuidado del corazón con EPA y DHA del aceite de salmón. La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger las grasas de la preparación."
+      ]
+    },
+    {
+      "id": 123,
+      "ingredients": "Aceite de pescado concentrado EPAX® (3000 mg), EPA (900 mg), DHA (600 mg) por porción.",
+      "benefits": [
+        "Complementa el cuidado del corazón con grasas EPA y DHA del aceite de pescado concentrado EPAX®."
+      ]
+    },
+    {
+      "id": 124,
+      "ingredients": "Extractos de diente de león, guanábana, shiitake, reishi, té verde, jengibre, ajo, polen de flores (cantidades no especificadas).",
+      "benefits": [
+        "Aporte de hongos: reishi y shiitake contienen componentes naturales como beta-glucanos y complementan la mezcla alimentaria.",
+        "Compuestos antioxidantes: té verde y ajo aportan componentes vegetales a la fórmula.",
+        "Bienestar digestivo: jengibre y diente de león se usan tradicionalmente para acompañar la comodidad del estómago.",
+        "Apoyo diurético: el diente de león se usa tradicionalmente para favorecer la eliminación de orina.",
+        "Apoyo hepatobiliar: el diente de león tiene uso tradicional para favorecer la secreción de bilis, que participa en la digestión de las grasas.",
+        "Investigación de sus ingredientes: en modelos experimentales, extractos específicos de diente de león, té verde, reishi y guanábana se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Estos hallazgos corresponden a ingredientes con preparaciones y concentraciones definidas; su incorporación durante tratamiento requiere revisión del oncólogo.",
+        "Complemento vegetal: polen de flores y guanábana completan la mezcla de ingredientes."
+      ],
+      "shortDesc": "Mezcla de reishi y shiitake con plantas para complementar la alimentación. Los hongos contienen beta-glucanos; el té verde y el ajo aportan compuestos antioxidantes. Jengibre y diente de león acompañan el bienestar digestivo. El diente de león también tiene uso tradicional como apoyo diurético y hepatobiliar, para favorecer la eliminación de orina y la secreción de bilis, que ayuda a digerir grasas. Polen de flores y guanábana completan la mezcla. Durante un tratamiento oncológico, consulta al oncólogo antes de incorporarlo, porque los extractos y suplementos pueden interferir con algunos tratamientos.",
+      "benefitSummary": "Hongos y plantas para complementar la alimentación y el bienestar digestivo",
+      "interactions": "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no iniciar este suplemento sin revisión del oncólogo: sus extractos pueden interferir con algunos tratamientos. Revisar también su combinación con anticoagulantes, inmunosupresores, antidiabéticos y diuréticos. El polen puede causar una reacción alérgica en personas sensibles.",
+      "reviewNotes": [
+        "No se agrega licopeno: no figura en los ingredientes registrados.",
+        "No se extrapolan resultados sobre preparados específicos de hongos a esta mezcla sin cantidades ni estandarización declaradas.",
+        "No se atribuye prevención de infecciones, protección frente a quimioterapia ni tratamiento de fatiga, apetito o estado de ánimo.",
+        "La incorporación durante tratamiento oncológico requiere revisión del equipo tratante.",
+        "Se explica el uso tradicional diurético y hepatobiliar del diente de león como aporte complementario; la ficha no especifica parte vegetal, cantidad o estandarización del extracto. Se añaden precauciones biliares y revisión de diuréticos.",
+        "El 12 de noviembre se añade un apartado separado de investigación experimental sobre ingredientes, visible en ficha, impresión y comparación; no se incorpora como beneficio anticancerígeno del producto.",
+        "Por solicitud del usuario, la nota se muestra dentro de Beneficios clave en ficha, impresión y comparación, con el subtítulo Investigación experimental de los ingredientes y conservando las limitaciones del hallazgo. Se retira el encabezado Para la capacitación."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud. Por el diente de león, no usar sin valoración médica si hay cálculos u obstrucción de las vías biliares, enfermedad del hígado o indicación de restringir líquidos.",
+      "researchNote": {
+        "text": "Complemento de hongos y plantas para la alimentación y el bienestar digestivo: reishi y shiitake aportan componentes propios de los hongos, como beta-glucanos; té verde y ajo complementan el aporte de antioxidantes. El diente de león acompaña el uso tradicional digestivo, diurético y hepatobiliar. En modelos experimentales, extractos específicos de algunos de estos ingredientes se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Este apartado describe investigación sobre ingredientes con preparaciones y concentraciones definidas. Su incorporación durante tratamiento oncológico requiere revisión del oncólogo.",
+        "sources": [
+          {
+            "title": "Diente de león: estudio en células y modelos animales de cáncer de colon",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27564258/"
+          },
+          {
+            "title": "Té verde: estudio sobre apoptosis en células cancerosas en laboratorio",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9600345/"
+          },
+          {
+            "title": "Reishi: estudio de un preparado específico en células tumorales",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31637001/"
+          },
+          {
+            "title": "Guanábana: información del Memorial Sloan Kettering Cancer Center",
+            "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+          }
+        ],
+        "focus": "Hongos y plantas para complementar la alimentación y el bienestar digestivo"
+      }
+    },
+    {
+      "id": 125,
+      "ingredients": "Péptidos de colágeno hidrolizado bovino 100%.",
+      "benefits": [
+        "Complementa el cuidado de piel y articulaciones con péptidos de colágeno bovino, que aportan materiales para cuidar la piel y los músculos."
+      ]
+    },
+    {
+      "id": 126,
+      "ingredients": "Péptidos de colágeno hidrolizado bovino (10.5 g), ácido hialurónico (500 mg) por porción.",
+      "benefits": [
+        "Aporta proteína de péptidos de colágeno bovino para cuidar piel y articulaciones. El ácido hialurónico complementa el cuidado de la hidratación de la piel."
+      ]
+    },
+    {
+      "id": 127,
+      "ingredients": "Vitamina C (300 mg), zinc (10 mg), cromo (22 µg), polvo de fruto de naranja, polvo de pétalos de rosa por cápsula.",
+      "benefits": [
+        "Ayuda a las defensas y al cuidado de la piel con vitamina C y zinc. Vitamina C también ayuda a formar colágeno y cromo a aprovechar los alimentos.",
+        "Polvo de naranja y pétalos de rosa completan el aporte vegetal."
+      ]
+    },
+    {
+      "id": 128,
+      "ingredients": "Citrato de potasio (1400 mg), cloruro de potasio (150 mg), potasio elemental (500 mg), citrato de magnesio (200 mg), citrato de calcio (200 mg), calcio elemental (40 mg), cloro (75 mg), vitamina B6 (2 mg), inulina de raíz de achicoria (100 mg) por porción.",
+      "benefits": [
+        "Ayuda a músculos y nervios a funcionar bien y a mantener el equilibrio de agua con potasio del citrato y cloruro, y cloro.",
+        "Magnesio del citrato, calcio del citrato y vitamina B6 complementan el cuidado de músculos y nervios. Incluye una pequeña cantidad de inulina de achicoria como fibra."
+      ]
+    },
+    {
+      "id": 129,
+      "ingredients": "Lactobacillus acidophilus (48.67 billones UFC, 365 mg), Lactobacillus sporogenes (8 billones UFC, 60 mg), Lactobacillus rhamnosus (3.33 billones UFC, 60 mg), inulina de agave (20 mg) por cápsula.",
+      "benefits": [
+        "Complementa el cuidado intestinal con Lactobacillus acidophilus, Lactobacillus sporogenes y Lactobacillus rhamnosus, bacterias que se usan como probióticos.",
+        "Incluye una pequeña cantidad de inulina de agave, fibra que alimenta a las bacterias buenas del intestino."
+      ]
+    },
+    {
+      "id": 130,
+      "ingredients": "Mezcla probiótica (60 billones UFC, 925 mg), vitamina C (55 mg), arándano rojo en polvo (10 mg), inulina de achicoria (10 mg) por porción.",
+      "benefits": [
+        "Complementa el cuidado intestinal con probióticos y una pequeña cantidad de fibra de inulina de achicoria.",
+        "La vitamina C apoya las defensas. Incluye una pequeña cantidad de arándano rojo para completar la mezcla femenina."
+      ]
+    },
+    {
+      "id": 131,
+      "ingredients": "Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 61.3 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 61.3 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 61.3 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 61.3 mg), Lactobacillus casei BGP 93 (25 billones UFC, 61.3 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 61.3 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 61.3 mg), inulina de agave (10 mg) por cápsula.",
+      "benefits": [
+        "Complementa el cuidado intestinal con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
+        "Incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4. La inulina de agave añade una pequeña cantidad de fibra."
+      ]
+    },
+    {
+      "id": 132,
+      "ingredients": "Acetil L-carnitina, extracto de té verde, chá de bugre, vinagre de manzana, alcachofa, papaína, ciruela pasa, jamaica, lúpulo, espirulina, cromo (cantidades no especificadas).",
+      "benefits": [
+        "Acompaña el bienestar digestivo con alcachofa y ciruela pasa. La papaína ayuda a digerir proteínas. Vinagre de manzana, jamaica y lúpulo completan la mezcla.",
+        "Acetil L-carnitina y cromo ayudan a usar los alimentos para obtener energía. Té verde, chá de bugre y espirulina completan el aporte vegetal."
+      ]
+    },
+    {
+      "id": 133,
+      "ingredients": "Raíz de lima, linaza, malva, complejo de omegas 3,6,9, lecitina de soya (cantidades no especificadas).",
+      "benefits": [
+        "Complementa el bienestar digestivo con linaza como fuente vegetal de fibra y malva de uso tradicional. Raíz de lima, lecitina de soya y omegas 3, 6 y 9 completan la mezcla vegetal y de grasas."
+      ]
+    },
+    {
+      "id": 134,
+      "ingredients": "Proteína de chícharo y arroz (22.3 g), BCAA's (6 g), probióticos (610 millones UFC), cacao en polvo por porción.",
+      "benefits": [
+        "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz y BCAA.",
+        "Los probióticos acompañan el cuidado intestinal y el cacao aporta sabor y antioxidantes."
+      ]
+    },
+    {
+      "id": 135,
+      "ingredients": "Proteína de chícharo y arroz (22.3 g), BCAA's (6 g), probióticos (610 millones UFC), extracto natural de vainilla y stevia por porción.",
+      "benefits": [
+        "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz y BCAA.",
+        "Los probióticos acompañan el cuidado intestinal. Vainilla natural y stevia dan sabor y dulzor."
+      ]
+    },
+    {
+      "id": 136,
+      "ingredients": "Baya dorada (200 mg), coenzima Q10 (120 mg), harina de arroz (120 mg), vitamina B6 (10 mg), silicato de calcio (50 mg) por cápsula.",
+      "benefits": [
+        "Ayuda al cuerpo a obtener energía con coenzima Q10 y vitamina B6. La baya dorada completa el aporte vegetal.",
+        "Harina de arroz da volumen y silicato de calcio evita que el polvo se apelmace."
+      ]
+    },
+    {
+      "id": 137,
+      "ingredients": "Polvo de raíz de shatavari (500 mg), polvo de fruto de schisandra (350 mg), jalea real en polvo (50 mg), estearato de magnesio (100 mg) por cápsula.",
+      "benefits": [
+        "Shatavari y schisandra se usan para acompañar la vitalidad femenina. La jalea real completa el aporte alimentario.",
+        "El estearato de magnesio facilita la preparación de la cápsula."
+      ]
+    },
+    {
+      "id": 138,
+      "ingredients": "Resveratrol (250 mg), extracto de semilla de uva (150 mg), vitamina C (50 mg), extracto de acai (50 mg) por cápsula.",
+      "benefits": [
+        "Aporta antioxidantes de resveratrol, semilla de uva, acai y vitamina C para cuidar las células. La vitamina C también ayuda a las defensas y a formar colágeno."
+      ]
+    },
+    {
+      "id": 139,
+      "ingredients": "Palo azul, cola de caballo, cabellos de elote (estimado 300 mg cada uno), zinc (~10 mg), selenio (~55 µg) por porción.",
+      "benefits": [
+        "Acompaña el cuidado urinario tradicional con palo azul, cola de caballo y cabellos de elote. Zinc y selenio complementan el cuidado nutricional celular."
+      ]
+    },
+    {
+      "id": 140,
+      "ingredients": "Agua purificada, pulpa de sábila, pulpa de nopal, corteza de cuachalalate, ácido cítrico, ácido ascórbico (vitamina C), benzoato de sodio. Sin aloína.",
+      "benefits": [
+        "Sábila, nopal y cuachalalate se usan para el bienestar digestivo. El ácido ascórbico añade vitamina C.",
+        "Agua purificada diluye los ingredientes, ácido cítrico ajusta la acidez y benzoato de sodio conserva la bebida."
+      ]
+    },
+    {
+      "id": 141,
+      "ingredients": "Aloe vera (500 mg), cardamomo (500 mg), jengibre (250 mg), agave azul (100 mg), magnesio (100 mg), vitamina B6 (10 mg), colpachi, vitamina B12, zinc, selenio por porción.",
+      "benefits": [
+        "Bienestar después de comer: aloe vera, cardamomo, jengibre y colpachi se usan tradicionalmente para acompañar la comodidad del estómago, los gases y la pesadez. El agave azul completa la mezcla vegetal.",
+        "Magnesio y vitaminas B6 y B12 ayudan al funcionamiento de músculos y nervios. Zinc y selenio complementan el cuidado de las células."
+      ],
+      "shortDesc": "Fórmula para acompañar la comodidad del estómago y el bienestar después de comer. Combina aloe vera, cardamomo, jengibre y colpachi, plantas de uso tradicional digestivo, con agave azul. Magnesio y vitaminas B6 y B12 complementan el funcionamiento de músculos y nervios, mientras que zinc y selenio acompañan el cuidado celular. Su explicación destaca molestias concretas como gases y pesadez, distinguiéndolas de enfermedades como gastritis o colitis.",
+      "benefitSummary": "Comodidad del estómago, gases y pesadez después de comer"
+    },
+    {
+      "id": 142,
+      "ingredients": "Levadura de selenio (aporta 100 mcg de selenio por tableta), estearato de magnesio, celulosa microcristalina, fosfato dibásico de calcio.",
+      "benefits": [
+        "El selenio de levadura ayuda a las defensas, al funcionamiento de la tiroides y al cuidado de las células.",
+        "Estearato de magnesio, celulosa microcristalina y fosfato dibásico de calcio ayudan a dar forma a la tableta."
+      ]
+    },
+    {
+      "id": 143,
+      "ingredients": "Shilajit (300 mg), tongkat ali (300 mg), maca (300 mg), tribulus terrestris (279 mg), vitamina B6 (10 mg), zinc (10 mg), vitamina D3 (10 mcg) por porción.",
+      "benefits": [
+        "Shilajit, tongkat ali, maca y tribulus terrestris se usan para la vitalidad masculina.",
+        "El zinc apoya la función reproductiva normal. La vitamina B6 ayuda a obtener energía de los alimentos y la D3 al funcionamiento de los músculos."
+      ]
+    },
+    {
+      "id": 144,
+      "ingredients": "Fenolftaleína amarilla SM 100 mg por tableta.",
+      "benefits": [
+        "Contiene fenolftaleína amarilla SM, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
+      ]
+    },
+    {
+      "id": 145,
+      "ingredients": "Lecitina de soya (1200 mg), colina bitartrato (100 mg), jengibre en polvo (50 mg), inulina de agave c.s.p. por porción.",
+      "benefits": [
+        "Cuidado de las células: la lecitina de soya aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro, el hígado y otros órganos.",
+        "Metabolismo de las grasas e hígado: la colina participa en el transporte y aprovechamiento de las grasas y apoya el funcionamiento normal del hígado.",
+        "Memoria y aprendizaje: la colina del bitartrato y de la lecitina ayuda a producir acetilcolina, que el cerebro utiliza en estas funciones.",
+        "Bienestar digestivo: el jengibre acompaña la comodidad del estómago y la inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino."
+      ],
+      "shortDesc": "Combina lecitina de soya y colina para apoyar el manejo de las grasas, el funcionamiento del hígado y el cuidado de las células. La lecitina aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro y otros órganos. La colina también ayuda a producir acetilcolina, que participa en la memoria y el aprendizaje. El jengibre acompaña la comodidad del estómago y la inulina de agave aporta fibra para las bacterias buenas del intestino.",
+      "benefitSummary": "Cuidado celular, metabolismo de las grasas y apoyo a la memoria",
+      "researchNote": {
+        "focus": "Manejo de grasas, hígado y función cerebral",
+        "text": "Apoyo al manejo de las grasas, al hígado y a la función cerebral: la colina participa en el transporte de grasas desde el hígado y, junto con los fosfolípidos de la lecitina, aporta materiales para la cubierta de las células. También permite producir acetilcolina, que el cerebro utiliza en la memoria y el aprendizaje. La fórmula combina lecitina de soya con colina bitartrato, mientras que jengibre e inulina acompañan el bienestar digestivo. Estas funciones nutricionales explican el interés de sus ingredientes dentro del enfoque del producto.",
+        "sources": [
+          {
+            "title": "NIH ODS: colina, metabolismo de grasas, hígado y función cerebral",
+            "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 146,
+      "ingredients": "Pulpa de piña (20%), linaza (20%), té verde (20%), té rojo (20%), té blanco (20%).",
+      "benefits": [
+        "Infusión de piña y linaza para acompañar una rutina de bienestar digestivo. Los tés verde, rojo y blanco aportan cafeína y antioxidantes."
+      ]
+    },
+    {
+      "id": 147,
+      "ingredients": "Vitamina B1 (tiamina), vitamina E, ácido fólico, CoQ10, cafeína, jalea real, polen de flores, lecitina de soya, miel de abeja, guaraná, gluconato de calcio, sulfato de magnesio.",
+      "benefits": [
+        "Ayuda a obtener energía de los alimentos con tiamina B1 y coenzima Q10. Ácido fólico ayuda a formar glóbulos rojos.",
+        "Cafeína y guaraná ayudan a estar más despierto. Vitamina E, lecitina de soya, jalea real y polen de flores completan la mezcla.",
+        "Calcio del gluconato y magnesio del sulfato ayudan a músculos y nervios. Miel de abeja aporta dulzor y energía."
+      ]
+    },
+    {
+      "id": 148,
+      "ingredients": "Hierba del Sapo (Eryngium carlinae) en polvo 100% (1.5 g por porción).",
+      "benefits": [
+        "Reúne hierba del sapo en polvo que se usa para el bienestar digestivo."
+      ]
+    },
+    {
+      "id": 149,
+      "ingredients": "L-Treonato de magnesio (288 mg), vitamina C (137.06 mg), vitamina D (0.01 mcg) por porción.",
+      "benefits": [
+        "Ayuda al funcionamiento de los nervios con magnesio del L-treonato. La vitamina C aporta antioxidantes y ayuda a formar colágeno.",
+        "Incluye una cantidad muy pequeña de vitamina D."
+      ]
+    },
+    {
+      "id": 150,
+      "ingredients": "L-Triptófano (300 mg), azahar (100 mg), teanina (100 mg), vitamina D3 (10 mcg) por cápsula.",
+      "benefits": [
+        "Puede ayudar a relajarse y prepararse para dormir con L-triptófano, teanina y azahar.",
+        "La vitamina D3 complementa el cuidado de músculos y defensas."
+      ]
+    },
+    {
+      "id": 151,
+      "ingredients": "Inulina (1500 mg), FOS (1000 mg), fibra de acacia (500 mg), espinaca (200 mg), apio (200 mg), pepino (200 mg), nopal (200 mg), piña (300 mg), alfalfa (100 mg), extracto de té verde (200 mg), extracto de aloe vera (200 mg), cúrcuma (200 mg), jengibre (150 mg), extracto de alcachofa (100 mg), guaraná (100 mg), clorofila (50 mg), pimienta negra (5 mg), bromelina (30 mg), papaína (30 mg), enzimas vegetales (40 mg), Lactobacillus rhamnosus GG (3×10⁶ UFC), Bifidobacterium bifidum (2×10⁶ UFC) por porción.",
+      "benefits": [
+        "Aporta fibra para el cuidado intestinal con inulina, FOS y acacia. Incluye los probióticos Lactobacillus rhamnosus GG y Bifidobacterium bifidum.",
+        "Bromelina, papaína y otras enzimas vegetales ayudan a digerir los alimentos. Jengibre, cúrcuma, alcachofa y aloe vera se usan para el bienestar digestivo.",
+        "Espinaca, apio, pepino, nopal, piña y alfalfa completan el aporte vegetal. Té verde y guaraná pueden aportar cafeína. La mezcla incluye clorofila y pimienta negra."
+      ]
+    },
+    {
+      "id": 152,
+      "ingredients": "Raíz de jengibre (Zingiber officinale) en polvo (400 mg), zinc elemental (20 mg, como gluconato, citrato u óxido) por cápsula.",
+      "benefits": [
+        "El zinc ayuda a las defensas y al cuidado de la piel. El jengibre se usa para el bienestar del estómago."
+      ]
+    },
+    {
+      "id": 153,
+      "ingredients": "Zinc elemental 20 mg (como gluconato, citrato u óxido) por cápsula.",
+      "benefits": [
+        "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc de gluconato, citrato u óxido."
+      ]
+    },
+    {
+      "id": 154,
+      "ingredients": "Citrato de calcio (1,000 mg por porción), extracto de avena (Avena sativa L.) (20 mg), vitamina D3 (colecalciferol) (10 µg / 400 UI).",
+      "benefits": [
+        "Apoya el mantenimiento de huesos y el funcionamiento de los músculos con calcio del citrato y vitamina D3, que participa en su absorción. El extracto de avena completa la fórmula en cantidad pequeña."
+      ]
+    },
+    {
+      "id": 155,
+      "ingredients": "Miel de abeja, propóleo, extractos de: eucalipto (Eucalyptus), bugambilia (Bougainvillea), gordolobo (Verbascum thapsus), fenogreco (Trigonella foenum-graecum), saúco (Sambucus), malva (Malva sylvestris), mentol, esencia de miel, vitamina C (ácido ascórbico).",
+      "benefits": [
+        "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva complementan el cuidado de la garganta.",
+        "Eucalipto y mentol aportan sensación de frescura. La vitamina C acompaña las defensas y la esencia de miel el sabor."
+      ]
+    },
+    {
+      "id": 156,
+      "ingredients": "Miel de abeja, propóleo, extractos de: gordolobo (Verbascum thapsus), ajo negro (Allium nigrum), orégano (Origanum vulgare), bugambilia (Bougainvillea), fenogreco (Trigonella foenum-graecum), eucalipto (Eucalyptus), saúco (Sambucus), malva rosa (Alcea rosea), mentol, vitamina C (ácido ascórbico).",
+      "benefits": [
+        "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva rosa completan el cuidado de la garganta.",
+        "Ajo negro y orégano añaden compuestos vegetales. Eucalipto y mentol dan sensación de frescura y vitamina C acompaña las defensas."
+      ]
+    },
+    {
+      "id": 157,
+      "ingredients": "Metilsulfonilmetano (MSM) (125 mg), glucosamina (100 mg), cúrcuma (Curcuma longa) (100 mg), nogal (Juglans regia) (50 mg), vitamina C (30 mg), calcio (40 mg), magnesio (30 mg), vitamina B2 (riboflavina) (2 mg), vitamina B6 (piridoxina) (2 mg), zinc (10 mg), hierro (5 mg), potasio (5 mg), vitamina B12 (cianocobalamina) (100 µg), fósforo (0.9 mg).",
+      "benefits": [
+        "MSM, glucosamina y cúrcuma acompañan el cuidado de las articulaciones. Nogal completa la mezcla vegetal y vitamina C ayuda a formar colágeno.",
+        "Calcio, magnesio, potasio y fósforo ayudan al funcionamiento de músculos y huesos. Zinc ayuda a cuidar la piel.",
+        "Vitaminas B2, B6 y B12 e hierro ayudan a aprovechar los alimentos y a formar glóbulos rojos para la actividad diaria."
+      ]
+    },
+    {
+      "id": 158,
+      "ingredients": "Concentrado de proteína vegetal (chícharo y arroz integral), cocoa, aminoácidos de cadena ramificada (leucina, isoleucina y valina), sabor natural cacao, sal rosa del Himalaya, probióticos (Lactobacillus acidophilus y Bifidobacterium bifidum) y stevia (Stevia rebaudiana).",
+      "benefits": [
+        "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz integral y BCAA leucina, isoleucina y valina.",
+        "Lactobacillus acidophilus y Bifidobacterium bifidum acompañan el cuidado intestinal. Cocoa, sabor natural cacao, sal rosa y stevia dan sabor y dulzor."
+      ]
+    },
+    {
+      "id": 159,
+      "ingredients": "Glicina, ácido ascórbico (vitamina C), glutamina, carbonato de calcio, fosfato de potasio, sulfato de magnesio, niacina (vitamina B3), D-tocoferol acetato (vitamina E), pantotenato de calcio (vitamina B5), sulfato ferroso, riboflavina (vitamina B2), tiamina (vitamina B1), óxido de zinc, sulfato de manganeso, gluconato de cobre, retinol palmitato (vitamina A), ácido fólico, biotina, filoquinona (vitamina K), colecalciferol (vitamina D3) y cianocobalamina (vitamina B12).",
+      "benefits": [
+        "Complementa la alimentación para el ejercicio con glicina y glutamina. Vitaminas B1, B2, B3, B5, B12, biotina y ácido fólico ayudan a obtener energía y a formar glóbulos rojos.",
+        "Calcio del carbonato, potasio y fósforo del fosfato, magnesio del sulfato y vitaminas D3 y K ayudan a cuidar músculos y huesos.",
+        "Hierro y cobre ayudan a transportar oxígeno y manganeso a cuidar los huesos. Vitaminas A y C y zinc apoyan las defensas y vitamina E aporta antioxidantes."
+      ]
+    },
+    {
+      "id": 160,
+      "ingredients": "Ésteres de ácidos grasos de cadena media (ácido caprílico 98%) extraído de aceite de coco.",
+      "benefits": [
+        "Complementa el aporte de energía con grasas MCT de aceite de coco, principalmente ácido caprílico."
+      ]
+    },
+    {
+      "id": 161,
+      "ingredients": "Polvo de hoja de té verde (Camellia sinensis) (620 mg), polvo de raíz de zarzaparrilla (Smilax aristolochiaefolia) (100 mg), polvo de hoja de toronjil (Melissa officinalis) (100 mg), mezcla HGO: polvo de hoja de damiana de campo (Turnera diffusa), polvo de semilla de guaraná (Paullinia cupana) (10 mg), polvo de raíz de rodiola rosea (Rhodiola rosea) (3.4 mg), polvo de flor de castilla, polvo de fruto de schisandra (Schisandra chinensis).",
+      "benefits": [
+        "Puede ayudar a estar más despierto con té verde y guaraná. Rhodiola, schisandra y damiana de campo se usan para la vitalidad.",
+        "El toronjil se usa para la calma y el bienestar digestivo. Zarzaparrilla y flor de castilla completan la mezcla."
+      ]
+    },
+    {
+      "id": 163,
+      "ingredients": "Extracto de Ashwagandha (Withania somnifera) estandarizado al 2.5% de withanólidos (600 mg por porción diaria), L-Teanina (200 mg por porción diaria), Bisglicinato de Magnesio (aporta 225 mg de magnesio elemental por porción diaria).",
+      "benefits": [
+        "Puede acompañar la calma y la rutina de descanso con ashwagandha y L-teanina. El magnesio del bisglicinato complementa el funcionamiento normal de los nervios y músculos."
+      ]
+    },
+    {
+      "id": 164,
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), jugo de nopal (Opuntia ficus-indica), extracto de cuachalalate (Amphipterygium adstringens), ácido ascórbico (vitamina C).",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con aloe vera, nopal y cuachalalate. La vitamina C complementa el cuidado de tejidos y las defensas."
+      ]
+    },
+    {
+      "id": 165,
+      "ingredients": "Hojas de té verde (Camellia sinensis).",
+      "benefits": [
+        "Ayuda a estar más despierto con cafeína de las hojas de té verde y complementa el aporte de antioxidantes de la alimentación."
+      ]
+    },
+    {
+      "id": 166,
+      "ingredients": "Vitamina D3 (colecalciferol) (125 µg / 5000 UI), aceite de olivo (Olea europaea) (400 mg), avena en polvo (Avena sativa) (100 mg).",
+      "benefits": [
+        "Apoya huesos, músculos y defensas con vitamina D3. El aceite de olivo actúa como base de aceite de la preparación y la avena completa la mezcla en cantidad pequeña."
+      ]
+    },
+    {
+      "id": 167,
+      "ingredients": "Agua, extracto de árnica (Heterotheca inuloides), salicilato de metilo, glucosamina, trietanolamina, ácido esteárico, carbomero, glicerina, monoesterato de sorbitan, aceite mineral, mentol natural, alcohol, parafina, alcohol bencílico, DMDM hidantoína, fenoxietanol, hidroxiacetofenona, color azul #1.",
+      "benefits": [
+        "Acompaña el masaje y la comodidad en la zona del masaje con salicilato de metilo, mentol y extracto de árnica. La glucosamina completa la preparación.",
+        "La glicerina ayuda a retener humedad. Aceite mineral, parafina, ácido esteárico y monoestearato de sorbitan dan suavidad y consistencia. Agua y alcohol sirven para diluir los ingredientes, y carbomero y trietanolamina ajustan el gel.",
+        "Alcohol bencílico, DMDM hidantoína, fenoxietanol e hidroxiacetofenona conservan la preparación. Azul #1 aporta color y no un efecto sobre el dolor."
+      ]
+    },
+    {
+      "id": 168,
+      "ingredients": "Polen de flores, Omega 3 (150 mg), vitamina E (50 mg), zinc (20 mg), licopeno (10 mg), vitamina B6 (10 mg), polen de flores, pelos de elote, perejil, buchu, pygeum (en cantidades no especificadas).",
+      "benefits": [
+        "Acompaña el cuidado de la próstata y la comodidad al orinar con pygeum y polen de flores. Pelos de elote, perejil y buchu se usan para el cuidado urinario.",
+        "Omega 3 aporta grasas para las células, licopeno y vitamina E aportan antioxidantes, y zinc y vitamina B6 complementan el cuidado masculino."
+      ]
+    },
+    {
+      "id": 169,
+      "ingredients": "Yerbaniz (Tagetes lucida), flor de manzanilla (Chamaemelum nobile), zapote blanco (Casimiroa edulis), hojas de naranja/flor de azahar (Citrus aurantium), hierbabuena (Mentha spicata), pasiflora (Passiflora incarnata), flor de toronjil (Melissa officinalis), flor de manita (Chiranthodendron pentadactylon), flor de tila (Tilia alba).",
+      "benefits": [
+        "Acompaña una pausa de calma con pasiflora, toronjil, tila, manzanilla y azahar u hojas de naranja.",
+        "Yerbaniz, zapote blanco, hierbabuena y flor de manita completan la infusión tradicional."
+      ]
+    },
+    {
+      "id": 170,
+      "ingredients": "Eucalipto (Eucalyptus), tejocote (Crataegus mexicana), gordolobo (Verbascum thapsus), tabachín (Caesalpinia pulcherrima), sáuco (Sambucus nigra), propóleo.",
+      "benefits": [
+        "Acompaña la comodidad de la garganta con propóleo y plantas de uso tradicional respiratorio: eucalipto, gordolobo y saúco. Tejocote y tabachín completan la infusión."
+      ]
+    },
+    {
+      "id": 171,
+      "ingredients": "Hojas de árnica (Heterotheca inuloides Cass.).",
+      "benefits": [
+        "Infusión de árnica mexicana Heterotheca inuloides. Consultar su uso por vía oral con un profesional."
+      ],
+      "shortDesc": "Infusión elaborada con hojas de árnica mexicana, identificada en el catálogo como Heterotheca inuloides. Esta identidad es importante porque existen plantas diferentes conocidas como árnica y preparaciones destinadas a usos distintos. Antes de ampliar sus funciones debemos confirmar las indicaciones de esta presentación para beber. La explicación interna debe distinguir este té de las pomadas y geles de árnica utilizados para masaje y molestias locales.",
+      "benefitSummary": "Infusión de árnica mexicana: confirmar indicaciones de uso oral"
+    },
+    {
+      "id": 172,
+      "ingredients": "Corteza de cuachalalate (Amphipterygium adstringens).",
+      "benefits": [
+        "Bienestar del estómago: la corteza de cuachalalate se usa tradicionalmente para acompañar el cuidado de molestias estomacales.",
+        "En la herbolaria mexicana se utiliza tradicionalmente para molestias descritas como irritación o gastritis."
+      ],
+      "shortDesc": "Infusión de corteza de cuachalalate utilizada tradicionalmente para acompañar el bienestar del estómago. Dentro de la herbolaria mexicana se asocia con el cuidado de molestias estomacales que suelen describirse como irritación o gastritis. Para la formación del vendedor, conviene distinguir gastritis, gases y colitis, porque son situaciones diferentes. Su orientación es el uso tradicional para molestias del estómago, evitando presentarlo como solución para cualquier problema digestivo.",
+      "benefitSummary": "Cuachalalate de uso tradicional para molestias del estómago"
+    },
+    {
+      "id": 173,
+      "ingredients": "Hojas de sen (Senna alexandrina).",
+      "benefits": [
+        "Ayuda a evacuar en casos de estreñimiento ocasional con hojas de sen, que estimulan el movimiento del intestino."
+      ]
+    },
+    {
+      "id": 174,
+      "ingredients": "Té verde (Camellia sinensis), raíz de jengibre (Zingiber officinale), canela (Cinnamomum verum).",
+      "benefits": [
+        "Bienestar digestivo: el jengibre se usa tradicionalmente para acompañar la comodidad del estómago y la canela completa la mezcla de especias.",
+        "Antioxidantes y cafeína: el té verde complementa la bebida con antioxidantes y puede ayudar a estar más despierto."
+      ],
+      "shortDesc": "Infusión que combina jengibre y canela con té verde para acompañar el bienestar digestivo y ofrecer una bebida con antioxidantes. El jengibre tiene uso tradicional para molestias leves del estómago, mientras que la canela aporta su sabor y componentes vegetales. El té verde añade antioxidantes y puede aportar cafeína. Esta combinación se distingue del té de jengibre y cúrcuma por la presencia del té verde y su carácter de bebida para el día.",
+      "benefitSummary": "Jengibre y canela con té verde para digestión y antioxidantes"
+    },
+    {
+      "id": 175,
+      "ingredients": "Raíz de jengibre (Zingiber officinale), raíz de cúrcuma (Curcuma longa).",
+      "benefits": [
+        "Pesadez y gases: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago después de comer.",
+        "Permite incorporar ambas raíces en una infusión caliente dentro de la rutina después de los alimentos."
+      ],
+      "shortDesc": "Infusión de dos raíces utilizadas tradicionalmente para acompañar la comodidad del estómago después de comer. El jengibre y la cúrcuma se reúnen para el bienestar digestivo, especialmente ante pesadez y gases. Puede integrarse como bebida caliente dentro de la rutina posterior a los alimentos. Su enfoque principal es digestivo, distinguiendo esta infusión de los extractos concentrados de curcumina que se utilizan en fórmulas de orientación articular."
+    },
+    {
+      "id": 176,
+      "ingredients": "Flores de manzanilla (Chamaemelum nobile) orgánicas.",
+      "benefits": [
+        "Acompaña el bienestar después de comer y una pausa de calma con flores de manzanilla de uso tradicional."
+      ]
+    },
+    {
+      "id": 177,
+      "ingredients": "Pingüica (Arctostaphylos pungens), palo azul (Cyclolepis genistoides), pelo de elote (Zea mays L.), cola de caballo (Equisetum arvense).",
+      "benefits": [
+        "Pingüica, palo azul, pelo de elote y cola de caballo se usan para acompañar el cuidado urinario."
+      ]
+    },
+    {
+      "id": 178,
+      "ingredients": "Quercetina (3,3′,4′,5,7-pentahidroxiflavona) (1000 mg por porción).",
+      "benefits": [
+        "Aporta quercetina, un antioxidante para complementar el cuidado de las células."
+      ]
+    },
+    {
+      "id": 179,
+      "ingredients": "Aceite de hígado de bacalao (vitaminas A y D), hipofosfitos de sodio, calcio, potasio, magnesio y hierro, extractos de eucalipto, saúco, lobaria pulmonaria, gordolobo y cassia fístula.",
+      "benefits": [
+        "Complementa el cuidado de huesos y defensas con vitaminas A y D del aceite de hígado de bacalao.",
+        "Incluye hipofosfitos de sodio, calcio, potasio, magnesio y hierro como sales minerales.",
+        "Eucalipto, saúco, lobaria pulmonaria y gordolobo se usan para el confort de garganta. Cassia fístula completa la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 180,
+      "ingredients": "Inositol (100% puro).",
+      "benefits": [
+        "Aporta inositol para complementar la alimentación y el cuidado del azúcar."
+      ]
+    },
+    {
+      "id": 181,
+      "ingredients": "Bisglicinato de magnesio (aporta 400 mg de magnesio elemental por porción), inulina de agave (20 mg).",
+      "benefits": [
+        "Apoya músculos, nervios y obtención de energía con magnesio del bisglicinato. La inulina de agave añade fibra en cantidad pequeña."
+      ]
+    },
+    {
+      "id": 182,
+      "ingredients": "Extractos de castaño de indias (Aesculus hippocastanum), hamamelis (Hamamelis virginiana), centella asiática (Centella asiatica), saúco (Sambucus), árnica (Arnica montana), manzanilla (Chamaemelum), ginkgo biloba (Ginkgo biloba), carbomero, silicato de metilo.",
+      "benefits": [
+        "Acompaña el masaje y el cuidado de la piel con castaño de Indias, hamamelis, centella asiática y ginkgo biloba. Saúco, árnica y manzanilla completan la mezcla de plantas.",
+        "El carbomero da consistencia al gel. El ingrediente registrado como silicato de metilo debe confirmarse en la etiqueta."
+      ]
+    },
+    {
+      "id": 183,
+      "ingredients": "Agua, extracto de castaño de indias (Aesculus hippocastanum), extracto de hamamelis (Hamamelis virginiana), extracto de centella asiática (Centella asiatica), extracto de ginkgo biloba (Ginkgo biloba), salicilato de metilo, carbómero.",
+      "benefits": [
+        "Acompaña el confort de piernas cansadas mediante masaje y salicilato de metilo. Castaño de Indias, hamamelis, centella asiática y ginkgo biloba complementan el uso tópico tradicional.",
+        "El agua sirve de vehículo y el carbómero mantiene la consistencia del gel."
+      ]
+    },
+    {
+      "id": 184,
+      "ingredients": "Bayas de Saúco (Sambucus nigra), Equinácea (Echinacea purpurea), Ajo Negro (Allium sativum fermentado), Vitamina C (ácido ascórbico) (300 mg), Vitamina D3 (colecalciferol) (10 mcg / 400 UI), Zinc (elemental) (20 mg).",
+      "benefits": [
+        "Apoya las defensas con vitaminas C y D3 y zinc. Saúco, equinácea y ajo negro complementan el cuidado tradicional en cambios de temporada con compuestos vegetales."
+      ]
+    },
+    {
+      "id": 185,
+      "ingredients": "Extracto de raíz de Astrágalo (Astragalus membranaceus) (320 mg por cápsula).",
+      "benefits": [
+        "Acompaña el bienestar y la vitalidad de uso tradicional con extracto de raíz de astrágalo."
+      ]
+    },
+    {
+      "id": 186,
+      "ingredients": "Calostro bovino liofilizado (200 mg por cápsula).",
+      "benefits": [
+        "Complementa la alimentación con calostro bovino liofilizado y sus componentes naturales."
+      ]
+    },
+    {
+      "id": 187,
+      "ingredients": "Calostro bovino (150 mg), Astrágalo (Astragalus lucidum) (50 mg), Hongo Reishi (Ganoderma lucidum) (50 mg), Alga Espirulina (Spirulina maxima) (30 mg), FO-TI (Polygonum multiflorum) (25 mg).",
+      "benefits": [
+        "Complementa la alimentación con calostro bovino y espirulina. Astrágalo y Reishi completan la mezcla para el bienestar general.",
+        "También contiene FO-TI. Consultar con un profesional antes de usarlo."
+      ]
+    },
+    {
+      "id": 188,
+      "ingredients": "Propóleo, mentol natural, equinácea (Echinacea purpurea).",
+      "benefits": [
+        "Propóleo se usa para la comodidad de la garganta y mentol natural da frescura. Equinácea completa la mezcla para el cuidado en cambios de temporada."
+      ]
+    },
+    {
+      "id": 189,
+      "ingredients": "Cenizo (Leucophyllum frutescens), Toronjil (Agastache mexicana).",
+      "benefits": [
+        "Acompaña una pausa de bienestar con cenizo y toronjil de uso tradicional. El toronjil se usa para calma y bienestar del estómago."
+      ]
+    },
+    {
+      "id": 190,
+      "ingredients": "Forskolina (Extracto de la raíz de Coleus forskohlii), Fruto de Ciruela (Prunus domestica), Fruto de Tamarindo (Tamarindus indica), Inulina (Fibra prebiótica), Fruto de Papaya (Carica papaya), Penca de Nopal (Opuntia ficus-indica), Semilla de Linaza (Linum usitatissimum).",
+      "benefits": [
+        "Acompaña el movimiento del intestino con inulina como fibra que alimenta a las bacterias buenas del intestino y linaza, nopal, ciruela, tamarindo y papaya como componentes vegetales.",
+        "La forskolina de Coleus forskohlii completa la mezcla."
+      ]
+    },
+    {
+      "id": 191,
+      "ingredients": "Creatina Monohidratada, Alulosa, Sal Rosa del Himalaya, Concentrado de Minerales del Lago Salado de Utah, Glicinato de Magnesio, Ácido Cítrico, Sabor Lima Limón Natural, Ácido Málico, Stevia (Stevia rebaudiana), Extracto Natural de Vitamina C de Amla (Phyllanthus emblica L.), Vitamina E, Vitamina D3 (Colecalciferol de Origen Vegetal), Vitamina B12.",
+      "benefits": [
+        "Ayuda a rendir en esfuerzos cortos y repetidos con creatina monohidratada. Sal rosa, minerales del lago salado de Utah y glicinato de magnesio complementan el aporte para los músculos.",
+        "Vitamina C de amla y vitamina E aportan antioxidantes. Vitamina D3 ayuda a huesos y músculos y B12 al funcionamiento de los nervios y a formar glóbulos rojos.",
+        "Alulosa y stevia dan dulzor. Ácidos cítrico y málico y sabor natural lima limón dan sabor a la bebida."
+      ]
+    },
+    {
+      "id": 192,
+      "ingredients": "Vitaminas del complejo B: Clorhidrato de Tiamina (B1) 15 mg, Riboflavina 5' Fosfato (B2) 18 mg, Clorhidrato de Piridoxina (B6) 10 mg, Cianocobalamina (B12) 12 µg, Niacinamida (B3) 20 mg, Ácido Pantoténico (B5) 20 mg, Ácido Fólico 400 µg. Vitaminas antioxidantes: Ácido Ascórbico (C) 50 mg, Alfatocoferol (E) 60 mg, Palmitato de Vitamina A 1000 UI, Colecalciferol (D3) 10 µg. Minerales y otros: Gluconato de Calcio 100 mg, Jalea Real Fresca 5 mg, Inositol 15 mg.",
+      "benefits": [
+        "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5 y B6. Ácido fólico y B12 ayudan a formar glóbulos rojos.",
+        "Vitaminas C y E aportan antioxidantes, vitamina A cuida la piel, y D3 y calcio del gluconato ayudan a cuidar huesos y músculos.",
+        "Jalea real e inositol completan el aporte de la fórmula."
+      ]
+    },
+    {
+      "id": 193,
+      "ingredients": "N-Acetil Cisteína (NAC), L-Selenometionina (Selenio). Hipromelosa (cápsula de celulosa), Estearato de magnesio (fuente vegetal), Dióxido de silicio y Ácido cítrico.",
+      "benefits": [
+        "Ayuda a cuidar las células con NAC, que el cuerpo usa para producir glutatión, y selenio de L-selenometionina.",
+        "Hipromelosa forma la cápsula. Estearato de magnesio y dióxido de silicio ayudan a prepararla y ácido cítrico ajusta la acidez."
+      ]
+    },
+    {
+      "id": 194,
+      "ingredients": "Proteína aislada de soya, aceite vegetal, jarabe de maíz, maltodextrina, sucralosa, fosfato de calcio, citrato de potasio, sulfato ferroso, sulfato de zinc, yodato de potasio, sulfato de magnesio, palmitato de vitamina A, acetato de dl-alfa tocoferol (Vitamina E), ácido ascórbico (Vitamina C), niacinamida, tiamina, riboflavina, piridoxina, ácido fólico, ácido pantoténico, cianocobalamina, mono y diglicéridos, estearato de sodio, estearoil lactilato de sodio, saborizante artificial.",
+      "benefits": [
+        "Aporta proteína y energía con proteína aislada de soya, aceite vegetal, jarabe de maíz y maltodextrina.",
+        "Calcio del fosfato, potasio del citrato y magnesio del sulfato ayudan a músculos y huesos. Hierro ayuda a formar glóbulos rojos, zinc a las defensas y yodo a la tiroides.",
+        "Vitamina A cuida la piel y vitaminas C y E aportan antioxidantes. B1 tiamina, B2 riboflavina, B3 niacinamida, B5 ácido pantoténico, B6 piridoxina, B9 ácido fólico y B12 cianocobalamina ayudan a aprovechar los alimentos.",
+        "Sucralosa y saborizante artificial dan sabor. Mono y diglicéridos, estearato de sodio y estearoil lactilato de sodio mantienen uniforme la bebida."
+      ]
+    },
+    {
+      "id": 195,
+      "ingredients": "Frasco 1: Neem (Azadirachta indica), Tecomate (Tecoma stans), Guarumbo (Cecropia obtusifolia), Nopal (Opuntia ficus-indica), Guayule (Parthenium argentatum), Eucalipto (Eucalyptus globulus), Sábila (Aloe vera), Zarzaparrilla (Smilax aristolochiifolia), Damiana de California (Turnera diffusa), Yerba del Sapo (Eryngium carlinae), Ajo (Allium sativum). Frasco 2: Palmitato de Vitamina A, Vitamina D3, Vitamina E, Vitaminas B1, B2, B6, B12, Vitamina C, Ácido fólico, Niacinamida, Fosfato dicálcico, Sulfato ferroso, Sulfato de zinc, Sulfato de cobre, Sulfato de manganeso, Sulfato de potasio, Sulfato de magnesio, Picolinato de cromo, Jalea real liofilizada.",
+      "benefits": [
+        "Cuidado de la glucosa: mezcla de plantas de uso tradicional con neem, tecomate, guarumbo y nopal. También incluye guayule, eucalipto, sábila, zarzaparrilla, damiana de California, yerba del sapo y ajo.",
+        "Energía diaria: las vitaminas B1, B2, B6, B12, ácido fólico y niacinamida ayudan a obtener energía de los alimentos. Hierro y cobre ayudan a formar glóbulos rojos.",
+        "Calcio del fosfato dicálcico, magnesio, potasio y vitamina D3 ayudan a músculos y huesos. Vitaminas A y C y zinc apoyan las defensas.",
+        "Vitamina E y manganeso cuidan las células, cromo ayuda a aprovechar los alimentos y jalea real completa el aporte alimentario."
+      ],
+      "shortDesc": "Dos fórmulas para apoyar el cuidado de la glucosa y ayudar a obtener energía de los alimentos: una mezcla de plantas de uso tradicional y otra de vitaminas, minerales y jalea real.",
+      "benefitSummary": "Apoyo al cuidado de la glucosa y energía diaria"
+    },
+    {
+      "id": 196,
+      "ingredients": "Matake (Grifola frondosa), Cayena, Cúrcuma (Curcuma longa), Espirulina (Arthrospira platensis), Arándano (Vaccinium myrtillus), Moringa (Moringa oleifera), Enebro (Juniperus communis), Olivo (Olea europaea), Inulina, Naranjo amargo (Citrus aurantium).",
+      "benefits": [
+        "Acompaña el bienestar intestinal con inulina. Cúrcuma complementa el bienestar del estómago tradicional, y espirulina, moringa y Matake amplían el aporte vegetal y de hongos.",
+        "Arándano y olivo añaden compuestos vegetales. Cayena, enebro y naranjo amargo completan la fórmula."
+      ]
+    },
+    {
+      "id": 197,
+      "ingredients": "Pulpa de piña (16%), linaza (14%), té verde, té rojo y té blanco (14% cada uno), aguaje peruano (14%) y corazón de alcachofa (14%).",
+      "benefits": [
+        "Infusión de piña, linaza y alcachofa para acompañar el bienestar digestivo. Tés verde, rojo y blanco aportan cafeína y antioxidantes. Aguaje peruano completa la mezcla vegetal."
+      ]
+    },
+    {
+      "id": 198,
+      "ingredients": "Pulpa de sábila (Aloe barbadensis, Mill.), Vitamina C (Ácido Ascórbico).",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con pulpa de sábila. La vitamina C complementa el cuidado de tejidos y las defensas."
+      ]
+    },
+    {
+      "id": 199,
+      "ingredients": "Gayuba (Arctostaphylos uva-ursi), Té verde (Camellia sinensis), Uva (Vitis vinifera), Manzana (Malus domestica), Jamaica (Hibiscus sabdariffa), Cacao (Theobroma cacao), Linaza (Linum usitatissimum), Sábila (Aloe vera).",
+      "benefits": [
+        "Acompaña el bienestar digestivo con linaza y sábila. Té verde, uva, manzana, jamaica y cacao completan el aporte vegetal.",
+        "Gayuba se usa para el cuidado de las vías urinarias."
+      ]
+    },
+    {
+      "id": 200,
+      "ingredients": "Semilla de linaza (Linum usitatissimum), Sábila (Aloe vera), Nopal (Opuntia ficus-indica), Té verde (Camellia sinensis), Fibra de piña (Ananas comosus), Malva (Malva sylvestris), Raíz de lima (Citrus x aurantiifolia).",
+      "benefits": [
+        "Acompaña el bienestar intestinal con linaza, nopal y fibra de piña. Sábila y malva complementan el bienestar digestivo.",
+        "Té verde y raíz de lima completan la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 201,
+      "ingredients": "Frutos de Cuatecomate (Crescentia sp.), Hojas de Eucalipto (Eucalyptus globulus), Flores de Gordolobo (Gnaphalium sp.), Agua, Sacarosa, Alcohol (1.9%).",
+      "benefits": [
+        "Acompaña la comodidad de la garganta con cuatecomate, eucalipto y gordolobo de uso tradicional respiratorio. El agua sirve de vehículo y la sacarosa aporta dulzor y carbohidratos.",
+        "El alcohol al 1.9 % forma parte de la preparación."
+      ]
+    },
+    {
+      "id": 202,
+      "ingredients": "Calostro Bovino Seco (1,000 mg), InmunEnhancer™ (Arabinogalactano de Alerce) (200 mg), Hoja de Olivo (Extracto, min. 6% Oleuropeína) (200 mg), Raíz de Astrágalo (Astragalus membranaceus) (100 mg), Eleuthero (Raíz de Eleuterococo) (100 mg).",
+      "benefits": [
+        "Complementa la alimentación con calostro bovino e InmunEnhancer™, fibra de arabinogalactano de alerce.",
+        "Olivo, astrágalo y eleuthero o eleuterococo completan la mezcla de plantas para el bienestar general."
+      ]
+    },
+    {
+      "id": 203,
+      "ingredients": "Vaselina, Propilenglicol, Alquitrán de hulla, Ácido Salicílico, Extracto de Nogal (Juglans sp.), Extracto de Orégano (Lippia sp.), Tomillo (Thymus vulgaris), Saúco (Sambucus sp.), Romero (Rosmarinus officinalis), Mastuerzo (Tropaeolum majus), Saponaria (Saponaria officinalis), Loeselia (Loeselia mexicana), Metilparabeno, Propilparabeno.",
+      "benefits": [
+        "Acompaña el cuidado de la piel con descamación con ácido salicílico y alquitrán de hulla. Vaselina y propilenglicol ayudan a conservar la humedad.",
+        "Nogal, orégano, tomillo, saúco, romero, mastuerzo, saponaria y loeselia completan la mezcla de plantas. Metilparabeno y propilparabeno conservan la pomada."
+      ]
+    },
+    {
+      "id": 204,
+      "ingredients": "100% Cartílago de Tiburón en polvo. Sin excipientes ni aditivos.",
+      "benefits": [
+        "Complementa el aporte alimentario con cartílago de tiburón en polvo, sin excipientes ni aditivos."
+      ]
+    },
+    {
+      "id": 205,
+      "ingredients": "Levadura de cerveza (Saccharomyces cerevisiae), Avicel, Estearato de magnesio.",
+      "benefits": [
+        "Complementa la alimentación con levadura de cerveza. Avicel y estearato de magnesio ayudan a dar forma a la tableta."
+      ]
+    },
+    {
+      "id": 206,
+      "ingredients": "Aceite de pescado (EPA/DHA), Aceite de Sacha Inchi (Plukenetia volubilis) prensado en frío, Aceite de linaza (Linum usitatissimum) prensado en frío, Vitamina E (Alfa tocoferol).",
+      "benefits": [
+        "Complementa el cuidado del corazón con EPA y DHA del aceite de pescado. Aceites de sacha inchi y linaza añaden grasas vegetales, incluido ALA.",
+        "La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger los aceites de la preparación."
+      ]
+    },
+    {
+      "id": 207,
+      "ingredients": "L-Triptófano (295 mg), Rhodiola rosea (200 mg), Melatonina (5 mg).",
+      "benefits": [
+        "Puede ayudar a conciliar el sueño con melatonina y L-triptófano. Rhodiola rosea acompaña el cuidado del cansancio en días de estrés."
+      ]
+    },
+    {
+      "id": 208,
+      "ingredients": "Aceite de orégano orgánico (Lippia graveolens), Aceite de oliva.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con aceite de orégano orgánico. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
+      ]
+    },
+    {
+      "id": 209,
+      "ingredients": "Creatina Monohidratada, Alulosa, Sal Rosa del Himalaya, Concentrado de Minerales del Lago Salado de Utah, Glicinato de Magnesio, Ácido Cítrico, Sabor Fresa Limón Natural, Stevia (Stevia rebaudiana), Extracto de Betacarotenos (Blakeslea trispora), Extracto Natural de Vitamina C de Amla (Phyllanthus emblica L.), Vitamina E, Vitamina D3 (Colecalciferol de Origen Vegetal), Vitamina B12.",
+      "benefits": [
+        "Ayuda a rendir en esfuerzos cortos y repetidos con creatina monohidratada. Sal rosa, minerales del lago salado de Utah y glicinato de magnesio complementan el aporte para los músculos.",
+        "Vitamina C de amla y vitamina E aportan antioxidantes. D3 ayuda a huesos y músculos y B12 al funcionamiento de los nervios y a formar glóbulos rojos.",
+        "Alulosa y stevia dan dulzor. Ácido cítrico y sabor natural fresa limón dan sabor y los betacarotenos de Blakeslea trispora aportan color."
+      ]
+    },
+    {
+      "id": 210,
+      "ingredients": "Pata de Vaca (Bauhinia forticata) 300 mg, excipiente c.b.p. 500 mg.",
+      "benefits": [
+        "Pata de vaca se usa como complemento de la alimentación para el cuidado del azúcar. El excipiente da volumen a la cápsula."
+      ],
+      "shortDesc": "Planta utilizada tradicionalmente para acompañar el cuidado del azúcar en la sangre. Esta presentación permite incorporar pata de vaca en cápsulas como complemento de la alimentación y del seguimiento habitual de la glucosa. Su fórmula contiene 300 mg de pata de vaca por cápsula; el excipiente completa el volumen de la preparación.",
+      "benefitSummary": "Uso tradicional para el cuidado del azúcar"
+    },
+    {
+      "id": 211,
+      "ingredients": "Palo Azul (Cyclolepis genistoides) 150 mg, Uva Ursi (Arctostaphylos uva-ursi) 150 mg, excipiente c.b.p. 500 mg.",
+      "benefits": [
+        "Palo azul y uva ursi se usan para acompañar el cuidado urinario. El excipiente da volumen a la cápsula."
+      ]
+    },
+    {
+      "id": 212,
+      "ingredients": "Gluconato de zinc (aporta 20 mg de zinc elemental), Estearato de magnesio, Celulosa microcristalina, Fosfato dibásico de calcio.",
+      "benefits": [
+        "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc del gluconato.",
+        "Estearato de magnesio, celulosa microcristalina y fosfato dibásico de calcio ayudan a dar forma a la tableta."
+      ]
+    },
+    {
+      "id": 213,
+      "ingredients": "Chanca Piedra (Phyllanthus niruri), Yumel (Guatteria gaumeri), Cola de Caballo (Equisetum arvense), Perejil (Petroselinum crispum), Hierba del Sapo (Eryngium carlinae), Cardo Mariano (Silybum marianum), Taray (Tamarix gallica).",
+      "benefits": [
+        "Chanca piedra, cola de caballo, perejil y taray se usan para acompañar el cuidado urinario. Yumel, hierba del sapo y cardo mariano completan la mezcla digestiva."
+      ]
+    },
+    {
+      "id": 214,
+      "ingredients": "Harina de alpiste (Phalaris canariensis), Maltodextrina, Azúcar, Goma xantana.",
+      "benefits": [
+        "Permite variar la alimentación con harina de alpiste. Maltodextrina y azúcar añaden carbohidratos y energía, mientras la goma xantana da consistencia a la bebida."
+      ]
+    },
+    {
+      "id": 215,
+      "ingredients": "L-Carnitina 100% pura.",
+      "benefits": [
+        "Complementa la alimentación de personas activas con L-carnitina, que ayuda al cuerpo a usar grasas para obtener energía."
+      ]
+    },
+    {
+      "id": 216,
+      "ingredients": "Aceite de coco (Cocos nucifera), Aceite esencial de orégano (Lippia graveolens).",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con aceite esencial de orégano. El aceite de coco actúa como base de aceite para diluirlo."
+      ]
+    },
+    {
+      "id": 217,
+      "ingredients": "L-Lisina 100% pura.",
+      "benefits": [
+        "Complementa la formación de proteínas con L-lisina, aminoácido esencial que el cuerpo necesita obtener de la alimentación para mantener sus tejidos."
+      ]
+    },
+    {
+      "id": 218,
+      "ingredients": "5-HTP (5-Hidroxitriptófano) 100 mg, Celulosa microcristalina c.b.p. 500 mg.",
+      "benefits": [
+        "El 5-HTP se usa para acompañar la calma y la rutina de descanso. La celulosa microcristalina da volumen a la cápsula."
+      ]
+    },
+    {
+      "id": 219,
+      "ingredients": "Proteína de guisante orgánica, Proteína de arroz orgánica, Proteína de calabaza orgánica, Proteína de sésamo orgánico, Aislado de proteína de soya, Proteína de girasol, Proteína de almendras, Cacao orgánico, Saborizante natural a chocolate, Sal marina, Mezcla de enzimas (Bromelina, Papaina, Proteasa), Aceite de coco orgánico, Stevia orgánica, Goma xantana, Lecitina de girasol, Ácido málico.",
+      "benefits": [
+        "Apoya el cuidado de los músculos con proteínas de guisante, arroz, calabaza, sésamo, soya, girasol y almendras. La variedad de fuentes complementa el aporte de aminoácidos.",
+        "Bromelina, papaína y proteasa ayudan a descomponer proteínas. El aceite de coco añade grasa y energía al conjunto.",
+        "Cacao, sabor natural a chocolate, sal marina, stevia y ácido málico ajustan el sabor. Goma xantana y lecitina de girasol facilitan textura y mezcla."
+      ]
+    },
+    {
+      "id": 220,
+      "ingredients": "Aislado de Proteína de Suero de leche Ionizada y Micro-filtrada, Péptidos de bajo peso molecular y Parcialmente Hidrolizados de Suero de Leche y Soya. L-Carnitina, Valina, Lisina, Iso-Leucina, Cloruro de Sodio, Sabor Natural y Artificial a Vainilla, Goma Xantana, Enzimas (Proteasa y Peptidasa), Sucralosa.",
+      "benefits": [
+        "Apoya el cuidado y recuperación de los músculos con aislado de suero y péptidos de suero y soya. Valina, lisina e isoleucina complementan el aporte de aminoácidos.",
+        "Proteasa y peptidasa descomponen proteínas. L-carnitina participa en el uso de grasas como energía.",
+        "Cloruro de sodio aporta sal. Sabores natural y artificial a vainilla y sucralosa dan sabor, y goma xantana mejora la textura de la bebida."
+      ]
+    },
+    {
+      "id": 221,
+      "ingredients": "Semilla de Linaza (Linum usitatissimum), Raíz de Lima (Citrus x aurantiifolia), Flor y hoja de Malva (Malva sylvestris), Mango Africano (Irvingia gabonensis), Lecitina de Soya, Polvo de fruto de Piña (Ananas comosus), Polvo de fruto de Papaya (Carica papaya), Cianocobalamina (Vitamina B12), Carbonato de Calcio, Estearato de Magnesio, Dióxido de Silicio.",
+      "benefits": [
+        "Acompaña el bienestar intestinal con linaza y malva. Piña y papaya añaden componentes de fruta, mientras raíz de lima, mango africano y lecitina de soya completan la mezcla vegetal.",
+        "La cianocobalamina o vitamina B12 complementa funcionamiento de los nervios y formación de glóbulos rojos. El carbonato de calcio añade una fuente mineral.",
+        "Estearato de magnesio y dióxido de silicio ayudan a preparar el producto."
+      ]
+    },
+    {
+      "id": 222,
+      "ingredients": "Piña (Ananas comosus), Linaza (Linum usitatissimum) - Linaza Canadiense, Toronja (Citrus paradisi), Naranja (Citrus sinensis), Nopal (Opuntia ficus-indica).",
+      "benefits": [
+        "Complementa el bienestar intestinal con linaza canadiense y nopal como fuentes vegetales de fibra. Piña, toronja y naranja aportan componentes de fruta al conjunto."
+      ]
+    },
+    {
+      "id": 223,
+      "ingredients": "Wereke (Maximowiczia sonorae) - Raíz, Gatuña (Guaiacum sp.) - Planta, Guayacán amarillo (Guaiacum coulteri) - Corteza, Tamarindo (Tamarindus indica) - Fruto, Nopal (Opuntia ficus-indica) - Penca, Raíz de Zacate de perro (Cynodon dactylon) - Raíz, Raíz de Coanacaxtle - Raíz, Manzanilla (Matricaria chamomilla) - Flor.",
+      "benefits": [
+        "Cuidado del azúcar: el wereke se usa tradicionalmente para acompañar el cuidado de la glucosa. Gatuña, guayacán amarillo y raíz de zacate de perro completan la mezcla de plantas.",
+        "Bienestar digestivo: tamarindo, nopal y manzanilla acompañan la comodidad del estómago y el intestino.",
+        "La mezcla también contiene raíz de coanacaxtle."
+      ],
+      "shortDesc": "Mezcla de plantas de la herbolaria mexicana cuyo ingrediente principal, el wereke, tiene uso tradicional relacionado con el cuidado del azúcar. Incluye nopal, tamarindo y manzanilla para acompañar el bienestar digestivo, junto con otras raíces y cortezas de la fórmula. El wereke da a esta mezcla su enfoque tradicional para el cuidado del azúcar, mientras que sus acompañantes complementan el bienestar del estómago y el intestino.",
+      "benefitSummary": "Uso tradicional para el cuidado del azúcar y bienestar digestivo"
+    },
+    {
+      "id": 224,
+      "ingredients": "Aceite de orégano (Lippia graveolens) 100% natural, estandarizado al 80% de carvacrol, aceite de oliva.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con aceite de orégano y su carvacrol. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
+      ]
+    },
+    {
+      "id": 225,
+      "ingredients": "Cianocobalamina, Metilcobalamina y Dibencozida (Vitaminas B12). Fructosa, celulosa, ácido cítrico, estearato de magnesio (fuente vegetal), sabor a fresa natural y lecitina de soya.",
+      "benefits": [
+        "Apoya funcionamiento de los nervios y formación de glóbulos rojos con tres formas de vitamina B12: cianocobalamina, metilcobalamina y dibencozida.",
+        "Fructosa y sabor natural a fresa dan sabor. Celulosa, estearato de magnesio y lecitina de soya dan consistencia y ayudan a preparar el producto, mientras ácido cítrico ajusta la preparación."
+      ]
+    },
+    {
+      "id": 226,
+      "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
+      "benefits": [
+        "Acompaña el bienestar del estómago con boldo, cusura y diente de león de uso tradicional. Cardo mariano, anagirida y marrubio completan la mezcla de plantas."
+      ]
+    },
+    {
+      "id": 245,
+      "ingredients": "Vitamina D3 (Colecalciferol) 25 mcg, Vitamina K2 (Menaquinona-4) 45 mcg, Harina de Arroz, Hipromelosa (cápsula de celulosa), Palmitato de Ascorbilo, Dióxido de Silicio.",
+      "benefits": [
+        "Apoya el cuidado de los huesos con vitamina D3 para absorción de calcio y vitamina K2 como menaquinona-4 para funcionamiento de proteínas del hueso.",
+        "Harina de arroz da volumen, hipromelosa forma la cápsula, dióxido de silicio ayuda a preparar el producto y palmitato de ascorbilo ayuda a conservar la preparación."
+      ]
+    },
+    {
+      "id": 246,
+      "ingredients": "Inulina de agave (2.58 g), L-Glutamina (2 g), N-Acetil-D-Glucosamina (NAG) (800 mg, origen no crustáceo), Aloe vera en polvo (100 mg), Zinc L-carnosina (100 mg, aporta 21 mg de zinc elemental), Vitamina D3 (10 µg), Sabor frambuesa-limón, Ácido cítrico, Glucósidos de esteviol.",
+      "benefits": [
+        "Complementa el cuidado del intestino con L-glutamina y N-acetil-D-glucosamina NAG. Zinc L-carnosina acompaña el cuidado de la capa que protege el estómago.",
+        "Inulina de agave aporta fibra, aloe vera se usa para el bienestar digestivo y vitamina D3 apoya las defensas.",
+        "Sabor frambuesa-limón, ácido cítrico y glucósidos de esteviol dan sabor y dulzor a la bebida."
+      ]
+    },
+    {
+      "id": 227,
+      "ingredients": "Citrato de magnesio (750 mg por porción de 3 cápsulas), excipientes c.b.p. (celulosa microcristalina, estearato de magnesio, dióxido de silicio).",
+      "benefits": [
+        "Ayuda al funcionamiento de músculos y nervios y a obtener energía con magnesio del citrato.",
+        "Celulosa microcristalina, estearato de magnesio y dióxido de silicio ayudan a preparar las cápsulas."
+      ]
+    },
+    {
+      "id": 228,
+      "ingredients": "Glicinato de magnesio (250 mg), Estearato de magnesio (150 mg), Tallo de Brócoli en polvo (Brassica oleracea var. Italica) (100 mg), excipientes c.b.p. 500 mg (cápsula vegetal).",
+      "benefits": [
+        "Funcionamiento muscular y nervioso: el magnesio del glicinato ayuda a músculos y nervios a funcionar bien y complementa el aporte de este mineral.",
+        "Rutina de relajación: puede incorporarse a la preparación para el descanso. En un ensayo con bisglicinato que aportaba 250 mg de magnesio elemental al día durante cuatro semanas se observaron mejoras en algunos indicadores de sueño.",
+        "El tallo de brócoli completa la mezcla vegetal. Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la fórmula."
+      ],
+      "shortDesc": "Aporta magnesio en forma de glicinato para ayudar al funcionamiento de músculos y nervios. Puede incorporarse a una rutina de relajación y preparación para el descanso, manteniendo su función principal como complemento del aporte de magnesio. Incluye tallo de brócoli y los ingredientes necesarios para preparar la cápsula. Se distingue del Magnesium PM porque este último combina magnesio con otros ingredientes destinados específicamente a acompañar la calma y la rutina nocturna.",
+      "benefitSummary": "Magnesio para músculos, nervios y rutina de relajación",
+      "researchNote": {
+        "focus": "Músculos y nervios dentro de una rutina de relajación",
+        "text": "Funcionamiento muscular y nervioso dentro de una rutina de relajación: el magnesio del glicinato complementa el aporte de este mineral y acompaña el cuidado de músculos y nervios. En adultos con dificultades para descansar, un ensayo con bisglicinato de magnesio observó mejoras en algunos indicadores de sueño. Este interés se integra como acompañamiento de una rutina de preparación para el descanso. El tallo de brócoli completa la mezcla vegetal, mientras que estearato de magnesio, excipientes y cápsula vegetal permiten preparar y contener la fórmula.",
+        "sources": [
+          {
+            "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          },
+          {
+            "title": "NIH ODS: funciones del magnesio y lectura del aporte elemental",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 229,
+      "ingredients": "Aceite de Salmón Noruego, Vitamina E, Azúcar, Glucosa, Grenetina, Agua, Ácido Cítrico, Saborizante. Contiene derivados de pescado.",
+      "benefits": [
+        "Complementa la alimentación infantil con grasas omega del aceite de salmón noruego y vitamina E para cuidar las células.",
+        "Azúcar y glucosa aportan dulzor y carbohidratos. Grenetina y agua dan forma a la gomita, y ácido cítrico y saborizante ajustan el sabor."
+      ]
+    },
+    {
+      "id": 230,
+      "ingredients": "Vitamina K2 (Menaquinona-4 / MK-4) 100 mcg, Polvo de Alfalfa (Partes aéreas) 250 mg, Hipromelosa (cápsula de celulosa), Palmitato de Ascorbilo, Harina de Arroz, Dióxido de Silicio.",
+      "benefits": [
+        "Apoya el mantenimiento de huesos con vitamina K2 como MK-4, que participa en el funcionamiento de proteínas óseas. El polvo de alfalfa completa la mezcla vegetal.",
+        "Hipromelosa forma la cápsula, harina de arroz da volumen, dióxido de silicio ayuda a preparar el producto y palmitato de ascorbilo ayuda a conservar la preparación."
+      ]
+    },
+    {
+      "id": 231,
+      "ingredients": "Extractos hidroalcohólicos de: Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria, Turnera diffusa.",
+      "benefits": [
+        "Contiene Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria y Turnera diffusa.",
+        "Consultar a un profesional antes de usar esta mezcla de plantas en alcohol."
+      ]
+    },
+    {
+      "id": 232,
+      "ingredients": "100% Cacao en polvo (Criollo de Tabasco, México).",
+      "benefits": [
+        "Aporta sabor y componentes vegetales del cacao criollo de Tabasco a bebidas y recetas. Su fibra y antioxidantes complementan una alimentación variada según la porción utilizada."
+      ]
+    },
+    {
+      "id": 233,
+      "ingredients": "Hoja de sen (Cassia angustifolia), Malva (Malva sylvestris), Lactosa USP, Estearato de Magnesio.",
+      "benefits": [
+        "Ayuda a evacuar en casos de estreñimiento ocasional con hoja de sen. Malva acompaña el bienestar intestinal.",
+        "Lactosa USP y estearato de magnesio ayudan a dar forma a la capleta."
+      ]
+    },
+    {
+      "id": 234,
+      "ingredients": "Agua Purificada, Sacarosa, Fructosa, Glicerofosfato de Sodio, Jalea Real, Ácido Glutámico, Nicotinamida (B3), Pantotenato de Calcio (B5), Clorhidrato de piridoxina (B6), Riboflavina 5 fosfato (B2), Clorhidrato de tiamina (B1), Ácido Fólico, Cianocobalamina (B12), Propilenglicol, Ácido Cítrico, Metilparabeno sódico, Propilparabeno sódico, Sabor crema vainilla y Sabor tutifruti.",
+      "benefits": [
+        "Complementa la alimentación infantil con vitaminas B1, B2, B3, B5 y B6 para obtener energía. B12 y ácido fólico ayudan a formar glóbulos rojos.",
+        "Ácido glutámico y jalea real completan el aporte alimentario. El glicerofosfato de sodio añade sales a la mezcla.",
+        "Sacarosa y fructosa dan dulzor. Agua purificada y propilenglicol mantienen los ingredientes mezclados. Ácido cítrico ajusta la acidez.",
+        "Metilparabeno sódico y propilparabeno sódico conservan la preparación. Los sabores crema vainilla y tutifruti dan sabor."
+      ]
+    },
+    {
+      "id": 235,
+      "ingredients": "Nopal en polvo (Opuntia ficus) 100% puro. Sin excipientes de relleno.",
+      "benefits": [
+        "Complementa el aporte vegetal de la alimentación con nopal en polvo, fuente natural de fibra cuya cantidad depende de la porción."
+      ]
+    },
+    {
+      "id": 236,
+      "ingredients": "Hoja de Sábila en polvo (Aloe vera, L.), Penca de Nopal en polvo (Opuntia ficus indica).",
+      "benefits": [
+        "Acompaña el bienestar digestivo con nopal como fuente vegetal de fibra y sábila de uso tradicional."
+      ]
+    },
+    {
+      "id": 237,
+      "ingredients": "Bulbo de Ajo deshidratado en polvo (Allium sativum, L.) 100% puro.",
+      "benefits": [
+        "Complementa una alimentación orientada al cuidado del corazón con ajo deshidratado en polvo y sus compuestos vegetales."
+      ]
+    },
+    {
+      "id": 238,
+      "ingredients": "Vitamina B1 (Tiamina) 324 µg, Vitamina B2 (Riboflavina) 500 µg, Vitamina B6 (Piridoxina) 412 µg, Vitamina B12 (Cobalamina) 1.3 µg, Magnesio 40 mg, Celulosa Microcristalina.",
+      "benefits": [
+        "Ayuda a obtener energía y al funcionamiento de los nervios con vitaminas B1, B2 y B6. B12 ayuda a formar glóbulos rojos y magnesio al funcionamiento de músculos y nervios.",
+        "Celulosa microcristalina da consistencia a la preparación."
+      ]
+    },
+    {
+      "id": 239,
+      "ingredients": "Bayas de Goji, Aceite de Argán, Extracto de Aloe Vera, Extracto de Avena, Extracto de Aguacate, Ácido Hialurónico, Colágeno, Filtros Solares (Benzofenona 3, Octil Metoxi cinamato, Octil Salicilato), base cosmética c.b.p.",
+      "benefits": [
+        "Ayuda a mantener la piel hidratada y suave con aceites de argán y aguacate, aloe vera y avena. Ácido hialurónico retiene humedad y colágeno acondiciona la piel.",
+        "Goji aporta ingredientes vegetales y la base cosmética facilita la aplicación. Benzofenona 3, octil metoxicinamato y octil salicilato son filtros solares. Consultar el FPS indicado en la etiqueta."
+      ]
+    },
+    {
+      "id": 240,
+      "ingredients": "Aceite de Oliva (Olea europaea) 100% puro. Cápsula blanda de gelatina.",
+      "benefits": [
+        "Aporte de grasas: el aceite de oliva complementa las grasas de la alimentación, que el cuerpo utiliza para obtener energía y mantener sus células.",
+        "La gelatina forma la cápsula blanda para contener el aceite."
+      ],
+      "shortDesc": "Presentación en perlas para complementar el aporte de grasas de la alimentación. El aceite de oliva contiene grasas que el cuerpo utiliza como fuente de energía y como parte de sus células; la gelatina permite contenerlo en una cápsula blanda. Para desarrollar su enfoque cardiovascular o cerebral debemos revisar qué tipo de aceite contiene y cuánto aporta cada perla. La explicación debe distinguir esta cantidad del aceite utilizado habitualmente en la alimentación.",
+      "benefitSummary": "Aceite de oliva en perlas para complementar el aporte de grasas"
+    },
+    {
+      "id": 241,
+      "ingredients": "Levadura de Cerveza desecada y desamargada 100% pura (Saccharomyces cerevisiae). Puede contener Soya.",
+      "benefits": [
+        "Complementa la alimentación con levadura de cerveza desecada y desamargada. Puede contener soya."
+      ]
+    },
+    {
+      "id": 242,
+      "ingredients": "Oligofructosa, Fructanos de Achicoria.",
+      "benefits": [
+        "Acompaña el cuidado intestinal con oligofructosa y fructanos de achicoria, fibras que sirven de alimento a bacterias intestinales."
+      ]
+    },
+    {
+      "id": 243,
+      "ingredients": "Agua, Jarabe de Frutas (Fructuosa), Glucosa, Propóleo, Sauco, Gordolobo (Hoja, Flor, Raíz), Cebolla Morada, Equinácea, Limón Deshidratado, Ajo, Eucalipto, Bugambilia Flor, Malva Silvestre, Tomillo Semilla, Romero y Menta.",
+      "benefits": [
+        "Acompaña la comodidad de la garganta con propóleo, saúco, gordolobo y malva silvestre. Cebolla morada, ajo, bugambilia y tomillo completan el cuidado de la garganta.",
+        "Eucalipto, romero y menta añaden sensación aromática de frescura, y limón deshidratado complementa el sabor.",
+        "Agua, jarabe de frutas con fructosa y glucosa forman el vehículo dulce y aportan carbohidratos."
+      ]
+    },
+    {
+      "id": 244,
+      "ingredients": "Hongo Chaga (Inonotus obliquus), Hongo Reishi (Ganoderma lucidum), L-Carnitina, Probióticos (mezcla de cepas), Celulosa microcristalina, Estearato de magnesio, Dióxido de silicio.",
+      "benefits": [
+        "Complementa la alimentación con hongos Chaga y Reishi. L-carnitina ayuda al cuerpo a usar grasas para obtener energía y los probióticos acompañan el cuidado intestinal.",
+        "Celulosa microcristalina, estearato de magnesio y dióxido de silicio facilitan la preparación de las cápsulas."
+      ]
+    },
+    {
+      "id": 247,
+      "ingredients": "Vitamina C (ácido ascórbico), Vitamina A (retinol), Vitamina D (colecalciferol), Zinc, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Calcio, L-Lisina, Omega 3, Sucralosa, gelificantes, sabores (fresa y piña), colorantes.",
+      "benefits": [
+        "Complementa la alimentación infantil con vitaminas C, A y D y zinc para las defensas. Calcio y vitamina D ayudan a cuidar los huesos.",
+        "Vitaminas B1, B2, B3, B6, B12 y ácido fólico ayudan a aprovechar los alimentos y a formar glóbulos rojos. L-lisina aporta material para formar proteínas y omega 3 grasas para las células.",
+        "Sucralosa, sabores fresa y piña, gelificantes y colorantes dan dulzor, sabor y forma a las gomitas."
+      ]
+    },
+    {
+      "id": 248,
+      "ingredients": "Ácido Glutámico, L-Lisina, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Vitamina C, Zinc, Calcio, Omega 3, Sucralosa, gelificantes, sabores (fresa y zarzamora), colorantes.",
+      "benefits": [
+        "Complementa la alimentación infantil con vitaminas B1, B2, B3, B6, B12 y ácido fólico para aprovechar los alimentos y formar glóbulos rojos. Ácido glutámico y L-lisina completan el aporte alimentario.",
+        "Vitamina C y zinc apoyan las defensas, calcio ayuda a los huesos y omega 3 aporta grasas para las células.",
+        "Sucralosa, gelificantes, sabores fresa y zarzamora y colorantes dan dulzor, textura y sabor."
+      ]
+    },
+    {
+      "id": 249,
+      "ingredients": "Calcio (de gluconato y lactato de calcio), Vitamina D (colecalciferol), Vitamina A (palmitato de retinilo), Vitamina C (ácido ascórbico), Vitamina E (acetato de d-alfa tocoferol), Vitaminas B1, B2, B3, B6, B12, Extractos acuosos de zanahoria, cilantro, berro, menta, espinaca, manzanilla, Jugos de frutas concentrados (algarroba, albaricoque, piña, uva, maracuyá, manzana, limón), Goma guar, Goma xantana.",
+      "benefits": [
+        "Complementa la alimentación infantil con calcio del gluconato y lactato y vitamina D para huesos y músculos. Vitamina A cuida la piel y vitaminas C y E aportan antioxidantes.",
+        "Vitaminas B1, B2, B3, B6 y B12 ayudan a aprovechar los alimentos. Zanahoria, cilantro, berro, menta, espinaca y manzanilla completan el aporte vegetal.",
+        "Jugos de algarroba, albaricoque, piña, uva, maracuyá, manzana y limón dan sabor. Goma guar y goma xantana dan consistencia a la bebida."
+      ]
+    },
+    {
+      "id": 250,
+      "ingredients": "Hierro (de gluconato ferroso) 7.5 mg, Vitamina C (ácido ascórbico), Vitaminas B1, B2, B6, B12, Extracto acuoso de levadura, Extractos de zanahoria, espinaca, grama, alga marina, hibisco, Frutos de alcaravea (Carum carvi), Concentrados de jugos de fruta (pera, uva, grosella, zarzamora, cereza, naranja, remolacha, limón, manzana), Algarroba, Miel, Extracto de germen de trigo (contiene gluten).",
+      "benefits": [
+        "Ayuda a formar glóbulos rojos y transportar oxígeno con hierro del gluconato ferroso. La vitamina C ayuda a absorber hierro y la B12 a formar glóbulos rojos.",
+        "Vitaminas B1, B2 y B6 ayudan a aprovechar los alimentos. Extractos de levadura, germen de trigo, zanahoria, espinaca, grama, alga marina, hibisco y alcaravea completan la mezcla.",
+        "Pera, uva, grosella, zarzamora, cereza, naranja, remolacha, limón, manzana, algarroba y miel dan sabor a la bebida."
+      ]
+    },
+    {
+      "id": 251,
+      "ingredients": "Calostro bovino en polvo (4000 mg por porción), estandarizado al 20% de Inmunoglobulinas G (IgG). Contiene trazas de IgA, IgM, lactoferrina, factores de crecimiento (IGF-1, IGF-2, TGF-β, EGF), polipéptidos ricos en prolina (PRPs) y oligosacáridos.",
+      "benefits": [
+        "Complementa la alimentación con proteínas del calostro bovino: inmunoglobulinas IgG, IgA e IgM, lactoferrina y PRPs. Sus oligosacáridos aportan otros componentes de la leche.",
+        "También contiene pequeñas cantidades de factores de crecimiento IGF-1, IGF-2, TGF-β y EGF."
+      ]
+    },
+    {
+      "id": 252,
+      "ingredients": "L-Citrulina, Citrulina Malato, Beta Alanina, Remolacha roja en polvo, Extracto de Guaraná (Paullinia cupana), L-Tirosina, L-Teanina, Triglicéridos de Cadena Media (MCT), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Vitamina C (ácido ascórbico), Calcio, Sodio, Pimienta negra en polvo, Ácido cítrico, Saborizante, Dióxido de silicio, Silicato de calcio, Sucralosa, Acesulfame K.",
+      "benefits": [
+        "Complementa la alimentación para entrenar con L-citrulina, citrulina malato, remolacha y beta alanina.",
+        "Guaraná ayuda a estar más despierto. L-tirosina y L-teanina acompañan la concentración. MCT y vitaminas B6 y B12 complementan el aporte para la actividad física.",
+        "Calcio y sodio aportan minerales y vitamina C antioxidantes. La pimienta negra ayuda al aprovechamiento de algunos ingredientes.",
+        "Ácido cítrico, saborizante, sucralosa y acesulfame K dan sabor y dulzor. Dióxido de silicio y silicato de calcio evitan que el polvo se apelmace."
+      ]
+    },
+    {
+      "id": 253,
+      "ingredients": "Hojas de Moringa (Moringa oleifera) en polvo, Hojas de Romero (Salvia rosmarinus) en polvo, Hojas de Guayaba (Psidium guajava L.) en polvo, Cápsula vegetal.",
+      "benefits": [
+        "Acompaña el bienestar digestivo tradicional con moringa, romero y hoja de guayaba. Sus compuestos vegetales se reúnen en una cápsula vegetal que contiene la mezcla."
+      ]
+    },
+    {
+      "id": 254,
+      "ingredients": "Extracto líquido de corteza de Guatteria gaumeri (Yumel), Vehículo de extracción (base hidroalcohólica o glicerinada).",
+      "benefits": [
+        "Extracto líquido de yumel para uso tradicional digestivo. La base de alcohol o glicerina permite preparar y diluir el extracto."
+      ]
+    },
+    {
+      "id": 255,
+      "ingredients": "Extracto de Propóleo, Extracto de Menta (Mentha sp.), Sacarosa (perlas de azúcar).",
+      "benefits": [
+        "Acompaña la frescura y la comodidad de la garganta con menta y propóleo de uso tradicional. La sacarosa forma las perlas y aporta dulzor y carbohidratos."
+      ]
+    },
+    {
+      "id": 256,
+      "ingredients": "Extracto de Pasiflora (Passiflora incarnata), Sacarosa (perlas de azúcar).",
+      "benefits": [
+        "Acompaña una rutina de calma con pasiflora de uso tradicional relajante. La sacarosa forma las perlas y aporta dulzor."
+      ]
+    },
+    {
+      "id": 257,
+      "ingredients": "Vitamina B1 (tiamina), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Ácido Pantoténico (B5), Ácido Glutámico, Vitamina C, Vitamina E, Vitamina D, Extracto de hoja de espinaca, Extracto de semilla de maíz, Agua bidestilada.",
+      "benefits": [
+        "Ayuda a obtener energía de los alimentos y al funcionamiento de los nervios con vitaminas B1, B5, B6 y B12. Ácido glutámico completa el aporte alimentario.",
+        "Vitaminas C y E aportan antioxidantes y vitamina D ayuda a músculos y huesos. Espinaca y semilla de maíz completan la mezcla vegetal y agua bidestilada diluye los ingredientes."
+      ]
+    },
+    {
+      "id": 258,
+      "ingredients": "Salicilato de Metilo, Mentol, Alcanfor, Trementina, Aceites esenciales de Eucalipto y Guayacol, Extracto de Árnica (Arnica montana), Extracto de Garra del Diablo (Harpagophytum procumbens), Extracto de Castaño de Indias (Aesculus hippocastanum), Extracto de Centella Asiática, Extracto de Romero, Ajo, Cebolla, Apio, Yodo Orgánico, Clorofila, Éter, Aceite de Almendras, Vaselina, Carbomero, Liquigerm, Emulsificantes, Neutralizadores.",
+      "benefits": [
+        "Acompaña el masaje y comodidad en la zona del masaje con salicilato de metilo, mentol, alcanfor y trementina. Aceites esenciales de eucalipto y guayacol y extractos de árnica y garra del diablo completan la preparación de uso tópico.",
+        "Castaño de Indias, centella asiática y romero complementan el uso tradicional para cuidado de piel. Ajo, cebolla, apio, yodo orgánico y clorofila completan la mezcla.",
+        "Aceite de almendras y vaselina dan suavidad. Éter sirve como disolvente, carbomero da consistencia, emulsificantes y neutralizadores estabilizan el gel y Liquigerm cumple una función de conservación."
+      ]
+    },
+    {
+      "id": 259,
+      "ingredients": "Isoflavonas de Soya (Glycine max), Dong Quai (Angelica sinensis), Black Cohosh (Actaea racemosa), Maca (Lepidium meyenii), Damiana de California (Turnera diffusa), Garañona (Castilleja tenuiflora), Butcher's Broom (Ruscus aculeatus), Castaño de Indias (Aesculus hippocastanum L.), Uva Roja (Vitis vinifera), Ginseng (Panax ginseng), Guaraná (Paullinia cupana), Acai (Euterpe oleracea mart), Canela (Cinnamomum zeylanicum), Semilla de Calabaza (Cucurbita pepo L.), Zarzaparrilla (Smilax aspera), Perejil (Petroselinum crispum), Vitamina B12 (cianocobalamina) 3 µg, Vitamina E (DL-Alfa Tocoferol) 5 mg, Jalea Real Liofilizada, Polen en polvo.",
+      "benefits": [
+        "Puede ayudar con molestias de la menopausia con isoflavonas de soya y black cohosh. Dong quai, maca, damiana de California y garañona completan la mezcla femenina.",
+        "Ginseng y guaraná se usan para la vitalidad. B12 ayuda a formar glóbulos rojos y al funcionamiento de los nervios. Vitamina E, uva roja y acai aportan antioxidantes.",
+        "Butcher's broom o rusco y castaño de Indias se usan para el cuidado de la circulación. Canela, semilla de calabaza, zarzaparrilla, perejil, jalea real y polen completan la mezcla."
+      ]
+    },
+    {
+      "id": 260,
+      "ingredients": "Fruto de Anís (Pimpinella anisum), Raíz de Jengibre (Zingiber officinale), Corteza de Canela (Cinnamomum ceylanicum), Agua purificada, Benzoato de Sodio (conservador), Ácido Cítrico (estabilizador).",
+      "benefits": [
+        "Acompaña el bienestar del estómago y el uso tradicional durante el ciclo menstrual con anís, jengibre y canela.",
+        "Agua purificada sirve de vehículo, benzoato de sodio conserva y ácido cítrico estabiliza la preparación."
+      ]
+    },
+    {
+      "id": 261,
+      "ingredients": "Ácido Glutámico 500 mg, L-Glutamina 100 mg, Lecitina de Soya 500 mg, Vitamina B1 (tiamina) 800 µg, Vitamina B2 (riboflavina) 840 µg, Vitamina B3 (niacina) 11 mg, Vitamina B6 (piridoxina) 930 µg, Ácido Fólico (B9) 380 µg, Vitamina B12 (cobalamina) 2.1 µg, Calcio 300 mg, Magnesio 248 mg, Hierro 17 mg, Zinc 10 mg, Selenio 41 µg, L-Arginina 100 mg, L-Lisina 100 mg, Omega 3, 6, 9 100 mg, Vitamina A 568 µg, Vitamina C 60 mg, Vitamina D 5.6 µg, Vitamina E 11 µg.",
+      "benefits": [
+        "Ayuda a obtener energía y al funcionamiento de los nervios con vitaminas B1, B2, B3 y B6. Ácido fólico B9, B12 e hierro ayudan a formar glóbulos rojos.",
+        "Ácido glutámico, L-glutamina, L-arginina y L-lisina aportan materiales para formar proteínas. Lecitina de soya y omegas 3, 6 y 9 aportan grasas para las células.",
+        "Calcio, magnesio y vitamina D ayudan a músculos y huesos. Vitaminas A y C y zinc apoyan las defensas y vitamina E y selenio aportan antioxidantes."
+      ]
+    },
+    {
+      "id": 262,
+      "ingredients": "Citrato de Calcio (~1500 mg por porción), Concentrado de Proteína de Suero de Leche (WPC), 15 Cepas Probióticas (mezcla patentada de Lactobacillus, Bifidobacterium y Bacillus coagulans), Inulina de Agave, Saborizante natural a fresa, Edulcorante (sin azúcar añadido).",
+      "benefits": [
+        "Ayuda a cuidar los huesos con calcio del citrato y aporta proteína de suero WPC para los músculos. La inulina de agave aporta fibra.",
+        "Los probióticos Lactobacillus, Bifidobacterium y Bacillus coagulans acompañan el cuidado intestinal.",
+        "Sabor natural a fresa y edulcorante dan sabor y dulzor."
+      ]
+    },
+    {
+      "id": 263,
+      "ingredients": "Plata elemental (Ag⁰ + Ag⁺) en suspensión coloidal (10 ppm), Agua purificada.",
+      "benefits": [
+        "Contiene plata elemental Ag⁰ y Ag⁺ diluida en agua purificada. Evitar su consumo por vía oral."
+      ]
+    },
+    {
+      "id": 264,
+      "ingredients": "Ácido Pantoténico (como Pantotenato de Calcio) 500 mg, Calcio 45 mg, Hipromelosa (cápsula vegetal), Ácido Esteárico (vegetal).",
+      "benefits": [
+        "Apoya la obtención de energía de los alimentos con vitamina B5 del pantotenato de calcio. El calcio declarado complementa el aporte mineral para músculos y huesos.",
+        "Hipromelosa forma la cápsula y ácido esteárico vegetal ayuda a preparar el producto."
+      ]
+    },
+    {
+      "id": 265,
+      "ingredients": "Zeolita (Clinoptilolita) 320 mg, Cápsula vegetal.",
+      "benefits": [
+        "Contiene zeolita o clinoptilolita en cápsula vegetal. Consultar a un profesional antes de usarla por vía oral."
+      ]
+    },
+    {
+      "id": 266,
+      "ingredients": "Tlanchalagua (Erythraea stricta, L.), Cocolmeca (Smilax cardifolia, L.), Tejocote (Crataegus mexicana, L.), Lima (Citrus Limetta, L.), Té Limón (Cymbopogon nardus, L.).",
+      "benefits": [
+        "Tlanchalagua, cocolmeca, tejocote, lima y té limón forman una mezcla de plantas de uso tradicional para el bienestar digestivo."
+      ]
+    },
+    {
+      "id": 267,
+      "ingredients": "Raíz de Panax ginseng (Ginseng Rojo) 2400 mg por ampolla, Miel (0.51 g de carbohidratos), Agua purificada.",
+      "benefits": [
+        "Acompaña la vitalidad con raíz de Panax ginseng rojo de uso tradicional. La miel aporta dulzor y una pequeña cantidad de carbohidratos, y el agua purificada sirve para diluir la mezcla."
+      ]
+    },
+    {
+      "id": 268,
+      "ingredients": "Aceite de Rosa Mosqueta (Rosa moschata) 100% puro, obtenido por prensado en frío. Contiene ácido linoleico (40-50%), ácido linolénico (30-35%), ácido oleico (15-20%), trazas de ácido trans-retinoico, tocoferoles (Vitamina E) y fitoesteroles.",
+      "benefits": [
+        "Ayuda a suavizar la piel y conservar su humedad con ácidos linoleico, linolénico y oleico del aceite de rosa mosqueta.",
+        "Los fitoesteroles acondicionan la piel y los tocoferoles o vitamina E ayudan a conservar el aceite. Contiene trazas de ácido trans-retinoico."
+      ]
+    },
+    {
+      "id": 269,
+      "ingredients": "Jugo de Noni (Morinda citrifolia), Extracto Seco de Fruto de Noni, Agua Desmineralizada, Goma Xantana, Ácido Cítrico, Sabor y Colorante Artificial Uva, Sorbato de Potasio, Benzoato de Sodio, Stevia (Stevia rebaudiana).",
+      "benefits": [
+        "Permite incorporar componentes vegetales del jugo y extracto seco de fruto de noni.",
+        "Agua desmineralizada sirve de vehículo y goma xantana da textura. Ácido cítrico ajusta acidez, stevia da dulzor, sabor y colorante artificial uva ajustan la presentación, y sorbato de potasio y benzoato de sodio conservan la mezcla."
+      ]
+    },
+    {
+      "id": 270,
+      "ingredients": "Polvo de raíz de Cúrcuma (Curcuma longa), Polvo de raíz de Jengibre (Zingiber officinale), excipientes (cápsula vegetal o gelatinosa).",
+      "benefits": [
+        "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. Los excipientes y la cápsula vegetal o gelatinosa ayudan a contener y dar forma a la mezcla."
+      ]
+    },
+    {
+      "id": 271,
+      "ingredients": "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; partes aéreas de Bacopa monnieri en polvo 200 mg; L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
+      "benefits": [
+        "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Bacopa monnieri se usa para el cuidado de la atención y la memoria.",
+        "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
+      ]
+    },
+    {
+      "id": 272,
+      "ingredients": "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; extracto de raíz de Rhodiola rosea 200 mg, estandarizado al 3 % de salidrósidos (aporta 6 mg); L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
+      "benefits": [
+        "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Rhodiola rosea se usa para el cansancio en días de estrés.",
+        "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
+      ]
+    },
+    {
+      "id": 273,
+      "ingredients": "Por cápsula (500 mg): mezcla de extracto de raíz y rizoma de cohosh negro (Actaea racemosa) e isoflavonas de soja (Glycine max). La ficha no especifica la cantidad individual de cada ingrediente.",
+      "benefits": [
+        "Puede ayudar con molestias de la menopausia con cohosh negro e isoflavonas de soja."
+      ]
+    },
+    {
+      "id": 274,
+      "ingredients": "Extracto acuoso de hojas de guanábana (cantidad no especificada), vitamina C (60 mg por 60 mL), agua purificada, ácidos cítrico y tartárico, stevia (12 mg por 60 mL), saborizante de guanábana, dióxido de titanio, color caramelo, benzoato de sodio y sorbato de potasio; según la ficha técnica recibida.",
+      "benefits": [
+        "Apoya las defensas y la formación de colágeno con vitamina C. El extracto acuoso de hojas de guanábana completa el aporte vegetal.",
+        "Agua purificada sirve para diluir la mezcla. Ácidos cítrico y tartárico ajustan acidez, stevia da dulzor y saborizante de guanábana, dióxido de titanio y color caramelo ajustan sabor y apariencia.",
+        "Benzoato de sodio y sorbato de potasio conservan la preparación."
+      ]
+    }
+  ]
+}

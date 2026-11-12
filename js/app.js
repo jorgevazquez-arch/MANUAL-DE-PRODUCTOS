@@ -568,6 +568,14 @@
                 .replace(/>/g, '&gt;');
         }
 
+        function renderProductSources(product) {
+            const sources = (product?.researchNote?.sources || []).filter(source => /^https:\/\//i.test(source.url || ''));
+            return sources.length ? `
+                <ul class="mt-3 space-y-2 text-xs" aria-label="Fuentes consultadas">${sources.map(source => `
+                    <li><a class="underline" href="${escapeGuideAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeGuideAttribute(source.title)}</a></li>
+                `).join('')}</ul>` : '';
+        }
+
         function renderGuideRationaleIcon(item, product) {
             const rationale = escapeGuideAttribute(item?.rationale || 'Ver motivo de la recomendación.');
             const productName = escapeGuideAttribute(product?.name || 'este producto');
@@ -1424,10 +1432,11 @@
                                     ${(p.benefits || []).map(b => `
                                         <li class="flex items-start gap-2">
                                             <span class="text-emerald-500 mt-0.5">✔️</span>
-                                            <span class="text-xs text-gray-700 leading-tight">${b}</span>
+                                            <span class="text-xs text-gray-700 leading-tight">${escapeGuideAttribute(b)}</span>
                                         </li>
                                     `).join('')}
                                 </ul>
+                                ${renderProductSources(p)}
                             </div>
 
                             <!-- FICHA DE ESPECIFICACIONES (Lista limpia) -->
@@ -1835,7 +1844,12 @@
             const benefitSummary = document.getElementById('modalBenefitSummary');
             benefitSummary.textContent = p.benefitSummary ? `Para recordarlo: ${p.benefitSummary}` : '';
             benefitSummary.hidden = !p.benefitSummary;
-            benefitsList.innerHTML = p.benefits ? p.benefits.map(b => `<li>${b}</li>`).join('') : '<li>No especificado</li>';
+            benefitsList.innerHTML = p.benefits ? p.benefits.map(b => `<li>${escapeGuideAttribute(b)}</li>`).join('') : '<li>No especificado</li>';
+
+            const benefitSources = document.getElementById('modalBenefitSources');
+            const sourceLinks = renderProductSources(p);
+            benefitSources.hidden = !sourceLinks;
+            benefitSources.innerHTML = sourceLinks;
 
             document.getElementById('modalContra').textContent = p.contraindications || 'No especificado';
             document.getElementById('modalInter').textContent = p.interactions || 'La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.';
@@ -1985,9 +1999,12 @@
                     title: 'Información práctica',
                     rows: [
                         { label: 'Qué aporta', get: (product) => product.shortDesc || '-' },
-                        { label: 'Beneficios clave', get: (product) => product.benefits && product.benefits.length
-                            ? `<ul class="compare-benefits">${product.benefits.map((benefit) => `<li>${benefit}</li>`).join('')}</ul>`
-                            : '-' },
+                        { label: 'Beneficios clave', get: (product) => {
+                            const benefits = product.benefits?.length
+                                ? `<ul class="compare-benefits">${product.benefits.map((benefit) => `<li>${escapeGuideAttribute(benefit)}</li>`).join('')}</ul>`
+                                : '';
+                            return benefits + renderProductSources(product) || '-';
+                        } },
                         { label: 'Ingredientes', get: (product) => product.ingredients || '-' },
                         { label: 'Lo que lo distingue', get: (product) => escapeGuideAttribute(product.choiceNote || '-') },
                         { label: 'Contenido del envase', get: (product) => product.packageContent || '-' },

@@ -4,7 +4,7 @@
 //  Edítalo con cualquier editor de texto; cada producto sigue
 //  el mismo formato: { id, code, name, packageContent, category, image,
 //  shortDesc, ingredients, serving, timing, intakeInstructions,
-//  benefits[], benefitSummary, contraindications, foodInteractions, interactions }
+//  benefits[], benefitSummary, researchNote?, contraindications, foodInteractions, interactions }
 //  ⚠️ El 'id' debe ser único y NUNCA reutilizarse en otro producto.
 //  Después de editar, abre validate.html para revisar errores.
 // ============================================================
@@ -27,11 +27,8 @@ window.manualData.productos = [
     timing: "Una vez al día, preferentemente con alimentos",
     intakeInstructions: "Disolver 4 g en 200-250 ml de agua o jugo. Consumir con alimentos.",
     benefits: [
-      "Ayuda a aprovechar los alimentos para producir energía",
-      "Contribuye a reducir el cansancio cuando falta magnesio",
-      "Apoya el movimiento normal de los músculos",
-      "Participa en el buen funcionamiento de los nervios",
-      "Ayuda a mantener los huesos en buen estado"
+      "Ayuda a que músculos y nervios funcionen bien y a obtener energía de los alimentos con el magnesio del cloruro de magnesio.",
+      "También contiene pequeñas cantidades de calcio, hierro y vitamina A."
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos de la conducción cardíaca, o bajo tratamiento con diuréticos, antibióticos (tetraciclinas, quinolonas) o bifosfonatos deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -54,9 +51,7 @@ window.manualData.productos = [
     timing: "Una vez al día, con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos y un vaso de agua.",
     benefits: [
-      "El orégano tiene uso tradicional para el confort digestivo",
-      "Contiene compuestos vegetales que complementan el cuidado de las células",
-      "Permite incorporar coco y orégano sin su sabor intenso"
+      "Se usa para el bienestar del estómago con orégano y su carvacrol. El aceite de coco y el ácido láurico aportan la parte grasa de la mezcla."
     ],
     contraindications: "No recomendado durante el embarazo o lactancia sin consulta médica. Personas con alergia a plantas de la familia Lamiaceae (menta, tomillo, albahaca) deben consultar a su profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -79,11 +74,8 @@ window.manualData.productos = [
     timing: "Una vez al día, en ayunas o entre comidas",
     intakeInstructions: "Disolver 10 g (1 cucharada) en 200-300 ml de agua, jugo o bebida fría o templada. Consumir una vez al día.",
     benefits: [
-      "Aporta proteína para complementar la alimentación",
-      "Ofrece materiales que el cuerpo utiliza para mantener sus tejidos",
-      "Puede apoyar la hidratación y elasticidad de la piel con uso constante",
-      "Complementa el cuidado de las articulaciones",
-      "Se integra fácilmente en bebidas o alimentos"
+      "Ayuda a cuidar piel y articulaciones: el colágeno aporta proteína y la vitamina C ayuda a formar el colágeno del cuerpo.",
+      "La biotina ayuda a mantener la piel en buen estado y a aprovechar los alimentos."
     ],
     contraindications: "Personas con alergia a la proteína bovina o porcina, o bajo tratamiento con anticoagulantes, deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -106,11 +98,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Apoya el funcionamiento normal de los nervios",
-      "Contribuye a disminuir el cansancio por falta de estas vitaminas",
-      "Participa en la formación normal de glóbulos rojos",
-      "El arándano complementa el aporte de antioxidantes"
+      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5, B6 y B7. Las B1, B6 y B12 también cuidan el funcionamiento de los nervios.",
+      "Las B9 y B12 ayudan a formar glóbulos rojos. El arándano aporta antioxidantes para cuidar las células."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -133,11 +122,9 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Las vitaminas B ayudan al cuerpo a aprovechar la energía de la comida",
-      "Complementa la alimentación en etapas de mayor actividad",
-      "El ginseng se usa tradicionalmente como apoyo a la vitalidad",
-      "Apoya el funcionamiento del sistema nervioso",
-      "Aporta ingredientes antioxidantes para el cuidado de las células"
+      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B5, B6 y biotina. El ginseng siberiano se usa para la vitalidad en días de mayor actividad.",
+      "Las vitaminas B6, B9 y B12 ayudan al funcionamiento de los nervios y a formar glóbulos rojos.",
+      "Los arándanos blueberry y cranberry y la vitamina C aportan antioxidantes. La vitamina A cuida la piel y la vitamina D ayuda a mantener huesos y músculos."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -160,9 +147,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos. Acompañar con una ingesta adecuada de agua.",
     benefits: [
-      "Complementa la rutina de cuidado de las vías urinarias",
-      "Contiene compuestos vegetales para el cuidado de las células",
-      "Permite incorporar arándano rojo en cápsulas"
+      "Aporta extracto de arándano rojo para complementar el cuidado diario de las vías urinarias."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con antecedentes de cálculos renales de oxalato o bajo tratamiento con anticoagulantes (warfarina) deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -185,11 +170,7 @@ window.manualData.productos = [
     timing: "Una vez al día, preferentemente después del entrenamiento",
     intakeInstructions: "Mezclar 5 g (1 cuchara) en 200-250 ml de agua o bebida de elección. Consumir una vez al día.",
     benefits: [
-      "Ayuda a rendir mejor en esfuerzos cortos e intensos",
-      "Apoya la fuerza en ejercicios como pesas y sprints",
-      "Ayuda a sostener el rendimiento en series repetidas",
-      "Puede favorecer la ganancia muscular junto con entrenamiento",
-      "Complementa una rutina deportiva constante"
+      "Apoya el rendimiento en esfuerzos cortos y repetidos con creatina monohidratada, que ayuda a reponer energía rápida para los músculos durante el entrenamiento."
     ],
     contraindications: "Personas con patologías renales preexistentes deben consultar a su médico antes de iniciar la suplementación.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -212,11 +193,7 @@ window.manualData.productos = [
     timing: "Preferentemente después del entrenamiento",
     intakeInstructions: "Disolver 5 g (1 cucharada) en 250 ml de agua o jugo. Consumir preferentemente después del entrenamiento.",
     benefits: [
-      "Apoya la fuerza en entrenamientos de alta intensidad",
-      "Ayuda a rendir en esfuerzos breves y repetidos",
-      "Puede acompañar el aumento de masa muscular con ejercicio",
-      "Permite complementar la creatina que el cuerpo produce",
-      "Se puede integrar a una rutina diaria de entrenamiento"
+      "Apoya fuerza y rendimiento en esfuerzos cortos y repetidos con creatina monohidratada, acompañada de entrenamiento y alimentación suficientes."
     ],
     contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico antes de usar este producto.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -239,9 +216,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "El cuachalalate tiene uso tradicional para el confort del estómago",
-      "Combina dos plantas de la herbolaria mexicana en una sola toma",
-      "Permite incorporar las plantas sin preparar una infusión"
+      "Se usa para el bienestar del estómago con cortezas de cuachalalate y tepezcohuite."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -264,9 +239,9 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Complementa el cuidado nutricional del corazón y la circulación",
-      "Contiene ingredientes para el cuidado de las células",
-      "Las vitaminas B ayudan a obtener energía de los alimentos"
+      "Complementa el cuidado del corazón con ajo deodorizado y olivo. La semilla de uva y el té verde aportan antioxidantes para cuidar las células.",
+      "La vitamina B1 ayuda al corazón a funcionar bien. Las B6 y B12 ayudan a aprovechar los alimentos y a formar glóbulos rojos.",
+      "Zapote blanco, alpiste y enebro completan la mezcla de plantas."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -289,10 +264,7 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas (para mejorar la absorción)",
     intakeInstructions: "Mezclar 3 g (1 cucharadita) en bebidas, jugos, té o alimentos. Consumir una vez al día.",
     benefits: [
-      "La cúrcuma tiene uso tradicional para aliviar la pesadez después de comer",
-      "También se usa tradicionalmente para molestias digestivas leves como los gases",
-      "Aporta antioxidantes que ayudan a proteger las células del daño diario",
-      "Se puede incorporar a comidas o preparar como bebida"
+      "La cúrcuma orgánica se usa para el bienestar del estómago después de comer y aporta antioxidantes."
     ],
     contraindications: "Personas con obstrucción de vías biliares, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -315,10 +287,7 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
     benefits: [
-      "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
-      "La cúrcuma también aporta antioxidantes que ayudan a proteger las células",
-      "El jengibre tiene uso tradicional para el confort del estómago",
-      "La moringa aporta otros compuestos vegetales antioxidantes"
+      "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. La moringa aporta antioxidantes para cuidar las células."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -335,16 +304,24 @@ window.manualData.productos = [
     benefitSummary: "Cúrcuma para pesadez digestiva y aporte antioxidante",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma.jpg",
-    shortDesc: "Raíz de cúrcuma en cápsulas, de uso tradicional para aliviar pesadez y gases después de comer. Aporta antioxidantes que ayudan a proteger las células.",
+    shortDesc: "Raíz de cúrcuma en cápsulas para acompañar el bienestar del estómago después de comer. Su uso tradicional se enfoca en molestias digestivas leves, como pesadez, gases y sensación de digestión lenta. También contiene compuestos vegetales que complementan el aporte antioxidante de la alimentación. Esta presentación utiliza la raíz en polvo y se distingue de la curcumina concentrada, cuyo enfoque dentro del catálogo es el cuidado de las articulaciones.",
+    researchNote: {
+      "focus": "Pesadez, gases y digestión lenta",
+      "text": "Bienestar del estómago después de comer: la raíz de cúrcuma se utiliza tradicionalmente para acompañar molestias leves como pesadez, gases y digestión lenta. La EMA recoge este uso digestivo de preparaciones de cúrcuma. Estas cápsulas aportan 1,000 mg de raíz en polvo por porción, una presentación que permite incorporarla a la rutina. La información seleccionada se centra en la comodidad digestiva y en el uso de la raíz, que da identidad a este producto.",
+      "sources": [
+        {
+          "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
+          "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+        }
+      ]
+    },
     ingredients: "Raíz de cúrcuma (Curcuma longa) en polvo 1000 mg por porción.",
     serving: "2 cápsulas (1 g)",
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
     benefits: [
-      "Tiene uso tradicional para aliviar la pesadez después de comer",
-      "También se usa tradicionalmente ante gases y digestión lenta",
-      "Aporta antioxidantes que ayudan a proteger las células del daño diario",
-      "Permite tomar la raíz en polvo sin preparar una bebida"
+      "Bienestar después de comer: la raíz de cúrcuma tiene uso tradicional para acompañar molestias digestivas leves, como pesadez, gases y sensación de digestión lenta.",
+      "Permite incorporar la raíz de cúrcuma en cápsulas, con 1,000 mg de polvo por porción, dentro de la rutina de cuidado digestivo."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -367,11 +344,7 @@ window.manualData.productos = [
     timing: "Apto para cocinar a altas temperaturas",
     intakeInstructions: "Utilizar para preparar, freír o cocinar alimentos.",
     benefits: [
-      "Aporta grasa para cocinar y complementar la alimentación",
-      "Su sabor neutro permite usarlo en distintas recetas",
-      "Es útil para cocinar, hornear y preparar alimentos",
-      "Aporta energía como otros aceites de cocina",
-      "Su presentación grande resulta práctica para uso frecuente"
+      "Aporta grasa y energía para preparar alimentos con aceite de coco RBD, refinado, blanqueado y desodorizado. Su sabor neutro facilita su uso en distintas recetas."
     ],
     contraindications: "Consumir con moderación como parte de una dieta variada y equilibrada.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -394,11 +367,7 @@ window.manualData.productos = [
     timing: "Apto para frituras, horneado y uso cosmético",
     intakeInstructions: "Utilizar para preparar, freír o cocinar alimentos. Recomendado para cuidado de la piel y cabello.",
     benefits: [
-      "Conserva el aroma y sabor característico del coco",
-      "Aporta grasa para complementar distintas recetas",
-      "Se puede incorporar a bebidas, postres y preparaciones de cocina",
-      "En uso externo ayuda a suavizar piel y cabello",
-      "Permite usar un mismo ingrediente en cocina y cuidado personal"
+      "Aporta grasa y energía con aceite de coco extra virgen prensado en frío. Su aroma y sabor complementan recetas dulces o saladas."
     ],
     contraindications: "Consumir con moderación. Para uso cosmético, realizar prueba de sensibilidad en la piel.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -421,9 +390,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Diluir 0.75 ml (3 gotas) en agua, jugo o infusión. Tomar con alimentos.",
     benefits: [
-      "El orégano tiene uso tradicional para el bienestar digestivo",
-      "Contiene compuestos vegetales que complementan el cuidado de las células",
-      "El gotero permite medir la cantidad indicada en la etiqueta"
+      "Acompaña el bienestar digestivo tradicional con aceite esencial de orégano. El aceite de oliva sirve como base para diluirlo y distribuirlo en la preparación."
     ],
     contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con gastritis, úlceras, enfermedades hepáticas o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -446,11 +413,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Aporta un antioxidante que participa en el cuidado celular",
-      "Ayuda a proteger las células frente al desgaste diario",
-      "Participa en los procesos con los que el cuerpo obtiene energía",
-      "Complementa el cuidado nutricional del metabolismo",
-      "Su aporte se centra en ácido alfa lipoico"
+      "Aporta ácido alfa lipóico o tióctico para cuidar las células y ayudar al cuerpo a obtener energía de los alimentos."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con deficiencia de tiamina, diabetes, hipoglucemia o bajo tratamiento con antidiabéticos o quimioterápicos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -473,11 +436,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Disolver 15 g en 200-300 ml de agua, jugo o bebida vegetal. Consumir una vez al día.",
     benefits: [
-      "Combina colágeno y ácido hialurónico para el cuidado de la piel",
-      "Puede apoyar la hidratación y elasticidad de la piel",
-      "Aporta proteína que ayuda a mantener los tejidos",
-      "Complementa el cuidado de las articulaciones",
-      "Incluye omega 3 y antioxidantes como parte de la fórmula"
+      "Ayuda a cuidar piel y articulaciones con proteína del colágeno tipo 1. El ácido hialurónico complementa el cuidado de la hidratación de la piel.",
+      "El arándano azul y la vitamina E aportan antioxidantes. El omega 3 EPA/DHA aporta grasas para las células y el aloe vera completa la mezcla."
     ],
     contraindications: "Personas con alergia a pescados (omega-3) o a alguno de los componentes, o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -491,18 +451,17 @@ window.manualData.productos = [
     id: 19,
     code: "7503016797832",
     name: "ÁCIDO LINOLEICO CONJUGADO (CLA)",
-    benefitSummary: "Complemento de alimentación y actividad física",
+    benefitSummary: "Posible apoyo al cuidado de la grasa corporal con ejercicio",
     category: "deportivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/unnamed-1.jpg",
-    shortDesc: "CLA en cápsulas para complementar la alimentación dentro de una rutina de ejercicio y cuidado del peso.",
+    shortDesc: "Ácido linoleico conjugado procedente de aceite de cártamo, utilizado como complemento dentro de planes de alimentación y ejercicio orientados al cuidado de la grasa corporal. Su función se explica como un posible apoyo a los objetivos de composición corporal, junto con entrenamiento y consumo suficiente de proteína. Para la capacitación conviene distinguir reducción de grasa, pérdida de peso y mantenimiento muscular: son objetivos diferentes y no deben presentarse como un resultado automático de las cápsulas.",
     ingredients: "Ácido linoleico conjugado (CLA) de alta pureza, procedente de aceite de cártamo.",
     serving: "3 cápsulas (2.4 g)",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Permite incorporar CLA, un tipo de grasa, en cápsulas",
-      "Complementa la alimentación dentro de una rutina de ejercicio",
-      "No hay un beneficio consistente demostrado para bajar de peso"
+      "Puede acompañar los objetivos de cuidado de la grasa corporal dentro de un plan de alimentación y ejercicio.",
+      "Aporta ácido linoleico conjugado CLA procedente de aceite de cártamo como complemento de las grasas de la alimentación."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas o renales deben consultar a su médico antes de usar este producto.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -525,9 +484,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "La maca tiene uso tradicional como apoyo a la vitalidad",
-      "Acompaña una rutina de autocuidado femenino",
-      "Reúne aguaje, fenogreco y dos variedades de maca"
+      "Acompaña la vitalidad femenina con maca negra y maca amarilla. El aguaje y el fenogreco completan el aporte vegetal."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles a estrógenos (fibromas, endometriosis, cáncer de mama) o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -541,18 +498,18 @@ window.manualData.productos = [
     id: 21,
     code: "7503021404855",
     name: "AJO NEGRO + MORINGA",
-    benefitSummary: "Ajo negro y moringa para el cuidado diario",
+    benefitSummary: "Ajo negro y moringa para antioxidantes, con vitaminas B",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/AJO-NEGRO-MORINGA1.jpg",
-    shortDesc: "Ajo negro y moringa con vitaminas para complementar el cuidado de las células y una alimentación variada.",
+    shortDesc: "Combina ajo negro y hoja de moringa para complementar el aporte de compuestos vegetales y antioxidantes. La moringa amplía la composición de la fórmula y la distingue del ajo negro solo. Incluye vitaminas B1, B2 y B6, que participan en el aprovechamiento de alimentos y el funcionamiento de los nervios, además de una pequeña cantidad de vitamina C. El cuidado antioxidante tiene prioridad, seguido del aporte nutricional y las funciones complementarias de las vitaminas.",
     ingredients: "Hoja de moringa (250 mg), bulbo de ajo negro (249 mg), vitamina C (0.5 mg), vitaminas B1, B2, B6 por cápsula.",
     serving: "1 cápsula (500 mg)",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "Combina ajo negro y moringa para complementar la alimentación",
-      "Contiene compuestos vegetales que ayudan al cuidado de las células",
-      "Permite incorporar estos ingredientes sin prepararlos"
+      "Cuidado antioxidante: ajo negro y moringa complementan el aporte de compuestos vegetales para cuidar las células.",
+      "Las vitaminas B1, B2 y B6 ayudan a obtener energía de los alimentos y al funcionamiento de los nervios.",
+      "Incluye una pequeña cantidad de vitamina C como acompañante de la mezcla."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al ajo o a la moringa, con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -575,9 +532,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "El propóleo se usa tradicionalmente para el bienestar en cambios de temporada",
-      "Combina ingredientes con compuestos que ayudan al cuidado de las células",
-      "Permite incorporar ajo negro y propóleo en cápsulas"
+      "Acompaña el cuidado en cambios de temporada con propóleo para la comodidad de la garganta, y ajo negro, que añade antioxidantes."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (miel, propóleo, polen) o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -591,18 +546,18 @@ window.manualData.productos = [
     id: 23,
     code: "7503021404558",
     name: "AJO NEGRO",
-    benefitSummary: "Complemento nutricional para el cuidado del corazón",
+    benefitSummary: "Ajo negro para cuidado cardiovascular y antioxidante",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ajo-negro.jpg",
-    shortDesc: "Ajo negro en cápsulas para complementar el cuidado nutricional del corazón y de las células, junto con hábitos saludables.",
+    shortDesc: "Ajo fermentado en cápsulas para complementar el cuidado cardiovascular y el aporte de antioxidantes de la alimentación. Sus compuestos vegetales acompañan el cuidado de las células y dan a esta fórmula su enfoque principal. Incluye pequeñas cantidades de vitaminas C y B6, que se mencionan como acompañantes. Se distingue de otras mezclas porque su ingrediente central es el ajo negro; sus funciones deben explicarse según la preparación y porción utilizadas.",
     ingredients: "Ajo negro (Allium sativum fermentado) 1.5 g, vitamina C 0.62 mg, vitamina B6 0.03 mg por porción.",
     serving: "3 cápsulas (1.5 g)",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Complementa el cuidado nutricional del corazón",
-      "Contiene compuestos del ajo negro que ayudan al cuidado de las células",
-      "Permite incorporar ajo negro sin añadirlo a las comidas"
+      "Cuidado cardiovascular: el ajo negro complementa una alimentación orientada al cuidado del corazón.",
+      "Cuidado celular: los compuestos vegetales del ajo negro complementan el aporte de antioxidantes.",
+      "Incluye pequeñas cantidades de vitaminas C y B6 como acompañantes de la fórmula."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al ajo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -625,11 +580,9 @@ window.manualData.productos = [
     timing: "Dos o tres veces al día",
     intakeInstructions: "Mezclar 30 g (1 medida) en jugos, leche, licuados o agua. Tomar dos o tres veces al día.",
     benefits: [
-      "Aporta proteína de huevo para completar la alimentación",
-      "Ayuda al mantenimiento y desarrollo de los músculos",
-      "Proporciona los componentes que el cuerpo usa para formar proteína",
-      "Puede apoyar la recuperación después del ejercicio",
-      "Ofrece una alternativa de proteína sin lactosa"
+      "Ayuda a cuidar y recuperar los músculos con proteína de albúmina de huevo. Vitaminas B1, B2, B3, B6, B12 y ácido fólico ayudan a obtener energía y a formar glóbulos rojos.",
+      "Potasio, fósforo, calcio, magnesio y vitamina D3 ayudan a músculos y huesos. Hierro y cobre ayudan a transportar oxígeno en la sangre y yodo al funcionamiento de la tiroides.",
+      "Vitaminas C y E aportan antioxidantes. Vitamina A y zinc ayudan a cuidar la piel y las defensas."
     ],
     contraindications: "Personas con alergias al huevo o soya deben evitar su consumo. Mujeres embarazadas o en lactancia deben consultar a su médico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -652,11 +605,7 @@ window.manualData.productos = [
     timing: "En ayunas o con alimentos",
     intakeInstructions: "Mezclar 10 g (2 cucharadas) en agua, jugos, licuados o espolvorear sobre ensaladas. Consumir una vez al día.",
     benefits: [
-      "Permite añadir espirulina a bebidas y alimentos",
-      "Aporta nutrientes propios de esta alga",
-      "Contiene compuestos con actividad antioxidante",
-      "Complementa una alimentación de origen vegetal",
-      "Su formato en polvo facilita incorporarla a distintas recetas"
+      "Complementa una alimentación variada con espirulina orgánica y sus componentes naturales. El polvo permite añadirla a bebidas o alimentos."
     ],
     contraindications: "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -679,10 +628,9 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "El calcio y el magnesio apoyan el cuidado de huesos y músculos",
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "La vitamina E complementa el cuidado de las células",
-      "Permite incorporar espirulina sin su sabor característico"
+      "Complementa la alimentación con espirulina. Vitaminas B1, B2, B6 y B12 ayudan a obtener energía y al funcionamiento de los nervios.",
+      "Calcio y magnesio ayudan a cuidar músculos y huesos. Hierro y cobre ayudan a formar glóbulos rojos.",
+      "Zinc y vitamina A ayudan a cuidar la piel y las defensas. La vitamina E aporta antioxidantes."
     ],
     contraindications: "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -705,11 +653,7 @@ window.manualData.productos = [
     timing: "En ayunas o antes de la primera comida",
     intakeInstructions: "Agitar bien. Consumir 90 ml al día, preferentemente en ayunas o antes de la primera comida.",
     benefits: [
-      "Combina sábila y arándano en una bebida",
-      "Se utiliza como complemento del bienestar digestivo",
-      "La vitamina C contribuye al funcionamiento de las defensas",
-      "La vitamina C también ayuda al cuidado de las células",
-      "El arándano complementa el enfoque de bienestar urinario"
+      "Arándano y aloe vera complementan el cuidado diario. La sábila se usa para el bienestar digestivo y la vitamina C apoya las defensas y aporta antioxidantes."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -732,11 +676,7 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Agitar bien. Tomar 100 ml al día, preferentemente en ayunas o entre comidas.",
     benefits: [
-      "Permite incorporar sábila en una bebida de sabor tropical",
-      "Complementa la rutina de bienestar digestivo",
-      "La vitamina C apoya las defensas del organismo",
-      "La vitamina C aporta protección antioxidante",
-      "Ofrece una presentación líquida para quien prefiere evitar cápsulas"
+      "La vitamina C apoya las defensas y aporta antioxidantes. El aloe vera se usa para el bienestar digestivo y los saborizantes tropicales dan sabor a la bebida."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -759,10 +699,9 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "El cromo participa en el aprovechamiento de los alimentos y el manejo normal del azúcar",
-      "La fibra y las bacterias benéficas complementan el cuidado intestinal",
-      "Contiene ingredientes que ayudan al cuidado de las células",
-      "Acompaña un plan de alimentación y actividad física"
+      "Ayuda al cuidado intestinal con Bifidobacterium lactis. La inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino.",
+      "El cromo picolinato y el zinc ayudan a aprovechar los alimentos. El ácido alfa lipoico y la α-glucosil hesperidina aportan antioxidantes.",
+      "Gynostemma pentaphyllum y ácido clorogénico completan la mezcla para el cuidado de la alimentación."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -776,20 +715,37 @@ window.manualData.productos = [
     id: 30,
     code: "7503025069791",
     name: "ARTMUUB 1.1 kg",
-    benefitSummary: "Proteína y fibra para complementar la alimentación",
-    category: "nutricional",
+    benefitSummary: "Cuidado de las articulaciones y facilidad de movimiento",
+    category: "locomotor",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB_1-1.webp",
-    shortDesc: "Polvo con proteína, fibra, omega 3, vitaminas y minerales para completar la alimentación y ayudar a conservar los músculos.",
-    ingredients: "Proteínas (9 g), omega-3 (EPA 280 mg, DHA 210 mg, DPA 210 mg), vitamina C (390 mg), magnesio (150 mg), vitamina E (99.9 mg), zinc (9.9 mg), vitamina D (9.9 mg, posible error: mcg), fibra (4.4 g) por porción.",
+    shortDesc: "Fórmula para acompañar el cuidado de las articulaciones y mantener la comodidad al moverse. Combina colágeno, cartílago de tiburón, glucosamina y condroitina como ingredientes principales de su enfoque articular. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D complementan el cuidado de huesos y músculos. También incluye omega 3, vitamina E y zinc para el cuidado celular, además de fibra como aporte digestivo secundario.",
+    researchNote: {
+      "focus": "Articulaciones y comodidad al moverse",
+      "text": "Cuidado de las articulaciones y comodidad al moverse: la fórmula reúne colágeno, cartílago de tiburón, glucosamina y condroitina dentro de su enfoque articular. En estudios con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D acompañan el cuidado de huesos y músculos. Omega 3, vitamina E y zinc complementan el cuidado celular, y la fibra queda como apoyo digestivo secundario. Las fuentes permiten conocer las funciones y preparaciones estudiadas de sus ingredientes.",
+      "sources": [
+        {
+          "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
+        },
+        {
+          "title": "Glucosamina y condroitina: ensayo clínico sobre dolor y función de rodilla",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
+        },
+        {
+          "title": "NIH ODS: vitamina C y formación de colágeno",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+        }
+      ]
+    },
+    ingredients: "Colágeno, cartílago de tiburón, glucosamina y condroitina (cantidades individuales no especificadas). Aporte por porción: proteínas (9 g), omega-3 (EPA 280 mg, DHA 210 mg, DPA 210 mg), vitamina C (390 mg), magnesio (150 mg), vitamina E (99.9 mg), zinc (9.9 mg), vitamina D (9.9 mg, posible error: mcg), fibra (4.4 g).",
     serving: "30 g",
-    timing: "En ayunas o como reemplazo de comida",
+    timing: "En ayunas o entre comidas",
     intakeInstructions: "Disolver 30 g (2 cucharadas) en 300-400 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     benefits: [
-      "Complementa la alimentación con proteína y otros nutrientes",
-      "La proteína ayuda a conservar los músculos",
-      "La fibra contribuye al bienestar digestivo y la sensación de llenura",
-      "Aporta vitaminas y minerales para funciones normales del cuerpo",
-      "Su formato en polvo facilita preparar una porción"
+      "Cuidado articular y comodidad al moverse: combina colágeno, cartílago de tiburón, glucosamina y condroitina. En ensayos con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla.",
+      "Formación de colágeno: la vitamina C ayuda al cuerpo a formar este componente de los tejidos.",
+      "Movimiento y cuidado de huesos y músculos: magnesio y vitamina D complementan el aporte nutricional de la fórmula.",
+      "Cuidado celular: omega 3 EPA, DHA y DPA, vitamina E y zinc completan el aporte de grasas y antioxidantes. La fibra queda como apoyo adicional al movimiento del intestino."
     ],
     contraindications: "Personas con alergia a pescados (omega-3), trastornos de coagulación, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -812,9 +768,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Complementa la nutrición de los tejidos de las articulaciones",
-      "Puede acompañar una rutina para mantener la movilidad",
-      "Reúne glucosamina, condroitina y MSM en una sola fórmula"
+      "Puede ayudar a mantener la comodidad y el movimiento de las articulaciones con glucosamina, condroitina y MSM."
     ],
     contraindications: "Personas con alergia a crustáceos (glucosamina), mujeres embarazadas, personas con diabetes o asma deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -837,11 +791,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "La ashwagandha puede apoyar la respuesta al estrés cotidiano",
-      "Puede ayudar a favorecer la relajación",
-      "Puede acompañar una mejor rutina de descanso",
-      "Su enfoque combina calma y bienestar mental",
-      "Se utiliza como apoyo en etapas de mayor demanda diaria"
+      "Puede ayudar a relajarse y descansar con extracto de ashwagandha y polvo de su raíz."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -864,11 +814,7 @@ window.manualData.productos = [
     timing: "Con alimentos, por la mañana o antes de dormir",
     intakeInstructions: "Tomar 1 tableta al día con alimentos.",
     benefits: [
-      "Puede ayudar a manejar la sensación de estrés cotidiano",
-      "Puede favorecer la calidad del descanso",
-      "Apoya una rutina orientada a la calma y la concentración",
-      "Permite incorporar ashwagandha en tabletas",
-      "Su enfoque es el equilibrio entre actividad y descanso"
+      "Puede ayudar a relajarse y descansar con ashwagandha. La celulosa microcristalina y el estearato magnésico ayudan a dar forma a la cápsula."
     ],
     contraindications: "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -891,9 +837,7 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas",
     intakeInstructions: "Tomar 1 cápsula al día con una comida que contenga grasas.",
     benefits: [
-      "Contiene astaxantina para complementar el cuidado de las células",
-      "Puede acompañar el cuidado de la piel",
-      "Complementa una rutina de cuidado de los ojos"
+      "Aporta astaxantina de Haematococcus pluvialis, un antioxidante para cuidar las células. El aceite base permite preparar la cápsula blanda."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la microalga o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -916,11 +860,8 @@ window.manualData.productos = [
     timing: "Antes o después del entrenamiento",
     intakeInstructions: "Diluir 33 g en 240-300 ml de agua fría o leche. Tomar antes o después del entrenamiento.",
     benefits: [
-      "Aporta proteína de res para completar la alimentación",
-      "Ayuda a mantener y desarrollar los músculos",
-      "Ofrece componentes necesarios para formar proteína muscular",
-      "Puede apoyar la recuperación después de entrenar",
-      "Es una alternativa a las proteínas de suero de leche"
+      "Ayuda a cuidar y recuperar los músculos con proteína de carne hidrolizada. La creatina ayuda a rendir en esfuerzos cortos y repetidos.",
+      "La taurina completa la fórmula para el entrenamiento."
     ],
     contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -962,9 +903,7 @@ window.manualData.productos = [
       note: "Rendimiento de 30 días: 30 porciones de 2 cápsulas, a 1 porción al día."
     },
     benefits: [
-      "Puede complementar el cuidado del azúcar en la sangre junto con alimentación y ejercicio",
-      "Se estudia como apoyo al cuidado de las grasas en la sangre",
-      "Incluye zinc para funciones normales del cuerpo"
+      "Complementa el cuidado del azúcar y las grasas en la sangre con berberina HCL. El zinc del glicinato ayuda a aprovechar los alimentos."
     ],
     contraindications: "No administrar a menores de 18 años. Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o ciclosporina deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -987,9 +926,9 @@ window.manualData.productos = [
     timing: "En ayunas",
     intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
     benefits: [
-      "La L-carnitina participa en el uso de grasas para obtener energía",
-      "Reúne ingredientes vegetales para complementar la alimentación",
-      "Acompaña una rutina de alimentación y ejercicio"
+      "Complementa la alimentación de personas activas con L-carnitina, que ayuda al cuerpo a usar grasas para obtener energía, y café verde.",
+      "Nopal, piña y alcachofa acompañan el cuidado digestivo. Apio, toronja y clorofila completan el aporte vegetal.",
+      "La mezcla también contiene raíz de India Lotus y tejocote."
     ],
     contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1012,11 +951,8 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar el contenido de un sobre en agua caliente, disolver y disfrutar. Cada sobre rinde 3 tazas.",
     benefits: [
-      "Combina el sabor del café con moringa y hongos",
-      "La cafeína del café ayuda a mantenerse alerta",
-      "Aporta compuestos antioxidantes del café y las plantas",
-      "Los sobres facilitan preparar una porción",
-      "Es una alternativa para variar la bebida de café habitual"
+      "Ayuda a estar más despierto con la cafeína del café arábico. Moringa, Reishi, Shiitake y Maitake completan la mezcla de plantas y hongos.",
+      "La stevia da dulzor y el sustituto de crema da una textura cremosa."
     ],
     contraindications: "NO CONSUMIR EN EMBARAZO. Personas intolerantes a los componentes deben evitarlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1039,11 +975,7 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Disolver 15 g en 200-250 ml de agua caliente. Mezclar bien. Endulzar al gusto.",
     benefits: [
-      "Ofrece el sabor tradicional del café de olla",
-      "La cafeína ayuda a mantenerse alerta",
-      "El café y las especias aportan compuestos antioxidantes",
-      "Puede disfrutarse como bebida dentro de la rutina diaria",
-      "Permite preparar café de olla sin elaborar la mezcla desde cero"
+      "Ayuda a estar más despierto por la cafeína del café tostado arábico. Canela, clavo y anís estrella aportan aromas y compuestos vegetales que complementan la bebida tradicional."
     ],
     contraindications: "Personas sensibles a la cafeína, hipertensión no controlada, trastornos de ansiedad o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1066,11 +998,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Disolver 1 sobre en 200-250 ml de agua caliente. Endulzar al gusto.",
     benefits: [
-      "Combina café con hongos de uso tradicional",
-      "La cafeína contribuye a mantenerse alerta",
-      "El café aporta compuestos antioxidantes",
-      "Los sobres facilitan llevar y preparar una porción",
-      "Es una opción para variar el café cotidiano"
+      "Ayuda a estar más despierto con la cafeína del café soluble. Ganoderma y Shiitake complementan la bebida con hongos.",
+      "Incluye pequeñas cantidades de arándanos cranberry, bilberry y blueberry."
     ],
     contraindications: "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, alergia a hongos o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1093,11 +1022,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "El cromo ayuda al cuerpo a aprovechar los alimentos",
-      "Contribuye al mantenimiento normal de la glucosa",
-      "La canela aporta compuestos vegetales antioxidantes",
-      "Complementa una alimentación orientada al cuidado metabólico",
-      "Reúne canela y cromo en una sola fórmula"
+      "Ayuda a aprovechar los alimentos con cromo y vitaminas B1, B2 y B12. La canela completa la mezcla para el cuidado del azúcar.",
+      "Potasio, fósforo y calcio ayudan al cuidado de músculos y huesos. Hierro ayuda a transportar oxígeno y vitaminas C y E aportan antioxidantes."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la canela, enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1120,9 +1046,7 @@ window.manualData.productos = [
     timing: "Antes de las comidas",
     intakeInstructions: "Tomar 1 cápsula al día antes de las comidas principales.",
     benefits: [
-      "La caralluma tiene uso tradicional para acompañar el control del apetito",
-      "Puede complementar hábitos orientados a sentir mayor llenura",
-      "Acompaña un plan de alimentación y ejercicio"
+      "Contiene Caralluma fimbriata, una planta que se usa como complemento de la alimentación para el cuidado del apetito."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1145,9 +1069,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Sus plantas tienen uso tradicional para el bienestar digestivo",
-      "Puede acompañar el confort después de comer",
-      "Permite incorporar la mezcla sin preparar varias plantas"
+      "Acompaña el bienestar del estómago con boldo, cuasia y diente de león. Cardo mariano y ruibarbo completan la mezcla de plantas."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1170,11 +1092,7 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas tres veces al día, antes de los alimentos.",
     benefits: [
-      "Se utiliza como complemento del cuidado de la circulación de las piernas",
-      "Puede apoyar el confort cuando se sienten piernas pesadas",
-      "Su enfoque es el bienestar de las venas",
-      "Acompaña hábitos como caminar y evitar largos periodos inmóvil",
-      "Ofrece castaño de indias en una presentación práctica"
+      "Puede ayudar a aliviar la sensación de piernas pesadas con extracto de castaño de Indias."
     ],
     contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1197,9 +1115,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
     benefits: [
-      "El cromo participa en el manejo normal del azúcar en la sangre",
-      "La L-carnitina participa en el uso de grasas para obtener energía",
-      "Acompaña hábitos de alimentación y actividad física"
+      "Ayuda a aprovechar los alimentos con cromo procedente de polinicotinato. La L-carnitina tartrato participa en el uso de grasas para obtener energía."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con diabetes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1222,11 +1138,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Disolver 10 g en 200-300 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     benefits: [
-      "Aporta magnesio para el funcionamiento normal de músculos y nervios",
-      "Contribuye al aprovechamiento de los alimentos para obtener energía",
-      "Ayuda a mantener los huesos en buen estado",
-      "Incluye colágeno para complementar la nutrición de los tejidos",
-      "Su formato en polvo facilita mezclarlo con una bebida"
+      "Ayuda al funcionamiento de músculos y nervios con magnesio del citrato. El colágeno hidrolizado aporta proteína para cuidar la piel y las articulaciones."
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1249,11 +1161,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Aporta potasio, un mineral necesario para los músculos",
-      "Apoya la comunicación normal entre nervios y músculos",
-      "Contribuye a mantener una presión arterial normal",
-      "Participa en el equilibrio de agua y minerales del cuerpo",
-      "Complementa el aporte de potasio de la alimentación"
+      "Ayuda a músculos y nervios a funcionar bien y a mantener el equilibrio de agua con potasio del citrato de potasio."
     ],
     contraindications: "Personas con enfermedad renal, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos ahorradores de potasio o inhibidores de la ECA deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1276,9 +1184,7 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Diluir 15 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
     benefits: [
-      "Permite preparar una bebida de clorofila al mezclarla con agua",
-      "Puede dar una sensación refrescante en la boca",
-      "Ofrece una alternativa para variar las bebidas habituales"
+      "Aporta clorofilina sódico-cúprica para preparar una bebida. El agua purificada la diluye y los estabilizantes mantienen la mezcla uniforme."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1301,10 +1207,7 @@ window.manualData.productos = [
     timing: "En ayunas o entre comidas",
     intakeInstructions: "Agitar antes de usar. Diluir 20 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
     benefits: [
-      "La hierbabuena y la menta dan sabor y sensación refrescante",
-      "Las plantas tienen uso tradicional para el confort digestivo",
-      "El matcha contiene compuestos que ayudan al cuidado de las células",
-      "Se mezcla con agua para preparar una bebida"
+      "Hierbabuena y menta piperita dan frescura y se usan para el bienestar digestivo. Té matcha aporta antioxidantes y clorofila da color a la bebida."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1327,11 +1230,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
     benefits: [
-      "Aporta magnesio para el movimiento normal de los músculos",
-      "Apoya el funcionamiento de los nervios",
-      "Ayuda a aprovechar los alimentos para producir energía",
-      "Contribuye al mantenimiento de los huesos",
-      "Incluye vitaminas C y D para complementar la fórmula"
+      "Ayuda al funcionamiento de los músculos y al cuidado de los huesos con magnesio y calcio. La vitamina C ayuda a formar colágeno.",
+      "Contiene vitamina D. Consultar la etiqueta para confirmar la cantidad."
     ],
     contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1342,19 +1242,33 @@ window.manualData.productos = [
   id: 51,
   code: "7503021404961",
   name: "MOROIZY",
-  benefitSummary: "Cuidado articular y movimiento",
+  benefitSummary: "Alivio de molestias e inflamación y cuidado circulatorio",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MOROIZY.jpg",
-  shortDesc: "Mezcla de plantas, vitaminas y zinc para complementar el cuidado de las articulaciones y acompañar una rutina de movimiento.",
+  shortDesc: "Fórmula para acompañar el alivio de molestias e inflamación y complementar el cuidado circulatorio. Reúne sauce blanco, de uso tradicional calmante, analgésico y desinflamatorio, con hamamelis y corteza de ajo. El sauce blanco también se utiliza para molestias articulares y comodidad al moverse. Las vitaminas C y E aportan antioxidantes, el zinc complementa el cuidado de los tejidos y la B12 ayuda a formar glóbulos rojos y aprovechar los alimentos para obtener energía.",
+  researchNote: {
+    "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
+    "text": "Apoyo para aliviar molestias y acompañar el cuidado circulatorio: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves. Hamamelis y corteza de ajo completan la mezcla de orientación circulatoria. La vitamina C participa en la formación de colágeno para los tejidos, y la vitamina E aporta antioxidantes. B12 y zinc complementan el cuidado nutricional de la fórmula. Las fuentes enlazadas explican los usos tradicionales del sauce y las funciones nutricionales que ayudan a entender el aporte de cada ingrediente.",
+    "sources": [
+      {
+        "title": "EMA: corteza de sauce, usos y precauciones",
+        "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
+      },
+      {
+        "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Sauce blanco (Salix alba), corteza de ajo, hamamelis, vitamina C, vitamina E, vitamina B12, zinc.",
   serving: "3 cápsulas",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Sus plantas tienen uso tradicional para el bienestar de las articulaciones",
-    "La vitamina C ayuda a formar colágeno para el cuidado de los tejidos",
-    "Las vitaminas C y E complementan el cuidado de las células",
-    "Acompaña una rutina de movimiento"
+    "Alivio de molestias e inflamación: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves y comodidad al moverse.",
+    "Cuidado circulatorio: hamamelis y corteza de ajo completan la mezcla de plantas. La vitamina C ayuda a formar colágeno para mantener los tejidos y vasos sanguíneos.",
+    "Protección celular: las vitaminas C y E aportan antioxidantes y el zinc complementa el cuidado de los tejidos.",
+    "Energía y vitalidad: la vitamina B12 ayuda a aprovechar los alimentos, formar glóbulos rojos y reducir el cansancio causado por falta de esta vitamina."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la aspirina o a los salicilatos, trastornos de coagulación, úlcera gástrica, o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1375,9 +1289,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 4 cápsulas al día con alimentos.",
   benefits: [
-    "Complementa el bienestar femenino cuando hay una necesidad identificada",
-    "Participa en la forma en que el cuerpo responde a la insulina para aprovechar el azúcar",
-    "Acompaña hábitos de alimentación y actividad física"
+    "Complementa el cuidado del azúcar y el bienestar femenino con myo-inositol y D-chiro-inositol. El arándano azul aporta antioxidantes para cuidar las células."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos, anticoagulantes o medicamentos que afectan los niveles de glucosa deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1398,9 +1310,7 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 4.1 g en agua, jugo o bebida vegetal. Consumir una vez al día.",
   benefits: [
-    "Complementa el bienestar femenino cuando hay una necesidad identificada",
-    "Participa en procesos relacionados con el aprovechamiento del azúcar",
-    "Se mezcla con una bebida para facilitar la toma indicada"
+    "Complementa el cuidado del azúcar y el bienestar femenino con myo-inositol y D-chiro-inositol en proporción 40:1."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan la glucosa deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1415,16 +1325,33 @@ window.manualData.productos = [
   benefitSummary: "Curcumina: posible ayuda para dolor y rigidez articular",
   category: "locomotor",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcumina1-1.jpg",
-  shortDesc: "Extracto concentrado de cúrcuma que puede ayudar a disminuir el dolor y la rigidez en articulaciones con desgaste. Incluye vitamina C para formar colágeno y pimienta negra en la fórmula.",
+  shortDesc: "Fórmula con extracto concentrado de cúrcuma para acompañar la comodidad y el movimiento de las articulaciones, especialmente cuando hay molestias y rigidez. La vitamina C ayuda al cuerpo a formar colágeno para sus tejidos, mientras que la pimienta negra favorece el aprovechamiento de la curcumina. Su diferencia frente a la cúrcuma en polvo está en la concentración del extracto y en los ingredientes que complementan su enfoque articular.",
+  researchNote: {
+    "focus": "Comodidad y movimiento de las articulaciones",
+    "text": "Comodidad y movimiento de las articulaciones: los curcuminoides se han estudiado por su interés en el alivio de molestias articulares. Algunos ensayos con preparaciones específicas han observado mejoras en dolor y función física de personas con artrosis de rodilla. Esta fórmula combina extracto de cúrcuma al 95 % con vitamina C, que participa en la formación de colágeno, y pimienta negra, que favorece el aprovechamiento de la curcumina. El conjunto de ingredientes orienta la explicación hacia el cuidado articular y el mantenimiento de los tejidos.",
+    "sources": [
+      {
+        "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
+      },
+      {
+        "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+        "url": "https://www.nccih.nih.gov/health/turmeric"
+      },
+      {
+        "title": "NIH ODS: vitamina C y formación de colágeno",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Curcumina al 95% de curcuminoides (1050 mg), vitamina C (300 mg), pimienta negra (20 mg) por porción.",
   serving: "3 cápsulas (1.5 g)",
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
   benefits: [
-    "La curcumina puede ayudar a disminuir el dolor y la rigidez de las articulaciones con desgaste",
-    "Puede facilitar el movimiento cuando esas molestias limitan las actividades",
-    "Aporta antioxidantes que ayudan a proteger las células del daño diario",
-    "La vitamina C ayuda a formar colágeno para los tejidos"
+    "Comodidad y movimiento articular: los curcuminoides se han investigado para molestias de las articulaciones. En ensayos con preparaciones específicas se han observado mejoras en dolor y función física de personas con artrosis de rodilla.",
+    "Cuidado de los tejidos: la vitamina C ayuda al cuerpo a formar colágeno y complementa el enfoque articular de la fórmula.",
+    "Aprovechamiento de la curcumina: la pimienta negra acompaña el extracto de cúrcuma al 95 % y favorece su absorción."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1445,11 +1372,8 @@ window.manualData.productos = [
   timing: "Por la mañana o con alimentos, preferentemente con una comida que contenga grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos, preferentemente por la mañana. No exceder la porción diaria recomendada.",
   benefits: [
-    "La vitamina C apoya el funcionamiento de las defensas",
-    "La vitamina D ayuda a absorber el calcio",
-    "La vitamina D también contribuye al cuidado de huesos y músculos",
-    "La vitamina C ayuda al cuidado antioxidante de las células",
-    "La equinácea tiene uso tradicional en cambios de temporada"
+    "Apoya las defensas con vitaminas C y D3. La equinácea acompaña el cuidado en cambios de temporada.",
+    "Complementa el mantenimiento de huesos y músculos con vitamina D3 y la formación de colágeno con vitamina C."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "Tomar con alimentos. Una comida con algo de grasa ayuda a aprovechar la vitamina D3. La vitamina C puede causar molestias de estómago en personas sensibles.",
@@ -1470,9 +1394,8 @@ window.manualData.productos = [
   timing: "En ayunas",
   intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
   benefits: [
-    "Combina plantas de uso tradicional para el bienestar digestivo",
-    "Puede acompañar hábitos de alimentación y consumo de agua",
-    "Permite incorporar la mezcla en una sola presentación"
+    "Acompaña el bienestar digestivo con lino y nopal como fuentes vegetales de fibra, aloe vera y milenrama de uso tradicional, y bromelina como enzima que descompone proteínas.",
+    "Guaraná, naranjo, alisma y lima completan la mezcla vegetal."
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a un médico antes de usar.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1493,9 +1416,8 @@ window.manualData.productos = [
   timing: "En ayunas",
   intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
   benefits: [
-    "Combina plantas y tés para complementar el cuidado digestivo",
-    "Contiene ingredientes vegetales que ayudan al cuidado de las células",
-    "Acompaña una rutina de alimentación y actividad física"
+    "Acompaña el bienestar digestivo con lino, nopal, aloe vera y milenrama. El diente de león y la zarzaparrilla completan la mezcla de uso tradicional.",
+    "Guaraná, té rojo y té blanco pueden aportar cafeína. Naranjo, alisma y lima añaden otros componentes vegetales."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades crónicas deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1516,11 +1438,7 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para resultados óptimos en la adaptación al estrés y la vitalidad, se recomienda un uso continuo de al menos 4-8 semanas.",
   benefits: [
-    "La rhodiola puede apoyar la adaptación al estrés cotidiano",
-    "Puede acompañar la vitalidad en etapas de mayor actividad",
-    "El magnesio ayuda al funcionamiento normal de músculos y nervios",
-    "El magnesio contribuye al aprovechamiento de la energía",
-    "Combina ingredientes para el bienestar físico y mental"
+    "Puede ayudar con el cansancio en días de estrés con Rhodiola rosea. El magnesio del citrato ayuda a músculos y nervios a funcionar bien y el polen de abeja completa el aporte alimentario."
   ],
   contraindications: "No consumir por menores de 12 años. No consumir durante el embarazo o lactancia. Producto elaborado en líneas que procesan derivados de soya, leche, pescado y crustáceos. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1541,9 +1459,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El jengibre tiene uso tradicional para el confort del estómago",
-    "Complementa una alimentación variada con plantas y frutas",
-    "Contiene ingredientes vegetales para el cuidado de las células"
+    "Acompaña el bienestar digestivo con jengibre y malva. Papaya y toronja añaden componentes de frutas, mientras las hojas de té y la espirulina completan el aporte vegetal."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1564,11 +1480,8 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 2 cápsulas antes de las comidas principales.",
   benefits: [
-    "Las enzimas ayudan a descomponer los alimentos durante la digestión",
-    "Incluye enzimas para proteínas, grasas y carbohidratos",
-    "Puede apoyar el confort después de comer",
-    "La hierbabuena complementa el enfoque digestivo",
-    "Está orientado a personas que buscan apoyo con comidas pesadas"
+    "Ayuda a descomponer alimentos: papaína, bromelina y enzimas de la papaya actúan sobre proteínas, amilasa sobre almidones y lipasa sobre grasas. La pancreatina aporta una mezcla de enzimas digestivas.",
+    "Acompaña el bienestar después de comer con hierbabuena de uso tradicional. El fosfato de calcio completa el aporte mineral."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la papaya, piña, menta, úlcera gástrica activa, pancreatitis aguda o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1589,11 +1502,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "También ayuda al cuidado antioxidante de las células",
-    "Contribuye a reducir el cansancio por falta de vitamina C",
-    "La equinácea tiene uso tradicional en cambios de temporada",
-    "Reúne una vitamina y un ingrediente botánico"
+    "Apoya las defensas con vitamina C, mientras la equinácea acompaña el cuidado tradicional en cambios de temporada."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1614,11 +1523,9 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos para mejorar la absorción",
   intakeInstructions: "Tomar 3 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Complementa el cuidado de piel, cabello y uñas",
-    "La biotina contribuye al mantenimiento del cabello y la piel",
-    "La vitamina C ayuda a formar colágeno",
-    "El ácido hialurónico complementa el cuidado de la hidratación de la piel",
-    "Las vitaminas C y E ayudan al cuidado antioxidante"
+    "Aporta materiales para cuidar piel, cabello y uñas con proteína de soya, colágeno, queratina y aminoácidos L-cisteína, L-metionina, L-leucina, L-valina y L-lisina.",
+    "Vitaminas A, B1, B3, B5, B7 y B9 ayudan a cuidar la piel y a aprovechar los alimentos. Vitamina C ayuda a formar colágeno y D a cuidar los huesos.",
+    "Vitamina E y selenio aportan antioxidantes. Ácido hialurónico y sílice completan el cuidado de la piel."
   ],
   contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1639,9 +1546,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "El fenogreco tiene uso tradicional para el bienestar digestivo",
-    "Contiene fibra propia de la semilla",
-    "Permite incorporar fenogreco sin preparar la semilla"
+    "Acompaña el bienestar digestivo tradicional con fenogreco en polvo. Sus componentes vegetales complementan la alimentación."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1662,11 +1567,9 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 34 g en 250-300 ml de agua o bebida vegetal. Tomar una vez al día.",
   benefits: [
-    "Aporta proteína vegetal para completar la alimentación",
-    "Ayuda al mantenimiento de los músculos",
-    "Incluye inositoles como parte de la fórmula",
-    "La vitamina D contribuye al cuidado de los huesos",
-    "Ofrece una alternativa a las proteínas de origen lácteo"
+    "Apoya el cuidado de los músculos con proteínas de chícharo y arroz. Vitamina D3 y bisglicinato de zinc complementan el funcionamiento de los músculos y el cuidado de la piel y otros tejidos.",
+    "Acompaña la nutrición femenina con myo-inositol y D-chiro-inositol. El ácido hialurónico completa el cuidado de la piel.",
+    "La inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino. Canela y stevia dan sabor y dulzor."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al coco o trazas de almendra deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1687,9 +1590,8 @@ window.manualData.productos = [
   timing: "Por la noche antes de acostarse y por la mañana 1 hora antes del primer alimento",
   intakeInstructions: "Agitar antes de usar. Diluir en igual cantidad de agua purificada. Tomar a sorbos lentamente.",
   benefits: [
-    "Combina plantas de uso tradicional para el bienestar digestivo",
-    "Permite incorporar la mezcla en una presentación líquida",
-    "Reúne ocho plantas en una sola fórmula"
+    "Acompaña el bienestar digestivo tradicional con bardana, acedera, olmo y ruibarbo. Cardo santo y berro complementan la mezcla de plantas.",
+    "Kelp y trébol rojo amplían la composición vegetal."
   ],
   contraindications: "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1710,9 +1612,7 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Permite incorporar varios hongos de uso tradicional en una sola presentación",
-    "Complementa la variedad de ingredientes de la alimentación",
-    "La ficha no permite asegurar una mejora de memoria, energía o defensas"
+    "Complementa la alimentación con una mezcla de hongos: Reishi, Maitake, Chaga, Shiitake, Cordyceps, Turkey Tail y Melena de León."
   ],
   contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a los hongos, trastornos autoinmunitarios, o bajo tratamiento inmunosupresor o anticoagulante deben consultar a un profesional de la salud antes de consumirlo.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1733,9 +1633,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Se utiliza como complemento de una rutina de relajación",
-    "Puede acompañar el descanso al final del día, con respuesta variable",
-    "La vitamina B12 contribuye al funcionamiento normal de los nervios"
+    "Se usa para acompañar la calma con GABA. Las vitaminas B5 y B12 ayudan a aprovechar los alimentos y al funcionamiento de los nervios.",
+    "El zinc y el selenio complementan el cuidado de las células."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas bajo tratamiento con ansiolíticos, hipnóticos o anticonvulsivantes, o con condiciones médicas deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1756,9 +1655,7 @@ window.manualData.productos = [
   timing: "Antes de acostarse",
   intakeInstructions: "Tomar 1-2 tabletas antes de acostarse, según indicación médica. No usar por más de una semana.",
   benefits: [
-    "Su efecto laxante consiste en estimular el movimiento del intestino",
-    "La fenolftaleína declarada requiere revisar seguridad y ficha actual",
-    "No presentarlo como una opción de recomendación habitual"
+    "Contiene fenolftaleína, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
   ],
   contraindications: "No administrar en casos de dolor abdominal de origen desconocido, obstrucción intestinal, embarazo, lactancia, o en menores de 8 años sin prescripción médica.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1779,9 +1676,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Permite incorporar extracto de ginkgo en cápsulas",
-    "Tiene uso tradicional relacionado con el bienestar circulatorio",
-    "No hay un beneficio demostrado para mejorar la memoria en personas sanas"
+    "Contiene Ginkgo biloba con flavonoides y terpenlactonas. Se usa para acompañar el cuidado de la memoria y la circulación."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1802,9 +1697,7 @@ window.manualData.productos = [
   timing: "Post-entreno o antes de dormir",
   intakeInstructions: "Diluir 5 g en 200-250 ml de agua fría. Consumir después del entrenamiento o antes de dormir.",
   benefits: [
-    "Complementa la alimentación con glutamina, un componente de las proteínas",
-    "El cuerpo utiliza glutamina para mantener distintos tejidos",
-    "Se mezcla con una bebida para facilitar su consumo"
+    "Complementa la alimentación con L-glutamina, aminoácido utilizado para formar proteínas y por células del intestino."
   ],
   contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1825,9 +1718,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La vitamina C contribuye al cuidado de las células",
-    "También apoya las defensas y la formación de colágeno",
-    "Combina vitamina C y glutatión en una cápsula"
+    "Ayuda a cuidar las células con glutatión y vitamina C. La vitamina C también apoya las defensas y ayuda a formar colágeno."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, quimioterapia o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1848,9 +1739,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La linaza y las plantas de la fórmula acompañan el bienestar digestivo tradicional",
-    "Permite incorporar goji sin preparar el fruto",
-    "Complementa la variedad de ingredientes vegetales de la alimentación"
+    "Acompaña el bienestar intestinal con linaza como fuente vegetal de fibra y malva de uso tradicional. Semilla de goji, raíz de lima y lecitina de soya completan el aporte vegetal y de grasas."
   ],
   contraindications: "Contiene soya. Consultar a médico si se tienen alergias o condiciones médicas.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1871,9 +1760,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Permite incorporar goji y otras plantas en cápsulas",
-    "Contiene ingredientes vegetales que complementan el cuidado de las células",
-    "Acompaña una alimentación variada y actividad física"
+    "Aporta antioxidantes del goji, los extractos cítricos y el ácido clorogénico. Pingüica y diente de león se usan para el cuidado urinario.",
+    "También contiene BHB como parte de la mezcla."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a frutas de la familia Solanaceae o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1894,10 +1782,8 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
   benefits: [
-    "Combina ingredientes vegetales de uso digestivo tradicional",
-    "Las vitaminas C y E complementan el cuidado de las células",
-    "La vitamina B12 ayuda a obtener energía de los alimentos",
-    "Reúne varios ingredientes en una sola fórmula"
+    "Acompaña el bienestar digestivo con linaza, piña y papaya. Goji, mango africano, raíz de lima y lecitina de soya completan la mezcla vegetal.",
+    "Las vitaminas C y E aportan antioxidantes y la B12 ayuda al funcionamiento de los nervios y a formar glóbulos rojos. Incluye pequeñas cantidades de magnesio y calcio."
   ],
   contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1918,9 +1804,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 tableta al día con alimentos.",
   benefits: [
-    "Sus ingredientes vegetales acompañan el bienestar intestinal",
-    "Puede complementar hábitos de alimentación y consumo de agua",
-    "Su objetivo es favorecer el confort al ir al baño"
+    "Acompaña el movimiento del intestino con ciruela pasa, tamarindo, papaya y manzana. La sábila completa la mezcla para el bienestar digestivo."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1941,9 +1825,7 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 3 cápsulas al día antes de las comidas principales.",
   benefits: [
-    "El hercampuri tiene uso tradicional para el bienestar digestivo",
-    "Se utiliza para acompañar el confort después de las comidas",
-    "Permite incorporar esta planta sin preparar una infusión"
+    "Acompaña el bienestar digestivo tradicional con hercampuri en polvo."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1964,9 +1846,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Sus plantas se utilizan como complemento del cuidado urinario masculino",
-    "La cúrcuma aporta antioxidantes que ayudan a proteger las células del daño diario",
-    "El zinc y el selenio también participan en la protección de las células"
+    "Acompaña el cuidado de la próstata y la comodidad al orinar con semilla de calabaza y ciruelo africano. El arándano completa el aporte vegetal.",
+    "Zinc y selenio ayudan a cuidar las células. Equinácea y cúrcuma completan la mezcla de plantas."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hepática, trastornos autoinmunes o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1987,9 +1868,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Participa en la forma en que el cuerpo aprovecha el azúcar",
-    "Se utiliza como complemento del bienestar femenino",
-    "Permite incorporar inositol en cápsulas"
+    "Complementa el cuidado del azúcar con myo-inositol."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan el estado de ánimo deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2010,9 +1889,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Las isoflavonas pueden ayudar con algunos malestares de la menopausia en ciertas personas",
-    "La vitamina E complementa el cuidado de las células",
-    "Las vitaminas B ayudan a obtener energía de los alimentos"
+    "Puede ayudar con las molestias de la menopausia con isoflavonas de soya. Camote silvestre y arándano rojo completan la mezcla vegetal.",
+    "Las vitaminas A y E cuidan la piel y las B1 y B12 ayudan al funcionamiento de los nervios."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la soya, antecedentes de cáncer de mama o endometrio, o bajo tratamiento hormonal deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2033,11 +1911,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Tiene uso tradicional para el confort del estómago",
-    "Puede ayudar con la sensación de náusea en ciertos contextos",
-    "Se utiliza para acompañar la digestión después de comer",
-    "Aporta compuestos antioxidantes del jengibre",
-    "Permite incorporar la raíz sin su sabor intenso"
+    "El jengibre se usa para el bienestar del estómago y puede ayudar con algunas molestias de náusea."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2058,11 +1932,7 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Aporta omega 3 de origen marino",
-    "El omega 3 complementa el cuidado del corazón",
-    "El DHA es un componente importante del cerebro y los ojos",
-    "Incluye astaxantina como ingrediente antioxidante",
-    "Permite incorporar grasas marinas a la alimentación"
+    "Complementa el cuidado del corazón con EPA y DHA del aceite de krill. Sus fosfolípidos aportan grasas para las células y la astaxantina aporta antioxidantes."
   ],
   contraindications: "Personas con alergia a crustáceos o mariscos, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2083,9 +1953,7 @@ window.manualData.productos = [
   timing: "Antes del entrenamiento",
   intakeInstructions: "Tomar 3 cápsulas antes de la actividad física.",
   benefits: [
-    "La arginina participa en procesos que ayudan a relajar los vasos sanguíneos",
-    "Complementa la nutrición de personas físicamente activas",
-    "Reúne arginina y ornitina en una sola fórmula"
+    "Complementa la alimentación para el ejercicio con L-arginina, que participa en la circulación de la sangre, y L-ornitina, que ayuda al cuerpo a procesar las proteínas."
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, hipotensión arterial, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2106,11 +1974,8 @@ window.manualData.productos = [
   timing: "Antes del desayuno y antes de la comida",
   intakeInstructions: "Tomar 2 cápsulas antes del desayuno y 2 antes de la comida (4 cápsulas al día).",
   benefits: [
-    "La cafeína y el guaraná ayudan a mantenerse alerta",
-    "Puede apoyar la energía percibida antes de la actividad física",
-    "La L-carnitina participa en el uso de grasas como energía",
-    "El cromo contribuye al manejo normal de la glucosa",
-    "Complementa una rutina de alimentación y ejercicio"
+    "Ayuda a estar más despierto para entrenar con cafeína y guaraná. L-carnitina tartrato y vitamina B5 ayudan a usar los alimentos para obtener energía.",
+    "L-tirosina, garcinia, pimienta cayena, pimienta negra y cromo completan la fórmula para personas activas."
   ],
   contraindications: "Personas con hipertensión, enfermedades cardíacas, hepáticas o renales, sensibilidad a la cafeína, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2131,10 +1996,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Complementa el cuidado de la capa que recubre el estómago",
-    "El zinc contribuye al mantenimiento normal de los tejidos",
-    "El jengibre tiene uso tradicional para el confort digestivo",
-    "La fibra sirve de alimento a bacterias benéficas del intestino"
+    "Complementa el cuidado de la capa que protege el estómago con zinc L-carnosina. El jengibre acompaña el bienestar digestivo y la inulina de agave aporta fibra."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con condiciones médicas deben consultar a un especialista.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2155,8 +2017,7 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
   benefits: [
-    "La fórmula vigente debe confirmarse antes de explicar sus beneficios",
-    "El catálogo y la tienda mencionan ingredientes distintos para este producto"
+    "Ayuda a complementar el cuidado de la vista con luteína y zeaxantina del extracto de cempasúchil."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2177,9 +2038,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La tirosina participa en el funcionamiento normal del cerebro",
-    "Se utiliza como complemento en etapas de mayor demanda de atención",
-    "La vitamina C ayuda al cuidado de las células"
+    "Complementa la alimentación en días de mucho trabajo mental con L-tirosina. El arándano azul y la vitamina C aportan antioxidantes para cuidar las células."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2200,9 +2059,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Disolver 4 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "La maca tiene uso tradicional como apoyo a la vitalidad",
-    "Se utiliza como complemento del bienestar sexual",
-    "Su polvo permite mezclarla con bebidas o alimentos"
+    "Acompaña la vitalidad de uso tradicional con maca negra en polvo, como complemento de la alimentación."
   ],
   contraindications: "No consumir durante el embarazo ni lactancia. Personas con trastornos hormonales sensibles o bajo tratamiento médico deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2223,9 +2080,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "La maca y la damiana tienen uso tradicional para la vitalidad y el bienestar sexual",
-    "El jengibre complementa el bienestar digestivo",
-    "Permite incorporar tres plantas en una sola fórmula"
+    "Acompaña la vitalidad con maca y damiana. El jengibre complementa el bienestar del estómago."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2246,9 +2101,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "La maca tiene uso tradicional como apoyo a la vitalidad",
-    "Se utiliza como complemento del bienestar sexual",
-    "Reúne tres variedades de maca sin tener que preparar el polvo"
+    "Maca amarilla, roja y negra se usan para la vitalidad. La pimienta negra completa la mezcla."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hormonales o bajo tratamiento médico deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2260,20 +2113,28 @@ window.manualData.productos = [
   id: 91,
   code: "7500645000425",
   name: "MAGNESIO BLEND",
-  benefitSummary: "Magnesio para músculos, nervios y energía",
+  benefitSummary: "Tres fuentes de magnesio para músculos, nervios y energía",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/08/blend.jpg",
-  shortDesc: "Tres formas de magnesio en una cápsula para apoyar músculos y nervios y reducir el cansancio cuando falta este mineral.",
+  shortDesc: "Combina citrato, gluconato y óxido de magnesio para complementar el aporte de este mineral. El magnesio ayuda al funcionamiento de músculos y nervios y participa en la obtención de energía de los alimentos. Su enfoque es el apoyo general a estas funciones, especialmente cuando la alimentación aporta poco magnesio. Las tres sales son fuentes del mismo mineral; para comparar esta presentación con otras debemos revisar cuánto magnesio elemental aporta la porción.",
+  researchNote: {
+    "focus": "Aporte general de magnesio para músculos, nervios y energía",
+    "text": "Apoyo a músculos, nervios y energía diaria: el magnesio participa en la contracción muscular, el funcionamiento de los nervios y la producción de energía a partir de los alimentos. Magnesio Blend reúne citrato, gluconato y óxido como tres fuentes del mineral en una cápsula. Su función principal es complementar el aporte de magnesio de la alimentación y acompañar estas funciones cotidianas. Las fuentes explican el papel nutricional del mineral y cómo se interpreta su aporte elemental.",
+    "sources": [
+      {
+        "title": "NIH ODS: funciones, formas y aporte elemental de magnesio",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Citrato de magnesio (150 mg), gluconato de magnesio (150 mg), óxido de magnesio (150 mg) por cápsula.",
   serving: "1 cápsula (aprox. 500 mg)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Aporta magnesio en tres formas distintas",
-    "Ayuda al funcionamiento normal de los músculos",
-    "Apoya el funcionamiento de los nervios",
-    "Contribuye a reducir el cansancio por falta de magnesio",
-    "Participa en el equilibrio de agua y minerales del cuerpo"
+    "Funcionamiento muscular y nervioso: el magnesio ayuda a la contracción de los músculos y al buen funcionamiento de los nervios.",
+    "Energía diaria: participa en la producción de energía a partir de los alimentos y complementa el aporte de magnesio de la alimentación.",
+    "Reúne citrato, gluconato y óxido como tres fuentes de magnesio en una cápsula."
   ],
   contraindications: "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2294,10 +2155,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya el movimiento normal de los músculos",
-    "Contribuye al buen funcionamiento de los nervios",
-    "Ayuda a aprovechar la energía de los alimentos",
-    "La vitamina B6 complementa el aprovechamiento de la energía"
+    "Ayuda al funcionamiento de músculos y nervios con magnesio del malato dibásico y vitamina B6 como P-5-P. Incluye una pequeña cantidad de avena."
   ],
   contraindications: "Consultar a médico en caso de embarazo, lactancia o condiciones médicas.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2309,19 +2167,32 @@ window.manualData.productos = [
   id: 93,
   code: "7500645001453",
   name: "MAGNESIUM AM 600mg",
-  benefitSummary: "Magnesio para músculos, nervios y energía",
+  benefitSummary: "Magnesio y B6 para músculos y actividad diaria",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual1.jpg",
-  shortDesc: "Combina dos formas de magnesio y vitamina B6 para apoyar el movimiento de los músculos y el aprovechamiento de la energía.",
+  shortDesc: "Fórmula de magnesio y vitamina B6 para acompañar el funcionamiento muscular y el aprovechamiento de energía durante la actividad diaria. Combina citrato y bisglicinato de magnesio, mientras que la B6 complementa el funcionamiento de los nervios y el uso de nutrientes. Incluye una pequeña cantidad de inulina como fibra. Su orientación diurna se explica como apoyo nutricional para las actividades cotidianas, sin confundirlo con una bebida energética o un estimulante.",
+  researchNote: {
+    "focus": "Funcionamiento muscular y aprovechamiento de energía durante el día",
+    "text": "Apoyo muscular y aprovechamiento de energía para la actividad diaria: el magnesio ayuda a músculos y nervios a funcionar bien, mientras que la vitamina B6 participa en el uso de los nutrientes. La fórmula AM combina citrato y bisglicinato de magnesio con B6 para acompañar estas funciones durante el día. La inulina añade un aporte secundario de fibra. Su enfoque se entiende desde la nutrición cotidiana, el movimiento y la obtención de energía de los alimentos.",
+    "sources": [
+      {
+        "title": "NIH ODS: magnesio y funciones musculares y energéticas",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      },
+      {
+        "title": "NIH ODS: vitamina B6 y aprovechamiento de nutrientes",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Citrato de magnesio (1800 mg), bisglicinato de magnesio (500 mg), vitamina B6 (5 mg), inulina (100 mg) por porción.",
   serving: "4 cápsulas (2.4 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 4 cápsulas al día con alimentos.",
   benefits: [
-    "Apoya el movimiento normal de los músculos",
-    "Contribuye al buen funcionamiento de los nervios",
-    "Ayuda a aprovechar la energía de los alimentos",
-    "Permite complementar la alimentación con dos formas de magnesio"
+    "Apoyo muscular durante el día: el magnesio del citrato y el bisglicinato ayuda a músculos y nervios a funcionar bien.",
+    "Aprovechamiento de energía: magnesio y vitamina B6 participan en el uso de los nutrientes y la obtención de energía de los alimentos para la actividad cotidiana.",
+    "La inulina añade una pequeña cantidad de fibra como aporte complementario."
   ],
   contraindications: "Consultar a médico si se tienen enfermedades renales o se está embarazada.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2337,15 +2208,28 @@ window.manualData.productos = [
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual-PM1.jpg",
   shortDesc: "Combina magnesio, teanina, manzanilla y otros ingredientes para acompañar una rutina de relajación y descanso nocturno.",
+  researchNote: {
+    "focus": "Calma y preparación para el descanso nocturno",
+    "text": "Calma y preparación para el descanso nocturno: esta fórmula combina magnesio con L-teanina, glicina, manzanilla y 5-HTP. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño; otro ensayo con bisglicinato de magnesio encontró mejoras en indicadores de descanso. Estas investigaciones sobre ingredientes ayudan a explicar la orientación nocturna de la fórmula. La vitamina B6 complementa el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra.",
+    "sources": [
+      {
+        "title": "L-teanina: ensayo con 200 mg diarios y medidas de sueño",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+      },
+      {
+        "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+      }
+    ]
+  },
   ingredients: "Bisglicinato de magnesio (500 mg), citrato de magnesio (400 mg), glicina (450 mg), L-teanina (200 mg), extracto de manzanilla (100 mg), 5-HTP (25 mg), vitamina B6 (2 mg), inulina (100 mg) por porción.",
   serving: "3 cápsulas (1.8 g)",
   timing: "Por la noche, 30-60 min antes de dormir",
   intakeInstructions: "Tomar 3 cápsulas por la noche.",
   benefits: [
-    "Puede acompañar la relajación al final del día",
-    "La teanina y la manzanilla se utilizan para favorecer la calma",
-    "El magnesio contribuye al funcionamiento de los nervios",
-    "Complementa una rutina de descanso nocturno"
+    "Calma y preparación para dormir: combina L-teanina, glicina, manzanilla y 5-HTP como parte de su orientación nocturna. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño.",
+    "Funcionamiento de músculos y nervios: el magnesio del bisglicinato y el citrato complementa el aporte de este mineral durante la rutina de descanso.",
+    "La vitamina B6 acompaña el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra."
   ],
   contraindications: "No se recomienda su uso simultáneo con medicamentos antidepresivos, ansiolíticos o inductores del sueño sin consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2366,9 +2250,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Permite incorporar mango africano y otras plantas sin preparar una mezcla",
-    "Puede acompañar un plan de alimentación y actividad física",
-    "No se ha establecido que esta fórmula produzca una pérdida de peso por sí sola"
+    "Complementa la alimentación para el cuidado del peso con mango africano, extractos cítricos y ácido clorogénico.",
+    "Pingüica y diente de león se usan para el cuidado urinario. La mezcla también contiene BHB."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos hepáticos o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2389,11 +2272,7 @@ window.manualData.productos = [
   timing: "Antes o después del entrenamiento",
   intakeInstructions: "Diluir 245 g en 500-700 ml de agua o leche. Tomar antes o después del entrenamiento.",
   benefits: [
-    "Aporta calorías para quien necesita aumentar su consumo de energía",
-    "Ofrece proteína para mantener y desarrollar los músculos",
-    "Los carbohidratos ayudan a reponer energía después del ejercicio",
-    "Facilita sumar alimento en una bebida",
-    "Puede acompañar una rutina de aumento de masa muscular"
+    "Complementa el aporte de calorías para la ganancia muscular con carbohidratos y grasas, mientras la proteína de suero aporta aminoácidos para los músculos. La fibra acompaña el movimiento del intestino dentro del mismo plan de alimentación y entrenamiento."
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2414,11 +2293,7 @@ window.manualData.productos = [
   timing: "Por la mañana o al inicio de la jornada",
   intakeInstructions: "Mezclar 2.5 g en 240 ml de agua caliente (70-80°C) y batir hasta obtener espuma.",
   benefits: [
-    "El matcha aporta antioxidantes propios del té verde",
-    "Su cafeína ayuda a mantenerse alerta",
-    "Contiene teanina, un componente natural del té",
-    "Se puede incorporar a bebidas y recetas",
-    "Es una alternativa para variar el café u otras bebidas con cafeína"
+    "Ayuda a estar más despierto con cafeína del matcha orgánico. El té verde en polvo también aporta antioxidantes a la bebida."
   ],
   contraindications: "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, embarazo o lactancia deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2439,10 +2314,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "La melena de león se estudia como apoyo a memoria y concentración",
-    "El magnesio contribuye al funcionamiento de los nervios",
-    "Permite complementar una rutina de descanso y actividad mental",
-    "Los resultados de estudios de ingredientes no garantizan el mismo beneficio de esta mezcla"
+    "Se usa para acompañar el cuidado de la atención y la memoria con Melena de León. El magnesio del L-treonato ayuda al funcionamiento de los nervios y la quinoa completa la mezcla."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a hongos, trastornos autoinmunes o bajo tratamiento con anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2463,11 +2335,7 @@ window.manualData.productos = [
   timing: "A cualquier hora",
   intakeInstructions: "Consumir 20 g al día como edulcorante en bebidas o alimentos.",
   benefits: [
-    "Endulza bebidas y alimentos con sabor a miel",
-    "Aporta energía a través de sus azúcares naturales",
-    "Puede dar una sensación de suavidad en la garganta",
-    "Se puede incorporar a infusiones y recetas",
-    "Permite variar el sabor de la alimentación cotidiana"
+    "Endulza alimentos y bebidas y aporta energía con miel multiflora. También puede ayudar a suavizar la garganta."
   ],
   contraindications: "No administrar a menores de 1 año (riesgo de botulismo). Personas con diabetes o alergia a productos apícolas deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2488,9 +2356,7 @@ window.manualData.productos = [
   timing: "Antes de las comidas",
   intakeInstructions: "Tomar 3 cápsulas al día (una antes de cada comida).",
   benefits: [
-    "Complementa una alimentación variada con hoja de moringa",
-    "Sus compuestos vegetales tienen actividad antioxidante",
-    "Permite incorporar la planta sin preparar sus hojas"
+    "Complementa una alimentación variada con hoja de moringa orgánica y sus componentes vegetales."
   ],
   contraindications: "No consumir durante el embarazo o lactancia. Personas con alergia, trastornos de la tiroides o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2510,10 +2376,8 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas (desayuno o comida)",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasa (huevo, aguacate, nueces).",
   benefits: [
-    "La coenzima Q10 participa en la producción de energía del cuerpo",
-    "Complementa el cuidado de las células frente al desgaste diario",
-    "La vitamina E también participa en el cuidado de las células",
-    "Permite incorporar ubiquinol en una cápsula"
+    "Ayuda al cuerpo a obtener energía con ubiquinol, una forma de coenzima Q10. Vitamina E y romero ayudan a conservar el aceite.",
+    "El aceite MCT y la lecitina de girasol mantienen el ubiquinol mezclado. El dióxido de silicio facilita la preparación de la cápsula."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2534,11 +2398,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (1 con el desayuno y 1 con la cena).",
   benefits: [
-    "Su enfoque principal es el confort de las articulaciones",
-    "Puede acompañar una rutina para conservar la movilidad",
-    "La vitamina C contribuye a formar colágeno",
-    "Combina colágeno tipo II y ácido hialurónico",
-    "El extracto de cúrcuma se incluye por su posible ayuda para disminuir el dolor y la rigidez articular"
+    "Puede ayudar a mantener la comodidad y el movimiento de las articulaciones con colágeno tipo II UC-II®, boswellia y curcumina.",
+    "Vitamina C ayuda a formar colágeno y ácido hialurónico complementa el cuidado articular. La piperina ayuda al aprovechamiento de algunos ingredientes."
   ],
   contraindications: "No recomendado durante el embarazo o lactancia. Personas alérgicas al cartílago de pollo o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2559,9 +2420,7 @@ window.manualData.productos = [
   timing: "Antes de las comidas principales",
   intakeInstructions: "Diluir 15 ml en un vaso de agua (200-250 ml) y beber antes de las comidas. No consumir puro.",
   benefits: [
-    "Da sabor ácido a aderezos y comidas",
-    "Permite variar los sabores de la alimentación",
-    "Se puede incorporar en pequeñas cantidades a distintas recetas"
+    "Da sabor ácido a aderezos y comidas con vinagre de sidra de manzana y su ácido acético. Contiene la madre del vinagre."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, gastritis crónica, o bajo tratamiento con antidiabéticos, diuréticos ahorradores de potasio o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2576,16 +2435,14 @@ window.manualData.productos = [
   benefitSummary: "Apoyo digestivo tradicional para pesadez y gases",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
-  shortDesc: "Vinagre de sidra de manzana con cúrcuma, jengibre, canela y pimienta negra. Su enfoque es la digestión: la cúrcuma y el jengibre tienen uso tradicional para aliviar pesadez y gases después de comer.",
+  shortDesc: "Combina vinagre de sidra de manzana en polvo con especias de uso tradicional digestivo. Jengibre y cúrcuma acompañan la comodidad del estómago después de comer, mientras que canela y pimienta negra completan la fórmula. El enfoque inicial es pesadez y bienestar digestivo. Para ampliar su explicación hacia el cuidado del azúcar y las grasas necesitamos conocer el aporte de ácido acético de la presentación, además de la cantidad de vinagre en polvo.",
   ingredients: "Vinagre de sidra de manzana en polvo (900 mg), cúrcuma (300 mg), jengibre (180 mg), canela (115 mg), pimienta negra (5 mg) por porción.",
   serving: "3 cápsulas (1.5 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "La cúrcuma tiene uso tradicional para aliviar pesadez, gases y digestión lenta",
-    "El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago",
-    "La cúrcuma y la canela aportan antioxidantes, sustancias que ayudan a proteger las células del daño diario",
-    "El vinagre se estudia por su posible ayuda para que el azúcar suba menos después de comer; ese efecto no está confirmado para esta fórmula"
+    "Pesadez después de comer: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago.",
+    "El vinagre de sidra de manzana en polvo, la canela y la pimienta negra completan la mezcla de uso digestivo."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2606,11 +2463,9 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Las vitaminas B ayudan a obtener energía de los alimentos",
-    "Aporta vitaminas y minerales para complementar la alimentación",
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "Incluye ingredientes asociados tradicionalmente con la vitalidad",
-    "Está orientado a la nutrición del hombre activo"
+    "Complementa la alimentación del hombre activo con creatina, arginina y BCAA. Maca negra y ginseng se usan para la vitalidad.",
+    "Las vitaminas B1, B2, B5, B6, B12 y biotina ayudan a aprovechar los alimentos. Hierro y cobre ayudan a transportar oxígeno en la sangre.",
+    "Magnesio, calcio y vitaminas D3 y K ayudan a cuidar músculos y huesos. Vitaminas A y C y zinc apoyan las defensas y la vitamina E aporta antioxidantes."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad hepática, renal o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2631,11 +2486,9 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El zinc contribuye a la función reproductiva normal",
-    "El magnesio apoya el funcionamiento muscular",
-    "Combina plantas de uso tradicional para la vitalidad masculina",
-    "Puede acompañar una rutina de bienestar sexual",
-    "Complementa el cuidado nutricional masculino"
+    "Complementa el cuidado masculino con magnesio para músculos y nervios, zinc para la función reproductiva y selenio para cuidar las células.",
+    "Tribulus, fenogreco, damiana, Cnidium, maca negra, Mucuna pruriens y longjack se usan para la vitalidad masculina.",
+    "Semilla de calabaza y ciruelo africano acompañan el cuidado urinario. L-arginina y avena completan la mezcla."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas, hormonales o bajo tratamiento médico (especialmente hormonales) deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2656,11 +2509,9 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La biotina contribuye al mantenimiento de piel y cabello",
-    "La vitamina C ayuda a formar colágeno",
-    "Incluye vitaminas y minerales para complementar la alimentación",
-    "Las vitaminas C y E aportan cuidado antioxidante",
-    "Su enfoque reúne nutrición y cuidado personal femenino"
+    "Ayuda a cuidar la piel con colágeno, vitamina C y ácido hialurónico. Arándano, semilla de uva y vitamina E aportan antioxidantes.",
+    "Vitaminas B1, B2, B5, B6 y biotina ayudan a aprovechar los alimentos. Hierro y cobre ayudan a formar glóbulos rojos. Maca amarilla se usa para la vitalidad.",
+    "Vitamina A y zinc ayudan a cuidar la piel. Calcio, magnesio y vitaminas D3 y K ayudan a cuidar huesos y músculos."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2681,11 +2532,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día.",
   benefits: [
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "Ayuda a formar colágeno para piel, encías y otros tejidos",
-    "Favorece la absorción del hierro de alimentos vegetales",
-    "Contribuye a reducir el cansancio por falta de vitamina C",
-    "Ayuda al cuidado antioxidante de las células"
+    "Apoya las defensas y la formación de colágeno con vitamina C. El complejo de bioflavonoides cítricos y la rutina de Sophora japonica complementan el aporte de antioxidantes."
   ],
   contraindications: "Solo para adultos. Consultar a médico si se está embarazada o lactando, o si se toman medicamentos.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2706,11 +2553,8 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasas.",
   benefits: [
-    "La vitamina D ayuda a absorber el calcio",
-    "Las vitaminas D y K contribuyen al mantenimiento de los huesos",
-    "El magnesio apoya el funcionamiento normal de los músculos",
-    "El zinc contribuye al funcionamiento de las defensas",
-    "Reúne varios nutrientes para el cuidado óseo y muscular"
+    "Ayuda a cuidar los huesos con vitamina D3, que ayuda a absorber calcio, y K2. El magnesio también ayuda al funcionamiento de los músculos.",
+    "Zinc y vitamina D3 apoyan las defensas. El aceite de pulpa de coco en polvo completa la mezcla."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave o bajo tratamiento con anticoagulantes cumarínicos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2731,11 +2575,7 @@ window.manualData.productos = [
   timing: "Durante la comida principal",
   intakeInstructions: "Tomar 1 perla al día durante la comida principal.",
   benefits: [
-    "Aporta vitamina E para complementar la alimentación",
-    "Ayuda a proteger las células frente al desgaste diario",
-    "Complementa el cuidado antioxidante de la dieta",
-    "Se presenta en una base de aceite",
-    "Su enfoque es el aporte de vitamina E"
+    "La vitamina E aporta antioxidantes para cuidar las células. El aceite de germen de trigo sirve de base para preparar la cápsula."
   ],
   contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2756,11 +2596,7 @@ window.manualData.productos = [
   timing: "Dentro de los 45 minutos post-entreno",
   intakeInstructions: "Mezclar 35 g con 240 ml de agua y agitar. Consumir post-entreno o entre comidas.",
   benefits: [
-    "Aporta proteína de suero de leche",
-    "Ayuda a mantener y desarrollar los músculos",
-    "Ofrece componentes que el cuerpo necesita para formar proteína",
-    "Puede apoyar la recuperación después de entrenar",
-    "Su sabor choconuez facilita variar los batidos"
+    "Apoya el cuidado y recuperación de los músculos con proteína hidrolizada de suero de leche, que aporta aminoácidos como complemento de la alimentación y el entrenamiento."
   ],
   contraindications: "Personas con alergia a lácteos, enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2781,11 +2617,7 @@ window.manualData.productos = [
   timing: "Post-entreno",
   intakeInstructions: "Tomar 23 g en 350 ml de agua o leche baja en grasa después del entrenamiento.",
   benefits: [
-    "Aporta proteína de suero de leche",
-    "Ayuda al mantenimiento y desarrollo muscular",
-    "Facilita completar la proteína diaria en una bebida",
-    "Puede acompañar la recuperación después del ejercicio",
-    "Su fórmula sencilla permite combinarla con otros alimentos"
+    "Apoya el cuidado y recuperación de los músculos con aislado de proteína de suero de leche al 90 %, que complementa el aporte diario de aminoácidos."
   ],
   contraindications: "No consumir durante el embarazo o lactancia. Personas con intolerancia a la leche deben evitar su consumo.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2806,11 +2638,7 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 34 g en 240 ml de agua o bebida de su preferencia. Tomar una vez al día.",
   benefits: [
-    "Aporta 29 g de proteína por porción según la ficha",
-    "Ayuda a mantener y desarrollar los músculos",
-    "Ofrece una opción con poca grasa y carbohidratos",
-    "Facilita completar la proteína de la alimentación",
-    "Puede acompañar una rutina de recuperación deportiva"
+    "Apoya el cuidado y recuperación de los músculos con aislado de proteína de suero de leche y sus 29 g de proteína declarados por porción, dentro de un plan de alimentación y entrenamiento."
   ],
   contraindications: "Alérgicos a la proteína de leche deben evitar su consumo. Consultar a médico en caso de enfermedades renales o hepáticas.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2831,10 +2659,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "La vitamina A apoya la visión",
-    "Las vitaminas A y C complementan el cuidado de las células",
-    "No se ha demostrado que esta mezcla elimine toxinas o produzca pérdida de peso"
+    "Ayuda a las defensas con vitaminas A y C. La espirulina complementa la alimentación, y piña y nopal acompañan el cuidado digestivo.",
+    "La mezcla también contiene raíz de tejocote."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2855,10 +2681,7 @@ window.manualData.productos = [
   timing: "Tres veces al día, antes de los alimentos",
   intakeInstructions: "Mezclar 20 gotas en un cuarto de vaso con agua natural. Tomar 3 veces al día antes de los alimentos.",
   benefits: [
-    "Es una preparación tradicional de yumel en gotas",
-    "El gotero facilita medir la cantidad indicada en su etiqueta",
-    "Permite incorporar el extracto sin preparar la corteza",
-    "Su utilidad debe valorarse según la etiqueta y la orientación profesional"
+    "Preparación de yumel Guatteria gaumeri en gotas. Consultar su uso con un profesional."
   ],
   contraindications: "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2879,9 +2702,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Ayuda al cuerpo a formar glutatión",
-    "El glutatión participa en el cuidado de las células frente al desgaste diario",
-    "Permite incorporar NAC en cápsulas"
+    "Ayuda a cuidar las células con NAC, que el cuerpo usa para producir su propio antioxidante, el glutatión."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica o bajo tratamiento con anticoagulantes, nitroglicerina o medicamentos que afectan la función hepática deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2902,9 +2723,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El resveratrol y el acai tienen compuestos antioxidantes",
-    "El NAD participa en procesos con los que el cuerpo usa energía",
-    "No se ha demostrado que esta fórmula alargue la vida o retrase el envejecimiento"
+    "Complementa la alimentación con NAD. Resveratrol y baya de acai aportan antioxidantes para cuidar las células.",
+    "El estearato de magnesio facilita la preparación de la cápsula."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos que afectan la presión arterial deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2925,9 +2745,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Permite incorporar neem y nopal en cápsulas",
-    "El ácido alfa lipoico participa en el cuidado de las células",
-    "No se ha establecido que esta fórmula elimine toxinas o controle la glucosa"
+    "Complementa el cuidado de la alimentación con nopal y neem. El ácido alfa lipoico aporta antioxidantes para cuidar las células."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática grave, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2948,9 +2766,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El resveratrol y la quercetina tienen compuestos antioxidantes",
-    "Permite incorporar NMN y plantas en una misma fórmula",
-    "No se ha demostrado que esta mezcla retrase el envejecimiento"
+    "Complementa la alimentación con NMN. Trans-resveratrol y quercetina aportan antioxidantes para cuidar las células.",
+    "El astrágalo se usa para la vitalidad. El extracto de pimienta negra ayuda al aprovechamiento de algunos ingredientes."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2971,11 +2788,7 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 3 softgels al día con alimentos.",
   benefits: [
-    "Aporta omega 3 de pescado",
-    "El EPA y el DHA complementan el cuidado del corazón",
-    "El DHA es importante para el cerebro",
-    "El DHA también forma parte de la retina de los ojos",
-    "Incluye vitamina E como ingrediente antioxidante"
+    "Complementa el cuidado del corazón con EPA y DHA del aceite de salmón. La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger las grasas de la preparación."
   ],
   contraindications: "Personas con trastornos hemorrágicos, en tratamiento anticoagulante, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2996,11 +2809,7 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Permite incorporar aceite de salmón en cápsulas",
-    "Aporta EPA y DHA, dos tipos de omega 3",
-    "Complementa el cuidado nutricional del corazón",
-    "El DHA forma parte del cerebro y los ojos",
-    "Incluye vitamina E en la fórmula"
+    "Complementa el cuidado del corazón con EPA y DHA del aceite de salmón. La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger las grasas de la preparación."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3021,11 +2830,7 @@ window.manualData.productos = [
   timing: "Con desayuno rico en grasas",
   intakeInstructions: "Tomar 3 cápsulas al día con el desayuno.",
   benefits: [
-    "Aporta aceite de pescado concentrado",
-    "Ofrece EPA y DHA para complementar la alimentación",
-    "Los omega 3 participan en el funcionamiento normal del corazón",
-    "El DHA es un componente importante del cerebro",
-    "Permite incorporar grasas marinas sin preparar pescado"
+    "Complementa el cuidado del corazón con grasas EPA y DHA del aceite de pescado concentrado EPAX®."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3037,22 +2842,48 @@ window.manualData.productos = [
   id: 124,
   code: "7500645000807",
   name: "ON-C-LEN",
-  benefitSummary: "Hongos y plantas para el cuidado diario",
+  benefitSummary: "Hongos y plantas para complementar la alimentación y el bienestar digestivo",
   category: "inmune",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0005s_0002_Presentacion-blanco.jpg",
-  shortDesc: "Mezcla de hongos y plantas con compuestos antioxidantes para complementar el cuidado diario.",
+  shortDesc: "Mezcla de reishi y shiitake con plantas para complementar la alimentación. Los hongos contienen beta-glucanos; el té verde y el ajo aportan compuestos antioxidantes. Jengibre y diente de león acompañan el bienestar digestivo. El diente de león también tiene uso tradicional como apoyo diurético y hepatobiliar, para favorecer la eliminación de orina y la secreción de bilis, que ayuda a digerir grasas. Polen de flores y guanábana completan la mezcla. Durante un tratamiento oncológico, consulta al oncólogo antes de incorporarlo, porque los extractos y suplementos pueden interferir con algunos tratamientos.",
+  researchNote: {
+    "text": "Complemento de hongos y plantas para la alimentación y el bienestar digestivo: reishi y shiitake aportan componentes propios de los hongos, como beta-glucanos; té verde y ajo complementan el aporte de antioxidantes. El diente de león acompaña el uso tradicional digestivo, diurético y hepatobiliar. En modelos experimentales, extractos específicos de algunos de estos ingredientes se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Este apartado describe investigación sobre ingredientes con preparaciones y concentraciones definidas. Su incorporación durante tratamiento oncológico requiere revisión del oncólogo.",
+    "sources": [
+      {
+        "title": "Diente de león: estudio en células y modelos animales de cáncer de colon",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27564258/"
+      },
+      {
+        "title": "Té verde: estudio sobre apoptosis en células cancerosas en laboratorio",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9600345/"
+      },
+      {
+        "title": "Reishi: estudio de un preparado específico en células tumorales",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31637001/"
+      },
+      {
+        "title": "Guanábana: información del Memorial Sloan Kettering Cancer Center",
+        "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+      }
+    ],
+    "focus": "Hongos y plantas para complementar la alimentación y el bienestar digestivo"
+  },
   ingredients: "Extractos de diente de león, guanábana, shiitake, reishi, té verde, jengibre, ajo, polen de flores (cantidades no especificadas).",
   serving: "2 tabletas (1.5 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 tabletas al día con alimentos.",
   benefits: [
-    "Permite incorporar hongos y plantas en tabletas",
-    "El té verde, el jengibre y el ajo contienen compuestos antioxidantes",
-    "No se han establecido beneficios específicos de esta mezcla sobre las defensas"
+    "Aporte de hongos: reishi y shiitake contienen componentes naturales como beta-glucanos y complementan la mezcla alimentaria.",
+    "Compuestos antioxidantes: té verde y ajo aportan componentes vegetales a la fórmula.",
+    "Bienestar digestivo: jengibre y diente de león se usan tradicionalmente para acompañar la comodidad del estómago.",
+    "Apoyo diurético: el diente de león se usa tradicionalmente para favorecer la eliminación de orina.",
+    "Apoyo hepatobiliar: el diente de león tiene uso tradicional para favorecer la secreción de bilis, que participa en la digestión de las grasas.",
+    "Investigación de sus ingredientes: en modelos experimentales, extractos específicos de diente de león, té verde, reishi y guanábana se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Estos hallazgos corresponden a ingredientes con preparaciones y concentraciones definidas; su incorporación durante tratamiento requiere revisión del oncólogo.",
+    "Complemento vegetal: polen de flores y guanábana completan la mezcla de ingredientes."
   ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
+  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud. Por el diente de león, no usar sin valoración médica si hay cálculos u obstrucción de las vías biliares, enfermedad del hígado o indicación de restringir líquidos.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "El polen puede causar una reacción alérgica en personas sensibles. Revisar si el cliente tiene alergia a productos de polen."
+  interactions: "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no iniciar este suplemento sin revisión del oncólogo: sus extractos pueden interferir con algunos tratamientos. Revisar también su combinación con anticoagulantes, inmunosupresores, antidiabéticos y diuréticos. El polen puede causar una reacción alérgica en personas sensibles."
 },
 
 // 125. PÉPTIDOS COLÁGENO HIDROLIZADO (1 kg, polvo de colágeno hidrolizado bovino puro)
@@ -3069,11 +2900,7 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 10 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "Aporta proteína de colágeno para complementar la alimentación",
-    "Ofrece componentes que el cuerpo utiliza para mantener tejidos",
-    "Puede apoyar la hidratación y elasticidad de la piel",
-    "Complementa el cuidado de las articulaciones",
-    "Su polvo se puede incorporar a distintas bebidas"
+    "Complementa el cuidado de piel y articulaciones con péptidos de colágeno bovino, que aportan materiales para cuidar la piel y los músculos."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3094,11 +2921,7 @@ window.manualData.productos = [
   timing: "En ayunas o entre comidas",
   intakeInstructions: "Disolver 11 g en agua, jugo o batido. Consumir una vez al día.",
   benefits: [
-    "Combina colágeno con ácido hialurónico",
-    "Puede apoyar la hidratación y elasticidad de la piel",
-    "Aporta proteína para complementar la alimentación",
-    "Complementa el cuidado de las articulaciones",
-    "Permite incorporar ambos ingredientes en una bebida"
+    "Aporta proteína de péptidos de colágeno bovino para cuidar piel y articulaciones. El ácido hialurónico complementa el cuidado de la hidratación de la piel."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3119,11 +2942,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "Ayuda a formar colágeno para mantener los tejidos",
-    "El zinc contribuye al cuidado normal de la piel",
-    "El cromo participa en el manejo normal de la glucosa",
-    "La rosa y la naranja complementan el aporte vegetal"
+    "Ayuda a las defensas y al cuidado de la piel con vitamina C y zinc. Vitamina C también ayuda a formar colágeno y cromo a aprovechar los alimentos.",
+    "Polvo de naranja y pétalos de rosa completan el aporte vegetal."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3144,11 +2964,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Aporta potasio para el funcionamiento de los músculos",
-    "Participa en la comunicación entre nervios y músculos",
-    "Contribuye al equilibrio de agua y minerales del cuerpo",
-    "El magnesio complementa el cuidado muscular",
-    "Reúne potasio, calcio y magnesio en una sola fórmula"
+    "Ayuda a músculos y nervios a funcionar bien y a mantener el equilibrio de agua con potasio del citrato y cloruro, y cloro.",
+    "Magnesio del citrato, calcio del citrato y vitamina B6 complementan el cuidado de músculos y nervios. Incluye una pequeña cantidad de inulina de achicoria como fibra."
   ],
   contraindications: "Personas con alteraciones renales severas o uso de diuréticos ahorradores de potasio deben consultar a su médico antes de consumirlo.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3169,10 +2986,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "Complementa el equilibrio de las bacterias del intestino",
-    "Puede acompañar el bienestar digestivo",
-    "Permite incorporar probióticos en cápsulas",
-    "Su utilidad depende del tipo de bacterias y de las necesidades de cada persona"
+    "Complementa el cuidado intestinal con Lactobacillus acidophilus, Lactobacillus sporogenes y Lactobacillus rhamnosus, bacterias que se usan como probióticos.",
+    "Incluye una pequeña cantidad de inulina de agave, fibra que alimenta a las bacterias buenas del intestino."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3193,9 +3008,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "Los probióticos complementan el equilibrio intestinal",
-    "La vitamina C contribuye al funcionamiento de las defensas",
-    "Combina apoyo digestivo y nutricional en una misma fórmula"
+    "Complementa el cuidado intestinal con probióticos y una pequeña cantidad de fibra de inulina de achicoria.",
+    "La vitamina C apoya las defensas. Incluye una pequeña cantidad de arándano rojo para completar la mezcla femenina."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3216,10 +3030,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
   benefits: [
-    "Complementa el equilibrio de las bacterias del intestino",
-    "Puede acompañar el bienestar digestivo",
-    "Permite incorporar distintos probióticos en una misma cápsula",
-    "La utilidad depende de las bacterias incluidas y de cada persona"
+    "Complementa el cuidado intestinal con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
+    "Incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4. La inulina de agave añade una pequeña cantidad de fibra."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3240,11 +3052,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Combina plantas, carnitina y una enzima digestiva",
-    "La papaína ayuda a descomponer proteínas durante la digestión",
-    "El té verde aporta compuestos antioxidantes",
-    "El cromo contribuye al manejo normal de la glucosa",
-    "Su enfoque combina bienestar digestivo y cuidado metabólico"
+    "Acompaña el bienestar digestivo con alcachofa y ciruela pasa. La papaína ayuda a digerir proteínas. Vinagre de manzana, jamaica y lúpulo completan la mezcla.",
+    "Acetil L-carnitina y cromo ayudan a usar los alimentos para obtener energía. Té verde, chá de bugre y espirulina completan el aporte vegetal."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3265,9 +3074,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La linaza y la malva tienen uso tradicional para el bienestar digestivo",
-    "Permite complementar la alimentación con grasas omega 3, 6 y 9",
-    "Reúne ingredientes vegetales en cápsulas"
+    "Complementa el bienestar digestivo con linaza como fuente vegetal de fibra y malva de uso tradicional. Raíz de lima, lecitina de soya y omegas 3, 6 y 9 completan la mezcla vegetal y de grasas."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la soya o a la linaza, con obstrucción intestinal o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3288,11 +3095,8 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 30.5 g con 250-300 ml de agua o bebida vegetal.",
   benefits: [
-    "Aporta proteína vegetal de chícharo y arroz",
-    "Ayuda a mantener y desarrollar los músculos",
-    "Facilita completar la proteína de la alimentación",
-    "Incluye probióticos como complemento digestivo",
-    "Su sabor cacao permite variar los batidos sin usar proteína láctea"
+    "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz y BCAA.",
+    "Los probióticos acompañan el cuidado intestinal y el cacao aporta sabor y antioxidantes."
   ],
   contraindications: "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3313,11 +3117,8 @@ window.manualData.productos = [
   timing: "Post-entreno o entre comidas",
   intakeInstructions: "Mezclar 30.5 g con 250-300 ml de agua o bebida vegetal.",
   benefits: [
-    "Aporta proteína vegetal de chícharo y arroz",
-    "Ayuda al mantenimiento de la masa muscular",
-    "Puede acompañar la recuperación después del ejercicio",
-    "Incluye probióticos como parte de la fórmula",
-    "Su sabor vainilla facilita combinarla con frutas y bebidas"
+    "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz y BCAA.",
+    "Los probióticos acompañan el cuidado intestinal. Vainilla natural y stevia dan sabor y dulzor."
   ],
   contraindications: "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3338,11 +3139,8 @@ window.manualData.productos = [
   timing: "Con alimentos que contengan grasas",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos que contengan grasas.",
   benefits: [
-    "La coenzima Q10 participa en la producción de energía de las células",
-    "Aporta ingredientes con actividad antioxidante",
-    "La vitamina B6 ayuda a aprovechar la energía de los alimentos",
-    "Se utiliza como complemento del cuidado cardiovascular",
-    "Combina Q10, una vitamina y un ingrediente vegetal"
+    "Ayuda al cuerpo a obtener energía con coenzima Q10 y vitamina B6. La baya dorada completa el aporte vegetal.",
+    "Harina de arroz da volumen y silicato de calcio evita que el polvo se apelmace."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes o hipotensores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3363,10 +3161,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El shatavari tiene uso tradicional en el cuidado femenino",
-    "La schisandra se utiliza tradicionalmente para acompañar la vitalidad",
-    "Permite incorporar las plantas sin preparar una infusión",
-    "No se ha establecido que esta fórmula equilibre las hormonas"
+    "Shatavari y schisandra se usan para acompañar la vitalidad femenina. La jalea real completa el aporte alimentario.",
+    "El estearato de magnesio facilita la preparación de la cápsula."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (jalea real), trastornos hormonales sensibles o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3387,9 +3183,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "La vitamina C contribuye al cuidado de las células",
-    "El resveratrol, la uva y el acai contienen compuestos antioxidantes",
-    "Permite reunir estos ingredientes en una sola cápsula"
+    "Aporta antioxidantes de resveratrol, semilla de uva, acai y vitamina C para cuidar las células. La vitamina C también ayuda a las defensas y a formar colágeno."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3410,11 +3204,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos. Mantener hidratación adecuada.",
   benefits: [
-    "Combina plantas de uso tradicional para el bienestar urinario",
-    "Incluye palo azul, cola de caballo y cabellos de elote",
-    "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
-    "El zinc y el selenio complementan el cuidado antioxidante",
-    "Reúne la mezcla de plantas en cápsulas"
+    "Acompaña el cuidado urinario tradicional con palo azul, cola de caballo y cabellos de elote. Zinc y selenio complementan el cuidado nutricional celular."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal crónica, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos, litio o antihipertensivos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3435,11 +3225,8 @@ window.manualData.productos = [
   timing: "Antes de cada alimento",
   intakeInstructions: "Tomar 30 ml 3 veces al día, antes de cada alimento. Agitar antes de usar. Refrigerar después de abrir.",
   benefits: [
-    "Combina sábila, nopal y cuachalalate en una bebida",
-    "Tiene un enfoque de bienestar digestivo tradicional",
-    "La vitamina C contribuye al cuidado antioxidante",
-    "Permite incorporar los ingredientes sin preparar las plantas",
-    "Ofrece una alternativa líquida a las cápsulas"
+    "Sábila, nopal y cuachalalate se usan para el bienestar digestivo. El ácido ascórbico añade vitamina C.",
+    "Agua purificada diluye los ingredientes, ácido cítrico ajusta la acidez y benzoato de sodio conserva la bebida."
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3451,18 +3238,17 @@ window.manualData.productos = [
   id: 141,
   code: "7503021404572",
   name: "SDOMACHUS 500 mg",
-  benefitSummary: "Bienestar digestivo y complemento nutricional",
+  benefitSummary: "Comodidad del estómago, gases y pesadez después de comer",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
-  shortDesc: "Sábila, cardamomo y jengibre con vitaminas y minerales para acompañar el bienestar digestivo y complementar la alimentación.",
+  shortDesc: "Fórmula para acompañar la comodidad del estómago y el bienestar después de comer. Combina aloe vera, cardamomo, jengibre y colpachi, plantas de uso tradicional digestivo, con agave azul. Magnesio y vitaminas B6 y B12 complementan el funcionamiento de músculos y nervios, mientras que zinc y selenio acompañan el cuidado celular. Su explicación destaca molestias concretas como gases y pesadez, distinguiéndolas de enfermedades como gastritis o colitis.",
   ingredients: "Aloe vera (500 mg), cardamomo (500 mg), jengibre (250 mg), agave azul (100 mg), magnesio (100 mg), vitamina B6 (10 mg), colpachi, vitamina B12, zinc, selenio por porción.",
   serving: "2 cápsulas (2 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "El jengibre y el cardamomo tienen uso tradicional para el confort digestivo",
-    "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
-    "Los minerales complementan el cuidado nutricional"
+    "Bienestar después de comer: aloe vera, cardamomo, jengibre y colpachi se usan tradicionalmente para acompañar la comodidad del estómago, los gases y la pesadez. El agave azul completa la mezcla vegetal.",
+    "Magnesio y vitaminas B6 y B12 ayudan al funcionamiento de músculos y nervios. Zinc y selenio complementan el cuidado de las células."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3483,11 +3269,8 @@ window.manualData.productos = [
   timing: "Una vez al día",
   intakeInstructions: "Tomar una tableta al día.",
   benefits: [
-    "El selenio contribuye al funcionamiento de las defensas",
-    "Participa en el funcionamiento normal de la tiroides",
-    "Ayuda al cuidado antioxidante de las células",
-    "Contribuye al mantenimiento normal de cabello y uñas",
-    "Aporta selenio a partir de levadura"
+    "El selenio de levadura ayuda a las defensas, al funcionamiento de la tiroides y al cuidado de las células.",
+    "Estearato de magnesio, celulosa microcristalina y fosfato dibásico de calcio ayudan a dar forma a la tableta."
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3508,10 +3291,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "El zinc apoya la función reproductiva normal",
-    "La vitamina B6 ayuda a aprovechar la energía de los alimentos",
-    "La vitamina D contribuye al funcionamiento de los músculos",
-    "Las plantas tienen uso tradicional en la vitalidad masculina; no se ha demostrado que esta mezcla eleve la testosterona"
+    "Shilajit, tongkat ali, maca y tribulus terrestris se usan para la vitalidad masculina.",
+    "El zinc apoya la función reproductiva normal. La vitamina B6 ayuda a obtener energía de los alimentos y la D3 al funcionamiento de los músculos."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a algún componente, trastornos hepáticos o renales, o bajo tratamiento con hormonas, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3532,8 +3313,7 @@ window.manualData.productos = [
   timing: "Por la noche al acostarse",
   intakeInstructions: "Tomar 1-2 tabletas por la noche al acostarse. No usar por más de una semana.",
   benefits: [
-    "La ficha describe un uso para facilitar la evacuación",
-    "La fórmula declarada requiere revisar la etiqueta vigente y su seguridad antes de recomendarla"
+    "Contiene fenolftaleína amarilla SM, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
   ],
   contraindications: "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3545,20 +3325,29 @@ window.manualData.productos = [
   id: 145,
   code: "7500645001484",
   name: "SOY LECITHIN + CHOLINE",
-  benefitSummary: "Colina para el funcionamiento normal del hígado",
+  benefitSummary: "Cuidado celular, metabolismo de las grasas y apoyo a la memoria",
   category: "clinico",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/SOY-LECITIN1.jpg",
-  shortDesc: "Lecitina de soya y colina para apoyar el funcionamiento del hígado y el aprovechamiento de las grasas de los alimentos.",
+  shortDesc: "Combina lecitina de soya y colina para apoyar el manejo de las grasas, el funcionamiento del hígado y el cuidado de las células. La lecitina aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro y otros órganos. La colina también ayuda a producir acetilcolina, que participa en la memoria y el aprendizaje. El jengibre acompaña la comodidad del estómago y la inulina de agave aporta fibra para las bacterias buenas del intestino.",
+  researchNote: {
+    "focus": "Manejo de grasas, hígado y función cerebral",
+    "text": "Apoyo al manejo de las grasas, al hígado y a la función cerebral: la colina participa en el transporte de grasas desde el hígado y, junto con los fosfolípidos de la lecitina, aporta materiales para la cubierta de las células. También permite producir acetilcolina, que el cerebro utiliza en la memoria y el aprendizaje. La fórmula combina lecitina de soya con colina bitartrato, mientras que jengibre e inulina acompañan el bienestar digestivo. Estas funciones nutricionales explican el interés de sus ingredientes dentro del enfoque del producto.",
+    "sources": [
+      {
+        "title": "NIH ODS: colina, metabolismo de grasas, hígado y función cerebral",
+        "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Lecitina de soya (1200 mg), colina bitartrato (100 mg), jengibre en polvo (50 mg), inulina de agave c.s.p. por porción.",
   serving: "2 cápsulas (1.3 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "La colina participa en el funcionamiento normal del hígado",
-    "Ayuda al cuerpo a utilizar las grasas de los alimentos",
-    "La lecitina aporta componentes de las células",
-    "El jengibre complementa el enfoque digestivo",
-    "La inulina añade fibra a la fórmula"
+    "Cuidado de las células: la lecitina de soya aporta fosfolípidos, materiales que forman la cubierta de las células del cerebro, el hígado y otros órganos.",
+    "Metabolismo de las grasas e hígado: la colina participa en el transporte y aprovechamiento de las grasas y apoya el funcionamiento normal del hígado.",
+    "Memoria y aprendizaje: la colina del bitartrato y de la lecitina ayuda a producir acetilcolina, que el cerebro utiliza en estas funciones.",
+    "Bienestar digestivo: el jengibre acompaña la comodidad del estómago y la inulina de agave aporta fibra que alimenta a las bacterias buenas del intestino."
   ],
   contraindications: "Personas con alergia a la soya no deben consumir este producto. Mujeres embarazadas o en lactancia deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3579,11 +3368,7 @@ window.manualData.productos = [
   timing: "Preferentemente por la noche",
   intakeInstructions: "Colocar un sobre en agua caliente (65°C), esperar 3-5 minutos, endulzar al gusto. Tomar una taza al día.",
   benefits: [
-    "Combina piña, linaza y tres tipos de té",
-    "Aporta compuestos antioxidantes propios del té",
-    "Ofrece una bebida para acompañar la rutina después de comer",
-    "Permite variar el sabor de las bebidas cotidianas",
-    "Los sobres facilitan preparar una taza"
+    "Infusión de piña y linaza para acompañar una rutina de bienestar digestivo. Los tés verde, rojo y blanco aportan cafeína y antioxidantes."
   ],
   contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3604,11 +3389,9 @@ window.manualData.productos = [
   timing: "Según indicación",
   intakeInstructions: "Tomar de 1 a 2 tabletas al día.",
   benefits: [
-    "La vitamina B1 ayuda a aprovechar los alimentos para producir energía",
-    "La cafeína y el guaraná ayudan a mantenerse alerta",
-    "El ácido fólico participa en la formación normal de la sangre",
-    "La vitamina E complementa el cuidado antioxidante",
-    "Está orientado a complementar la vitalidad y la nutrición"
+    "Ayuda a obtener energía de los alimentos con tiamina B1 y coenzima Q10. Ácido fólico ayuda a formar glóbulos rojos.",
+    "Cafeína y guaraná ayudan a estar más despierto. Vitamina E, lecitina de soya, jalea real y polen de flores completan la mezcla.",
+    "Calcio del gluconato y magnesio del sulfato ayudan a músculos y nervios. Miel de abeja aporta dulzor y energía."
   ],
   contraindications: "No se use durante el embarazo y lactancia. Contiene cafeína y guaraná, evitar en personas sensibles. Consultar a médico si se tiene intolerancia a los ingredientes.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3629,11 +3412,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Aporta hierba del sapo en cápsulas",
-    "Tiene uso tradicional dentro de la herbolaria mexicana",
-    "Se utiliza como complemento del bienestar digestivo",
-    "Su enfoque tradicional también incluye el cuidado metabólico",
-    "Permite incorporar la planta sin preparar una infusión"
+    "Reúne hierba del sapo en polvo que se usa para el bienestar digestivo."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3654,10 +3433,8 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "El magnesio contribuye al funcionamiento normal de los nervios",
-    "La vitamina C ayuda al cuidado de las células",
-    "Permite complementar la alimentación con magnesio",
-    "No se ha establecido un beneficio de esta fórmula para la memoria"
+    "Ayuda al funcionamiento de los nervios con magnesio del L-treonato. La vitamina C aporta antioxidantes y ayuda a formar colágeno.",
+    "Incluye una cantidad muy pequeña de vitamina D."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con insuficiencia renal o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3678,9 +3455,8 @@ window.manualData.productos = [
   timing: "Antes de dormir o con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente antes de dormir.",
   benefits: [
-    "La teanina y el azahar se utilizan para favorecer la relajación",
-    "Puede acompañar una rutina de descanso",
-    "El triptófano participa en procesos relacionados con el ánimo y el descanso"
+    "Puede ayudar a relajarse y prepararse para dormir con L-triptófano, teanina y azahar.",
+    "La vitamina D3 complementa el cuidado de músculos y defensas."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos (ISRS, IMAO), ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3700,11 +3476,9 @@ window.manualData.productos = [
   timing: "Preferentemente por la mañana en ayunas o con el desayuno",
   intakeInstructions: "Disolver 1 medida (6 g) en 250-300 ml de agua fría o zumo, removiendo hasta disolución completa. Consumir una vez al día.",
   benefits: [
-    "La fibra complementa la alimentación",
-    "Parte de la fibra sirve de alimento a bacterias del intestino",
-    "Los probióticos complementan el equilibrio intestinal",
-    "Las enzimas ayudan a digerir los alimentos",
-    "La cúrcuma aporta antioxidantes y tiene uso tradicional para molestias leves como pesadez y gases"
+    "Aporta fibra para el cuidado intestinal con inulina, FOS y acacia. Incluye los probióticos Lactobacillus rhamnosus GG y Bifidobacterium bifidum.",
+    "Bromelina, papaína y otras enzimas vegetales ayudan a digerir los alimentos. Jengibre, cúrcuma, alcachofa y aloe vera se usan para el bienestar digestivo.",
+    "Espinaca, apio, pepino, nopal, piña y alfalfa completan el aporte vegetal. Té verde y guaraná pueden aportar cafeína. La mezcla incluye clorofila y pimienta negra."
   ],
   contraindications: "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3725,11 +3499,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "El zinc contribuye al funcionamiento de las defensas",
-    "Ayuda al mantenimiento normal de piel, cabello y uñas",
-    "Participa en el uso de proteínas, grasas y carbohidratos",
-    "El jengibre tiene uso tradicional para el confort digestivo",
-    "Combina un mineral y un ingrediente vegetal"
+    "El zinc ayuda a las defensas y al cuidado de la piel. El jengibre se usa para el bienestar del estómago."
   ],
   contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con alergia al jengibre, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3750,11 +3520,7 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Contribuye al funcionamiento normal de las defensas",
-    "Ayuda al mantenimiento de piel, cabello y uñas",
-    "Participa en el uso normal de los nutrientes",
-    "Contribuye al cuidado antioxidante de las células",
-    "Apoya la función reproductiva normal"
+    "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc de gluconato, citrato u óxido."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antibióticos, penicilamina o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3775,11 +3541,7 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día, acompañadas de alimentos y un vaso de agua. Puede dividirse en una o dos tomas según preferencia.",
     benefits: [
-      "Aporta calcio para mantener huesos y dientes",
-      "La vitamina D ayuda a absorber el calcio",
-      "El calcio también participa en el funcionamiento muscular",
-      "Contribuye a la comunicación normal entre los nervios",
-      "Complementa el aporte de calcio de la alimentación"
+      "Apoya el mantenimiento de huesos y el funcionamiento de los músculos con calcio del citrato y vitamina D3, que participa en su absorción. El extracto de avena completa la fórmula en cantidad pequeña."
     ],
     contraindications: "Personas con hipercalcemia, insuficiencia renal o que tomen digitálicos deben consultar a su médico antes de consumirlo. No recomendado en caso de hipersensibilidad a alguno de sus componentes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3800,11 +3562,8 @@ window.manualData.productos = [
     timing: "Cada 4 horas, con o sin alimentos",
     intakeInstructions: "Adultos y niños mayores de 10 años: Tomar 1 cucharada (12 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
     benefits: [
-      "La miel aporta una sensación de suavidad en la garganta",
-      "El mentol ofrece una sensación refrescante",
-      "La vitamina C contribuye al funcionamiento de las defensas",
-      "Incluye plantas de uso tradicional respiratorio",
-      "Combina miel, propóleo e ingredientes botánicos"
+      "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva complementan el cuidado de la garganta.",
+      "Eucalipto y mentol aportan sensación de frescura. La vitamina C acompaña las defensas y la esencia de miel el sabor."
     ],
     contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. No consumir durante el embarazo o periodo de lactancia sin consultar a un profesional de la salud. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3825,11 +3584,8 @@ window.manualData.productos = [
     timing: "Cada 4 horas, con o sin alimentos",
     intakeInstructions: "Adultos: Tomar 2 vasos dosificadores (20 ml) cada 4 horas. Niños: Tomar 1 vaso dosificador (10 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
     benefits: [
-      "La miel ayuda a suavizar la sensación en la garganta",
-      "El mentol aporta frescura",
-      "La vitamina C contribuye al funcionamiento de las defensas",
-      "El ajo negro aporta compuestos antioxidantes",
-      "Incluye plantas de uso tradicional para el bienestar respiratorio"
+      "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva rosa completan el cuidado de la garganta.",
+      "Ajo negro y orégano añaden compuestos vegetales. Eucalipto y mentol dan sensación de frescura y vitamina C acompaña las defensas."
     ],
     contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3850,11 +3606,9 @@ window.manualData.productos = [
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente después de los alimentos, acompañada de agua. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-      "Su enfoque principal es el cuidado de las articulaciones",
-      "La vitamina C contribuye a formar colágeno",
-      "El calcio y el magnesio apoyan huesos y músculos",
-      "Las vitaminas B participan en el uso de la energía",
-      "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con las molestias articulares"
+      "MSM, glucosamina y cúrcuma acompañan el cuidado de las articulaciones. Nogal completa la mezcla vegetal y vitamina C ayuda a formar colágeno.",
+      "Calcio, magnesio, potasio y fósforo ayudan al funcionamiento de músculos y huesos. Zinc ayuda a cuidar la piel.",
+      "Vitaminas B2, B6 y B12 e hierro ayudan a aprovechar los alimentos y a formar glóbulos rojos para la actividad diaria."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3875,10 +3629,8 @@ window.manualData.productos = [
     timing: "Dentro de los 60 minutos posteriores al entrenamiento o como colación proteica",
     intakeInstructions: "Mezclar 1 medida (39.5 g) con 350 ml de agua fría o leche vegetal. Agitar en shaker durante 20-30 segundos hasta disolver. Se recomienda consumir de 1 a 2 porciones al día, dependiendo de las necesidades proteicas y nivel de actividad física.",
     benefits: [
-      "La proteína vegetal ayuda a mantener y desarrollar los músculos",
-      "Facilita completar la proteína de la alimentación",
-      "Incluye probióticos como complemento digestivo",
-      "Su sabor cacao ofrece una alternativa a los batidos de leche"
+      "Ayuda a cuidar y recuperar los músculos con proteínas de chícharo y arroz integral y BCAA leucina, isoleucina y valina.",
+      "Lactobacillus acidophilus y Bifidobacterium bifidum acompañan el cuidado intestinal. Cocoa, sabor natural cacao, sal rosa y stevia dan sabor y dulzor."
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud antes de consumir este producto. Este producto es fabricado en instalaciones que también procesan lácteos y derivados de soya.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3899,11 +3651,9 @@ window.manualData.productos = [
     timing: "1 cápsula antes de cada alimento (distribuir con las comidas principales)",
     intakeInstructions: "Tomar 3 cápsulas al día (1 antes de cada alimento) para optimizar la absorción de vitaminas liposolubles. No exceder la porción diaria recomendada.",
     benefits: [
-      "Aporta vitaminas y minerales para complementar la dieta",
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Las vitaminas C y D contribuyen al funcionamiento de las defensas",
-      "El calcio y el magnesio apoyan huesos y músculos",
-      "Reúne varios nutrientes para personas activas"
+      "Complementa la alimentación para el ejercicio con glicina y glutamina. Vitaminas B1, B2, B3, B5, B12, biotina y ácido fólico ayudan a obtener energía y a formar glóbulos rojos.",
+      "Calcio del carbonato, potasio y fósforo del fosfato, magnesio del sulfato y vitaminas D3 y K ayudan a cuidar músculos y huesos.",
+      "Hierro y cobre ayudan a transportar oxígeno y manganeso a cuidar los huesos. Vitaminas A y C y zinc apoyan las defensas y vitamina E aporta antioxidantes."
     ],
     contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3924,9 +3674,7 @@ window.manualData.productos = [
         timing: "Puede tomarse en cualquier momento, solo o añadido a café, batidos o comidas",
         intakeInstructions: "Tomar 1 cucharada sopera (15 ml) al día, solo o añadido a café, batidos, ensaladas o comidas. Para quienes son nuevos en MCT, se recomienda comenzar con 1/2 cucharada (7.5 ml) y aumentar gradualmente para evitar molestias digestivas. Agitar antes de usar.",
         benefits: [
-          "Suma grasas que el cuerpo puede usar como energía",
-          "Permite aumentar las calorías de una comida o bebida",
-          "Se puede incorporar a un plan de alimentación con pocos carbohidratos"
+          "Complementa el aporte de energía con grasas MCT de aceite de coco, principalmente ácido caprílico."
         ],
         contraindications: "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
         foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3947,9 +3695,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Tomar 2 cápsulas al día, de preferencia por la mañana, acompañadas de suficiente agua. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-      "El té verde contiene compuestos antioxidantes",
-      "El guaraná contiene cafeína, que ayuda a mantenerse alerta",
-      "Permite incorporar distintas plantas en cápsulas"
+      "Puede ayudar a estar más despierto con té verde y guaraná. Rhodiola, schisandra y damiana de campo se usan para la vitalidad.",
+      "El toronjil se usa para la calma y el bienestar digestivo. Zarzaparrilla y flor de castilla completan la mezcla."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3970,10 +3717,7 @@ window.manualData.productos = [
         timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. La porción diaria completa (3 cápsulas) proporciona 600 mg de Ashwagandha, 200 mg de L-Teanina y 225 mg de magnesio elemental. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
         benefits: [
-          "La ashwagandha puede apoyar la respuesta al estrés cotidiano",
-          "La teanina se utiliza para favorecer la relajación",
-          "El magnesio contribuye al funcionamiento de los nervios",
-          "El magnesio también apoya el movimiento normal de los músculos"
+          "Puede acompañar la calma y la rutina de descanso con ashwagandha y L-teanina. El magnesio del bisglicinato complementa el funcionamiento normal de los nervios y músculos."
         ],
         contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula. Personas con hipertiroidismo, trastornos autoinmunitarios o bajo tratamiento farmacológico (sedantes, ansiolíticos, hipoglucemiantes, antihipertensivos) deben consultar a un profesional de la salud antes de consumirlo.",
         foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3995,11 +3739,7 @@ window.manualData.productos = [
     timing: "Preferentemente en ayunas o entre comidas",
     intakeInstructions: "Agitar bien el envase antes de cada uso. Consumir 90 ml al día (un vaso dosificador), preferentemente en ayunas o entre comidas. Puede tomarse solo o mezclado con agua si se desea un sabor más suave. No exceder la porción diaria recomendada. Una vez abierto, consumir en un plazo de 1 mes.",
     benefits: [
-      "Combina sábila, nopal y cuachalalate",
-      "Tiene uso tradicional como complemento del bienestar digestivo",
-      "La vitamina C contribuye al funcionamiento de las defensas",
-      "También complementa el cuidado antioxidante de las células",
-      "Permite incorporar las plantas en una bebida preparada"
+      "Acompaña el bienestar digestivo tradicional con aloe vera, nopal y cuachalalate. La vitamina C complementa el cuidado de tejidos y las defensas."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4020,10 +3760,7 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml) y dejar infusionar 3-5 minutos. Retirar el sobre y disfrutar.",
     benefits: [
-      "El té verde contiene compuestos antioxidantes",
-      "Su cafeína ayuda a mantenerse alerta",
-      "Ofrece una bebida para variar la rutina",
-      "Los sobres facilitan llevar y preparar una taza"
+      "Ayuda a estar más despierto con cafeína de las hojas de té verde y complementa el aporte de antioxidantes de la alimentación."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4044,11 +3781,7 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos que contengan grasas",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos que contengan grasas para optimizar la absorción. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-      "La vitamina D ayuda a absorber calcio y fósforo",
-      "Contribuye al mantenimiento de huesos y dientes",
-      "Apoya el funcionamiento normal de los músculos",
-      "Contribuye al funcionamiento de las defensas",
-      "Permite complementar la vitamina D cuando corresponde su uso"
+      "Apoya huesos, músculos y defensas con vitamina D3. El aceite de olivo actúa como base de aceite de la preparación y la avena completa la mezcla en cantidad pequeña."
     ],
     contraindications: "No consumir durante el embarazo o lactancia sin supervisión médica. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4069,11 +3802,9 @@ window.manualData.productos = [
     timing: "Según necesidad, 2-3 veces al día",
     intakeInstructions: "Aplicar una cantidad suficiente de gel sobre la zona afectada. Masajear suavemente hasta que se absorba completamente. Repetir 2-3 veces al día según sea necesario. Lavar las manos después de cada aplicación. Uso exclusivamente tópico, no ingerir.",
     benefits: [
-      "Facilita el masaje de zonas con sensación de tensión",
-      "El mentol aporta una sensación refrescante",
-      "Los ingredientes de uso externo pueden dar confort local",
-      "Incluye árnica en la fórmula",
-      "Su textura permite aplicarlo directamente sobre la piel"
+      "Acompaña el masaje y la comodidad en la zona del masaje con salicilato de metilo, mentol y extracto de árnica. La glucosamina completa la preparación.",
+      "La glicerina ayuda a retener humedad. Aceite mineral, parafina, ácido esteárico y monoestearato de sorbitan dan suavidad y consistencia. Agua y alcohol sirven para diluir los ingredientes, y carbomero y trietanolamina ajustan el gel.",
+      "Alcohol bencílico, DMDM hidantoína, fenoxietanol e hidroxiacetofenona conservan la preparación. Azul #1 aporta color y no un efecto sobre el dolor."
     ],
     contraindications: "No se use en menores de 12 años. Evitar contacto con ojos, mucosas y heridas abiertas. Si se presenta irritación o reacción alérgica, suspender su uso y consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4094,11 +3825,8 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-      "Su enfoque es complementar el bienestar prostático",
-      "Combina ciruelo africano y otros ingredientes vegetales",
-      "El zinc contribuye a la función reproductiva normal",
-      "La vitamina E y el licopeno complementan el cuidado antioxidante",
-      "Reúne nutrientes e ingredientes botánicos para el cuidado masculino"
+      "Acompaña el cuidado de la próstata y la comodidad al orinar con pygeum y polen de flores. Pelos de elote, perejil y buchu se usan para el cuidado urinario.",
+      "Omega 3 aporta grasas para las células, licopeno y vitamina E aportan antioxidantes, y zinc y vitamina B6 complementan el cuidado masculino."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (polen) deben evitar su consumo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4119,11 +3847,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Colocar la bolsita en una taza, agregar agua caliente (200 ml) a 65°C, dejar infusionar 3-5 minutos, retirar la bolsita y disfrutar.",
     benefits: [
-      "Tiene uso tradicional para favorecer la relajación",
-      "Puede acompañar una rutina de descanso",
-      "Permite hacer una pausa con una bebida caliente",
-      "Su mezcla de flores y hierbas aporta aroma suave",
-      "Ofrece una opción sin cafeína según la ficha"
+      "Acompaña una pausa de calma con pasiflora, toronjil, tila, manzanilla y azahar u hojas de naranja.",
+      "Yerbaniz, zapote blanco, hierbabuena y flor de manita completan la infusión tradicional."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4144,11 +3869,7 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "Combina plantas de uso tradicional respiratorio",
-      "Una bebida caliente puede dar confort en la garganta",
-      "El eucalipto aporta su aroma característico",
-      "El saúco y el propóleo complementan la mezcla",
-      "Los sobres facilitan preparar una taza"
+      "Acompaña la comodidad de la garganta con propóleo y plantas de uso tradicional respiratorio: eucalipto, gordolobo y saúco. Tejocote y tabachín completan la infusión."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (propóleo) deben evitar su consumo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4160,17 +3881,16 @@ window.manualData.productos = [
     id: 171,
     code: "7503024738285",
     name: "TÉ ÁRNICA",
-    benefitSummary: "Árnica mexicana: uso tradicional por valorar",
+    benefitSummary: "Infusión de árnica mexicana: confirmar indicaciones de uso oral",
     category: "nutricional",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ARNICA-scaled.png",
-    shortDesc: "Infusión de árnica mexicana de uso tradicional. Sus beneficios al beberla no están confirmados; valorar su seguridad antes de recomendarla.",
+    shortDesc: "Infusión elaborada con hojas de árnica mexicana, identificada en el catálogo como Heterotheca inuloides. Esta identidad es importante porque existen plantas diferentes conocidas como árnica y preparaciones destinadas a usos distintos. Antes de ampliar sus funciones debemos confirmar las indicaciones de esta presentación para beber. La explicación interna debe distinguir este té de las pomadas y geles de árnica utilizados para masaje y molestias locales.",
     ingredients: "Hojas de árnica (Heterotheca inuloides Cass.).",
     serving: "1 sobre (2 g) / 1 taza de infusión al día",
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "Permite preparar una bebida con el sabor y aroma del árnica mexicana",
-      "Su uso proviene de la tradición herbolaria; no se han confirmado beneficios al beber esta infusión"
+      "Infusión de árnica mexicana Heterotheca inuloides. Consultar su uso por vía oral con un profesional."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4182,20 +3902,17 @@ window.manualData.productos = [
     id: 172,
     code: "7503024738254",
     name: "TÉ CUACHALALATE",
-    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
+    benefitSummary: "Cuachalalate de uso tradicional para molestias del estómago",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
-    shortDesc: "Infusión de cuachalalate de uso tradicional para acompañar el bienestar digestivo.",
+    shortDesc: "Infusión de corteza de cuachalalate utilizada tradicionalmente para acompañar el bienestar del estómago. Dentro de la herbolaria mexicana se asocia con el cuidado de molestias estomacales que suelen describirse como irritación o gastritis. Para la formación del vendedor, conviene distinguir gastritis, gases y colitis, porque son situaciones diferentes. Su orientación es el uso tradicional para molestias del estómago, evitando presentarlo como solución para cualquier problema digestivo.",
     ingredients: "Corteza de cuachalalate (Amphipterygium adstringens).",
     serving: "1 sobre (2 g) / 1 taza de infusión al día",
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "Permite preparar una infusión de cuachalalate",
-      "Tiene uso tradicional como complemento del bienestar digestivo",
-      "Su fórmula se centra en la corteza de esta planta",
-      "Ofrece una opción sin cafeína según la ficha",
-      "Los sobres facilitan preparar una taza"
+      "Bienestar del estómago: la corteza de cuachalalate se usa tradicionalmente para acompañar el cuidado de molestias estomacales.",
+      "En la herbolaria mexicana se utiliza tradicionalmente para molestias descritas como irritación o gastritis."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4216,11 +3933,7 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar. Uso ocasional, no prolongar por más de 7 días consecutivos.",
     benefits: [
-      "El sen ayuda a estimular el movimiento del intestino",
-      "Su uso se dirige al estreñimiento ocasional",
-      "Puede facilitar la evacuación cuando corresponde su uso",
-      "Permite preparar la planta en forma de infusión",
-      "Su beneficio se limita al uso ocasional indicado en la etiqueta"
+      "Ayuda a evacuar en casos de estreñimiento ocasional con hojas de sen, que estimulan el movimiento del intestino."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4232,20 +3945,17 @@ window.manualData.productos = [
     id: 174,
     code: "7503025069395",
     name: "TÉ JENGIBRE CANELA",
-    benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
+    benefitSummary: "Jengibre y canela con té verde para digestión y antioxidantes",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
-    shortDesc: "Té verde con jengibre y canela para acompañar el bienestar digestivo y disfrutar una bebida con antioxidantes naturales.",
+    shortDesc: "Infusión que combina jengibre y canela con té verde para acompañar el bienestar digestivo y ofrecer una bebida con antioxidantes. El jengibre tiene uso tradicional para molestias leves del estómago, mientras que la canela aporta su sabor y componentes vegetales. El té verde añade antioxidantes y puede aportar cafeína. Esta combinación se distingue del té de jengibre y cúrcuma por la presencia del té verde y su carácter de bebida para el día.",
     ingredients: "Té verde (Camellia sinensis), raíz de jengibre (Zingiber officinale), canela (Cinnamomum verum).",
     serving: "1 sobre (2 g) / 1 taza de infusión al día",
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "El jengibre tiene uso tradicional para acompañar la digestión",
-      "El té verde aporta compuestos antioxidantes",
-      "La canela da sabor y aroma a la bebida",
-      "Puede disfrutarse después de las comidas",
-      "Combina té y especias en un sobre"
+      "Bienestar digestivo: el jengibre se usa tradicionalmente para acompañar la comodidad del estómago y la canela completa la mezcla de especias.",
+      "Antioxidantes y cafeína: el té verde complementa la bebida con antioxidantes y puede ayudar a estar más despierto."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4260,16 +3970,14 @@ window.manualData.productos = [
     benefitSummary: "Infusión para pesadez y gases después de comer",
     category: "digestivo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
-    shortDesc: "Infusión de jengibre y cúrcuma de uso tradicional para molestias digestivas leves. La cúrcuma se usa para aliviar pesadez y gases después de comer.",
+    shortDesc: "Infusión de dos raíces utilizadas tradicionalmente para acompañar la comodidad del estómago después de comer. El jengibre y la cúrcuma se reúnen para el bienestar digestivo, especialmente ante pesadez y gases. Puede integrarse como bebida caliente dentro de la rutina posterior a los alimentos. Su enfoque principal es digestivo, distinguiendo esta infusión de los extractos concentrados de curcumina que se utilizan en fórmulas de orientación articular.",
     ingredients: "Raíz de jengibre (Zingiber officinale), raíz de cúrcuma (Curcuma longa).",
     serving: "1 sobre (2 g) / 1 taza de infusión al día",
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
-      "El jengibre tiene uso tradicional para el confort del estómago",
-      "Ofrece una bebida cálida para después de comer",
-      "Es una alternativa sin cafeína según la ficha"
+      "Pesadez y gases: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago después de comer.",
+      "Permite incorporar ambas raíces en una infusión caliente dentro de la rutina después de los alimentos."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4290,11 +3998,7 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche o después de las comidas",
     intakeInstructions: "Calentar agua hasta punto de ebullición. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "Tiene uso tradicional para el confort después de comer",
-      "Puede acompañar una rutina de relajación",
-      "Ofrece una bebida sin cafeína",
-      "Su aroma suave ayuda a crear un momento de pausa",
-      "Los sobres facilitan preparar una taza"
+      "Acompaña el bienestar después de comer y una pausa de calma con flores de manzanilla de uso tradicional."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4315,11 +4019,7 @@ window.manualData.productos = [
     timing: "Preferentemente después de las comidas",
     intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     benefits: [
-      "Combina plantas de uso tradicional para el bienestar urinario",
-      "Incluye palo azul, pingüica y cabellos de elote",
-      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
-      "Permite incorporar las plantas como infusión",
-      "Los sobres evitan preparar la mezcla desde cero"
+      "Pingüica, palo azul, pelo de elote y cola de caballo se usan para acompañar el cuidado urinario."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con problemas renales o bajo tratamiento médico deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4340,9 +4040,7 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas diariamente (1000 mg de quercetina), de preferencia con los alimentos. Consumir diariamente. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-      "La quercetina tiene actividad antioxidante",
-      "Permite incorporar este compuesto vegetal en cápsulas",
-      "No se han establecido beneficios específicos de esta fórmula sobre alergias o defensas"
+      "Aporta quercetina, un antioxidante para complementar el cuidado de las células."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4363,11 +4061,9 @@ window.manualData.productos = [
     timing: "Según necesidad, con o sin alimentos",
     intakeInstructions: "Adultos: Tomar 1 copita de 15 ml, 3 veces al día. Jóvenes: Tomar 1 copita de 15 ml, 2 veces al día. Niños: Tomar media copita, 3 veces al día. Agitar antes de usar.",
     benefits: [
-      "Aporta vitaminas A y D a partir de aceite de hígado de bacalao",
-      "La vitamina A contribuye al mantenimiento de la visión",
-      "La vitamina D ayuda a absorber el calcio",
-      "Ambas vitaminas contribuyen al funcionamiento de las defensas",
-      "Incluye plantas de uso tradicional respiratorio"
+      "Complementa el cuidado de huesos y defensas con vitaminas A y D del aceite de hígado de bacalao.",
+      "Incluye hipofosfitos de sodio, calcio, potasio, magnesio y hierro como sales minerales.",
+      "Eucalipto, saúco, lobaria pulmonaria y gordolobo se usan para el confort de garganta. Cassia fístula completa la mezcla de plantas."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 1 año. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente pescado).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4388,9 +4084,7 @@ window.manualData.productos = [
     timing: "Preferentemente acompañado de algún alimento",
     intakeInstructions: "Disolver 5 g (aproximadamente una cucharadita) en un vaso de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente acompañado de algún alimento. No exceder la porción diaria recomendada.",
     benefits: [
-      "Participa en la comunicación entre las células",
-      "Complementa el cuidado nutricional y el aprovechamiento de nutrientes",
-      "Su presentación en polvo permite mezclarlo con una bebida"
+      "Aporta inositol para complementar la alimentación y el cuidado del azúcar."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4411,11 +4105,7 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 4 cápsulas al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
     benefits: [
-      "El magnesio contribuye al funcionamiento de los músculos",
-      "Apoya el funcionamiento normal de los nervios",
-      "Ayuda a obtener energía de los alimentos",
-      "Contribuye a reducir el cansancio por falta de magnesio",
-      "Aporta magnesio en forma de bisglicinato"
+      "Apoya músculos, nervios y obtención de energía con magnesio del bisglicinato. La inulina de agave añade fibra en cantidad pequeña."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4436,9 +4126,8 @@ window.manualData.productos = [
     timing: "2-3 veces al día",
     intakeInstructions: "Aplicar sobre la zona afectada de 2 a 3 veces al día, masajeando suavemente hasta su absorción. Uso exclusivamente tópico, no ingerir. Evitar contacto con ojos y mucosas. Si se presenta irritación, suspender su uso.",
     benefits: [
-      "Facilita el masaje de las zonas donde se aplica",
-      "La manzanilla complementa el cuidado de la piel",
-      "Su presentación en gel facilita la aplicación local"
+      "Acompaña el masaje y el cuidado de la piel con castaño de Indias, hamamelis, centella asiática y ginkgo biloba. Saúco, árnica y manzanilla completan la mezcla de plantas.",
+      "El carbomero da consistencia al gel. El ingrediente registrado como silicato de metilo debe confirmarse en la etiqueta."
     ],
     contraindications: "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4459,9 +4148,8 @@ window.manualData.productos = [
     timing: "2-3 veces al día",
     intakeInstructions: "Aplicar sobre la piel limpia y seca de las zonas deseadas (como piernas o zonas de tensión) y realizar un masaje suave con movimientos circulares ascendentes hasta su completa absorción. Se recomienda aplicar de 2 a 3 veces al día. Uso exclusivamente tópico, no ingerir.",
     benefits: [
-      "Permite acompañar el masaje de piernas cansadas",
-      "Da confort local en las zonas donde se aplica",
-      "Su formato en gel facilita aplicarlo por zonas"
+      "Acompaña el confort de piernas cansadas mediante masaje y salicilato de metilo. Castaño de Indias, hamamelis, centella asiática y ginkgo biloba complementan el uso tópico tradicional.",
+      "El agua sirve de vehículo y el carbómero mantiene la consistencia del gel."
     ],
     contraindications: "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4482,10 +4170,7 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (&gt;3 meses), se recomienda consultar con un profesional de la salud.",
     benefits: [
-      "Las vitaminas C y D ayudan al funcionamiento de las defensas",
-      "El zinc también participa en el cuidado de las defensas",
-      "La vitamina C ayuda a proteger las células",
-      "Combina estos nutrientes con saúco, equinácea y ajo negro"
+      "Apoya las defensas con vitaminas C y D3 y zinc. Saúco, equinácea y ajo negro complementan el cuidado tradicional en cambios de temporada con compuestos vegetales."
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a plantas de la familia Asteraceae (equinácea), al ajo o a alguno de los componentes, con enfermedades autoinmunes, o bajo tratamiento con inmunosupresores, anticoagulantes (warfarina) o antidiabéticos deben consultar a un profesional de la salud antes de consumirlo. La vitamina D3 en dosis elevadas puede acumularse; no exceder la dosis recomendada sin supervisión médica.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4506,9 +4191,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Astrágalo al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El astrágalo tiene uso tradicional como apoyo a la vitalidad",
-      "Permite incorporar esta planta sin preparar la raíz",
-      "Se estudia su relación con el funcionamiento de las defensas; no es un efecto confirmado de esta fórmula"
+      "Acompaña el bienestar y la vitalidad de uso tradicional con extracto de raíz de astrágalo."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4529,9 +4212,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Calostro Bovino al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-      "Ofrece calostro bovino en cápsulas como complemento de la alimentación",
-      "Permite incorporarlo sin preparar una bebida",
-      "Se estudia su relación con el bienestar intestinal; la utilidad depende de la composición y cantidad"
+      "Complementa la alimentación con calostro bovino liofilizado y sus componentes naturales."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4552,9 +4233,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Células Madre al día, con alimentos. No exceder la dosis diaria recomendada.",
     benefits: [
-      "Combina calostro, espirulina, reishi y plantas en cápsulas",
-      "Permite incorporar la mezcla sin preparar cada ingrediente",
-      "Es una mezcla nutricional y de plantas; no contiene células madre ni demuestra regeneración de órganos"
+      "Complementa la alimentación con calostro bovino y espirulina. Astrágalo y Reishi completan la mezcla para el bienestar general.",
+      "También contiene FO-TI. Consultar con un profesional antes de usarlo."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos y hongos).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4575,11 +4255,7 @@ window.manualData.productos = [
     timing: "Con o sin alimentos",
     intakeInstructions: "Añadir 20 gotas (1 ml) del extracto en agua, jugo o tomar directamente. Una vez al día. Agitar antes de usar. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El mentol aporta una sensación refrescante",
-      "El propóleo contiene compuestos antioxidantes",
-      "La equinácea tiene uso tradicional en cambios de temporada",
-      "El gotero facilita medir la cantidad indicada",
-      "Reúne propóleo e ingredientes botánicos en formato líquido"
+      "Propóleo se usa para la comodidad de la garganta y mentol natural da frescura. Equinácea completa la mezcla para el cuidado en cambios de temporada."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No administrar en menores de 3 años. Personas con alergia a productos apícolas (propóleo, miel) o a plantas de la familia Asteraceae (equinácea) deben evitar su consumo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4600,11 +4276,7 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche",
     intakeInstructions: "Preparar una taza con agua caliente, agregar una bolsita de té y dejar reposar de 3 a 5 minutos. Tomar 1 taza al día, preferentemente por la noche. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El toronjil tiene uso tradicional para favorecer la relajación",
-      "La mezcla se utiliza como complemento del bienestar digestivo",
-      "Puede acompañar una pausa al final del día",
-      "Su aroma herbal hace agradable la preparación",
-      "Los sobres facilitan preparar una taza"
+      "Acompaña una pausa de bienestar con cenizo y toronjil de uso tradicional. El toronjil se usa para calma y bienestar del estómago."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4625,11 +4297,8 @@ window.manualData.productos = [
     timing: "Preferentemente antes de la comida principal",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
     benefits: [
-      "Combina plantas, frutas e inulina",
-      "La inulina es una fibra que alimenta ciertas bacterias del intestino",
-      "Su enfoque es complementar el bienestar digestivo",
-      "Incluye ciruela, tamarindo, papaya, nopal y linaza",
-      "Puede acompañar hábitos de alimentación y consumo de agua"
+      "Acompaña el movimiento del intestino con inulina como fibra que alimenta a las bacterias buenas del intestino y linaza, nopal, ciruela, tamarindo y papaya como componentes vegetales.",
+      "La forskolina de Coleus forskohlii completa la mezcla."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4650,11 +4319,9 @@ window.manualData.productos = [
     timing: "Antes o durante el entrenamiento",
     intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
     benefits: [
-      "La creatina ayuda a rendir en esfuerzos cortos e intensos",
-      "Puede apoyar la fuerza junto con entrenamiento",
-      "Incluye minerales que participan en la función muscular",
-      "Aporta vitaminas para complementar la alimentación",
-      "Su sabor limón facilita integrarla a una bebida de entrenamiento"
+      "Ayuda a rendir en esfuerzos cortos y repetidos con creatina monohidratada. Sal rosa, minerales del lago salado de Utah y glicinato de magnesio complementan el aporte para los músculos.",
+      "Vitamina C de amla y vitamina E aportan antioxidantes. Vitamina D3 ayuda a huesos y músculos y B12 al funcionamiento de los nervios y a formar glóbulos rojos.",
+      "Alulosa y stevia dan dulzor. Ácidos cítrico y málico y sabor natural lima limón dan sabor a la bebida."
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4675,11 +4342,9 @@ window.manualData.productos = [
     timing: "Oral, directamente",
     intakeInstructions: "Ingerir directamente el contenido de la ampolleta. EN NINGÚN CASO DEBERÁ INYECTARSE.",
     benefits: [
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Contribuyen al funcionamiento normal de los nervios",
-      "Las vitaminas de la fórmula complementan el cuidado celular",
-      "Reúne varios nutrientes en una sola presentación",
-      "Su formato líquido ofrece una alternativa a tabletas y cápsulas"
+      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5 y B6. Ácido fólico y B12 ayudan a formar glóbulos rojos.",
+      "Vitaminas C y E aportan antioxidantes, vitamina A cuida la piel, y D3 y calcio del gluconato ayudan a cuidar huesos y músculos.",
+      "Jalea real e inositol completan el aporte de la fórmula."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4700,9 +4365,8 @@ window.manualData.productos = [
     timing: "Con el estómago vacío",
     intakeInstructions: "Tomar 1 cápsula, 2 veces al día, con el estómago vacío o según indicación de un profesional de la salud.",
     benefits: [
-      "El NAC ayuda al cuerpo a formar glutatión, que participa en la protección de las células",
-      "El selenio contribuye al cuidado de las células",
-      "Ofrece una fórmula en cápsulas para complementar la alimentación"
+      "Ayuda a cuidar las células con NAC, que el cuerpo usa para producir glutatión, y selenio de L-selenometionina.",
+      "Hipromelosa forma la cápsula. Estearato de magnesio y dióxido de silicio ayudan a prepararla y ácido cítrico ajusta la acidez."
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna enfermedad.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4723,11 +4387,10 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Verter 3 cucharadas soperas al ras (aprox. 25 g) en un vaso. Añadir agua potable a temperatura ambiente hasta llenar el vaso (250 ml). Remover vigorosamente.",
     benefits: [
-      "Aporta proteína vegetal de soya",
-      "Ayuda a completar la proteína de la alimentación",
-      "Incluye vitaminas y minerales",
-      "Ofrece una alternativa a las bebidas de origen lácteo",
-      "Su formato en polvo permite preparar la cantidad deseada"
+      "Aporta proteína y energía con proteína aislada de soya, aceite vegetal, jarabe de maíz y maltodextrina.",
+      "Calcio del fosfato, potasio del citrato y magnesio del sulfato ayudan a músculos y huesos. Hierro ayuda a formar glóbulos rojos, zinc a las defensas y yodo a la tiroides.",
+      "Vitamina A cuida la piel y vitaminas C y E aportan antioxidantes. B1 tiamina, B2 riboflavina, B3 niacinamida, B5 ácido pantoténico, B6 piridoxina, B9 ácido fólico y B12 cianocobalamina ayudan a aprovechar los alimentos.",
+      "Sucralosa y saborizante artificial dan sabor. Mono y diglicéridos, estearato de sodio y estearoil lactilato de sodio mantienen uniforme la bebida."
     ],
     contraindications: "Contiene soya.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4743,20 +4406,19 @@ window.manualData.productos = [
       durationDays: 30,
       note: "Frasco 1: 90 cápsulas ÷ 3 al día = 30 días. Frasco 2: 60 cápsulas ÷ 2 al día = 30 días. Los dos frascos se consumen en paralelo."
     },
-    benefitSummary: "Nutrientes para complementar la alimentación",
+    benefitSummary: "Apoyo al cuidado de la glucosa y energía diaria",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DYNEEM-GREENLIFE.webp",
-    shortDesc: "Dos fórmulas separadas, una de plantas y otra de vitaminas, minerales y jalea real, para complementar la alimentación diaria.",
+    shortDesc: "Dos fórmulas para apoyar el cuidado de la glucosa y ayudar a obtener energía de los alimentos: una mezcla de plantas de uso tradicional y otra de vitaminas, minerales y jalea real.",
     ingredients: "Frasco 1: Neem (Azadirachta indica), Tecomate (Tecoma stans), Guarumbo (Cecropia obtusifolia), Nopal (Opuntia ficus-indica), Guayule (Parthenium argentatum), Eucalipto (Eucalyptus globulus), Sábila (Aloe vera), Zarzaparrilla (Smilax aristolochiifolia), Damiana de California (Turnera diffusa), Yerba del Sapo (Eryngium carlinae), Ajo (Allium sativum). Frasco 2: Palmitato de Vitamina A, Vitamina D3, Vitamina E, Vitaminas B1, B2, B6, B12, Vitamina C, Ácido fólico, Niacinamida, Fosfato dicálcico, Sulfato ferroso, Sulfato de zinc, Sulfato de cobre, Sulfato de manganeso, Sulfato de potasio, Sulfato de magnesio, Picolinato de cromo, Jalea real liofilizada.",
     serving: "Frasco 1: 1 cápsula, 3 veces al día. Frasco 2: 1 cápsula por la mañana y 1 por la tarde.",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula del Frasco 1, 3 veces al día. Tomar 1 cápsula del Frasco 2 por la mañana y 1 por la tarde.",
     benefits: [
-      "Combina una fórmula de plantas con otra de nutrientes",
-      "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
-      "Sus vitaminas y minerales complementan la alimentación",
-      "El zinc y la vitamina C contribuyen al funcionamiento de las defensas",
-      "Presenta por separado los dos grupos de ingredientes"
+      "Cuidado de la glucosa: mezcla de plantas de uso tradicional con neem, tecomate, guarumbo y nopal. También incluye guayule, eucalipto, sábila, zarzaparrilla, damiana de California, yerba del sapo y ajo.",
+      "Energía diaria: las vitaminas B1, B2, B6, B12, ácido fólico y niacinamida ayudan a obtener energía de los alimentos. Hierro y cobre ayudan a formar glóbulos rojos.",
+      "Calcio del fosfato dicálcico, magnesio, potasio y vitamina D3 ayudan a músculos y huesos. Vitaminas A y C y zinc apoyan las defensas.",
+      "Vitamina E y manganeso cuidan las células, cromo ayuda a aprovechar los alimentos y jalea real completa el aporte alimentario."
     ],
     contraindications: "No consumir durante el embarazo o período de lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4777,10 +4439,8 @@ window.manualData.productos = [
     timing: "En ayunas",
     intakeInstructions: "Tomar 1 cápsula al día en ayunas, con un vaso de agua.",
     benefits: [
-      "La inulina es fibra que sirve de alimento a bacterias del intestino",
-      "La cúrcuma tiene uso tradicional para molestias digestivas leves, como pesadez y gases",
-      "La cúrcuma y otras plantas aportan sustancias antioxidantes",
-      "Puede acompañar un plan de alimentación y actividad física"
+      "Acompaña el bienestar intestinal con inulina. Cúrcuma complementa el bienestar del estómago tradicional, y espirulina, moringa y Matake amplían el aporte vegetal y de hongos.",
+      "Arándano y olivo añaden compuestos vegetales. Cayena, enebro y naranjo amargo completan la fórmula."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4801,11 +4461,7 @@ window.manualData.productos = [
     timing: "Por la noche",
     intakeInstructions: "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
     benefits: [
-      "Combina piña, linaza y distintos tés",
-      "Los tés aportan compuestos antioxidantes",
-      "Ofrece una bebida para acompañar la rutina después de comer",
-      "Puede sustituir otras bebidas si se prepara sin azúcar",
-      "Los sobres facilitan preparar una porción"
+      "Infusión de piña, linaza y alcachofa para acompañar el bienestar digestivo. Tés verde, rojo y blanco aportan cafeína y antioxidantes. Aguaje peruano completa la mezcla vegetal."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4826,11 +4482,7 @@ window.manualData.productos = [
     timing: "Antes de cada alimento",
     intakeInstructions: "Tomar 60 ml (2 copitas), 3 veces al día, antes de cada alimento. Refrigerar después de abrir.",
     benefits: [
-      "Permite incorporar sábila en una bebida",
-      "Su enfoque es el bienestar digestivo tradicional",
-      "La vitamina C contribuye al funcionamiento de las defensas",
-      "También ayuda al cuidado antioxidante de las células",
-      "Ofrece una alternativa líquida para quien evita cápsulas"
+      "Acompaña el bienestar digestivo tradicional con pulpa de sábila. La vitamina C complementa el cuidado de tejidos y las defensas."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4851,11 +4503,8 @@ window.manualData.productos = [
     timing: "Por la mañana, después de los alimentos",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana, después de los alimentos, con abundante agua.",
     benefits: [
-      "Combina plantas de uso tradicional",
-      "Su ficha orienta la mezcla al bienestar urinario y digestivo",
-      "Aporta compuestos vegetales antioxidantes",
-      "Puede acompañar hábitos generales de autocuidado",
-      "Reúne varios ingredientes en cápsulas"
+      "Acompaña el bienestar digestivo con linaza y sábila. Té verde, uva, manzana, jamaica y cacao completan el aporte vegetal.",
+      "Gayuba se usa para el cuidado de las vías urinarias."
     ],
     contraindications: "No consumir durante el embarazo. No tomarlo personas muy nerviosas. No tomarlo personas que estén tomando medicamentos. No tomarlo personas diabéticas e hipertensas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4876,11 +4525,8 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche, con un vaso de agua",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua.",
     benefits: [
-      "Aporta una mezcla de ingredientes vegetales",
-      "Su enfoque es complementar el bienestar digestivo",
-      "Incluye compuestos antioxidantes de las plantas",
-      "Puede acompañar un plan de alimentación y actividad física",
-      "Permite incorporar la mezcla sin preparar las plantas"
+      "Acompaña el bienestar intestinal con linaza, nopal y fibra de piña. Sábila y malva complementan el bienestar digestivo.",
+      "Té verde y raíz de lima completan la mezcla de plantas."
     ],
     contraindications: "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4901,9 +4547,8 @@ window.manualData.productos = [
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 10 ml (2 cucharadas soperas) después de los alimentos. No es recomendable para niños.",
     benefits: [
-      "Tiene uso tradicional para el confort de la garganta",
-      "El eucalipto complementa la mezcla de plantas de uso respiratorio tradicional",
-      "Su presentación líquida permite medir la porción indicada"
+      "Acompaña la comodidad de la garganta con cuatecomate, eucalipto y gordolobo de uso tradicional respiratorio. El agua sirve de vehículo y la sacarosa aporta dulzor y carbohidratos.",
+      "El alcohol al 1.9 % forma parte de la preparación."
     ],
     contraindications: "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4924,9 +4569,8 @@ window.manualData.productos = [
     timing: "Con el estómago vacío",
     intakeInstructions: "Tomar 2 cápsulas al día, preferiblemente con el estómago vacío para una mejor absorción.",
     benefits: [
-      "Combina calostro con plantas en cápsulas",
-      "Ofrece una alternativa al calostro en polvo",
-      "Se estudia la relación del calostro con el bienestar intestinal; el efecto de esta mezcla no está confirmado"
+      "Complementa la alimentación con calostro bovino e InmunEnhancer™, fibra de arabinogalactano de alerce.",
+      "Olivo, astrágalo y eleuthero o eleuterococo completan la mezcla de plantas para el bienestar general."
     ],
     contraindications: "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4947,11 +4591,8 @@ window.manualData.productos = [
     timing: "Por la noche",
     intakeInstructions: "Lavar la zona afectada, secar perfectamente y aplicar una cantidad generosa de Pomada Nopsor, dejándola actuar durante la noche. Uso externo únicamente.",
     benefits: [
-      "Ayuda a mantener la piel hidratada",
-      "Puede dar confort cuando hay resequedad",
-      "Su base ayuda a proteger la superficie de la piel",
-      "Facilita el cuidado local de áreas resecas",
-      "Su formato en pomada permite aplicarla por zonas"
+      "Acompaña el cuidado de la piel con descamación con ácido salicílico y alquitrán de hulla. Vaselina y propilenglicol ayudan a conservar la humedad.",
+      "Nogal, orégano, tomillo, saúco, romero, mastuerzo, saponaria y loeselia completan la mezcla de plantas. Metilparabeno y propilparabeno conservan la pomada."
     ],
     contraindications: "Uso externo únicamente. Evitar el contacto con ojos y mucosas. Sólo para un periodo máximo de 4 días. No usar en niños menores de 3 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4972,9 +4613,7 @@ window.manualData.productos = [
       timing: "Antes de cada alimento (desayuno, comida y cena)",
       intakeInstructions: "Tomar 3 cápsulas antes de cada alimento (desayuno, comida y cena) = 9 cápsulas al día. Recomendado a partir de 12 años.",
       benefits: [
-        "Ofrece cartílago de tiburón en cápsulas como complemento nutricional",
-        "Permite incorporarlo sin preparar una bebida",
-        "Su enfoque es el cuidado articular; no se ha demostrado que regenere el cartílago"
+        "Complementa el aporte alimentario con cartílago de tiburón en polvo, sin excipientes ni aditivos."
       ],
       contraindications: "Contiene derivados de pescado (tiburón). No consumir si se es alérgico a los productos del mar. No se recomienda en menores de 12 años. Consultar con un profesional de la salud si se está embarazada, en período de lactancia o bajo tratamiento médico.",
       foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4995,11 +4634,7 @@ window.manualData.productos = [
     timing: "Antes de cada comida",
     intakeInstructions: "Tomar 3 tabletas antes de cada comida (desayuno, comida y cena) = 9 tabletas al día. Recomendado a partir de 12 años.",
     benefits: [
-      "Aporta levadura de cerveza en tabletas",
-      "Complementa la alimentación con componentes propios de la levadura",
-      "Las vitaminas B presentes participan en el uso de la energía",
-      "Permite incorporar levadura sin añadirla a las comidas",
-      "Su enfoque es el complemento nutricional diario"
+      "Complementa la alimentación con levadura de cerveza. Avicel y estearato de magnesio ayudan a dar forma a la tableta."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5020,11 +4655,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula, 3 veces al día, de preferencia con los alimentos. Recomendado a partir de 18 años.",
     benefits: [
-      "Combina grasas de origen marino y vegetal",
-      "Aporta omega 3 para complementar la alimentación",
-      "El EPA y el DHA participan en el funcionamiento del corazón",
-      "El DHA es un componente del cerebro y los ojos",
-      "Incluye vitamina E como ingrediente antioxidante"
+      "Complementa el cuidado del corazón con EPA y DHA del aceite de pescado. Aceites de sacha inchi y linaza añaden grasas vegetales, incluido ALA.",
+      "La vitamina E añade antioxidantes para cuidar las células y ayuda a proteger los aceites de la preparación."
     ],
     contraindications: "Contiene derivados de pescado.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5045,11 +4677,7 @@ window.manualData.productos = [
     timing: "Por la noche después de cenar",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
     benefits: [
-      "La melatonina ayuda a regular el horario de sueño",
-      "Puede facilitar conciliar el sueño cuando corresponde su uso",
-      "El triptófano participa en la formación de mensajeros relacionados con el descanso",
-      "La rhodiola complementa el enfoque de bienestar mental",
-      "Reúne ingredientes orientados a una rutina de descanso"
+      "Puede ayudar a conciliar el sueño con melatonina y L-triptófano. Rhodiola rosea acompaña el cuidado del cansancio en días de estrés."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5070,11 +4698,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula, hasta 3 veces al día (adultos) o 1 cápsula al día (niños mayores de 7 años). Tomar suficiente agua.",
     benefits: [
-      "Aporta aceite de orégano en cápsulas",
-      "Contiene compuestos antioxidantes propios del orégano",
-      "Tiene uso tradicional como complemento del bienestar digestivo",
-      "Permite incorporarlo sin el sabor intenso del aceite",
-      "Su formato facilita llevar la porción indicada"
+      "Acompaña el bienestar digestivo tradicional con aceite de orégano orgánico. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5095,11 +4719,9 @@ window.manualData.productos = [
     timing: "Antes o durante el entrenamiento",
     intakeInstructions: "Disolver 1 cucharada medidora (10 g) en 500 ml de agua. Agitar hasta disolución completa. Consumir antes o durante el entrenamiento.",
     benefits: [
-      "La creatina ayuda a rendir en esfuerzos cortos e intensos",
-      "Puede apoyar la fuerza junto con entrenamiento",
-      "Incluye minerales que participan en la función muscular",
-      "Aporta vitaminas para complementar la alimentación",
-      "Su sabor permite variar la bebida de entrenamiento"
+      "Ayuda a rendir en esfuerzos cortos y repetidos con creatina monohidratada. Sal rosa, minerales del lago salado de Utah y glicinato de magnesio complementan el aporte para los músculos.",
+      "Vitamina C de amla y vitamina E aportan antioxidantes. D3 ayuda a huesos y músculos y B12 al funcionamiento de los nervios y a formar glóbulos rojos.",
+      "Alulosa y stevia dan dulzor. Ácido cítrico y sabor natural fresa limón dan sabor y los betacarotenos de Blakeslea trispora aportan color."
     ],
     contraindications: "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica deben consultar a su profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5111,18 +4733,16 @@ window.manualData.productos = [
     id: 210,
     code: "7502214013294",
     name: "PATA DE VACA",
-    benefitSummary: "Pata de vaca de uso tradicional",
+    benefitSummary: "Uso tradicional para el cuidado del azúcar",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/PATA-DE-VACA.png",
-    shortDesc: "Pata de vaca en cápsulas, una planta usada tradicionalmente para acompañar el cuidado de la alimentación y el bienestar general.",
+    shortDesc: "Planta utilizada tradicionalmente para acompañar el cuidado del azúcar en la sangre. Esta presentación permite incorporar pata de vaca en cápsulas como complemento de la alimentación y del seguimiento habitual de la glucosa. Su fórmula contiene 300 mg de pata de vaca por cápsula; el excipiente completa el volumen de la preparación.",
     ingredients: "Pata de Vaca (Bauhinia forticata) 300 mg, excipiente c.b.p. 500 mg.",
     serving: "1 cápsula al día",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula de Pata de Vaca al día, con alimentos.",
     benefits: [
-      "La pata de vaca tiene uso tradicional en el cuidado de la alimentación",
-      "Permite incorporar la planta sin preparar una infusión",
-      "Su fórmula no demuestra por sí sola que controle el azúcar en sangre"
+      "Pata de vaca se usa como complemento de la alimentación para el cuidado del azúcar. El excipiente da volumen a la cápsula."
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5143,11 +4763,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula de Palo Azul Uva Ursi al día.",
     benefits: [
-      "Combina palo azul y uva ursi",
-      "Tiene uso tradicional para el bienestar urinario",
-      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
-      "Reúne ambos ingredientes botánicos en cápsulas",
-      "Su enfoque es el cuidado urinario complementario"
+      "Palo azul y uva ursi se usan para acompañar el cuidado urinario. El excipiente da volumen a la cápsula."
     ],
     contraindications: "No consumir durante el embarazo o lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5168,11 +4784,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
     benefits: [
-      "El zinc contribuye al funcionamiento de las defensas",
-      "Ayuda al mantenimiento normal de piel, cabello y uñas",
-      "Participa en la formación normal de proteínas",
-      "Contribuye al cuidado antioxidante de las células",
-      "Permite complementar el zinc de la alimentación"
+      "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc del gluconato.",
+      "Estearato de magnesio, celulosa microcristalina y fosfato dibásico de calcio ayudan a dar forma a la tableta."
     ],
     contraindications: "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5193,11 +4806,7 @@ window.manualData.productos = [
     timing: "Antes de cada alimento",
     intakeInstructions: "Tomar 3 tabletas al día: 1 tableta antes de cada alimento principal (desayuno, comida y cena).",
     benefits: [
-      "Combina plantas de uso tradicional urinario",
-      "Su enfoque incluye el bienestar digestivo",
-      "Se utiliza tradicionalmente para acompañar la eliminación de líquidos",
-      "Permite incorporar varios ingredientes vegetales en tabletas",
-      "Complementa una rutina de cuidado general"
+      "Chanca piedra, cola de caballo, perejil y taray se usan para acompañar el cuidado urinario. Yumel, hierba del sapo y cardo mariano completan la mezcla digestiva."
     ],
     contraindications: "No consumir durante el embarazo o período de lactancia. No usar si es intolerante o sensible a los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5218,11 +4827,7 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Disolver 10 g (aproximadamente 2 cucharadas) en 100 ml de agua, mezclar hasta obtener una consistencia homogénea y consumir de inmediato.",
     benefits: [
-      "Ofrece una bebida preparada con ingredientes vegetales",
-      "Aporta energía a través de los carbohidratos de la fórmula",
-      "Permite variar las bebidas de la alimentación",
-      "Su presentación en polvo facilita medir una porción",
-      "Se puede integrar a distintas preparaciones"
+      "Permite variar la alimentación con harina de alpiste. Maltodextrina y azúcar añaden carbohidratos y energía, mientras la goma xantana da consistencia a la bebida."
     ],
     contraindications: "Puede contener trazas de soya, almendra y coco.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5243,11 +4848,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
     benefits: [
-      "La L-carnitina participa en el uso de grasas como energía",
-      "Complementa la alimentación de personas físicamente activas",
-      "Su fórmula se centra en L-carnitina",
-      "Permite incorporar el ingrediente sin preparar una bebida",
-      "Puede acompañar un plan de alimentación y entrenamiento"
+      "Complementa la alimentación de personas activas con L-carnitina, que ayuda al cuerpo a usar grasas para obtener energía."
     ],
     contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5268,11 +4869,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente. Beber suficiente agua.",
     benefits: [
-      "Combina aceite de orégano y coco",
-      "El coco aporta grasas que el cuerpo puede usar como energía",
-      "El orégano contiene compuestos antioxidantes",
-      "Tiene un enfoque tradicional de bienestar digestivo",
-      "Las cápsulas permiten evitar el sabor intenso de los aceites"
+      "Acompaña el bienestar digestivo tradicional con aceite esencial de orégano. El aceite de coco actúa como base de aceite para diluirlo."
     ],
     contraindications: "No recomendado en mujeres embarazadas o en período de lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5293,9 +4890,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
     benefits: [
-      "La lisina ayuda a formar las proteínas del cuerpo",
-      "Participa en el mantenimiento de los tejidos",
-      "Permite complementar el aporte de lisina de la alimentación"
+      "Complementa la formación de proteínas con L-lisina, aminoácido esencial que el cuerpo necesita obtener de la alimentación para mantener sus tejidos."
     ],
     contraindications: "No recomendado en menores de 6 años ni en mujeres embarazadas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5316,9 +4911,7 @@ window.manualData.productos = [
     timing: "Con las comidas",
     intakeInstructions: "Tomar 1 cápsula (500 mg) al día, preferiblemente con las comidas, o según indicación de un especialista.",
     benefits: [
-      "El 5-HTP se usa en el cuerpo para formar serotonina, relacionada con el ánimo y el descanso",
-      "Se estudia como complemento del bienestar emocional",
-      "Su utilidad para mejorar el sueño no está confirmada para todas las personas"
+      "El 5-HTP se usa para acompañar la calma y la rutina de descanso. La celulosa microcristalina da volumen a la cápsula."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5339,11 +4932,9 @@ window.manualData.productos = [
     timing: "Antes y/o después del entrenamiento",
     intakeInstructions: "Mezclar 1 cucharada (30 g) en 360 ml de agua y licuar. Consumir antes y/o después del entrenamiento.",
     benefits: [
-      "Aporta proteína vegetal para completar la alimentación",
-      "Ayuda al mantenimiento y desarrollo muscular",
-      "Ofrece componentes necesarios para formar proteína",
-      "Incluye enzimas como complemento digestivo",
-      "Ofrece una alternativa a las proteínas de suero de leche"
+      "Apoya el cuidado de los músculos con proteínas de guisante, arroz, calabaza, sésamo, soya, girasol y almendras. La variedad de fuentes complementa el aporte de aminoácidos.",
+      "Bromelina, papaína y proteasa ayudan a descomponer proteínas. El aceite de coco añade grasa y energía al conjunto.",
+      "Cacao, sabor natural a chocolate, sal marina, stevia y ácido málico ajustan el sabor. Goma xantana y lecitina de girasol facilitan textura y mezcla."
     ],
     contraindications: "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5364,11 +4955,9 @@ window.manualData.productos = [
     timing: "Post-entreno o entre comidas",
     intakeInstructions: "Mezclar de 1 a 2 medidas (30 g cada una) en 360 ml de tu bebida favorita. Agitar hasta disolver.",
     benefits: [
-      "Aporta proteína de suero para complementar la dieta",
-      "Ayuda al mantenimiento y desarrollo de los músculos",
-      "Puede acompañar la recuperación después de entrenar",
-      "Facilita sumar proteína en una bebida",
-      "Incluye L-carnitina como parte de la fórmula"
+      "Apoya el cuidado y recuperación de los músculos con aislado de suero y péptidos de suero y soya. Valina, lisina e isoleucina complementan el aporte de aminoácidos.",
+      "Proteasa y peptidasa descomponen proteínas. L-carnitina participa en el uso de grasas como energía.",
+      "Cloruro de sodio aporta sal. Sabores natural y artificial a vainilla y sucralosa dan sabor, y goma xantana mejora la textura de la bebida."
     ],
     contraindications: "No debe ser consumido por personas con hipersensibilidad a los ingredientes. Alérgenos: SOYA, LÁCTEOS, HUEVO, TRIGO, NUEZ Y CACAHUATE.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5389,9 +4978,9 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche, con un vaso de agua",
     intakeInstructions: "Tomar 1 cápsula al día con un vaso de agua. No exceder la porción indicada.",
     benefits: [
-      "Combina plantas de uso tradicional para el bienestar digestivo",
-      "La vitamina B12 ayuda a obtener energía de los alimentos",
-      "Reúne la mezcla en cápsulas sin preparar cada planta"
+      "Acompaña el bienestar intestinal con linaza y malva. Piña y papaya añaden componentes de fruta, mientras raíz de lima, mango africano y lecitina de soya completan la mezcla vegetal.",
+      "La cianocobalamina o vitamina B12 complementa funcionamiento de los nervios y formación de glóbulos rojos. El carbonato de calcio añade una fuente mineral.",
+      "Estearato de magnesio y dióxido de silicio ayudan a preparar el producto."
     ],
     contraindications: "No consumir durante el embarazo. Contiene soya (lecitina).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5412,11 +5001,7 @@ window.manualData.productos = [
     timing: "Antes de cada comida (3 veces al día)",
     intakeInstructions: "Mezclar 2 cucharadas soperas (7.8 g) con agua, jugo o añadir a preparaciones. Tomar 3 veces al día antes de las comidas.",
     benefits: [
-      "Aporta fibra para complementar la alimentación",
-      "La fibra contribuye a la regularidad intestinal",
-      "Puede ayudar a aumentar la sensación de llenura",
-      "Incluye grasas procedentes de la linaza",
-      "Su polvo se puede incorporar a distintas preparaciones"
+      "Complementa el bienestar intestinal con linaza canadiense y nopal como fuentes vegetales de fibra. Piña, toronja y naranja aportan componentes de fruta al conjunto."
     ],
     contraindications: "No está indicado para mujeres embarazadas y niños menores de 12 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5428,18 +5013,18 @@ window.manualData.productos = [
     id: 223,
     code: "7501734412846",
     name: "WEREKE PROSA",
-    benefitSummary: "Plantas mexicanas de uso tradicional digestivo",
-    category: "digestivo",
+    benefitSummary: "Uso tradicional para el cuidado del azúcar y bienestar digestivo",
+    category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/WEREKE.webp",
-    shortDesc: "Wereke con otras plantas de la herbolaria mexicana para acompañar el bienestar digestivo tradicional.",
+    shortDesc: "Mezcla de plantas de la herbolaria mexicana cuyo ingrediente principal, el wereke, tiene uso tradicional relacionado con el cuidado del azúcar. Incluye nopal, tamarindo y manzanilla para acompañar el bienestar digestivo, junto con otras raíces y cortezas de la fórmula. El wereke da a esta mezcla su enfoque tradicional para el cuidado del azúcar, mientras que sus acompañantes complementan el bienestar del estómago y el intestino.",
     ingredients: "Wereke (Maximowiczia sonorae) - Raíz, Gatuña (Guaiacum sp.) - Planta, Guayacán amarillo (Guaiacum coulteri) - Corteza, Tamarindo (Tamarindus indica) - Fruto, Nopal (Opuntia ficus-indica) - Penca, Raíz de Zacate de perro (Cynodon dactylon) - Raíz, Raíz de Coanacaxtle - Raíz, Manzanilla (Matricaria chamomilla) - Flor.",
     serving: "2 cápsulas, 3 veces al día (6 cápsulas al día)",
     timing: "Después de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día, después de los alimentos.",
     benefits: [
-      "Combina wereke y otras plantas de la herbolaria mexicana",
-      "Tiene uso tradicional para acompañar el bienestar digestivo",
-      "Permite incorporar la mezcla sin preparar las plantas"
+      "Cuidado del azúcar: el wereke se usa tradicionalmente para acompañar el cuidado de la glucosa. Gatuña, guayacán amarillo y raíz de zacate de perro completan la mezcla de plantas.",
+      "Bienestar digestivo: tamarindo, nopal y manzanilla acompañan la comodidad del estómago y el intestino.",
+      "La mezcla también contiene raíz de coanacaxtle."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5460,11 +5045,7 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Diluir las gotas en agua, jugo o leche. No usar en menores de 2 años.",
     benefits: [
-      "Aporta aceite de orégano en gotas",
-      "Contiene compuestos vegetales con actividad antioxidante",
-      "Tiene uso tradicional como complemento digestivo",
-      "El gotero facilita medir la cantidad indicada",
-      "Permite incorporar el aceite sin preparar la planta"
+      "Acompaña el bienestar digestivo tradicional con aceite de orégano y su carvacrol. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
     ],
     contraindications: "No usar durante el embarazo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5485,11 +5066,8 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Masticar la pastilla o disolverla completamente en la boca (sublingual o debajo de la lengua) hasta que se deshaga. No tragar entera.",
     benefits: [
-      "La vitamina B12 ayuda al funcionamiento de los nervios",
-      "Participa en la formación normal de glóbulos rojos",
-      "Ayuda a obtener energía de los alimentos",
-      "Contribuye a reducir el cansancio por falta de B12",
-      "Permite complementar el aporte de esta vitamina en la dieta"
+      "Apoya funcionamiento de los nervios y formación de glóbulos rojos con tres formas de vitamina B12: cianocobalamina, metilcobalamina y dibencozida.",
+      "Fructosa y sabor natural a fresa dan sabor. Celulosa, estearato de magnesio y lecitina de soya dan consistencia y ayudan a preparar el producto, mientras ácido cítrico ajusta la preparación."
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5510,11 +5088,7 @@ window.manualData.productos = [
     timing: "Preferentemente antes de las comidas principales",
     intakeInstructions: "Agitar bien antes de usar. Administrar directamente o diluido en un poco de agua. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales.",
     benefits: [
-      "Incluye cardo mariano y otros ingredientes vegetales",
-      "Tiene uso tradicional como complemento del cuidado del hígado",
-      "Su enfoque es el bienestar digestivo",
-      "Puede acompañar el confort después de las comidas",
-      "Su presentación líquida ofrece una alternativa a las cápsulas"
+      "Acompaña el bienestar del estómago con boldo, cusura y diente de león de uso tradicional. Cardo mariano, anagirida y marrubio completan la mezcla de plantas."
     ],
     contraindications: "No especificado. Consultar lote y fecha de caducidad en el envase.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5534,11 +5108,8 @@ window.manualData.productos = [
     timing: "Con una comida que contenga grasas",
     intakeInstructions: "Tomar 1 cápsula al día, acompañada de una comida que contenga grasas para una óptima absorción. Solo para adultos.",
     benefits: [
-      "La vitamina D ayuda a absorber el calcio",
-      "Las vitaminas D y K contribuyen al mantenimiento de los huesos",
-      "La vitamina D apoya el funcionamiento de los músculos",
-      "También contribuye al funcionamiento de las defensas",
-      "Combina dos vitaminas relacionadas con el cuidado óseo"
+      "Apoya el cuidado de los huesos con vitamina D3 para absorción de calcio y vitamina K2 como menaquinona-4 para funcionamiento de proteínas del hueso.",
+      "Harina de arroz da volumen, hipromelosa forma la cápsula, dióxido de silicio ayuda a preparar el producto y palmitato de ascorbilo ayuda a conservar la preparación."
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos (especialmente anticoagulantes o para la presión arterial) o padece alguna condición médica.",
     foodInteractions: "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
@@ -5558,10 +5129,9 @@ window.manualData.productos = [
     timing: "Con alimentos, preferentemente con la comida principal",
     intakeInstructions: "Mezclar 1 scoop (6 g) en 250 ml de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente con alimentos.",
     benefits: [
-      "La glutamina sirve de alimento a algunas células del intestino",
-      "El zinc participa en el mantenimiento de los tejidos",
-      "La inulina alimenta ciertas bacterias beneficiosas del intestino",
-      "Reúne nutrientes orientados al bienestar digestivo"
+      "Complementa el cuidado del intestino con L-glutamina y N-acetil-D-glucosamina NAG. Zinc L-carnosina acompaña el cuidado de la capa que protege el estómago.",
+      "Inulina de agave aporta fibra, aloe vera se usa para el bienestar digestivo y vitamina D3 apoya las defensas.",
+      "Sabor frambuesa-limón, ácido cítrico y glucósidos de esteviol dan sabor y dulzor a la bebida."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5582,11 +5152,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El magnesio ayuda al funcionamiento normal de los músculos",
-      "Apoya el funcionamiento de los nervios",
-      "Ayuda a obtener energía de los alimentos",
-      "Contribuye a mantener los huesos en buen estado",
-      "Participa en el equilibrio de agua y minerales del cuerpo"
+      "Ayuda al funcionamiento de músculos y nervios y a obtener energía con magnesio del citrato.",
+      "Celulosa microcristalina, estearato de magnesio y dióxido de silicio ayudan a preparar las cápsulas."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes de la fórmula.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5598,19 +5165,32 @@ window.manualData.productos = [
     id: 228,
     code: "7500645000876",
     name: "GLICINATO DE MAGNESIO 90 CAPS",
-    benefitSummary: "Magnesio para músculos, nervios y energía",
+    benefitSummary: "Magnesio para músculos, nervios y rutina de relajación",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/04/GLICINATO1.webp",
-    shortDesc: "Glicinato de magnesio con brócoli en cápsulas para apoyar los músculos, los nervios y el aprovechamiento de la energía de los alimentos.",
+    shortDesc: "Aporta magnesio en forma de glicinato para ayudar al funcionamiento de músculos y nervios. Puede incorporarse a una rutina de relajación y preparación para el descanso, manteniendo su función principal como complemento del aporte de magnesio. Incluye tallo de brócoli y los ingredientes necesarios para preparar la cápsula. Se distingue del Magnesium PM porque este último combina magnesio con otros ingredientes destinados específicamente a acompañar la calma y la rutina nocturna.",
+    researchNote: {
+      "focus": "Músculos y nervios dentro de una rutina de relajación",
+      "text": "Funcionamiento muscular y nervioso dentro de una rutina de relajación: el magnesio del glicinato complementa el aporte de este mineral y acompaña el cuidado de músculos y nervios. En adultos con dificultades para descansar, un ensayo con bisglicinato de magnesio observó mejoras en algunos indicadores de sueño. Este interés se integra como acompañamiento de una rutina de preparación para el descanso. El tallo de brócoli completa la mezcla vegetal, mientras que estearato de magnesio, excipientes y cápsula vegetal permiten preparar y contener la fórmula.",
+      "sources": [
+        {
+          "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+        },
+        {
+          "title": "NIH ODS: funciones del magnesio y lectura del aporte elemental",
+          "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+        }
+      ]
+    },
     ingredients: "Glicinato de magnesio (250 mg), Estearato de magnesio (150 mg), Tallo de Brócoli en polvo (Brassica oleracea var. Italica) (100 mg), excipientes c.b.p. 500 mg (cápsula vegetal).",
     serving: "1 cápsula al día",
     timing: "Preferentemente por la noche",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche acompañada de un vaso de agua. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El magnesio contribuye al funcionamiento de músculos y nervios",
-      "Ayuda a aprovechar la energía de los alimentos",
-      "Apoya el mantenimiento de los huesos",
-      "Combina magnesio con brócoli en cápsulas"
+      "Funcionamiento muscular y nervioso: el magnesio del glicinato ayuda a músculos y nervios a funcionar bien y complementa el aporte de este mineral.",
+      "Rutina de relajación: puede incorporarse a la preparación para el descanso. En un ensayo con bisglicinato que aportaba 250 mg de magnesio elemental al día durante cuatro semanas se observaron mejoras en algunos indicadores de sueño.",
+      "El tallo de brócoli completa la mezcla vegetal. Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la fórmula."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5631,11 +5211,8 @@ window.manualData.productos = [
     timing: "Después de los alimentos, preferentemente por la mañana",
     intakeInstructions: "Ingerir 4 gomitas una vez al día, después de los alimentos, de preferencia por la mañana. Masticar bien antes de tragar. Recomendado a partir de 6 años.",
     benefits: [
-      "Aporta omega 3 en una presentación masticable",
-      "El DHA forma parte del cerebro",
-      "El DHA también es importante para los ojos",
-      "Permite incorporar aceite de pescado en gomitas",
-      "Su presentación está orientada a la edad indicada en la etiqueta"
+      "Complementa la alimentación infantil con grasas omega del aceite de salmón noruego y vitamina E para cuidar las células.",
+      "Azúcar y glucosa aportan dulzor y carbohidratos. Grenetina y agua dan forma a la gomita, y ácido cítrico y saborizante ajustan el sabor."
     ],
     contraindications: "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5655,9 +5232,8 @@ window.manualData.productos = [
     timing: "Con una comida que contenga grasas",
     intakeInstructions: "Tomar 1 cápsula al día, acompañada de una comida con grasas (como aguacate, frutos secos o aceites) para mejorar la absorción. Solo para adultos.",
     benefits: [
-      "La vitamina K ayuda al mantenimiento de los huesos",
-      "Participa en la coagulación normal de la sangre",
-      "Permite complementar la vitamina K de la alimentación"
+      "Apoya el mantenimiento de huesos con vitamina K2 como MK-4, que participa en el funcionamiento de proteínas óseas. El polvo de alfalfa completa la mezcla vegetal.",
+      "Hipromelosa forma la cápsula, harina de arroz da volumen, dióxido de silicio ayuda a preparar el producto y palmitato de ascorbilo ayuda a conservar la preparación."
     ],
     contraindications: "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos anticoagulantes (como warfarina) o padece alguna condición médica.",
     foodInteractions: "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
@@ -5678,9 +5254,8 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 1 copita (10 ml), equivalente a 2 cucharadas soperas, antes de los alimentos.",
     benefits: [
-      "No presentar beneficios como confirmados mientras se revisa la fórmula",
-      "La ficha declara Aristolochia, una planta que puede contener sustancias dañinas para los riñones",
-      "Confirmar la composición actual y su seguridad antes de recomendar el consumo"
+      "Contiene Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria y Turnera diffusa.",
+      "Consultar a un profesional antes de usar esta mezcla de plantas en alcohol."
     ],
     contraindications: "Contiene alcohol (extracto hidroalcohólico). Consultar con médico en caso de embarazo, lactancia o condiciones médicas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5701,11 +5276,7 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Mezclar 1 cucharada sopera (5 g) en leche, agua, bebidas vegetales (batidos/smoothies), o utilizar para preparaciones de repostería.",
     benefits: [
-      "Aporta el sabor del cacao puro a bebidas y recetas",
-      "Contiene compuestos antioxidantes propios del cacao",
-      "Aporta fibra para complementar la alimentación",
-      "La teobromina tiene un efecto estimulante suave",
-      "Permite preparar bebidas y postres ajustando el dulzor al gusto"
+      "Aporta sabor y componentes vegetales del cacao criollo de Tabasco a bebidas y recetas. Su fibra y antioxidantes complementan una alimentación variada según la porción utilizada."
     ],
     contraindications: "Contiene cafeína natural. Consumir con moderación en personas sensibles a la cafeína.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5726,11 +5297,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche",
     intakeInstructions: "Tomar 2 capletas al día, preferentemente por la noche, con un vaso lleno de agua. No exceder la dosis diaria recomendada.",
     benefits: [
-      "El sen estimula el movimiento del intestino",
-      "Su uso se dirige al estreñimiento ocasional",
-      "Puede facilitar la evacuación cuando corresponde su uso",
-      "La malva complementa la fórmula con componentes vegetales",
-      "Su beneficio se limita al uso ocasional indicado en la etiqueta"
+      "Ayuda a evacuar en casos de estreñimiento ocasional con hoja de sen. Malva acompaña el bienestar intestinal.",
+      "Lactosa USP y estearato de magnesio ayudan a dar forma a la capleta."
     ],
     contraindications: "Evitar su uso en caso de embarazo, lactancia, problemas gastrointestinales severos o si se está tomando algún medicamento.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5751,11 +5319,10 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Agítese antes de usarse. Utilizar el vaso dosificador incluido. Niños de 1 a 6 años: ½ cucharadita (2.5 ml), 3 veces al día. Niños mayores de 6 años: 1 cucharadita (5.0 ml), 3 veces al día.",
     benefits: [
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Contribuyen al funcionamiento normal de los nervios",
-      "El ácido fólico participa en la formación de nuevas células",
-      "Complementa la alimentación con los nutrientes de la fórmula",
-      "Su formato líquido está orientado a la edad indicada en la etiqueta"
+      "Complementa la alimentación infantil con vitaminas B1, B2, B3, B5 y B6 para obtener energía. B12 y ácido fólico ayudan a formar glóbulos rojos.",
+      "Ácido glutámico y jalea real completan el aporte alimentario. El glicerofosfato de sodio añade sales a la mezcla.",
+      "Sacarosa y fructosa dan dulzor. Agua purificada y propilenglicol mantienen los ingredientes mezclados. Ácido cítrico ajusta la acidez.",
+      "Metilparabeno sódico y propilparabeno sódico conservan la preparación. Los sabores crema vainilla y tutifruti dan sabor."
     ],
     contraindications: "Contiene azúcares añadidos (40 g/100 ml). Cepillar los dientes después de cada toma. Consumir en las dosis recomendadas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5776,11 +5343,7 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
     benefits: [
-      "Aporta nopal en cápsulas",
-      "El nopal contiene fibra y otros componentes vegetales",
-      "Tiene uso tradicional como complemento del bienestar digestivo",
-      "También se utiliza en rutinas de cuidado metabólico",
-      "Permite incorporar nopal sin añadirlo a las comidas"
+      "Complementa el aporte vegetal de la alimentación con nopal en polvo, fuente natural de fibra cuya cantidad depende de la porción."
     ],
     contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5801,11 +5364,7 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
     benefits: [
-      "Combina sábila y nopal",
-      "Tiene uso tradicional como complemento del bienestar digestivo",
-      "Aporta componentes vegetales propios de ambas plantas",
-      "Se utiliza para acompañar hábitos de cuidado metabólico",
-      "Permite incorporar los dos ingredientes en cápsulas"
+      "Acompaña el bienestar digestivo con nopal como fuente vegetal de fibra y sábila de uso tradicional."
     ],
     contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5826,11 +5385,7 @@ window.manualData.productos = [
     timing: "Antes de los alimentos",
     intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos. En personas con sensibilidad gástrica, acompañar con alimentos sólidos.",
     benefits: [
-      "Aporta ajo en polvo",
-      "Contiene compuestos propios de este ingrediente vegetal",
-      "Complementa una alimentación orientada al cuidado del corazón",
-      "Tiene un enfoque de cuidado antioxidante",
-      "Permite incorporar ajo sin su sabor en las comidas"
+      "Complementa una alimentación orientada al cuidado del corazón con ajo deshidratado en polvo y sus compuestos vegetales."
     ],
     contraindications: "El ajo en ayunas o en grandes dosis puede causar ligeras molestias gástricas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5851,11 +5406,8 @@ window.manualData.productos = [
     timing: "Preferentemente con alimentos",
     intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
     benefits: [
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Las vitaminas B1, B6 y B12 apoyan el funcionamiento de los nervios",
-      "El magnesio contribuye al movimiento normal de los músculos",
-      "Ayuda a complementar el aporte de vitaminas B de la dieta",
-      "Reúne vitaminas y un mineral en una sola tableta"
+      "Ayuda a obtener energía y al funcionamiento de los nervios con vitaminas B1, B2 y B6. B12 ayuda a formar glóbulos rojos y magnesio al funcionamiento de músculos y nervios.",
+      "Celulosa microcristalina da consistencia a la preparación."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5876,10 +5428,8 @@ window.manualData.productos = [
     timing: "Mañana y noche",
     intakeInstructions: "Aplicar diariamente por la mañana y por la noche sobre el rostro y el cuello, siempre sobre la piel limpia y seca. Untar con suaves masajes circulares para favorecer la absorción. Uso externo exclusivamente.",
     benefits: [
-      "Ayuda a mantener la piel hidratada",
-      "Aporta una sensación de suavidad",
-      "El ácido hialurónico ayuda a retener humedad en la piel",
-      "Los aceites y extractos vegetales complementan el cuidado facial"
+      "Ayuda a mantener la piel hidratada y suave con aceites de argán y aguacate, aloe vera y avena. Ácido hialurónico retiene humedad y colágeno acondiciona la piel.",
+      "Goji aporta ingredientes vegetales y la base cosmética facilita la aplicación. Benzofenona 3, octil metoxicinamato y octil salicilato son filtros solares. Consultar el FPS indicado en la etiqueta."
     ],
     contraindications: "Uso externo exclusivamente. Evitar el contacto con los ojos. En caso de irritación, suspender su uso. Realizar prueba en una pequeña zona de la piel si se tiene piel sensible.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5891,20 +5441,17 @@ window.manualData.productos = [
     id: 240,
     code: "7502214019647",
     name: "ACEITE DE OLIVA DEMOGRASS 60 CAPS",
-    benefitSummary: "Aceite de oliva en perlas",
+    benefitSummary: "Aceite de oliva en perlas para complementar el aporte de grasas",
     category: "clinico",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/ACEITA-DE-OLIVA.webp",
-    shortDesc: "Aceite de oliva en perlas para complementar el consumo de grasas de la alimentación.",
+    shortDesc: "Presentación en perlas para complementar el aporte de grasas de la alimentación. El aceite de oliva contiene grasas que el cuerpo utiliza como fuente de energía y como parte de sus células; la gelatina permite contenerlo en una cápsula blanda. Para desarrollar su enfoque cardiovascular o cerebral debemos revisar qué tipo de aceite contiene y cuánto aporta cada perla. La explicación debe distinguir esta cantidad del aceite utilizado habitualmente en la alimentación.",
     ingredients: "Aceite de Oliva (Olea europaea) 100% puro. Cápsula blanda de gelatina.",
     serving: "1 perla al día",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 perla de Aceite de Oliva al día. No exceder la porción máxima recomendada.",
     benefits: [
-      "Aporta aceite de oliva en perlas",
-      "Contiene grasas presentes en este aceite",
-      "Complementa el aporte de grasas de la alimentación",
-      "Incluye compuestos propios del aceite de oliva",
-      "Permite incorporarlo sin añadir aceite a las comidas"
+      "Aporte de grasas: el aceite de oliva complementa las grasas de la alimentación, que el cuerpo utiliza para obtener energía y mantener sus células.",
+      "La gelatina forma la cápsula blanda para contener el aceite."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5925,11 +5472,7 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar 1 cucharada (8 g) a su líquido favorito (agua, jugo, leche, té), o espolvorear sobre sopas, frutas o verduras.",
     benefits: [
-      "Aporta levadura de cerveza en polvo",
-      "Complementa la alimentación con nutrientes propios de la levadura",
-      "Las vitaminas B presentes ayudan a aprovechar la energía",
-      "Incluye fibra para complementar la dieta",
-      "Se puede añadir a distintas bebidas y comidas"
+      "Complementa la alimentación con levadura de cerveza desecada y desamargada. Puede contener soya."
     ],
     contraindications: "Puede contener Soya.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5950,11 +5493,7 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Agregar 1 o 2 cucharadas (7.5 g a 15 g) de Prebian a bebidas o alimentos. No usar en bebidas carbonatadas. Sugerencias: té, café, agua natural, fruta, cereal, smoothies, repostería y jugos.",
     benefits: [
-      "Aporta fibra para complementar la alimentación",
-      "Sirve de alimento a ciertas bacterias beneficiosas del intestino",
-      "Puede contribuir a la regularidad intestinal",
-      "Puede aumentar la sensación de llenura",
-      "Su sabor discreto facilita mezclarla con alimentos y bebidas"
+      "Acompaña el cuidado intestinal con oligofructosa y fructanos de achicoria, fibras que sirven de alimento a bacterias intestinales."
     ],
     contraindications: "No usar en bebidas carbonatadas (puede generar gas o efervescencia excesiva).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5975,10 +5514,9 @@ window.manualData.productos = [
     timing: "Cualquier momento del día",
     intakeInstructions: "Adultos: Tomar 1 cucharada sopera (10 ml) como suplemento alimenticio. Niños: Tomar 1 cucharadita cafetera (5 ml). Puede tomarse con té de preferencia.",
     benefits: [
-      "Sus ingredientes dulces pueden dar una sensación de suavidad en la garganta",
-      "Combina plantas de uso tradicional respiratorio",
-      "La menta y el eucalipto aportan sensación de frescura",
-      "Su presentación permite medir la porción indicada"
+      "Acompaña la comodidad de la garganta con propóleo, saúco, gordolobo y malva silvestre. Cebolla morada, ajo, bugambilia y tomillo completan el cuidado de la garganta.",
+      "Eucalipto, romero y menta añaden sensación aromática de frescura, y limón deshidratado complementa el sabor.",
+      "Agua, jarabe de frutas con fructosa y glucosa forman el vehículo dulce y aportan carbohidratos."
     ],
     contraindications: "No consumir en menores de 3 años ni en mujeres embarazadas. Puede cristalizarse; calentar al baño maría para recuperar su estado original.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5999,11 +5537,8 @@ window.manualData.productos = [
     timing: "Por la mañana o por la noche",
     intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua. No exceder la porción indicada.",
     benefits: [
-      "Combina hongos, L-carnitina y probióticos",
-      "Los probióticos se utilizan como apoyo al equilibrio intestinal",
-      "La L-carnitina participa en el uso de grasas como energía",
-      "Los hongos aportan componentes propios de estos ingredientes",
-      "Reúne ingredientes nutricionales y botánicos para personas activas"
+      "Complementa la alimentación con hongos Chaga y Reishi. L-carnitina ayuda al cuerpo a usar grasas para obtener energía y los probióticos acompañan el cuidado intestinal.",
+      "Celulosa microcristalina, estearato de magnesio y dióxido de silicio facilitan la preparación de las cápsulas."
     ],
     contraindications: "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6024,11 +5559,9 @@ window.manualData.productos = [
     timing: "Preferentemente con el desayuno o el almuerzo",
     intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
     benefits: [
-      "Las vitaminas A, C y D contribuyen al funcionamiento de las defensas",
-      "El calcio y la vitamina D apoyan el cuidado de los huesos",
-      "Las vitaminas B ayudan a aprovechar la energía de los alimentos",
-      "Complementa la alimentación con varios nutrientes",
-      "Las gomitas ofrecen una alternativa masticable para la edad indicada"
+      "Complementa la alimentación infantil con vitaminas C, A y D y zinc para las defensas. Calcio y vitamina D ayudan a cuidar los huesos.",
+      "Vitaminas B1, B2, B3, B6, B12 y ácido fólico ayudan a aprovechar los alimentos y a formar glóbulos rojos. L-lisina aporta material para formar proteínas y omega 3 grasas para las células.",
+      "Sucralosa, sabores fresa y piña, gelificantes y colorantes dan dulzor, sabor y forma a las gomitas."
     ],
     contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6049,11 +5582,9 @@ window.manualData.productos = [
     timing: "Preferentemente con el desayuno o el almuerzo",
     intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
     benefits: [
-      "Las vitaminas B contribuyen al funcionamiento de los nervios",
-      "Ayudan al cuerpo a obtener energía de los alimentos",
-      "El calcio complementa el cuidado de los huesos",
-      "El zinc y la vitamina C contribuyen al funcionamiento de las defensas",
-      "Su presentación masticable facilita incorporarlo según la edad indicada"
+      "Complementa la alimentación infantil con vitaminas B1, B2, B3, B6, B12 y ácido fólico para aprovechar los alimentos y formar glóbulos rojos. Ácido glutámico y L-lisina completan el aporte alimentario.",
+      "Vitamina C y zinc apoyan las defensas, calcio ayuda a los huesos y omega 3 aporta grasas para las células.",
+      "Sucralosa, gelificantes, sabores fresa y zarzamora y colorantes dan dulzor, textura y sabor."
     ],
     contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6074,11 +5605,9 @@ window.manualData.productos = [
     timing: "Preferentemente antes del desayuno o de una comida principal",
     intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador incluido. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
     benefits: [
-      "Aporta calcio para mantener huesos y dientes",
-      "La vitamina D ayuda a absorber el calcio",
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Incluye vitaminas para complementar la alimentación infantil",
-      "Su formato líquido y sabor frutal ofrecen una alternativa a las tabletas"
+      "Complementa la alimentación infantil con calcio del gluconato y lactato y vitamina D para huesos y músculos. Vitamina A cuida la piel y vitaminas C y E aportan antioxidantes.",
+      "Vitaminas B1, B2, B3, B6 y B12 ayudan a aprovechar los alimentos. Zanahoria, cilantro, berro, menta, espinaca y manzanilla completan el aporte vegetal.",
+      "Jugos de algarroba, albaricoque, piña, uva, maracuyá, manzana y limón dan sabor. Goma guar y goma xantana dan consistencia a la bebida."
     ],
     contraindications: "Contraindicado en hipercalcemia, hipercalciuria, litiasis renal, hiperparatiroidismo. Precaución en alergias a plantas de la familia umbelíferas (cilantro) o asteráceas (manzanilla).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6099,11 +5628,9 @@ window.manualData.productos = [
     timing: "30 minutos antes de las comidas (desayuno y comida), en ayunas",
     intakeInstructions: "Agitar vigorosamente antes de usar. Utilizar el vasito dosificador. No consumir directamente de la botella. Refrigerar después de abrir y consumir en 4 semanas.",
     benefits: [
-      "El hierro participa en la formación normal de glóbulos rojos",
-      "Ayuda al transporte de oxígeno en el cuerpo",
-      "Contribuye a reducir el cansancio cuando falta hierro",
-      "La vitamina C favorece la absorción del hierro",
-      "Su formato líquido permite medir la porción indicada"
+      "Ayuda a formar glóbulos rojos y transportar oxígeno con hierro del gluconato ferroso. La vitamina C ayuda a absorber hierro y la B12 a formar glóbulos rojos.",
+      "Vitaminas B1, B2 y B6 ayudan a aprovechar los alimentos. Extractos de levadura, germen de trigo, zanahoria, espinaca, grama, alga marina, hibisco y alcaravea completan la mezcla.",
+      "Pera, uva, grosella, zarzamora, cereza, naranja, remolacha, limón, manzana, algarroba y miel dan sabor a la bebida."
     ],
     contraindications: "Contiene germen de trigo (gluten). Contraindicado en enfermedad celíaca o sensibilidad al gluten. Contraindicado en hemocromatosis, hemosiderosis, talasemias o anemias sideroblásticas. Consultar en úlceras y gastritis activa.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6124,10 +5651,8 @@ window.manualData.productos = [
     timing: "En ayunas (30 minutos antes del desayuno) o antes de dormir",
     intakeInstructions: "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
     benefits: [
-      "Ofrece calostro en polvo como complemento de la alimentación",
-      "Se incorpora a preparaciones frías",
-      "Es una alternativa al calostro en cápsulas",
-      "Se estudia su relación con el bienestar intestinal; la respuesta depende de la fórmula y cantidad"
+      "Complementa la alimentación con proteínas del calostro bovino: inmunoglobulinas IgG, IgA e IgM, lactoferrina y PRPs. Sus oligosacáridos aportan otros componentes de la leche.",
+      "También contiene pequeñas cantidades de factores de crecimiento IGF-1, IGF-2, TGF-β y EGF."
     ],
     contraindications: "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6148,11 +5673,10 @@ window.manualData.productos = [
     timing: "15-30 minutos antes del entrenamiento",
     intakeInstructions: "Mezclar 7 g (1 cucharada) en 300 ml de agua fría. Agitar vigorosamente en shaker. Consumir 15-30 minutos antes del entrenamiento. No consumir entre 4 y 6 horas antes de dormir.",
     benefits: [
-      "La cafeína del guaraná ayuda a mantenerse alerta",
-      "Está orientado a complementar la rutina antes de entrenar",
-      "La citrulina y la beta alanina se estudian para el rendimiento deportivo",
-      "Los minerales participan en el funcionamiento muscular",
-      "Su formato en polvo facilita preparar una porción"
+      "Complementa la alimentación para entrenar con L-citrulina, citrulina malato, remolacha y beta alanina.",
+      "Guaraná ayuda a estar más despierto. L-tirosina y L-teanina acompañan la concentración. MCT y vitaminas B6 y B12 complementan el aporte para la actividad física.",
+      "Calcio y sodio aportan minerales y vitamina C antioxidantes. La pimienta negra ayuda al aprovechamiento de algunos ingredientes.",
+      "Ácido cítrico, saborizante, sucralosa y acesulfame K dan sabor y dulzor. Dióxido de silicio y silicato de calcio evitan que el polvo se apelmace."
     ],
     contraindications: "Contraindicado en hipertensión, arritmias, enfermedad coronaria, infarto previo, ansiedad, trastornos de pánico, esquizofrenia, embarazo, lactancia y menores de 15 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6173,9 +5697,7 @@ window.manualData.productos = [
     timing: "15-30 minutos antes o durante la comida más pesada del día (rica en carbohidratos)",
     intakeInstructions: "Ingerir 1 cápsula con un vaso de agua natural (200 ml). No exceder la dosis recomendada.",
     benefits: [
-      "Combina tres plantas de uso tradicional digestivo",
-      "Sus ingredientes contienen sustancias que se estudian por su relación con el cuidado de las células",
-      "Permite incorporar las tres plantas sin preparar una infusión"
+      "Acompaña el bienestar digestivo tradicional con moringa, romero y hoja de guayaba. Sus compuestos vegetales se reúnen en una cápsula vegetal que contiene la mezcla."
     ],
     contraindications: "Contraindicado en embarazo y lactancia (efectos emenagogos y abortivos). No usar en menores de 12 años. Precaución en hipoglucemia, anemia ferropénica (taninos).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6196,11 +5718,7 @@ window.manualData.productos = [
     timing: "15-20 minutos antes de los alimentos (desayuno, comida y cena)",
     intakeInstructions: "Diluir 20 gotas en medio vaso de agua purificada (100-150 ml). No consumir sublingual puro. No exceder la dosis sugerida.",
     benefits: [
-      "Aporta extracto de yumel en gotas",
-      "Tiene uso tradicional como complemento digestivo",
-      "Se utiliza tradicionalmente para acompañar la digestión de grasas",
-      "El gotero facilita medir la porción indicada",
-      "Permite incorporar el extracto sin preparar la corteza"
+      "Extracto líquido de yumel para uso tradicional digestivo. La base de alcohol o glicerina permite preparar y diluir el extracto."
     ],
     contraindications: "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6221,11 +5739,7 @@ window.manualData.productos = [
     timing: "A demanda, ante pérdida de confort faríngeo",
     intakeInstructions: "Colocar las perlas en la boca y permitir que se disuelvan lentamente con la saliva. No masticar ni tragar enteras.",
     benefits: [
-      "La menta aporta una sensación refrescante en la boca",
-      "La disolución de las perlas acompaña el confort de la garganta",
-      "El propóleo aporta compuestos propios de este ingrediente apícola",
-      "Permite incorporar menta y propóleo sin preparar una bebida",
-      "Su presentación facilita llevar una porción"
+      "Acompaña la frescura y la comodidad de la garganta con menta y propóleo de uso tradicional. La sacarosa forma las perlas y aporta dulzor y carbohidratos."
     ],
     contraindications: "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6246,11 +5760,7 @@ window.manualData.productos = [
     timing: "30-45 minutos antes de acostarse (para sueño) o en el momento de mayor exigencia mental (para estrés)",
     intakeInstructions: "Colocar las perlas bajo la lengua y dejar que se disuelvan con la saliva (vía sublingual). Alternativamente, masticar o tragar con medio vaso de agua.",
     benefits: [
-      "La pasiflora tiene uso tradicional para favorecer la relajación",
-      "Puede acompañar una rutina de descanso",
-      "Su enfoque es el bienestar y la calma al final del día",
-      "Las perlas ofrecen una alternativa a cápsulas e infusiones",
-      "Permite incorporar pasiflora en una presentación pequeña"
+      "Acompaña una rutina de calma con pasiflora de uso tradicional relajante. La sacarosa forma las perlas y aporta dulzor."
     ],
     contraindications: "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6271,11 +5781,8 @@ window.manualData.productos = [
     timing: "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
     intakeInstructions: "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
     benefits: [
-      "La vitamina B1 ayuda a obtener energía de los alimentos",
-      "Las vitaminas B6 y B12 apoyan el funcionamiento de los nervios",
-      "La B12 participa en la formación normal de glóbulos rojos",
-      "Incluye otras vitaminas para complementar la alimentación",
-      "Su formato en jarabe permite medir la porción indicada"
+      "Ayuda a obtener energía de los alimentos y al funcionamiento de los nervios con vitaminas B1, B5, B6 y B12. Ácido glutámico completa el aporte alimentario.",
+      "Vitaminas C y E aportan antioxidantes y vitamina D ayuda a músculos y huesos. Espinaca y semilla de maíz completan la mezcla vegetal y agua bidestilada diluye los ingredientes."
     ],
     contraindications: "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6296,11 +5803,9 @@ window.manualData.productos = [
     timing: "Mañana, mediodía y noche (o según necesidad)",
     intakeInstructions: "Aplicar la cantidad necesaria para cubrir la zona afectada y dar un masaje circular y ascendente durante 20 minutos o hasta su completa absorción. Lavar las manos exhaustivamente con agua y jabón después de cada aplicación. Uso exclusivamente tópico.",
     benefits: [
-      "Facilita el masaje de zonas con molestias locales",
-      "El mentol y el alcanfor aportan sensación de frío o calor",
-      "Sus ingredientes de uso externo pueden dar confort local",
-      "Incluye árnica y otros extractos botánicos",
-      "El gel permite aplicar el producto directamente sobre la piel"
+      "Acompaña el masaje y comodidad en la zona del masaje con salicilato de metilo, mentol, alcanfor y trementina. Aceites esenciales de eucalipto y guayacol y extractos de árnica y garra del diablo completan la preparación de uso tópico.",
+      "Castaño de Indias, centella asiática y romero complementan el uso tradicional para cuidado de piel. Ajo, cebolla, apio, yodo orgánico y clorofila completan la mezcla.",
+      "Aceite de almendras y vaselina dan suavidad. Éter sirve como disolvente, carbomero da consistencia, emulsificantes y neutralizadores estabilizan el gel y Liquigerm cumple una función de conservación."
     ],
     contraindications: "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina/AINEs, y menores de 12 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6321,10 +5826,9 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, siempre acompañadas de alimentos (evitar en ayunas)",
     intakeInstructions: "Ingerir 2 cápsulas con un vaso grande de agua (mínimo 250 ml). No consumir por la noche (puede causar insomnio por Guaraná y Ginseng).",
     benefits: [
-      "Su enfoque es acompañar el bienestar femenino durante la menopausia",
-      "Las isoflavonas y el cohosh pueden ayudar con algunos bochornos en ciertas personas",
-      "La vitamina B12 ayuda a obtener energía de los alimentos",
-      "El guaraná aporta cafeína para mantenerse alerta"
+      "Puede ayudar con molestias de la menopausia con isoflavonas de soya y black cohosh. Dong quai, maca, damiana de California y garañona completan la mezcla femenina.",
+      "Ginseng y guaraná se usan para la vitalidad. B12 ayuda a formar glóbulos rojos y al funcionamiento de los nervios. Vitamina E, uva roja y acai aportan antioxidantes.",
+      "Butcher's broom o rusco y castaño de Indias se usan para el cuidado de la circulación. Canela, semilla de calabaza, zarzaparrilla, perejil, jalea real y polen completan la mezcla."
     ],
     contraindications: "Contraindicado en cánceres hormonodependientes (mama, ovario, útero ER+), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6345,11 +5849,8 @@ window.manualData.productos = [
     timing: "15-20 minutos antes de los alimentos, en ayunas",
     intakeInstructions: "Agitar antes de usar. Medir 15 ml con el vaso o la cuchara dosificadora del producto; no usar una cuchara doméstica. Puede tomarse puro o diluido en 200-250 ml de agua (tibia o ambiente).",
     benefits: [
-      "El anís tiene uso tradicional para el confort digestivo",
-      "Puede acompañar el bienestar cuando hay sensación de gases",
-      "El jengibre complementa el enfoque digestivo",
-      "Se utiliza tradicionalmente para el confort durante el ciclo menstrual",
-      "Su presentación líquida permite medir la porción indicada"
+      "Acompaña el bienestar del estómago y el uso tradicional durante el ciclo menstrual con anís, jengibre y canela.",
+      "Agua purificada sirve de vehículo, benzoato de sodio conserva y ácido cítrico estabiliza la preparación."
     ],
     contraindications: "Contraindicado en embarazo (efectos emenagogos), lactancia y menores de edad. Precaución en úlcera péptica y trastornos de sangrado.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6370,11 +5871,9 @@ window.manualData.productos = [
     timing: "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
     benefits: [
-      "Las vitaminas B ayudan a obtener energía de los alimentos",
-      "Contribuyen al funcionamiento normal de los nervios",
-      "El hierro y el ácido fólico participan en la formación normal de la sangre",
-      "Los minerales complementan el aporte nutricional",
-      "Las ampolletas ofrecen una alternativa líquida a las tabletas"
+      "Ayuda a obtener energía y al funcionamiento de los nervios con vitaminas B1, B2, B3 y B6. Ácido fólico B9, B12 e hierro ayudan a formar glóbulos rojos.",
+      "Ácido glutámico, L-glutamina, L-arginina y L-lisina aportan materiales para formar proteínas. Lecitina de soya y omegas 3, 6 y 9 aportan grasas para las células.",
+      "Calcio, magnesio y vitamina D ayudan a músculos y huesos. Vitaminas A y C y zinc apoyan las defensas y vitamina E y selenio aportan antioxidantes."
     ],
     contraindications: "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6395,11 +5894,9 @@ window.manualData.productos = [
     timing: "Puede tomarse con o sin alimentos. Se sugiere con alimentos ligeros por la mañana o media tarde.",
     intakeInstructions: "Disolver 15 g en 240-250 ml de agua purificada o leche (animal o vegetal). Mezclar vigorosamente hasta homogeneizar. No mezclar en líquidos calientes.",
     benefits: [
-      "Aporta calcio para mantener huesos y dientes",
-      "El calcio también participa en el funcionamiento muscular",
-      "Los probióticos complementan el enfoque de bienestar intestinal",
-      "La inulina es una fibra que alimenta ciertas bacterias del intestino",
-      "Reúne apoyo nutricional óseo y digestivo en un polvo"
+      "Ayuda a cuidar los huesos con calcio del citrato y aporta proteína de suero WPC para los músculos. La inulina de agave aporta fibra.",
+      "Los probióticos Lactobacillus, Bifidobacterium y Bacillus coagulans acompañan el cuidado intestinal.",
+      "Sabor natural a fresa y edulcorante dan sabor y dulzor."
     ],
     contraindications: "Contiene WPC (proteína de suero). Contraindicado en alergia a la proteína de la leche de vaca. Contraindicado en hipercalcemia e hiperparatiroidismo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6420,9 +5917,7 @@ window.manualData.productos = [
     timing: "En ayunas (30 min antes o 2 h después de alimentos)",
     intakeInstructions: "Mantener bajo la lengua 30-60 segundos antes de tragar (vía sublingual). No usar utensilios metálicos; emplear plástico, vidrio o cerámica.",
     benefits: [
-      "No hay beneficios demostrados de consumir plata coloidal",
-      "La plata no es un nutriente que el cuerpo necesite",
-      "No debe recomendarse para reforzar las defensas"
+      "Contiene plata elemental Ag⁰ y Ag⁺ diluida en agua purificada. Evitar su consumo por vía oral."
     ],
     contraindications: "No consumir de forma continua o vitalicia (riesgo de argiria). Contraindicado en embarazo, lactancia, insuficiencia renal o hepática, e hipersensibilidad a la plata.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6443,11 +5938,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana o al mediodía, junto con una comida o justo después de comer",
     intakeInstructions: "Ingerir la cápsula con un vaso completo de agua natural. No exceder la dosis recomendada sin supervisión profesional.",
     benefits: [
-      "La vitamina B5 ayuda a obtener energía de los alimentos",
-      "Participa en el uso de las grasas de la dieta",
-      "Contribuye al desempeño mental normal",
-      "Ayuda a complementar el aporte de vitamina B5",
-      "Su fórmula se centra en ácido pantoténico"
+      "Apoya la obtención de energía de los alimentos con vitamina B5 del pantotenato de calcio. El calcio declarado complementa el aporte mineral para músculos y huesos.",
+      "Hipromelosa forma la cápsula y ácido esteárico vegetal ayuda a preparar el producto."
     ],
     contraindications: "Las megaporciones (500 mg) no han sido validadas para la seguridad fetal. Requiere consulta médica en embarazo y lactancia. Precaución en hemofilia e insuficiencia renal crónica.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6468,9 +5960,7 @@ window.manualData.productos = [
     timing: "Con el estómago vacío, preferentemente 30-60 minutos antes del desayuno o justo antes de dormir",
     intakeInstructions: "Ingerir la cápsula entera con un vaso grande de agua (mínimo 250-300 ml). No exceder la dosis recomendada sin supervisión profesional.",
     benefits: [
-      "No se ha demostrado que esta fórmula elimine metales del cuerpo",
-      "Su utilidad para el bienestar digestivo y su seguridad necesitan confirmación",
-      "Sus propiedades de capturar sustancias en laboratorio no demuestran el mismo efecto al consumirla"
+      "Contiene zeolita o clinoptilolita en cápsula vegetal. Consultar a un profesional antes de usarla por vía oral."
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6491,11 +5981,7 @@ window.manualData.productos = [
     timing: "Antes de los alimentos principales (desayuno, comida y cena)",
     intakeInstructions: "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
     benefits: [
-      "Combina plantas de la herbolaria mexicana",
-      "La tlanchalagua tiene uso tradicional digestivo",
-      "El tejocote y otras plantas aportan compuestos vegetales",
-      "Su enfoque es el bienestar digestivo tradicional",
-      "Permite incorporar la mezcla en cápsulas"
+      "Tlanchalagua, cocolmeca, tejocote, lima y té limón forman una mezcla de plantas de uso tradicional para el bienestar digestivo."
     ],
     contraindications: "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6516,11 +6002,7 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana, en ayunas o con el desayuno",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Consumir directamente del vial o diluir en 100 ml de agua natural a temperatura ambiente. No exceder la dosis recomendada.",
     benefits: [
-      "El ginseng tiene uso tradicional como apoyo a la vitalidad",
-      "Puede acompañar etapas de mayor actividad física y mental",
-      "Se estudia como apoyo frente a la sensación de fatiga",
-      "Su presentación líquida evita preparar la raíz",
-      "Las ampolletas permiten llevar la porción indicada"
+      "Acompaña la vitalidad con raíz de Panax ginseng rojo de uso tradicional. La miel aporta dulzor y una pequeña cantidad de carbohidratos, y el agua purificada sirve para diluir la mezcla."
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6541,11 +6023,8 @@ window.manualData.productos = [
     timing: "Preferentemente en la rutina nocturna. Si se usa de día, acompañar con protector solar.",
     intakeInstructions: "Aplicar 2-4 gotas sobre la zona deseada y masajear suavemente con movimientos circulares hasta la absorción total. Uso exclusivamente tópico. No ingerir.",
     benefits: [
-      "Ayuda a suavizar la piel seca",
-      "Aporta grasas que ayudan a conservar la humedad de la piel",
-      "Complementa el cuidado de la barrera protectora de la piel",
-      "Puede mejorar la apariencia de zonas resecas con uso constante",
-      "Permite aplicar unas gotas en las áreas indicadas"
+      "Ayuda a suavizar la piel y conservar su humedad con ácidos linoleico, linolénico y oleico del aceite de rosa mosqueta.",
+      "Los fitoesteroles acondicionan la piel y los tocoferoles o vitamina E ayudan a conservar el aceite. Contiene trazas de ácido trans-retinoico."
     ],
     contraindications: "Contraindicado en acné activo severo, rosácea pustulosa o pieles altamente seborreicas. No aplicar sobre heridas abiertas, quemaduras de tercer grado o tejido sin epitelizar.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6566,11 +6045,8 @@ window.manualData.productos = [
     timing: "Preferentemente en ayunas, 30 minutos antes del desayuno",
     intakeInstructions: "Agitar vigorosamente antes de servir. Puede consumirse puro o diluido en 150 ml de agua o jugo bajo en azúcar. No exceder la dosis recomendada. Una vez abierto, mantener refrigerado.",
     benefits: [
-      "Aporta jugo de noni en una presentación líquida",
-      "Contiene compuestos vegetales con actividad antioxidante",
-      "Se utiliza tradicionalmente como complemento del bienestar general",
-      "Permite incorporar noni sin preparar el fruto",
-      "Su formato facilita medir la porción indicada"
+      "Permite incorporar componentes vegetales del jugo y extracto seco de fruto de noni.",
+      "Agua desmineralizada sirve de vehículo y goma xantana da textura. Ácido cítrico ajusta acidez, stevia da dulzor, sabor y colorante artificial uva ajustan la presentación, y sorbato de potasio y benzoato de sodio conservan la mezcla."
     ],
     contraindications: "Contraindicado en insuficiencia renal crónica (alto contenido de potasio), hepatopatías (riesgo de toxicidad hepática idiosincrática), embarazo y lactancia. Personas con hipertensión o bajo tratamiento con diuréticos ahorradores de potasio deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6591,10 +6067,7 @@ window.manualData.productos = [
     timing: "Con alimentos que contengan grasas saludables",
     intakeInstructions: "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     benefits: [
-      "La cúrcuma tiene uso tradicional para aliviar pesadez y gases después de comer",
-      "También aporta antioxidantes que ayudan a proteger las células del daño diario",
-      "El jengibre tiene uso tradicional para el confort del estómago",
-      "Permite incorporar ambas raíces sin su sabor característico"
+      "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. Los excipientes y la cápsula vegetal o gelatinosa ayudan a contener y dar forma a la mezcla."
     ],
     contraindications: "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6615,10 +6088,8 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. No exceder la porción diaria recomendada.",
     benefits: [
-      "La bacopa se estudia por su relación con la memoria y la atención",
-      "La teanina puede acompañar una rutina de calma",
-      "El magnesio ayuda al funcionamiento de los nervios",
-      "La albizia tiene uso tradicional para el bienestar emocional"
+      "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Bacopa monnieri se usa para el cuidado de la atención y la memoria.",
+      "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
@@ -6639,10 +6110,8 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. Evitar la toma cerca de la hora de dormir. No exceder la porción diaria recomendada.",
     benefits: [
-      "La rhodiola se estudia como apoyo ante el cansancio relacionado con el estrés",
-      "La teanina puede acompañar una rutina de calma",
-      "El magnesio ayuda al funcionamiento de los nervios",
-      "La albizia tiene uso tradicional para el bienestar emocional"
+      "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Rhodiola rosea se usa para el cansancio en días de estrés.",
+      "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Evitar en personas con trastorno bipolar. Consultar a un profesional de la salud si se padece alguna condición médica.",
     foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
@@ -6663,11 +6132,7 @@ window.manualData.productos = [
     timing: "Con alimentos, distribuido durante el día",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos y un vaso de agua, según la ficha del producto. No exceder la porción indicada.",
     benefits: [
-      "Se utiliza como complemento del bienestar durante la menopausia",
-      "El cohosh y las isoflavonas se estudian para algunos malestares de esa etapa",
-      "Puede ayudar con los bochornos en ciertas personas",
-      "Su enfoque es acompañar el bienestar femenino durante esa transición",
-      "Reúne ambos ingredientes en cápsulas"
+      "Puede ayudar con molestias de la menopausia con cohosh negro e isoflavonas de soja."
     ],
     contraindications: "No usar durante el embarazo o la lactancia. Personas con antecedentes o enfermedades hepáticas, condiciones sensibles a hormonas, alergia a la soja o bajo tratamiento médico deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha recomienda tomarlo con alimentos. No detalla otras precauciones con comidas o bebidas.",
@@ -6692,10 +6157,9 @@ window.manualData.productos = [
         note: "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
     },
     benefits: [
-      "La vitamina C ayuda al funcionamiento de las defensas",
-      "Ayuda a proteger las células",
-      "Participa en la formación de colágeno para piel, huesos y otros tejidos",
-      "Favorece el aprovechamiento del hierro de alimentos vegetales"
+      "Apoya las defensas y la formación de colágeno con vitamina C. El extracto acuoso de hojas de guanábana completa el aporte vegetal.",
+      "Agua purificada sirve para diluir la mezcla. Ácidos cítrico y tartárico ajustan acidez, stevia da dulzor y saborizante de guanábana, dióxido de titanio y color caramelo ajustan sabor y apariencia.",
+      "Benzoato de sodio y sorbato de potasio conservan la preparación."
     ],
     contraindications: "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
     foodInteractions: "La etiqueta compartida no detalla qué precauciones tomar al combinarlo con alimentos.",

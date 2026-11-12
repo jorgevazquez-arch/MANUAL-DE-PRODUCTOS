@@ -1,0 +1,340 @@
+{
+  "date": "2026-11-12",
+  "scope": "Reorientar los diez bloques visibles de fundamento hacia el beneficio principal del producto.",
+  "criteria": [
+    "Primero el beneficio y después el aporte de la fórmula, con tono positivo y lenguaje cotidiano.",
+    "Conservar las fuentes; sus títulos identifican el tema y la preparación estudiada.",
+    "El texto anterior y sus comparaciones y limitaciones se conservan aquí para la revisión técnica interna.",
+    "Identificar dentro del texto las funciones nutricionales, el uso tradicional y los modelos experimentales para mantener el alcance de lo descrito.",
+    "Mantener las dosis, ingredientes y precauciones, incluidas las oncológicas, en sus campos."
+  ],
+  "changes": [
+    {
+      "id": 13,
+      "name": "CÚRCUMA",
+      "previousNote": {
+        "focus": "Pesadez, gases y digestión lenta",
+        "text": "El enfoque de esta presentación es digestivo. La EMA recoge el uso tradicional de preparaciones de raíz de cúrcuma para molestias leves como sensación de llenura, digestión lenta y gases. La ficha de estas cápsulas declara 1,000 mg de raíz en polvo por porción. Esa cantidad no equivale a 1,000 mg de curcumina concentrada. El fundamento seleccionado corresponde al bienestar después de comer; no se trasladan aquí estudios de otros extractos para articulaciones.",
+        "sources": [
+          {
+            "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Pesadez, gases y digestión lenta",
+        "text": "Bienestar del estómago después de comer: la raíz de cúrcuma se utiliza tradicionalmente para acompañar molestias leves como pesadez, gases y digestión lenta. La EMA recoge este uso digestivo de preparaciones de cúrcuma. Estas cápsulas aportan 1,000 mg de raíz en polvo por porción, una presentación que permite incorporarla a la rutina. La información seleccionada se centra en la comodidad digestiva y en el uso de la raíz, que da identidad a este producto.",
+        "sources": [
+          {
+            "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "ARTMUUB 1.1 kg",
+      "previousNote": {
+        "focus": "Articulaciones y comodidad al moverse",
+        "text": "El enfoque de ARTMUUB es el cuidado articular. Hay ensayos con preparados específicos de colágeno que han observado mejoras en dolor y función de rodilla; los resultados de glucosamina y condroitina son variables, y un ensayo de su combinación no mostró ventaja frente a placebo. La vitamina C participa en la formación de colágeno. La ficha registra 9 g de proteínas, pero no detalla cuánto corresponde a cada ingrediente articular. Estos estudios orientan sobre sus componentes y no demuestran el resultado de esta mezcla ni regeneración de cartílago.",
+        "sources": [
+          {
+            "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
+          },
+          {
+            "title": "Glucosamina y condroitina: ensayo sin superioridad frente a placebo",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Articulaciones y comodidad al moverse",
+        "text": "Cuidado de las articulaciones y comodidad al moverse: la fórmula reúne colágeno, cartílago de tiburón, glucosamina y condroitina dentro de su enfoque articular. En estudios con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D acompañan el cuidado de huesos y músculos. Omega 3, vitamina E y zinc complementan el cuidado celular, y la fibra queda como apoyo digestivo secundario. Las fuentes permiten conocer las funciones y preparaciones estudiadas de sus ingredientes.",
+        "sources": [
+          {
+            "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
+          },
+          {
+            "title": "Glucosamina y condroitina: ensayo clínico sobre dolor y función de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "MOROIZY",
+      "previousNote": {
+        "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
+        "text": "El enfoque de Moroizy es acompañar el alivio de molestias. La evaluación de la EMA recoge el uso tradicional de corteza de sauce para dolor articular leve; algunos extractos también se han estudiado para dolor lumbar. Esa información corresponde a preparaciones concretas y no valida la combinación completa. Hamamelis y corteza de ajo completan la fórmula registrada; las vitaminas C y E, B12 y zinc tienen aportes nutricionales complementarios. Como la ficha no detalla sus cantidades ni la estandarización del sauce, no permite equiparar sus tres cápsulas con las dosis de esos estudios.",
+        "sources": [
+          {
+            "title": "EMA: corteza de sauce, usos y precauciones",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
+          },
+          {
+            "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
+        "text": "Apoyo para aliviar molestias y acompañar el cuidado circulatorio: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves. Hamamelis y corteza de ajo completan la mezcla de orientación circulatoria. La vitamina C participa en la formación de colágeno para los tejidos, y la vitamina E aporta antioxidantes. B12 y zinc complementan el cuidado nutricional de la fórmula. Las fuentes enlazadas explican los usos tradicionales del sauce y las funciones nutricionales que ayudan a entender el aporte de cada ingrediente.",
+        "sources": [
+          {
+            "title": "EMA: corteza de sauce, usos y precauciones",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
+          },
+          {
+            "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "name": "CURCUMINA",
+      "previousNote": {
+        "focus": "Comodidad y movimiento de las articulaciones",
+        "text": "El enfoque de esta fórmula es articular. Un ensayo pequeño con curcuminoides en personas con artrosis de rodilla observó mejoras en dolor y función física, pero no una mejora significativa de la rigidez. Se estudiaron 1,500 mg diarios durante seis semanas; la ficha de este producto declara 1,050 mg de extracto al 95 %, vitamina C y pimienta negra por porción. La concentración, preparación y absorción deben compararse antes de trasladar resultados. La vitamina C participa en la formación de colágeno; añadirla no demuestra un efecto superior de la mezcla ni regeneración de cartílago.",
+        "sources": [
+          {
+            "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
+          },
+          {
+            "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+            "url": "https://www.nccih.nih.gov/health/turmeric"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Comodidad y movimiento de las articulaciones",
+        "text": "Comodidad y movimiento de las articulaciones: los curcuminoides se han estudiado por su interés en el alivio de molestias articulares. Algunos ensayos con preparaciones específicas han observado mejoras en dolor y función física de personas con artrosis de rodilla. Esta fórmula combina extracto de cúrcuma al 95 % con vitamina C, que participa en la formación de colágeno, y pimienta negra, que favorece el aprovechamiento de la curcumina. El conjunto de ingredientes orienta la explicación hacia el cuidado articular y el mantenimiento de los tejidos.",
+        "sources": [
+          {
+            "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
+          },
+          {
+            "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+            "url": "https://www.nccih.nih.gov/health/turmeric"
+          },
+          {
+            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "name": "MAGNESIO BLEND",
+      "previousNote": {
+        "focus": "Aporte general de magnesio para músculos, nervios y energía",
+        "text": "Su fundamento es nutricional: el magnesio participa en el funcionamiento muscular y nervioso y en la producción de energía. La fórmula reúne citrato, gluconato y óxido, declarados a 150 mg cada uno por cápsula. La suma de 450 mg corresponde a las sales y no a 450 mg de magnesio elemental. Para comparar su aporte con otras presentaciones hay que confirmar ese dato en la etiqueta. Reunir tres fuentes no demuestra que sus beneficios se multipliquen.",
+        "sources": [
+          {
+            "title": "NIH ODS: funciones, formas y aporte elemental de magnesio",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Aporte general de magnesio para músculos, nervios y energía",
+        "text": "Apoyo a músculos, nervios y energía diaria: el magnesio participa en la contracción muscular, el funcionamiento de los nervios y la producción de energía a partir de los alimentos. Magnesio Blend reúne citrato, gluconato y óxido como tres fuentes del mineral en una cápsula. Su función principal es complementar el aporte de magnesio de la alimentación y acompañar estas funciones cotidianas. Las fuentes explican el papel nutricional del mineral y cómo se interpreta su aporte elemental.",
+        "sources": [
+          {
+            "title": "NIH ODS: funciones, formas y aporte elemental de magnesio",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "name": "MAGNESIUM AM 600mg",
+      "previousNote": {
+        "focus": "Funcionamiento muscular y aprovechamiento de energía durante el día",
+        "text": "El enfoque AM combina las funciones nutricionales del magnesio y la vitamina B6 para la actividad diaria. El magnesio participa en músculos, nervios y obtención de energía; la B6 ayuda a utilizar nutrientes. La porción declara 1,800 mg de citrato y 500 mg de bisglicinato, 5 mg de B6 y 100 mg de inulina. El peso de las sales no expresa el magnesio elemental. Estas funciones no equivalen a un efecto estimulante como el de la cafeína; la inulina queda como aporte secundario de fibra.",
+        "sources": [
+          {
+            "title": "NIH ODS: magnesio y funciones musculares y energéticas",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          },
+          {
+            "title": "NIH ODS: vitamina B6 y aprovechamiento de nutrientes",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Funcionamiento muscular y aprovechamiento de energía durante el día",
+        "text": "Apoyo muscular y aprovechamiento de energía para la actividad diaria: el magnesio ayuda a músculos y nervios a funcionar bien, mientras que la vitamina B6 participa en el uso de los nutrientes. La fórmula AM combina citrato y bisglicinato de magnesio con B6 para acompañar estas funciones durante el día. La inulina añade un aporte secundario de fibra. Su enfoque se entiende desde la nutrición cotidiana, el movimiento y la obtención de energía de los alimentos.",
+        "sources": [
+          {
+            "title": "NIH ODS: magnesio y funciones musculares y energéticas",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          },
+          {
+            "title": "NIH ODS: vitamina B6 y aprovechamiento de nutrientes",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "name": "MAGNESIUM PM 600mg",
+      "previousNote": {
+        "focus": "Calma y preparación para el descanso nocturno",
+        "text": "La orientación nocturna proviene de combinar magnesio con glicina, L-teanina, manzanilla y 5-HTP, además de B6 e inulina. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó cambios favorables en algunos aspectos del sueño; otro, con 250 mg de magnesio elemental como bisglicinato, encontró un beneficio modesto. Son estudios de ingredientes y preparaciones específicas. La ficha declara 200 mg de L-teanina, pero no aclara el magnesio elemental; la coincidencia de una cantidad no demuestra el resultado del conjunto ni sustituye revisar las interacciones de sus componentes.",
+        "sources": [
+          {
+            "title": "L-teanina: ensayo con 200 mg diarios y medidas de sueño",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+          },
+          {
+            "title": "Bisglicinato: ensayo de sueño con 250 mg de magnesio elemental",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Calma y preparación para el descanso nocturno",
+        "text": "Calma y preparación para el descanso nocturno: esta fórmula combina magnesio con L-teanina, glicina, manzanilla y 5-HTP. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño; otro ensayo con bisglicinato de magnesio encontró mejoras en indicadores de descanso. Estas investigaciones sobre ingredientes ayudan a explicar la orientación nocturna de la fórmula. La vitamina B6 complementa el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra.",
+        "sources": [
+          {
+            "title": "L-teanina: ensayo con 200 mg diarios y medidas de sueño",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+          },
+          {
+            "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "name": "ON-C-LEN",
+      "previousNote": {
+        "text": "Algunos compuestos y extractos de los hongos y plantas presentes en ON-C-LEN se han investigado por su capacidad de frenar el crecimiento o provocar la muerte de células cancerosas en modelos experimentales. La muerte celular programada incluye mecanismos como la apoptosis. Estos resultados corresponden a preparaciones y concentraciones específicas; no demuestran que ON-C-LEN produzca esos efectos en personas ni que potencie un tratamiento oncológico. Su incorporación durante un tratamiento requiere revisión del oncólogo.",
+        "sources": [
+          {
+            "title": "Diente de león: estudio en células y modelos animales de cáncer de colon",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27564258/"
+          },
+          {
+            "title": "Té verde: estudio sobre apoptosis en células cancerosas en laboratorio",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9600345/"
+          },
+          {
+            "title": "Reishi: estudio de un preparado específico en células tumorales",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31637001/"
+          },
+          {
+            "title": "Guanábana: información del Memorial Sloan Kettering Cancer Center",
+            "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+          }
+        ]
+      },
+      "researchNote": {
+        "text": "Complemento de hongos y plantas para la alimentación y el bienestar digestivo: reishi y shiitake aportan componentes propios de los hongos, como beta-glucanos; té verde y ajo complementan el aporte de antioxidantes. El diente de león acompaña el uso tradicional digestivo, diurético y hepatobiliar. En modelos experimentales, extractos específicos de algunos de estos ingredientes se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Este apartado describe investigación sobre ingredientes con preparaciones y concentraciones definidas. Su incorporación durante tratamiento oncológico requiere revisión del oncólogo.",
+        "sources": [
+          {
+            "title": "Diente de león: estudio en células y modelos animales de cáncer de colon",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27564258/"
+          },
+          {
+            "title": "Té verde: estudio sobre apoptosis en células cancerosas en laboratorio",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9600345/"
+          },
+          {
+            "title": "Reishi: estudio de un preparado específico en células tumorales",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31637001/"
+          },
+          {
+            "title": "Guanábana: información del Memorial Sloan Kettering Cancer Center",
+            "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/graviola"
+          }
+        ],
+        "focus": "Hongos y plantas para complementar la alimentación y el bienestar digestivo"
+      }
+    },
+    {
+      "id": 145,
+      "name": "SOY LECITHIN + CHOLINE",
+      "previousNote": {
+        "focus": "Manejo de grasas, hígado y función cerebral",
+        "text": "El fundamento de esta fórmula está en las funciones nutricionales de la colina y los fosfolípidos de la lecitina: forman parte de las células y participan en el transporte de grasas desde el hígado. La colina también permite producir acetilcolina, utilizada en la memoria y el aprendizaje. Estas funciones no equivalen a demostrar que las cápsulas mejoren la memoria o reduzcan el colesterol. La ficha declara 1,200 mg de lecitina y 100 mg de colina bitartrato; el peso de esos ingredientes no identifica por sí solo su aporte total de colina. Jengibre e inulina acompañan el enfoque digestivo.",
+        "sources": [
+          {
+            "title": "NIH ODS: colina, metabolismo de grasas, hígado y función cerebral",
+            "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Manejo de grasas, hígado y función cerebral",
+        "text": "Apoyo al manejo de las grasas, al hígado y a la función cerebral: la colina participa en el transporte de grasas desde el hígado y, junto con los fosfolípidos de la lecitina, aporta materiales para la cubierta de las células. También permite producir acetilcolina, que el cerebro utiliza en la memoria y el aprendizaje. La fórmula combina lecitina de soya con colina bitartrato, mientras que jengibre e inulina acompañan el bienestar digestivo. Estas funciones nutricionales explican el interés de sus ingredientes dentro del enfoque del producto.",
+        "sources": [
+          {
+            "title": "NIH ODS: colina, metabolismo de grasas, hígado y función cerebral",
+            "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+          }
+        ]
+      }
+    },
+    {
+      "id": 228,
+      "name": "GLICINATO DE MAGNESIO 90 CAPS",
+      "previousNote": {
+        "focus": "Músculos y nervios dentro de una rutina de relajación",
+        "text": "Su base es el aporte de magnesio para músculos y nervios. Un ensayo de bisglicinato en adultos con mal descanso encontró una mejoría modesta usando 250 mg de magnesio elemental al día durante cuatro semanas. Esta ficha declara 250 mg de glicinato, que no equivalen a 250 mg del mineral puro; no puede asumirse la misma dosis del estudio. El tallo de brócoli es un acompañante y el estearato de magnesio facilita la fabricación: no debe sumarse como magnesio nutricional. La rutina de relajación es complementaria y no implica tratar el insomnio.",
+        "sources": [
+          {
+            "title": "Ensayo de bisglicinato y sueño: dosis elemental y beneficio modesto",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          },
+          {
+            "title": "NIH ODS: funciones del magnesio y lectura del aporte elemental",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      },
+      "researchNote": {
+        "focus": "Músculos y nervios dentro de una rutina de relajación",
+        "text": "Funcionamiento muscular y nervioso dentro de una rutina de relajación: el magnesio del glicinato complementa el aporte de este mineral y acompaña el cuidado de músculos y nervios. En adultos con dificultades para descansar, un ensayo con bisglicinato de magnesio observó mejoras en algunos indicadores de sueño. Este interés se integra como acompañamiento de una rutina de preparación para el descanso. El tallo de brócoli completa la mezcla vegetal, mientras que estearato de magnesio, excipientes y cápsula vegetal permiten preparar y contener la fórmula.",
+        "sources": [
+          {
+            "title": "Bisglicinato de magnesio: ensayo en adultos con dificultades para descansar",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40918053/"
+          },
+          {
+            "title": "NIH ODS: funciones del magnesio y lectura del aporte elemental",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
+    }
+  ]
+}

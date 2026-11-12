@@ -1,0 +1,306 @@
+{
+  "date": "2026-11-11",
+  "scope": "Completar las descripciones ampliadas de la lista de 22 productos y alinear sus resúmenes y beneficios.",
+  "reviewedIds": [
+    30,
+    51,
+    145,
+    195,
+    223,
+    13,
+    54,
+    210,
+    124,
+    91,
+    93,
+    228,
+    175,
+    174,
+    172,
+    171,
+    104,
+    141,
+    240,
+    19,
+    23,
+    21
+  ],
+  "updatedIds": [
+    19,
+    21,
+    23,
+    91,
+    93,
+    104,
+    141,
+    171,
+    172,
+    174,
+    175,
+    228,
+    240
+  ],
+  "retainedIds": [
+    30,
+    51,
+    145,
+    195,
+    223,
+    13,
+    54,
+    210,
+    124
+  ],
+  "notes": [
+    "Se conservan las correcciones aplicadas a los primeros nueve productos, incluida la versión breve de Dyneem y las precauciones oncológicas de ON-C-LEN.",
+    "No se inventan cantidades, ingredientes ni indicaciones terapéuticas para completar las descripciones.",
+    "El uso oral de árnica requiere confirmar las indicaciones del fabricante.",
+    "Magnesios: confirmar aporte elemental. Vinagre: confirmar ácido acético. Aceite de oliva: confirmar tipo y cantidad por perla.",
+    "No se agregan promesas de prevención de infecciones durante quimioterapia, eliminación de toxinas, curación de gastritis o colitis, normalización de glucosa o pérdida garantizada de grasa."
+  ],
+  "changes": [
+    {
+      "id": 19,
+      "name": "ÁCIDO LINOLEICO CONJUGADO (CLA)",
+      "before": {
+        "shortDesc": "CLA en cápsulas para complementar la alimentación dentro de una rutina de ejercicio y cuidado del peso.",
+        "benefitSummary": "Complemento de alimentación y actividad física",
+        "benefits": [
+          "Complementa el aporte de grasas con ácido linoleico conjugado CLA de aceite de cártamo."
+        ]
+      },
+      "after": {
+        "shortDesc": "Ácido linoleico conjugado procedente de aceite de cártamo, utilizado como complemento dentro de planes de alimentación y ejercicio orientados al cuidado de la grasa corporal. Su función se explica como un posible apoyo a los objetivos de composición corporal, junto con entrenamiento y consumo suficiente de proteína. Para la capacitación conviene distinguir reducción de grasa, pérdida de peso y mantenimiento muscular: son objetivos diferentes y no deben presentarse como un resultado automático de las cápsulas.",
+        "benefitSummary": "Posible apoyo al cuidado de la grasa corporal con ejercicio",
+        "benefits": [
+          "Puede acompañar los objetivos de cuidado de la grasa corporal dentro de un plan de alimentación y ejercicio.",
+          "Aporta ácido linoleico conjugado CLA procedente de aceite de cártamo como complemento de las grasas de la alimentación."
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "AJO NEGRO + MORINGA",
+      "before": {
+        "shortDesc": "Ajo negro y moringa con vitaminas para complementar el cuidado de las células y una alimentación variada.",
+        "benefitSummary": "Ajo negro y moringa para el cuidado diario",
+        "benefits": [
+          "Aporta antioxidantes del ajo negro y la moringa para cuidar las células. También contiene una pequeña cantidad de vitamina C.",
+          "Las vitaminas B1, B2 y B6 ayudan a obtener energía de los alimentos y al funcionamiento de los nervios."
+        ]
+      },
+      "after": {
+        "shortDesc": "Combina ajo negro y hoja de moringa para complementar el aporte de compuestos vegetales y antioxidantes. La moringa amplía la composición de la fórmula y la distingue del ajo negro solo. Incluye vitaminas B1, B2 y B6, que participan en el aprovechamiento de alimentos y el funcionamiento de los nervios, además de una pequeña cantidad de vitamina C. El cuidado antioxidante tiene prioridad, seguido del aporte nutricional y las funciones complementarias de las vitaminas.",
+        "benefitSummary": "Ajo negro y moringa para antioxidantes, con vitaminas B",
+        "benefits": [
+          "Cuidado antioxidante: ajo negro y moringa complementan el aporte de compuestos vegetales para cuidar las células.",
+          "Las vitaminas B1, B2 y B6 ayudan a obtener energía de los alimentos y al funcionamiento de los nervios.",
+          "Incluye una pequeña cantidad de vitamina C como acompañante de la mezcla."
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "AJO NEGRO",
+      "before": {
+        "shortDesc": "Ajo negro en cápsulas para complementar el cuidado nutricional del corazón y de las células, junto con hábitos saludables.",
+        "benefitSummary": "Complemento nutricional para el cuidado del corazón",
+        "benefits": [
+          "Complementa el cuidado del corazón con ajo negro. La mezcla también incluye pequeñas cantidades de vitaminas C y B6."
+        ]
+      },
+      "after": {
+        "shortDesc": "Ajo fermentado en cápsulas para complementar el cuidado cardiovascular y el aporte de antioxidantes de la alimentación. Sus compuestos vegetales acompañan el cuidado de las células y dan a esta fórmula su enfoque principal. Incluye pequeñas cantidades de vitaminas C y B6, que se mencionan como acompañantes. Se distingue de otras mezclas porque su ingrediente central es el ajo negro; sus funciones deben explicarse según la preparación y porción utilizadas.",
+        "benefitSummary": "Ajo negro para cuidado cardiovascular y antioxidante",
+        "benefits": [
+          "Cuidado cardiovascular: el ajo negro complementa una alimentación orientada al cuidado del corazón.",
+          "Cuidado celular: los compuestos vegetales del ajo negro complementan el aporte de antioxidantes.",
+          "Incluye pequeñas cantidades de vitaminas C y B6 como acompañantes de la fórmula."
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "name": "MAGNESIO BLEND",
+      "before": {
+        "shortDesc": "Tres formas de magnesio en una cápsula para apoyar músculos y nervios y reducir el cansancio cuando falta este mineral.",
+        "benefitSummary": "Magnesio para músculos, nervios y energía",
+        "benefits": [
+          "Ayuda a músculos y nervios a funcionar bien y a obtener energía de los alimentos. Aporta magnesio de citrato, gluconato y óxido."
+        ]
+      },
+      "after": {
+        "shortDesc": "Combina citrato, gluconato y óxido de magnesio para complementar el aporte de este mineral. El magnesio ayuda al funcionamiento de músculos y nervios y participa en la obtención de energía de los alimentos. Su enfoque es el apoyo general a estas funciones, especialmente cuando la alimentación aporta poco magnesio. Las tres sales son fuentes del mismo mineral; para comparar esta presentación con otras debemos revisar cuánto magnesio elemental aporta la porción.",
+        "benefitSummary": "Tres fuentes de magnesio para músculos, nervios y energía",
+        "benefits": [
+          "Funcionamiento muscular y nervioso: aporta magnesio de citrato, gluconato y óxido para ayudar a músculos y nervios a funcionar bien.",
+          "Energía diaria: el magnesio ayuda al cuerpo a obtener energía de los alimentos y complementa su aporte en la alimentación."
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "name": "MAGNESIUM AM 600mg",
+      "before": {
+        "shortDesc": "Combina dos formas de magnesio y vitamina B6 para apoyar el movimiento de los músculos y el aprovechamiento de la energía.",
+        "benefitSummary": "Magnesio para músculos, nervios y energía",
+        "benefits": [
+          "Ayuda al funcionamiento de músculos y nervios y a obtener energía con magnesio del citrato y bisglicinato y vitamina B6. Incluye una pequeña cantidad de inulina como fibra."
+        ]
+      },
+      "after": {
+        "shortDesc": "Fórmula de magnesio y vitamina B6 para acompañar el funcionamiento muscular y el aprovechamiento de energía durante la actividad diaria. Combina citrato y bisglicinato de magnesio, mientras que la B6 complementa el funcionamiento de los nervios y el uso de nutrientes. Incluye una pequeña cantidad de inulina como fibra. Su orientación diurna se explica como apoyo nutricional para las actividades cotidianas, sin confundirlo con una bebida energética o un estimulante.",
+        "benefitSummary": "Magnesio y B6 para músculos y actividad diaria",
+        "benefits": [
+          "Actividad diaria: el magnesio del citrato y el bisglicinato ayuda al funcionamiento de músculos y nervios.",
+          "Aprovechamiento de energía: el magnesio y la vitamina B6 ayudan a utilizar los alimentos para obtener energía.",
+          "Incluye una pequeña cantidad de inulina como aporte de fibra."
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "name": "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
+      "before": {
+        "shortDesc": "Vinagre de sidra de manzana con cúrcuma, jengibre, canela y pimienta negra. Su enfoque es la digestión: la cúrcuma y el jengibre tienen uso tradicional para aliviar pesadez y gases después de comer.",
+        "benefits": [
+          "Jengibre, cúrcuma y canela se usan para el bienestar del estómago después de comer. El vinagre de sidra de manzana en polvo y la pimienta negra completan la mezcla."
+        ]
+      },
+      "after": {
+        "shortDesc": "Combina vinagre de sidra de manzana en polvo con especias de uso tradicional digestivo. Jengibre y cúrcuma acompañan la comodidad del estómago después de comer, mientras que canela y pimienta negra completan la fórmula. El enfoque inicial es pesadez y bienestar digestivo. Para ampliar su explicación hacia el cuidado del azúcar y las grasas necesitamos conocer el aporte de ácido acético de la presentación, además de la cantidad de vinagre en polvo.",
+        "benefits": [
+          "Pesadez después de comer: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago.",
+          "El vinagre de sidra de manzana en polvo, la canela y la pimienta negra completan la mezcla de uso digestivo."
+        ]
+      }
+    },
+    {
+      "id": 141,
+      "name": "SDOMACHUS 500 mg",
+      "before": {
+        "shortDesc": "Sábila, cardamomo y jengibre con vitaminas y minerales para acompañar el bienestar digestivo y complementar la alimentación.",
+        "benefitSummary": "Bienestar digestivo y complemento nutricional",
+        "benefits": [
+          "Se usa para el bienestar del estómago con aloe vera, cardamomo, jengibre y colpachi. El agave azul completa el aporte vegetal.",
+          "Magnesio y vitaminas B6 y B12 ayudan al funcionamiento de músculos y nervios. Zinc y selenio complementan el cuidado de las células."
+        ]
+      },
+      "after": {
+        "shortDesc": "Fórmula para acompañar la comodidad del estómago y el bienestar después de comer. Combina aloe vera, cardamomo, jengibre y colpachi, plantas de uso tradicional digestivo, con agave azul. Magnesio y vitaminas B6 y B12 complementan el funcionamiento de músculos y nervios, mientras que zinc y selenio acompañan el cuidado celular. Su explicación destaca molestias concretas como gases y pesadez, distinguiéndolas de enfermedades como gastritis o colitis.",
+        "benefitSummary": "Comodidad del estómago, gases y pesadez después de comer",
+        "benefits": [
+          "Bienestar después de comer: aloe vera, cardamomo, jengibre y colpachi se usan tradicionalmente para acompañar la comodidad del estómago, los gases y la pesadez. El agave azul completa la mezcla vegetal.",
+          "Magnesio y vitaminas B6 y B12 ayudan al funcionamiento de músculos y nervios. Zinc y selenio complementan el cuidado de las células."
+        ]
+      }
+    },
+    {
+      "id": 171,
+      "name": "TÉ ÁRNICA",
+      "before": {
+        "shortDesc": "Infusión de árnica mexicana de uso tradicional. Sus beneficios al beberla no están confirmados; valorar su seguridad antes de recomendarla.",
+        "benefitSummary": "Árnica mexicana: uso tradicional por valorar"
+      },
+      "after": {
+        "shortDesc": "Infusión elaborada con hojas de árnica mexicana, identificada en el catálogo como Heterotheca inuloides. Esta identidad es importante porque existen plantas diferentes conocidas como árnica y preparaciones destinadas a usos distintos. Antes de ampliar sus funciones debemos confirmar las indicaciones de esta presentación para beber. La explicación interna debe distinguir este té de las pomadas y geles de árnica utilizados para masaje y molestias locales.",
+        "benefitSummary": "Infusión de árnica mexicana: confirmar indicaciones de uso oral"
+      }
+    },
+    {
+      "id": 172,
+      "name": "TÉ CUACHALALATE",
+      "before": {
+        "shortDesc": "Infusión de cuachalalate de uso tradicional para acompañar el bienestar digestivo.",
+        "benefitSummary": "Plantas de uso tradicional para el bienestar digestivo",
+        "benefits": [
+          "Acompaña el bienestar digestivo tradicional con corteza de cuachalalate en infusión."
+        ]
+      },
+      "after": {
+        "shortDesc": "Infusión de corteza de cuachalalate utilizada tradicionalmente para acompañar el bienestar del estómago. Dentro de la herbolaria mexicana se asocia con el cuidado de molestias estomacales que suelen describirse como irritación o gastritis. Para la formación del vendedor, conviene distinguir gastritis, gases y colitis, porque son situaciones diferentes. Su orientación es el uso tradicional para molestias del estómago, evitando presentarlo como solución para cualquier problema digestivo.",
+        "benefitSummary": "Cuachalalate de uso tradicional para molestias del estómago",
+        "benefits": [
+          "Bienestar del estómago: la corteza de cuachalalate se usa tradicionalmente para acompañar el cuidado de molestias estomacales.",
+          "En la herbolaria mexicana se utiliza tradicionalmente para molestias descritas como irritación o gastritis."
+        ]
+      }
+    },
+    {
+      "id": 174,
+      "name": "TÉ JENGIBRE CANELA",
+      "before": {
+        "shortDesc": "Té verde con jengibre y canela para acompañar el bienestar digestivo y disfrutar una bebida con antioxidantes naturales.",
+        "benefitSummary": "Especias para bienestar digestivo y aporte antioxidante",
+        "benefits": [
+          "Acompaña el bienestar del estómago con jengibre y canela de uso tradicional. El té verde complementa el aporte de antioxidantes y cafeína."
+        ]
+      },
+      "after": {
+        "shortDesc": "Infusión que combina jengibre y canela con té verde para acompañar el bienestar digestivo y ofrecer una bebida con antioxidantes. El jengibre tiene uso tradicional para molestias leves del estómago, mientras que la canela aporta su sabor y componentes vegetales. El té verde añade antioxidantes y puede aportar cafeína. Esta combinación se distingue del té de jengibre y cúrcuma por la presencia del té verde y su carácter de bebida para el día.",
+        "benefitSummary": "Jengibre y canela con té verde para digestión y antioxidantes",
+        "benefits": [
+          "Bienestar digestivo: el jengibre se usa tradicionalmente para acompañar la comodidad del estómago y la canela completa la mezcla de especias.",
+          "Antioxidantes y cafeína: el té verde complementa la bebida con antioxidantes y puede ayudar a estar más despierto."
+        ]
+      }
+    },
+    {
+      "id": 175,
+      "name": "TÉ JENGIBRE Y CÚRCUMA",
+      "before": {
+        "shortDesc": "Infusión de jengibre y cúrcuma de uso tradicional para molestias digestivas leves. La cúrcuma se usa para aliviar pesadez y gases después de comer.",
+        "benefits": [
+          "Jengibre y cúrcuma se usan para el bienestar del estómago después de comer."
+        ]
+      },
+      "after": {
+        "shortDesc": "Infusión de dos raíces utilizadas tradicionalmente para acompañar la comodidad del estómago después de comer. El jengibre y la cúrcuma se reúnen para el bienestar digestivo, especialmente ante pesadez y gases. Puede integrarse como bebida caliente dentro de la rutina posterior a los alimentos. Su enfoque principal es digestivo, distinguiendo esta infusión de los extractos concentrados de curcumina que se utilizan en fórmulas de orientación articular.",
+        "benefits": [
+          "Pesadez y gases: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago después de comer.",
+          "Permite incorporar ambas raíces en una infusión caliente dentro de la rutina después de los alimentos."
+        ]
+      }
+    },
+    {
+      "id": 228,
+      "name": "GLICINATO DE MAGNESIO 90 CAPS",
+      "before": {
+        "shortDesc": "Glicinato de magnesio con brócoli en cápsulas para apoyar los músculos, los nervios y el aprovechamiento de la energía de los alimentos.",
+        "benefitSummary": "Magnesio para músculos, nervios y energía",
+        "benefits": [
+          "Apoya músculos y nervios con magnesio del glicinato. El tallo de brócoli añade un componente vegetal.",
+          "Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la mezcla."
+        ]
+      },
+      "after": {
+        "shortDesc": "Aporta magnesio en forma de glicinato para ayudar al funcionamiento de músculos y nervios. Puede incorporarse a una rutina de relajación y preparación para el descanso, manteniendo su función principal como complemento del aporte de magnesio. Incluye tallo de brócoli y los ingredientes necesarios para preparar la cápsula. Se distingue del Magnesium PM porque este último combina magnesio con otros ingredientes destinados específicamente a acompañar la calma y la rutina nocturna.",
+        "benefitSummary": "Magnesio para músculos, nervios y rutina de relajación",
+        "benefits": [
+          "Funcionamiento muscular y nervioso: el magnesio del glicinato ayuda a músculos y nervios a funcionar bien.",
+          "Puede incorporarse a la rutina de relajación y preparación para el descanso como complemento del aporte de magnesio.",
+          "El tallo de brócoli completa la mezcla vegetal. Estearato de magnesio y excipientes ayudan a preparar el producto, y la cápsula vegetal contiene la mezcla."
+        ]
+      }
+    },
+    {
+      "id": 240,
+      "name": "ACEITE DE OLIVA DEMOGRASS 60 CAPS",
+      "before": {
+        "shortDesc": "Aceite de oliva en perlas para complementar el consumo de grasas de la alimentación.",
+        "benefitSummary": "Aceite de oliva en perlas",
+        "benefits": [
+          "Complementa el aporte de grasas de la alimentación con aceite de oliva. La gelatina forma la cápsula blanda para contenerlo."
+        ]
+      },
+      "after": {
+        "shortDesc": "Presentación en perlas para complementar el aporte de grasas de la alimentación. El aceite de oliva contiene grasas que el cuerpo utiliza como fuente de energía y como parte de sus células; la gelatina permite contenerlo en una cápsula blanda. Para desarrollar su enfoque cardiovascular o cerebral debemos revisar qué tipo de aceite contiene y cuánto aporta cada perla. La explicación debe distinguir esta cantidad del aceite utilizado habitualmente en la alimentación.",
+        "benefitSummary": "Aceite de oliva en perlas para complementar el aporte de grasas",
+        "benefits": [
+          "Aporte de grasas: el aceite de oliva complementa las grasas de la alimentación, que el cuerpo utiliza para obtener energía y mantener sus células.",
+          "La gelatina forma la cápsula blanda para contener el aceite."
+        ]
+      }
+    }
+  ]
+}
