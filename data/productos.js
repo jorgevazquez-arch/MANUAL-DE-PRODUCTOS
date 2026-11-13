@@ -817,7 +817,7 @@ window.manualData.productos = [
     name: "ASHWAGANDHA",
     benefitSummary: "Calma y descanso con raíz de ashwagandha y pimienta negra",
     category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/11/ASHWAGANDHA.jpg",
     shortDesc: "Raíz de ashwagandha con extracto de pimienta negra en un envase de 60 cápsulas vegetales. Cada cápsula aporta 995 mg de raíz y 5 mg de extracto de pimienta negra, fuente de piperina. El enfoque es acompañar la calma ante el estrés cotidiano y la rutina de descanso desde el uso tradicional de la raíz. La pimienta negra complementa la fórmula como fuente de piperina.",
     researchNote: {
       "focus": "Uso tradicional de raíz de ashwagandha para calma y descanso, acompañada de pimienta negra",
