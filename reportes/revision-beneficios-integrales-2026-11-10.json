@@ -610,26 +610,30 @@
     },
     {
       "id": 33,
-      "ingredients": "Extracto de raíz de ashwagandha (500 mg, estandarizado al 5% withanólidos), celulosa microcristalina, estearato magnésico.",
+      "ingredients": "Por cápsula (1 g): raíz de ashwagandha (Withania somnifera), 995 mg; extracto de pimienta negra (Piper nigrum L.), 5 mg, fuente de piperina. Cápsula vegetal. La etiqueta no declara la cantidad de piperina pura.",
       "benefits": [
-        "Calma ante la exigencia diaria: el extracto de ashwagandha puede ayudar a manejar el estrés cotidiano y reducir la sensación de tensión.",
-        "Apoyo al descanso: la ashwagandha puede favorecer la relajación y la calidad del sueño dentro de una rutina de descanso."
+        "Calma cotidiana: la raíz de ashwagandha se utiliza tradicionalmente para acompañar la respuesta al estrés y favorecer la relajación.",
+        "Rutina de descanso: el uso tradicional de la raíz también acompaña la preparación para dormir cuando cuesta relajarse al terminar el día.",
+        "Complemento de la fórmula: la pimienta negra aporta piperina, empleada en suplementos para favorecer el aprovechamiento de ciertos compuestos."
       ],
-      "shortDesc": "Extracto de raíz de ashwagandha en tabletas para acompañar el manejo del estrés cotidiano, la relajación y el descanso. Cada tableta declara 500 mg de extracto al 5% de withanólidos. Su diferencia frente a ROOT está en utilizar extracto como único ingrediente vegetal activo y en la presentación en tabletas. La celulosa microcristalina y el estearato magnésico dan forma a la tableta y facilitan su fabricación.",
-      "benefitSummary": "Estrés y relajación con extracto de ashwagandha",
+      "shortDesc": "Raíz de ashwagandha con extracto de pimienta negra en un envase de 60 cápsulas vegetales. Cada cápsula aporta 995 mg de raíz y 5 mg de extracto de pimienta negra, fuente de piperina. El enfoque es acompañar la calma ante el estrés cotidiano y la rutina de descanso desde el uso tradicional de la raíz. La pimienta negra complementa la fórmula como fuente de piperina.",
+      "benefitSummary": "Calma y descanso con raíz de ashwagandha y pimienta negra",
       "researchNote": {
-        "focus": "Estrés y relajación con extracto de ashwagandha",
+        "focus": "Uso tradicional de raíz de ashwagandha para calma y descanso, acompañada de pimienta negra",
         "sources": [
           {
-            "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+            "title": "NIH: raíz de ashwagandha, usos tradicionales y preparaciones",
             "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
           },
           {
-            "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
-            "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
+            "title": "BfR: piperina en suplementos, finalidad e interacciones",
+            "url": "https://www.bfr.bund.de/en/service/frequently-asked-questions/topic/benefits-and-risks-of-micronutrient-supplements-in-older-age/"
           }
         ]
-      }
+      },
+      "serving": "1 cápsula (1 g)",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos. El envase contiene 60 porciones y rinde 60 días con este consumo diario.",
+      "interactions": "Consultar si el cliente usa medicamentos para la tiroides, la diabetes o para disminuir la actividad de las defensas. La piperina puede modificar la absorción y los niveles de algunos medicamentos; revisar la combinación con su médico o farmacéutico."
     },
     {
       "id": 34,

@@ -714,7 +714,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 153, serving: '1 cápsula', usage: 'Tomar esta porción diaria. Con alimentos.', rationale: "El zinc apoya función reproductiva normal; no garantiza elevar testosterona ni mejorar erección." },
-            { id: 33, serving: '2 cápsulas', usage: 'Tomar esta porción por la tarde/noche. Con alimentos.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
+            { id: 33, serving: '1 cápsula (1 g)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 60 cápsulas rinde 60 días.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
             { id: 143, serving: '1 cápsula', usage: 'Tomar esta porción diaria. Con alimentos.', rationale: "Plantas de uso tradicional para vitalidad masculina, sin garantizar mejoría sexual." },
             { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: "Coenzima Q10 para cuidado de las células; no tiene beneficio establecido para tratar problemas de erección." }
         ],

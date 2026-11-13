@@ -68,8 +68,10 @@ test('los beneficios integran los ingredientes antes omitidos y explican sus apo
     assert.match(productos.find(p => p.id === 3).benefits.join(' '), /ayuda a formar el colágeno/);
     assert.match(productos.find(p => p.id === 1).benefits.join(' '), /pequeñas cantidades/);
     const ashwagandha = productos.find(p => p.id === 33);
-    assert.match(ashwagandha.shortDesc, /celulosa microcristalina y el estearato magnésico dan forma a la tableta/);
-    assert(!/celulosa|estearato/i.test(ashwagandha.benefits.join(' ')));
+    assert.match(ashwagandha.ingredients, /raíz de ashwagandha .*995 mg/);
+    assert.match(ashwagandha.ingredients, /extracto de pimienta negra .*5 mg/);
+    assert.match(ashwagandha.benefits.join(' '), /piperina/);
+    assert.equal(ashwagandha.packageContent, '60 cápsulas vegetales');
     assert.match(productos.find(p => p.id === 272).ingredients, /Excipientes: gelatina y agua purificada/);
     assert.match(productos.find(p => p.id === 263).benefits.join(' '), /evitar su consumo por vía oral/i);
 });

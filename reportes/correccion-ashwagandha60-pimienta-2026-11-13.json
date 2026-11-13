@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-13",
+  "source": "Fotografía de etiqueta aportada por el usuario: 60 porciones por envase, 1 cápsula de 1 g por porción; raíz de ashwagandha 995 mg y pimienta negra 5 mg. Ingredientes: raíz, extracto de pimienta negra y cápsula vegetal.",
+  "supersedes": "La fórmula anterior de extracto de ashwagandha 500 mg al 5%, sus excipientes y la presentación en tabletas quedan sustituidos por esta etiqueta.",
+  "criteria": [
+    "5 mg corresponden al extracto de pimienta negra, no a 5 mg de piperina pura.",
+    "No atribuir a esta raíz el resultado de ensayos con extractos estandarizados ni afirmar mayor absorción demostrada de esta fórmula.",
+    "La finalidad de la piperina se explica como uso en suplementos, sin multiplicadores ni eficacia garantizada; sus interacciones se incluyen en el campo correspondiente.",
+    "Se conserva la frecuencia diaria previa de una unidad y se actualiza el formato a cápsula, también en la guía asociada."
+  ],
+  "id": 33,
+  "before": {
+    "id": 33,
+    "code": "7503026253410",
+    "name": "ASHWAGANDHA",
+    "benefitSummary": "Estrés y relajación con extracto de ashwagandha",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
+    "shortDesc": "Extracto de raíz de ashwagandha en tabletas para acompañar el manejo del estrés cotidiano, la relajación y el descanso. Cada tableta declara 500 mg de extracto al 5% de withanólidos. Su diferencia frente a ROOT está en utilizar extracto como único ingrediente vegetal activo y en la presentación en tabletas. La celulosa microcristalina y el estearato magnésico dan forma a la tableta y facilitan su fabricación.",
+    "researchNote": {
+      "focus": "Estrés y relajación con extracto de ashwagandha",
+      "sources": [
+        {
+          "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+          "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+        },
+        {
+          "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
+        }
+      ]
+    },
+    "ingredients": "Extracto de raíz de ashwagandha (500 mg, estandarizado al 5% withanólidos), celulosa microcristalina, estearato magnésico.",
+    "serving": "1 tableta (600 mg)",
+    "timing": "Con alimentos, por la mañana o antes de dormir",
+    "intakeInstructions": "Tomar 1 tableta al día con alimentos.",
+    "benefits": [
+      "Calma ante la exigencia diaria: el extracto de ashwagandha puede ayudar a manejar el estrés cotidiano y reducir la sensación de tensión.",
+      "Apoyo al descanso: la ashwagandha puede favorecer la relajación y la calidad del sueño dentro de una rutina de descanso."
+    ],
+    "contraindications": "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar si el cliente usa medicamentos para la tiroides, la diabetes o para disminuir la actividad de las defensas.",
+    "packageContent": "60 tabletas"
+  },
+  "after": {
+    "id": 33,
+    "code": "7503026253410",
+    "name": "ASHWAGANDHA",
+    "benefitSummary": "Calma y descanso con raíz de ashwagandha y pimienta negra",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/2ProductosComprimidos.jpg",
+    "shortDesc": "Raíz de ashwagandha con extracto de pimienta negra en un envase de 60 cápsulas vegetales. Cada cápsula aporta 995 mg de raíz y 5 mg de extracto de pimienta negra, fuente de piperina. El enfoque es acompañar la calma ante el estrés cotidiano y la rutina de descanso desde el uso tradicional de la raíz. La pimienta negra complementa la fórmula como fuente de piperina.",
+    "researchNote": {
+      "focus": "Uso tradicional de raíz de ashwagandha para calma y descanso, acompañada de pimienta negra",
+      "sources": [
+        {
+          "title": "NIH: raíz de ashwagandha, usos tradicionales y preparaciones",
+          "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+        },
+        {
+          "title": "BfR: piperina en suplementos, finalidad e interacciones",
+          "url": "https://www.bfr.bund.de/en/service/frequently-asked-questions/topic/benefits-and-risks-of-micronutrient-supplements-in-older-age/"
+        }
+      ]
+    },
+    "ingredients": "Por cápsula (1 g): raíz de ashwagandha (Withania somnifera), 995 mg; extracto de pimienta negra (Piper nigrum L.), 5 mg, fuente de piperina. Cápsula vegetal. La etiqueta no declara la cantidad de piperina pura.",
+    "serving": "1 cápsula (1 g)",
+    "timing": "Con alimentos, por la mañana o antes de dormir",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos. El envase contiene 60 porciones y rinde 60 días con este consumo diario.",
+    "benefits": [
+      "Calma cotidiana: la raíz de ashwagandha se utiliza tradicionalmente para acompañar la respuesta al estrés y favorecer la relajación.",
+      "Rutina de descanso: el uso tradicional de la raíz también acompaña la preparación para dormir cuando cuesta relajarse al terminar el día.",
+      "Complemento de la fórmula: la pimienta negra aporta piperina, empleada en suplementos para favorecer el aprovechamiento de ciertos compuestos."
+    ],
+    "contraindications": "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar si el cliente usa medicamentos para la tiroides, la diabetes o para disminuir la actividad de las defensas. La piperina puede modificar la absorción y los niveles de algunos medicamentos; revisar la combinación con su médico o farmacéutico.",
+    "packageContent": "60 cápsulas vegetales"
+  },
+  "choiceNotes": {
+    "32": "Raíz de ashwagandha en polvo como único ingrediente: 500 mg por cápsula, envase con 120 cápsulas. Porción: 1 cápsula al día; rendimiento: 120 días. Comparar con ASHWAGANDHA de 60 cápsulas, que combina 995 mg de raíz y 5 mg de extracto de pimienta negra por cápsula.",
+    "33": "60 cápsulas vegetales: cada porción de 1 cápsula (1 g) aporta 995 mg de raíz de ashwagandha y 5 mg de extracto de pimienta negra. La pimienta negra aporta piperina, sin cantidad pura declarada. Distinguirla de ROOT de 120 cápsulas de 500 mg con raíz sola."
+  },
+  "yield": {
+    "value": "60 días (2 meses)",
+    "note": "60 cápsulas ÷ 1 cápsula al día."
+  }
+}
