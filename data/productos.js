@@ -1761,7 +1761,7 @@ window.manualData.productos = [
         "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
       },
       {
-        "title": "MSK: resveratrol, actividad experimental y precauciones",
+        "title": "MSK: resveratrol y precauciones de uso",
         "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/resveratrol"
       }
     ]
@@ -1773,7 +1773,7 @@ window.manualData.productos = [
   benefits: [
     "Cuidado cognitivo: el ginkgo se emplea en preparaciones para la memoria; la lecitina de soya aporta fosfolípidos para las membranas celulares.",
     "Cuidado cardiovascular: el ajo se utiliza como complemento del cuidado del corazón y acompaña el enfoque circulatorio tradicional del ginkgo.",
-    "Cuidado antioxidante: la vitamina C contribuye a proteger las células; el resveratrol aporta un compuesto vegetal con actividad antioxidante experimental."
+    "Cuidado antioxidante: la vitamina C contribuye a proteger las células del daño oxidativo; el resveratrol complementa el aporte de compuestos antioxidantes."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
