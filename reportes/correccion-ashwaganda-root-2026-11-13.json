@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-13",
+  "source": "Corrección explícita del usuario: 120 cápsulas de 500 mg; único ingrediente, raíz de ashwagandha en polvo.",
+  "supersedes": "La fórmula y presentación de ROOT registradas en modulo-nervioso-estres-2026-11-13.json y las fichas archivadas quedan sustituidas por esta corrección.",
+  "criteria": "Beneficios en contexto de uso tradicional. Se retira el ensayo de extracto estandarizado de las fuentes de ROOT y no se extrapolan sus resultados a 500 mg de raíz en polvo.",
+  "servingNote": "El usuario confirmó cantidad por cápsula y contenido del envase, no cantidad diaria. Se retiran las indicaciones heredadas de 2 cápsulas de la fórmula anterior; la porción diaria remite a la etiqueta vigente.",
+  "id": 32,
+  "before": {
+    "id": 32,
+    "code": "7500645000418",
+    "name": "ASHWAGANDA ROOT",
+    "benefitSummary": "Estrés cotidiano y descanso con extracto y raíz",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
+    "shortDesc": "Fórmula de ashwagandha para acompañar el manejo del estrés cotidiano y favorecer la relajación y el descanso. Combina 600 mg de extracto de raíz al 5% de withanólidos con 700 mg de raíz en polvo por porción. El extracto aporta una cantidad definida de estos compuestos y el polvo complementa la preparación vegetal. Su enfoque reúne calma durante etapas de exigencia y apoyo a la rutina de sueño.",
+    "researchNote": {
+      "focus": "Estrés cotidiano y descanso con extracto y raíz",
+      "sources": [
+        {
+          "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+          "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+        },
+        {
+          "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
+        }
+      ]
+    },
+    "ingredients": "Extracto de raíz de ashwagandha (600 mg, estandarizado al 5% withanólidos), polvo de raíz de ashwagandha (700 mg) por porción.",
+    "serving": "2 cápsulas (1.3 g)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
+    "benefits": [
+      "Manejo del estrés cotidiano: el extracto de ashwagandha puede ayudar a reducir la sensación de tensión; la raíz en polvo complementa la preparación.",
+      "Relajación y descanso: la ashwagandha puede favorecer la calidad del sueño como complemento de una rutina de descanso."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Puede dar sueño y aumentar el efecto de medicamentos para la ansiedad o para dormir. También consultar si usa tratamientos para la diabetes o para disminuir la actividad de las defensas.",
+    "packageContent": "60 cápsulas"
+  },
+  "after": {
+    "id": 32,
+    "code": "7500645000418",
+    "name": "ASHWAGANDA ROOT",
+    "benefitSummary": "Raíz de ashwagandha en polvo para calma y descanso",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
+    "shortDesc": "Raíz de ashwagandha en polvo como único ingrediente, en un envase con 120 cápsulas de 500 mg cada una. Su uso tradicional se orienta a acompañar la calma ante el estrés cotidiano y la rutina de descanso. Esta presentación conserva la raíz molida como preparación vegetal. El enfoque de la ficha es la relajación y el bienestar durante etapas de mayor exigencia diaria.",
+    "researchNote": {
+      "focus": "Uso tradicional de raíz de ashwagandha en polvo para calma y descanso",
+      "sources": [
+        {
+          "title": "NIH: raíz de ashwagandha, usos tradicionales y diferencias entre preparaciones",
+          "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+        }
+      ]
+    },
+    "ingredients": "Raíz de ashwagandha (Withania somnifera) en polvo, 500 mg por cápsula. Único ingrediente declarado.",
+    "serving": "500 mg por cápsula; porción diaria según etiqueta",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. Seguir la porción diaria indicada en la etiqueta vigente.",
+    "benefits": [
+      "Calma cotidiana: la raíz de ashwagandha en polvo se utiliza tradicionalmente para acompañar la respuesta al estrés y la relajación.",
+      "Rutina de descanso: su uso tradicional también acompaña la preparación para dormir cuando la tensión del día dificulta relajarse."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Puede dar sueño y aumentar el efecto de medicamentos para la ansiedad o para dormir. También consultar si usa tratamientos para la diabetes o para disminuir la actividad de las defensas.",
+    "packageContent": "120 cápsulas de 500 mg"
+  },
+  "choiceNote": "Raíz de ashwagandha en polvo como único ingrediente: 500 mg por cápsula, envase con 120 cápsulas. Comparar con la ashwagandha en tabletas, que contiene extracto. La cantidad de cápsulas al día debe tomarse de la etiqueta vigente.",
+  "guideChanges": [
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: \"La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción con la cena.', rationale: \"La ashwagandha puede acompañar la relajación en etapas de estrés.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la relajación en etapas de estrés.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede acompañar la respuesta al estrés cotidiano.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual.\" }"
+    },
+    {
+      "before": "{ id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: \"La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico.\" }",
+      "after": "{ id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: \"La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico.\" }"
+    }
+  ]
+}

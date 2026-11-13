@@ -776,36 +776,32 @@ window.manualData.productos = [
   },
 
   // ================================================================
-  //  32. ASHWAGANDA ROOT (60 cápsulas)
+  //  32. ASHWAGANDA ROOT (120 cápsulas de 500 mg)
   // ================================================================
   {
     id: 32,
     code: "7500645000418",
     name: "ASHWAGANDA ROOT",
-    benefitSummary: "Estrés cotidiano y descanso con extracto y raíz",
+    benefitSummary: "Raíz de ashwagandha en polvo para calma y descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
-    shortDesc: "Fórmula de ashwagandha para acompañar el manejo del estrés cotidiano y favorecer la relajación y el descanso. Combina 600 mg de extracto de raíz al 5% de withanólidos con 700 mg de raíz en polvo por porción. El extracto aporta una cantidad definida de estos compuestos y el polvo complementa la preparación vegetal. Su enfoque reúne calma durante etapas de exigencia y apoyo a la rutina de sueño.",
+    shortDesc: "Raíz de ashwagandha en polvo como único ingrediente, en un envase con 120 cápsulas de 500 mg cada una. Su uso tradicional se orienta a acompañar la calma ante el estrés cotidiano y la rutina de descanso. Esta presentación conserva la raíz molida como preparación vegetal. El enfoque de la ficha es la relajación y el bienestar durante etapas de mayor exigencia diaria.",
     researchNote: {
-      "focus": "Estrés cotidiano y descanso con extracto y raíz",
+      "focus": "Uso tradicional de raíz de ashwagandha en polvo para calma y descanso",
       "sources": [
         {
-          "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+          "title": "NIH: raíz de ashwagandha, usos tradicionales y diferencias entre preparaciones",
           "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
-        },
-        {
-          "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
         }
       ]
     },
-    ingredients: "Extracto de raíz de ashwagandha (600 mg, estandarizado al 5% withanólidos), polvo de raíz de ashwagandha (700 mg) por porción.",
-    serving: "2 cápsulas (1.3 g)",
+    ingredients: "Raíz de ashwagandha (Withania somnifera) en polvo, 500 mg por cápsula. Único ingrediente declarado.",
+    serving: "500 mg por cápsula; porción diaria según etiqueta",
     timing: "Con alimentos",
-    intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
+    intakeInstructions: "Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. Seguir la porción diaria indicada en la etiqueta vigente.",
     benefits: [
-      "Manejo del estrés cotidiano: el extracto de ashwagandha puede ayudar a reducir la sensación de tensión; la raíz en polvo complementa la preparación.",
-      "Relajación y descanso: la ashwagandha puede favorecer la calidad del sueño como complemento de una rutina de descanso."
+      "Calma cotidiana: la raíz de ashwagandha en polvo se utiliza tradicionalmente para acompañar la respuesta al estrés y la relajación.",
+      "Rutina de descanso: su uso tradicional también acompaña la preparación para dormir cuando la tensión del día dificulta relajarse."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6397,7 +6393,7 @@ const productPackageContents = {
   29: "60 cápsulas",
   30: "1.1 kg",
   31: "200 cápsulas",
-  32: "60 cápsulas",
+  32: "120 cápsulas de 500 mg",
   33: "60 tabletas",
   34: "30 cápsulas",
   35: "500 g",

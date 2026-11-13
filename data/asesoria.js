@@ -20,7 +20,7 @@
         24: 'Proteína de huevo: alternativa a las proteínas de leche y vegetales.',
         25: 'Espirulina en polvo para añadir a preparaciones, frente a la opción en cápsulas.',
         26: 'Espirulina en cápsulas para quien prefiere evitar el sabor del polvo.',
-        32: "Estrés y descanso: combina 600 mg de extracto al 5% con 700 mg de raíz en polvo por 2 cápsulas. El extracto declara 30 mg de withanólidos; el polvo no está estandarizado. Comparar preparación y porción, además de los miligramos.",
+        32: "Raíz de ashwagandha en polvo como único ingrediente: 500 mg por cápsula, envase con 120 cápsulas. Comparar con la ashwagandha en tabletas, que contiene extracto. La cantidad de cápsulas al día debe tomarse de la etiqueta vigente.",
         33: "Extracto de raíz en tabletas: 500 mg al 5%, equivalentes a 25 mg de withanólidos declarados por tableta. La celulosa y el estearato magnésico son excipientes. El enfoque coincide con ROOT; cambia la preparación y la presentación.",
         35: 'Proteína de res con creatina y taurina: la ficha declara 7600 mg de creatina por porción; verificar etiqueta y no sumar creatina sin revisar el total.',
         36: 'Berberina con zinc; la tabla vigente del catálogo usa una porción de 2 cápsulas.',
