@@ -796,9 +796,9 @@ window.manualData.productos = [
       ]
     },
     ingredients: "Raíz de ashwagandha (Withania somnifera) en polvo, 500 mg por cápsula. Único ingrediente declarado.",
-    serving: "500 mg por cápsula; porción diaria según etiqueta",
+    serving: "1 cápsula (500 mg) al día",
     timing: "Con alimentos",
-    intakeInstructions: "Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. Seguir la porción diaria indicada en la etiqueta vigente.",
+    intakeInstructions: "Tomar 1 cápsula al día con alimentos. Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. El envase contiene 120 porciones y rinde 120 días.",
     benefits: [
       "Calma cotidiana: la raíz de ashwagandha en polvo se utiliza tradicionalmente para acompañar la respuesta al estrés y la relajación.",
       "Rutina de descanso: su uso tradicional también acompaña la preparación para dormir cuando la tensión del día dificulta relajarse."

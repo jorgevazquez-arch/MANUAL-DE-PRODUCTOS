@@ -16,7 +16,7 @@ window.manualData.padecimientos = [
             { id: 68, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos, según la ficha del producto.', rationale: "Se utiliza como complemento de una rutina de calma; su beneficio al tomarlo puede variar." }
         ],
         comboSecundario: [
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
             { id: 94, serving: '3 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: "Magnesio con plantas para acompañar la relajación antes de dormir." },
             { id: 150, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.', rationale: "Teanina, azahar y triptófano para acompañar calma y descanso; puede causar somnolencia." },
             { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Se estudia para el bienestar mental; no se ha confirmado que esta fórmula trate ansiedad." },
@@ -33,7 +33,7 @@ window.manualData.padecimientos = [
         symptoms: ['Cansancio extremo que no mejora con el descanso', 'Dificultad para concentrarse o "niebla mental"', 'Irritabilidad o cambios de humor', 'Problemas para dormir a pesar del cansancio', 'Pérdida de motivación o interés'],
         comboPrincipal: [
             { id: 58, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "La rhodiola se utiliza para acompañar estrés y cansancio; la respuesta varía según la persona." },
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés." },
             { id: 98, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "La melena de león se estudia como complemento del cuidado de memoria y concentración." }
         ],
         comboSecundario: [
@@ -60,7 +60,7 @@ window.manualData.padecimientos = [
             { id: 150, serving: '1-2 cápsulas', usage: 'Tomar esta porción 1h antes de dormir. Con alimentos.', rationale: "Triptófano con teanina y azahar para acompañar la relajación y el descanso." }
         ],
         comboSecundario: [
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la relajación en etapas de estrés." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la relajación en etapas de estrés." },
             { id: 163, serving: 'Porción por confirmar', usage: 'Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.', rationale: "Ashwagandha y teanina para acompañar la calma, con magnesio para los nervios." },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: "Las vitaminas B apoyan los nervios; no funcionan como producto para dormir." }
         ],
@@ -157,7 +157,7 @@ window.manualData.padecimientos = [
             { id: 166, serving: '1 cápsula', usage: 'Tomar esta porción al día. Con alimentos que contengan grasas.', rationale: "Vitamina D de dosis alta solo con necesidad identificada y seguimiento profesional." }
         ],
         comboSecundario: [
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión." },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Vitaminas B para nervios y aprovechamiento de energía cuando la alimentación no cubre necesidades." },
             { id: 94, serving: '2 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: "Fórmula para acompañar relajación y descanso. Revisar antidepresivos y otros productos para dormir." },
             { id: 101, serving: '1 cápsula', usage: 'Tomar esta porción al día con alimentos que contengan grasas.', rationale: "La coenzima Q10 participa en producción de energía; no se ha demostrado que esta fórmula trate depresión." }
@@ -179,7 +179,7 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 43, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen hormonas o toxinas del cuerpo." },
             { id: 123, serving: '2-3 cápsulas', usage: 'Tomar esta porción al día. Con un desayuno que contenga grasas.', rationale: "Omega 3 para complementar alimentación, sin prometer reducción de quistes o miomas." },
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
             { id: 180, serving: '5 g', usage: 'Tomar esta porción al día disuelto en agua. Con alimentos.', rationale: "Inositol en polvo como alternativa a cápsulas; elegir una presentación y revisar si existe una necesidad específica." }
         ],
         lifestyleTips: ['Dieta rica en fibra para eliminar el exceso de estrógenos.', 'Evitar plásticos y otros disruptores endocrinos.', 'Mantener un peso saludable.']
@@ -651,7 +651,7 @@ window.manualData.padecimientos = [
             { id: 92, serving: '2-4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "El magnesio ayuda a aprovechar energía y al funcionamiento muscular, especialmente si falta." }
         ],
         comboSecundario: [
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Las vitaminas B ayudan a aprovechar energía de los alimentos." },
             { id: 116, serving: '2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "La NAC ayuda a formar glutatión para cuidado de las células; no se ha confirmado que esta fórmula resuelva fatiga crónica." },
             { id: 29, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "El cromo participa en uso de nutrientes; no se presenta como tratamiento del cansancio crónico." }
@@ -754,7 +754,7 @@ window.manualData.padecimientos = [
         comboSecundario: [
             { id: 137, serving: '1-2 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Shatavari y schisandra de uso tradicional para bienestar y vitalidad femenina." },
             { id: 125, serving: '10 g', usage: 'Tomar esta porción al día, en ayunas o entre comidas.', rationale: "Colágeno para alimentación y cuidado de piel; el cuidado de huesos también depende de calcio, vitamina D y ejercicio." },
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
             { id: 273, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "Cohosh negro e isoflavonas para valorar como apoyo a molestias de esta etapa; revisar antecedentes y salud del hígado." }
         ],
         lifestyleTips: ['Vestir en capas para manejar los bochornos.', 'Realizar ejercicio de fuerza para la salud ósea.', 'Incluir soya y linaza en la dieta.']
@@ -769,7 +769,7 @@ window.manualData.padecimientos = [
         comboPrincipal: [
             { id: 52, serving: '4 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Inositoles para valorar si hay ovario poliquístico; no toda irregularidad menstrual tiene esa causa." },
             { id: 20, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Plantas de uso tradicional femenino; no se ha confirmado que esta fórmula equilibre hormonas o regularice ciclo." },
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual." }
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual." }
         ],
         comboSecundario: [
             { id: 94, serving: '2 cápsulas', usage: 'Tomar esta porción por la noche.', rationale: "Puede acompañar relajación y descanso; no se ha establecido que esta mezcla quite cólicos." },
@@ -787,7 +787,7 @@ window.manualData.padecimientos = [
         symptoms: ['Fatiga, aumento de peso inexplicable', 'Sensibilidad al frío', 'Piel seca, caída de cabello', 'Estreñimiento, niebla mental'],
         comboPrincipal: [
             { id: 87, serving: '1 cápsula (500 mg)', usage: 'Tomar esta porción una vez al día con alimentos, según la ficha técnica.', rationale: "La tirosina participa en formación de hormonas tiroideas, pero tomarla no sustituye hormona recetada ni garantiza mejorar enfermedad." },
-            { id: 32, serving: 'Según etiqueta vigente', usage: 'Seguir la porción diaria y el horario indicados en la etiqueta vigente de la presentación de 120 cápsulas de 500 mg.', rationale: "La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico." },
+            { id: 32, serving: '1 cápsula (500 mg)', usage: 'Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.', rationale: "La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico." },
             { id: 26, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Espirulina con nutrientes. La ficha no asegura aporte de yodo; no usar para corregirlo por cuenta propia." }
         ],
         comboSecundario: [

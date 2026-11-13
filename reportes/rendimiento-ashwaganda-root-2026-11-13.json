@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-13",
+  "source": "Confirmación del usuario: 1 cápsula por porción y rendimiento de 120 días.",
+  "supersedes": "La porción pendiente de correccion-ashwaganda-root-2026-11-13.json queda confirmada.",
+  "id": 32,
+  "packageContent": "120 cápsulas de 500 mg",
+  "serving": "1 cápsula (500 mg) al día",
+  "intakeInstructions": "Tomar 1 cápsula al día con alimentos. Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. El envase contiene 120 porciones y rinde 120 días.",
+  "servingsPerContainer": 120,
+  "servingsPerDay": 1,
+  "durationDays": 120,
+  "calculation": "120 cápsulas / 1 cápsula diaria = 120 días",
+  "visibleYield": {
+    "value": "120 días (4 meses)",
+    "note": "120 cápsulas ÷ 1 cápsula al día. Porción: 1 cápsula; 1 vez al día."
+  },
+  "guideReferencesUpdated": 9
+}
