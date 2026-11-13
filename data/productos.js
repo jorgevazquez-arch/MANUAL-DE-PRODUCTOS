@@ -1737,16 +1737,26 @@ window.manualData.productos = [
   id: 70,
   code: "7503026253502",
   name: "GINKGO BILOBA",
-  benefitSummary: "Ginkgo de uso tradicional circulatorio",
+  benefitSummary: "Cuidado de la memoria y uso tradicional circulatorio",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
-  shortDesc: "Ginkgo biloba en cápsulas, de uso tradicional para el bienestar circulatorio. El beneficio sobre la memoria en personas sanas no está demostrado.",
+  shortDesc: "Ginkgo biloba en cápsulas, orientado al cuidado de la memoria y al uso tradicional circulatorio. Declara un extracto con 24% de flavonoides y 6% de terpenlactonas. Extractos específicos se han utilizado para el cuidado cognitivo en adultos con deterioro asociado a la edad. Para comparar esta presentación con otras, se debe revisar la cantidad real de extracto y su preparación, además del porcentaje declarado.",
+  researchNote: {
+    "focus": "Cuidado de la memoria y uso tradicional circulatorio",
+    "sources": [
+      {
+        "title": "EMA: ginkgo, preparaciones para cuidado cognitivo y uso tradicional circulatorio",
+        "url": "https://www.ema.europa.eu/en/medicines/herbal/ginkgo-folium"
+      }
+    ]
+  },
   ingredients: "Extracto de Ginkgo biloba (estandarizado a 24% flavonoides glicósidos y 6% terpenlactonas).",
   serving: "3 cápsulas",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
   benefits: [
-    "Contiene Ginkgo biloba con flavonoides y terpenlactonas. Se usa para acompañar el cuidado de la memoria y la circulación."
+    "Cuidado de la memoria: extractos específicos de ginkgo se utilizan en adultos con deterioro cognitivo asociado a la edad, según la preparación.",
+    "Bienestar circulatorio: las preparaciones de hoja de ginkgo tienen uso tradicional para molestias circulatorias leves, tras descartar causas que requieran atención médica."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2099,16 +2109,30 @@ window.manualData.productos = [
   id: 87,
   code: "7503026253076",
   name: "L-TIROSINA",
-  benefitSummary: "Complemento para etapas de mayor demanda mental",
+  benefitSummary: "Exigencia mental y cuidado antioxidante",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-TYROSINE1.webp",
-  shortDesc: "Tirosina con arándano y vitamina C para complementar el cuidado de la atención en etapas de mayor demanda mental.",
+  shortDesc: "Tirosina con arándano azul y vitamina C para complementar la alimentación durante etapas de mayor exigencia mental. La tirosina aporta material para producir dopamina y noradrenalina, que participan en la atención y la respuesta al estrés. La vitamina C complementa el cuidado antioxidante de las células y el arándano añade sus compuestos vegetales. Su orientación combina aporte de tirosina y cuidado celular durante la actividad diaria.",
+  researchNote: {
+    "focus": "Exigencia mental y cuidado antioxidante",
+    "sources": [
+      {
+        "title": "L-tirosina: ensayo sobre memoria de trabajo bajo estrés por frío",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17585971/"
+      },
+      {
+        "title": "NIH: vitamina C y protección antioxidante",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "L-Tirosina (350 mg), polvo de arándano azul (100 mg), vitamina C (50 mg) por cápsula.",
   serving: "1 cápsula (500 mg)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Complementa la alimentación en días de mucho trabajo mental con L-tirosina. El arándano azul y la vitamina C aportan antioxidantes para cuidar las células."
+    "Apoyo durante la exigencia mental: la L-tirosina aporta material para producir dopamina y noradrenalina, que participan en la atención.",
+    "Cuidado celular: la vitamina C aporta protección antioxidante; el arándano azul complementa la mezcla con sus compuestos vegetales."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -2376,16 +2400,30 @@ window.manualData.productos = [
   id: 98,
   code: "7500645000852",
   name: "MELENA DE LEÓN",
-  benefitSummary: "Memoria y concentración: apoyo en estudio",
+  benefitSummary: "Cuidado de la memoria con apoyo al funcionamiento nervioso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MELENA-LEON1.jpg",
-  shortDesc: "Melena de león con magnesio como complemento del cuidado de la memoria y la concentración; los beneficios de esta mezcla aún se estudian.",
+  shortDesc: "Fórmula orientada al cuidado de la memoria y el funcionamiento nervioso, con extracto de melena de león, L-treonato de magnesio y quinoa. Un ensayo con una preparación de melena de león observó mejoras cognitivas en adultos con deterioro leve. El magnesio complementa el funcionamiento de los nervios y la quinoa se incorpora en pequeña cantidad. Su enfoque reúne cuidado cognitivo y aporte nutricional del mineral.",
+  researchNote: {
+    "focus": "Cuidado de la memoria con apoyo al funcionamiento nervioso",
+    "sources": [
+      {
+        "title": "Melena de león: ensayo en adultos con deterioro cognitivo leve",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18844328/"
+      },
+      {
+        "title": "NIH: magnesio y funcionamiento muscular y nervioso",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "Melena de León (Hericium erinaceus) extracto (500 mg), L-Treonato de magnesio (450 mg), quinoa en polvo (50 mg) por porción.",
   serving: "2 cápsulas (1 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Se usa para acompañar el cuidado de la atención y la memoria con Melena de León. El magnesio del L-treonato ayuda al funcionamiento de los nervios y la quinoa completa la mezcla."
+    "Cuidado de la memoria: un ensayo con una preparación de melena de león observó mejoras cognitivas en adultos con deterioro leve.",
+    "Funcionamiento nervioso: el magnesio del L-treonato contribuye a la actividad normal de los nervios; la quinoa complementa la mezcla en pequeña cantidad."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a hongos, trastornos autoinmunes o bajo tratamiento con anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3495,17 +3533,34 @@ window.manualData.productos = [
   id: 149,
   code: "7500645000746",
   name: "TREONATO DE MAGNESIO",
-  benefitSummary: "Magnesio para nervios y cuidado de las células",
+  benefitSummary: "Funcionamiento nervioso y protección antioxidante",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TREONATO-MAGNESIO1.jpg",
-  shortDesc: "Magnesio en forma de treonato con vitamina C para apoyar los nervios y el cuidado de las células; el beneficio de esta fórmula para la memoria no está establecido.",
+  shortDesc: "Magnesio en forma de L-treonato con vitamina C para complementar el funcionamiento nervioso y el cuidado antioxidante de las células. El magnesio participa en la transmisión de señales entre los nervios y en la actividad muscular. La vitamina C acompaña la protección celular y la formación de colágeno. La ficha también declara una cantidad mínima de vitamina D, que permanece como componente secundario de la fórmula.",
+  researchNote: {
+    "focus": "Funcionamiento nervioso y protección antioxidante",
+    "sources": [
+      {
+        "title": "NIH: magnesio y funcionamiento muscular y nervioso",
+        "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+      },
+      {
+        "title": "NIH: vitamina C y protección antioxidante",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      },
+      {
+        "title": "L-treonato: ensayo con una preparación específica y medidas cognitivas",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41601871/"
+      }
+    ]
+  },
   ingredients: "L-Treonato de magnesio (288 mg), vitamina C (137.06 mg), vitamina D (0.01 mcg) por porción.",
   serving: "2 cápsulas (1 g)",
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Ayuda al funcionamiento de los nervios con magnesio del L-treonato. La vitamina C aporta antioxidantes y ayuda a formar colágeno.",
-    "Incluye una cantidad muy pequeña de vitamina D."
+    "Funcionamiento nervioso: el magnesio del L-treonato participa en la transmisión de señales entre los nervios y la actividad normal de los músculos.",
+    "Protección celular y tejidos: la vitamina C aporta antioxidantes y contribuye a formar el colágeno del cuerpo."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con insuficiencia renal o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6163,16 +6218,25 @@ window.manualData.productos = [
     id: 267,
     code: "61835819069",
     name: "PREMIUM PANAX GINSENG",
-    benefitSummary: "Vitalidad y uso tradicional",
+    benefitSummary: "Uso tradicional para vitalidad, cansancio y debilidad",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PANAX-GINSENG.avif",
-    shortDesc: "Ginseng rojo en ampolletas, usado tradicionalmente para acompañar la vitalidad y etapas de mayor cansancio.",
+    shortDesc: "Ginseng rojo en ampolletas bebibles para acompañar la vitalidad en etapas de cansancio y sensación de debilidad, según su uso tradicional. La raíz de Panax ginseng es el ingrediente que define este enfoque. La miel aporta dulzor y una pequeña cantidad de carbohidratos, y el agua purificada sirve de base líquida. La presentación permite consumir la porción directamente o diluida, como indica su ficha.",
+    researchNote: {
+      "focus": "Uso tradicional para vitalidad, cansancio y debilidad",
+      "sources": [
+        {
+          "title": "EMA: uso tradicional de raíz de ginseng para fatiga y debilidad",
+          "url": "https://www.ema.europa.eu/en/medicines/herbal/ginseng-radix"
+        }
+      ]
+    },
     ingredients: "Raíz de Panax ginseng (Ginseng Rojo) 2400 mg por ampolla, Miel (0.51 g de carbohidratos), Agua purificada.",
     serving: "1 ampolla (10 ml) al día",
     timing: "Preferentemente por la mañana, en ayunas o con el desayuno",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Consumir directamente del vial o diluir en 100 ml de agua natural a temperatura ambiente. No exceder la dosis recomendada.",
     benefits: [
-      "Acompaña la vitalidad con raíz de Panax ginseng rojo de uso tradicional. La miel aporta dulzor y una pequeña cantidad de carbohidratos, y el agua purificada sirve para diluir la mezcla."
+      "Vitalidad diaria: la raíz de Panax ginseng se utiliza tradicionalmente para aliviar el cansancio y la sensación de debilidad."
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6252,14 +6316,36 @@ window.manualData.productos = [
     benefitSummary: "Calma y cuidado de la atención y la memoria",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-BACOPA-ALBIZIA–-V0–-SEPT2026.jpeg",
-    shortDesc: "Albizia con bacopa, teanina y magnesio para acompañar la calma y el cuidado de la atención y la memoria.",
+    shortDesc: "Fórmula para acompañar la calma y el cuidado de la atención y la memoria durante la actividad diaria. Combina albizia de uso tradicional para la tranquilidad con L-teanina, mientras que la bacopa en polvo aporta su uso tradicional para el cuidado de la memoria. El magnesio del bisglicinato complementa el funcionamiento de músculos y nervios. La gelatina y el agua purificada forman la cápsula.",
+    researchNote: {
+      "focus": "Calma y cuidado de la atención y la memoria",
+      "sources": [
+        {
+          "title": "Albizia: contexto tradicional e investigación experimental",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4889836/"
+        },
+        {
+          "title": "Bacopa: ensayo con extracto estandarizado sobre memoria",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18611150/"
+        },
+        {
+          "title": "L-teanina: ensayo sobre estrés y aspectos del sueño",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+        },
+        {
+          "title": "NIH: magnesio y funcionamiento muscular y nervioso",
+          "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+        }
+      ]
+    },
     ingredients: "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; partes aéreas de Bacopa monnieri en polvo 200 mg; L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
     serving: "2 cápsulas (900 mg)",
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. No exceder la porción diaria recomendada.",
     benefits: [
-      "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Bacopa monnieri se usa para el cuidado de la atención y la memoria.",
-      "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
+      "Calma cotidiana: la Albizia aporta su uso tradicional para la tranquilidad y la L-teanina complementa la orientación relajante de la mezcla.",
+      "Cuidado de la memoria: la Bacopa monnieri en polvo aporta su uso tradicional para acompañar la memoria y la atención.",
+      "Funcionamiento nervioso y muscular: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios."
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",

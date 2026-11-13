@@ -58,7 +58,7 @@ test('los beneficios integran los ingredientes antes omitidos y explican sus apo
         [157, ['MSM', 'glucosamina', 'cúrcuma', 'nogal', 'vitamina C', 'calcio', 'magnesio', 'B2', 'B6', 'zinc', 'hierro', 'potasio', 'B12', 'fósforo']],
         [158, ['chícharo', 'arroz', 'leucina', 'isoleucina', 'valina', 'Lactobacillus acidophilus', 'Bifidobacterium bifidum', 'cocoa', 'cacao', 'sal rosa', 'stevia']],
         [246, ['inulina', 'L-glutamina', 'NAG', 'aloe vera', 'zinc L-carnosina', 'D3', 'frambuesa', 'ácido cítrico', 'esteviol']],
-        [271, ['Albizia', 'Bacopa', 'L-teanina', 'magnesio', 'gelatina', 'agua']],
+        [271, ['Albizia', 'Bacopa', 'L-teanina', 'magnesio']],
         [272, ['Albizia', 'Rhodiola', 'L-teanina', 'magnesio']]
     ];
     for (const [id, ingredients] of cases) {
@@ -73,6 +73,7 @@ test('los beneficios integran los ingredientes antes omitidos y explican sus apo
     assert.match(ashwagandha.benefits.join(' '), /piperina/);
     assert.equal(ashwagandha.packageContent, '60 cápsulas vegetales');
     assert.match(productos.find(p => p.id === 272).ingredients, /Excipientes: gelatina y agua purificada/);
+    assert.match(productos.find(p => p.id === 271).ingredients, /Excipientes: gelatina y agua purificada/);
     assert.match(productos.find(p => p.id === 263).benefits.join(' '), /evitar su consumo por vía oral/i);
 });
 

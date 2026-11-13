@@ -2,6 +2,10 @@
 (() => {
     const { productos, padecimientos } = window.manualData;
     const choiceNotes = {
+        267: "Ginseng rojo en ampolletas de 10 ml, con 2400 mg de raíz declarados por ampolla. La miel y el agua son acompañantes de la preparación. Enfoque en vitalidad y cansancio de uso tradicional; comparar forma de preparación y ginsenósidos antes de equipararlo a extractos.",
+        98: "Melena de león 500 mg, L-treonato de magnesio 450 mg y quinoa 50 mg por 2 cápsulas. Distinguir extracto de cuerpo fructífero o micelio y grado de estandarización antes de comparar estudios. La quinoa es un componente minoritario.",
+        87: "Tirosina 350 mg, arándano azul 100 mg y vitamina C 50 mg por cápsula. Enfoque en aporte para exigencia mental y cuidado antioxidante. Las dosis del ensayo en frío fueron muy superiores; no atribuir ese resultado a esta cápsula.",
+        70: "Ginkgo estandarizado a 24% de flavonoides y 6% de terpenlactonas. La ficha expresa equivalencia a polvo seco, no una masa inequívoca de extracto; confirmar cantidad y preparación antes de compararlo con ensayos de memoria. Revisar anticoagulantes.",
         58: "Cansancio asociado al estrés como enfoque principal: rhodiola 450 mg y citrato con aproximadamente 70 mg de magnesio elemental por porción; polen 50 mg como complemento minoritario. La rhodiola no debe describirse como sedante.",
         68: "GABA con B5, B12, zinc y selenio: orientación a relajación con apoyo nutricional. La ficha declara 1200 mg de GABA por 2 cápsulas; no equiparar esa cantidad con las de ensayos de otras preparaciones ni prometer mayor efecto por más miligramos.",
         256: "Pasiflora como único ingrediente vegetal activo, en perlas con 3 g de sacarosa por porción. Uso tradicional para calma y descanso; la ficha no declara la cantidad de extracto de pasiflora.",
@@ -58,7 +62,7 @@
         135: 'Proteína de chícharo y arroz con probióticos, sabor vainilla.',
         136: 'Coenzima Q10 con vitamina B6 y baya dorada; distinta de la fórmula de ubiquinol.',
         141: 'Sábila, cardamomo, jengibre y colpachi para bienestar digestivo; distinguir gases y pesadez de gastritis y colitis.',
-        149: 'Magnesio en forma de treonato con vitaminas; enfoque de bienestar mental.',
+        149: "L-treonato de magnesio 288 mg y vitamina C 137.06 mg por 2 cápsulas. El peso de L-treonato no equivale a magnesio elemental. La vitamina D figura como 0.01 mcg; confirmar esa unidad. No equiparar esta cantidad de treonato a los gramos diarios usados en otros ensayos.",
         154: 'Calcio en cápsulas con vitamina D3; distinto de las mezclas en polvo con probióticos.',
         158: 'Proteína vegetal sabor cacao con probióticos; comparar proteína por porción.',
         163: "Ashwagandha, teanina y magnesio para estrés y relajación. La ficha contiene cantidades y porciones incompatibles entre sí; confirmar composición y número de cápsulas con la etiqueta vigente antes de indicar una dosis o comparar aportes.",
@@ -93,7 +97,7 @@
         262: 'Calcio en polvo con probióticos e inulina; combina aporte mineral y enfoque digestivo.',
         263: 'Plata coloidal: no presentar como alternativa nutricional con beneficios demostrados.',
         265: 'Zeolita: revisar evidencia y seguridad; evitar presentarla como un desintoxicante probado.',
-        271: 'Albizia + bacopa + teanina y magnesio; su enfoque es calma con atención y memoria.',
+        271: "Calma y cuidado de la memoria: albizia 300 mg, bacopa en polvo 200 mg, teanina 100 mg y 42 mg de magnesio elemental por 2 cápsulas. La bacopa es polvo de partes aéreas, diferente de los extractos estandarizados de ensayos de memoria. Comparar con Albizia + Rhodiola, orientada a cansancio por estrés.",
         272: "Calma y vitalidad diurna: albizia 300 mg, rhodiola 200 mg, teanina 100 mg y 42 mg de magnesio elemental por 2 cápsulas. Distinguir el extracto 1:1 de albizia y la rhodiola al 3% de salidrósidos de preparaciones usadas en otros estudios.",
         274: 'Extracto de hojas de guanábana con vitamina C en presentación líquida de 1 L.'
     };
