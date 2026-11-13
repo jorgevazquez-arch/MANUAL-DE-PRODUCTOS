@@ -591,15 +591,47 @@
       "id": 32,
       "ingredients": "Extracto de raíz de ashwagandha (600 mg, estandarizado al 5% withanólidos), polvo de raíz de ashwagandha (700 mg) por porción.",
       "benefits": [
-        "Puede ayudar a relajarse y descansar con extracto de ashwagandha y polvo de su raíz."
-      ]
+        "Manejo del estrés cotidiano: el extracto de ashwagandha puede ayudar a reducir la sensación de tensión; la raíz en polvo complementa la preparación.",
+        "Relajación y descanso: la ashwagandha puede favorecer la calidad del sueño como complemento de una rutina de descanso."
+      ],
+      "shortDesc": "Fórmula de ashwagandha para acompañar el manejo del estrés cotidiano y favorecer la relajación y el descanso. Combina 600 mg de extracto de raíz al 5% de withanólidos con 700 mg de raíz en polvo por porción. El extracto aporta una cantidad definida de estos compuestos y el polvo complementa la preparación vegetal. Su enfoque reúne calma durante etapas de exigencia y apoyo a la rutina de sueño.",
+      "benefitSummary": "Estrés cotidiano y descanso con extracto y raíz",
+      "researchNote": {
+        "focus": "Estrés cotidiano y descanso con extracto y raíz",
+        "sources": [
+          {
+            "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+            "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+          },
+          {
+            "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
+          }
+        ]
+      }
     },
     {
       "id": 33,
       "ingredients": "Extracto de raíz de ashwagandha (500 mg, estandarizado al 5% withanólidos), celulosa microcristalina, estearato magnésico.",
       "benefits": [
-        "Puede ayudar a relajarse y descansar con ashwagandha. La celulosa microcristalina y el estearato magnésico ayudan a dar forma a la cápsula."
-      ]
+        "Calma ante la exigencia diaria: el extracto de ashwagandha puede ayudar a manejar el estrés cotidiano y reducir la sensación de tensión.",
+        "Apoyo al descanso: la ashwagandha puede favorecer la relajación y la calidad del sueño dentro de una rutina de descanso."
+      ],
+      "shortDesc": "Extracto de raíz de ashwagandha en tabletas para acompañar el manejo del estrés cotidiano, la relajación y el descanso. Cada tableta declara 500 mg de extracto al 5% de withanólidos. Su diferencia frente a ROOT está en utilizar extracto como único ingrediente vegetal activo y en la presentación en tabletas. La celulosa microcristalina y el estearato magnésico dan forma a la tableta y facilitan su fabricación.",
+      "benefitSummary": "Estrés y relajación con extracto de ashwagandha",
+      "researchNote": {
+        "focus": "Estrés y relajación con extracto de ashwagandha",
+        "sources": [
+          {
+            "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+            "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+          },
+          {
+            "title": "Extracto de raíz de ashwagandha: ensayo sobre estrés en adultos",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/"
+          }
+        ]
+      }
     },
     {
       "id": 34,
@@ -823,8 +855,29 @@
       "id": 58,
       "ingredients": "Citrato de magnesio (aporte de magnesio elemental ≈ 70 mg) (500 mg), Rhodiola Rosea (extracto de raíz estandarizado en rosavinas y salidrósido) (450 mg), polen de abeja en polvo (50 mg).",
       "benefits": [
-        "Puede ayudar con el cansancio en días de estrés con Rhodiola rosea. El magnesio del citrato ayuda a músculos y nervios a funcionar bien y el polen de abeja completa el aporte alimentario."
-      ]
+        "Vitalidad ante el estrés: la rhodiola se utiliza tradicionalmente para aliviar temporalmente el cansancio y la sensación de debilidad asociados al estrés.",
+        "Energía y funcionamiento muscular: el magnesio del citrato ayuda a aprovechar los alimentos y al funcionamiento de músculos y nervios.",
+        "Complemento de la fórmula: el polen de abeja se incluye en pequeña cantidad dentro de la mezcla centrada en rhodiola y magnesio."
+      ],
+      "shortDesc": "Fórmula centrada en el cansancio asociado al estrés y el apoyo a la vitalidad durante la actividad diaria. La rhodiola aporta su uso tradicional para aliviar temporalmente la sensación de fatiga y debilidad en etapas de exigencia. El citrato de magnesio complementa el funcionamiento muscular y nervioso y la obtención de energía de los alimentos. El polen de abeja se incorpora en pequeña cantidad a la mezcla.",
+      "benefitSummary": "Cansancio asociado al estrés y vitalidad diaria",
+      "researchNote": {
+        "focus": "Cansancio asociado al estrés y vitalidad diaria",
+        "sources": [
+          {
+            "title": "EMA: uso tradicional de rhodiola para cansancio asociado al estrés",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix"
+          },
+          {
+            "title": "NIH: magnesio, músculos, nervios y producción de energía",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          },
+          {
+            "title": "NCCIH: rhodiola, usos y precauciones",
+            "url": "https://www.nccih.nih.gov/health/rhodiola"
+          }
+        ]
+      }
     },
     {
       "id": 59,
@@ -892,9 +945,37 @@
       "id": 68,
       "ingredients": "GABA (1200 mg), zinc (20 mg), selenio (100 mcg), vitamina B5 (20 mg), vitamina B12 (12 mcg) por porción.",
       "benefits": [
-        "Se usa para acompañar la calma con GABA. Las vitaminas B5 y B12 ayudan a aprovechar los alimentos y al funcionamiento de los nervios.",
-        "El zinc y el selenio complementan el cuidado de las células."
-      ]
+        "Calma cotidiana: el GABA oral puede acompañar la relajación en etapas de tensión y mayor exigencia.",
+        "Apoyo a los nervios y la energía: la vitamina B12 contribuye al funcionamiento nervioso y la B5 ayuda a aprovechar los alimentos.",
+        "Cuidado celular y defensas: el zinc y el selenio complementan la protección antioxidante y el funcionamiento normal del sistema inmunitario."
+      ],
+      "shortDesc": "Fórmula con GABA, vitaminas B5 y B12, zinc y selenio, orientada a acompañar la relajación en etapas de tensión cotidiana. El GABA oral puede apoyar la calma, mientras que la vitamina B12 contribuye al funcionamiento de los nervios y la B5 ayuda a obtener energía de los alimentos. El zinc y el selenio complementan el cuidado de las células y el funcionamiento de las defensas.",
+      "benefitSummary": "Relajación con apoyo nutricional para los nervios",
+      "researchNote": {
+        "focus": "Relajación con apoyo nutricional para los nervios",
+        "sources": [
+          {
+            "title": "GABA oral: ensayo exploratorio sobre relajación y respuesta al estrés",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16971751/"
+          },
+          {
+            "title": "NIH: vitamina B5 y energía de los alimentos",
+            "url": "https://ods.od.nih.gov/factsheets/PantothenicAcid-Consumer/"
+          },
+          {
+            "title": "NIH: vitamina B12 y funcionamiento nervioso",
+            "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+          },
+          {
+            "title": "NIH: zinc y función inmunitaria",
+            "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+          },
+          {
+            "title": "NIH: selenio y protección frente al daño oxidativo",
+            "url": "https://ods.od.nih.gov/factsheets/Selenium-HealthProfessional/"
+          }
+        ]
+      }
     },
     {
       "id": 69,
@@ -1721,8 +1802,29 @@
       "id": 163,
       "ingredients": "Extracto de Ashwagandha (Withania somnifera) estandarizado al 2.5% de withanólidos (600 mg por porción diaria), L-Teanina (200 mg por porción diaria), Bisglicinato de Magnesio (aporta 225 mg de magnesio elemental por porción diaria).",
       "benefits": [
-        "Puede acompañar la calma y la rutina de descanso con ashwagandha y L-teanina. El magnesio del bisglicinato complementa el funcionamiento normal de los nervios y músculos."
-      ]
+        "Manejo del estrés: la ashwagandha puede ayudar a reducir la sensación de tensión en etapas de mayor exigencia cotidiana.",
+        "Relajación: la L-teanina puede acompañar la calma y complementa el enfoque de la ashwagandha dentro de la fórmula.",
+        "Funcionamiento muscular y nervioso: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios y al aprovechamiento de energía."
+      ],
+      "shortDesc": "Fórmula para acompañar el manejo del estrés cotidiano y la relajación, con ashwagandha, L-teanina y magnesio. La ashwagandha puede ayudar con la sensación de tensión y la teanina complementa la orientación hacia la calma. El magnesio del bisglicinato contribuye al funcionamiento normal de músculos y nervios. Su enfoque combina apoyo ante la exigencia diaria con el aporte nutricional del mineral.",
+      "benefitSummary": "Estrés cotidiano, relajación y funcionamiento muscular",
+      "researchNote": {
+        "focus": "Estrés cotidiano, relajación y funcionamiento muscular",
+        "sources": [
+          {
+            "title": "NIH: ashwagandha, estrés, descanso y precauciones",
+            "url": "https://ods.od.nih.gov/factsheets/Ashwagandha-HealthProfessional/"
+          },
+          {
+            "title": "L-teanina: ensayo sobre estrés y aspectos del sueño",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+          },
+          {
+            "title": "NIH: magnesio, músculos, nervios y producción de energía",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
     },
     {
       "id": 164,
@@ -2683,9 +2785,33 @@
       "id": 272,
       "ingredients": "Por porción de 2 cápsulas (900 mg): extracto seco de Albizia (Albizia julibrissin, 1:1) 300 mg; extracto de raíz de Rhodiola rosea 200 mg, estandarizado al 3 % de salidrósidos (aporta 6 mg); L-teanina 100 mg; bisglicinato de magnesio 300 mg (aporta 42 mg de magnesio elemental). Excipientes: gelatina y agua purificada.",
       "benefits": [
-        "Puede ayudar a sentirse más tranquilo con Albizia y L-teanina. Rhodiola rosea se usa para el cansancio en días de estrés.",
-        "El magnesio del bisglicinato ayuda a músculos y nervios a funcionar bien. Gelatina y agua purificada forman la cápsula."
-      ]
+        "Calma cotidiana: la Albizia aporta su uso tradicional para la tranquilidad y la L-teanina complementa la orientación relajante de la mezcla.",
+        "Vitalidad mental: la Rhodiola rosea se utiliza tradicionalmente para aliviar el cansancio en días de estrés y la sensación de debilidad.",
+        "Funcionamiento nervioso y muscular: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios."
+      ],
+      "shortDesc": "Fórmula para acompañar la calma y la vitalidad en etapas de estrés y cansancio mental. Combina el uso tradicional de la albizia para la tranquilidad con L-teanina, mientras que la rhodiola aporta su uso tradicional para la fatiga asociada al estrés. El magnesio del bisglicinato complementa el funcionamiento de músculos y nervios. La ficha orienta su consumo por la mañana o al mediodía.",
+      "benefitSummary": "Calma y vitalidad ante el estrés y el cansancio mental",
+      "researchNote": {
+        "focus": "Calma y vitalidad ante el estrés y el cansancio mental",
+        "sources": [
+          {
+            "title": "Albizia: contexto de uso tradicional e investigación experimental",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4889836/"
+          },
+          {
+            "title": "L-teanina: ensayo sobre estrés y aspectos del sueño",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+          },
+          {
+            "title": "EMA: uso tradicional de rhodiola para cansancio asociado al estrés",
+            "url": "https://www.ema.europa.eu/en/medicines/herbal/rhodiolae-roseae-rhizoma-et-radix"
+          },
+          {
+            "title": "NIH: magnesio, músculos, nervios y producción de energía",
+            "url": "https://ods.od.nih.gov/factsheets/Magnesium-HealthProfessional/"
+          }
+        ]
+      }
     },
     {
       "id": 273,

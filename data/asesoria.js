@@ -2,6 +2,8 @@
 (() => {
     const { productos, padecimientos } = window.manualData;
     const choiceNotes = {
+        58: "Cansancio asociado al estrés como enfoque principal: rhodiola 450 mg y citrato con aproximadamente 70 mg de magnesio elemental por porción; polen 50 mg como complemento minoritario. La rhodiola no debe describirse como sedante.",
+        68: "GABA con B5, B12, zinc y selenio: orientación a relajación con apoyo nutricional. La ficha declara 1200 mg de GABA por 2 cápsulas; no equiparar esa cantidad con las de ensayos de otras preparaciones ni prometer mayor efecto por más miligramos.",
         256: "Pasiflora como único ingrediente vegetal activo, en perlas con 3 g de sacarosa por porción. Uso tradicional para calma y descanso; la ficha no declara la cantidad de extracto de pasiflora.",
         218: "Aporta 100 mg de 5-HTP por cápsula de 500 mg; el resto corresponde al excipiente. Enfoque en descanso y formación de serotonina. Revisar medicamentos antes de combinarlo con triptófano u otras fórmulas con 5-HTP.",
         169: "Infusión de uso tradicional para calma y descanso. La ficha enumera nueve plantas aunque el nombre comercial diga 7 azahares; conservar la composición declarada y distinguirla de extractos o cápsulas.",
@@ -18,8 +20,8 @@
         24: 'Proteína de huevo: alternativa a las proteínas de leche y vegetales.',
         25: 'Espirulina en polvo para añadir a preparaciones, frente a la opción en cápsulas.',
         26: 'Espirulina en cápsulas para quien prefiere evitar el sabor del polvo.',
-        32: 'Combina extracto y polvo de raíz de ashwagandha, sin magnesio añadido.',
-        33: 'Ashwagandha en tabletas: extracto de raíz, frente a las mezclas con otros ingredientes.',
+        32: "Estrés y descanso: combina 600 mg de extracto al 5% con 700 mg de raíz en polvo por 2 cápsulas. El extracto declara 30 mg de withanólidos; el polvo no está estandarizado. Comparar preparación y porción, además de los miligramos.",
+        33: "Extracto de raíz en tabletas: 500 mg al 5%, equivalentes a 25 mg de withanólidos declarados por tableta. La celulosa y el estearato magnésico son excipientes. El enfoque coincide con ROOT; cambia la preparación y la presentación.",
         35: 'Proteína de res con creatina y taurina: la ficha declara 7600 mg de creatina por porción; verificar etiqueta y no sumar creatina sin revisar el total.',
         36: 'Berberina con zinc; la tabla vigente del catálogo usa una porción de 2 cápsulas.',
         46: 'Citrato en polvo con colágeno: opción para quien prefiere una bebida a las cápsulas.',
@@ -59,7 +61,7 @@
         149: 'Magnesio en forma de treonato con vitaminas; enfoque de bienestar mental.',
         154: 'Calcio en cápsulas con vitamina D3; distinto de las mezclas en polvo con probióticos.',
         158: 'Proteína vegetal sabor cacao con probióticos; comparar proteína por porción.',
-        163: 'Combina ashwagandha, teanina y magnesio; opción distinta de la ashwagandha sola.',
+        163: "Ashwagandha, teanina y magnesio para estrés y relajación. La ficha contiene cantidades y porciones incompatibles entre sí; confirmar composición y número de cápsulas con la etiqueta vigente antes de indicar una dosis o comparar aportes.",
         166: 'Vitamina D3 de 5000 UI por cápsula: requiere revisar el aporte total y la indicación individual.',
         171: 'Té de árnica mexicana Heterotheca inuloides: confirmar las indicaciones para beberlo; no trasladar los usos de una pomada.',
         172: 'Cuachalalate de uso tradicional para molestias del estómago; distinguir gastritis, gases y colitis en la asesoría.',
@@ -92,7 +94,7 @@
         263: 'Plata coloidal: no presentar como alternativa nutricional con beneficios demostrados.',
         265: 'Zeolita: revisar evidencia y seguridad; evitar presentarla como un desintoxicante probado.',
         271: 'Albizia + bacopa + teanina y magnesio; su enfoque es calma con atención y memoria.',
-        272: 'Albizia + rhodiola + teanina y magnesio; su enfoque es bienestar mental ante la demanda cotidiana.',
+        272: "Calma y vitalidad diurna: albizia 300 mg, rhodiola 200 mg, teanina 100 mg y 42 mg de magnesio elemental por 2 cápsulas. Distinguir el extracto 1:1 de albizia y la rhodiola al 3% de salidrósidos de preparaciones usadas en otros estudios.",
         274: 'Extracto de hojas de guanábana con vitamina C en presentación líquida de 1 L.'
     };
 

@@ -12,8 +12,8 @@ window.manualData.padecimientos = [
         description: "La ansiedad y el estrés pueden causar preocupación, tensión y dificultad para descansar. Las opciones de esta guía buscan acompañar la relajación y el descanso, según lo que necesite cada persona.",
         symptoms: ['Preocupación excesiva y pensamientos recurrentes', 'Tensión muscular', 'Irritabilidad', 'Dificultad para concentrarse', 'Palpitaciones', 'Problemas para dormir'],
         comboPrincipal: [
-            { id: 163, serving: '3 cápsulas', usage: 'Tomar esta porción al día con alimentos.', rationale: "Ashwagandha y teanina para acompañar la relajación, con magnesio para el buen funcionamiento de los nervios." },
-            { id: 68, serving: '2-3 cápsulas', usage: 'Tomar esta porción repartidas durante el día. Con alimentos.', rationale: "Se utiliza como complemento de una rutina de calma; su beneficio al tomarlo puede variar." }
+            { id: 163, serving: 'Porción por confirmar', usage: 'Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.', rationale: "Ashwagandha y teanina para acompañar la relajación, con magnesio para el buen funcionamiento de los nervios." },
+            { id: 68, serving: '2 cápsulas', usage: 'Tomar esta porción al día con alimentos, según la ficha del producto.', rationale: "Se utiliza como complemento de una rutina de calma; su beneficio al tomarlo puede variar." }
         ],
         comboSecundario: [
             { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: "La ashwagandha puede acompañar la respuesta al estrés cotidiano." },
@@ -61,7 +61,7 @@ window.manualData.padecimientos = [
         ],
         comboSecundario: [
             { id: 32, serving: '2 cápsulas', usage: 'Tomar esta porción con la cena.', rationale: "La ashwagandha puede acompañar la relajación en etapas de estrés." },
-            { id: 163, serving: '3 cápsulas', usage: 'Tomar esta porción al día. Con alimentos.', rationale: "Ashwagandha y teanina para acompañar la calma, con magnesio para los nervios." },
+            { id: 163, serving: 'Porción por confirmar', usage: 'Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.', rationale: "Ashwagandha y teanina para acompañar la calma, con magnesio para los nervios." },
             { id: 4, serving: '3 cápsulas', usage: 'Tomar esta porción por la mañana. Con alimentos.', rationale: "Las vitaminas B apoyan los nervios; no funcionan como producto para dormir." }
         ],
         lifestyleTips: ['Evitar pantallas (luz azul) al menos 1 hora antes de dormir.', 'Mantener un horario de sueño regular.', 'Tomar una infusión relajante como TÉ 7 AZAHARES o TÉ MANZANILLA.']

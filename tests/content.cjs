@@ -59,7 +59,7 @@ test('los beneficios integran los ingredientes antes omitidos y explican sus apo
         [158, ['chícharo', 'arroz', 'leucina', 'isoleucina', 'valina', 'Lactobacillus acidophilus', 'Bifidobacterium bifidum', 'cocoa', 'cacao', 'sal rosa', 'stevia']],
         [246, ['inulina', 'L-glutamina', 'NAG', 'aloe vera', 'zinc L-carnosina', 'D3', 'frambuesa', 'ácido cítrico', 'esteviol']],
         [271, ['Albizia', 'Bacopa', 'L-teanina', 'magnesio', 'gelatina', 'agua']],
-        [272, ['Albizia', 'Rhodiola', 'L-teanina', 'magnesio', 'gelatina', 'agua']]
+        [272, ['Albizia', 'Rhodiola', 'L-teanina', 'magnesio']]
     ];
     for (const [id, ingredients] of cases) {
         const text = productos.find(product => product.id === id).benefits.join(' ').toLowerCase();
@@ -67,7 +67,10 @@ test('los beneficios integran los ingredientes antes omitidos y explican sus apo
     }
     assert.match(productos.find(p => p.id === 3).benefits.join(' '), /ayuda a formar el colágeno/);
     assert.match(productos.find(p => p.id === 1).benefits.join(' '), /pequeñas cantidades/);
-    assert.match(productos.find(p => p.id === 33).benefits.join(' '), /ayudan a dar forma a la cápsula/);
+    const ashwagandha = productos.find(p => p.id === 33);
+    assert.match(ashwagandha.shortDesc, /celulosa microcristalina y el estearato magnésico dan forma a la tableta/);
+    assert(!/celulosa|estearato/i.test(ashwagandha.benefits.join(' ')));
+    assert.match(productos.find(p => p.id === 272).ingredients, /Excipientes: gelatina y agua purificada/);
     assert.match(productos.find(p => p.id === 263).benefits.join(' '), /evitar su consumo por vía oral/i);
 });
 
