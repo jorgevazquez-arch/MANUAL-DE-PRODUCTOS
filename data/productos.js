@@ -1737,30 +1737,47 @@ window.manualData.productos = [
   id: 70,
   code: "7503026253502",
   name: "GINKGO BILOBA",
-  benefitSummary: "Cuidado de la memoria y uso tradicional circulatorio",
+  benefitSummary: "Cuidado cognitivo, circulatorio y antioxidante",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
-  shortDesc: "Ginkgo biloba en cápsulas, orientado al cuidado de la memoria y al uso tradicional circulatorio. Extractos específicos se han utilizado para el cuidado cognitivo en adultos con deterioro asociado a la edad.",
+  shortDesc: "Fórmula de ginkgo biloba con ajo, lecitina de soya, vitamina C y resveratrol, orientada al cuidado cognitivo, circulatorio y antioxidante. El ginkgo aporta su orientación al cuidado de la memoria y su uso tradicional circulatorio; el ajo complementa el cuidado cardiovascular. La lecitina aporta fosfolípidos para las células, mientras que la vitamina C y el resveratrol completan el perfil antioxidante de la mezcla.",
   researchNote: {
-    "focus": "Cuidado de la memoria y uso tradicional circulatorio",
+    "focus": "Cuidado cognitivo, circulatorio y antioxidante de una fórmula con cinco ingredientes",
     "sources": [
       {
-        "title": "EMA: ginkgo, preparaciones para cuidado cognitivo y uso tradicional circulatorio",
-        "url": "https://www.ema.europa.eu/en/medicines/herbal/ginkgo-folium"
+        "title": "NCCIH: ginkgo, usos y precauciones",
+        "url": "https://www.nccih.nih.gov/health/ginkgo"
+      },
+      {
+        "title": "NCCIH: ajo y cuidado cardiovascular",
+        "url": "https://www.nccih.nih.gov/health/garlic"
+      },
+      {
+        "title": "NIH: colina y fosfolípidos de las membranas celulares",
+        "url": "https://ods.od.nih.gov/factsheets/Choline-HealthProfessional/"
+      },
+      {
+        "title": "NIH: vitamina C y función antioxidante",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+      },
+      {
+        "title": "MSK: resveratrol, actividad experimental y precauciones",
+        "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/resveratrol"
       }
     ]
   },
-  ingredients: "Extracto de Ginkgo biloba (estandarizado a 24% flavonoides glicósidos y 6% terpenlactonas).",
-  serving: "3 cápsulas",
+  ingredients: "Ajo (Allium sativum), Ginkgo biloba, lecitina de soya, vitamina C (ácido ascórbico) y resveratrol. Ingredientes en el orden declarado en la etiqueta.",
+  serving: "3 cápsulas (1 porción)",
   timing: "Con alimentos",
-  intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
+  intakeInstructions: "Tomar 3 cápsulas al día con alimentos. El envase contiene 30 porciones y rinde 30 días con una porción diaria.",
   benefits: [
-    "Cuidado de la memoria: extractos específicos de ginkgo se utilizan en adultos con deterioro cognitivo asociado a la edad, según la preparación.",
-    "Bienestar circulatorio: las preparaciones de hoja de ginkgo tienen uso tradicional para molestias circulatorias leves, tras descartar causas que requieran atención médica."
+    "Cuidado cognitivo: el ginkgo se emplea en preparaciones para la memoria; la lecitina de soya aporta fosfolípidos para las membranas celulares.",
+    "Cuidado cardiovascular: el ajo se utiliza como complemento del cuidado del corazón y acompaña el enfoque circulatorio tradicional del ginkgo.",
+    "Cuidado antioxidante: la vitamina C contribuye a proteger las células; el resveratrol aporta un compuesto vegetal con actividad antioxidante experimental."
   ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud.",
+  contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Puede aumentar el riesgo de sangrado con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes."
+  interactions: "El ajo y el ginkgo pueden aumentar el riesgo de sangrado al combinarse con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. El resveratrol también requiere revisar esa combinación con su médico o farmacéutico."
 },
 
 // 71. GLUTAMINE FEAR (300 g)
