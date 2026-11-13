@@ -1740,7 +1740,7 @@ window.manualData.productos = [
   benefitSummary: "Cuidado de la memoria y uso tradicional circulatorio",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
-  shortDesc: "Ginkgo biloba en cápsulas, orientado al cuidado de la memoria y al uso tradicional circulatorio. Declara un extracto con 24% de flavonoides y 6% de terpenlactonas. Extractos específicos se han utilizado para el cuidado cognitivo en adultos con deterioro asociado a la edad. Para comparar esta presentación con otras, se debe revisar la cantidad real de extracto y su preparación, además del porcentaje declarado.",
+  shortDesc: "Ginkgo biloba en cápsulas, orientado al cuidado de la memoria y al uso tradicional circulatorio. Extractos específicos se han utilizado para el cuidado cognitivo en adultos con deterioro asociado a la edad.",
   researchNote: {
     "focus": "Cuidado de la memoria y uso tradicional circulatorio",
     "sources": [
