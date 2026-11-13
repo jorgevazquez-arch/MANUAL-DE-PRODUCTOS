@@ -784,7 +784,7 @@ window.manualData.productos = [
     name: "ASHWAGANDA ROOT",
     benefitSummary: "Raíz de ashwagandha en polvo para calma y descanso",
     category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ASHWAGANDA-ROOT1.webp",
+    image: "https://investigacioncbg.com/wp-content/uploads/2026/11/ASHWAGANDHAROOT.jpg",
     shortDesc: "Raíz de ashwagandha en polvo como único ingrediente, en un envase con 120 cápsulas de 500 mg cada una. Su uso tradicional se orienta a acompañar la calma ante el estrés cotidiano y la rutina de descanso. Esta presentación conserva la raíz molida como preparación vegetal. El enfoque de la ficha es la relajación y el bienestar durante etapas de mayor exigencia diaria.",
     researchNote: {
       "focus": "Uso tradicional de raíz de ashwagandha en polvo para calma y descanso",
