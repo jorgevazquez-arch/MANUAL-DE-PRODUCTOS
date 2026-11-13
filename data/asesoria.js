@@ -2,6 +2,10 @@
 (() => {
     const { productos, padecimientos } = window.manualData;
     const choiceNotes = {
+        256: "Pasiflora como único ingrediente vegetal activo, en perlas con 3 g de sacarosa por porción. Uso tradicional para calma y descanso; la ficha no declara la cantidad de extracto de pasiflora.",
+        218: "Aporta 100 mg de 5-HTP por cápsula de 500 mg; el resto corresponde al excipiente. Enfoque en descanso y formación de serotonina. Revisar medicamentos antes de combinarlo con triptófano u otras fórmulas con 5-HTP.",
+        169: "Infusión de uso tradicional para calma y descanso. La ficha enumera nueve plantas aunque el nombre comercial diga 7 azahares; conservar la composición declarada y distinguirla de extractos o cápsulas.",
+        150: "Calma y transición al descanso con triptófano, teanina y azahar; la vitamina D3 es un aporte nutricional complementario. Contiene 300 mg de triptófano y 100 mg de teanina por cápsula.",
         1: 'Cloruro en polvo: permite preparar una bebida y medir la porción.',
         3: 'Colágeno con vitamina C y biotina; se distingue de las fórmulas de colágeno solo.',
         7: 'Creatina monohidratada en polvo, sin combinarla con una fórmula multivitamínica.',
@@ -31,7 +35,7 @@
         91: 'Blend de citrato, gluconato y óxido para aporte general de magnesio; comparar el magnesio elemental, no solo el peso de las sales.',
         92: 'Malato de magnesio con vitamina B6; comparar su composición con citrato o bisglicinato.',
         93: 'Fórmula AM: citrato y bisglicinato con B6 para músculos y actividad diaria; la inulina es secundaria y no es un estimulante.',
-        94: 'Fórmula PM: magnesio con glicina, teanina, manzanilla y 5-HTP; orientada a la rutina nocturna.',
+        94: "Preparación para el descanso nocturno: magnesio con L-teanina, glicina, manzanilla y 5-HTP. La ficha declara 150 mg de magnesio elemental por porción de 3 cápsulas; distinguirlo del peso de las sales y del nombre comercial.",
         96: 'Aporta proteína y una cantidad importante de calorías; distinto de una proteína sola.',
         101: 'Ubiquinol: una forma de coenzima Q10, en una base de aceite.',
         102: 'El extracto de cúrcuma se incluye por su posible ayuda con dolor y rigidez articular; también contiene colágeno tipo II y boswellia.',

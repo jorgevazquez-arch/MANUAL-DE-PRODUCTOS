@@ -2204,10 +2204,10 @@ window.manualData.productos = [
   id: 94,
   code: "7500645001538",
   name: "MAGNESIUM PM 600mg",
-  benefitSummary: "Calma, bienestar mental y rutina de descanso",
+  benefitSummary: "Relajación y preparación para el descanso nocturno",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual-PM1.jpg",
-  shortDesc: "Combina magnesio, teanina, manzanilla y otros ingredientes para acompañar una rutina de relajación y descanso nocturno.",
+  shortDesc: "Fórmula de noche para acompañar la relajación y la preparación para dormir. Combina L-teanina y manzanilla con glicina y 5-HTP dentro de su orientación al descanso. El magnesio del bisglicinato y el citrato, junto con la vitamina B6, complementa el funcionamiento de músculos y nervios. La inulina aporta una pequeña cantidad de fibra como componente secundario de la mezcla.",
   researchNote: {
     "focus": "Calma y preparación para el descanso nocturno",
     "text": "Calma y preparación para el descanso nocturno: esta fórmula combina magnesio con L-teanina, glicina, manzanilla y 5-HTP. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño; otro ensayo con bisglicinato de magnesio encontró mejoras en indicadores de descanso. Estas investigaciones sobre ingredientes ayudan a explicar la orientación nocturna de la fórmula. La vitamina B6 complementa el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra.",
@@ -2227,9 +2227,10 @@ window.manualData.productos = [
   timing: "Por la noche, 30-60 min antes de dormir",
   intakeInstructions: "Tomar 3 cápsulas por la noche.",
   benefits: [
-    "Calma y preparación para dormir: combina L-teanina, glicina, manzanilla y 5-HTP como parte de su orientación nocturna. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño.",
-    "Funcionamiento de músculos y nervios: el magnesio del bisglicinato y el citrato complementa el aporte de este mineral durante la rutina de descanso.",
-    "La vitamina B6 acompaña el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra."
+    "Relajación antes de dormir: la L-teanina y la manzanilla acompañan la calma; la glicina complementa la fórmula nocturna.",
+    "Apoyo al descanso: el 5-HTP participa en la formación de serotonina y melatonina; la vitamina B6 apoya el funcionamiento nervioso.",
+    "Funcionamiento muscular y nervioso: el bisglicinato y el citrato aportan magnesio para la actividad normal de músculos y nervios.",
+    "Aporte complementario de fibra: la inulina se incluye en una pequeña cantidad dentro de una fórmula centrada en el descanso."
   ],
   contraindications: "No se recomienda su uso simultáneo con medicamentos antidepresivos, ansiolíticos o inductores del sueño sin consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3446,17 +3447,35 @@ window.manualData.productos = [
   id: 150,
   code: "7503025069852",
   name: "TRIPTOFANO TEANINA 500 mg",
-  benefitSummary: "Calma, bienestar mental y rutina de descanso",
+  benefitSummary: "Relajación y transición al descanso",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TRIPTOFANO1.jpg",
-  shortDesc: "Triptófano, teanina y azahar con vitamina D3 para acompañar una rutina de relajación y descanso.",
+  shortDesc: "Fórmula para acompañar la relajación y la preparación para dormir, con L-triptófano, teanina y azahar. El triptófano aporta material para producir serotonina y melatonina, mientras que la teanina complementa el uso tradicional relajante del azahar. La vitamina D3 añade apoyo nutricional para músculos, huesos y defensas. Su enfoque combina calma y descanso con estos aportes complementarios en una cápsula.",
+  researchNote: {
+    "focus": "Relajación y transición al descanso",
+    "sources": [
+      {
+        "title": "L-triptófano: participación en la producción de serotonina y melatonina",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8496306/"
+      },
+      {
+        "title": "L-teanina: ensayo sobre estrés y aspectos del sueño",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31623400/"
+      },
+      {
+        "title": "NIH: vitamina D, músculos, huesos y función inmunitaria",
+        "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+      }
+    ]
+  },
   ingredients: "L-Triptófano (300 mg), azahar (100 mg), teanina (100 mg), vitamina D3 (10 mcg) por cápsula.",
   serving: "1 cápsula (500 mg)",
   timing: "Antes de dormir o con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente antes de dormir.",
   benefits: [
-    "Puede ayudar a relajarse y prepararse para dormir con L-triptófano, teanina y azahar.",
-    "La vitamina D3 complementa el cuidado de músculos y defensas."
+    "Calma antes de acostarse: la teanina complementa el uso tradicional del azahar para ayudar a relajarse y prepararse para dormir.",
+    "Ciclo de sueño: el L-triptófano aporta material para producir serotonina y melatonina, que participan en la regulación del descanso.",
+    "Apoyo nutricional complementario: la vitamina D3 contribuye al funcionamiento de músculos y defensas y al mantenimiento de los huesos."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos (ISRS, IMAO), ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -3838,17 +3857,40 @@ window.manualData.productos = [
     id: 169,
     code: "7503024738261",
     name: "TÉ 7 AZAHARES",
-    benefitSummary: "Infusión para una pausa y una rutina de calma",
+    benefitSummary: "Infusión tradicional para la calma y el descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-7-AZAHARES-scaled.png",
-    shortDesc: "Mezcla de hierbas y flores de uso tradicional para acompañar una pausa de relajación y la rutina de descanso.",
+    shortDesc: "Infusión de plantas y flores para acompañar una pausa de tranquilidad y la rutina nocturna. Reúne pasiflora, toronjil, tila y azahar con yerbaniz, zapote blanco y flor de manita, dentro de una mezcla herbolaria de uso tradicional para los nervios y el descanso. La manzanilla y la hierbabuena complementan su aroma y sabor. Su enfoque es una bebida reconfortante al terminar el día.",
+    researchNote: {
+      "focus": "Infusión tradicional para la calma y el descanso",
+      "sources": [
+        {
+          "title": "EMA: uso tradicional de la pasiflora para estrés leve y sueño",
+          "url": "https://www.ema.europa.eu/en/medicines/herbal/passiflorae-herba"
+        },
+        {
+          "title": "UNAM: investigación sobre zapote blanco y su uso tradicional",
+          "url": "https://www.dgcs.unam.mx/boletin/bdboletin/2015_607.html"
+        },
+        {
+          "title": "UAM: yerbaniz y su uso en la medicina tradicional mexicana",
+          "url": "https://repositorio.xoc.uam.mx/jspui/handle/123456789/26351"
+        },
+        {
+          "title": "UTEP: flor de manita, usos tradicionales y precauciones",
+          "url": "https://www.utep.edu/herbal-safety/hechos-herbarios/hojas-de-datos-a-base-de-hierbas/flor-de-manita.html"
+        }
+      ]
+    },
     ingredients: "Yerbaniz (Tagetes lucida), flor de manzanilla (Chamaemelum nobile), zapote blanco (Casimiroa edulis), hojas de naranja/flor de azahar (Citrus aurantium), hierbabuena (Mentha spicata), pasiflora (Passiflora incarnata), flor de toronjil (Melissa officinalis), flor de manita (Chiranthodendron pentadactylon), flor de tila (Tilia alba).",
     serving: "1 sobre (1.5 g) / 1 taza de infusión al día",
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Colocar la bolsita en una taza, agregar agua caliente (200 ml) a 65°C, dejar infusionar 3-5 minutos, retirar la bolsita y disfrutar.",
     benefits: [
-      "Acompaña una pausa de calma con pasiflora, toronjil, tila, manzanilla y azahar u hojas de naranja.",
-      "Yerbaniz, zapote blanco, hierbabuena y flor de manita completan la infusión tradicional."
+      "Calma cotidiana: la pasiflora aporta su uso tradicional para aliviar el estrés leve y acompañar la preparación para dormir.",
+      "Rutina de descanso: toronjil, tila y azahar forman parte de la combinación herbolaria tradicional orientada a la tranquilidad.",
+      "Pausa reconfortante: manzanilla e hierbabuena aportan aroma y sabor para disfrutar la infusión al terminar el día.",
+      "Tradición relajante: yerbaniz, zapote blanco y flor de manita completan la mezcla utilizada tradicionalmente para los nervios y el descanso."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4912,16 +4954,31 @@ window.manualData.productos = [
     id: 218,
     code: "7500645000043",
     name: "5-HTP",
-    benefitSummary: "Ingrediente relacionado con ánimo y descanso",
+    benefitSummary: "Apoyo al descanso y formación de serotonina",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/5-htp.png",
-    shortDesc: "5-HTP en cápsulas, un ingrediente que el cuerpo usa para formar serotonina, relacionada con el ánimo y el descanso. Su utilidad debe valorarse según cada persona.",
+    shortDesc: "Cápsulas con 100 mg de 5-HTP como ingrediente activo, orientadas al apoyo del descanso. El cuerpo lo utiliza para formar serotonina, que interviene en el estado de ánimo y sirve de paso para producir melatonina. Un ensayo en adultos mayores con dificultades para descansar observó mejoras en la calidad del sueño con esa cantidad diaria. La celulosa microcristalina completa la cápsula como excipiente.",
+    researchNote: {
+      "focus": "Apoyo al descanso y formación de serotonina",
+      "sources": [
+        {
+          "title": "5-HTP: ensayo con 100 mg diarios en adultos mayores y calidad del sueño",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38309227/"
+        },
+        {
+          "title": "MSK: 5-HTP, formación de serotonina e interacciones",
+          "url": "https://www.mskcc.org/cancer-care/integrative-medicine/herbs/5-htp-01"
+        }
+      ]
+    },
     ingredients: "5-HTP (5-Hidroxitriptófano) 100 mg, Celulosa microcristalina c.b.p. 500 mg.",
     serving: "1 cápsula al día",
     timing: "Con las comidas",
     intakeInstructions: "Tomar 1 cápsula (500 mg) al día, preferiblemente con las comidas, o según indicación de un especialista.",
     benefits: [
-      "El 5-HTP se usa para acompañar la calma y la rutina de descanso. La celulosa microcristalina da volumen a la cápsula."
+      "Apoyo al ciclo de sueño: el 5-HTP participa en la formación de serotonina y, a partir de ella, de melatonina.",
+      "Calidad del descanso: un ensayo en adultos mayores observó mejoras con 100 mg diarios de 5-HTP en quienes dormían mal.",
+      "Participación en el ánimo: la serotonina que el cuerpo produce a partir del 5-HTP interviene en la regulación del estado de ánimo."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5761,16 +5818,30 @@ window.manualData.productos = [
     id: 256,
     code: "7501735620479",
     name: "PASIFLORINA",
-    benefitSummary: "Calma, bienestar mental y rutina de descanso",
+    benefitSummary: "Pasiflora de uso tradicional para calma y descanso",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PASIFLORINA.jpg",
-    shortDesc: "Pasiflora en perlas para acompañar una rutina de relajación y descanso, según su uso tradicional.",
+    shortDesc: "Pasiflora en perlas para acompañar la tranquilidad ante el estrés cotidiano y la preparación para dormir, según su uso tradicional. Su enfoque se concentra en la relajación con un solo ingrediente vegetal activo. La sacarosa funciona como base de las perlas y aporta dulzor; el efecto relajante se atribuye al uso tradicional de la pasiflora. Cada porción contiene 3 g de azúcar.",
+    researchNote: {
+      "focus": "Pasiflora de uso tradicional para calma y descanso",
+      "sources": [
+        {
+          "title": "EMA: pasiflora de uso tradicional para estrés leve y descanso",
+          "url": "https://www.ema.europa.eu/en/medicines/herbal/passiflorae-herba"
+        },
+        {
+          "title": "NCCIH: pasiflora, sueño y precauciones de uso",
+          "url": "https://www.nccih.nih.gov/health/passionflower"
+        }
+      ]
+    },
     ingredients: "Extracto de Pasiflora (Passiflora incarnata), Sacarosa (perlas de azúcar).",
     serving: "1 porción (3 g, aproximadamente 30 perlas), 1-3 veces al día",
     timing: "30-45 minutos antes de acostarse (para sueño) o en el momento de mayor exigencia mental (para estrés)",
     intakeInstructions: "Colocar las perlas bajo la lengua y dejar que se disuelvan con la saliva (vía sublingual). Alternativamente, masticar o tragar con medio vaso de agua.",
     benefits: [
-      "Acompaña una rutina de calma con pasiflora de uso tradicional relajante. La sacarosa forma las perlas y aporta dulzor."
+      "Calma ante el estrés cotidiano: la pasiflora se utiliza tradicionalmente para aliviar síntomas leves de tensión y favorecer la relajación.",
+      "Preparación para dormir: el uso tradicional de la pasiflora también acompaña la rutina de descanso cuando cuesta relajarse al acostarse."
     ],
     contraindications: "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
