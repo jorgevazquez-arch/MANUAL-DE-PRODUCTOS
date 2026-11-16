@@ -89,17 +89,18 @@ window.manualData.productos = [
     id: 4,
     code: "7503021404671",
     name: "COMPLEJO B CON ARANDANO (90 cápsulas)",
-    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+    benefitSummary: "Las 8 vitaminas B con arándano para tener energía y evitar calambres o cansancio",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/11/complejobyarandanoportada.webp",
-    shortDesc: "Vitaminas B con arándano para ayudar a obtener energía de los alimentos, cuidar los nervios y reducir el cansancio por falta de estas vitaminas.",
+    shortDesc: "Cápsulas con todas las vitaminas del complejo B combinadas con arándano. Ayuda a personas que se sienten sin pilas a medio día, con hormigueos o calambres en piernas y manos por falta de vitaminas.",
     ingredients: "Vitaminas B1, B2, B3, B5, B6, B7, B9, B12; extracto de arándano (Vaccinium myrtillus).",
     serving: "3 cápsulas",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5, B6 y B7. Las B1, B6 y B12 también cuidan el funcionamiento de los nervios.",
-      "Las B9 y B12 ayudan a formar glóbulos rojos. El arándano aporta antioxidantes para cuidar las células."
+      "Pilas para todo el día: sus vitaminas B ayudan a que el cuerpo saque fuerza de la comida y no te sientas débil.",
+      "Cuidado de los nervios: ayuda a calmar molestias en los nervios como calambres o piquetes por mala nutrición.",
+      "Defensa con arándano: el arándano aporta antioxidantes de la fruta para cuidar el cuerpo del desgaste diario."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -113,18 +114,18 @@ window.manualData.productos = [
     id: 5,
     code: "7503024738087",
     name: "COMPLEJO B Y GINSENG 60 caps",
-    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+    benefitSummary: "Complejo B con ginseng y arándanos para rendir más en días pesados",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2022/04/complejo-y-ginseng.jpg",
-    shortDesc: "Vitaminas B, arándanos y ginseng siberiano para complementar la alimentación en etapas de mayor actividad y apoyar la vitalidad.",
+    shortDesc: "Cápsulas de vitaminas B con ginseng siberiano y arándanos. Es el producto ideal para personas con jornadas agotadoras que terminan el día sin fuerzas y necesitan rendir al 100% física y mentalmente.",
     ingredients: "Arándanos (blueberry, cranberry), vitaminas B1, B2, B5, B6, B9, B12, biotina, vitaminas A, C, D, ginseng siberiano (Eleutherococcus senticosus).",
     serving: "3 cápsulas",
     timing: "Con alimentos",
     intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
     benefits: [
-      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B5, B6 y biotina. El ginseng siberiano se usa para la vitalidad en días de mayor actividad.",
-      "Las vitaminas B6, B9 y B12 ayudan al funcionamiento de los nervios y a formar glóbulos rojos.",
-      "Los arándanos blueberry y cranberry y la vitamina C aportan antioxidantes. La vitamina A cuida la piel y la vitamina D ayuda a mantener huesos y músculos."
+      "Fuerza y aguante: el ginseng siberiano es una raíz que ayuda a resistir el cansancio físico y mental, y las vitaminas B1, B2, B5, B6 y biotina ayudan a tener energía de la comida.",
+      "Nervios y buena sangre: las vitaminas B6, B9 y B12 ayudan a que los nervios trabajen bien y apoyan la formación de glóbulos rojos para evitar la debilidad.",
+      "Defensas y cuerpo fuerte: los arándanos blueberry y cranberry aportan antioxidantes con la vitamina C, la vitamina A cuida la piel y la vitamina D ayuda a los huesos y músculos."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -782,10 +783,10 @@ window.manualData.productos = [
     id: 32,
     code: "7500645000418",
     name: "ASHWAGANDA ROOT",
-    benefitSummary: "Raíz de ashwagandha en polvo para calma y descanso",
+    benefitSummary: "Raíz pura de ashwagandha para calmar el estrés diario y descansar (120 días)",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/11/ASHWAGANDHAROOT.jpg",
-    shortDesc: "Raíz de ashwagandha en polvo como único ingrediente, en un envase con 120 cápsulas de 500 mg cada una. Su uso tradicional se orienta a acompañar la calma ante el estrés cotidiano y la rutina de descanso. Esta presentación conserva la raíz molida como preparación vegetal. El enfoque de la ficha es la relajación y el bienestar durante etapas de mayor exigencia diaria.",
+    shortDesc: "Frasco de 120 cápsulas con 500 mg de raíz pura de ashwagandha en polvo (rinde 4 meses con 1 cápsula al día). Ayuda a que el cuerpo no se altere con el estrés diario, quita la tensión nerviosa y ayuda a descansar mejor.",
     researchNote: {
       "focus": "Uso tradicional de raíz de ashwagandha en polvo para calma y descanso",
       "sources": [
@@ -800,8 +801,8 @@ window.manualData.productos = [
     timing: "Con alimentos",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos. Cada cápsula contiene 500 mg de raíz de ashwagandha en polvo. El envase contiene 120 porciones y rinde 120 días.",
     benefits: [
-      "Calma cotidiana: la raíz de ashwagandha en polvo se utiliza tradicionalmente para acompañar la respuesta al estrés y la relajación.",
-      "Rutina de descanso: su uso tradicional también acompaña la preparación para dormir cuando la tensión del día dificulta relajarse."
+      "Tranquilidad ante el estrés: la raíz de ashwagandha ayuda a que la presión del trabajo o problemas diarios no alteren tus nervios.",
+      "Descanso nocturno: al bajar la tensión del día, ayuda a que el cuerpo llegue relajado a la noche y duerma mejor."
     ],
     contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -815,10 +816,10 @@ window.manualData.productos = [
     id: 33,
     code: "7503026253410",
     name: "ASHWAGANDHA",
-    benefitSummary: "Calma y descanso con raíz de ashwagandha y pimienta negra",
+    benefitSummary: "Ashwagandha con pimienta negra para calmar el estrés y la ansiedad (60 días)",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/11/ASHWAGANDHA.jpg",
-    shortDesc: "Raíz de ashwagandha con extracto de pimienta negra en un envase de 60 cápsulas vegetales. Cada cápsula aporta 995 mg de raíz y 5 mg de extracto de pimienta negra, fuente de piperina. El enfoque es acompañar la calma ante el estrés cotidiano y la rutina de descanso desde el uso tradicional de la raíz. La pimienta negra complementa la fórmula como fuente de piperina.",
+    shortDesc: "Frasco con 60 cápsulas de raíz de ashwagandha (995 mg) con extracto de pimienta negra (5 mg). La pimienta negra ayuda a que el cuerpo aproveche mejor la ashwagandha para calmar el estrés fuerte y mejorar el descanso.",
     researchNote: {
       "focus": "Uso tradicional de raíz de ashwagandha para calma y descanso, acompañada de pimienta negra",
       "sources": [
@@ -837,9 +838,9 @@ window.manualData.productos = [
     timing: "Con alimentos, por la mañana o antes de dormir",
     intakeInstructions: "Tomar 1 cápsula al día con alimentos. El envase contiene 60 porciones y rinde 60 días con este consumo diario.",
     benefits: [
-      "Calma cotidiana: la raíz de ashwagandha se utiliza tradicionalmente para acompañar la respuesta al estrés y favorecer la relajación.",
-      "Rutina de descanso: el uso tradicional de la raíz también acompaña la preparación para dormir cuando cuesta relajarse al terminar el día.",
-      "Complemento de la fórmula: la pimienta negra aporta piperina, empleada en suplementos para favorecer el aprovechamiento de ciertos compuestos."
+      "Calma el estrés fuerte: la raíz de ashwagandha ayuda a relajar el sistema nervioso y a sentirte más tranquilo.",
+      "Mejor descanso: ayuda a que la mente se apague al acostarse y no te quedes dando vueltas en la cama.",
+      "Mejor absorción con pimienta: la pimienta negra aporta piperina, que ayuda a que el cuerpo absorba y aproveche mejor la fórmula."
     ],
     contraindications: "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -1454,10 +1455,10 @@ window.manualData.productos = [
   id: 58,
   code: "7500645000791",
   name: "DIOLA ROSE",
-  benefitSummary: "Cansancio asociado al estrés y vitalidad diaria",
+  benefitSummary: "Rhodiola con magnesio para personas estresadas que se sienten agotadas",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Diola-Rose1-1.jpg",
-  shortDesc: "Fórmula centrada en el cansancio asociado al estrés y el apoyo a la vitalidad durante la actividad diaria. La rhodiola aporta su uso tradicional para aliviar temporalmente la sensación de fatiga y debilidad en etapas de exigencia. El citrato de magnesio complementa el funcionamiento muscular y nervioso y la obtención de energía de los alimentos. El polen de abeja se incorpora en pequeña cantidad a la mezcla.",
+  shortDesc: "Fórmula de rhodiola con citrato de magnesio y polen de abeja. Es el producto ideal para personas con mucho estrés que terminan el día sin fuerzas, débiles o quemadas (burnout). Da vitalidad sin alterar los nervios.",
   researchNote: {
     "focus": "Cansancio asociado al estrés y vitalidad diaria",
     "sources": [
@@ -1480,10 +1481,10 @@ window.manualData.productos = [
   timing: "Preferentemente con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para resultados óptimos en la adaptación al estrés y la vitalidad, se recomienda un uso continuo de al menos 4-8 semanas.",
   benefits: [
-    "Vitalidad ante el estrés: la rhodiola se utiliza tradicionalmente para aliviar temporalmente el cansancio y la sensación de debilidad asociados al estrés.",
-    "Energía y funcionamiento muscular: el magnesio del citrato ayuda a aprovechar los alimentos y al funcionamiento de músculos y nervios.",
-    "Complemento de la fórmula: el polen de abeja se incluye en pequeña cantidad dentro de la mezcla centrada en rhodiola y magnesio."
-  ],
+      "Fuerza contra el estrés: la rhodiola ayuda a quitar la sensación de debilidad y agotamiento causada por el exceso de trabajo o preocupaciones.",
+      "Músculos y energía: el magnesio ayuda a que los músculos no se sientan adoloridos o débiles y apoya la energía diaria.",
+      "Nutrición complementaria: el polen de abeja aporta nutrientes naturales para complementar la mezcla."
+    ],
   contraindications: "No consumir por menores de 12 años. No consumir durante el embarazo o lactancia. Producto elaborado en líneas que procesan derivados de soya, leche, pescado y crustáceos. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
@@ -1668,10 +1669,10 @@ window.manualData.productos = [
   id: 68,
   code: "7503021404695",
   name: "GABA",
-  benefitSummary: "Relajación con apoyo nutricional para los nervios",
+  benefitSummary: "GABA con vitaminas B y minerales para calmar la mente y los nervios",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GABA1.jpg",
-  shortDesc: "Fórmula con GABA, vitaminas B5 y B12, zinc y selenio, orientada a acompañar la relajación en etapas de tensión cotidiana. El GABA oral puede apoyar la calma, mientras que la vitamina B12 contribuye al funcionamiento de los nervios y la B5 ayuda a obtener energía de los alimentos. El zinc y el selenio complementan el cuidado de las células y el funcionamiento de las defensas.",
+  shortDesc: "Cápsulas con GABA, vitaminas B5 y B12, zinc y selenio. Ayuda a frenar los pensamientos acelerados, la desesperación o la tensión cuando hay mucho nerviosismo y sobrecarga en el día.",
   researchNote: {
     "focus": "Relajación con apoyo nutricional para los nervios",
     "sources": [
@@ -1702,10 +1703,10 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Calma cotidiana: el GABA oral puede acompañar la relajación en etapas de tensión y mayor exigencia.",
-    "Apoyo a los nervios y la energía: la vitamina B12 contribuye al funcionamiento nervioso y la B5 ayuda a aprovechar los alimentos.",
-    "Cuidado celular y defensas: el zinc y el selenio complementan la protección antioxidante y el funcionamiento normal del sistema inmunitario."
-  ],
+      "Mente tranquila: el GABA ayuda a calmar la sensación de prisa, nerviosismo y tensión mental.",
+      "Nervios fuertes y energía: la vitamina B12 cuida los nervios y la B5 ayuda a que la comida dé energía útil.",
+      "Defensas y protección: el zinc y el selenio protegen al cuerpo del desgaste diario."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas bajo tratamiento con ansiolíticos, hipnóticos o anticonvulsivantes, o con condiciones médicas deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "Puede aumentar el sueño o la sedación al combinarse con medicamentos para la ansiedad, para dormir o para controlar convulsiones."
@@ -1737,10 +1738,10 @@ window.manualData.productos = [
   id: 70,
   code: "7503026253502",
   name: "GINKGO BILOBA",
-  benefitSummary: "Cuidado cognitivo, circulatorio y antioxidante",
+  benefitSummary: "Ginkgo con ajo y lecitina para la memoria y la circulación",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ginko.jpg",
-  shortDesc: "Fórmula de ginkgo biloba con ajo, lecitina de soya, vitamina C y resveratrol, orientada al cuidado cognitivo, circulatorio y antioxidante. El ginkgo aporta su orientación al cuidado de la memoria y su uso tradicional circulatorio; el ajo complementa el cuidado cardiovascular. La lecitina aporta fosfolípidos para las células, mientras que la vitamina C y el resveratrol completan el perfil antioxidante de la mezcla.",
+  shortDesc: "Ginkgo biloba en cápsulas con ajo, lecitina de soya, vitamina C y resveratrol. Ayuda a que la sangre circule mejor por todo el cuerpo y apoya la memoria y la concentración en adultos y personas mayores.",
   researchNote: {
     "focus": "Cuidado cognitivo, circulatorio y antioxidante de una fórmula con cinco ingredientes",
     "sources": [
@@ -1771,10 +1772,10 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 3 cápsulas al día con alimentos. El envase contiene 30 porciones y rinde 30 días con una porción diaria.",
   benefits: [
-    "Cuidado cognitivo: el ginkgo se emplea en preparaciones para la memoria; la lecitina de soya aporta fosfolípidos para las membranas celulares.",
-    "Cuidado cardiovascular: el ajo se utiliza como complemento del cuidado del corazón y acompaña el enfoque circulatorio tradicional del ginkgo.",
-    "Cuidado antioxidante: la vitamina C contribuye a proteger las células del daño oxidativo; el resveratrol complementa el aporte de compuestos antioxidantes."
-  ],
+      "Memoria y cabeza despejada: el Ginkgo biloba ayuda a que la sangre circule mejor hacia la cabeza, apoyando la memoria y la concentración en el día a día.",
+      "Circulación y corazón: el ajo apoya la circulación de la sangre en las piernas y el cuerpo, y la lecitina de soya aporta nutrientes para las células.",
+      "Protección contra el desgaste: la vitamina C y el resveratrol ayudan a proteger al cuerpo del envejecimiento celular diario."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "El ajo y el ginkgo pueden aumentar el riesgo de sangrado al combinarse con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. El resveratrol también requiere revisar esa combinación con su médico o farmacéutico."
@@ -2126,10 +2127,10 @@ window.manualData.productos = [
   id: 87,
   code: "7503026253076",
   name: "L-TIROSINA",
-  benefitSummary: "Exigencia mental y cuidado antioxidante",
+  benefitSummary: "Tirosina con arándano para momentos de mucho estudio o trabajo mental",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/L-TYROSINE1.webp",
-  shortDesc: "Tirosina con arándano azul y vitamina C para complementar la alimentación durante etapas de mayor exigencia mental. La tirosina aporta material para producir dopamina y noradrenalina, que participan en la atención y la respuesta al estrés. La vitamina C complementa el cuidado antioxidante de las células y el arándano añade sus compuestos vegetales. Su orientación combina aporte de tirosina y cuidado celular durante la actividad diaria.",
+  shortDesc: "Tirosina con arándano azul y vitamina C para apoyar la mente en momentos de mucho trabajo, estudio o estrés. Ayuda a mantener la atención sin ponerse nervioso.",
   researchNote: {
     "focus": "Exigencia mental y cuidado antioxidante",
     "sources": [
@@ -2148,9 +2149,9 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
   benefits: [
-    "Apoyo durante la exigencia mental: la L-tirosina aporta material para producir dopamina y noradrenalina, que participan en la atención.",
-    "Cuidado celular: la vitamina C aporta protección antioxidante; el arándano azul complementa la mezcla con sus compuestos vegetales."
-  ],
+      "Enfoque y mente alerta: la L-tirosina aporta nutrientes que el cerebro usa cuando estás bajo presión o necesitas concentrarte por muchas horas.",
+      "Protección celular: la vitamina C y el arándano azul protegen al cuerpo del desgaste que causa el estrés diario."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "Consultar si usa ciertos antidepresivos llamados IMAO, levodopa para el Parkinson, medicamentos para evitar coágulos o para controlar el azúcar."
@@ -2315,10 +2316,10 @@ window.manualData.productos = [
   id: 94,
   code: "7500645001538",
   name: "MAGNESIUM PM 600mg",
-  benefitSummary: "Relajación y preparación para el descanso nocturno",
+  benefitSummary: "Magnesio con manzanilla y teanina para relajar los músculos y dormir de corrido",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual-PM1.jpg",
-  shortDesc: "Fórmula de noche para acompañar la relajación y la preparación para dormir. Combina L-teanina y manzanilla con glicina y 5-HTP dentro de su orientación al descanso. El magnesio del bisglicinato y el citrato, junto con la vitamina B6, complementa el funcionamiento de músculos y nervios. La inulina aporta una pequeña cantidad de fibra como componente secundario de la mezcla.",
+  shortDesc: "Fórmula de noche con magnesio, manzanilla, teanina y 5-HTP. Ayuda a quitar la tensión en los músculos, calmar los nervios al acostarse y lograr un sueño profundo y reparador.",
   researchNote: {
     "focus": "Calma y preparación para el descanso nocturno",
     "text": "Calma y preparación para el descanso nocturno: esta fórmula combina magnesio con L-teanina, glicina, manzanilla y 5-HTP. Un ensayo con 200 mg diarios de L-teanina durante cuatro semanas observó mejoras en algunos aspectos del sueño; otro ensayo con bisglicinato de magnesio encontró mejoras en indicadores de descanso. Estas investigaciones sobre ingredientes ayudan a explicar la orientación nocturna de la fórmula. La vitamina B6 complementa el funcionamiento de los nervios y la inulina aporta una pequeña cantidad de fibra.",
@@ -2338,11 +2339,11 @@ window.manualData.productos = [
   timing: "Por la noche, 30-60 min antes de dormir",
   intakeInstructions: "Tomar 3 cápsulas por la noche.",
   benefits: [
-    "Relajación antes de dormir: la L-teanina y la manzanilla acompañan la calma; la glicina complementa la fórmula nocturna.",
-    "Apoyo al descanso: el 5-HTP participa en la formación de serotonina y melatonina; la vitamina B6 apoya el funcionamiento nervioso.",
-    "Funcionamiento muscular y nervioso: el bisglicinato y el citrato aportan magnesio para la actividad normal de músculos y nervios.",
-    "Aporte complementario de fibra: la inulina se incluye en una pequeña cantidad dentro de una fórmula centrada en el descanso."
-  ],
+      "Relajación antes de dormir: la L-teanina y la manzanilla calman la mente y la glicina ayuda a preparar el cuerpo para el descanso.",
+      "Sueño profundo: el 5-HTP ayuda a que el cuerpo produzca sueño de forma natural y la vitamina B6 apoya a los nervios.",
+      "Músculos y nervios relajados: el magnesio del bisglicinato y del citrato quita la tensión y los calambres nocturnos en el cuerpo.",
+      "Aporte de fibra: contiene una pequeña cantidad de inulina como complemento de la mezcla."
+    ],
   contraindications: "No se recomienda su uso simultáneo con medicamentos antidepresivos, ansiolíticos o inductores del sueño sin consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "Puede aumentar el efecto de medicamentos para dormir o relajarse. También requiere revisión si el cliente toma antidepresivos."
@@ -2417,10 +2418,10 @@ window.manualData.productos = [
   id: 98,
   code: "7500645000852",
   name: "MELENA DE LEÓN",
-  benefitSummary: "Cuidado de la memoria con apoyo al funcionamiento nervioso",
+  benefitSummary: "Melena de león con magnesio para la memoria, la concentración y la claridad mental",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/MELENA-LEON1.jpg",
-  shortDesc: "Fórmula orientada al cuidado de la memoria y el funcionamiento nervioso, con extracto de melena de león, L-treonato de magnesio y quinoa. Un ensayo con una preparación de melena de león observó mejoras cognitivas en adultos con deterioro leve. El magnesio complementa el funcionamiento de los nervios y la quinoa se incorpora en pequeña cantidad. Su enfoque reúne cuidado cognitivo y aporte nutricional del mineral.",
+  shortDesc: "Cápsulas con hongo melena de león y treonato de magnesio. Es un alimento especial para el cerebro que ayuda a quitar la \"mente nublada\", recordar mejor las cosas y concentrarse en el estudio o trabajo.",
   researchNote: {
     "focus": "Cuidado de la memoria con apoyo al funcionamiento nervioso",
     "sources": [
@@ -2439,9 +2440,10 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Cuidado de la memoria: un ensayo con una preparación de melena de león observó mejoras cognitivas en adultos con deterioro leve.",
-    "Funcionamiento nervioso: el magnesio del L-treonato contribuye a la actividad normal de los nervios; la quinoa complementa la mezcla en pequeña cantidad."
-  ],
+      "Memoria y concentración: el hongo melena de león es muy apreciado para nutrir el cerebro, apoyar la memoria y pensar con más claridad.",
+      "Magnesio para la cabeza: el L-treonato de magnesio es una forma de magnesio que llega muy bien al cerebro para apoyar las funciones mentales.",
+      "Aporte natural: contiene una pequeña cantidad de quinoa como complemento alimenticio."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a hongos, trastornos autoinmunes o bajo tratamiento con anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o para disminuir la actividad de las defensas."
@@ -3506,19 +3508,19 @@ window.manualData.productos = [
   id: 147,
   code: "7503024065572",
   name: "TIAMINA 3000 ALEXYAC",
-  benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+  benefitSummary: "Vitamina B1 con cafeína y guaraná para despertar la mente y dar energía rápida",
   category: "metabolismo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TIAMINA-ALEXYAC.webp",
-  shortDesc: "Vitamina B1 y otros nutrientes para ayudar a aprovechar la energía de los alimentos, con cafeína y guaraná para mantenerse alerta.",
+  shortDesc: "Tabletas energéticas con vitamina B1, cafeína, guaraná y jalea real. Ideales para estudiantes o trabajadores con turnos pesados que necesitan quitarse el sueño, estar bien despiertos y con la mente concentrada.",
   ingredients: "Vitamina B1 (tiamina), vitamina E, ácido fólico, CoQ10, cafeína, jalea real, polen de flores, lecitina de soya, miel de abeja, guaraná, gluconato de calcio, sulfato de magnesio.",
   serving: "1-2 tabletas (500 mg c/u)",
   timing: "Según indicación",
   intakeInstructions: "Tomar de 1 a 2 tabletas al día.",
   benefits: [
-    "Ayuda a obtener energía de los alimentos con tiamina B1 y coenzima Q10. Ácido fólico ayuda a formar glóbulos rojos.",
-    "Cafeína y guaraná ayudan a estar más despierto. Vitamina E, lecitina de soya, jalea real y polen de flores completan la mezcla.",
-    "Calcio del gluconato y magnesio del sulfato ayudan a músculos y nervios. Miel de abeja aporta dulzor y energía."
-  ],
+      "Quita el sueño y da alerta: la cafeína y el guaraná ayudan a quitar la pesadez y a mantenerse despierto y enfocado.",
+      "Fuerza física y mental: la vitamina B1 y la coenzima Q10 ayudan a que el cuerpo y la mente no se sientan agotados.",
+      "Nutrición diaria: la jalea real, polen y miel dan nutrientes naturales, y el calcio y magnesio ayudan a que los músculos no se tensen."
+    ],
   contraindications: "No se use durante el embarazo y lactancia. Contiene cafeína y guaraná, evitar en personas sensibles. Consultar a médico si se tiene intolerancia a los ingredientes.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "La cafeína puede aumentar el efecto de otros estimulantes y cambiar el de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento."
@@ -3550,10 +3552,10 @@ window.manualData.productos = [
   id: 149,
   code: "7500645000746",
   name: "TREONATO DE MAGNESIO",
-  benefitSummary: "Funcionamiento nervioso y protección antioxidante",
+  benefitSummary: "Treonato de magnesio para nutrir el cerebro y la memoria",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TREONATO-MAGNESIO1.jpg",
-  shortDesc: "Magnesio en forma de L-treonato con vitamina C para complementar el funcionamiento nervioso y el cuidado antioxidante de las células. El magnesio participa en la transmisión de señales entre los nervios y en la actividad muscular. La vitamina C acompaña la protección celular y la formación de colágeno. La ficha también declara una cantidad mínima de vitamina D, que permanece como componente secundario de la fórmula.",
+  shortDesc: "Cápsulas de L-treonato de magnesio con vitamina C y D. Es el magnesio formulado específicamente para el cerebro, la memoria y la relajación mental en personas que sienten fatiga intelectual o falta de enfoque.",
   researchNote: {
     "focus": "Funcionamiento nervioso y protección antioxidante",
     "sources": [
@@ -3576,9 +3578,9 @@ window.manualData.productos = [
   timing: "Con alimentos",
   intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
   benefits: [
-    "Funcionamiento nervioso: el magnesio del L-treonato participa en la transmisión de señales entre los nervios y la actividad normal de los músculos.",
-    "Protección celular y tejidos: la vitamina C aporta antioxidantes y contribuye a formar el colágeno del cuerpo."
-  ],
+      "Apoyo para el cerebro: el L-treonato de magnesio nutre las células de la cabeza y apoya la memoria y el aprendizaje.",
+      "Vitaminas de apoyo: la vitamina C cuida las células del desgaste y la vitamina D complementa la nutrición diaria."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con insuficiencia renal o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
   interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos)."
@@ -3589,10 +3591,10 @@ window.manualData.productos = [
   id: 150,
   code: "7503025069852",
   name: "TRIPTOFANO TEANINA 500 mg",
-  benefitSummary: "Relajación y transición al descanso",
+  benefitSummary: "Triptófano con teanina y azahar para calmar la mente y dormir tranquilo",
   category: "nervioso",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/TRIPTOFANO1.jpg",
-  shortDesc: "Fórmula para acompañar la relajación y la preparación para dormir, con L-triptófano, teanina y azahar. El triptófano aporta material para producir serotonina y melatonina, mientras que la teanina complementa el uso tradicional relajante del azahar. La vitamina D3 añade apoyo nutricional para músculos, huesos y defensas. Su enfoque combina calma y descanso con estos aportes complementarios en una cápsula.",
+  shortDesc: "Cápsulas para tomar antes de acostarse con triptófano, teanina y flor de azahar. Calma los pensamientos acelerados, quita la ansiedad de la noche y ayuda a quedarse dormido suavemente sin sentirse aturdido al despertar.",
   researchNote: {
     "focus": "Relajación y transición al descanso",
     "sources": [
@@ -3615,10 +3617,10 @@ window.manualData.productos = [
   timing: "Antes de dormir o con alimentos",
   intakeInstructions: "Tomar 1 cápsula al día, preferentemente antes de dormir.",
   benefits: [
-    "Calma antes de acostarse: la teanina complementa el uso tradicional del azahar para ayudar a relajarse y prepararse para dormir.",
-    "Ciclo de sueño: el L-triptófano aporta material para producir serotonina y melatonina, que participan en la regulación del descanso.",
-    "Apoyo nutricional complementario: la vitamina D3 contribuye al funcionamiento de músculos y defensas y al mantenimiento de los huesos."
-  ],
+      "Calma antes de acostarse: el azahar y la teanina ayudan a bajar el ritmo del día, relajarse y prepararse para dormir.",
+      "Sueño natural y continuo: el L-triptófano ayuda al cuerpo a preparar el sueño y descansar profundamente.",
+      "Nutrición complementaria: la vitamina D3 apoya las defensas y la fuerza en músculos y huesos."
+    ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos (ISRS, IMAO), ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
     interactions: "Puede dar sueño. Evitar conducir después de consumirlo."
@@ -3869,10 +3871,10 @@ window.manualData.productos = [
         id: 163,
         code: "7500645001668",
         name: "ASHWA + MAG COMPLEX",
-        benefitSummary: "Estrés cotidiano, relajación y funcionamiento muscular",
+        benefitSummary: "Ashwagandha con magnesio y teanina para el estrés y la tensión muscular",
         category: "nervioso",
         image: "https://investigacioncbg.com/wp-content/uploads/2026/07/RENDER-ASHWA-MAG-COMPLEX-1.jpeg",
-        shortDesc: "Fórmula para acompañar el manejo del estrés cotidiano y la relajación, con ashwagandha, L-teanina y magnesio. La ashwagandha puede ayudar con la sensación de tensión y la teanina complementa la orientación hacia la calma. El magnesio del bisglicinato contribuye al funcionamiento normal de músculos y nervios. Su enfoque combina apoyo ante la exigencia diaria con el aporte nutricional del mineral.",
+        shortDesc: "Fórmula combinada de ashwagandha con magnesio y teanina. Calma los nervios alterados, quita la tensión que se acumula en cuello y espalda por el estrés y promueve la tranquilidad diaria.",
         researchNote: {
           "focus": "Estrés cotidiano, relajación y funcionamiento muscular",
           "sources": [
@@ -3895,10 +3897,9 @@ window.manualData.productos = [
         timing: "Preferentemente con alimentos",
     intakeInstructions: "Confirmar la porción diaria con la etiqueta vigente o el fabricante antes de indicar una dosis: la ficha registra 1 cápsula en uso sugerido y 3 cápsulas como porción completa.",
         benefits: [
-          "Manejo del estrés: la ashwagandha puede ayudar a reducir la sensación de tensión en etapas de mayor exigencia cotidiana.",
-          "Relajación: la L-teanina puede acompañar la calma y complementa el enfoque de la ashwagandha dentro de la fórmula.",
-          "Funcionamiento muscular y nervioso: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios y al aprovechamiento de energía."
-        ],
+      "Tranquilidad mental: la ashwagandha y la teanina ayudan a estar calmado y con la mente relajada en días difíciles.",
+      "Músculos sin tensión: el magnesio ayuda a relajar los músculos que se aprietan por la preocupación o el estrés."
+    ],
         contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula. Personas con hipertiroidismo, trastornos autoinmunitarios o bajo tratamiento farmacológico (sedantes, ansiolíticos, hipoglucemiantes, antihipertensivos) deben consultar a un profesional de la salud antes de consumirlo.",
         foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
         interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
@@ -4018,10 +4019,10 @@ window.manualData.productos = [
     id: 169,
     code: "7503024738261",
     name: "TÉ 7 AZAHARES",
-    benefitSummary: "Infusión tradicional para la calma y el descanso",
+    benefitSummary: "Té caliente de hierbas para calmar el cuerpo y conciliar el sueño",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-7-AZAHARES-scaled.png",
-    shortDesc: "Infusión de plantas y flores para acompañar una pausa de tranquilidad y la rutina nocturna. Reúne pasiflora, toronjil, tila y azahar con yerbaniz, zapote blanco y flor de manita, dentro de una mezcla herbolaria de uso tradicional para los nervios y el descanso. La manzanilla y la hierbabuena complementan su aroma y sabor. Su enfoque es una bebida reconfortante al terminar el día.",
+    shortDesc: "Infusión tradicional de hierbas relajantes (azahar, tila, toronjil, pasiflora y manzanilla). Para tomar caliente antes de dormir; ayuda a bajar el ritmo del día, quitar la tensión y descansar.",
     researchNote: {
       "focus": "Infusión tradicional para la calma y el descanso",
       "sources": [
@@ -4048,10 +4049,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la noche antes de dormir",
     intakeInstructions: "Colocar la bolsita en una taza, agregar agua caliente (200 ml) a 65°C, dejar infusionar 3-5 minutos, retirar la bolsita y disfrutar.",
     benefits: [
-      "Calma cotidiana: la pasiflora aporta su uso tradicional para aliviar el estrés leve y acompañar la preparación para dormir.",
-      "Rutina de descanso: toronjil, tila y azahar forman parte de la combinación herbolaria tradicional orientada a la tranquilidad.",
-      "Pausa reconfortante: manzanilla e hierbabuena aportan aroma y sabor para disfrutar la infusión al terminar el día.",
-      "Tradición relajante: yerbaniz, zapote blanco y flor de manita completan la mezcla utilizada tradicionalmente para los nervios y el descanso."
+      "Calma y relajación: infusión de hierbas tradicionales para relajarse en las noches o en momentos de mucho estrés.",
+      "Ritual de descanso: una taza tibia antes de acostarse ayuda a preparar el cuerpo para dormir plácidamente."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4536,18 +4535,19 @@ window.manualData.productos = [
     id: 192,
     code: "7578945632172",
     name: "NEUROCEBRYL COMPUESTO",
-    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+    benefitSummary: "Vitaminas B para dar energía, cuidar los nervios y quitar el cansancio",
     category: "metabolismo",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/NEUROCEBRYL-COMPUESTO.webp",
-    shortDesc: "Vitaminas B y otros nutrientes en una presentación líquida para ayudar a aprovechar la energía de los alimentos y cuidar los nervios.",
+    shortDesc: "Ampolletas bebibles con vitaminas del complejo B, calcio y jalea real. Sirve para que el cuerpo aproveche bien la comida, dé energía rápida, fortalezca los nervios y ayude a personas muy cansadas o recuperándose de una enfermedad. Es para tomarse por la boca, nunca se inyecta.",
     ingredients: "Vitaminas del complejo B: Clorhidrato de Tiamina (B1) 15 mg, Riboflavina 5' Fosfato (B2) 18 mg, Clorhidrato de Piridoxina (B6) 10 mg, Cianocobalamina (B12) 12 µg, Niacinamida (B3) 20 mg, Ácido Pantoténico (B5) 20 mg, Ácido Fólico 400 µg. Vitaminas antioxidantes: Ácido Ascórbico (C) 50 mg, Alfatocoferol (E) 60 mg, Palmitato de Vitamina A 1000 UI, Colecalciferol (D3) 10 µg. Minerales y otros: Gluconato de Calcio 100 mg, Jalea Real Fresca 5 mg, Inositol 15 mg.",
     serving: "Adultos: 1 ampolleta al día. Niños: 1 ampolleta cada tercer día.",
     timing: "Oral, directamente",
     intakeInstructions: "Ingerir directamente el contenido de la ampolleta. EN NINGÚN CASO DEBERÁ INYECTARSE.",
     benefits: [
-      "Ayuda a obtener energía de los alimentos con vitaminas B1, B2, B3, B5 y B6. Ácido fólico y B12 ayudan a formar glóbulos rojos.",
-      "Vitaminas C y E aportan antioxidantes, vitamina A cuida la piel, y D3 y calcio del gluconato ayudan a cuidar huesos y músculos.",
-      "Jalea real e inositol completan el aporte de la fórmula."
+      "Energía y nervios: las vitaminas B ayudan a convertir los alimentos en energía para rendir en el día y evitan que los nervios se sientan agotados.",
+      "Buena sangre: el ácido fólico y la vitamina B12 ayudan a que no falte sangre y se evite la debilidad, acompañados de jalea real para dar vitalidad.",
+      "Músculos y huesos: el calcio y la vitamina D evitan que los músculos se sientan débiles y protegen los huesos.",
+      "Fácil de tomar: se toma directo de la ampolleta (adultos 1 diaria, niños 1 cada tercer día). Ojo: solo tomado, jamás inyectado."
     ],
     contraindications: "No especificado",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -4871,10 +4871,10 @@ window.manualData.productos = [
     id: 207,
     code: "7503021404916",
     name: "2MR",
-    benefitSummary: "Conciliación del sueño y rutina de descanso nocturno",
+    benefitSummary: "Melatonina y triptófano para quedarse dormido rápido y descansar toda la noche",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/2MR.png",
-    shortDesc: "Fórmula nocturna para acompañar la conciliación del sueño y establecer una rutina de descanso. La melatonina participa en la regulación del horario de sueño, mientras que el L-triptófano aporta material para producir serotonina y melatonina. La rhodiola complementa la mezcla desde su uso tradicional para el cansancio asociado al estrés.",
+    shortDesc: "Fórmula de noche para personas que dan vueltas en la cama, tardan en conciliar el sueño o despiertan a mitad de la noche. La melatonina da sueño rápido, el triptófano ayuda a que el descanso sea profundo y continuo, y la rhodiola ayuda a no despertar agotado.",
     researchNote: {
       focus: "Conciliación del sueño y rutina de descanso nocturno",
       sources: [
@@ -4888,9 +4888,9 @@ window.manualData.productos = [
     timing: "Por la noche después de cenar",
     intakeInstructions: "Tomar 1 cápsula al día, preferentemente por la noche después de cenar, o según indicación de un especialista.",
     benefits: [
-      "Conciliación del sueño: la melatonina (5 mg) acompaña el inicio del sueño y ayuda a regular su horario.",
-      "Apoyo al descanso: el L-triptófano (295 mg) aporta material para producir serotonina y melatonina, que participan en el ciclo de sueño.",
-      "Cansancio asociado al estrés: Rhodiola rosea (200 mg) se usa tradicionalmente para acompañar la vitalidad en etapas de mayor exigencia."
+      "Conciliación rápida: la melatonina (5 mg) le avisa al cuerpo que es hora de dormir para conciliar el sueño más rápido.",
+      "Descanso toda la noche: el L-triptófano (295 mg) ayuda a que el cuerpo se relaje y mantenga un sueño profundo sin interrupciones.",
+      "Despertar con energía: la Rhodiola rosea (200 mg) es una planta que ayuda a quitar el agotamiento que provoca el estrés diario."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5115,10 +5115,10 @@ window.manualData.productos = [
     id: 218,
     code: "7500645000043",
     name: "5-HTP",
-    benefitSummary: "Apoyo al descanso y formación de serotonina",
+    benefitSummary: "5-HTP para calmar la mente, mejorar el humor y dormir mejor",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/07/5-htp.png",
-    shortDesc: "Cápsulas con 100 mg de 5-HTP como ingrediente activo, orientadas al apoyo del descanso. El cuerpo lo utiliza para formar serotonina, que interviene en el estado de ánimo y sirve de paso para producir melatonina. Un ensayo en adultos mayores con dificultades para descansar observó mejoras en la calidad del sueño con esa cantidad diaria. La celulosa microcristalina completa la cápsula como excipiente.",
+    shortDesc: "Cápsulas con 100 mg de 5-HTP. Ayuda a que el cuerpo produzca de forma natural las sustancias que dan tranquilidad en el día y sueño profundo por la noche.",
     researchNote: {
       "focus": "Apoyo al descanso y formación de serotonina",
       "sources": [
@@ -5137,9 +5137,9 @@ window.manualData.productos = [
     timing: "Con las comidas",
     intakeInstructions: "Tomar 1 cápsula (500 mg) al día, preferiblemente con las comidas, o según indicación de un especialista.",
     benefits: [
-      "Apoyo al ciclo de sueño: el 5-HTP participa en la formación de serotonina y, a partir de ella, de melatonina.",
-      "Calidad del descanso: un ensayo en adultos mayores observó mejoras con 100 mg diarios de 5-HTP en quienes dormían mal.",
-      "Participación en el ánimo: la serotonina que el cuerpo produce a partir del 5-HTP interviene en la regulación del estado de ánimo."
+      "Dormir mejor: el 5-HTP ayuda al cuerpo a tener sueño natural por la noche para descansar de corrido.",
+      "Mejor humor en el día: ayuda a sentirse más tranquilo, menos irritable y con mejor ánimo.",
+      "Descanso continuo: ideal para personas que batallan para relajarse y quieren un sueño reparador con 1 cápsula al día."
     ],
     contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5430,17 +5430,18 @@ window.manualData.productos = [
     id: 229,
     code: "7501062914722",
     name: "OMEGA INFANTIL PRONAT",
-    benefitSummary: "Omega 3 para complementar la alimentación infantil",
+    benefitSummary: "Gomitas de omega 3 para el cerebro y la vista de los niños",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/OMEGA-KIDS.avif",
-    shortDesc: "Omega 3 de pescado con vitamina E en gomitas para complementar la alimentación infantil y el cuidado del cerebro y los ojos. Para la edad indicada en la etiqueta.",
+    shortDesc: "Gomitas masticables con aceite de salmón noruego y vitamina E para niños desde los 6 años. Aportan grasas buenas que ayudan a la memoria, la concentración en la escuela y el cuidado de los ojos, con rico sabor para que no batallen al tomarlas.",
     ingredients: "Aceite de Salmón Noruego, Vitamina E, Azúcar, Glucosa, Grenetina, Agua, Ácido Cítrico, Saborizante. Contiene derivados de pescado.",
     serving: "4 gomitas al día (8 g)",
     timing: "Después de los alimentos, preferentemente por la mañana",
     intakeInstructions: "Ingerir 4 gomitas una vez al día, después de los alimentos, de preferencia por la mañana. Masticar bien antes de tragar. Recomendado a partir de 6 años.",
     benefits: [
-      "Complementa la alimentación infantil con grasas omega del aceite de salmón noruego y vitamina E para cuidar las células.",
-      "Azúcar y glucosa aportan dulzor y carbohidratos. Grenetina y agua dan forma a la gomita, y ácido cítrico y saborizante ajustan el sabor."
+      "Memoria y vista escolar: el aceite de salmón aporta omega 3 natural, que nutre el cerebro y ayuda a que los niños pongan más atención en la escuela y cuiden sus ojos.",
+      "Protección infantil: la vitamina E cuida las células del niño mientras crece.",
+      "Gomitas suaves: sabor rico y fácil de masticar antes de tragar (4 gomitas al día después del desayuno)."
     ],
     contraindications: "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5801,18 +5802,18 @@ window.manualData.productos = [
     id: 248,
     code: "75060221101120",
     name: "FORTI Q OSITOS",
-    benefitSummary: "Nutrientes para complementar la alimentación infantil",
+    benefitSummary: "Ositos con vitaminas, calcio y zinc para que los niños crezcan fuertes",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
-    shortDesc: "Vitaminas y minerales en gomitas para complementar la alimentación infantil y apoyar los nervios, los huesos y las defensas.",
+    shortDesc: "Gomitas en forma de osito con vitaminas, calcio, zinc y omega 3, sabor fresa y zarzamora sin azúcar añadida. Para niños que comen poco, se enferman seguido o necesitan energía para la escuela y huesos fuertes.",
     ingredients: "Ácido Glutámico, L-Lisina, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Vitamina C, Zinc, Calcio, Omega 3, Sucralosa, gelificantes, sabores (fresa y zarzamora), colorantes.",
     serving: "2 gomitas al día",
     timing: "Preferentemente con el desayuno o el almuerzo",
     intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
     benefits: [
-      "Complementa la alimentación infantil con vitaminas B1, B2, B3, B6, B12 y ácido fólico para aprovechar los alimentos y formar glóbulos rojos. Ácido glutámico y L-lisina completan el aporte alimentario.",
-      "Vitamina C y zinc apoyan las defensas, calcio ayuda a los huesos y omega 3 aporta grasas para las células.",
-      "Sucralosa, gelificantes, sabores fresa y zarzamora y colorantes dan dulzor, textura y sabor."
+      "Energía para la escuela: las vitaminas B y el ácido fólico ayudan a que los niños tengan energía y no se sientan desganados.",
+      "Huesos y defensas: la vitamina C y el zinc ayudan a que no se enfermen tan fácil de gripas, y el calcio apoya el crecimiento de huesos y dientes.",
+      "Nutrición para estudiar: contiene omega 3 y nutrientes para apoyar la mente y la memoria."
     ],
     contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -5979,10 +5980,10 @@ window.manualData.productos = [
     id: 256,
     code: "7501735620479",
     name: "PASIFLORINA",
-    benefitSummary: "Pasiflora de uso tradicional para calma y descanso",
+    benefitSummary: "Perlas dulces de pasiflora para calmar los nervios y descansar",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PASIFLORINA.jpg",
-    shortDesc: "Pasiflora en perlas para acompañar la tranquilidad ante el estrés cotidiano y la preparación para dormir, según su uso tradicional. Su enfoque se concentra en la relajación con un solo ingrediente vegetal activo. La sacarosa funciona como base de las perlas y aporta dulzor; el efecto relajante se atribuye al uso tradicional de la pasiflora. Cada porción contiene 3 g de azúcar.",
+    shortDesc: "Perlas de pasiflora con base dulce. Remedio herbolario tradicional para calmar la angustia o los nervios alterados durante el día y ayudar a relajarse para dormir por la noche.",
     researchNote: {
       "focus": "Pasiflora de uso tradicional para calma y descanso",
       "sources": [
@@ -6001,8 +6002,8 @@ window.manualData.productos = [
     timing: "30-45 minutos antes de acostarse (para sueño) o en el momento de mayor exigencia mental (para estrés)",
     intakeInstructions: "Colocar las perlas bajo la lengua y dejar que se disuelvan con la saliva (vía sublingual). Alternativamente, masticar o tragar con medio vaso de agua.",
     benefits: [
-      "Calma ante el estrés cotidiano: la pasiflora se utiliza tradicionalmente para aliviar síntomas leves de tensión y favorecer la relajación.",
-      "Preparación para dormir: el uso tradicional de la pasiflora también acompaña la rutina de descanso cuando cuesta relajarse al acostarse."
+      "Tranquilidad ante el estrés: la pasiflora ayuda a calmar los nervios tensos y la preocupación del día.",
+      "Relajación para dormir: ayuda a aflojar el cuerpo antes de acostarse para descansar mejor."
     ],
     contraindications: "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6014,17 +6015,18 @@ window.manualData.productos = [
     id: 257,
     code: "7502217901222",
     name: "TIAMINA JARABE GN+VIDA",
-    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+    benefitSummary: "Jarabe con vitaminas B para dar apetito, fuerza y quitar el cansancio",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
-    shortDesc: "Vitaminas B y otros nutrientes en jarabe para ayudar a obtener energía de los alimentos y apoyar el funcionamiento de los nervios.",
+    shortDesc: "Jarabe con vitaminas del complejo B (B1, B5, B6 y B12) y espinaca. Pensado para personas desganadas, niños con poco apetito o adultos mayores débiles que prefieren un jarabe fácil de pasar en vez de pastillas.",
     ingredients: "Vitamina B1 (tiamina), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Ácido Pantoténico (B5), Ácido Glutámico, Vitamina C, Vitamina E, Vitamina D, Extracto de hoja de espinaca, Extracto de semilla de maíz, Agua bidestilada.",
     serving: "Adultos: 5 ml (1 cucharadita) 4 veces al día (total 20 ml). Niños (4-12 años): 5 ml 2 veces al día (total 10 ml).",
     timing: "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
     intakeInstructions: "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
     benefits: [
-      "Ayuda a obtener energía de los alimentos y al funcionamiento de los nervios con vitaminas B1, B5, B6 y B12. Ácido glutámico completa el aporte alimentario.",
-      "Vitaminas C y E aportan antioxidantes y vitamina D ayuda a músculos y huesos. Espinaca y semilla de maíz completan la mezcla vegetal y agua bidestilada diluye los ingredientes."
+      "Fuerza y ganas de comer: ayuda a abrir el apetito y a que el cuerpo recupere energía rápido.",
+      "Nervios tranquilos: sus vitaminas B ayudan a que los nervios no estén tensos ni doloridos.",
+      "Fácil de medir: trae cucharita medidora para que toda la familia tome la porción justa (adultos 4 cucharaditas al día, niños 2 al día)."
     ],
     contraindications: "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6104,18 +6106,19 @@ window.manualData.productos = [
     id: 261,
     code: "7502217900034",
     name: "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
-    benefitSummary: "Vitaminas B para energía y funcionamiento de los nervios",
+    benefitSummary: "Ampolletas bebibles para la memoria, concentración y trabajo mental pesado",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
-    shortDesc: "Vitaminas, minerales y otros nutrientes en ampolletas bebibles para complementar la alimentación y apoyar la energía, los nervios y la formación de la sangre.",
+    shortDesc: "Tónico bebible en ampolletas con ácido glutámico, lecitina de soya, complejo B y hierro. Es el producto más fuerte para personas que estudian para exámenes, trabajan bajo mucha presión o sienten que se les olvidan las cosas por agotamiento.",
     ingredients: "Ácido Glutámico 500 mg, L-Glutamina 100 mg, Lecitina de Soya 500 mg, Vitamina B1 (tiamina) 800 µg, Vitamina B2 (riboflavina) 840 µg, Vitamina B3 (niacina) 11 mg, Vitamina B6 (piridoxina) 930 µg, Ácido Fólico (B9) 380 µg, Vitamina B12 (cobalamina) 2.1 µg, Calcio 300 mg, Magnesio 248 mg, Hierro 17 mg, Zinc 10 mg, Selenio 41 µg, L-Arginina 100 mg, L-Lisina 100 mg, Omega 3, 6, 9 100 mg, Vitamina A 568 µg, Vitamina C 60 mg, Vitamina D 5.6 µg, Vitamina E 11 µg.",
     serving: "1 ampolleta (10 ml) al día",
     timing: "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
     benefits: [
-      "Ayuda a obtener energía y al funcionamiento de los nervios con vitaminas B1, B2, B3 y B6. Ácido fólico B9, B12 e hierro ayudan a formar glóbulos rojos.",
-      "Ácido glutámico, L-glutamina, L-arginina y L-lisina aportan materiales para formar proteínas. Lecitina de soya y omegas 3, 6 y 9 aportan grasas para las células.",
-      "Calcio, magnesio y vitamina D ayudan a músculos y huesos. Vitaminas A y C y zinc apoyan las defensas y vitamina E y selenio aportan antioxidantes."
+      "Memoria y mente clara: el ácido glutámico y la lecitina son alimento directo para el cerebro; ayudan a concentrarse mejor y no andar con la cabeza nublada.",
+      "Quita la pesadez y mejora la sangre: las vitaminas B y el hierro llevan oxígeno a la cabeza para quitar la flojera y el cansancio mental.",
+      "Minerales contra la tensión: el magnesio y calcio evitan que el cuerpo se tense por el estrés del día.",
+      "Tomar con el desayuno: vaciar 1 ampolleta en medio vaso de agua o jugo en la mañana (nunca en ayunas ni de noche)."
     ],
     contraindications: "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6235,10 +6238,10 @@ window.manualData.productos = [
     id: 267,
     code: "61835819069",
     name: "PREMIUM PANAX GINSENG",
-    benefitSummary: "Uso tradicional para vitalidad, cansancio y debilidad",
+    benefitSummary: "Ginseng rojo en ampolletas para dar energía rápida ante el agotamiento",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PANAX-GINSENG.avif",
-    shortDesc: "Ginseng rojo en ampolletas bebibles para acompañar la vitalidad en etapas de cansancio y sensación de debilidad, según su uso tradicional. La raíz de Panax ginseng es el ingrediente que define este enfoque. La miel aporta dulzor y una pequeña cantidad de carbohidratos, y el agua purificada sirve de base líquida. La presentación permite consumir la porción directamente o diluida, como indica su ficha.",
+    shortDesc: "Ampolletas bebibles de raíz de Panax ginseng rojo con miel. Es un tónico tradicional fuerte para personas muy cansadas, sin ganas de hacer nada o débiles que necesitan recuperar vitalidad y fuerza.",
     researchNote: {
       "focus": "Uso tradicional para vitalidad, cansancio y debilidad",
       "sources": [
@@ -6253,7 +6256,8 @@ window.manualData.productos = [
     timing: "Preferentemente por la mañana, en ayunas o con el desayuno",
     intakeInstructions: "Agitar vigorosamente antes de abrir. Consumir directamente del vial o diluir en 100 ml de agua natural a temperatura ambiente. No exceder la dosis recomendada.",
     benefits: [
-      "Vitalidad diaria: la raíz de Panax ginseng se utiliza tradicionalmente para aliviar el cansancio y la sensación de debilidad."
+      "Energía y vitalidad: la raíz de Panax ginseng (ginseng rojo) ayuda a levantar el ánimo, quitar la debilidad y recuperar la fuerza física y mental.",
+      "Fácil de tomar: ampolleta bebible endulzada con miel natural para tomar directo o disolver en agua."
     ],
     contraindications: "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
     foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
@@ -6330,10 +6334,10 @@ window.manualData.productos = [
     id: 271,
     code: "",
     name: "ALBIZIA + BACOPA",
-    benefitSummary: "Calma y cuidado de la atención y la memoria",
+    benefitSummary: "Albizia y bacopa para calmar la mente y cuidar la memoria",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-BACOPA-ALBIZIA–-V0–-SEPT2026.jpeg",
-    shortDesc: "Fórmula para acompañar la calma y el cuidado de la atención y la memoria durante la actividad diaria. Combina albizia de uso tradicional para la tranquilidad con L-teanina, mientras que la bacopa en polvo aporta su uso tradicional para el cuidado de la memoria. El magnesio del bisglicinato complementa el funcionamiento de músculos y nervios. La gelatina y el agua purificada forman la cápsula.",
+    shortDesc: "Fórmula para tomar en la mañana con albizia, bacopa, teanina y magnesio. Ayuda a personas que necesitan estar tranquilas pero a la vez muy concentradas en sus actividades, estudios o trabajo.",
     researchNote: {
       "focus": "Calma y cuidado de la atención y la memoria",
       "sources": [
@@ -6360,9 +6364,9 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. No exceder la porción diaria recomendada.",
     benefits: [
-      "Calma cotidiana: la Albizia aporta su uso tradicional para la tranquilidad y la L-teanina complementa la orientación relajante de la mezcla.",
-      "Cuidado de la memoria: la Bacopa monnieri en polvo aporta su uso tradicional para acompañar la memoria y la atención.",
-      "Funcionamiento nervioso y muscular: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios."
+      "Calma cotidiana: la Albizia y la L-teanina ayudan a trabajar sin angustia ni desesperación.",
+      "Cuidado de la memoria: la Bacopa en polvo ayuda a retener información, recordar detalles y enfocar la atención.",
+      "Nervios y músculos: el magnesio ayuda a que los nervios funcionen con normalidad sin sobrecargarse."
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
     foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
@@ -6374,10 +6378,10 @@ window.manualData.productos = [
     id: 272,
     code: "",
     name: "ALBIZIA + RHODIOLA",
-    benefitSummary: "Calma y vitalidad ante el estrés y el cansancio mental",
+    benefitSummary: "Albizia y rhodiola para trabajar tranquilo y con energía sin que gane el estrés",
     category: "nervioso",
     image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-–-RHODIOLA-ALBIZIA–-V0–-SEPT2026.jpeg",
-    shortDesc: "Fórmula para acompañar la calma y la vitalidad en etapas de estrés y cansancio mental. Combina el uso tradicional de la albizia para la tranquilidad con L-teanina, mientras que la rhodiola aporta su uso tradicional para la fatiga asociada al estrés. El magnesio del bisglicinato complementa el funcionamiento de músculos y nervios. La ficha orienta su consumo por la mañana o al mediodía.",
+    shortDesc: "Fórmula para tomar por la mañana o al mediodía con albizia, rhodiola, teanina y magnesio. Pensada para personas que tienen mucho trabajo mental, presión y prisas, ayudándoles a rendir sin ponerse nerviosos.",
     researchNote: {
       "focus": "Calma y vitalidad ante el estrés y el cansancio mental",
       "sources": [
@@ -6404,9 +6408,9 @@ window.manualData.productos = [
     timing: "Por la mañana o al mediodía, con alimentos",
     intakeInstructions: "Tomar 2 cápsulas al día con alimentos, preferentemente acompañados de grasas saludables. Evitar la toma cerca de la hora de dormir. No exceder la porción diaria recomendada.",
     benefits: [
-      "Calma cotidiana: la Albizia aporta su uso tradicional para la tranquilidad y la L-teanina complementa la orientación relajante de la mezcla.",
-      "Vitalidad mental: la Rhodiola rosea se utiliza tradicionalmente para aliviar el cansancio en días de estrés y la sensación de debilidad.",
-      "Funcionamiento nervioso y muscular: el magnesio del bisglicinato contribuye a la actividad normal de músculos y nervios."
+      "Tranquilidad en el día: la Albizia y la L-teanina ayudan a mantener la calma y la cabeza fría bajo presión.",
+      "Fuerza mental: la Rhodiola ayuda a aliviar el cansancio en días de estrés y a que la mente no se sienta agotada.",
+      "Músculos y nervios: el magnesio ayuda a que el cuerpo se mueva y responda con soltura sin sentirse tenso."
     ],
     contraindications: "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Evitar en personas con trastorno bipolar. Consultar a un profesional de la salud si se padece alguna condición médica.",
     foodInteractions: "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
