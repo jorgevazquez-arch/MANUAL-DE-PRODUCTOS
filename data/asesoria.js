@@ -61,7 +61,7 @@
         134: 'Proteína de chícharo y arroz con probióticos, sabor cacao.',
         135: 'Proteína de chícharo y arroz con probióticos, sabor vainilla.',
         136: 'Coenzima Q10 con vitamina B6 y baya dorada; distinta de la fórmula de ubiquinol.',
-        141: 'Sábila, cardamomo, jengibre y colpachi para bienestar digestivo; distinguir gases y pesadez de gastritis y colitis.',
+        141: "Agave azul, sábila, jengibre, cardamomo, copalchi y raíz de angélica con vitaminas B12 y B6, magnesio, zinc y selenio. Enfoque en gases, pesadez y comodidad digestiva. Porción de 2 cápsulas de 1,000 mg; 30 porciones por envase y rendimiento de 30 días.",
         149: "L-treonato de magnesio 288 mg y vitamina C 137.06 mg por 2 cápsulas. El peso de L-treonato no equivale a magnesio elemental. La vitamina D figura como 0.01 mcg; confirmar esa unidad. No equiparar esta cantidad de treonato a los gramos diarios usados en otros ensayos.",
         154: 'Calcio en cápsulas con vitamina D3; distinto de las mezclas en polvo con probióticos.',
         158: 'Proteína vegetal sabor cacao con probióticos; comparar proteína por porción.',

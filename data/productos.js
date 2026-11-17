@@ -3365,22 +3365,49 @@ window.manualData.productos = [
 {
   id: 141,
   code: "7503021404572",
-  name: "SDOMACHUS 500 mg",
+  name: "SDOMACHUS 1000 mg",
   benefitSummary: "Comodidad del estómago, gases y pesadez después de comer",
   category: "digestivo",
   image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
-  shortDesc: "Fórmula para acompañar la comodidad del estómago y el bienestar después de comer. Combina aloe vera, cardamomo, jengibre y colpachi, plantas de uso tradicional digestivo, con agave azul. Magnesio y vitaminas B6 y B12 complementan el funcionamiento de músculos y nervios, mientras que zinc y selenio acompañan el cuidado celular. Su explicación destaca molestias concretas como gases y pesadez, distinguiéndolas de enfermedades como gastritis o colitis.",
-  ingredients: "Aloe vera (500 mg), cardamomo (500 mg), jengibre (250 mg), agave azul (100 mg), magnesio (100 mg), vitamina B6 (10 mg), colpachi, vitamina B12, zinc, selenio por porción.",
+  shortDesc: "Fórmula para acompañar una digestión más cómoda después de comer. Combina jengibre, cardamomo y raíz de angélica de uso tradicional para gases y pesadez, con agave azul, sábila y copalchi. La etiqueta declara 1 g de fibra por porción. Magnesio y vitaminas B6 y B12 complementan el funcionamiento muscular y nervioso; zinc y selenio acompañan el cuidado celular. Contiene 60 cápsulas de 1,000 mg.",
+  researchNote: {
+    "focus": "Comodidad digestiva y apoyo nutricional de la fórmula actualizada",
+    "sources": [
+      {
+        "title": "EMA: jengibre de uso tradicional para gases y molestias digestivas leves",
+        "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+      },
+      {
+        "title": "ESCOP: raíz de angélica y usos digestivos",
+        "url": "https://www.escop.com/downloads/tag/angelicae-radix/"
+      },
+      {
+        "title": "Cardamomo: contexto tradicional digestivo e investigación de sus componentes",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18037596/"
+      },
+      {
+        "title": "NIH: funciones de vitaminas y minerales",
+        "url": "https://ods.od.nih.gov/FactSheets/List-VitaminsMinerals/"
+      },
+      {
+        "title": "NCCIH: sábila y precauciones según su preparación",
+        "url": "https://www.nccih.nih.gov/health/aloe-vera"
+      }
+    ]
+  },
+  ingredients: "Agave azul (Agave tequilana), sábila (Aloe vera), jengibre (Zingiber officinale), cardamomo (Elettaria cardamomum), vitaminas B12 y B6, magnesio, zinc, selenio, copalchi (Coutarea latiflora) y raíz de angélica (Angelica archangelica L.). Ingredientes en el orden declarado en la etiqueta.",
   serving: "2 cápsulas (2 g)",
   timing: "Con alimentos",
-  intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
+  intakeInstructions: "Tomar 2 cápsulas al día con alimentos. Cada cápsula contiene 1,000 mg de fórmula. El envase contiene 30 porciones y rinde 30 días con una porción diaria.",
   benefits: [
-    "Bienestar después de comer: aloe vera, cardamomo, jengibre y colpachi se usan tradicionalmente para acompañar la comodidad del estómago, los gases y la pesadez. El agave azul completa la mezcla vegetal.",
-    "Magnesio y vitaminas B6 y B12 ayudan al funcionamiento de músculos y nervios. Zinc y selenio complementan el cuidado de las células."
+    "Gases y pesadez: jengibre, cardamomo y raíz de angélica se usan tradicionalmente para acompañar una digestión más cómoda después de comer.",
+    "Complemento intestinal: agave azul, sábila y copalchi completan la mezcla vegetal; la etiqueta declara 1 g de fibra por porción.",
+    "Apoyo muscular y nervioso: el magnesio y las vitaminas B6 y B12 contribuyen al funcionamiento de músculos y nervios.",
+    "Cuidado celular: el zinc y el selenio complementan la protección de las células y el funcionamiento de las defensas."
   ],
   contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
   foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Las cantidades altas de sábila pueden acelerar las evacuaciones o causar diarrea."
+  interactions: "La sábila puede causar cólicos o diarrea según su preparación. Si aparecen, suspender el consumo y consultar. Revisar la combinación si toma medicamentos para el azúcar, para evitar coágulos o diuréticos."
 },
 
 // 142. Selenio 90 tabs 100 mcg (PRONACEN, selenio en levadura)
@@ -6608,7 +6635,7 @@ const productPackageContents = {
   138: "120 cápsulas",
   139: "90 cápsulas",
   140: "1 L",
-  141: "60 cápsulas",
+  141: "60 cápsulas de 1000 mg",
   142: "90 tabletas",
   143: "60 cápsulas",
   144: "50 tabletas",
