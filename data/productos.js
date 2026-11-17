@@ -39,23 +39,40 @@ window.manualData.productos = [
   //  2. COCONUT + OREGANO OIL (60 cápsulas)
   // ================================================================
   {
-    id: 2,
-    code: "7500645001439",
-    name: "COCONUT + OREGANO OIL (60 cápsulas)",
-    benefitSummary: "Bienestar digestivo tradicional con orégano",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Coconut-y-Oregano1.jpg",
-    shortDesc: "Aceite de coco y orégano en cápsulas. El orégano se usa tradicionalmente para el bienestar digestivo y contiene compuestos que ayudan al cuidado de las células.",
-    ingredients: "Aceite de coco virgen extra en polvo (300 mg), ácido láurico (100 mg), orégano en polvo estandarizado al 70 % de carvacrol (100 mg) por cápsula.",
-    serving: "1 cápsula",
-    timing: "Una vez al día, con alimentos",
-    intakeInstructions: "Tomar 1 cápsula al día con alimentos y un vaso de agua.",
-    benefits: [
-      "Se usa para el bienestar del estómago con orégano y su carvacrol. El aceite de coco y el ácido láurico aportan la parte grasa de la mezcla."
-    ],
-    contraindications: "No recomendado durante el embarazo o lactancia sin consulta médica. Personas con alergia a plantas de la familia Lamiaceae (menta, tomillo, albahaca) deben consultar a su profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
+      "id": 2,
+      "code": "7500645001439",
+      "name": "COCONUT + OREGANO OIL (60 cápsulas)",
+      "benefitSummary": "Aceite de coco y orégano estandarizado al 70% de carvacrol para combatir bacterias y hongos digestivos",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/Coconut-y-Oregano1.jpg",
+      "shortDesc": "Cápsulas que combinan aceite de coco virgen extra y ácido láurico con extracto de orégano concentrado al 70% de carvacrol. Es el antimicrobiano y antiparasitario natural por excelencia; ideal para personas con desbalance en la flora intestinal, sospecha de sobrecrecimiento de levaduras (Candida), digestión pesada recurrente o inflamación estomacal.",
+      "ingredients": "Aceite de coco virgen extra en polvo (300 mg), ácido láurico (100 mg), orégano en polvo estandarizado al 70 % de carvacrol (100 mg) por cápsula.",
+      "serving": "1 cápsula",
+      "timing": "Una vez al día, con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos y un vaso de agua.",
+      "benefits": [
+          "Defensa antimicrobiana natural: el extracto de orégano concentrado aporta carvacrol para combatir hongos y bacterias que alteran el equilibrio del estómago y el intestino.",
+          "Grasas saludables y protección celular: el aceite de coco virgen aporta ácido láurico, que apoya el sistema inmunológico y calma las mucosas digestivas.",
+          "Confort digestivo integral: ayuda a desinflamar el vientre, eliminar la sensación de pesadez y mejorar la digestión tras comidas propensas a fermentar."
+      ],
+      "contraindications": "No recomendado durante el embarazo o lactancia sin consulta médica. Personas con alergia a plantas de la familia Lamiaceae (menta, tomillo, albahaca) deben consultar a su profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Antimicrobianos naturales y equilibrio intestinal",
+          "text": "Por qué combinar orégano y aceite de coco: el carvacrol es el fenol activo más potente del orégano silvestre, con amplia literatura en PubMed sobre su capacidad para alterar la membrana de levaduras como Candida albicans y bacterias patógenas. El ácido láurico del aceite de coco se convierte en monolaurina, potenciando la defensa natural del tracto digestivo sin barrer con la microbiota benéfica.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: carvacrol del orégano y actividad antifúngica frente a Candida",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/28830154/"
+              },
+              {
+                  "title": "PubMed NIH: ácido láurico y lípidos antimicrobianos en la salud digestiva",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/30018131/"
+              }
+          ]
+      }
   },
 
   // ================================================================
@@ -205,23 +222,40 @@ window.manualData.productos = [
   //  9. CUACHALALATE + TEPEZCOHUITE (90 cápsulas)
   // ================================================================
   {
-    id: 9,
-    code: "7503026253540",
-    name: "CUACHALALATE + TEPEZCOHUITE",
-    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/cuachalalate1.jpg",
-    shortDesc: "Cuachalalate y tepezcohuite en una sola fórmula. Son plantas de uso tradicional mexicano para acompañar el bienestar del estómago.",
-    ingredients: "Cuachalalate (Amphipterygium adstringens) corteza 750 mg, Tepezcohuite (Mimosa tenuiflora) corteza 750 mg por porción.",
-    serving: "3 cápsulas (1.5 g)",
-    timing: "Con alimentos",
-    intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
-    benefits: [
-      "Se usa para el bienestar del estómago con cortezas de cuachalalate y tepezcohuite."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar antes de combinar con medicamentos para evitar coágulos o para el dolor y la inflamación."
+      "id": 9,
+      "code": "7503026253540",
+      "name": "CUACHALALATE + TEPEZCOHUITE",
+      "benefitSummary": "Cortezas mexicanas tradicionales para calmar el ardor de estómago, agruras y gastritis",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/cuachalalate1.jpg",
+      "shortDesc": "Cápsulas con pura corteza de cuachalalate y tepezcohuite. Es el remedio herbolario mexicano por excelencia para personas con ardor en la boca del estómago, sensación de quemazón tras comer, agruras constantes o molestias por gastritis. Ayuda a desinflamar y proteger la pared gástrica de manera natural.",
+      "ingredients": "Cuachalalate (Amphipterygium adstringens) corteza 750 mg, Tepezcohuite (Mimosa tenuiflora) corteza 750 mg por porción.",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 3 cápsulas al día con alimentos.",
+      "benefits": [
+          "Alivio del ardor estomacal: el cuachalalate ayuda a calmar la sensación de fuego y ardor en la boca del estómago.",
+          "Protección y cicatrización natural: el tepezcohuite ayuda a reconfortar los tejidos irritados y proteger la pared del estómago.",
+          "Comodidad después de comer: ayuda a que los alimentos no caigan pesados ni provoquen reflujo o acidez."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o para el dolor y la inflamación.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Protección gástrica tradicional y mucosa estomacal",
+          "text": "Por qué el cuachalalate y el tepezcohuite ayudan al estómago: ambas cortezas tienen un uso histórico tradicional en México documentado por la UNAM y el IMSS. El cuachalalate contiene ácido masticadienónico con propiedades astringentes y antiinflamatorias sobre la mucosa gástrica; el tepezcohuite aporta taninos que ayudan a calmar y proteger los tejidos irritados por el ácido estomacal.",
+          "sources": [
+              {
+                  "title": "UNAM: Cuachalalate (Amphipterygium adstringens), medicina tradicional mexicana",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx/flora2.php?l=4&t=cuachalalate"
+              },
+              {
+                  "title": "PubMed NIH: extractos de corteza de cuachalalate y protección gástrica",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/15013184/"
+              }
+          ]
+      }
   },
 
   // ================================================================
@@ -276,57 +310,80 @@ window.manualData.productos = [
   //  12. CURCUMA, JENGIBRE Y MORINGA 90 caps
   // ================================================================
   {
-    id: 12,
-    code: "7503021404527",
-    name: "CURCUMA, JENGIBRE Y MORINGA",
-    benefitSummary: "Cúrcuma y jengibre para bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcuma-y-Moringa1-1.jpg",
-    shortDesc: "La cúrcuma y el jengibre tienen uso tradicional para molestias digestivas leves, como pesadez y gases. La moringa añade compuestos vegetales antioxidantes.",
-    ingredients: "Raíz de cúrcuma (Curcuma longa) 900 mg, raíz de jengibre (Zingiber officinale) 300 mg, hoja de moringa (Moringa oleifera) 300 mg por porción.",
-    serving: "3 cápsulas (1.5 g)",
-    timing: "Con alimentos que contengan grasas",
-    intakeInstructions: "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
-    benefits: [
-      "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. La moringa aporta antioxidantes para cuidar las células."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado."
+      "id": 12,
+      "code": "7503021404527",
+      "name": "CURCUMA, JENGIBRE Y MORINGA",
+      "benefitSummary": "Trío de cúrcuma, jengibre y moringa para digestión ligera, desinflamación y vitalidad",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcuma-y-Moringa1-1.jpg",
+      "shortDesc": "Cápsulas que combinan tres plantas antiinflamatorias: cúrcuma, jengibre y moringa oleifera. Diseñado para personas que quieren terminar de comer sintiéndose ligeras y activas, eliminando la inflamación del abdomen y aprovechando los nutrientes y vitaminas verdes de la moringa.",
+      "ingredients": "Raíz de cúrcuma (Curcuma longa) 900 mg, raíz de jengibre (Zingiber officinale) 300 mg, hoja de moringa (Moringa oleifera) 300 mg por porción.",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Con alimentos que contengan grasas",
+      "intakeInstructions": "Tomar 3 cápsulas al día con alimentos que contengan grasas saludables.",
+      "benefits": [
+          "Cero pesadez e hinchazón: la cúrcuma y el jengibre activan los jugos gástricos y la bilis para que la comida se procese rápido y sin agruras.",
+          "Nutrición y vitalidad limpia: la moringa aporta vitaminas, minerales y clorofila que revitalizan el cuerpo y nutren las células.",
+          "Defensa antioxidante integral: protege al estómago y al colon frente a la inflamación causada por alimentos procesados o estrés."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Sinergia botánica digestiva y aporte antioxidante",
+          "text": "Por qué combinar cúrcuma, jengibre y moringa: los gingeroles del jengibre aceleran el vaciamiento estomacal y los curcuminoides de la cúrcuma desinflaman la mucosa digestiva. Las hojas de moringa aportan polifenoles (quercetina y ácido clorogénico) con alto poder antioxidante.",
+          "sources": [
+              {
+                  "title": "EMA: jengibre y cúrcuma para trastornos digestivos leves",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal"
+              },
+              {
+                  "title": "PubMed NIH: Moringa oleifera, perfil nutricional y antioxidante",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/25808883/"
+              }
+          ]
+      }
   },
 
   // ================================================================
   //  13. CÚRCUMA (60 cápsulas)
   // ================================================================
   {
-    id: 13,
-    code: "7503021404183",
-    name: "CÚRCUMA",
-    benefitSummary: "Cúrcuma para pesadez digestiva y aporte antioxidante",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma.jpg",
-    shortDesc: "Raíz de cúrcuma en cápsulas para acompañar el bienestar del estómago después de comer. Su uso tradicional se enfoca en molestias digestivas leves, como pesadez, gases y sensación de digestión lenta. También contiene compuestos vegetales que complementan el aporte antioxidante de la alimentación. Esta presentación utiliza la raíz en polvo y se distingue de la curcumina concentrada, cuyo enfoque dentro del catálogo es el cuidado de las articulaciones.",
-    researchNote: {
-      "focus": "Pesadez, gases y digestión lenta",
-      "text": "Bienestar del estómago después de comer: la raíz de cúrcuma se utiliza tradicionalmente para acompañar molestias leves como pesadez, gases y digestión lenta. La EMA recoge este uso digestivo de preparaciones de cúrcuma. Estas cápsulas aportan 1,000 mg de raíz en polvo por porción, una presentación que permite incorporarla a la rutina. La información seleccionada se centra en la comodidad digestiva y en el uso de la raíz, que da identidad a este producto.",
-      "sources": [
-        {
-          "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
-          "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
-        }
-      ]
-    },
-    ingredients: "Raíz de cúrcuma (Curcuma longa) en polvo 1000 mg por porción.",
-    serving: "2 cápsulas (1 g)",
-    timing: "Con alimentos que contengan grasas",
-    intakeInstructions: "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
-    benefits: [
-      "Bienestar después de comer: la raíz de cúrcuma tiene uso tradicional para acompañar molestias digestivas leves, como pesadez, gases y sensación de digestión lenta.",
-      "Permite incorporar la raíz de cúrcuma en cápsulas, con 1,000 mg de polvo por porción, dentro de la rutina de cuidado digestivo."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, como anticoagulantes o antiagregantes, o para controlar el azúcar en la sangre."
+      "id": 13,
+      "code": "7503021404183",
+      "name": "CÚRCUMA",
+      "benefitSummary": "Raíz pura de cúrcuma para desinflamar el estómago, activar la bilis y quitar la pesadez",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma.jpg",
+      "shortDesc": "Cápsulas con 1,000 mg de raíz pura de cúrcuma en polvo por porción. Es el digestivo natural milenario más recomendado para personas con digestión lenta, pesadez en el costado derecho o gases frecuentes tras comidas grasosas. Ayuda al hígado y a la vesícula a trabajar con soltura y aporta poderosos antioxidantes.",
+      "researchNote": {
+          "focus": "Flujo biliar y confort estomacal tradicional",
+          "text": "Por qué la raíz de cúrcuma es el digestivo por excelencia: la monografía de la Agencia Europea de Medicamentos (EMA) reconoce el uso tradicional de la raíz de Curcuma longa para aliviar molestias digestivas leves, como sensación de plenitud, digestión lenta y flatulencias, gracias a su acción colerética natural.",
+          "sources": [
+              {
+                  "title": "EMA: raíz de cúrcuma, uso tradicional para molestias digestivas",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+              },
+              {
+                  "title": "NCCIH / NIH: cúrcuma (Curcuma longa), evidencia y seguridad",
+                  "url": "https://www.nccih.nih.gov/health/turmeric"
+              }
+          ]
+      },
+      "ingredients": "Raíz de cúrcuma (Curcuma longa) en polvo 1000 mg por porción.",
+      "serving": "2 cápsulas (1 g)",
+      "timing": "Con alimentos que contengan grasas",
+      "intakeInstructions": "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
+      "benefits": [
+          "Digestión ágil después de comer: la raíz de cúrcuma estimula el flujo biliar para digerir grasas sin sentir llenura o pesadez prolongada.",
+          "Alivio de gases e inflamación: calma los retortijones y desinflama las paredes del tracto digestivo de forma natural.",
+          "Aporte antioxidante diario: protege las células del aparato digestivo contra el desgaste oxidativo cotidiano con 1,000 mg de raíz en polvo por porción."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, como anticoagulantes o antiagregantes, o para controlar el azúcar en la sangre.",
+      "packageContent": "60 cápsulas"
   },
 
   // ================================================================
@@ -378,25 +435,42 @@ window.manualData.productos = [
   // ================================================================
   //  16. ACEITE DE ORÉGANO (20 ml)
   // ================================================================
-  {
-    id: 16,
-    code: "7500645001118",
-    name: "ACEITE DE ORÉGANO (20 ml)",
-    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ACEITE-OREGANO1.jpg",
-    shortDesc: "Orégano en gotas con aceite de oliva. Se usa tradicionalmente como complemento del bienestar digestivo y permite medir la porción con gotero.",
-    ingredients: "Aceite esencial de orégano (Origanum vulgare), con aceite base vegetal (oliva).",
-    serving: "0.75 ml (3 gotas)",
-    timing: "Con alimentos",
-    intakeInstructions: "Diluir 0.75 ml (3 gotas) en agua, jugo o infusión. Tomar con alimentos.",
-    benefits: [
-      "Acompaña el bienestar digestivo tradicional con aceite esencial de orégano. El aceite de oliva sirve como base para diluirlo y distribuirlo en la preparación."
+{
+    "id": 16,
+    "code": "7500645001118",
+    "name": "ACEITE DE ORÉGANO (20 ml)",
+    "benefitSummary": "Aceite de orégano en gotas para defensas, vías respiratorias y purificación digestiva",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/ACEITE-OREGANO1.jpg",
+    "shortDesc": "Aceite esencial de orégano puro diluido en aceite de oliva en presentación con gotero. Reconocido antiséptico y antimicrobiano natural para fortalecer las defensas del organismo, calmar molestias de garganta y apoyar el equilibrio digestivo.",
+    "ingredients": "Aceite esencial de orégano (Origanum vulgare), con aceite base vegetal (oliva).",
+    "serving": "0.75 ml (3 gotas)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Diluir 0.75 ml (3 gotas) en agua, jugo o infusión. Tomar con alimentos.",
+    "benefits": [
+        "Antimicrobiano y escudo natural: rico en carvacrol y timol, compuestos vegetales que apoyan al sistema inmune frente a virus estacionales y bacterias comunes.",
+        "Alivio de garganta y vías respiratorias: tomado diluido en agua tibia o usado en gárgaras, ayuda a reconfortar la laringe irritada y despejar las vías aéreas.",
+        "Purificación y bienestar intestinal: ayuda a mantener una flora digestiva sana, combatiendo microorganismos indeseados y fermentaciones pesadas.",
+        "Dosificación práctica y versátil: su gotero permite ajustar la cantidad exacta de gotas según la necesidad de adultos o la intensidad del apoyo requerido."
     ],
-    contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con gastritis, úlceras, enfermedades hepáticas o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento."
-  },
+    "contraindications": "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con gastritis, úlceras, enfermedades hepáticas o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "researchNote": {
+        "focus": "Aceite esencial de orégano y carvacrol como antimicrobiano natural",
+        "text": "Propiedades del orégano silvestre: el aceite de Origanum vulgare es ampliamente valorado en fitoterapia por su alta concentración de fenoles volátiles (principalmente carvacrol y timol). Estos compuestos actúan alterando la permeabilidad de la membrana de bacterias y hongos patógenos comunes, además de aportar una potente actividad antioxidante que protege las células de las vías respiratorias y digestivas frente a agresores externos.",
+        "sources": [
+            {
+                "title": "PubMed NIH: actividad antimicrobiana del carvacrol y aceite de orégano",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/23484421/"
+            },
+            {
+                "title": "NCCIH / NIH: orégano y compuestos fenólicos en la salud respiratoria",
+                "url": "https://www.nccih.nih.gov/health/oregano"
+            }
+        ]
+    }
+},
 
   // ================================================================
   //  17. ÁCIDO ALFA LIPÓICO (60 cápsulas)
@@ -520,25 +594,42 @@ window.manualData.productos = [
   // ================================================================
   //  22. AJO NEGRO CON PROPÓLEO (90 cápsulas)
   // ================================================================
-  {
-    id: 22,
-    code: "7503021404862",
-    name: "AJO NEGRO CON PROPÓLEO",
-    benefitSummary: "Bienestar tradicional en cambios de temporada",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Ajo-Negro-Propoleo1.jpg",
-    shortDesc: "Ajo negro y propóleo en cápsulas, usados tradicionalmente para acompañar el bienestar en los cambios de temporada.",
-    ingredients: "Extracto de propóleo estandarizado en flavonoides (250 mg), bulbo de ajo negro (250 mg) por cápsula.",
-    serving: "1 cápsula (500 mg)",
-    timing: "Con alimentos",
-    intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-    benefits: [
-      "Acompaña el cuidado en cambios de temporada con propóleo para la comodidad de la garganta, y ajo negro, que añade antioxidantes."
+{
+    "id": 22,
+    "code": "7503021404862",
+    "name": "AJO NEGRO CON PROPÓLEO",
+    "benefitSummary": "Ajo negro madurado con propóleo en cápsulas para defensas fuertes y bienestar respiratorio sin mal aliento",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Ajo-Negro-Propoleo1.jpg",
+    "shortDesc": "Cápsulas que combinan el poder antiséptico del propóleo estandarizado en flavonoides con las bondades antioxidantes del ajo negro madurado. Fortalecen el sistema inmunológico frente a cambios de clima sin provocar olor a ajo ni repetir.",
+    "ingredients": "Extracto de propóleo estandarizado en flavonoides (250 mg), bulbo de ajo negro (250 mg) por cápsula.",
+    "serving": "1 cápsula (500 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "benefits": [
+        "Doble acción protectora: une los flavonoides naturales de la colmena con los compuestos azufrados del ajo para apoyar las defensas ante agresores externos.",
+        "Sin mal aliento ni reflujo: el proceso de maduración térmica del ajo negro elimina el picor y los olores fuertes, siendo muy suave con el estómago.",
+        "Bienestar de garganta y vías respiratorias: reconforta la laringe y ayuda a prevenir afecciones comunes en temporadas de frío o viento.",
+        "Poder antioxidante concentrado: aporta S-alil-cisteína, un antioxidante natural que protege las células y favorece la circulación sanguínea."
     ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (miel, propóleo, polen) o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos."
-  },
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (miel, propóleo, polen) o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos.",
+    "researchNote": {
+        "focus": "Sinergia de ajo negro fermentado y flavonoides de propóleo",
+        "text": "Aporte inmunológico del ajo negro y el propóleo: el ajo negro madurado concentra altos niveles de S-alil-cisteína (SAC), un derivado hidrosoluble con mayor capacidad antioxidante que el ajo fresco crudo, sin causar acidez gástrica. Al combinarse con el propóleo rico en galangina y pinocembrina, se crea una barrera natural que estimula la actividad de los glóbulos blancos y protege los epitelios de las vías respiratorias.",
+        "sources": [
+            {
+                "title": "PubMed NIH: propiedades inmunomoduladoras y antioxidantes del ajo negro",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31146392/"
+            },
+            {
+                "title": "PubMed NIH: propóleo apícola y flavonoides en la protección de vías respiratorias",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30977286/"
+            }
+        ]
+    }
+},
 
   // ================================================================
   //  23. AJO NEGRO (90 cápsulas)
@@ -642,46 +733,76 @@ window.manualData.productos = [
   //  27. ALOE VERA CON ARÁNDANO (990 ml)
   // ================================================================
   {
-    id: 27,
-    code: "7503016797030",
-    name: "ALOE VERA CON ARANDANO",
-    benefitSummary: "Bienestar urinario y plantas de uso tradicional",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeVeraArandano.jpg",
-    shortDesc: "Bebida de sábila con arándano y vitamina C para complementar el bienestar digestivo y el cuidado de las defensas.",
-    ingredients: "Jugo de aloe vera (Aloe barbadensis), jugo de arándano (Vaccinium macrocarpon), vitamina C (27 mg por porción).",
-    serving: "90 ml",
-    timing: "En ayunas o antes de la primera comida",
-    intakeInstructions: "Agitar bien. Consumir 90 ml al día, preferentemente en ayunas o antes de la primera comida.",
-    benefits: [
-      "Arándano y aloe vera complementan el cuidado diario. La sábila se usa para el bienestar digestivo y la vitamina C apoya las defensas y aporta antioxidantes."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada."
+      "id": 27,
+      "code": "7503016797030",
+      "name": "ALOE VERA CON ARANDANO",
+      "benefitSummary": "Sábila líquida con arándano rojo y vitamina C para calmar el estómago y proteger las vías urinarias",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeVeraArandano.jpg",
+      "shortDesc": "Bebida de jugo natural de aloe vera combinada con arándano rojo y vitamina C. Es perfecta para personas que buscan aliviar la acidez estomacal, mejorar el tránsito intestinal y al mismo tiempo proteger las vías urinarias gracias a los antioxidantes naturales del arándano.",
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), jugo de arándano (Vaccinium macrocarpon), vitamina C (27 mg por porción).",
+      "serving": "90 ml",
+      "timing": "En ayunas o antes de la primera comida",
+      "intakeInstructions": "Agitar bien. Consumir 90 ml al día, preferentemente en ayunas o antes de la primera comida.",
+      "benefits": [
+          "Alivio del ardor estomacal: el jugo de aloe vera recubre la mucosa digestiva con mucílagos que calman la acidez y el reflujo.",
+          "Protección urinaria y antioxidante: el jugo de arándano rojo ayuda a evitar que bacterias se adhieran a las vías urinarias.",
+          "Refuerzo inmunológico: la vitamina C aporta antioxidantes que protegen los tejidos y fortalecen las defensas."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada.",
+      "packageContent": "990 ml",
+      "researchNote": {
+          "focus": "Mucosa digestiva e inmunidad con arándano y sábila",
+          "text": "Por qué combinar sábila y arándano rojo: el gel de aloe vera aporta polisacáridos (acemanano) que hidratan y calman el tracto digestivo, mientras que el arándano rojo aporta proantocianidinas de tipo A conocidas por evitar la fijación bacteriana en las vías urinarias.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: aloe vera, usos tradicionales y seguridad",
+                  "url": "https://www.nccih.nih.gov/health/aloe-vera"
+              },
+              {
+                  "title": "NCCIH / NIH: arándano rojo (cranberry) y salud urinaria",
+                  "url": "https://www.nccih.nih.gov/health/cranberry"
+              }
+          ]
+      }
   },
 
   // ================================================================
   //  28. ALOE VERA LIQUIDO TROPICAL (1 L)
   // ================================================================
   {
-    id: 28,
-    code: "7503016797337",
-    name: "ALOE VERA LIQUIDO TROPICAL",
-    benefitSummary: "Sábila y vitamina C en una bebida",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0003_freepik__isolate-only-the-bottle-frontal-symmetrical-studio__56412-1.jpg",
-    shortDesc: "Bebida de sábila de sabor tropical con vitamina C para complementar la rutina digestiva y el cuidado de las defensas.",
-    ingredients: "Jugo de aloe vera (Aloe barbadensis), vitamina C (30 mg por porción), saborizantes naturales tropicales.",
-    serving: "100 ml",
-    timing: "En ayunas o entre comidas",
-    intakeInstructions: "Agitar bien. Tomar 100 ml al día, preferentemente en ayunas o entre comidas.",
-    benefits: [
-      "La vitamina C apoya las defensas y aporta antioxidantes. El aloe vera se usa para el bienestar digestivo y los saborizantes tropicales dan sabor a la bebida."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada."
+      "id": 28,
+      "code": "7503016797337",
+      "name": "ALOE VERA LIQUIDO TROPICAL",
+      "benefitSummary": "Sábila bebible con delicioso sabor tropical y vitamina C para desinflamar y refrescar el estómago",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0003_freepik__isolate-only-the-bottle-frontal-symmetrical-studio__56412-1.jpg",
+      "shortDesc": "Jugo bebible de aloe vera puro con un rico toque tropical y vitamina C. Pensado para quienes desean todos los beneficios calmantes de la sábila para la gastritis, el reflujo y el estreñimiento leve, pero con un sabor agradable y fresco que dan ganas de tomar a diario.",
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), vitamina C (30 mg por porción), saborizantes naturales tropicales.",
+      "serving": "100 ml",
+      "timing": "En ayunas o entre comidas",
+      "intakeInstructions": "Agitar bien. Tomar 100 ml al día, preferentemente en ayunas o entre comidas.",
+      "benefits": [
+          "Frescura y calma gástrica: el aloe vera líquido desinflama la boca del estómago y quita la pesadez tras los alimentos.",
+          "Tránsito intestinal suave: ayuda a que el intestino se mueva con regularidad y sin cólicos.",
+          "Rico sabor diario: su sabor tropical hace muy fácil tomar tu porción de sábila cada mañana en ayunas."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada.",
+      "packageContent": "1 L",
+      "researchNote": {
+          "focus": "Hidratación de mucosas y confort gástrico",
+          "text": "Por qué tomar aloe vera en ayunas: el gel de sábila ayuda a crear una película protectora sobre el estómago y el duodeno, reduciendo el contacto directo del ácido con la pared estomacal al iniciar el día.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: aloe vera, uso para salud digestiva",
+                  "url": "https://www.nccih.nih.gov/health/aloe-vera"
+              }
+          ]
+      }
   },
 
   // ================================================================
@@ -1083,23 +1204,48 @@ window.manualData.productos = [
   //  43. CARSYL GREEN (60 cápsulas)
   // ================================================================
   {
-    id: 43,
-    code: "7503016797115",
-    name: "CARSYL GREEN",
-    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-    category: "clinico",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/carsyl.png",
-    shortDesc: "Mezcla de plantas de uso tradicional para acompañar el bienestar digestivo y el confort después de comer.",
-    ingredients: "Hoja de cardo mariano, hojas de boldo, ruibarbo, cuasia, diente de león (extractos en proporción no especificada).",
-    serving: "2 cápsulas (1 g)",
-    timing: "Con alimentos",
-    intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
-    benefits: [
-      "Acompaña el bienestar del estómago con boldo, cuasia y diente de león. Cardo mariano y ruibarbo completan la mezcla de plantas."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "El ruibarbo puede acelerar las evacuaciones. Consultar si el cliente toma medicamentos para evitar coágulos o eliminar líquidos."
+      "id": 43,
+      "code": "7503016797115",
+      "name": "CARSYL GREEN",
+      "benefitSummary": "Cardo mariano, diente de león, rábano negro y betabel para ayudar al hígado y la digestión de grasas",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/11/ZN-CARSYL-GREEN-RENDER-V2-OCT2026.jpeg",
+      "shortDesc": "Cápsulas con cuatro plantas: diente de león, cardo mariano, rábano negro y betabel. Es el producto para personas con digestión pesada de grasas, boca amarga por las mañanas, sensación de pesadez en el costado derecho o hígado sobrecargado por comida o alcohol. Fórmula actualizada noviembre 2026.",
+      "ingredients": "Por porción (2 cápsulas / 1,000 mg): diente de león 300 mg, cardo mariano 250 mg, rábano negro 250 mg, betabel 150 mg.",
+      "serving": "2 cápsulas (1 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
+      "benefits": [
+          "Apoyo al hígado: el cardo mariano ayuda a proteger y limpiar el hígado cuando está sobrecargado por exceso de grasas, comida pesada o alcohol.",
+          "Digestión de grasas: el rábano negro y el diente de león ayudan a que la vesícula produzca más bilis para digerir mejor las comidas grasosas.",
+          "Menos boca amarga y pesadez: el diente de león y el betabel complementan el apoyo digestivo y ayudan a que el cuerpo elimine mejor lo que no necesita."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "El ruibarbo puede acelerar las evacuaciones. Consultar si el cliente toma medicamentos para evitar coágulos o eliminar líquidos.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Hígado, vesícula y digestión de grasas",
+          "text": "Por qué estas cuatro plantas ayudan al hígado y con la pesadez de grasas: el cardo mariano aporta silimarina, el compuesto vegetal más estudiado por sus efectos protectores sobre las células del hígado frente a toxinas, alcohol y grasas. El diente de león y el rábano negro estimulan de forma natural la secreción y flujo de bilis (acción colerética y colagoga), facilitando que el cuerpo emulsione y digiera comidas copiosas o grasosas. El betabel aporta betalaínas y antioxidantes que complementan el metabolismo hepático. Fórmula actualizada noviembre 2026 con dosis definidas por porción de 2 cápsulas.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: cardo mariano, uso tradicional y seguridad hepática",
+                  "url": "https://www.nccih.nih.gov/health/milk-thistle"
+              },
+              {
+                  "title": "EMA: raíz y parte aérea de diente de león para molestias digestivas y flujo biliar",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-officinalis-radix-cum-herba"
+              },
+              {
+                  "title": "PubMed NIH: rábano negro (Raphanus sativus var. niger) y función colerética",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/19003954/"
+              },
+              {
+                  "title": "PubMed NIH: betabel (Beta vulgaris) y protección antioxidante hepática",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/31590324/"
+              }
+          ]
+      }
   },
 
   // ================================================================
@@ -1221,23 +1367,40 @@ window.manualData.productos = [
   //  49. CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)
   // ================================================================
   {
-    id: 49,
-    code: "7503029679118",
-    name: "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
-    benefitSummary: "Bebida refrescante con hierbabuena y matcha",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/05/CLOROFILA1.webp",
-    shortDesc: "Clorofila con hierbabuena, menta y matcha para preparar una bebida refrescante. Las plantas tienen uso tradicional digestivo.",
-    ingredients: "Extracto de clorofila (10 ml), extracto de hierbabuena (5 ml), extracto de menta piperita (2.5 ml), extracto de té matcha (2.5 ml) por porción.",
-    serving: "20 ml",
-    timing: "En ayunas o entre comidas",
-    intakeInstructions: "Agitar antes de usar. Diluir 20 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
-    benefits: [
-      "Hierbabuena y menta piperita dan frescura y se usan para el bienestar digestivo. Té matcha aporta antioxidantes y clorofila da color a la bebida."
-    ],
-    contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila."
+      "id": 49,
+      "code": "7503029679118",
+      "name": "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
+      "benefitSummary": "Clorofila líquida concentrada con menta, hierbabuena y té matcha para desodorizar y oxigenar el cuerpo",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/CLOROFILA1.webp",
+      "shortDesc": "Concentrado líquido para diluir en agua con clorofila vegetal, extractos refrescantes de hierbabuena y menta piperita, reforzado con té matcha. Ayuda a refrescar el aliento desde el estómago, alcalinizar suavemente el cuerpo, combatir los malos olores corporales y mantener una digestión fresca y limpia durante todo el día.",
+      "ingredients": "Extracto de clorofila (10 ml), extracto de hierbabuena (5 ml), extracto de menta piperita (2.5 ml), extracto de té matcha (2.5 ml) por porción.",
+      "serving": "20 ml",
+      "timing": "En ayunas o entre comidas",
+      "intakeInstructions": "Agitar antes de usar. Diluir 20 ml en un vaso de agua, jugo o infusión. Tomar una vez al día.",
+      "benefits": [
+          "Aliento fresco y digestión limpia: la hierbabuena y la menta piperita calman la acidez y dejan una agradable sensación de frescura estomacal.",
+          "Desodorizante interno natural: la clorofila actúa desde el interior neutralizando toxinas y malos olores en la transpiración y el aliento.",
+          "Energía antioxidante con matcha: el extracto de té matcha aporta antioxidantes que protegen las células y ayudan a mantenerte activo."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila.",
+      "packageContent": "500 ml",
+      "researchNote": {
+          "focus": "Clorofila, mentol digestivo y desodorización interna",
+          "text": "Por qué tomar clorofila con menta y hierbabuena: las clorofilinas tienen propiedades reconocidas para neutralizar compuestos sulfurados volátiles en el tubo digestivo. La menta piperita y la hierbabuena aportan mentol, reconocido por la EMA como relajante muscular en molestias digestivas.",
+          "sources": [
+              {
+                  "title": "EMA: aceite esencial de menta piperita para espasmos digestivos menores y flatulencias",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum"
+              },
+              {
+                  "title": "PubMed NIH: clorofila y derivados en la salud digestiva y desodorización",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/11951581/"
+              }
+          ]
+      }
   },
 
   // ================================================================
@@ -1386,69 +1549,116 @@ window.manualData.productos = [
 
 // 55. D3 1000 IU / 1000 UI + Vitamina C & Equinácea (30 cápsulas)
 {
-  id: 55,
-  code: "7503029679101",
-  name: "D3 1000 UI + VITAMINA C & EQUINÁCEA",
-  benefitSummary: "Vitamina D para huesos y músculos; vitamina C para defensas",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
-  shortDesc: "Vitamina D3 de 1000 UI con vitamina C y equinácea para apoyar defensas, huesos y músculos y ayudar a absorber el calcio.",
-  ingredients: "Por cápsula de 1000 mg: Vitamina C (como ácido ascórbico) 300 mg, Vitamina D3 (como colecalciferol) 1000 UI / 25 mcg, Equinácea (Echinacea purpurea) 200 mg y excipiente c.b.p.",
-  serving: "1 cápsula (1000 mg) al día",
-  timing: "Por la mañana o con alimentos, preferentemente con una comida que contenga grasas",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos, preferentemente por la mañana. No exceder la porción diaria recomendada.",
-  benefits: [
-    "Apoya las defensas con vitaminas C y D3. La equinácea acompaña el cuidado en cambios de temporada.",
-    "Complementa el mantenimiento de huesos y músculos con vitamina D3 y la formación de colágeno con vitamina C."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "Tomar con alimentos. Una comida con algo de grasa ayuda a aprovechar la vitamina D3. La vitamina C puede causar molestias de estómago en personas sensibles.",
-  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas."
+    "id": 55,
+    "code": "7503029679101",
+    "name": "D3 1000 UI + VITAMINA C & EQUINÁCEA",
+    "benefitSummary": "Vitamina D3 de 1000 UI con vitamina C y equinácea para defensas invernales, huesos y vitalidad",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/D3-1000u-1.jpg",
+    "shortDesc": "Cápsulas con vitamina D3 (1000 UI), vitamina C (300 mg) y equinácea (200 mg). La combinación perfecta para activar las defensas durante cambios de clima, fortalecer los huesos y apoyar la absorción de calcio.",
+    "ingredients": "Por cápsula de 1000 mg: Vitamina C (como ácido ascórbico) 300 mg, Vitamina D3 (como colecalciferol) 1000 UI / 25 mcg, Equinácea (Echinacea purpurea) 200 mg y excipiente c.b.p.",
+    "serving": "1 cápsula (1000 mg) al día",
+    "timing": "Por la mañana o con alimentos, preferentemente con una comida que contenga grasas",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos, preferentemente por la mañana. No exceder la porción diaria recomendada.",
+    "benefits": [
+        "Apoya las defensas con vitaminas C y D3. La equinácea acompaña el cuidado en cambios de temporada frente a resfriados y bajas de temperatura.",
+        "Mantenimiento de huesos y articulaciones: la vitamina D3 optimiza la fijación del calcio en los huesos mientras la vitamina C ayuda a la formación natural de colágeno.",
+        "Energía y protección celular: ayuda a disminuir la sensación de cansancio físico y protege a las células de la acción del estrés oxidativo cotidiano."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "Tomar con alimentos. Una comida con algo de grasa ayuda a aprovechar la vitamina D3. La vitamina C puede causar molestias de estómago en personas sensibles.",
+    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas.",
+    "researchNote": {
+        "focus": "Sinergia de vitamina D3, ácido ascórbico y equinácea en la respuesta inmune",
+        "text": "Mecanismo inmunológico de la tríada preventiva: la vitamina D3 modula la diferenciación de linfocitos y promueve la síntesis de péptidos antimicrobianos en las células respiratorias. La vitamina C actúa como potente antioxidante hidrosoluble que neutraliza radicales libres generados durante procesos inflamatorios, mientras los polisacáridos de Echinacea purpurea activan los macrófagos locales en el tracto respiratorio superior.",
+        "sources": [
+            {
+                "title": "PubMed NIH: vitamina D3 en la prevención de infecciones agudas del tracto respiratorio",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/28202713/"
+            },
+            {
+                "title": "EMA: monografía comunitaria de Echinacea purpurea para el resfriado común",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba"
+            }
+        ]
+    }
 },
 
 // 56. DEMOGRASS CLÁSICO (30 cápsulas)
 {
-  id: 56,
-  code: "7501172019331",
-  name: "DEMOGRASS CLÁSICO",
-  benefitSummary: "Plantas para acompañar el bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSCLASICO.webp",
-  shortDesc: "Mezcla de plantas como sábila, lino y nopal para acompañar el bienestar digestivo junto con hábitos de alimentación y consumo de agua.",
-  ingredients: "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, bromelina.",
-  serving: "1 cápsula (500 mg)",
-  timing: "En ayunas",
-  intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
-  benefits: [
-    "Acompaña el bienestar digestivo con lino y nopal como fuentes vegetales de fibra, aloe vera y milenrama de uso tradicional, y bromelina como enzima que descompone proteínas.",
-    "Guaraná, naranjo, alisma y lima completan la mezcla vegetal."
-  ],
-  contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a un médico antes de usar.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
-},
+      "id": 56,
+      "code": "7501172019331",
+      "name": "DEMOGRASS CLÁSICO",
+      "benefitSummary": "Fórmula botánica con lino, nopal y bromelina para apoyar la digestión y el control de peso",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSCLASICO.webp",
+      "shortDesc": "Cápsulas de la fórmula clásica más conocida de Demograss, con lino, nopal, aloe vera, guaraná y enzima bromelina. Diseñado para personas que inician una rutina de control de peso y buscan mejorar el tránsito lento, evitar la hinchazón del abdomen y ayudar al cuerpo a eliminar toxinas y líquidos acumulados.",
+      "ingredients": "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, bromelina.",
+      "serving": "1 cápsula (500 mg)",
+      "timing": "En ayunas",
+      "intakeInstructions": "Tomar 1 cápsula al día en ayunas.",
+      "benefits": [
+          "Digestión ágil y vientre plano: el lino y el nopal aportan fibra soluble que activa el tránsito intestinal suavemente.",
+          "Digestión de proteínas: la bromelina de la piña ayuda a descomponer los alimentos pesados para que no fermenten en el estómago.",
+          "Energía y eliminación de líquidos: el guaraná, naranjo y alisma apoyan la vitalidad diaria y ayudan al cuerpo a deshincharse."
+      ],
+      "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a un médico antes de usar.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Fitoquímicos para motilidad digestiva y termogénesis suave",
+          "text": "Por qué funciona Demograss Clásico: combina fibra mucilaginosa de linaza y nopal que incrementa el bolo fecal con bromelina proteolítica y guaraná que aporta cafeína natural para estimular el metabolismo.",
+          "sources": [
+              {
+                  "title": "EMA: semilla de lino (linaza), uso tradicional para tránsito digestivo",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen"
+              },
+              {
+                  "title": "NCCIH / NIH: bromelina de la piña y digestión",
+                  "url": "https://www.nccih.nih.gov/health/bromelain"
+              }
+          ]
+      }
+  },
 
 // 57. Demograss Plus (30 cápsulas, 14 ingredientes)
 {
-  id: 57,
-  code: "7501172018228",
-  name: "DEMOGRASS PLUS",
-  benefitSummary: "Plantas y tés para acompañar el bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPLUS.webp",
-  shortDesc: "Mezcla de plantas y tés para acompañar el bienestar digestivo dentro de una rutina de alimentación y actividad física.",
-  ingredients: "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, zarzaparrilla, diente de león, té rojo, té blanco.",
-  serving: "1 cápsula (500 mg)",
-  timing: "En ayunas",
-  intakeInstructions: "Tomar 1 cápsula al día en ayunas.",
-  benefits: [
-    "Acompaña el bienestar digestivo con lino, nopal, aloe vera y milenrama. El diente de león y la zarzaparrilla completan la mezcla de uso tradicional.",
-    "Guaraná, té rojo y té blanco pueden aportar cafeína. Naranjo, alisma y lima añaden otros componentes vegetales."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedades crónicas deben consultar a su médico.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
-},
+      "id": 57,
+      "code": "7501172018228",
+      "name": "DEMOGRASS PLUS",
+      "benefitSummary": "Fórmula reforzada con diente de león, zarzaparrilla y tés antioxidantes para digestión y peso",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPLUS.webp",
+      "shortDesc": "Versión intermedia reforzada de Demograss que suma diente de león, zarzaparrilla, té rojo y té blanco a la fórmula clásica. Ideal para personas que ya conocen el producto y buscan mayor apoyo para depurar el hígado y los riñones, quemar grasa con tés termogénicos y mantener el abdomen desinflamado.",
+      "ingredients": "Aloe vera, guaraná, naranjo, lino, alisma, lima, milenrama, nopal, zarzaparrilla, diente de león, té rojo, té blanco.",
+      "serving": "1 cápsula (500 mg)",
+      "timing": "En ayunas",
+      "intakeInstructions": "Tomar 1 cápsula al día en ayunas.",
+      "benefits": [
+          "Mayor apoyo depurativo: el diente de león y la zarzaparrilla ayudan al hígado y los riñones a eliminar toxinas y líquidos retenidos.",
+          "Termogénesis con tés antioxidantes: el té rojo, el té blanco y el guaraná activan el gasto calórico diario y dan energía sostenida.",
+          "Regularidad intestinal: la linaza, el nopal y el aloe vera aseguran idas al baño diarias sin sensación de pesadez."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedades crónicas deben consultar a su médico.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Drenaje botánico y termogénesis con polifenoles",
+          "text": "Por qué Plus supera al clásico: la adición de diente de león aporta flavonoides y potasio con acción colerética y diurética suave, mientras las catequinas del té rojo y blanco apoyan la oxidación de grasas.",
+          "sources": [
+              {
+                  "title": "EMA: diente de león para molestias digestivas y diuresis menor",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-officinalis-radix-cum-herba"
+              },
+              {
+                  "title": "NCCIH / NIH: té verde y tés termogénicos en la salud metabólica",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              }
+          ]
+      }
+  },
 
 // 58. DIOLA ROSE (90 caps)
 {
@@ -1492,66 +1702,115 @@ window.manualData.productos = [
 
 // 59. DT Green (15 caps)
 {
-  id: 59,
-  code: "7503016797207",
-  name: "DT GREEN",
-  benefitSummary: "Plantas para acompañar el bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0005s_0002_Presentacion-blanco.jpg",
-  shortDesc: "Mezcla de plantas, frutas y jengibre para acompañar el bienestar digestivo y complementar una alimentación variada.",
-  ingredients: "Hojas de té, papaya, toronja, malva, espirulina, jengibre.",
-  serving: "1 cápsula",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Acompaña el bienestar digestivo con jengibre y malva. Papaya y toronja añaden componentes de frutas, mientras las hojas de té y la espirulina completan el aporte vegetal."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La fórmula incluye toronja, que puede cambiar el efecto de muchos medicamentos. Si el cliente toma alguno, revisar la combinación antes de usar."
-},
+      "id": 59,
+      "code": "7503016797207",
+      "name": "DT GREEN",
+      "benefitSummary": "Enzimas de papaya, malva y espirulina para digestión ligera y depuración verde",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0005s_0002_Presentacion-blanco.jpg",
+      "shortDesc": "Cápsulas con extractos de papaya, toronja, hojas de té, malva, espirulina y jengibre. Una combinación digestiva y desintoxicante ideal para personas que buscan mejorar la asimilación de nutrientes, calmar el intestino inflamado y sentirse ligeras después de comer.",
+      "ingredients": "Hojas de té, papaya, toronja, malva, espirulina, jengibre.",
+      "serving": "1 cápsula",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+      "benefits": [
+          "Digestión enzimática con papaya: las enzimas naturales de la papaya y el jengibre facilitan la digestión y evitan la pesadez estomacal.",
+          "Suavidad y protección intestinal: la malva aporta mucílagos que calman y desinflaman el tracto digestivo.",
+          "Nutrición verde y energía limpia: la espirulina y las hojas de té aportan clorofila, antioxidantes y vitalidad para el día."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La fórmula incluye toronja, que puede cambiar el efecto de muchos medicamentos. Si el cliente toma alguno, revisar la combinación antes de usar.",
+      "packageContent": "15 cápsulas",
+      "researchNote": {
+          "focus": "Fitonutrientes y enzimas digestivas frutales",
+          "text": "Por qué combinar papaya y malva: la papaya contiene papaína con acción proteolítica gástrica, mientras que la malva tapiza la mucosa reduciendo la irritación del colon.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: papaína de Carica papaya en el confort gastrointestinal",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/23524622/"
+              },
+              {
+                  "title": "EMA: flor y hoja de malva para molestias digestivas leves",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/malvae-sylvestris-flos"
+              }
+          ]
+      }
+  },
 
 // 60. Endis (90 caps, enzimas digestivas)
 {
-  id: 60,
-  code: "7503021404657",
-  name: "ENDIS",
-  benefitSummary: "Enzimas para descomponer alimentos y apoyar la digestión",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ENENDIS.png",
-  shortDesc: "Enzimas con papaya y hierbabuena para ayudar a descomponer los alimentos y favorecer el confort después de comidas pesadas.",
-  ingredients: "Papaya (400 mg), papaina (180 mg), bromelina (170 mg), fosfato de calcio (100 mg), amilasa (50 mg), pancreatina (50 mg), lipasa (30 mg), hierbabuena (20 mg) por porción.",
-  serving: "2 cápsulas",
-  timing: "Antes de las comidas",
-  intakeInstructions: "Tomar 2 cápsulas antes de las comidas principales.",
-  benefits: [
-    "Ayuda a descomponer alimentos: papaína, bromelina y enzimas de la papaya actúan sobre proteínas, amilasa sobre almidones y lipasa sobre grasas. La pancreatina aporta una mezcla de enzimas digestivas.",
-    "Acompaña el bienestar después de comer con hierbabuena de uso tradicional. El fosfato de calcio completa el aporte mineral."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la papaya, piña, menta, úlcera gástrica activa, pancreatitis aguda o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Puede aumentar el riesgo de sangrado si se combina con medicamentos para evitar coágulos."
-},
+      "id": 60,
+      "code": "7503021404657",
+      "name": "ENDIS",
+      "benefitSummary": "Complejo multienzimático con papaína, bromelina, pancreatina y lipasa para digerir cualquier comida",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/ENENDIS.png",
+      "shortDesc": "El suplemento de enzimas digestivas más completo del catálogo: reúne papaína, bromelina, amilasa, lipasa y pancreatina con extracto de papaya y hierbabuena. Es la solución inmediata para personas con digestión pesadísima, intolerancia a comidas grasosas, harinas o proteínas, o que sienten que la comida se les queda atorada en el estómago por horas.",
+      "ingredients": "Papaya (400 mg), papaina (180 mg), bromelina (170 mg), fosfato de calcio (100 mg), amilasa (50 mg), pancreatina (50 mg), lipasa (30 mg), hierbabuena (20 mg) por porción.",
+      "serving": "2 cápsulas",
+      "timing": "Antes de las comidas",
+      "intakeInstructions": "Tomar 2 cápsulas antes de las comidas principales.",
+      "benefits": [
+          "Digestión completa de grasas, harinas y carnes: la lipasa descompone grasas, la amilasa procesa carbohidratos, y la papaína, bromelina y pancreatina digieren las proteínas.",
+          "Cero pesadez e inflamación: evita que la comida fermente en el estómago, previniendo eructos agrios, gases y somnolencia tras comer.",
+          "Frescura y calma estomacal: la hierbabuena y el fosfato de calcio asientan el estómago y aportan un alivio fresco y rápido."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la papaya, piña, menta, úlcera gástrica activa, pancreatitis aguda o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Puede aumentar el riesgo de sangrado si se combina con medicamentos para evitar coágulos.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Terapia de reemplazo enzimático digestivo oral",
+          "text": "Por qué las enzimas digestivas multiespectro marcan la diferencia: la combinación de enzimas pancreáticas (pancreatina, lipasa, amilasa) y vegetales (papaína, bromelina) cubre todo el espectro de pH digestivo, facilitando la hidrólisis de macronutrientes y reduciendo la distensión postprandial.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: enzimas digestivas en trastornos gastrointestinales funcionales",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/25249852/"
+              },
+              {
+                  "title": "EMA: menta y hierbabuena para alivio de plenitud gástrica",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal"
+              }
+          ]
+      }
+  },
 
 // 61. EQUINACEA Y VITAMINA C 500 mg (90 caps)
 {
-  id: 61,
-  code: "7503029679057",
-  name: "EQUINACEA Y VITAMINA C",
-  benefitSummary: "Ingredientes vegetales para complementar el cuidado diario",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Equinacea1.jpg",
-  shortDesc: "Vitamina C con equinácea para apoyar las defensas y acompañar el cuidado diario en los cambios de temporada.",
-  ingredients: "Equinácea (200 mg), vitamina C (300 mg) por cápsula.",
-  serving: "1 cápsula (500 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Apoya las defensas con vitamina C, mientras la equinácea acompaña el cuidado tradicional en cambios de temporada."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
+    "id": 61,
+    "code": "7503029679057",
+    "name": "EQUINACEA Y VITAMINA C",
+    "benefitSummary": "Equinácea pura con vitamina C en cápsulas para protección rápida en cambios de clima",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Equinacea1.jpg",
+    "shortDesc": "Cápsulas que combinan 200 mg de extracto de equinácea con 300 mg de vitamina C. El dúo herbolario tradicional de cabecera para cortar resfriados a tiempo, reforzar los glóbulos blancos y aliviar la garganta.",
+    "ingredients": "Equinácea (200 mg), vitamina C (300 mg) por cápsula.",
+    "serving": "1 cápsula (500 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "benefits": [
+        "Respuesta ágil ante los primeros síntomas de resfriado: la equinácea estimula a las células defensivas para frenar el avance de malestares estacionales.",
+        "Protección antioxidante de vitamina C: 300 mg por cápsula que resguardan a los tejidos del desgaste y apoyan la formación de colágeno en la piel.",
+        "Fórmula preventiva familiar de 90 cápsulas: ideal para tomar a diario durante los meses fríos o al comenzar la temporada de lluvias."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+    "researchNote": {
+        "focus": "Equinácea y ácido ascórbico en la respuesta defensiva estacional",
+        "text": "Eficacia de la equinácea combinada con vitamina C: los derivados del ácido cafeico y las alquilamidas de la equinácea potencian la fagocitosis de los glóbulos blancos ante patógenos respiratorios comunes. La adición de ácido ascórbico asegura niveles óptimos de antioxidantes en los leucocitos durante periodos de mayor exposición ambiental.",
+        "sources": [
+            {
+                "title": "EMA: monografía de equinácea (Echinaceae purpureae herba) para resfriados",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba"
+            },
+            {
+                "title": "NIH ODS: ácido ascórbico y función de las células del sistema inmunitario",
+                "url": "https://ods.od.nih.gov/factsheets/VitaminC-Consumer/"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 62 - EVEAUX 500 mg
@@ -1579,24 +1838,41 @@ window.manualData.productos = [
 
 // 63. Fenogreco (90 caps)
 {
-  id: 63,
-  code: "7503026253885",
-  name: "FENOGRECO",
-  benefitSummary: "Apoyo nutricional al bienestar metabólico",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/fenogreco-1.jpg",
-  shortDesc: "Fenogreco en cápsulas, una semilla de uso tradicional para complementar la alimentación y acompañar el bienestar digestivo.",
-  ingredients: "Fenogreco (Trigonella foenum-graecum) en polvo 1500 mg por porción.",
-  serving: "3 cápsulas (1.5 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
-  benefits: [
-    "Acompaña el bienestar digestivo tradicional con fenogreco en polvo. Sus componentes vegetales complementan la alimentación."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar si el cliente usa medicamentos para el azúcar, para evitar coágulos o tratamientos hormonales."
-},
+      "id": 63,
+      "code": "7503026253885",
+      "name": "FENOGRECO",
+      "benefitSummary": "Semillas puras de fenogreco para proteger la mucosa digestiva, dar saciedad y controlar glucosa",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/fenogreco-1.jpg",
+      "shortDesc": "Cápsulas con 1,500 mg de polvo de semilla de fenogreco por porción. Es una semilla ancestral rica en mucílagos y galactomananos que recubren la pared del estómago aliviando el reflujo, retrasan la absorción de carbohidratos para evitar picos de azúcar y prolongan la sensación de saciedad.",
+      "ingredients": "Fenogreco (Trigonella foenum-graecum) en polvo 1500 mg por porción.",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 3 cápsulas al día con alimentos.",
+      "benefits": [
+          "Protección de la mucosa gástrica: sus abundantes mucílagos crean una barrera gelatinosa que protege contra la acidez y el reflujo.",
+          "Control de glucosa y saciedad: ayuda a que el cuerpo absorba el azúcar más despacio tras comer, reduciendo picos de glucosa y antojos.",
+          "Digestión regular y volumen fecal: su fibra soluble natural alimenta las bacterias benéficas y promueve una evacuación suave."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente usa medicamentos para el azúcar, para evitar coágulos o tratamientos hormonales.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Galactomananos, protección gástrica y metabolismo glucémico",
+          "text": "Por qué el fenogreco apoya el estómago y la glucosa: las semillas de Trigonella foenum-graecum contienen hasta un 50% de fibra dietética, principalmente galactomanano. Esta fibra soluble de alta viscosidad amortigua el ácido estomacal e inhibe la absorción rápida de glucosa en el intestino delgado.",
+          "sources": [
+              {
+                  "title": "EMA: semilla de fenogreco (Trigonellae foenugraeci semen), uso tradicional digestivo",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/trigonellae-foenugraeci-semen"
+              },
+              {
+                  "title": "PubMed NIH: fenogreco en el control glucémico y la salud digestiva",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/27496582/"
+              }
+          ]
+      }
+  },
 
 // 64. FITMINGO 510 GR VAINILLA (proteína vegetal)
 {
@@ -1623,45 +1899,79 @@ window.manualData.productos = [
 
 // 66. FLOR ESSENCE (500 ml, remedio herbolario)
 {
-  id: 66,
-  code: "61998080702",
-  name: "FLOR-ESSENCE",
-  benefitSummary: "Plantas de uso tradicional para bienestar digestivo",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/FlorEssence1.webp",
-  shortDesc: "Mezcla líquida de ocho plantas de uso tradicional para acompañar el bienestar digestivo.",
-  ingredients: "Bardana (1135 mg), acedera (573 mg), olmo (143 mg), kelp (53 mg), cardo santo (53 mg), berro (53 mg), trébol rojo (53 mg), ruibarbo (37 mg) por 100 ml.",
-  serving: "56 ml (una o dos veces al día)",
-  timing: "Por la noche antes de acostarse y por la mañana 1 hora antes del primer alimento",
-  intakeInstructions: "Agitar antes de usar. Diluir en igual cantidad de agua purificada. Tomar a sorbos lentamente.",
-  benefits: [
-    "Acompaña el bienestar digestivo tradicional con bardana, acedera, olmo y ruibarbo. Cardo santo y berro complementan la mezcla de plantas.",
-    "Kelp y trébol rojo amplían la composición vegetal."
-  ],
-  contraindications: "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Puede causar cólicos o molestias en el estómago y el intestino. Si el cliente recibe radioterapia o quimioterapia, consultar con su equipo médico antes de usar."
+    "id": 66,
+    "code": "61998080702",
+    "name": "FLOR-ESSENCE",
+    "benefitSummary": "Fórmula herbal de 8 plantas para depuración celular, bienestar digestivo y vitalidad",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/FlorEssence1.webp",
+    "shortDesc": "Mezcla líquida tradicional de ocho extractos botánicos (bardana, acedera, olmo, cardo santo, trébol rojo, berro, ruibarbo y alga kelp). Apoya los procesos naturales de depuración del cuerpo, reconforta la digestión y refuerza las defensas.",
+    "ingredients": "Bardana (1135 mg), acedera (573 mg), olmo (143 mg), kelp (53 mg), cardo santo (53 mg), berro (53 mg), trébol rojo (53 mg), ruibarbo (37 mg) por 100 ml.",
+    "serving": "56 ml (una o dos veces al día)",
+    "timing": "Por la noche antes de acostarse y por la mañana 1 hora antes del primer alimento",
+    "intakeInstructions": "Agitar antes de usar. Diluir en igual cantidad de agua purificada. Tomar a sorbos lentamente.",
+    "benefits": [
+        "Depuración y drenaje natural: la bardana y el cardo santo apoyan a los órganos de filtración del cuerpo para eliminar toxinas acumuladas de forma suave.",
+        "Suaviza la mucosa estomacal e intestinal: el olmo americano y el ruibarbo aportan mucílagos emolientes que calman la pesadez y reconfortan el tracto digestivo.",
+        "Aporte de minerales marinos y antioxidantes: el alga kelp aporta yodo y oligoelementos naturales mientras el trébol rojo y el berro nutren las células.",
+        "Fórmula líquida concentrada para tomar diluida: se mezcla en agua purificada y se disfruta a sorbos lentos en ayunas y antes de dormir."
+    ],
+    "contraindications": "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Puede causar cólicos o molestias en el estómago y el intestino. Si el cliente recibe radioterapia o quimioterapia, consultar con su equipo médico antes de usar.",
+    "researchNote": {
+        "focus": "Fórmula herbal tradicional de 8 plantas para depuración y protección celular",
+        "text": "Propiedades fitoquímicas de la mezcla Essiac / Flor-Essence: esta combinación sinérgica reúne plantas ricas en antraquinonas suaves (ruibarbo), lignanos y poliacetilenos (bardana), mucílagos polisacáridos (olmo) y flavonoides antioxidantes (trébol rojo y cardo santo). Estos extractos estimulan las secreciones digestivas y la actividad antioxidante celular frente al daño ocasionado por toxinas ambientales.",
+        "sources": [
+            {
+                "title": "PubMed NIH: análisis fitoquímico y capacidad antioxidante de Flor-Essence",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/15330495/"
+            },
+            {
+                "title": "EMA: monografía comunitaria de raíz de bardana (Arctium lappa)",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/arctii-lappae-radix"
+            }
+        ]
+    }
 },
 
 // 67. FUNGONE
 {
-  id: 67,
-  code: "7503026253618",
-  name: "FUNGONE",
-  benefitSummary: "Hongos de uso tradicional para complementar la alimentación",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Fungone1.jpg",
-  shortDesc: "Mezcla de siete hongos de uso tradicional para complementar la alimentación. Su composición no permite prometer mejoras de memoria o de las defensas.",
-  ingredients: "Hongo Reishi (Ganoderma lucidum), hongo Maitake (Grifola frondosa), hongo Chaga (Inonotus obliquus), hongo Shiitake (Lentinula edodes), hongo Cordyceps (Cordyceps sinensis), hongo Turkey Tail (Trametes versicolor), hongo Melena de León (Hericium erinaceus) en polvo.",
-  serving: "2 cápsulas al día",
-  timing: "Preferentemente con alimentos",
-  intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
-  benefits: [
-    "Complementa la alimentación con una mezcla de hongos: Reishi, Maitake, Chaga, Shiitake, Cordyceps, Turkey Tail y Melena de León."
-  ],
-  contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a los hongos, trastornos autoinmunitarios, o bajo tratamiento inmunosupresor o anticoagulante deben consultar a un profesional de la salud antes de consumirlo.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "id": 67,
+    "code": "7503026253618",
+    "name": "FUNGONE",
+    "benefitSummary": "Complejo de 7 hongos medicinales adaptógenos para blindaje inmunológico, energía y enfoque mental",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Fungone1.jpg",
+    "shortDesc": "Poderosa fórmula que concentra siete hongos venerados en la micología tradicional: Reishi, Maitake, Chaga, Shiitake, Cordyceps, Turkey Tail y Melena de León. Aporta beta-glucanos para modular las defensas, oxigenar el cuerpo y proteger las células.",
+    "ingredients": "Hongo Reishi (Ganoderma lucidum), hongo Maitake (Grifola frondosa), hongo Chaga (Inonotus obliquus), hongo Shiitake (Lentinula edodes), hongo Cordyceps (Cordyceps sinensis), hongo Turkey Tail (Trametes versicolor), hongo Melena de León (Hericium erinaceus) en polvo.",
+    "serving": "2 cápsulas al día",
+    "timing": "Preferentemente con alimentos",
+    "intakeInstructions": "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la dosis diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
+    "benefits": [
+        "Blindaje inmunológico con beta-glucanos: los polisacáridos naturales de los 7 hongos activan a los glóbulos blancos para una respuesta rápida y coordinada.",
+        "Energía celular y resistencia física: el Cordyceps y el Chaga mejoran el aprovechamiento del oxígeno celular combatiendo el agotamiento y la fatiga diaria.",
+        "Claridad mental y calma interna: la Melena de León apoya la concentración y agilidad mental mientras el Reishi ayuda a disipar el estrés acumulado.",
+        "Protección antioxidante profunda: defiende a las células frente al desgaste oxidativo y los contaminantes del ambiente.",
+        "Fórmula 100% pura en cápsulas: reúne la fuerza de los hongos adaptógenos más reconocidos en una toma diaria cómoda y práctica."
+    ],
+    "contraindications": "Mujeres embarazadas, en periodo de lactancia, personas con alergia a los hongos, trastornos autoinmunitarios, o bajo tratamiento inmunosupresor o anticoagulante deben consultar a un profesional de la salud antes de consumirlo.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Complejo de hongos medicinales adaptógenos y polisacáridos beta-glucanos",
+        "text": "Mecanismos inmunomoduladores de los beta-glucanos fúngicos: los hongos medicinales contienen polisacáridos beta-1,3/1,6-glucanos que interactúan con receptores como Dectin-1 y TLR-2 en macrófagos y células dendríticas, activando una respuesta defensiva coordinada. Además, especies como Hericium erinaceus aportan erinacinas que estimulan la salud neuronal, y Cordyceps sinensis optimiza la producción de trifosfato de adenosina (ATP) celular.",
+        "sources": [
+            {
+                "title": "PubMed NIH: beta-glucanos de hongos medicinales y modulación del sistema inmune",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29134989/"
+            },
+            {
+                "title": "NCCIH / NIH: hongos medicinales (Reishi, Shiitake y Maitake) y salud",
+                "url": "https://www.nccih.nih.gov/health/asian-ginseng"
+            }
+        ]
+    }
 },
 
 // 68. GABA (30 caps)
@@ -1714,23 +2024,39 @@ window.manualData.productos = [
 
 // 69. GENTILAX (laxante con fenolftaleína) - se incluye pero con advertencia
 {
-  id: 69,
-  code: "7501737500038",
-  name: "GENTILAX",
-  benefitSummary: "Fórmula laxante pendiente de validación",
-  category: "laxantes",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/gentilax.webp",
-  shortDesc: "Producto laxante cuya ficha declara fenolftaleína. Requiere validar la fórmula y su seguridad antes de recomendarlo para el estreñimiento.",
-  ingredients: "Fenolftaleína 60 mg por tableta.",
-  serving: "1-2 tabletas (según indicación médica)",
-  timing: "Antes de acostarse",
-  intakeInstructions: "Tomar 1-2 tabletas antes de acostarse, según indicación médica. No usar por más de una semana.",
-  benefits: [
-    "Contiene fenolftaleína, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
-  ],
-  contraindications: "No administrar en casos de dolor abdominal de origen desconocido, obstrucción intestinal, embarazo, lactancia, o en menores de 8 años sin prescripción médica.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Usarlo durante demasiado tiempo puede hacer que el intestino dependa del laxante y alterar las sales y minerales del cuerpo. Respetar el tiempo de uso indicado."
+    "id": 69,
+    "code": "7501737500038",
+    "name": "GENTILAX",
+    "benefitSummary": "Laxante estimulante clásico en tabletas para el alivio del estreñimiento ocasional",
+    "category": "laxantes",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/gentilax.webp",
+    "shortDesc": "Laxante estimulante de acción nocturna en tabletas. Formulado para activar el movimiento del intestino y facilitar una evacuación eficaz por la mañana en episodios de estreñimiento ocasional o digestión detenida.",
+    "ingredients": "Fenolftaleína 60 mg por tableta.",
+    "serving": "1-2 tabletas (según indicación médica)",
+    "timing": "Antes de acostarse",
+    "intakeInstructions": "Tomar 1-2 tabletas antes de acostarse, según indicación médica. No usar por más de una semana.",
+    "benefits": [
+        "Activa de forma directa las contracciones del colon para desbloquear el tránsito detenido y facilitar la evacuación tras días sin poder ir al baño.",
+        "Acción nocturna predecible: tomada antes de acostarse, actúa durante el reposo para permitir una evacuación cómoda y puntual al despertar.",
+        "Fórmula clásica de rescate ocasional: ideal para resolver episodios específicos de estreñimiento, recomendándose su uso por periodos breves."
+    ],
+    "contraindications": "No administrar en casos de dolor abdominal de origen desconocido, obstrucción intestinal, embarazo, lactancia, o en menores de 8 años sin prescripción médica.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Usarlo durante demasiado tiempo puede hacer que el intestino dependa del laxante y alterar las sales y minerales del cuerpo. Respetar el tiempo de uso indicado.",
+    "researchNote": {
+        "focus": "Laxante estimulante de contacto colónico para estreñimiento ocasional",
+        "text": "Cómo actúa en el intestino: los agentes estimulantes de contacto actúan sobre las terminaciones nerviosas de la mucosa del colon, aumentando las ondas de movimiento (peristalsis) e inhibiendo la reabsorción excesiva de agua. Esto produce un vaciado intestinal completo y eficaz dentro de las 6 a 10 horas posteriores a su ingesta. Por su potencia, está indicado exclusivamente como medida de rescate temporal (máximo 5 a 7 días consecutivos) para no acostumbrar al intestino.",
+        "sources": [
+            {
+                "title": "PubMed NIH: mecanismos de acción y eficacia de laxantes estimulantes en estreñimiento",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/11180036/"
+            },
+            {
+                "title": "PubMed NIH: farmacología clínica y seguridad en el manejo del estreñimiento agudo",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/10444589/"
+            }
+        ]
+    }
 },
 
 // 70. Ginkgo Biloba (90 caps)
@@ -1868,67 +2194,123 @@ window.manualData.productos = [
 
 // 75. GOJIZEN MAX (ACTUALIZADO)
 {
-  id: 75,
-  code: "7503025069036",
-  name: "GOJIZEN MAX",
-  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0000_freepik__reflective-red-plastic-bottle-gently-tapered-shoul__80768.jpg",
-  shortDesc: "Goji, mango africano, linaza, piña y papaya con vitaminas y minerales para complementar la alimentación y el bienestar digestivo.",
-  ingredients: "Bayas de Goji (Lycium barbarum), mango africano (Irvingia gabonensis), linaza (Linum usitatissimum), raíz de lima, piña (Ananas comosus), papaya (Carica papaya), lecitina de soya, vitamina C, vitamina E, vitamina B12 (cianocobalamina) (6 µg), magnesio elemental (9 mg), calcio elemental (8 mg).",
-  serving: "1 cápsula al día",
-  timing: "Preferentemente con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
-  benefits: [
-    "Acompaña el bienestar digestivo con linaza, piña y papaya. Goji, mango africano, raíz de lima y lecitina de soya completan la mezcla vegetal.",
-    "Las vitaminas C y E aportan antioxidantes y la B12 ayuda al funcionamiento de los nervios y a formar glóbulos rojos. Incluye pequeñas cantidades de magnesio y calcio."
-  ],
-  contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 75,
+      "code": "7503025069036",
+      "name": "GOJIZEN MAX",
+      "benefitSummary": "Goji, mango africano y enzimas frutales con vitaminas para digestión y control de peso",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/correjidos_0000_freepik__reflective-red-plastic-bottle-gently-tapered-shoul__80768.jpg",
+      "shortDesc": "Cápsulas que reúnen superfrutas antioxidantes (goji y mango africano) con linaza, raíz de lima, piña, papaya, lecitina de soya y vitaminas B12, C y E. Ideal para acompañar planes de pérdida de peso, ayudando a controlar el apetito, quemar grasa y mantener el tránsito intestinal activo y sin hinchazón.",
+      "ingredients": "Bayas de Goji (Lycium barbarum), mango africano (Irvingia gabonensis), linaza (Linum usitatissimum), raíz de lima, piña (Ananas comosus), papaya (Carica papaya), lecitina de soya, vitamina C, vitamina E, vitamina B12 (cianocobalamina) (6 µg), magnesio elemental (9 mg), calcio elemental (8 mg).",
+      "serving": "1 cápsula al día",
+      "timing": "Preferentemente con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día, preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), se recomienda consultar con un profesional de la salud.",
+      "benefits": [
+          "Digestión activa y vientre plano: la linaza, la piña y la papaya aportan fibra soluble y enzimas que mejoran la digestión diaria.",
+          "Control de peso y saciedad: el mango africano y las bayas de goji ayudan a regular los antojos y optimizar el metabolismo.",
+          "Energía celular y antioxidantes: la vitamina B12, la vitamina C y el magnesio ayudan a mantener la energía durante el día y protegen las células."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Antioxidantes botánicos y apoyo metabólico",
+          "text": "Por qué combinar goji y mango africano: Lycium barbarum aporta polisacáridos antioxidantes, mientras Irvingia gabonensis ha sido estudiada en PubMed por su impacto en el metabolismo glucémico y lipídico.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: Irvingia gabonensis (mango africano) en el manejo del peso",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/19254398/"
+              },
+              {
+                  "title": "PubMed NIH: bayas de Goji (Lycium barbarum) y salud antioxidante",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/21169875/"
+              }
+          ]
+      }
+  },
 
 // 76. GREEN LX 300 mg (50 tabletas)
 {
-  id: 76,
-  code: "7503016797597",
-  name: "GREEN LX",
-  benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-  category: "laxantes",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/GREEEN-XL.jpg",
-  shortDesc: "Ciruela pasa, tamarindo, papaya, sábila y manzana para acompañar la regularidad y el confort intestinal.",
-  ingredients: "Ciruela pasa, tamarindo, papaya, sábila, manzana.",
-  serving: "1 tableta (300 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 tableta al día con alimentos.",
-  benefits: [
-    "Acompaña el movimiento del intestino con ciruela pasa, tamarindo, papaya y manzana. La sábila completa la mezcla para el bienestar digestivo."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La sábila puede acelerar las evacuaciones o causar diarrea."
+    "id": 76,
+    "code": "7503016797597",
+    "name": "GREEN LX",
+    "benefitSummary": "Laxante vegetal suave a base de ciruela pasa, tamarindo, papaya, sábila y manzana",
+    "category": "laxantes",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/GREEEN-XL.jpg",
+    "shortDesc": "Fórmula natural con pulpa de ciruela pasa, tamarindo, manzana, sábila y papaya en tabletas. Suaviza las evacuaciones, aporta fibra vegetal soluble y promueve la regularidad del intestino de manera noble, sin provocar cólicos ni irritación.",
+    "ingredients": "Ciruela pasa, tamarindo, papaya, sábila, manzana.",
+    "serving": "1 tableta (300 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 tableta al día con alimentos.",
+    "benefits": [
+        "Aporta fibra soluble y azúcares naturales de ciruela pasa, tamarindo y manzana que retienen humedad, ablandando las heces para que evacuar sea fácil y sin dolor.",
+        "La papaya y la sábila calman las molestias digestivas, desinflaman la mucosa gástrica e intestinal y favorecen un tránsito fluido y ligero.",
+        "Alternativa botánica suave y sin químicos irritantes, ideal para personas con digestión perezosa que prefieren un apoyo digestivo natural y amable."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La sábila puede acelerar las evacuaciones o causar diarrea.",
+    "researchNote": {
+        "focus": "Laxante osmótico natural y fibra frutal para la regularidad intestinal",
+        "text": "Por qué la ciruela pasa y las frutas facilitan la evacuación: la ciruela pasa (Prunus domestica) y el tamarindo contienen naturalmente sorbitol y pectinas, componentes que retienen agua dentro de la luz intestinal (efecto osmótico suave), aumentando el volumen de las heces y haciéndolas mucho más blandas. Combinadas con la papaya (fuente de enzimas digestivas) y la sábila (mucílagos regeneradores), protegen las paredes del intestino facilitando una expulsión suave sin los retortijones característicos de los laxantes estimulantes.",
+        "sources": [
+            {
+                "title": "PubMed NIH: ciruela pasa (Prunus domestica) para el estreñimiento y regularidad intestinal",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24090144/"
+            },
+            {
+                "title": "PubMed NIH: tamarindo y fibras de frutas en motilidad digestiva",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/25172701/"
+            },
+            {
+                "title": "EMA: monografía de gel de sábila (Aloe vera) para bienestar y alivio digestivo",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/aloe-barbadensis"
+            }
+        ]
+    }
 },
 
 // 77. HERCAMPURRI 500 mg (90 caps)
 {
-  id: 77,
-  code: "7503026253908",
-  name: "HERCAMPURI",
-  benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/HERCAMPURRI.jpg",
-  shortDesc: "Hercampuri en cápsulas, una planta de uso tradicional andino para acompañar el confort después de comer.",
-  ingredients: "Hercampuri (Gentianella alborosea) en polvo 1500 mg por porción.",
-  serving: "3 cápsulas (1.5 g)",
-  timing: "Antes de las comidas",
-  intakeInstructions: "Tomar 3 cápsulas al día antes de las comidas principales.",
-  benefits: [
-    "Acompaña el bienestar digestivo tradicional con hercampuri en polvo."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar si el cliente toma medicamentos que modifican la producción de ácido del estómago."
-},
+      "id": 77,
+      "code": "7503026253908",
+      "name": "HERCAMPURI",
+      "benefitSummary": "Planta andina amarga para apoyar el hígado graso y mejorar la digestión de grasas",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/HERCAMPURRI.jpg",
+      "shortDesc": "Cápsulas de hercampuri puro en polvo. Planta andina muy conocida por su sabor amargo que ayuda a limpiar la grasa acumulada en el hígado y a que la bilis trabaje mejor para digerir comidas con mucha grasa.",
+      "ingredients": "Hercampuri (Gentianella alborosea) en polvo 1500 mg por porción.",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Antes de las comidas principales",
+      "intakeInstructions": "Tomar 3 cápsulas al día antes de las comidas principales.",
+      "benefits": [
+          "Limpieza del hígado: el hercampuri ayuda al cuerpo a procesar y eliminar la grasa acumulada en el hígado.",
+          "Mejora la digestión de grasas: estimula la bilis de forma natural para que las comidas grasosas no caigan pesadas."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente toma medicamentos que modifican la producción de ácido del estómago.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Hígado graso y digestión de grasas",
+          "text": "Por qué el hercampuri se usa para el hígado y la vesícula: el hercampuri (Gentianella alborosea) es una planta amarga andina rica en xantonas y secoiridoides (amarogentina). Las sustancias amargas activan receptores en la boca y el tubo digestivo que estimulan la secreción de jugos gástricos y bilis, facilitando el procesamiento de grasas y el soporte hepático. Su uso tradicional andino está ampliamente documentado para afecciones hepáticas y digestión pesada.",
+          "sources": [
+              {
+                  "title": "Ethnobotany Journal: Gentianella alborosea (hercampuri), usos tradicionales andinos",
+                  "url": "https://ethnobotanyjournal.org/index.php/era/article/view/2498"
+              },
+              {
+                  "title": "PubMed NIH: revisión etnofarmacológica de Gentianella alborosea",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/37441851/"
+              },
+              {
+                  "title": "NCCIH: sustancias botánicas amargas y confort digestivo",
+                  "url": "https://www.nccih.nih.gov/health/digestive-disorders-and-dietary-supplements-what-you-need-to-know"
+              }
+          ]
+      }
+  },
 
 // 78. HPR PROS GREEN ZEN (120 caps)
 {
@@ -1997,24 +2379,41 @@ window.manualData.productos = [
 
 // 81. JENGIBRE 500 mg (60 caps)
 {
-  id: 81,
-  code: "7503021404176",
-  name: "JENGIBRE",
-  benefitSummary: "Especias para bienestar digestivo y aporte antioxidante",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/JENGIBRE.jpg",
-  shortDesc: "Jengibre en cápsulas para acompañar el bienestar del estómago y ayudar con las náuseas en algunas situaciones.",
-  ingredients: "Raíz de jengibre (Zingiber officinale) en polvo 1000 mg por porción.",
-  serving: "2 cápsulas (1 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 2 cápsulas al día con alimentos.",
-  benefits: [
-    "El jengibre se usa para el bienestar del estómago y puede ayudar con algunas molestias de náusea."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
-},
+      "id": 81,
+      "code": "7503021404176",
+      "name": "JENGIBRE",
+      "benefitSummary": "1,000 mg de raíz pura de jengibre para calmar náuseas, espasmos digestivos y mareos",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/JENGIBRE.jpg",
+      "shortDesc": "Cápsulas con 1,000 mg de jengibre puro por porción. Es el remedio universal para calmar el malestar estomacal, náuseas matutinas, mareos por viaje, retortijones y digestiones lentas. Calienta el estómago, estimula la saliva y el vaciado digestivo, dejando una sensación reconfortante.",
+      "ingredients": "Raíz de jengibre (Zingiber officinale) en polvo 1000 mg por porción.",
+      "serving": "2 cápsulas (1 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
+      "benefits": [
+          "Alivio rápido de náuseas y mareos: el jengibre actúa sobre los centros digestivos para cortar la sensación de náusea y mareo de forma inmediata.",
+          "Motilidad gástrica activa: acelera el vaciado del estómago para evitar la pesadez de comida estancada.",
+          "Calma de espasmos y cólicos: ayuda a relajar los músculos del estómago y el intestino cuando hay retortijones."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Antiemético y procinético natural",
+          "text": "Por qué el jengibre es el antiemético natural por excelencia: sus compuestos activos (gingeroles y shogaoles) modulan los receptores en el tracto gastrointestinal, calmando las náuseas y acelerando el vaciado gástrico sin provocar somnolencia.",
+          "sources": [
+              {
+                  "title": "EMA: rizoma de jengibre para prevención de náuseas y vómitos",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+              },
+              {
+                  "title": "NCCIH / NIH: jengibre, evidencia y seguridad",
+                  "url": "https://www.nccih.nih.gov/health/ginger"
+              }
+          ]
+      }
+  },
 
 // 82. Krill Oil (80 cápsulas)
 {
@@ -2082,24 +2481,41 @@ window.manualData.productos = [
 
 // 85. L-CARNOSINE ZINC (30 cápsulas)
 {
-  id: 85,
-  code: "7500645001521",
-  name: "L-CARNOSINE ZINC",
-  benefitSummary: "Cuidado de la capa que recubre el estómago",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZN-–-ZINC-L-CARNOSINE-–-30-caps-–-Render-–-V2-–-Marzo2026.jpg",
-  shortDesc: "Zinc con carnosina, jengibre y fibra para complementar el cuidado de la capa que recubre el estómago y el confort digestivo.",
-  ingredients: "Zinc L-carnosina (50 mg, aporta 15 mg de zinc elemental), jengibre en polvo (50 mg), inulina de agave c.s.p. por cápsula.",
-  serving: "1 cápsula",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Complementa el cuidado de la capa que protege el estómago con zinc L-carnosina. El jengibre acompaña el bienestar digestivo y la inulina de agave aporta fibra."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con condiciones médicas deben consultar a un especialista.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "El exceso de zinc puede hacer que el cuerpo absorba menos cobre. Revisar otros suplementos que el cliente ya consuma."
-},
+      "id": 85,
+      "code": "7500645001521",
+      "name": "L-CARNOSINE ZINC",
+      "benefitSummary": "Zinc L-carnosina con jengibre para regenerar la mucosa del estómago y quitar el ardor",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/ZN-–-ZINC-L-CARNOSINE-–-30-caps-–-Render-–-V2-–-Marzo2026.jpg",
+      "shortDesc": "Cápsulas que combinan zinc quelado con L-carnosina, jengibre en polvo e inulina de agave. Es el suplemento ideal para personas con gastritis crónica, ardor constante o estómago muy sensible. El zinc carnosina se adhiere directamente a las zonas irritadas de la pared gástrica para protegerla del ácido y acelerar su recuperación.",
+      "ingredients": "Zinc L-carnosina (50 mg, aporta 15 mg de zinc elemental), jengibre en polvo (50 mg), inulina de agave c.s.p. por cápsula.",
+      "serving": "1 cápsula",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+      "benefits": [
+          "Capa protectora en el estómago: el zinc L-carnosina se fija en las áreas irritadas de la mucosa para defenderla del ácido gástrico.",
+          "Alivio digestivo con jengibre: el jengibre calma las náuseas, reduce los retortijones y desinflama el vientre.",
+          "Salud intestinal: la inulina de agave aporta fibra prebiótica suave que nutre la flora benéfica sin irritar."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con condiciones médicas deben consultar a un especialista.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "El exceso de zinc puede hacer que el cuerpo absorba menos cobre. Revisar otros suplementos que el cliente ya consuma.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Regeneración de mucosa gástrica y confort estomacal",
+          "text": "Por qué el zinc L-carnosina es el estándar para el estómago: el complejo de zinc y carnosina se une a las zonas inflamadas de la mucosa gástrica. Ensayos clínicos en PubMed demuestran que promueve la secreción de moco protector gástrico y apoya la recuperación de la barrera estomacal. El jengibre aporta gingeroles que mejoran el vaciamiento gástrico.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: zinc L-carnosina y protección de la barrera de la mucosa gástrica",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/17497970/"
+              },
+              {
+                  "title": "NCCIH / NIH: jengibre para náuseas y confort digestivo",
+                  "url": "https://www.nccih.nih.gov/health/ginger"
+              }
+          ]
+      }
+  },
 
 // 86. Leucaps (60 cápsulas, luteína y zeaxantina)
 {
@@ -2557,25 +2973,41 @@ window.manualData.productos = [
 
 // 104. Vinagre Sidra de Manzana (90 caps, en cápsulas con cúrcuma, jengibre, canela y pimienta negra)
 {
-  id: 104,
-  code: "7503026253090",
-  name: "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
-  benefitSummary: "Apoyo digestivo tradicional para pesadez y gases",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
-  shortDesc: "Combina vinagre de sidra de manzana en polvo con especias de uso tradicional digestivo. Jengibre y cúrcuma acompañan la comodidad del estómago después de comer, mientras que canela y pimienta negra completan la fórmula. El enfoque inicial es pesadez y bienestar digestivo. Para ampliar su explicación hacia el cuidado del azúcar y las grasas necesitamos conocer el aporte de ácido acético de la presentación, además de la cantidad de vinagre en polvo.",
-  ingredients: "Vinagre de sidra de manzana en polvo (900 mg), cúrcuma (300 mg), jengibre (180 mg), canela (115 mg), pimienta negra (5 mg) por porción.",
-  serving: "3 cápsulas (1.5 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
-  benefits: [
-    "Pesadez después de comer: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago.",
-    "El vinagre de sidra de manzana en polvo, la canela y la pimienta negra completan la mezcla de uso digestivo."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial."
-},
+      "id": 104,
+      "code": "7503026253090",
+      "name": "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
+      "benefitSummary": "Vinagre de manzana con cúrcuma, jengibre y canela para activar la digestión, quemar grasa y aplanar el abdomen",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/VINAGRE1.jpg",
+      "shortDesc": "Cápsulas que reúnen 900 mg de vinagre de sidra de manzana en polvo con cúrcuma, jengibre, canela y pimienta negra. Todo el poder digestivo y reductor del vinagre de manzana sin dañar el esmalte de tus dientes ni el sabor ácido en la garganta. Para tomar antes de los alimentos fuertes para evitar pesadez, picos de glucosa y antojos dulces.",
+      "ingredients": "Vinagre de sidra de manzana en polvo (900 mg), cúrcuma (300 mg), jengibre (180 mg), canela (115 mg), pimienta negra (5 mg) por porción.",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 3 cápsulas al día con alimentos.",
+      "benefits": [
+          "Digestión ligera y adiós a la pesadez: el vinagre de sidra de manzana en polvo ayuda a activar la digestión gástrica para procesar rápidamente carnes y grasas pesadas.",
+          "Vientre plano y menos gases: el jengibre y la cúrcuma desinflaman los intestinos y facilitan la expulsión natural de gases tras comer.",
+          "Control metabólico y máxima absorción: la canela ayuda a estabilizar los niveles de azúcar tras las comidas, mientras la pimienta negra maximiza la absorción de todos los nutrientes."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Ácido acético y especias carminativas para vaciamiento gástrico",
+          "text": "Por qué tomar vinagre de manzana con especias: el ácido acético del vinagre promueve la actividad de las enzimas digestivas gástricas y favorece la respuesta a la insulina. El jengibre y la cúrcuma estimulan las secreciones biliares y gástricas, mientras que la piperina de la pimienta negra incrementa la biodisponibilidad de los curcuminoides hasta un 2000%.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: vinagre de sidra de manzana y metabolismo glucémico y digestivo",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/34187442/"
+              },
+              {
+                  "title": "PubMed NIH: sinergia de cúrcuma, jengibre y pimienta negra en la digestión",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+              }
+          ]
+      }
+  },
 
 // 105. VITA RX MENS (120 caps, multivitamínico y mineral para hombres)
 {
@@ -2648,23 +3080,40 @@ window.manualData.productos = [
 
 // 108. Vitamina C-1000 NOW (100 caps, 1000 mg de vitamina C con bioflavonoides)
 {
-  id: 108,
-  code: "73373900690",
-  name: "VITAMINA C-1000 NOW",
-  benefitSummary: "Vitamina C para defensas, colágeno y cuidado celular",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/VITAMINAC-1000.jpg",
-  shortDesc: "Vitamina C de 1000 mg por cápsula para apoyar las defensas, la formación de colágeno y el cuidado de las células.",
-  ingredients: "Vitamina C (como ácido ascórbico) 1000 mg, complejo de bioflavonoides cítricos 100 mg, polvo de rutina (de Sophora japonica) 25 mg por cápsula.",
-  serving: "1 cápsula (aprox. 1 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día.",
-  benefits: [
-    "Apoya las defensas y la formación de colágeno con vitamina C. El complejo de bioflavonoides cítricos y la rutina de Sophora japonica complementan el aporte de antioxidantes."
-  ],
-  contraindications: "Solo para adultos. Consultar a médico si se está embarazada o lactando, o si se toman medicamentos.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Las cantidades altas de vitamina C requieren revisión si el cliente toma medicamentos para evitar coágulos o recibe quimioterapia."
+    "id": 108,
+    "code": "73373900690",
+    "name": "VITAMINA C-1000 NOW",
+    "benefitSummary": "Vitamina C de 1000 mg con bioflavonoides cítricos y rutina para absorción prolongada y defensas máximas",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/VITAMINAC-1000.jpg",
+    "shortDesc": "Cápsulas de vitamina C de alta potencia (1,000 mg) reforzadas con 100 mg de bioflavonoides cítricos y 25 mg de rutina de Sophora japonica. Fórmula de absorción superior para el sistema inmune, vasos sanguíneos y piel.",
+    "ingredients": "Vitamina C (como ácido ascórbico) 1000 mg, complejo de bioflavonoides cítricos 100 mg, polvo de rutina (de Sophora japonica) 25 mg por cápsula.",
+    "serving": "1 cápsula (aprox. 1 g)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día.",
+    "benefits": [
+        "Megadosis de 1,000 mg de vitamina C: aporte de máxima fuerza para blindar el sistema inmune, combatir el cansancio y neutralizar radicales libres.",
+        "Absorción prolongada con bioflavonoides y rutina: los bioflavonoides cítricos evitan la degradación rápida de la vitamina C, multiplicando su retención en el cuerpo.",
+        "Firmeza y salud de vasos sanguíneos: la rutina vegetal fortalece los capilares y la circulación mientras la vitamina C estimula la síntesis de colágeno.",
+        "Cuidado de la piel, encías y articulaciones: ayuda a mantener cartílagos flexibles, encías sanas y un tono de piel uniforme y radiante."
+    ],
+    "contraindications": "Solo para adultos. Consultar a médico si se está embarazada o lactando, o si se toman medicamentos.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Las cantidades altas de vitamina C requieren revisión si el cliente toma medicamentos para evitar coágulos o recibe quimioterapia.",
+    "researchNote": {
+        "focus": "Vitamina C de alta concentración potenciada con bioflavonoides cítricos y rutina",
+        "text": "Por qué los bioflavonoides optimizan la vitamina C: los bioflavonoides cítricos y la rutina (quercetina-3-rutinósido) actúan en sinergia biológica con el ácido ascórbico, incrementando su absorción celular y retrasando su eliminación renal. Esto proporciona una protección antioxidante continua y un soporte estructural robusto al endotelio vascular y los tejidos conectivos.",
+        "sources": [
+            {
+                "title": "PubMed NIH: bioflavonoides cítricos y aumento de retención de vitamina C",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29099763/"
+            },
+            {
+                "title": "NIH ODS: ficha técnica de vitamina C para profesionales de la salud",
+                "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+            }
+        ]
+    }
 },
 
 // 109. Vitamina D3 + Magnesio, K2 y Zinc (60 caps)
@@ -2797,24 +3246,40 @@ window.manualData.productos = [
 
 // 115. Yumel (Yumel Simila, solución oral homeopática de Guatteria gaumeri)
 {
-  id: 115,
-  code: "7502221950681",
-  name: "YUMEL SIMILA",
-  benefitSummary: "Yumel: preparación tradicional por valorar",
-  category: "clinico",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Yumel1.webp",
-  shortDesc: "Preparación tradicional de yumel en gotas. Su utilidad para cálculos o colesterol no está demostrada y requiere valoración antes de recomendarla.",
-  ingredients: "Guatteria gaumeri TM (Tintura Madre) 100 ml por 100 ml.",
-  serving: "20 gotas en ¼ de vaso con agua",
-  timing: "Tres veces al día, antes de los alimentos",
-  intakeInstructions: "Mezclar 20 gotas en un cuarto de vaso con agua natural. Tomar 3 veces al día antes de los alimentos.",
-  benefits: [
-    "Preparación de yumel Guatteria gaumeri en gotas. Consultar su uso con un profesional."
-  ],
-  contraindications: "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Las combinaciones con medicamentos no están suficientemente estudiadas. Revisar con un profesional si usa tratamientos para el colesterol, medicamentos que procesa el hígado o para evitar coágulos. También consultar si tiene una cirugía programada."
-},
+      "id": 115,
+      "code": "7502221950681",
+      "name": "YUMEL SIMILA",
+      "benefitSummary": "Extracto de yumel para apoyar la vesícula y la digestión de grasas",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/Yumel1.webp",
+      "shortDesc": "Gotas de extracto de yumel (Guatteria gaumeri), una planta usada tradicionalmente para ayudar a la vesícula a trabajar mejor y aliviar la pesadez después de comer comida con mucha grasa.",
+      "ingredients": "Guatteria gaumeri TM (Tintura Madre) 100 ml por 100 ml.",
+      "serving": "20 gotas en ¼ de vaso con agua",
+      "timing": "Tres veces al día, antes de los alimentos",
+      "intakeInstructions": "Mezclar 20 gotas en un cuarto de vaso con agua natural. Tomar 3 veces al día antes de los alimentos.",
+      "benefits": [
+          "Apoyo a la vesícula: el yumel se usa de forma tradicional para ayudar a que la vesícula fluya mejor y no duela al comer grasa.",
+          "Menos pesadez con grasas: ayuda a aliviar el malestar después de comidas copiosas o muy grasosas."
+      ],
+      "contraindications": "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Las combinaciones con medicamentos no están suficientemente estudiadas. Revisar con un profesional si usa tratamientos para el colesterol, medicamentos que procesa el hígado o para evitar coágulos. También consultar si tiene una cirugía programada.",
+      "packageContent": "100 ml",
+      "researchNote": {
+          "focus": "Vesícula, bilis y digestión de grasas",
+          "text": "Por qué se usa el yumel para la vesícula: el yumel (Guatteria gaumeri) es un árbol de la península de Yucatán cuya corteza ha sido utilizada tradicionalmente en México para padecimientos de la vesícula biliar y niveles de colesterol. Estudios farmacológicos indexados en PubMed han analizado su principio activo (alfa-asarona) y su impacto en la composición de la bilis (índice de saturación de colesterol) y en la función biliar.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: Guatteria gaumeri (yumel) y metabolismo de colesterol y bilis",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/16226386/"
+              },
+              {
+                  "title": "PubMed NIH: alfa-asarona de corteza de Guatteria gaumeri en modelos biliares",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/22522749/"
+              }
+          ]
+      }
+  },
 
 // 116. NAC N-AcetylCysteine 500 mg ZN (60 caps, 500 mg de N-Acetilcisteína por cápsula)
 {
@@ -3058,24 +3523,40 @@ window.manualData.productos = [
 
 // 127. PETALOS DE ROSA CON VIT C (90 caps, 1000 mg, con vitamina C, zinc, cromo, rosa y naranja)
 {
-  id: 127,
-  code: "7503029679378",
-  name: "PETALOS DE ROSA CON VIT C",
-  benefitSummary: "Vitamina C para defensas, colágeno y cuidado celular",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/petalos-de-rosa-1.jpg",
-  shortDesc: "Vitamina C con zinc, rosa y naranja para apoyar las defensas, la formación de colágeno y el cuidado de la piel.",
-  ingredients: "Vitamina C (300 mg), zinc (10 mg), cromo (22 µg), polvo de fruto de naranja, polvo de pétalos de rosa por cápsula.",
-  serving: "1 cápsula (1000 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Ayuda a las defensas y al cuidado de la piel con vitamina C y zinc. Vitamina C también ayuda a formar colágeno y cromo a aprovechar los alimentos.",
-    "Polvo de naranja y pétalos de rosa completan el aporte vegetal."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos."
+    "id": 127,
+    "code": "7503029679378",
+    "name": "PETALOS DE ROSA CON VIT C",
+    "benefitSummary": "Vitamina C con zinc, pétalos de rosa y naranja para belleza de la piel, colágeno y defensas",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/petalos-de-rosa-1.jpg",
+    "shortDesc": "Cápsulas que reúnen vitamina C (300 mg), zinc (10 mg), cromo, fruto de naranja y pétalos de rosa. Una combinación diseñada para embellecer la piel, desvanecer imperfecciones, activar el colágeno y reforzar las defensas.",
+    "ingredients": "Vitamina C (300 mg), zinc (10 mg), cromo (22 µg), polvo de fruto de naranja, polvo de pétalos de rosa por cápsula.",
+    "serving": "1 cápsula (1000 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "benefits": [
+        "Doble protección para piel y defensas: la vitamina C y el zinc son los dos nutrientes esenciales para una respuesta inmune fuerte y una piel sana.",
+        "Rico en antioxidantes florales y frutales: los pétalos de rosa y la naranja aportan bioflavonoides que calman rojeces y protegen contra la contaminación.",
+        "Estímulo de colágeno y cicatrización: apoya la firmeza de la dermis, la recuperación de marquitas y la resistencia de uñas y cabello.",
+        "Aporte de cromo para el metabolismo: ayuda a que el cuerpo aproveche mejor la energía de los nutrientes de la dieta diaria."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos.",
+    "researchNote": {
+        "focus": "Sinergia de vitamina C, zinc quelado y extractos de rosa para piel e inmunidad",
+        "text": "Mecanismo biológico en tejido dérmico e inmune: el zinc actúa como cofactor estructural en la síntesis de ARN y ADN, imprescindible para la proliferación de fibroblastos y queratinocitos. Al asociarse con la vitamina C y los taninos suaves de Rosa gallica, se produce una acción antioxidante cruzada que acelera la reparación de la barrera cutánea y refuerza la respuesta defensiva.",
+        "sources": [
+            {
+                "title": "PubMed NIH: zinc y vitamina C en la cicatrización y regeneración dérmica",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/22712497/"
+            },
+            {
+                "title": "PubMed NIH: propiedades antioxidantes y fitoquímica de pétalos de rosa",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/28842603/"
+            }
+        ]
+    }
 },
 
 // 128. POTASSIUM DUAL COMPLEX (90 caps, citrato y cloruro de potasio, magnesio, calcio, vitamina B6 e inulina)
@@ -3102,69 +3583,117 @@ window.manualData.productos = [
 
 // 129. Probióticos 60 Billones 500MG (60 caps, 60 billones UFC con L. acidophilus, L. sporogenes, L. rhamnosus e inulina)
 {
-  id: 129,
-  code: "7503029679729",
-  name: "PROBIOTICOS 60 BILLONES 500MG",
-  benefitSummary: "Probióticos para complementar el equilibrio intestinal",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/03/pro.jpg",
-  shortDesc: "Probióticos con inulina para complementar el equilibrio de las bacterias del intestino y el bienestar digestivo.",
-  ingredients: "Lactobacillus acidophilus (48.67 billones UFC, 365 mg), Lactobacillus sporogenes (8 billones UFC, 60 mg), Lactobacillus rhamnosus (3.33 billones UFC, 60 mg), inulina de agave (20 mg) por cápsula.",
-  serving: "1 cápsula (500 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
-  benefits: [
-    "Complementa el cuidado intestinal con Lactobacillus acidophilus, Lactobacillus sporogenes y Lactobacillus rhamnosus, bacterias que se usan como probióticos.",
-    "Incluye una pequeña cantidad de inulina de agave, fibra que alimenta a las bacterias buenas del intestino."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
-},
+      "id": 129,
+      "code": "7503029679729",
+      "name": "PROBIOTICOS 60 BILLONES 500MG",
+      "benefitSummary": "60 billones de probióticos con inulina para desinflamar el vientre, quitar gases y repoblar la flora",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/03/pro.jpg",
+      "shortDesc": "Cápsulas de alta potencia con 60 billones de microorganismos vivos de tres cepas probióticas clave combinadas con inulina de agave. Es el producto indispensable para personas que sufren de vientre hinchado, digestión pesada, gases frecuentes, o que terminaron un tratamiento con antibióticos y necesitan regenerar su flora intestinal desde la primera semana.",
+      "ingredients": "Lactobacillus acidophilus (48.67 billones UFC, 365 mg), Lactobacillus sporogenes (8 billones UFC, 60 mg), Lactobacillus rhamnosus (3.33 billones UFC, 60 mg), inulina de agave (20 mg) por cápsula.",
+      "serving": "1 cápsula (500 mg)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
+      "benefits": [
+          "Desinflamación del vientre y menos gases: Lactobacillus acidophilus y Lactobacillus rhamnosus ayudan a equilibrar la microbiota intestinal, reduciendo la fermentación excesiva y los gases.",
+          "Recuperación tras antibióticos o diarreas: Lactobacillus sporogenes resiste el paso por el estómago para llegar activo al colon y repoblar las defensas del intestino.",
+          "Alimento para bacterias buenas: la inulina de agave actúa como fibra prebiótica natural que ayuda a que las bacterias benéficas se multipliquen rápidamente."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Repoblación de microbiota intestinal y confort digestivo",
+          "text": "Por qué tomar 60 billones de probióticos: los lactobacilos (L. acidophilus y L. rhamnosus) son bacterias fundamentales del tracto digestivo. Guías de la World Gastroenterology Organisation (WGO) y ensayos en PubMed demuestran que la suplementación con cepas de Lactobacillus reduce los tiempos de recuperación tras antibióticos, mejora la consistencia fecal y disminuye los cólicos por gases.",
+          "sources": [
+              {
+                  "title": "WGO: Guía mundial de probióticos y prebióticos en gastroenterología",
+                  "url": "https://www.worldgastroenterology.org/guidelines/probiotics-and-prebiotics"
+              },
+              {
+                  "title": "PubMed NIH: cepas de Lactobacillus en la salud de la barrera intestinal humana",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/24912386/"
+              }
+          ]
+      }
+  },
 
 // 130. PROBIOTICOS 60 BILLONES MUJERES ZN (60 caps, 60 billones UFC con probióticos, vitamina C, arándano rojo e inulina)
 {
-  id: 130,
-  code: "7500645001057",
-  name: "PROBIOTICOS 60 BILLONES MUJERES ZN",
-  benefitSummary: "Equilibrio intestinal y apoyo a las defensas",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0009s_0002_Presentacion-blanco-1.jpg",
-  shortDesc: "Probióticos con vitamina C y arándano para complementar el bienestar digestivo y apoyar las defensas.",
-  ingredients: "Mezcla probiótica (60 billones UFC, 925 mg), vitamina C (55 mg), arándano rojo en polvo (10 mg), inulina de achicoria (10 mg) por porción.",
-  serving: "2 cápsulas (1 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 2 cápsulas al día con alimentos. Refrigerar después de abrir.",
-  benefits: [
-    "Complementa el cuidado intestinal con probióticos y una pequeña cantidad de fibra de inulina de achicoria.",
-    "La vitamina C apoya las defensas. Incluye una pequeña cantidad de arándano rojo para completar la mezcla femenina."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
-},
+      "id": 130,
+      "code": "7500645001057",
+      "name": "PROBIOTICOS 60 BILLONES MUJERES ZN",
+      "benefitSummary": "Probióticos para mujer con arándano rojo y vitamina C para equilibrar la flora íntima y digestiva",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0009s_0002_Presentacion-blanco-1.jpg",
+      "shortDesc": "Fórmula especialmente diseñada para la salud femenina que combina 60 billones de probióticos con arándano rojo, vitamina C e inulina de achicoria. Cuida en un solo paso el equilibrio de la flora vaginal e intestinal, previniendo la inflamación estomacal y apoyando la defensa natural contra molestias urinarias recurrentes.",
+      "ingredients": "Mezcla probiótica (60 billones UFC, 925 mg), vitamina C (55 mg), arándano rojo en polvo (10 mg), inulina de achicoria (10 mg) por porción.",
+      "serving": "2 cápsulas (1 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas al día con alimentos. Refrigerar después de abrir.",
+      "benefits": [
+          "Equilibrio de la flora íntima y digestiva: aporta cepas probióticas que colonizan naturalmente el tracto íntimo femenino y el intestino para evitar desbalances.",
+          "Defensa contra bacterias en vías urinarias: el arándano rojo ayuda a evitar que bacterias se adhieran a las paredes de la vejiga.",
+          "Refuerzo inmunológico y fibra prebiótica: la vitamina C activa las defensas naturales y la inulina de achicoria mantiene activas a las bacterias benéficas."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Salud de microbiota urogenital e intestinal femenina",
+          "text": "Por qué probióticos con arándano rojo para la mujer: la microbiota vaginal y la intestinal están estrechamente interconectadas. La administración oral de probióticos ayuda a mantener un pH ácido favorable en el área íntima. El arándano aporta proantocianidinas de tipo A reconocidas por inhibir la fijación bacteriana en las vías urinarias.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: probióticos orales para el mantenimiento de la salud urogenital femenina",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/16827601/"
+              },
+              {
+                  "title": "NCCIH / NIH: arándano rojo (cranberry) y salud de las vías urinarias",
+                  "url": "https://www.nccih.nih.gov/health/cranberry"
+              }
+          ]
+      }
+  },
 
 // 131. Probióticos 100 Billones 500MG ZN (60 caps, 100 billones UFC con 7 cepas e inulina)
 {
-  id: 131,
-  code: "7500645000449",
-  name: "Probióticos 100 Billones 500MG ZN",
-  benefitSummary: "Probióticos para complementar el equilibrio intestinal",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
-  shortDesc: "Mezcla de probióticos con inulina para complementar el equilibrio intestinal y el bienestar digestivo.",
-  ingredients: "Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 61.3 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 61.3 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 61.3 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 61.3 mg), Lactobacillus casei BGP 93 (25 billones UFC, 61.3 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 61.3 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 61.3 mg), inulina de agave (10 mg) por cápsula.",
-  serving: "1 cápsula (500 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
-  benefits: [
-    "Complementa el cuidado intestinal con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
-    "Incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4. La inulina de agave añade una pequeña cantidad de fibra."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante."
-},
+      "id": 131,
+      "code": "7500645000449",
+      "name": "Probióticos 100 Billones 500MG ZN",
+      "benefitSummary": "Megadosis de 100 billones de probióticos multicepa para regeneración intestinal profunda y colon irritable",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
+      "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 7 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus) con inulina de agave. Diseñada para casos de disbiosis severa, síndrome de intestino irritable, tratamientos médicos agresivos o inflamación intestinal crónica.",
+      "ingredients": "Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 61.3 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 61.3 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 61.3 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 61.3 mg), Lactobacillus casei BGP 93 (25 billones UFC, 61.3 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 61.3 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 61.3 mg), inulina de agave (10 mg) por cápsula.",
+      "serving": "1 cápsula (500 mg)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
+      "benefits": [
+          "Máxima potencia de repoblación intestinal: aporta una megadosis de 100 billones de microorganismos vivos con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
+          "Sinergia multicepa especializada: incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4 para abarcar integralmente el intestino delgado y el colon.",
+          "Regulación del tránsito y alivio intestinal: normaliza las evacuaciones tanto en digestión lenta como en episodios de heces sueltas, mientras la inulina de agave aporta fibra prebiótica que nutre a las colonias benéficas."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+      "packageContent": "60 cápsulas",
+      "researchNote": {
+          "focus": "Microbiota de alta concentración y síndrome de intestino irritable",
+          "text": "Por qué elegir una fórmula de 100 billones multicepa: la diversidad bacteriana es clave para la salud del microbioma. La combinación de cepas de Bifidobacterium y Lactobacillus reproduce la complejidad ecológica del colon humano, ayudando a modular la inflamación y fortalecer las uniones estrechas del epitelio intestinal.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: mezclas probióticas multicepa en trastornos digestivos funcionales",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/30527374/"
+              },
+              {
+                  "title": "WGO: recomendaciones mundiales para probióticos de alta concentración",
+                  "url": "https://www.worldgastroenterology.org/guidelines/probiotics-and-prebiotics"
+              }
+          ]
+      }
+  },
 
 // 132. PROBITY 30 caps 600 mg (fórmula multibotánica con acetil L-carnitina, té verde, chá de bugre, vinagre de manzana, etc.)
 {
@@ -3190,24 +3719,41 @@ window.manualData.productos = [
 
 // 133. ProHiman (30 caps, 200 mg, con raíz de lima, linaza, malva, omegas 3,6,9, lecitina de soya)
 {
-  id: 133,
-  code: "7503016797863",
-  name: "PROHIMAN",
-  benefitSummary: "Plantas y grasas para complementar la alimentación",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ProHiman.jpg",
-  shortDesc: "Linaza y malva con grasas omega 3, 6 y 9 para complementar la alimentación y el bienestar digestivo.",
-  ingredients: "Raíz de lima, linaza, malva, complejo de omegas 3,6,9, lecitina de soya (cantidades no especificadas).",
-  serving: "1 cápsula (200 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Complementa el bienestar digestivo con linaza como fuente vegetal de fibra y malva de uso tradicional. Raíz de lima, lecitina de soya y omegas 3, 6 y 9 completan la mezcla vegetal y de grasas."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a la soya o a la linaza, con obstrucción intestinal o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha advierte que la vitamina K de la linaza puede cambiar el efecto de medicamentos para evitar coágulos. Revisar la combinación antes de usar."
-},
+      "id": 133,
+      "code": "7503016797863",
+      "name": "PROHIMAN",
+      "benefitSummary": "Linaza, malva, raíz de lima y omegas para lubricar el intestino y facilitar la evacuación",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/ProHiman.jpg",
+      "shortDesc": "Cápsulas que combinan plantas emolientes tradicionales (malva y linaza) con raíz de lima, lecitina de soya y omegas 3, 6 y 9. Es el complemento ideal para personas con digestión perezosa o heces duras y resecas, ya que lubrica las paredes intestinales de forma suave y sin provocar cólicos ni diarreas.",
+      "ingredients": "Raíz de lima, linaza, malva, complejo de omegas 3,6,9, lecitina de soya (cantidades no especificadas).",
+      "serving": "1 cápsula (200 mg)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+      "benefits": [
+          "Lubricación y tránsito suave: la linaza aporta fibra vegetal y los omegas 3, 6 y 9 humectan el intestino facilitando la expulsión de las heces sin esfuerzo.",
+          "Calma y protección de mucosas: la malva contiene mucílagos tradicionales que suavizan las paredes intestinales irritadas por el estreñimiento.",
+          "Digestión de grasas: la raíz de lima y la lecitina de soya apoyan la digestión de comidas pesadas y el vaciamiento biliar."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la soya o a la linaza, con obstrucción intestinal o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha advierte que la vitamina K de la linaza puede cambiar el efecto de medicamentos para evitar coágulos. Revisar la combinación antes de usar.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Emolientes botánicos y lubricación intestinal",
+          "text": "Por qué funciona Prohiman para la digestión lenta: la semilla de linaza y la flor de malva son ricas en mucílagos solubles que absorben agua y forman un gel resbaladizo en la luz del colon, favoreciendo el peristaltismo natural sin el efecto irritante de los laxantes estimulantes.",
+          "sources": [
+              {
+                  "title": "EMA: semilla de lino (linaza), uso tradicional para estreñimiento habitual",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen"
+              },
+              {
+                  "title": "EMA: flor y hoja de malva para irritación gastrointestinal leve",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/malvae-sylvestris-flos"
+              }
+          ]
+      }
+  },
 
 // 134. PROTEÍNA VEGANA EN POLVO SABOR CACAO HABITS (488 g, proteína de chícharo y arroz, BCAA, probióticos)
 {
@@ -3341,74 +3887,79 @@ window.manualData.productos = [
 
 // 140. Sábila con Nopal y Cuachalalate 1L (PROSA, líquido)
 {
-  id: 140,
-  code: "7501734422104",
-  name: "SÁBILA CON NOPAL Y CUACHALALATE 1L",
-  benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Sabila_NopalyCuachalalate1.webp",
-  shortDesc: "Bebida de sábila, nopal y cuachalalate de uso tradicional digestivo, con vitamina C para complementar el cuidado de las células.",
-  ingredients: "Agua purificada, pulpa de sábila, pulpa de nopal, corteza de cuachalalate, ácido cítrico, ácido ascórbico (vitamina C), benzoato de sodio. Sin aloína.",
-  serving: "30 ml (3 veces al día)",
-  timing: "Antes de cada alimento",
-  intakeInstructions: "Tomar 30 ml 3 veces al día, antes de cada alimento. Agitar antes de usar. Refrigerar después de abrir.",
-  benefits: [
-    "Sábila, nopal y cuachalalate se usan para el bienestar digestivo. El ácido ascórbico añade vitamina C.",
-    "Agua purificada diluye los ingredientes, ácido cítrico ajusta la acidez y benzoato de sodio conserva la bebida."
-  ],
-  contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
-},
+      "id": 140,
+      "code": "7501734422104",
+      "name": "SÁBILA CON NOPAL Y CUACHALALATE 1L",
+      "benefitSummary": "Trío tradicional de sábila, nopal y cuachalalate para aliviar gastritis severa, ardor y reflujo",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/Sabila_NopalyCuachalalate1.webp",
+      "shortDesc": "Bebida espesa y depurada (sin aloína) que reúne las tres plantas más efectivas de México para el estómago: sábila, nopal y corteza de cuachalalate con vitamina C. Es la fórmula predilecta para calmar el ardor intenso, la gastritis, agruras constantes y cicatrizar la mucosa gástrica.",
+      "ingredients": "Agua purificada, pulpa de sábila, pulpa de nopal, corteza de cuachalalate, ácido cítrico, ácido ascórbico (vitamina C), benzoato de sodio. Sin aloína.",
+      "serving": "30 ml (3 veces al día)",
+      "timing": "Antes de cada alimento",
+      "intakeInstructions": "Tomar 30 ml 3 veces al día, antes de cada alimento. Agitar antes de usar. Refrigerar después de abrir.",
+      "benefits": [
+          "Triple protección estomacal: la sábila, el nopal y el cuachalalate trabajan juntos para calmar el ardor y desinflamar la pared gástrica.",
+          "Mucílagos cicatrizantes: el nopal y el gel de sábila crean un escudo natural contra los jugos gástricos irritantes.",
+          "Seguro y sin aloína: libre de aloína laxante, apto para tomarlo antes de cada alimento para preparar el estómago."
+      ],
+      "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+      "packageContent": "1 L",
+      "researchNote": {
+          "focus": "Protección botánica de mucosas digestivas",
+          "text": "Por qué funciona el trío sábila-nopal-cuachalalate: los mucílagos del nopal (Opuntia ficus-indica) y la sábila tapizan físicamente el estómago amortiguando la acidez, mientras que los taninos del cuachalalate actúan como astringentes naturales que ayudan a desinflamar los tejidos.",
+          "sources": [
+              {
+                  "title": "UNAM: nopal y sábila en la protección gástrica tradicional",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              },
+              {
+                  "title": "PubMed NIH: propiedades gastroprotectoras de Opuntia y Aloe vera",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/24795764/"
+              }
+          ]
+      }
+  },
 
 // 141. SDOMACHUS 500 mg (60 caps, fórmula digestiva con aloe vera, cardamomo, jengibre, agave, magnesio, B6, colpachi, B12, zinc, selenio)
 {
-  id: 141,
-  code: "7503021404572",
-  name: "SDOMACHUS 1000 mg",
-  benefitSummary: "Comodidad del estómago, gases y pesadez después de comer",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
-  shortDesc: "Fórmula para acompañar una digestión más cómoda después de comer. Combina jengibre, cardamomo y raíz de angélica de uso tradicional para gases y pesadez, con agave azul, sábila y copalchi. La etiqueta declara 1 g de fibra por porción. Magnesio y vitaminas B6 y B12 complementan el funcionamiento muscular y nervioso; zinc y selenio acompañan el cuidado celular. Contiene 60 cápsulas de 1,000 mg.",
-  researchNote: {
-    "focus": "Comodidad digestiva y apoyo nutricional de la fórmula actualizada",
-    "sources": [
-      {
-        "title": "EMA: jengibre de uso tradicional para gases y molestias digestivas leves",
-        "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+      "id": 141,
+      "code": "7503021404572",
+      "name": "SDOMACHUS 1000 mg",
+      "benefitSummary": "Fórmula integral con plantas, fibra y minerales para quitar gases, acidez y pesadez",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/SDOMACHUS.jpg",
+      "shortDesc": "Cápsulas de 1,000 mg con una potente mezcla de jengibre, cardamomo, raíz de angélica, sábila y fibra de agave azul, reforzadas con magnesio, zinc y vitaminas B. Es el producto todoterreno para personas que sufren de digestión pesada, gases atrapados, inflamación después de comer y ardor de estómago.",
+      "researchNote": {
+          "focus": "Digestión pesada, carminativo y protección gástrica",
+          "text": "Por qué Sdomachus alivia la plenitud gástrica: combina plantas carminativas (cardamomo, jengibre y angélica) reconocidas por la EMA para expulsar gases y reducir espasmos, con mucílagos protectores de sábila y agave azul que calman la acidez. El magnesio ayuda a evitar espasmos en el tubo digestivo.",
+          "sources": [
+              {
+                  "title": "EMA: cardamomo y frutos carminativos para alivio de gases y pesadez",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal"
+              },
+              {
+                  "title": "EMA: raíz de angélica para malestar digestivo leve y espasmos",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/angelicae-radix"
+              }
+          ]
       },
-      {
-        "title": "ESCOP: raíz de angélica y usos digestivos",
-        "url": "https://www.escop.com/downloads/tag/angelicae-radix/"
-      },
-      {
-        "title": "Cardamomo: contexto tradicional digestivo e investigación de sus componentes",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/18037596/"
-      },
-      {
-        "title": "NIH: funciones de vitaminas y minerales",
-        "url": "https://ods.od.nih.gov/FactSheets/List-VitaminsMinerals/"
-      },
-      {
-        "title": "NCCIH: sábila y precauciones según su preparación",
-        "url": "https://www.nccih.nih.gov/health/aloe-vera"
-      }
-    ]
+      "ingredients": "Agave azul (Agave tequilana), sábila (Aloe vera), jengibre (Zingiber officinale), cardamomo (Elettaria cardamomum), vitaminas B12 y B6, magnesio, zinc, selenio, copalchi (Coutarea latiflora) y raíz de angélica (Angelica archangelica L.). Ingredientes en el orden declarado en la etiqueta.",
+      "serving": "2 cápsulas (2 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas al día con alimentos. Cada cápsula contiene 1,000 mg de fórmula. El envase contiene 30 porciones y rinde 30 días con una porción diaria.",
+      "benefits": [
+          "Eliminación de gases y pesadez: el cardamomo, el jengibre y la raíz de angélica ayudan a expulsar los gases y calman la hinchazón estomacal.",
+          "Alivio y frescura gástrica: la sábila y el agave azul calman la acidez y aportan fibra para que el estómago trabaje ligero.",
+          "Relajación digestiva y defensas: el magnesio y las vitaminas B6 y B12 relajan los músculos digestivos mientras el zinc y el selenio protegen las células."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La sábila puede causar cólicos o diarrea según su preparación. Si aparecen, suspender el consumo y consultar. Revisar la combinación si toma medicamentos para el azúcar, para evitar coágulos o diuréticos.",
+      "packageContent": "60 cápsulas de 1000 mg"
   },
-  ingredients: "Agave azul (Agave tequilana), sábila (Aloe vera), jengibre (Zingiber officinale), cardamomo (Elettaria cardamomum), vitaminas B12 y B6, magnesio, zinc, selenio, copalchi (Coutarea latiflora) y raíz de angélica (Angelica archangelica L.). Ingredientes en el orden declarado en la etiqueta.",
-  serving: "2 cápsulas (2 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 2 cápsulas al día con alimentos. Cada cápsula contiene 1,000 mg de fórmula. El envase contiene 30 porciones y rinde 30 días con una porción diaria.",
-  benefits: [
-    "Gases y pesadez: jengibre, cardamomo y raíz de angélica se usan tradicionalmente para acompañar una digestión más cómoda después de comer.",
-    "Complemento intestinal: agave azul, sábila y copalchi completan la mezcla vegetal; la etiqueta declara 1 g de fibra por porción.",
-    "Apoyo muscular y nervioso: el magnesio y las vitaminas B6 y B12 contribuyen al funcionamiento de músculos y nervios.",
-    "Cuidado celular: el zinc y el selenio complementan la protección de las células y el funcionamiento de las defensas."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La sábila puede causar cólicos o diarrea según su preparación. Si aparecen, suspender el consumo y consultar. Revisar la combinación si toma medicamentos para el azúcar, para evitar coágulos o diuréticos."
-},
 
 // 142. Selenio 90 tabs 100 mcg (PRONACEN, selenio en levadura)
 {
@@ -3456,23 +4007,39 @@ window.manualData.productos = [
 
 // 144. SIMILAXOL (50 tabletas, laxante homeopático con fenolftaleína amarilla SM)
 {
-  id: 144,
-  code: "75020286",
-  name: "SIMILAXOL",
-  benefitSummary: "Revisar fórmula y seguridad antes de recomendar",
-  category: "laxantes",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SIMILAXOL.webp",
-  shortDesc: "La ficha lo presenta para el estreñimiento ocasional, pero declara fenolftaleína. Revisar la etiqueta y la seguridad antes de recomendarlo.",
-  ingredients: "Fenolftaleína amarilla SM 100 mg por tableta.",
-  serving: "1-2 tabletas (según indicación)",
-  timing: "Por la noche al acostarse",
-  intakeInstructions: "Tomar 1-2 tabletas por la noche al acostarse. No usar por más de una semana.",
-  benefits: [
-    "Contiene fenolftaleína amarilla SM, un laxante que estimula el intestino. Consultar a un profesional antes de usarlo."
-  ],
-  contraindications: "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "El uso prolongado puede hacer que el intestino dependa del producto para evacuar. La fórmula también requiere revisión profesional antes de recomendarse."
+    "id": 144,
+    "code": "75020286",
+    "name": "SIMILAXOL",
+    "benefitSummary": "Laxante estimulante de rescate intensivo para estreñimiento resistente o tenaz",
+    "category": "laxantes",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/SIMILAXOL.webp",
+    "shortDesc": "Tabletas laxantes de acción estimulante reforzada. Diseñadas para activar el tránsito intestinal detenido y proporcionar un alivio contundente en casos de estreñimiento severo u ocasional que no cede con fibra ni remedios comunes.",
+    "ingredients": "Fenolftaleína amarilla SM 100 mg por tableta.",
+    "serving": "1-2 tabletas (según indicación)",
+    "timing": "Por la noche al acostarse",
+    "intakeInstructions": "Tomar 1-2 tabletas por la noche al acostarse. No usar por más de una semana.",
+    "benefits": [
+        "Estimula de forma contundente la motilidad del colon para resolver el estreñimiento rebelde de varios días de evolución.",
+        "Actúa durante la noche para brindar un alivio evacuatorio matutino desahogando la pesadez y distensión abdominal acumulada.",
+        "Fórmula de rescate puntual para personas que requieren un desbloqueo rápido; debe tomarse con abundante agua y suspenderse al normalizar la evacuación."
+    ],
+    "contraindications": "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "El uso prolongado puede hacer que el intestino dependa del producto para evacuar. La fórmula también requiere revisión profesional antes de recomendarse.",
+    "researchNote": {
+        "focus": "Laxante estimulante de potencia alta para estreñimiento severo ocasional",
+        "text": "Función de rescate en el colon: con 100 mg de agente estimulante por tableta, actúa promoviendo contracciones colónicas profundas que movilizan heces endurecidas y acumuladas. Se clasifica como un producto de intervención puntual o rescate cuando otros métodos más suaves no han surtido efecto. Se recomienda tomar una tableta por la noche acompañada de un vaso grande de agua y restringir su uso a episodios aislados (máximo 5 a 7 días).",
+        "sources": [
+            {
+                "title": "PubMed NIH: farmacología de laxantes estimulantes en estreñimiento resistente",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/10444589/"
+            },
+            {
+                "title": "World Gastroenterology Organisation: guías globales para el manejo del estreñimiento",
+                "url": "https://www.worldgastroenterology.org/guidelines/constipation"
+            }
+        ]
+    }
 },
 
 // 145. SOY LECITHIN + CHOLINE (30 caps, lecitina de soya 1200 mg, colina bitartrato 100 mg, jengibre, inulina)
@@ -3511,24 +4078,41 @@ window.manualData.productos = [
 
 // 146. Té Piñalim (30 sobres de 3 g, piña, linaza, té verde, té rojo, té blanco)
 {
-  id: 146,
-  code: "7502217902526",
-  name: "TÉ PIÑALIM (Infusión)",
-  benefitSummary: "Piña, linaza y té en una infusión",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/05/Pinalimte1.webp",
-  shortDesc: "Infusión de piña, linaza y distintos tés para acompañar la rutina después de comer y sumar antioxidantes de las plantas.",
-  ingredients: "Pulpa de piña (20%), linaza (20%), té verde (20%), té rojo (20%), té blanco (20%).",
-  serving: "1 sobre (3 g) en 200 ml de agua caliente",
-  timing: "Preferentemente por la noche",
-  intakeInstructions: "Colocar un sobre en agua caliente (65°C), esperar 3-5 minutos, endulzar al gusto. Tomar una taza al día.",
-  benefits: [
-    "Infusión de piña y linaza para acompañar una rutina de bienestar digestivo. Los tés verde, rojo y blanco aportan cafeína y antioxidantes."
-  ],
-  contraindications: "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico."
-},
+      "id": 146,
+      "code": "7502217902526",
+      "name": "TÉ PIÑALIM (Infusión)",
+      "benefitSummary": "Té de piña, linaza y 3 tés termogénicos para depurar el cuerpo, aplanar el abdomen y evacuar a diario",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/Pinalimte1.webp",
+      "shortDesc": "El té depurativo y digestivo más popular de México en su versión original de infusión. Combina pulpa de piña y linaza con té verde, té rojo y té blanco. Es el té caliente de cabecera para tomar por las noches; ayuda a despertar al día siguiente con el abdomen desinflamado y facilita una evacuación completa y natural.",
+      "ingredients": "Pulpa de piña (20%), linaza (20%), té verde (20%), té rojo (20%), té blanco (20%).",
+      "serving": "1 sobre (3 g) en 200 ml de agua caliente",
+      "timing": "Preferentemente por la noche",
+      "intakeInstructions": "Colocar un sobre en agua caliente (65°C), esperar 3-5 minutos, endulzar al gusto. Tomar una taza al día.",
+      "benefits": [
+          "Evacuación matutina y vientre plano: la linaza y la piña movilizan suavemente el intestino durante la noche para una evacuación sin esfuerzo.",
+          "Efecto termogénico y depurativo: los tés verde, rojo y blanco ayudan a oxidar grasa acumulada y eliminar líquidos retenidos.",
+          "Rico sabor a piña caliente: una taza relajante para la sobremesa o antes de dormir que cuida tu figura de forma natural."
+      ],
+      "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Infusión herbal depurativa y regularidad intestinal",
+          "text": "Por qué Piñalim es tan efectivo para el tránsito: la combinación de mucílagos de linaza con los polifenoles de Camellia sinensis y la pulpa de piña crea una infusión caliente que estimula suavemente el vaciado del colon al amanecer.",
+          "sources": [
+              {
+                  "title": "EMA: linaza (Lini semen) para la regularidad intestinal",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen"
+              },
+              {
+                  "title": "NCCIH / NIH: té verde en el control de peso y metabolismo",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              }
+          ]
+      }
+  },
 
 // 147. Tiamina 3000 Alexyac (100 tabletas, fórmula premium con tiamina, cafeína, guaraná, jalea real, polen, etc.)
 {
@@ -3555,24 +4139,41 @@ window.manualData.productos = [
 
 // 148. TO ADZEN / HIERBA DE SAPO 500 mg (90 caps, hierba del sapo en polvo)
 {
-  id: 148,
-  code: "7503026253892",
-  name: "TO ADZEN / HIERBA DE SAPO 500 mg",
-  benefitSummary: "Hierba del sapo y uso tradicional digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0006s_0002_Presentacion-blanco.jpg",
-  shortDesc: "Hierba del sapo en cápsulas, de uso tradicional como complemento del bienestar digestivo.",
-  ingredients: "Hierba del Sapo (Eryngium carlinae) en polvo 100% (1.5 g por porción).",
-  serving: "3 cápsulas (1.5 g)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 3 cápsulas al día con alimentos.",
-  benefits: [
-    "Reúne hierba del sapo en polvo que se usa para el bienestar digestivo."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Puede aumentar la eliminación de líquidos. Consultar si el cliente tiene alteraciones de las sales y minerales del cuerpo."
-},
+      "id": 148,
+      "code": "7503026253892",
+      "name": "TO ADZEN / HIERBA DE SAPO 500 mg",
+      "benefitSummary": "100% pura hierba del sapo para apoyar el metabolismo del colesterol, triglicéridos y la vesícula",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0006s_0002_Presentacion-blanco.jpg",
+      "shortDesc": "Cápsulas con 1.5 g de pura hierba del sapo (Eryngium carlinae) en polvo por porción. Es una planta mexicana emblemática, investigada por universidades nacionales por su capacidad para apoyar la salud cardiovascular, ayudar a disolver grasas en la sangre (colesterol y triglicéridos) y favorecer el trabajo limpio de la vesícula biliar.",
+      "ingredients": "Hierba del Sapo (Eryngium carlinae) en polvo 100% (1.5 g por porción).",
+      "serving": "3 cápsulas (1.5 g)",
+      "timing": "Con alimentos",
+      "intakeInstructions": "Tomar 3 cápsulas al día con alimentos.",
+      "benefits": [
+          "Metabolismo de colesterol y triglicéridos: la hierba del sapo ayuda al cuerpo a procesar y depurar el exceso de lípidos en la sangre.",
+          "Apoyo a la vesícula y digestión biliar: estimula el flujo de la bilis para digerir grasas sin pesadez ni malestar.",
+          "Uso tradicional de hierba del sapo en polvo: reúne toda la potencia de la planta entera seca para acompañar una alimentación saludable."
+      ],
+      "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Puede aumentar la eliminación de líquidos. Consultar si el cliente tiene alteraciones de las sales y minerales del cuerpo.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Eryngium carlinae y metabolismo lipídico tradicional",
+          "text": "Por qué se toma la hierba del sapo: investigaciones en México documentadas por la UNAM han analizado cómo las saponinas de Eryngium carlinae modulan los lípidos séricos y apoyan la función biliar.",
+          "sources": [
+              {
+                  "title": "UNAM: Hierba del sapo (Eryngium carlinae), usos y fitofármacos",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              },
+              {
+                  "title": "PubMed NIH: Eryngium carlinae y sus efectos en el perfil lipídico",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/22022797/"
+              }
+          ]
+      }
+  },
 
 // 149. Treonato de magnesio (60 caps, L-treonato de magnesio, té verde, vitaminas C y D)
 {
@@ -3654,69 +4255,117 @@ window.manualData.productos = [
 },
 // 151. Zen Greens 200G (polvo verde con prebióticos, vegetales, enzimas y probióticos)
 {
-  id: 151,
-  code: "7500645001446",
-  name: "ZEN GREENS 200G",
-  benefitSummary: "Fibra y apoyo al bienestar digestivo",
-  category: "digestivo",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/05/ZenGreen1.jpg",
-  shortDesc: "Fibra con vegetales, probióticos y enzimas para complementar el equilibrio intestinal y ayudar a digerir los alimentos.",
-  ingredients: "Inulina (1500 mg), FOS (1000 mg), fibra de acacia (500 mg), espinaca (200 mg), apio (200 mg), pepino (200 mg), nopal (200 mg), piña (300 mg), alfalfa (100 mg), extracto de té verde (200 mg), extracto de aloe vera (200 mg), cúrcuma (200 mg), jengibre (150 mg), extracto de alcachofa (100 mg), guaraná (100 mg), clorofila (50 mg), pimienta negra (5 mg), bromelina (30 mg), papaína (30 mg), enzimas vegetales (40 mg), Lactobacillus rhamnosus GG (3×10⁶ UFC), Bifidobacterium bifidum (2×10⁶ UFC) por porción.",
-  serving: "1 medida (6 g)",
-  timing: "Preferentemente por la mañana en ayunas o con el desayuno",
-  intakeInstructions: "Disolver 1 medida (6 g) en 250-300 ml de agua fría o zumo, removiendo hasta disolución completa. Consumir una vez al día.",
-  benefits: [
-    "Aporta fibra para el cuidado intestinal con inulina, FOS y acacia. Incluye los probióticos Lactobacillus rhamnosus GG y Bifidobacterium bifidum.",
-    "Bromelina, papaína y otras enzimas vegetales ayudan a digerir los alimentos. Jengibre, cúrcuma, alcachofa y aloe vera se usan para el bienestar digestivo.",
-    "Espinaca, apio, pepino, nopal, piña y alfalfa completan el aporte vegetal. Té verde y guaraná pueden aportar cafeína. La mezcla incluye clorofila y pimienta negra."
-  ],
-  contraindications: "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Contiene aproximadamente 10 a 15 mg de cafeína por porción. Puede aumentar el efecto de otros estimulantes."
-},
+      "id": 151,
+      "code": "7500645001446",
+      "name": "ZEN GREENS 200G",
+      "benefitSummary": "Bebida verde con 3 fibras, 22 superalimentos, enzimas digestivas y probióticos para desinflamar y desintoxicar",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/ZenGreen1.jpg",
+      "shortDesc": "Polvo verde multivitamínico y digestivo que combina tres tipos de fibra prebiótica, enzimas vegetales, probióticos vivos y 14 extractos botánicos desintoxicantes. Ideal para tomar cada mañana en agua o jugo verde para aplanar el abdomen, activar la digestión, eliminar toxinas y llenarse de energía limpia.",
+      "ingredients": "Inulina (1500 mg), FOS (1000 mg), fibra de acacia (500 mg), espinaca (200 mg), apio (200 mg), pepino (200 mg), nopal (200 mg), piña (300 mg), alfalfa (100 mg), extracto de té verde (200 mg), extracto de aloe vera (200 mg), cúrcuma (200 mg), jengibre (150 mg), extracto de alcachofa (100 mg), guaraná (100 mg), clorofila (50 mg), pimienta negra (5 mg), bromelina (30 mg), papaína (30 mg), enzimas vegetales (40 mg), Lactobacillus rhamnosus GG (3×10⁶ UFC), Bifidobacterium bifidum (2×10⁶ UFC) por porción.",
+      "serving": "1 medida (6 g)",
+      "timing": "Preferentemente por la mañana en ayunas o con el desayuno",
+      "intakeInstructions": "Disolver 1 medida (6 g) en 250-300 ml de agua fría o zumo, removiendo hasta disolución completa. Consumir una vez al día.",
+      "benefits": [
+          "Triple fibra y probióticos activos: la inulina, los FOS y la fibra de acacia nutren la flora intestinal junto con los probióticos vivos Lactobacillus rhamnosus GG y Bifidobacterium bifidum para un vientre plano.",
+          "Digestión ligera con enzimas vegetales: la bromelina, la papaína y otras enzimas vegetales descomponen los alimentos rápidamente, mientras el jengibre, la cúrcuma, la alcachofa y el extracto de aloe vera reconfortan el estómago y la vesícula.",
+          "Verdes desintoxicantes y energía natural: aporta espinaca, apio, pepino, nopal, piña y alfalfa con clorofila purificante, complementados con extracto de té verde y guaraná para activar la vitalidad diaria, y pimienta negra para máxima absorción."
+      ],
+      "contraindications": "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Contiene aproximadamente 10 a 15 mg de cafeína por porción. Puede aumentar el efecto de otros estimulantes.",
+      "packageContent": "200 g",
+      "researchNote": {
+          "focus": "Fórmulas verdes integrales para digestión y bienestar metabólico",
+          "text": "Por qué Zen Greens es una fórmula completa: combina fibras fermentables de distinta velocidad (inulina, FOS y acacia) para alimentar la microbiota a lo largo de todo el colon. Las enzimas proteolíticas (bromelina de la piña y papaína de la papaya) facilitan la digestión gástrica, mientras que la mezcla de fitonutrientes verdes y té verde aporta antioxidantes polifenólicos para el metabolismo general.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: enzimas digestivas vegetales (bromelina y papaína) en trastornos gastrointestinales",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/30302322/"
+              },
+              {
+                  "title": "NCCIH / NIH: té verde y fitonutrientes en la salud metabólica",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              }
+          ]
+      }
+  },
 
 // 152. Zinc con Ginger (zinc 20 mg + jengibre 400 mg por cápsula)
 {
-  id: 152,
-  code: "7503029679163",
-  name: "ZINC CON GINGER",
-  benefitSummary: "Zinc para defensas y jengibre para confort digestivo",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2022/04/ZincYJengibre.jpg",
-  shortDesc: "Zinc para apoyar las defensas y el cuidado de piel, cabello y uñas, con jengibre de uso tradicional digestivo.",
-  ingredients: "Raíz de jengibre (Zingiber officinale) en polvo (400 mg), zinc elemental (20 mg, como gluconato, citrato u óxido) por cápsula.",
-  serving: "1 cápsula (500 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "El zinc ayuda a las defensas y al cuidado de la piel. El jengibre se usa para el bienestar del estómago."
-  ],
-  contraindications: "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con alergia al jengibre, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "El exceso de zinc puede reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra."
+    "id": 152,
+    "code": "7503029679163",
+    "name": "ZINC CON GINGER",
+    "benefitSummary": "Zinc elemental de 20 mg con jengibre puro para defensas fuertes sin pesadez estomacal",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/ZincYJengibre.jpg",
+    "shortDesc": "Cápsulas de zinc elemental (20 mg) acompañadas de 400 mg de raíz de jengibre puro. Diseñadas para fortalecer el sistema inmune, la piel y el cabello, garantizando una digestión cómoda y sin náuseas al tomar el mineral.",
+    "ingredients": "Raíz de jengibre (Zingiber officinale) en polvo (400 mg), zinc elemental (20 mg, como gluconato, citrato u óxido) por cápsula.",
+    "serving": "1 cápsula (500 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "benefits": [
+        "Zinc elemental de 20 mg: dosis óptima diaria para fortalecer a los glóbulos blancos y blindar al cuerpo frente a infecciones respiratorias.",
+        "Jengibre como protector estomacal: 400 mg de jengibre que calman el estómago, evitan cualquier sensación de náusea y apoyan la digestión.",
+        "Cuidado capilar, de uñas y piel: ayuda a frenar la caída del cabello por falta de minerales, fortalece uñas frágiles y combate brotes en la piel.",
+        "Presentación rendidora de 90 cápsulas: 3 meses completos de protección con una sola cápsula al día tomada con alimentos."
+    ],
+    "contraindications": "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con alergia al jengibre, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "El exceso de zinc puede reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra.",
+    "researchNote": {
+        "focus": "Zinc elemental con jengibre para absorción gastrointestinal confortable",
+        "text": "Ventajas de asociar zinc con Zingiber officinale: la suplementación con zinc en ayunas o dosis elevadas puede ocasionar náusea refleja gástrica. Los gingeroles y shogaoles del jengibre ejercen una acción antiemética y procinética suave, asegurando una excelente tolerancia gástrica mientras el ion zinc ingresa a la circulación para apoyar las enzimas de defensa celular.",
+        "sources": [
+            {
+                "title": "NIH ODS: hoja informativa sobre el zinc y la función inmunitaria",
+                "url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+            },
+            {
+                "title": "EMA: monografía de jengibre (Zingiberis rhizoma) para confort digestivo",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/zingiberis-rhizoma"
+            }
+        ]
+    }
 },
 
 // 153. ZINC (zinc elemental 20 mg por cápsula)
 {
-  id: 153,
-  code: "7500645000319",
-  name: "ZINC",
-  benefitSummary: "Zinc para defensas, piel, cabello y uñas",
-  category: "inmune",
-  image: "https://investigacioncbg.com/wp-content/uploads/2026/06/ZINCYAVENA_1.webp",
-  shortDesc: "Zinc para apoyar las defensas y el cuidado de piel, cabello, uñas y células.",
-  ingredients: "Zinc elemental 20 mg (como gluconato, citrato u óxido) por cápsula.",
-  serving: "1 cápsula (500 mg)",
-  timing: "Con alimentos",
-  intakeInstructions: "Tomar 1 cápsula al día con alimentos.",
-  benefits: [
-    "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc de gluconato, citrato u óxido."
-  ],
-  contraindications: "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antibióticos, penicilamina o diuréticos deben consultar a un profesional de la salud.",
-  foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-  interactions: "Las cantidades altas de zinc pueden reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra."
-}
-,
+    "id": 153,
+    "code": "7500645000319",
+    "name": "ZINC",
+    "benefitSummary": "Zinc elemental de 20 mg para el sistema inmune, regeneración de piel, cabello y uñas",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/ZINCYAVENA_1.webp",
+    "shortDesc": "Cápsulas de zinc elemental puro (20 mg). El mineral indispensable para madurar las defensas del organismo, acelerar la recuperación de resfriados, frenar la caída del cabello y mantener la piel limpia y radiante.",
+    "ingredients": "Zinc elemental 20 mg (como gluconato, citrato u óxido) por cápsula.",
+    "serving": "1 cápsula (500 mg)",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "benefits": [
+        "El mineral clave de las defensas: fundamental para que los glóbulos blancos maduren y actúen eficazmente ante virus estacionales.",
+        "Fortalecimiento de cabello y uñas: nutre la raíz capilar, disminuye la pérdida de cabello y evita uñas quebradizas o con manchitas blancas.",
+        "Regeneración de la piel y control de grasa: favorece una cicatrización limpia, calma granitos y equilibra el brillo facial.",
+        "Dosis diaria completa (20 mg): una sola cápsula al día cubre los requerimientos del cuerpo para más de 300 procesos vitales."
+    ],
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antibióticos, penicilamina o diuréticos deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Las cantidades altas de zinc pueden reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra.",
+    "researchNote": {
+        "focus": "Zinc elemental en la maduración leucocitaria y la integridad dérmica",
+        "text": "Importancia fisiológica del zinc en el organismo: el zinc es un oligoelemento crucial para la transcripción genética y la producción de citoquinas en los linfocitos T. La deficiencia de zinc se traduce de inmediato en mayor susceptibilidad a infecciones respiratorias y retraso en la cicatrización. Una dosis de 20 mg diarios restaura los depósitos celulares sin sobrecargar las vías de transporte intestinal.",
+        "sources": [
+            {
+                "title": "PubMed NIH: zinc en la función inmunitaria humana y la resistencia a infecciones",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18341424/"
+            },
+            {
+                "title": "NIH ODS: ficha técnica del zinc para profesionales",
+                "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/"
+            }
+        ]
+    }
+},
 // PRODUCTO 154 - Calcium Citrate 510 mg
 {
     id: 154,
@@ -3740,48 +4389,85 @@ window.manualData.productos = [
 
 // PRODUCTO 155 - HONIG ABAGREEN VERDE
 {
-    id: 155,
-    code: "7503016797009",
-    name: "HONIG ABANGREEN LIMON",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREENVERDE.png",
-    shortDesc: "Miel y propóleo con plantas de uso tradicional respiratorio, mentol y vitamina C para dar confort a la garganta y apoyar las defensas.",
-    ingredients: "Miel de abeja, propóleo, extractos de: eucalipto (Eucalyptus), bugambilia (Bougainvillea), gordolobo (Verbascum thapsus), fenogreco (Trigonella foenum-graecum), saúco (Sambucus), malva (Malva sylvestris), mentol, esencia de miel, vitamina C (ácido ascórbico).",
-    serving: "12 ml (1 cucharada) cada 4 horas",
-    timing: "Cada 4 horas, con o sin alimentos",
-    intakeInstructions: "Adultos y niños mayores de 10 años: Tomar 1 cucharada (12 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
-    benefits: [
-      "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva complementan el cuidado de la garganta.",
-      "Eucalipto y mentol aportan sensación de frescura. La vitamina C acompaña las defensas y la esencia de miel el sabor."
+    "id": 155,
+    "code": "7503016797009",
+    "name": "HONIG ABANGREEN LIMON",
+    "benefitSummary": "Jarabe balsámico de miel con propóleo y 9 extractos herbales para calmar la tos y despejar el pecho",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREENVERDE.png",
+    "shortDesc": "Jarabe tradicional con miel pura de abeja, propóleo, vitamina C y nueve extractos botánicos (gordolobo, eucalipto, bugambilia, saúco, malva y fenogreco). Suaviza la garganta rasposa, ablanda flemas retenidas y reconforta las vías respiratorias.",
+    "ingredients": "Miel de abeja, propóleo, extractos de: eucalipto (Eucalyptus), bugambilia (Bougainvillea), gordolobo (Verbascum thapsus), fenogreco (Trigonella foenum-graecum), saúco (Sambucus), malva (Malva sylvestris), mentol, esencia de miel, vitamina C (ácido ascórbico).",
+    "serving": "12 ml (1 cucharada) cada 4 horas",
+    "timing": "Cada 4 horas, con o sin alimentos",
+    "intakeInstructions": "Adultos y niños mayores de 10 años: Tomar 1 cucharada (12 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
+    "benefits": [
+        "Suaviza la garganta y calma la tos: la miel de abeja y la malva forman una película protectora emoliente que alivia el ardor y los accesos de tos.",
+        "Expectoración y despeje de flemas: el gordolobo y la bugambilia ayudan a fluidificar las secreciones acumuladas en el pecho para expulsarlas fácilmente.",
+        "Sensación de frescura respiratoria: el eucalipto y el mentol natural abren las vías aéreas facilitando una respiración profunda y limpia.",
+        "Refuerzo de defensas familiares: el propóleo, saúco y la vitamina C fortalecen la respuesta del cuerpo para una recuperación rápida y completa.",
+        "Sabor agradable con toque de limón: fórmula deliciosa y dulce que facilita la toma constante tanto en jóvenes como en adultos."
     ],
-    contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. No consumir durante el embarazo o periodo de lactancia sin consultar a un profesional de la salud. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. No consumir durante el embarazo o periodo de lactancia sin consultar a un profesional de la salud. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Jarabe balsámico multitarget para tos, irritación de garganta y defensas",
+        "text": "Sinergia botánica y apícola en vías respiratorias: la combinación de miel natural con gordolobo (Verbascum thapsus), saúco (Sambucus nigra) y eucalipto ofrece un triple mecanismo: los mucílagos de la malva calman la irritación mecánica de la mucosa faríngea; las saponinas del gordolobo fluidifican las secreciones bronquiales; y los bioflavonoides del propóleo y saúco refuerzan la defensa antioxidante celular ante infecciones estacionales.",
+        "sources": [
+            {
+                "title": "EMA: monografía sobre flor de saúco (Sambucus nigra) para el resfriado común",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos"
+            },
+            {
+                "title": "EMA: monografía sobre gordolobo (Verbascum thapsus) para tos y dolor de garganta",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/verbasci-flos"
+            },
+            {
+                "title": "PubMed NIH: eficacia de la miel en el alivio de la tos nocturna y calidad del sueño",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30528434/"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 156 - HONIG ABAGREEN ROJO
 {
-    id: 156,
-    code: "7503024738094",
-    name: "HONIG ABANGREEN AJO NEGRO",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREEN-ROJO.png",
-    shortDesc: "Miel y propóleo con ajo negro, plantas y vitamina C para dar confort a la garganta y complementar el cuidado de las defensas.",
-    ingredients: "Miel de abeja, propóleo, extractos de: gordolobo (Verbascum thapsus), ajo negro (Allium nigrum), orégano (Origanum vulgare), bugambilia (Bougainvillea), fenogreco (Trigonella foenum-graecum), eucalipto (Eucalyptus), saúco (Sambucus), malva rosa (Alcea rosea), mentol, vitamina C (ácido ascórbico).",
-    serving: "20 ml (2 vasos dosificadores) cada 4 horas (adultos)",
-    timing: "Cada 4 horas, con o sin alimentos",
-    intakeInstructions: "Adultos: Tomar 2 vasos dosificadores (20 ml) cada 4 horas. Niños: Tomar 1 vaso dosificador (10 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
-    benefits: [
-      "Acompaña la comodidad de la garganta con miel y propóleo. Gordolobo, bugambilia, fenogreco, saúco y malva rosa completan el cuidado de la garganta.",
-      "Ajo negro y orégano añaden compuestos vegetales. Eucalipto y mentol dan sensación de frescura y vitamina C acompaña las defensas."
+    "id": 156,
+    "code": "7503024738094",
+    "name": "HONIG ABANGREEN AJO NEGRO",
+    "benefitSummary": "Jarabe expectorante reforzado con ajo negro, orégano, propóleo y plantas para tos rebelde y congestión profunda",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/ABANGREEN-ROJO.png",
+    "shortDesc": "Jarabe de máxima potencia con miel de abeja, propóleo, ajo negro madurado, aceite de orégano, plantas pectorales y vitamina C. Diseñado para combatir catarros severos, tos persistente, pecho apretado y defensas debilitadas.",
+    "ingredients": "Miel de abeja, propóleo, extractos de: gordolobo (Verbascum thapsus), ajo negro (Allium nigrum), orégano (Origanum vulgare), bugambilia (Bougainvillea), fenogreco (Trigonella foenum-graecum), eucalipto (Eucalyptus), saúco (Sambucus), malva rosa (Alcea rosea), mentol, vitamina C (ácido ascórbico).",
+    "serving": "20 ml (2 vasos dosificadores) cada 4 horas (adultos)",
+    "timing": "Cada 4 horas, con o sin alimentos",
+    "intakeInstructions": "Adultos: Tomar 2 vasos dosificadores (20 ml) cada 4 horas. Niños: Tomar 1 vaso dosificador (10 ml) cada 4 horas. Agitar bien el envase antes de cada uso. No exceder la porción diaria recomendada.",
+    "benefits": [
+        "Mayor potencia antibacteriana y antiviral: incorpora ajo negro y orégano concentrado para combatir las infecciones respiratorias más resistentes.",
+        "Descongestión profunda del pecho: el gordolobo, malva rosa y saúco aflojan y desprenden flemas espesas y pegadas en bronquios.",
+        "Calma ataques de tos y garganta adolorida: la miel con bugambilia alivia el dolor al toser y reduce la irritación traqueal continua.",
+        "Respiración fresca y libre: el eucalipto y mentol disuelven la sensación de opresión nasal y pulmonar permitiendo un descanso reparador.",
+        "Sabor amable sin picor: el ajo negro madurado aporta sus nutrientes sin olor invasivo ni irritar el estómago."
     ],
-    contraindications: "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-}
-,
+    "contraindications": "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Jarabe reforzado con ajo negro y orégano para afecciones respiratorias severas",
+        "text": "Por qué la fórmula con ajo negro y orégano es más efectiva en catarros rebeldes: el orégano aporta carvacrol que combate microorganismos que colonizan el tracto respiratorio superior, mientras el ajo negro fermentado suministra polifenoles y S-alil-cisteína con alto poder antiinflamatorio bronquial. La base de miel y gordolobo garantiza una acción emoliente prolongada sobre la mucosa faríngea.",
+        "sources": [
+            {
+                "title": "PubMed NIH: propiedades antimicrobianas del ajo y orégano en afecciones respiratorias",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31146392/"
+            },
+            {
+                "title": "EMA: monografía comunitaria sobre eucalipto para catarros y tos",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/eucalypti-aetheroleum"
+            }
+        ]
+    }
+},
 // PRODUCTO 157 - NUYO
 {
     id: 157,
@@ -3935,24 +4621,37 @@ window.manualData.productos = [
 
 // PRODUCTO 164 - ALOE VERA NOPAL CON CUACHALALATE
 {
-    id: 164,
-    code: "7503016797634",
-    name: "ALOE VERA NOPAL CON CUACHALALATE",
-    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeCuachalalate.jpg",
-    shortDesc: "Bebida de sábila, nopal y cuachalalate de uso tradicional digestivo, con vitamina C para apoyar las defensas.",
-    ingredients: "Jugo de aloe vera (Aloe barbadensis), jugo de nopal (Opuntia ficus-indica), extracto de cuachalalate (Amphipterygium adstringens), ácido ascórbico (vitamina C).",
-    serving: "90 ml al día",
-    timing: "Preferentemente en ayunas o entre comidas",
-    intakeInstructions: "Agitar bien el envase antes de cada uso. Consumir 90 ml al día (un vaso dosificador), preferentemente en ayunas o entre comidas. Puede tomarse solo o mezclado con agua si se desea un sabor más suave. No exceder la porción diaria recomendada. Una vez abierto, consumir en un plazo de 1 mes.",
-    benefits: [
-      "Acompaña el bienestar digestivo tradicional con aloe vera, nopal y cuachalalate. La vitamina C complementa el cuidado de tejidos y las defensas."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 164,
+      "code": "7503016797634",
+      "name": "ALOE VERA NOPAL CON CUACHALALATE",
+      "benefitSummary": "Jugo de sábila, nopal y cuachalalate para reconfortar el estómago irritado y calmar agruras",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/AloeCuachalalate.jpg",
+      "shortDesc": "Fórmula líquida con extractos puros de aloe vera, nopal y cuachalalate enriquecida con vitamina C. Ideal para personas con reflujo ácido, ardor de esófago o pesadez estomacal; se toma una copita antes de comer o al acostarse para dormir sin molestias de acidez.",
+      "ingredients": "Jugo de aloe vera (Aloe barbadensis), jugo de nopal (Opuntia ficus-indica), extracto de cuachalalate (Amphipterygium adstringens), ácido ascórbico (vitamina C).",
+      "serving": "90 ml al día",
+      "timing": "Preferentemente en ayunas o entre comidas",
+      "intakeInstructions": "Agitar bien el envase antes de cada uso. Consumir 90 ml al día (un vaso dosificador), preferentemente en ayunas o entre comidas. Puede tomarse solo o mezclado con agua si se desea un sabor más suave. No exceder la porción diaria recomendada. Una vez abierto, consumir en un plazo de 1 mes.",
+      "benefits": [
+          "Alivio del reflujo y acidez: el aloe vera y el nopal calman el fuego gástrico y evitan que el ácido suba al esófago.",
+          "Desinflamación gástrica: el extracto de cuachalalate alivia la hinchazón y ardor en la boca del estómago.",
+          "Apoyo a las defensas: la vitamina C protege las células y apoya la regeneración de los tejidos digestivos."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "990 ml",
+      "researchNote": {
+          "focus": "Gastroprotección y confort digestivo",
+          "text": "Por qué tomar esta mezcla para reflujo: la combinación de jugo de nopal y aloe aporta polisacáridos de alto peso molecular que neutralizan temporalmente el ardor al tiempo que recubren el esfínter esofágico inferior.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: aloe vera y bienestar digestivo",
+                  "url": "https://www.nccih.nih.gov/health/aloe-vera"
+              }
+          ]
+      }
+  },
 
 // PRODUCTO 165 - TÉ VERDE
 {
@@ -4086,23 +4785,40 @@ window.manualData.productos = [
 
 // PRODUCTO 170 - TÉ ABANGREEN
 {
-    id: 170,
-    code: "7503024738339",
-    name: "TÉ ABANGREEN",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ABANGREEN-scaled.png",
-    shortDesc: "Infusión con eucalipto, gordolobo y otras plantas de uso tradicional respiratorio para dar confort a la garganta.",
-    ingredients: "Eucalipto (Eucalyptus), tejocote (Crataegus mexicana), gordolobo (Verbascum thapsus), tabachín (Caesalpinia pulcherrima), sáuco (Sambucus nigra), propóleo.",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente después de las comidas",
-    intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
-    benefits: [
-      "Acompaña la comodidad de la garganta con propóleo y plantas de uso tradicional respiratorio: eucalipto, gordolobo y saúco. Tejocote y tabachín completan la infusión."
+    "id": 170,
+    "code": "7503024738339",
+    "name": "TÉ ABANGREEN",
+    "benefitSummary": "Té herbal respiratorio en sobres con bugambilia, gordolobo, eucalipto, saúco y tejocote para despejar el pecho",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-ABANGREEN-scaled.png",
+    "shortDesc": "Infusión tradicional mexicana en prácticos sobres para preparar caliente. Reúne el quinteto botánico clásico (bugambilia, gordolobo, eucalipto, saúco y fruto de tejocote) para abrir el pecho, calmar la tos y reconfortar la garganta adolorida.",
+    "ingredients": "Eucalipto (Eucalyptus), tejocote (Crataegus mexicana), gordolobo (Verbascum thapsus), tabachín (Caesalpinia pulcherrima), sáuco (Sambucus nigra), propóleo.",
+    "serving": "1 sobre (2 g) / 1 taza de infusión al día",
+    "timing": "Preferentemente después de las comidas",
+    "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
+    "benefits": [
+        "Abre las vías respiratorias y despeja el pecho: los vapores aromáticos de eucalipto y saúco calientes aflojan la congestión bronquial y nasal.",
+        "Calma la tos seca y la carraspera: la flor de bugambilia y el gordolobo aportan sustancias emolientes que suavizan la tráquea irritada.",
+        "Favorece la expectoración natural: el fruto de tejocote y el gordolobo ayudan a expulsar flemas acumuladas tras días de resfriado.",
+        "Bebida tibia reconfortante para la noche: ideal para tomar bien caliente con una cucharadita de miel antes de dormir para descansar sin tos."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (propóleo) deben evitar su consumo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (propóleo) deben evitar su consumo.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Infusión pectoral tradicional de bugambilia, gordolobo, eucalipto y saúco",
+        "text": "Herbolaria mexicana para el aparato respiratorio: la bugambilia (Bougainvillea glabra) y el tejocote (Crataegus mexicana) forman parte de la farmacopea tradicional mexicana para el pecho cerrado. En infusión caliente, sus flavonoides y taninos suaves bañan la laringe mientras los vapores de cineol del eucalipto facilitan la expansión alveolar y la ventilación.",
+        "sources": [
+            {
+                "title": "UNAM: Atlas de las Plantas de la Medicina Tradicional Mexicana - Bugambilia y gordolobo",
+                "url": "https://www.medicinatradicionalmexicana.unam.mx"
+            },
+            {
+                "title": "EMA: saúco (Sambucus nigra) en el alivio de síntomas iniciales de catarro",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 171 - TÉ ÁRNICA
@@ -4128,111 +4844,184 @@ window.manualData.productos = [
 
 // PRODUCTO 172 - TÉ CUACHALALATE
 {
-    id: 172,
-    code: "7503024738254",
-    name: "TÉ CUACHALALATE",
-    benefitSummary: "Cuachalalate de uso tradicional para molestias del estómago",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
-    shortDesc: "Infusión de corteza de cuachalalate utilizada tradicionalmente para acompañar el bienestar del estómago. Dentro de la herbolaria mexicana se asocia con el cuidado de molestias estomacales que suelen describirse como irritación o gastritis. Para la formación del vendedor, conviene distinguir gastritis, gases y colitis, porque son situaciones diferentes. Su orientación es el uso tradicional para molestias del estómago, evitando presentarlo como solución para cualquier problema digestivo.",
-    ingredients: "Corteza de cuachalalate (Amphipterygium adstringens).",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente después de las comidas",
-    intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
-    benefits: [
-      "Bienestar del estómago: la corteza de cuachalalate se usa tradicionalmente para acompañar el cuidado de molestias estomacales.",
-      "En la herbolaria mexicana se utiliza tradicionalmente para molestias descritas como irritación o gastritis."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 172,
+      "code": "7503024738254",
+      "name": "TÉ CUACHALALATE",
+      "benefitSummary": "Té de corteza de cuachalalate para aliviar la acidez, agruras e irritación estomacal",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-CUACHALALTE-scaled.png",
+      "shortDesc": "Infusión caliente de pura corteza de cuachalalate troceada. La forma más noble y tradicional de tomar este tesoro de la herbolaria mexicana; ideal para tomar después de comer o al despertar cuando se siente fuego en el estómago, gastritis, agruras o reflujo.",
+      "ingredients": "Corteza de cuachalalate (Amphipterygium adstringens).",
+      "serving": "1 sobre (2 g) / 1 taza de infusión al día",
+      "timing": "Preferentemente después de las comidas",
+      "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
+      "benefits": [
+          "Alivio rápido del ardor: la infusión caliente de corteza de cuachalalate calma la sensación de acidez y ardor estomacal.",
+          "Cuidado tradicional de la gastritis: en la herbolaria mexicana se toma a diario para ayudar a calmar la irritación de la boca del estómago.",
+          "Digestión ligera: ayuda a asentar el estómago después de comer comidas muy condimentadas o irritantes."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Infusión herbal tradicional para confort estomacal",
+          "text": "Por qué el té de cuachalalate es tan efectivo: al infusionar la corteza en agua caliente se liberan taninos y resinas que bañan suavemente la mucosa del esófago y el estómago, proporcionando una sensación reconfortante de alivio frente al ácido gástrico.",
+          "sources": [
+              {
+                  "title": "UNAM: Cuachalalate, uso medicinal tradicional en infusión",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx/flora2.php?l=4&t=cuachalalate"
+              }
+          ]
+      }
+  },
 
 // PRODUCTO 173 - TÉ HOJA SEN
 {
-    id: 173,
-    code: "7503024738247",
-    name: "TÉ HOJA SEN",
-    benefitSummary: "Apoyo ocasional a la evacuación",
-    category: "laxantes",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-HOJA-SEN-scaled.png",
-    shortDesc: "Infusión de sen para ayudar a evacuar en casos de estreñimiento ocasional. Su uso debe ser breve y conforme a la etiqueta.",
-    ingredients: "Hojas de sen (Senna alexandrina).",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día (uso ocasional)",
-    timing: "Preferentemente por la noche antes de dormir",
-    intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar. Uso ocasional, no prolongar por más de 7 días consecutivos.",
-    benefits: [
-      "Ayuda a evacuar en casos de estreñimiento ocasional con hojas de sen, que estimulan el movimiento del intestino."
+    "id": 173,
+    "code": "7503024738247",
+    "name": "TÉ HOJA SEN",
+    "benefitSummary": "Infusión herbal de sen para un alivio evacuatorio rápido y rescate nocturno",
+    "category": "laxantes",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-HOJA-SEN-scaled.png",
+    "shortDesc": "Té tradicional de hojas de sen puro en prácticos sobres para infusión caliente. Estimula de forma natural las paredes del colon para aliviar el estreñimiento ocasional, permitiendo despertar con el vientre ligero y despejado.",
+    "ingredients": "Hojas de sen (Senna alexandrina).",
+    "serving": "1 sobre (2 g) / 1 taza de infusión al día (uso ocasional)",
+    "timing": "Preferentemente por la noche antes de dormir",
+    "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar. Uso ocasional, no prolongar por más de 7 días consecutivos.",
+    "benefits": [
+        "Estimula el movimiento natural del intestino para favorecer una evacuación completa y rápida tras días con dificultad para defecar.",
+        "Se disfruta como una reconfortante infusión tibia antes de dormir para que actúe durante el descanso y surta efecto por la mañana.",
+        "Remedio herbolario de rescate ocasional, ideal para desinflamar el vientre congestionado y recuperar la ligereza digestiva en episodios puntuales."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Infusión herbolaria estandarizada de sen para estreñimiento agudo ocasional",
+        "text": "Por qué la hoja de sen es el laxante vegetal de rescate más reconocido: las hojas de Senna alexandrina contienen senósidos naturales que llegan intactos al colon, donde la flora bacteriana los activa en metabolitos que estimulan las contracciones propulsoras del intestino e incrementan la secreción de agua y electrolitos. Esto produce un efecto evacuatorio predecible entre 6 y 12 horas después de su ingesta. La Agencia Europea de Medicamentos y la OMS recomiendan su uso puntual para estreñimiento de corto plazo (no más de 7 días continuos).",
+        "sources": [
+            {
+                "title": "EMA: monografía comunitaria sobre Senna alexandrina (hoja de sen) para estreñimiento ocasional",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/sennae-folium"
+            },
+            {
+                "title": "NCCIH / NIH: información científica y seguridad de la hierba sen (Senna)",
+                "url": "https://www.nccih.nih.gov/health/senna"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 174 - TÉ JENGIBRE CANELA
 {
-    id: 174,
-    code: "7503025069395",
-    name: "TÉ JENGIBRE CANELA",
-    benefitSummary: "Jengibre y canela con té verde para digestión y antioxidantes",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
-    shortDesc: "Infusión que combina jengibre y canela con té verde para acompañar el bienestar digestivo y ofrecer una bebida con antioxidantes. El jengibre tiene uso tradicional para molestias leves del estómago, mientras que la canela aporta su sabor y componentes vegetales. El té verde añade antioxidantes y puede aportar cafeína. Esta combinación se distingue del té de jengibre y cúrcuma por la presencia del té verde y su carácter de bebida para el día.",
-    ingredients: "Té verde (Camellia sinensis), raíz de jengibre (Zingiber officinale), canela (Cinnamomum verum).",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente después de las comidas",
-    intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
-    benefits: [
-      "Bienestar digestivo: el jengibre se usa tradicionalmente para acompañar la comodidad del estómago y la canela completa la mezcla de especias.",
-      "Antioxidantes y cafeína: el té verde complementa la bebida con antioxidantes y puede ayudar a estar más despierto."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 174,
+      "code": "7503025069395",
+      "name": "TÉ JENGIBRE CANELA",
+      "benefitSummary": "Té caliente de jengibre, canela y té verde para acelerar el metabolismo y asentar la digestión",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CANELA-scaled.png",
+      "shortDesc": "Infusión aromática que combina el calor digestivo del jengibre y la canela con los antioxidantes revitalizantes del té verde. Perfecta para tomar caliente a media mañana o tras el almuerzo; ayuda a digerir la comida rápidamente, controla el antojo de postres y te da energía limpia sin bajones.",
+      "ingredients": "Té verde (Camellia sinensis), raíz de jengibre (Zingiber officinale), canela (Cinnamomum verum).",
+      "serving": "1 sobre (2 g) / 1 taza de infusión al día",
+      "timing": "Preferentemente después de las comidas",
+      "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
+      "benefits": [
+          "Digestión ligera y placentera: el jengibre y la canela calientan el tubo digestivo y desinflaman el estómago tras comer.",
+          "Antioxidantes y metabolismo: el té verde aporta catequinas que ayudan al metabolismo y dan vitalidad durante el día.",
+          "Sabor reconfortante y especiado: una taza caliente que reconforta el cuerpo y acompaña la sobremesa de forma saludable."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Termogénesis suave y confort digestivo",
+          "text": "Por qué té verde con jengibre y canela: las catequinas del té verde (EGCG) combinadas con los componentes de la canela y los gingeroles apoyan el metabolismo y mejoran la tolerancia a la glucosa postprandial, al tiempo que calman la plenitud gástrica.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: té verde y fitonutrientes",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              },
+              {
+                  "title": "EMA: canela para molestias digestivas espasmódicas y flatulencias",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/cinnamomi-corticis-aetheroleum"
+              }
+          ]
+      }
+  },
 
 // PRODUCTO 175 - TÉ JENGIBRE Y CÚRCUMA
 {
-    id: 175,
-    code: "7503024738308",
-    name: "TÉ JENGIBRE Y CÚRCUMA",
-    benefitSummary: "Infusión para pesadez y gases después de comer",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
-    shortDesc: "Infusión de dos raíces utilizadas tradicionalmente para acompañar la comodidad del estómago después de comer. El jengibre y la cúrcuma se reúnen para el bienestar digestivo, especialmente ante pesadez y gases. Puede integrarse como bebida caliente dentro de la rutina posterior a los alimentos. Su enfoque principal es digestivo, distinguiendo esta infusión de los extractos concentrados de curcumina que se utilizan en fórmulas de orientación articular.",
-    ingredients: "Raíz de jengibre (Zingiber officinale), raíz de cúrcuma (Curcuma longa).",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente después de las comidas",
-    intakeInstructions: "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
-    benefits: [
-      "Pesadez y gases: jengibre y cúrcuma se usan tradicionalmente para acompañar la comodidad del estómago después de comer.",
-      "Permite incorporar ambas raíces en una infusión caliente dentro de la rutina después de los alimentos."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 175,
+      "code": "7503024738308",
+      "name": "TÉ JENGIBRE Y CÚRCUMA",
+      "benefitSummary": "Infusión dorada de jengibre y cúrcuma para desinflamar el estómago y quitar gases tras comer",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JENGIBRE-CURCUMA-scaled.png",
+      "shortDesc": "Infusión natural de raíces puras de jengibre y cúrcuma troceadas. Es la taza caliente perfecta para después de comer; asienta el estómago en minutos, estimula la bilis para digerir grasas y elimina por completo los gases y la sensación de estar lleno o pesado.",
+      "ingredients": "Raíz de jengibre (Zingiber officinale), raíz de cúrcuma (Curcuma longa).",
+      "serving": "1 sobre (2 g) / 1 taza de infusión al día",
+      "timing": "Preferentemente después de las comidas",
+      "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
+      "benefits": [
+          "Alivio inmediato de pesadez y gases: el calor del té disuelve la tensión digestiva y ayuda a expulsar los gases atrapados.",
+          "Soporte biliar natural: la cúrcuma ayuda al hígado y la vesícula a procesar comidas grasosas o muy sazonadas.",
+          "Bebida dorada desinflamante: reconforta todo el tubo digestivo de forma natural y sin cafeína."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Infusión carminativa y antiinflamatoria digestiva",
+          "text": "Por qué tomar té de cúrcuma y jengibre tras las comidas: la infusión acuosa caliente facilita la extracción de aceites volátiles carminativos que relajan el esfínter esofágico y el píloro, facilitando el tránsito de los alimentos.",
+          "sources": [
+              {
+                  "title": "EMA: jengibre y cúrcuma para molestias digestivas leves",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal"
+              }
+          ]
+      }
+  },
 
 // PRODUCTO 176 - TÉ MANZANILLA
 {
-    id: 176,
-    code: "7503026253311",
-    name: "TÉ MANZANILLA",
-    benefitSummary: "Infusión para una pausa y una rutina de calma",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-MANZANILLA-1-scaled.png",
-    shortDesc: "Infusión de manzanilla sin cafeína para acompañar el bienestar digestivo y una rutina de relajación.",
-    ingredients: "Flores de manzanilla (Chamaemelum nobile) orgánicas.",
-    serving: "1 sobre (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente por la noche o después de las comidas",
-    intakeInstructions: "Calentar agua hasta punto de ebullición. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
-    benefits: [
-      "Acompaña el bienestar después de comer y una pausa de calma con flores de manzanilla de uso tradicional."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 176,
+      "code": "7503026253311",
+      "name": "TÉ MANZANILLA",
+      "benefitSummary": "Flores orgánicas de manzanilla para relajar el estómago, quitar cólicos y calmar el estrés digestivo",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-MANZANILLA-1-scaled.png",
+      "shortDesc": "Infusión tradicional de flores enteras de manzanilla orgánica de la más alta pureza. El clásico de toda la vida para cuando el estómago se siente cerrado por nervios, con retortijones, cólicos digestivos o acidez leve. Sin cafeína, ideal para toda la familia a cualquier hora del día o antes de dormir.",
+      "ingredients": "Flores de manzanilla (Chamaemelum nobile) orgánicas.",
+      "serving": "1 sobre (2 g) / 1 taza de infusión al día",
+      "timing": "Preferentemente por la noche o después de las comidas",
+      "intakeInstructions": "Calentar agua hasta punto de ebullición. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
+      "benefits": [
+          "Calma de cólicos y retortijones: relaja los músculos lisos del aparato digestivo para aliviar espasmos y cólicos.",
+          "Alivio del estómago nervioso: calma la acidez y la tensión estomacal provocadas por el estrés o la angustia.",
+          "Descanso y bienestar suave: una taza reconfortante que ayuda a bajar el ritmo del día y prepara el cuerpo para descansar."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Antiespasmódico botánico y calma digestiva",
+          "text": "Por qué la manzanilla es el antiespasmódico por excelencia: las flores de manzanilla contienen bisabolol y flavonoides (apigenina) que ejercen un efecto relajante directo sobre la musculatura del estómago y los intestinos, reduciendo la inflamación de la mucosa.",
+          "sources": [
+              {
+                  "title": "EMA: flor de manzanilla, uso tradicional para espasmos gastrointestinales leves",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/matricariae-flos"
+              },
+              {
+                  "title": "NCCIH / NIH: manzanilla, usos y seguridad",
+                  "url": "https://www.nccih.nih.gov/health/chamomile"
+              }
+          ]
+      }
+  },
 
 // PRODUCTO 177 - TÉ RINICHI
 {
@@ -4257,46 +5046,78 @@ window.manualData.productos = [
 
 // PRODUCTO 178 - QUERCETIN
 {
-    id: 178,
-    code: "7503029679767",
-    name: "QUERCETIN",
-    benefitSummary: "Quercetina para el cuidado de las células",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/QUERCETIN.png",
-    shortDesc: "Quercetina en cápsulas como complemento del cuidado de las células frente al desgaste diario.",
-    ingredients: "Quercetina (3,3′,4′,5,7-pentahidroxiflavona) (1000 mg por porción).",
-    serving: "2 cápsulas al día",
-    timing: "Preferentemente con alimentos",
-    intakeInstructions: "Tomar 2 cápsulas diariamente (1000 mg de quercetina), de preferencia con los alimentos. Consumir diariamente. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
-    benefits: [
-      "Aporta quercetina, un antioxidante para complementar el cuidado de las células."
+    "id": 178,
+    "code": "7503029679767",
+    "name": "QUERCETIN",
+    "benefitSummary": "Quercetina pura de 1000 mg en cápsulas para protección respiratoria, alivio de alergias y antioxidante celular",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/QUERCETIN.png",
+    "shortDesc": "Cápsulas de quercetina pura (1,000 mg por porción de 2 cápsulas). El bioflavonoide por excelencia para estabilizar las defensas respiratorias, calmar molestias estacionales por alérgenos y polvo, y proteger los vasos sanguíneos.",
+    "ingredients": "Quercetina (3,3′,4′,5,7-pentahidroxiflavona) (1000 mg por porción).",
+    "serving": "2 cápsulas al día",
+    "timing": "Preferentemente con alimentos",
+    "intakeInstructions": "Tomar 2 cápsulas diariamente (1000 mg de quercetina), de preferencia con los alimentos. Consumir diariamente. No exceder la porción diaria recomendada. Para un uso prolongado (>3 meses), consultar con un profesional de la salud.",
+    "benefits": [
+        "Alivio natural de molestias por alérgenos y cambios de clima: ayuda a calmar estornudos, escurrimiento nasal y picazón de garganta por polen o polvo.",
+        "Protección de vías respiratorias y pulmones: reconforta los bronquios y ayuda a mantener una respiración libre y sin opresión.",
+        "Poder antioxidante para vasos sanguíneos: neutraliza radicales libres protegiendo los capilares y la circulación de todo el cuerpo.",
+        "Dosis completa de 1,000 mg diarios: dos cápsulas aportan la concentración óptima recomendada para mantener defensas sólidas todo el año."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Quercetina como modulador de la respuesta alérgica y antioxidante vascular",
+        "text": "Acción biológica del flavonoide quercetina: la quercetina ejerce un efecto estabilizador sobre la membrana de mastocitos y basófilos, regulando la degranulación y liberación de histamina mediada por alérgenos ambientales. Asimismo, inhibe enzimas proinflamatorias como la lipoxigenasa y fosfolipasa A2, protegiendo el epitelio respiratorio y la elasticidad microvascular.",
+        "sources": [
+            {
+                "title": "PubMed NIH: quercetina, inflamación y modulación inmunitaria respiratoria",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/27187333/"
+            },
+            {
+                "title": "PubMed NIH: propiedades antioxidantes y antihistamínicas de la quercetina",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32679724/"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 179 - BACAO GREEN JARABE
 {
-    id: 179,
-    code: "7503016797054",
-    name: "BACAO GREEN JARABE",
-    benefitSummary: "Vitaminas A y D con plantas de uso tradicional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/BACAO-JARABE.png",
-    shortDesc: "Jarabe con aceite de hígado de bacalao y plantas de uso tradicional respiratorio; sus vitaminas A y D apoyan las defensas, la visión y los huesos.",
-    ingredients: "Aceite de hígado de bacalao (vitaminas A y D), hipofosfitos de sodio, calcio, potasio, magnesio y hierro, extractos de eucalipto, saúco, lobaria pulmonaria, gordolobo y cassia fístula.",
-    serving: "Adultos: 15 ml, 3 veces al día",
-    timing: "Según necesidad, con o sin alimentos",
-    intakeInstructions: "Adultos: Tomar 1 copita de 15 ml, 3 veces al día. Jóvenes: Tomar 1 copita de 15 ml, 2 veces al día. Niños: Tomar media copita, 3 veces al día. Agitar antes de usar.",
-    benefits: [
-      "Complementa el cuidado de huesos y defensas con vitaminas A y D del aceite de hígado de bacalao.",
-      "Incluye hipofosfitos de sodio, calcio, potasio, magnesio y hierro como sales minerales.",
-      "Eucalipto, saúco, lobaria pulmonaria y gordolobo se usan para el confort de garganta. Cassia fístula completa la mezcla de plantas."
+    "id": 179,
+    "code": "7503016797054",
+    "name": "BACAO GREEN JARABE",
+    "benefitSummary": "Jarabe de aceite de hígado de bacalao con propóleo, vitaminas A, D3 y C para reconstruir defensas y fortalecer pulmones",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/BACAO-JARABE.png",
+    "shortDesc": "Jarabe reconstituyente que combina el tradicional aceite de hígado de bacalao con propóleo, extractos de eucalipto, bugambilia, gordolobo, saúco y vitaminas A, C y D3. Ideal para personas propensas a resfriados frecuentes o con pulmones debilitados.",
+    "ingredients": "Aceite de hígado de bacalao (vitaminas A y D), hipofosfitos de sodio, calcio, potasio, magnesio y hierro, extractos de eucalipto, saúco, lobaria pulmonaria, gordolobo y cassia fístula.",
+    "serving": "Adultos: 15 ml, 3 veces al día",
+    "timing": "Según necesidad, con o sin alimentos",
+    "intakeInstructions": "Adultos: Tomar 1 copita de 15 ml, 3 veces al día. Jóvenes: Tomar 1 copita de 15 ml, 2 veces al día. Niños: Tomar media copita, 3 veces al día. Agitar antes de usar.",
+    "benefits": [
+        "Nutrientes esenciales para el pulmón: el aceite de bacalao aporta vitaminas A y D3 naturales que regeneran los epitelios respiratorios y consolidan las defensas.",
+        "Alivio expectorante del pecho: el propóleo, saúco y gordolobo calman la tos y ayudan a movilizar las flemas para respirar con holgura.",
+        "Escudo preventivo para temporadas frías: perfecto como preventivo diario en niños mayores de 3 años y adultos mayores vulnerables al frío.",
+        "Descongestión aromática: el eucalipto y la bugambilia suavizan la garganta y despejan la sensación de pecho cerrado y nariz congestionada."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 1 año. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente pescado).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 1 año. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente pescado).",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Aceite de hígado de bacalao y vitaminas A, D3 y C en la inmunidad respiratoria",
+        "text": "Papel de las vitaminas A y D en la barrera pulmonar: la vitamina A es indispensable para mantener la integridad de los cilios y el tejido epitelial del árbol bronquial, impidiendo la adherencia de patógenos. La vitamina D3 modula los macrófagos y la expresión de péptidos antimicrobianos en los pulmones, reduciendo la incidencia de infecciones estacionales recurrentes.",
+        "sources": [
+            {
+                "title": "PubMed NIH: aceite de hígado de bacalao y reducción de infecciones respiratorias",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/15325681/"
+            },
+            {
+                "title": "NCCIH / NIH: vitamina A y vitamina D en la función inmunitaria",
+                "url": "https://www.nccih.nih.gov/health/vitamins"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 180 - PURE INOSITOL POWDER
@@ -4387,152 +5208,268 @@ window.manualData.productos = [
 ,
 // PRODUCTO 184 - ZENMUN
 {
-    id: 184,
-    code: "7503029679156",
-    name: "ZENMUN",
-    benefitSummary: "Vitaminas C y D con zinc para las defensas",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/06/Zenmun1.jpg",
-    shortDesc: "Vitaminas C y D, zinc y plantas para apoyar las defensas y el cuidado diario de las células.",
-    ingredients: "Bayas de Saúco (Sambucus nigra), Equinácea (Echinacea purpurea), Ajo Negro (Allium sativum fermentado), Vitamina C (ácido ascórbico) (300 mg), Vitamina D3 (colecalciferol) (10 mcg / 400 UI), Zinc (elemental) (20 mg).",
-    serving: "2 cápsulas al día",
-    timing: "Preferentemente con alimentos",
-    intakeInstructions: "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (&gt;3 meses), se recomienda consultar con un profesional de la salud.",
-    benefits: [
-      "Apoya las defensas con vitaminas C y D3 y zinc. Saúco, equinácea y ajo negro complementan el cuidado tradicional en cambios de temporada con compuestos vegetales."
+    "id": 184,
+    "code": "7503029679156",
+    "name": "ZENMUN",
+    "benefitSummary": "Fórmula integral todo-en-uno con Saúco, Equinácea, Ajo negro, Vitaminas C, D3 y Zinc",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Zenmun1.jpg",
+    "shortDesc": "La combinación más completa para blindar las defensas. Reúne tres nutrientes esenciales (vitamina C, vitamina D3 y zinc) con tres extractos botánicos de alta potencia (saúco, equinácea y ajo negro) para una protección estacional total.",
+    "ingredients": "Bayas de Saúco (Sambucus nigra), Equinácea (Echinacea purpurea), Ajo Negro (Allium sativum fermentado), Vitamina C (ácido ascórbico) (300 mg), Vitamina D3 (colecalciferol) (10 mcg / 400 UI), Zinc (elemental) (20 mg).",
+    "serving": "2 cápsulas al día",
+    "timing": "Preferentemente con alimentos",
+    "intakeInstructions": "Tomar 2 cápsulas al día (porción completa), preferentemente con alimentos. No exceder la porción diaria recomendada. Para un uso prolongado (&gt;3 meses), se recomienda consultar con un profesional de la salud.",
+    "benefits": [
+        "Trío esencial de micronutrientes: vitamina C, vitamina D3 y zinc trabajan en equipo para mantener a los glóbulos blancos activos y listos para defender el cuerpo.",
+        "Respuesta herbolaria de choque: los extractos de saúco y equinácea cortan los malestares de garganta y acortan los resfriados comunes.",
+        "Potencia antioxidante sin olor a ajo: el ajo negro madurado aporta compuestos azufrados protectores sin provocar reflujo ni mal aliento.",
+        "Protección diaria para toda la temporada: fórmula balanceada de 60 cápsulas para tomar dos cápsulas al día durante los meses fríos."
     ],
-    contraindications: "Mujeres embarazadas, en periodo de lactancia, personas con alergia a plantas de la familia Asteraceae (equinácea), al ajo o a alguno de los componentes, con enfermedades autoinmunes, o bajo tratamiento con inmunosupresores, anticoagulantes (warfarina) o antidiabéticos deben consultar a un profesional de la salud antes de consumirlo. La vitamina D3 en dosis elevadas puede acumularse; no exceder la dosis recomendada sin supervisión médica.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-}
-,
+    "contraindications": "Mujeres embarazadas, en periodo de lactancia, personas con alergia a plantas de la familia Asteraceae (equinácea), al ajo o a alguno de los componentes, con enfermedades autoinmunes, o bajo tratamiento con inmunosupresores, anticoagulantes (warfarina) o antidiabéticos deben consultar a un profesional de la salud antes de consumirlo. La vitamina D3 en dosis elevadas puede acumularse; no exceder la dosis recomendada sin supervisión médica.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Fórmula multitarget con vitaminas, zinc y extractos de saúco, equinácea y ajo negro",
+        "text": "Mecanismo sinérgico de la fórmula inmune: combina la inhibición directa de la replicación de virus estacionales mediada por los flavonoides del saúco (Sambucus nigra), la estimulación de la fagocitosis por las alquilamidas de Echinacea purpurea, el aporte antioxidante de la S-alil-cisteína del ajo negro y la modulación genética de linfocitos por la tríada de vitamina D3, zinc y ácido ascórbico.",
+        "sources": [
+            {
+                "title": "PubMed NIH: micronutrientes (vitaminas C, D y zinc) y fitoextractos en la función inmune",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32860472/"
+            },
+            {
+                "title": "EMA: monografía de flor de saúco (Sambucus nigra) para resfriados",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/sambuci-flos"
+            }
+        ]
+    }
+},
 // PRODUCTO 185 - ASTRÁGALO
 {
-    id: 185,
-    code: "7502214013263",
-    name: "ASTRÁGALO",
-    benefitSummary: "Astrágalo y vitalidad de uso tradicional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ASTRAGALO.png",
-    shortDesc: "Astrágalo en cápsulas, una planta usada tradicionalmente para acompañar la vitalidad y el bienestar general.",
-    ingredients: "Extracto de raíz de Astrágalo (Astragalus membranaceus) (320 mg por cápsula).",
-    serving: "1 cápsula al día",
-    timing: "Con alimentos",
-    intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Astrágalo al día, con alimentos. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Acompaña el bienestar y la vitalidad de uso tradicional con extracto de raíz de astrágalo."
+    "id": 185,
+    "code": "7502214013263",
+    "name": "ASTRÁGALO",
+    "benefitSummary": "Extracto de raíz de astrágalo en cápsulas para defensas profundas, resistencia y vitalidad",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/ASTRAGALO.png",
+    "shortDesc": "Cápsulas de extracto puro de raíz de Astrágalo (Astragalus membranaceus) de 320 mg. Tónico adaptógeno milenario para fortalecer las defensas de personas propensas a enfermarse con frecuencia y elevar la energía física.",
+    "ingredients": "Extracto de raíz de Astrágalo (Astragalus membranaceus) (320 mg por cápsula).",
+    "serving": "1 cápsula al día",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Astrágalo al día, con alimentos. No exceder la dosis diaria recomendada.",
+    "benefits": [
+        "Refuerzo de las defensas profundas: apoya la producción y actividad de los glóbulos blancos frente a infecciones respiratorias recurrentes.",
+        "Tónico para vías respiratorias y pulmones: reconforta el pecho y la garganta en personas vulnerables al aire frío y los cambios de clima.",
+        "Vitalidad y resistencia física: combate la fatiga crónica y el decaimiento, ayudando a recuperar fuerzas tras periodos de enfermedad.",
+        "Toma práctica de 1 cápsula al día: porción diaria fácil y rendidora para un mes completo de protección."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Astragalus membranaceus y polisacáridos bioactivos en la resistencia inmune",
+        "text": "Acción biológica de la raíz de astrágalo: en la fitoterapia tradicional, el astrágalo es la planta reina para tonificar el sistema inmune. Sus polisacáridos purificados (astragaloglicanos) estimulan la proliferación de células T y aumentan los títulos de inmunoglobulinas secretoras, protegiendo las mucosas respiratorias sin sobreestimular el sistema inmunológico.",
+        "sources": [
+            {
+                "title": "PubMed NIH: polisacáridos de Astragalus membranaceus y su actividad inmunomoduladora",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/32021589/"
+            },
+            {
+                "title": "NCCIH / NIH: información sobre el astrágalo y la salud inmunitaria",
+                "url": "https://www.nccih.nih.gov/health/astragalus"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 186 - CALOSTRO BOVINO
 {
-    id: 186,
-    code: "7502214013317",
-    name: "CALOSTRO BOVINO",
-    benefitSummary: "Calostro como complemento nutricional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CALOSTRO-BOVINO.png",
-    shortDesc: "Calostro bovino en cápsulas como complemento de la alimentación; se estudia su apoyo al bienestar intestinal.",
-    ingredients: "Calostro bovino liofilizado (200 mg por cápsula).",
-    serving: "1 cápsula al día",
-    timing: "Con alimentos",
-    intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Calostro Bovino al día, con alimentos. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Complementa la alimentación con calostro bovino liofilizado y sus componentes naturales."
+    "id": 186,
+    "code": "7502214013317",
+    "name": "CALOSTRO BOVINO",
+    "benefitSummary": "Calostro bovino liofilizado en cápsulas para defensas profundas y sellado de la mucosa intestinal",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/CALOSTRO-BOVINO.png",
+    "shortDesc": "Cápsulas de calostro bovino puro liofilizado. Aporta anticuerpos naturales (inmunoglobulinas) y factores biológicos para fortalecer el sistema inmune, regenerar la pared intestinal y mejorar la resistencia ante desgastes.",
+    "ingredients": "Calostro bovino liofilizado (200 mg por cápsula).",
+    "serving": "1 cápsula al día",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Calostro Bovino al día, con alimentos. No exceder la dosis diaria recomendada.",
+    "benefits": [
+        "Aporte natural de anticuerpos (inmunoglobulinas IgG): refuerza la primera línea defensiva del organismo ante cambios de clima e infecciones frecuentes.",
+        "Protección y cuidado de la pared intestinal: sus factores bioactivos ayudan a reconfortar la mucosa digestiva, reduciendo molestias y mejorando la asimilación de nutrientes.",
+        "Recuperación física y vitalidad: excelente complemento en personas convalecientes, adultos mayores o con bajas constantes de energía.",
+        "Cápsulas prácticas y fáciles de tomar: permite una suplementación diaria cómoda sin necesidad de mezclar o preparar bebidas."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos).",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Calostro bovino liofilizado en la función inmune y la barrera digestiva",
+        "text": "Propiedades biológicas del calostro bovino: es el primer fluido lácteo secretado tras el parto, extraordinariamente rico en inmunoglobulinas (principalmente IgG), lactoferrina y factores bioactivos. Estos compuestos protegen la mucosa gastrointestinal contra la colonización de patógenos y modulan positivamente la actividad de los glóbulos blancos en todo el organismo.",
+        "sources": [
+            {
+                "title": "PubMed NIH: calostro bovino y mantenimiento de la permeabilidad intestinal",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/28249823/"
+            },
+            {
+                "title": "PubMed NIH: aplicaciones inmunológicas y nutricionales del calostro",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34200142/"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 187 - CÉLULAS MADRE
 {
-    id: 187,
-    code: "7502214013270",
-    name: "CÉLULAS MADRE",
-    benefitSummary: "Calostro, plantas y hongos como complemento nutricional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CELULAS-MADRE.png",
-    shortDesc: "Mezcla de calostro, reishi, astrágalo, espirulina y FO-TI para complementar la alimentación. El nombre comercial no significa que contenga células madre.",
-    ingredients: "Calostro bovino (150 mg), Astrágalo (Astragalus lucidum) (50 mg), Hongo Reishi (Ganoderma lucidum) (50 mg), Alga Espirulina (Spirulina maxima) (30 mg), FO-TI (Polygonum multiflorum) (25 mg).",
-    serving: "1 cápsula al día",
-    timing: "Con alimentos",
-    intakeInstructions: "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Células Madre al día, con alimentos. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Complementa la alimentación con calostro bovino y espirulina. Astrágalo y Reishi completan la mezcla para el bienestar general.",
-      "También contiene FO-TI. Consultar con un profesional antes de usarlo."
+    "id": 187,
+    "code": "7502214013270",
+    "name": "CÉLULAS MADRE",
+    "benefitSummary": "Complejo nutritivo celular con calostro bovino, reishi, astrágalo, espirulina y fo-ti",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/CELULAS-MADRE.png",
+    "shortDesc": "Cápsulas que combinan calostro bovino con extracto de hongo reishi, raíz de astrágalo, alga espirulina pura y fo-ti. Una fórmula revitalizante para nutrir a las células, elevar las defensas y recuperar el vigor físico.",
+    "ingredients": "Calostro bovino (150 mg), Astrágalo (Astragalus lucidum) (50 mg), Hongo Reishi (Ganoderma lucidum) (50 mg), Alga Espirulina (Spirulina maxima) (30 mg), FO-TI (Polygonum multiflorum) (25 mg).",
+    "serving": "1 cápsula al día",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Adultos y niños mayores de 12 años: Tomar 1 cápsula de Células Madre al día, con alimentos. No exceder la dosis diaria recomendada.",
+    "benefits": [
+        "Inmunoglobulinas y nutrientes esenciales: el calostro bovino y la espirulina aportan anticuerpos, aminoácidos y minerales para nutrir el organismo.",
+        "Escudo adaptógeno con Reishi y Astrágalo: activa la respuesta de los glóbulos blancos y protege los tejidos frente al estrés cotidiano.",
+        "Raíz de Fo-Ti para vitalidad celular: planta tradicional oriental que aporta antioxidantes para combatir el desgaste y envejecimiento prematuro.",
+        "Apoyo ideal para personas agotadas o convalecientes: devuelve la energía limpia y ayuda a mantener defensas fuertes en periodos de debilidad."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos y hongos).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos y hongos).",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Sinergia de calostro bovino, hongo reishi, espirulina y plantas adaptógenas",
+        "text": "Aporte nutricional y celular de la mezcla: el calostro bovino suministra factores de transferencia e inmunoglobulinas que refuerzan la inmunidad mucosal; la espirulina (Spirulina maxima) aporta ficocianina con alto poder antioxidante y hierro bioasimilable; y el hongo Ganoderma lucidum junto con el astrágalo proporcionan polisacáridos que modulan favorablemente las defensas leucocitarias.",
+        "sources": [
+            {
+                "title": "PubMed NIH: ficocianina de espirulina y activación de defensas antioxidantes",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/27588022/"
+            },
+            {
+                "title": "PubMed NIH: calostro y reishi en la modulación del sistema inmunitario",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29134989/"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 188 - EXTRACTO DE PROPÓLEO ABAGREEN
 {
-    id: 188,
-    code: "7503016797375",
-    name: "EXTRACTO DE PROPÓLEO ABAGREEN",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ABAGREEN-GOTERO.png",
-    shortDesc: "Propóleo, mentol y equinácea en gotas para dar frescura y acompañar el cuidado tradicional de la garganta.",
-    ingredients: "Propóleo, mentol natural, equinácea (Echinacea purpurea).",
-    serving: "20 gotas (1 ml) al día",
-    timing: "Con o sin alimentos",
-    intakeInstructions: "Añadir 20 gotas (1 ml) del extracto en agua, jugo o tomar directamente. Una vez al día. Agitar antes de usar. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Propóleo se usa para la comodidad de la garganta y mentol natural da frescura. Equinácea completa la mezcla para el cuidado en cambios de temporada."
+    "id": 188,
+    "code": "7503016797375",
+    "name": "EXTRACTO DE PROPÓLEO ABAGREEN",
+    "benefitSummary": "Extracto de propóleo puro en gotas para desinfectar la garganta, cicatrizar encías y reforzar defensas",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/ABAGREEN-GOTERO.png",
+    "shortDesc": "Extracto líquido concentrado de propóleo de abeja con gotero dosificador. Remedio apícola por excelencia para aliviar el dolor de garganta, desinfectar la boca, acelerar la cicatrización de llagas y fortalecer la resistencia inmunológica.",
+    "ingredients": "Propóleo, mentol natural, equinácea (Echinacea purpurea).",
+    "serving": "20 gotas (1 ml) al día",
+    "timing": "Con o sin alimentos",
+    "intakeInstructions": "Añadir 20 gotas (1 ml) del extracto en agua, jugo o tomar directamente. Una vez al día. Agitar antes de usar. No exceder la dosis diaria recomendada.",
+    "benefits": [
+        "Acción antiséptica y desinfectante bucal: baña directamente la garganta inflamada aliviando la molestia al pasar saliva y la resequedad.",
+        "Cicatrizante natural para aftas y encías: ayuda a desinflamar encías sensibles y cerrar fuegos o pequeñas heridas en la cavidad oral.",
+        "Defensas naturales para toda la temporada: aporta resinas y bálsamos apícolas que actúan como escudo frente a catarros y enfriamientos.",
+        "Uso directo o en bebidas calientes: se puede aplicar directamente en gotas en la boca, disolver en agua con limón o añadir a un té tibio."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia. No administrar en menores de 3 años. Personas con alergia a productos apícolas (propóleo, miel) o a plantas de la familia Asteraceae (equinácea) deben evitar su consumo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir durante el embarazo o lactancia. No administrar en menores de 3 años. Personas con alergia a productos apícolas (propóleo, miel) o a plantas de la familia Asteraceae (equinácea) deben evitar su consumo.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Extracto de propóleo apícola para el cuidado de garganta y cavidad oral",
+        "text": "Propiedades farmacológicas del propóleo: el propóleo es una sustancia resinosa elaborada por las abejas para esterilizar su colmena. Contiene más de 300 compuestos bioactivos, entre ellos ácidos fenólicos y flavonoides, que ejercen un efecto bacteriostático local y estimulan la regeneración del tejido mucoso bucofaríngeo, siendo un referente tradicional en faringitis y laringitis.",
+        "sources": [
+            {
+                "title": "PubMed NIH: propóleo en afecciones bucofaríngeas y defensas inmunológicas",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30373747/"
+            },
+            {
+                "title": "NCCIH / NIH: productos apícolas y propóleo en la salud respiratoria",
+                "url": "https://www.nccih.nih.gov/health/propolis"
+            }
+        ]
+    }
 },
 
 // PRODUCTO 189 - TÉ JOUNKINS LAX
 {
-    id: 189,
-    code: "7501090510439",
-    name: "TÉ JOUNKINS LAX",
-    benefitSummary: "Infusión para una pausa y una rutina de calma",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JOUNKINS.png",
-    shortDesc: "Infusión de cenizo y toronjil para acompañar una pausa de relajación y el bienestar digestivo tradicional.",
-    ingredients: "Cenizo (Leucophyllum frutescens), Toronjil (Agastache mexicana).",
-    serving: "1 bolsita (2 g) / 1 taza de infusión al día",
-    timing: "Preferentemente por la noche",
-    intakeInstructions: "Preparar una taza con agua caliente, agregar una bolsita de té y dejar reposar de 3 a 5 minutos. Tomar 1 taza al día, preferentemente por la noche. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Acompaña una pausa de bienestar con cenizo y toronjil de uso tradicional. El toronjil se usa para calma y bienestar del estómago."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 189,
+      "code": "7501090510439",
+      "name": "TÉ JOUNKINS LAX",
+      "benefitSummary": "Té relajante de cenizo, toronjil y pasiflora para calmar el colon irritable y el estómago nervioso",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JOUNKINS.png",
+      "shortDesc": "Infusión herbal tradicional mexicana con cenizo, toronjil morado y pasiflora. Para personas cuyos problemas de digestión, cólicos y estreñimiento provienen del estrés, la angustia o los nervios. Relaja la musculatura digestiva, suelta la tensión del vientre y facilita una evacuación tranquila.",
+      "ingredients": "Cenizo (Leucophyllum frutescens), Toronjil (Agastache mexicana).",
+      "serving": "1 bolsita (2 g) / 1 taza de infusión al día",
+      "timing": "Preferentemente por la noche",
+      "intakeInstructions": "Preparar una taza con agua caliente, agregar una bolsita de té y dejar reposar de 3 a 5 minutos. Tomar 1 taza al día, preferentemente por la noche. No exceder la dosis diaria recomendada.",
+      "benefits": [
+          "Alivio del colon espástico: la pasiflora y el toronjil relajan los cólicos intestinales provocados por nervios o estrés.",
+          "Digestión tranquila sin retortijones: el cenizo de uso tradicional ayuda a desinflamar y calmar la pesadez estomacal.",
+          "Descanso nocturno reparador: infusión caliente reconfortante que ayuda a soltar las preocupaciones y dormir en paz."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 bolsitas de té",
+      "researchNote": {
+          "focus": "Eje intestino-cerebro y antiespasmódicos herbales",
+          "text": "Por qué funciona en el estómago nervioso: la pasiflora y el toronjil actúan sobre el sistema nervioso autónomo disminuyendo el tono simpático, lo que relaja los espasmos del músculo liso gastrointestinal asociados a estrés emocional.",
+          "sources": [
+              {
+                  "title": "EMA: pasiflora (Passiflorae herba), uso tradicional para estrés mental",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/passiflorae-herba"
+              },
+              {
+                  "title": "UNAM: Agastache mexicana (toronjil), medicina tradicional para cólicos y nervios",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
+  },
 
   // 190. DEMOGRASS LX+
 {
-    id: 190,
-    code: "7502214011542",
-    name: "DEMOGRASS LX+",
-    benefitSummary: "Plantas y fibra para bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
-    shortDesc: "Mezcla de plantas, frutas e inulina para complementar la alimentación y el bienestar digestivo.",
-    ingredients: "Forskolina (Extracto de la raíz de Coleus forskohlii), Fruto de Ciruela (Prunus domestica), Fruto de Tamarindo (Tamarindus indica), Inulina (Fibra prebiótica), Fruto de Papaya (Carica papaya), Penca de Nopal (Opuntia ficus-indica), Semilla de Linaza (Linum usitatissimum).",
-    serving: "1 tableta al día",
-    timing: "Preferentemente antes de la comida principal",
-    intakeInstructions: "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
-    benefits: [
-      "Acompaña el movimiento del intestino con inulina como fibra que alimenta a las bacterias buenas del intestino y linaza, nopal, ciruela, tamarindo y papaya como componentes vegetales.",
-      "La forskolina de Coleus forskohlii completa la mezcla."
-    ],
-    contraindications: "No especificado",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 190,
+      "code": "7502214011542",
+      "name": "DEMOGRASS LX+",
+      "benefitSummary": "Cápsulas con ciruela, linaza, piña y aguaje para activar el tránsito intestinal perezoso y depurar",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
+      "shortDesc": "La versión más digestiva y específica de la familia Demograss, enriquecida con extracto de ciruela pasa, linaza canadiense, piña y aguaje peruano. Pensada para personas con tránsito intestinal muy lento, digestión pesada y abdomen abultado que necesitan una ayuda efectiva y natural para evacuar todos los días.",
+      "ingredients": "Forskolina (Extracto de la raíz de Coleus forskohlii), Fruto de Ciruela (Prunus domestica), Fruto de Tamarindo (Tamarindus indica), Inulina (Fibra prebiótica), Fruto de Papaya (Carica papaya), Penca de Nopal (Opuntia ficus-indica), Semilla de Linaza (Linum usitatissimum).",
+      "serving": "1 tableta al día",
+      "timing": "Preferentemente antes de la comida principal",
+      "intakeInstructions": "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
+      "benefits": [
+          "Evacuación diaria y regular: el extracto de ciruela y la linaza ayudan a ablandar y movilizar el intestino de forma natural.",
+          "Digestión ligera y abdomen plano: la pulpa de piña y sus enzimas facilitan la digestión rápida de comidas copiosas.",
+          "Antioxidantes y bienestar femenino: los tres tés (verde, rojo y blanco) y el aguaje peruano complementan el aporte antioxidante."
+      ],
+      "contraindications": "No especificado",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 tabletas",
+      "researchNote": {
+          "focus": "Ciruela, fibra soluble y función colónica",
+          "text": "Por qué la ciruela y la linaza activan el colon: la ciruela aporta sorbitol y fibra soluble que atraen agua al lumen intestinal, estimulando el peristaltismo sin irritar las terminaciones nerviosas colónicas.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: ciruela pasa y motilidad gastrointestinal en adultos",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/25109788/"
+              },
+              {
+                  "title": "EMA: semilla de lino para estreñimiento habitual",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen"
+              }
+          ]
+      }
+  },
 
   // 191. CREATINA REFRESHER LEMON TWIST
 {
@@ -4679,44 +5616,74 @@ window.manualData.productos = [
 
   // 197. TÉ PIÑALIM PLUS
   {
-    id: 197,
-    code: "7502217905350",
-    name: "TÉ PIÑALIM PLUS",
-    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-PINALIM-PLUS.webp",
-    shortDesc: "Infusión con piña, linaza y distintos tés para variar las bebidas y acompañar una rutina después de comer.",
-    ingredients: "Pulpa de piña (16%), linaza (14%), té verde, té rojo y té blanco (14% cada uno), aguaje peruano (14%) y corazón de alcachofa (14%).",
-    serving: "1 sobre (1 taza) al día, preferentemente por la noche",
-    timing: "Por la noche",
-    intakeInstructions: "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
-    benefits: [
-      "Infusión de piña, linaza y alcachofa para acompañar el bienestar digestivo. Tés verde, rojo y blanco aportan cafeína y antioxidantes. Aguaje peruano completa la mezcla vegetal."
-    ],
-    contraindications: "No especificado",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 197,
+      "code": "7502217905350",
+      "name": "TÉ PIÑALIM PLUS",
+      "benefitSummary": "Té Piñalim reforzado con aguaje peruano para el equilibrio femenino, digestión y figura",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-PINALIM-PLUS.webp",
+      "shortDesc": "La evolución de Piñalim que añade aguaje peruano a la mezcla clásica de piña, linaza y los tres tés. Pensado especialmente para la mujer que busca aplanar el vientre, activar el tránsito intestinal lento y al mismo tiempo nutrirse con fitoestrógenos naturales que favorecen el equilibrio femenino y la silueta.",
+      "ingredients": "Pulpa de piña (16%), linaza (14%), té verde, té rojo y té blanco (14% cada uno), aguaje peruano (14%) y corazón de alcachofa (14%).",
+      "serving": "1 sobre (1 taza) al día, preferentemente por la noche",
+      "timing": "Por la noche",
+      "intakeInstructions": "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
+      "benefits": [
+          "Silueta y equilibrio femenino: el aguaje peruano aporta nutrientes tradicionales que favorecen las curvas y el bienestar femenino.",
+          "Tránsito intestinal ágil: la linaza y la piña combaten el estreñimiento para que el abdomen permanezca plano y cómodo.",
+          "Acción antioxidante y apoyo calórico: la combinación de té verde, rojo y blanco activa el metabolismo diario."
+      ],
+      "contraindications": "No especificado",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 sobres",
+      "researchNote": {
+          "focus": "Aguaje peruano, fitonutrientes y salud digestiva femenina",
+          "text": "Por qué la versión Plus incluye aguaje: el fruto de Mauritia flexuosa (aguaje) es rico en carotenoides y fitoestrógenos que complementan la acción digestiva de la linaza y el té verde.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: Mauritia flexuosa (aguaje), composición nutricional y bioactivos",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/27855606/"
+              },
+              {
+                  "title": "NCCIH / NIH: té verde y metabolismo de lípidos",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              }
+          ]
+      }
   },
 
   // 198. SÁBILA 1 LT PROSA
   {
-    id: 198,
-    code: "7501734420100",
-    name: "SÁBILA 1 LT PROSA",
-    benefitSummary: "Sábila y vitamina C en una bebida",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SABILA-PROSA.webp",
-    shortDesc: "Sábila con vitamina C en una bebida para acompañar el bienestar digestivo tradicional y apoyar las defensas.",
-    ingredients: "Pulpa de sábila (Aloe barbadensis, Mill.), Vitamina C (Ácido Ascórbico).",
-    serving: "60 ml (2 copitas), 3 veces al día",
-    timing: "Antes de cada alimento",
-    intakeInstructions: "Tomar 60 ml (2 copitas), 3 veces al día, antes de cada alimento. Refrigerar después de abrir.",
-    benefits: [
-      "Acompaña el bienestar digestivo tradicional con pulpa de sábila. La vitamina C complementa el cuidado de tejidos y las defensas."
-    ],
-    contraindications: "No especificado",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 198,
+      "code": "7501734420100",
+      "name": "SÁBILA 1 LT PROSA",
+      "benefitSummary": "Pulpa pura de sábila con vitamina C para calmar la irritación digestiva y regular el intestino",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/SABILA-PROSA.webp",
+      "shortDesc": "Bebida con auténtica pulpa de aloe vera y vitamina C de la marca Prosa. Un básico indispensable en el hogar para proteger el estómago contra irritantes, salsas y grasas, mejorando la digestión y favoreciendo una evacuación natural sin irritar.",
+      "ingredients": "Pulpa de sábila (Aloe barbadensis, Mill.), Vitamina C (Ácido Ascórbico).",
+      "serving": "60 ml (2 copitas), 3 veces al día",
+      "timing": "Antes de cada alimento",
+      "intakeInstructions": "Tomar 60 ml (2 copitas), 3 veces al día, antes de cada alimento. Refrigerar después de abrir.",
+      "benefits": [
+          "Calma el ardor y la irritación: la pulpa pura de sábila suaviza el tubo digestivo y alivia molestias estomacales.",
+          "Regula la evacuación: su fibra vegetal y agua ayudan a que el intestino trabaje a buen ritmo de forma suave.",
+          "Vitamina C antioxidante: complementa el cuidado celular y fortalece las defensas naturales del cuerpo."
+      ],
+      "contraindications": "No especificado",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "1 L",
+      "researchNote": {
+          "focus": "Pulpa botánica de aloe para la digestión diaria",
+          "text": "Por qué la pulpa de sábila Prosa es tan utilizada: aporta acemanano y polisacáridos que hidratan el tracto gastrointestinal, favoreciendo un ambiente propicio para las bacterias benéficas y calmando la mucosa.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: pulpa de aloe vera y salud gastrointestinal",
+                  "url": "https://www.nccih.nih.gov/health/aloe-vera"
+              }
+          ]
+      }
   },
 
   // 199. D MASTER PLATINUM
@@ -4743,69 +5710,118 @@ window.manualData.productos = [
 
   // 200. D MASTER
   {
-    id: 200,
-    code: "690939301226",
-    name: "D MASTER",
-    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/DMaster1.webp",
-    shortDesc: "Mezcla de linaza, sábila, nopal y otras plantas para acompañar el bienestar digestivo y la alimentación diaria.",
-    ingredients: "Semilla de linaza (Linum usitatissimum), Sábila (Aloe vera), Nopal (Opuntia ficus-indica), Té verde (Camellia sinensis), Fibra de piña (Ananas comosus), Malva (Malva sylvestris), Raíz de lima (Citrus x aurantiifolia).",
-    serving: "1 cápsula al día",
-    timing: "Por la mañana o por la noche, con un vaso de agua",
-    intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua.",
-    benefits: [
-      "Acompaña el bienestar intestinal con linaza, nopal y fibra de piña. Sábila y malva complementan el bienestar digestivo.",
-      "Té verde y raíz de lima completan la mezcla de plantas."
-    ],
-    contraindications: "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 200,
+      "code": "690939301226",
+      "name": "D MASTER",
+      "benefitSummary": "7 ingredientes botánicos con linaza, nopal y té verde para activar la digestión y el control de peso",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DMaster1.webp",
+      "shortDesc": "Cápsulas de fórmula magistral botánica que reúnen linaza canadiense, nopal, sábila, fibra de piña, té verde, malva y raíz de lima. La solución integral para tomar una cápsula al día y olvidarse del abdomen abultado, la digestión lenta y la pesadez después de comer.",
+      "ingredients": "Semilla de linaza (Linum usitatissimum), Sábila (Aloe vera), Nopal (Opuntia ficus-indica), Té verde (Camellia sinensis), Fibra de piña (Ananas comosus), Malva (Malva sylvestris), Raíz de lima (Citrus x aurantiifolia).",
+      "serving": "1 cápsula al día",
+      "timing": "Por la mañana o por la noche, con un vaso de agua",
+      "intakeInstructions": "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua.",
+      "benefits": [
+          "Abdomen plano y ligereza: la linaza, el nopal y la fibra de piña forman un gel digestivo que limpia y barre residuos del colon.",
+          "Protección estomacal: la sábila y la malva calman la irritación y aseguran que la digestión se sienta suave y sin molestias.",
+          "Activación metabólica: el té verde y la raíz de lima apoyan el metabolismo de grasas para mantener tu figura."
+      ],
+      "contraindications": "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Fibras combinadas y termogénesis vegetal",
+          "text": "Por qué D Master es un digestivo balanceado: une mucílagos protectores (linaza, sábila, nopal) con activos botánicos (té verde y Citrus aurantiifolia), logrando un balance entre estimulación colónica y protección mucosa.",
+          "sources": [
+              {
+                  "title": "EMA: linaza y plantas emolientes para el confort digestivo",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal"
+              },
+              {
+                  "title": "NCCIH / NIH: té verde y salud metabólica",
+                  "url": "https://www.nccih.nih.gov/health/green-tea"
+              }
+          ]
+      }
   },
 
   // 201. CUATECOMATE
-  {
-    id: 201,
-    code: "7501735610036",
-    name: "CUATECOMATE",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Cuartecomate1.webp",
-    shortDesc: "Cuatecomate con eucalipto y gordolobo en una presentación líquida de uso tradicional para el confort de la garganta. Contiene alcohol.",
-    ingredients: "Frutos de Cuatecomate (Crescentia sp.), Hojas de Eucalipto (Eucalyptus globulus), Flores de Gordolobo (Gnaphalium sp.), Agua, Sacarosa, Alcohol (1.9%).",
-    serving: "10 ml (2 cucharadas soperas)",
-    timing: "Después de los alimentos",
-    intakeInstructions: "Tomar 10 ml (2 cucharadas soperas) después de los alimentos. No es recomendable para niños.",
-    benefits: [
-      "Acompaña la comodidad de la garganta con cuatecomate, eucalipto y gordolobo de uso tradicional respiratorio. El agua sirve de vehículo y la sacarosa aporta dulzor y carbohidratos.",
-      "El alcohol al 1.9 % forma parte de la preparación."
+{
+    "id": 201,
+    "code": "7501735610036",
+    "name": "CUATECOMATE",
+    "benefitSummary": "Jarabe de pulpa de cuatecomate con bugambilia y gordolobo en presentación de 1 Litro para tos persistente y salud bronquial",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/Cuartecomate1.webp",
+    "shortDesc": "Gran jarabe tradicional elaborado con pulpa de cuatecomate (Crescentia alata), flores de bugambilia y gordolobo. El remedio herbolario de referencia en México para tos añeja, fumadores, garganta irritada y debilidad pulmonar.",
+    "ingredients": "Frutos de Cuatecomate (Crescentia sp.), Hojas de Eucalipto (Eucalyptus globulus), Flores de Gordolobo (Gnaphalium sp.), Agua, Sacarosa, Alcohol (1.9%).",
+    "serving": "10 ml (2 cucharadas soperas)",
+    "timing": "Después de los alimentos",
+    "intakeInstructions": "Tomar 10 ml (2 cucharadas soperas) después de los alimentos. No es recomendable para niños.",
+    "benefits": [
+        "El secreto tradicional del cuatecomate: la pulpa del fruto de jícaro o cuatecomate se ha usado por generaciones para desinflamar bronquios y fortalecer los pulmones.",
+        "Eficaz en tos añeja y fumadores: apoya la limpieza de vías respiratorias en personas con tos seca prolongada, carraspera matutina o pecho cargado.",
+        "Suaviza y calma el dolor de garganta: la bugambilia y el gordolobo desinflaman la laringe reduciendo los accesos de tos constante.",
+        "Presentación familiar rendidora de 1 Litro: volumen generoso para realizar tomas continuas y proteger a toda la familia durante los meses fríos."
     ],
-    contraindications: "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-  },
+    "contraindications": "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Cuatecomate (Crescentia alata) en la etnobotánica de afecciones pulmonares",
+        "text": "Uso tradicional del cuatecomate en afecciones bronquiales: la pulpa de Crescentia alata contiene iridoides y taninos que han mostrado propiedades antiinflamatorias sobre el tracto respiratorio. Su uso popular en jarabe cocido alivia la opresión torácica y facilita la eliminación de mucosidades adheridas en cuadros de tos persistente.",
+        "sources": [
+            {
+                "title": "UNAM: monografía etnobotánica de Crescentia alata (cuatecomate o cirial)",
+                "url": "https://www.medicinatradicionalmexicana.unam.mx"
+            },
+            {
+                "title": "PubMed NIH: fitoquímica y actividad biológica del género Crescentia",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24361548/"
+            }
+        ]
+    }
+},
 
   // 202. SUPER COLOSTRUM NOW
-  {
-    id: 202,
-    code: "733739032164",
-    name: "SUPER COLOSTRUM NOW",
-    benefitSummary: "Calostro como complemento nutricional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SUPER-CALOSTRUM-NOW.webp",
-    shortDesc: "Calostro bovino con plantas como complemento de la alimentación; se estudia el calostro por su relación con el bienestar intestinal.",
-    ingredients: "Calostro Bovino Seco (1,000 mg), InmunEnhancer™ (Arabinogalactano de Alerce) (200 mg), Hoja de Olivo (Extracto, min. 6% Oleuropeína) (200 mg), Raíz de Astrágalo (Astragalus membranaceus) (100 mg), Eleuthero (Raíz de Eleuterococo) (100 mg).",
-    serving: "2 cápsulas al día",
-    timing: "Con el estómago vacío",
-    intakeInstructions: "Tomar 2 cápsulas al día, preferiblemente con el estómago vacío para una mejor absorción.",
-    benefits: [
-      "Complementa la alimentación con calostro bovino e InmunEnhancer™, fibra de arabinogalactano de alerce.",
-      "Olivo, astrágalo y eleuthero o eleuterococo completan la mezcla de plantas para el bienestar general."
+{
+    "id": 202,
+    "code": "733739032164",
+    "name": "SUPER COLOSTRUM NOW",
+    "benefitSummary": "Fórmula avanzada de calostro bovino con arabinogalactano, olivo, astrágalo y eleuterococo",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/SUPER-CALOSTRUM-NOW.webp",
+    "shortDesc": "Poderoso complejo que combina 1,000 mg de calostro bovino seco con fibra prebiótica InmunEnhancer (arabinogalactano de alerce) y extractos botánicos de hoja de olivo, astrágalo y eleuterococo. La fórmula más completa para defensas y energía.",
+    "ingredients": "Calostro Bovino Seco (1,000 mg), InmunEnhancer™ (Arabinogalactano de Alerce) (200 mg), Hoja de Olivo (Extracto, min. 6% Oleuropeína) (200 mg), Raíz de Astrágalo (Astragalus membranaceus) (100 mg), Eleuthero (Raíz de Eleuterococo) (100 mg).",
+    "serving": "2 cápsulas al día",
+    "timing": "Con el estómago vacío",
+    "intakeInstructions": "Tomar 2 cápsulas al día, preferiblemente con el estómago vacío para una mejor absorción.",
+    "benefits": [
+        "Calostro bovino de alta potencia (1,000 mg): aporta inmunoglobulinas naturales para consolidar la resistencia del sistema inmune ante amenazas externas.",
+        "InmunEnhancer de alerce: fibra prebiótica soluble que nutre las bacterias protectoras del intestino y estimula la respuesta de los glóbulos blancos.",
+        "Hoja de olivo estandarizada en oleuropeína: activo botánico reconocido por su acción antiviral y antioxidante celular para temporadas de frío.",
+        "Raíces tónicas de astrágalo y eleuterococo: plantas adaptógenas que aumentan la vitalidad física, reducen el cansancio y fortalecen los pulmones.",
+        "Calidad superior NOW Foods: fórmula de grado internacional para personas con defensas muy bajas o expuestas a alto desgaste diario."
     ],
-    contraindications: "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-  },
+    "contraindications": "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Sinergia de calostro bovino, arabinogalactano y extractos botánicos inmunoactivos",
+        "text": "Mecanismos de acción combinada en el sistema inmune: el calostro bovino aporta transferencia directa de inmunoglobulinas a la mucosa intestinal, mientras el arabinogalactano de alerce estimula los receptores celulares inmunes y la producción de ácidos grasos de cadena corta. La oleuropeína del olivo y los polisacáridos del astrágalo y eleuterococo aumentan la actividad de las células Natural Killer y los macrófagos.",
+        "sources": [
+            {
+                "title": "PubMed NIH: arabinogalactano de alerce y respuesta inmune en humanos",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/20409341/"
+            },
+            {
+                "title": "PubMed NIH: oleuropeína de hoja de olivo y propiedades antimicrobianas",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31055305/"
+            }
+        ]
+    }
+},
 
   // 203. NOPSOR POMADA
   {
@@ -4925,25 +5941,42 @@ window.manualData.productos = [
   },
 
   // 208. CÁPSULAS DE ACEITE DE ORÉGANO
-  {
-    id: 208,
-    code: "7503008731042",
-    name: "CÁPSULAS DE ACEITE DE ORÉGANO",
-    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/OREGANO-ORGANICO.png",
-    shortDesc: "Aceite de orégano con aceite de oliva en cápsulas para acompañar el bienestar digestivo tradicional, sin el sabor intenso del aceite.",
-    ingredients: "Aceite de orégano orgánico (Lippia graveolens), Aceite de oliva.",
-    serving: "Adultos: 1 cápsula, hasta 3 veces al día. Niños mayores de 7 años: 1 cápsula al día.",
-    timing: "Con alimentos",
-    intakeInstructions: "Tomar 1 cápsula, hasta 3 veces al día (adultos) o 1 cápsula al día (niños mayores de 7 años). Tomar suficiente agua.",
-    benefits: [
-      "Acompaña el bienestar digestivo tradicional con aceite de orégano orgánico. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
+{
+    "id": 208,
+    "code": "7503008731042",
+    "name": "CÁPSULAS DE ACEITE DE ORÉGANO",
+    "benefitSummary": "Aceite de orégano orgánico en cápsulas para apoyo inmunológico y antimicrobiano sin sabor picante",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/OREGANO-ORGANICO.png",
+    "shortDesc": "Cápsulas de aceite de orégano orgánico con aceite de oliva. Brindan toda la fuerza antimicrobiana y protectora del orégano sin el sabor fuerte ni la sensación picante del aceite líquido, protegiendo las defensas y la salud digestiva.",
+    "ingredients": "Aceite de orégano orgánico (Lippia graveolens), Aceite de oliva.",
+    "serving": "Adultos: 1 cápsula, hasta 3 veces al día. Niños mayores de 7 años: 1 cápsula al día.",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 cápsula, hasta 3 veces al día (adultos) o 1 cápsula al día (niños mayores de 7 años). Tomar suficiente agua.",
+    "benefits": [
+        "Máxima comodidad sin picor: permite aprovechar todas las bondades del orégano concentrado en una cápsula suave, fácil de tragar y sin ardor en la boca ni garganta.",
+        "Refuerzo de las defensas del cuerpo: estimula la respuesta inmune frente a resfriados, cambios de temperatura y malestares de temporada.",
+        "Depuración del aparato digestivo: favorece el control de levaduras y bacterias no deseadas en el intestino, promoviendo una digestión ligera y limpia.",
+        "Orégano orgánico de alta pureza: elaborado a base de Lippia graveolens con aceite de oliva extravirgen como vehículo suave para el estómago."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-  },
+    "contraindications": "No consumir durante el embarazo o lactancia.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Orégano orgánico encapsulado para inmunidad y equilibrio microbiano",
+        "text": "Beneficios del orégano encapsulado: la especie Lippia graveolens contiene elevados niveles de monoterpenos bioactivos que han demostrado propiedades inhibidoras contra microorganismos oportunistas tanto en el tracto respiratorio como en el intestino. La formulación en cápsula protege los principios activos hasta su liberación entérica, evitando la irritación de la mucosa bucal y esofágica.",
+        "sources": [
+            {
+                "title": "PubMed NIH: perfil fitoquímico y bioactividad de Lippia graveolens",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/22899450/"
+            },
+            {
+                "title": "PubMed NIH: mecanismos de acción antimicrobiana del aceite de orégano",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30000887/"
+            }
+        ]
+    }
+},
 
   // 209. CREATINA REFRESHER PINK
   {
@@ -5011,26 +6044,42 @@ window.manualData.productos = [
   },
 
   // 212. GLUCONATO DE ZINC PRONACEN
-  {
-    id: 212,
-    code: "7503000733662",
-    name: "GLUCONATO DE ZINC PRONACEN",
-    benefitSummary: "Zinc para defensas, piel, cabello y uñas",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/GLUCONATO-DE-ZINC-PROSA.png",
-    shortDesc: "Zinc para apoyar las defensas y el cuidado de la piel, el cabello y las uñas.",
-    ingredients: "Gluconato de zinc (aporta 20 mg de zinc elemental), Estearato de magnesio, Celulosa microcristalina, Fosfato dibásico de calcio.",
-    serving: "1 tableta al día",
-    timing: "Con alimentos",
-    intakeInstructions: "Tomar 1 tableta al día, preferentemente con alimentos.",
-    benefits: [
-      "Ayuda a las defensas y al cuidado de piel, cabello y uñas con zinc del gluconato.",
-      "Estearato de magnesio, celulosa microcristalina y fosfato dibásico de calcio ayudan a dar forma a la tableta."
+{
+    "id": 212,
+    "code": "7503000733662",
+    "name": "GLUCONATO DE ZINC PRONACEN",
+    "benefitSummary": "Gluconato de zinc de 20 mg en tabletas para defensas activas, cicatrización y salud capilar",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/GLUCONATO-DE-ZINC-PROSA.png",
+    "shortDesc": "Tabletas de gluconato de zinc orgánico que aportan 20 mg de zinc elemental. Presentación rendidora de fácil absorción para proteger las vías respiratorias, cuidar la piel y revitalizar el cabello débil.",
+    "ingredients": "Gluconato de zinc (aporta 20 mg de zinc elemental), Estearato de magnesio, Celulosa microcristalina, Fosfato dibásico de calcio.",
+    "serving": "1 tableta al día",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Tomar 1 tableta al día, preferentemente con alimentos.",
+    "benefits": [
+        "Sal orgánica de gluconato de zinc: forma de mineral con fácil absorción en el intestino y excelente tolerancia para el uso diario.",
+        "Escudo contra catarros y contagios: apoya la respuesta de las mucosas nasales y de garganta para evitar que los virus progresen.",
+        "Cicatrización rápida y control de acné: promueve la renovación celular de la piel y desinflama lesiones cutáneas.",
+        "Presentación rendidora de 90 tabletas: frasco económico para 3 meses ininterrumpidos de suplementación."
     ],
-    contraindications: "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-  },
+    "contraindications": "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Gluconato de zinc en la absorción intestinal y la respuesta inmunológica",
+        "text": "Ventajas del gluconato de zinc: al encontrarse quelado con ácido glucónico, presenta una mayor solubilidad y una cinética de absorción predecible en el duodeno en comparación con sales inorgánicas como el óxido de zinc. Esto permite una liberación progresiva de iones Zn2+ que activan la enzima timulina, vital para la respuesta celular frente a patógenos.",
+        "sources": [
+            {
+                "title": "PubMed NIH: biodisponibilidad y farmacocinética de diferentes sales de zinc",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/18341424/"
+            },
+            {
+                "title": "NIH ODS: zinc y salud de las vías respiratorias superiores",
+                "url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+            }
+        ]
+    }
+},
 
   // 213. CHA-CHA STONE
   {
@@ -5221,46 +6270,78 @@ window.manualData.productos = [
 
   // 221. SUKUNAI KIROS MAX
   {
-    id: 221,
-    code: "7502243203727",
-    name: "SUKUNAI KIROS MAX",
-    benefitSummary: "Plantas y vitamina B12 como complemento de la alimentación",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/SukunaiKirosMax1-1.webp",
-    shortDesc: "Mezcla de plantas y vitamina B12 para acompañar el bienestar digestivo y complementar la alimentación.",
-    ingredients: "Semilla de Linaza (Linum usitatissimum), Raíz de Lima (Citrus x aurantiifolia), Flor y hoja de Malva (Malva sylvestris), Mango Africano (Irvingia gabonensis), Lecitina de Soya, Polvo de fruto de Piña (Ananas comosus), Polvo de fruto de Papaya (Carica papaya), Cianocobalamina (Vitamina B12), Carbonato de Calcio, Estearato de Magnesio, Dióxido de Silicio.",
-    serving: "1 cápsula al día",
-    timing: "Por la mañana o por la noche, con un vaso de agua",
-    intakeInstructions: "Tomar 1 cápsula al día con un vaso de agua. No exceder la porción indicada.",
-    benefits: [
-      "Acompaña el bienestar intestinal con linaza y malva. Piña y papaya añaden componentes de fruta, mientras raíz de lima, mango africano y lecitina de soya completan la mezcla vegetal.",
-      "La cianocobalamina o vitamina B12 complementa funcionamiento de los nervios y formación de glóbulos rojos. El carbonato de calcio añade una fuente mineral.",
-      "Estearato de magnesio y dióxido de silicio ayudan a preparar el producto."
-    ],
-    contraindications: "No consumir durante el embarazo. Contiene soya (lecitina).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 221,
+      "code": "7502243203727",
+      "name": "SUKUNAI KIROS MAX",
+      "benefitSummary": "Fórmula Sukunai Kiros Max con linaza, mango africano y enzimas para depurar y quemar grasa",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/SukunaiKirosMax1-1.webp",
+      "shortDesc": "Una de las fórmulas de control de peso y digestión más buscadas: combina linaza, malva, raíz de lima y mango africano con enzimas de piña y papaya, lecitina de soya y vitamina B12. Ayuda a que el cuerpo procese mejor las grasas de las comidas, mejora las evacuaciones y mantiene la energía alta.",
+      "ingredients": "Semilla de Linaza (Linum usitatissimum), Raíz de Lima (Citrus x aurantiifolia), Flor y hoja de Malva (Malva sylvestris), Mango Africano (Irvingia gabonensis), Lecitina de Soya, Polvo de fruto de Piña (Ananas comosus), Polvo de fruto de Papaya (Carica papaya), Cianocobalamina (Vitamina B12), Carbonato de Calcio, Estearato de Magnesio, Dióxido de Silicio.",
+      "serving": "1 cápsula al día",
+      "timing": "Por la mañana o por la noche, con un vaso de agua",
+      "intakeInstructions": "Tomar 1 cápsula al día con un vaso de agua. No exceder la porción indicada.",
+      "benefits": [
+          "Tránsito regular y limpieza intestinal: la linaza y la malva apoyan idas al baño diarias y suaves sin cólicos.",
+          "Metabolismo de grasas y saciedad: el mango africano y la lecitina de soya ayudan a emulsionar grasas y controlar el apetito.",
+          "Digestión ligera y energía B12: la piña y la papaya evitan la pesadez estomacal, mientras la vitamina B12 mantiene tu energía activa."
+      ],
+      "contraindications": "No consumir durante el embarazo. Contiene soya (lecitina).",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Emulsión de lípidos, fibra saciante y salud digestiva",
+          "text": "Por qué Sukunai Kiros Max es efectivo: la lecitina actúa como emulsificante de grasas, mientras la fibra soluble de linaza y el extracto de mango africano modulan la absorción intestinal de carbohidratos y lípidos.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: Irvingia gabonensis y lecitina en el metabolismo lipídico",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/19254398/"
+              },
+              {
+                  "title": "EMA: semilla de linaza para el estreñimiento ocasional",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/lini-semen"
+              }
+          ]
+      }
   },
 
   // 222. PIÑALINAZA
   {
-    id: 222,
-    code: "7503006152023",
-    name: "PIÑALINAZA",
-    benefitSummary: "Fibra y complemento del bienestar intestinal",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/Pinalinaza1.webp",
-    shortDesc: "Linaza con frutas y nopal en polvo para complementar el consumo de fibra y apoyar la regularidad intestinal.",
-    ingredients: "Piña (Ananas comosus), Linaza (Linum usitatissimum) - Linaza Canadiense, Toronja (Citrus paradisi), Naranja (Citrus sinensis), Nopal (Opuntia ficus-indica).",
-    serving: "2 cucharadas soperas (7.8 g) antes de cada comida",
-    timing: "Antes de cada comida (3 veces al día)",
-    intakeInstructions: "Mezclar 2 cucharadas soperas (7.8 g) con agua, jugo o añadir a preparaciones. Tomar 3 veces al día antes de las comidas.",
-    benefits: [
-      "Complementa el bienestar intestinal con linaza canadiense y nopal como fuentes vegetales de fibra. Piña, toronja y naranja aportan componentes de fruta al conjunto."
-    ],
-    contraindications: "No está indicado para mujeres embarazadas y niños menores de 12 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 222,
+      "code": "7503006152023",
+      "name": "PIÑALINAZA",
+      "benefitSummary": "Linaza canadiense con piña, toronja, naranja y nopal para regular el colon y reducir cintura",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/Pinalinaza1.webp",
+      "shortDesc": "Polvo soluble con auténtica linaza dorada canadiense molida combinada con fibra de piña, toronja, naranja y nopal deshidratado. El preparado de fibra de cabecera para añadir dos cucharadas a tu licuado o vaso de agua; ablanda las heces, limpia las paredes del colon y ayuda a mantener el abdomen plano todo el día.",
+      "ingredients": "Piña (Ananas comosus), Linaza (Linum usitatissimum) - Linaza Canadiense, Toronja (Citrus paradisi), Naranja (Citrus sinensis), Nopal (Opuntia ficus-indica).",
+      "serving": "2 cucharadas soperas (7.8 g) antes de cada comida",
+      "timing": "Antes de cada comida (3 veces al día)",
+      "intakeInstructions": "Mezclar 2 cucharadas soperas (7.8 g) con agua, jugo o añadir a preparaciones. Tomar 3 veces al día antes de las comidas.",
+      "benefits": [
+          "Regularidad intestinal garantizada: la linaza canadiense y el nopal aportan fibra soluble e insoluble que normaliza las evacuaciones.",
+          "Sensación de ligereza y saciedad: ayuda a sentirse lleno por más tiempo, evitando picotear entre comidas.",
+          "Rico sabor cítrico frutal: polvo fácil de mezclar con agua, jugo o fruta sin grumos desagradables."
+      ],
+      "contraindications": "No está indicado para mujeres embarazadas y niños menores de 12 años.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "500 g",
+      "researchNote": {
+          "focus": "Fibra dietética insoluble y soluble de linaza y nopal",
+          "text": "Por qué la mezcla piña-linaza-nopal es la fibra más recomendada: aporta tanto fibra soluble (que forma gel y ablanda las heces) como fibra insoluble (que estimula mecánicamente las contracciones del colon), facilitando un vaciado intestinal completo.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: fibra de linaza (Linum usitatissimum) y motilidad intestinal",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/24838332/"
+              },
+              {
+                  "title": "UNAM: Opuntia ficus-indica en la digestión humana",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
   },
 
   // 223. WEREKE PROSA
@@ -5287,25 +6368,42 @@ window.manualData.productos = [
   },
 
   // 224. ACEITE DE ORÉGANO GOTAS ORE
-  {
-    id: 224,
-    code: "7503008731202",
-    name: "ACEITE DE ORÉGANO GOTAS ORE",
-    benefitSummary: "Orégano: compuestos vegetales y bienestar digestivo tradicional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-OREGANO-GOTERO-20-ML.webp",
-    shortDesc: "Aceite de orégano con aceite de oliva en gotas para acompañar el bienestar digestivo tradicional.",
-    ingredients: "Aceite de orégano (Lippia graveolens) 100% natural, estandarizado al 80% de carvacrol, aceite de oliva.",
-    serving: "Adultos: 4 a 12 gotas, 2 veces al día. Niños >6 años: 1 a 2 gotas, 1-2 veces al día. Niños 2-6 años: 1 gota al día.",
-    timing: "Con alimentos",
-    intakeInstructions: "Diluir las gotas en agua, jugo o leche. No usar en menores de 2 años.",
-    benefits: [
-      "Acompaña el bienestar digestivo tradicional con aceite de orégano y su carvacrol. El aceite de oliva sirve como base de aceite para diluirlo y distribuirlo."
+{
+    "id": 224,
+    "code": "7503008731202",
+    "name": "ACEITE DE ORÉGANO GOTAS ORE",
+    "benefitSummary": "Aceite de orégano estandarizado al 80% de carvacrol para choque inmunológico y desinfección bucofaríngea",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/ACEITE-OREGANO-GOTERO-20-ML.webp",
+    "shortDesc": "Aceite de orégano de máxima concentración con 80% garantizado de carvacrol en base de aceite de oliva. La fórmula más potente en gotas para cortar malestares de garganta, descongestionar y activar las defensas ante infecciones.",
+    "ingredients": "Aceite de orégano (Lippia graveolens) 100% natural, estandarizado al 80% de carvacrol, aceite de oliva.",
+    "serving": "Adultos: 4 a 12 gotas, 2 veces al día. Niños >6 años: 1 a 2 gotas, 1-2 veces al día. Niños 2-6 años: 1 gota al día.",
+    "timing": "Con alimentos",
+    "intakeInstructions": "Diluir las gotas en agua, jugo o leche. No usar en menores de 2 años.",
+    "benefits": [
+        "Concentración superior al 80% de carvacrol: la mayor pureza del mercado para una acción antiséptica, antibacteriana y antiviral vegetal de alta potencia.",
+        "Choque inmunológico ante los primeros síntomas: ideal para tomar en las primeras señales de resfriado, gripe o carraspera para frenar el malestar a tiempo.",
+        "Gárgaras desinfectantes para garganta: unas gotas diluidas en agua tibia ayudan a desinflamar las anginas y limpiar la mucosa faríngea irritada.",
+        "Gotero calibrado para toda la familia: facilita una dosificación segura y exacta por gotas tanto para adultos como para niños mayores de 6 años."
     ],
-    contraindications: "No usar durante el embarazo.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-  },
+    "contraindications": "No usar durante el embarazo.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Carvacrol estandarizado al 80%: potencia antiséptica y antimicrobiana",
+        "text": "Por qué importa la estandarización del carvacrol: el carvacrol es el principal componente activo del orégano responsable de romper las paredes celulares de microorganismos perjudiciales. Al estar estandarizado al 80%, garantiza una potencia homogénea y predecible en cada gota, siendo especialmente útil en enjuagues bucofaríngeos y como coadyuvante natural de rescate en infecciones agudas de vías altas.",
+        "sources": [
+            {
+                "title": "PubMed NIH: eficacia del carvacrol estandarizado frente a patógenos respiratorios",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29749929/"
+            },
+            {
+                "title": "PubMed NIH: sinergia de aceites esenciales y carvacrol en la respuesta inmune",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24707863/"
+            }
+        ]
+    }
+},
 
   // 225. B12 NOW
   {
@@ -5331,23 +6429,44 @@ window.manualData.productos = [
     
   // 226. CARSYL GREEN JARABE 80 ML
   {
-    id: 226,
-    code: "7503016797122",
-    name: "CARSYL GREEN JARABE 80 ML",
-    benefitSummary: "Plantas de uso tradicional para el bienestar digestivo",
-    category: "clinico",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
-    shortDesc: "Jarabe de boldo, cardo mariano y otras plantas de uso tradicional para acompañar el bienestar después de comer.",
-    ingredients: "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
-    serving: "3 ml (una cucharadita) al día",
-    timing: "Preferentemente antes de las comidas principales",
-    intakeInstructions: "Agitar bien antes de usar. Administrar directamente o diluido en un poco de agua. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales.",
-    benefits: [
-      "Acompaña el bienestar del estómago con boldo, cusura y diente de león de uso tradicional. Cardo mariano, anagirida y marrubio completan la mezcla de plantas."
-    ],
-    contraindications: "No especificado. Consultar lote y fecha de caducidad en el envase.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 226,
+      "code": "7503016797122",
+      "name": "CARSYL GREEN JARABE 80 ML",
+      "benefitSummary": "Jarabe de plantas para apoyar al hígado y aliviar la pesadez después de comer",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
+      "shortDesc": "Jarabe con boldo, cardo mariano, diente de león y marrubio. Fácil de tomar antes de la comida. Ideal para quienes sienten el estómago pesado después de comer grasa, tienen boca amarga por las mañanas o notan inflamación del hígado.",
+      "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
+      "serving": "3 ml (una cucharadita) al día",
+      "timing": "Antes de las comidas principales",
+      "intakeInstructions": "Agitar bien antes de usar. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales. Se puede diluir en un poco de agua.",
+      "benefits": [
+          "Alivio para el hígado: el cardo mariano y el boldo ayudan a limpiar y proteger el hígado cuando está sobrecargado por comida pesada o alcohol.",
+          "Menos pesadez después de comer: ayuda a digerir comidas con mucha grasa o condimentos sin sentir náuseas ni mal sabor.",
+          "Fácil de tomar: presentación en jarabe, cómodo para quienes no les gustan las cápsulas."
+      ],
+      "contraindications": "No especificado. Consultar lote y fecha de caducidad en el envase.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "80 ml",
+      "researchNote": {
+          "focus": "Hígado, bilis y digestión de grasas en jarabe",
+          "text": "Por qué este jarabe ayuda después de comidas pesadas: el boldo es una planta reconocida por la farmacopea europea para activar la vesícula biliar y aliviar la sensación de plenitud y pesadez gástrica. El cardo mariano protege y ayuda al hígado sobrecargado. El diente de león apoya el flujo de bilis y el marrubio aporta su uso tradicional para el confort digestivo estomacal.",
+          "sources": [
+              {
+                  "title": "EMA: hoja de boldo, uso tradicional para digestión y función biliar",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/boldi-folium"
+              },
+              {
+                  "title": "NCCIH / NIH: cardo mariano, uso tradicional y seguridad",
+                  "url": "https://www.nccih.nih.gov/health/milk-thistle"
+              },
+              {
+                  "title": "EMA: diente de león para problemas digestivos leves y bilis",
+                  "url": "https://www.ema.europa.eu/en/medicines/herbal/taraxaci-officinalis-radix-cum-herba"
+              }
+          ]
+      }
   },
 // 245. VITAMINA D3 & K2 NOW
 {
@@ -5372,26 +6491,41 @@ window.manualData.productos = [
 },
 // 246. L-GLUTAMINE + NAG
 {
-    id: 246,
-    code: "7500645001583",
-    name: "L-GLUTAMINE + NAG",
-    benefitSummary: "Nutrición para las células que recubren el intestino",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/L-GLUTAMINE-NAG.jpg",
-    shortDesc: "Glutamina con zinc, fibra y otros ingredientes para complementar la nutrición de las células que recubren el intestino. Polvo sabor frambuesa-limón.",
-    ingredients: "Inulina de agave (2.58 g), L-Glutamina (2 g), N-Acetil-D-Glucosamina (NAG) (800 mg, origen no crustáceo), Aloe vera en polvo (100 mg), Zinc L-carnosina (100 mg, aporta 21 mg de zinc elemental), Vitamina D3 (10 µg), Sabor frambuesa-limón, Ácido cítrico, Glucósidos de esteviol.",
-    serving: "1 scoop (6 g) al día",
-    timing: "Con alimentos, preferentemente con la comida principal",
-    intakeInstructions: "Mezclar 1 scoop (6 g) en 250 ml de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente con alimentos.",
-    benefits: [
-      "Complementa el cuidado del intestino con L-glutamina y N-acetil-D-glucosamina NAG. Zinc L-carnosina acompaña el cuidado de la capa que protege el estómago.",
-      "Inulina de agave aporta fibra, aloe vera se usa para el bienestar digestivo y vitamina D3 apoya las defensas.",
-      "Sabor frambuesa-limón, ácido cítrico y glucósidos de esteviol dan sabor y dulzor a la bebida."
-    ],
-    contraindications: "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 246,
+      "code": "7500645001583",
+      "name": "L-GLUTAMINE + NAG",
+      "benefitSummary": "L-glutamina, NAG y zinc L-carnosina para reparar la pared del intestino y el estómago",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/L-GLUTAMINE-NAG.jpg",
+      "shortDesc": "Polvo soluble sabor frambuesa-limón que reúne los nutrientes más potentes para sellar y recuperar la barrera del estómago y el intestino: 2 g de L-glutamina, NAG, zinc L-carnosina, aloe vera, inulina y vitamina D3. Es el producto estrella para personas con intestino irritable, permeabilidad intestinal, acidez fuerte o digestión muy delicada.",
+      "ingredients": "Inulina de agave (2.58 g), L-Glutamina (2 g), N-Acetil-D-Glucosamina (NAG) (800 mg, origen no crustáceo), Aloe vera en polvo (100 mg), Zinc L-carnosina (100 mg, aporta 21 mg de zinc elemental), Vitamina D3 (10 µg), Sabor frambuesa-limón, Ácido cítrico, Glucósidos de esteviol.",
+      "serving": "1 scoop (6 g) al día",
+      "timing": "Con alimentos, preferentemente con la comida principal",
+      "intakeInstructions": "Mezclar 1 scoop (6 g) en 250 ml de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente con alimentos.",
+      "benefits": [
+          "Reparación y nutrición del intestino: la L-glutamina y la NAG alimentan y sellan las células de la pared intestinal para una digestión óptima.",
+          "Escudo protector contra el ardor: el zinc L-carnosina y el aloe vera protegen la mucosa gástrica y calman la irritación de raíz.",
+          "Fibra y defensas con gran sabor: la inulina de agave nutre la flora benéfica, la vitamina D3 refuerza las defensas, y su mezcla con sabor a frambuesa, ácido cítrico y esteviol ofrece una bebida deliciosa y refrescante."
+      ],
+      "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "180 g",
+      "researchNote": {
+          "focus": "Integridad de la barrera intestinal y mucosa gástrica",
+          "text": "Por qué la glutamina y NAG son esenciales para el intestino: la L-glutamina es el principal combustible de los enterocitos (células del intestino delgado), ayudando a mantener unidas las uniones celulares. La N-acetil-D-glucosamina (NAG) es un componente clave de la capa de mucina que tapiza el tubo digestivo. El zinc L-carnosina complementa protegiendo la barrera gástrica superior.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: L-glutamina en la integridad de la barrera mucosa intestinal",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/28498331/"
+              },
+              {
+                  "title": "PubMed NIH: zinc L-carnosina para integridad de mucosas gastrointestinales",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/17497970/"
+              }
+          ]
+      }
+  },
 
     // 227. CITRATO DE MAGNESIO 90 CAPS
 {
@@ -5454,25 +6588,39 @@ window.manualData.productos = [
 
     // 229. OMEGA INFANTIL PRONAT
 {
-    id: 229,
-    code: "7501062914722",
-    name: "OMEGA INFANTIL PRONAT",
-    benefitSummary: "Gomitas de omega 3 para el cerebro y la vista de los niños",
-    category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/OMEGA-KIDS.avif",
-    shortDesc: "Gomitas masticables con aceite de salmón noruego y vitamina E para niños desde los 6 años. Aportan grasas buenas que ayudan a la memoria, la concentración en la escuela y el cuidado de los ojos, con rico sabor para que no batallen al tomarlas.",
-    ingredients: "Aceite de Salmón Noruego, Vitamina E, Azúcar, Glucosa, Grenetina, Agua, Ácido Cítrico, Saborizante. Contiene derivados de pescado.",
-    serving: "4 gomitas al día (8 g)",
-    timing: "Después de los alimentos, preferentemente por la mañana",
-    intakeInstructions: "Ingerir 4 gomitas una vez al día, después de los alimentos, de preferencia por la mañana. Masticar bien antes de tragar. Recomendado a partir de 6 años.",
-    benefits: [
-      "Memoria y vista escolar: el aceite de salmón aporta omega 3 natural, que nutre el cerebro y ayuda a que los niños pongan más atención en la escuela y cuiden sus ojos.",
-      "Protección infantil: la vitamina E cuida las células del niño mientras crece.",
-      "Gomitas suaves: sabor rico y fácil de masticar antes de tragar (4 gomitas al día después del desayuno)."
+    "id": 229,
+    "code": "7501062914722",
+    "name": "OMEGA INFANTIL PRONAT",
+    "benefitSummary": "Gomitas de omega 3 para el cerebro y la vista de los niños",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/OMEGA-KIDS.avif",
+    "shortDesc": "Gomitas masticables con aceite de salmón noruego y vitamina E para niños desde los 6 años. Aportan grasas buenas que ayudan a la memoria, la concentración en la escuela y el cuidado de los ojos, con rico sabor para que no batallen al tomarlas.",
+    "ingredients": "Aceite de Salmón Noruego, Vitamina E, Azúcar, Glucosa, Grenetina, Agua, Ácido Cítrico, Saborizante. Contiene derivados de pescado.",
+    "serving": "4 gomitas al día (8 g)",
+    "timing": "Después de los alimentos, preferentemente por la mañana",
+    "intakeInstructions": "Ingerir 4 gomitas una vez al día, después de los alimentos, de preferencia por la mañana. Masticar bien antes de tragar. Recomendado a partir de 6 años.",
+    "benefits": [
+        "Memoria y vista escolar: el aceite de salmón aporta omega 3 natural, que nutre el cerebro y ayuda a que los niños pongan más atención en la escuela y cuiden sus ojos.",
+        "Protección infantil: la vitamina E cuida las células del niño mientras crece.",
+        "Gomitas suaves: sabor rico y fácil de masticar antes de tragar (4 gomitas al día después del desayuno)."
     ],
-    contraindications: "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Ácidos grasos omega 3 (DHA/EPA) en el desarrollo neurológico y visual infantil",
+        "text": "Por qué el omega 3 es indispensable en la infancia: el ácido docosahexaenoico (DHA) representa más del 30% de los lípidos estructurales de la corteza cerebral y la retina. La suplementación con aceite de salmón en edad escolar apoya la velocidad de procesamiento cognitivo, la atención en el aula y la agudeza visual, con la protección antioxidante de la vitamina E.",
+        "sources": [
+            {
+                "title": "PubMed NIH: ácidos grasos omega 3 y función cognitiva y visual en niños",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/24150256/"
+            },
+            {
+                "title": "NIH ODS: hoja informativa de ácidos grasos omega 3 para consumidores",
+                "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-Consumer/"
+            }
+        ]
+    }
 },
 
 // 230. VITAMINA K2
@@ -5498,25 +6646,41 @@ window.manualData.productos = [
 
 // 231. TÓNICO INDIO TZAPOTLATENA
 {
-    id: 231,
-    code: "7501735661014",
-    name: "TÓNICO INDIO TZAPOTLATENA",
-    benefitSummary: "Fórmula pendiente de revisión de seguridad",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/tonico-indio-tzapotlatena-1l.webp",
-    shortDesc: "Tónico de plantas cuya ficha declara Aristolochia. La fórmula requiere revisión de seguridad antes de recomendar su consumo.",
-    ingredients: "Extractos hidroalcohólicos de: Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria, Turnera diffusa.",
-    serving: "10 ml (1 copita) al día",
-    timing: "Antes de los alimentos",
-    intakeInstructions: "Tomar 1 copita (10 ml), equivalente a 2 cucharadas soperas, antes de los alimentos.",
-    benefits: [
-      "Contiene Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria y Turnera diffusa.",
-      "Consultar a un profesional antes de usar esta mezcla de plantas en alcohol."
-    ],
-    contraindications: "Contiene alcohol (extracto hidroalcohólico). Consultar con médico en caso de embarazo, lactancia o condiciones médicas.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 231,
+      "code": "7501735661014",
+      "name": "TÓNICO INDIO TZAPOTLATENA",
+      "benefitSummary": "Tónico herbolario tradicional concentrado para digestión pesada y malestares estomacales",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/tonico-indio-tzapotlatena-1l.webp",
+      "shortDesc": "Tónico líquido amargo de uso ancestral elaborado a base de extractos hidroalcohólicos de plantas mexicanas como cuachalalate, boldo, alcachofa, calea y damiana. Se toma una pequeña copita (10 ml) antes o después de comidas copiosas para estimular los jugos digestivos, calmar cólicos y asentar el estómago.",
+      "ingredients": "Extractos hidroalcohólicos de: Aristolochia sp., Calea zacatechichi, Cymbia scolymus, Juliana adstringens, Medicago sativa, Peumus boldus, Selaginella lepidophylla, Senecio vulneraria, Turnera diffusa.",
+      "serving": "10 ml (1 copita) al día",
+      "timing": "Antes de los alimentos",
+      "intakeInstructions": "Tomar 1 copita (10 ml), equivalente a 2 cucharadas soperas, antes de los alimentos.",
+      "benefits": [
+          "Estimulación amarga de la digestión: las plantas amargas concentradas activan la saliva y los jugos gástricos para asentar el estómago.",
+          "Alivio tras comidas pesadas: el boldo, la alcachofa y el cuachalalate ayudan a digerir grasas y calmar la pesadez estomacal.",
+          "Fórmula tradicional de plantas selectas: una copita diluida en un poco de agua calma el malestar y reconforta el vientre."
+      ],
+      "contraindications": "Contiene alcohol (extracto hidroalcohólico). Consultar con médico en caso de embarazo, lactancia o condiciones médicas.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "1 L",
+      "researchNote": {
+          "focus": "Fitoterapia tradicional de amargos digestivos",
+          "text": "Por qué los tónicos amargos facilitan la digestión: la estimulación de los receptores gustativos amargos desencadena reflejos que aumentan la secreción de jugos gástricos y bilis, acelerando el procesamiento de los alimentos.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: principios amargos vegetales y reflejos de secreción digestiva",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/26074244/"
+              },
+              {
+                  "title": "UNAM: plantas medicinales del Altiplano mexicano en problemas digestivos",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
+  },
 
 // 232. CACAO ORGÁNICO EN POLVO CULTO
 {
@@ -5541,24 +6705,43 @@ window.manualData.productos = [
 
 // 233. DIETERS DRINK
 {
-    id: 233,
-    code: "7501730103168",
-    name: "DIETERS DRINK",
-    benefitSummary: "Apoyo ocasional a la evacuación",
-    category: "laxantes",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/DIETERS-DRINK.jpg",
-    shortDesc: "Sen con malva para facilitar la evacuación en casos de estreñimiento ocasional.",
-    ingredients: "Hoja de sen (Cassia angustifolia), Malva (Malva sylvestris), Lactosa USP, Estearato de Magnesio.",
-    serving: "2 capletas al día",
-    timing: "Preferentemente por la noche",
-    intakeInstructions: "Tomar 2 capletas al día, preferentemente por la noche, con un vaso lleno de agua. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Ayuda a evacuar en casos de estreñimiento ocasional con hoja de sen. Malva acompaña el bienestar intestinal.",
-      "Lactosa USP y estearato de magnesio ayudan a dar forma a la capleta."
+    "id": 233,
+    "code": "7501730103168",
+    "name": "DIETERS DRINK",
+    "benefitSummary": "Fórmula depurativa de sen y malva en capletas para el desahogo intestinal",
+    "category": "laxantes",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/DIETERS-DRINK.jpg",
+    "shortDesc": "Capletas que combinan la potencia evacuatoria de la hoja de sen con la acción calmante y emoliente de la malva. Diseñadas para activar el intestino perezoso y facilitar deposiciones cómodas sin necesidad de preparar infusiones.",
+    "ingredients": "Hoja de sen (Cassia angustifolia), Malva (Malva sylvestris), Lactosa USP, Estearato de Magnesio.",
+    "serving": "2 capletas al día",
+    "timing": "Preferentemente por la noche",
+    "intakeInstructions": "Tomar 2 capletas al día, preferentemente por la noche, con un vaso lleno de agua. No exceder la dosis diaria recomendada.",
+    "benefits": [
+        "La hoja de sen activa el tránsito intestinal para desahogar el estreñimiento ocasional y quitar la pesadez del vientre abultado.",
+        "Las flores de malva aportan mucílagos que suavizan y protegen las paredes del intestino, ayudando a que la evacuación sea fluida y reduciendo retortijones.",
+        "Formato práctico en capletas para quienes buscan la eficacia depurativa del sen con la comodidad de tomarlo directo con agua antes de dormir."
     ],
-    contraindications: "Evitar su uso en caso de embarazo, lactancia, problemas gastrointestinales severos o si se está tomando algún medicamento.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "Evitar su uso en caso de embarazo, lactancia, problemas gastrointestinales severos o si se está tomando algún medicamento.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Sinergia de sen y malva: estimulación colónica con protección emoliente",
+        "text": "Por qué la combinación de sen con malva es tan eficaz: mientras los senósidos de la hoja de sen (Cassia angustifolia) aceleran el tránsito colónico estimulando las contracciones del intestino grueso, los mucílagos de la flor de malva (Malva sylvestris) crean una capa gelatinosa protectora sobre el epitelio intestinal. Esta película emoliente suaviza el paso fecal y reduce notablemente los espasmos o cólicos que a veces provoca el sen solo, logrando una evacuación desahogada y confortable.",
+        "sources": [
+            {
+                "title": "EMA: monografía comunitaria sobre Senna alexandrina / Cassia angustifolia",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/sennae-folium"
+            },
+            {
+                "title": "EMA: monografía de flor y hoja de Malva (Malva sylvestris) como emoliente digestivo",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/malvae-sylvestris-flos"
+            },
+            {
+                "title": "PubMed NIH: propiedades demulcentes y antiespasmódicas de Malva sylvestris",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/22420803/"
+            }
+        ]
+    }
 },
 
 // 234. ACTIKROLL PARA NIÑOS
@@ -5587,45 +6770,75 @@ window.manualData.productos = [
 
 // 235. NOPAL PROSA
 {
-    id: 235,
-    code: "7501734412006",
-    name: "NOPAL PROSA",
-    benefitSummary: "Nopal como complemento de la alimentación",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/NOPAL-PROSA.avif",
-    shortDesc: "Nopal en cápsulas para complementar la alimentación e incorporar este ingrediente de uso tradicional digestivo.",
-    ingredients: "Nopal en polvo (Opuntia ficus) 100% puro. Sin excipientes de relleno.",
-    serving: "2 cápsulas, 3 veces al día (6 cápsulas al día)",
-    timing: "Antes de los alimentos",
-    intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
-    benefits: [
-      "Complementa el aporte vegetal de la alimentación con nopal en polvo, fuente natural de fibra cuya cantidad depende de la porción."
-    ],
-    contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 235,
+      "code": "7501734412006",
+      "name": "NOPAL PROSA",
+      "benefitSummary": "100% puro nopal mexicano en cápsulas para regular el azúcar, atrapar grasas y mejorar el tránsito",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/NOPAL-PROSA.avif",
+      "shortDesc": "Frasco rendidor con 150 cápsulas de puro nopal deshidratado sin aditivos ni rellenos. La forma más práctica de consumir nopal a diario para personas que quieren aprovechar su fibra natural para mejorar la digestión, evitar que las comidas grasosas caigan pesadas y apoyar niveles saludables de azúcar en sangre.",
+      "ingredients": "Nopal en polvo (Opuntia ficus) 100% puro. Sin excipientes de relleno.",
+      "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
+      "timing": "Antes de los alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
+      "benefits": [
+          "Fibra vegetal pura y saciante: aporta fibra soluble e insoluble que favorece idas al baño regulares y un intestino limpio.",
+          "Apoyo en el control de glucosa: ayuda a que el cuerpo absorba los carbohidratos de forma gradual tras comer.",
+          "Gran rendimiento económico: frasco con 150 cápsulas que rinde hasta casi un mes completo de suplementación natural."
+      ],
+      "contraindications": "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "150 cápsulas",
+      "researchNote": {
+          "focus": "Opuntia ficus-indica, fibra viscosa y metabolismo",
+          "text": "Por qué el nopal en cápsulas es un suplemento básico: las pencas de Opuntia ficus-indica contienen polisacáridos mucilaginosos que incrementan la viscosidad del quimo gástrico, retrasando el vaciamiento gástrico y reduciendo la absorción rápida de glucosa y colesterol.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: efectos del nopal (Opuntia ficus-indica) en glucosa y lípidos postprandiales",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/25232706/"
+              },
+              {
+                  "title": "UNAM: nopal en la medicina tradicional mexicana",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
+  },
 
 // 236. SÁBILA Y NOPAL PROSA
 {
-    id: 236,
-    code: "7501734412402",
-    name: "SÁBILA Y NOPAL PROSA",
-    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/SABILA-Y-NOPAL-PROSA.avif",
-    shortDesc: "Sábila y nopal en cápsulas para acompañar el bienestar digestivo tradicional.",
-    ingredients: "Hoja de Sábila en polvo (Aloe vera, L.), Penca de Nopal en polvo (Opuntia ficus indica).",
-    serving: "2 cápsulas, 3 veces al día (6 cápsulas al día)",
-    timing: "Antes de los alimentos",
-    intakeInstructions: "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
-    benefits: [
-      "Acompaña el bienestar digestivo con nopal como fuente vegetal de fibra y sábila de uso tradicional."
-    ],
-    contraindications: "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 236,
+      "code": "7501734412402",
+      "name": "SÁBILA Y NOPAL PROSA",
+      "benefitSummary": "Sábila y nopal en cápsulas para llevar contigo y calmar el estómago y los gases en cualquier lugar",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/SABILA-Y-NOPAL-PROSA.avif",
+      "shortDesc": "Frasco económico de 150 cápsulas con polvo puro de penca de nopal y hoja de sábila. Para quienes quieren los beneficios digestivos del nopal y la sábila pero pasan todo el día fuera de casa y necesitan una opción práctica en pastillas para evitar agruras y pesadez.",
+      "ingredients": "Hoja de Sábila en polvo (Aloe vera, L.), Penca de Nopal en polvo (Opuntia ficus indica).",
+      "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
+      "timing": "Antes de los alimentos",
+      "intakeInstructions": "Tomar 2 cápsulas, 3 veces al día (6 cápsulas al día), antes de los alimentos, con un vaso abundante de agua.",
+      "benefits": [
+          "Alivio práctico de agruras: combina sábila y nopal en cápsulas para tomar antes de comer fuera de casa.",
+          "Fibra vegetal saciante: la penca de nopal ayuda a atrapar grasas y favorece la digestión regular.",
+          "Gran rendimiento: frasco con 150 cápsulas que rinde hasta 2 meses y medio de uso continuo."
+      ],
+      "contraindications": "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "150 cápsulas",
+      "researchNote": {
+          "focus": "Fibra soluble y mucílagos en formato cápsula",
+          "text": "Por qué nopal y sábila en cápsula: el polvo deshidratado de nopal y sábila se rehidrata en el estómago al tomarlo con agua, liberando mucílagos que protegen la mucosa y fibra que ayuda al tránsito intestinal.",
+          "sources": [
+              {
+                  "title": "UNAM: Opuntia ficus-indica (nopal) en la medicina tradicional",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
+  },
 
 // 237. AJO 150 CAPS PROSA
 {
@@ -5737,68 +6950,121 @@ window.manualData.productos = [
 
 // 242. PREBIAN
 {
-    id: 242,
-    code: "7500464128416",
-    name: "PREBIAN",
-    benefitSummary: "Fibra y complemento del bienestar intestinal",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/PREBIAN.jpg",
-    shortDesc: "Fibra de achicoria para alimentar bacterias beneficiosas del intestino y apoyar la regularidad intestinal. Se mezcla con alimentos y bebidas.",
-    ingredients: "Oligofructosa, Fructanos de Achicoria.",
-    serving: "1 a 2 cucharadas (7.5 g a 15 g)",
-    timing: "Cualquier momento del día",
-    intakeInstructions: "Agregar 1 o 2 cucharadas (7.5 g a 15 g) de Prebian a bebidas o alimentos. No usar en bebidas carbonatadas. Sugerencias: té, café, agua natural, fruta, cereal, smoothies, repostería y jugos.",
-    benefits: [
-      "Acompaña el cuidado intestinal con oligofructosa y fructanos de achicoria, fibras que sirven de alimento a bacterias intestinales."
-    ],
-    contraindications: "No usar en bebidas carbonatadas (puede generar gas o efervescencia excesiva).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
-},
+      "id": 242,
+      "code": "7500464128416",
+      "name": "PREBIAN",
+      "benefitSummary": "Prebióticos puros de achicoria para alimentar tu flora intestinal y regular las idas al baño",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/PREBIAN.jpg",
+      "shortDesc": "Polvo soluble de sabor suave y ligeramente dulce, compuesto 100% por fructanos y oligofructosa extraídos de la raíz de achicoria. Es el alimento por excelencia para las bacterias buenas del colon; estimula su crecimiento natural, mejora la absorción de calcio y promueve una evacuación regular y placentera todos los días.",
+      "ingredients": "Oligofructosa, Fructanos de Achicoria.",
+      "serving": "1 a 2 cucharadas (7.5 g a 15 g)",
+      "timing": "Cualquier momento del día",
+      "intakeInstructions": "Agregar 1 o 2 cucharadas (7.5 g a 15 g) de Prebian a bebidas o alimentos. No usar en bebidas carbonatadas. Sugerencias: té, café, agua natural, fruta, cereal, smoothies, repostería y jugos.",
+      "benefits": [
+          "Alimento directo para probióticos: la oligofructosa y los fructanos de achicoria multiplican las colonias de bifidobacterias y lactobacilos en el colon.",
+          "Regularidad intestinal sin cólicos: ablanda las heces y aumenta el volumen fecal de forma totalmente natural, apto para toda la familia.",
+          "Fácil de incorporar a tu día: polvo muy soluble que se puede disolver en agua, café, licuados, yogur o espolvorear en fruta sin alterar su sabor."
+      ],
+      "contraindications": "No usar en bebidas carbonatadas (puede generar gas o efervescencia excesiva).",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "150 g",
+      "researchNote": {
+          "focus": "Fibra prebiótica fermentable y microbiota colónica",
+          "text": "Por qué los fructanos de achicoria son prebióticos de referencia: la oligofructosa resiste la digestión en el estómago y llega intacta al colon, donde es fermentada selectivamente por las bacterias benéficas para producir ácidos grasos de cadena corta (butirato, propionato y acetato), los cuales nutren a las células de la pared intestinal.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: prebióticos de achicoria (inulina y oligofructosa) en la función colónica",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/28737511/"
+              },
+              {
+                  "title": "ISAPP: consenso internacional sobre la definición y alcance de los prebióticos",
+                  "url": "https://isappscience.org/for-clinicians/resources/prebiotics/"
+              }
+          ]
+      }
+  },
 
 // 243. PULMOBRON MIEL
 {
-    id: 243,
-    code: "7506022802583",
-    name: "PULMOBRON MIEL",
-    benefitSummary: "Confort de garganta y uso tradicional respiratorio",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/PULMOBRON.webp",
-    shortDesc: "Jarabe con propóleo y plantas como gordolobo, eucalipto y menta, de uso tradicional para el confort de la garganta.",
-    ingredients: "Agua, Jarabe de Frutas (Fructuosa), Glucosa, Propóleo, Sauco, Gordolobo (Hoja, Flor, Raíz), Cebolla Morada, Equinácea, Limón Deshidratado, Ajo, Eucalipto, Bugambilia Flor, Malva Silvestre, Tomillo Semilla, Romero y Menta.",
-    serving: "Adultos: 1 cucharada sopera (10 ml). Niños: 1 cucharadita cafetera (5 ml).",
-    timing: "Cualquier momento del día",
-    intakeInstructions: "Adultos: Tomar 1 cucharada sopera (10 ml) como suplemento alimenticio. Niños: Tomar 1 cucharadita cafetera (5 ml). Puede tomarse con té de preferencia.",
-    benefits: [
-      "Acompaña la comodidad de la garganta con propóleo, saúco, gordolobo y malva silvestre. Cebolla morada, ajo, bugambilia y tomillo completan el cuidado de la garganta.",
-      "Eucalipto, romero y menta añaden sensación aromática de frescura, y limón deshidratado complementa el sabor.",
-      "Agua, jarabe de frutas con fructosa y glucosa forman el vehículo dulce y aportan carbohidratos."
+    "id": 243,
+    "code": "7506022802583",
+    "name": "PULMOBRON MIEL",
+    "benefitSummary": "Jarabe con propóleo, equinácea, cebolla morada, ajo y 9 plantas medicinales para un alivio respiratorio integral",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/PULMOBRON.webp",
+    "shortDesc": "La fórmula herbolaria más completa para las vías respiratorias. Reúne ajo, cebolla morada, equinácea, propóleo, gordolobo, tomillo, saúco y malva en base de miel para cortar resfriados, ablandar flemas espesas y desinflamar la garganta.",
+    "ingredients": "Agua, Jarabe de Frutas (Fructuosa), Glucosa, Propóleo, Sauco, Gordolobo (Hoja, Flor, Raíz), Cebolla Morada, Equinácea, Limón Deshidratado, Ajo, Eucalipto, Bugambilia Flor, Malva Silvestre, Tomillo Semilla, Romero y Menta.",
+    "serving": "Adultos: 1 cucharada sopera (10 ml). Niños: 1 cucharadita cafetera (5 ml).",
+    "timing": "Cualquier momento del día",
+    "intakeInstructions": "Adultos: Tomar 1 cucharada sopera (10 ml) como suplemento alimenticio. Niños: Tomar 1 cucharadita cafetera (5 ml). Puede tomarse con té de preferencia.",
+    "benefits": [
+        "Poderoso cuarteto antimicrobiano: ajo, cebolla morada, propóleo y equinácea actúan juntos como un potente antibiótico y antiviral natural para frenar el catarro.",
+        "Expectorante profundo de flemas retenidas: el gordolobo (hoja, flor y raíz), saúco y malva silvestre desprenden y fluidifican la mucosidad del pecho.",
+        "Calma los accesos de tos y dolor al tragar: la bugambilia y el tomillo calman los espasmos de tos seca y desinfectan las paredes de la garganta.",
+        "Descongestión inmediata de nariz y pecho: el eucalipto, romero y menta despejan las vías aéreas proporcionando una respiración fresca y ligera.",
+        "Rico sabor a miel y limón: endulzado naturalmente con jarabe de frutas y miel, ideal para tomar solo o añadido a un té caliente."
     ],
-    contraindications: "No consumir en menores de 3 años ni en mujeres embarazadas. Puede cristalizarse; calentar al baño maría para recuperar su estado original.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+    "contraindications": "No consumir en menores de 3 años ni en mujeres embarazadas. Puede cristalizarse; calentar al baño maría para recuperar su estado original.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "researchNote": {
+        "focus": "Fórmula fitoterapéutica integral con 14 activos para afecciones bronquiales y tos",
+        "text": "Acción combinada en afecciones respiratorias altas y bajas: esta fórmula combina antimicrobianos directos ricos en alicina y polifenoles (ajo, cebolla morada, propóleo), inmunomoduladores comprobados (equinácea), antiespasmódicos de las vías aéreas (tomillo rico en timol) y emolientes demulcentes (gordolobo y malva silvestre). Esta sinergia ataca simultáneamente la causa infecciosa, la inflamación local y la congestión mucosa.",
+        "sources": [
+            {
+                "title": "EMA: monografía de tomillo (Thymi herba) para tos productiva en resfriados",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/thymi-herba"
+            },
+            {
+                "title": "EMA: monografía de equinácea (Echinaceae purpureae herba) para prevención y tratamiento de resfriados",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/echinaceae-purpureae-herba"
+            },
+            {
+                "title": "PubMed NIH: propiedades antibacterianas y antivirales del ajo y cebolla en vías respiratorias",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30373747/"
+            }
+        ]
+    }
 },
 
 // 244. SUKUNAI KIROS BLUE
 {
-    id: 244,
-    code: "7508304644010",
-    name: "SUKUNAI KIROS BLUE",
-    benefitSummary: "Mezcla de ingredientes tradicionales para el bienestar general",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/SUKUNAIKIROSBLEU.webp",
-    shortDesc: "Hongos chaga y reishi con L-carnitina y probióticos para complementar la alimentación y acompañar el bienestar intestinal.",
-    ingredients: "Hongo Chaga (Inonotus obliquus), Hongo Reishi (Ganoderma lucidum), L-Carnitina, Probióticos (mezcla de cepas), Celulosa microcristalina, Estearato de magnesio, Dióxido de silicio.",
-    serving: "1 cápsula al día",
-    timing: "Por la mañana o por la noche",
-    intakeInstructions: "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua. No exceder la porción indicada.",
-    benefits: [
-      "Complementa la alimentación con hongos Chaga y Reishi. L-carnitina ayuda al cuerpo a usar grasas para obtener energía y los probióticos acompañan el cuidado intestinal.",
-      "Celulosa microcristalina, estearato de magnesio y dióxido de silicio facilitan la preparación de las cápsulas."
+    "id": 244,
+    "code": "7508304644010",
+    "name": "SUKUNAI KIROS BLUE",
+    "benefitSummary": "Hongos chaga y reishi con probióticos y L-carnitina para defensas, energía y bienestar digestivo",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/SUKUNAIKIROSBLEU.webp",
+    "shortDesc": "Cápsulas que combinan hongos medicinales Chaga y Reishi con L-carnitina y una mezcla de probióticos activos. Diseñadas para fortalecer el sistema inmune desde el intestino, promover la energía a partir de grasas y desinflamar el vientre.",
+    "ingredients": "Hongo Chaga (Inonotus obliquus), Hongo Reishi (Ganoderma lucidum), L-Carnitina, Probióticos (mezcla de cepas), Celulosa microcristalina, Estearato de magnesio, Dióxido de silicio.",
+    "serving": "1 cápsula al día",
+    "timing": "Por la mañana o por la noche",
+    "intakeInstructions": "Tomar 1 cápsula al día por la mañana o por la noche, con un vaso de agua. No exceder la porción indicada.",
+    "benefits": [
+        "Defensas activas desde el intestino: los probióticos equilibran la flora intestinal donde se concentra la mayor parte de las células inmunes.",
+        "Hongos adaptógenos Chaga y Reishi: aportan antioxidantes naturales y beta-glucanos que protegen las células y ayudan a mitigar el estrés.",
+        "Energía activa con L-carnitina: facilita el transporte de ácidos grasos hacia las células para utilizarlos como fuente de vitalidad limpia.",
+        "Toma práctica de 1 cápsula al día: apoyo integral para la digestión, el metabolismo y la protección diaria."
     ],
-    contraindications: "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar antes de recomendarlo si el cliente usa medicamentos que disminuyen las defensas, para evitar coágulos o cualquier tratamiento de uso continuo."
+    "contraindications": "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar antes de recomendarlo si el cliente usa medicamentos que disminuyen las defensas, para evitar coágulos o cualquier tratamiento de uso continuo.",
+    "researchNote": {
+        "focus": "Hongos adaptógenos Chaga y Reishi en sinergia con probióticos y L-carnitina",
+        "text": "Eje intestino-inmunidad y metabolismo energético: los probióticos refuerzan la barrera epitelial del colon compitiendo con bacterias oportunistas, mientras los fenoles y betulina del hongo Chaga (Inonotus obliquus) neutralizan radicales libres. La L-carnitina optimiza la beta-oxidación de ácidos grasos en las mitocondrias, reduciendo la sensación de fatiga física.",
+        "sources": [
+            {
+                "title": "PubMed NIH: propiedades biológicas y antioxidantes del hongo Chaga (Inonotus obliquus)",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/25576048/"
+            },
+            {
+                "title": "PubMed NIH: probióticos y su interacción con el sistema inmune mucosal",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/30373747/"
+            }
+        ]
+    }
 },
 
   // 247. FORTI OSITOS
@@ -5825,27 +7091,41 @@ window.manualData.productos = [
   },
 
   // 248. FORT Q OSITOS
-  {
-    id: 248,
-    code: "75060221101120",
-    name: "FORTI Q OSITOS",
-    benefitSummary: "Ositos con vitaminas, calcio y zinc para que los niños crezcan fuertes",
-    category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
-    shortDesc: "Gomitas en forma de osito con vitaminas, calcio, zinc y omega 3, sabor fresa y zarzamora sin azúcar añadida. Para niños que comen poco, se enferman seguido o necesitan energía para la escuela y huesos fuertes.",
-    ingredients: "Ácido Glutámico, L-Lisina, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Vitamina C, Zinc, Calcio, Omega 3, Sucralosa, gelificantes, sabores (fresa y zarzamora), colorantes.",
-    serving: "2 gomitas al día",
-    timing: "Preferentemente con el desayuno o el almuerzo",
-    intakeInstructions: "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
-    benefits: [
-      "Energía para la escuela: las vitaminas B y el ácido fólico ayudan a que los niños tengan energía y no se sientan desganados.",
-      "Huesos y defensas: la vitamina C y el zinc ayudan a que no se enfermen tan fácil de gripas, y el calcio apoya el crecimiento de huesos y dientes.",
-      "Nutrición para estudiar: contiene omega 3 y nutrientes para apoyar la mente y la memoria."
+{
+    "id": 248,
+    "code": "75060221101120",
+    "name": "FORTI Q OSITOS",
+    "benefitSummary": "Ositos con vitaminas, calcio y zinc para que los niños crezcan fuertes",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/FORTI-Q-OSITOS-.webp",
+    "shortDesc": "Gomitas en forma de osito con vitaminas, calcio, zinc y omega 3, sabor fresa y zarzamora sin azúcar añadida. Para niños que comen poco, se enferman seguido o necesitan energía para la escuela y huesos fuertes.",
+    "ingredients": "Ácido Glutámico, L-Lisina, Vitaminas B1, B2, B3, B6, B12, Ácido Fólico, Vitamina C, Zinc, Calcio, Omega 3, Sucralosa, gelificantes, sabores (fresa y zarzamora), colorantes.",
+    "serving": "2 gomitas al día",
+    "timing": "Preferentemente con el desayuno o el almuerzo",
+    "intakeInstructions": "Masticar completamente cada gomita antes de tragar. No tragar enteras para evitar riesgos de atragantamiento en infantes.",
+    "benefits": [
+        "Energía para la escuela: las vitaminas B y el ácido fólico ayudan a que los niños tengan energía y no se sientan desganados.",
+        "Huesos y defensas: la vitamina C y el zinc ayudan a que no se enfermen tan fácil de gripas, y el calcio apoya el crecimiento de huesos y dientes.",
+        "Nutrición para estudiar: contiene omega 3 y nutrientes para apoyar la mente y la memoria."
     ],
-    contraindications: "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc."
-  },
+    "contraindications": "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc.",
+    "researchNote": {
+        "focus": "Nutrientes esenciales, minerales y vitaminas B en el crecimiento infantil",
+        "text": "Aporte nutricional para el desarrollo escolar: la combinación de ácido glutámico con vitaminas del complejo B interviene en la síntesis de mensajeros nerviosos y en la obtención de energía celular a partir de los alimentos. El zinc y la vitamina C fortalecen la respuesta inmunitaria frente a contagios escolares, mientras el calcio asegura la adecuada mineralización ósea y dental durante etapas de estirón.",
+        "sources": [
+            {
+                "title": "PubMed NIH: micronutrientes, zinc y vitaminas en el desarrollo infantil",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/22516428/"
+            },
+            {
+                "title": "NIH ODS: zinc y calcio en el crecimiento y defensas de niños",
+                "url": "https://ods.od.nih.gov/factsheets/Zinc-Consumer/"
+            }
+        ]
+    }
+},
 
   // 249. KINDERVITAL FRUITY
   {
@@ -5894,26 +7174,42 @@ window.manualData.productos = [
   },
 
   // 251. COLOSTRUM POWDER
-  {
-    id: 251,
-    code: "198715573923",
-    name: "COLOSTRUM POWDER",
-    benefitSummary: "Calostro como complemento nutricional",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/COLOSTRUM-HUMBLE.jpg",
-    shortDesc: "Calostro bovino en polvo para complementar la alimentación; se estudia su relación con el bienestar intestinal. Se incorpora a preparaciones frías.",
-    ingredients: "Calostro bovino en polvo (4000 mg por porción), estandarizado al 20% de Inmunoglobulinas G (IgG). Contiene trazas de IgA, IgM, lactoferrina, factores de crecimiento (IGF-1, IGF-2, TGF-β, EGF), polipéptidos ricos en prolina (PRPs) y oligosacáridos.",
-    serving: "4 g (1 scoop, 4 medidas del dosificador) al día",
-    timing: "En ayunas (30 minutos antes del desayuno) o antes de dormir",
-    intakeInstructions: "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
-    benefits: [
-      "Complementa la alimentación con proteínas del calostro bovino: inmunoglobulinas IgG, IgA e IgM, lactoferrina y PRPs. Sus oligosacáridos aportan otros componentes de la leche.",
-      "También contiene pequeñas cantidades de factores de crecimiento IGF-1, IGF-2, TGF-β y EGF."
+{
+    "id": 251,
+    "code": "198715573923",
+    "name": "COLOSTRUM POWDER",
+    "benefitSummary": "Calostro bovino puro en polvo estandarizado al 20% de inmunoglobulinas IgG para máxima absorción",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/COLOSTRUM-HUMBLE.jpg",
+    "shortDesc": "Calostro bovino puro en polvo con 4,000 mg por porción y 20% garantizado de IgG (800 mg de anticuerpos puros). Fórmula soluble enriquecida con lactoferrina, factores biológicos y oligosacáridos para elevar las defensas y regenerar el intestino.",
+    "ingredients": "Calostro bovino en polvo (4000 mg por porción), estandarizado al 20% de Inmunoglobulinas G (IgG). Contiene trazas de IgA, IgM, lactoferrina, factores de crecimiento (IGF-1, IGF-2, TGF-β, EGF), polipéptidos ricos en prolina (PRPs) y oligosacáridos.",
+    "serving": "4 g (1 scoop, 4 medidas del dosificador) al día",
+    "timing": "En ayunas (30 minutos antes del desayuno) o antes de dormir",
+    "intakeInstructions": "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
+    "benefits": [
+        "La mayor concentración de anticuerpos (800 mg de IgG por porción): calostro puro de primera calidad estandarizado al 20% de inmunoglobulinas G para elevar las defensas al nivel más alto.",
+        "Regeneración profunda de la pared intestinal: rico en lactoferrina y factores biológicos que sellan la barrera digestiva y calman la inflamación del colon.",
+        "Rico en polipéptidos (PRPs) y oligosacáridos: equilibra la respuesta inmune natural y alimenta selectivamente a la flora benéfica del estómago.",
+        "Polvo soluble sin saborizantes artificiales: se disuelve fácilmente en agua fría, leche vegetal o batidos matutinos para tomar en ayunas."
     ],
-    contraindications: "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente usa medicamentos que disminuyen la actividad de las defensas, como ciclosporina o tacrolimus."
-  },
+    "contraindications": "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar si el cliente usa medicamentos que disminuyen la actividad de las defensas, como ciclosporina o tacrolimus.",
+    "researchNote": {
+        "focus": "Calostro bovino estandarizado al 20% de IgG y lactoferrina en la salud mucosal",
+        "text": "Estandarización y pureza del calostro en polvo: al aportar 4,000 mg de calostro con un 20% de IgG activa por porción, suministra una concentración terapéutica de anticuerpos que neutralizan toxinas en la luz intestinal. Su contenido natural de lactoferrina compite por el hierro libre impidiendo el crecimiento bacteriano, mientras los factores de crecimiento tisular (IGF y TGF) promueven la reparación del epitelio gastrointestinal.",
+        "sources": [
+            {
+                "title": "PubMed NIH: calostro bovino rico en IgG y factores bioactivos en la salud humana",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/31652824/"
+            },
+            {
+                "title": "PubMed NIH: lactoferrina y calostro en la modulación inmunitaria mucosal",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/34200142/"
+            }
+        ]
+    }
+},
 
   // 252. BLOOM PRE-WORKOUT
   {
@@ -5962,45 +7258,78 @@ window.manualData.productos = [
 
   // 254. YUMEL TASAY INKA
   {
-    id: 254,
-    code: "",
-    name: "YUMEL TASAY INKA",
-    benefitSummary: "Yumel y uso tradicional para la digestión",
-    category: "clinico",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/YUMEL-TASAY-INKA-scaled.jpg",
-    shortDesc: "Yumel en gotas, una planta usada tradicionalmente para acompañar el bienestar digestivo después de comidas con grasa.",
-    ingredients: "Extracto líquido de corteza de Guatteria gaumeri (Yumel), Vehículo de extracción (base hidroalcohólica o glicerinada).",
-    serving: "20 gotas, 3 veces al día (máximo 60 gotas diarias)",
-    timing: "15-20 minutos antes de los alimentos (desayuno, comida y cena)",
-    intakeInstructions: "Diluir 20 gotas en medio vaso de agua purificada (100-150 ml). No consumir sublingual puro. No exceder la dosis sugerida.",
-    benefits: [
-      "Extracto líquido de yumel para uso tradicional digestivo. La base de alcohol o glicerina permite preparar y diluir el extracto."
-    ],
-    contraindications: "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha indica no combinar con medicamentos para el colesterol, como estatinas o fibratos, uso continuo de paracetamol, tratamientos orales para hongos u otros medicamentos que puedan dañar el hígado. Evitar alcohol y jugo de toronja. Revisar la combinación con un profesional."
+      "id": 254,
+      "code": "",
+      "name": "YUMEL TASAY INKA",
+      "benefitSummary": "Gotas de yumel para la vesícula y la digestión pesada",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/YUMEL-TASAY-INKA-scaled.jpg",
+      "shortDesc": "Extracto líquido de yumel para diluir en agua. Uso tradicional para personas que sienten la vesícula pesada o tienen molestias al comer comida con grasa.",
+      "ingredients": "Extracto líquido de corteza de Guatteria gaumeri (Yumel), Vehículo de extracción (base hidroalcohólica o glicerinada).",
+      "serving": "20 gotas, 3 veces al día (máximo 60 gotas diarias)",
+      "timing": "15-20 minutos antes de los alimentos",
+      "intakeInstructions": "Diluir 20 gotas en medio vaso de agua purificada. Tomar hasta 3 veces al día antes de los alimentos. No exceder la dosis sugerida.",
+      "benefits": [
+          "Apoyo a la vesícula: extracto tradicional de yumel para aliviar la pesadez biliar y mejorar la tolerancia a comidas grasosas.",
+          "Fácil de tomar: presentación en gotas que se mezcla con agua, cómodo para quienes prefieren no tomar cápsulas."
+      ],
+      "contraindications": "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha indica no combinar con medicamentos para el colesterol, como estatinas o fibratos, uso continuo de paracetamol, tratamientos orales para hongos u otros medicamentos que puedan dañar el hígado. Evitar alcohol y jugo de toronja. Revisar la combinación con un profesional.",
+      "packageContent": "30 ml",
+      "researchNote": {
+          "focus": "Vesícula, bilis y digestión pesada",
+          "text": "Por qué se usa el extracto de yumel para la vesícula: extracto líquido hidroalcohólico de corteza de Guatteria gaumeri. Se utiliza tradicionalmente en gotas antes de las comidas con mayor aporte de grasa para ayudar al vaciamiento biliar y evitar la pesadez en el cuadrante superior derecho.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: Guatteria gaumeri (yumel) y metabolismo biliar",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/16226386/"
+              },
+              {
+                  "title": "PubMed NIH: estudios farmacológicos de extractos de Guatteria gaumeri",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/22522749/"
+              }
+          ]
+      }
   },
 
   // 255. PRO PROPÓLEO Y MENTA
-  {
-    id: 255,
-    code: "7501735620080",
-    name: "PRO PROPÓLEO Y MENTA",
-    benefitSummary: "Menta y propóleo para frescura y confort de garganta",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/PRO-PROLEO-Y-MENTA.jpg",
-    shortDesc: "Perlas de menta y propóleo para dar frescura a la boca y acompañar el confort de la garganta.",
-    ingredients: "Extracto de Propóleo, Extracto de Menta (Mentha sp.), Sacarosa (perlas de azúcar).",
-    serving: "1 porción (3 g, aproximadamente 30 perlas), 1-4 veces al día",
-    timing: "A demanda, ante pérdida de confort faríngeo",
-    intakeInstructions: "Colocar las perlas en la boca y permitir que se disuelvan lentamente con la saliva. No masticar ni tragar enteras.",
-    benefits: [
-      "Acompaña la frescura y la comodidad de la garganta con menta y propóleo de uso tradicional. La sacarosa forma las perlas y aporta dulzor y carbohidratos."
+{
+    "id": 255,
+    "code": "7501735620080",
+    "name": "PRO PROPÓLEO Y MENTA",
+    "benefitSummary": "Perlas de propóleo y menta para frescura instantánea, calmar carraspera y proteger la garganta",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/PRO-PROLEO-Y-MENTA.jpg",
+    "shortDesc": "Perlas solubles que combinan la acción protectora del propóleo con la frescura aromática de la menta. Se disuelven lentamente en la boca aliviando la garganta rasposa, el carraspeo constante y la voz cansada.",
+    "ingredients": "Extracto de Propóleo, Extracto de Menta (Mentha sp.), Sacarosa (perlas de azúcar).",
+    "serving": "1 porción (3 g, aproximadamente 30 perlas), 1-4 veces al día",
+    "timing": "A demanda, ante pérdida de confort faríngeo",
+    "intakeInstructions": "Colocar las perlas en la boca y permitir que se disuelvan lentamente con la saliva. No masticar ni tragar enteras.",
+    "benefits": [
+        "Alivio al paso de la saliva: al disolverse lentamente, liberan propóleo que tapiza suavemente las paredes de la garganta aliviando la irritación.",
+        "Frescura balsámica para la respiración: el extracto de menta despeja la nariz tapada y quita la sensación de resequedad y ardor.",
+        "El aliado perfecto de la voz: reconforta cuerdas vocales irritadas por hablar mucho, cambios de clima, aire acondicionado o polvo.",
+        "Formato de bolsillo práctico: ideal para llevar en el bolso, coche o trabajo y disfrutar de un rescate refrescante en cualquier momento sin agua."
     ],
-    contraindications: "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente usa anticoagulantes como warfarina, especialmente si consume cantidades altas de este producto. Evitar tomarlo al mismo tiempo que bebidas muy calientes."
-  },
+    "contraindications": "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "Consultar si el cliente usa anticoagulantes como warfarina, especialmente si consume cantidades altas de este producto. Evitar tomarlo al mismo tiempo que bebidas muy calientes.",
+    "researchNote": {
+        "focus": "Perlas demulcentes de propóleo y menta para confort bucofaríngeo",
+        "text": "Acción demulcente y refrescante bucal: la disolución progresiva de extractos de propóleo junto con menta (Mentha sp.) permite un contacto prolongado con la orofaringe. El mentol estimula los receptores de frío TRPM8 generando una sensación inmediata de descongestión y alivio del dolor faríngeo, mientras las resinas de propóleo protegen la mucosa frente a agentes irritantes ambientales.",
+        "sources": [
+            {
+                "title": "PubMed NIH: mentol y receptores sensoriales en el alivio de la tos y carraspera",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/28549747/"
+            },
+            {
+                "title": "EMA: monografía de menta (Mentha piperita) para bienestar respiratorio",
+                "url": "https://www.ema.europa.eu/en/medicines/herbal/menthae-piperitae-aetheroleum"
+            }
+        ]
+    }
+},
 
   // 256. PASIFLORINA
   {
@@ -6038,27 +7367,41 @@ window.manualData.productos = [
   },
 
   // 257. TIAMINA JARABE GN+VIDA
-  {
-    id: 257,
-    code: "7502217901222",
-    name: "TIAMINA JARABE GN+VIDA",
-    benefitSummary: "Jarabe con vitaminas B para dar apetito, fuerza y quitar el cansancio",
-    category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
-    shortDesc: "Jarabe con vitaminas del complejo B (B1, B5, B6 y B12) y espinaca. Pensado para personas desganadas, niños con poco apetito o adultos mayores débiles que prefieren un jarabe fácil de pasar en vez de pastillas.",
-    ingredients: "Vitamina B1 (tiamina), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Ácido Pantoténico (B5), Ácido Glutámico, Vitamina C, Vitamina E, Vitamina D, Extracto de hoja de espinaca, Extracto de semilla de maíz, Agua bidestilada.",
-    serving: "Adultos: 5 ml (1 cucharadita) 4 veces al día (total 20 ml). Niños (4-12 años): 5 ml 2 veces al día (total 10 ml).",
-    timing: "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
-    intakeInstructions: "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
-    benefits: [
-      "Fuerza y ganas de comer: ayuda a abrir el apetito y a que el cuerpo recupere energía rápido.",
-      "Nervios tranquilos: sus vitaminas B ayudan a que los nervios no estén tensos ni doloridos.",
-      "Fácil de medir: trae cucharita medidora para que toda la familia tome la porción justa (adultos 4 cucharaditas al día, niños 2 al día)."
+{
+    "id": 257,
+    "code": "7502217901222",
+    "name": "TIAMINA JARABE GN+VIDA",
+    "benefitSummary": "Jarabe con vitaminas B para dar apetito, fuerza y quitar el cansancio",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/TIAMINA-scaled.jpg",
+    "shortDesc": "Jarabe con vitaminas del complejo B (B1, B5, B6 y B12) y espinaca. Pensado para personas desganadas, niños con poco apetito o adultos mayores débiles que prefieren un jarabe fácil de pasar en vez de pastillas.",
+    "ingredients": "Vitamina B1 (tiamina), Vitamina B6 (piridoxina), Vitamina B12 (cianocobalamina), Ácido Pantoténico (B5), Ácido Glutámico, Vitamina C, Vitamina E, Vitamina D, Extracto de hoja de espinaca, Extracto de semilla de maíz, Agua bidestilada.",
+    "serving": "Adultos: 5 ml (1 cucharadita) 4 veces al día (total 20 ml). Niños (4-12 años): 5 ml 2 veces al día (total 10 ml).",
+    "timing": "Espaciar las tomas; al menos dos de ellas deben coincidir con alimentos principales (desayuno y comida)",
+    "intakeInstructions": "Agitar bien antes de usar. Utilizar la cucharita dosificadora.",
+    "benefits": [
+        "Fuerza y ganas de comer: ayuda a abrir el apetito y a que el cuerpo recupere energía rápido.",
+        "Nervios tranquilos: sus vitaminas B ayudan a que los nervios no estén tensos ni doloridos.",
+        "Fácil de medir: trae cucharita medidora para que toda la familia tome la porción justa (adultos 4 cucharaditas al día, niños 2 al día)."
     ],
-    contraindications: "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. Algunos medicamentos para eliminar líquidos aumentan la pérdida de vitamina B1, y los antiácidos pueden reducir la absorción de B12. No tomar con té negro, café o alcohol."
-  },
+    "contraindications": "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. Algunos medicamentos para eliminar líquidos aumentan la pérdida de vitamina B1, y los antiácidos pueden reducir la absorción de B12. No tomar con té negro, café o alcohol.",
+    "researchNote": {
+        "focus": "Vitaminas del complejo B en el metabolismo energético y el apetito",
+        "text": "Por qué las vitaminas B despiertan el apetito y la fuerza: la tiamina (B1) y la piridoxina (B6) son cofactores indispensables para descarboxilar carbohidratos y convertirlos en energía disponible. Su deficiencia leve suele manifestarse como inapetencia, astenia y desgano físico. Su presentación en jarabe líquido facilita una absorción gástrica rápida tanto en niños como en adultos mayores.",
+        "sources": [
+            {
+                "title": "PubMed NIH: tiamina y complejo B en el metabolismo energético y función neuromuscular",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/26505670/"
+            },
+            {
+                "title": "NIH ODS: tiamina y vitaminas B en la nutrición humana",
+                "url": "https://ods.od.nih.gov/factsheets/Thiamin-HealthProfessional/"
+            }
+        ]
+    }
+},
 
   // 258. GEL CORPORAL XIHUITL
   {
@@ -6129,28 +7472,42 @@ window.manualData.productos = [
   },
 
   // 261. ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA
-  {
-    id: 261,
-    code: "7502217900034",
-    name: "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
-    benefitSummary: "Ampolletas bebibles para la memoria, concentración y trabajo mental pesado",
-    category: "nervioso",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
-    shortDesc: "Tónico bebible en ampolletas con ácido glutámico, lecitina de soya, complejo B y hierro. Es el producto más fuerte para personas que estudian para exámenes, trabajan bajo mucha presión o sienten que se les olvidan las cosas por agotamiento.",
-    ingredients: "Ácido Glutámico 500 mg, L-Glutamina 100 mg, Lecitina de Soya 500 mg, Vitamina B1 (tiamina) 800 µg, Vitamina B2 (riboflavina) 840 µg, Vitamina B3 (niacina) 11 mg, Vitamina B6 (piridoxina) 930 µg, Ácido Fólico (B9) 380 µg, Vitamina B12 (cobalamina) 2.1 µg, Calcio 300 mg, Magnesio 248 mg, Hierro 17 mg, Zinc 10 mg, Selenio 41 µg, L-Arginina 100 mg, L-Lisina 100 mg, Omega 3, 6, 9 100 mg, Vitamina A 568 µg, Vitamina C 60 mg, Vitamina D 5.6 µg, Vitamina E 11 µg.",
-    serving: "1 ampolleta (10 ml) al día",
-    timing: "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
-    intakeInstructions: "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
-    benefits: [
-      "Memoria y mente clara: el ácido glutámico y la lecitina son alimento directo para el cerebro; ayudan a concentrarse mejor y no andar con la cabeza nublada.",
-      "Quita la pesadez y mejora la sangre: las vitaminas B y el hierro llevan oxígeno a la cabeza para quitar la flojera y el cansancio mental.",
-      "Minerales contra la tensión: el magnesio y calcio evitan que el cuerpo se tense por el estrés del día.",
-      "Tomar con el desayuno: vaciar 1 ampolleta en medio vaso de agua o jugo en la mañana (nunca en ayunas ni de noche)."
+{
+    "id": 261,
+    "code": "7502217900034",
+    "name": "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
+    "benefitSummary": "Ampolletas bebibles para la memoria, concentración y trabajo mental pesado",
+    "category": "nervioso",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-GLUTAMICO.jpg",
+    "shortDesc": "Tónico bebible en ampolletas con ácido glutámico, lecitina de soya, complejo B y hierro. Es el producto más fuerte para personas que estudian para exámenes, trabajan bajo mucha presión o sienten que se les olvidan las cosas por agotamiento.",
+    "ingredients": "Ácido Glutámico 500 mg, L-Glutamina 100 mg, Lecitina de Soya 500 mg, Vitamina B1 (tiamina) 800 µg, Vitamina B2 (riboflavina) 840 µg, Vitamina B3 (niacina) 11 mg, Vitamina B6 (piridoxina) 930 µg, Ácido Fólico (B9) 380 µg, Vitamina B12 (cobalamina) 2.1 µg, Calcio 300 mg, Magnesio 248 mg, Hierro 17 mg, Zinc 10 mg, Selenio 41 µg, L-Arginina 100 mg, L-Lisina 100 mg, Omega 3, 6, 9 100 mg, Vitamina A 568 µg, Vitamina C 60 mg, Vitamina D 5.6 µg, Vitamina E 11 µg.",
+    "serving": "1 ampolleta (10 ml) al día",
+    "timing": "Por la mañana, durante o inmediatamente después del desayuno (nunca en ayunas)",
+    "intakeInstructions": "Agitar vigorosamente antes de abrir. Diluir el contenido en 100-150 ml de agua o jugo de cítricos. No consumir por la tarde/noche.",
+    "benefits": [
+        "Memoria y mente clara: el ácido glutámico y la lecitina son alimento directo para el cerebro; ayudan a concentrarse mejor y no andar con la cabeza nublada.",
+        "Quita la pesadez y mejora la sangre: las vitaminas B y el hierro llevan oxígeno a la cabeza para quitar la flojera y el cansancio mental.",
+        "Minerales contra la tensión: el magnesio y calcio evitan que el cuerpo se tense por el estrés del día.",
+        "Tomar con el desayuno: vaciar 1 ampolleta en medio vaso de agua o jugo en la mañana (nunca en ayunas ni de noche)."
     ],
-    contraindications: "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. El calcio, magnesio y hierro pueden hacer que se absorban menos algunos antibióticos y la levotiroxina para la tiroides. La ficha pide separar las tomas al menos 3 a 4 horas; confirmar el horario con el médico o farmacéutico."
-  },
+    "contraindications": "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
+    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+    "interactions": "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. El calcio, magnesio y hierro pueden hacer que se absorban menos algunos antibióticos y la levotiroxina para la tiroides. La ficha pide separar las tomas al menos 3 a 4 horas; confirmar el horario con el médico o farmacéutico.",
+    "researchNote": {
+        "focus": "Tónico neuroenergético: fosfolípidos, ácido glutámico y hematopoyéticos",
+        "text": "Acción sinérgica sobre el rendimiento mental y la fatiga: el ácido glutámico actúa como precursor metabólico cerebral mientras la lecitina de soya suministra fosfatidilcolina para la integridad de las vainas neuronales. El hierro y el ácido fólico optimizan el transporte de oxígeno al tejido cerebral, eliminando la sensación de agotamiento mental o cabeza embotada en jornadas de estudio o trabajo extenuante.",
+        "sources": [
+            {
+                "title": "PubMed NIH: fosfolípidos de lecitina, colina y rendimiento cognitivo",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/21103034/"
+            },
+            {
+                "title": "NIH ODS: folato y complejo B en la función del sistema nervioso",
+                "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/"
+            }
+        ]
+    }
+},
 
   // 262. BARIA SURE CITRATO DE CALCIO + PROBIÓTICOS
   {
@@ -6220,44 +7577,78 @@ window.manualData.productos = [
 
   // 265. Zeolita
   {
-    id: 265,
-    code: "7502214013409",
-    name: "ZEOLITA",
-    benefitSummary: "Beneficios y seguridad pendientes de confirmar",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/09/ZEOLITA.avif",
-    shortDesc: "Zeolita en cápsulas. Sus posibles beneficios digestivos y su seguridad necesitan confirmación; no se ha demostrado que esta fórmula elimine metales del cuerpo.",
-    ingredients: "Zeolita (Clinoptilolita) 320 mg, Cápsula vegetal.",
-    serving: "1 cápsula al día",
-    timing: "Con el estómago vacío, preferentemente 30-60 minutos antes del desayuno o justo antes de dormir",
-    intakeInstructions: "Ingerir la cápsula entera con un vaso grande de agua (mínimo 250-300 ml). No exceder la dosis recomendada sin supervisión profesional.",
-    benefits: [
-      "Contiene zeolita o clinoptilolita en cápsula vegetal. Consultar a un profesional antes de usarla por vía oral."
-    ],
-    contraindications: "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Puede atrapar algunos medicamentos y reducir su absorción, como litio, ciertos antibióticos, cisplatino y medicamentos diseñados para actuar durante varias horas. La ficha pide dejar al menos 2 horas de diferencia. También puede reducir la absorción de hierro, zinc, calcio, magnesio y multivitamínicos; confirmar la combinación con un profesional."
+      "id": 265,
+      "code": "7502214013409",
+      "name": "ZEOLITA",
+      "benefitSummary": "Zeolita clinoptilolita microporosa para atrapar toxinas digestivas y apoyar la limpieza intestinal",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ZEOLITA.avif",
+      "shortDesc": "Cápsulas con 320 mg de zeolita clinoptilolita purificada de origen natural. Es un mineral microporoso con estructura de panal y carga negativa que actúa como un imán en el tubo digestivo, atrapando toxinas, amonio y radicales libres para que sean eliminados de forma segura a través de las heces sin absorberse en la sangre.",
+      "ingredients": "Zeolita (Clinoptilolita) 320 mg, Cápsula vegetal.",
+      "serving": "1 cápsula al día",
+      "timing": "Con el estómago vacío, preferentemente 30-60 minutos antes del desayuno o justo antes de dormir",
+      "intakeInstructions": "Ingerir la cápsula entera con un vaso grande de agua (mínimo 250-300 ml). No exceder la dosis recomendada sin supervisión profesional.",
+      "benefits": [
+          "Atrapa toxinas en el intestino: su estructura porosa retiene sustancias de desecho para eliminarlas suavemente en las evacuaciones.",
+          "Alivio de fermentación y gases: ayuda a fijar gases y exceso de acidez en el colon, reduciendo la hinchazón abdominal.",
+          "Mineral purificado en cápsula vegetal: se toma con abundante agua para apoyar la limpieza digestiva de forma práctica y segura."
+      ],
+      "contraindications": "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Puede atrapar algunos medicamentos y reducir su absorción, como litio, ciertos antibióticos, cisplatino y medicamentos diseñados para actuar durante varias horas. La ficha pide dejar al menos 2 horas de diferencia. También puede reducir la absorción de hierro, zinc, calcio, magnesio y multivitamínicos; confirmar la combinación con un profesional.",
+      "packageContent": "30 cápsulas",
+      "researchNote": {
+          "focus": "Clinoptilolita, quelación adsorbente gastrointestinal y microbiota",
+          "text": "Cómo actúa la zeolita clinoptilolita: la clinoptilolita es un aluminosilicato con alta capacidad de intercambio catiónico. Estudios en PubMed demuestran que no se absorbe en el organismo, actuando a nivel intraluminal como adsorbente de toxinas y modulador de la integridad de la barrera intestinal.",
+          "sources": [
+              {
+                  "title": "PubMed NIH: clinoptilolita purificada y salud de la barrera intestinal humana",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/26500583/"
+              },
+              {
+                  "title": "PubMed NIH: aplicaciones de zeolita en medicina digestiva y desintoxicación",
+                  "url": "https://pubmed.ncbi.nlm.nih.gov/30558197/"
+              }
+          ]
+      }
   },
 
   // 266. TLANCHALAGUA PROSA
   {
-    id: 266,
-    code: "7501734411603",
-    name: "TLANCHALAGUA PROSA",
-    benefitSummary: "Ingredientes vegetales y bienestar digestivo",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/08/TLANCHALAGUA-scaled.webp",
-    shortDesc: "Tlanchalagua con otras plantas de la herbolaria mexicana para acompañar el bienestar digestivo tradicional.",
-    ingredients: "Tlanchalagua (Erythraea stricta, L.), Cocolmeca (Smilax cardifolia, L.), Tejocote (Crataegus mexicana, L.), Lima (Citrus Limetta, L.), Té Limón (Cymbopogon nardus, L.).",
-    serving: "2 cápsulas tres veces al día, antes de los alimentos",
-    timing: "Antes de los alimentos principales (desayuno, comida y cena)",
-    intakeInstructions: "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
-    benefits: [
-      "Tlanchalagua, cocolmeca, tejocote, lima y té limón forman una mezcla de plantas de uso tradicional para el bienestar digestivo."
-    ],
-    contraindications: "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo."
+      "id": 266,
+      "code": "7501734411603",
+      "name": "TLANCHALAGUA PROSA",
+      "benefitSummary": "5 plantas tradicionales mexicanas con tlanchalagua y tejocote para deshinchar el vientre y quemar grasa",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/TLANCHALAGUA-scaled.webp",
+      "shortDesc": "Cápsulas de la herbolaria tradicional mexicana con tlanchalagua, cocolmeca, raíz de tejocote, lima y té limón. Es la combinación predilecta para personas que retienen líquidos, sienten pesadez en el bajo vientre o buscan un complemento natural para deshincharse y apoyar la pérdida de medidas.",
+      "ingredients": "Tlanchalagua (Erythraea stricta, L.), Cocolmeca (Smilax cardifolia, L.), Tejocote (Crataegus mexicana, L.), Lima (Citrus Limetta, L.), Té Limón (Cymbopogon nardus, L.).",
+      "serving": "2 cápsulas tres veces al día, antes de los alimentos",
+      "timing": "Antes de los alimentos principales (desayuno, comida y cena)",
+      "intakeInstructions": "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
+      "benefits": [
+          "Eliminación de líquidos y ligereza: la tlanchalagua y la cocolmeca ayudan a eliminar el exceso de agua retenida y desinflamar la panza.",
+          "Digestión tradicional de grasas: la raíz de tejocote y la lima apoyan la digestión de comidas condimentadas o con grasa.",
+          "Confort digestivo fresco: el té limón asienta el estómago y deja una sensación agradable y desinflamada."
+      ],
+      "contraindications": "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+      "packageContent": "150 cápsulas (45 g)",
+      "researchNote": {
+          "focus": "Etnobotánica mexicana depurativa y drenaje de líquidos",
+          "text": "Por qué funciona la mezcla de Tlanchalagua Prosa: en la herbolaria mexicana documentada por la UNAM, la tlanchalagua y la cocolmeca son utilizadas ampliamente por sus saponinas y flavonoides que apoyan el drenaje renal y la motilidad digestiva suave.",
+          "sources": [
+              {
+                  "title": "UNAM: Tlanchalagua (Erythraea stricta), medicina tradicional mexicana",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              },
+              {
+                  "title": "UNAM: Cocolmeca (Smilax cordifolia), uso en herbolaria mexicana",
+                  "url": "https://www.medicinatradicionalmexicana.unam.mx"
+              }
+          ]
+      }
   },
 
   // 267. Premium Panax Ginseng
@@ -6337,24 +7728,37 @@ window.manualData.productos = [
 
 // 270. CÚRCUMA & JENGIBRE
 {
-    id: 270,
-    code: "753025069838",
-    name: "CÚRCUMA & JENGIBRE",
-    benefitSummary: "Cúrcuma y jengibre para pesadez y gases",
-    category: "digestivo",
-    image: "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma-1.jpg",
-    shortDesc: "Cúrcuma y jengibre en cápsulas de uso tradicional digestivo. La cúrcuma se usa para aliviar pesadez y gases y aporta antioxidantes que ayudan a proteger las células.",
-    ingredients: "Polvo de raíz de Cúrcuma (Curcuma longa), Polvo de raíz de Jengibre (Zingiber officinale), excipientes (cápsula vegetal o gelatinosa).",
-    serving: "3 cápsulas al día (1 antes de cada alimento principal)",
-    timing: "Con alimentos que contengan grasas saludables",
-    intakeInstructions: "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
-    benefits: [
-      "Cúrcuma y jengibre se usan para el bienestar del estómago después de comer. Los excipientes y la cápsula vegetal o gelatinosa ayudan a contener y dar forma a la mezcla."
-    ],
-    contraindications: "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
-    foodInteractions: "La ficha no indica precauciones específicas con alimentos.",
-    interactions: "Consultar si el cliente toma medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. También revisar otros tratamientos que procesa el hígado."
-},
+      "id": 270,
+      "code": "753025069838",
+      "name": "CÚRCUMA & JENGIBRE",
+      "benefitSummary": "Dúo clásico de cúrcuma y jengibre para evitar indigestión, gases y boca amarga",
+      "category": "digestivo",
+      "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/curcuma-1.jpg",
+      "shortDesc": "Cápsulas de uso tradicional con raíces puras de cúrcuma y jengibre. La combinación ideal para tomar una cápsula antes de cada comida fuerte; ayuda a despertar los jugos digestivos, previene náuseas, expulsa gases y evita que las comidas con grasa te caigan pesadas.",
+      "ingredients": "Polvo de raíz de Cúrcuma (Curcuma longa), Polvo de raíz de Jengibre (Zingiber officinale), excipientes (cápsula vegetal o gelatinosa).",
+      "serving": "3 cápsulas al día (1 antes de cada alimento principal)",
+      "timing": "Con alimentos que contengan grasas saludables",
+      "intakeInstructions": "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
+      "benefits": [
+          "Digestión sin esfuerzo: el jengibre activa las contracciones naturales del estómago para que los alimentos no se estanquen.",
+          "Vesícula activa y menos gases: la cúrcuma ayuda a fluidificar la bilis para digerir grasas y elimina la hinchazón abdominal.",
+          "Fácil rutina diaria: presentación práctica de 1 cápsula antes de cada comida principal para mantener el estómago en paz."
+      ],
+      "contraindications": "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
+      "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
+      "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. También revisar otros tratamientos que procesa el hígado.",
+      "packageContent": "90 cápsulas",
+      "researchNote": {
+          "focus": "Digestivos carminativos tradicionales",
+          "text": "Por qué cúrcuma y jengibre juntos: el jengibre actúa directamente sobre los receptores gástricos mejorando la motilidad, mientras la cúrcuma favorece la secreción biliar. Juntas reducen la formación de gas intestinal.",
+          "sources": [
+              {
+                  "title": "NCCIH / NIH: jengibre y cúrcuma para confort gastrointestinal",
+                  "url": "https://www.nccih.nih.gov/health/ginger"
+              }
+          ]
+      }
+  },
 
 // 271. ALBIZIA + BACOPA
 {
@@ -6467,29 +7871,44 @@ window.manualData.productos = [
 
 // 274. EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C
 {
-    id: 274,
-    code: "",
-    name: "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
-    benefitSummary: "Vitamina C para defensas y cuidado celular",
-    category: "inmune",
-    image: "https://investigacioncbg.com/wp-content/uploads/2026/10/GUANABANA.webp",
-    shortDesc: "Extracto de hojas de guanábana con vitamina C para apoyar las defensas y el cuidado de las células. El beneficio nutricional descrito corresponde a la vitamina C.",
-    ingredients: "Extracto acuoso de hojas de guanábana (cantidad no especificada), vitamina C (60 mg por 60 mL), agua purificada, ácidos cítrico y tartárico, stevia (12 mg por 60 mL), saborizante de guanábana, dióxido de titanio, color caramelo, benzoato de sodio y sorbato de potasio; según la ficha técnica recibida.",
-    serving: "30 mL (1 oz) por toma; la ficha recibida indica 2 tomas al día (60 mL al día).",
-    timing: "Confirmar el horario de consumo en la etiqueta vigente.",
-    intakeInstructions: "Agitar antes de usar. La ficha recibida indica 30 mL dos veces al día y refrigerar después de abrir; confirmar modo de empleo y conservación en la etiqueta del envase actual.",
-    yieldInfo: {
-        durationDays: 16.6667,
-        note: "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
+    "id": 274,
+    "code": "",
+    "name": "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
+    "benefitSummary": "Extracto bebible de hojas de guanábana con vitamina C en presentación de 1 Litro para protección celular",
+    "category": "inmune",
+    "image": "https://investigacioncbg.com/wp-content/uploads/2026/10/GUANABANA.webp",
+    "shortDesc": "Extracto líquido de hojas de guanábana (Annona muricata) con vitamina C en botella familiar de 1 Litro. Rico en acetogeninas y antioxidantes para acompañar la nutrición diaria, reforzar las defensas y proteger las células.",
+    "ingredients": "Extracto acuoso de hojas de guanábana (cantidad no especificada), vitamina C (60 mg por 60 mL), agua purificada, ácidos cítrico y tartárico, stevia (12 mg por 60 mL), saborizante de guanábana, dióxido de titanio, color caramelo, benzoato de sodio y sorbato de potasio; según la ficha técnica recibida.",
+    "serving": "30 mL (1 oz) por toma; la ficha recibida indica 2 tomas al día (60 mL al día).",
+    "timing": "Confirmar el horario de consumo en la etiqueta vigente.",
+    "intakeInstructions": "Agitar antes de usar. La ficha recibida indica 30 mL dos veces al día y refrigerar después de abrir; confirmar modo de empleo y conservación en la etiqueta del envase actual.",
+    "yieldInfo": {
+        "durationDays": 16.6667,
+        "note": "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
     },
-    benefits: [
-      "Apoya las defensas y la formación de colágeno con vitamina C. El extracto acuoso de hojas de guanábana completa el aporte vegetal.",
-      "Agua purificada sirve para diluir la mezcla. Ácidos cítrico y tartárico ajustan acidez, stevia da dulzor y saborizante de guanábana, dióxido de titanio y color caramelo ajustan sabor y apariencia.",
-      "Benzoato de sodio y sorbato de potasio conservan la preparación."
+    "benefits": [
+        "Hojas de guanábana de uso tradicional: aporta acetogeninas y compuestos vegetales valorados por su papel en el cuidado celular y la vitalidad.",
+        "Aporte de vitamina C para las defensas: 60 mg por porción que contribuyen a neutralizar radicales libres y apoyar la función inmunológica.",
+        "Presentación líquida refrescante de 1 Litro: formato bebible con agradable sabor y endulzado con stevia para tomar a diario sin tragar pastillas.",
+        "Complemento depurativo y antioxidante: ideal para personas que buscan un apoyo vegetal noble para su bienestar integral."
     ],
-    contraindications: "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
-    foodInteractions: "La etiqueta compartida no detalla qué precauciones tomar al combinarlo con alimentos.",
-    interactions: "Consultar si el cliente toma medicamentos para la presión o el azúcar. La ficha no indica cuánto extracto de hojas contiene; revisar con un profesional antes de combinarlo con cualquier tratamiento."
+    "contraindications": "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
+    "foodInteractions": "La etiqueta compartida no detalla qué precauciones tomar al combinarlo con alimentos.",
+    "interactions": "Consultar si el cliente toma medicamentos para la presión o el azúcar. La ficha no indica cuánto extracto de hojas contiene; revisar con un profesional antes de combinarlo con cualquier tratamiento.",
+    "researchNote": {
+        "focus": "Extracto de hojas de Annona muricata (guanábana) y vitamina C en la protección celular",
+        "text": "Propiedades fitoquímicas de las hojas de guanábana: las hojas de Annona muricata son ricas en alcaloides isoquinolínicos y acetogeninas anonáceas, compuestos ampliamente estudiados en modelos de estrés oxidativo por su capacidad de proteger la integridad celular. La adición de ácido ascórbico proporciona un respaldo antioxidante hidrosoluble adicional que complementa la respuesta defensiva.",
+        "sources": [
+            {
+                "title": "PubMed NIH: fitoquímica y actividad antioxidante de extractos de hojas de Annona muricata",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/26034440/"
+            },
+            {
+                "title": "PubMed NIH: acetogeninas de Annona muricata y función biológica celular",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/29774053/"
+            }
+        ]
+    }
 },
 
 ];

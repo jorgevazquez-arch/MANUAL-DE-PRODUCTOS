@@ -1,0 +1,1022 @@
+{
+  "date": "2026-11-17",
+  "scope": "Publicación de los cambios locales solicitados hasta laxantes, incluido el diseño de la leyenda, la agrupación digestiva y hepática y las fuentes incorporadas.",
+  "changedProducts": 89,
+  "categoryChanges": [
+    {
+      "id": 43,
+      "name": "CARSYL GREEN",
+      "from": "clinico",
+      "to": "digestivo"
+    },
+    {
+      "id": 115,
+      "name": "YUMEL SIMILA",
+      "from": "clinico",
+      "to": "digestivo"
+    },
+    {
+      "id": 226,
+      "name": "CARSYL GREEN JARABE 80 ML",
+      "from": "clinico",
+      "to": "digestivo"
+    },
+    {
+      "id": 254,
+      "name": "YUMEL TASAY INKA",
+      "from": "clinico",
+      "to": "digestivo"
+    }
+  ],
+  "changes": [
+    {
+      "id": 2,
+      "name": "COCONUT + OREGANO OIL (60 cápsulas)",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "CUACHALALATE + TEPEZCOHUITE",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "CURCUMA, JENGIBRE Y MORINGA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "CÚRCUMA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "researchNote",
+        "benefits"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "ACEITE DE ORÉGANO (20 ml)",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "AJO NEGRO CON PROPÓLEO",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "ALOE VERA CON ARANDANO",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "ALOE VERA LIQUIDO TROPICAL",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "CARSYL GREEN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "category",
+        "image",
+        "shortDesc",
+        "ingredients",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "CLOROFILA LÍQUIDA Y HIERBABUENA (500 ml)",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "D3 1000 UI + VITAMINA C & EQUINÁCEA",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "DEMOGRASS CLÁSICO",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "DEMOGRASS PLUS",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "DT GREEN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "ENDIS",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "EQUINACEA Y VITAMINA C",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "FENOGRECO",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "FLOR-ESSENCE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "FUNGONE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "GENTILAX",
+      "category": "laxantes",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "GOJIZEN MAX",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "GREEN LX",
+      "category": "laxantes",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "HERCAMPURI",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "timing",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 81,
+      "name": "JENGIBRE",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 85,
+      "name": "L-CARNOSINE ZINC",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 104,
+      "name": "VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS)",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 108,
+      "name": "VITAMINA C-1000 NOW",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 115,
+      "name": "YUMEL SIMILA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "category",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 127,
+      "name": "PETALOS DE ROSA CON VIT C",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 129,
+      "name": "PROBIOTICOS 60 BILLONES 500MG",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 130,
+      "name": "PROBIOTICOS 60 BILLONES MUJERES ZN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Probióticos 100 Billones 500MG ZN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 133,
+      "name": "PROHIMAN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 140,
+      "name": "SÁBILA CON NOPAL Y CUACHALALATE 1L",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 141,
+      "name": "SDOMACHUS 1000 mg",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "researchNote",
+        "benefits"
+      ]
+    },
+    {
+      "id": 144,
+      "name": "SIMILAXOL",
+      "category": "laxantes",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 146,
+      "name": "TÉ PIÑALIM (Infusión)",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 148,
+      "name": "TO ADZEN / HIERBA DE SAPO 500 mg",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 151,
+      "name": "ZEN GREENS 200G",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 152,
+      "name": "ZINC CON GINGER",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 153,
+      "name": "ZINC",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 155,
+      "name": "HONIG ABANGREEN LIMON",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 156,
+      "name": "HONIG ABANGREEN AJO NEGRO",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 164,
+      "name": "ALOE VERA NOPAL CON CUACHALALATE",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 170,
+      "name": "TÉ ABANGREEN",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 172,
+      "name": "TÉ CUACHALALATE",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 173,
+      "name": "TÉ HOJA SEN",
+      "category": "laxantes",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 174,
+      "name": "TÉ JENGIBRE CANELA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 175,
+      "name": "TÉ JENGIBRE Y CÚRCUMA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 176,
+      "name": "TÉ MANZANILLA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 178,
+      "name": "QUERCETIN",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 179,
+      "name": "BACAO GREEN JARABE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 184,
+      "name": "ZENMUN",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 185,
+      "name": "ASTRÁGALO",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 186,
+      "name": "CALOSTRO BOVINO",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 187,
+      "name": "CÉLULAS MADRE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 188,
+      "name": "EXTRACTO DE PROPÓLEO ABAGREEN",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 189,
+      "name": "TÉ JOUNKINS LAX",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 190,
+      "name": "DEMOGRASS LX+",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 197,
+      "name": "TÉ PIÑALIM PLUS",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 198,
+      "name": "SÁBILA 1 LT PROSA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 200,
+      "name": "D MASTER",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 201,
+      "name": "CUATECOMATE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 202,
+      "name": "SUPER COLOSTRUM NOW",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 208,
+      "name": "CÁPSULAS DE ACEITE DE ORÉGANO",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 212,
+      "name": "GLUCONATO DE ZINC PRONACEN",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 221,
+      "name": "SUKUNAI KIROS MAX",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 222,
+      "name": "PIÑALINAZA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 224,
+      "name": "ACEITE DE ORÉGANO GOTAS ORE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 226,
+      "name": "CARSYL GREEN JARABE 80 ML",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "category",
+        "shortDesc",
+        "timing",
+        "intakeInstructions",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 246,
+      "name": "L-GLUTAMINE + NAG",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 229,
+      "name": "OMEGA INFANTIL PRONAT",
+      "category": "nervioso",
+      "fields": [
+        "researchNote"
+      ]
+    },
+    {
+      "id": 231,
+      "name": "TÓNICO INDIO TZAPOTLATENA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 233,
+      "name": "DIETERS DRINK",
+      "category": "laxantes",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 235,
+      "name": "NOPAL PROSA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 236,
+      "name": "SÁBILA Y NOPAL PROSA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 242,
+      "name": "PREBIAN",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 243,
+      "name": "PULMOBRON MIEL",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 244,
+      "name": "SUKUNAI KIROS BLUE",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 248,
+      "name": "FORTI Q OSITOS",
+      "category": "nervioso",
+      "fields": [
+        "researchNote"
+      ]
+    },
+    {
+      "id": 251,
+      "name": "COLOSTRUM POWDER",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 254,
+      "name": "YUMEL TASAY INKA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "category",
+        "shortDesc",
+        "timing",
+        "intakeInstructions",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 255,
+      "name": "PRO PROPÓLEO Y MENTA",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 257,
+      "name": "TIAMINA JARABE GN+VIDA",
+      "category": "nervioso",
+      "fields": [
+        "researchNote"
+      ]
+    },
+    {
+      "id": 261,
+      "name": "ÁCIDO GLUTÁMICO, ÁCIDO FÓLICO Y TIAMINA",
+      "category": "nervioso",
+      "fields": [
+        "researchNote"
+      ]
+    },
+    {
+      "id": 265,
+      "name": "ZEOLITA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 266,
+      "name": "TLANCHALAGUA PROSA",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 270,
+      "name": "CÚRCUMA & JENGIBRE",
+      "category": "digestivo",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    },
+    {
+      "id": 274,
+      "name": "EXTRACTO LÍQUIDO DE GUANÁBANA CON VITAMINA C",
+      "category": "inmune",
+      "fields": [
+        "benefitSummary",
+        "shortDesc",
+        "benefits",
+        "researchNote"
+      ]
+    }
+  ],
+  "metadataUpdates": [
+    "Se registran las cuatro reclasificaciones sin cambiar las categorías elegidas por el usuario.",
+    "Se sincronizan los resúmenes, notas y beneficios de la prueba original con el catálogo vigente.",
+    "Se conserva la revisión técnica anterior y se permite ampliar las fuentes sin eliminar las originales."
+  ],
+  "additionalSources": [
+    {
+      "id": 13,
+      "url": "https://www.nccih.nih.gov/health/turmeric"
+    }
+  ]
+}

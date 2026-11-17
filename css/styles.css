@@ -1312,18 +1312,29 @@
 
         .product-sheet-legal > div {
             display: grid;
-            gap: 0.6rem;
+            gap: 0.35rem;
             font-size: inherit;
             line-height: inherit;
         }
 
         .product-sheet-legal-policy {
+            font-size: 0.75rem;
+            line-height: 1.45;
             padding: 0.7rem 0.85rem;
             border: 1px solid currentColor;
             border-left-width: 4px;
             border-radius: 0.5rem;
+            margin-bottom: 0.25rem;
         }
         .product-sheet-legal-policy strong { font-weight: 800; }
+
+        .product-sheet-legal p:not(.product-sheet-legal-policy) {
+            font-size: 0.625rem;
+            line-height: 1.25;
+            letter-spacing: 0.015em;
+            opacity: 0.95;
+            margin: 0;
+        }
 
         @media (max-width: 900px) {
             .product-sheet-hero { grid-template-columns: minmax(14rem, 0.82fr) minmax(0, 1.18fr); }

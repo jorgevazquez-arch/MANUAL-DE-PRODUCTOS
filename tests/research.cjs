@@ -89,7 +89,7 @@ test('la prueba conserva el enfoque y las cantidades de cada fórmula', () => {
         assert(!html.includes(product.researchNote.text), product.name);
         for (const source of product.researchNote.sources) assert(html.includes(source.url), product.name);
     }
-    assert.match(products.find(product => product.id === 13).researchNote.focus, /digestión/);
+    assert.match(products.find(product => product.id === 13).researchNote.focus, /digestión|estomacal/);
     assert.match(products.find(product => product.id === 54).researchNote.focus, /articulaciones/);
     assert.match(products.find(product => product.id === 93).researchNote.focus, /día/);
     assert.match(products.find(product => product.id === 94).researchNote.focus, /nocturno/);
@@ -120,7 +120,10 @@ test('los bloques explican beneficios y conservan las fuentes y la revisión té
         assert.equal(JSON.stringify(product.researchNote), JSON.stringify(change.researchNote), product.name);
         const visible = [product.researchNote.text, ...product.researchNote.sources.map(source => source.title)].join(' ');
         assert(!negativeReview.test(visible), product.name);
-        assert.equal(JSON.stringify(product.researchNote.sources.map(source => source.url)), JSON.stringify(change.previousNote.sources.map(source => source.url)), product.name);
+        const currentSources = new Set(product.researchNote.sources.map(source => source.url));
+        for (const source of change.previousNote.sources) {
+            assert(currentSources.has(source.url), `${product.name}: se perdió una fuente anterior`);
+        }
         assert(change.previousNote.text, product.name);
     }
     const oncology = products.find(product => product.id === 124);

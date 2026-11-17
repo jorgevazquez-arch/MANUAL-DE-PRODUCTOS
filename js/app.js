@@ -121,7 +121,7 @@
 
         const categoryIcons = {
             'all': { emoji: '🛍️', name: 'Todos los productos' },
-            'digestivo': { emoji: '🌿', name: 'Digestivo' },
+            'digestivo': { emoji: '🌿', name: 'Función Digestiva y Hepática' },
             'laxantes': { emoji: '🚽', name: 'Laxantes' },
             'inmune': { emoji: '🛡️', name: 'Inmune' },
             'nervioso': { emoji: '🧠', name: 'Nervioso' },
@@ -147,7 +147,7 @@
         ];
 
         const categoryDescriptions = {
-            'digestivo': "Productos cuyo enfoque principal es el estómago, el intestino y la digestión: enzimas, probióticos, fibras y plantas digestivas. Las fórmulas dirigidas principalmente al estreñimiento están en Laxantes.",
+            'digestivo': "Productos cuyo enfoque principal es el estómago, el intestino, la vesícula y el hígado: enzimas, probióticos, fibras, protectores gástricos y extractos botánicos depurativos. Las fórmulas dirigidas principalmente al estreñimiento están en Laxantes.",
             'laxantes': "Productos cuya ficha se enfoca principalmente en facilitar la evacuación o aliviar el estreñimiento. Revisar la forma y el tiempo de uso indicados para cada fórmula.",
             'inmune': "Fórmulas cuya ficha se enfoca principalmente en las defensas o el confort de las vías respiratorias. La categoría ayuda a ubicarlas; cada ficha explica sus beneficios y límites.",
             'nervioso': "Productos enfocados en relajación, descanso, atención, memoria o funcionamiento de los nervios, según su ficha.",
@@ -164,7 +164,7 @@
         const categoryOrderPdf = { // Títulos actualizados para SECCIÓN 3
             'metabolismo': '3.1. Bienestar Metabólico y Control de Peso',
             'clinico': '3.2. Salud Cardiovascular, Hepática y Urinaria',
-            'digestivo': '3.3. Bienestar Digestivo',
+            'digestivo': '3.3. Función Digestiva y Hepática',
             'laxantes': '3.4. Laxantes y Regularidad Intestinal',
             'locomotor': '3.5. Salud Articular y Ósea',
             'inmune': '3.6. Defensas Naturales y Salud Respiratoria',

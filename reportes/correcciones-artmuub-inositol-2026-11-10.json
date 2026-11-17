@@ -3,11 +3,16 @@
   "reason": "ARTMUUB 1.1 kg tiene enfoque articular y contiene colágeno, cartílago de tiburón, glucosamina y condroitina. La fibra es secundaria. El usuario aclaró que Pure Inositol debe conservarse como estaba, en polvo; se revirtió su cambio a cápsulas. El 11 de noviembre se actualizó Wereke al enfoque tradicional de cuidado del azúcar, con clasificación de metabolismo y apoyo digestivo secundario.",
   "notes": [
     "No se asignan cantidades individuales a los ingredientes articulares sin etiqueta.",
-    "Se conserva la anotación de unidad por verificar de vitamina D en ingredientes."
+    "Se conserva la anotación de unidad por verificar de vitamina D en ingredientes.",
+    "17 de noviembre: CARSYL GREEN y YUMEL, en cápsulas y líquidos, pasan de Clínico a Función Digestiva y Hepática según la reorganización del módulo. La redacción vigente de esas fichas se conserva en la revisión integral."
   ],
   "previousCategories": {
     "30": "nutricional",
-    "223": "digestivo"
+    "43": "clinico",
+    "115": "clinico",
+    "223": "digestivo",
+    "226": "clinico",
+    "254": "clinico"
   },
   "productChanges": [
     {
@@ -37,6 +42,26 @@
       "id": 223,
       "name": "WEREKE PROSA",
       "category": "metabolismo"
+    },
+    {
+      "id": 43,
+      "name": "CARSYL GREEN",
+      "category": "digestivo"
+    },
+    {
+      "id": 115,
+      "name": "YUMEL SIMILA",
+      "category": "digestivo"
+    },
+    {
+      "id": 226,
+      "name": "CARSYL GREEN JARABE 80 ML",
+      "category": "digestivo"
+    },
+    {
+      "id": 254,
+      "name": "YUMEL TASAY INKA",
+      "category": "digestivo"
     }
   ],
   "guideChanges": [

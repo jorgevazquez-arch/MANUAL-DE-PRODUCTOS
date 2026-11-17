@@ -23,12 +23,16 @@
         ]
       },
       "researchNote": {
-        "focus": "Pesadez, gases y digestión lenta",
-        "text": "Bienestar del estómago después de comer: la raíz de cúrcuma se utiliza tradicionalmente para acompañar molestias leves como pesadez, gases y digestión lenta. La EMA recoge este uso digestivo de preparaciones de cúrcuma. Estas cápsulas aportan 1,000 mg de raíz en polvo por porción, una presentación que permite incorporarla a la rutina. La información seleccionada se centra en la comodidad digestiva y en el uso de la raíz, que da identidad a este producto.",
+        "focus": "Flujo biliar y confort estomacal tradicional",
+        "text": "Por qué la raíz de cúrcuma es el digestivo por excelencia: la monografía de la Agencia Europea de Medicamentos (EMA) reconoce el uso tradicional de la raíz de Curcuma longa para aliviar molestias digestivas leves, como sensación de plenitud, digestión lenta y flatulencias, gracias a su acción colerética natural.",
         "sources": [
           {
-            "title": "EMA: raíz de cúrcuma y uso tradicional para molestias digestivas",
+            "title": "EMA: raíz de cúrcuma, uso tradicional para molestias digestivas",
             "url": "https://www.ema.europa.eu/en/medicines/herbal/curcumae-longae-rhizoma"
+          },
+          {
+            "title": "NCCIH / NIH: cúrcuma (Curcuma longa), evidencia y seguridad",
+            "url": "https://www.nccih.nih.gov/health/turmeric"
           }
         ]
       }
