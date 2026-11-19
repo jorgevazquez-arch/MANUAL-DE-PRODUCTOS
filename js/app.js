@@ -1231,18 +1231,33 @@
                         <p class="text-xs font-bold uppercase tracking-wider mt-1" style="color:${catA}">${categoryIcons[p.category]?.name || p.category}</p>
                             </div>
                         </div>
-                        <p class="text-sm text-gray-700 font-normal mb-3 flex-1 line-clamp-3 leading-relaxed">${p.shortDesc}</p>
-                        <p class="advisor-card-choice">${escapeGuideAttribute(p.choiceNote)}</p>
-                        <div class="flex items-center justify-end mt-auto">
-                            <label data-card-control class="gl-checkbox">
-                                <input type="checkbox" class="gl-checkbox__input compare-checkbox" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
-                                <span class="gl-checkbox__box" aria-hidden="true">
-                                    <svg class="gl-checkbox__check" viewBox="0 0 16 16" fill="none">
-                                        <path d="M3 8.25 6.35 11.5 13 4.75" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <span class="gl-checkbox__label">Comparar</span>
-                            </label>
+                        <p class="text-sm text-gray-700 font-normal mb-3 flex-1 line-clamp-2 leading-relaxed">${p.shortDesc}</p>
+                        <div class="mt-auto pt-2.5 border-t border-gray-100/90">
+                            <div class="flex items-center justify-between gap-2">
+                                <details data-card-control class="advisor-card-tip group/tip flex-1">
+                                    <summary class="cursor-pointer list-none select-none inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 bg-emerald-50 hover:bg-emerald-100/80 active:bg-emerald-200/60 border border-emerald-200/90 rounded-full px-2.5 py-1 transition-all">
+                                        <span aria-hidden="true">💡</span>
+                                        <span class="group-open/tip:hidden">Tip de mostrador</span>
+                                        <span class="hidden group-open/tip:inline">Ocultar tip</span>
+                                        <svg class="w-3.5 h-3.5 text-emerald-600 transition-transform duration-200 group-open/tip:rotate-180" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                        </svg>
+                                    </summary>
+                                    <div class="advisor-card-tip-content mt-2 p-2.5 bg-amber-50/95 border border-amber-200 rounded-xl text-xs text-amber-950 leading-relaxed shadow-sm font-normal">
+                                        <strong class="block text-amber-900 font-bold mb-1">💡 Recomendación clave:</strong>
+                                        ${escapeGuideAttribute(p.choiceNote)}
+                                    </div>
+                                </details>
+                                <label data-card-control class="gl-checkbox flex-shrink-0 self-start mt-0.5">
+                                    <input type="checkbox" class="gl-checkbox__input compare-checkbox" data-id="${p.id}" ${compareList.includes(p.id) ? 'checked' : ''} onchange="toggleCompare(${p.id}, this.checked)">
+                                    <span class="gl-checkbox__box" aria-hidden="true">
+                                        <svg class="gl-checkbox__check" viewBox="0 0 16 16" fill="none">
+                                            <path d="M3 8.25 6.35 11.5 13 4.75" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <span class="gl-checkbox__label text-xs">Comparar</span>
+                                </label>
+                            </div>
                         </div>
                         ${matchBadge}
                     </div>

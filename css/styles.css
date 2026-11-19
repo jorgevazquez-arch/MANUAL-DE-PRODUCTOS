@@ -3849,3 +3849,23 @@ html.dark-mode body .advisor-choice-note { background: #2b2b30; border-color: #a
 html.dark-mode body .advisor-alternatives,
 html.dark-mode body .advisor-card-choice { border-color: #45454b; }
 html.dark-mode body :is(.advisor-card-choice, .advisor-relation-description, .advisor-alternatives > p, .advisor-guide-context, .advisor-search-context) { color: #c4c4cc; }
+
+/* Tip de mostrador interactivo en tarjetas de producto */
+.advisor-card-tip summary::-webkit-details-marker { display: none; }
+.advisor-card-tip summary { list-style: none; }
+html.dark-mode body .advisor-card-tip summary {
+    background: #1c2b22 !important;
+    border-color: #264e3b !important;
+    color: #6ee7b7 !important;
+}
+html.dark-mode body .advisor-card-tip summary svg {
+    color: #34d399 !important;
+}
+html.dark-mode body .advisor-card-tip-content {
+    background: #252219 !important;
+    border-color: #53401d !important;
+    color: #fef3c7 !important;
+}
+html.dark-mode body .advisor-card-tip-content strong {
+    color: #fcd34d !important;
+}
