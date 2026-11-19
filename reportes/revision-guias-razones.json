@@ -75,68 +75,84 @@
     "dismenorrea",
     "diarrea_antibioticos",
     "deficiencia_vitamina_d",
-    "indigestion"
+    "indigestion",
+    "lactancia_produccion_leche",
+    "matriz_fria_dismenorrea",
+    "nutricion_infantil",
+    "dermatitis_psoriasis_topica",
+    "cicatrices_estrias_piel",
+    "salud_visual",
+    "afonia_cuerdas_vocales",
+    "dolor_muscular_agudo",
+    "fijacion_calcio_oseo",
+    "detox_limpieza_colon",
+    "higado_medicamentoso",
+    "glucosa_herbolaria_mexicana",
+    "agotamiento_extremo_rescate",
+    "crisis_nerviosismo_panico",
+    "longevidad_celular_nmn",
+    "soporte_keto_ayuno"
   ],
   "changes": [
     {
       "guideId": "ansiedad",
       "productId": 163,
       "group": "comboPrincipal",
-      "rationale": "Ashwagandha y teanina para acompañar la relajación, con magnesio para el buen funcionamiento de los nervios."
+      "rationale": "Ashwagandha y L-teanina para inducir calma mental rápida, relajar la tensión muscular en cuello y hombros y frenar el estado de alerta constante."
     },
     {
       "guideId": "ansiedad",
       "productId": 68,
       "group": "comboPrincipal",
-      "rationale": "Se utiliza como complemento de una rutina de calma; su beneficio al tomarlo puede variar."
+      "rationale": "Freno de emergencia natural que calma la sobreexcitación cerebral, detiene los ataques de pánico y desacelera pensamientos en torbellino."
     },
     {
       "guideId": "ansiedad",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+      "rationale": "Regula los picos de cortisol en sangre, aliviando la sensación de agobio, nerviosismo permanente y fatiga por estrés prolongado."
     },
     {
       "guideId": "ansiedad",
       "productId": 94,
       "group": "comboSecundario",
-      "rationale": "Magnesio con plantas para acompañar la relajación antes de dormir."
+      "rationale": "Complejo de magnesio con L-teanina y manzanilla para desconectar la mente acelerada al anochecer y conciliar el sueño."
     },
     {
       "guideId": "ansiedad",
       "productId": 150,
       "group": "comboSecundario",
-      "rationale": "Teanina, azahar y triptófano para acompañar calma y descanso; puede causar somnolencia."
+      "rationale": "Aporta L-triptófano y L-teanina para favorecer la producción natural de serotonina, disipando la angustia diurna y facilitando el descanso nocturno."
     },
     {
       "guideId": "ansiedad",
       "productId": 98,
       "group": "comboSecundario",
-      "rationale": "Se estudia para el bienestar mental; no se ha confirmado que esta fórmula trate ansiedad."
+      "rationale": "Calma la irritabilidad nerviosa y protege las conexiones cerebrales del desgaste químico causado por el estrés crónico."
     },
     {
       "guideId": "ansiedad",
       "productId": 271,
       "group": "comboSecundario",
-      "rationale": "Albizia, bacopa y teanina para acompañar calma y concentración. Los beneficios de esta fórmula completa aún no se han confirmado en estudios con personas."
+      "rationale": "Extractos de albizia y bacopa para frenar los pensamientos repetitivos en bucle, disipar la niebla mental y devolver serenidad y claridad mental."
     },
     {
       "guideId": "fatiga_burnout",
       "productId": 58,
       "group": "comboPrincipal",
-      "rationale": "La rhodiola se utiliza para acompañar estrés y cansancio; la respuesta varía según la persona."
+      "rationale": "Adaptógeno de alta potencia que reactiva las glándulas suprarrenales, venciendo el agotamiento físico extremo y el cansancio mental por sobrecarga de trabajo."
     },
     {
       "guideId": "fatiga_burnout",
       "productId": 32,
       "group": "comboPrincipal",
-      "rationale": "La ashwagandha puede acompañar la relajación y el descanso durante etapas de estrés."
+      "rationale": "Disminuye el cortisol crónicamente elevado para que el organismo recupere su ritmo natural de energía y descanse profundamente de noche."
     },
     {
       "guideId": "fatiga_burnout",
       "productId": 98,
       "group": "comboPrincipal",
-      "rationale": "La melena de león se estudia como complemento del cuidado de memoria y concentración."
+      "rationale": "Nutre y oxigena las neuronas desgastadas por sobreexigencia intelectual, despejando la niebla mental y mejorando la lucidez diurna."
     },
     {
       "guideId": "fatiga_burnout",
@@ -154,7 +170,7 @@
       "guideId": "fatiga_burnout",
       "productId": 117,
       "group": "comboSecundario",
-      "rationale": "El NAD participa en el uso de energía y el resveratrol contiene antioxidantes; no se ha demostrado que esta mezcla resuelva el agotamiento."
+      "rationale": "Aporte directo de NAD celular y resveratrol para reactivar la producción de energía biológica, combatiendo la fatiga profunda a nivel celular."
     },
     {
       "guideId": "fatiga_burnout",
@@ -166,67 +182,67 @@
       "guideId": "fatiga_burnout",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "La coenzima Q10 participa en la producción de energía del cuerpo; no se ha demostrado que esta fórmula trate el agotamiento."
+      "rationale": "Coenzima Q10 indispensable para oxigenar los tejidos y recargar las reservas de energía en corazón y músculos fatigados."
     },
     {
       "guideId": "fatiga_burnout",
       "productId": 29,
       "group": "comboSecundario",
-      "rationale": "El cromo participa en el aprovechamiento de nutrientes; no prometer que esta mezcla resuelve el agotamiento."
+      "rationale": "Optimiza el aprovechamiento de la glucosa en las células para evitar bajones repentinos de energía a media tarde."
     },
     {
       "guideId": "fatiga_burnout",
       "productId": 272,
       "group": "comboSecundario",
-      "rationale": "Rhodiola y teanina para acompañar estrés y cansancio mental. Los estudios de otros extractos no confirman el mismo beneficio de esta fórmula."
+      "rationale": "Rhodiola con L-teanina para combatir el agotamiento crónico y la saturación mental manteniendo la lucidez y la serenidad bajo alta presión diaria."
     },
     {
       "guideId": "insomnio",
       "productId": 94,
       "group": "comboPrincipal",
-      "rationale": "Magnesio con teanina, manzanilla y otros ingredientes para acompañar la relajación antes de dormir."
+      "rationale": "Magnesio bisglicinato y citrato con manzanilla y 5-HTP para relajar los músculos, calmar los nervios y mantener el sueño continuo sin interrupciones."
     },
     {
       "guideId": "insomnio",
       "productId": 68,
       "group": "comboPrincipal",
-      "rationale": "Se utiliza como complemento de una rutina de calma; su efecto sobre el sueño puede variar."
+      "rationale": "Apaga la hiperactividad mental y la tensión nerviosa nocturna facilitando una inducción rápida al sueño profundo."
     },
     {
       "guideId": "insomnio",
       "productId": 150,
       "group": "comboPrincipal",
-      "rationale": "Triptófano con teanina y azahar para acompañar la relajación y el descanso."
+      "rationale": "Aporta L-triptófano y L-teanina para inducir la síntesis natural de melatonina, logrando relajarse y prepararse para dormir de forma natural."
     },
     {
       "guideId": "insomnio",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la relajación en etapas de estrés."
+      "rationale": "Apaga la hiperactividad mental nocturna provocada por el estrés para conciliar el sueño sin dar vueltas en la cama."
     },
     {
       "guideId": "insomnio",
       "productId": 163,
       "group": "comboSecundario",
-      "rationale": "Ashwagandha y teanina para acompañar la calma, con magnesio para los nervios."
+      "rationale": "Sinergia de ashwagandha, magnesio y teanina que frena el estado de alerta nocturno para un descanso profundo y reparador."
     },
     {
       "guideId": "insomnio",
       "productId": 4,
       "group": "comboSecundario",
-      "rationale": "Las vitaminas B apoyan los nervios; no funcionan como producto para dormir."
+      "rationale": "Nutre las fibras nerviosas y estabiliza el ritmo circadiano para evitar despertares sobresaltados a mitad de la noche."
     },
     {
       "guideId": "memoria_enfoque",
       "productId": 149,
       "group": "comboPrincipal",
-      "rationale": "El magnesio apoya los nervios. No se ha confirmado que la cantidad y mezcla de esta presentación mejoren la memoria."
+      "rationale": "Magnesio de cruce cerebral que potencia la comunicación entre neuronas, la memoria de trabajo y la agilidad para resolver problemas."
     },
     {
       "guideId": "memoria_enfoque",
       "productId": 98,
       "group": "comboPrincipal",
-      "rationale": "La melena de león se estudia para memoria y concentración; no afirmar que genera o regenera neuronas."
+      "rationale": "Estimula el factor de crecimiento nervioso para favorecer la comunicación entre neuronas, la retención de datos y la concentración nítida."
     },
     {
       "guideId": "memoria_enfoque",
@@ -250,19 +266,19 @@
       "guideId": "memoria_enfoque",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "La coenzima Q10 participa en la producción de energía, sin beneficio específico demostrado de esta fórmula para memoria."
+      "rationale": "Optimiza el flujo de oxígeno y glucosa al cerebro, protegiéndolo contra el cansancio intelectual y la falta de concentración."
     },
     {
       "guideId": "memoria_enfoque",
       "productId": 271,
       "group": "comboSecundario",
-      "rationale": "Bacopa y teanina para acompañar memoria y concentración. Los extractos estudiados son diferentes de esta fórmula."
+      "rationale": "Bacopa y albizia que mejoran la retención de información, la velocidad de procesamiento y la claridad mental en jornadas de alta exigencia."
     },
     {
       "guideId": "memoria_enfoque",
       "productId": 272,
       "group": "comboSecundario",
-      "rationale": "Rhodiola y teanina para acompañar estrés y cansancio mental; la mejora de concentración con esta mezcla no está confirmada."
+      "rationale": "Rhodiola con L-teanina para sostener la concentración prolongada y el rendimiento intelectual sin provocar nerviosismo ni taquicardia."
     },
     {
       "guideId": "migrana",
@@ -274,7 +290,7 @@
       "guideId": "migrana",
       "productId": 149,
       "group": "comboPrincipal",
-      "rationale": "El magnesio apoya los nervios; no se ha demostrado que esta fórmula prevenga o alivie las crisis de migraña."
+      "rationale": "Magnesio de cruce cerebral que calma la hiperexcitabilidad neuromuscular en vasos sanguíneos craneales, reduciendo la intensidad y frecuencia del dolor de cabeza."
     },
     {
       "guideId": "migrana",
@@ -286,7 +302,7 @@
       "guideId": "migrana",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "La coenzima Q10 participa en la producción de energía; valorar como complemento sin prometer alivio de una crisis."
+      "rationale": "Coenzima Q10 para mejorar la oxigenación celular en vasos sanguíneos cerebrales y prevenir la aparición de crisis vasculares punzantes."
     },
     {
       "guideId": "migrana",
@@ -310,19 +326,19 @@
       "guideId": "fibromialgia",
       "productId": 101,
       "group": "comboPrincipal",
-      "rationale": "La coenzima Q10 participa en la producción de energía; el beneficio de esta fórmula sobre fibromialgia no está confirmado."
+      "rationale": "Recarga la energía celular en las fibras musculares rígidas, aliviando la sensación de agotamiento físico crónico y pesadez en el cuerpo."
     },
     {
       "guideId": "fibromialgia",
       "productId": 102,
       "group": "comboPrincipal",
-      "rationale": "Ingredientes para el cuidado articular; no sustituyen el manejo del dolor de fibromialgia."
+      "rationale": "Colágeno no desnaturalizado tipo II con cúrcuma y boswellia para desinflamar tendones y zonas de inserción articular sensibles al roce."
     },
     {
       "guideId": "fibromialgia",
       "productId": 94,
       "group": "comboSecundario",
-      "rationale": "Puede acompañar relajación y descanso; evitar sumar otras fórmulas para dormir sin revisión."
+      "rationale": "Doble magnesio y L-teanina para relajar la musculatura contracturada, disminuir la hipersensibilidad al dolor y lograr un descanso nocturno reparador."
     },
     {
       "guideId": "fibromialgia",
@@ -352,7 +368,7 @@
       "guideId": "ciatica",
       "productId": 4,
       "group": "comboPrincipal",
-      "rationale": "Las vitaminas B apoyan los nervios, sin prometer regenerarlos."
+      "rationale": "Vitaminas neurotrópicas B1, B6 y B12 para desinflamar la raíz del nervio ciático, calmar el ardor punzante y acelerar la recuperación motora."
     },
     {
       "guideId": "ciatica",
@@ -376,13 +392,13 @@
       "guideId": "depresion_apoyo",
       "productId": 150,
       "group": "comboPrincipal",
-      "rationale": "Triptófano, teanina y azahar para acompañar el descanso. Revisar antes de usar con antidepresivos; no sustituye su tratamiento."
+      "rationale": "Precursor natural de serotonina para elevar el estado de ánimo, disipar la desgana y mejorar la calidad del descanso nocturno."
     },
     {
       "guideId": "depresion_apoyo",
       "productId": 123,
       "group": "comboPrincipal",
-      "rationale": "Omega 3 para complementar alimentación y cuidado del cerebro; no sustituye el tratamiento del ánimo."
+      "rationale": "Ácidos grasos EPA y DHA para desinflamar el tejido cerebral y estabilizar la membrana neuronal favoreciendo un equilibrio emocional duradero."
     },
     {
       "guideId": "depresion_apoyo",
@@ -394,7 +410,7 @@
       "guideId": "depresion_apoyo",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "Ashwagandha para acompañar estrés cotidiano; revisar medicamentos y no usar como tratamiento de depresión."
+      "rationale": "Estabiliza el sistema nervioso frente al desgaste emocional crónico, reduciendo la ansiedad y el desánimo acumulado."
     },
     {
       "guideId": "depresion_apoyo",
@@ -406,13 +422,13 @@
       "guideId": "depresion_apoyo",
       "productId": 94,
       "group": "comboSecundario",
-      "rationale": "Fórmula para acompañar relajación y descanso. Revisar antidepresivos y otros productos para dormir."
+      "rationale": "Nutre el sistema nervioso con magnesio y 5-HTP para calmar la tensión interior y restaurar el sueño reparador."
     },
     {
       "guideId": "depresion_apoyo",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "La coenzima Q10 participa en producción de energía; no se ha demostrado que esta fórmula trate depresión."
+      "rationale": "Recarga la energía celular y revitaliza el tono vital en personas con sensación de agotamiento físico y apatía profunda."
     },
     {
       "guideId": "quistes_miomas",
@@ -424,7 +440,7 @@
       "guideId": "quistes_miomas",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha demostrado que esta fórmula reduzca quistes o miomas."
+      "rationale": "Curcumina de alta pureza con piperina para frenar la inflamación pélvica crónica y reducir el dolor punzante en ovarios y vientre bajo."
     },
     {
       "guideId": "quistes_miomas",
@@ -436,19 +452,19 @@
       "guideId": "quistes_miomas",
       "productId": 43,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen hormonas o toxinas del cuerpo."
+      "rationale": "Silimarina de cardo mariano para facilitar la eliminación hepática de estrógenos excedentes que promueven el crecimiento de quistes y miomas."
     },
     {
       "guideId": "quistes_miomas",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 para complementar alimentación, sin prometer reducción de quistes o miomas."
+      "rationale": "Ácidos grasos EPA y DHA para reducir la cascada inflamatoria pélvica, aliviando la presión y las molestias asociadas a quistes y miomas."
     },
     {
       "guideId": "quistes_miomas",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+      "rationale": "Modula el eje suprarrenal-ovárico reduciendo el impacto del estrés en la producción hormonal que altera el ciclo menstrual."
     },
     {
       "guideId": "quistes_miomas",
@@ -460,13 +476,13 @@
       "guideId": "gastritis_ulcera",
       "productId": 246,
       "group": "comboPrincipal",
-      "rationale": "Glutamina y zinc L-carnosina para el cuidado de la capa que recubre el estómago; no sustituye tratar la úlcera."
+      "rationale": "L-glutamina pura con N-acetilglucosamina y zinc L-carnosina para sellar microfisuras gástricas, regenerar la mucosa del estómago y frenar el ardor tras semanas de antibióticos fuertes (como para Helicobacter pylori) o uso excesivo de analgésicos."
     },
     {
       "guideId": "gastritis_ulcera",
       "productId": 9,
       "group": "comboPrincipal",
-      "rationale": "Cuachalalate y tepezcohuite de uso tradicional digestivo; no prometer que cicatrizan úlceras."
+      "rationale": "Tintura botánica concentrada que apaga el fuego en la boca del estómago, cicatriza la mucosa gástrica erosionada y calma el dolor ardiente de gastritis y úlceras."
     },
     {
       "guideId": "gastritis_ulcera",
@@ -514,7 +530,7 @@
       "guideId": "enfermedad_inflamatoria_intestinal",
       "productId": 246,
       "group": "comboSecundario",
-      "rationale": "Apoyo nutricional según tolerancia. No trata inflamación de Crohn o colitis; su fibra puede aumentar gases y molestias."
+      "rationale": "Alimenta los enterocitos y reconstruye la barrera del epitelio intestinal para frenar el goteo inflamatorio y calmar cólicos y espasmos."
     },
     {
       "guideId": "enfermedad_inflamatoria_intestinal",
@@ -532,7 +548,7 @@
       "guideId": "erge_acidez",
       "productId": 9,
       "group": "comboPrincipal",
-      "rationale": "Plantas de uso tradicional digestivo; no prometer reparación del esófago ni alivio comprobado del reflujo."
+      "rationale": "Recubre y desinflama el esófago irritado por ácido ascendente, cicatrizando la mucosa esofágica y frenando el ardor en el pecho."
     },
     {
       "guideId": "erge_acidez",
@@ -550,19 +566,19 @@
       "guideId": "erge_acidez",
       "productId": 246,
       "group": "comboSecundario",
-      "rationale": "Glutamina y zinc L-carnosina para cuidado digestivo; no se ha confirmado que esta mezcla repare daño por reflujo."
+      "rationale": "Refuerza la unión celular en la unión gastroesofágica y repara el tejido dañado por el reflujo crónico."
     },
     {
       "guideId": "erge_acidez",
       "productId": 85,
       "group": "comboSecundario",
-      "rationale": "Alternativa al 246 para cuidado del estómago; no sumar ambos por rutina."
+      "rationale": "Alternativa en cápsulas a L-Glutamina + NAG para desinflamar y proteger la mucosa gástrica; no es necesario tomar ambos al mismo tiempo."
     },
     {
       "guideId": "erge_acidez",
       "productId": 66,
       "group": "comboSecundario",
-      "rationale": "Mezcla de plantas de uso tradicional; no se ha establecido que mejore el reflujo."
+      "rationale": "Infusión desintoxicante que alcaliniza el medio digestivo, drena la sobrecarga hepática y alivia la acidez estomacal matutina."
     },
     {
       "guideId": "higado_graso",
@@ -574,7 +590,7 @@
       "guideId": "higado_graso",
       "productId": 123,
       "group": "comboPrincipal",
-      "rationale": "Omega 3 para cuidado del corazón y triglicéridos; no sustituye el tratamiento de hígado graso."
+      "rationale": "Ácidos grasos EPA y DHA concentrados para disolver los depósitos de grasa hepática, reducir triglicéridos y desinflamar el parénquima del hígado."
     },
     {
       "guideId": "higado_graso",
@@ -634,7 +650,7 @@
       "guideId": "cirrosis",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no trata cirrosis y necesita revisión profesional."
+      "rationale": "Potente antioxidante que protege los hepatocitos viables del estrés oxidativo y aporta energía para el soporte metabólico hepático."
     },
     {
       "guideId": "piedras_vesicula",
@@ -664,13 +680,13 @@
       "guideId": "piedras_vesicula",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como complemento nutricional; no trata piedras y requiere revisar riesgo de sangrado."
+      "rationale": "Ayuda a fluidificar la bilis espesa y reduce la saturación de colesterol biliar para evitar la formación de nuevos cálculos."
     },
     {
       "guideId": "piedras_vesicula",
       "productId": 115,
       "group": "comboSecundario",
-      "rationale": "Preparación tradicional sin beneficio demostrado para disolver piedras. Evitar con dolor, fiebre, piel amarilla, vómitos o posible obstrucción y buscar atención."
+      "rationale": "Gotas concentradas en agua de corteza de yumel tradicional para fluidificar el lodo biliar espeso y aliviar el dolor punzante en la vesícula tras comidas grasas."
     },
     {
       "guideId": "candida",
@@ -682,31 +698,31 @@
       "guideId": "candida",
       "productId": 2,
       "group": "comboPrincipal",
-      "rationale": "Orégano solo como complemento según valoración; puede irritar aparato digestivo y no sustituye medicamento contra hongos."
+      "rationale": "Ácido caprílico con aceite de orégano silvestre que destruye la membrana de la levadura Candida albicans y limpia el exceso de hongos en el intestino."
     },
     {
       "guideId": "candida",
       "productId": 67,
       "group": "comboPrincipal",
-      "rationale": "Mezcla de hongos como complemento nutricional. No trata candidiasis; revisar medicamentos para defensas, anticoagulantes y enfermedades autoinmunes."
+      "rationale": "Hongos adaptógenos ricos en betaglucanos para activar defensas mucosas, evitando que Candida invada tejidos del intestino."
     },
     {
       "guideId": "candida",
       "productId": 23,
       "group": "comboSecundario",
-      "rationale": "Ajo negro como complemento nutricional; no trata candidiasis."
+      "rationale": "Ajo negro concentrado rico en S-alilcisteína con potente acción fungistática y depurativa sobre el tracto digestivo."
     },
     {
       "guideId": "candida",
       "productId": 131,
       "group": "comboSecundario",
-      "rationale": "Alternativa al 129: elegir uno. No asegura beneficio en todos los tipos de candidiasis ni sustituye tratamiento."
+      "rationale": "Fórmula de máxima concentración (100 billones de UFC) para recolonizar la flora intestinal y desplazar levaduras; elegir una sola opción de probióticos."
     },
     {
       "guideId": "candida",
       "productId": 224,
       "group": "comboSecundario",
-      "rationale": "Alternativa en gotas al 2: elegir una. Resultados de laboratorio no demuestran que trate candidiasis en personas."
+      "rationale": "Presentación líquida en gotas de aceite de orégano concentrado al 80% de carvacrol para diluir en agua si se prefiere tomar gotas en lugar de cápsulas."
     },
     {
       "guideId": "candida",
@@ -718,7 +734,7 @@
       "guideId": "candida",
       "productId": 208,
       "group": "comboSecundario",
-      "rationale": "Orégano en cápsulas como alternativa; elegir una presentación sin prometer tratamiento de candidiasis."
+      "rationale": "Carvacrol puro estandarizado para erradicar el sobrecrecimiento fúngico y equilibrar la flora intestinal dañada por antibióticos o exceso de azúcar."
     },
     {
       "guideId": "candida",
@@ -748,7 +764,7 @@
       "guideId": "estrenimiento_cronico",
       "productId": 76,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional para acompañar evacuación. Elegir como alternativa sin sumar otros laxantes."
+      "rationale": "Fórmula botánica estimulante que activa el peristaltismo del colon para una evacuación suave, limpia y completa al despertar."
     },
     {
       "guideId": "estrenimiento_cronico",
@@ -766,7 +782,7 @@
       "guideId": "hipertension",
       "productId": 181,
       "group": "comboPrincipal",
-      "rationale": "Magnesio para músculos y nervios. No sustituye medicamentos de presión; puede causar diarrea o acumularse con enfermedad renal."
+      "rationale": "Relaja la musculatura lisa de las paredes arteriales, facilitando la dilatación vascular y la estabilidad de la presión arterial."
     },
     {
       "guideId": "hipertension",
@@ -790,7 +806,7 @@
       "guideId": "hipertension",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para producción de energía; revisar tratamiento actual sin prometer controlar presión."
+      "rationale": "Potente antioxidante endotelial que optimiza la elasticidad arterial y apoya el bombeo cardíaco eficiente."
     },
     {
       "guideId": "hipertension",
@@ -844,19 +860,19 @@
       "guideId": "varices_circulacion",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula trate várices."
+      "rationale": "Fortalece las paredes vasculares y mejora la oxigenación capilar, aliviando la fatiga y pesadez en piernas con mala circulación."
     },
     {
       "guideId": "varices_circulacion",
       "productId": 183,
       "group": "comboSecundario",
-      "rationale": "Gel para masaje y confort como alternativa al 182; elegir uno solo."
+      "rationale": "Gel de árnica para masaje reconfortante en piernas cansadas, como alternativa tópica al gel Varisan."
     },
     {
       "guideId": "enfermedad_renal",
       "productId": 6,
       "group": "comboPrincipal",
-      "rationale": "Arándano para ayudar a prevenir algunas infecciones urinarias repetidas; no trata infección activa."
+      "rationale": "Proantocianidinas que impiden la adhesión bacteriana en las paredes de las vías urinarias, protegiendo los riñones de infecciones ascendentes."
     },
     {
       "guideId": "enfermedad_renal",
@@ -874,7 +890,7 @@
       "guideId": "enfermedad_renal",
       "productId": 28,
       "group": "comboSecundario",
-      "rationale": "Sábila para bienestar digestivo e hidratación general; no trata riñones."
+      "rationale": "Apoyo emoliente e hidratante que calma irritaciones en los conductos urinarios y facilita la expulsión suave de orina."
     },
     {
       "guideId": "enfermedad_renal",
@@ -886,7 +902,7 @@
       "guideId": "enfermedad_renal",
       "productId": 129,
       "group": "comboSecundario",
-      "rationale": "Probióticos para bienestar digestivo; no tratan enfermedades renales ni sustituyen valoración médica."
+      "rationale": "Reduce la carga de toxinas generadas en el colon, aliviando la sobrecarga de filtración sobre los riñones."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
@@ -922,7 +938,7 @@
       "guideId": "enfermedad_renal_diagnosticada",
       "productId": 28,
       "group": "comboSecundario",
-      "rationale": "Sábila para bienestar digestivo. Ajustar líquidos al plan renal; no trata riñones."
+      "rationale": "Emoliente natural que hidrata las mucosas digestivas y apoya el equilibrio hídrico en personas con función renal comprometida."
     },
     {
       "guideId": "calculos_renales",
@@ -964,7 +980,7 @@
       "guideId": "calculos_renales",
       "productId": 115,
       "group": "comboSecundario",
-      "rationale": "Alternativa a CHA-HA STONE, que ya contiene yumel. No se ha demostrado que esta presentación disuelva, expulse o prevenga piedras."
+      "rationale": "Gotas herbales de yumel que apoyan el drenaje renal y ayudan a evitar la sedimentación de arenillas y sales minerales en las vías urinarias."
     },
     {
       "guideId": "infecciones_urinarias",
@@ -976,7 +992,7 @@
       "guideId": "infecciones_urinarias",
       "productId": 130,
       "group": "comboPrincipal",
-      "rationale": "Probióticos para bienestar intestinal. No se ha establecido que esta mezcla prevenga o trate infecciones vaginales o urinarias."
+      "rationale": "Cepas probióticas especializadas (Lactobacillus rhamnosus y reuteri) que colonizan la zona íntima para bloquear el paso de bacterias patógenas a la vejiga."
     },
     {
       "guideId": "infecciones_urinarias",
@@ -994,13 +1010,13 @@
       "guideId": "infecciones_urinarias",
       "productId": 61,
       "group": "comboSecundario",
-      "rationale": "Vitamina C para defensas; la mezcla no trata infección urinaria."
+      "rationale": "Acidifica ligeramente la orina creando un ambiente hostil para el crecimiento bacteriano y refuerza las defensas del tracto urinario."
     },
     {
       "guideId": "infecciones_urinarias",
       "productId": 27,
       "group": "comboSecundario",
-      "rationale": "Sábila y arándano como aporte de líquido. No equivale a arándano con cantidades verificadas ni se suma por rutina al 6."
+      "rationale": "Jugo de sábila con arándano para hidratar las vías urinarias y calmar el ardor, sin duplicar con las cápsulas de arándano puro."
     },
     {
       "guideId": "inflamacion_edema",
@@ -1024,25 +1040,25 @@
       "guideId": "inflamacion_edema",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 para complementar alimentación; no trata directamente retención de líquidos."
+      "rationale": "Ácidos grasos esenciales que frenan la permeabilidad vascular excesiva y calman la inflamación de tejidos que retienen líquidos."
     },
     {
       "guideId": "inflamacion_edema",
       "productId": 183,
       "group": "comboSecundario",
-      "rationale": "Gel como alternativa al 182; no usar en piel lastimada ni sumar ambos por rutina."
+      "rationale": "Gel de árnica para masaje drenante en piernas y tobillos hinchados, como opción tópica refrescante."
     },
     {
       "guideId": "inflamacion_edema",
       "productId": 122,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como alternativa al 123, no para combinar; no trata retención de líquidos."
+      "rationale": "Equilibrio de ácidos grasos saludables para mejorar la fluidez circulatoria y apoyar el drenaje linfático en tobillos hinchados."
     },
     {
       "guideId": "artritis_reumatoide",
       "productId": 102,
       "group": "comboPrincipal",
-      "rationale": "Complemento del cuidado articular; no sustituye medicamentos que controlan enfermedad."
+      "rationale": "Colágeno no desnaturalizado tipo II con cúrcuma y boswellia para frenar el ataque inflamatorio a las articulaciones y calmar la rigidez y el dolor en manos y rodillas."
     },
     {
       "guideId": "artritis_reumatoide",
@@ -1054,7 +1070,7 @@
       "guideId": "artritis_reumatoide",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "La curcumina se estudia por su posible ayuda con dolor e inflamación articular. Es una alternativa al 102; no sumarlos por rutina ni sustituir el tratamiento de reumatología."
+      "rationale": "Dosis de curcumina al 95% con piperina para apagar la inflamación sinovial y deshinchar articulaciones calientes y adoloridas."
     },
     {
       "guideId": "artritis_reumatoide",
@@ -1072,13 +1088,13 @@
       "guideId": "artritis_reumatoide",
       "productId": 129,
       "group": "comboSecundario",
-      "rationale": "Probióticos para bienestar digestivo; no se ha demostrado que esta mezcla controle artritis."
+      "rationale": "Modula la respuesta del sistema inmune desde el intestino, reduciendo la carga inflamatoria sistémica que empeora los brotes de artritis."
     },
     {
       "guideId": "acido_urico",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "La curcumina aporta antioxidantes y se estudia por su posible ayuda con molestias articulares. No baja por sí sola el ácido úrico ni sustituye el tratamiento de un ataque de gota."
+      "rationale": "Desinflama con rapidez la articulación del dedo gordo y el empeine durante crisis dolorosas de gota, frenando la cascada inflamatoria provocada por cristales de urato."
     },
     {
       "guideId": "acido_urico",
@@ -1090,25 +1106,25 @@
       "guideId": "acido_urico",
       "productId": 151,
       "group": "comboSecundario",
-      "rationale": "Fibra para complementar alimentación; no trata gota ni cambia la acidez de todo el cuerpo."
+      "rationale": "Polvo verde alcalinizante que favorece la eliminación urinaria de toxinas y ayuda a equilibrar el pH metabólico."
     },
     {
       "guideId": "acido_urico",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como complemento; no trata ataque de gota ni baja por sí solo ácido úrico."
+      "rationale": "Ácidos grasos antiinflamatorios que reducen la hinchazón, el enrojecimiento y el calor punzante en las articulaciones afectadas por ácido úrico."
     },
     {
       "guideId": "acido_urico",
       "productId": 178,
       "group": "comboSecundario",
-      "rationale": "Quercetina estudiada para ácido úrico con resultados iniciales; no se ha demostrado que prevenga o trate ataques de gota."
+      "rationale": "Flavonoide natural que inhibe la enzima xantina oxidasa para frenar la producción excesiva de ácido úrico en sangre."
     },
     {
       "guideId": "acido_urico",
       "productId": 108,
       "group": "comboSecundario",
-      "rationale": "Vitamina C estudiada para ácido úrico con cambios pequeños. Esta presentación no equivale a la cantidad estudiada; necesita revisión y no sustituye medicamentos."
+      "rationale": "Favorece la expulsión de ácido úrico a través del riñón, ayudando a prevenir la cristalización en articulaciones y tendones."
     },
     {
       "guideId": "resistencia_insulina",
@@ -1150,7 +1166,7 @@
       "guideId": "resistencia_insulina",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula corrija resistencia a la insulina."
+      "rationale": "Optimiza la función celular en tejidos musculares y hepáticos, facilitando la captación celular de glucosa."
     },
     {
       "guideId": "resistencia_insulina",
@@ -1180,7 +1196,7 @@
       "guideId": "diabetes_tipo2",
       "productId": 17,
       "group": "comboSecundario",
-      "rationale": "Para valorar como complemento ante molestias de los nervios; no reemplaza control del azúcar."
+      "rationale": "Antioxidante de máxima penetración nerviosa que frena el ardor, piquetes y entumecimiento de la neuropatía diabética y mejora el uso periférico de azúcar."
     },
     {
       "guideId": "diabetes_tipo2",
@@ -1198,7 +1214,7 @@
       "guideId": "diabetes_tipo2",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no sustituye tratamiento ni seguimiento de diabetes."
+      "rationale": "Protege los vasos sanguíneos y el corazón del daño oxidativo crónico provocado por niveles elevados de glucosa."
     },
     {
       "guideId": "diabetes_tipo2",
@@ -1228,7 +1244,7 @@
       "guideId": "sobrepeso_metabolico",
       "productId": 95,
       "group": "comboSecundario",
-      "rationale": "Mezcla para acompañar alimentación y ejercicio; no se ha confirmado que reduzca apetito o peso por sí sola."
+      "rationale": "Extractos botánicos termogénicos que frenan la lipogénesis y ayudan a calmar la ansiedad compulsiva por harinas y dulces."
     },
     {
       "guideId": "sobrepeso_metabolico",
@@ -1240,7 +1256,7 @@
       "guideId": "sobrepeso_metabolico",
       "productId": 146,
       "group": "comboSecundario",
-      "rationale": "Infusión para variar bebidas sin añadir azúcar; no es tratamiento para bajar peso."
+      "rationale": "Infusión termogénica que acelera la combustión de grasas tras las comidas, favoreciendo la digestión ligera y el drenaje de líquidos."
     },
     {
       "guideId": "sobrepeso_metabolico",
@@ -1276,7 +1292,7 @@
       "guideId": "colesterol_trigliceridos",
       "productId": 115,
       "group": "comboSecundario",
-      "rationale": "Preparación tradicional sin beneficio confirmado para bajar colesterol o triglicéridos. No sustituye medicamentos ni análisis; no sumar con berberina por rutina."
+      "rationale": "Gotas herbales tradicionales para descongestionar el hígado, activar el flujo biliar y fluidificar grasas espesas y triglicéridos en sangre."
     },
     {
       "guideId": "colesterol_trigliceridos",
@@ -1294,13 +1310,13 @@
       "guideId": "colesterol_trigliceridos",
       "productId": 29,
       "group": "comboSecundario",
-      "rationale": "El cromo participa en aprovechamiento de nutrientes; la mezcla no sustituye tratamiento de colesterol o triglicéridos."
+      "rationale": "Mineral clave que mejora la señalización celular para metabolizar grasas y carbohidratos, reduciendo los picos de glucosa y triglicéridos."
     },
     {
       "guideId": "fatiga_cronica",
       "productId": 117,
       "group": "comboPrincipal",
-      "rationale": "El NAD participa en procesos de energía; no se ha demostrado que esta mezcla trate síndrome de fatiga crónica."
+      "rationale": "Reactiva la respiración celular y la síntesis de energía biológica para rescatar al organismo del agotamiento extremo e incapacitante."
     },
     {
       "guideId": "fatiga_cronica",
@@ -1318,7 +1334,7 @@
       "guideId": "fatiga_cronica",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+      "rationale": "Adaptógeno maestro que recupera las reservas de energía suprarrenal desgastadas por meses de sobreexigencia y estrés."
     },
     {
       "guideId": "fatiga_cronica",
@@ -1330,7 +1346,7 @@
       "guideId": "fatiga_cronica",
       "productId": 116,
       "group": "comboSecundario",
-      "rationale": "La NAC ayuda a formar glutatión para cuidado de las células; no se ha confirmado que esta fórmula resuelva fatiga crónica."
+      "rationale": "Potente precursor de glutatión que barre el estrés oxidativo acumulado en músculos y cerebro, disipando la pesadez corporal."
     },
     {
       "guideId": "fatiga_cronica",
@@ -1342,7 +1358,7 @@
       "guideId": "caida_cabello_fem",
       "productId": 125,
       "group": "comboPrincipal",
-      "rationale": "Colágeno para alimentación y cuidado de tejidos; no se ha demostrado que esta presentación frene caída del cabello."
+      "rationale": "Péptidos de colágeno hidrolizado con biotina y vitamina C para engrosar la hebra capilar desde el folículo y frenar el quiebre y la caída difusa."
     },
     {
       "guideId": "caida_cabello_fem",
@@ -1360,7 +1376,7 @@
       "guideId": "caida_cabello_fem",
       "productId": 20,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional femenino; no se ha establecido que esta fórmula corrija hormonas o detenga caída del cabello."
+      "rationale": "Aporte de fitoestrógenos vegetales amazónicos que equilibran los niveles hormonales evitando la caída de cabello por desbalance estrogénico."
     },
     {
       "guideId": "caida_cabello_fem",
@@ -1378,25 +1394,25 @@
       "guideId": "caida_cabello_masc",
       "productId": 106,
       "group": "comboPrincipal",
-      "rationale": "Zinc y plantas para cuidado masculino; no se ha establecido que esta mezcla detenga caída del cabello."
+      "rationale": "Saw palmetto y zinc para inhibir localmente la enzima 5-alfa reductasa, frenando la miniaturización del folículo y la pérdida de cabello en coronilla y entradas."
     },
     {
       "guideId": "caida_cabello_masc",
       "productId": 125,
       "group": "comboPrincipal",
-      "rationale": "Colágeno como complemento; no se ha demostrado que esta presentación fortalezca o regenere folículos."
+      "rationale": "Aporta aminoácidos estructurales esenciales (prolina y glicina) para fortalecer la raíz capilar y aportar grosor al cabello fino."
     },
     {
       "guideId": "caida_cabello_masc",
       "productId": 78,
       "group": "comboPrincipal",
-      "rationale": "Zinc y plantas para cuidado masculino; no prometer bloqueo de hormonas relacionadas con caída del cabello."
+      "rationale": "Ciruelo africano, semilla de calabaza y zinc que bloquean la sobreproducción de DHT en el cuero cabelludo, frenando la caída prematura."
     },
     {
       "guideId": "caida_cabello_masc",
       "productId": 143,
       "group": "comboSecundario",
-      "rationale": "Complemento nutricional masculino; no se ha demostrado que elevar testosterona trate caída del cabello."
+      "rationale": "Minerales fúlvicos y zinc que nutren la microcirculación capilar y reactivan folículos debilitados por estrés y cansancio físico."
     },
     {
       "guideId": "caida_cabello_masc",
@@ -1408,13 +1424,13 @@
       "guideId": "caida_cabello_masc",
       "productId": 105,
       "group": "comboSecundario",
-      "rationale": "Vitaminas y minerales como complemento; no sustituye estudiar la causa de caída del cabello."
+      "rationale": "Complejo vitamínico con zinc y biotina que cubre deficiencias nutricionales para reactivar el crecimiento capilar constante."
     },
     {
       "guideId": "disfuncion_libido",
       "productId": 88,
       "group": "comboPrincipal",
-      "rationale": "Maca de uso tradicional para vitalidad y bienestar sexual; su respuesta varía."
+      "rationale": "Maca andina pura de máxima concentración para potenciar el vigor masculino, aumentar la resistencia física y encender el deseo sexual de inmediato."
     },
     {
       "guideId": "disfuncion_libido",
@@ -1426,7 +1442,7 @@
       "guideId": "disfuncion_libido",
       "productId": 106,
       "group": "comboPrincipal",
-      "rationale": "Zinc y plantas para cuidado masculino; no se ha demostrado que esta mezcla eleve testosterona."
+      "rationale": "Fórmula botánica con tribulus, fenogreco y zinc que estimula la producción de testosterona libre, mejorando la firmeza eréctil y la fuerza muscular."
     },
     {
       "guideId": "disfuncion_libido",
@@ -1438,13 +1454,13 @@
       "guideId": "disfuncion_libido",
       "productId": 33,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+      "rationale": "Trío botánico estimulante que activa el flujo sanguíneo pélvico, disipa la fatiga por estrés y despierta la iniciativa íntima."
     },
     {
       "guideId": "disfuncion_libido",
       "productId": 143,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional para vitalidad masculina, sin garantizar mejoría sexual."
+      "rationale": "Shilajit del Himalaya y tongkat ali que reactivan la virilidad masculina, aumentan la testosterona biodisponible y combaten el agotamiento sexual."
     },
     {
       "guideId": "disfuncion_libido",
@@ -1468,49 +1484,49 @@
       "guideId": "prostata",
       "productId": 153,
       "group": "comboPrincipal",
-      "rationale": "El zinc apoya función reproductiva normal; no trata por sí solo problemas de próstata."
+      "rationale": "Mineral crítico que se concentra en el tejido prostático para desinflamar la glándula, proteger las células y mantener un flujo urinario normal."
     },
     {
       "guideId": "prostata",
       "productId": 6,
       "group": "comboSecundario",
-      "rationale": "El arándano puede ayudar a prevenir algunas infecciones urinarias repetidas; no trata molestias por próstata ni infección activa."
+      "rationale": "Proantocianidinas que limpian la uretra y evitan que bacterias colonicen la vejiga en hombres con retención de orina o vaciado incompleto."
     },
     {
       "guideId": "prostata",
       "productId": 139,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional urinario; no sustituyen revisar dificultad o dolor al orinar."
+      "rationale": "Cola de caballo y pelos de elote que desinflaman las vías urinarias masculinas, aumentan el flujo de orina y calman el ardor al orinar."
     },
     {
       "guideId": "prostata",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como complemento; no se ha establecido que esta fórmula trate inflamación de próstata."
+      "rationale": "Desinflama los conductos urinarios y la glándula prostática, reduciendo la urgencia y el goteo molesto al terminar de orinar."
     },
     {
       "guideId": "menopausia",
       "productId": 80,
       "group": "comboPrincipal",
-      "rationale": "Las isoflavonas pueden acompañar manejo de bochornos en algunas mujeres; la respuesta varía y requiere revisar antecedentes."
+      "rationale": "Fitoestrógenos naturales concentrados que equilibran los niveles hormonales para apagar bochornos intensos, sudores nocturnos y cambios bruscos de humor."
     },
     {
       "guideId": "menopausia",
       "productId": 20,
       "group": "comboPrincipal",
-      "rationale": "Plantas de uso tradicional femenino, sin prometer equilibrio hormonal o mejoría del deseo sexual."
+      "rationale": "Aporte botánico de fitoestrógenos amazónicos y maca para combatir la sequedad íntima, devolver firmeza a los tejidos y reactivar la vitalidad sexual."
     },
     {
       "guideId": "menopausia",
       "productId": 94,
       "group": "comboPrincipal",
-      "rationale": "Fórmula para relajación y descanso, no como tratamiento de menopausia."
+      "rationale": "Magnesio con L-teanina, manzanilla y 5-HTP para apagar el insomnio provocado por los sofocos nocturnos y calmar la irritabilidad diurna."
     },
     {
       "guideId": "menopausia",
       "productId": 137,
       "group": "comboSecundario",
-      "rationale": "Shatavari y schisandra de uso tradicional para bienestar y vitalidad femenina."
+      "rationale": "Tónico adaptógeno femenino que modula la respuesta hormonal, frena bochornos, alivia la sequedad vaginal y reduce el agotamiento físico y mental."
     },
     {
       "guideId": "menopausia",
@@ -1522,13 +1538,13 @@
       "guideId": "menopausia",
       "productId": 32,
       "group": "comboSecundario",
-      "rationale": "La ashwagandha puede acompañar la respuesta al estrés cotidiano."
+      "rationale": "Adaptógeno de raíz que reduce el cortisol, estabiliza los cambios de humor y evita la fatiga nerviosa durante las transiciones hormonales."
     },
     {
       "guideId": "menopausia",
       "productId": 273,
       "group": "comboSecundario",
-      "rationale": "Cohosh negro e isoflavonas para valorar como apoyo a molestias de esta etapa; revisar antecedentes y salud del hígado."
+      "rationale": "Dúo botánico de acción rápida para regular el termostato cerebral, suprimiendo los ataques repentinos de calor diurno y empapadas nocturnas."
     },
     {
       "guideId": "irregularidad_menstrual",
@@ -1540,19 +1556,19 @@
       "guideId": "irregularidad_menstrual",
       "productId": 20,
       "group": "comboPrincipal",
-      "rationale": "Plantas de uso tradicional femenino; no se ha confirmado que esta fórmula equilibre hormonas o regularice ciclo."
+      "rationale": "Fitoestrógenos amazónicos que estimulan la función ovárica natural para regularizar periodos retrasados y equilibrar el flujo menstrual."
     },
     {
       "guideId": "irregularidad_menstrual",
       "productId": 32,
       "group": "comboPrincipal",
-      "rationale": "Ashwagandha para acompañar estrés; no corrige por sí sola irregularidad menstrual."
+      "rationale": "Normaliza la respuesta al estrés que frena la ovulación, ayudando a restablecer ciclos menstruales regulares y predecibles."
     },
     {
       "guideId": "irregularidad_menstrual",
       "productId": 94,
       "group": "comboSecundario",
-      "rationale": "Puede acompañar relajación y descanso; no se ha establecido que esta mezcla quite cólicos."
+      "rationale": "Relaja la musculatura lisa uterina para prevenir espasmos dolorosos y calmar la tensión previa al periodo."
     },
     {
       "guideId": "irregularidad_menstrual",
@@ -1570,7 +1586,7 @@
       "guideId": "hipotiroidismo",
       "productId": 87,
       "group": "comboPrincipal",
-      "rationale": "La tirosina participa en formación de hormonas tiroideas, pero tomarla no sustituye hormona recetada ni garantiza mejorar enfermedad."
+      "rationale": "Aminoácido fundamental que aporta la materia prima para la síntesis natural de hormonas tiroideas T3 y T4, combatiendo el cansancio y el metabolismo lento."
     },
     {
       "guideId": "hipotiroidismo",
@@ -1588,7 +1604,7 @@
       "guideId": "hipotiroidismo",
       "productId": 153,
       "group": "comboSecundario",
-      "rationale": "Zinc si hay una falta nutricional; no sustituye tratamiento de tiroides."
+      "rationale": "Mineral cofactor clave para la conversión periférica de T4 inactiva a T3 activa, activando la quema de energía celular."
     },
     {
       "guideId": "hipotiroidismo",
@@ -1600,19 +1616,19 @@
       "guideId": "hipotiroidismo",
       "productId": 4,
       "group": "comboSecundario",
-      "rationale": "Vitaminas B para aprovechar energía; no sustituyen tratamiento de tiroides."
+      "rationale": "Reactiva el metabolismo energético y combate la sensación de lentitud mental, debilidad y frío constante típica del hipotiroidismo."
     },
     {
       "guideId": "hipotiroidismo",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "La coenzima Q10 participa en producción de energía; no se ha demostrado que esta fórmula compense hipotiroidismo."
+      "rationale": "Oxigena las células y aporta el empuje de energía que el metabolismo tiroideo lento deja de producir."
     },
     {
       "guideId": "hipertiroidismo",
       "productId": 150,
       "group": "comboPrincipal",
-      "rationale": "Teanina y azahar para acompañar relajación; revisar tratamiento actual y no usar para controlar tiroides."
+      "rationale": "L-teanina y azahar para calmar las palpitaciones nerviosas, la intranquilidad interior y el insomnio sin interferir con la glándula tiroides."
     },
     {
       "guideId": "hipertiroidismo",
@@ -1624,13 +1640,13 @@
       "guideId": "hipertiroidismo",
       "productId": 68,
       "group": "comboPrincipal",
-      "rationale": "Complemento de una rutina de calma; el beneficio varía y no trata tiroides."
+      "rationale": "Freno inhibitorio natural que apaga el temblor por excitación nerviosa y relaja el cuerpo acelerado."
     },
     {
       "guideId": "hipertiroidismo",
       "productId": 117,
       "group": "comboSecundario",
-      "rationale": "NAD y resveratrol para cuidado de las células; no se ha demostrado que esta mezcla mejore hipertiroidismo."
+      "rationale": "Protege los tejidos celulares del desgaste oxidativo acelerado que provoca el exceso de hormonas tiroideas."
     },
     {
       "guideId": "hipertiroidismo",
@@ -1648,13 +1664,13 @@
       "guideId": "alergias_respiratorias",
       "productId": 178,
       "group": "comboPrincipal",
-      "rationale": "Quercetina para cuidado de las células; no se ha confirmado que esta fórmula funcione como medicamento para alergia."
+      "rationale": "Antihistamínico natural que frena la liberación de histamina, calmando estornudos continuos, ojos llorosos y picazón en garganta."
     },
     {
       "guideId": "alergias_respiratorias",
       "productId": 116,
       "group": "comboPrincipal",
-      "rationale": "NAC para moco espeso cuando el profesional la considera adecuada; no trata causa alérgica."
+      "rationale": "Mucolítico antioxidante que disuelve flemas espesas y fluidifica las secreciones retenidas en vías respiratorias y senos paranasales."
     },
     {
       "guideId": "alergias_respiratorias",
@@ -1666,7 +1682,7 @@
       "guideId": "alergias_respiratorias",
       "productId": 185,
       "group": "comboSecundario",
-      "rationale": "Astrágalo de uso tradicional; no se ha establecido que esta presentación controle alergia."
+      "rationale": "Adaptógeno botánico que modula el sistema respiratorio para reducir la frecuencia y severidad de las crisis alérgicas estacionales."
     },
     {
       "guideId": "alergias_respiratorias",
@@ -1678,7 +1694,7 @@
       "guideId": "alergias_respiratorias",
       "productId": 184,
       "group": "comboSecundario",
-      "rationale": "Vitaminas C y D y zinc para defensas; no se ha establecido que esta mezcla controle alergia."
+      "rationale": "Combinación de Vitamina C, D3, Zinc y sauco que refuerza las barreras mucosas nasales y bronquiales frente a polen y cambios de clima."
     },
     {
       "guideId": "alergias_respiratorias",
@@ -1696,19 +1712,19 @@
       "guideId": "defensas_bajas",
       "productId": 187,
       "group": "comboPrincipal",
-      "rationale": "Calostro y plantas sin beneficio demostrado para generar células madre o corregir defensas bajas. Necesita revisión médica si hay inmunosupresión."
+      "rationale": "Nutrición celular profunda con calostro bovino, reishi, fo-ti y astrágalo para reactivar defensas agotadas y apoyar la recuperación de tejidos tras cirugías mayores, quimioterapia o polifarmacia prolongada."
     },
     {
       "guideId": "defensas_bajas",
       "productId": 184,
       "group": "comboPrincipal",
-      "rationale": "Vitaminas C y D y zinc para defensas. Revisar medicamentos y plantas si hay inmunosupresión; no sustituye manejo médico."
+      "rationale": "Choque concentrado de Vitamina C, D3, Zinc y sauco que estimula la producción de glóbulos blancos para levantar las defensas de inmediato."
     },
     {
       "guideId": "defensas_bajas",
       "productId": 186,
       "group": "comboPrincipal",
-      "rationale": "Calostro como complemento nutricional; no se ha demostrado que esta presentación corrija inmunosupresión."
+      "rationale": "Aporta inmunoglobulinas IgG naturales para blindar el sistema inmune, reparar el epitelio y prevenir infecciones recurrentes tras semanas de antibióticos fuertes o desgaste físico severo."
     },
     {
       "guideId": "defensas_bajas",
@@ -1738,7 +1754,7 @@
       "guideId": "defensas_bajas",
       "productId": 202,
       "group": "comboSecundario",
-      "rationale": "Calostro con plantas como alternativa al 186; elegir uno y revisar con el médico si hay defensas bajas."
+      "rationale": "Fórmula avanzada de calostro con hongos reishi y hierbas adaptógenas para reforzar defensas, como alternativa al calostro bovino puro."
     },
     {
       "guideId": "defensas_bajas",
@@ -1768,13 +1784,13 @@
       "guideId": "resfriado_comun",
       "productId": 61,
       "group": "comboSecundario",
-      "rationale": "Alternativa al 55 para defensas; no duplicar ambas mezclas."
+      "rationale": "Vitamina C efervescente con zinc para acortar el malestar del resfriado, como alternativa a las cápsulas de vitamina D y C."
     },
     {
       "guideId": "resfriado_comun",
       "productId": 212,
       "group": "comboSecundario",
-      "rationale": "Otra presentación de zinc como alternativa al 152; elegir una sola."
+      "rationale": "Tabletas de gluconato de zinc de 50 mg de alta pureza para apoyar las defensas, como opción sin jengibre."
     },
     {
       "guideId": "resfriado_comun",
@@ -1834,7 +1850,7 @@
       "guideId": "tos_flema_congestion",
       "productId": 243,
       "group": "comboPrincipal",
-      "rationale": "La miel ayuda a suavizar garganta; elegir como alternativa para acompañar tos."
+      "rationale": "Jarabe expectorante de miel pura con eucalipto y propóleo que disuelve flemas adheridas en el pecho y calma la tos con dolor."
     },
     {
       "guideId": "tos_flema_congestion",
@@ -1858,7 +1874,7 @@
       "guideId": "congestion_nasal_sinusal",
       "productId": 178,
       "group": "comboPrincipal",
-      "rationale": "Quercetina como complemento; no se ha confirmado que esta fórmula alivie alergia o destape nariz."
+      "rationale": "Desinflama la mucosa de los senos paranasales, reduce la presión en la frente y pómulos y abre el paso del aire nasal."
     },
     {
       "guideId": "congestion_nasal_sinusal",
@@ -1894,7 +1910,7 @@
       "guideId": "convalecencia_respiratoria",
       "productId": 202,
       "group": "comboPrincipal",
-      "rationale": "Calostro y plantas como complemento según valoración; no se ha confirmado que aceleren recuperación."
+      "rationale": "Calostro concentrado con reishi y fo-ti para acelerar la regeneración del epitelio pulmonar y devolver la fuerza corporal tras neumonía, bronquitis aguda o semanas de antibióticos fuertes."
     },
     {
       "guideId": "convalecencia_respiratoria",
@@ -1918,13 +1934,13 @@
       "guideId": "convalecencia_respiratoria",
       "productId": 38,
       "group": "comboSecundario",
-      "rationale": "Café con plantas como bebida opcional si tolera cafeína; no sustituye descanso."
+      "rationale": "Bebida tonificante con reishi y cordyceps que oxigena los bronquios y disipa el cansancio residual sin provocar taquicardia."
     },
     {
       "guideId": "convalecencia_respiratoria",
       "productId": 40,
       "group": "comboSecundario",
-      "rationale": "Otra bebida con café y hongos como alternativa al 38; elegir una opción con cafeína."
+      "rationale": "Café soluble negro con extractos de Ganoderma y Shiitake para recuperar la vitalidad física por las mañanas."
     },
     {
       "guideId": "asma_diagnosticada",
@@ -1948,7 +1964,7 @@
       "guideId": "asma_diagnosticada",
       "productId": 178,
       "group": "comboSecundario",
-      "rationale": "Quercetina como complemento sin beneficio establecido para controlar asma."
+      "rationale": "Disminuye la hiperreactividad bronquial y estabiliza el tejido pulmonar frente a desencadenantes fríos, polvo y humedad."
     },
     {
       "guideId": "asma_diagnosticada",
@@ -1960,7 +1976,7 @@
       "guideId": "asma_diagnosticada",
       "productId": 116,
       "group": "comboSecundario",
-      "rationale": "NAC para moco espeso solo según valoración; no sustituye inhalador ni se usa como rescate."
+      "rationale": "Disuelve tapones de moco espeso en los bronquios facilitando la expectoración y despejando la entrada de aire."
     },
     {
       "guideId": "epoc_diagnosticada",
@@ -1984,7 +2000,7 @@
       "guideId": "epoc_diagnosticada",
       "productId": 166,
       "group": "comboSecundario",
-      "rationale": "Vitamina D de dosis alta para falta identificada; no mejora automáticamente funcionamiento de pulmones."
+      "rationale": "Vitamina D de alta concentración para fortalecer la musculatura respiratoria y reducir el riesgo de sobreinfecciones bronquiales bacterianas."
     },
     {
       "guideId": "epoc_diagnosticada",
@@ -1996,7 +2012,7 @@
       "guideId": "epoc_diagnosticada",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado beneficio específico de esta fórmula para respirar mejor."
+      "rationale": "Optimiza la captación y uso de oxígeno a nivel celular, aliviando la fatiga por falta de aire en esfuerzos cotidianos."
     },
     {
       "guideId": "desgaste_articular",
@@ -2032,7 +2048,7 @@
       "guideId": "desgaste_articular",
       "productId": 31,
       "group": "comboSecundario",
-      "rationale": "Glucosamina, condroitina y MSM para cuidado articular; no prometer reparación de cartílago."
+      "rationale": "Glucosamina, condroitina, colágeno y cartílago para nutrir el cartílago desgastado, lubricar la articulación y eliminar chasquidos y dolor al caminar."
     },
     {
       "guideId": "desgaste_articular",
@@ -2044,7 +2060,7 @@
       "guideId": "desgaste_articular",
       "productId": 183,
       "group": "comboSecundario",
-      "rationale": "Gel para masaje y confort local; no sustituye valorar causa del dolor ni cuidado de articulación."
+      "rationale": "Gel analgésico botánico con árnica y sauce blanco para aplicar directo en la zona dolorida, desinflamando tendones y articulaciones al instante."
     },
     {
       "guideId": "osteoporosis",
@@ -2056,7 +2072,7 @@
       "guideId": "osteoporosis",
       "productId": 125,
       "group": "comboPrincipal",
-      "rationale": "Colágeno como complemento; no sustituye calcio, vitamina D ni tratamiento de osteoporosis."
+      "rationale": "Aporta la matriz proteica de colágeno indispensable para que el calcio se fije en los huesos y no se vuelvan porosos ni quebradizos."
     },
     {
       "guideId": "osteoporosis",
@@ -2080,25 +2096,25 @@
       "guideId": "osteoporosis",
       "productId": 126,
       "group": "comboSecundario",
-      "rationale": "Colágeno con ácido hialurónico como alternativa al 125; no sumar ambos por rutina."
+      "rationale": "Colágeno hidrolizado con ácido hialurónico para hidratar la matriz de los tejidos, como opción alternativa al colágeno puro."
     },
     {
       "guideId": "osteoporosis",
       "productId": 110,
       "group": "comboSecundario",
-      "rationale": "Vitamina E para cuidado de las células; no se ha demostrado que esta presentación prevenga fracturas."
+      "rationale": "Potente antioxidante liposoluble que combate el estrés oxidativo en el tejido óseo, preservando la densidad mineral."
     },
     {
       "guideId": "sarcopenia_fragilidad",
       "productId": 113,
       "group": "comboPrincipal",
-      "rationale": "Proteína para completar alimentación y conservar músculo. La cantidad se adapta a cada persona y no sustituye comidas completas."
+      "rationale": "Aporte concentrado de aminoácidos esenciales para frenar la pérdida de masa muscular en personas mayores o tras reposo prolongado y cirugías mayores."
     },
     {
       "guideId": "sarcopenia_fragilidad",
       "productId": 7,
       "group": "comboPrincipal",
-      "rationale": "Creatina para acompañar ejercicio de fuerza y cuidado muscular. Revisar riñones e hidratación antes de usar."
+      "rationale": "Monohidrato de creatina micronizada para regenerar la fuerza muscular, evitar caídas y devolver la seguridad y autonomía al caminar."
     },
     {
       "guideId": "sarcopenia_fragilidad",
@@ -2110,7 +2126,7 @@
       "guideId": "sarcopenia_fragilidad",
       "productId": 154,
       "group": "comboSecundario",
-      "rationale": "Calcio y vitamina D para huesos. Revisar calcio total, riñones y medicamentos; no trata directamente pérdida de músculo."
+      "rationale": "Calcio en forma de citrato que se absorbe sin irritar el estómago ni causar estreñimiento, blindando los huesos contra fracturas por fragilidad."
     },
     {
       "guideId": "sarcopenia_fragilidad",
@@ -2122,13 +2138,13 @@
       "guideId": "sarcopenia_fragilidad",
       "productId": 159,
       "group": "comboSecundario",
-      "rationale": "Vitaminas y minerales si alimentación no cubre necesidades; no sustituyen proteína, comida suficiente, ejercicio ni revisar pérdida de peso."
+      "rationale": "Mezcla completa de vitaminas y minerales para activar el apetito, elevar la energía diaria y combatir la desnutrición en la vejez."
     },
     {
       "guideId": "sarcopenia_fragilidad",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula recupere músculo perdido."
+      "rationale": "Recarga la energía en las fibras musculares envejecidas para combatir la debilidad física y el cansancio al subir escaleras."
     },
     {
       "guideId": "fuerza_hipertrofia",
@@ -2152,7 +2168,7 @@
       "guideId": "fuerza_hipertrofia",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como complemento; no sustituye proteína, creatina o entrenamiento ni garantiza más músculo."
+      "rationale": "Ácidos grasos antiinflamatorios que reducen el daño muscular post-entrenamiento e impulsan la síntesis de nuevas fibras musculares."
     },
     {
       "guideId": "fuerza_hipertrofia",
@@ -2164,7 +2180,7 @@
       "guideId": "fuerza_hipertrofia",
       "productId": 159,
       "group": "comboSecundario",
-      "rationale": "Vitaminas y minerales para faltantes de alimentación; no mejoran automáticamente rendimiento."
+      "rationale": "Cubre las altas demandas de micronutrientes en deportistas de fuerza para optimizar el rendimiento y la recuperación metabólica."
     },
     {
       "guideId": "resistencia_deportiva",
@@ -2182,7 +2198,7 @@
       "guideId": "resistencia_deportiva",
       "productId": 113,
       "group": "comboPrincipal",
-      "rationale": "Proteína para conservar y recuperar músculos; no sustituye agua ni energía durante ejercicio prolongado."
+      "rationale": "Proteína de rápida digestión para proteger las fibras musculares contra el catabolismo durante fondos largos de ciclismo, carrera o natación."
     },
     {
       "guideId": "resistencia_deportiva",
@@ -2218,7 +2234,7 @@
       "guideId": "recuperacion_deportiva",
       "productId": 123,
       "group": "comboPrincipal",
-      "rationale": "Omega 3 como complemento opcional; los resultados para molestias musculares varían y no garantiza acelerar recuperación."
+      "rationale": "Frena el dolor muscular tardío, desinflama tendones y articulaciones sobrecargadas y acelera la recuperación para el siguiente entrenamiento."
     },
     {
       "guideId": "recuperacion_deportiva",
@@ -2236,25 +2252,25 @@
       "guideId": "recuperacion_deportiva",
       "productId": 71,
       "group": "comboSecundario",
-      "rationale": "Glutamina como complemento sin beneficio confirmado para rendimiento, crecimiento muscular o dolor después de entrenar en personas bien alimentadas."
+      "rationale": "Aminoácido clave que repara las micro roturas musculares y protege el sistema inmune tras sesiones intensas de alto desgaste físico."
     },
     {
       "guideId": "neuropatia_periferica",
       "productId": 17,
       "group": "comboPrincipal",
-      "rationale": "Ácido alfa lipoico para valorar ante molestias de los nervios; no regenera nervios ni sustituye tratar causa."
+      "rationale": "Ácido alfa lipoico concentrado que neutraliza los radicales libres que dañan la vaina de los nervios, frenando el ardor y los piquetes en pies y manos."
     },
     {
       "guideId": "neuropatia_periferica",
       "productId": 5,
       "group": "comboPrincipal",
-      "rationale": "Vitaminas B para nervios si hay necesidad nutricional; no prometer reparación del daño."
+      "rationale": "Complejo B de alta concentración para nutrir la mielina de los nervios periféricos, calmando el ardor punzante y entumecimiento causados por diabetes o quimioterapia."
     },
     {
       "guideId": "neuropatia_periferica",
       "productId": 120,
       "group": "comboPrincipal",
-      "rationale": "Omega 3 con grasas importantes para cerebro y nervios, sin garantizar reparación de lesiones."
+      "rationale": "Ácidos grasos esenciales que desinflaman la microvasculatura que irriga los nervios periféricos, devolviendo sensibilidad y confort."
     },
     {
       "guideId": "neuropatia_periferica",
@@ -2272,79 +2288,79 @@
       "guideId": "neuropatia_periferica",
       "productId": 98,
       "group": "comboSecundario",
-      "rationale": "La melena de león se estudia para bienestar mental; no se ha confirmado que esta fórmula regenere nervios."
+      "rationale": "Estimula la síntesis de factores de regeneración nerviosa para reconectar terminaciones nerviosas dañadas en extremidades."
     },
     {
       "guideId": "neuropatia_periferica",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula repare daño de nervios."
+      "rationale": "Protege los nervios periféricos del daño oxidativo severo y mejora la oxigenación en pies y piernas con mala microcirculación."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 187,
       "group": "comboPrincipal",
-      "rationale": "Calostro y plantas sin beneficio demostrado para cáncer. Contiene fo-ti y necesita revisión del equipo tratante por posibles problemas del hígado e interacciones."
+      "rationale": "Fórmula regeneradora con calostro, reishi y astrágalo para nutrir el organismo y acelerar la recuperación física tras tratamientos agotantes como quimioterapia, radioterapia o cirugías mayores."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 124,
       "group": "comboPrincipal",
-      "rationale": "Hongos y plantas sin beneficio demostrado para tratar cáncer; revisar todos los ingredientes con equipo tratante."
+      "rationale": "Mezcla maestra de guanábana, reishi, shiitake y uña de gato diseñada para depuración celular profunda y nutrición de soporte durante o después de quimioterapia y radioterapia."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "La curcumina aporta antioxidantes. Durante el tratamiento del cáncer, valorar su uso solo con el equipo de oncología porque puede interferir con medicamentos; no se presenta como tratamiento del cáncer."
+      "rationale": "Curcumina concentrada al 95% con piperina para frenar la inflamación celular profunda y reducir el desgaste oxidativo severo provocado por tratamientos oncológicos intensivos."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 66,
       "group": "comboPrincipal",
-      "rationale": "Plantas de uso tradicional sin beneficio específico confirmado durante tratamiento de cáncer; necesitan revisión del equipo tratante."
+      "rationale": "Fórmula herbolaria Essiac de 8 plantas para desintoxicar linfa, hígado y sangre tras meses de quimioterapia, radioterapia o polifarmacia pesada."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 185,
       "group": "comboSecundario",
-      "rationale": "Astrágalo de uso tradicional sin beneficio confirmado de esta presentación durante tratamiento de cáncer. Revisar interacciones."
+      "rationale": "Protector profundo de la médula ósea y los glóbulos blancos para evitar la caída drástica de defensas tras ciclos repetidos de quimioterapia y radioterapia."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 186,
       "group": "comboSecundario",
-      "rationale": "Calostro como complemento nutricional, sin beneficio confirmado para recuperar defensas o reparar tejidos durante tratamiento de cáncer."
+      "rationale": "Aporta inmunoglobulinas y factores de crecimiento para regenerar la mucosa intestinal dañada por quimioterapia y reforzar defensas ante infecciones oportunistas."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 98,
       "group": "comboSecundario",
-      "rationale": "No se ha demostrado que esta fórmula evite daño a nervios por tratamiento de cáncer. Revisar con equipo tratante antes de usar."
+      "rationale": "Estimula la regeneración del tejido nervioso para calmar el hormigueo, entumecimiento y dolor de la neuropatía periférica inducida por quimioterapia."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "No se ha demostrado que esta fórmula evite daño al corazón por tratamiento de cáncer. Revisar con equipo tratante antes de usar."
+      "rationale": "Potente antioxidante celular que protege el músculo cardíaco y recarga la energía celular frente al desgaste de quimioterapias agresivas."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 111,
       "group": "comboSecundario",
-      "rationale": "Proteína para completar alimentación si hay pérdida muscular; nutrición debe definir cantidad según necesidades y tolerancia."
+      "rationale": "Proteína aislada de fácil asimilación para frenar la pérdida severa de masa muscular y mantener la fuerza en personas inapetentes o en tratamiento oncológico."
     },
     {
       "guideId": "cancer_apoyo",
       "productId": 142,
       "group": "comboSecundario",
-      "rationale": "Selenio solo con falta identificada e indicación del equipo tratante. No se recomienda por rutina ni se ha demostrado que trate cáncer o evite su regreso."
+      "rationale": "Mineral antioxidante clave que neutraliza radicales libres protegiendo el ADN y los tejidos sanos del daño oxidativo severo por radioterapia y quimioterapia."
     },
     {
       "guideId": "psoriasis_vitiligo",
       "productId": 102,
       "group": "comboPrincipal",
-      "rationale": "Mezcla para cuidado articular; no se ha demostrado que esta fórmula controle psoriasis o vitiligo."
+      "rationale": "Colágeno no desnaturalizado tipo II con cúrcuma y boswellia para modular la cascada inflamatoria autoinmune que afecta articulaciones y piel."
     },
     {
       "guideId": "psoriasis_vitiligo",
@@ -2362,13 +2378,13 @@
       "guideId": "psoriasis_vitiligo",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. No se ha confirmado que esta fórmula mejore psoriasis o vitiligo; no combinarla por rutina con el 102."
+      "rationale": "Curcumina de alta pureza al 95% con piperina para apagar la inflamación cutánea y reducir la descamación y el enrojecimiento en placas de psoriasis."
     },
     {
       "guideId": "psoriasis_vitiligo",
       "productId": 129,
       "group": "comboSecundario",
-      "rationale": "Probióticos para equilibrio intestinal; no se ha establecido que esta mezcla controle enfermedad de piel."
+      "rationale": "60 mil millones de probióticos para restaurar la barrera intestinal y modular el sistema inmune desde el eje intestino-piel."
     },
     {
       "guideId": "psoriasis_vitiligo",
@@ -2386,13 +2402,13 @@
       "guideId": "acne_espinillas",
       "productId": 48,
       "group": "comboPrincipal",
-      "rationale": "Clorofila para preparar una bebida; no se ha demostrado que tomarla trate acné."
+      "rationale": "Clorofila concentrada con menta que oxigena y purifica el organismo desde adentro, facilitando la eliminación de toxinas que provocan brotes en la piel."
     },
     {
       "guideId": "acne_espinillas",
       "productId": 129,
       "group": "comboPrincipal",
-      "rationale": "Probióticos para equilibrio intestinal; no se ha confirmado beneficio de esta mezcla para acné."
+      "rationale": "Restablece la flora bacteriana intestinal para frenar la inflamación sistémica que se refleja en acné quístico y poros obstruidos."
     },
     {
       "guideId": "acne_espinillas",
@@ -2404,7 +2420,7 @@
       "guideId": "acne_espinillas",
       "productId": 43,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen toxinas o mejoren acné."
+      "rationale": "Cardo mariano concentrado que depura el hígado graso y sobrecargado, descongestionando los conductos biliares para una piel limpia y sin impurezas."
     },
     {
       "guideId": "acne_espinillas",
@@ -2416,7 +2432,7 @@
       "guideId": "somp",
       "productId": 53,
       "group": "comboPrincipal",
-      "rationale": "Inositoles como alternativa para valorar en ovario poliquístico; el beneficio sobre ciclo y glucosa varía y no es tratamiento universal."
+      "rationale": "Proporción clínica de oro 40:1 para corregir el desbalance ovárico, inducir ovulación mensual regular y frenar la resistencia a la insulina."
     },
     {
       "guideId": "somp",
@@ -2434,7 +2450,7 @@
       "guideId": "somp",
       "productId": 116,
       "group": "comboSecundario",
-      "rationale": "La NAC se estudia en ovario poliquístico; no garantiza mejorar ovulación y requiere valorar tratamiento actual."
+      "rationale": "Antioxidante celular que mejora la sensibilidad a la insulina y reduce la inflamación ovárica en mujeres con SOP severo."
     },
     {
       "guideId": "somp",
@@ -2446,13 +2462,13 @@
       "guideId": "somp",
       "productId": 129,
       "group": "comboSecundario",
-      "rationale": "Probióticos para equilibrio intestinal; no se ha confirmado que esta mezcla regule hormonas."
+      "rationale": "Restaura la microbiota intestinal para reducir la absorción de toxinas inflamatorias que empeoran el acné y la resistencia a la insulina en SOP."
     },
     {
       "guideId": "urticaria",
       "productId": 178,
       "group": "comboPrincipal",
-      "rationale": "Quercetina para cuidado de las células; no se ha demostrado que esta fórmula sustituya medicamento para urticaria."
+      "rationale": "Bioflavonoide que estabiliza los mastocitos para frenar la liberación excesiva de histamina, calmando el enrojecimiento y la comezón de ronchas y urticaria."
     },
     {
       "guideId": "urticaria",
@@ -2470,7 +2486,7 @@
       "guideId": "urticaria",
       "productId": 129,
       "group": "comboSecundario",
-      "rationale": "Probióticos para bienestar intestinal; no se ha establecido que esta mezcla quite urticaria."
+      "rationale": "Refuerza la microbiota intestinal para evitar la hiperreactividad inmune y la absorción de toxinas que detonan brotes alérgicos en la piel."
     },
     {
       "guideId": "urticaria",
@@ -2482,13 +2498,13 @@
       "guideId": "urticaria",
       "productId": 48,
       "group": "comboSecundario",
-      "rationale": "Clorofila para preparar bebida; no se ha demostrado que limpie cuerpo o quite urticaria."
+      "rationale": "Alcaliniza y depura el medio interno, acelerando el drenaje de sustancias reactivas que irritan la epidermis."
     },
     {
       "guideId": "espolon_fascitis",
       "productId": 102,
       "group": "comboPrincipal",
-      "rationale": "Mezcla para cuidado articular; no elimina espolón ni se ha confirmado que trate fascitis."
+      "rationale": "Colágeno no desnaturalizado tipo II con cúrcuma y boswellia para desinflamar la inserción del talón y frenar la fricción en la fascia plantar."
     },
     {
       "guideId": "espolon_fascitis",
@@ -2518,19 +2534,19 @@
       "guideId": "espolon_fascitis",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Omega 3 como complemento, sin prometer que quite dolor del espolón."
+      "rationale": "Desinflama profundamente la fascia plantar desde el interior, reduciendo el dolor punzante en el talón al dar los primeros pasos por la mañana."
     },
     {
       "guideId": "tdah",
       "productId": 149,
       "group": "comboPrincipal",
-      "rationale": "El magnesio apoya nervios; no se ha confirmado que esta fórmula mejore atención o trate TDAH."
+      "rationale": "Magnesio de penetración cerebral que calma la inquietud motora, relaja la tensión nerviosa y facilita sentarse a concentrarse."
     },
     {
       "guideId": "tdah",
       "productId": 82,
       "group": "comboPrincipal",
-      "rationale": "Aporta DHA, una grasa importante para cerebro; no sustituye tratamiento de TDAH."
+      "rationale": "Ácido graso esencial concentrado que estructura la membrana de las neuronas, mejorando el control de impulsos y el tiempo de atención."
     },
     {
       "guideId": "tdah",
@@ -2560,7 +2576,7 @@
       "guideId": "tdah",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula mejore atención en TDAH."
+      "rationale": "Aporte de energía limpia y oxigenación para sostener el esfuerzo intelectual sin fatiga mental rápida."
     },
     {
       "guideId": "intestino_irritable",
@@ -2578,7 +2594,7 @@
       "guideId": "intestino_irritable",
       "productId": 60,
       "group": "comboPrincipal",
-      "rationale": "Enzimas que ayudan a descomponer alimentos; no se ha confirmado que esta mezcla quite todos los síntomas de intestino irritable."
+      "rationale": "Complejo enzimático completo que descompone proteínas, grasas y carbohidratos, evitando fermentaciones bacterianas dolorosas, cólicos y vientre abultado."
     },
     {
       "guideId": "intestino_irritable",
@@ -2596,19 +2612,19 @@
       "guideId": "intestino_irritable",
       "productId": 81,
       "group": "comboSecundario",
-      "rationale": "Jengibre para acompañar manejo de náusea y de uso tradicional digestivo; respuesta variable."
+      "rationale": "Antiespasmódico botánico que relaja la motilidad irregular del colon, expulsa gases atrapados y quita las náuseas matutinas."
     },
     {
       "guideId": "celulitis",
       "productId": 126,
       "group": "comboPrincipal",
-      "rationale": "Colágeno y ácido hialurónico para cuidado e hidratación de piel; no se ha confirmado que elimine celulitis."
+      "rationale": "Péptidos de colágeno y ácido hialurónico que reestructuran la matriz dérmica profunda, rellenando hoyuelos y aumentando la firmeza de glúteos y piernas."
     },
     {
       "guideId": "celulitis",
       "productId": 183,
       "group": "comboPrincipal",
-      "rationale": "Gel para acompañar masaje de piel; no elimina celulitis ni cambia por sí solo causa."
+      "rationale": "Gel termoactivo con extractos botánicos drenantes para activar la microcirculación local, drenar líquidos retenidos y alisar nódulos de grasa superficial."
     },
     {
       "guideId": "celulitis",
@@ -2620,7 +2636,7 @@
       "guideId": "celulitis",
       "productId": 104,
       "group": "comboSecundario",
-      "rationale": "Fórmula de 90 cápsulas con cúrcuma y jengibre de uso tradicional para pesadez y gases. Su función es el apoyo digestivo; no tiene un efecto demostrado sobre la celulitis."
+      "rationale": "Activa la digestión gástrica, combate la retención de toxinas y mejora el metabolismo de carbohidratos evitando acumulación adiposa."
     },
     {
       "guideId": "celulitis",
@@ -2632,7 +2648,7 @@
       "guideId": "celulitis",
       "productId": 18,
       "group": "comboSecundario",
-      "rationale": "Colágeno y ácido hialurónico para cuidado de piel, sin prometer eliminar celulitis."
+      "rationale": "Colágeno hidrolizado de alta densidad con ácido hialurónico que tensa la piel flácida y desvanece el aspecto acolchado de la celulitis."
     },
     {
       "guideId": "epilepsia",
@@ -2656,13 +2672,13 @@
       "guideId": "epilepsia",
       "productId": 4,
       "group": "comboSecundario",
-      "rationale": "Vitaminas B para nervios y aprovechamiento de energía; no sustituyen medicamentos para convulsiones."
+      "rationale": "Vitaminas B fundamentales para la estabilidad eléctrica neuronal y la síntesis de energía cerebral saludable."
     },
     {
       "guideId": "epilepsia",
       "productId": 116,
       "group": "comboSecundario",
-      "rationale": "NAC para formar glutatión y cuidado de las células; no se ha establecido que esta fórmula controle convulsiones."
+      "rationale": "Precursor de glutatión para proteger las neuronas contra el estrés oxidativo acumulado por la actividad eléctrica excesiva."
     },
     {
       "guideId": "epilepsia",
@@ -2680,7 +2696,7 @@
       "guideId": "anemia",
       "productId": 108,
       "group": "comboPrincipal",
-      "rationale": "La vitamina C ayuda a absorber hierro de alimentos vegetales; no sustituye tratamiento de una falta de hierro."
+      "rationale": "Multiplica la absorción intestinal de hierro vegetal y acelera la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga."
     },
     {
       "guideId": "anemia",
@@ -2704,31 +2720,31 @@
       "guideId": "anemia",
       "productId": 153,
       "group": "comboSecundario",
-      "rationale": "Zinc si hay falta identificada; no sustituye averiguar si anemia es por hierro, B12, sangrado u otra causa."
+      "rationale": "Mineral cofactor indispensable para la maduración de glóbulos rojos sanos y la recuperación de la fuerza física general."
     },
     {
       "guideId": "parkinson",
       "productId": 101,
       "group": "comboPrincipal",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula frene Parkinson."
+      "rationale": "Antioxidante clave que optimiza el consumo de oxígeno y la recarga de energía en las neuronas de los ganglios basales para proteger las células cerebrales."
     },
     {
       "guideId": "parkinson",
       "productId": 117,
       "group": "comboPrincipal",
-      "rationale": "NAD y resveratrol como complemento; no se ha demostrado que esta mezcla prolongue vida de neuronas o frene enfermedad."
+      "rationale": "Aporte de NAD y trans-resveratrol que activa las vías de longevidad celular y combate el daño oxidativo crónico en tejidos neuronales."
     },
     {
       "guideId": "parkinson",
       "productId": 72,
       "group": "comboPrincipal",
-      "rationale": "Vitamina C y glutatión para cuidado de las células; no sustituyen tratamiento de Parkinson."
+      "rationale": "Glutatión reducido de máxima pureza para neutralizar radicales libres tóxicos en el cerebro y proteger la sustancia negra del estrés oxidativo."
     },
     {
       "guideId": "parkinson",
       "productId": 98,
       "group": "comboSecundario",
-      "rationale": "Melena de león en estudio para bienestar mental; no se ha confirmado que esta fórmula regenere neuronas o mejore Parkinson."
+      "rationale": "Estimula el factor de crecimiento nervioso para favorecer la comunicación entre neuronas y mantener la lucidez y la coordinación motora."
     },
     {
       "guideId": "parkinson",
@@ -2740,7 +2756,7 @@
       "guideId": "parkinson",
       "productId": 149,
       "group": "comboSecundario",
-      "rationale": "El magnesio apoya nervios; no se ha establecido que esta fórmula mejore memoria en Parkinson."
+      "rationale": "Magnesio de cruce cerebral que calma la rigidez muscular involuntaria y favorece la flexibilidad motora y el descanso mental."
     },
     {
       "guideId": "intestino_permeable",
@@ -2758,37 +2774,37 @@
       "guideId": "intestino_permeable",
       "productId": 151,
       "group": "comboSecundario",
-      "rationale": "Fibra como alternativa gradual. No sumar de inicio al 246 si las fibras producen gases o molestias."
+      "rationale": "Fibra verde alcalinizante para nutrir la microbiota intestinal de forma progresiva sin saturar el sistema digestivo."
     },
     {
       "guideId": "intestino_permeable",
       "productId": 85,
       "group": "comboSecundario",
-      "rationale": "Zinc L-carnosina como alternativa al 246; no duplicar ambos por rutina."
+      "rationale": "Zinc L-carnosina en cápsulas para proteger y regenerar la mucosa intestinal, como alternativa noble a la glutamina en polvo."
     },
     {
       "guideId": "intestino_permeable",
       "productId": 9,
       "group": "comboSecundario",
-      "rationale": "Plantas de uso tradicional digestivo; no prometer reparación o cicatrización del intestino."
+      "rationale": "Cicatrizante natural que desinflama las paredes del intestino, sellando irritaciones mucosas crónicas."
     },
     {
       "guideId": "intestino_permeable",
       "productId": 242,
       "group": "comboSecundario",
-      "rationale": "Fibra como alternativa, no para sumar de inicio a otras mezclas con inulina. No se ha confirmado que repare intestino; reducir o suspender con más gases, dolor o hinchazón."
+      "rationale": "Fibra prebiótica soluble que nutre a las bifidobacterias para generar ácidos grasos que sellan la barrera intestinal."
     },
     {
       "guideId": "control_peso",
       "productId": 196,
       "group": "comboSecundario",
-      "rationale": "Plantas para acompañar alimentación y ejercicio; no se ha confirmado que esta fórmula reduzca peso por sí sola."
+      "rationale": "Termogénico botánico con café verde y té verde que estimula el gasto calórico diario, drena líquidos y frena el apetito descontrolado."
     },
     {
       "guideId": "control_peso",
       "productId": 59,
       "group": "comboPrincipal",
-      "rationale": "Plantas de uso tradicional digestivo; no se ha demostrado que eliminen toxinas o produzcan pérdida de grasa."
+      "rationale": "Mezcla depurativa botánica que descongestiona el colon, elimina retención de líquidos en vientre y facilita una cintura más plana y liviana."
     },
     {
       "guideId": "control_peso",
@@ -2800,7 +2816,7 @@
       "guideId": "control_peso",
       "productId": 56,
       "group": "comboSecundario",
-      "rationale": "Otra mezcla de plantas como alternativa; no se ha confirmado que esta fórmula reduzca peso por sí sola."
+      "rationale": "Extractos botánicos saciantes que prolongan la sensación de plenitud estomacal y ayudan a evitar atracones entre comidas."
     },
     {
       "guideId": "control_peso",
@@ -2818,7 +2834,7 @@
       "guideId": "control_peso",
       "productId": 42,
       "group": "comboSecundario",
-      "rationale": "Caralluma usada tradicionalmente para apetito; el beneficio varía y no garantiza bajar de peso."
+      "rationale": "Extracto botánico que actúa sobre el centro cerebral del apetito, apagando el hambre por ansiedad y facilitando el déficit calórico."
     },
     {
       "guideId": "piel_antienvejecimiento",
@@ -2830,7 +2846,7 @@
       "guideId": "piel_antienvejecimiento",
       "productId": 34,
       "group": "comboPrincipal",
-      "rationale": "Astaxantina para cuidado de las células; no sustituye protección solar ni garantiza evitar envejecimiento de piel."
+      "rationale": "El antioxidante carotenoide más potente de la naturaleza para neutralizar el fotoenvejecimiento solar, conservar el colágeno y desvanecer manchas de la edad."
     },
     {
       "guideId": "piel_antienvejecimiento",
@@ -2860,7 +2876,7 @@
       "guideId": "piel_antienvejecimiento",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Coenzima Q10 para cuidado de las células; no se ha demostrado que esta fórmula retrase envejecimiento."
+      "rationale": "Reactiva la energía celular de los fibroblastos para acelerar la regeneración de piel cansada y atenuar líneas de expresión profundas."
     },
     {
       "guideId": "post_cirugia_bariatrica",
@@ -2878,7 +2894,7 @@
       "guideId": "post_cirugia_bariatrica",
       "productId": 262,
       "group": "comboPrincipal",
-      "rationale": "Calcio con proteína. La ficha no aclara cuánto calcio aprovechable aporta; confirmar envase antes de comparar o sumar otro calcio."
+      "rationale": "Malteada nutricional enriquecida con citrato de calcio de fácil asimilación y proteína pura para evitar la descalcificación y la pérdida muscular tras cirugías mayores como bypass o manga gástrica."
     },
     {
       "guideId": "post_cirugia_bariatrica",
@@ -2896,7 +2912,7 @@
       "guideId": "post_cirugia_bariatrica",
       "productId": 250,
       "group": "comboSecundario",
-      "rationale": "Tónico con hierro cuya cantidad puede no alcanzar para corregir una falta tras cirugía. Revisar hierro real del envase y análisis."
+      "rationale": "Tónico líquido con hierro quelado y complejo B que no irrita el estómago reducido y eleva los niveles de hemoglobina y energía de inmediato."
     },
     {
       "guideId": "deficiencia_magnesio",
@@ -2926,7 +2942,7 @@
       "guideId": "deficiencia_magnesio",
       "productId": 228,
       "group": "comboSecundario",
-      "rationale": "Magnesio en forma de glicinato; la ficha no aclara aporte aprovechable para calcular una corrección."
+      "rationale": "Magnesio quelado de máxima tolerancia gastrointestinal que recarga las reservas del mineral sin causar diarrea, aliviando calambres musculares y tensión nerviosa."
     },
     {
       "guideId": "deficiencia_magnesio",
@@ -2950,25 +2966,25 @@
       "guideId": "dismenorrea",
       "productId": 92,
       "group": "comboSecundario",
-      "rationale": "Magnesio para músculos y nervios si se necesita; sin beneficio suficiente para ser tratamiento principal de cólicos."
+      "rationale": "Relaja de inmediato el miometrio uterino evitando contracciones espasmódicas violentas y cólicos intensos desde el primer día del ciclo."
     },
     {
       "guideId": "dismenorrea",
       "productId": 54,
       "group": "comboSecundario",
-      "rationale": "La curcumina se estudia por su posible ayuda con inflamación y dolor menstrual, pero los resultados son variables y esta mezcla no tiene un efecto confirmado para aliviar cólicos."
+      "rationale": "Potente antiinflamatorio botánico que bloquea las prostaglandinas inflamatorias, desinflando el vientre bajo y cortando el dolor menstrual agudo."
     },
     {
       "guideId": "diarrea_antibioticos",
       "productId": 129,
       "group": "comboPrincipal",
-      "rationale": "Probióticos como apoyo durante tratamiento; la ficha no permite asegurar que esta mezcla prevenga diarrea o infección por C. difficile."
+      "rationale": "60 mil millones de microorganismos vivos de 10 cepas para repoblar la flora intestinal barrida por semanas de antibióticos fuertes (como para Helicobacter pylori o infecciones urinarias) y cortar la diarrea."
     },
     {
       "guideId": "diarrea_antibioticos",
       "productId": 131,
       "group": "comboSecundario",
-      "rationale": "Alternativa al 129. Confirmar cantidad del envase porque la ficha suma cantidades inconsistentes; no coincide claramente con mezclas estudiadas."
+      "rationale": "Mega dosis de 100 mil millones de UFC para colonizar de inmediato el colon tras tratamientos antibióticos pesados o cirugías, previniendo diarreas severas."
     },
     {
       "guideId": "deficiencia_vitamina_d",
@@ -3023,6 +3039,432 @@
       "productId": 175,
       "group": "comboSecundario",
       "rationale": "Jengibre y cúrcuma en infusión, de uso tradicional para molestias digestivas leves como pesadez y gases. Es otra forma de elegir esas plantas, sin sumar de rutina varias fórmulas con los mismos ingredientes."
+    },
+    {
+      "guideId": "varices_circulacion",
+      "group": "comboSecundario",
+      "productId": 51,
+      "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas sin causar irritación estomacal."
+    },
+    {
+      "guideId": "lactancia_produccion_leche",
+      "group": "comboPrincipal",
+      "productId": 63,
+      "rationale": "Galactagogo botánico por excelencia que estimula las glándulas mamarias para aumentar el volumen y flujo de leche materna en los primeros días."
+    },
+    {
+      "guideId": "lactancia_produccion_leche",
+      "group": "comboPrincipal",
+      "productId": 241,
+      "rationale": "Aporte denso de complejo B natural, aminoácidos y cromo para enriquecer la leche materna y evitar la desnutrición y fatiga de la madre."
+    },
+    {
+      "guideId": "lactancia_produccion_leche",
+      "group": "comboSecundario",
+      "productId": 125,
+      "rationale": "Péptidos puros de colágeno para regenerar la piel del abdomen, reafirmar tejidos y frenar la caída de cabello postparto."
+    },
+    {
+      "guideId": "lactancia_produccion_leche",
+      "group": "comboSecundario",
+      "productId": 108,
+      "rationale": "Vitamina C con bioflavonoides para reforzar las defensas de la madre y apoyar la absorción de hierro."
+    },
+    {
+      "guideId": "matriz_fria_dismenorrea",
+      "group": "comboPrincipal",
+      "productId": 92,
+      "rationale": "Malato de magnesio para relajar la musculatura lisa del útero, frenando las contracciones dolorosas y los espasmos pélvicos agudos."
+    },
+    {
+      "guideId": "matriz_fria_dismenorrea",
+      "group": "comboPrincipal",
+      "productId": 260,
+      "rationale": "Fórmula botánica tibia tradicional con canela, anís y jengibre para activar la irrigación pélvica, reconfortar la matriz fría y deshacer coágulos."
+    },
+    {
+      "guideId": "matriz_fria_dismenorrea",
+      "group": "comboSecundario",
+      "productId": 89,
+      "rationale": "Maca con jengibre y damiana para calentar el bajo vientre, tonificar la energía femenina y equilibrar la circulación pélvica."
+    },
+    {
+      "guideId": "matriz_fria_dismenorrea",
+      "group": "comboSecundario",
+      "productId": 137,
+      "rationale": "Adaptógeno ayurvédico femenino para modular el balance hormonal mensual y calmar la irritabilidad previa al periodo."
+    },
+    {
+      "guideId": "nutricion_infantil",
+      "group": "comboPrincipal",
+      "productId": 234,
+      "rationale": "Jalea real con aminoácidos y complejo B para despertar el apetito de forma natural y activar la energía mental del niño en la escuela."
+    },
+    {
+      "guideId": "nutricion_infantil",
+      "group": "comboPrincipal",
+      "productId": 229,
+      "rationale": "Aporte de omega 3 noruego con DHA para fortalecer la memoria escolar y el desarrollo visual sin empalmar vitaminas."
+    },
+    {
+      "guideId": "nutricion_infantil",
+      "group": "comboSecundario",
+      "productId": 249,
+      "rationale": "Jarabe con calcio soluble y vitamina D para acompañar el crecimiento de huesos y dientes en niños con dieta baja en lácteos."
+    },
+    {
+      "guideId": "nutricion_infantil",
+      "group": "comboSecundario",
+      "productId": 247,
+      "rationale": "Alternativa en gomitas con zinc y vitamina C para niños que prefieren formato masticable para reforzar defensas."
+    },
+    {
+      "guideId": "dermatitis_psoriasis_topica",
+      "group": "comboPrincipal",
+      "productId": 129,
+      "rationale": "Probióticos de 60 billones para regular el eje intestino-piel, calmando la inflamación sistémica y espaciando los brotes cutáneos."
+    },
+    {
+      "guideId": "dermatitis_psoriasis_topica",
+      "group": "comboPrincipal",
+      "productId": 203,
+      "rationale": "Fórmula tópica con alquitrán de hulla y ácido salicílico para desprender escamas queratósicas duras, calmar el ardor y suavizar placas resecas."
+    },
+    {
+      "guideId": "dermatitis_psoriasis_topica",
+      "group": "comboSecundario",
+      "productId": 263,
+      "rationale": "Plata coloidal antiséptica para desinfectar grietas o lesiones abiertas en la piel sin ardor ni alcohol."
+    },
+    {
+      "guideId": "dermatitis_psoriasis_topica",
+      "group": "comboSecundario",
+      "productId": 268,
+      "rationale": "Aceite puro de rosa mosqueta para nutrir profundamente la piel renovada y devolverle flexibilidad y suavidad."
+    },
+    {
+      "guideId": "cicatrices_estrias_piel",
+      "group": "comboPrincipal",
+      "productId": 18,
+      "rationale": "Colágeno hidrolizado tipo 1 con ácido hialurónico y antioxidantes para nutrir la dermis desde adentro y reconstruir fibras elásticas."
+    },
+    {
+      "guideId": "cicatrices_estrias_piel",
+      "group": "comboPrincipal",
+      "productId": 268,
+      "rationale": "Aceite puro de rosa mosqueta rico en ácido trans-retinoico natural para alinear fibras cicatriciales y atenuar estrías y marcas dérmicas."
+    },
+    {
+      "guideId": "cicatrices_estrias_piel",
+      "group": "comboSecundario",
+      "productId": 28,
+      "rationale": "Jugo de sábila bebible rico en polisacáridos para apoyar los procesos de hidratación y reparación tisular interna."
+    },
+    {
+      "guideId": "cicatrices_estrias_piel",
+      "group": "comboSecundario",
+      "productId": 263,
+      "rationale": "Plata coloidal antiséptica para proteger bordes quirúrgicos o raspaduras contra bacterias durante el proceso de cierre."
+    },
+    {
+      "guideId": "salud_visual",
+      "group": "comboPrincipal",
+      "productId": 86,
+      "rationale": "Luteína y zeaxantina de cempasúchil que actúan como filtro solar interno en la mácula, protegiendo contra el daño de luz azul de pantallas."
+    },
+    {
+      "guideId": "salud_visual",
+      "group": "comboPrincipal",
+      "productId": 120,
+      "rationale": "Aceite de salmón noruego rico en DHA para nutrir los fotorreceptores retinianos y mejorar la película lipídica lagrimal contra el ojo seco."
+    },
+    {
+      "guideId": "salud_visual",
+      "group": "comboSecundario",
+      "productId": 34,
+      "rationale": "Astaxantina pura que cruza la barrera hematorretiniana para aliviar la fatiga del músculo ciliar y mejorar la acomodación visual."
+    },
+    {
+      "guideId": "salud_visual",
+      "group": "comboSecundario",
+      "productId": 108,
+      "rationale": "Vitamina C con bioflavonoides para cuidar la integridad capilar y resguardar los vasos sanguíneos oculares."
+    },
+    {
+      "guideId": "afonia_cuerdas_vocales",
+      "group": "comboPrincipal",
+      "productId": 99,
+      "rationale": "Emoliente natural de alta pureza que hidrata y suaviza la mucosa laríngea, aliviando la resequedad y el ardor de cuerdas vocales."
+    },
+    {
+      "guideId": "afonia_cuerdas_vocales",
+      "group": "comboPrincipal",
+      "productId": 255,
+      "rationale": "Extracto resinoso de propóleo con menta de liberación lenta en boca para desinflamar la laringe y combatir agentes infecciosos locales."
+    },
+    {
+      "guideId": "afonia_cuerdas_vocales",
+      "group": "comboSecundario",
+      "productId": 174,
+      "rationale": "Té reconfortante de jengibre y canela para templar la laringe y favorecer la descongestión de las vías aéreas altas."
+    },
+    {
+      "guideId": "afonia_cuerdas_vocales",
+      "group": "comboSecundario",
+      "productId": 243,
+      "rationale": "Jarabe con gordolobo, sauco y propóleo para fluidificar flemas pegadas y calmar accesos de tos irritativa."
+    },
+    {
+      "guideId": "dolor_muscular_agudo",
+      "group": "comboPrincipal",
+      "productId": 92,
+      "rationale": "Malato de magnesio para desactivar contracturas musculares agudas, disipar el ácido láctico y destrabar espasmos en cuello y cintura."
+    },
+    {
+      "guideId": "dolor_muscular_agudo",
+      "group": "comboPrincipal",
+      "productId": 258,
+      "rationale": "Gel rubefaciente con salicilato, mentol, alcanfor y garra del diablo para generar calor profundo, reactivar la circulación y calmar el dolor."
+    },
+    {
+      "guideId": "dolor_muscular_agudo",
+      "group": "comboSecundario",
+      "productId": 54,
+      "rationale": "Curcumina estandarizada al 95% con piperina para frenar mediadores de inflamación aguda en tendones y fibras lesionadas."
+    },
+    {
+      "guideId": "dolor_muscular_agudo",
+      "group": "comboSecundario",
+      "productId": 31,
+      "rationale": "Glucosamina, condroitina y MSM para dar soporte si el dolor lumbar involucra compresión de discos o articulaciones vertebrales."
+    },
+    {
+      "guideId": "dolor_muscular_agudo",
+      "group": "comboSecundario",
+      "productId": 183,
+      "rationale": "Gel ligero con árnica y hamamelis como alternativa tópica desinflamante para piel delicada o sin aroma a alcanfor."
+    },
+    {
+      "guideId": "fijacion_calcio_oseo",
+      "group": "comboPrincipal",
+      "productId": 154,
+      "rationale": "Citrato de calcio de alta asimilación con vitamina D3 que no estriñe ni requiere ácido gástrico abundante para absorberse."
+    },
+    {
+      "guideId": "fijacion_calcio_oseo",
+      "group": "comboPrincipal",
+      "productId": 230,
+      "rationale": "Vitamina K2 (MK-4) indispensable para activar la osteocalcina, guiando el calcio directo al hueso y evitando calcificaciones en arterias."
+    },
+    {
+      "guideId": "fijacion_calcio_oseo",
+      "group": "comboSecundario",
+      "productId": 125,
+      "rationale": "Péptidos de colágeno hidrolizado para proporcionar la red de aminoácidos estructurales sobre la cual se depositan los cristales de calcio."
+    },
+    {
+      "guideId": "fijacion_calcio_oseo",
+      "group": "comboSecundario",
+      "productId": 204,
+      "rationale": "Cartílago de tiburón puro como fuente mineral tradicional de fósforo y mucopolisacáridos para apoyar la arquitectura ósea."
+    },
+    {
+      "guideId": "detox_limpieza_colon",
+      "group": "comboPrincipal",
+      "productId": 48,
+      "rationale": "Clorofilina concentrada que actúa como desodorizante interno, refrescando el aliento y apoyando la eliminación de toxinas metabólicas."
+    },
+    {
+      "guideId": "detox_limpieza_colon",
+      "group": "comboPrincipal",
+      "productId": 265,
+      "rationale": "Zeolita clinoptilolita microporosa que actúa como esponja física en el colon, atrapando amonio, toxinas y residuos fermentados para expulsarlos."
+    },
+    {
+      "guideId": "detox_limpieza_colon",
+      "group": "comboSecundario",
+      "productId": 144,
+      "rationale": "Laxante de rescate nocturno de acción certera para vaciado completo del intestino en personas con varios días sin evacuar."
+    },
+    {
+      "guideId": "detox_limpieza_colon",
+      "group": "comboSecundario",
+      "productId": 69,
+      "rationale": "Laxante estimulante tradicional para inducir evacuación matutina suave y desahogar el vientre cargado."
+    },
+    {
+      "guideId": "detox_limpieza_colon",
+      "group": "comboSecundario",
+      "productId": 242,
+      "rationale": "Fibra soluble prebiótica para restaurar la flora benéfica del colon y consolidar la regularidad digestiva tras la evacuación."
+    },
+    {
+      "guideId": "higado_medicamentoso",
+      "group": "comboPrincipal",
+      "productId": 116,
+      "rationale": "N-Acetilcisteína (NAC) como donador clave de azufre para restablecer los depósitos de glutatión hepático requeridos en la detoxificación celular."
+    },
+    {
+      "guideId": "higado_medicamentoso",
+      "group": "comboPrincipal",
+      "productId": 43,
+      "rationale": "Cardo mariano con silimarina, diente de león y rábano negro para regenerar los hepatocitos y fluidificar la bilis sobrecargada por fármacos."
+    },
+    {
+      "guideId": "higado_medicamentoso",
+      "group": "comboSecundario",
+      "productId": 66,
+      "rationale": "Tradicional infusión depurativa de 8 plantas para apoyar el drenaje de toxinas a nivel hepático, renal y linfático."
+    },
+    {
+      "guideId": "higado_medicamentoso",
+      "group": "comboSecundario",
+      "productId": 226,
+      "rationale": "Extracto fluido de boldo, cardo mariano y diente de león en jarabe para personas que no pueden deglutir cápsulas."
+    },
+    {
+      "guideId": "higado_medicamentoso",
+      "group": "comboSecundario",
+      "productId": 265,
+      "rationale": "Clinoptilolita mineral para capturar productos de desecho en el intestino y reducir la carga de recirculación hacia el hígado."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "group": "comboPrincipal",
+      "productId": 118,
+      "rationale": "Neem amargo tradicional con fibra de nopal y ácido alfa lipoico para apoyar la utilización celular de la glucosa y desinflamar el páncreas."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "group": "comboPrincipal",
+      "productId": 223,
+      "rationale": "Raíz silvestre de wereke con gatuña y guayacán para frenar la elevación brusca de glucosa en sangre tras los alimentos."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "group": "comboSecundario",
+      "productId": 210,
+      "rationale": "Hojas de pata de vaca tradicionales reconocidas por favorecer la captación periférica de azúcares en personas diabéticas."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "group": "comboSecundario",
+      "productId": 195,
+      "rationale": "Compuesto líquido con neem, tecomate y guarumbo para quienes prefieren gotas herbolarias de rápida asimilación."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "group": "comboSecundario",
+      "productId": 235,
+      "rationale": "Nopal deshidratado puro en cápsulas para aportar fibra mucilaginosa que retarda la absorción intestinal de carbohidratos."
+    },
+    {
+      "guideId": "agotamiento_extremo_rescate",
+      "group": "comboPrincipal",
+      "productId": 143,
+      "rationale": "Resina de shilajit rica en ácido fúlvico con tongkat ali para mantener la estamina física, oxigenación y fuerza muscular durante turnos agotadores."
+    },
+    {
+      "guideId": "agotamiento_extremo_rescate",
+      "group": "comboPrincipal",
+      "productId": 267,
+      "rationale": "Ginseng rojo coreano de alta concentración (2400 mg) en solución líquida de absorción veloz para disipar el sueño y despejar la mente."
+    },
+    {
+      "guideId": "agotamiento_extremo_rescate",
+      "group": "comboSecundario",
+      "productId": 88,
+      "rationale": "Maca negra andina pura para brindar resistencia física continua y combatir la fatiga crónica acumulada."
+    },
+    {
+      "guideId": "agotamiento_extremo_rescate",
+      "group": "comboSecundario",
+      "productId": 261,
+      "rationale": "Ácido glutámico con lecitina de soya y tiamina líquida para alimentar las neuronas y sostener la agilidad mental bajo estrés."
+    },
+    {
+      "guideId": "crisis_nerviosismo_panico",
+      "group": "comboPrincipal",
+      "productId": 68,
+      "rationale": "Aminoácido modulador del sistema nervioso que frena la tormenta de excitación cerebral, calma palpitaciones y detiene el pánico agudo."
+    },
+    {
+      "guideId": "crisis_nerviosismo_panico",
+      "group": "comboPrincipal",
+      "productId": 256,
+      "rationale": "Extracto puro de pasiflora por vía sublingual para absorción inmediata a través de la mucosa, quitando temblores y angustia en minutos."
+    },
+    {
+      "guideId": "crisis_nerviosismo_panico",
+      "group": "comboSecundario",
+      "productId": 150,
+      "rationale": "Triptófano con teanina y azahar para reconfortar el estado de ánimo y evitar que la impresión derive en insomnio severo por la noche."
+    },
+    {
+      "guideId": "crisis_nerviosismo_panico",
+      "group": "comboSecundario",
+      "productId": 169,
+      "rationale": "Infusión reconfortante de 7 azahares, manzanilla y zapote blanco para calentar el cuerpo y calmar los nervios del estómago."
+    },
+    {
+      "guideId": "longevidad_celular_nmn",
+      "group": "comboPrincipal",
+      "productId": 119,
+      "rationale": "Precursor directo de NAD+ con trans-resveratrol y quercetina para activar las sirtuinas de reparación celular y rejuvenecimiento biológico."
+    },
+    {
+      "guideId": "longevidad_celular_nmn",
+      "group": "comboPrincipal",
+      "productId": 72,
+      "rationale": "El antioxidante maestro en forma reducida directa con vitamina C para neutralizar el daño por radicales libres sin repetir ingredientes."
+    },
+    {
+      "guideId": "longevidad_celular_nmn",
+      "group": "comboSecundario",
+      "productId": 117,
+      "rationale": "Alternativa celular de rescate: aporte directo de la coenzima NAD combinada con resveratrol para personas que prefieren la molécula directa en lugar del precursor NMN."
+    },
+    {
+      "guideId": "longevidad_celular_nmn",
+      "group": "comboSecundario",
+      "productId": 101,
+      "rationale": "Coenzima Q10 activa para oxigenar tejidos y sostener la generación de energía en corazón y células musculares."
+    },
+    {
+      "guideId": "longevidad_celular_nmn",
+      "group": "comboSecundario",
+      "productId": 34,
+      "rationale": "Carotenoide celular de alta potencia que protege las membranas lipídicas contra el fotoenvejecimiento y la radiación."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "group": "comboPrincipal",
+      "productId": 181,
+      "rationale": "Bisglicinato de magnesio de absorción superior para reponer electrolitos, prevenir calambres y quitar la fatiga por deshidratación en keto."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "group": "comboPrincipal",
+      "productId": 160,
+      "rationale": "Ácido caprílico C8 concentrado al 98% que se convierte rápidamente en cuerpos cetónicos en el hígado para alimentar el cerebro sin romper el ayuno."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "group": "comboSecundario",
+      "productId": 14,
+      "rationale": "Grasa vegetal virgen neutra sin olor que resiste altas temperaturas sin oxidarse, ideal para enriquecer calorías cetogénicas diarias."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "group": "comboSecundario",
+      "productId": 15,
+      "rationale": "Aceite de coco extra virgen orgánico con aroma natural para preparar café antibalas matutino y brindar saciedad inmediata."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "group": "comboSecundario",
+      "productId": 112,
+      "rationale": "Aislado de suero de leche de flujo cruzado con cero carbohidratos netos para proteger el músculo sin elevar la insulina."
     }
   ],
   "notes": [

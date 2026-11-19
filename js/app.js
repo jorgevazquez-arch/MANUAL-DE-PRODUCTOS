@@ -572,7 +572,7 @@
             const sources = (product?.researchNote?.sources || []).filter(source => /^https:\/\//i.test(source.url || ''));
             return sources.length ? `
                 <ul class="mt-3 space-y-2 text-xs" aria-label="Fuentes consultadas">${sources.map(source => `
-                    <li><a class="underline" href="${escapeGuideAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeGuideAttribute(source.title)}</a></li>
+                    <li><a class="underline" href="${escapeGuideAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeGuideAttribute(source.title || source.label || "Fuente científica")}</a></li>
                 `).join('')}</ul>` : '';
         }
 
@@ -1228,10 +1228,10 @@
                             </div>
                             <div class="flex-1">
                         <h4 class="text-lg font-black text-girasol-green-900 leading-tight">${p.name}</h4>
-                        <p class="text-[10px] font-bold uppercase tracking-wider mt-1" style="color:${catA}">${categoryIcons[p.category]?.name || p.category}</p>
+                        <p class="text-xs font-bold uppercase tracking-wider mt-1" style="color:${catA}">${categoryIcons[p.category]?.name || p.category}</p>
                             </div>
                         </div>
-                        <p class="text-xs text-gray-600 mb-3 flex-1 line-clamp-3">${p.shortDesc}</p>
+                        <p class="text-sm text-gray-700 font-normal mb-3 flex-1 line-clamp-3 leading-relaxed">${p.shortDesc}</p>
                         <p class="advisor-card-choice">${escapeGuideAttribute(p.choiceNote)}</p>
                         <div class="flex items-center justify-end mt-auto">
                             <label data-card-control class="gl-checkbox">
@@ -1421,18 +1421,18 @@
                                 </div>
                                 <div class="flex-1">
                                     <h4 class="text-xl font-black text-girasol-green-900 leading-tight">${p.name}</h4>
-                                    <p class="text-xs text-gray-500 leading-snug mt-1">${p.shortDesc}</p>
+                                    <p class="text-sm text-gray-700 leading-relaxed mt-1">${p.shortDesc}</p>
                                 </div>
                             </div>
 
                             <!-- BLOQUE DE BENEFICIOS (Caja de color) -->
                             <div class="bg-emerald-50/70 p-4 rounded-xl mb-4">
-                                <h5 class="text-xs font-bold text-emerald-800 uppercase tracking-wider mb-2">Beneficios Clave</h5>
+                                <h5 class="text-sm font-bold text-emerald-800 uppercase tracking-wider mb-2">Beneficios Clave</h5>
                                 <ul class="space-y-1.5">
                                     ${(p.benefits || []).map(b => `
                                         <li class="flex items-start gap-2">
                                             <span class="text-emerald-500 mt-0.5">✔️</span>
-                                            <span class="text-xs text-gray-700 leading-tight">${escapeGuideAttribute(b)}</span>
+                                            <span class="text-sm text-gray-800 leading-snug">${escapeGuideAttribute(b)}</span>
                                         </li>
                                     `).join('')}
                                 </ul>
@@ -1440,26 +1440,26 @@
                             </div>
 
                             <!-- FICHA DE ESPECIFICACIONES (Lista limpia) -->
-                            <div class="text-xs text-gray-800 space-y-2 mb-4">
+                            <div class="text-sm text-gray-800 space-y-2 mb-4">
                                 <div class="flex flex-col">
-                                    <span class="font-bold text-gray-500 uppercase tracking-wider text-[10px]">Ingredientes:</span>
-                                    <span class="text-gray-700 leading-snug">${p.ingredients || 'No especificado.'}</span>
+                                    <span class="font-bold text-gray-500 uppercase tracking-wider text-xs">Ingredientes:</span>
+                                    <span class="text-gray-700 leading-relaxed">${p.ingredients || 'No especificado.'}</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="font-bold text-gray-500 uppercase tracking-wider text-[10px]">Porción y Uso:</span>
-                                    <span class="text-gray-700 leading-snug">${p.serving || 'No especificado.'} ${p.timing ? `(${p.timing})` : ''} ${p.intakeInstructions ? `- ${p.intakeInstructions}` : ''}</span>
+                                    <span class="font-bold text-gray-500 uppercase tracking-wider text-xs">Porción y Uso:</span>
+                                    <span class="text-gray-700 leading-relaxed">${p.serving || 'No especificado.'} ${p.timing ? `(${p.timing})` : ''} ${p.intakeInstructions ? `- ${p.intakeInstructions}` : ''}</span>
                                 </div>
                             </div>
 
                             <!-- ZONA DE ALERTAS (Caja de color sutil) -->
-                            <div class="mt-auto bg-red-50/60 p-4 rounded-xl text-xs space-y-2">
+                            <div class="mt-auto bg-red-50/60 p-4 rounded-xl text-sm space-y-2">
                                 <div class="flex flex-col">
-                                    <span class="font-bold text-red-700 uppercase tracking-wider text-[10px]">Contraindicaciones:</span>
-                                    <span class="text-red-800/90 leading-snug">${p.contraindications || 'No especificadas.'}</span>
+                                    <span class="font-bold text-red-700 uppercase tracking-wider text-xs">Contraindicaciones:</span>
+                                    <span class="text-red-800/90 leading-relaxed">${p.contraindications || 'No especificadas.'}</span>
                                 </div>
                                 <div class="flex flex-col">
-                                    <span class="font-bold text-red-700 uppercase tracking-wider text-[10px]">Interacciones:</span>
-                                    <span class="text-red-800/90 leading-snug">
+                                    <span class="font-bold text-red-700 uppercase tracking-wider text-xs">Interacciones:</span>
+                                    <span class="text-red-800/90 leading-relaxed">
                                         ${p.interactions || 'No especificadas.'} 
                                         ${p.foodInteractions && p.foodInteractions !== 'No significativas.' ? `(Alimentos: ${p.foodInteractions})` : ''}
                                     </span>
@@ -2194,6 +2194,22 @@
             const isDark = !document.documentElement.classList.contains('dark-mode');
             updateThemeToggle(isDark);
             try { localStorage.setItem('manual-theme', isDark ? 'dark' : 'light'); } catch (_) { /* El tema queda activo durante esta visita. */ }
+        });
+
+        // Selector de tamaño de fuente para asesores (A / A+ / A++)
+        const fontScaleOpts = document.querySelectorAll('.font-size-opt');
+        function applyFontScale(scale) {
+            document.documentElement.classList.remove('text-size-lg', 'text-size-xl');
+            if (scale === 'lg') document.documentElement.classList.add('text-size-lg');
+            else if (scale === 'xl') document.documentElement.classList.add('text-size-xl');
+            fontScaleOpts.forEach(btn => btn.classList.toggle('active', btn.dataset.scale === scale));
+            try { localStorage.setItem('manual-font-scale', scale); } catch (_) { /* Soporte en navegación restringida */ }
+        }
+        let currentScale = 'normal';
+        try { currentScale = localStorage.getItem('manual-font-scale') || 'normal'; } catch (_) {}
+        applyFontScale(currentScale);
+        fontScaleOpts.forEach(btn => {
+            btn.addEventListener('click', () => applyFontScale(btn.dataset.scale));
         });
 
         // Inicializar

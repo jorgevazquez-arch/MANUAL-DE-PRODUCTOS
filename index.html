@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual de Apoyo Nutricional - El Girasol</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
-    <link rel="stylesheet" href="./css/styles.css?v=20261117-leyenda-final-r2">
+    <link rel="stylesheet" href="./css/styles.css?v=20261119-font-scale">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
+            const savedScale = localStorage.getItem('manual-font-scale');
+            if (savedScale === 'lg') document.documentElement.classList.add('text-size-lg');
+            else if (savedScale === 'xl') document.documentElement.classList.add('text-size-xl');
         } catch (_) { /* El tema sigue funcionando aunque el almacenamiento esté deshabilitado. */ }
     </script>
 </head>
@@ -25,10 +29,20 @@
         <div class="main-header-inner max-w-[1200px] mx-auto px-4">
             <div class="main-header-brand">
                 <img src="https://investigacioncbg.com/wp-content/uploads/2026/09/LOGO-GIRASOL-139-x-62-px.png" alt="Logo El Girasol" class="main-header-logo drop-shadow-sm">
-                <button type="button" id="themeToggle" class="theme-toggle" aria-label="Activar modo oscuro" aria-pressed="false" title="Activar modo oscuro">
-                    <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-                    <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
-                </button>
+                <div class="header-actions">
+                    <div class="font-size-control no-print" role="group" aria-label="Tamaño de texto">
+                        <span class="font-size-label">Texto</span>
+                        <div class="font-size-segmented">
+                            <button type="button" class="font-size-opt active" data-scale="normal" title="Tamaño de texto estándar (A)">A</button>
+                            <button type="button" class="font-size-opt" data-scale="lg" title="Tamaño de texto grande (A+)">A+</button>
+                            <button type="button" class="font-size-opt" data-scale="xl" title="Tamaño de texto muy grande (A++)">A++</button>
+                        </div>
+                    </div>
+                    <button type="button" id="themeToggle" class="theme-toggle" aria-label="Activar modo oscuro" aria-pressed="false" title="Activar modo oscuro">
+                        <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+                        <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13A9 9 0 0 1 11 3.1 9 9 0 1 0 20.9 13Z"/></svg>
+                    </button>
+                </div>
             </div>
         </div>
     </header>

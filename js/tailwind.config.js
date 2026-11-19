@@ -2,8 +2,8 @@ tailwind.config = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-                heading: ['Poppins', 'sans-serif'],
+                sans: ['"SF Pro Text"', '"SF Pro Display"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Inter', 'Helvetica', 'Arial', 'sans-serif'],
+                heading: ['"SF Pro Display"', '"SF Pro Text"', '-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'Roboto', 'Inter', 'Helvetica', 'Arial', 'sans-serif'],
             },
             colors: {
                 'girasol-yellow': {

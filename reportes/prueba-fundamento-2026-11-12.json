@@ -9,19 +9,22 @@
       "name": "ARTMUUB 1.1 kg",
       "technicalReference": "Guías Web HTML/Artmuub 1.1 kg.html",
       "researchNote": {
-        "focus": "Articulaciones y comodidad al moverse",
-        "text": "Cuidado de las articulaciones y comodidad al moverse: la fórmula reúne colágeno, cartílago de tiburón, glucosamina y condroitina dentro de su enfoque articular. En estudios con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D acompañan el cuidado de huesos y músculos. Omega 3, vitamina E y zinc complementan el cuidado celular, y la fibra queda como apoyo digestivo secundario. Las fuentes permiten conocer las funciones y preparaciones estudiadas de sus ingredientes.",
+        "focus": "Nutrición articular, colágeno y cartílago en la movilidad",
+        "text": "La combinación de colágeno con glucosamina y condroitina aporta los bloques estructurales que componen el tejido conectivo y el líquido sinovial. La vitamina C actúa como cofactor biológico indispensable para la síntesis interna de colágeno, mientras que la vitamina D y el magnesio mantienen la densidad mineral ósea y la contractilidad muscular.",
         "sources": [
           {
-            "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+            "title": "PubMed NIH: colágeno hidrolizado en la funcionalidad articular",
+            "label": "PubMed",
             "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
           },
           {
-            "title": "Glucosamina y condroitina: ensayo clínico sobre dolor y función de rodilla",
+            "title": "PubMed NIH: glucosamina y condroitina en el confort de articulaciones",
+            "label": "PubMed",
             "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
           },
           {
-            "title": "NIH ODS: vitamina C y formación de colágeno",
+            "title": "NIH ODS: vitamina C en la síntesis de colágeno y tejidos",
+            "label": "NIH ODS",
             "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
           }
         ]
@@ -29,7 +32,7 @@
       "catalogSnapshot": {
         "ingredients": "Colágeno, cartílago de tiburón, glucosamina y condroitina (cantidades individuales no especificadas). Aporte por porción: proteínas (9 g), omega-3 (EPA 280 mg, DHA 210 mg, DPA 210 mg), vitamina C (390 mg), magnesio (150 mg), vitamina E (99.9 mg), zinc (9.9 mg), vitamina D (9.9 mg, posible error: mcg), fibra (4.4 g).",
         "serving": "30 g",
-        "benefitSummary": "Cuidado de las articulaciones y facilidad de movimiento"
+        "benefitSummary": "Cuidado articular integral y movimiento cómodo"
       }
     },
     {
@@ -37,15 +40,22 @@
       "name": "MOROIZY",
       "technicalReference": "Guías Web HTML/MOROIZY 90 caps 500 mg.html",
       "researchNote": {
-        "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
-        "text": "Apoyo para aliviar molestias y acompañar el cuidado circulatorio: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves. Hamamelis y corteza de ajo completan la mezcla de orientación circulatoria. La vitamina C participa en la formación de colágeno para los tejidos, y la vitamina E aporta antioxidantes. B12 y zinc complementan el cuidado nutricional de la fórmula. Las fuentes enlazadas explican los usos tradicionales del sauce y las funciones nutricionales que ayudan a entender el aporte de cada ingrediente.",
+        "focus": "Sauce blanco, salicina y confort articular",
+        "text": "La corteza de sauce blanco (Salix alba) es reconocida por la monografía de la EMA como remedio vegetal tradicional para el alivio del dolor articular leve, atribuido a su contenido de salicina y polifenoles. El hamamelis y el ajo aportan flavonoides que apoyan el tono vascular y la microcirculación, mientras que el zinc y la vitamina C contribuyen a la protección celular y la síntesis de colágeno.",
         "sources": [
           {
-            "title": "EMA: corteza de sauce, usos y precauciones",
+            "title": "EMA: corteza de sauce blanco (Salicis cortex) en el dolor articular leve",
+            "label": "EMA",
             "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
           },
           {
-            "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+            "title": "PubMed NIH: extracto de corteza de sauce en dolor lumbar y osteoartritis",
+            "label": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11488583/"
+          },
+          {
+            "title": "NIH ODS: vitamina C en la integridad vascular y tisular",
+            "label": "NIH ODS",
             "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
           }
         ]
@@ -53,7 +63,7 @@
       "catalogSnapshot": {
         "ingredients": "Sauce blanco (Salix alba), corteza de ajo, hamamelis, vitamina C, vitamina E, vitamina B12, zinc.",
         "serving": "3 cápsulas",
-        "benefitSummary": "Alivio de molestias e inflamación y cuidado circulatorio"
+        "benefitSummary": "Alivio articular herbal y ligereza"
       }
     },
     {
@@ -105,19 +115,27 @@
       "name": "CURCUMINA",
       "technicalReference": "Guías Web HTML/Curcumina.html",
       "researchNote": {
-        "focus": "Comodidad y movimiento de las articulaciones",
-        "text": "Comodidad y movimiento de las articulaciones: los curcuminoides se han estudiado por su interés en el alivio de molestias articulares. Algunos ensayos con preparaciones específicas han observado mejoras en dolor y función física de personas con artrosis de rodilla. Esta fórmula combina extracto de cúrcuma al 95 % con vitamina C, que participa en la formación de colágeno, y pimienta negra, que favorece el aprovechamiento de la curcumina. El conjunto de ingredientes orienta la explicación hacia el cuidado articular y el mantenimiento de los tejidos.",
+        "focus": "Curcumina concentrada y articulaciones",
+        "text": "Los curcuminoides estandarizados al 95% ejercen una potente modulación de mediadores proinflamatorios como COX-2 y NF-kB en el tejido sinovial de las articulaciones. La adición de piperina de la pimienta negra incrementa notablemente la absorción entérica de la curcumina, mientras que la vitamina C actúa como antioxidante y cofactor en la síntesis de colágeno.",
         "sources": [
           {
-            "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+            "title": "PubMed NIH: curcuminoides en dolor y función en osteoartritis de rodilla",
+            "label": "PubMed",
             "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
           },
           {
-            "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+            "title": "PubMed NIH: piperina y absorción de curcumina",
+            "label": "PubMed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+          },
+          {
+            "title": "NCCIH / NIH: cúrcuma y articulaciones",
+            "label": "NCCIH",
             "url": "https://www.nccih.nih.gov/health/turmeric"
           },
           {
             "title": "NIH ODS: vitamina C y formación de colágeno",
+            "label": "NIH ODS",
             "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
           }
         ]
@@ -125,7 +143,7 @@
       "catalogSnapshot": {
         "ingredients": "Curcumina al 95% de curcuminoides (1050 mg), vitamina C (300 mg), pimienta negra (20 mg) por porción.",
         "serving": "3 cápsulas (1.5 g)",
-        "benefitSummary": "Curcumina: posible ayuda para dolor y rigidez articular"
+        "benefitSummary": "Curcumina concentrada para confort articular"
       }
     },
     {

@@ -1,4 +1,91 @@
-        body { font-family: 'Inter', sans-serif; background-color: #f9fafb; }
+        html {
+            font-size: 17.5px;
+            scroll-behavior: smooth;
+        }
+        html.text-size-lg {
+            font-size: 19.5px;
+        }
+        html.text-size-xl {
+            font-size: 22px;
+        }
+
+        :root {
+            --font-sf-display: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'SF Pro', 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif;
+            --font-sf-text: 'SF Pro Text', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'SF Pro', 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-sf-text);
+            background-color: #f9fafb;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            letter-spacing: -0.011em;
+        }
+
+        /* Controles de encabezado (Tema + Selector de Tamaño de Texto) */
+        .header-actions {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-left: 14px;
+        }
+        .font-size-control {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+        }
+        .font-size-label {
+            color: #64748b;
+            font-family: var(--font-sf-text);
+            font-size: 0.76rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            user-select: none;
+            white-space: nowrap;
+        }
+        .font-size-segmented {
+            display: inline-flex;
+            align-items: center;
+            background: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            border-radius: 9999px;
+            padding: 2.5px;
+            gap: 2px;
+        }
+        .font-size-opt {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 30px;
+            height: 30px;
+            padding: 0 7px;
+            border: none;
+            border-radius: 9999px;
+            background: transparent;
+            color: #64748b;
+            font-family: var(--font-sf-display);
+            font-size: 12.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 160ms ease;
+            user-select: none;
+            line-height: 1;
+        }
+        .font-size-opt[data-scale="lg"] { font-size: 14px; font-weight: 800; }
+        .font-size-opt[data-scale="xl"] { font-size: 15.5px; font-weight: 900; }
+        .font-size-opt:hover {
+            color: #0f172a;
+            background: rgba(255, 255, 255, 0.7);
+        }
+        .font-size-opt.active {
+            background: #ffffff;
+            color: #15803d;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        }
+        .font-size-opt:focus-visible {
+            outline: 2px solid #15803d;
+            outline-offset: 2px;
+        }
         .company-policy-notice {
             display: flex;
             align-items: center;
@@ -23,7 +110,7 @@
         @media (min-width: 1024px) {
             .company-policy-notice { margin-left: 190px; }
         }
-        h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-sf-display); letter-spacing: -0.02em; }
         .internal-training-notice {
             display: flex;
             align-items: flex-start;
@@ -41,7 +128,7 @@
             display: block;
             margin-bottom: 5px;
             color: #28523b;
-            font-family: 'Poppins', sans-serif;
+            font-family: var(--font-sf-display);
             font-size: 15px;
             font-weight: 600;
         }
@@ -121,7 +208,7 @@
             padding: 10px 13px;
             border: 0;
             border-radius: 12px;
-            font-family: 'Inter', sans-serif;
+            font-family: var(--font-sf-text);
             text-align: center;
             color: #48484a;
             background: #f5f5f7;
@@ -340,7 +427,7 @@
             position: absolute;
             right: 0.55rem;
             font-size: 0.6rem;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: var(--font-sf-text);
             font-weight: 500;
             padding: 0.1rem 0.35rem;
             border-radius: 0.35rem;
@@ -439,10 +526,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0.42rem 0.65rem;
+            padding: 0.45rem 0.65rem;
             border-radius: 0.65rem;
             color: #374151;
-            font-size: 0.77rem;
+            font-size: 0.88rem;
             font-weight: 500;
             text-decoration: none;
             transition: all 160ms cubic-bezier(0.16, 1, 0.3, 1);
@@ -462,11 +549,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0.42rem 0.65rem;
+            padding: 0.45rem 0.65rem;
             margin-bottom: 0.35rem;
             border-radius: 0.65rem;
             color: #166534;
-            font-size: 0.75rem;
+            font-size: 0.86rem;
             font-weight: 600;
             text-decoration: none;
             transition: background-color 150ms ease;
@@ -482,12 +569,12 @@
             align-items: center;
             justify-content: space-between;
             gap: 0.4rem;
-            padding: 0.38rem 0.55rem;
+            padding: 0.42rem 0.55rem;
             border-radius: 0.6rem;
             list-style: none;
             color: #475569;
             cursor: pointer;
-            font-size: 0.72rem;
+            font-size: 0.85rem;
             font-weight: 500;
             transition: background-color 150ms ease, color 150ms ease;
         }
@@ -526,11 +613,11 @@
             display: flex;
             align-items: center;
             gap: 0.45rem;
-            padding: 0.28rem 0.45rem;
+            padding: 0.32rem 0.45rem;
             border-radius: 0.5rem;
             color: #64748b;
-            font-size: 0.72rem;
-            line-height: 1.25;
+            font-size: 0.85rem;
+            line-height: 1.35;
             text-decoration: none;
             transition: all 140ms ease;
         }
@@ -549,10 +636,10 @@
             display: flex;
             align-items: center;
             gap: 0.55rem;
-            padding: 0.4rem 0.65rem;
+            padding: 0.45rem 0.65rem;
             border-radius: 0.65rem;
             color: #475569;
-            font-size: 0.75rem;
+            font-size: 0.86rem;
             font-weight: 500;
             text-decoration: none;
             transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
@@ -669,7 +756,7 @@
                     content: "Página " counter(page) " de " counter(pages);
                     font-size: 10px;
                     color: #6b7280;
-                    font-family: 'Inter', sans-serif;
+                    font-family: var(--font-sf-text);
                 }
             }
             body { 
@@ -980,40 +1067,40 @@
         .product-sheet-category {
             align-self: flex-start;
             margin-bottom: 1.15rem;
-            padding: 0.42rem 0.78rem;
+            padding: 0.45rem 0.85rem;
             border: 1px solid var(--sheet-accent);
             border-radius: 9999px;
             color: var(--sheet-deep);
             background: var(--sheet-soft);
-            font-size: 0.64rem;
-            font-weight: 900;
-            letter-spacing: 0.15em;
+            font-size: 0.78rem;
+            font-weight: 800;
+            letter-spacing: 0.12em;
             text-transform: uppercase;
         }
 
         .product-sheet-intro h3 {
             max-width: 17ch;
             color: #171717;
-            font-family: 'Poppins', sans-serif;
-            font-size: clamp(2rem, 4vw, 3.35rem);
+            font-family: var(--font-sf-display);
+            font-size: clamp(2.1rem, 4.2vw, 3.45rem);
             font-weight: 800;
             letter-spacing: -0.045em;
-            line-height: 1.02;
+            line-height: 1.05;
             overflow-wrap: anywhere;
         }
 
         .product-sheet-description {
-            max-width: 42rem;
+            max-width: 44rem;
             margin-top: 1rem;
-            color: #64748b;
-            font-size: 0.96rem;
-            line-height: 1.75;
+            color: #475569;
+            font-size: 1.08rem;
+            line-height: 1.7;
         }
 
         .product-sheet-facts {
             display: grid;
             grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.75rem;
+            gap: 0.85rem;
             margin-top: 1.75rem;
         }
 
@@ -1021,22 +1108,22 @@
             display: flex;
             min-width: 0;
             align-items: flex-start;
-            gap: 0.72rem;
-            padding-top: 0.9rem;
+            gap: 0.75rem;
+            padding-top: 0.95rem;
             border-top: 1px solid #dbe3eb;
         }
 
         .product-sheet-fact-number {
             display: inline-flex;
-            width: 1.85rem;
-            height: 1.85rem;
-            flex: 0 0 1.85rem;
+            width: 2.1rem;
+            height: 2.1rem;
+            flex: 0 0 2.1rem;
             align-items: center;
             justify-content: center;
             border-radius: 9999px;
             color: #fff;
             background: var(--sheet-accent);
-            font-size: 0.6rem;
+            font-size: 0.75rem;
             font-weight: 900;
         }
 
@@ -1044,17 +1131,17 @@
             display: block;
             margin-bottom: 0.2rem;
             color: #64748b;
-            font-size: 0.6rem;
+            font-size: 0.78rem;
             font-weight: 800;
-            letter-spacing: 0.1em;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
         }
 
         .product-sheet-fact p {
             color: #1f2937;
-            font-size: 0.76rem;
+            font-size: 0.98rem;
             font-weight: 700;
-            line-height: 1.45;
+            line-height: 1.5;
             overflow-wrap: anywhere;
         }
 
@@ -1088,17 +1175,17 @@
         .product-sheet-aside-kicker {
             margin-bottom: 0.4rem;
             color: var(--sheet-accent);
-            font-size: 0.62rem;
+            font-size: 0.78rem;
             font-weight: 900;
-            letter-spacing: 0.15em;
+            letter-spacing: 0.12em;
             text-transform: uppercase;
         }
 
         .product-sheet-section h4,
         .product-sheet-synergy h4 {
             color: #1f2937;
-            font-family: 'Poppins', sans-serif;
-            font-size: 1.22rem;
+            font-family: var(--font-sf-display);
+            font-size: 1.35rem;
             font-weight: 800;
             letter-spacing: -0.02em;
         }
@@ -1113,38 +1200,38 @@
         .product-sheet-benefits li {
             position: relative;
             min-width: 0;
-            padding: 0.78rem 0.8rem 0.78rem 2.45rem;
-            border: 1px solid #e7ebef;
+            padding: 0.9rem 1rem 0.9rem 2.85rem;
+            border: 1px solid #e2e8f0;
             border-radius: 1rem;
-            color: #475569;
+            color: #1e293b;
             background: #fafafa;
-            font-size: 0.78rem;
-            line-height: 1.55;
+            font-size: 0.98rem;
+            line-height: 1.6;
             overflow-wrap: anywhere;
         }
 
         .product-sheet-benefits li::before {
             content: '✓';
             position: absolute;
-            top: 0.75rem;
-            left: 0.8rem;
+            top: 0.88rem;
+            left: 0.9rem;
             display: inline-flex;
-            width: 1.15rem;
-            height: 1.15rem;
+            width: 1.35rem;
+            height: 1.35rem;
             align-items: center;
             justify-content: center;
             border-radius: 9999px;
             color: #fff;
             background: var(--sheet-accent);
-            font-size: 0.68rem;
+            font-size: 0.82rem;
             font-weight: 900;
         }
 
         .product-sheet-ingredients > p:last-child {
             margin-top: 0.8rem;
-            color: #64748b;
-            font-size: 0.82rem;
-            line-height: 1.7;
+            color: #334155;
+            font-size: 0.98rem;
+            line-height: 1.75;
             overflow-wrap: anywhere;
         }
 
@@ -1172,15 +1259,15 @@
         .product-sheet-aside h4 {
             margin-bottom: 0.8rem;
             color: #fff;
-            font-family: 'Poppins', sans-serif;
-            font-size: 1.25rem;
+            font-family: var(--font-sf-display);
+            font-size: 1.35rem;
             font-weight: 800;
         }
 
         .product-sheet-aside > p:not(.product-sheet-aside-kicker) {
-            color: #d1d5db;
-            font-size: 0.8rem;
-            line-height: 1.65;
+            color: #e2e8f0;
+            font-size: 0.96rem;
+            line-height: 1.7;
             overflow-wrap: anywhere;
         }
 
@@ -1208,30 +1295,30 @@
 
         .product-sheet-detail-icon {
             display: inline-flex;
-            width: 2.45rem;
-            height: 2.45rem;
-            flex: 0 0 2.45rem;
+            width: 2.75rem;
+            height: 2.75rem;
+            flex: 0 0 2.75rem;
             align-items: center;
             justify-content: center;
             border-radius: 0.8rem;
             color: var(--sheet-deep);
             background: var(--sheet-soft);
-            font-size: 0.7rem;
+            font-size: 1.15rem;
             font-weight: 900;
             letter-spacing: -0.03em;
         }
 
         .product-sheet-interactions h4 {
             color: #334155;
-            font-size: 0.78rem;
+            font-size: 0.96rem;
             font-weight: 800;
         }
 
         .product-sheet-interactions p {
             margin-top: 0.35rem;
-            color: #64748b;
-            font-size: 0.74rem;
-            line-height: 1.6;
+            color: #475569;
+            font-size: 0.92rem;
+            line-height: 1.65;
             overflow-wrap: anywhere;
         }
 
@@ -1289,7 +1376,7 @@
         }
 
         .product-sheet-legal {
-            font-family: 'Inter', sans-serif;
+            font-family: var(--font-sf-text);
             font-size: 0.75rem;
             line-height: 1.6;
             text-transform: uppercase;
@@ -1829,7 +1916,7 @@
         .padecimiento-editorial .padecimiento-protocol-title {
             margin: 0.35rem 0 0.75rem;
             color: #1f2937 !important;
-            font-family: 'Poppins', sans-serif;
+            font-family: var(--font-sf-display);
             font-size: 1.22rem;
             font-weight: 800;
             letter-spacing: -0.025em;
@@ -1871,26 +1958,26 @@
             display: flex;
             min-width: 0;
             align-items: flex-start;
-            gap: 0.55rem;
-            padding: 0.7rem 0;
+            gap: 0.65rem;
+            padding: 0.75rem 0;
             border-bottom: 1px solid #e5e7eb;
-            color: #475569;
+            color: #334155;
             background: transparent;
-            font-size: 0.72rem;
-            line-height: 1.5;
+            font-size: 0.92rem;
+            line-height: 1.55;
         }
 
         .padecimiento-editorial .padecimiento-symptoms-list li > span {
             display: inline-flex;
-            width: 1.55rem;
-            height: 1.55rem;
-            flex: 0 0 1.55rem;
+            width: 1.7rem;
+            height: 1.7rem;
+            flex: 0 0 1.7rem;
             align-items: center;
             justify-content: center;
             border-radius: 9999px;
             color: #fff;
             background: var(--guide-accent);
-            font-size: 0.55rem;
+            font-size: 0.72rem;
             font-weight: 900;
         }
 
@@ -1920,34 +2007,35 @@
         .padecimiento-editorial .padecimiento-questions h5 {
             margin: 0.4rem 0 1rem;
             color: #fff !important;
-            font-family: 'Poppins', sans-serif;
-            font-size: 1.15rem !important;
+            font-family: var(--font-sf-display);
+            font-size: 1.25rem !important;
             font-weight: 800;
         }
 
         .padecimiento-editorial .padecimiento-questions ul {
             display: grid;
-            gap: 0.72rem !important;
+            gap: 0.85rem !important;
         }
 
         .padecimiento-editorial .padecimiento-questions li {
-            gap: 0.7rem !important;
-            color: #d1d5db;
-            font-size: 0.73rem;
-            line-height: 1.55;
+            gap: 0.75rem !important;
+            color: #e2e8f0;
+            font-size: 0.95rem;
+            line-height: 1.6;
         }
 
         .padecimiento-editorial .padecimiento-questions li > span:first-child {
             display: inline-flex;
-            width: 1.55rem;
-            height: 1.55rem;
-            flex: 0 0 1.55rem;
+            width: 1.7rem;
+            height: 1.7rem;
+            flex: 0 0 1.7rem;
             align-items: center;
             justify-content: center;
             border-radius: 9999px;
             color: #fff !important;
             background: var(--guide-accent);
-            font-size: 0.55rem;
+            font-size: 0.75rem;
+            font-weight: 900;
         }
 
         .padecimiento-editorial .padecimiento-questions-note {
@@ -2451,7 +2539,7 @@
         .compare-sheet-toolbar h3 {
             margin-top: 0.25rem;
             color: #17221b;
-            font-family: 'Poppins', sans-serif;
+            font-family: var(--font-sf-display);
             font-size: clamp(1.45rem, 2.5vw, 2rem);
             font-weight: 800;
             letter-spacing: -0.04em;
@@ -2796,7 +2884,7 @@
     }
     .section-title {
         display: flex; align-items: center; justify-content: center; gap: 10px;
-        font-family: 'Poppins', sans-serif; font-size: clamp(1.2rem, 2.4vw, 1.65rem);
+        font-family: var(--font-sf-display); font-size: clamp(1.2rem, 2.4vw, 1.65rem);
         font-weight: 600; line-height: 1.3;
     }
     #productsCatalog > summary .text-gray-600,
@@ -2894,7 +2982,7 @@
     }
     .gl-checkbox__label {
         color: #606a65;
-        font-size: 0.75rem;
+        font-size: 0.88rem;
         font-weight: 500;
         transition: color 220ms ease;
     }
@@ -3283,6 +3371,19 @@
         gap: 12px;
         width: 100%;
     }
+    #mainCentralHeader .header-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-left: 0;
+        width: 100%;
+    }
+    #mainCentralHeader .font-size-control {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
     #mainCentralHeader .theme-toggle {
         position: static;
         margin-left: 0;
@@ -3372,7 +3473,7 @@
     #padecimientosCatalog .padecimiento-advisor-questions-title {
         font-size: 1rem; font-weight: 700; margin: 5px 0 9px;
     }
-    #padecimientosCatalog .padecimiento-description { font-size: 0.8rem !important; line-height: 1.6; }
+    #padecimientosCatalog .padecimiento-description { font-size: 1.02rem !important; line-height: 1.65; }
     #padecimientosCatalog .padecimiento-assessment { gap: 12px; }
     #padecimientosCatalog .padecimiento-symptoms { padding: 10px 4px; }
     #padecimientosCatalog .padecimiento-symptoms-list { gap: 7px; }
@@ -3395,8 +3496,8 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        font-size: 0.8rem;
-        line-height: 1.5;
+        font-size: 0.95rem;
+        line-height: 1.55;
     }
     #padecimientosCatalog .padecimiento-advisor-questions-list > li {
         display: grid;
@@ -3417,19 +3518,19 @@
         border-radius: 8px;
         background: var(--guide-soft);
         color: var(--guide-deep);
-        font-size: 0.72rem;
+        font-size: 0.78rem;
         font-weight: 700;
     }
     #padecimientosCatalog .advisor-question-text { min-width: 0; padding-top: 2px; overflow-wrap: anywhere; }
     #padecimientosCatalog .padecimiento-combos { gap: 16px; }
-    #padecimientosCatalog .padecimiento-combos h4 { font-size: 0.95rem; margin-bottom: 10px; }
+    #padecimientosCatalog .padecimiento-combos h4 { font-size: 1.08rem; margin-bottom: 10px; }
     #padecimientosCatalog .padecimiento-editorial-product-list { gap: 8px; }
     #padecimientosCatalog .padecimiento-editorial-product-card { padding: 16px; gap: 12px; }
     #padecimientosCatalog .padecimiento-editorial-product-left { grid-template-columns: 96px minmax(0, 1fr); gap: 16px; }
     #padecimientosCatalog .padecimiento-editorial-product-left > .guide-product-image { width: 96px; height: 96px; padding: 6px; }
     #padecimientosCatalog .padecimiento-editorial-product-info { gap: 4px; }
-    #padecimientosCatalog .padecimiento-editorial-product-name { padding: 7px 10px; font-size: 1rem; line-height: 1.35; }
-    #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.9rem; line-height: 1.5; }
+    #padecimientosCatalog .padecimiento-editorial-product-name { padding: 7px 10px; font-size: 1.08rem; line-height: 1.4; }
+    #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.98rem; line-height: 1.55; }
     @media (max-width: 480px) {
         #catalogHeader { padding: 16px 12px; }
         #productsPanel, #padecimientosCatalog > div { padding: 12px; }
@@ -3476,6 +3577,11 @@ html.dark-mode body .product-sheet-content {
 }
 html.dark-mode body .theme-toggle { background: #374151; border-color: #4b5563; color: #fbbf24; }
 html.dark-mode body .theme-toggle:hover { background: #4b5563; }
+html.dark-mode body .font-size-label { color: #94a3b8; }
+html.dark-mode body .font-size-segmented { background: #1f2937; border-color: #374151; }
+html.dark-mode body .font-size-opt { color: #94a3b8; }
+html.dark-mode body .font-size-opt:hover { color: #f1f5f9; background: rgba(255, 255, 255, 0.08); }
+html.dark-mode body .font-size-opt.active { background: #374151; color: #4ade80; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
 html.dark-mode body .main-nav-btn { color: #d1d5db; background: #293548; }
 html.dark-mode body .main-nav-btn[data-nav-target="productos"].active { color: #fecaca; background: #542d32; }
 html.dark-mode body .main-nav-btn[data-nav-target="guias"].active { color: #a7f3d0; background: #17443f; }
@@ -3662,23 +3768,33 @@ html.dark-mode body .sidebar-toggle { background: rgb(31 41 55 / 92%); color: #d
 
 @media (max-width: 600px), (hover: none), (pointer: coarse) {
     .main-header-inner { grid-template-columns: 1fr; }
-    .main-header-brand { position: relative; justify-content: center; }
-    .main-header-logo { max-width: calc(100% - 48px); }
-    .theme-toggle { position: absolute; right: 0; width: 38px; height: 38px; flex-basis: 38px; margin-left: 0; }
+    .main-header-brand { position: relative; justify-content: flex-start; }
+    .main-header-logo { max-width: calc(100% - 190px); }
+    .header-actions { position: absolute; right: 0; margin-left: 0; gap: 8px; }
+    .font-size-control { display: inline-flex; align-items: center; gap: 5px; }
+    .font-size-label { font-size: 0.72rem; }
+    .theme-toggle { position: static; width: 34px; height: 34px; flex-basis: 34px; margin-left: 0; }
+    .font-size-opt { min-width: 26px; height: 26px; padding: 0 5px; font-size: 11px; }
+    .font-size-opt[data-scale="lg"] { font-size: 12.5px; }
+    .font-size-opt[data-scale="xl"] { font-size: 14px; }
+}
+@media (max-width: 380px) {
+    .font-size-label { display: none; }
+    .main-header-logo { max-width: calc(100% - 150px); }
 }
 
 .product-sheet-nutrition-serving,
 .product-sheet-nutrition-note {
     margin: 0.45rem 0 0.75rem;
-    color: #66716b;
-    font-size: 0.78rem;
-    line-height: 1.5;
+    color: #475569;
+    font-size: 0.92rem;
+    line-height: 1.55;
 }
 .product-sheet-nutrition-table-wrap { width: 100%; overflow-x: auto; }
-.product-sheet-nutrition-table { width: 100%; border-collapse: collapse; font-size: 0.78rem; text-align: left; }
+.product-sheet-nutrition-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; text-align: left; }
 .product-sheet-nutrition-table th,
-.product-sheet-nutrition-table td { padding: 0.55rem 0.45rem; border-bottom: 1px solid #e5e7eb; }
-.product-sheet-nutrition-table th { color: #4b5563; font-size: 0.7rem; font-weight: 700; }
+.product-sheet-nutrition-table td { padding: 0.6rem 0.5rem; border-bottom: 1px solid #e5e7eb; }
+.product-sheet-nutrition-table th { color: #334155; font-size: 0.82rem; font-weight: 700; }
 .product-sheet-nutrition-table td:not(:first-child),
 .product-sheet-nutrition-table th:not(:first-child) { text-align: right; white-space: nowrap; }
 .product-sheet-nutrition-table td:first-child { font-weight: 600; }
@@ -3686,17 +3802,17 @@ html.dark-mode body .product-sheet-nutrition-serving,
 html.dark-mode body .product-sheet-nutrition-note { color: #bdbdc2; }
 html.dark-mode body .product-sheet-nutrition-table th,
 html.dark-mode body .product-sheet-nutrition-table td { color: #e5e5e8; border-color: #414147; }
-.product-sheet-yield-fact small { display: block; margin-top: 0.25rem; color: #6b7280; font-size: 0.68rem; line-height: 1.4; }
+.product-sheet-yield-fact small { display: block; margin-top: 0.25rem; color: #64748b; font-size: 0.85rem; line-height: 1.45; }
 html.dark-mode body .product-sheet-yield-fact small { color: #b4b4ba; }
 
 .product-sheet-benefit-reminder {
     margin: 0.85rem 0 1rem;
-    padding: 0.8rem 1rem;
-    border: 1px solid #dedee2;
+    padding: 0.9rem 1.15rem;
+    border: 1px solid #cbd5e1;
     border-radius: 0.85rem;
-    background: #f5f5f6;
-    color: #35353b;
-    font-size: 0.82rem;
+    background: #f8fafc;
+    color: #1e293b;
+    font-size: 1.02rem;
     font-weight: 600;
     line-height: 1.6;
 }
@@ -3708,27 +3824,27 @@ html.dark-mode body .product-sheet-benefit-reminder {
 
 .advisor-choice-note {
     margin-top: 1rem;
-    padding: 0.85rem 1rem;
-    border-left: 3px solid #71717a;
+    padding: 0.95rem 1.15rem;
+    border-left: 4px solid #64748b;
     border-radius: 0 0.8rem 0.8rem 0;
-    background: #f4f4f5;
-    color: #3f3f46;
-    font-size: 0.82rem;
-    line-height: 1.6;
+    background: #f1f5f9;
+    color: #1e293b;
+    font-size: 1rem;
+    line-height: 1.65;
 }
 .advisor-choice-note > span,
-.advisor-usage-list dt { display: block; font-size: 0.65rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
-.advisor-choice-note p { margin-top: 0.3rem; }
-.advisor-card-choice { padding: 0.7rem 0; border-top: 1px solid #e4e4e7; color: #52525b; font-size: 0.72rem; line-height: 1.55; margin-bottom: 0.75rem; }
+.advisor-usage-list dt { display: block; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.advisor-choice-note p { margin-top: 0.35rem; }
+.advisor-card-choice { padding: 0.75rem 0; border-top: 1px solid #e2e8f0; color: #334155; font-size: 0.92rem; line-height: 1.55; margin-bottom: 0.75rem; }
 .advisor-usage-list { display: grid; gap: 0.9rem; margin: 1rem 0 1.4rem; }
-.advisor-usage-list dd { margin: 0.25rem 0 0; font-size: 0.8rem; line-height: 1.65; }
-.advisor-alternatives { border: 1px solid #d4d4d8; padding: 1rem; border-radius: 1rem; margin-bottom: 1.2rem; }
-.advisor-alternatives summary { cursor: pointer; font-size: 0.9rem; font-weight: 750; }
+.advisor-usage-list dd { margin: 0.25rem 0 0; font-size: 0.98rem; line-height: 1.65; color: #334155; }
+.advisor-alternatives { border: 1px solid #cbd5e1; padding: 1.1rem; border-radius: 1rem; margin-bottom: 1.2rem; }
+.advisor-alternatives summary { cursor: pointer; font-size: 1.05rem; font-weight: 750; }
 .advisor-alternatives > p,
-.advisor-guide-context { color: #52525b; font-size: 0.75rem; line-height: 1.6; margin: 0.75rem 0; }
-.advisor-relation-title { font-size: 0.76rem; font-weight: 700; margin: 1rem 0 0.6rem; }
-.advisor-relation-description { display: block; font-size: 0.7rem; font-weight: 400; line-height: 1.5; margin-top: 0.35rem; color: #52525b; }
-.advisor-search-context { margin: 0.5rem 0 0; font-size: 0.75rem; color: #52525b; line-height: 1.6; }
+.advisor-guide-context { color: #334155; font-size: 0.92rem; line-height: 1.6; margin: 0.75rem 0; }
+.advisor-relation-title { font-size: 0.95rem; font-weight: 700; margin: 1rem 0 0.6rem; color: #1e293b; }
+.advisor-relation-description { display: block; font-size: 0.88rem; font-weight: 400; line-height: 1.55; margin-top: 0.35rem; color: #475569; }
+.advisor-search-context { margin: 0.5rem 0 0; font-size: 0.92rem; color: #475569; line-height: 1.6; }
 html.dark-mode body .advisor-choice-note { background: #2b2b30; border-color: #a1a1aa; color: #ededf0; }
 html.dark-mode body .advisor-alternatives,
 html.dark-mode body .advisor-card-choice { border-color: #45454b; }
