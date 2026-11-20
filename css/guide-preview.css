@@ -1,155 +1,37 @@
 /* Prueba visual de Guías. */
 @media screen {
-  .native-preview #padecimientosCatalog > summary > span { text-align: left; }
-  .native-preview #padecimientosCatalog > summary .section-title { justify-content: flex-start; }
-  .native-preview #padecimientosCatalog > summary .text-gray-600 { margin-inline: 0; }
   .native-preview #padecimientosCatalog .pad-classification-group {
     border: 1px solid var(--native-line);
     border-radius: 24px;
     background: var(--native-glass) !important;
   }
   .native-preview #padecimientosCatalog .pad-classification-group > summary {
+    display: grid;
+    grid-template-columns: 20px minmax(0, 1fr) 20px;
     gap: 12px;
     padding: 15px 18px;
+    text-align: center;
   }
+  .native-preview #padecimientosCatalog .pad-classification-group > summary > span {
+    grid-column: 2;
+    justify-content: center;
+  }
+  .native-preview #padecimientosCatalog .pad-classification-group > summary > svg { grid-column: 3; }
   .native-preview #padecimientosCatalog .pad-classification-group > summary:hover {
     background: color-mix(in srgb, var(--native-accent) 7%, transparent);
   }
   .native-preview #padecimientosCatalog .pad-classification-group[open] > summary > svg {
     transform: rotate(180deg);
   }
-  .native-preview #padecimientosCatalog .padecimiento-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    padding: 0 14px 14px !important;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-grid .padecimiento-editorial {
-    --guide-preview-accent: var(--guide-accent);
-    height: auto;
-    overflow: hidden !important;
-    border: 1px solid var(--native-line) !important;
-    border-radius: 21px !important;
-    background: var(--native-glass) !important;
-    box-shadow: none !important;
-  }
-  .native-preview #padecimientosCatalog [data-color="purple"] { --guide-preview-accent: #7c3aed !important; }
-  .native-preview #padecimientosCatalog [data-color="green"] { --guide-preview-accent: #16a34a !important; }
-  .native-preview #padecimientosCatalog [data-color="orange"] { --guide-preview-accent: #ea580c !important; }
-  .native-preview #padecimientosCatalog [data-color="pink"] { --guide-preview-accent: #db2777 !important; }
-  .native-preview #padecimientosCatalog [data-color="red"] { --guide-preview-accent: #dc2626 !important; }
-  .native-preview #padecimientosCatalog [data-color="blue"] { --guide-preview-accent: #2563eb !important; }
-  .native-preview #padecimientosCatalog [data-color="yellow"] { --guide-preview-accent: #ca8a04 !important; }
-  .native-preview #padecimientosCatalog [data-color="gray"] { --guide-preview-accent: #64748b !important; }
-  .native-preview #padecimientosCatalog .padecimiento-grid .padecimiento-editorial:hover {
-    transform: none;
-    border-color: color-mix(in srgb, var(--guide-preview-accent) 32%, transparent) !important;
-  }
   .native-preview #padecimientosCatalog .padecimiento-editorial > .padecimiento-summary {
-    display: grid !important;
-    grid-template: "title toggle" auto / minmax(0, 1fr) auto;
-    align-items: center;
-    gap: 8px;
-    min-height: 0;
-    padding: 14px !important;
-    border: 0 !important;
-    background: color-mix(in srgb, var(--guide-preview-accent) 6%, transparent) !important;
+    text-align: center;
   }
-  .native-preview #padecimientosCatalog .padecimiento-editorial > .padecimiento-summary::after,
-  .native-preview #padecimientosCatalog .padecimiento-summary > :is(.padecimiento-editorial-kicker, .padecimiento-card-description, .padecimiento-editorial-preview) {
-    display: none !important;
+  .native-preview #padecimientosCatalog .padecimiento-summary .padecimiento-title {
+    justify-content: center;
+    justify-self: center;
   }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-summary .padecimiento-title {
-    display: flex;
+  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-summary :is(.padecimiento-editorial-kicker, .padecimiento-toggle) {
     align-self: center;
-    align-items: center;
-    gap: 10px;
-    max-width: none;
-    margin: 0;
-    color: var(--native-ink) !important;
-    font-size: 0.9rem !important;
-    font-weight: 650 !important;
-    line-height: 1.3;
-  }
-  .native-preview #padecimientosCatalog .guide-preview-emoji {
-    display: grid;
-    place-items: center;
-    width: 38px;
-    height: 38px;
-    flex: 0 0 38px;
-    border-radius: 13px;
-    background: color-mix(in srgb, var(--guide-preview-accent) 14%, transparent);
-    font-size: 20px;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-summary .padecimiento-toggle {
-    align-self: center;
-    margin: 0;
-    padding: 6px;
-    border: 0 !important;
-    background: transparent !important;
-    box-shadow: none;
-    transform: none;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-toggle > span {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-toggle svg {
-    width: 16px;
-    height: 16px;
-    color: var(--native-muted) !important;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-body {
-    gap: 14px;
-    border-color: var(--native-line) !important;
-    background: var(--manual-surface) !important;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial :is(.padecimiento-overview, .padecimiento-symptoms) {
-    padding: 14px;
-    border: 1px solid var(--native-line);
-    border-radius: 18px;
-    background: var(--native-glass);
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-description {
-    color: var(--native-muted) !important;
-    font-size: 0.9rem !important;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-editorial-product-card {
-    min-width: 0;
-    padding: 12px;
-    border: 1px solid var(--native-line) !important;
-    border-radius: 18px;
-    background: var(--native-glass) !important;
-    box-shadow: none;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-editorial-product-left {
-    grid-template-columns: 64px minmax(0, 1fr);
-    gap: 10px;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-editorial-product-left > .guide-product-image {
-    width: 64px;
-    height: 64px;
-  }
-  .native-preview #padecimientosCatalog .padecimiento-editorial :is(.padecimiento-editorial-product-name, .padecimiento-editorial-product-meta) {
-    font-size: 0.82rem;
-    line-height: 1.45;
-    overflow-wrap: anywhere;
-  }
-  @media (max-width: 950px) {
-    .native-preview #padecimientosCatalog .padecimiento-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  }
-  @media (max-width: 640px) {
-    .native-preview #padecimientosCatalog .padecimiento-grid { grid-template-columns: minmax(0, 1fr); }
-    .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-layout { grid-template-columns: minmax(0, 1fr) !important; }
-    .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-editorial-product-left {
-      grid-template-columns: 48px minmax(0, 1fr);
-    }
-    .native-preview #padecimientosCatalog .padecimiento-editorial .padecimiento-editorial-product-left > .guide-product-image {
-      width: 48px;
-      height: 48px;
-    }
+    justify-self: center;
   }
 }

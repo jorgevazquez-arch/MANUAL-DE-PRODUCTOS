@@ -700,7 +700,7 @@
                     <details id="padecimiento-${pad.id}" data-color="${pad.color}" data-search-terms="${escapeGuideAttribute(searchTerms)}" class="group padecimiento-card padecimiento-editorial bg-white rounded-2xl shadow-sm transition-all duration-300 open:shadow-lg scroll-mt-24">
                         <summary class="padecimiento-summary p-6 cursor-pointer list-none flex justify-between items-center">
                             <span class="padecimiento-editorial-kicker"><span aria-hidden="true">${guideGroup.emoji}</span> ${guideGroup.name}</span>
-                            <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3"><span class="guide-preview-emoji" aria-hidden="true">${pad.emoji}</span> <span>${pad.name}</span></h3>
+                            <h3 class="padecimiento-title${titleLengthClass} text-2xl font-extrabold text-gray-800 flex items-center gap-3">${pad.emoji} ${pad.name}</h3>
                             <p class="padecimiento-card-description">${pad.description}</p>
                             <span class="padecimiento-editorial-preview preview-count-${Math.min(pad.comboPrincipal.length, 4)}">
                                 <span class="padecimiento-editorial-preview-title">${pad.primaryOptionsLabel || 'Opciones para valorar'}</span>

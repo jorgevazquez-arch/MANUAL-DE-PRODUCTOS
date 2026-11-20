@@ -20,7 +20,7 @@
   body.native-preview .company-policy-notice {
     margin: 0; padding: 9px 20px; border: 0;
     background: transparent; color: var(--native-muted);
-    font-size: 0.65rem; font-weight: 400; line-height: 1.5;
+    font-size: 0.78rem; font-weight: 400; line-height: 1.5;
   }
   body.native-preview .company-policy-notice strong { font-weight: 400; }
   body.native-preview #mainCentralHeader {
