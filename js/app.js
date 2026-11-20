@@ -9,6 +9,7 @@
         const manualEntranceAnimations = new Map();
 
         function getManualHeaderOffset() {
+            if (document.body.classList.contains('native-preview')) return (document.getElementById('mainCentralHeader')?.offsetHeight || 0) + 20;
             if (window.matchMedia('(min-width: 1024px)').matches) return 0;
             return document.getElementById('mainCentralHeader')?.offsetHeight || 0;
         }
@@ -1222,17 +1223,19 @@
 
                 return `
                     <div class="product-card reveal bg-white overflow-hidden flex flex-col h-full p-4" data-product-card data-product-id="${p.id}" role="button" tabindex="0" aria-label="Abrir ficha técnica de ${escapeGuideAttribute(p.name)}" style="--cat-a:${catA}; --cat-b:${catB}; animation-delay:${delay}s;">
-                        <div class="flex items-center gap-4 mb-4">
-                            <div class="w-24 h-24 flex-shrink-0 bg-gray-50 rounded-xl flex items-center justify-center p-2">
+                        <div class="native-card-heading flex items-center gap-4 mb-4">
+                            <div class="native-card-image w-24 h-24 flex-shrink-0 bg-gray-50 rounded-xl flex items-center justify-center p-2">
                                 <img src="${p.image}" alt="${p.name}" class="max-h-full max-w-full object-contain" loading="lazy" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=${encodeURIComponent(p.name)}'">
                             </div>
-                            <div class="flex-1">
+                            <div class="native-card-copy flex-1">
                         <h4 class="text-lg font-black text-girasol-green-900 leading-tight">${p.name}</h4>
+                        <p class="native-card-presentation">${escapeGuideAttribute(p.packageContent || '')}</p>
                         <p class="text-xs font-bold uppercase tracking-wider mt-1" style="color:${catA}">${categoryIcons[p.category]?.name || p.category}</p>
                             </div>
+                            <svg class="native-card-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
                         </div>
-                        <p class="text-sm text-gray-700 font-normal mb-3 flex-1 line-clamp-2 leading-relaxed">${p.shortDesc}</p>
-                        <div class="mt-auto pt-2.5 border-t border-gray-100/90">
+                        <p class="native-card-description text-sm text-gray-700 font-normal mb-3 flex-1 line-clamp-2 leading-relaxed">${p.shortDesc}</p>
+                        <div class="native-card-actions mt-auto pt-2.5 border-t border-gray-100/90">
                             <div class="flex items-center justify-between gap-2">
                                 <details data-card-control class="advisor-card-tip group/tip flex-1">
                                     <summary class="cursor-pointer list-none select-none inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 hover:text-emerald-950 bg-emerald-50 hover:bg-emerald-100/80 active:bg-emerald-200/60 border border-emerald-200/90 rounded-full px-2.5 py-1 transition-all">
@@ -1818,8 +1821,6 @@
             document.getElementById('modalCategory').textContent = (categoryIcons[p.category]?.name || p.category).toUpperCase();
             document.getElementById('modalDescription').textContent = p.shortDesc;
             document.getElementById('modalChoiceNote').textContent = p.choiceNote;
-            document.getElementById('modalUsageGuide').innerHTML = window.manualAdvisor.getPracticalUsage(p)
-                .map(([label, value]) => `<div><dt>${escapeGuideAttribute(label)}</dt><dd>${escapeGuideAttribute(value)}</dd></div>`).join('');
             document.getElementById('modalIngredients').textContent = p.ingredients || 'No especificado';
             document.getElementById('modalServing').textContent = p.serving || 'No especificado';
             document.getElementById('modalPackageContent').textContent = p.packageContent || 'No especificado';
@@ -1852,7 +1853,9 @@
 
             // Nuevos campos
             document.getElementById('modalTiming').textContent = p.timing || 'Según lo indicado en la porción sugerida.';
-            document.getElementById('modalIntakeInstructions').textContent = p.intakeInstructions || 'Seguir las indicaciones del empaque.';
+            const intakeInstructions = (p.intakeInstructions || '').trim();
+            document.getElementById('modalIntakeInstructions').textContent = intakeInstructions;
+            document.getElementById('modalIntakeGuide').hidden = !intakeInstructions;
             document.getElementById('modalFoodInter').textContent = p.foodInteractions || 'La ficha no indica precauciones específicas con alimentos.';
 
             const benefitsList = document.getElementById('modalBenefits');

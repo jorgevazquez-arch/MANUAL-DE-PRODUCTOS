@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
     <link rel="stylesheet" href="./css/styles.css?v=20261119-font-scale">
+    <link rel="stylesheet" href="./css/native-preview.css?v=8">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
@@ -18,7 +19,7 @@
         } catch (_) { /* El tema sigue funcionando aunque el almacenamiento esté deshabilitado. */ }
     </script>
 </head>
-<body class="text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
+<body class="native-preview text-gray-800 antialiased selection:bg-girasol-yellow-100 selection:text-girasol-yellow-900">
 
     <aside class="company-policy-notice no-print" role="note" aria-label="Política de uso interno">
         <strong>Material de formación interna. No es publicidad ni información dirigida al consumidor.</strong>
@@ -44,22 +45,23 @@
                     </button>
                 </div>
             </div>
-        </div>
-    </header>
-
     <aside id="primaryNavDrawer" class="primary-nav-drawer no-print" aria-label="Menú principal">
         <nav class="main-navigation" role="tablist" aria-label="Navegación principal">
             <button type="button" data-nav-target="productos" class="main-nav-btn active" role="tab" aria-selected="true">
                 <span class="nav-card-title"><svg class="nav-card-icon" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5v8l-9 5-9-5V8l9-5Z M3 8l9 5 9-5 M12 13v8 M7.5 5.5l9 5V15"/></svg><span class="nav-card-label"><span>Productos</span></span></span>
             </button>
             <button type="button" data-nav-target="guias" class="main-nav-btn" role="tab" aria-selected="false">
-                <span class="nav-card-title"><svg class="nav-card-icon" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="M9 11h6 M9 15h6"/></svg><span class="nav-card-label"><span>Guías por Padecimiento</span></span></span>
+                <span class="nav-card-title"><svg class="nav-card-icon" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/><path d="M9 11h6 M9 15h6"/></svg><span class="nav-card-label"><span>Guías</span></span></span>
             </button>
             <button type="button" data-nav-target="recursos" class="main-nav-btn" role="tab" aria-selected="false">
                 <span class="nav-card-title"><svg class="nav-card-icon" viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5C9 3 5 3 2 4v15c3-1 7-1 10 1 3-2 7-2 10-1V4c-3-1-7-1-10 1Z M12 5v15"/></svg><span class="nav-card-label"><span>Recursos</span></span></span>
             </button>
         </nav>
     </aside>
+        </div>
+    </header>
+
+
 
     <div id="manualLayout" class="max-w-[1200px] mx-auto px-4 py-6 print-container">
         <!-- Contenido Principal -->
@@ -342,11 +344,12 @@
 
             <!-- HEADER PARA WEB (igual) -->
             <section id="catalogHeader" class="catalog-header no-print" aria-labelledby="catalogTitle">
-                <h1 id="catalogTitle">Catálogo de Alta Especialidad</h1>
-                <p class="catalog-description">Encuentra productos, consulta padecimientos y explora sus guías relacionadas.</p>
+                <span class="native-eyebrow">EL GIRASOL · MANUAL DE CONSULTA</span>
+                <h1 id="catalogTitle">Tu manual</h1>
+                <p class="catalog-description">Todo lo que necesitas, a mano.</p>
                 <div class="catalog-search">
                     <svg class="catalog-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
-                    <input id="searchInput" type="text" aria-label="Buscar productos y guías relacionadas" placeholder="Buscar producto, padecimiento o síntoma…">
+                    <input id="searchInput" type="text" aria-label="Buscar productos y guías relacionadas" placeholder="Buscar productos, ingredientes o síntomas…">
                     <button id="clearSearchBtn" type="button" class="catalog-search-clear hidden" aria-label="Limpiar búsqueda" title="Limpiar búsqueda">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 6 12 12 M18 6 6 18"/></svg>
                     </button>
@@ -355,30 +358,30 @@
                 <p id="globalSearchStatus" role="status" aria-live="polite"></p>
                 <p id="guideSearchContext" class="advisor-search-context" hidden>Las coincidencias por guía son referencias de capacitación, no una indicación de uso del producto.</p>
                 <div id="filterContainer" class="catalog-filters" role="group" aria-label="Clasificaciones de productos">
-                    <button type="button" data-filter="all" class="filter-btn catalog-filter active">Todos</button>
-                    <button type="button" data-filter="digestivo" class="filter-btn catalog-filter">🌿 Función Digestiva y Hepática</button>
-                    <button type="button" data-filter="laxantes" class="filter-btn catalog-filter">🚽 Laxantes</button>
-                    <button type="button" data-filter="inmune" class="filter-btn catalog-filter">🛡️ Inmune</button>
-                    <button type="button" data-filter="nervioso" class="filter-btn catalog-filter">🧠 Nervioso</button>
-                    <button type="button" data-filter="metabolismo" class="filter-btn catalog-filter">🔥 Metabolismo</button>
-                    <button type="button" data-filter="hormonal" class="filter-btn catalog-filter">🩷 Hormonal</button>
-                    <button type="button" data-filter="piel" class="filter-btn catalog-filter">✨ Piel / Ojos</button>
-                    <button type="button" data-filter="locomotor" class="filter-btn catalog-filter">💪 Locomotor</button>
-                    <button type="button" data-filter="clinico" class="filter-btn catalog-filter">❤️ Clínico</button>
-                    <button type="button" data-filter="deportivo" class="filter-btn catalog-filter">💪 Deportivo</button>
-                    <button type="button" data-filter="nutricional" class="filter-btn catalog-filter">🍎 Nutricional</button>
-                    <button type="button" data-filter="otros" class="filter-btn catalog-filter">🗂️ Otros productos</button>
+                    <button type="button" data-filter="all" class="filter-btn catalog-filter active" title="Todos"><span class="native-filter-icon" aria-hidden="true">🗃️</span><span>Todos</span></button>
+                    <button type="button" data-filter="digestivo" class="filter-btn catalog-filter" title="🌿 Función Digestiva y Hepática"><span class="native-filter-icon" aria-hidden="true">🌿</span><span>Digestivo</span></button>
+                    <button type="button" data-filter="laxantes" class="filter-btn catalog-filter" title="🚽 Laxantes"><span class="native-filter-icon" aria-hidden="true">🚽</span><span>Laxantes</span></button>
+                    <button type="button" data-filter="inmune" class="filter-btn catalog-filter" title="🛡️ Inmune"><span class="native-filter-icon" aria-hidden="true">🛡️</span><span>Inmune</span></button>
+                    <button type="button" data-filter="nervioso" class="filter-btn catalog-filter" title="🧠 Nervioso"><span class="native-filter-icon" aria-hidden="true">🧠</span><span>Nervioso</span></button>
+                    <button type="button" data-filter="metabolismo" class="filter-btn catalog-filter" title="🔥 Metabolismo"><span class="native-filter-icon" aria-hidden="true">🔥</span><span>Metabolismo</span></button>
+                    <button type="button" data-filter="hormonal" class="filter-btn catalog-filter" title="🩷 Hormonal"><span class="native-filter-icon" aria-hidden="true">🩷</span><span>Hormonal</span></button>
+                    <button type="button" data-filter="piel" class="filter-btn catalog-filter" title="✨ Piel / Ojos"><span class="native-filter-icon" aria-hidden="true">👁️</span><span>Piel / Ojos</span></button>
+                    <button type="button" data-filter="locomotor" class="filter-btn catalog-filter" title="💪 Locomotor"><span class="native-filter-icon" aria-hidden="true">🦴</span><span>Locomotor</span></button>
+                    <button type="button" data-filter="clinico" class="filter-btn catalog-filter" title="❤️ Clínico"><span class="native-filter-icon" aria-hidden="true">❤️</span><span>Clínico</span></button>
+                    <button type="button" data-filter="deportivo" class="filter-btn catalog-filter" title="💪 Deportivo"><span class="native-filter-icon" aria-hidden="true">🏋️</span><span>Deportivo</span></button>
+                    <button type="button" data-filter="nutricional" class="filter-btn catalog-filter" title="🍎 Nutricional"><span class="native-filter-icon" aria-hidden="true">🍎</span><span>Nutricional</span></button>
+                    <button type="button" data-filter="otros" class="filter-btn catalog-filter" title="🗂️ Otros productos"><span class="native-filter-icon" aria-hidden="true">🗂️</span><span>Otros</span></button>
                 </div>
                 <div id="padColorLegend" class="catalog-filters manual-view-hidden" role="group" aria-label="Clasificaciones de guías">
-                    <button type="button" data-color-filter="all" aria-pressed="true" class="pad-color-btn catalog-filter active">🎯 Todos</button>
-                    <button type="button" data-color-filter="purple" aria-pressed="false" class="pad-color-btn catalog-filter">🟣 Sistema Nervioso y Hormonal</button>
-                    <button type="button" data-color-filter="green" aria-pressed="false" class="pad-color-btn catalog-filter">🟢 Sistema Digestivo y Hepático</button>
-                    <button type="button" data-color-filter="orange" aria-pressed="false" class="pad-color-btn catalog-filter">🟠 Metabolismo y Glucosa</button>
-                    <button type="button" data-color-filter="pink" aria-pressed="false" class="pad-color-btn catalog-filter">🩷 Salud Masculina y Femenina</button>
-                    <button type="button" data-color-filter="red" aria-pressed="false" class="pad-color-btn catalog-filter">🔴 Salud Cardiovascular y Clínica</button>
-                    <button type="button" data-color-filter="blue" aria-pressed="false" class="pad-color-btn catalog-filter">🔵 Sistema Inmune y Respiratorio</button>
-                    <button type="button" data-color-filter="yellow" aria-pressed="false" class="pad-color-btn catalog-filter">🟡 Sistema Locomotor y Deportivo</button>
-                    <button type="button" data-color-filter="gray" aria-pressed="false" class="pad-color-btn catalog-filter">⚪ Condiciones Complejas</button>
+                    <button type="button" data-color-filter="all" aria-pressed="true" class="pad-color-btn catalog-filter active"><span class="native-guide-emoji" aria-hidden="true">📚</span> Todos</button>
+                    <button type="button" data-color-filter="purple" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🧠</span> Sistema Nervioso y Hormonal</button>
+                    <button type="button" data-color-filter="green" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🌿</span> Sistema Digestivo y Hepático</button>
+                    <button type="button" data-color-filter="orange" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🔥</span> Metabolismo y Glucosa</button>
+                    <button type="button" data-color-filter="pink" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🩷</span> Salud Masculina y Femenina</button>
+                    <button type="button" data-color-filter="red" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">❤️</span> Salud Cardiovascular y Clínica</button>
+                    <button type="button" data-color-filter="blue" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🛡️</span> Sistema Inmune y Respiratorio</button>
+                    <button type="button" data-color-filter="yellow" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🦴</span> Sistema Locomotor y Deportivo</button>
+                    <button type="button" data-color-filter="gray" aria-pressed="false" class="pad-color-btn catalog-filter"><span class="native-guide-emoji" aria-hidden="true">🗂️</span> Condiciones Complejas</button>
                 </div>
             </section>
 
@@ -787,23 +790,15 @@
 
             <div class="product-sheet-content">
                 <section class="product-sheet-hero">
-                    <figure class="product-sheet-visual">
-                        <span class="product-sheet-orbit product-sheet-orbit-one" aria-hidden="true"></span>
-                        <span class="product-sheet-orbit product-sheet-orbit-two" aria-hidden="true"></span>
-                        <div class="product-sheet-image-frame">
-                            <img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain">
-                        </div>
-                        <figcaption>Imagen de referencia</figcaption>
-                    </figure>
-
-                    <div class="product-sheet-intro">
-                        <span id="modalCategory" class="product-sheet-category">Categoría</span>
-                        <h3 id="modalName">Nombre</h3>
-                        <p id="modalDescription" class="product-sheet-description">Descripción corta</p>
-                        <div class="advisor-choice-note">
-                            <span>Lo que lo distingue</span>
-                            <p id="modalChoiceNote"></p>
-                        </div>
+                    <div class="product-sheet-photo-column">
+                        <figure class="product-sheet-visual">
+                            <span class="product-sheet-orbit product-sheet-orbit-one" aria-hidden="true"></span>
+                            <span class="product-sheet-orbit product-sheet-orbit-two" aria-hidden="true"></span>
+                            <div class="product-sheet-image-frame">
+                                <img id="modalImage" src="" alt="Producto" class="max-h-full max-w-full object-contain">
+                            </div>
+                            <figcaption>Imagen de referencia</figcaption>
+                        </figure>
 
                         <div class="product-sheet-facts">
                             <div class="product-sheet-fact">
@@ -835,6 +830,16 @@
                                     <p id="modalPackageContent">-</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="product-sheet-intro">
+                        <span id="modalCategory" class="product-sheet-category">Categoría</span>
+                        <h3 id="modalName">Nombre</h3>
+                        <p id="modalDescription" class="product-sheet-description">Descripción corta</p>
+                        <div class="advisor-choice-note">
+                            <span>Lo que lo distingue</span>
+                            <p id="modalChoiceNote"></p>
                         </div>
                     </div>
                 </section>
@@ -870,12 +875,11 @@
                     </div>
 
                     <aside class="product-sheet-aside">
-                        <p class="product-sheet-aside-kicker">Guía de consumo</p>
-                        <h4>Cómo tomarlo</h4>
-                        <dl id="modalUsageGuide" class="advisor-usage-list"></dl>
-                        <p class="product-sheet-aside-kicker">Indicaciones registradas</p>
-                        <p id="modalIntakeInstructions">-</p>
-                        <div class="product-sheet-aside-rule"></div>
+                        <div id="modalIntakeGuide" hidden>
+                            <h4>Guía de consumo</h4>
+                            <p id="modalIntakeInstructions"></p>
+                            <div class="product-sheet-aside-rule"></div>
+                        </div>
                         <p class="product-sheet-aside-kicker">Antes de recomendar</p>
                         <h4>Consideraciones</h4>
                         <p id="modalContra">-</p>
@@ -931,7 +935,7 @@
     <script src="./js/search.js?v=20261106-busqueda-r2"></script>
     <script src="./data/asesoria.js?v=20261117-hasta-laxantes-r25"></script>
     <script src="./data/marcas.js?v=20261109-zennatura-r2"></script>
-    <script src="./js/app.js?v=20261117-hasta-laxantes-r11"></script>
+    <script src="./js/app.js?v=20261117-hasta-laxantes-r12"></script>
 
 </body>
 </html>

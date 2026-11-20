@@ -82,7 +82,7 @@
         79: "Myo-inositol en cápsulas, sin la combinación con D-chiro. El nombre comercial dice «Powder».",
         80: "Isoflavonas de Soya con Camote Silvestre (90 cápsulas): alivio integral para mujeres que sufren bochornos intensos, sudores nocturnos e irritabilidad por menopausia. El camote silvestre devuelve la lubricación íntima y el arándano rojo protege contra infecciones urinarias.",
         81: "Jengibre puro (1000 mg por porción): la mejor opción natural para calmar náuseas, mareos por viaje, digestiones lentas y espasmos estomacales.",
-        82: "KRILL OIL (80 cápsulas): el omega-3 de más alto nivel del catálogo, extraído de krill antártico no contaminado. Al venir enlazado a fosfolípidos en lugar de triglicéridos comunes, no produce reflujo con sabor a pescado y penetra con mayor facilidad en corazón y articulaciones. Es la alternativa recomendada para clientes exigentes que buscan reducir triglicéridos y recibir a la vez el poder antioxidante de la astaxantina pura.",
+        82: "KRILL OIL (60 cápsulas): el omega-3 de más alto nivel del catálogo, extraído de krill antártico no contaminado. Al venir enlazado a fosfolípidos en lugar de triglicéridos comunes, no produce reflujo con sabor a pescado y penetra con mayor facilidad en corazón y articulaciones. Es la alternativa recomendada para clientes exigentes que buscan reducir triglicéridos y recibir a la vez el poder antioxidante de la astaxantina pura.",
         83: "L-Arginina Nano Fear (100 cápsulas): aporta 2550 mg de L-arginina y 150 mg de ornitina por dosis de 3 cápsulas. Indicada para atletas que buscan congestión y venas marcadas (bombeo) sin recurrir a pre-entrenos con cafeína o azúcares. Frente a los polvos pre-entrenamiento, ofrece la ventaja de tomarse fácil en cualquier lugar y ser apta para entrenar por las noches sin desvelarse.",
         84: "L-Carnitina, Guaraná y Garcinia (100 cápsulas): quemador termogénico completo con cafeína y pimienta cayena, pensado para usuarios que necesitan un golpe fuerte de energía para entrenar y sudar más. Ideal para etapas de definición intensa o para quienes hacen cardio matutino y buscan quemar grasa con mayor rapidez. A diferencia de la L-carnitina pura en cápsulas, este producto contiene estimulantes activos, por lo que no debe tomarse de noche.",
         85: "Zinc L-carnosina (50 mg, aporta 15 mg de zinc) con jengibre e inulina. El suplemento clínico ideal para proteger y cicatrizar la mucosa gástrica en gastritis crónica o estómago muy sensible.",
@@ -380,24 +380,6 @@
         getRelationship(product, other) {
             if (product.alternativeProductIds.includes(other.id)) return 'alternative';
             return product.complementaryProductIds.includes(other.id) ? 'complement' : 'related';
-        },
-        getPracticalUsage(product) {
-            const foodInstructions = /no indica|no detalla/i.test(product.foodInteractions || '') ? '' : product.foodInteractions || '';
-            const source = `${product.intakeInstructions || ''} ${product.timing || ''} ${foodInstructions}`;
-            const external = /tópic|uso externo/i.test(`${product.serving} ${product.intakeInstructions}`);
-            let food = 'La ficha no especifica si debe ser con o sin alimentos.';
-            if (/con o sin alimentos/i.test(source)) food = 'Con o sin alimentos, según la ficha.';
-            else if (/con alimentos[^.]*gras|comida[^.]*(?:gras|aguacate)|con grasas|desayuno rico en grasas/i.test(source)) food = 'Con una comida que incluya algo de grasa, según la ficha.';
-            else if (/con alimentos|acompañad[oa]s? de alimentos|junto con alimentos|después de (?:los alimentos|comer)/i.test(source)) food = 'Con alimentos o después de comer, según la ficha.';
-            else if (/ayunas|estómago vacío/i.test(source)) food = 'En ayunas, según la ficha.';
-            const distribution = /repart|divid|\bveces\b|\btomas\b|1 con el desayuno y 1 con la cena|antes del desayuno y.*antes de la comida/i;
-            const split = (product.intakeInstructions || '').split(/(?<=[.!?])\s+/).filter(sentence => distribution.test(sentence)).join(' ')
-                || (distribution.test(product.serving || '') ? product.serving : '');
-            return [
-                [external ? 'Aplicación' : 'Porción', product.serving || 'Consultar la etiqueta vigente.'],
-                ['Momento indicado', product.timing || 'La ficha no señala un horario fijo.'],
-                ...(!external ? [['Con alimentos', food], ['Distribución de tomas', split || 'La ficha no detalla un reparto adicional de la porción.']] : [])
-            ];
         }
     };
 })();

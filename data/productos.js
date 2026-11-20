@@ -958,48 +958,6 @@ window.manualData.productos = [
     "serving": "2 cápsulas (1.01 g)",
     "timing": "Con alimentos",
     "intakeInstructions": "Consultar la etiqueta para conocer el modo de empleo. La porción de la información nutrimental es de 2 cápsulas (1.01 g).",
-    "nutritionFacts": {
-      "servingSize": "2 cápsulas (1.01 g)",
-      "servingsPerContainer": "30",
-      "rows": [
-        {
-          "nutrient": "Contenido energético",
-          "perServing": "0.12 kcal / 0.49 kJ",
-          "per100g": "12 kcal / 49 kJ"
-        },
-        {
-          "nutrient": "Proteínas",
-          "perServing": "0 g",
-          "per100g": "0 g"
-        },
-        {
-          "nutrient": "Grasas totales (lípidos)",
-          "perServing": "0 g",
-          "per100g": "0 g"
-        },
-        {
-          "nutrient": "Carbohidratos (hidratos de carbono)",
-          "perServing": "0.03 g",
-          "per100g": "3 g"
-        },
-        {
-          "nutrient": "Sodio",
-          "perServing": "0 mg",
-          "per100g": "0 mg"
-        },
-        {
-          "nutrient": "Berberina HCL",
-          "perServing": "1,000 mg",
-          "per100g": "99 g"
-        },
-        {
-          "nutrient": "Zinc",
-          "perServing": "1 mg",
-          "per100g": "100 mg"
-        }
-      ],
-      "note": "El zinc corresponde a 5 mg de glicinato de zinc por porción."
-    },
     "yieldInfo": {
       "servingsPerContainer": 30,
       "servingsPerDay": 1,
@@ -1281,7 +1239,7 @@ window.manualData.productos = [
       "Prevención de calambres agudos: trabaja en equipo con el magnesio asegurando contracciones musculares suaves y evitando tirones en pantorrillas.",
       "Equilibrio de la presión arterial: apoya la relajación de las paredes vasculares y el buen funcionamiento de los riñones y el corazón."
     ],
-    "contraindications": "Personas con enfermedad renal, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos ahorradores de potasio o inhibidores de la ECA deben consultar a un profesional de la salud.",
+    "contraindications": "Personas con enfermedad renal, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos ahorradores de potasio o medicamentos para la presión arterial (como enalapril o captopril) deben consultar a un profesional de la salud.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Consultar si el cliente toma medicamentos para la presión o para eliminar líquidos que hacen que el cuerpo retenga potasio. La combinación puede aumentar demasiado el potasio; el médico o farmacéutico debe revisar el tratamiento.",
     "packageContent": "90 cápsulas"
@@ -1484,7 +1442,7 @@ window.manualData.productos = [
       "Absorción multiplicada con piperina: los 20 mg de pimienta negra garantizan que los curcuminoides lleguen al torrente sanguíneo y actúen directamente en el cartílago.",
       "Síntesis de colágeno nuevo: los 300 mg de vitamina C estimulan la regeneración de colágeno en cartílagos, tendones y vasos sanguíneos."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos de uso continuo procesados por el hígado deben consultar a un profesional de la salud.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o controlar el azúcar. También revisar otros tratamientos que procesa el hígado.",
     "packageContent": "90 cápsulas"
@@ -1654,7 +1612,7 @@ window.manualData.productos = [
       "Suavidad y protección intestinal: la malva aporta mucílagos que calman y desinflaman el tracto digestivo.",
       "Nutrición verde y energía limpia: la espirulina y las hojas de té aportan clorofila, antioxidantes y vitalidad para el día."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos metabolizados por CYP3A4 deben consultar a un profesional de la salud.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos de uso continuo procesados por el hígado deben consultar a un profesional de la salud.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "La fórmula incluye toronja, que puede cambiar el efecto de muchos medicamentos. Si el cliente toma alguno, revisar la combinación antes de usar.",
     "packageContent": "15 cápsulas",
@@ -2029,7 +1987,7 @@ window.manualData.productos = [
       "Alivio de zumbidos y mareos: descongestiona la circulación en el oído interno, aliviando ruidos molestos y sensación de inestabilidad al levantarse.",
       "Protección vascular y nutrición neuronal: la lecitina de soya y el resveratrol defienden las neuronas del envejecimiento y cuidan la flexibilidad arterial."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos ISRS o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos (como sertralina o fluoxetina) o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "El ajo y el ginkgo pueden aumentar el riesgo de sangrado al combinarse con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. El resveratrol también requiere revisar esa combinación con su médico o farmacéutico.",
     "packageContent": "90 cápsulas"
@@ -2355,10 +2313,10 @@ window.manualData.productos = [
     "category": "clinico",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/08/krill-1.jpg",
     "shortDesc": "Aceite de krill antártico puro en fosfolípidos con astaxantina natural para una máxima protección del corazón, el cerebro y las articulaciones.",
-    "ingredients": "Aceite de krill (1.2 g) con EPA (400 mg), DHA (200 mg), fosfolípidos (300 mg), astaxantina (30 mg) por cápsula.",
-    "serving": "1 cápsula (1.2 g)",
+    "ingredients": "Aceite de krill puro (1,990 mg por porción de 2 cápsulas) con 300 mg de omega-3 total: EPA (180 mg) y DHA (120 mg), fosfolípidos (280 mg) y astaxantina natural (30 mg).",
+    "serving": "2 cápsulas (2 g)",
     "timing": "Con alimentos que contengan grasas",
-    "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
+    "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
     "benefits": [
       "Omega-3 en fosfolípidos: los ácidos EPA y DHA unidos a fosfolípidos se integran con gran afinidad a las membranas celulares del organismo.",
       "Salud del corazón y triglicéridos: favorece el equilibrio de los lípidos en sangre y mantiene las arterias flexibles y protegidas.",
@@ -2368,7 +2326,7 @@ window.manualData.productos = [
     "contraindications": "Personas con alergia a crustáceos o mariscos, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
-    "packageContent": "80 cápsulas"
+    "packageContent": "60 cápsulas"
   },
   {
     "id": 83,
@@ -4197,7 +4155,7 @@ window.manualData.productos = [
       "Calma mental con Teanina y Azahar: apagan las ondas de alerta cerebral y disipan la ansiedad acumulada durante el día, ayudando a relajarse y prepararse para dormir plácidamente.",
       "Relajación muscular nocturna: el magnesio evita contracturas y sacudidas musculares involuntarias al momento de conciliar el descanso."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos (ISRS, IMAO), ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos de prescripción médica, ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Puede dar sueño. Evitar conducir después de consumirlo.",
     "packageContent": "30 cápsulas"
@@ -6173,9 +6131,9 @@ window.manualData.productos = [
       "Control de antojos vespertinos por ansiedad: frena el impulso compulsivo de comer pan, galletas o chocolates al atardecer provocado por baja serotonina.",
       "Regulación del descanso nocturno: al convertirse en melatonina al caer la noche, facilita un sueño placentero y reparador."
     ],
-    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos (ISRS) y otros medicamentos serotoninérgicos.",
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos comunes (como fluoxetina o sertralina) y medicamentos para el estado de ánimo.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con antidepresivos, incluidos los llamados ISRS e IMAO, o con otros medicamentos que aumentan la serotonina, una sustancia que participa en el estado de ánimo y otras funciones.",
+    "interactions": "Consultar antes de combinar con antidepresivos de prescripción médica, o con otros medicamentos que aumentan la serotonina, una sustancia que participa en el estado de ánimo y otras funciones.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -7359,7 +7317,7 @@ window.manualData.productos = [
       "Circulación y desahogo muscular: el castaño de indias, la centella asiática y el romero favorecen el flujo sanguíneo local para deshinchar piernas y descongestionar tejidos.",
       "Esencias aromáticas y masaje prolongado: los aceites de eucalipto, guayacol y almendras permiten un masaje fluido y dejan una sensación de alivio duradera."
     ],
-    "contraindications": "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina/AINEs, y menores de 12 años.",
+    "contraindications": "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina o desinflamatorios como ibuprofeno o naproxeno, y menores de 12 años.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Usarlo durante mucho tiempo o sobre zonas extensas de piel puede aumentar el efecto de anticoagulantes como warfarina. Consultar antes si el cliente usa esos medicamentos.",
     "packageContent": "Gel tópico (cantidad no especificada)"
@@ -7382,7 +7340,7 @@ window.manualData.productos = [
       "Vitalidad radiante sin fatiga: el ginseng, guaraná, jalea real y polen devuelven el entusiasmo diario y combaten el cansancio crónico.",
       "Protección de piel y nervios: la vitamina E, acai y vitamina B12 protegen contra el envejecimiento celular y mantienen el sistema nervioso en calma."
     ],
-    "contraindications": "Contraindicado en cánceres hormonodependientes (mama, ovario, útero ER+), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
+    "contraindications": "Contraindicado en cánceres hormonodependientes o sensibles a estrógenos (como cáncer de mama, ovario o matriz), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "La ficha indica no combinar con terapia de reemplazo hormonal, anticonceptivos, medicamentos para evitar coágulos como warfarina, heparina o aspirina, ni con medicamentos que puedan dañar el hígado. También pide separar al menos 4 horas de cualquier medicamento. Revisar con el médico o farmacéutico: separar horarios no elimina todos los riesgos.",
     "packageContent": "60 cápsulas"
@@ -7678,7 +7636,7 @@ window.manualData.productos = [
       "Vesícula activa y menos gases: la cúrcuma ayuda a fluidificar la bilis para digerir grasas y elimina la hinchazón abdominal.",
       "Fácil rutina diaria: presentación práctica de 1 cápsula antes de cada comida principal para mantener el estómago en paz."
     ],
-    "contraindications": "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes (warfarina, AAS) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
+    "contraindications": "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes o aspirina (ácido acetilsalicílico) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
     "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
     "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. También revisar otros tratamientos que procesa el hígado.",
     "packageContent": "90 cápsulas",
@@ -7926,7 +7884,7 @@ const productPackageContents = {
   79: "120 cápsulas",
   80: "90 cápsulas",
   81: "60 cápsulas",
-  82: "80 cápsulas",
+  82: "60 cápsulas",
   83: "100 cápsulas",
   84: "100 cápsulas",
   85: "30 cápsulas",

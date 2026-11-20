@@ -245,7 +245,7 @@ window.manualData.padecimientos = [
         "comboSecundario": [
             {
                 "id": 82,
-                "serving": "1 cápsula",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
                 "rationale": "Aporta DHA, una grasa omega 3 importante para el cerebro."
             },
@@ -3962,7 +3962,7 @@ window.manualData.padecimientos = [
             },
             {
                 "id": 82,
-                "serving": "1-2 cápsulas",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
                 "rationale": "Ácido graso esencial concentrado que estructura la membrana de las neuronas, mejorando el control de impulsos y el tiempo de atención."
             },
