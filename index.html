@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="./js/tailwind.config.js"></script>
     <link rel="stylesheet" href="./css/styles.css?v=20261119-font-scale">
-    <link rel="stylesheet" href="./css/native-preview.css?v=8">
+    <link rel="stylesheet" href="./css/native-preview.css?v=9">
+    <link rel="stylesheet" href="./css/guide-preview.css?v=1">
     <script>
         try {
             if (localStorage.getItem('manual-theme') === 'dark') document.documentElement.classList.add('dark-mode');
@@ -874,33 +875,35 @@
                         </div>
                     </div>
 
-                    <aside class="product-sheet-aside">
-                        <div id="modalIntakeGuide" hidden>
-                            <h4>Guía de consumo</h4>
-                            <p id="modalIntakeInstructions"></p>
-                            <div class="product-sheet-aside-rule"></div>
-                        </div>
-                        <p class="product-sheet-aside-kicker">Antes de recomendar</p>
-                        <h4>Consideraciones</h4>
-                        <p id="modalContra">-</p>
-                    </aside>
-                </section>
+                    <div class="product-sheet-side-column">
+                        <aside class="product-sheet-aside">
+                            <div id="modalIntakeGuide" hidden>
+                                <h4>Guía de consumo</h4>
+                                <p id="modalIntakeInstructions"></p>
+                                <div class="product-sheet-aside-rule"></div>
+                            </div>
+                            <p class="product-sheet-aside-kicker">Antes de recomendar</p>
+                            <h4>Consideraciones</h4>
+                            <p id="modalContra">-</p>
+                        </aside>
 
-                <section class="product-sheet-interactions" aria-label="Interacciones del producto">
-                    <article>
-                        <span class="product-sheet-detail-icon" aria-hidden="true">💊</span>
-                        <div>
-                            <h4>Al combinar con medicamentos</h4>
-                            <p id="modalInter">-</p>
-                        </div>
-                    </article>
-                    <article>
-                        <span class="product-sheet-detail-icon" aria-hidden="true">🍌</span>
-                        <div>
-                            <h4>Con alimentos y bebidas</h4>
-                            <p id="modalFoodInter">-</p>
-                        </div>
-                    </article>
+                        <section class="product-sheet-interactions" aria-label="Interacciones del producto">
+                            <article>
+                                <span class="product-sheet-detail-icon" aria-hidden="true">💊</span>
+                                <div>
+                                    <h4>Al combinar con medicamentos</h4>
+                                    <p id="modalInter">-</p>
+                                </div>
+                            </article>
+                            <article>
+                                <span class="product-sheet-detail-icon" aria-hidden="true">🍌</span>
+                                <div>
+                                    <h4>Con alimentos y bebidas</h4>
+                                    <p id="modalFoodInter">-</p>
+                                </div>
+                            </article>
+                        </section>
+                    </div>
                 </section>
 
                 <section id="modalPadecimientosWrap" class="product-sheet-synergy hidden">
@@ -930,12 +933,12 @@
         </article>
     </div>
 
-    <script src="./data/productos.js?v=20261117-hasta-laxantes-r35"></script>
+    <script src="./data/productos.js?v=20261117-hasta-laxantes-r36"></script>
     <script src="./data/padecimientos.js?v=20261113-ashwagandha-pimienta-r8"></script>
     <script src="./js/search.js?v=20261106-busqueda-r2"></script>
     <script src="./data/asesoria.js?v=20261117-hasta-laxantes-r25"></script>
     <script src="./data/marcas.js?v=20261109-zennatura-r2"></script>
-    <script src="./js/app.js?v=20261117-hasta-laxantes-r12"></script>
+    <script src="./js/app.js?v=20261117-hasta-laxantes-r13"></script>
 
 </body>
 </html>

@@ -214,6 +214,23 @@
   body.native-preview .product-sheet-aside { align-self: start; padding: clamp(16px, 2vw, 23px); }
   body.native-preview .product-sheet-aside h4 { margin-bottom: 0.45rem; }
   body.native-preview .product-sheet-aside-rule { margin: 0.85rem 0; }
+  body.native-preview .product-sheet-side-column {
+    display: grid;
+    align-content: start;
+    min-width: 0;
+    gap: 12px;
+  }
+  body.native-preview .product-sheet-side-column .product-sheet-interactions {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  body.native-preview .product-sheet-interactions article { gap: 10px; padding: 14px; }
+  body.native-preview .product-sheet-interactions .product-sheet-detail-icon {
+    width: 2rem;
+    height: 2rem;
+    flex-basis: 2rem;
+    font-size: 0.95rem;
+  }
   body.native-preview .compare-bar { border-radius: 100px; backdrop-filter: blur(22px); }
   body.native-preview :is(button, input, summary, [role="button"]):focus-visible { outline: 2px solid #5f9270; outline-offset: 4px; }
   @media (hover: hover) and (pointer: fine) {
