@@ -9,6 +9,7 @@
     "ciatica",
     "depresion_apoyo",
     "quistes_miomas",
+    "indigestion",
     "gastritis_ulcera",
     "enfermedad_inflamatoria_intestinal",
     "erge_acidez",
@@ -75,7 +76,6 @@
     "dismenorrea",
     "diarrea_antibioticos",
     "deficiencia_vitamina_d",
-    "indigestion",
     "lactancia_produccion_leche",
     "matriz_fria_dismenorrea",
     "nutricion_infantil",
@@ -91,7 +91,19 @@
     "agotamiento_extremo_rescate",
     "crisis_nerviosismo_panico",
     "longevidad_celular_nmn",
-    "soporte_keto_ayuno"
+    "soporte_keto_ayuno",
+    "gases_hinchazon_abdominal",
+    "flora_intestinal_absorcion",
+    "intolerancia_lactosa_apoyo",
+    "tendinitis_bursitis",
+    "esguinces_desgarros_recuperacion",
+    "calambres_musculares_nocturnos",
+    "dolor_cabeza_tensional",
+    "pano_manchas_piel",
+    "caspa_cuero_cabelludo",
+    "piel_muy_seca",
+    "encias_sensibles_inflamadas",
+    "hidratacion_electrolitos"
   ],
   "changes": [
     {
@@ -195,6 +207,12 @@
       "productId": 272,
       "group": "comboSecundario",
       "rationale": "Asocia la resistencia adaptogénica de la Rhodiola con las propiedades ansiolíticas de Albizia y L-teanina, sustentando la claridad cognitiva y el rendimiento intelectual sin sobreestimular el sistema cardiovascular ni agotar las suprarrenales."
+    },
+    {
+      "guideId": "fatiga_burnout",
+      "productId": 192,
+      "group": "comboSecundario",
+      "rationale": "Ampolleta bebible oral con complejo B, vitaminas A, C, D3 y E, jalea real, inositol y calcio como reconstituyente práctico cuando hay desgaste o dificultad para tragar pastillas."
     },
     {
       "guideId": "insomnio",
@@ -342,15 +360,15 @@
     },
     {
       "guideId": "fibromialgia",
-      "productId": 17,
-      "group": "comboSecundario",
-      "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
-    },
-    {
-      "guideId": "fibromialgia",
       "productId": 4,
       "group": "comboSecundario",
       "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de neurotransmisores del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
+    },
+    {
+      "guideId": "fibromialgia",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
     },
     {
       "guideId": "ciatica",
@@ -372,15 +390,15 @@
     },
     {
       "guideId": "ciatica",
-      "productId": 17,
-      "group": "comboSecundario",
-      "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
-    },
-    {
-      "guideId": "ciatica",
       "productId": 91,
       "group": "comboSecundario",
       "rationale": "Combina tres sales de magnesio para favorecer la relajación neuromuscular y disminuir la excitabilidad de las fibras paravertebrales, aliviando la rigidez muscular refleja que comprime el trayecto ciático."
+    },
+    {
+      "guideId": "ciatica",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
     },
     {
       "guideId": "ciatica",
@@ -450,12 +468,6 @@
     },
     {
       "guideId": "quistes_miomas",
-      "productId": 43,
-      "group": "comboSecundario",
-      "rationale": "La silimarina y extractos botánicos apoyan la detoxificación hepática de estrógenos excedentes en fase II, ayudando a equilibrar la dominancia hormonal que estimula el crecimiento de quistes y miomas."
-    },
-    {
-      "guideId": "quistes_miomas",
       "productId": 123,
       "group": "comboSecundario",
       "rationale": "Ácidos grasos EPA y DHA para reducir la cascada inflamatoria pélvica, aliviando la presión y las molestias asociadas a quistes y miomas."
@@ -471,6 +483,42 @@
       "productId": 180,
       "group": "comboSecundario",
       "rationale": "Aporta inositol puro de rápida asimilación que optimiza la transducción de señales de insulina en el ovario, favoreciendo el balance neuroendocrino y disminuyendo la tendencia a desarrollar quistes ováricos."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 79,
+      "group": "comboSecundario",
+      "rationale": "Aporta 500 mg de myo-inositol puro al día para acompañar el cuidado ovárico de forma sencilla cuando se prefiere una sola cápsula diaria."
+    },
+    {
+      "guideId": "quistes_miomas",
+      "productId": 43,
+      "group": "comboSecundario",
+      "rationale": "La silimarina y extractos botánicos apoyan la detoxificación hepática de estrógenos excedentes en fase II, ayudando a equilibrar la dominancia hormonal que estimula el crecimiento de quistes y miomas."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 60,
+      "group": "comboPrincipal",
+      "rationale": "Aporta un complejo enzimático integral (pancreatina, papaína, bromelina, lipasa y amilasa) que desdobla rápidamente lípidos, proteínas y carbohidratos en el estómago, aliviando la sensación de plenitud gástrica, gases y somnolencia posprandial."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 141,
+      "group": "comboPrincipal",
+      "rationale": "Combina jengibre, cardamomo y aloe vera para estimular las secreciones biliares y acelerar el vaciamiento gástrico, eliminando la sensación de distensión epigástrica, eructos repetitivos y pesadez tras alimentos condimentados o copiosos."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "Aporta ácido acético natural con cúrcuma y jengibre para optimizar el pH del jugo gástrico y estimular la secreción de ácido clorhídrico endógeno, facilitando la digestión de comidas densas y evitando la fermentación excesiva."
+    },
+    {
+      "guideId": "indigestion",
+      "productId": 175,
+      "group": "comboSecundario",
+      "rationale": "Infusión botánica carminativa que relaja el esfínter esofágico y la musculatura lisa gastroduodenal, promoviendo la motilidad digestiva natural y disipando los cólicos por gases atrapados y la flatulencia incómoda."
     },
     {
       "guideId": "gastritis_ulcera",
@@ -864,6 +912,12 @@
     },
     {
       "guideId": "varices_circulacion",
+      "productId": 51,
+      "group": "comboSecundario",
+      "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas mediante la modulación de mediadores inflamatorios vasculares."
+    },
+    {
+      "guideId": "varices_circulacion",
       "productId": 183,
       "group": "comboSecundario",
       "rationale": "Gel refrescante con extractos de castaño de indias, hamamelis y ginkgo que proporciona un efecto venotónico local, descongestionando los vasos dilatados y brindando ligereza inmediata a las piernas tras jornadas largas."
@@ -1094,223 +1148,331 @@
       "guideId": "acido_urico",
       "productId": 54,
       "group": "comboPrincipal",
-      "rationale": "Desinflama con rapidez la articulación del dedo gordo y el empeine durante crisis dolorosas de gota, frenando la cascada inflamatoria provocada por cristales de urato."
+      "rationale": "Concentrado de curcumina con pimienta negra y vitamina C para ayudar a mantener desinflamadas las articulaciones en el cuidado diario entre episodios (no es para aliviar una crisis aguda)."
     },
     {
       "guideId": "acido_urico",
       "productId": 47,
       "group": "comboSecundario",
-      "rationale": "Alcaliniza el pH de la orina, aumentando la solubilidad del ácido úrico para facilitar su expulsión renal y prevenir la precipitación de cristales de urato en articulaciones y riñón."
+      "rationale": "Ayuda a que la orina sea menos ácida para que el ácido úrico se disuelva mejor y salga con más facilidad por los riñones entre episodios."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 148,
+      "group": "comboSecundario",
+      "rationale": "Planta mexicana tradicional usada en el cuidado diario para apoyar la eliminación por la orina y el manejo de grasas en sangre junto con una dieta moderada."
+    },
+    {
+      "guideId": "acido_urico",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Aporta grasas buenas EPA y DHA (1,500 mg) para cuidar articulaciones y corazón de forma continua entre episodios de gota."
     },
     {
       "guideId": "acido_urico",
       "productId": 151,
       "group": "comboSecundario",
-      "rationale": "Concentrado botánico alcalinizante con apio y enzimas proteolíticas que favorece la eliminación urinaria de solutos ácidos, aliviando la carga metabólica en episodios inflamatorios articulares."
+      "rationale": "Bebida verde con fibras, enzimas digestivas, probióticos y vegetales (como apio y nopal) para apoyar la digestión ligera y el consumo de líquidos en el cuidado diario."
     },
     {
       "guideId": "acido_urico",
-      "productId": 123,
+      "productId": 49,
       "group": "comboSecundario",
-      "rationale": "Ácidos grasos antiinflamatorios que reducen la hinchazón, el enrojecimiento y el calor punzante en las articulaciones afectadas por ácido úrico."
+      "rationale": "Opción sin azúcar que da sabor fresco de hierbabuena al agua para ayudar a tomar más líquido al día y favorecer la salida de ácido úrico en la orina."
     },
     {
       "guideId": "acido_urico",
       "productId": 178,
       "group": "comboSecundario",
-      "rationale": "Flavonoide natural que inhibe la enzima xantina oxidasa para frenar la producción excesiva de ácido úrico en sangre."
+      "rationale": "Antioxidante vegetal de apoyo preventivo continuo para acompañar el control diario del ácido úrico y el cuidado de los tejidos fuera de las crisis."
     },
     {
       "guideId": "acido_urico",
       "productId": 108,
       "group": "comboSecundario",
-      "rationale": "Favorece la expulsión de ácido úrico a través del riñón, ayudando a prevenir la cristalización en articulaciones y tendones."
+      "rationale": "Aporta 1,000 mg de vitamina C como apoyo preventivo suave para facilitar la eliminación de ácido úrico por la orina con el uso constante."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 36,
       "group": "comboPrincipal",
-      "rationale": "Activa la enzima AMPK celular promoviendo la translocación de transportadores GLUT4, lo que acelera la captación muscular de glucosa y disminuye la sobreproducción compensatoria de insulina."
+      "rationale": "Ayuda a que los músculos aprovechen mejor el azúcar de los alimentos, evita subidas bruscas después de comer y apoya el equilibrio de colesterol y triglicéridos."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 41,
       "group": "comboPrincipal",
-      "rationale": "El picolinato de cromo optimiza la fosforilación del receptor de insulina mientras la canela potencia la sensibilidad tisular periférica, atenuando los picos glucémicos posprandiales y la somnolencia."
+      "rationale": "Combina canela y cromo para aprovechar mejor los carbohidratos y evitar el bajón de sueño tras comer, además de aportar vitaminas B1, B2 y B12 y hierro para la energía diaria."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 52,
       "group": "comboPrincipal",
-      "rationale": "Actúan como segundos mensajeros en la vía intracelular de la insulina, facilitando el transporte celular de carbohidratos en músculo e hígado para abatir la hiperinsulinemia en ayunas."
+      "rationale": "Ayuda a que las células respondan mejor a la insulina, calma los antojos de dulces y harinas y apoya el equilibrio hormonal cuando también hay ovario poliquístico."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 122,
       "group": "comboSecundario",
-      "rationale": "Aumenta la fluidez de las membranas celulares optimizando la afinidad de los receptores de insulina, a la vez que mitiga la inflamación endotelial y la hipertrigliceridemia asociadas a resistencia insulínica."
-    },
-    {
-      "guideId": "resistencia_insulina",
-      "productId": 17,
-      "group": "comboSecundario",
-      "rationale": "Antioxidante metabólico que estimula directamente la captación de glucosa por los transportadores GLUT4 y protege las mitocondrias frente al estrés oxidativo inducido por hiperglucemias transitorias."
+      "rationale": "Aporta grasas buenas con vitamina E para cuidar el corazón, apoyar la circulación y acompañar la alimentación cuando también se buscan cuidar los triglicéridos."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 103,
       "group": "comboSecundario",
-      "rationale": "El ácido acético natural retarda el vaciamiento gástrico e inhibe las disacaridasas intestinales, aplanando los picos de glucosa e insulina después de ingerir carbohidratos complejos."
+      "rationale": "Su ácido natural vuelve más lenta la digestión de harinas y azúcares, ayudando a suavizar las subidas de glucosa tras comer y favorecer la saciedad."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "Alternativa práctica en cápsulas de vinagre de manzana con cúrcuma, jengibre y canela para suavizar la subida de azúcar tras comer sin dañar el esmalte dental."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Restaura la bioenergética mitocondrial en músculo e hígado, reduciendo el estrés oxidativo intracelular que interfiere con la fosforilación de los receptores de insulina."
+      "rationale": "Forma activa de CoQ10 que apoya la energía celular, protege el corazón y resulta especialmente útil si la persona toma estatinas o siente cansancio muscular."
     },
     {
       "guideId": "resistencia_insulina",
       "productId": 29,
       "group": "comboSecundario",
-      "rationale": "Sinergia de Gynostemma, hesperidina y cromo picolinato que estimula la vía AMPK, ayudando a frenar la salida hepática de glucosa y reactivar la oxidación celular de lípidos."
+      "rationale": "Fórmula integral sin cafeína con plantas metabólicas, cromo, ácido alfa lipoico y probióticos para aprovechar mejor azúcares y grasas y cuidar la digestión en un solo producto."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 45,
+      "group": "comboSecundario",
+      "rationale": "Aporte suave de polinicotinato de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar los antojos dulces y el uso cotidiano de carbohidratos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 63,
+      "group": "comboSecundario",
+      "rationale": "Semilla rica en fibra viscosa que forma un gel suave en el estómago para hacer más lenta la absorción del azúcar tras las comidas y prolongar la saciedad."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 79,
+      "group": "comboSecundario",
+      "rationale": "Opción práctica de una cápsula diaria con 500 mg de myo-inositol puro para acompañar el cuidado inicial de antojos y carbohidratos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 180,
+      "group": "comboSecundario",
+      "rationale": "Inositol 100 % puro en polvo sin sabor para quienes prefieren tomarlo en bebida en lugar de cápsulas y apoyar la respuesta a la insulina y los antojos."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 181,
+      "group": "comboSecundario",
+      "rationale": "Magnesio suave para el estómago (400 mg elementales sin efecto laxante) que apoya la acción normal de la insulina y alivia calambres y tensión."
+    },
+    {
+      "guideId": "resistencia_insulina",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Antioxidante que ayuda a aprovechar el azúcar en las células y protege manos y pies cuando hay hormigueo o sensación de ardor."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 36,
       "group": "comboPrincipal",
-      "rationale": "Estimula la enzima AMPK hepática para disminuir la gluconeogénesis endógena y favorece la absorción periférica de glucosa en músculo esquelético, contribuyendo a niveles glucémicos más estables."
+      "rationale": "Apoya el control diario del azúcar en ayunas y después de comer al ayudar a que los músculos la usen mejor, y acompaña también el cuidado de colesterol y triglicéridos."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 41,
       "group": "comboPrincipal",
-      "rationale": "Aporta picolinato de cromo biodisponible y polifenoles bioactivos de canela que refuerzan la eficacia biológica de la insulina, atenuando fluctuaciones bruscas de glucosa tras las comidas."
+      "rationale": "Combina canela, cromo y vitaminas B1, B2 y B12 para suavizar las subidas de azúcar después de comer y sostener la energía diaria."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 52,
       "group": "comboPrincipal",
-      "rationale": "Optimiza las rutas metabólicas dependientes de inositol para la utilización celular de glucosa, favoreciendo una mayor sensibilidad periférica a la insulina en tejidos diana."
-    },
-    {
-      "guideId": "diabetes_tipo2",
-      "productId": 17,
-      "group": "comboSecundario",
-      "rationale": "Antioxidante de máxima penetración nerviosa que frena el ardor, piquetes y entumecimiento de la neuropatía diabética y mejora el uso periférico de azúcar."
+      "rationale": "Ayuda a que las células aprovechen mejor el azúcar circulante, brindando un apoyo metabólico suave sin hierbas estimulantes."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 123,
       "group": "comboSecundario",
-      "rationale": "Aporte concentrado de EPA y DHA que reduce la hipertrigliceridemia metabólica y protege el endotelio vascular contra el daño aterogénico derivado de la glucemia elevada."
+      "rationale": "Concentrado purificado de EPA y DHA (1,500 mg) para ayudar a bajar triglicéridos elevados y cuidar corazón y arterias ante el desgaste del azúcar alta."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 103,
       "group": "comboSecundario",
-      "rationale": "El ácido acético retrasa la velocidad de digestión de los almidones en el intestino delgado, moderando la liberación de glucosa hacia el torrente sanguíneo tras las comidas."
+      "rationale": "Su ácido natural vuelve más lenta la absorción de harinas y almidones, ayudando a suavizar los picos de azúcar después de comer."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "Alternativa en cápsulas sin sabor ácido para suavizar el impacto de comidas con harinas y aliviar la digestión pesada sin dañar el esmalte dental."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 101,
       "group": "comboSecundario",
-      "rationale": "Protege el endotelio capilar y la microvasculatura frente al daño oxidativo por productos de glicación avanzada, preservando la oxigenación celular y la salud cardiovascular."
+      "rationale": "Forma activa de CoQ10 que protege corazón y vasos sanguíneos y ayuda a recuperar energía muscular cuando se usan estatinas."
     },
     {
       "guideId": "diabetes_tipo2",
       "productId": 29,
       "group": "comboSecundario",
-      "rationale": "Combina activadores botánicos de AMPK y picolinato de cromo para facilitar la captación mitocondrial de azúcares, amortiguando la sobrecarga glucémica en ayunas y posprandial."
+      "rationale": "Reúne plantas metabólicas, cromo, ácido alfa lipoico y probióticos en una sola fórmula para apoyar el manejo de azúcares, grasas y digestión."
     },
     {
-      "guideId": "sobrepeso_metabolico",
-      "productId": 84,
-      "group": "comboPrincipal",
-      "rationale": "La L-carnitina transporta ácidos grasos al interior mitocondrial para su oxidación energética, mientras el guaraná y la Garcinia activan el gasto termogénico y atenúan la lipogénesis."
+      "guideId": "diabetes_tipo2",
+      "productId": 63,
+      "group": "comboSecundario",
+      "rationale": "Aporta fibra viscosa natural que forma un gel suave en el estómago y vuelve más lenta la entrada de azúcar a la sangre después de comer."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 180,
+      "group": "comboSecundario",
+      "rationale": "Inositol 100 % puro sin sabor para quienes prefieren bebida soluble para apoyar la respuesta a la insulina y moderar antojos dulces."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 181,
+      "group": "comboSecundario",
+      "rationale": "Magnesio suave que no suelta el estómago; ayuda a reponer este mineral, calmar calambres en piernas y sostener la energía diaria."
+    },
+    {
+      "guideId": "diabetes_tipo2",
+      "productId": 17,
+      "group": "comboSecundario",
+      "rationale": "Antioxidante muy útil cuando hay ardor, piquetes o entumecimiento en pies y manos, además de apoyar el uso de azúcar en las células."
     },
     {
       "guideId": "sobrepeso_metabolico",
       "productId": 41,
       "group": "comboPrincipal",
-      "rationale": "El picolinato de cromo y la canela estabilizan la glucemia evitando alzas de insulina que promueven el almacenamiento de grasa abdominal y desatan apetito por carbohidratos."
+      "rationale": "La canela y el cromo ayudan a aprovechar mejor los carbohidratos de la comida para evitar bajones y antojos dulces, sumando vitaminas B1, B2 y B12 para sostener la energía."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 84,
+      "group": "comboPrincipal",
+      "rationale": "Mezcla energética intensa con guaraná, cafeína, L-carnitina y cayena para dar empuje al entrenar y apoyar el gasto calórico en adultos sanos sin problemas de presión."
     },
     {
       "guideId": "sobrepeso_metabolico",
       "productId": 165,
       "group": "comboPrincipal",
-      "rationale": "Aporta galato de epigalocatequina (EGCG) que estimula la termogénesis y promueve la lipólisis en tejido adiposo visceral, apoyando la reducción del perímetro abdominal."
+      "rationale": "Bebida tradicional ligera que sustituye refrescos o café cargado, aportando antioxidantes naturales del té verde y un toque suave de energía."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 29,
+      "group": "comboSecundario",
+      "rationale": "Fórmula sin cafeína añadida que reúne gynostemma, ácido alfa lipoico, cromo y probióticos para aprovechar mejor grasas y carbohidratos y cuidar el vientre."
     },
     {
       "guideId": "sobrepeso_metabolico",
       "productId": 95,
       "group": "comboSecundario",
-      "rationale": "Extractos botánicos termogénicos que frenan la lipogénesis y ayudan a calmar la ansiedad compulsiva por harinas y dulces."
+      "rationale": "Combina mango africano para ayudar a moderar las porciones con diente de león y pingüica para aliviar la hinchazón y líquidos retenidos, más BHB como apoyo ligero."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 103,
+      "group": "comboSecundario",
+      "rationale": "Opción sin estimulantes que ayuda a sentir saciedad antes de comer y vuelve más lenta la absorción de harinas y azúcares de la comida."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 104,
+      "group": "comboSecundario",
+      "rationale": "Vinagre de manzana en cápsulas sin cafeína con cúrcuma, jengibre y canela para apoyar digestiones pesadas y moderar antojos tras comidas con harinas."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 45,
+      "group": "comboSecundario",
+      "rationale": "Complemento ligero de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar el aprovechamiento diario de azúcares y sobrellevar antojos dulces."
+    },
+    {
+      "guideId": "sobrepeso_metabolico",
+      "productId": 215,
+      "group": "comboSecundario",
+      "rationale": "L-carnitina pura sin estimulantes para ayudar al cuerpo a usar grasas como energía al moverse o hacer ejercicio, sin provocar palpitaciones ni quitar el sueño."
     },
     {
       "guideId": "sobrepeso_metabolico",
       "productId": 25,
       "group": "comboSecundario",
-      "rationale": "Aporta proteína densa y ficocianina que inducen saciedad a nivel digestivo, aportando micronutrientes biodisponibles que sostienen el rendimiento metabólico sin aportar azúcares."
+      "rationale": "Alga rica en proteína vegetal, hierro y clorofila sin azúcar que ayuda a quedar satisfecho en el desayuno y sostener la energía mientras se cuidan las porciones."
     },
     {
       "guideId": "sobrepeso_metabolico",
       "productId": 146,
       "group": "comboSecundario",
-      "rationale": "Infusión termogénica que acelera la combustión de grasas tras las comidas, favoreciendo la digestión ligera y el drenaje de líquidos."
-    },
-    {
-      "guideId": "sobrepeso_metabolico",
-      "productId": 29,
-      "group": "comboSecundario",
-      "rationale": "Estimula la vía de señalización AMPK a través de Gynostemma y cromo, favoreciendo la combustión de reservas grasas y frenando la síntesis lipídica hepática en síndrome metabólico."
+      "rationale": "Infusión con piña y linaza enfocada en facilitar la evacuación matutina y deshinchar el bajo vientre cuando hay digestión lenta."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 123,
       "group": "comboPrincipal",
-      "rationale": "Dosis concentrada de EPA y DHA que disminuye la síntesis hepática de lipoproteínas VLDL y estimula el aclaramiento de triglicéridos plasmáticos, mejorando la elasticidad vascular arterial."
+      "rationale": "Aporta 1,500 mg diarios de EPA y DHA purificados sin sabor a pescado para ayudar a bajar triglicéridos elevados y cuidar el corazón y la circulación."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 23,
       "group": "comboPrincipal",
-      "rationale": "Concentrado en S-alil-cisteína bioactiva que modula la biosíntesis hepática de colesterol y previene la oxidación de partículas LDL, reduciendo el riesgo de depósitos ateromatosos."
+      "rationale": "Ajo madurado sin olor ni agruras que ayuda a cuidar el equilibrio del colesterol y proteger la circulación y la presión arterial de forma suave."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 101,
-      "group": "comboSecundario",
-      "rationale": "Forma reducida y activa de CoQ10 que repone los depósitos mitocondriales depletados por fármacos hipolipemiantes, aliviando la fatiga muscular y apoyando la fuerza contráctil miocárdica."
+      "group": "comboPrincipal",
+      "rationale": "Forma activa de CoQ10 lista para usarse; repone la energía celular que bajan las estatinas y ayuda a aliviar el cansancio y dolor muscular mientras cuida el corazón."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 136,
       "group": "comboSecundario",
-      "rationale": "Restaura los niveles de coenzima Q10 en tejido muscular esquelético y cardíaco, contrarrestando la mialgia por medicamentos reguladores de lípidos y protegiendo contra la oxidación celular."
-    },
-    {
-      "guideId": "colesterol_trigliceridos",
-      "productId": 115,
-      "group": "comboSecundario",
-      "rationale": "Gotas herbales tradicionales para descongestionar el hígado, activar el flujo biliar y fluidificar grasas espesas y triglicéridos en sangre."
+      "rationale": "Aporta 120 mg de coenzima Q10 con vitamina B6 para cuidar la energía del corazón y aliviar la debilidad muscular cotidiana."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 145,
       "group": "comboSecundario",
-      "rationale": "Emulsiona las partículas lipídicas en el torrente sanguíneo y aporta colina para el transporte hepático de grasas, facilitando la movilización del colesterol y protegiendo contra hígado graso."
+      "rationale": "La lecitina de soya y la colina ayudan a disolver y mover las grasas para que no se acumulen en el hígado ni en la sangre, útil cuando también hay hígado graso."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 148,
+      "group": "comboSecundario",
+      "rationale": "Planta mexicana tradicional en cápsulas (sin sabor amargo) para ayudar a bajar colesterol y triglicéridos en sangre y mantener ligera la bilis de la vesícula."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 36,
       "group": "comboSecundario",
-      "rationale": "Aumenta la expresión y estabilidad de los receptores hepáticos de LDL mediante la inhibición de PCSK9, promoviendo la captación y eliminación activa del colesterol sanguíneo circulante."
+      "rationale": "Extracto vegetal que ayuda al hígado a limpiar grasas y mejora el aprovechamiento del azúcar; buena opción para quien no toma estatinas y tiene ambos valores altos."
     },
     {
       "guideId": "colesterol_trigliceridos",
       "productId": 29,
       "group": "comboSecundario",
-      "rationale": "Activa la quinasa AMPK hepática mediante polifenoles de Gynostemma y cromo, acelerando la beta-oxidación de ácidos grasos y disminuyendo la producción de triglicéridos endógenos."
+      "rationale": "Apoyo sin cafeína útil cuando los triglicéridos suben por exceso de harinas, azúcar o grasa abdominal, ayudando a aprovechar mejor energía y grasas."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 120,
+      "group": "comboSecundario",
+      "rationale": "La opción más concentrada en Omega-3 del catálogo (1,800 mg de EPA y DHA más vitamina E), pensada cuando los análisis muestran triglicéridos muy altos."
+    },
+    {
+      "guideId": "colesterol_trigliceridos",
+      "productId": 115,
+      "group": "comboSecundario",
+      "rationale": "Gotas herbales tradicionales enfocadas en hacer más ligera la bilis espesa de la vesícula y apoyar el manejo de grasas tras comidas pesadas."
     },
     {
       "guideId": "fatiga_cronica",
@@ -1583,6 +1745,12 @@
       "rationale": "Aporta vitamina B6, zinc y magnesio requeridos para la síntesis de progesterona y neurotransmisores, aliviando la labilidad emocional y la fatiga del síndrome premenstrual."
     },
     {
+      "guideId": "irregularidad_menstrual",
+      "productId": 79,
+      "group": "comboSecundario",
+      "rationale": "Opción práctica de 1 cápsula diaria de myo-inositol puro (500 mg) para acompañar el equilibrio ovárico y del ciclo sin preparar bebidas."
+    },
+    {
       "guideId": "hipotiroidismo",
       "productId": 87,
       "group": "comboPrincipal",
@@ -1800,6 +1968,12 @@
     },
     {
       "guideId": "tos_irritacion_garganta",
+      "productId": 170,
+      "group": "comboPrincipal",
+      "rationale": "Infusión con gordolobo y saúco rica en mucílagos vegetales que forman una película protectora sobre la mucosa faríngea irritada, disminuyendo el reflejo constante de la tos seca."
+    },
+    {
+      "guideId": "tos_irritacion_garganta",
       "productId": 243,
       "group": "comboPrincipal",
       "rationale": "Jarabe pectoral a base de miel natural y extracto de bugambilia que calma el ardor de garganta, desensibiliza las terminaciones nerviosas laríngeas e hidrata los tejidos secos y lastimados."
@@ -1815,12 +1989,6 @@
       "productId": 188,
       "group": "comboSecundario",
       "rationale": "Aplicación directa de propóleo y mentol en aerosol que adormece suavemente la mucosa orofaríngea inflamada, aportando frescura inmediata y protegiendo la zona contra sobreinfecciones bacterianas secundarias."
-    },
-    {
-      "guideId": "tos_irritacion_garganta",
-      "productId": 170,
-      "group": "comboPrincipal",
-      "rationale": "Infusión con gordolobo y saúco rica en mucílagos vegetales que forman una película protectora sobre la mucosa faríngea irritada, disminuyendo el reflejo constante de la tos seca."
     },
     {
       "guideId": "tos_irritacion_garganta",
@@ -2256,15 +2424,15 @@
     },
     {
       "guideId": "neuropatia_periferica",
-      "productId": 17,
-      "group": "comboPrincipal",
-      "rationale": "Antioxidante mitocondrial que mejora el flujo sanguíneo endoneural y frena el estrés oxidativo por glucosilación en las fibras nerviosas, reduciendo notablemente las sensaciones de ardor, quemazón y adormecimiento en manos y pies."
-    },
-    {
-      "guideId": "neuropatia_periferica",
       "productId": 5,
       "group": "comboPrincipal",
       "rationale": "Aporta vitaminas neurotróficas B1, B6 y B12 que aceleran la regeneración de la vaina de mielina y restauran la conducción nerviosa sensorial, mitigando el entumecimiento, piquetes y dolores punzantes en extremidades."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 17,
+      "group": "comboPrincipal",
+      "rationale": "Antioxidante mitocondrial que mejora el flujo sanguíneo endoneural y frena el estrés oxidativo por glucosilación en las fibras nerviosas, reduciendo notablemente las sensaciones de ardor, quemazón y adormecimiento en manos y pies."
     },
     {
       "guideId": "neuropatia_periferica",
@@ -2280,12 +2448,6 @@
     },
     {
       "guideId": "neuropatia_periferica",
-      "productId": 12,
-      "group": "comboSecundario",
-      "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
-    },
-    {
-      "guideId": "neuropatia_periferica",
       "productId": 98,
       "group": "comboSecundario",
       "rationale": "Sus erinacinas atraviesan hacia los tejidos nerviosos estimulando la síntesis de factor de crecimiento nervioso (NGF), lo que apoya la reinervación y la reparación de fibras nerviosas periféricas lesionadas."
@@ -2295,6 +2457,12 @@
       "productId": 101,
       "group": "comboSecundario",
       "rationale": "Restaura la función bioenergética mitocondrial en las células de Schwann que envuelven los nervios y neutraliza los radicales libres endoteliales, mejorando la microcirculación tisular distal en pies y pantorrillas."
+    },
+    {
+      "guideId": "neuropatia_periferica",
+      "productId": 12,
+      "group": "comboSecundario",
+      "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
     },
     {
       "guideId": "cancer_apoyo",
@@ -2400,15 +2568,15 @@
     },
     {
       "guideId": "acne_espinillas",
-      "productId": 48,
-      "group": "comboPrincipal",
-      "rationale": "Clorofila concentrada con menta que oxigena y purifica el organismo desde adentro, facilitando la eliminación de toxinas que provocan brotes en la piel."
-    },
-    {
-      "guideId": "acne_espinillas",
       "productId": 129,
       "group": "comboPrincipal",
       "rationale": "Restaura el equilibrio de la microbiota colónica, reduciendo la translocación de endotoxinas y la inflamación de bajo grado que estimula la obstrucción y supuración de los folículos pilosebáceos."
+    },
+    {
+      "guideId": "acne_espinillas",
+      "productId": 48,
+      "group": "comboPrincipal",
+      "rationale": "Clorofila concentrada con menta que oxigena y purifica el organismo desde adentro, facilitando la eliminación de toxinas que provocan brotes en la piel."
     },
     {
       "guideId": "acne_espinillas",
@@ -2418,15 +2586,21 @@
     },
     {
       "guideId": "acne_espinillas",
+      "productId": 26,
+      "group": "comboSecundario",
+      "rationale": "Aporta ficocianina, clorofila y oligoelementos que neutralizan toxinas metabólicas y modulan la inflamación celular, favoreciendo una oxigenación óptima y una regeneración epidérmica saludable."
+    },
+    {
+      "guideId": "acne_espinillas",
       "productId": 43,
       "group": "comboSecundario",
       "rationale": "Cardo mariano concentrado que depura el hígado graso y sobrecargado, descongestionando los conductos biliares para una piel limpia y sin impurezas."
     },
     {
       "guideId": "acne_espinillas",
-      "productId": 26,
+      "productId": 264,
       "group": "comboSecundario",
-      "rationale": "Aporta ficocianina, clorofila y oligoelementos que neutralizan toxinas metabólicas y modulan la inflamación celular, favoreciendo una oxigenación óptima y una regeneración epidérmica saludable."
+      "rationale": "Aporta 500 mg de vitamina B5 (pantotenato de calcio) para apoyar la transformación de nutrientes y el equilibrio de la piel con tendencia grasa o brotes."
     },
     {
       "guideId": "somp",
@@ -2463,6 +2637,12 @@
       "productId": 129,
       "group": "comboSecundario",
       "rationale": "Equilibra el microbioma intestinal para sellar la barrera entérica y frenar la endotoxemia inflamatoria, mejorando la sensibilidad a la insulina y la salud cutánea en SOP."
+    },
+    {
+      "guideId": "somp",
+      "productId": 79,
+      "group": "comboSecundario",
+      "rationale": "Aporta 500 mg de myo-inositol puro en una cápsula diaria práctica para acompañar el cuidado hormonal y de antojos cuando ya pasó la etapa inicial."
     },
     {
       "guideId": "urticaria",
@@ -2568,15 +2748,15 @@
     },
     {
       "guideId": "tdah",
-      "productId": 120,
-      "group": "comboSecundario",
-      "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
-    },
-    {
-      "guideId": "tdah",
       "productId": 101,
       "group": "comboSecundario",
       "rationale": "Optimiza la respiración mitocondrial celular en las áreas corticales de mayor consumo energético, previniendo el agotamiento cognitivo rápido y facilitando el rendimiento académico o laboral prolongado."
+    },
+    {
+      "guideId": "tdah",
+      "productId": 120,
+      "group": "comboSecundario",
+      "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
     },
     {
       "guideId": "intestino_irritable",
@@ -2688,6 +2868,12 @@
     },
     {
       "guideId": "anemia",
+      "productId": 26,
+      "group": "comboPrincipal",
+      "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
+    },
+    {
+      "guideId": "anemia",
       "productId": 225,
       "group": "comboPrincipal",
       "rationale": "Aporta tres formas sinérgicas de vitamina B12 esenciales para la maduración y división adecuada de los glóbulos rojos en médula ósea, previniendo la eritropoyesis ineficaz y combatiendo la debilidad y astenia."
@@ -2700,27 +2886,21 @@
     },
     {
       "guideId": "anemia",
-      "productId": 26,
-      "group": "comboPrincipal",
-      "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
-    },
-    {
-      "guideId": "anemia",
       "productId": 4,
       "group": "comboSecundario",
       "rationale": "Aporta ácido fólico y cobalamina cofactores clave en la síntesis de ADN eritroblástico, asegurando la adecuada diferenciación celular y la formación de hematíes con tamaño y concentración de hemoglobina óptimos."
     },
     {
       "guideId": "anemia",
-      "productId": 205,
-      "group": "comboSecundario",
-      "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
-    },
-    {
-      "guideId": "anemia",
       "productId": 153,
       "group": "comboSecundario",
       "rationale": "Cofactor enzimático fundamental que participa en la síntesis de las cadenas de globina y estabiliza la membrana del eritrocito, favoreciendo su correcta maduración y restaurando la resistencia muscular."
+    },
+    {
+      "guideId": "anemia",
+      "productId": 205,
+      "group": "comboSecundario",
+      "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
     },
     {
       "guideId": "parkinson",
@@ -2796,45 +2976,69 @@
     },
     {
       "guideId": "control_peso",
-      "productId": 196,
-      "group": "comboSecundario",
-      "rationale": "Termogénico botánico con café verde y té verde que estimula el gasto calórico diario, drena líquidos y frena el apetito descontrolado."
-    },
-    {
-      "guideId": "control_peso",
-      "productId": 59,
-      "group": "comboPrincipal",
-      "rationale": "Mezcla depurativa botánica que descongestiona el colon, elimina retención de líquidos en vientre y facilita una cintura más plana y liviana."
-    },
-    {
-      "guideId": "control_peso",
-      "productId": 199,
-      "group": "comboPrincipal",
-      "rationale": "Extractos de gayuba, jamaica y té verde que activan la diuresis fisiológica de líquidos acumulados, desinflando el bajo vientre y aportando antioxidantes que dinamizan el gasto calórico."
-    },
-    {
-      "guideId": "control_peso",
-      "productId": 56,
-      "group": "comboSecundario",
-      "rationale": "Extractos botánicos saciantes que prolongan la sensación de plenitud estomacal y ayudan a evitar atracones entre comidas."
-    },
-    {
-      "guideId": "control_peso",
-      "productId": 76,
-      "group": "comboSecundario",
-      "rationale": "Aporte de fibras mucilaginosas de ciruela y sábila que reactivan el peristaltismo colónico con suavidad, evacuando residuos acumulados y reduciendo la distensión del abdomen."
-    },
-    {
-      "guideId": "control_peso",
       "productId": 132,
       "group": "comboPrincipal",
-      "rationale": "Combina té verde, carnitina y extractos botánicos que promueven la beta-oxidación de grasas mientras enzimas digestivas alivian la fermentación intestinal y la hinchazón abdominal."
+      "rationale": "Fórmula 11 en 1 para acompañar un plan de medidas: reúne té verde, acetil L-carnitina y cromo para la energía y antojos, con alcachofa, vinagre, papaína y ciruela para una digestión ligera."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 75,
+      "group": "comboPrincipal",
+      "rationale": "Opción Zennatura sin estimulantes que une mango africano y bayas de goji para ayudar a controlar porciones y antojos con enzimas de piña y papaya y linaza para mantener ligero el vientre."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 74,
+      "group": "comboSecundario",
+      "rationale": "Cápsula práctica con bayas de goji antioxidantes, pingüica y diente de león para aliviar retención de líquidos, más ácido clorogénico y sales BHB como apoyo ligero en dietas bajas en harinas."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 114,
+      "group": "comboSecundario",
+      "rationale": "Reúne espirulina, fibra de nopal y piña, raíz de tejocote y vitaminas A y C para apoyar el tránsito digestivo y el cuidado nutricional al reducir porciones."
     },
     {
       "guideId": "control_peso",
       "productId": 42,
       "group": "comboSecundario",
-      "rationale": "Extracto botánico que actúa sobre el centro cerebral del apetito, apagando el hambre por ansiedad y facilitando el déficit calórico."
+      "rationale": "Extracto vegetal puro de Caralluma fimbriata sin estimulantes para ayudar a calmar la ansiedad por picar entre comidas y respetar mejor las porciones sin quitar el sueño."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 76,
+      "group": "comboSecundario",
+      "rationale": "Mezcla suave de frutas (ciruela pasa, tamarindo, manzana, papaya) y sábila para ablandar las evacuaciones en personas con estreñimiento ocasional y sensación de vientre pesado."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 200,
+      "group": "comboSecundario",
+      "rationale": "Fórmula de 30 días con linaza, nopal, sábila, malva, fibra de piña y té verde para facilitar la digestión lenta y aliviar el abdomen abultado."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 56,
+      "group": "comboSecundario",
+      "rationale": "Combina fibras de lino y nopal con aloe y bromelina para mover el intestino lento, junto con guaraná y alisma para dar empuje matutino y drenar líquidos."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 196,
+      "group": "comboSecundario",
+      "rationale": "Fórmula intensa con naranjo amargo (sinefrina) y cayena acompañada de maitake, moringa, cúrcuma e inulina, enfocada solo en adultos sanos sin problemas de presión."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 37,
+      "group": "comboSecundario",
+      "rationale": "Mezcla con L-carnitina, café verde, nopal, piña, alcachofa, apio, toronja y tejocote pensada para adultos sanos sin medicinas diarias que buscan apoyo depurativo y metabólico."
+    },
+    {
+      "guideId": "control_peso",
+      "productId": 59,
+      "group": "comboSecundario",
+      "rationale": "Cápsulas ligeras con papaya, malva, jengibre, espirulina y toronja para apoyar digestiones pesadas en personas sanas que no toman medicinas diarias."
     },
     {
       "guideId": "piel_antienvejecimiento",
@@ -2918,37 +3122,55 @@
       "guideId": "deficiencia_magnesio",
       "productId": 92,
       "group": "comboPrincipal",
-      "rationale": "El magnesio quelado con ácido málico interviene directamente en la regeneración de ATP en los miocitos, resolviendo eficazmente calambres, rigidez muscular y agotamiento físico."
+      "rationale": "Opción de día (AM): combina malato de magnesio (200 mg elementales) con vitamina B6 P-5-P y avena para aliviar cansancio físico, rigidez y calambres sin soltar el estómago."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 93,
+      "group": "comboPrincipal",
+      "rationale": "Opción de día (AM) sin cafeína: reúne citrato y bisglicinato de magnesio con vitamina B6 e inulina para acompañar el trabajo muscular y el aprovechamiento diario de la energía."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 181,
+      "group": "comboPrincipal",
+      "rationale": "Opción de noche o estómago sensible: bisglicinato de magnesio con 400 mg elementales por porción que da un aporte completo para calambres, tensión y descanso sin causar diarrea."
     },
     {
       "guideId": "deficiencia_magnesio",
       "productId": 50,
       "group": "comboPrincipal",
-      "rationale": "Sal de magnesio de rápida disociación iónica que restituye los niveles plasmáticos del mineral, disminuyendo la hiperexcitabilidad neuromuscular, espasmos musculares y tics nerviosos."
+      "rationale": "Opción tradicional de cloruro de magnesio en cápsulas para evitar el sabor amargo del polvo; ayuda a relajar músculos tensos, calmar calambres y acompañar el cuidado articular."
     },
     {
       "guideId": "deficiencia_magnesio",
       "productId": 91,
       "group": "comboSecundario",
-      "rationale": "Fórmula de triple sal (citrato, gluconato y óxido) diseñada para absorción segmentaria a lo largo del intestino, recargando las reservas celulares y relajando el sistema neuromuscular."
+      "rationale": "Opción práctica y rendidora de mantenimiento diario en 1 cápsula (citrato, gluconato y óxido) para complementar la alimentación cuando solo falta un aporte ligero."
     },
     {
       "guideId": "deficiencia_magnesio",
       "productId": 227,
       "group": "comboSecundario",
-      "rationale": "Citrato de magnesio con alta tasa de absorción celular que inhibe la contracción sostenida del músculo esquelético, previniendo calambres nocturnos y rigidez matutina."
+      "rationale": "Opción útil cuando además de falta de magnesio hay estreñimiento leve: el citrato ayuda a relajar músculos y atrae agua al intestino para evacuaciones más suaves."
     },
     {
       "guideId": "deficiencia_magnesio",
       "productId": 228,
       "group": "comboSecundario",
-      "rationale": "Magnesio quelado de máxima tolerancia gastrointestinal que recarga las reservas del mineral sin causar diarrea, aliviando calambres musculares y tensión nerviosa."
+      "rationale": "Opción nocturna suave (PM) en 1 cápsula vegetal con brócoli para estómagos delicados o tensión leve; si el profesional busca una dosis alta para deficiencia marcada, valorar #181."
     },
     {
       "guideId": "deficiencia_magnesio",
-      "productId": 181,
+      "productId": 1,
       "group": "comboSecundario",
-      "rationale": "Bisglicinato de magnesio de biodisponibilidad superior y absorción intestinal no dependiente de pH, ideal para normalizar niveles intracelulares, conciliar el descanso profundo y calmar la tensión nerviosa."
+      "rationale": "Polvo tradicional económico y rendidor para preparar en agua, muy buscado para calambres nocturnos y rigidez muscular cuando no molesta su sabor salino-amargo."
+    },
+    {
+      "guideId": "deficiencia_magnesio",
+      "productId": 46,
+      "group": "comboSecundario",
+      "rationale": "Polvo soluble de alta potencia con colágeno para quienes prefieren beber su suplemento y buscan apoyar músculos, estreñimiento leve y articulaciones."
     },
     {
       "guideId": "dismenorrea",
@@ -2988,483 +3210,1059 @@
     },
     {
       "guideId": "deficiencia_vitamina_d",
-      "productId": 245,
+      "productId": 55,
       "group": "comboPrincipal",
-      "rationale": "Sinergia en la que la D3 estimula la absorción digestiva de calcio y la vitamina K2 activa la osteocalcina, guiando la mineralización directa en el hueso y evitando calcificación vascular."
+      "rationale": "Aporta 1,000 UI de vitamina D3 para ayudar a absorber el calcio de los alimentos y cuidar huesos y defensas, acompañada de vitamina C y equinácea."
     },
     {
       "guideId": "deficiencia_vitamina_d",
-      "productId": 55,
+      "productId": 245,
       "group": "comboPrincipal",
-      "rationale": "Aporta colecalciferol para estimular la síntesis de proteínas de transporte de calcio intestinal, sumado a vitamina C y equinácea para potenciar la respuesta inmunitaria innata."
+      "rationale": "Combina 1,000 UI de vitamina D3 (para absorber calcio) con vitamina K2 MK-4 (45 mcg), que ayuda a dirigir el calcio hacia los huesos en lugar de que se acumule en las arterias."
     },
     {
       "guideId": "deficiencia_vitamina_d",
       "productId": 109,
       "group": "comboSecundario",
-      "rationale": "Integra colecalciferol con magnesio elemental, cofactor celular indispensable para transformar la vitamina D circulante en su forma biológicamente activa en riñón e hígado."
+      "rationale": "Reúne vitamina D3 (400 UI) con magnesio (necesario para activar la vitamina D en el cuerpo), vitamina K2 (30 mcg para orientar el calcio al hueso) y zinc en aceite de coco."
     },
     {
       "guideId": "deficiencia_vitamina_d",
       "productId": 154,
       "group": "comboSecundario",
-      "rationale": "Citrato de calcio orgánico con vitamina D3 que asegura su absorción activa sin depender del ácido estomacal, remineralizando la matriz ósea y contrarrestando la fragilidad esquelética."
+      "rationale": "Citrato de calcio suave que no suele estreñir junto con 400 UI de vitamina D3 para cuidar la fortaleza de los huesos cuando la comida no cubre el calcio diario."
     },
     {
       "guideId": "deficiencia_vitamina_d",
       "productId": 166,
       "group": "comboSecundario",
-      "rationale": "Concentración terapéutica de colecalciferol en vehículo oleoso que restaura con rapidez concentraciones óptimas de 25-hidroxivitamina D en suero, fortaleciendo la inmunidad celular y la función muscular."
+      "rationale": "Dosis alta de 5,000 UI en aceite de oliva para corregir deficiencias confirmadas bajo supervisión médica y apoyar la absorción de calcio y la fuerza muscular."
     },
     {
-      "guideId": "indigestion",
-      "productId": 60,
-      "group": "comboPrincipal",
-      "rationale": "Aporta un complejo enzimático integral (pancreatina, papaína, bromelina, lipasa y amilasa) que desdobla rápidamente lípidos, proteínas y carbohidratos en el estómago, aliviando la sensación de plenitud gástrica, gases y somnolencia posprandial."
-    },
-    {
-      "guideId": "indigestion",
-      "productId": 141,
-      "group": "comboPrincipal",
-      "rationale": "Combina jengibre, cardamomo y aloe vera para estimular las secreciones biliares y acelerar el vaciamiento gástrico, eliminando la sensación de distensión epigástrica, eructos repetitivos y pesadez tras alimentos condimentados o copiosos."
-    },
-    {
-      "guideId": "indigestion",
-      "productId": 104,
+      "guideId": "deficiencia_vitamina_d",
+      "productId": 230,
       "group": "comboSecundario",
-      "rationale": "Aporta ácido acético natural con cúrcuma y jengibre para optimizar el pH del jugo gástrico y estimular la secreción de ácido clorhídrico endógeno, facilitando la digestión de comidas densas y evitando la fermentación excesiva."
-    },
-    {
-      "guideId": "indigestion",
-      "productId": 175,
-      "group": "comboSecundario",
-      "rationale": "Infusión botánica carminativa que relaja el esfínter esofágico y la musculatura lisa gastroduodenal, promoviendo la motilidad digestiva natural y disipando los cólicos por gases atrapados y la flatulencia incómoda."
-    },
-    {
-      "guideId": "varices_circulacion",
-      "group": "comboSecundario",
-      "productId": 51,
-      "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas mediante la modulación de mediadores inflamatorios vasculares."
+      "rationale": "Aporta vitamina K2 pura (100 mcg MK-4) para acompañar a la vitamina D3 y ayudar a que el calcio se fije en los huesos y no se deposite en arterias o riñones."
     },
     {
       "guideId": "lactancia_produccion_leche",
-      "group": "comboPrincipal",
       "productId": 63,
+      "group": "comboPrincipal",
       "rationale": "Galactagogo botánico por excelencia que estimula las glándulas mamarias para aumentar el volumen y flujo de leche materna en los primeros días."
     },
     {
       "guideId": "lactancia_produccion_leche",
-      "group": "comboPrincipal",
       "productId": 241,
+      "group": "comboPrincipal",
       "rationale": "Aporte denso de complejo B natural, aminoácidos y cromo para enriquecer la leche materna y evitar la desnutrición y fatiga de la madre."
     },
     {
       "guideId": "lactancia_produccion_leche",
-      "group": "comboSecundario",
       "productId": 125,
+      "group": "comboSecundario",
       "rationale": "Péptidos puros de colágeno para regenerar la piel del abdomen, reafirmar tejidos y frenar la caída de cabello postparto."
     },
     {
       "guideId": "lactancia_produccion_leche",
-      "group": "comboSecundario",
       "productId": 108,
+      "group": "comboSecundario",
       "rationale": "Antioxidante esencial con bioflavonoides cítricos que optimiza la biodisponibilidad y absorción del hierro dietético, previene la anemia ferropénica materna y fortalece la inmunidad de la leche."
     },
     {
       "guideId": "matriz_fria_dismenorrea",
-      "group": "comboPrincipal",
       "productId": 92,
+      "group": "comboPrincipal",
       "rationale": "Malato de magnesio para relajar la musculatura lisa del útero, frenando las contracciones dolorosas y los espasmos pélvicos agudos."
     },
     {
       "guideId": "matriz_fria_dismenorrea",
-      "group": "comboPrincipal",
       "productId": 260,
+      "group": "comboPrincipal",
       "rationale": "Fórmula botánica tibia tradicional con canela, anís y jengibre para activar la irrigación pélvica, reconfortar la matriz fría y deshacer coágulos."
     },
     {
       "guideId": "matriz_fria_dismenorrea",
-      "group": "comboSecundario",
       "productId": 89,
+      "group": "comboSecundario",
       "rationale": "Maca con jengibre y damiana para calentar el bajo vientre, tonificar la energía femenina y equilibrar la circulación pélvica."
     },
     {
       "guideId": "matriz_fria_dismenorrea",
-      "group": "comboSecundario",
       "productId": 137,
+      "group": "comboSecundario",
       "rationale": "Tónico adaptógeno que nutre los tejidos pélvicos, modula el tono vascular uterino y equilibra las fluctuaciones neuroendocrinas que intensifican el dolor y la pesadez menstrual."
     },
     {
       "guideId": "nutricion_infantil",
-      "group": "comboPrincipal",
       "productId": 234,
+      "group": "comboPrincipal",
       "rationale": "Jalea real combinada con ácido glutámico y complejo B que estimula el apetito de forma natural, favoreciendo el desarrollo neurocognitivo, la concentración en clase y el vigor físico del escolar."
     },
     {
       "guideId": "nutricion_infantil",
-      "group": "comboPrincipal",
       "productId": 229,
+      "group": "comboPrincipal",
       "rationale": "Aporta DHA y EPA esenciales para la maduración neuronal, la mielinización cerebral y la agudeza visual infantil, apoyando la capacidad de aprendizaje, concentración y retención escolar."
     },
     {
       "guideId": "nutricion_infantil",
-      "group": "comboSecundario",
       "productId": 249,
+      "group": "comboSecundario",
       "rationale": "Jarabe multivitamínico con calcio altamente soluble, vitamina D3 y extractos herbales que garantiza una óptima mineralización ósea y dental, promoviendo un crecimiento pondoestatural armónico y sostenido."
     },
     {
       "guideId": "nutricion_infantil",
-      "group": "comboSecundario",
       "productId": 247,
+      "group": "comboSecundario",
       "rationale": "Gomitas multivitamínicas adicionadas con zinc, vitamina C y lisina que refuerzan las defensas celulares infantiles frente a contagios escolares y respaldan el desarrollo físico activo."
     },
     {
       "guideId": "dermatitis_psoriasis_topica",
-      "group": "comboPrincipal",
       "productId": 129,
+      "group": "comboPrincipal",
       "rationale": "Concentración de 60 billones de UFC que reequilibra el microbioma intestinal, regulando la respuesta de citoquinas proinflamatorias y disminuyendo la severidad de las lesiones cutáneas descamativas."
     },
     {
       "guideId": "dermatitis_psoriasis_topica",
-      "group": "comboPrincipal",
       "productId": 203,
+      "group": "comboPrincipal",
       "rationale": "Fórmula tópica con alquitrán de hulla y ácido salicílico para desprender escamas queratósicas duras, calmar el ardor y suavizar placas resecas."
     },
     {
       "guideId": "dermatitis_psoriasis_topica",
-      "group": "comboSecundario",
       "productId": 263,
+      "group": "comboSecundario",
       "rationale": "Solución tópica de plata coloidal que brinda acción antiséptica de amplio espectro, previniendo infecciones secundarias en fisuras, grietas o zonas erosionadas por el rascado sin irritar."
     },
     {
       "guideId": "dermatitis_psoriasis_topica",
-      "group": "comboSecundario",
       "productId": 268,
+      "group": "comboSecundario",
       "rationale": "Rico en ácidos grasos poliinsaturados y ácido trans-retinoico natural que reparan el manto hidrolipídico, acelerando la regeneración celular y suavizando la piel engrosada tras la descamación."
     },
     {
       "guideId": "cicatrices_estrias_piel",
-      "group": "comboPrincipal",
       "productId": 18,
+      "group": "comboPrincipal",
       "rationale": "Suministra colágeno tipo I concentrado junto con ácido hialurónico oral para reestructurar la dermis reticular, mejorando la turgencia y elasticidad para difuminar estrías y marcas cutáneas profundas."
     },
     {
       "guideId": "cicatrices_estrias_piel",
-      "group": "comboPrincipal",
       "productId": 268,
+      "group": "comboPrincipal",
       "rationale": "Aceite puro de rosa mosqueta rico en ácido trans-retinoico natural para alinear fibras cicatriciales y atenuar estrías y marcas dérmicas."
     },
     {
       "guideId": "cicatrices_estrias_piel",
-      "group": "comboSecundario",
       "productId": 28,
+      "group": "comboSecundario",
       "rationale": "Aporta acemanano y gliconutrientes esenciales que aceleran la síntesis de colágeno por parte de los fibroblastos, estimulando una reepitelización organizada y suave de los tejidos lesionados."
     },
     {
       "guideId": "cicatrices_estrias_piel",
-      "group": "comboSecundario",
       "productId": 263,
+      "group": "comboSecundario",
       "rationale": "Agente antimicrobiano tópico en suspensión acuosa que protege heridas en cicatrización y bordes de incisiones, evitando la colonización bacteriana sin agredir el tejido de granulación nuevo."
     },
     {
       "guideId": "salud_visual",
-      "group": "comboPrincipal",
       "productId": 86,
+      "group": "comboPrincipal",
       "rationale": "Carotenoides estandarizados de cempasúchil que aumentan la densidad del pigmento macular, actuando como filtro biológico contra la luz azul de pantallas y neutralizando radicales libres fotoquímicos."
     },
     {
       "guideId": "salud_visual",
-      "group": "comboPrincipal",
       "productId": 120,
+      "group": "comboPrincipal",
       "rationale": "Concentrado de salmón con alto DHA que regenera los fosfolípidos de las membranas fotorreceptoras y optimiza la capa lipídica de las glándulas de Meibomio, aliviando eficazmente el ojo seco por pantallas."
     },
     {
       "guideId": "salud_visual",
-      "group": "comboSecundario",
       "productId": 34,
+      "group": "comboSecundario",
       "rationale": "Carotenoide antioxidante de máxima potencia que atraviesa la barrera hematorretiniana, protegiendo al músculo ciliar de la contractura por sobreuso de pantallas y mejorando la capacidad de enfoque visual."
     },
     {
       "guideId": "salud_visual",
-      "group": "comboSecundario",
       "productId": 108,
+      "group": "comboSecundario",
       "rationale": "El ácido ascórbico potenciado con bioflavonoides cítricos y rutina preserva la integridad de los microvasos retinianos, amortigua la presión intraocular y previene la oxidación de las proteínas del cristalino."
     },
     {
       "guideId": "afonia_cuerdas_vocales",
-      "group": "comboPrincipal",
       "productId": 99,
+      "group": "comboPrincipal",
       "rationale": "Emoliente natural de alta pureza que recubre e hidrata profundamente la mucosa laríngea, calmando la inflamación mecánica y aliviando la aspereza, carraspera y resequedad de las cuerdas vocales."
     },
     {
       "guideId": "afonia_cuerdas_vocales",
-      "group": "comboPrincipal",
       "productId": 255,
+      "group": "comboPrincipal",
       "rationale": "Perlas de propóleo concentrado y menta que se disuelven lentamente en la orofaringe, liberando bioflavonoides antimicrobianos que desinflaman las cuerdas vocales irritadas y devuelven claridad al tono de voz."
     },
     {
       "guideId": "afonia_cuerdas_vocales",
-      "group": "comboSecundario",
       "productId": 174,
+      "group": "comboSecundario",
       "rationale": "Infusión aromática con gingeroles y cinamaldehído que reactiva el calor y la microcirculación local en la laringe, relajando la musculatura vocal contracturada y disipando la congestión faríngea."
     },
     {
       "guideId": "afonia_cuerdas_vocales",
-      "group": "comboSecundario",
       "productId": 243,
+      "group": "comboSecundario",
       "rationale": "Jarabe balsámico con saúco, gordolobo y propóleo que tapiza la mucosa laríngea, calmando la irritación por esfuerzo vocal excesivo y facilitando la lubricación necesaria para recuperar la voz."
     },
     {
       "guideId": "dolor_muscular_agudo",
-      "group": "comboPrincipal",
       "productId": 92,
+      "group": "comboPrincipal",
       "rationale": "El malato de magnesio actúa directamente sobre las fibras contracturadas, promoviendo la captación de calcio en el retículo sarcoplásmico para desactivar espasmos agudos en cuello, espalda y zona lumbar."
     },
     {
       "guideId": "dolor_muscular_agudo",
-      "group": "comboPrincipal",
       "productId": 258,
+      "group": "comboPrincipal",
       "rationale": "Gel rubefaciente con salicilato, mentol, alcanfor y garra del diablo para generar calor profundo, reactivar la circulación y calmar el dolor."
     },
     {
       "guideId": "dolor_muscular_agudo",
-      "group": "comboSecundario",
       "productId": 54,
+      "group": "comboSecundario",
       "rationale": "Extracto concentrado de curcuminoides con piperina que bloquea mediadores inflamatorios como prostaglandinas y citocinas, aliviando rápidamente la inflamación aguda y el dolor en tendones y haces musculares sobreexigidos."
     },
     {
       "guideId": "dolor_muscular_agudo",
-      "group": "comboSecundario",
       "productId": 31,
+      "group": "comboSecundario",
       "rationale": "La combinación de glucosamina, condroitina y azufre bioasimilable (MSM) alivia la inflamación en facetas vertebrales y discos intervertebrales, reduciendo la rigidez dolorosa en lumbagos de origen mecánico."
     },
     {
       "guideId": "dolor_muscular_agudo",
-      "group": "comboSecundario",
       "productId": 183,
+      "group": "comboSecundario",
       "rationale": "Formulación tópica refrescante con árnica, castaño de indias y centella asiática que reactiva la microcirculación local y desinflama tendones y ligamentos contracturados sin irritar la piel ni manchar."
     },
     {
       "guideId": "fijacion_calcio_oseo",
-      "group": "comboPrincipal",
       "productId": 154,
+      "group": "comboPrincipal",
       "rationale": "Sal de citrato de calcio de absorción superior que no produce acidez ni estreñimiento, garantizando la disponibilidad de iones de calcio para su adecuada incorporación a los huesos."
     },
     {
       "guideId": "fijacion_calcio_oseo",
-      "group": "comboPrincipal",
       "productId": 230,
+      "group": "comboPrincipal",
       "rationale": "Vitamina K2 en forma MK-4 que activa por carboxilación a la osteocalcina, guiando el calcio directo hacia la matriz ósea y evitando calcificaciones perjudiciales en arterias y articulaciones."
     },
     {
       "guideId": "fijacion_calcio_oseo",
-      "group": "comboSecundario",
       "productId": 125,
+      "group": "comboSecundario",
       "rationale": "Péptidos de colágeno hidrolizado para proporcionar la red de aminoácidos estructurales sobre la cual se depositan los cristales de calcio."
     },
     {
       "guideId": "fijacion_calcio_oseo",
-      "group": "comboSecundario",
       "productId": 204,
+      "group": "comboSecundario",
       "rationale": "Aporte concentrado de fósforo orgánico, calcio biodisponible y glicosaminoglicanos que refuerzan la estructura mineral del hueso trabecular, favoreciendo una microarquitectura ósea sólida y resistente a fracturas."
     },
     {
       "guideId": "detox_limpieza_colon",
-      "group": "comboPrincipal",
       "productId": 48,
+      "group": "comboPrincipal",
       "rationale": "La clorofilina sódico-cúprica se une a compuestos aromáticos y subproductos de putrefacción proteica en el intestino, disminuyendo los gases fétidos, reduciendo la distensión abdominal y favoreciendo la depuración entérica natural."
     },
     {
       "guideId": "detox_limpieza_colon",
-      "group": "comboPrincipal",
       "productId": 265,
+      "group": "comboPrincipal",
       "rationale": "Mineral volcánico de clinoptilolita con estructura microporosa que intercambia iones en la luz intestinal, quelando amonio libre, micotoxinas y restos fermentados pesados para su evacuación segura sin absorberse en la sangre."
     },
     {
       "guideId": "detox_limpieza_colon",
-      "group": "comboSecundario",
       "productId": 144,
+      "group": "comboSecundario",
       "rationale": "Estimula directamente las terminaciones nerviosas intrínsecas de la pared cólica, aumentando la secreción de agua y el peristaltismo propulsivo para lograr un vaciamiento intestinal completo en episodios de estancamiento fecal rebelde."
     },
     {
       "guideId": "detox_limpieza_colon",
-      "group": "comboSecundario",
       "productId": 69,
+      "group": "comboSecundario",
       "rationale": "Agente laxante que activa los plexos nerviosos mientéricos del intestino grueso, acelerando el tránsito fecal acumulado para desahogar la presión cólica y disminuir la sensación de pesadez y vientre abultado."
     },
     {
       "guideId": "detox_limpieza_colon",
-      "group": "comboSecundario",
       "productId": 242,
+      "group": "comboSecundario",
       "rationale": "Fructooligosacáridos de achicoria que nutren a las colonias autóctonas de bifidobacterias, restaurando el pH fisiológico del colon y consolidando un ritmo evacuatorio regular sin depender de laxantes estimulantes."
     },
     {
       "guideId": "higado_medicamentoso",
-      "group": "comboPrincipal",
       "productId": 116,
+      "group": "comboPrincipal",
       "rationale": "Dona grupos sulfhidrilo indispensables para reponer rápidamente las reservas de glutatión en hepatocitos, neutralizando metabolitos reactivos tóxicos de fármacos (vía fase II) y previniendo la necrosis tisular inducida por medicamentos."
     },
     {
       "guideId": "higado_medicamentoso",
-      "group": "comboPrincipal",
       "productId": 43,
+      "group": "comboPrincipal",
       "rationale": "La silimarina estabiliza las membranas celulares del hepatocito frente a xenobióticos mientras el diente de león y rábano negro estimulan el flujo biliar, acelerando la excreción de metabolitos farmacológicos residuales."
     },
     {
       "guideId": "higado_medicamentoso",
-      "group": "comboSecundario",
       "productId": 66,
+      "group": "comboSecundario",
       "rationale": "Sinergia de extractos botánicos desintoxicantes (bardana, trébol rojo, cardo santo) que estimulan los emuntorios fisiológicos (hígado, riñones y sistema linfático), facilitando la eliminación sistémica de subproductos de desecho metabólico."
     },
     {
       "guideId": "higado_medicamentoso",
-      "group": "comboSecundario",
       "productId": 226,
+      "group": "comboSecundario",
       "rationale": "Tintura hidroalcohólica concentrada de cardo mariano, boldo y diente de león que estimula la síntesis proteica hepática y la secreción colerética, facilitando el drenaje de residuos farmacológicos con rápida absorción líquida."
     },
     {
       "guideId": "higado_medicamentoso",
-      "group": "comboSecundario",
       "productId": 265,
+      "group": "comboSecundario",
       "rationale": "Adsorbe endotoxinas y metabolitos excretados por la bilis en la luz intestinal, interrumpiendo la recirculación enterohepática y aliviando significativamente la sobrecarga metabólica del hígado en recuperación."
     },
     {
       "guideId": "glucosa_herbolaria_mexicana",
-      "group": "comboPrincipal",
       "productId": 118,
-      "rationale": "Neem amargo tradicional con fibra de nopal y ácido alfa lipoico para apoyar la utilización celular de la glucosa y desinflamar el páncreas."
-    },
-    {
-      "guideId": "glucosa_herbolaria_mexicana",
       "group": "comboPrincipal",
+      "rationale": "Reúne hoja de neem y fibra de nopal para hacer más lenta la absorción de azúcares en la comida, reforzado con ácido alfa lipoico para proteger las células frente al exceso de azúcar."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
       "productId": 223,
-      "rationale": "Raíz silvestre de wereke con gatuña y guayacán para frenar la elevación brusca de glucosa en sangre tras los alimentos."
+      "group": "comboPrincipal",
+      "rationale": "Mezcla tradicional mexicana de 8 plantas con raíz de wereke, penca de nopal, guayacán amarillo y manzanilla para moderar el azúcar después de comer y mantener ligera la digestión."
     },
     {
       "guideId": "glucosa_herbolaria_mexicana",
+      "productId": 63,
       "group": "comboSecundario",
+      "rationale": "Semilla rica en fibra viscosa que forma una capa suave en el estómago para frenar la subida rápida de azúcar tras comer y calmar el apetito entre comidas."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
       "productId": 210,
-      "rationale": "Hojas de pata de vaca tradicionales reconocidas por favorecer la captación periférica de azúcares en personas diabéticas."
+      "group": "comboSecundario",
+      "rationale": "Hoja tradicional de pata de vaca en una toma práctica de 1 cápsula diaria para apoyar el aprovechamiento de carbohidratos después de comidas abundantes sin preparar tés."
     },
     {
       "guideId": "glucosa_herbolaria_mexicana",
-      "group": "comboSecundario",
       "productId": 195,
-      "rationale": "Extracto hidroalcohólico de guarumbo, tecomate y neem enriquecido con cromo, que promueve la absorción celular periférica de glucosa y reduce el impacto de alimentos de alto índice glucémico."
+      "group": "comboSecundario",
+      "rationale": "Tratamiento completo en 2 frascos de cápsulas: Frasco 1 con 11 plantas mexicanas (neem, tecomate, guarumbo, nopal y hierba del sapo) y Frasco 2 con vitaminas, minerales y cromo para apoyar el azúcar y la energía diaria."
     },
     {
       "guideId": "glucosa_herbolaria_mexicana",
-      "group": "comboSecundario",
       "productId": 235,
-      "rationale": "Nopal deshidratado puro en cápsulas para aportar fibra mucilaginosa que retarda la absorción intestinal de carbohidratos."
+      "group": "comboSecundario",
+      "rationale": "Nopal puro en cápsulas cuya fibra ayuda a absorber más lento los azúcares y grasas de los alimentos y facilita evacuar con regularidad."
+    },
+    {
+      "guideId": "glucosa_herbolaria_mexicana",
+      "productId": 253,
+      "group": "comboSecundario",
+      "rationale": "Trío vegetal práctico de 1 cápsula diaria con hojas de guayaba, moringa y romero para frenar los picos de azúcar tras comidas con harinas y aliviar la pesadez estomacal."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
-      "group": "comboPrincipal",
       "productId": 143,
+      "group": "comboPrincipal",
       "rationale": "Aporta ácido fúlvico, minerales traza y tongkat ali para optimizar el transporte mitocondrial de electrones y sostener los niveles de testosterona libre, combatiendo el colapso físico y la debilidad en jornadas extensas."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
-      "group": "comboPrincipal",
       "productId": 267,
+      "group": "comboPrincipal",
       "rationale": "Ginsenósidos de alta potencia en solución líquida de rápida biodisponibilidad que estimulan el sistema reticular activador ascendente, disipando la somnolencia severa, mejorando el tiempo de reacción y elevando el estado de alerta."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
-      "group": "comboSecundario",
       "productId": 88,
+      "group": "comboSecundario",
       "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el eje neuroendocrino y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
-      "group": "comboSecundario",
       "productId": 261,
+      "group": "comboSecundario",
       "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la neurotransmisión y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
     },
     {
+      "guideId": "agotamiento_extremo_rescate",
+      "productId": 147,
+      "group": "comboSecundario",
+      "rationale": "Tabletas con cafeína natural, guaraná, vitamina B1, CoQ10, jalea real y vitaminas E y ácido fólico para despejar la somnolencia diurna y sostener el estado de alerta."
+    },
+    {
       "guideId": "crisis_nerviosismo_panico",
-      "group": "comboPrincipal",
       "productId": 68,
+      "group": "comboPrincipal",
       "rationale": "Actúa de forma rápida hiperpolarizando las membranas neuronales del sistema límbico, neutralizando la cascada adrenérgica de pánico para frenar las taquicardias funcionales, temblores y la sensación inminente de descontrol."
     },
     {
       "guideId": "crisis_nerviosismo_panico",
-      "group": "comboPrincipal",
       "productId": 256,
+      "group": "comboPrincipal",
       "rationale": "Flavonoides de pasiflora (crisina) absorbidos de forma inmediata por la mucosa sublingual que se unen a los receptores benzodiacepínicos endógenos, induciendo alivio veloz ante la opresión torácica, agitación y crisis de nerviosismo agudo."
     },
     {
       "guideId": "crisis_nerviosismo_panico",
-      "group": "comboSecundario",
       "productId": 150,
+      "group": "comboSecundario",
       "rationale": "La L-teanina y el azahar inducen relajación sin sedación excesiva al modular la transmisión de glutamato, mientras el triptófano restablece los niveles de serotonina para evitar la rumiación angustiosa y prevenir el insomnio reactivo."
     },
     {
       "guideId": "crisis_nerviosismo_panico",
-      "group": "comboSecundario",
       "productId": 169,
+      "group": "comboSecundario",
       "rationale": "Infusión fitoterapéutica que combina flores sedantes y zapote blanco para modular el sistema nervioso autónomo simpático, disminuyendo la tensión epigástrica y los espasmos por angustia, devolviendo la calma fisiológica general."
     },
     {
       "guideId": "longevidad_celular_nmn",
-      "group": "comboPrincipal",
       "productId": 119,
+      "group": "comboPrincipal",
       "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las sirtuinas SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
     },
     {
       "guideId": "longevidad_celular_nmn",
-      "group": "comboPrincipal",
       "productId": 72,
+      "group": "comboPrincipal",
       "rationale": "El antioxidante maestro en forma reducida directa con vitamina C para neutralizar el daño por radicales libres sin repetir ingredientes."
     },
     {
       "guideId": "longevidad_celular_nmn",
-      "group": "comboSecundario",
       "productId": 117,
+      "group": "comboSecundario",
       "rationale": "Alternativa celular de rescate: aporte directo de la coenzima NAD combinada con resveratrol para personas que prefieren la molécula directa en lugar del precursor NMN."
     },
     {
       "guideId": "longevidad_celular_nmn",
-      "group": "comboSecundario",
       "productId": 101,
+      "group": "comboSecundario",
       "rationale": "Forma reducida bioidéntica de CoQ10 que actúa como potente aceptor de electrones en la cadena respiratoria celular, combatiendo el envejecimiento mitocondrial y energizando órganos con alta demanda como el corazón."
     },
     {
       "guideId": "longevidad_celular_nmn",
-      "group": "comboSecundario",
       "productId": 34,
+      "group": "comboSecundario",
       "rationale": "Antioxidante carotenoide de estructura molecular única que cruza la bicapa lipídica de las membranas celulares, neutralizando radicales libres y protegiendo el ADN del daño por radiación ultravioleta."
     },
     {
       "guideId": "soporte_keto_ayuno",
-      "group": "comboPrincipal",
       "productId": 181,
-      "rationale": "Bisglicinato de magnesio de absorción superior para reponer electrolitos, prevenir calambres y quitar la fatiga por deshidratación en keto."
-    },
-    {
-      "guideId": "soporte_keto_ayuno",
       "group": "comboPrincipal",
+      "rationale": "Aporta magnesio suave (400 mg elementales) que no suelta el estómago para aliviar calambres en piernas, cansancio y tensión muscular al bajar los carbohidratos."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
+      "productId": 128,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 500 mg de potasio elemental junto con magnesio, calcio y vitamina B6 para cortar mareos, debilidad y calambres de la «gripe keto» por pérdida de sales."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
       "productId": 160,
-      "rationale": "Ácido caprílico C8 concentrado al 98% que se convierte rápidamente en cuerpos cetónicos en el hígado para alimentar el cerebro sin romper el ayuno."
+      "group": "comboPrincipal",
+      "rationale": "Aceite caprílico C8 puro que el cuerpo transforma rápido en energía limpia para el cerebro sin elevar el azúcar, dando claridad mental en la mañana."
     },
     {
       "guideId": "soporte_keto_ayuno",
+      "productId": 74,
       "group": "comboSecundario",
+      "rationale": "Cápsula Zennatura con bayas de goji, pingüica, diente de león y un apoyo ligero de sales BHB para acompañar la hidratación y los planes bajos en carbohidratos."
+    },
+    {
+      "guideId": "soporte_keto_ayuno",
       "productId": 14,
-      "rationale": "Grasa vegetal virgen neutra sin olor que resiste altas temperaturas sin oxidarse, ideal para enriquecer calorías cetogénicas diarias."
+      "group": "comboSecundario",
+      "rationale": "Aceite de coco orgánico refinado sin olor ni sabor a coco que resiste el calor de la cocina diaria sin cambiar el sazón de los platillos."
     },
     {
       "guideId": "soporte_keto_ayuno",
-      "group": "comboSecundario",
       "productId": 15,
-      "rationale": "Aceite de coco extra virgen orgánico con aroma natural para preparar café antibalas matutino y brindar saciedad inmediata."
+      "group": "comboSecundario",
+      "rationale": "Aceite de coco extra virgen prensado en frío con aroma natural a coco para dar saciedad y grasas buenas en bebidas o recetas keto."
     },
     {
       "guideId": "soporte_keto_ayuno",
-      "group": "comboSecundario",
       "productId": 112,
-      "rationale": "Aislado de suero de leche de flujo cruzado con cero carbohidratos netos para proteger el músculo sin elevar la insulina."
+      "group": "comboSecundario",
+      "rationale": "Proteína aislada de suero al 90 % muy baja en carbohidratos y lactosa para cuidar y reparar el músculo en dietas bajas en harinas (la proteína sí rompe el ayuno estricto)."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 141,
+      "group": "comboPrincipal",
+      "rationale": "Reúne jengibre, cardamomo y raíz de angélica para relajar el espasmo del tubo digestivo y ayudar a expulsar gases atrapados, mientras la sábila y el agave calman la mucosa y suavizan la pesadez después de comer."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 60,
+      "group": "comboPrincipal",
+      "rationale": "Aporta enzimas digestivas (papaína, bromelina, amilasa, lipasa y pancreatina) con hierbabuena para descomponer proteínas, grasas y carbohidratos antes de que fermenten en el intestino y generen aire e inflamación."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Sus 60 mil millones de lactobacilos ayudan a desplazar bacterias fermentadoras que producen exceso de gas en el colon, favoreciendo una digestión más ligera y un vientre menos inflamado."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 49,
+      "group": "comboSecundario",
+      "rationale": "La hierbabuena y la menta piperita relajan la musculatura intestinal para disipar gases y cólicos leves, mientras la clorofila refresca el aliento y apoya la limpieza digestiva diaria."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 175,
+      "group": "comboSecundario",
+      "rationale": "Infusión tibia sin cafeína que combina jengibre para acelerar el vaciado gástrico y cúrcuma para estimular el flujo biliar, aliviando la sensación de inflamación sin irritar el estómago."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 176,
+      "group": "comboSecundario",
+      "rationale": "Flores orgánicas de manzanilla que apaciguan retortijones, nervios en el estómago y tensión abdominal que empeora la acumulación de gases."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 81,
+      "group": "comboSecundario",
+      "rationale": "Raíz pura de jengibre que estimula el movimiento natural del estómago e intestino, evitando que la comida se quede estancada y fermente."
+    },
+    {
+      "guideId": "gases_hinchazon_abdominal",
+      "productId": 216,
+      "group": "comboSecundario",
+      "rationale": "Diluye aceite esencial de orégano en aceite de coco para ayudar a moderar bacterias y levaduras que generan gases olorosos y distensión marcada."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 131,
+      "group": "comboPrincipal",
+      "rationale": "Reúne 8 cepas de Bifidobacterium, Lactobacillus y Streptococcus (100 mil millones de UFC) que colonizan distintas zonas del intestino delgado y grueso para reconstruir una flora diversa y equilibrada."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 246,
+      "group": "comboPrincipal",
+      "rationale": "Combina L-glutamina, N-acetil glucosamina, zinc carnosina y aloe vera para nutrir las células de la pared intestinal y cuidar la barrera donde se absorben vitaminas y minerales."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 2,
+      "group": "comboPrincipal",
+      "rationale": "Aporta ácido láurico del coco y orégano estandarizado en carvacrol para ayudar a frenar microorganismos no deseados antes de repoblar la flora benéfica."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 129,
+      "group": "comboSecundario",
+      "rationale": "Fórmula de 3 cepas con inulina de agave pensada para el mantenimiento diario de una flora intestinal estable tras completar esquemas intensivos."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 60,
+      "group": "comboSecundario",
+      "rationale": "Provee enzimas digestivas variadas que ayudan a fraccionar los alimentos cuando la digestión está debilitada y facilitan el aprovechamiento de nutrientes."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 251,
+      "group": "comboSecundario",
+      "rationale": "Calostro bovino al 20% de inmunoglobulinas IgG con lactoferrina y factores de crecimiento que apoyan las defensas de la mucosa intestinal y su recuperación diaria."
+    },
+    {
+      "guideId": "flora_intestinal_absorcion",
+      "productId": 242,
+      "group": "comboSecundario",
+      "rationale": "Fructanos de achicoria y oligofructosa que sirven de alimento selectivo para las bacterias benéficas del colon; iniciar con dosis baja si hay mucha sensibilidad."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 131,
+      "group": "comboPrincipal",
+      "rationale": "Aporta Streptococcus thermophilus, Lactobacillus delbrueckii y Lactobacillus acidophilus, cepas probióticas que ayudan a descomponer mejor pequeñas trazas de lactosa en el intestino y reducen gases y fermentación."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Su alta carga de Lactobacillus acidophilus apoya la flora digestiva y disminuye la irritación e inflamación abdominal cuando el intestino es sensible a derivados lácteos."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Aislado de suero microfiltrado con mínimo residual de lactosa respecto a concentrados comunes; útil para deportistas con tolerancia leve que buscan 29 g de proteína sin inflamación."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 175,
+      "group": "comboSecundario",
+      "rationale": "Jengibre y cúrcuma calientan y asientan el tubo digestivo para mitigar gases y cólicos leves posteriores a una comida con lácteos."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 176,
+      "group": "comboSecundario",
+      "rationale": "Infusión suave sin cafeína que ayuda a relajar los espasmos intestinales cuando un alimento lácteo irritó el estómago."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 194,
+      "group": "comboSecundario",
+      "rationale": "Bebida vegetal 100% libre de lactosa a base de proteína aislada de soya fortificada con calcio, hierro, vitamina D y complejo B para sustituir la leche sin perder nutrición."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 24,
+      "group": "comboSecundario",
+      "rationale": "Proteína de huevo pasteurizada totalmente libre de lactosa y derivados lácteos, enriquecida con vitaminas y minerales."
+    },
+    {
+      "guideId": "intolerancia_lactosa_apoyo",
+      "productId": 134,
+      "group": "comboSecundario",
+      "rationale": "Alternativa vegetal de chícharo y arroz libre de lactosa con probióticos añadidos para aportar proteína sin inflamación ni molestias estomacales."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 3,
+      "group": "comboPrincipal",
+      "rationale": "Aporta péptidos de colágeno con vitamina C y biotina; los tendones están hechos principalmente de colágeno y la vitamina C es indispensable para formar fibras nuevas más resistentes."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Concentrado de cúrcuma al 95% con pimienta negra y vitamina C para ayudar a desinflamar el tendón o la bursa irritada de forma sostenida sin agredir el estómago."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 102,
+      "group": "comboPrincipal",
+      "rationale": "Une extracto de Boswellia serrata y cúrcuma con ácido hialurónico y colágeno UC-II para disminuir la inflamación de tejidos articulares sobrecargados."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 125,
+      "group": "comboSecundario",
+      "rationale": "Péptidos puros para aportar la materia prima proteica que requieren tendones y ligamentos sometidos a desgaste repetitivo."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega-3 concentrado (EPA y DHA) libre de contaminantes que apoya la resolución natural de inflamación crónica en tejidos blandos y articulaciones."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 167,
+      "group": "comboSecundario",
+      "rationale": "Gel con mentol, salicilato de metilo, glucosamina y árnica que brinda alivio térmico local rápido mientras hace efecto el reposo."
+    },
+    {
+      "guideId": "tendinitis_bursitis",
+      "productId": 258,
+      "group": "comboSecundario",
+      "rationale": "Combina árnica, garra del diablo, alcanfor y salicilato de metilo para proporcionar calor calmante local y desahogar la molestia en hombro o codo."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 3,
+      "group": "comboPrincipal",
+      "rationale": "Entrega péptidos de colágeno y vitamina C necesarios para reconstruir y darle firmeza a las fibras de ligamentos en esguinces y envolturas musculares en desgarros."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 113,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 29 g de proteína aislada rica en aminoácidos esenciales para reparar las fibras musculares dañadas tras una distensión o desgarro."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 54,
+      "group": "comboPrincipal",
+      "rationale": "Extracto de curcumina con pimienta negra y vitamina C que ayuda a moderar la inflamación excesiva que retrasa el movimiento en rehabilitación."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 126,
+      "group": "comboSecundario",
+      "rationale": "Suma ácido hialurónico al colágeno para favorecer la hidratación del tejido conectivo alrededor de articulaciones lesionadas."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 171,
+      "group": "comboSecundario",
+      "rationale": "Uso tradicional externo en compresas locales con hojas de árnica para desinflamar moretones y reconfortar tobillos o músculos torcidos."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Los ácidos grasos EPA y DHA acompañan la resolución ordenada de la inflamación mientras sana el tejido."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 167,
+      "group": "comboSecundario",
+      "rationale": "Gel con árnica, mentol y glucosamina para acompañar el alivio local conforme se retoma la movilidad."
+    },
+    {
+      "guideId": "esguinces_desgarros_recuperacion",
+      "productId": 71,
+      "group": "comboSecundario",
+      "rationale": "L-glutamina pura que sirve de apoyo aminoacídico para la recuperación del tejido muscular cuando hay desgarro o reposo."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 128,
+      "group": "comboPrincipal",
+      "rationale": "Reúne 500 mg de potasio elemental con citrato de magnesio, calcio y vitamina B6 para equilibrar las señales eléctricas que relajan la fibra muscular de las pantorrillas."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 181,
+      "group": "comboPrincipal",
+      "rationale": "Bisglicinato de magnesio (400 mg elementales) de excelente tolerancia estomacal que permite al músculo soltar la contracción sostenida sin soltar el estómago."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 47,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 240 mg de potasio elemental para prevenir descensos de electrolitos que disparan tirones musculares nocturnos."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 92,
+      "group": "comboSecundario",
+      "rationale": "Combina magnesio con ácido málico y vitamina B6 (P-5-P) para apoyar tanto la relajación muscular como la producción de energía en piernas fatigadas."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 227,
+      "group": "comboSecundario",
+      "rationale": "Citrato de magnesio en cápsula sencilla como opción práctica para complementar el consumo diario del mineral."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 50,
+      "group": "comboSecundario",
+      "rationale": "Cloruro de magnesio en cápsula sin sabor amargo tradicional, útil para adultos mayores con rigidez y tirones musculares."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Vitaminas B1, B6 y B12 con extracto de arándano que cuidan la conducción nerviosa hacia los músculos y apoyan la microcirculación de las piernas."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 238,
+      "group": "comboSecundario",
+      "rationale": "Combina complejo B básico con 40 mg de magnesio para apoyar casos leves relacionados con cansancio nervioso y muscular."
+    },
+    {
+      "guideId": "calambres_musculares_nocturnos",
+      "productId": 183,
+      "group": "comboSecundario",
+      "rationale": "Gel con castaño de Indias, hamamelis, ginkgo y salicilato de metilo para relajar pantorrillas pesadas y activar la circulación local antes de acostarse."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 163,
+      "group": "comboPrincipal",
+      "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para bajar la respuesta al estrés y soltar la contractura de cuello y hombros que dispara el dolor de cabeza."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 94,
+      "group": "comboPrincipal",
+      "rationale": "Magnesio con L-teanina, glicina y manzanilla para calmar el sistema nervioso sobrecargado y permitir un descanso profundo sin tensión cervical."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 149,
+      "group": "comboPrincipal",
+      "rationale": "Forma de magnesio con buena llegada al cerebro que ayuda a aliviar tensión mental y agotamiento tras horas de concentración."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 181,
+      "group": "comboSecundario",
+      "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos pericraneales y cervicales sin provocar diarrea."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 169,
+      "group": "comboSecundario",
+      "rationale": "Infusión tradicional con manzanilla, tila, pasiflora y azahar que invita a relajar el sistema nervioso de forma suave."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Complejo B (incluida riboflavina B2) que apoya la energía celular de nervios y músculos en personas con fatiga laboral."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 167,
+      "group": "comboSecundario",
+      "rationale": "Gel con mentol, árnica y salicilato de metilo que alivia la rigidez en trapecios y base del cuello cuando la molestia viene de mala postura."
+    },
+    {
+      "guideId": "dolor_cabeza_tensional",
+      "productId": 258,
+      "group": "comboSecundario",
+      "rationale": "Calor local con alcanfor, árnica y garra del diablo para destrabar espasmos cervicales que suben hacia la cabeza."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 72,
+      "group": "comboPrincipal",
+      "rationale": "Combina L-glutatión directo y vitamina C antioxidante para proteger las células de la piel del daño oxidativo y favorecer un cutis más luminoso y uniforme."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 138,
+      "group": "comboPrincipal",
+      "rationale": "Aporta resveratrol, semilla de uva, asaí y vitamina C para defender el colágeno dérmico y frenar el estrés oxidativo que acentúa manchas por el sol."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 34,
+      "group": "comboPrincipal",
+      "rationale": "Antioxidante marino de 250 mg en cápsula oleosa que actúa como respaldo antioxidante interno ante la radiación ultravioleta y luz visible."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 127,
+      "group": "comboSecundario",
+      "rationale": "Une vitamina C con zinc y pétalos de rosa para apoyar la formación de colágeno y proteger la barrera cutánea frente a agresiones ambientales."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 116,
+      "group": "comboSecundario",
+      "rationale": "Precursor directo del glutatión propio del organismo para reforzar la defensa celular frente a radicales libres."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 239,
+      "group": "comboSecundario",
+      "rationale": "Crema hidratante con ácido hialurónico, colágeno, goji y filtros solares integrados para cuidar el cutis durante el día."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 108,
+      "group": "comboSecundario",
+      "rationale": "Aporta 1,000 mg de vitamina C con bioflavonoides y rutina para apoyar la protección antioxidante diaria de la piel."
+    },
+    {
+      "guideId": "pano_manchas_piel",
+      "productId": 268,
+      "group": "comboSecundario",
+      "rationale": "Rico en ácidos grasos esenciales y trazas de ácido trans-retinoico natural que ayudan a renovar gradualmente las capas superficiales de la piel durante la noche."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 153,
+      "group": "comboPrincipal",
+      "rationale": "El zinc elemental de 20 mg contribuye al equilibrio de las glándulas sebáceas y apoya la reparación y defensas naturales de la piel del cuero cabelludo."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 129,
+      "group": "comboPrincipal",
+      "rationale": "Fortalece el equilibrio del intestino y la respuesta inmunitaria de la piel, reduciendo la tendencia a brotes inflamatorios recurrentes."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 203,
+      "group": "comboPrincipal",
+      "rationale": "Pomada con ácido salicílico, alquitrán de hulla y extractos herbales que ayudan a ablandar y desprender escamas adheridas mientras calman el prurito."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Aporta EPA y DHA purificados para ayudar a moderar la inflamación y el enrojecimiento de la piel sensible."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 152,
+      "group": "comboSecundario",
+      "rationale": "Aporta los mismos 20 mg de zinc para control de grasa e inmunidad cutánea, suavizado con jengibre digestivo."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 2,
+      "group": "comboSecundario",
+      "rationale": "Uso interno de aceite de coco con orégano estandarizado para apoyar el control general de levaduras en el organismo."
+    },
+    {
+      "guideId": "caspa_cuero_cabelludo",
+      "productId": 4,
+      "group": "comboSecundario",
+      "rationale": "Incluye biotina y vitaminas del complejo B necesarias para la renovación saludable del cuero cabelludo y el folículo."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 126,
+      "group": "comboPrincipal",
+      "rationale": "Suma 500 mg de ácido hialurónico —molécula que retiene agua dentro de la dermis— junto con 10.5 g de colágeno para devolver suavidad y elasticidad desde el interior."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 18,
+      "group": "comboPrincipal",
+      "rationale": "Reúne colágeno tipo I, ácido hialurónico, omega-3, aloe vera y vitamina E en una sola toma diaria para nutrir la barrera hidratante de la piel."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 110,
+      "group": "comboPrincipal",
+      "rationale": "Vitamina E en aceite de germen de trigo que protege los lípidos propios de la piel contra la resequedad por viento, frío o edad."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 122,
+      "group": "comboSecundario",
+      "rationale": "Ácidos grasos marinos con vitamina E para fortalecer la capa grasa natural que evita que se evapore el agua de la piel."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 206,
+      "group": "comboSecundario",
+      "rationale": "Integra omega de pescado con aceites prensados en frío de sacha inchi y linaza para nutrir la suavidad de la piel seca desde adentro."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 240,
+      "group": "comboSecundario",
+      "rationale": "Aporta ácido oleico y polifenoles del aceite de oliva en cápsula práctica para acompañar la nutrición de piel y mucosas secas."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 268,
+      "group": "comboSecundario",
+      "rationale": "Aceite puro prensado en frío rico en ácidos linoleico y linolénico que sella la hidratación y repara zonas agrietadas o ásperas."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 239,
+      "group": "comboSecundario",
+      "rationale": "Crema con aceite de argán, aguacate, avena, colágeno y ácido hialurónico para suavizar de inmediato la sensación de tirantez facial."
+    },
+    {
+      "guideId": "piel_muy_seca",
+      "productId": 15,
+      "group": "comboSecundario",
+      "rationale": "Emoliente natural sin químicos que forma una película protectora económica sobre brazos y piernas muy resecos."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 127,
+      "group": "comboPrincipal",
+      "rationale": "La vitamina C (300 mg) junto con zinc (10 mg) ayudan a formar colágeno firme en el tejido de las encías y respaldan la cicatrización de microlesiones."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 101,
+      "group": "comboPrincipal",
+      "rationale": "Forma activa de la coenzima Q10 que apoya la energía y reparación de los tejidos delicados de las encías."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 108,
+      "group": "comboPrincipal",
+      "rationale": "Dosis alta de vitamina C (1,000 mg) con bioflavonoides y rutina que ayudan a fortalecer los pequeños vasos sanguíneos de las encías para reducir su fragilidad."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 123,
+      "group": "comboSecundario",
+      "rationale": "Omega-3 purificado (EPA y DHA) que ayuda a moderar la inflamación crónica en los tejidos de soporte de los dientes."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 136,
+      "group": "comboSecundario",
+      "rationale": "Aporta 120 mg de coenzima Q10 con vitamina B6 para nutrir el metabolismo y vitalidad del tejido gingival."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 176,
+      "group": "comboSecundario",
+      "rationale": "Enjuague natural calmante que ayuda a desinflamar y reconfortar encías sensibles sin alcohol ni químicos irritantes."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 188,
+      "group": "comboSecundario",
+      "rationale": "El propóleo ayuda a mantener limpia la superficie de la mucosa bucal y a calmar encías irritadas de forma tradicional."
+    },
+    {
+      "guideId": "encias_sensibles_inflamadas",
+      "productId": 263,
+      "group": "comboSecundario",
+      "rationale": "Solución de plata elemental al 10 ppm empleada exclusivamente para higiene tópica de la boca sin ingerir."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 128,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 500 mg de potasio elemental junto con calcio, vitamina B6 y un aporte ligero de magnesio (~30 mg elementales) para reponer sales minerales perdidas por calor, sudor o dieta baja en harinas."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 181,
+      "group": "comboPrincipal",
+      "rationale": "Aporta 400 mg de magnesio elemental suave para el estómago para reponer el mineral perdido con el sudor y prevenir calambres y agotamiento sin soltar el vientre."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 49,
+      "group": "comboPrincipal",
+      "rationale": "Concentrado sin azúcar de hierbabuena y menta que hace más agradable el agua natural para ayudar a tomar más líquido al día en personas sanas."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 47,
+      "group": "comboSecundario",
+      "rationale": "Opción enfocada solo en potasio (240 mg elementales) para apoyar el equilibrio de líquidos y prevenir calambres o bajones por calor o dietas bajas en carbohidratos."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 28,
+      "group": "comboSecundario",
+      "rationale": "Bebida refrescante de sábila y vitamina C para acompañar la ingesta de líquidos en personas sanas con digestión lenta (no repone electrolitos ni sirve como suero)."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 48,
+      "group": "comboSecundario",
+      "rationale": "Alternativa neutra de clorofila líquida rendidora para dar color y frescura al agua natural y ayudar a sostener el hábito de beber líquidos."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 191,
+      "group": "comboSecundario",
+      "rationale": "Bebida deportiva sabor lima-limón sin azúcar que sí aporta sodio (~522 mg), potasio (170 mg) y magnesio (61 mg) con sal rosa, minerales naturales y 5 g de creatina para reponer sales al sudar."
+    },
+    {
+      "guideId": "hidratacion_electrolitos",
+      "productId": 209,
+      "group": "comboSecundario",
+      "rationale": "Misma fórmula hidratante deportiva sabor fresa-limón sin azúcar con sodio (~523 mg), potasio (~175 mg), magnesio (61 mg), minerales naturales y 5 g de creatina para deporte o sudoración fuerte."
     }
   ],
   "notes": [

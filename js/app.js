@@ -641,8 +641,8 @@
             // Catálogo anatómico y visual de sistemas para las tarjetas de módulos
             const guideAnatomyData = {
                 purple: {
-                    organs: 'Cerebro · Eje Neuronal · Neurotransmisores · Sueño',
-                    desc: 'Regulación del estado de ánimo, neuroprotección, equilibrio del estrés y descanso reparador.',
+                    organs: 'Cerebro · Nervios · Descanso y Sueño',
+                    desc: 'Apoyo para el estado de ánimo, calma ante el estrés, concentración y descanso reparador.',
                     accent: '#9333ea',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Nervioso - Cerebro y sinapsis">
                         <defs>
@@ -671,8 +671,8 @@
                     </svg>`
                 },
                 green: {
-                    organs: 'Estómago · Hígado · Vesícula · Microbiota Intestinal',
-                    desc: 'Confort gástrico, digestión enzimática, depuración hepática y flora intestinal saludable.',
+                    organs: 'Estómago · Hígado · Vesícula · Flora Intestinal',
+                    desc: 'Digestión ligera, alivio de gastritis o reflujo, limpieza del hígado y cuidado intestinal.',
                     accent: '#059669',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Digestivo - Estómago e hígado">
                         <defs>
@@ -700,8 +700,8 @@
                     </svg>`
                 },
                 orange: {
-                    organs: 'Páncreas · Regulación de Azúcar · Tiroides · Energía Celular',
-                    desc: 'Sensibilidad a la insulina, modulación de glucosa postprandial y vitalidad celular.',
+                    organs: 'Páncreas · Azúcar en Sangre · Control de Peso',
+                    desc: 'Aprovechamiento saludable de azúcares y grasas, energía diaria y control de peso.',
                     accent: '#ea580c',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Metabolismo - Páncreas y glucosa">
                         <defs>
@@ -725,8 +725,8 @@
                     </svg>`
                 },
                 pink: {
-                    organs: 'Sistema Endocrino · Salud Prostática · Ciclo Femenino',
-                    desc: 'Balance hormonal en cada etapa vital, bienestar prostático, vitalidad y armonía reproductiva.',
+                    organs: 'Balance Hormonal · Salud Íntima · Vitalidad',
+                    desc: 'Apoyo hormonal en cada etapa de la vida, bienestar masculino y femenino y vitalidad.',
                     accent: '#db2777',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Salud Hormonal - Sistema endocrino">
                         <defs>
@@ -749,8 +749,8 @@
                     </svg>`
                 },
                 red: {
-                    organs: 'Corazón · Red Aórtica · Circulación Periférica · Presión',
-                    desc: 'Fuerza contráctil, elasticidad vascular, perfil lipídico y oxigenación tisular continua.',
+                    organs: 'Corazón · Circulación · Venas · Riñones',
+                    desc: 'Cuidado del corazón, circulación en piernas y várices, presión arterial y vías urinarias.',
                     accent: '#dc2626',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Salud Cardiovascular - Corazón y circulación">
                         <defs>
@@ -772,8 +772,8 @@
                     </svg>`
                 },
                 blue: {
-                    organs: 'Pulmones · Árbol Bronquial · Vías Aéreas · Defensas Inmunes',
-                    desc: 'Capacidad respiratoria, oxigenación celular y barrera inmunitaria frente a agentes externos.',
+                    organs: 'Pulmones · Garganta · Vías Aéreas · Defensas',
+                    desc: 'Respiración libre, confort de garganta y fortalecimiento natural de las defensas.',
                     accent: '#2563eb',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Respiratorio e Inmune - Pulmones y defensas">
                         <defs>
@@ -799,8 +799,8 @@
                     </svg>`
                 },
                 yellow: {
-                    organs: 'Huesos · Articulaciones · Columna Vertebral · Cartílago',
-                    desc: 'Movilidad articular sin fricción, densidad mineral ósea, cartílago y fuerza muscular.',
+                    organs: 'Huesos · Articulaciones · Músculos · Deporte',
+                    desc: 'Movilidad articular, cuidado de huesos y cartílagos, recuperación muscular y rendimiento.',
                     accent: '#ca8a04',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Locomotor - Articulación y hueso">
                         <defs>
@@ -824,8 +824,8 @@
                     </svg>`
                 },
                 gray: {
-                    organs: 'Genoma y ADN · Microambiente Celular · Homeostasis Integral',
-                    desc: 'Estrategias multifactoriales para condiciones crónicas, modulación inflamatoria y homeostasis.',
+                    organs: 'Piel · Cabello · Renovación Celular · Cuidado Especial',
+                    desc: 'Cuidado profundo de la piel y el cabello, energía celular y apoyo en padecimientos crónicos.',
                     accent: '#475569',
                     svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Condiciones Complejas - Célula y ADN">
                         <defs>
@@ -948,23 +948,27 @@
                                      <ul class="padecimiento-symptoms-list list-disc list-inside text-sm text-gray-600 space-y-1.5 pl-2">
                                          ${pad.symptoms.map((s, index) => `<li><span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span>${s}</li>`).join('')}
                                      </ul>
-                                    </div>`;
+                                    </div>${pad.safetyNote ? `
+                                    <div class="padecimiento-safety-note" role="note">
+                                        <span class="padecimiento-editorial-eyebrow">Regla del protocolo y precauciones</span>
+                                        <p>${escapeGuideAttribute(pad.safetyNote)}</p>
+                                    </div>` : ''}${pad.lifestyleTips && pad.lifestyleTips.length ? `
+                                    <div class="padecimiento-questions">
+                                        <span class="padecimiento-editorial-eyebrow padecimiento-questions-kicker">Protocolo en casa</span>
+                                        <h5>Hábitos y seguimiento</h5>
+                                        <ul>
+                                            ${pad.lifestyleTips.map((tip, index) => `<li class="flex items-start"><span aria-hidden="true">${String(index + 1).padStart(2, '0')}</span><span>${escapeGuideAttribute(tip)}</span></li>`).join('')}
+                                        </ul>
+                                    </div>` : ''}`;
 
                 html += `
                                 </div>`;
 
-                // Combo Principal
-                html += `
-                                <div class="padecimiento-combos">
-                                    <div class="padecimiento-combo-principal">
-                                        <span class="padecimiento-editorial-eyebrow">${pad.primaryOptionsLabel ? 'Elegir una opción' : 'Lo esencial'}</span>
-                                        <h4>${pad.primaryOptionsLabel || 'Opciones principales para elegir'}</h4>
-                                        <ul class="padecimiento-editorial-product-list">`;
-                pad.comboPrincipal.forEach(item => {
+                const renderGuideEditorialProductItem = (item) => {
                     const product = productos.find(p => p.id === item.id);
-                    if (!product) return;
+                    if (!product) return '';
                     const serving = getGuideServing(item, product);
-                    html += `
+                    return `
                                             <li>
                                                 <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
                                                     <span class="padecimiento-editorial-product-left">
@@ -974,11 +978,21 @@
                                                             ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
                                                             <span class="padecimiento-editorial-product-meta"><strong>Porción sugerida:</strong> ${serving}</span>
                                                             <span class="padecimiento-editorial-product-meta padecimiento-editorial-product-function"><strong>Función en este padecimiento:</strong> ${escapeGuideAttribute(item.rationale)}</span>
+                                                            ${item.usage ? `<span class="padecimiento-editorial-product-meta padecimiento-editorial-product-usage"><strong>Cómo usar y precauciones:</strong> ${escapeGuideAttribute(item.usage)}</span>` : ''}
                                                         </span>
                                                     </span>
                                                 </button>
                                             </li>`;
-                });
+                };
+
+                // Combo Principal
+                html += `
+                                <div class="padecimiento-combos">
+                                    <div class="padecimiento-combo-principal">
+                                        <span class="padecimiento-editorial-eyebrow">${pad.primaryOptionsLabel ? 'Elegir una opción' : 'Lo esencial'}</span>
+                                        <h4>${pad.primaryOptionsLabel || 'Opciones principales para elegir'}</h4>
+                                        <ul class="padecimiento-editorial-product-list">`;
+                pad.comboPrincipal.forEach(item => { html += renderGuideEditorialProductItem(item); });
                 html += `
                                         </ul>
                                     </div>`;
@@ -989,25 +1003,7 @@
                                         <span class="padecimiento-editorial-eyebrow">Opciones adicionales</span>
                                         <h4>Otras opciones de la guía</h4>
                                         <ul class="padecimiento-editorial-product-list secondary">`;
-                pad.comboSecundario.forEach(item => {
-                    const product = productos.find(p => p.id === item.id);
-                    if (!product) return;
-                    const serving = getGuideServing(item, product);
-                    html += `
-                                            <li>
-                                                <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
-                                                    <span class="padecimiento-editorial-product-left">
-                                                        ${renderGuideProductImage(product)}
-                                                        <span class="padecimiento-editorial-product-info">
-                                                            <span class="padecimiento-editorial-product-name">${product.name}</span>
-                                                            ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
-                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción sugerida:</strong> ${serving}</span>
-                                                            <span class="padecimiento-editorial-product-meta padecimiento-editorial-product-function"><strong>Función en este padecimiento:</strong> ${escapeGuideAttribute(item.rationale)}</span>
-                                                        </span>
-                                                    </span>
-                                                </button>
-                                            </li>`;
-                });
+                pad.comboSecundario.forEach(item => { html += renderGuideEditorialProductItem(item); });
                 html += `
                                         </ul>
                                     </div>
@@ -1193,32 +1189,35 @@
                 </div>`;
 
             padecimientos.forEach(pad => {
+                const renderPdfProductRow = (item) => {
+                    const p = productos.find(prod => prod.id === item.id);
+                    if (!p) return '';
+                    const rationale = escapeGuideAttribute(item.rationale || p.benefitSummary || '');
+                    const usage = item.usage ? `<div class="mt-1 text-xs text-amber-800"><strong>Uso y precauciones:</strong> ${escapeGuideAttribute(item.usage)}</div>` : '';
+                    return `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2"><div>${rationale}</div>${usage}</td></tr>`;
+                };
                 html += `
                     <section class="padecimiento-pdf-item">
                          <h2 class="padecimiento-pdf-title">${pad.emoji} ${pad.name}</h2>
                          <p class="padecimiento-pdf-desc">${pad.description}</p>
+                         ${pad.safetyNote ? `<div class="mb-3 rounded border border-amber-300 bg-amber-50 p-2.5 text-xs text-amber-950"><strong>Regla del protocolo:</strong> ${escapeGuideAttribute(pad.safetyNote)}</div>` : ''}
                         <table class="w-full border-collapse mb-4">
                             <thead>
                                 <tr class="bg-gray-50">
                                      <th class="border p-2 text-left font-semibold text-gray-700">Suplemento</th>
                                      <th class="border p-2 text-left font-semibold text-gray-700">Porción Sugerida</th>
-                                     <th class="border p-2 text-left font-semibold text-gray-700">Función en la Guía</th>
+                                     <th class="border p-2 text-left font-semibold text-gray-700">Función en la Guía y Uso</th>
                                  </tr>
                             </thead>
                             <tbody>
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">${pad.primaryOptionsLabel || 'Opciones para valorar'}</td></tr>
-                                 ${pad.comboPrincipal.map(item => {
-                                     const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${escapeGuideAttribute(item.rationale || p.benefitSummary || '')}</td></tr>` : '';
-                                 }).join('')}
+                                 ${pad.comboPrincipal.map(renderPdfProductRow).join('')}
                                  ${pad.comboSecundario.length > 0 ? `
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Apoyo Adicional</td></tr>
-                                 ${pad.comboSecundario.map(item => {
-                                     const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${escapeGuideAttribute(item.rationale || p.benefitSummary || '')}</td></tr>` : '';
-                                 }).join('')}` : ''}
+                                 ${pad.comboSecundario.map(renderPdfProductRow).join('')}` : ''}
                             </tbody>
                         </table>
+                        ${pad.lifestyleTips && pad.lifestyleTips.length ? `<div class="text-xs text-gray-700"><strong>Hábitos y seguimiento:</strong> ${pad.lifestyleTips.map(t => escapeGuideAttribute(t)).join(' · ')}</div>` : ''}
                     </section>
                 `;
             });

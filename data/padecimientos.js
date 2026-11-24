@@ -143,6 +143,12 @@ window.manualData.padecimientos = [
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana o al mediodía con alimentos; evitarla cerca de la hora de dormir. Consultar antes si toma antidepresivos o antihipertensivos.",
                 "rationale": "Asocia la resistencia adaptogénica de la Rhodiola con las propiedades ansiolíticas de Albizia y L-teanina, sustentando la claridad cognitiva y el rendimiento intelectual sin sobreestimular el sistema cardiovascular ni agotar las suprarrenales."
+            },
+            {
+                "id": 192,
+                "serving": "Adultos: 1 ampolleta al día (uso oral)",
+                "usage": "Beber el contenido directo de la ampolleta con el desayuno (NUNCA inyectar). Evitar si hay alergia a vitaminas B o jalea real; separar 2 a 3 horas de antibióticos y levotiroxina.",
+                "rationale": "Ampolleta bebible oral con complejo B, vitaminas A, C, D3 y E, jalea real, inositol y calcio como reconstituyente práctico cuando hay desgaste o dificultad para tragar pastillas."
             }
         ],
         "lifestyleTips": [
@@ -295,7 +301,7 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 92,
-                "serving": "2-4 cápsulas",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Aporta magnesio biodisponible unido a ácido málico, esencial para frenar la hiperexcitabilidad cortical propagada y regular el tono vasomotor de las arterias cerebrales, ayudando a disminuir la intensidad y recurrencia de las crisis migrañosas."
             },
@@ -354,7 +360,7 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 92,
-                "serving": "2-4 cápsulas",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Combina magnesio con ácido málico para abastecer el ciclo de Krebs celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
             },
@@ -379,16 +385,16 @@ window.manualData.padecimientos = [
                 "rationale": "La combinación de bisglicinato de magnesio, 5-HTP y glicina promueve la relajación del tono muscular espástico y favorece la fase IV del sueño no REM, crucial para reparar tejidos y reducir la amplificación central del dolor."
             },
             {
-                "id": 17,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
-            },
-            {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de neurotransmisores del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
+            },
+            {
+                "id": 17,
+                "serving": "2 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
             }
         ],
         "lifestyleTips": [
@@ -413,7 +419,7 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 92,
-                "serving": "2-4 cápsulas",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "El malato de magnesio junto con la vitamina B6 relaja las contracturas profundas de la zona lumbar y del músculo piramidal, reduciendo la presión mecánica sobre el nervio ciático para aliviar espasmos y tensión."
             },
@@ -432,16 +438,16 @@ window.manualData.padecimientos = [
         ],
         "comboSecundario": [
             {
-                "id": 17,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
-            },
-            {
                 "id": 91,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Combina tres sales de magnesio para favorecer la relajación neuromuscular y disminuir la excitabilidad de las fibras paravertebrales, aliviando la rigidez muscular refleja que comprime el trayecto ciático."
+            },
+            {
+                "id": 17,
+                "serving": "2 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
             },
             {
                 "id": 167,
@@ -555,12 +561,6 @@ window.manualData.padecimientos = [
         ],
         "comboSecundario": [
             {
-                "id": 43,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "La silimarina y extractos botánicos apoyan la detoxificación hepática de estrógenos excedentes en fase II, ayudando a equilibrar la dominancia hormonal que estimula el crecimiento de quistes y miomas."
-            },
-            {
                 "id": 123,
                 "serving": "2-3 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
@@ -577,6 +577,18 @@ window.manualData.padecimientos = [
                 "serving": "5 g",
                 "usage": "Tomar esta porción al día disuelto en agua. Con alimentos.",
                 "rationale": "Aporta inositol puro de rápida asimilación que optimiza la transducción de señales de insulina en el ovario, favoreciendo el balance neuroendocrino y disminuyendo la tendencia a desarrollar quistes ováricos."
+            },
+            {
+                "id": 79,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa suave en cápsula única frente a #52 y #180; no combinar entre sí.",
+                "rationale": "Aporta 500 mg de myo-inositol puro al día para acompañar el cuidado ovárico de forma sencilla cuando se prefiere una sola cápsula diaria."
+            },
+            {
+                "id": 43,
+                "serving": "2 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "La silimarina y extractos botánicos apoyan la detoxificación hepática de estrógenos excedentes en fase II, ayudando a equilibrar la dominancia hormonal que estimula el crecimiento de quistes y miomas."
             }
         ],
         "lifestyleTips": [
@@ -1660,65 +1672,78 @@ window.manualData.padecimientos = [
         "name": "Ácido Úrico Elevado (Gota)",
         "emoji": "🔥",
         "color": "orange",
-        "description": "La gota puede causar dolor e hinchazón intensos en una articulación por acumulación de cristales de ácido úrico. El apoyo nutricional se elige con el profesional y no reemplaza el tratamiento de un ataque.",
+        "description": "El ácido úrico alto puede formar cristales dolorosos que inflaman de golpe las articulaciones (gota), sobre todo en el dedo gordo del pie. El apoyo nutricional se usa entre episodios y no sustituye el medicamento de una crisis aguda.",
         "symptoms": [
             "Dolor intenso y repentino en una articulación (a menudo el dedo gordo del pie)",
-            "Hinchazón y enrojecimiento",
-            "Sensibilidad extrema al tacto"
+            "Hinchazón, calor y enrojecimiento en la zona afectada",
+            "Sensibilidad extrema incluso al roce de la sábana"
         ],
         "comboPrincipal": [
             {
                 "id": 54,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos, fuera de un ataque agudo y con revisión profesional.",
-                "rationale": "Desinflama con rapidez la articulación del dedo gordo y el empeine durante crisis dolorosas de gota, frenando la cascada inflamatoria provocada por cristales de urato."
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Con una comida que incluya algo de grasa (aguacate o aceite de oliva), solo fuera de un ataque agudo. Evitar si hay piedras en la vesícula; consultar si toma anticoagulantes, aspirina o medicinas para el azúcar.",
+                "rationale": "Concentrado de curcumina con pimienta negra y vitamina C para ayudar a mantener desinflamadas las articulaciones en el cuidado diario entre episodios (no es para aliviar una crisis aguda)."
             }
         ],
         "comboSecundario": [
             {
                 "id": 47,
                 "serving": "3 cápsulas (1.5 g)",
-                "usage": "Tomar esta porción al día únicamente cuando un profesional lo indique después de evaluar orina, función renal y medicamentos. Con alimentos.",
-                "rationale": "Alcaliniza el pH de la orina, aumentando la solubilidad del ácido úrico para facilitar su expulsión renal y prevenir la precipitación de cristales de urato en articulaciones y riñón."
+                "usage": "Con alimentos y un vaso grande de agua, solo si el profesional lo indica tras revisar riñones y análisis. Evitar si hay enfermedad renal o si toma espironolactona o medicinas para la presión (enalapril, captopril, losartán).",
+                "rationale": "Ayuda a que la orina sea menos ácida para que el ácido úrico se disuelva mejor y salga con más facilidad por los riñones entre episodios."
+            },
+            {
+                "id": 148,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Con alimentos y un vaso grande de agua fuera de crisis. Evitar en embarazo o lactancia; consultar antes si hay enfermedad renal, presión baja, diabetes o uso de diuréticos.",
+                "rationale": "Planta mexicana tradicional usada en el cuidado diario para apoyar la eliminación por la orina y el manejo de grasas en sangre junto con una dieta moderada."
+            },
+            {
+                "id": 123,
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Con un desayuno o comida que contenga algo de grasa saludable. Evitar en alergia al pescado y consultar indispensablemente si toma anticoagulantes (warfarina) o aspirina.",
+                "rationale": "Aporta grasas buenas EPA y DHA (1,500 mg) para cuidar articulaciones y corazón de forma continua entre episodios de gota."
             },
             {
                 "id": 151,
                 "serving": "1 medida (6 g)",
-                "usage": "Tomar esta porción al día según tolerancia. En ayunas o con el desayuno. Preferentemente por la mañana.",
-                "rationale": "Concentrado botánico alcalinizante con apio y enzimas proteolíticas que favorece la eliminación urinaria de solutos ácidos, aliviando la carga metabólica en episodios inflamatorios articulares."
+                "usage": "Disolver en 250 a 300 ml de agua por la mañana, manteniendo buena toma de agua simple en el día. Contiene té verde y guaraná (cafeína), cúrcuma y alcachofa: evitar en embarazo, piedras biliares o sensibilidad a la cafeína.",
+                "rationale": "Bebida verde con fibras, enzimas digestivas, probióticos y vegetales (como apio y nopal) para apoyar la digestión ligera y el consumo de líquidos en el cuidado diario."
             },
             {
-                "id": 123,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos, si el profesional lo considera apropiado.",
-                "rationale": "Ácidos grasos antiinflamatorios que reducen la hinchazón, el enrojecimiento y el calor punzante en las articulaciones afectadas por ácido úrico."
+                "id": 49,
+                "serving": "20 ml",
+                "usage": "Agitar y diluir en 1 litro de agua fresca para tomar a sorbos durante el día (no sustituye al agua simple ni a medicamentos). Consultar si toma warfarina, tiene sensibilidad leve al té matcha o problemas biliares.",
+                "rationale": "Opción sin azúcar que da sabor fresco de hierbabuena al agua para ayudar a tomar más líquido al día y favorecer la salida de ácido úrico en la orina."
             },
             {
                 "id": 178,
-                "serving": "1 cápsula (aprox. 500 mg)",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Flavonoide natural que inhibe la enzima xantina oxidasa para frenar la producción excesiva de ácido úrico en sangre."
+                "serving": "2 cápsulas al día",
+                "usage": "Con una comida que tenga algo de grasa (usar 1 o 2 cápsulas según indicación profesional; la ficha declara 2 cápsulas = 1,000 mg). No sustituye el alopurinol; consultar si toma anticoagulantes, aspirina o antibióticos (quinolonas).",
+                "rationale": "Antioxidante vegetal de apoyo preventivo continuo para acompañar el control diario del ácido úrico y el cuidado de los tejidos fuera de las crisis."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula (1000 mg)",
-                "usage": "Tomar esta porción al día con alimentos, solo tras descartar antecedente de cálculos o enfermedad renal.",
-                "rationale": "Favorece la expulsión de ácido úrico a través del riñón, ayudando a prevenir la cristalización en articulaciones y tendones."
+                "usage": "Con una comida principal, únicamente después de descartar piedras previas o enfermedad en los riñones. Consultar si toma warfarina.",
+                "rationale": "Aporta 1,000 mg de vitamina C como apoyo preventivo suave para facilitar la eliminación de ácido úrico por la orina con el uso constante."
             }
         ],
         "lifestyleTips": [
-            "Limitar vísceras, porciones frecuentes de carne roja, ciertos mariscos, cerveza, destilados y bebidas azucaradas con fructosa.",
-            "Mantener hidratación regular, salvo que exista una restricción de líquidos indicada por cardiología o nefrología.",
-            "Evitar ayunos prolongados y pérdidas de peso rápidas; buscar una reducción gradual si hay sobrepeso.",
-            "Durante un ataque agudo no masajear la articulación ni intentar sustituir el tratamiento prescrito con suplementos."
-        ]
+            "Tomar agua natural de forma constante durante todo el día (salvo indicación médica de restringir líquidos); evitar refrescos y jugos azucarados por su fructosa.",
+            "Limitar vísceras, porciones frecuentes de carne roja, mariscos, cerveza y bebidas destiladas.",
+            "Evitar ayunos prolongados y pérdidas bruscas de peso; bajar de peso de manera gradual ayuda a estabilizar el ácido úrico.",
+            "Durante un ataque agudo de gota: guardar reposo, no masajear ni tallar la articulación, y acudir al médico en lugar de intentar sustituir el tratamiento con suplementos."
+        ],
+        "safetyNote": "Durante un ataque agudo de gota ningún suplemento sustituye el medicamento recetado por el médico (antiinflamatorio o colchicina). Todas las opciones de esta guía son solo apoyos diarios entre crisis, nunca para cortar un dolor repentino. Si ya toma alopurinol o febuxostat, no los suspenda ni cambie dosis por su cuenta; revisar siempre riñones, antecedentes de piedras y medicinas para presión, azúcar o coagulación."
     },
     {
         "id": "resistencia_insulina",
         "name": "Resistencia a la Insulina y Pre-diabetes",
         "emoji": "🩸",
         "color": "orange",
-        "description": "Cuando el cuerpo aprovecha con dificultad la insulina, el azúcar en sangre puede subir. Alimentación, actividad física y seguimiento son la base; se elige una opción de apoyo revisando los análisis y medicamentos.",
+        "description": "Cuando al cuerpo le cuesta aprovechar bien la insulina, el azúcar tarda más en entrar a las células y puede elevarse poco a poco en sangre. El apoyo nutricional acompaña cambios diarios de alimentación, caminata después de comer y buen sueño.",
         "symptoms": [
             "Aumento de peso, especialmente alrededor del abdomen",
             "Apetito excesivo por carbohidratos o dulces",
@@ -1729,141 +1754,203 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 36,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Activa la enzima AMPK celular promoviendo la translocación de transportadores GLUT4, lo que acelera la captación muscular de glucosa y disminuye la sobreproducción compensatoria de insulina."
+                "serving": "2 cápsulas (1.01 g)",
+                "usage": "Repartir 1 antes o con el desayuno y 1 con la comida fuerte (puede iniciar con 1 cápsula los primeros días según tolerancia estomacal). Consultar antes si toma estatinas, pastillas para la presión, anticoagulantes o medicinas para el azúcar.",
+                "rationale": "Ayuda a que los músculos aprovechen mejor el azúcar de los alimentos, evita subidas bruscas después de comer y apoya el equilibrio de colesterol y triglicéridos."
             },
             {
                 "id": 41,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "El picolinato de cromo optimiza la fosforilación del receptor de insulina mientras la canela potencia la sensibilidad tisular periférica, atenuando los picos glucémicos posprandiales y la somnolencia."
+                "serving": "2 cápsulas (2 g)",
+                "usage": "Con comidas que incluyan carbohidratos. No juntar con otros productos con cromo o hierro (#45, #29) y separar al menos 2 horas de levotiroxina o antibióticos.",
+                "rationale": "Combina canela y cromo para aprovechar mejor los carbohidratos y evitar el bajón de sueño tras comer, además de aportar vitaminas B1, B2 y B12 y hierro para la energía diaria."
             },
             {
                 "id": 52,
-                "serving": "4 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Actúan como segundos mensajeros en la vía intracelular de la insulina, facilitando el transporte celular de carbohidratos en músculo e hígado para abatir la hiperinsulinemia en ayunas."
+                "serving": "4 cápsulas (2 g)",
+                "usage": "Con los alimentos (pueden repartirse 2 en el desayuno y 2 en la comida). Opción compatible si toma estatinas; no juntar con otros inositoles (#79, #180 o #53).",
+                "rationale": "Ayuda a que las células respondan mejor a la insulina, calma los antojos de dulces y harinas y apoya el equilibrio hormonal cuando también hay ovario poliquístico."
             }
         ],
         "comboSecundario": [
             {
                 "id": 122,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Aumenta la fluidez de las membranas celulares optimizando la afinidad de los receptores de insulina, a la vez que mitiga la inflamación endotelial y la hipertrigliceridemia asociadas a resistencia insulínica."
-            },
-            {
-                "id": 17,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Antioxidante metabólico que estimula directamente la captación de glucosa por los transportadores GLUT4 y protege las mitocondrias frente al estrés oxidativo inducido por hiperglucemias transitorias."
+                "serving": "1 cápsula (1 g)",
+                "usage": "Con una comida que contenga grasas saludables. Consultar al médico si toma anticoagulantes o aspirina diaria; no juntar con otros omega-3.",
+                "rationale": "Aporta grasas buenas con vitamina E para cuidar el corazón, apoyar la circulación y acompañar la alimentación cuando también se buscan cuidar los triglicéridos."
             },
             {
                 "id": 103,
-                "serving": "15 ml",
-                "usage": "Tomar esta porción diluida en agua antes de una comida, según tolerancia.",
-                "rationale": "El ácido acético natural retarda el vaciamiento gástrico e inhibe las disacaridasas intestinales, aplanando los picos de glucosa e insulina después de ingerir carbohidratos complejos."
+                "serving": "15 ml (1 cucharada sopera)",
+                "usage": "Diluir siempre en un vaso grande de agua (200-250 ml) y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis activa, úlcera o reflujo severo y no juntar con #104.",
+                "rationale": "Su ácido natural vuelve más lenta la digestión de harinas y azúcares, ayudando a suavizar las subidas de glucosa tras comer y favorecer la saciedad."
+            },
+            {
+                "id": 104,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a #103; no usar ambos ni juntar con #41 por repetir canela). Evitar en úlcera o reflujo severo y consultar si toma anticoagulantes.",
+                "rationale": "Alternativa práctica en cápsulas de vinagre de manzana con cúrcuma, jengibre y canela para suavizar la subida de azúcar tras comer sin dañar el esmalte dental."
             },
             {
                 "id": 101,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Restaura la bioenergética mitocondrial en músculo e hígado, reduciendo el estrés oxidativo intracelular que interfiere con la fosforilación de los receptores de insulina."
+                "serving": "1 cápsula (415 mg)",
+                "usage": "Con una comida que contenga grasas saludables (aguacate, huevo o nueces). Consultar al médico si toma warfarina o acenocumarol.",
+                "rationale": "Forma activa de CoQ10 que apoya la energía celular, protege el corazón y resulta especialmente útil si la persona toma estatinas o siente cansancio muscular."
             },
             {
                 "id": 29,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.",
-                "rationale": "Sinergia de Gynostemma, hesperidina y cromo picolinato que estimula la vía AMPK, ayudando a frenar la salida hepática de glucosa y reactivar la oxidación celular de lípidos."
+                "serving": "2 cápsulas (1.2 g)",
+                "usage": "Justo antes o durante las comidas principales. No combinar con #17 (ya aporta 100 mg de ácido alfa lipoico) ni con #41 o #45 (ya aporta cromo); separar 2 horas de antibióticos.",
+                "rationale": "Fórmula integral sin cafeína con plantas metabólicas, cromo, ácido alfa lipoico y probióticos para aprovechar mejor azúcares y grasas y cuidar la digestión en un solo producto."
+            },
+            {
+                "id": 45,
+                "serving": "1 cápsula (400 mg)",
+                "usage": "Antes de comer o con el desayuno. Alternativa suave a #41 sin hierro ni complejo B; no juntar con #41, #29 ni #195.",
+                "rationale": "Aporte suave de polinicotinato de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar los antojos dulces y el uso cotidiano de carbohidratos."
+            },
+            {
+                "id": 63,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes de comidas con un vaso grande de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral para no reducir su absorción.",
+                "rationale": "Semilla rica en fibra viscosa que forma un gel suave en el estómago para hacer más lenta la absorción del azúcar tras las comidas y prolongar la saciedad."
+            },
+            {
+                "id": 79,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con alimentos (aunque el nombre diga «Powder», viene en cápsulas). Alternativa suave de mantenimiento frente a #52 y #180; no tomar juntos.",
+                "rationale": "Opción práctica de una cápsula diaria con 500 mg de myo-inositol puro para acompañar el cuidado inicial de antojos y carbohidratos."
+            },
+            {
+                "id": 180,
+                "serving": "5 g al día (1 cucharadita)",
+                "usage": "Disolver en agua o bebida sin azúcar y tomar junto con una comida (envase de 50 g = 10 días). Alternativa en polvo a #52; no combinar entre sí.",
+                "rationale": "Inositol 100 % puro en polvo sin sabor para quienes prefieren tomarlo en bebida en lugar de cápsulas y apoyar la respuesta a la insulina y los antojos."
+            },
+            {
+                "id": 181,
+                "serving": "4 cápsulas al día",
+                "usage": "Con alimentos y agua (se pueden repartir 2 y 2 o en la cena). Confirmar función renal normal, separar 2 horas de antibióticos, levotiroxina o bisfosfonatos y evitar si ya toma otro magnesio.",
+                "rationale": "Magnesio suave para el estómago (400 mg elementales sin efecto laxante) que apoya la acción normal de la insulina y alivia calambres y tensión."
+            },
+            {
+                "id": 17,
+                "serving": "2 cápsulas (300 mg)",
+                "usage": "Justo antes o durante las comidas principales. Separar al menos 4 horas de levotiroxina y no combinar con #29 ni #118 (ya contienen ácido alfa lipoico).",
+                "rationale": "Antioxidante que ayuda a aprovechar el azúcar en las células y protege manos y pies cuando hay hormigueo o sensación de ardor."
             }
         ],
         "lifestyleTips": [
-            "Priorizar alimentos ricos en fibra y reducir bebidas azucaradas.",
-            "Hacer ejercicio aeróbico y de fuerza de forma regular.",
-            "Caminar después de las comidas cuando sea posible.",
-            "No indicar ayuno intermitente automáticamente; debe individualizarse según medicamentos, embarazo, edad y antecedentes."
-        ]
+            "Empezar las comidas por verduras y proteína antes de comer tortillas, pan, arroz o pastas para evitar subidas bruscas de azúcar.",
+            "Caminar de 10 a 20 minutos después de las comidas principales y hacer ejercicio de fuerza 2 a 3 veces por semana.",
+            "Evitar refrescos, jugos colados y panadería diaria; priorizar agua natural y alimentos con fibra.",
+            "Dormir 7 a 8 horas y manejar el estrés; no iniciar ayunos largos sin supervisión médica si toma medicamentos o hay antecedentes clínicos."
+        ],
+        "safetyNote": "Elegir una sola opción principal para el azúcar (berberina, canela con cromo, inositol o AMP-ON), sin juntarlos por rutina ni duplicar cromo (#41, #45, #29) o ácido alfa lipoico (#29, #17). Si toma medicamentos para el azúcar, tiroides, estatinas para el colesterol o anticoagulantes, revisar la combinación con su médico."
     },
     {
         "id": "diabetes_tipo2",
-        "name": "Diabetes Tipo 2 (Apoyo Nutricional)",
+        "name": "Diabetes Tipo 2 - Apoyo Nutricional",
         "emoji": "🩺",
         "color": "orange",
-        "description": "La diabetes tipo 2 necesita control del azúcar en sangre y seguimiento médico. Los productos se valoran como opciones de apoyo nutricional según la necesidad de la persona, sin sumarlos todos ni cambiar sus medicamentos.",
+        "description": "En la diabetes tipo 2 el cuerpo necesita ayuda constante para mantener estable el azúcar en sangre. Ningún suplemento sustituye la alimentación, el movimiento ni las medicinas recetadas; se eligen con cuidado para evitar bajones peligrosos o cruces con medicamentos.",
         "symptoms": [
-            "Sed excesiva y boca seca",
-            "Micción frecuente, incluso por la noche",
-            "Fatiga marcada después de las comidas",
-            "Visión borrosa",
+            "Sed excesiva",
+            "Orinar con frecuencia",
+            "Cansancio después de comer",
+            "Visión borrosa ocasional",
             "Cicatrización lenta de heridas",
-            "Hormigueo u hormigueo en manos o pies"
+            "Hormigueo o entumecimiento en manos o pies"
         ],
         "comboPrincipal": [
             {
                 "id": 36,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Estimula la enzima AMPK hepática para disminuir la gluconeogénesis endógena y favorece la absorción periférica de glucosa en músculo esquelético, contribuyendo a niveles glucémicos más estables."
+                "serving": "2 cápsulas (1.01 g)",
+                "usage": "Repartir 1 antes o con el desayuno y 1 con la comida fuerte (iniciar con 1 cápsula si hay estómago sensible). Consultar antes si toma estatinas, pastillas para la presión, anticoagulantes o medicinas para diabetes (riesgo de bajón o cólicos con metformina).",
+                "rationale": "Apoya el control diario del azúcar en ayunas y después de comer al ayudar a que los músculos la usen mejor, y acompaña también el cuidado de colesterol y triglicéridos."
             },
             {
                 "id": 41,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Aporta picolinato de cromo biodisponible y polifenoles bioactivos de canela que refuerzan la eficacia biológica de la insulina, atenuando fluctuaciones bruscas de glucosa tras las comidas."
+                "serving": "2 cápsulas (2 g)",
+                "usage": "Con comidas principales. No juntar con #29 ni otros productos con cromo o hierro; separar 2 horas de levotiroxina o antibióticos y revisar el glucómetro.",
+                "rationale": "Combina canela, cromo y vitaminas B1, B2 y B12 para suavizar las subidas de azúcar después de comer y sostener la energía diaria."
             },
             {
                 "id": 52,
-                "serving": "4 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Optimiza las rutas metabólicas dependientes de inositol para la utilización celular de glucosa, favoreciendo una mayor sensibilidad periférica a la insulina en tejidos diana."
+                "serving": "4 cápsulas (2 g)",
+                "usage": "Con alimentos (pueden repartirse 2 y 2). Opción noble cuando la persona toma estatinas y prefiere evitar berberina; no juntar con #180.",
+                "rationale": "Ayuda a que las células aprovechen mejor el azúcar circulante, brindando un apoyo metabólico suave sin hierbas estimulantes."
             }
         ],
         "comboSecundario": [
             {
-                "id": 17,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Antioxidante de máxima penetración nerviosa que frena el ardor, piquetes y entumecimiento de la neuropatía diabética y mejora el uso periférico de azúcar."
-            },
-            {
                 "id": 123,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Aporte concentrado de EPA y DHA que reduce la hipertrigliceridemia metabólica y protege el endotelio vascular contra el daño aterogénico derivado de la glucemia elevada."
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Con el desayuno o comidas que contengan algo de grasa. Consultar indispensablemente al médico si toma anticoagulantes (warfarina) o aspirina diaria; no juntar con otro omega-3.",
+                "rationale": "Concentrado purificado de EPA y DHA (1,500 mg) para ayudar a bajar triglicéridos elevados y cuidar corazón y arterias ante el desgaste del azúcar alta."
             },
             {
                 "id": 103,
-                "serving": "15 ml",
-                "usage": "Tomar esta porción diluida en agua antes de una comida, según tolerancia.",
-                "rationale": "El ácido acético retrasa la velocidad de digestión de los almidones en el intestino delgado, moderando la liberación de glucosa hacia el torrente sanguíneo tras las comidas."
+                "serving": "15 ml (1 cucharada sopera)",
+                "usage": "Diluir siempre en 200-250 ml de agua y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis, úlcera o reflujo, vigilar si usa diuréticos y no juntar con #104.",
+                "rationale": "Su ácido natural vuelve más lenta la absorción de harinas y almidones, ayudando a suavizar los picos de azúcar después de comer."
+            },
+            {
+                "id": 104,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a #103; no usar ambos ni sumar con #41). Evitar en úlcera o reflujo y consultar si toma anticoagulantes.",
+                "rationale": "Alternativa en cápsulas sin sabor ácido para suavizar el impacto de comidas con harinas y aliviar la digestión pesada sin dañar el esmalte dental."
             },
             {
                 "id": 101,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Protege el endotelio capilar y la microvasculatura frente al daño oxidativo por productos de glicación avanzada, preservando la oxigenación celular y la salud cardiovascular."
+                "serving": "1 cápsula (415 mg)",
+                "usage": "Con comida que contenga grasa saludable. Muy útil si toma estatinas para el colesterol; consultar si usa warfarina o acenocumarol.",
+                "rationale": "Forma activa de CoQ10 que protege corazón y vasos sanguíneos y ayuda a recuperar energía muscular cuando se usan estatinas."
             },
             {
                 "id": 29,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.",
-                "rationale": "Combina activadores botánicos de AMPK y picolinato de cromo para facilitar la captación mitocondrial de azúcares, amortiguando la sobrecarga glucémica en ayunas y posprandial."
+                "serving": "2 cápsulas (1.2 g)",
+                "usage": "Con comidas principales, vigilando el azúcar con glucómetro. No juntar con #17 (ya trae ALA) ni con #41 (ya trae cromo); separar 2 horas de antibióticos.",
+                "rationale": "Reúne plantas metabólicas, cromo, ácido alfa lipoico y probióticos en una sola fórmula para apoyar el manejo de azúcares, grasas y digestión."
+            },
+            {
+                "id": 63,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes de la comida principal con un vaso lleno de agua (250 ml). Separar al menos 2 horas de metformina y cualquier medicina oral para no bloquear su absorción.",
+                "rationale": "Aporta fibra viscosa natural que forma un gel suave en el estómago y vuelve más lenta la entrada de azúcar a la sangre después de comer."
+            },
+            {
+                "id": 180,
+                "serving": "5 g al día (1 cucharadita)",
+                "usage": "Disolver en agua o bebida sin azúcar y tomar con una comida (envase de 50 g = 10 tomas). Alternativa en polvo a #52; no combinar entre sí.",
+                "rationale": "Inositol 100 % puro sin sabor para quienes prefieren bebida soluble para apoyar la respuesta a la insulina y moderar antojos dulces."
+            },
+            {
+                "id": 181,
+                "serving": "4 cápsulas al día",
+                "usage": "Con alimentos y agua (pueden repartirse en 2 tomas). Confirmar riñones sanos antes de usar y separar 2 horas de antibióticos, levotiroxina o bisfosfonatos.",
+                "rationale": "Magnesio suave que no suelta el estómago; ayuda a reponer este mineral, calmar calambres en piernas y sostener la energía diaria."
+            },
+            {
+                "id": 17,
+                "serving": "2 cápsulas (300 mg)",
+                "usage": "Con comidas principales y vigilando glucosa si usa insulina o pastillas. Separar 4 horas de levotiroxina y no usar junto con #29 ni #118.",
+                "rationale": "Antioxidante muy útil cuando hay ardor, piquetes o entumecimiento en pies y manos, además de apoyar el uso de azúcar en las células."
             }
         ],
         "lifestyleTips": [
-            "Priorizar alimentos de bajo índice glucémico y ricos en fibra.",
-            "Distribuir las comidas en porciones más pequeñas y frecuentes.",
-            "Realizar actividad física regular, especialmente caminar después de comer.",
-            "Dar seguimiento a los niveles de glucosa con supervisión médica."
-        ]
+            "Priorizar verduras, legumbres y proteína antes de tortillas, pan o arroz para aplanar las subidas de azúcar tras comer.",
+            "Caminar 10 a 15 minutos después de las comidas principales y mantener actividad física constante.",
+            "Si toma metformina por años y presenta cansancio o hormigueo en pies o manos, pedir al médico revisar niveles de vitamina B12 (valorar #225 o #4).",
+            "Llevar registro de glucosa en ayunas y 2 horas después de comer con glucómetro, y acudir a revisión periódica de pies, vista y riñones."
+        ],
+        "safetyNote": "Ningún suplemento sustituye metformina, insulina ni otras medicinas recetadas. Elegir una sola opción principal para el azúcar (sin juntar berberina, canela con cromo, inositol ni AMP-ON) y evitar repetir cromo o ácido alfa lipoico. Si usa insulina o sulfonilureas (como glibenclamida), consultar antes al médico y vigilar con glucómetro para prevenir bajones fuertes; recordar que la berberina puede subir el efecto de estatinas y pastillas para la presión."
     },
     {
         "id": "sobrepeso_metabolico",
         "name": "Sobrepeso y Síndrome Metabólico",
         "emoji": "⚖️",
         "color": "orange",
-        "description": "El exceso de grasa abdominal puede acompañarse de presión, azúcar o grasas en sangre elevadas. Los productos apoyan necesidades concretas dentro de un plan de alimentación, movimiento y seguimiento; no aseguran bajar de peso.",
+        "description": "Cuando se acumula grasa en la cintura junto con azúcar, presión o triglicéridos en el límite alto, el cuerpo se siente cansado y reteniendo peso. La base es priorizar proteína y verdura, caminar después de comer y elegir un apoyo seguro según su presión arterial.",
         "symptoms": [
             "Acumulación de grasa principalmente en el abdomen",
             "Fatiga después de comidas altas en carbohidratos",
@@ -1873,64 +1960,88 @@ window.manualData.padecimientos = [
         ],
         "comboPrincipal": [
             {
-                "id": 84,
-                "serving": "2 cápsulas (1.5 g)",
-                "usage": "Tomar esta porción antes del desayuno y repetir antes de la comida (4 cápsulas al día); seguir estrictamente la etiqueta y no combinar con otras fuentes concentradas de cafeína.",
-                "rationale": "La L-carnitina transporta ácidos grasos al interior mitocondrial para su oxidación energética, mientras el guaraná y la Garcinia activan el gasto termogénico y atenúan la lipogénesis."
+                "id": 41,
+                "serving": "2 cápsulas (2 g)",
+                "usage": "Con una comida que incluya carbohidratos. Vigilar azúcar si toma antidiabéticos; no juntar con #29 ni #45 y separar 2 horas de antibióticos o levotiroxina.",
+                "rationale": "La canela y el cromo ayudan a aprovechar mejor los carbohidratos de la comida para evitar bajones y antojos dulces, sumando vitaminas B1, B2 y B12 para sostener la energía."
             },
             {
-                "id": 41,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "El picolinato de cromo y la canela estabilizan la glucemia evitando alzas de insulina que promueven el almacenamiento de grasa abdominal y desatan apetito por carbohidratos."
+                "id": 84,
+                "serving": "2 cápsulas (1.5 g)",
+                "usage": "Antes del desayuno o la comida de mediodía (hasta 2 cápsulas por toma, nunca por la tarde o noche). NO usar si hay presión alta, problemas del corazón, embarazo o sensibilidad a la cafeína; no sumar a #165 ni #146.",
+                "rationale": "Mezcla energética intensa con guaraná, cafeína, L-carnitina y cayena para dar empuje al entrenar y apoyar el gasto calórico en adultos sanos sin problemas de presión."
             },
             {
                 "id": 165,
-                "serving": "1 sobre (2 g) por taza",
-                "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día por la mañana.",
-                "rationale": "Aporta galato de epigalocatequina (EGCG) que estimula la termogénesis y promueve la lipólisis en tejido adiposo visceral, apoyando la reducción del perímetro abdominal."
+                "serving": "1 sobre (2 g)",
+                "usage": "Infusionar en 200 ml de agua caliente (65 °C) por 3 a 5 minutos y tomar por la mañana, lejos de comidas ricas en hierro si hay anemia. Evitar sumarlo a cápsulas con cafeína (#84) o si toma anticoagulantes.",
+                "rationale": "Bebida tradicional ligera que sustituye refrescos o café cargado, aportando antioxidantes naturales del té verde y un toque suave de energía."
             }
         ],
         "comboSecundario": [
             {
+                "id": 29,
+                "serving": "2 cápsulas (1.2 g)",
+                "usage": "Justo antes o durante la comida principal. Alternativa sin cafeína a #84 y sin repetir cromo junto con #41; consultar si toma medicinas para diabetes y separar 2 horas de antibióticos.",
+                "rationale": "Fórmula sin cafeína añadida que reúne gynostemma, ácido alfa lipoico, cromo y probióticos para aprovechar mejor grasas y carbohidratos y cuidar el vientre."
+            },
+            {
                 "id": 95,
                 "serving": "1 cápsula (500 mg)",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Extractos botánicos termogénicos que frenan la lipogénesis y ayudan a calmar la ansiedad compulsiva por harinas y dulces."
+                "usage": "20 a 30 minutos antes de la comida principal con un vaso lleno de agua. Consultar si toma medicinas para azúcar, presión o diuréticos; no juntar con #74.",
+                "rationale": "Combina mango africano para ayudar a moderar las porciones con diente de león y pingüica para aliviar la hinchazón y líquidos retenidos, más BHB como apoyo ligero."
+            },
+            {
+                "id": 103,
+                "serving": "15 ml (1 cucharada sopera)",
+                "usage": "Diluir siempre en 200-250 ml de agua y tomar 20 minutos antes de comidas fuertes; nunca beber puro. Evitar en gastritis o úlcera; no juntar con #104.",
+                "rationale": "Opción sin estimulantes que ayuda a sentir saciedad antes de comer y vuelve más lenta la absorción de harinas y azúcares de la comida."
+            },
+            {
+                "id": 104,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa sin sabor ácido a #103; evitar en úlcera o con #41 por repetir canela). Consultar si toma anticoagulantes.",
+                "rationale": "Vinagre de manzana en cápsulas sin cafeína con cúrcuma, jengibre y canela para apoyar digestiones pesadas y moderar antojos tras comidas con harinas."
+            },
+            {
+                "id": 45,
+                "serving": "1 cápsula (400 mg)",
+                "usage": "Antes de comer o con el desayuno. Alternativa suave libre de estimulantes y sin hierro frente a #41; no combinar con #41 ni #29.",
+                "rationale": "Complemento ligero de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar el aprovechamiento diario de azúcares y sobrellevar antojos dulces."
+            },
+            {
+                "id": 215,
+                "serving": "Adultos no deportistas: 1 cápsula con cada comida; deportistas: 2 cápsulas con cada comida",
+                "usage": "Tomar con agua antes de entrenar o con comidas. Totalmente libre de cafeína, apta para personas con presión en el límite o que entrenan de tarde; consultar si toma levotiroxina.",
+                "rationale": "L-carnitina pura sin estimulantes para ayudar al cuerpo a usar grasas como energía al moverse o hacer ejercicio, sin provocar palpitaciones ni quitar el sueño."
             },
             {
                 "id": 25,
                 "serving": "10 g (2 cucharadas)",
-                "usage": "Tomar esta porción al día. En ayunas o con alimentos.",
-                "rationale": "Aporta proteína densa y ficocianina que inducen saciedad a nivel digestivo, aportando micronutrientes biodisponibles que sostienen el rendimiento metabólico sin aportar azúcares."
+                "usage": "Mezclar en agua o licuado sin azúcar por la mañana. Consultar antes si hay problemas de tiroides, ácido úrico alto (gota), o uso de anticoagulantes o inmunosupresores.",
+                "rationale": "Alga rica en proteína vegetal, hierro y clorofila sin azúcar que ayuda a quedar satisfecho en el desayuno y sostener la energía mientras se cuidan las porciones."
             },
             {
                 "id": 146,
-                "serving": "1 sobre (3 g) por taza",
-                "usage": "Preparar cada taza con 1 sobre (3 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día. Preferentemente por la noche.",
-                "rationale": "Infusión termogénica que acelera la combustión de grasas tras las comidas, favoreciendo la digestión ligera y el drenaje de líquidos."
-            },
-            {
-                "id": 29,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Estimula la vía de señalización AMPK a través de Gynostemma y cromo, favoreciendo la combustión de reservas grasas y frenando la síntesis lipídica hepática en síndrome metabólico."
+                "serving": "1 sobre (3 g)",
+                "usage": "Reposar en 200 ml de agua caliente 3 a 5 minutos, máximo 1 taza al día tomando mínimo 2 L de agua. Contiene té verde, rojo y blanco (cafeína): evitar en hipertensión sensible o si quita el sueño, y separar 2 horas de medicinas.",
+                "rationale": "Infusión con piña y linaza enfocada en facilitar la evacuación matutina y deshinchar el bajo vientre cuando hay digestión lenta."
             }
         ],
         "lifestyleTips": [
-            "Priorizar proteína en cada comida para mayor saciedad.",
-            "Reducir azúcares refinados y harinas procesadas.",
-            "Incorporar entrenamiento de fuerza para mejorar la composición corporal.",
-            "Dormir al menos 7-8 horas, ya que la falta de sueño altera el apetito y el metabolismo.",
-            "Ver también la guía \"Control de Peso\" para fórmulas comerciales adicionales (Demograss, Goji Trim, D Master, etc.)."
-        ]
+            "Incluir proteína en cada comida (huevo, pollo, pescado, frijoles o lentejas) con abundante verdura antes de pasar a harinas o tortillas.",
+            "Cambiar refrescos y jugos por agua simple; caminar 15 a 30 minutos después de la comida fuerte ayuda a usar mejor el azúcar y la grasa.",
+            "Sumar ejercicio de fuerza 2 a 3 veces por semana para proteger el músculo mientras baja la grasa abdominal.",
+            "Dormir de 7 a 8 horas: desvelarse abre el apetito por dulces al día siguiente y empeora el cansancio."
+        ],
+        "safetyNote": "Si hay presión alta, palpitaciones, problemas del corazón, azúcar en tratamiento o sensibilidad a la cafeína, evitar fórmulas con guaraná, cafeína o tés estimulantes (#84, #165, #146) y preferir opciones sin estimulantes (#215, #41, #29, #103, #104). No juntar Canela Cromo (#41), AMP-ON (#29) ni Chromium (#45) por repetir cromo; separar fibras y minerales 2 horas de medicinas."
     },
     {
         "id": "colesterol_trigliceridos",
         "name": "Colesterol y Triglicéridos Elevados",
         "emoji": "🫀",
         "color": "orange",
-        "description": "El colesterol y los triglicéridos son grasas de la sangre que se revisan con análisis. El apoyo se elige según cuál esté elevado, junto con alimentación, actividad física y el tratamiento indicado.",
+        "description": "Cuando suben el colesterol o los triglicéridos en sangre, arterias e hígado se sobrecargan poco a poco sin dar molestias al inicio. Antes de elegir un suplemento conviene revisar los análisis y confirmar si la persona toma estatinas o anticoagulantes.",
         "symptoms": [
             "Generalmente no presenta síntomas y se detecta en análisis de sangre",
             "Fatiga o pesadez, especialmente en casos con hígado graso asociado",
@@ -1940,61 +2051,74 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 123,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Dosis concentrada de EPA y DHA que disminuye la síntesis hepática de lipoproteínas VLDL y estimula el aclaramiento de triglicéridos plasmáticos, mejorando la elasticidad vascular arterial."
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Con un desayuno o comida que contenga grasas saludables. Consultar indispensablemente al médico si toma anticoagulantes (warfarina) o aspirina diaria; evitar en alergia al pescado y no juntar con #120.",
+                "rationale": "Aporta 1,500 mg diarios de EPA y DHA purificados sin sabor a pescado para ayudar a bajar triglicéridos elevados y cuidar el corazón y la circulación."
             },
             {
                 "id": 23,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Concentrado en S-alil-cisteína bioactiva que modula la biosíntesis hepática de colesterol y previene la oxidación de partículas LDL, reduciendo el riesgo de depósitos ateromatosos."
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Con alimentos. Consultar antes si usa anticoagulantes, aspirina, pastillas para la presión o diabetes; suspender 10 a 14 días antes de cirugías.",
+                "rationale": "Ajo madurado sin olor ni agruras que ayuda a cuidar el equilibrio del colesterol y proteger la circulación y la presión arterial de forma suave."
+            },
+            {
+                "id": 101,
+                "serving": "1 cápsula (415 mg)",
+                "usage": "Con una comida que contenga algo de grasa (huevo o aguacate). Ideal si toma estatinas o tiene más de 45 años; consultar si usa warfarina y elegir entre esta o #136 (no ambas).",
+                "rationale": "Forma activa de CoQ10 lista para usarse; repone la energía celular que bajan las estatinas y ayuda a aliviar el cansancio y dolor muscular mientras cuida el corazón."
             }
         ],
         "comboSecundario": [
             {
-                "id": 101,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos que contengan grasas. Especialmente recomendado si se toman estatinas.",
-                "rationale": "Forma reducida y activa de CoQ10 que repone los depósitos mitocondriales depletados por fármacos hipolipemiantes, aliviando la fatiga muscular y apoyando la fuerza contráctil miocárdica."
-            },
-            {
                 "id": 136,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Restaura los niveles de coenzima Q10 en tejido muscular esquelético y cardíaco, contrarrestando la mialgia por medicamentos reguladores de lípidos y protegiendo contra la oxidación celular."
-            },
-            {
-                "id": 115,
-                "serving": "20 gotas",
-                "usage": "Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, con revisión médica y seguimiento del perfil de lípidos.",
-                "rationale": "Gotas herbales tradicionales para descongestionar el hígado, activar el flujo biliar y fluidificar grasas espesas y triglicéridos en sangre."
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con una comida que incluya algo de grasa saludable. Alternativa más accesible frente a Ubiquinol (#101, no tomar juntos); consultar si usa warfarina o medicinas para la presión.",
+                "rationale": "Aporta 120 mg de coenzima Q10 con vitamina B6 para cuidar la energía del corazón y aliviar la debilidad muscular cotidiana."
             },
             {
                 "id": 145,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Emulsiona las partículas lipídicas en el torrente sanguíneo y aporta colina para el transporte hepático de grasas, facilitando la movilización del colesterol y protegiendo contra hígado graso."
+                "serving": "2 cápsulas (1.3 g)",
+                "usage": "Con el desayuno o la comida principal. Evitar en alergia a la soya; consultar si toma anticoagulantes.",
+                "rationale": "La lecitina de soya y la colina ayudan a disolver y mover las grasas para que no se acumulen en el hígado ni en la sangre, útil cuando también hay hígado graso."
+            },
+            {
+                "id": 148,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Antes o junto con comidas y un vaso grande de agua. Evitar en embarazo o lactancia; consultar si hay enfermedad renal, presión baja, diabetes o uso de diuréticos. Elegir esta o Yumel (#115), no ambas.",
+                "rationale": "Planta mexicana tradicional en cápsulas (sin sabor amargo) para ayudar a bajar colesterol y triglicéridos en sangre y mantener ligera la bilis de la vesícula."
             },
             {
                 "id": 36,
-                "serving": "1 cápsula (500 mg)",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Aumenta la expresión y estabilidad de los receptores hepáticos de LDL mediante la inhibición de PCSK9, promoviendo la captación y eliminación activa del colesterol sanguíneo circulante."
+                "serving": "2 cápsulas (1.01 g)",
+                "usage": "Con alimentos (puede iniciarse con 1 cápsula para probar tolerancia). NO combinar con estatinas ni ciclosporina sin permiso médico; vigilar azúcar si toma antidiabéticos y evitar en embarazo, lactancia o daño hepático/renal.",
+                "rationale": "Extracto vegetal que ayuda al hígado a limpiar grasas y mejora el aprovechamiento del azúcar; buena opción para quien no toma estatinas y tiene ambos valores altos."
             },
             {
                 "id": 29,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Activa la quinasa AMPK hepática mediante polifenoles de Gynostemma y cromo, acelerando la beta-oxidación de ácidos grasos y disminuyendo la producción de triglicéridos endógenos."
+                "serving": "2 cápsulas (1.2 g)",
+                "usage": "Antes o durante la comida principal. Consultar si toma medicinas para diabetes, no sumar con #36 ni cromo extra, y separar 2 horas de antibióticos.",
+                "rationale": "Apoyo sin cafeína útil cuando los triglicéridos suben por exceso de harinas, azúcar o grasa abdominal, ayudando a aprovechar mejor energía y grasas."
+            },
+            {
+                "id": 120,
+                "serving": "3 softgels (3.6 g)",
+                "usage": "Con el desayuno o comida principal. Alternativa de mayor concentración frente a #123 (no juntar ambos). Consultar al médico si toma anticoagulantes, aspirina o tendrá cirugía.",
+                "rationale": "La opción más concentrada en Omega-3 del catálogo (1,800 mg de EPA y DHA más vitamina E), pensada cuando los análisis muestran triglicéridos muy altos."
+            },
+            {
+                "id": 115,
+                "serving": "20 gotas en ¼ de vaso con agua",
+                "usage": "Tomar diluido en agua 3 veces al día antes de comer, por periodo definido y seguimiento. NO usar en enfermedad del hígado, obstrucción biliar, embarazo, búsqueda de embarazo, lactancia ni <15 años; consultar si toma estatinas o fibratos.",
+                "rationale": "Gotas herbales tradicionales enfocadas en hacer más ligera la bilis espesa de la vesícula y apoyar el manejo de grasas tras comidas pesadas."
             }
         ],
         "lifestyleTips": [
-            "Reducir el consumo de grasas trans y azúcares refinados.",
-            "Aumentar el consumo de fibra soluble (avena, leguminosas, chía).",
-            "Realizar ejercicio cardiovascular de forma regular.",
-            "Dar seguimiento con análisis de sangre periódicos."
-        ]
+            "Para bajar triglicéridos, lo más efectivo es reducir refrescos, jugos, alcohol, pan dulce y harinas refinadas.",
+            "Para cuidar el colesterol malo (LDL), cambiar frituras, manteca y embutidos por aceite de oliva, aguacate, nueces y pescado.",
+            "Comer fibra soluble todos los días (avena, frijoles, lentejas, chía, manzana y verduras) ayuda a arrastrar grasas en el intestino.",
+            "Caminar a paso firme casi todos los días y repetir análisis de control con el médico sin suspender las medicinas recetadas."
+        ],
+        "safetyNote": "Revisar medicinas y análisis antes de recomendar: si toma estatinas, NO sumar Berberina (#36) ni Yumel (#115) sin autorización de su médico; en quienes usan estatinas suelen elegirse Ubiquinol (#101) o CoQ10 (#136) y Omega-3 (#123 o #120). Elegir una sola opción de cada grupo (un solo Omega-3, un solo CoQ10/Ubiquinol y una sola planta biliar) y consultar si toma anticoagulantes o aspirina."
     },
     {
         "id": "fatiga_cronica",
@@ -2023,7 +2147,7 @@ window.manualData.padecimientos = [
             },
             {
                 "id": 92,
-                "serving": "2-4 cápsulas",
+                "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Aporta magnesio ligado a ácido málico, sustrato directo para la producción mitocondrial de energía en el ciclo del ácido cítrico, aliviando la fatiga profunda, los espasmos por sobrecarga y el dolor muscular crónico."
             }
@@ -2411,6 +2535,12 @@ window.manualData.padecimientos = [
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Aporta vitamina B6, zinc y magnesio requeridos para la síntesis de progesterona y neurotransmisores, aliviando la labilidad emocional y la fatiga del síndrome premenstrual."
+            },
+            {
+                "id": 79,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa de dosis suave frente a #52 (4 cápsulas); no combinar entre sí.",
+                "rationale": "Opción práctica de 1 cápsula diaria de myo-inositol puro (500 mg) para acompañar el equilibrio ovárico y del ciclo sin preparar bebidas."
             }
         ],
         "lifestyleTips": [
@@ -3512,16 +3642,16 @@ window.manualData.padecimientos = [
         ],
         "comboPrincipal": [
             {
+                "id": 5,
+                "serving": "3 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "Aporta vitaminas neurotróficas B1, B6 y B12 que aceleran la regeneración de la vaina de mielina y restauran la conducción nerviosa sensorial, mitigando el entumecimiento, piquetes y dolores punzantes en extremidades."
+            },
+            {
                 "id": 17,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción diariamente, con alimentos.",
                 "rationale": "Antioxidante mitocondrial que mejora el flujo sanguíneo endoneural y frena el estrés oxidativo por glucosilación en las fibras nerviosas, reduciendo notablemente las sensaciones de ardor, quemazón y adormecimiento en manos y pies."
-            },
-            {
-                "id": 5,
-                "serving": "2 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Aporta vitaminas neurotróficas B1, B6 y B12 que aceleran la regeneración de la vaina de mielina y restauran la conducción nerviosa sensorial, mitigando el entumecimiento, piquetes y dolores punzantes en extremidades."
             },
             {
                 "id": 120,
@@ -3538,12 +3668,6 @@ window.manualData.padecimientos = [
                 "rationale": "El magnesio actúa bloqueando los canales de calcio dependientes de voltaje en las terminales nerviosas hiperexcitadas, disminuyendo las descargas ectópicas que causan calambres dolorosos, fasciculaciones y espasmos en las piernas."
             },
             {
-                "id": 12,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción dos veces al día. Con alimentos que contengan grasas.",
-                "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
-            },
-            {
                 "id": 98,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción diarias. Con alimentos.",
@@ -3554,6 +3678,12 @@ window.manualData.padecimientos = [
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
                 "rationale": "Restaura la función bioenergética mitocondrial en las células de Schwann que envuelven los nervios y neutraliza los radicales libres endoteliales, mejorando la microcirculación tisular distal en pies y pantorrillas."
+            },
+            {
+                "id": 12,
+                "serving": "1 cápsula",
+                "usage": "Tomar esta porción dos veces al día. Con alimentos que contengan grasas.",
+                "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
             }
         ],
         "lifestyleTips": [
@@ -3722,16 +3852,16 @@ window.manualData.padecimientos = [
                 "rationale": "Regula la actividad de las glándulas sebáceas disminuyendo la sobreproducción de sebo, además de inhibir el crecimiento bacteriano y calmar pápulas y pústulas inflamatorias."
             },
             {
-                "id": 48,
-                "serving": "15 ml",
-                "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Clorofila concentrada con menta que oxigena y purifica el organismo desde adentro, facilitando la eliminación de toxinas que provocan brotes en la piel."
-            },
-            {
                 "id": 129,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Restaura el equilibrio de la microbiota colónica, reduciendo la translocación de endotoxinas y la inflamación de bajo grado que estimula la obstrucción y supuración de los folículos pilosebáceos."
+            },
+            {
+                "id": 48,
+                "serving": "15 ml",
+                "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
+                "rationale": "Clorofila concentrada con menta que oxigena y purifica el organismo desde adentro, facilitando la eliminación de toxinas que provocan brotes en la piel."
             }
         ],
         "comboSecundario": [
@@ -3742,16 +3872,22 @@ window.manualData.padecimientos = [
                 "rationale": "Mejora la sensibilidad periférica a la insulina y equilibra los niveles de andrógenos libres, reduciendo el estímulo hormonal sobre los folículos pilosebáceos en brotes de acné hormonal."
             },
             {
+                "id": 26,
+                "serving": "3 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "Aporta ficocianina, clorofila y oligoelementos que neutralizan toxinas metabólicas y modulan la inflamación celular, favoreciendo una oxigenación óptima y una regeneración epidérmica saludable."
+            },
+            {
                 "id": 43,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Cardo mariano concentrado que depura el hígado graso y sobrecargado, descongestionando los conductos biliares para una piel limpia y sin impurezas."
             },
             {
-                "id": 26,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Aporta ficocianina, clorofila y oligoelementos que neutralizan toxinas metabólicas y modulan la inflamación celular, favoreciendo una oxigenación óptima y una regeneración epidérmica saludable."
+                "id": 264,
+                "serving": "1 cápsula al día",
+                "usage": "Por la mañana o mediodía con comida y un vaso lleno de agua. Consultar en embarazo, lactancia o problemas renales; separar 2 horas de antibióticos.",
+                "rationale": "Aporta 500 mg de vitamina B5 (pantotenato de calcio) para apoyar la transformación de nutrientes y el equilibrio de la piel con tendencia grasa o brotes."
             }
         ],
         "lifestyleTips": [
@@ -3783,8 +3919,8 @@ window.manualData.padecimientos = [
             },
             {
                 "id": 36,
-                "serving": "1 cápsula (500 mg)",
-                "usage": "Tomar esta porción una vez al día con alimentos, según la ficha técnica.",
+                "serving": "2 cápsulas (1.01 g)",
+                "usage": "Con alimentos (puede iniciarse con 1 cápsula los primeros días); no juntar con inositoles sin pauta médica y revisar estatinas o medicinas para el azúcar.",
                 "rationale": "Activa la vía AMPK mitigando la hiperinsulinemia compensatoria, lo que frena el estímulo ovárico para producir exceso de testosterona y reduce acné e hirsutismo."
             },
             {
@@ -3812,6 +3948,12 @@ window.manualData.padecimientos = [
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Equilibra el microbioma intestinal para sellar la barrera entérica y frenar la endotoxemia inflamatoria, mejorando la sensibilidad a la insulina y la salud cutánea en SOP."
+            },
+            {
+                "id": 79,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con alimentos (pese al nombre «Powder», viene en cápsulas). Opción suave de mantenimiento frente a #53; no tomar ambos al mismo tiempo.",
+                "rationale": "Aporta 500 mg de myo-inositol puro en una cápsula diaria práctica para acompañar el cuidado hormonal y de antojos cuando ya pasó la etapa inicial."
             }
         ],
         "lifestyleTips": [
@@ -3982,21 +4124,21 @@ window.manualData.padecimientos = [
             },
             {
                 "id": 4,
-                "serving": "2 cápsulas",
+                "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la mañana. Con alimentos.",
                 "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en catecolaminas y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
-            },
-            {
-                "id": 120,
-                "serving": "1-2 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
                 "rationale": "Optimiza la respiración mitocondrial celular en las áreas corticales de mayor consumo energético, previniendo el agotamiento cognitivo rápido y facilitando el rendimiento académico o laboral prolongado."
+            },
+            {
+                "id": 120,
+                "serving": "1-2 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
+                "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
             }
         ],
         "lifestyleTips": [
@@ -4140,7 +4282,7 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 181,
-                "serving": "2 cápsulas",
+                "serving": "4 cápsulas al día",
                 "usage": "Tomar esta porción al día con alimentos.",
                 "rationale": "El bisglicinato de magnesio actúa como modulador alostérico fisiológico de los receptores NMDA, limitando la entrada excesiva de calcio en las neuronas y ayudando a estabilizar el umbral de excitabilidad eléctrica cerebral."
             },
@@ -4160,7 +4302,7 @@ window.manualData.padecimientos = [
         "comboSecundario": [
             {
                 "id": 4,
-                "serving": "2 cápsulas",
+                "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la mañana. Con alimentos.",
                 "rationale": "La piridoxina (B6) es el cofactor crítico de la enzima ácido glutámico descarboxilasa que convierte el glutamato excitatorio en GABA inhibitorio, contribuyendo a la estabilidad eléctrica de la corteza cerebral."
             },
@@ -4200,8 +4342,14 @@ window.manualData.padecimientos = [
         ],
         "comboPrincipal": [
             {
+                "id": 26,
+                "serving": "3 cápsulas",
+                "usage": "Tomar esta porción al día. Con alimentos.",
+                "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
+            },
+            {
                 "id": 225,
-                "serving": "1 tableta",
+                "serving": "1 pastilla al día",
                 "usage": "Tomar esta porción sublingual al día. Puede tomarse en cualquier momento del día.",
                 "rationale": "Aporta tres formas sinérgicas de vitamina B12 esenciales para la maduración y división adecuada de los glóbulos rojos en médula ósea, previniendo la eritropoyesis ineficaz y combatiendo la debilidad y astenia."
             },
@@ -4210,32 +4358,26 @@ window.manualData.padecimientos = [
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día junto con la comida principal.",
                 "rationale": "Reduce el hierro férrico no hemo a su forma ferrosa altamente soluble, multiplicando su absorción en el duodeno y acelerando la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga física."
-            },
-            {
-                "id": 26,
-                "serving": "3 cápsulas",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
             }
         ],
         "comboSecundario": [
             {
                 "id": 4,
-                "serving": "2 cápsulas",
+                "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
                 "rationale": "Aporta ácido fólico y cobalamina cofactores clave en la síntesis de ADN eritroblástico, asegurando la adecuada diferenciación celular y la formación de hematíes con tamaño y concentración de hemoglobina óptimos."
-            },
-            {
-                "id": 205,
-                "serving": "2 tabletas",
-                "usage": "Tomar esta porción al día. Antes de cada comida.",
-                "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día solo si existe deficiencia o indicación profesional. Con alimentos.",
                 "rationale": "Cofactor enzimático fundamental que participa en la síntesis de las cadenas de globina y estabiliza la membrana del eritrocito, favoreciendo su correcta maduración y restaurando la resistencia muscular."
+            },
+            {
+                "id": 205,
+                "serving": "2 tabletas",
+                "usage": "Tomar esta porción al día. Antes de cada comida.",
+                "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
             }
         ],
         "lifestyleTips": [
@@ -4371,7 +4513,7 @@ window.manualData.padecimientos = [
         "name": "Control de Peso",
         "emoji": "⚖️",
         "color": "orange",
-        "description": "Esta guía reúne opciones para acompañar un plan de control de peso. La elección depende de la alimentación, la actividad, los medicamentos y el objetivo; ninguna fórmula asegura bajar de peso por sí sola.",
+        "description": "Bajar de peso con cuidado significa ordenar apetito, digestión y energía sin forzar el corazón ni perder líquidos o músculo. Conviene elegir una sola fórmula según la necesidad principal, evitando estimulantes o raíz de tejocote si hay presión alta.",
         "symptoms": [
             "Dificultad para bajar de peso con dieta y ejercicio",
             "Retención de líquidos",
@@ -4381,55 +4523,81 @@ window.manualData.padecimientos = [
         "comboPrincipal": [
             {
                 "id": 132,
-                "serving": "1 cápsula (750 mg)",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Combina té verde, carnitina y extractos botánicos que promueven la beta-oxidación de grasas mientras enzimas digestivas alivian la fermentación intestinal y la hinchazón abdominal."
+                "serving": "1 cápsula (750 mg; etiqueta indica 600 mg)",
+                "usage": "20 a 30 minutos antes del desayuno o la comida con un vaso de agua; evitar tarde o noche por el té verde. Consultar si hay presión alta, diabetes, problemas de vesícula/hígado o embarazo.",
+                "rationale": "Fórmula 11 en 1 para acompañar un plan de medidas: reúne té verde, acetil L-carnitina y cromo para la energía y antojos, con alcachofa, vinagre, papaína y ciruela para una digestión ligera."
             },
             {
-                "id": 59,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Mezcla depurativa botánica que descongestiona el colon, elimina retención de líquidos en vientre y facilita una cintura más plana y liviana."
-            },
-            {
-                "id": 199,
-                "serving": "1-2 cápsulas",
-                "usage": "Tomar esta porción al día. Después de las comidas. Preferentemente por la mañana.",
-                "rationale": "Extractos de gayuba, jamaica y té verde que activan la diuresis fisiológica de líquidos acumulados, desinflando el bajo vientre y aportando antioxidantes que dinamizan el gasto calórico."
+                "id": 75,
+                "serving": "1 cápsula al día",
+                "usage": "Con alimentos y un vaso grande de agua. Libre de cafeína y naranjo amargo. Contiene soya; separar 2 horas de medicinas y consultar si toma anticoagulantes.",
+                "rationale": "Opción Zennatura sin estimulantes que une mango africano y bayas de goji para ayudar a controlar porciones y antojos con enzimas de piña y papaya y linaza para mantener ligero el vientre."
             }
         ],
         "comboSecundario": [
             {
-                "id": 196,
-                "serving": "1 cápsula",
-                "usage": "Tomar esta porción al día. En ayunas.",
-                "rationale": "Termogénico botánico con café verde y té verde que estimula el gasto calórico diario, drena líquidos y frena el apetito descontrolado."
-            },
-            {
-                "id": 56,
+                "id": 74,
                 "serving": "1 cápsula (500 mg)",
-                "usage": "Tomar esta porción al día. En ayunas.",
-                "rationale": "Extractos botánicos saciantes que prolongan la sensación de plenitud estomacal y ayudan a evitar atracones entre comidas."
+                "usage": "Con el desayuno o comida del mediodía y agua. Libre de cafeína añadida; consultar si toma anticoagulantes (warfarina), antihipertensivos o antidiabéticos, y no juntar con #95.",
+                "rationale": "Cápsula práctica con bayas de goji antioxidantes, pingüica y diente de león para aliviar retención de líquidos, más ácido clorogénico y sales BHB como apoyo ligero en dietas bajas en harinas."
             },
             {
-                "id": 76,
-                "serving": "1 tableta (300 mg)",
-                "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Aporte de fibras mucilaginosas de ciruela y sábila que reactivan el peristaltismo colónico con suavidad, evacuando residuos acumulados y reduciendo la distensión del abdomen."
+                "id": 114,
+                "serving": "1 cápsula (450 mg)",
+                "usage": "20 a 30 minutos antes del desayuno o con alimento y agua. Contiene raíz de tejocote: NO usar en embarazo, lactancia, menores de 18, problemas del corazón o presión descontrolada, y no juntar con #37 ni #266.",
+                "rationale": "Reúne espirulina, fibra de nopal y piña, raíz de tejocote y vitaminas A y C para apoyar el tránsito digestivo y el cuidado nutricional al reducir porciones."
             },
             {
                 "id": 42,
                 "serving": "1 cápsula (500 mg)",
-                "usage": "Tomar esta porción al día. Antes de las comidas.",
-                "rationale": "Extracto botánico que actúa sobre el centro cerebral del apetito, apagando el hambre por ansiedad y facilitando el déficit calórico."
+                "usage": "20 a 30 minutos antes de la comida principal con un vaso lleno de agua. Libre de cafeína y laxantes; consultar en embarazo, lactancia o uso de antidiabéticos.",
+                "rationale": "Extracto vegetal puro de Caralluma fimbriata sin estimulantes para ayudar a calmar la ansiedad por picar entre comidas y respetar mejor las porciones sin quitar el sueño."
+            },
+            {
+                "id": 76,
+                "serving": "1 tableta (300 mg)",
+                "usage": "Con alimentos y un vaso lleno de agua (beber abundante agua en el día). Separar 2 horas de cualquier medicamento y no juntar con Demograss, Piñalim ni otros laxantes.",
+                "rationale": "Mezcla suave de frutas (ciruela pasa, tamarindo, manzana, papaya) y sábila para ablandar las evacuaciones en personas con estreñimiento ocasional y sensación de vientre pesado."
+            },
+            {
+                "id": 200,
+                "serving": "1 cápsula al día",
+                "usage": "Con un vaso lleno de agua por la mañana o noche (evitar noche si es sensible al té verde). Separar 2 horas de medicinas y no juntar con #56, #76 ni #146.",
+                "rationale": "Fórmula de 30 días con linaza, nopal, sábila, malva, fibra de piña y té verde para facilitar la digestión lenta y aliviar el abdomen abultado."
+            },
+            {
+                "id": 56,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "En ayunas con un vaso lleno de agua y tomando mínimo 2 L de agua al día. Contiene guaraná (cafeína) y aloe: evitar en hipertensión, cardiopatía o embarazo; separar 2 horas de medicinas y no sumar otros laxantes.",
+                "rationale": "Combina fibras de lino y nopal con aloe y bromelina para mover el intestino lento, junto con guaraná y alisma para dar empuje matutino y drenar líquidos."
+            },
+            {
+                "id": 196,
+                "serving": "1 cápsula al día",
+                "usage": "En ayunas con agua (o con el primer bocado si la cayena irrita el estómago). Contraindicado en presión alta, arritmias, corazón, úlcera, riñón/hígado, <18 años y embarazo; NUNCA mezclar con café, té verde ni otros estimulantes.",
+                "rationale": "Fórmula intensa con naranjo amargo (sinefrina) y cayena acompañada de maitake, moringa, cúrcuma e inulina, enfocada solo en adultos sanos sin problemas de presión."
+            },
+            {
+                "id": 37,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "20 a 30 minutos antes del desayuno con abundante agua. IMPORTANTE: contiene toronja, raíz de tejocote y café verde; evitar si toma medicamentos crónicos, en cardiopatía, presión alta o embarazo, y no juntar con #114.",
+                "rationale": "Mezcla con L-carnitina, café verde, nopal, piña, alcachofa, apio, toronja y tejocote pensada para adultos sanos sin medicinas diarias que buscan apoyo depurativo y metabólico."
+            },
+            {
+                "id": 59,
+                "serving": "1 cápsula",
+                "usage": "Antes o con la comida (envase de 15 días). IMPORTANTE: contiene toronja y hojas de té; NO usar si toma medicamentos diarios (estatinas, presión alta, sedantes) sin permiso médico.",
+                "rationale": "Cápsulas ligeras con papaya, malva, jengibre, espirulina y toronja para apoyar digestiones pesadas en personas sanas que no toman medicinas diarias."
             }
         ],
         "lifestyleTips": [
-            "Estas fórmulas son un apoyo complementario; el resultado depende principalmente de la dieta y actividad física.",
-            "No combinar varias fórmulas laxantes/depurativas al mismo tiempo para evitar molestias digestivas.",
-            "Otras variantes disponibles en tienda: DEMOGRASS PLUS, DEMOGRASS LX+, GOJI TRIM, GOJIZEN MAX, SUKUNAI KIROS MAX, PIÑALINAZA, DYNEEM, BPASS, XIMO, TÉ PIÑALIM / TÉ PIÑALIM PLUS y CAFÉ CON MORINGA.",
-            "Si hay alguna condición médica (hipertensión, diabetes, embarazo), consultar antes de usar fórmulas termogénicas o diuréticas."
-        ]
+            "Ninguna cápsula o té sustituye el orden del plato y el movimiento diario: empezar por proteína y verduras en cada comida ayuda más que sumar productos.",
+            "Elegir una sola fórmula a la vez; juntar varios productos depurativos, tés o laxantes provoca cólicos, deshidratación y pérdida de sales.",
+            "Con fórmulas que llevan fibra o sábila (Gojizen Max, Demograss, Green LX, D Master, Piñalim, Piñalinaza), beber mínimo 2 litros de agua al día y separar 2 horas de cualquier medicina.",
+            "Si hay presión alta, palpitaciones o insomnio, evitar naranjo amargo, guaraná o tés concentrados y elegir opciones sin estimulantes (#75 Gojizen Max, #42 Cara Lluma, #74 Goji, #215 L-Carnitina pura o #235 Nopal Prosa).",
+            "Otras opciones en tienda según el perfil: Goji Trim y Sukunai Kiros Max (sin cafeína, con fibra y saciedad), Demograss Plus/LX+, Té Piñalim/Plus, Piñalinaza (evitar con medicinas por traer toronja) y Tlanchalagua Prosa (evitar en presión, riñón o corazón)."
+        ],
+        "safetyNote": "Elegir máximo UNA fórmula comercial según la necesidad (apetito, digestión o energía); nunca combinar entre sí fórmulas con cafeína o naranjo amargo (#132, #196, #56, #200) ni varios laxantes o diuréticos (#56, #76, #114, #37). Si hay presión alta, problemas del corazón, diabetes, tiroides, embarazo, lactancia o medicinas diarias, evitar naranjo amargo/sinefrina, guaraná, toronja o tejocote y elegir opciones sin estimulantes (#75, #42, #74)."
     },
     {
         "id": "piel_antienvejecimiento",
@@ -4570,61 +4738,77 @@ window.manualData.padecimientos = [
         "name": "Deficiencia de Magnesio (Evaluación y Apoyo)",
         "emoji": "🧩",
         "color": "orange",
-        "description": "El magnesio ayuda al trabajo de los músculos, los nervios y al uso de la energía. Si falta, se revisan la causa y la cantidad que aporta cada fórmula; cansancio o calambres por sí solos no confirman esa falta.",
+        "description": "La falta de magnesio suele notarse como calambres en las piernas, músculos tensos, cansancio o sueño inquieto. Cada sal aporta distinta cantidad real del mineral puro (magnesio elemental): se elige una sola presentación según la hora del día y tolerancia del estómago.",
         "symptomsTitle": "Datos para valorar la posible deficiencia:",
         "symptoms": [
-            "Pérdidas digestivas prolongadas o problemas de absorción",
-            "Uso prolongado de diuréticos o inhibidores de la bomba de protones",
-            "Ingesta muy baja o alimentación restrictiva",
-            "Debilidad, hormigueo o contracciones musculares persistentes",
-            "Alteraciones de potasio o calcio detectadas en análisis"
+            "Calambres musculares frecuentes (sobre todo nocturnos)",
+            "Temblores leves en párpados o músculos",
+            "Fatiga persistente, debilidad o tensión en cuello y hombros",
+            "Sueño inquieto o dificultad para relajarse"
         ],
         "comboPrincipal": [
             {
                 "id": 92,
                 "serving": "2 cápsulas",
-                "usage": "Tomar con alimentos solo si la valoración indica suplementación; contabilizar 200 mg de magnesio elemental y revisar otros productos con magnesio.",
-                "rationale": "El magnesio quelado con ácido málico interviene directamente en la regeneración de ATP en los miocitos, resolviendo eficazmente calambres, rigidez muscular y agotamiento físico."
+                "usage": "Por la mañana o al mediodía con alimentos (aporta 200 mg de magnesio elemental y 2 mg de B6). No juntar con complejo B extra ni otros magnesios sin indicación; separar 2 horas de antibióticos, levotiroxina y bisfosfonatos.",
+                "rationale": "Opción de día (AM): combina malato de magnesio (200 mg elementales) con vitamina B6 P-5-P y avena para aliviar cansancio físico, rigidez y calambres sin soltar el estómago."
+            },
+            {
+                "id": 93,
+                "serving": "4 cápsulas (2.4 g)",
+                "usage": "Con el desayuno o comida del mediodía y un vaso de agua (no es estimulante). Confirmar en la etiqueta física el magnesio elemental real y separar 2 horas de antibióticos y bisfosfonatos.",
+                "rationale": "Opción de día (AM) sin cafeína: reúne citrato y bisglicinato de magnesio con vitamina B6 e inulina para acompañar el trabajo muscular y el aprovechamiento diario de la energía."
+            },
+            {
+                "id": 181,
+                "serving": "4 cápsulas al día",
+                "usage": "Con la cena o alimentos solo si un profesional indica esta porción completa (400 mg de magnesio elemental), confirmando riñones sanos. Evitar en embarazo, lactancia o <18 años sin médico y separar 2 horas de antibióticos o bisfosfonatos.",
+                "rationale": "Opción de noche o estómago sensible: bisglicinato de magnesio con 400 mg elementales por porción que da un aporte completo para calambres, tensión y descanso sin causar diarrea."
             },
             {
                 "id": 50,
-                "serving": "2 cápsulas",
-                "usage": "Tomar con alimentos solo si se confirma que esta presentación es adecuada; revisar la etiqueta física antes de usarla.",
-                "rationale": "Sal de magnesio de rápida disociación iónica que restituye los niveles plasmáticos del mineral, disminuyendo la hiperexcitabilidad neuromuscular, espasmos musculares y tics nerviosos."
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Con alimentos que contengan algo de grasa. Confirmar en la etiqueta física la cantidad real de magnesio elemental y vitamina D (la ficha trae un probable error de unidad) y separar 2 horas de antibióticos o bisfosfonatos.",
+                "rationale": "Opción tradicional de cloruro de magnesio en cápsulas para evitar el sabor amargo del polvo; ayuda a relajar músculos tensos, calmar calambres y acompañar el cuidado articular."
             }
         ],
         "comboSecundario": [
             {
                 "id": 91,
-                "serving": "1 cápsula",
-                "usage": "Tomar con alimentos solo después de confirmar en la etiqueta cuánto magnesio elemental aporta.",
-                "rationale": "Fórmula de triple sal (citrato, gluconato y óxido) diseñada para absorción segmentaria a lo largo del intestino, recargando las reservas celulares y relajando el sistema neuromuscular."
+                "serving": "1 cápsula (aprox. 500 mg)",
+                "usage": "Con alimentos, confirmando en la etiqueta física cuánto magnesio elemental aporta (450 mg es el peso de las 3 sales). Separar 2 horas de antibióticos y bisfosfonatos.",
+                "rationale": "Opción práctica y rendidora de mantenimiento diario en 1 cápsula (citrato, gluconato y óxido) para complementar la alimentación cuando solo falta un aporte ligero."
             },
             {
                 "id": 227,
-                "serving": "1 cápsula",
-                "usage": "Tomar con alimentos según la ficha, siempre que el profesional confirme el aporte elemental y la dosis necesaria.",
-                "rationale": "Citrato de magnesio con alta tasa de absorción celular que inhibe la contracción sostenida del músculo esquelético, previniendo calambres nocturnos y rigidez matutina."
+                "serving": "1 cápsula (verificar etiqueta por porción de 3 cápsulas)",
+                "usage": "Con alimentos y un vaso grande de agua; confirmar en la etiqueta física si la porción necesaria es de 1 o 3 cápsulas (la ficha registra 750 mg por 3 cápsulas) y cuidar tolerancia intestinal.",
+                "rationale": "Opción útil cuando además de falta de magnesio hay estreñimiento leve: el citrato ayuda a relajar músculos y atrae agua al intestino para evacuaciones más suaves."
             },
             {
                 "id": 228,
                 "serving": "1 cápsula",
-                "usage": "Tomar preferentemente por la noche según la ficha, solo tras revisar el aporte elemental en el envase.",
-                "rationale": "Magnesio quelado de máxima tolerancia gastrointestinal que recarga las reservas del mineral sin causar diarrea, aliviando calambres musculares y tensión nerviosa."
+                "usage": "Por la noche con la cena o antes de dormir, recordando que 250 mg de glicinato aportan una cantidad suave de mineral puro (~35 a 50 mg elementales; confirmar en etiqueta). Separar 2 horas de antibióticos.",
+                "rationale": "Opción nocturna suave (PM) en 1 cápsula vegetal con brócoli para estómagos delicados o tensión leve; si el profesional busca una dosis alta para deficiencia marcada, valorar #181."
             },
             {
-                "id": 181,
-                "serving": "4 cápsulas",
-                "usage": "Usar únicamente si un profesional indica esta porción y vigila función renal, tolerancia y magnesio total de otros suplementos.",
-                "rationale": "Bisglicinato de magnesio de biodisponibilidad superior y absorción intestinal no dependiente de pH, ideal para normalizar niveles intracelulares, conciliar el descanso profundo y calmar la tensión nerviosa."
+                "id": 1,
+                "serving": "4 g (1 cucharada dosificadora)",
+                "usage": "Disolver 4 g en 200 a 250 ml de agua o jugo y tomar con alimentos (aporta trazas de calcio, hierro y vitamina A). Consultar si hay enfermedad renal o cardíaca, y separar 2 horas de antibióticos o bisfosfonatos.",
+                "rationale": "Polvo tradicional económico y rendidor para preparar en agua, muy buscado para calambres nocturnos y rigidez muscular cuando no molesta su sabor salino-amargo."
+            },
+            {
+                "id": 46,
+                "serving": "10 g (1 cucharada)",
+                "usage": "Disolver en 200 a 300 ml de agua o jugo y tomar con alimentos. Aporta 500 mg de magnesio elemental (dosis alta que requiere vigilancia y riñones sanos) y 1.5 g de colágeno hidrolizado; cuidar tolerancia intestinal.",
+                "rationale": "Polvo soluble de alta potencia con colágeno para quienes prefieren beber su suplemento y buscan apoyar músculos, estreñimiento leve y articulaciones."
             }
         ],
         "lifestyleTips": [
-            "Priorizar legumbres, frutos secos, semillas y verduras de hoja como fuentes alimentarias de magnesio.",
-            "Comparar magnesio elemental entre presentaciones y no combinar varias fórmulas por rutina.",
-            "Consultar antes de suplementar si existe enfermedad renal o uso de diuréticos, antibióticos o bisfosfonatos; algunos medicamentos deben separarse del magnesio.",
-            "La diarrea, las náuseas y el dolor abdominal pueden indicar mala tolerancia o exceso de suplemento.",
-            "Calambres persistentes, palpitaciones, debilidad importante o desmayos requieren valoración de otras causas."
+            "Elegir una sola opción según el objetivo: de día/energía muscular (#92 Malato o #93 AM); de noche/estómago sensible (#181 Bisglicinato completo o #228 Glicinato suave); estreñimiento (#227 Citrato o #46 en polvo); polvo económico (#1 Cloruro o #46).",
+            "Distinguir otras fórmulas con magnesio del catálogo: #94 Magnesium PM incluye 5-HTP para dormir (no juntar con antidepresivos), #163 Ashwa+Mag lleva ashwagandha para estrés (cuidado en tiroides) y #149 Treonato está orientado a memoria y aporta poco mineral elemental (~36 mg).",
+            "Incluir a diario alimentos ricos en magnesio: frijoles, lentejas, almendras, semillas de calabaza, aguacate y espinacas.",
+            "Diarrea, náuseas o cólicos indican exceso o mala tolerancia; calambres persistentes, palpitaciones o debilidad marcada requieren revisión médica."
         ],
         "advisorQuestions": [
             "¿Existe una valoración médica o análisis que sugiera falta de magnesio?",
@@ -4632,7 +4816,8 @@ window.manualData.padecimientos = [
             "¿Toma diuréticos, omeprazol u otros protectores gástricos, antibióticos o bisfosfonatos?",
             "¿Qué otras fórmulas con magnesio consume y cuánto magnesio elemental aportan?",
             "¿Presenta palpitaciones, debilidad intensa o calambres que necesiten valoración?"
-        ]
+        ],
+        "safetyNote": "Elegir una sola presentación según la necesidad y fijarse en el magnesio elemental (no en el peso total de la sal); no combinar varios magnesios por rutina. Evitar o pedir valoración médica si hay enfermedad de los riñones, trastornos del ritmo cardíaco o uso de diuréticos. Separar cualquier magnesio al menos 2 horas de antibióticos, levotiroxina (tiroides) y bisfosfonatos. Si causa diarrea o dolor de panza, bajar la dosis o suspender."
     },
     {
         "id": "dismenorrea",
@@ -4745,55 +4930,59 @@ window.manualData.padecimientos = [
         "color": "orange",
         "primaryOptionsLabel": "Primero Zennatura: opciones de D3 1000 UI",
         "minimumUniqueProducts": 4,
-        "description": "La vitamina D ayuda a absorber el calcio y a cuidar huesos y músculos. Se valora primero la opción Zennatura adecuada y se elige una sola fórmula según la cantidad indicada, los análisis y los otros suplementos que ya toma la persona.",
+        "description": "La vitamina D baja debilita huesos, músculos y defensas sin dar síntomas claros al inicio. Se elige una sola dosis diaria; el cuerpo necesita magnesio para activarla y, si se combina con vitamina K2, debe evitarse con anticoagulantes como warfarina.",
         "symptomsTitle": "Factores de riesgo y señales para consultar:",
         "symptoms": [
-            "Malabsorción, cirugía bariátrica o dieta con muy poca vitamina D",
-            "Fragilidad ósea, fracturas o dolor óseo persistente",
-            "Debilidad muscular sin causa clara",
-            "Uso de medicamentos que alteran la absorción o metabolismo de vitamina D",
-            "Resultado de 25(OH)D bajo interpretado por un profesional"
+            "Dolor óseo difuso o lumbar",
+            "Debilidad muscular proximal",
+            "Infecciones respiratorias recurrentes",
+            "Fatiga crónica o ánimo bajo en temporadas de poco sol"
         ],
         "comboPrincipal": [
             {
                 "id": 55,
                 "serving": "1 cápsula",
-                "usage": "Valorar primero esta opción Zennatura y tomarla con alimentos si la cantidad y la fórmula son adecuadas; revisar alergia a equinácea y medicamentos que disminuyen las defensas.",
-                "rationale": "Aporta colecalciferol para estimular la síntesis de proteínas de transporte de calcio intestinal, sumado a vitamina C y equinácea para potenciar la respuesta inmunitaria innata."
+                "usage": "Por la mañana con una comida que contenga algo de grasa saludable. Revisar si hay alergia a la equinácea, enfermedades autoinmunes o uso de medicamentos que bajan defensas, anticoagulantes o medicinas para el azúcar.",
+                "rationale": "Aporta 1,000 UI de vitamina D3 para ayudar a absorber el calcio de los alimentos y cuidar huesos y defensas, acompañada de vitamina C y equinácea."
             },
             {
                 "id": 245,
                 "serving": "1 cápsula",
-                "usage": "Elegir esta presentación con el profesional y tomarla con una comida que contenga grasas; consultar antes si usa warfarina.",
-                "rationale": "Sinergia en la que la D3 estimula la absorción digestiva de calcio y la vitamina K2 activa la osteocalcina, guiando la mineralización directa en el hueso y evitando calcificación vascular."
+                "usage": "Elegir cuando se busque 1,000 UI de D3 junto con K2 y sin equinácea, tomando con comida que incluya algo de grasa. Consultar obligatoriamente si toma anticoagulantes como warfarina o acenocumarol.",
+                "rationale": "Combina 1,000 UI de vitamina D3 (para absorber calcio) con vitamina K2 MK-4 (45 mcg), que ayuda a dirigir el calcio hacia los huesos en lugar de que se acumule en las arterias."
             }
         ],
         "comboSecundario": [
             {
                 "id": 109,
                 "serving": "1 cápsula",
-                "usage": "Tomar con alimentos que contengan grasas según la ficha solo si la combinación y sus cantidades encajan en el plan indicado.",
-                "rationale": "Integra colecalciferol con magnesio elemental, cofactor celular indispensable para transformar la vitamina D circulante en su forma biológicamente activa en riñón e hígado."
+                "usage": "Con el desayuno o comida que tenga algo de grasa (aporta 400 UI de D3, dosis suave). Consultar obligatoriamente si toma anticoagulantes como warfarina o acenocumarol (por la K2) y separar 2 horas de antibióticos y levotiroxina.",
+                "rationale": "Reúne vitamina D3 (400 UI) con magnesio (necesario para activar la vitamina D en el cuerpo), vitamina K2 (30 mcg para orientar el calcio al hueso) y zinc en aceite de coco."
             },
             {
                 "id": 154,
                 "serving": "2 cápsulas",
-                "usage": "Tomar con alimentos únicamente si también se indicó calcio; confirmar cuánto calcio elemental aporta y evitar duplicarlo.",
-                "rationale": "Citrato de calcio orgánico con vitamina D3 que asegura su absorción activa sin depender del ácido estomacal, remineralizando la matriz ósea y contrarrestando la fragilidad esquelética."
+                "usage": "Con alimentos únicamente si también falta calcio en la dieta (aporta 210 mg de calcio elemental y 400 UI de D3; evitar duplicar). Separar al menos 4 horas de levotiroxina y 2 a 3 horas de hierro, antibióticos o bisfosfonatos.",
+                "rationale": "Citrato de calcio suave que no suele estreñir junto con 400 UI de vitamina D3 para cuidar la fortaleza de los huesos cuando la comida no cubre el calcio diario."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
-                "usage": "Usar solo si el profesional prescribe esta concentración y define duración y seguimiento de 25(OH)D y calcio.",
-                "rationale": "Concentración terapéutica de colecalciferol en vehículo oleoso que restaura con rapidez concentraciones óptimas de 25-hidroxivitamina D en suero, fortaleciendo la inmunidad celular y la función muscular."
+                "usage": "Usar únicamente bajo indicación médica tras confirmar niveles bajos en análisis, con una comida que tenga grasa y definiendo cuándo repetir estudios (evitar tomar meses sin vigilancia). Cuidar tener magnesio suficiente y consultar si usa diuréticos tiazídicos o digoxina.",
+                "rationale": "Dosis alta de 5,000 UI en aceite de oliva para corregir deficiencias confirmadas bajo supervisión médica y apoyar la absorción de calcio y la fuerza muscular."
+            },
+            {
+                "id": 230,
+                "serving": "1 cápsula al día",
+                "usage": "Valorar solo como complemento si ya toma D3 sin K2 (#55 o #166) y calcio, siempre con una comida que tenga grasa. Prohibido combinar sin médico si toma warfarina, acenocumarol u otros anticoagulantes (contiene 100 mcg de K2 MK-4 y alfalfa).",
+                "rationale": "Aporta vitamina K2 pura (100 mcg MK-4) para acompañar a la vitamina D3 y ayudar a que el calcio se fije en los huesos y no se deposite en arterias o riñones."
             }
         ],
         "lifestyleTips": [
-            "No solicitar análisis de 25(OH)D de rutina a toda persona sana; valorar pruebas según riesgo e indicación clínica.",
-            "Revisar alimentos con vitamina D y fortificados; la exposición solar debe seguir medidas de protección de la piel.",
-            "Priorizar Zennatura cuando su fórmula sea adecuada; NOW es otra opción de D3 1000 UI. Elegir una sola y contar la vitamina D de todos los suplementos.",
-            "Consultar antes si hay cálculos renales, calcio alto, enfermedad renal, sarcoidosis o uso de diuréticos tiazídicos.",
-            "No usar dosis altas durante meses sin seguimiento; el exceso puede elevar el calcio y dañar riñones."
+            "No pedir análisis de vitamina D de rutina en personas sanas sin riesgo; realizar estudio y ajuste de dosis con el médico.",
+            "Aprovechar alimentos con vitamina D (pescado azul, yema de huevo, lácteos fortificados) y exposición breve y segura al sol cuidando la piel.",
+            "Valorar primero opciones Zennatura (#55 de 1,000 UI o #109 si se prefiere fórmula mixta suave) y elegir una sola fuente de vitamina D, sumando multivitamínicos o calcio.",
+            "Recordar que el cuerpo necesita magnesio para activar la vitamina D3; consultar si hay piedras en los riñones, calcio elevado, sarcoidosis o diuréticos tiazídicos."
         ],
         "advisorQuestions": [
             "¿Existe un resultado de 25(OH)D y por qué se solicitó?",
@@ -4801,7 +4990,8 @@ window.manualData.padecimientos = [
             "¿Qué vitamina D y calcio obtiene ya de alimentos, medicamentos y suplementos?",
             "¿Usa warfarina, tiazidas, corticoides u orlistat?",
             "¿Tiene cálculos renales, calcio elevado, enfermedad renal o sarcoidosis?"
-        ]
+        ],
+        "safetyNote": "Elegir una sola fuente principal de vitamina D3 y sumar la que ya traigan otros suplementos (como calcio con D3, #5 Complejo B con Ginseng [360 UI] o #192 Neurocebryl [400 UI]). Para que el cuerpo active la vitamina D3 necesita buen aporte de magnesio; y si se usa vitamina K2 (#109, #245 o #230), consultar antes si toma anticoagulantes como warfarina o acenocumarol. Dosis altas como 5,000 UI (#166) superan el límite diario habitual (4,000 UI) y requieren indicación médica y análisis de control."
     },
     {
         "id": "lactancia_produccion_leche",
@@ -5354,54 +5544,66 @@ window.manualData.padecimientos = [
         "name": "Glucosa y Herbolaria Tradicional Mexicana",
         "emoji": "🌵",
         "color": "orange",
-        "description": "La botánica tradicional de México cuenta con plantas de uso ancestral para favorecer el control de la glucosa y moderar la subida del azúcar tras las comidas. Las opciones de esta guía aportan extractos puros de wereke, neem y nopal.",
+        "description": "Plantas tradicionales mexicanas (como neem, nopal, wereke, pata de vaca y fenogreco) usadas para apoyar el manejo del azúcar junto con las comidas. Conviene elegir solo una fórmula principal y vigilar la glucosa con glucómetro si ya toma medicinas para diabetes.",
         "symptoms": [
-            "Picos de azúcar en sangre después de consumir carbohidratos o harinas",
-            "Mucha sed y necesidad frecuente de orinar tras comidas abundantes",
-            "Somnolencia o pesadez intensa (\"mal del puerco\") al terminar de comer",
-            "Personas con glucosa elevada que buscan plantas tradicionales comprobadas",
-            "Resistencia a la insulina con manchas oscuras en cuello (acantosis nigricans)"
+            "Preferencia por remedios herbolarios mexicanos tradicionales para el manejo cotidiano del azúcar",
+            "Subidas notables de glucosa después de comer tortillas, pan, arroz o postres",
+            "Necesidad de apoyo botánico para acompañar cambios en la comida diaria",
+            "Uso previo o interés en plantas como wereke, nopal, neem, pata de vaca o fenogreco"
         ],
         "comboPrincipal": [
             {
                 "id": 118,
-                "serving": "2 cápsulas",
-                "usage": "Tomar 2 cápsulas al día antes de los alimentos principales.",
-                "rationale": "Neem amargo tradicional con fibra de nopal y ácido alfa lipoico para apoyar la utilización celular de la glucosa y desinflamar el páncreas."
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Repartir justo antes o durante las comidas principales ricas en carbohidratos. No combinar con #17 ni #29 (ya aporta 150 mg de ácido alfa lipoico), ni juntar con #195, #223 o #235; separar 2 horas de otros medicamentos.",
+                "rationale": "Reúne hoja de neem y fibra de nopal para hacer más lenta la absorción de azúcares en la comida, reforzado con ácido alfa lipoico para proteger las células frente al exceso de azúcar."
             },
             {
                 "id": 223,
-                "serving": "2 cápsulas",
-                "usage": "Tomar 1 a 2 cápsulas 15 minutos antes de la comida fuerte con agua.",
-                "rationale": "Raíz silvestre de wereke con gatuña y guayacán para frenar la elevación brusca de glucosa en sangre tras los alimentos."
+                "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
+                "usage": "Inmediatamente después o durante cada comida principal para evitar el sabor amargo de la raíz. No mezclar con #118, #195 ni #235, y separar 2 horas de cualquier medicamento oral.",
+                "rationale": "Mezcla tradicional mexicana de 8 plantas con raíz de wereke, penca de nopal, guayacán amarillo y manzanilla para moderar el azúcar después de comer y mantener ligera la digestión."
             }
         ],
         "comboSecundario": [
             {
+                "id": 63,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "15 a 20 minutos antes de las comidas principales con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; no duplicar fibra junto con #235.",
+                "rationale": "Semilla rica en fibra viscosa que forma una capa suave en el estómago para frenar la subida rápida de azúcar tras comer y calmar el apetito entre comidas."
+            },
+            {
                 "id": 210,
-                "serving": "2 cápsulas",
-                "usage": "Tomar 2 cápsulas al día antes de comer.",
-                "rationale": "Hojas de pata de vaca tradicionales reconocidas por favorecer la captación periférica de azúcares en personas diabéticas."
+                "serving": "1 cápsula al día",
+                "usage": "Junto con o justo antes de la comida principal. Vigilar glucosa si toma medicamentos para diabetes; no juntar con otras fórmulas herbales fuertes ni usar en embarazo o lactancia.",
+                "rationale": "Hoja tradicional de pata de vaca en una toma práctica de 1 cápsula diaria para apoyar el aprovechamiento de carbohidratos después de comidas abundantes sin preparar tés."
             },
             {
                 "id": 195,
-                "serving": "20 a 30 gotas",
-                "usage": "Diluir en medio vaso de agua antes de los alimentos.",
-                "rationale": "Extracto hidroalcohólico de guarumbo, tecomate y neem enriquecido con cromo, que promueve la absorción celular periférica de glucosa y reduce el impacto de alimentos de alto índice glucémico."
+                "serving": "Frasco 1: 1 cápsula, 3 veces al día. Frasco 2: 1 cápsula por la mañana y 1 por la tarde.",
+                "usage": "Tomar ambos frascos en paralelo siempre con alimentos (NO son gotas ni extracto líquido). Por contener neem, nopal, guarumbo y picolinato de cromo, no combinar con #118, #223, #235 ni #41; separar 2 a 3 horas de levotiroxina o antibióticos.",
+                "rationale": "Tratamiento completo en 2 frascos de cápsulas: Frasco 1 con 11 plantas mexicanas (neem, tecomate, guarumbo, nopal y hierba del sapo) y Frasco 2 con vitaminas, minerales y cromo para apoyar el azúcar y la energía diaria."
             },
             {
                 "id": 235,
-                "serving": "2 cápsulas",
-                "usage": "Tomar antes de cada comida.",
-                "rationale": "Nopal deshidratado puro en cápsulas para aportar fibra mucilaginosa que retarda la absorción intestinal de carbohidratos."
+                "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
+                "usage": "Antes de cada comida obligatoriamente con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; evitar si ya usa #118, #195, #223 o #63.",
+                "rationale": "Nopal puro en cápsulas cuya fibra ayuda a absorber más lento los azúcares y grasas de los alimentos y facilita evacuar con regularidad."
+            },
+            {
+                "id": 253,
+                "serving": "1 cápsula al día",
+                "usage": "15 a 30 minutos antes o durante la comida más pesada del día con un vaso de agua. Separar 2 a 3 horas de suplementos con hierro, zinc o calcio; evitar en embarazo o lactancia.",
+                "rationale": "Trío vegetal práctico de 1 cápsula diaria con hojas de guayaba, moringa y romero para frenar los picos de azúcar tras comidas con harinas y aliviar la pesadez estomacal."
             }
         ],
         "lifestyleTips": [
-            "Caminar de 10 a 15 minutos a paso moderado inmediatamente después de comer para ayudar a que los músculos consuman la glucosa.",
-            "Comenzar las comidas siempre por las verduras y proteínas antes que las tortillas o pastas para aplanar la curva de azúcar.",
-            "Evitar jugos de frutas colados y refrescos azucarados; preferir agua natural o infusiones sin endulzar.",
-            "Monitorear los niveles de glucosa capilar con glucómetro para comprobar la respuesta individual a cada alimento."
-        ]
+            "Caminar de 10 a 15 minutos a paso tranquilo después de comer ayuda a que los músculos consuman el azúcar recién absorbida.",
+            "Comenzar siempre por verduras y proteínas antes de comer tortillas, pan, arroz o pastas para suavizar la subida de glucosa.",
+            "Evitar jugos colados, aguas frescas endulzadas y refrescos; preferir agua simple o infusiones sin azúcar.",
+            "Medir la glucosa en ayunas y 2 horas después de comer con glucómetro, y nunca suspender medicinas médicas para cambiarlas por hierbas."
+        ],
+        "safetyNote": "Elegir UNA sola fórmula herbolaria principal y no combinarlas por rutina: Neem con Nopal (#118), Dyneem (#195) y Wereke (#223) repiten plantas como neem y nopal y pueden provocar bajones fuertes de azúcar; además #118 aporta 150 mg de ácido alfa lipoico y #195 incluye multivitamínico con cromo y hierro. Quienes usan insulina, glibenclamida o metformina deben consultar antes al médico y medirse con glucómetro. Separar al menos 2 horas de medicamentos orales y no usar en embarazo o lactancia."
     },
     {
         "id": "agotamiento_extremo_rescate",
@@ -5442,6 +5644,12 @@ window.manualData.padecimientos = [
                 "serving": "1 ampolleta bebible",
                 "usage": "Tomar una ampolleta por la mañana con el desayuno.",
                 "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la neurotransmisión y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
+            },
+            {
+                "id": 147,
+                "serving": "1-2 tabletas (500 mg c/u)",
+                "usage": "Por la mañana o al iniciar el turno diurno con el desayuno (evitar tarde o noche si busca dormir después). NO usar en embarazo, lactancia, alergia a jalea real/polen/miel o soya, ni en hipertensión no controlada; separar 2 horas de antibióticos.",
+                "rationale": "Tabletas con cafeína natural, guaraná, vitamina B1, CoQ10, jalea real y vitaminas E y ácido fólico para despejar la somnolencia diurna y sostener el estado de alerta."
             }
         ],
         "lifestyleTips": [
@@ -5558,53 +5766,905 @@ window.manualData.padecimientos = [
         "name": "Soporte Nutricional Cetogénico (Keto) y Ayuno",
         "emoji": "🥑",
         "color": "orange",
-        "description": "La transición a una alimentación cetogénica o al ayuno intermitente puede causar mareos, debilidad y falta de combustible cerebral. Las opciones de esta guía aportan grasas saludables C8 y minerales para mantener la vitalidad sin elevar la insulina.",
+        "description": "Al reducir de golpe los carbohidratos o hacer ayuno intermitente se pierden rápido agua, sodio, potasio y magnesio, lo que produce dolor de cabeza y calambres («gripe keto»). Reponer minerales con precaución y usar grasas ligeras ayuda a adaptarse con comodidad.",
         "symptoms": [
-            "Mareo, dolor de cabeza y debilidad muscular al iniciar dieta cetogénica (\"gripe keto\")",
-            "Calambres en pantorrillas o pies causados por la eliminación rápida de agua y minerales",
-            "Hambre intensa o bajón de concentración durante las horas de ayuno intermitente",
-            "Dificultad para alcanzar el estado de cetosis nutricional sólo con alimentos",
-            "Necesidad de energía física sostenida para entrenar en ayunas sin recurrir a azúcar"
+            "Cansancio, mareo o dolor de cabeza al iniciar dieta baja en carbohidratos («gripe keto»)",
+            "Calambres musculares en piernas o pérdida rápida de líquidos y sales",
+            "Baja energía mental durante mañanas de ayuno o adaptación a grasas",
+            "Dudas sobre qué grasas, minerales o proteína usar sin romper el plan"
         ],
         "comboPrincipal": [
             {
                 "id": 181,
-                "serving": "4 cápsulas",
-                "usage": "Tomar 2 cápsulas por la mañana y 2 por la tarde con abundante agua.",
-                "rationale": "Bisglicinato de magnesio de absorción superior para reponer electrolitos, prevenir calambres y quitar la fatiga por deshidratación en keto."
+                "serving": "4 cápsulas al día",
+                "usage": "Con comidas (p. ej. cena o 2 en comida y 2 en cena para calambres nocturnos). Si se combina con Potassium Dual Complex (#128), reducir a 2 cápsulas para no pasar la dosis diaria; confirmar riñones sanos y separar 2 horas de antibióticos.",
+                "rationale": "Aporta magnesio suave (400 mg elementales) que no suelta el estómago para aliviar calambres en piernas, cansancio y tensión muscular al bajar los carbohidratos."
+            },
+            {
+                "id": 128,
+                "serving": "3 cápsulas (2.05 g)",
+                "usage": "Con alimentos y un vaso grande de agua. NO usar si hay enfermedad de riñones o uso de espironolactona, enalapril, captopril o losartán; no combinar con #47 Citrato de Potasio.",
+                "rationale": "Aporta 500 mg de potasio elemental junto con magnesio, calcio y vitamina B6 para cortar mareos, debilidad y calambres de la «gripe keto» por pérdida de sales."
             },
             {
                 "id": 160,
                 "serving": "1 cucharada (15 ml)",
-                "usage": "Añadir al café matutino, té o tomar directo. No usar para freír a altas temperaturas.",
-                "rationale": "Ácido caprílico C8 concentrado al 98% que se convierte rápidamente en cuerpos cetónicos en el hígado para alimentar el cerebro sin romper el ayuno."
+                "usage": "Empezar con ½ cucharada (7.5 ml) al día en café, té o ensalada e ir subiendo poco a poco a 1 cucharada para evitar retortijones o diarrea. Agitar antes de usar; no usar para freír y consultar si hay enfermedad de hígado o riñón.",
+                "rationale": "Aceite caprílico C8 puro que el cuerpo transforma rápido en energía limpia para el cerebro sin elevar el azúcar, dando claridad mental en la mañana."
             }
         ],
         "comboSecundario": [
             {
+                "id": 74,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Con el desayuno o comida del mediodía y agua. Aporte ligero complementario de sales BHB (no reemplaza al MCT C8); consultar si toma warfarina, medicinas para la presión o azúcar, y no juntar con #95.",
+                "rationale": "Cápsula Zennatura con bayas de goji, pingüica, diente de león y un apoyo ligero de sales BHB para acompañar la hidratación y los planes bajos en carbohidratos."
+            },
+            {
                 "id": 14,
-                "serving": "1 a 2 cucharadas para cocinar",
-                "usage": "Utilizar como grasa base para saltear verduras o cocinar platillos calientes.",
-                "rationale": "Grasa vegetal virgen neutra sin olor que resiste altas temperaturas sin oxidarse, ideal para enriquecer calorías cetogénicas diarias."
+                "serving": "14 g (1 cucharada)",
+                "usage": "Usar en sartén para cocinar, saltear o freír a fuego medio-alto; no tomar cucharadas grandes en ayunas.",
+                "rationale": "Aceite de coco orgánico refinado sin olor ni sabor a coco que resiste el calor de la cocina diaria sin cambiar el sazón de los platillos."
             },
             {
                 "id": 15,
-                "serving": "1 cucharada",
-                "usage": "Consumir directo o mezclar en café o té como grasa prensada en frío.",
-                "rationale": "Aceite de coco extra virgen orgánico con aroma natural para preparar café antibalas matutino y brindar saciedad inmediata."
+                "serving": "14 g (1 cucharada)",
+                "usage": "Usar en cocina suave, repostería keto o añadir media a una cucharadita al café tibio; evitar dosis altas en ayunas si causa malestar estomacal.",
+                "rationale": "Aceite de coco extra virgen prensado en frío con aroma natural a coco para dar saciedad y grasas buenas en bebidas o recetas keto."
             },
             {
                 "id": 112,
-                "serving": "1 porción (scoop)",
-                "usage": "Disolver en agua fría post-entrenamiento o entre comidas.",
-                "rationale": "Aislado de suero de leche de flujo cruzado con cero carbohidratos netos para proteger el músculo sin elevar la insulina."
+                "serving": "23 g (1 porción)",
+                "usage": "Disolver 1 medida en 250-350 ml de agua fría (evitar leche si cuida carbohidratos) dentro de su ventana de alimentos, al romper el ayuno o tras entrenar. No apta para alérgicos o intolerantes a lácteos.",
+                "rationale": "Proteína aislada de suero al 90 % muy baja en carbohidratos y lactosa para cuidar y reparar el músculo en dietas bajas en harinas (la proteína sí rompe el ayuno estricto)."
             }
         ],
         "lifestyleTips": [
-            "Añadir una pizca de sal marina o del Himalaya a los vasos de agua para mantener la presión y el equilibrio de sodio.",
-            "Consumir aguacate, espinacas y semillas para sumar potasio y magnesio vegetal en cada comida cetogénica.",
-            "No temer a las grasas naturales buenas (oliva, coco, frutos secos); son el combustible principal en cetosis.",
-            "Romper el ayuno siempre con proteínas y grasas suaves antes de incorporar vegetales para evitar molestias gástricas."
+            "En keto se pierde agua y sales rápido: agregar una pizca de sal marina al agua y tomar de 2 a 2.5 litros al día ayuda a prevenir mareos y dolor de cabeza.",
+            "Incluir aguacate, espinacas, acelgas, pepino y semillas aporta potasio, magnesio y fibra para evitar el estreñimiento sin salir del plan.",
+            "La proteína en polvo (#112) y los aceites aportan calorías: si hace ayuno estricto de solo agua, dejar la proteína para romper el ayuno o después de entrenar.",
+            "Romper el ayuno con porciones moderadas de proteína y grasa ligera antes de comidas abundantes evita pesadez digestiva."
+        ],
+        "safetyNote": "Las personas con diabetes que usan insulina o pastillas (especialmente inhibidores SGLT2), embarazo, lactancia, piedras en riñón o enfermedad renal o hepática NO deben iniciar dieta keto ni ayunos largos sin supervisión médica. Antes de recomendar Potassium Dual Complex (#128), verificar que no exista daño en los riñones ni toma de medicinas para la presión que retienen potasio (losartán, enalapril, captopril, espironolactona)."
+    },
+    {
+        "id": "gases_hinchazon_abdominal",
+        "name": "Gases, Hinchazón y Vientre Inflamado",
+        "emoji": "💨",
+        "color": "green",
+        "description": "El exceso de gases e hinchazón abdominal suele deberse a digestiones lentas, comidas abundantes o fermentación en el intestino. Estas opciones reúnen plantas carminativas, enzimas y probióticos para aliviar la pesadez y desinflamar el abdomen de forma natural.",
+        "symptoms": [
+            "Abdomen inflamado o duro poco después de comer",
+            "Gases frecuentes, eructos o ruidos intestinales",
+            "Sensación de ropa apretada en la cintura conforme avanza el día",
+            "Pesadez o retención de aire en la parte baja del vientre",
+            "Digestión lenta tras comidas con grasas, lácteos o harinas"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 141,
+                "serving": "2 cápsulas",
+                "usage": "Tomar 2 cápsulas con los alimentos principales.",
+                "rationale": "Reúne jengibre, cardamomo y raíz de angélica para relajar el espasmo del tubo digestivo y ayudar a expulsar gases atrapados, mientras la sábila y el agave calman la mucosa y suavizan la pesadez después de comer."
+            },
+            {
+                "id": 60,
+                "serving": "2 cápsulas",
+                "usage": "Tomar 2 cápsulas justo antes de las comidas abundantes.",
+                "rationale": "Aporta enzimas digestivas (papaína, bromelina, amilasa, lipasa y pancreatina) con hierbabuena para descomponer proteínas, grasas y carbohidratos antes de que fermenten en el intestino y generen aire e inflamación."
+            },
+            {
+                "id": 129,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Sus 60 mil millones de lactobacilos ayudan a desplazar bacterias fermentadoras que producen exceso de gas en el colon, favoreciendo una digestión más ligera y un vientre menos inflamado."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 49,
+                "serving": "20 ml",
+                "usage": "Diluir 20 ml en un vaso de agua y tomar entre comidas.",
+                "rationale": "La hierbabuena y la menta piperita relajan la musculatura intestinal para disipar gases y cólicos leves, mientras la clorofila refresca el aliento y apoya la limpieza digestiva diaria."
+            },
+            {
+                "id": 175,
+                "serving": "1 taza (1 sobre de 2 g)",
+                "usage": "Tomar una taza caliente después de la comida.",
+                "rationale": "Infusión tibia sin cafeína que combina jengibre para acelerar el vaciado gástrico y cúrcuma para estimular el flujo biliar, aliviando la sensación de inflamación sin irritar el estómago."
+            },
+            {
+                "id": 176,
+                "serving": "1 taza (1 sobre de 2 g)",
+                "usage": "Tomar una taza tibia tras comer o por la noche.",
+                "rationale": "Flores orgánicas de manzanilla que apaciguan retortijones, nervios en el estómago y tensión abdominal que empeora la acumulación de gases."
+            },
+            {
+                "id": 81,
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Tomar 2 cápsulas con alimentos si se prefiere en cápsula en lugar de té.",
+                "rationale": "Raíz pura de jengibre que estimula el movimiento natural del estómago e intestino, evitando que la comida se quede estancada y fermente."
+            },
+            {
+                "id": 216,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula con alimento en episodios de fermentación persistente.",
+                "rationale": "Diluye aceite esencial de orégano en aceite de coco para ayudar a moderar bacterias y levaduras que generan gases olorosos y distensión marcada."
+            }
+        ],
+        "lifestyleTips": [
+            "Comer despacio y masticar bien cada bocado para evitar tragar aire al comer.",
+            "Reducir refrescos, agua mineral con gas, goma de mascar y bebidas con popote.",
+            "Dar una caminata suave de 10 a 15 minutos después de comer para ayudar al tránsito de gases.",
+            "Si la hinchazón aparece con pérdida de peso, fiebre o dolor intenso, acudir a valoración médica."
         ]
+    },
+    {
+        "id": "flora_intestinal_absorcion",
+        "name": "Flora Intestinal y Mala Absorción",
+        "emoji": "🦠",
+        "color": "green",
+        "description": "Cuando se altera la flora intestinal tras infecciones, antibióticos o mala alimentación, es común sentir inflamación, heces irregulares y cansancio por bajo aprovechamiento de nutrientes. Estas fórmulas ayudan a repoblar bacterias benéficas y cuidar la mucosa digestiva.",
+        "symptoms": [
+            "Inflamación abdominal frecuente tras probar casi cualquier alimento",
+            "Alternancia entre evacuaciones sueltas, pastosas o sensación de mala digestión",
+            "Antecedente reciente de antibióticos, infecciones estomacales o gastritis",
+            "Cansancio constante o defensas bajas asociadas a digestión delicada",
+            "Presencia de restos de comida sin digerir o gases con olor fuerte"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 131,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Reúne 8 cepas de Bifidobacterium, Lactobacillus y Streptococcus (100 mil millones de UFC) que colonizan distintas zonas del intestino delgado y grueso para reconstruir una flora diversa y equilibrada."
+            },
+            {
+                "id": 246,
+                "serving": "1 scoop (6 g)",
+                "usage": "Disolver 1 medida al día con la comida principal.",
+                "rationale": "Combina L-glutamina, N-acetil glucosamina, zinc carnosina y aloe vera para nutrir las células de la pared intestinal y cuidar la barrera donde se absorben vitaminas y minerales."
+            },
+            {
+                "id": 2,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos en ciclos cortos antes o junto con probióticos.",
+                "rationale": "Aporta ácido láurico del coco y orégano estandarizado en carvacrol para ayudar a frenar microorganismos no deseados antes de repoblar la flora benéfica."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 129,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día como alternativa de mantenimiento.",
+                "rationale": "Fórmula de 3 cepas con inulina de agave pensada para el mantenimiento diario de una flora intestinal estable tras completar esquemas intensivos."
+            },
+            {
+                "id": 60,
+                "serving": "2 cápsulas",
+                "usage": "Tomar 2 cápsulas antes de las comidas principales.",
+                "rationale": "Provee enzimas digestivas variadas que ayudan a fraccionar los alimentos cuando la digestión está debilitada y facilitan el aprovechamiento de nutrientes."
+            },
+            {
+                "id": 251,
+                "serving": "4 g (1 scoop)",
+                "usage": "Tomar en ayunas 30 minutos antes del desayuno.",
+                "rationale": "Calostro bovino al 20% de inmunoglobulinas IgG con lactoferrina y factores de crecimiento que apoyan las defensas de la mucosa intestinal y su recuperación diaria."
+            },
+            {
+                "id": 242,
+                "serving": "1 cucharada (7.5 g)",
+                "usage": "Disolver en agua o licuado si no causa exceso de gases.",
+                "rationale": "Fructanos de achicoria y oligofructosa que sirven de alimento selectivo para las bacterias benéficas del colon; iniciar con dosis baja si hay mucha sensibilidad."
+            }
+        ],
+        "lifestyleTips": [
+            "Incluir alimentos fermentados naturales como yogur natural, kéfir o chucrut si se toleran bien.",
+            "Aumentar de forma gradual verduras cocidas y fibra soluble para alimentar la flora sin inflamar.",
+            "Evitar azúcares refinados y harinas ultraprocesadas que alimentan bacterias fermentadoras.",
+            "Si hay diarrea crónica, sangre en heces o baja de peso importante, consultar al especialista."
+        ]
+    },
+    {
+        "id": "intolerancia_lactosa_apoyo",
+        "name": "Intolerancia a la Lactosa y Lácteos",
+        "emoji": "🥛",
+        "color": "green",
+        "description": "La intolerancia a la lactosa provoca gases, cólicos o diarrea después de tomar leche, quesos o crema porque falta enzima lactasa suficiente. El catálogo no incluye lactasa pura en cápsulas, por lo que esta guía se enfoca en sustituir los lácteos sin perder proteína ni calcio, apoyar con probióticos y calmar el malestar tras una ingesta accidental.",
+        "symptoms": [
+            "Gases, inflamación o retortijones dentro de las 2 horas posteriores a consumir lácteos",
+            "Evacuaciones blandas o urgencia para ir al baño después de leche o helado",
+            "Ruidos estomacales intensos y pesadez tras café con leche o licuados de suero",
+            "Necesidad de sustituir leche y proteínas lácteas sin descuidar calcio ni masa muscular"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 131,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Aporta Streptococcus thermophilus, Lactobacillus delbrueckii y Lactobacillus acidophilus, cepas probióticas que ayudan a descomponer mejor pequeñas trazas de lactosa en el intestino y reducen gases y fermentación."
+            },
+            {
+                "id": 129,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos como alternativa de 3 cepas.",
+                "rationale": "Su alta carga de Lactobacillus acidophilus apoya la flora digestiva y disminuye la irritación e inflamación abdominal cuando el intestino es sensible a derivados lácteos."
+            },
+            {
+                "id": 113,
+                "serving": "34 g (1 scoop)",
+                "usage": "Disolver 1 medida en agua o bebida vegetal; evaluar tolerancia si la intolerancia es severa.",
+                "rationale": "Aislado de suero microfiltrado con mínimo residual de lactosa respecto a concentrados comunes; útil para deportistas con tolerancia leve que buscan 29 g de proteína sin inflamación."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 175,
+                "serving": "1 taza (1 sobre de 2 g)",
+                "usage": "Tomar caliente si hubo consumo accidental de lácteos y hay pesadez.",
+                "rationale": "Jengibre y cúrcuma calientan y asientan el tubo digestivo para mitigar gases y cólicos leves posteriores a una comida con lácteos."
+            },
+            {
+                "id": 176,
+                "serving": "1 taza (1 sobre de 2 g)",
+                "usage": "Tomar una taza tibia para calmar retortijones.",
+                "rationale": "Infusión suave sin cafeína que ayuda a relajar los espasmos intestinales cuando un alimento lácteo irritó el estómago."
+            },
+            {
+                "id": 194,
+                "serving": "3 cucharadas (25 g) en 200 ml de agua",
+                "usage": "Usar como sustituto diario de la leche de vaca en licuados, café o cereal.",
+                "rationale": "Bebida vegetal 100% libre de lactosa a base de proteína aislada de soya fortificada con calcio, hierro, vitamina D y complejo B para sustituir la leche sin perder nutrición."
+            },
+            {
+                "id": 24,
+                "serving": "30 g (1 medida)",
+                "usage": "Tomar en agua o bebida vegetal entre comidas o después de entrenar.",
+                "rationale": "Proteína de huevo pasteurizada totalmente libre de lactosa y derivados lácteos, enriquecida con vitaminas y minerales."
+            },
+            {
+                "id": 134,
+                "serving": "30.5 g (1 scoop)",
+                "usage": "Mezclar en agua o bebida vegetal sin lácteos.",
+                "rationale": "Alternativa vegetal de chícharo y arroz libre de lactosa con probióticos añadidos para aportar proteína sin inflamación ni molestias estomacales."
+            }
+        ],
+        "lifestyleTips": [
+            "Aclarar que el catálogo no cuenta con enzima lactasa en cápsulas: estos productos ayudan a sustituir lácteos y calmar síntomas, no permiten digerir leche entera.",
+            "Revisar etiquetas de panes, aderezos y embutidos para detectar suero o leche en polvo oculta.",
+            "Asegurar fuentes de calcio vegetal, sardinas o citrato de calcio si se retiran todos los lácteos."
+        ]
+    },
+    {
+        "id": "tendinitis_bursitis",
+        "name": "Dolor en Tendones, Hombro, Codo y Bursitis",
+        "emoji": "💪",
+        "color": "yellow",
+        "description": "Los movimientos repetitivos en trabajo, computadora o deporte pueden irritar los tendones del hombro (manguito rotador), el codo (codo de tenista) o las bolsas que amortiguan la articulación (bursitis). Estas opciones apoyan la reparación del colágeno y ayudan a desinflamar la zona junto con reposo relativo y fisioterapia.",
+        "symptoms": [
+            "Dolor localizado al levantar el brazo, cargar objetos o girar la muñeca y el codo",
+            "Sensibilidad al presionar sobre el hombro, la parte externa del codo o la articulación",
+            "Rigidez por la mañana que cede un poco al calentar pero vuelve tras usar el brazo",
+            "Hinchazón leve o calor local alrededor del tendón o la articulación"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 3,
+                "serving": "10 g (1 cucharada)",
+                "usage": "Disolver 10 g en agua o jugo una vez al día, en ayunas o entre comidas.",
+                "rationale": "Aporta péptidos de colágeno con vitamina C y biotina; los tendones están hechos principalmente de colágeno y la vitamina C es indispensable para formar fibras nuevas más resistentes."
+            },
+            {
+                "id": 54,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Tomar 3 cápsulas al día con alimentos que contengan algo de grasa.",
+                "rationale": "Concentrado de cúrcuma al 95% con pimienta negra y vitamina C para ayudar a desinflamar el tendón o la bursa irritada de forma sostenida sin agredir el estómago."
+            },
+            {
+                "id": 102,
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Tomar con alimentos si además hay molestia dentro de la articulación.",
+                "rationale": "Une extracto de Boswellia serrata y cúrcuma con ácido hialurónico y colágeno UC-II para disminuir la inflamación de tejidos articulares sobrecargados."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 125,
+                "serving": "10 g (1 cuchara)",
+                "usage": "Disolver 10 g al día como alternativa pura sin saborizantes ni aditivos.",
+                "rationale": "Péptidos puros para aportar la materia prima proteica que requieren tendones y ligamentos sometidos a desgaste repetitivo."
+            },
+            {
+                "id": 123,
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Tomar con el desayuno.",
+                "rationale": "Omega-3 concentrado (EPA y DHA) libre de contaminantes que apoya la resolución natural de inflamación crónica en tejidos blandos y articulaciones."
+            },
+            {
+                "id": 167,
+                "serving": "Aplicación tópica local",
+                "usage": "Aplicar con masaje suave sobre hombro o codo 2 a 3 veces al día sin frotar con fuerza excesiva.",
+                "rationale": "Gel con mentol, salicilato de metilo, glucosamina y árnica que brinda alivio térmico local rápido mientras hace efecto el reposo."
+            },
+            {
+                "id": 258,
+                "serving": "Aplicación tópica local",
+                "usage": "Aplicar en capas suaves 2 a 3 veces al día en la zona adolorida.",
+                "rationale": "Combina árnica, garra del diablo, alcanfor y salicilato de metilo para proporcionar calor calmante local y desahogar la molestia en hombro o codo."
+            }
+        ],
+        "lifestyleTips": [
+            "Evitar los gestos repetitivos que disparan el dolor durante los primeros días y alternar compresas frías o tibias según la fase.",
+            "Cuidar la postura del teclado, mouse o herramientas para no sobrecargar muñeca, codo y cuello.",
+            "Acompañar con ejercicios suaves indicados por fisioterapia una vez que baje el dolor agudo."
+        ]
+    },
+    {
+        "id": "esguinces_desgarros_recuperacion",
+        "name": "Esguinces, Torceduras y Desgarros Musculares",
+        "emoji": "🩹",
+        "color": "yellow",
+        "description": "Después de una torcedura de tobillo o un tirón o desgarro muscular, el cuerpo necesita tiempo de recuperación, proteína y nutrientes para reconstruir fibras de músculo y ligamento. Ningún suplemento sustituye la inmovilización ni la revisión médica ante hinchazón severa o imposibilidad de apoyar el pie.",
+        "symptoms": [
+            "Dolor repentino e inflamación tras doblarse el tobillo o hacer un esfuerzo brusco",
+            "Moretón o cambio de color en la piel alrededor de la lesión leve",
+            "Debilidad, tirantez o punzada al estirar o contraer el músculo afectado",
+            "Fase de recuperación en la que baja el dolor agudo y se busca fortalecer el tejido"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 3,
+                "serving": "10 g (1 cucharada)",
+                "usage": "Tomar 1 cucharada diaria en ayunas o entre comidas durante la recuperación.",
+                "rationale": "Entrega péptidos de colágeno y vitamina C necesarios para reconstruir y darle firmeza a las fibras de ligamentos en esguinces y envolturas musculares en desgarros."
+            },
+            {
+                "id": 113,
+                "serving": "34 g (1 scoop)",
+                "usage": "Tomar 1 medida al día entre comidas o tras la rehabilitación.",
+                "rationale": "Aporta 29 g de proteína aislada rica en aminoácidos esenciales para reparar las fibras musculares dañadas tras una distensión o desgarro."
+            },
+            {
+                "id": 54,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Tomar con alimentos durante la fase subaguda o de recuperación.",
+                "rationale": "Extracto de curcumina con pimienta negra y vitamina C que ayuda a moderar la inflamación excesiva que retrasa el movimiento en rehabilitación."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 126,
+                "serving": "11 g (1 cuchara)",
+                "usage": "Disolver 1 medida diaria como alternativa enriquecida con ácido hialurónico.",
+                "rationale": "Suma ácido hialurónico al colágeno para favorecer la hidratación del tejido conectivo alrededor de articulaciones lesionadas."
+            },
+            {
+                "id": 171,
+                "serving": "1 sobre (2 g)",
+                "usage": "Preparar infusión concentrada tibia o fría y aplicar en lienzos o fomentos externos sobre la zona golpeada (no aplicar sobre heridas abiertas).",
+                "rationale": "Uso tradicional externo en compresas locales con hojas de árnica para desinflamar moretones y reconfortar tobillos o músculos torcidos."
+            },
+            {
+                "id": 123,
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Tomar con el desayuno.",
+                "rationale": "Los ácidos grasos EPA y DHA acompañan la resolución ordenada de la inflamación mientras sana el tejido."
+            },
+            {
+                "id": 167,
+                "serving": "Aplicación tópica local",
+                "usage": "Aplicar suavemente sobre piel íntegra después de las primeras 48 horas si no hay calor intenso ni herida abierta.",
+                "rationale": "Gel con árnica, mentol y glucosamina para acompañar el alivio local conforme se retoma la movilidad."
+            },
+            {
+                "id": 71,
+                "serving": "5 g (1 medida)",
+                "usage": "Disolver en agua después de rehabilitación o antes de dormir.",
+                "rationale": "L-glutamina pura que sirve de apoyo aminoacídico para la recuperación del tejido muscular cuando hay desgarro o reposo."
+            }
+        ],
+        "lifestyleTips": [
+            "Si no puedes apoyar el pie, hay deformidad o un chasquido fuerte, acudir de inmediato a valoración médica para descartar fractura o rotura total.",
+            "Durante las primeras 48 horas priorizar reposo, elevación, compresión suave y frío local antes de usar geles calientes.",
+            "Regresar a la actividad física de forma progresiva guiada por rehabilitación."
+        ]
+    },
+    {
+        "id": "calambres_musculares_nocturnos",
+        "name": "Calambres Nocturnos y Tensión en Piernas",
+        "emoji": "🦵",
+        "color": "yellow",
+        "description": "Despertarse de madrugada con un tirón intenso en la pantorrilla o en la planta del pie suele relacionarse con fatiga muscular, falta de líquidos, baja ingesta de magnesio o potasio, o mala circulación venosa. Si se acompañan de hinchazón notoria o várices, revisar también la guía de Várices y Mala Circulación.",
+        "symptoms": [
+            "Contracción brusca y dolorosa en pantorrillas, muslos o pies durante la noche",
+            "Sensación de músculo tenso o adolorido a la mañana siguiente del calambre",
+            "Espasmos o tirones en piernas después de caminar mucho, trabajar de pie o sudar",
+            "Hormigueo o inquietud leve en las piernas al acostarse"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 128,
+                "serving": "3 cápsulas",
+                "usage": "Tomar con alimentos y abundante agua (evitar si hay enfermedad renal o fármacos ahorradores de potasio).",
+                "rationale": "Reúne 500 mg de potasio elemental con citrato de magnesio, calcio y vitamina B6 para equilibrar las señales eléctricas que relajan la fibra muscular de las pantorrillas."
+            },
+            {
+                "id": 181,
+                "serving": "4 cápsulas",
+                "usage": "Tomar repartidas durante el día o concentradas con la cena.",
+                "rationale": "Bisglicinato de magnesio (400 mg elementales) de excelente tolerancia estomacal que permite al músculo soltar la contracción sostenida sin soltar el estómago."
+            },
+            {
+                "id": 47,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Tomar con alimentos como opción enfocada exclusivamente en potasio.",
+                "rationale": "Aporta 240 mg de potasio elemental para prevenir descensos de electrolitos que disparan tirones musculares nocturnos."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 92,
+                "serving": "2 cápsulas",
+                "usage": "Tomar con alimentos si además hay cansancio o pesadez física diaria.",
+                "rationale": "Combina magnesio con ácido málico y vitamina B6 (P-5-P) para apoyar tanto la relajación muscular como la producción de energía en piernas fatigadas."
+            },
+            {
+                "id": 227,
+                "serving": "1 cápsula",
+                "usage": "Tomar por la tarde o noche con agua.",
+                "rationale": "Citrato de magnesio en cápsula sencilla como opción práctica para complementar el consumo diario del mineral."
+            },
+            {
+                "id": 50,
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Tomar con alimentos.",
+                "rationale": "Cloruro de magnesio en cápsula sin sabor amargo tradicional, útil para adultos mayores con rigidez y tirones musculares."
+            },
+            {
+                "id": 4,
+                "serving": "3 cápsulas",
+                "usage": "Tomar con alimentos en el desayuno o comida.",
+                "rationale": "Vitaminas B1, B6 y B12 con extracto de arándano que cuidan la conducción nerviosa hacia los músculos y apoyan la microcirculación de las piernas."
+            },
+            {
+                "id": 238,
+                "serving": "1 tableta",
+                "usage": "Tomar 1 tableta al día con alimento como opción económica.",
+                "rationale": "Combina complejo B básico con 40 mg de magnesio para apoyar casos leves relacionados con cansancio nervioso y muscular."
+            },
+            {
+                "id": 183,
+                "serving": "Aplicación tópica",
+                "usage": "Masajear de tobillos hacia arriba antes de dormir.",
+                "rationale": "Gel con castaño de Indias, hamamelis, ginkgo y salicilato de metilo para relajar pantorrillas pesadas y activar la circulación local antes de acostarse."
+            }
+        ],
+        "lifestyleTips": [
+            "Hacer estiramientos suaves de pantorrilla y talón durante 2 minutos antes de acostarse.",
+            "Mantenerse bien hidratado durante el día y no acostarse con ropa o calcetas que aprieten las piernas.",
+            "Si toma medicamentos para la presión o problemas de riñón, consultar antes de usar suplementos de potasio."
+        ]
+    },
+    {
+        "id": "dolor_cabeza_tensional",
+        "name": "Dolor de Cabeza por Tensión y Estrés",
+        "emoji": "💆",
+        "color": "purple",
+        "description": "El dolor de cabeza por tensión se siente como una banda o presión en la frente, sienes o nuca, casi siempre por estrés, malas posturas frente a pantallas o falta de descanso (a diferencia de la migraña con náuseas o destellos visuales). Estas opciones acompañan la relajación muscular y nerviosa.",
+        "symptoms": [
+            "Presión u opresión sorda en ambos lados de la cabeza o alrededor de la frente",
+            "Rigidez y pesadez simultánea en nuca, cuello y parte alta de los hombros",
+            "Dolor que empeora al final de jornadas largas frente a la computadora o por estrés",
+            "Sin náuseas intensas ni intolerancia severa a la luz como en la migraña"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 163,
+                "serving": "Porción según etiqueta vigente",
+                "usage": "Tomar preferentemente con alimentos al final de la tarde o en días de carga.",
+                "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para bajar la respuesta al estrés y soltar la contractura de cuello y hombros que dispara el dolor de cabeza."
+            },
+            {
+                "id": 94,
+                "serving": "3 cápsulas",
+                "usage": "Tomar 30 a 60 minutos antes de dormir.",
+                "rationale": "Magnesio con L-teanina, glicina y manzanilla para calmar el sistema nervioso sobrecargado y permitir un descanso profundo sin tensión cervical."
+            },
+            {
+                "id": 149,
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Tomar con alimentos durante el día.",
+                "rationale": "Forma de magnesio con buena llegada al cerebro que ayuda a aliviar tensión mental y agotamiento tras horas de concentración."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 181,
+                "serving": "4 cápsulas",
+                "usage": "Tomar repartidas en el día como opción de magnesio solo.",
+                "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos pericraneales y cervicales sin provocar diarrea."
+            },
+            {
+                "id": 169,
+                "serving": "1 taza (1 sobre de 1.5 g)",
+                "usage": "Beber una taza caliente despacio por la tarde o noche.",
+                "rationale": "Infusión tradicional con manzanilla, tila, pasiflora y azahar que invita a relajar el sistema nervioso de forma suave."
+            },
+            {
+                "id": 4,
+                "serving": "3 cápsulas",
+                "usage": "Tomar con alimentos por la mañana.",
+                "rationale": "Complejo B (incluida riboflavina B2) que apoya la energía celular de nervios y músculos en personas con fatiga laboral."
+            },
+            {
+                "id": 167,
+                "serving": "Aplicación tópica en cuello y nuca",
+                "usage": "Aplicar una pequeña cantidad en nuca y hombros tensos (lejos de ojos y mucosas).",
+                "rationale": "Gel con mentol, árnica y salicilato de metilo que alivia la rigidez en trapecios y base del cuello cuando la molestia viene de mala postura."
+            },
+            {
+                "id": 258,
+                "serving": "Aplicación tópica en cuello y nuca",
+                "usage": "Aplicar con masaje suave en base de cuello y espalda alta (evitar cara y ojos).",
+                "rationale": "Calor local con alcanfor, árnica y garra del diablo para destrabar espasmos cervicales que suben hacia la cabeza."
+            }
+        ],
+        "lifestyleTips": [
+            "Hacer pausas de 5 minutos cada hora de pantalla para mover el cuello y descansar la vista.",
+            "Tomar suficiente agua durante la jornada; incluso una deshidratación leve desencadena dolor de cabeza.",
+            "Si el dolor aparece de golpe muy intenso, con fiebre, rigidez severa de cuello o visión doble, acudir a urgencias."
+        ]
+    },
+    {
+        "id": "pano_manchas_piel",
+        "name": "Paño Facial y Manchas en la Piel",
+        "emoji": "✨",
+        "color": "gray",
+        "description": "El paño facial (melasma) y las manchas por exposición al sol o cambios hormonales requieren protección solar diaria estricta como paso indispensable. Estas opciones ofrecen antioxidantes orales que defienden la piel desde adentro y cuidado tópico nocturno para favorecer un tono más parejo.",
+        "symptoms": [
+            "Manchas cafés o grisáceas en mejillas, frente, nariz o labio superior",
+            "Manchas que se oscurecen con rapidez tras salir al sol o frente a calor intenso",
+            "Piel opacada por exposición prolongada al aire libre o luz de pantallas",
+            "Cambios de coloración facial posteriores a embarazo o desajustes hormonales"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 72,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Combina L-glutatión directo y vitamina C antioxidante para proteger las células de la piel del daño oxidativo y favorecer un cutis más luminoso y uniforme."
+            },
+            {
+                "id": 138,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Aporta resveratrol, semilla de uva, asaí y vitamina C para defender el colágeno dérmico y frenar el estrés oxidativo que acentúa manchas por el sol."
+            },
+            {
+                "id": 34,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día junto con una comida que contenga algo de grasa.",
+                "rationale": "Antioxidante marino de 250 mg en cápsula oleosa que actúa como respaldo antioxidante interno ante la radiación ultravioleta y luz visible."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 127,
+                "serving": "1 cápsula (1000 mg)",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Une vitamina C con zinc y pétalos de rosa para apoyar la formación de colágeno y proteger la barrera cutánea frente a agresiones ambientales."
+            },
+            {
+                "id": 116,
+                "serving": "2 cápsulas (1 g)",
+                "usage": "Tomar con alimentos (no duplicar innecesariamente con múltiples antioxidantes si no hace falta).",
+                "rationale": "Precursor directo del glutatión propio del organismo para reforzar la defensa celular frente a radicales libres."
+            },
+            {
+                "id": 239,
+                "serving": "Uso tópico facial",
+                "usage": "Aplicar por la mañana en cara limpia antes de salir; complementar con bloqueador solar de alto FPS.",
+                "rationale": "Crema hidratante con ácido hialurónico, colágeno, goji y filtros solares integrados para cuidar el cutis durante el día."
+            },
+            {
+                "id": 108,
+                "serving": "1 cápsula",
+                "usage": "Tomar con alimentos como alternativa de vitamina C de alta potencia con bioflavonoides.",
+                "rationale": "Aporta 1,000 mg de vitamina C con bioflavonoides y rutina para apoyar la protección antioxidante diaria de la piel."
+            },
+            {
+                "id": 268,
+                "serving": "2 a 4 gotas tópicas",
+                "usage": "Aplicar únicamente en la rutina de NOCHE sobre piel limpia; evitar en acné activo.",
+                "rationale": "Rico en ácidos grasos esenciales y trazas de ácido trans-retinoico natural que ayudan a renovar gradualmente las capas superficiales de la piel durante la noche."
+            }
+        ],
+        "lifestyleTips": [
+            "Usar protector solar de amplio espectro (FPS 50+) todos los días y reaplicar cada 3-4 horas; sin él, las manchas regresan.",
+            "Evitar exponer la cara directamente al calor de estufas, vapor o sol de mediodía, y usar sombrero o gorra.",
+            "No mezclar aceites cítricos ni remedios caseros ácidos en la piel bajo el sol porque queman y manchan más."
+        ]
+    },
+    {
+        "id": "caspa_cuero_cabelludo",
+        "name": "Caspa y Cuero Cabelludo Graso o con Escamas",
+        "emoji": "🧴",
+        "color": "gray",
+        "description": "La caspa y el cuero cabelludo con grasa y escamas se relacionan con exceso de sebo, irritación local y proliferación de levaduras en la piel de la cabeza. Aunque el catálogo no cuenta con champús medicados específicos, estas opciones apoyan la salud de la piel y el equilibrio de grasa e inflamación desde el interior y a nivel tópico puntual.",
+        "symptoms": [
+            "Escamas blancas o amarillentas visibles en cuero cabelludo, cejas o hombros",
+            "Comezón frecuente y sensación de cuero cabelludo graso o irritado",
+            "Enrojecimiento leve en la línea del cabello o detrás de las orejas",
+            "Brotes que aumentan en épocas de estrés o clima frío"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 153,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "El zinc elemental de 20 mg contribuye al equilibrio de las glándulas sebáceas y apoya la reparación y defensas naturales de la piel del cuero cabelludo."
+            },
+            {
+                "id": 129,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Fortalece el equilibrio del intestino y la respuesta inmunitaria de la piel, reduciendo la tendencia a brotes inflamatorios recurrentes."
+            },
+            {
+                "id": 203,
+                "serving": "Aplicación tópica nocturna",
+                "usage": "Aplicar capa ligera solo en zonas de descamación gruesa por las noches durante máximo 4 días seguidos y lavar por la mañana; evitar ojos.",
+                "rationale": "Pomada con ácido salicílico, alquitrán de hulla y extractos herbales que ayudan a ablandar y desprender escamas adheridas mientras calman el prurito."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 123,
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Tomar con alimentos grasos.",
+                "rationale": "Aporta EPA y DHA purificados para ayudar a moderar la inflamación y el enrojecimiento de la piel sensible."
+            },
+            {
+                "id": 152,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Tomar con alimentos si el zinc solo suele caer pesado al estómago.",
+                "rationale": "Aporta los mismos 20 mg de zinc para control de grasa e inmunidad cutánea, suavizado con jengibre digestivo."
+            },
+            {
+                "id": 2,
+                "serving": "1 cápsula",
+                "usage": "Tomar por vía oral con alimentos.",
+                "rationale": "Uso interno de aceite de coco con orégano estandarizado para apoyar el control general de levaduras en el organismo."
+            },
+            {
+                "id": 4,
+                "serving": "3 cápsulas",
+                "usage": "Tomar con alimentos.",
+                "rationale": "Incluye biotina y vitaminas del complejo B necesarias para la renovación saludable del cuero cabelludo y el folículo."
+            }
+        ],
+        "lifestyleTips": [
+            "Lavar el cabello con frecuencia adecuada y alternar con un champú dermatológico para caspa recomendado en farmacia o consulta.",
+            "Evitar rascar con las uñas o aplicar aceites muy grasosos directo en la raíz si el cuero cabelludo es seborreico.",
+            "Manejar el estrés y dormir bien, ya que los desvelos suelen disparar el picor y la descamación."
+        ]
+    },
+    {
+        "id": "piel_muy_seca",
+        "name": "Piel Muy Seca y Resequedad Extrema",
+        "emoji": "💧",
+        "color": "gray",
+        "description": "Cuando la piel pierde humedad y aceites protectores se vuelve áspera, tirante y con descamación fina en piernas, brazos o manos. Estas opciones combinan hidratación profunda desde adentro (colágeno, ácido hialurónico y grasas buenas) con aceites y cremas para sellar la humectación por fuera.",
+        "symptoms": [
+            "Sensación de piel tirante después de bañarse o al estar en clima seco",
+            "Aspecto cenizo, descamación fina o aspereza en espinillas, brazos y codos",
+            "Comezón ligera por falta de lubricación natural de la piel",
+            "Grietas pequeñas en manos o talones por resequedad acumulada"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 126,
+                "serving": "11 g (1 cuchara)",
+                "usage": "Disolver 1 medida en agua o bebida al día.",
+                "rationale": "Suma 500 mg de ácido hialurónico —molécula que retiene agua dentro de la dermis— junto con 10.5 g de colágeno para devolver suavidad y elasticidad desde el interior."
+            },
+            {
+                "id": 18,
+                "serving": "15 g (1 cuchara)",
+                "usage": "Disolver en agua con el desayuno.",
+                "rationale": "Reúne colágeno tipo I, ácido hialurónico, omega-3, aloe vera y vitamina E en una sola toma diaria para nutrir la barrera hidratante de la piel."
+            },
+            {
+                "id": 110,
+                "serving": "1 perla (1200 mg)",
+                "usage": "Tomar 1 perla junto con la comida principal.",
+                "rationale": "Vitamina E en aceite de germen de trigo que protege los lípidos propios de la piel contra la resequedad por viento, frío o edad."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 122,
+                "serving": "1 cápsula (1 g)",
+                "usage": "Tomar con alimentos que contengan grasa.",
+                "rationale": "Ácidos grasos marinos con vitamina E para fortalecer la capa grasa natural que evita que se evapore el agua de la piel."
+            },
+            {
+                "id": 206,
+                "serving": "1 cápsula, 3 veces al día",
+                "usage": "Tomar con las comidas.",
+                "rationale": "Integra omega de pescado con aceites prensados en frío de sacha inchi y linaza para nutrir la suavidad de la piel seca desde adentro."
+            },
+            {
+                "id": 240,
+                "serving": "1 perla al día",
+                "usage": "Tomar con alimentos.",
+                "rationale": "Aporta ácido oleico y polifenoles del aceite de oliva en cápsula práctica para acompañar la nutrición de piel y mucosas secas."
+            },
+            {
+                "id": 268,
+                "serving": "2 a 4 gotas tópicas",
+                "usage": "Aplicar por la noche sobre piel ligeramente húmeda en cara o zonas muy resecas.",
+                "rationale": "Aceite puro prensado en frío rico en ácidos linoleico y linolénico que sella la hidratación y repara zonas agrietadas o ásperas."
+            },
+            {
+                "id": 239,
+                "serving": "Uso tópico",
+                "usage": "Aplicar en rostro y cuello mañana y noche.",
+                "rationale": "Crema con aceite de argán, aguacate, avena, colágeno y ácido hialurónico para suavizar de inmediato la sensación de tirantez facial."
+            },
+            {
+                "id": 15,
+                "serving": "Uso tópico o alimentario",
+                "usage": "Untar poca cantidad en codos, piernas o talones húmedos después del baño.",
+                "rationale": "Emoliente natural sin químicos que forma una película protectora económica sobre brazos y piernas muy resecos."
+            }
+        ],
+        "lifestyleTips": [
+            "Bañarse con agua tibia (no muy caliente) en menos de 10 minutos y usar jabones suaves sin exceso de perfume.",
+            "Aplicar aceite corporal o crema dentro de los 3 minutos posteriores al baño, cuando la piel aún está ligeramente húmeda.",
+            "Tomar agua de forma constante durante el día y revisar tiroides si la resequedad extrema se acompaña de cansancio y frío constante."
+        ]
+    },
+    {
+        "id": "encias_sensibles_inflamadas",
+        "name": "Encías Inflamadas o Sensibles",
+        "emoji": "🦷",
+        "color": "blue",
+        "description": "Las encías rojas, hinchadas o que sangran fácil al cepillarse suelen deberse a acumulación de placa y sarro, cepillado muy fuerte o falta de vitamina C. Estas opciones nutricionales y de enjuague apoyan la firmeza de los tejidos de la boca, pero no sustituyen el cepillado diario ni la limpieza dental profesional para quitar el sarro.",
+        "symptoms": [
+            "Sangrado leve en el cepillo o al usar hilo dental",
+            "Encías enrojecidas, inflamadas o sensibles al tacto",
+            "Mal aliento o sabor desagradable que empeora al despertar",
+            "Molestia leve al masticar alimentos duros o muy calientes"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 127,
+                "serving": "1 cápsula (1000 mg)",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "La vitamina C (300 mg) junto con zinc (10 mg) ayudan a formar colágeno firme en el tejido de las encías y respaldan la cicatrización de microlesiones."
+            },
+            {
+                "id": 101,
+                "serving": "1 cápsula (415 mg)",
+                "usage": "Tomar con alimentos que contengan algo de grasa.",
+                "rationale": "Forma activa de la coenzima Q10 que apoya la energía y reparación de los tejidos delicados de las encías."
+            },
+            {
+                "id": 108,
+                "serving": "1 cápsula",
+                "usage": "Tomar 1 cápsula al día con alimentos.",
+                "rationale": "Dosis alta de vitamina C (1,000 mg) con bioflavonoides y rutina que ayudan a fortalecer los pequeños vasos sanguíneos de las encías para reducir su fragilidad."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 123,
+                "serving": "3 cápsulas (3 g)",
+                "usage": "Tomar con alimentos.",
+                "rationale": "Omega-3 purificado (EPA y DHA) que ayuda a moderar la inflamación crónica en los tejidos de soporte de los dientes."
+            },
+            {
+                "id": 136,
+                "serving": "1 cápsula (500 mg)",
+                "usage": "Tomar con alimentos como alternativa de CoQ10 tradicional.",
+                "rationale": "Aporta 120 mg de coenzima Q10 con vitamina B6 para nutrir el metabolismo y vitalidad del tejido gingival."
+            },
+            {
+                "id": 176,
+                "serving": "1 taza tibia",
+                "usage": "Preparar infusión, dejar entibiar y realizar enjuagues bucales suaves después del cepillado.",
+                "rationale": "Enjuague natural calmante que ayuda a desinflamar y reconfortar encías sensibles sin alcohol ni químicos irritantes."
+            },
+            {
+                "id": 188,
+                "serving": "10 a 20 gotas diluidas en medio vaso de agua tibia",
+                "usage": "Utilizar en enjuagues o buches suaves 1 a 2 veces al día después de lavarse los dientes.",
+                "rationale": "El propóleo ayuda a mantener limpia la superficie de la mucosa bucal y a calmar encías irritadas de forma tradicional."
+            },
+            {
+                "id": 263,
+                "serving": "Uso exclusivo en enjuague bucal sin tragar",
+                "usage": "Hacer buches durante 30 segundos y escupir por completo; nunca tragar ni usar en embarazo, lactancia o niños pequeños.",
+                "rationale": "Solución de plata elemental al 10 ppm empleada exclusivamente para higiene tópica de la boca sin ingerir."
+            }
+        ],
+        "lifestyleTips": [
+            "Usar un cepillo de cerdas suaves sin tallar con fuerza y limpiar entre los dientes con hilo dental diario.",
+            "Acudir al dentista cada 6 meses para limpieza profesional: ningún suplemento elimina el sarro endurecido.",
+            "Si hay pus, dolor de muela intenso, hinchazón en la cara o dientes flojos, ir de inmediato a consulta odontológica."
+        ]
+    },
+    {
+        "id": "hidratacion_electrolitos",
+        "name": "Hidratación y Reposición de Electrolitos",
+        "emoji": "🥤",
+        "color": "orange",
+        "description": "El calor intenso, la sudoración por trabajo o ejercicio y las dietas bajas en carbohidratos hacen perder agua y sales minerales (sodio, potasio y magnesio). Es clave distinguir productos con electrolitos reales de bebidas que solo dan sabor al agua; en diarrea o vómito, usar siempre Suero Vida Oral.",
+        "symptoms": [
+            "Sed intensa, boca seca y orina concentrada o escasa",
+            "Calambres musculares, mareo o debilidad al levantarse tras sudar mucho",
+            "Pérdida de líquidos por calor extremo, deporte o trabajo físico bajo el sol",
+            "Dolor de cabeza y fatiga en personas que toman poca agua simple"
+        ],
+        "comboPrincipal": [
+            {
+                "id": 128,
+                "serving": "3 cápsulas (2.05 g)",
+                "usage": "Con alimentos y un vaso grande de agua (250 ml). Evitar si hay daño en los riñones o si toma espironolactona o medicinas para la presión (enalapril, captopril, losartán); no juntar con #47 y separar 2 horas de antibióticos.",
+                "rationale": "Aporta 500 mg de potasio elemental junto con calcio, vitamina B6 y un aporte ligero de magnesio (~30 mg elementales) para reponer sales minerales perdidas por calor, sudor o dieta baja en harinas."
+            },
+            {
+                "id": 181,
+                "serving": "4 cápsulas al día",
+                "usage": "Con alimentos (p. ej. comida o cena) y abundante agua. Como aporta una dosis completa de 400 mg de magnesio elemental, confirmar riñones sanos, evitar en embarazo/lactancia o <18 años sin médico y separar 2 horas de antibióticos.",
+                "rationale": "Aporta 400 mg de magnesio elemental suave para el estómago para reponer el mineral perdido con el sudor y prevenir calambres y agotamiento sin soltar el vientre."
+            },
+            {
+                "id": 49,
+                "serving": "20 ml",
+                "usage": "Agitar y diluir 20 ml en una jarra o botella con 1 litro de agua fresca para beber durante el día (no aporta sales minerales ni sustituye suero). Consultar si toma warfarina, tiene problemas biliares o sensibilidad leve al matcha.",
+                "rationale": "Concentrado sin azúcar de hierbabuena y menta que hace más agradable el agua natural para ayudar a tomar más líquido al día en personas sanas."
+            }
+        ],
+        "comboSecundario": [
+            {
+                "id": 47,
+                "serving": "3 cápsulas (1.5 g)",
+                "usage": "Con alimentos y un vaso grande de agua, sin juntar con #128. Evitar si hay enfermedad renal, insuficiencia cardíaca o uso de espironolactona, enalapril, captopril o losartán.",
+                "rationale": "Opción enfocada solo en potasio (240 mg elementales) para apoyar el equilibrio de líquidos y prevenir calambres o bajones por calor o dietas bajas en carbohidratos."
+            },
+            {
+                "id": 28,
+                "serving": "100 ml",
+                "usage": "Diluir en agua fresca en ayunas o entre comidas; separar al menos 2 horas de medicamentos orales. OJO: aporta 7 g de azúcar por porción y la sábila puede acelerar el intestino (evitar en diarrea, deshidratación moderada, diabetes sin control o diuréticos); no aporta sales.",
+                "rationale": "Bebida refrescante de sábila y vitamina C para acompañar la ingesta de líquidos en personas sanas con digestión lenta (no repone electrolitos ni sirve como suero)."
+            },
+            {
+                "id": 48,
+                "serving": "15 ml (3 cucharaditas)",
+                "usage": "Diluir 15 ml en un vaso grande o botella de agua fresca durante el día (no aporta sales minerales). Consultar en embarazo, lactancia, problemas de hígado o vesícula, o uso de anticoagulantes.",
+                "rationale": "Alternativa neutra de clorofila líquida rendidora para dar color y frescura al agua natural y ayudar a sostener el hábito de beber líquidos."
+            },
+            {
+                "id": 191,
+                "serving": "1 cucharada medidora (10 g) en 500 ml de agua",
+                "usage": "Disolver en 500 ml de agua fría antes o durante ejercicio intenso y tomar abundante agua simple extra en el día. No usar en niños ni como sustituto de Suero Vida Oral; consultar si hay daño renal/hepático o uso frecuente de antiinflamatorios.",
+                "rationale": "Bebida deportiva sabor lima-limón sin azúcar que sí aporta sodio (~522 mg), potasio (170 mg) y magnesio (61 mg) con sal rosa, minerales naturales y 5 g de creatina para reponer sales al sudar."
+            },
+            {
+                "id": 209,
+                "serving": "1 cucharada medidora (10 g) en 500 ml de agua",
+                "usage": "Disolver en 500 ml de agua fría antes o durante ejercicio intenso y mantener buena hidratación con agua simple en el día. No usar en niños ni como sustituto de Suero Vida Oral; consultar si hay daño renal/hepático o uso frecuente de antiinflamatorios.",
+                "rationale": "Misma fórmula hidratante deportiva sabor fresa-limón sin azúcar con sodio (~523 mg), potasio (~175 mg), magnesio (61 mg), minerales naturales y 5 g de creatina para deporte o sudoración fuerte."
+            }
+        ],
+        "lifestyleTips": [
+            "Beber agua a sorbos constantes todo el día sin esperar a tener mucha sed; distinguir suplementos con sales reales (#128, #47, #181, #191/#209) de bebidas que solo saborizan el agua (#49, #48, #28).",
+            "Si hay mucha sudoración por calor o trabajo físico, añadir una pizca de sal y limón al agua o consumir caldos y frutas frescas ricas en agua y potasio.",
+            "Evitar refrescos muy azucarados, alcohol o exceso de cafeína cuando hace mucho calor porque favorecen la pérdida de líquidos.",
+            "Ante diarrea aguda, vómito seguido, confusión, debilidad extrema o falta de orina, usar Suero Vida Oral de inmediato y buscar atención médica urgente."
+        ],
+        "safetyNote": "Si la deshidratación se debe a diarrea aguda, vómito repetido o afecta a niños pequeños o adultos mayores, usar Suero Vida Oral y acudir al médico; ningún suplemento de esta guía sustituye al suero médico. No juntar #128 Potassium Dual Complex con #47 Citrato de Potasio. Evitar suplementos de potasio si hay enfermedad de los riñones, uso de diuréticos que retienen potasio (espironolactona) o medicinas para la presión como enalapril, captopril o losartán."
     }
 ];

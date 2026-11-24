@@ -3944,6 +3944,31 @@
     #padecimientosCatalog .padecimiento-editorial-product-info { gap: 4px; }
     #padecimientosCatalog .padecimiento-editorial-product-name { padding: 7px 10px; font-size: 1.08rem; line-height: 1.4; }
     #padecimientosCatalog .padecimiento-editorial-product-meta { font-size: 0.98rem; line-height: 1.55; }
+    #padecimientosCatalog .padecimiento-editorial-product-usage {
+        margin-top: 2px;
+        padding-top: 6px;
+        border-top: 1px dashed rgba(var(--guide-accent-rgb), 0.25);
+        font-size: 0.88rem;
+        line-height: 1.5;
+        color: #475569;
+    }
+    #padecimientosCatalog .padecimiento-editorial-product-usage strong { color: #b45309; }
+    #padecimientosCatalog .padecimiento-safety-note {
+        padding: 1rem 1.15rem;
+        border-radius: 1.1rem;
+        border: 1px solid #fcd34d;
+        border-left: 4px solid #d97706;
+        background: #fffbeb;
+        color: #78350f;
+    }
+    #padecimientosCatalog .padecimiento-safety-note .padecimiento-editorial-eyebrow {
+        color: #b45309;
+    }
+    #padecimientosCatalog .padecimiento-safety-note p {
+        margin: 0.35rem 0 0;
+        font-size: 0.9rem;
+        line-height: 1.55;
+    }
     @media (max-width: 480px) {
         #catalogHeader { padding: 16px 12px; }
         #productsPanel, #padecimientosCatalog > div { padding: 12px; }
@@ -4179,6 +4204,15 @@ html.dark-mode body .sidebar-toggle { background: rgb(31 41 55 / 92%); color: #d
     html.dark-mode body .padecimiento-editorial-product-meta strong { color: #f1f5f9 !important; }
     html.dark-mode body .padecimiento-editorial .padecimiento-editorial-product-function { color: #d1d5db !important; }
     html.dark-mode body .padecimiento-editorial .padecimiento-editorial-product-function strong { color: #86efac !important; }
+    html.dark-mode body #padecimientosCatalog .padecimiento-editorial-product-usage { color: #cbd5e1 !important; border-top-color: rgba(255, 255, 255, 0.14) !important; }
+    html.dark-mode body #padecimientosCatalog .padecimiento-editorial-product-usage strong { color: #fbbf24 !important; }
+    html.dark-mode body #padecimientosCatalog .padecimiento-safety-note {
+        background: #2b2316 !important;
+        border-color: #78551f !important;
+        border-left-color: #f59e0b !important;
+        color: #fef3c7 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .padecimiento-safety-note .padecimiento-editorial-eyebrow { color: #fbbf24 !important; }
     html.dark-mode body .padecimiento-editorial .padecimiento-toggle,
     html.dark-mode body #padecimientosCatalog .pad-classification-group > summary .section-toggle {
         background: #3a3a40 !important;

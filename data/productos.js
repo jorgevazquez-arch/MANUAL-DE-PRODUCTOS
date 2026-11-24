@@ -348,9 +348,9 @@ window.manualData.productos = [
     "timing": "Con alimentos que contengan grasas",
     "intakeInstructions": "Tomar 2 cápsulas al día con alimentos que contengan grasas.",
     "benefits": [
-      "Digestión ágil después de comer: la raíz de cúrcuma estimula el flujo biliar para digerir grasas rápidamente sin sentir llenura o pesadez prolongada.",
-      "Alivio de gases e inflamación: calma los retortijones, reduce la distensión abdominal y desinflama las paredes del tracto digestivo de forma natural.",
-      "Aporte antioxidante diario: protege las células del aparato digestivo contra el desgaste oxidativo cotidiano con 1,000 mg de raíz pura en polvo por porción."
+      "Digestión ágil después de comer: la raíz de cúrcuma estimula el flujo biliar para digerir grasas sin sentir llenura o pesadez prolongada.",
+      "Alivio de gases e inflamación: calma los retortijones y desinflama las paredes del tracto digestivo de forma natural.",
+      "Aporte antioxidante diario: protege las células del aparato digestivo contra el desgaste oxidativo cotidiano con 1,000 mg de raíz en polvo por porción."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
     "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que aporten grasas saludables para activar la vesícula biliar y optimizar la absorción de la curcumina.",
@@ -445,16 +445,16 @@ window.manualData.productos = [
     "benefitSummary": "Antioxidante celular, control de glucosa y protección de nervios periféricos",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-ALFA-LIPICO.jpg",
-    "shortDesc": "Ácido alfa lipoico puro en cápsulas para frenar el daño oxidativo, transformar la glucosa en energía celular y eliminar el ardor y entumecimiento en manos y pies.",
+    "shortDesc": "Ácido alfa lipoico (300 mg por porción de 2 cápsulas) para aportar antioxidantes, apoyar el aprovechamiento diario de la glucosa y ayudar a aliviar el ardor o entumecimiento en manos y pies.",
     "ingredients": "Ácido alfa lipóico (ácido tióctico) 300 mg por porción.",
     "serving": "2 cápsulas (300 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
     "benefits": [
-      "Antioxidante universal: protege tanto en medios acuosos como grasos de las células, cuidando los tejidos frente al desgaste oxidativo diario.",
-      "Aprovechamiento de la glucosa: apoya la entrada y uso eficiente del azúcar en las células para transformarla en energía constante.",
-      "Alivio y sensibilidad en terminaciones nerviosas: elimina la sensación de piquetes, ardor y entumecimiento en pies y manos, protegiendo los nervios periféricos en personas con azúcar elevada.",
-      "Regeneración de antioxidantes: ayuda a reactivar otros antioxidantes fundamentales en el organismo como las vitaminas C y E."
+      "Antioxidante versátil: ayuda a proteger las células frente al desgaste oxidativo diario tanto en agua como en grasas.",
+      "Aprovechamiento del azúcar: acompaña la entrada y uso normal de la glucosa en las células para obtener energía cotidiana.",
+      "Alivio de hormigueo y ardor en extremidades: ayuda a disminuir piquetes, ardor y entumecimiento en pies y manos en personas con azúcar elevada.",
+      "Apoyo a otros antioxidantes: colabora en la reutilización de vitaminas antioxidantes como la C y la E."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con deficiencia de tiamina, diabetes, hipoglucemia o bajo tratamiento con antidiabéticos o quimioterápicos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar justo antes o durante las comidas principales ricas en carbohidratos para moderar picos de glucosa y evitar molestias gástricas o acidez.",
@@ -774,24 +774,27 @@ window.manualData.productos = [
     "id": 30,
     "code": "7503025069791",
     "name": "ARTMUUB 1.1 kg",
-    "benefitSummary": "Malteada articular intensiva de 1.1 kg con Colágeno, Cartílago de Tiburón, Glucosamina, Condroitina y Omegas para dolor de rodillas, desgaste y movilidad",
+    "benefitSummary": "Cuidado articular integral y movimiento cómodo",
     "category": "locomotor",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/ARTMUUB_1-1.webp",
     "shortDesc": "Malteada articular completa de 1.1 kg con colágeno, cartílago de tiburón, glucosamina, condroitina y omega-3. Diseñada para personas con desgaste articular severo, dolor en rodillas o caderas al caminar y rechinidos articulares; regenera cartílagos, lubrica articulaciones y aporta 9 g de proteína.",
     "researchNote": {
-      "focus": "Articulaciones y comodidad al moverse",
-      "text": "Cuidado de las articulaciones y comodidad al moverse: la fórmula reúne colágeno, cartílago de tiburón, glucosamina y condroitina dentro de su enfoque articular. En estudios con preparados específicos de colágeno se han observado mejoras en dolor y función de rodilla. La vitamina C ayuda al cuerpo a formar colágeno, mientras que magnesio y vitamina D acompañan el cuidado de huesos y músculos. Omega 3, vitamina E y zinc complementan el cuidado celular, y la fibra queda como apoyo digestivo secundario. Las fuentes permiten conocer las funciones y preparaciones estudiadas de sus ingredientes.",
+      "focus": "Nutrición articular, colágeno y cartílago en la movilidad",
+      "text": "La combinación de colágeno con glucosamina y condroitina aporta los bloques estructurales que componen el tejido conectivo y el líquido sinovial. La vitamina C actúa como cofactor biológico indispensable para la síntesis interna de colágeno, mientras que la vitamina D y el magnesio mantienen la densidad mineral ósea y la contractilidad muscular.",
       "sources": [
         {
-          "title": "Colágeno hidrolizado: ensayo en personas con artrosis de rodilla",
+          "title": "PubMed NIH: colágeno hidrolizado en la funcionalidad articular",
+          "label": "PubMed",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39839727/"
         },
         {
-          "title": "Glucosamina y condroitina: ensayo clínico sobre dolor y función de rodilla",
+          "title": "PubMed NIH: glucosamina y condroitina en el confort de articulaciones",
+          "label": "PubMed",
           "url": "https://pubmed.ncbi.nlm.nih.gov/27477804/"
         },
         {
-          "title": "NIH ODS: vitamina C y formación de colágeno",
+          "title": "NIH ODS: vitamina C en la síntesis de colágeno y tejidos",
+          "label": "NIH ODS",
           "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
         }
       ]
@@ -801,10 +804,10 @@ window.manualData.productos = [
     "timing": "En ayunas o entre comidas",
     "intakeInstructions": "Disolver 30 g (2 cucharadas) en 300-400 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     "benefits": [
-      "Regeneración de cartílago y amortiguación: combina colágeno hidrolizado, cartílago de tiburón, glucosamina y condroitina para reponer el tejido desgastado y evitar el choque hueso con hueso al caminar.",
-      "Fijación ósea y formación de colágeno: la vitamina C activa la síntesis de colágeno nuevo, mientras el magnesio y la vitamina D consolidan la densidad de los huesos.",
-      "Desinflamación profunda con Omega-3: los ácidos grasos EPA y DHA calman la inflamación crónica en articulaciones adoloridas y protegen tendones y ligamentos.",
-      "Nutrición diaria de 9 g de proteína: fortalece la masa muscular que sostiene a las articulaciones y aporta fibra que favorece el tránsito intestinal regular."
+      "Cuidado articular y flexibilidad: combina colágeno, cartílago de tiburón, glucosamina y condroitina para nutrir las articulaciones y favorecer la amortiguación natural en cada paso.",
+      "Formación de colágeno y soporte óseo: la vitamina C ayuda al cuerpo a formar colágeno, mientras que el magnesio y la vitamina D apoyan la fuerza de huesos y músculos.",
+      "Protección celular y movilidad: el omega 3 EPA y DHA junto con la vitamina E y el zinc resguardan los tejidos articulares del desgaste cotidiano.",
+      "Nutrición diaria y digestión: aporta 9 g de proteína para mantener la vitalidad física y fibra que favorece el tránsito intestinal regular."
     ],
     "contraindications": "Personas con alergia a pescados (omega-3), trastornos de coagulación, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar disuelto en agua o bebida vegetal preferentemente junto con el desayuno o una comida principal; la presencia de alimentos optimiza la tolerancia digestiva y la absorción de los nutrientes.",
@@ -953,7 +956,7 @@ window.manualData.productos = [
     "benefitSummary": "Control de glucosa, sensibilidad a la insulina y equilibrio lipídico",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/10/BERBERINE1-1.jpg",
-    "shortDesc": "Berberina HCL pura (1,000 mg) reforzada con zinc para reducir los niveles de glucosa en sangre, mejorar la sensibilidad a la insulina y bajar triglicéridos.",
+    "shortDesc": "Berberina HCl (1,000 mg) reforzada con zinc (1 mg) por porción de 2 cápsulas para acompañar el control del azúcar en sangre, la respuesta a la insulina y el equilibrio de colesterol y triglicéridos.",
     "ingredients": "Por porción de 2 cápsulas (1.01 g): berberina HCL 1,000 mg y zinc 1 mg (procedente de 5 mg de glicinato de zinc).",
     "serving": "2 cápsulas (1.01 g)",
     "timing": "Con alimentos",
@@ -978,23 +981,23 @@ window.manualData.productos = [
     "id": 37,
     "code": "7508304671641",
     "name": "BPASS Bio Life 500 mg",
-    "benefitSummary": "Termogénico natural, quema de grasa y desintoxicación corporal",
+    "benefitSummary": "L-carnitina con tejocote, café verde, toronja, nopal y extractos herbales",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/BPASS1.webp",
-    "shortDesc": "Fórmula termogénica y depurativa con L-carnitina, café verde, tejocote y 7 extractos vegetales para quemar grasa, drenar líquidos retenidos y activar la energía diaria.",
+    "shortDesc": "Fórmula de 1 cápsula al día con L-carnitina y 9 ingredientes vegetales (tejocote, café verde, raíz de lotus, nopal, clorofila, piña, toronja, apio y alcachofa). Revisar medicamentos antes de usar.",
     "ingredients": "L-carnitina, polvo de raíz de India Lotus, Tejocote, Nopal, Café verde, Clorofila, Piña, Toronja, Apio, Alcachofa.",
     "serving": "1 cápsula (500 mg)",
     "timing": "En ayunas",
     "intakeInstructions": "Tomar 1 cápsula al día en ayunas.",
     "benefits": [
-      "Quema de grasas y gasto calórico: la L-carnitina transporta ácidos grasos para convertirlos en energía, complementada con el efecto estimulante suave del café verde.",
-      "Drenaje y eliminación de líquidos retenidos: apio, toronja y alcachofa favorecen la función renal y la eliminación de toxinas, aligerando el cuerpo y reduciendo la hinchazón.",
-      "Digestión y vientre plano: el nopal y la piña aportan fibra y enzimas digestivas que evitan la inflamación estomacal y promueven evacuaciones regulares.",
-      "Depuración profunda con clorofila y raíces: la clorofila, tejocote y raíz de loto de la India barren toxinas estancadas y aceleran el metabolismo lento."
+      "Acompañamiento metabólico diario: la L-carnitina y el café verde se integran en rutinas de control de peso junto con alimentación ordenada y actividad física.",
+      "Drenaje suave y digestión: el apio, la alcachofa, el nopal y la piña acompañan la eliminación de líquidos y una digestión ligera.",
+      "Mezcla botánica variada: suma clorofila, raíz de lotus, toronja y raíz de tejocote en 30 cápsulas de una toma en ayunas.",
+      "Uso con precaución médica: por su contenido de toronja, café verde y tejocote, revisar posibles interacciones antes de tomarlo."
     ],
-    "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
+    "contraindications": "No usar durante el embarazo, lactancia ni en menores de 18 años. Evitar si hay presión alta no controlada, arritmias, problemas del corazón o enfermedad renal o hepática. Consultar al médico si toma medicamentos diarios (contiene toronja y raíz de tejocote).",
     "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno con abundante agua para activar el metabolismo, favorecer el tránsito digestivo y proteger la mucosa gástrica.",
-    "interactions": "El nopal y el café verde pueden reducir los niveles de glucosa; consultar y monitorear si toma medicamentos antidiabéticos. Por sus ingredientes de apoyo diurético, no combinar con diuréticos de prescripción ni fármacos antihipertensivos sin supervisión médica.",
+    "interactions": "Contiene toronja (puede alterar los niveles de estatinas, medicamentos para la presión y sedantes), raíz de tejocote (evitar con medicamentos para el corazón o diuréticos), café verde y nopal (vigilar azúcar si usa antidiabéticos). Separar al menos 2 horas de cualquier medicina.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -1073,7 +1076,7 @@ window.manualData.productos = [
     "benefitSummary": "Control de glucosa postprandial, energía celular y vitalidad",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/CANELA-CROMO1.jpg",
-    "shortDesc": "Fórmula metabólica con canela natural, picolinato de cromo, complejo B y minerales para evitar subidas bruscas de glucosa y mantener energía estable todo el día.",
+    "shortDesc": "Fórmula metabólica con canela natural, picolinato de cromo, vitaminas B1, B2 y B12, vitamina C, vitamina E y minerales para evitar subidas bruscas de glucosa y sostener la energía diaria.",
     "ingredients": "Canela (950 mg), vitamina C (300 mg), potasio (200 mg), fósforo (200 mg), vitamina E (200 mg), calcio (100 mg), hierro (20 mg), vitaminas B1 (15 mg), B2 (14.9 mg), picolinato de cromo (200 mcg), vitamina B12 (12 mcg) por porción.",
     "serving": "2 cápsulas (2 g)",
     "timing": "Con alimentos",
@@ -1093,18 +1096,18 @@ window.manualData.productos = [
     "id": 42,
     "code": "7503025069043",
     "name": "CARA LLUMA",
-    "benefitSummary": "Saciedad natural, control del apetito y reducción de medidas",
+    "benefitSummary": "Saciedad natural y control de antojos sin estimulantes",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/CARALLUMA1.jpg",
-    "shortDesc": "Extracto puro de Caralluma fimbriata (500 mg) en cápsulas para apagar la ansiedad por comer, brindar saciedad prolongada y acelerar la pérdida de medidas.",
+    "shortDesc": "Extracto de Caralluma fimbriata (500 mg por cápsula) sin cafeína ni estimulantes para acompañar la saciedad y ayudar a moderar los antojos entre comidas.",
     "ingredients": "Extracto de Caralluma fimbriata (partes aéreas) 500 mg por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Antes de las comidas",
     "intakeInstructions": "Tomar 1 cápsula al día antes de las comidas principales.",
     "benefits": [
-      "Control del apetito y saciedad prolongada: los glucósidos pregnanos de Caralluma fimbriata actúan a nivel de los centros del hambre para moderar la ansiedad por comer.",
-      "Bloqueo de la acumulación de grasa: apoya el metabolismo inhibiendo enzimas que almacenan lípidos en el tejido adiposo corporal.",
-      "Acompañante ideal de planes de alimentación: facilita el apego a dietas de restricción calórica sin provocar nerviosismo ni insomnio al estar libre de estimulantes agresivos."
+      "Apoyo contra el hambre entre comidas: Caralluma fimbriata se utiliza tradicionalmente para aumentar la sensación de saciedad y respetar mejor las porciones.",
+      "Sin cafeína ni nerviosismo: alternativa vegetal libre de estimulantes, útil para quienes buscan evitar taquicardia o insomnio.",
+      "Toma práctica antes de comer: 1 cápsula diaria acompañada de un vaso de agua antes de la comida principal."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar 20 a 30 minutos antes de la comida principal con un vaso lleno de agua para promover la sensación de saciedad y optimizar el control del apetito.",
@@ -1181,19 +1184,19 @@ window.manualData.productos = [
     "id": 45,
     "code": "7503026253601",
     "name": "CHROMIUM",
-    "benefitSummary": "Uso eficiente de glucosa, quema de grasas y control de antojos",
+    "benefitSummary": "Aporte suave de cromo y L-carnitina para antojos y aprovechamiento de azúcares",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Slides-MarketPlaces4-1_0000s_0001s_0002_Presentacion-blanco.jpg",
-    "shortDesc": "Polinicotinato de cromo con L-carnitina tartrato para optimizar el uso de azúcares, convertir grasas en energía y reducir la ansiedad por antojos dulces.",
+    "shortDesc": "Polinicotinato de cromo (20.32 mcg de cromo elemental) con L-carnitina tartrato (100 mg) por cápsula como complemento suave para el manejo diario de carbohidratos y antojos dulces.",
     "ingredients": "L-carnitina tartrato (100 mg), polinicotinato de cromo (aporte de 20.32 mcg de cromo elemental) por cápsula.",
     "serving": "1 cápsula (400 mg)",
-    "timing": "Con alimentos",
+    "timing": "Antes de las comidas o con el desayuno",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Aprovechamiento de azúcares y carbohidratos: el polinicotinato de cromo asiste al cuerpo en la entrada y uso eficiente de la glucosa en los tejidos.",
-      "Conversión de grasas en energía activa: la L-carnitina tartrato transporta ácidos grasos al interior de las células para utilizarlos como combustible diario.",
-      "Control de la ansiedad por alimentos dulces: ayuda a estabilizar la curva de energía a lo largo de la jornada, moderando los antojos de carbohidratos entre comidas.",
-      "Fórmula de fácil absorción: unión de cromo con ácido nicotínico que asegura una asimilación rápida y suave para el estómago."
+      "Aprovechamiento suave de carbohidratos: aporta 20.32 mcg de cromo elemental para acompañar la acción normal de la insulina con los alimentos.",
+      "Complemento para rutina activa: suma 100 mg de L-carnitina tartrato como apoyo ligero junto con alimentación equilibrada y ejercicio.",
+      "Control cotidiano de antojos dulces: puede ayudar a sobrellevar mejor las ganas de dulce entre comidas dentro de un plan ordenado.",
+      "Fórmula de 1 cápsula al día: presentación sencilla sin cafeína añadida ni megadosis de hierro o vitaminas B (60 cápsulas)."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con diabetes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar 20 a 30 minutos antes de los alimentos o junto con el desayuno para favorecer la utilización de energía y evitar molestias gástricas derivadas del cromo.",
@@ -1213,11 +1216,11 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Disolver 10 g en 200-300 ml de agua, jugo o leche vegetal. Consumir una vez al día.",
     "benefits": [
-      "Dosis potente de magnesio en bebida (500 mg elementales): relaja la musculatura, apoya el sistema nervioso y promueve un tránsito digestivo suave y regular.",
-      "Cuidado de articulaciones y piel: el colágeno hidrolizado aporta aminoácidos que nutren cartílagos, tendones y ligamentos mientras mejora la firmeza de la piel.",
-      "Formato en polvo de disolución fácil: ideal para mezclar en agua natural, jugos o licuados matutinos y disfrutar de una bebida refrescante y nutritiva."
+      "Aporte alto en bebida (500 mg elementales): apoya la relajación de músculos, el sistema nervioso y un tránsito intestinal suave cuando un profesional indica esa cantidad.",
+      "Cuidado de articulaciones y piel: el colágeno hidrolizado (1.5 g) aporta proteínas para cartílagos, tendones, ligamentos y piel.",
+      "Formato en polvo de disolución fácil: práctico para mezclar en agua natural, jugos o licuados, sin exceder la porción indicada."
     ],
-    "contraindications": "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
+    "contraindications": "Aporta 500 mg de magnesio elemental por porción (por encima del límite suplementario diario habitual de 350 mg en adultos): puede provocar heces blandas o diarrea. Evitar sin permiso médico en enfermedad renal grave, trastornos cardíacos, menores de edad o uso de diuréticos, antibióticos o bisfosfonatos.",
     "foodInteractions": "Disolver en agua y tomar junto con alimentos o después de una comida ligera para favorecer su absorción y mitigar un posible efecto laxante o aceleración del tránsito intestinal.",
     "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para no interferir con su absorción. Consultar con el médico si se toman diuréticos o fármacos para la función renal o cardíaca.",
     "packageContent": "500 g"
@@ -1310,14 +1313,14 @@ window.manualData.productos = [
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/cloruro.jpg",
     "shortDesc": "Cápsulas que combinan 240 mg de magnesio elemental con calcio y vitaminas C y D. Diseñadas para disfrutar de todos los beneficios del cloruro de magnesio para calambres y articulaciones sin el sabor metálico del polvo.",
-    "ingredients": "Magnesio elemental (240 mg), vitamina C (10 mg), calcio (4 mg), vitamina D (4 mg – probable error: 4 mcg) por porción.",
+    "ingredients": "Magnesio elemental (240 mg, proveniente de cloruro de magnesio), vitamina C (10 mg), calcio (4 mg), vitamina D (4 mg – probable error de etiqueta: 4 mcg) por porción. Confirmar aporte elemental real en etiqueta física.",
     "serving": "2 cápsulas (1 g)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
     "benefits": [
-      "Músculos relajados sin sabor amargo: evita calambres nocturnos y rigidez muscular con la comodidad de una cápsula suave fácil de pasar.",
-      "Sinergia con vitaminas C, D y calcio: apoya la fortaleza de los huesos, la fijación del calcio y la síntesis de colágeno en articulaciones.",
-      "Disminución del cansancio físico: 240 mg de magnesio elemental que recargan la vitalidad del cuerpo durante jornadas pesadas."
+      "Músculos relajados sin sabor amargo: apoya el descanso muscular y ayuda a prevenir calambres nocturnos en cápsula fácil de tragar.",
+      "Aporte adicional de vitaminas C, D y calcio: añade pequeñas cantidades de vitamina C (10 mg), calcio (4 mg) y vitamina D (confirmar unidad en etiqueta física) como complemento diario.",
+      "Vitalidad física cotidiana: el magnesio ayuda a transformar los alimentos en energía durante jornadas pesadas (confirmar magnesio elemental en la etiqueta vigente)."
     ],
     "contraindications": "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar con las comidas principales, preferentemente con una comida que contenga algo de grasa saludable para favorecer la asimilación de la vitamina D y prevenir molestias gástricas por el magnesio.",
@@ -1328,20 +1331,27 @@ window.manualData.productos = [
     "id": 51,
     "code": "7503021404961",
     "name": "MOROIZY",
-    "benefitSummary": "Hamamelis, ajo y sauce blanco para activar la circulación venosa de retorno, desinflamar várices y desahogar piernas pesadas o hinchadas",
+    "benefitSummary": "Alivio articular herbal y ligereza",
     "category": "locomotor",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/MOROIZY.jpg",
     "shortDesc": "Cápsulas de extracto de hamamelis, corteza de ajo, sauce blanco y vitaminas antioxidantes. Fórmula venotónica diseñada para reactivar la circulación de retorno, desahogar piernas cansadas o hinchadas, desinflamar várices y calmar el dolor punzante en extremidades por mala irrigación.",
     "researchNote": {
-      "focus": "Molestias e inflamación, con cuidado circulatorio complementario",
-      "text": "Apoyo para aliviar molestias y acompañar el cuidado circulatorio: el sauce blanco tiene uso tradicional calmante, analgésico y desinflamatorio, especialmente para molestias articulares leves. Hamamelis y corteza de ajo completan la mezcla de orientación circulatoria. La vitamina C participa en la formación de colágeno para los tejidos, y la vitamina E aporta antioxidantes. B12 y zinc complementan el cuidado nutricional de la fórmula. Las fuentes enlazadas explican los usos tradicionales del sauce y las funciones nutricionales que ayudan a entender el aporte de cada ingrediente.",
+      "focus": "Sauce blanco, salicina y confort articular",
+      "text": "La corteza de sauce blanco (Salix alba) es reconocida por la monografía de la EMA como remedio vegetal tradicional para el alivio del dolor articular leve, atribuido a su contenido de salicina y polifenoles. El hamamelis y el ajo aportan flavonoides que apoyan el tono vascular y la microcirculación, mientras que el zinc y la vitamina C contribuyen a la protección celular y la síntesis de colágeno.",
       "sources": [
         {
-          "title": "EMA: corteza de sauce, usos y precauciones",
+          "title": "EMA: corteza de sauce blanco (Salicis cortex) en el dolor articular leve",
+          "label": "EMA",
           "url": "https://www.ema.europa.eu/en/medicines/herbal/salicis-cortex"
         },
         {
-          "title": "NIH ODS: vitamina C y mantenimiento de tejidos",
+          "title": "PubMed NIH: extracto de corteza de sauce en dolor lumbar y osteoartritis",
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11488583/"
+        },
+        {
+          "title": "NIH ODS: vitamina C en la integridad vascular y tisular",
+          "label": "NIH ODS",
           "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
         }
       ]
@@ -1351,10 +1361,10 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 3 cápsulas al día con alimentos.",
     "benefits": [
-      "Retorno venoso y alivio de várices: el hamamelis aporta flavonoides y taninos venotónicos que fortalecen las paredes de las venas, calmando la pesadez y el ardor en piernas con várices.",
-      "Microcirculación y ligereza en piernas: el extracto de corteza de ajo estimula el flujo sanguíneo y desinflama los capilares, evitando tobillos hinchados y sensación de congestión al final del día.",
-      "Acción desinflamatoria noble: la salicina natural del sauce blanco alivia la inflamación vascular y el dolor pulsátil en piernas fatigadas sin irritar el estómago.",
-      "Firmeza vascular y protección celular: la vitamina C y el zinc fortalecen el colágeno de los conductos sanguíneos, mientras la vitamina E y B12 resguardan las células contra el daño oxidativo."
+      "Alivio herbal tradicional: la corteza de sauce blanco aporta salicina natural para calmar el dolor y la inflamación articular leve de forma noble con el cuerpo.",
+      "Circulación y piernas ligeras: el hamamelis y la corteza de ajo favorecen el flujo sanguíneo para deshinchar extremidades y aliviar la pesadez.",
+      "Protección de tejidos: las vitaminas C y E junto con el zinc defienden las células del desgaste oxidativo y ayudan a mantener los tejidos conectivos firmes.",
+      "Vitalidad y energía: la vitamina B12 complementa la nutrición diaria para evitar el agotamiento físico asociado a molestias corporales constantes."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la aspirina o a los salicilatos, trastornos de coagulación, úlcera gástrica, o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar preferentemente después de los alimentos acompañado de un vaso lleno de agua; la ingesta con comida protege la mucosa gástrica ante los derivados salicilatos del sauce blanco.",
@@ -1416,19 +1426,27 @@ window.manualData.productos = [
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Curcumina1-1.jpg",
     "shortDesc": "Extracto estandarizado de máxima concentración con 1,050 mg de curcuminoides puros al 95%, reforzado con piperina (pimienta negra) para una absorción multiplicada y vitamina C. Diseñado para desinflamar rodillas, dedos, hombros y caderas agarrotadas por artritis o sobreuso.",
     "researchNote": {
-      "focus": "Comodidad y movimiento de las articulaciones",
-      "text": "Comodidad y movimiento de las articulaciones: los curcuminoides se han estudiado por su interés en el alivio de molestias articulares. Algunos ensayos con preparaciones específicas han observado mejoras en dolor y función física de personas con artrosis de rodilla. Esta fórmula combina extracto de cúrcuma al 95 % con vitamina C, que participa en la formación de colágeno, y pimienta negra, que favorece el aprovechamiento de la curcumina. El conjunto de ingredientes orienta la explicación hacia el cuidado articular y el mantenimiento de los tejidos.",
+      "focus": "Curcumina concentrada y articulaciones",
+      "text": "Los curcuminoides estandarizados al 95% ejercen una potente modulación de mediadores proinflamatorios como COX-2 y NF-kB en el tejido sinovial de las articulaciones. La adición de piperina de la pimienta negra incrementa notablemente la absorción entérica de la curcumina, mientras que la vitamina C actúa como antioxidante y cofactor en la síntesis de colágeno.",
       "sources": [
         {
-          "title": "Curcuminoides: ensayo clínico sobre dolor y función en artrosis de rodilla",
+          "title": "PubMed NIH: curcuminoides en dolor y función en osteoartritis de rodilla",
+          "label": "PubMed",
           "url": "https://pubmed.ncbi.nlm.nih.gov/24853120/"
         },
         {
-          "title": "NCCIH: cúrcuma, diferencias entre preparaciones y precauciones",
+          "title": "PubMed NIH: piperina y absorción de curcumina",
+          "label": "PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+        },
+        {
+          "title": "NCCIH / NIH: cúrcuma y articulaciones",
+          "label": "NCCIH",
           "url": "https://www.nccih.nih.gov/health/turmeric"
         },
         {
           "title": "NIH ODS: vitamina C y formación de colágeno",
+          "label": "NIH ODS",
           "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
         }
       ]
@@ -2063,19 +2081,19 @@ window.manualData.productos = [
     "id": 74,
     "code": "7506022814081",
     "name": "GOJI",
-    "benefitSummary": "Antioxidante celular, drenaje de líquidos y activación metabólica",
+    "benefitSummary": "Bayas de goji, pingüica, diente de león, cítricos, clorogénico y BHB",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/GOJI1.jpg",
-    "shortDesc": "Extracto de bayas de Goji con pingüica, diente de león, ácido clorogénico, cítricos y sales BHB para recargar antioxidantes, drenar líquidos y activar el metabolismo cetogénico.",
+    "shortDesc": "Cápsulas con bayas de goji, pingüica, raíz de diente de león, extractos cítricos, ácido clorogénico y sales BHB para aportar antioxidantes, apoyar el drenaje de líquidos y acompañar dietas bajas en carbohidratos.",
     "ingredients": "Bayas de Goji, pingüica, raíz de diente de león, extractos cítricos, ácido clorogénico, BHB.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Quema de grasa y saciedad: el mango africano modula la hormona leptina para reducir el apetito y facilitar la quema de depósitos grasos.",
-      "Antioxidantes protectores con goji: las bayas de goji aportan carotenoides y polisacáridos que protegen las células y elevan la vitalidad.",
-      "Aceleración del ritmo metabólico: el ácido clorogénico y la cafeína del café verde activan la quema de calorías y moderan la absorción de azúcares.",
-      "Fórmula 4 en 1 para la silueta: reúne cuatro superalimentos en prácticas cápsulas para complementar un plan de reducción de medidas."
+      "Antioxidantes diarios con bayas de goji: las bayas de goji aportan carotenoides y polifenoles que ayudan a proteger las células frente al desgaste cotidiano.",
+      "Drenaje suave de líquidos: la pingüica y la raíz de diente de león se usan tradicionalmente para favorecer la eliminación urinaria y aliviar la sensación de retención de líquidos.",
+      "Apoyo con cítricos y ácido clorogénico: acompañan el aprovechamiento normal de carbohidratos y grasas junto con una dieta equilibrada.",
+      "Sales cetónicas BHB en cápsula única: incluye BHB como acompañamiento ligero para planes bajos en carbohidratos (30 cápsulas, 1 al día)."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a frutas de la familia Solanaceae o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar junto con el desayuno o la comida del mediodía con abundante agua para apoyar la digestión y evitar irritación estomacal por sus extractos cítricos y fitonutrientes.",
@@ -2131,9 +2149,9 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 tableta al día con alimentos.",
     "benefits": [
-      "Tránsito intestinal diario: el sen y la cáscara sagrada estimulan suavemente las paredes del colon para lograr evacuaciones puntuales cada mañana.",
-      "Menos cólicos y desinflamación: el hinojo y la menta relajan los músculos digestivos, expulsan gases acumulados y evitan retorcijones dolorosos.",
-      "Alternativa botánica suave y sin químicos irritantes, ideal para personas con digestión perezosa que necesitan una evacuación matutina puntual y sin cólicos."
+      "Tránsito intestinal suave con frutas: la ciruela pasa y el tamarindo aportan fibra y compuestos naturales que atraen agua al intestino para suavizar las evacuaciones.",
+      "Digestión más ligera: la papaya aporta enzimas naturales y la manzana suma fibra soluble que ayuda a reducir la sensación de pesadez.",
+      "Cuidado amable con sábila: la sábila acompaña la regularidad diaria en tabletas prácticas de 1 al día junto con abundante agua."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar con un vaso lleno de agua (250 ml) junto con los alimentos, manteniendo abundante hidratación durante todo el día para permitir que la fibra de ciruela, tamarindo y manzana actúe suavemente y sin pesadez.",
@@ -2229,20 +2247,19 @@ window.manualData.productos = [
     "benefitSummary": "Equilibrio hormonal femenino, regularidad ovárica y sensibilidad a la insulina",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Inositol1.jpg",
-    "shortDesc": "Myo-inositol en prácticas cápsulas para favorecer el equilibrio hormonal femenino, la regularidad del ciclo menstrual y la respuesta saludable a la insulina.",
+    "shortDesc": "Myo-inositol (500 mg) en prácticas cápsulas (pese al nombre comercial en polvo) para acompañar el equilibrio hormonal femenino y el aprovechamiento diario de carbohidratos.",
     "ingredients": "Myo-inositol 500 mg por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Equilibrio hormonal y ovárico: el myo-inositol apoya la función natural de los ovarios, favoreciendo la regularidad del ciclo menstrual y la ovulación saludable.",
-      "Sensibilidad celular a la insulina: actúa como mensajero interno para que el cuerpo procese los carbohidratos y azúcares de forma adecuada.",
-      "Control del síndrome de ovario poliquístico (SOP): frena el acné hormonal, disminuye el vello no deseado y apaga los antojos incontrolables de dulces.",
-      "Serenidad y calma mental: modula los receptores de serotonina en el sistema nervioso, reduciendo la ansiedad por comer y promoviendo un sueño reparador.",
-      "Presentación práctica en cápsulas: porción exacta de 500 mg para llevar consigo y tomar fácilmente a cualquier hora sin preparar bebidas."
+      "Equilibrio ovárico y ciclo femenino: el myo-inositol acompaña la función normal de los ovarios y el cuidado hormonal femenino.",
+      "Apoyo diario a la insulina: participa como mensajero interno para que las células aprovechen mejor los carbohidratos de los alimentos.",
+      "Dosis suave y complementaria (500 mg): 1 cápsula al día aporta una cantidad ligera de mantenimiento; para dosis altas de 2 a 4 g suelen preferirse opciones en polvo o mezclas 40:1.",
+      "Cápsulas cómodas para llevar: envase de 120 cápsulas fácil de tomar con alimentos sin preparar bebidas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan el estado de ánimo deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar junto con alimentos o disuelto en agua con los alimentos para facilitar su absorción celular y evitar leves molestias estomacales.",
+    "foodInteractions": "Tomar la cápsula junto con una comida principal y agua (pese al nombre comercial «Powder», esta presentación viene en cápsulas).",
     "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en pacientes que tomen antidiabéticos (metformina) o psicofármacos (litio, ISRS), consultar a su médico para monitoreo de glucosa y estabilidad, espaciando la toma al menos 2 horas.",
     "packageContent": "120 cápsulas"
   },
@@ -2572,15 +2589,15 @@ window.manualData.productos = [
     "benefitSummary": "Malato de magnesio en cápsulas para aliviar dolor muscular crónico, fibromialgia y fatiga diurna",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesio-Malate1.jpg",
-    "shortDesc": "Cápsulas de malato de magnesio de 1,400 mg. La forma de magnesio de elección para personas con dolor muscular persistente, contracturas de espalda, fibromialgia o cansancio crónico, ya que reactiva la energía celular diurna.",
+    "shortDesc": "Cápsulas con 1,300 mg de malato de magnesio dibásico (200 mg de magnesio elemental), vitamina B6 activa P-5-P (2 mg) y avena (20 mg) por porción de 2 cápsulas. Muy elegido de día para músculos cansados o rígidos sin efecto laxante.",
     "ingredients": "Malato de magnesio dibásico (1300 mg, aporta 200 mg de magnesio elemental), avena (20 mg), vitamina B6 como P-5-P (2 mg) por porción.",
     "serving": "2 cápsulas",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 2 cápsulas al día con alimentos.",
     "benefits": [
-      "Alivio de dolor muscular crónico y rigidez: el ácido málico disuelve la tensión acumulada y calma zonas adoloridas en cuello, hombros y espalda.",
-      "Energía física para todo el día: el malato participa en el ciclo de producción de energía de las células, quitando el cansancio y la pesadez corporal.",
-      "Excelente absorción sin molestias digestivas: sal orgánica que no genera pesadez estomacal y se toma idealmente por la mañana."
+      "Comodidad muscular y menos rigidez: aporta 200 mg de magnesio elemental en forma de malato para relajar músculos tensos en cuello, hombros y espalda.",
+      "Energía de día sin soltar el estómago: el malato participa en la obtención de energía a partir de los alimentos y se tolera bien por la mañana.",
+      "Vitamina B6 activa (P-5-P) y avena: suma 2 mg de B6 para aprovechar nutrientes y 20 mg de avena como acompañante botánico suave."
     ],
     "contraindications": "Consultar a médico en caso de embarazo, lactancia o condiciones médicas.",
     "foodInteractions": "Tomar con el desayuno o la comida del mediodía; el ácido málico participa en la generación de energía celular, por lo que resulta ideal consumirlo con alimentos en la primera mitad del día.",
@@ -2591,10 +2608,10 @@ window.manualData.productos = [
     "id": 93,
     "code": "7500645001453",
     "name": "MAGNESIUM AM 600mg",
-    "benefitSummary": "Magnesio matutino con CoQ10, complejo B y zinc para energía celular y músculos activos",
+    "benefitSummary": "Magnesio y B6 para músculos y actividad diaria",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/Magnesium-Dual1.jpg",
-    "shortDesc": "Fórmula diurna avanzada que combina malato de magnesio con coenzima Q10, zinc y vitaminas del complejo B. Diseñada para activar la mente, recargar la energía desde la mañana y proteger los músculos contra contracturas.",
+    "shortDesc": "Fórmula diurna que combina citrato de magnesio (1,800 mg), bisglicinato de magnesio (500 mg), vitamina B6 (5 mg) e inulina (100 mg) por porción de 4 cápsulas para acompañar músculos y energía diaria sin estimulantes (confirmar magnesio elemental en etiqueta).",
     "researchNote": {
       "focus": "Funcionamiento muscular y aprovechamiento de energía durante el día",
       "text": "Apoyo muscular y aprovechamiento de energía para la actividad diaria: el magnesio ayuda a músculos y nervios a funcionar bien, mientras que la vitamina B6 participa en el uso de los nutrientes. La fórmula AM combina citrato y bisglicinato de magnesio con B6 para acompañar estas funciones durante el día. La inulina añade un aporte secundario de fibra. Su enfoque se entiende desde la nutrición cotidiana, el movimiento y la obtención de energía de los alimentos.",
@@ -2614,10 +2631,9 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 4 cápsulas al día con alimentos.",
     "benefits": [
-      "Energía celular diurna con CoQ10 y complejo B: reactiva la vitalidad celular y combate el cansancio crónico desde la primera hora del día.",
-      "Alivio de contracturas y rigidez: el malato de magnesio afloja músculos tensos y contracturas en cuello, espalda y hombros.",
-      "Protección cardiovascular y cerebral: la CoQ10 apoya la función del corazón y la circulación mientras el magnesio equilibra el pulso.",
-      "Concentración y enfoque sin nerviosismo: el complejo B nutre el sistema nervioso para rendir al máximo en el trabajo o estudio."
+      "Apoyo muscular durante el día: el magnesio del citrato y el bisglicinato ayuda a músculos y nervios a funcionar bien sin provocar somnolencia.",
+      "Aprovechamiento de energía: el magnesio y la vitamina B6 (5 mg) participan en el uso de los nutrientes y la obtención de energía para la actividad cotidiana.",
+      "Con fibra prebiótica suave: la inulina (100 mg) añade un aporte secundario de fibra dentro de 4 cápsulas diarias (120 cápsulas; confirmar magnesio elemental en envase)."
     ],
     "contraindications": "Consultar a médico si se tienen enfermedades renales o se está embarazada.",
     "foodInteractions": "Tomar con las comidas matutinas o del mediodía con un vaso de agua para asegurar excelente tolerancia gástrica y asimilación óptima de ambas fuentes orgánicas de magnesio junto a la fibra prebiótica.",
@@ -2669,7 +2685,7 @@ window.manualData.productos = [
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/03/mango-africano.jpg",
     "shortDesc": "Cápsulas con extracto estandarizado de semilla de mango africano, ácido clorogénico, diente de león, pingüica y sales BHB para acelerar el metabolismo, controlar la saciedad y drenar líquidos.",
-    "ingredients": "Mango africano (150 mg), pinguica (75 mg), diente de león (75 mg), ácido clorogénico (75 mg), extractos cítricos (50 mg), BHB (50 mg) por cápsula.",
+    "ingredients": "Mango africano (150 mg), pingüica (75 mg), diente de león (75 mg), ácido clorogénico (75 mg), extractos cítricos (50 mg), BHB (50 mg) por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
@@ -2862,7 +2878,7 @@ window.manualData.productos = [
     "benefitSummary": "Vinagre con la 'madre' viva para digestión, pH y saciedad natural",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/ManzanaVinagre.jpg",
-    "shortDesc": "Vinagre de sidra de manzana crudo y sin filtrar, con auténtica 'madre' viva y 5% de acidez para acelerar la digestión pesada, frenar picos de azúcar y quemar grasa.",
+    "shortDesc": "Vinagre de sidra de manzana crudo y sin filtrar, con «madre» viva y 5% de acidez para apoyar digestiones pesadas, suavizar subidas de azúcar después de comer y ayudar a sentir saciedad.",
     "ingredients": "Vinagre de sidra de manzana (ácido acético natural 5%) con la 'madre'.",
     "serving": "15 ml (1 cucharada sopera)",
     "timing": "Antes de las comidas principales",
@@ -3135,21 +3151,21 @@ window.manualData.productos = [
     "id": 114,
     "code": "7503021404725",
     "name": "XIMO",
-    "benefitSummary": "Depuración con tejocote, fibra digestiva y nutrición celular",
+    "benefitSummary": "Espirulina, raíz de tejocote, piña, nopal y vitaminas A y C en cápsulas",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/04/Ximo-1.jpg",
-    "shortDesc": "Complejo herbolario con wereke, neem, fenogreco y caralluma para regular los niveles de glucosa en sangre, frenar la ansiedad por comer dulces y limpiar la sangre.",
+    "shortDesc": "Fórmula en 30 cápsulas con espirulina (140 mg), raíz de tejocote (120 mg), piña (70 mg), nopal (70 mg), vitamina C (50 mg) y vitamina A (900 mcg) para acompañar el tránsito digestivo y planes de control de peso.",
     "ingredients": "Espirulina (140 mg), raíz de tejocote (120 mg), piña (70 mg), nopal (70 mg), vitamina C (50 mg), vitamina A (900 mcg) por cápsula.",
     "serving": "1 cápsula (450 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Control natural de la glucosa: el wereke y el neem estimulan la captación celular de azúcar, reduciendo las cifras elevadas en sangre tras las comidas.",
-      "Modera el apetito y los antojos: el extracto de fenogreco y la caralluma prolongan la saciedad, reduciendo el deseo continuo de comer dulces.",
-      "Protección antioxidante de tejidos: aporta fitonutrientes que defienden las células frente al daño causado por los niveles elevados de azúcar en la sangre.",
-      "Fórmula botánica cuádruple: reúne cuatro de las plantas más empleadas en el control glucémico en prácticas tabletas para tomar antes de comer."
+      "Nutrición verde con espirulina: aporta proteína vegetal, clorofila y micronutrientes (140 mg) como complemento en planes ligeros.",
+      "Fibra y ligereza digestiva: el nopal (70 mg) y la piña (70 mg) aportan fibra y componentes frutales para apoyar el tránsito intestinal.",
+      "Raíz de tejocote tradicional: incluye 120 mg de raíz de tejocote usada en herbolaria para planes de control de medidas (seguir precauciones de uso).",
+      "Vitaminas C y A en 1 cápsula al día: complementa con 50 mg de vitamina C y 900 mcg de vitamina A como antioxidantes diarios."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
+    "contraindications": "Contraindicado en embarazo, lactancia y menores de 18 años. Evitar si hay problemas del corazón, arritmias, presión arterial descontrolada o enfermedad renal o hepática. Consultar antes si toma medicamentos cardíacos, diuréticos, anticoagulantes o antidiabéticos.",
     "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno o con la comida matutina, acompañado de abundante agua durante el día para favorecer la fibra del nopal y tejocote y asimilar la vitamina A.",
     "interactions": "El tejocote y el nopal tienen efecto hipoglucemiante y diurético; consultar y monitorear si se toman medicamentos antidiabéticos (insulina, metformina) o antihipertensivos. Espaciar al menos 2 horas de cualquier medicación.",
     "packageContent": "30 cápsulas"
@@ -3216,21 +3232,21 @@ window.manualData.productos = [
     "id": 117,
     "code": "7500645000869",
     "name": "NAD + Resveratrol",
-    "benefitSummary": "Energía celular profunda, vitalidad y antienvejecimiento",
+    "benefitSummary": "NAD, resveratrol y baya de acai para energía diaria y cuidado celular",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2024/02/nad.jpg",
-    "shortDesc": "NAD combinado con trans-resveratrol puro y bayas de acai en cápsulas vegetales para reactivar la energía celular profunda y brindar protección antienvejecimiento.",
+    "shortDesc": "Cápsulas con NAD (300 mg), resveratrol (50 mg) y baya de acai (50 mg) para apoyar la producción cotidiana de energía en las células y sumar antioxidantes diarios.",
     "ingredients": "NAD (300 mg), estearato de magnesio (100 mg), resveratrol (50 mg), baya de acai (50 mg) por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Energía celular y vitalidad activa: el NAD reactiva la producción de energía en todas las células del cuerpo para vencer la fatiga física y mental.",
-      "Protección celular antienvejecimiento: el trans-resveratrol y el acai defienden los tejidos del desgaste prematuro y apoyan la longevidad y firmeza de la piel.",
-      "Fórmula en cápsulas vegetales: rápida asimilación matutina para recargar el cuerpo desde la primera toma del día."
+      "Apoyo a la energía diaria: el NAD (300 mg) participa en las reacciones naturales que convierten los alimentos en energía útil para el organismo.",
+      "Antioxidantes vegetales con resveratrol y acai: aportan polifenoles que ayudan a proteger las células frente al desgaste oxidativo diario.",
+      "Presentación práctica de 90 cápsulas: toma sencilla de 1 cápsula al día junto con alimentos que contengan algo de grasa."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos que afectan la presión arterial deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar junto con una comida que contenga algo de grasas saludables (yogur, aguacate, aceite de oliva o frutos secos) para maximizar la biodisponibilidad del resveratrol, compuesto liposoluble.",
+    "foodInteractions": "Tomar junto con una comida que contenga algo de grasas saludables (yogur, aguacate, aceite de oliva o frutos secos) para favorecer la absorción del resveratrol.",
     "interactions": "El resveratrol puede inhibir ciertas enzimas hepáticas (CYP450) y presentar un leve efecto sobre la agregación plaquetaria; consultar si toma medicamentos anticoagulantes, antihipertensivos o fármacos metabolizados por el hígado. Espaciar al menos 2 horas.",
     "packageContent": "90 cápsulas"
   },
@@ -3261,19 +3277,18 @@ window.manualData.productos = [
     "id": 119,
     "code": "7500645001354",
     "name": "NMN ADVANCED RESVERATROL",
-    "benefitSummary": "Activación de sirtuinas, energía celular y vitalidad antienvejecimiento",
+    "benefitSummary": "NMN con trans-resveratrol, astrágalo, quercetina y pimienta negra para energía celular",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2025/09/NMN-1.png",
-    "shortDesc": "Fórmula avanzada de longevidad celular con NMN puro (300 mg), trans-resveratrol, quercetina, astrágalo y pimienta negra para estimular la energía celular y la vitalidad integral.",
+    "shortDesc": "Cápsulas con NMN (300 mg), trans-resveratrol (100 mg), astrágalo (100 mg), quercetina (45 mg) y extracto de pimienta negra (5 mg) para apoyar la vitalidad energética diaria y la protección celular.",
     "ingredients": "β-Nicotinamida mononucleótido (NMN) 300 mg, trans-resveratrol 100 mg, astrágalo 100 mg, quercetina 45 mg, extracto de pimienta negra 5 mg por cápsula.",
     "serving": "1 cápsula (550 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Mononucleótido de nicotinamida de alta pureza: aporta NMN auténtico para reponer los niveles celulares de NAD+ que descienden naturalmente con los años.",
-      "Activación de sirtuinas con trans-resveratrol: estimula las enzimas de longevidad para multiplicar la producción de energía celular y revertir el envejecimiento biológico.",
-      "Sinergia antienvejecimiento con trans-resveratrol: estimula las enzimas sirtuinas para acelerar la reparación del ADN, rejuvenecer arterias y multiplicar la energía física.",
-      "Formulación avanzada para la vitalidad: diseñado para personas que buscan un enfoque de vanguardia para retrasar el envejecimiento celular y revitalizar su energía."
+      "Precursor directo de NAD+: aporta 300 mg de NMN (β-nicotinamida mononucleótido) para acompañar los procesos diarios de energía celular.",
+      "Polifenoles con trans-resveratrol y quercetina: reúne 100 mg de trans-resveratrol y 45 mg de quercetina para ayudar a defender las células del desgaste oxidativo.",
+      "Respaldo herbal con astrágalo y pimienta negra: el astrágalo (100 mg) acompaña la vitalidad general y el extracto de pimienta negra (5 mg) facilita la absorción de la fórmula."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar por la mañana junto con el desayuno que incluya grasas saludables (huevo, aguacate o lácteos) para maximizar la absorción del trans-resveratrol y la quercetina.",
@@ -3350,10 +3365,10 @@ window.manualData.productos = [
     "id": 124,
     "code": "7500645000807",
     "name": "ON-C-LEN",
-    "benefitSummary": "Apoyo oncológico y depuración celular profunda con hongos Reishi, Shiitake y guanábana",
+    "benefitSummary": "Hongos medicinales y plantas para la alimentación y el bienestar digestivo",
     "category": "inmune",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/06/Productos7_0005s_0002_Presentacion-blanco.jpg",
-    "shortDesc": "Fórmula de apoyo oncológico con Reishi, Shiitake y guanábana: potencia las defensas, depura el hígado y protege las células durante tratamientos agresivos.",
+    "shortDesc": "Mezcla de hongos y plantas con extractos de Reishi, Shiitake, té verde, diente de león, jengibre, ajo y guanábana para complementar la alimentación y favorecer el bienestar digestivo, diurético y hepatobiliar.",
     "researchNote": {
       "text": "Complemento de hongos y plantas para la alimentación y el bienestar digestivo: reishi y shiitake aportan componentes propios de los hongos, como beta-glucanos; té verde y ajo complementan el aporte de antioxidantes. El diente de león acompaña el uso tradicional digestivo, diurético y hepatobiliar. En modelos experimentales, extractos específicos de algunos de estos ingredientes se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Este apartado describe investigación sobre ingredientes con preparaciones y concentraciones definidas. Su incorporación durante tratamiento oncológico requiere revisión del oncólogo.",
       "sources": [
@@ -3381,15 +3396,17 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 2 tabletas al día con alimentos.",
     "benefits": [
-      "Defensas celulares activas: los beta-glucanos de los hongos Reishi y Shiitake estimulan a las células protectoras para defender el organismo con firmeza.",
-      "Depuración hepática y digestiva: el diente de león y el jengibre facilitan la eliminación de toxinas metabólicas y desinflaman el sistema digestivo.",
-      "Protección antioxidante profunda: aporta flavonoides y polifenoles botánicos que neutralizan radicales libres y combaten el envejecimiento celular.",
-      "Fórmula líquida concentrada: presentación en gotas de rápida asimilación estomacal, fácil de diluir en agua para una toma diaria práctica.",
-      "Apoyo nutricional en tratamiento oncológico: Reishi, Shiitake y guanábana aportan los antioxidantes y beta-glucanos que el cuerpo necesita durante quimioterapia o radioterapia para mantener defensas activas y reducir el daño oxidativo. Siempre bajo supervisión del oncólogo."
+      "Aporte de hongos: reishi y shiitake contienen componentes naturales como beta-glucanos y complementan la mezcla alimentaria.",
+      "Compuestos antioxidantes: té verde y ajo aportan componentes vegetales a la fórmula.",
+      "Bienestar digestivo: jengibre y diente de león se usan tradicionalmente para acompañar la comodidad del estómago.",
+      "Apoyo diurético: el diente de león se usa tradicionalmente para favorecer la eliminación de orina.",
+      "Apoyo hepatobiliar: el diente de león tiene uso tradicional para favorecer la secreción de bilis, que participa en la digestión de las grasas.",
+      "Investigación de sus ingredientes: en modelos experimentales, extractos específicos de diente de león, té verde, reishi y guanábana se han investigado por sus efectos sobre el crecimiento y la muerte celular programada, incluida la apoptosis, de células cancerosas. Estos hallazgos corresponden a ingredientes con preparaciones y concentraciones definidas; su incorporación durante tratamiento requiere revisión del oncólogo.",
+      "Complemento vegetal: polen de flores y guanábana completan la mezcla de ingredientes."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud. Por el diente de león, no usar sin valoración médica si hay cálculos u obstrucción de las vías biliares, enfermedad del hígado o indicación de restringir líquidos.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud. Por el diente de León, no usar sin valoración médica si hay cálculos u obstrucción de las vías biliares, enfermedad del hígado o indicación de restringir líquidos.",
     "foodInteractions": "Tomar preferentemente con alimentos del desayuno o la comida para asegurar una excelente tolerancia gástrica ante los extractos vegetales concentrados.",
-    "interactions": "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no consumir sin autorización expresa del oncólogo, ya que sus antioxidantes y extractos activos pueden interferir con la eficacia de las terapias. Consultar también si toma anticoagulantes, inmunosupresores, antidiabéticos o diuréticos.",
+    "interactions": "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no iniciar este suplemento sin revisión del oncólogo, ya que sus antioxidantes y extractos activos pueden interferir con la eficacia de las terapias. Consultar también si toma anticoagulantes, inmunosupresores, antidiabéticos o diuréticos.",
     "packageContent": "60 tabletas"
   },
   {
@@ -3611,16 +3628,16 @@ window.manualData.productos = [
     "benefitSummary": "Fórmula 11 en 1: termogénico, saciedad, digestión y vientre plano",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PROBITY-RENDER-V2-AGOSTO2026.jpeg",
-    "shortDesc": "Fórmula intensiva 11 en 1 con té verde, acetil L-carnitina, chá de bugre, cromo, alcachofa, enzimas y vinagre para quemar grasa, desinflamar el vientre y mejorar la digestión.",
+    "shortDesc": "Fórmula 11 en 1 con té verde, acetil L-carnitina, chá de bugre, cromo, alcachofa, papaína, vinagre y frutas (cantidades individuales no detalladas) para acompañar planes de control de peso y digestión ligera.",
     "ingredients": "Acetil L-carnitina, extracto de té verde, chá de bugre, vinagre de manzana, alcachofa, papaína, ciruela pasa, jamaica, lúpulo, espirulina, cromo (cantidades no especificadas).",
     "serving": "1 cápsula (750 mg, aunque el nombre indica 600 mg)",
-    "timing": "Con alimentos",
+    "timing": "20 a 30 minutos antes del desayuno o comida",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos.",
     "benefits": [
-      "Quema de grasa y aceleración metabólica: la acetil L-carnitina, el extracto de té verde y el chá de bugre activan el gasto de calorías y la conversión de grasa acumulada en energía.",
-      "Control de glucosa y antojos con cromo: el cromo ayuda al cuerpo a procesar mejor los carbohidratos, disminuyendo la ansiedad por picar alimentos dulces entre comidas.",
-      "Digestión ligera y desinflamación: la papaína facilita la digestión de proteínas pesadas, mientras la alcachofa, ciruela pasa y vinagre de manzana evitan la pesadez y el tránsito lento.",
-      "Drenaje de líquidos y balance con jamaica y lúpulo: la flor de jamaica promueve la eliminación de líquidos retenidos, mientras el lúpulo y la espirulina brindan calma estomacal y nutrición mineral."
+      "Acompañamiento metabólico diario: reúne acetil L-carnitina, extracto de té verde y chá de bugre junto con actividad física y dieta ordenada.",
+      "Apoyo a antojos con cromo y vinagre de manzana: ayuda a manejar mejor el consumo de carbohidratos dentro de un plan equilibrado.",
+      "Digestión ligera con alcachofa, papaína y ciruela: apoya la digestión de proteínas y grasas y el movimiento intestinal suave.",
+      "Drenaje ligero con jamaica, lúpulo y espirulina: complementa el manejo de líquidos retenidos en 1 cápsula por la mañana."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno o del almuerzo con un vaso de agua para favorecer la función termogénica y digestiva. Evitar por la tarde o noche para no alterar el descanso debido al té verde.",
@@ -3958,7 +3975,7 @@ window.manualData.productos = [
     "id": 145,
     "code": "7500645001484",
     "name": "SOY LECITHIN + CHOLINE",
-    "benefitSummary": "Metabolismo de grasas, hígado limpio y memoria",
+    "benefitSummary": "Cuidado celular, metabolismo de las grasas y apoyo a la memoria",
     "category": "clinico",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/05/SOY-LECITIN1.jpg",
     "shortDesc": "Lecitina de soya pura y colina con jengibre e inulina para disolver grasas en el hígado, limpiar arterias y acelerar la memoria y concentración.",
@@ -4027,21 +4044,21 @@ window.manualData.productos = [
     "id": 147,
     "code": "7503024065572",
     "name": "TIAMINA 3000 ALEXYAC",
-    "benefitSummary": "Energía inmediata, enfoque mental y despeje de la somnolencia",
+    "benefitSummary": "Energía rápida con tiamina B1, cafeína, guaraná, CoQ10, vitaminas E/B9 y jalea real",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TIAMINA-ALEXYAC.webp",
-    "shortDesc": "Comprimidos energéticos con vitamina B1 (tiamina), cafeína natural, guaraná, jalea real y CoQ10 para disipar el sueño, mejorar la concentración y brindar energía inmediata.",
+    "shortDesc": "Tabletas energéticas con vitamina B1 (tiamina), vitamina E, ácido fólico, CoQ10, cafeína, guaraná, jalea real, polen, miel, lecitina de soya, calcio y magnesio para despejar el sueño y dar empuje diurno.",
     "ingredients": "Vitamina B1 (tiamina), vitamina E, ácido fólico, CoQ10, cafeína, jalea real, polen de flores, lecitina de soya, miel de abeja, guaraná, gluconato de calcio, sulfato de magnesio.",
     "serving": "1-2 tabletas (500 mg c/u)",
     "timing": "Según indicación",
     "intakeInstructions": "Tomar de 1 a 2 tabletas al día.",
     "benefits": [
-      "Alerta mental y enfoque inmediato: la combinación de cafeína pura y extracto de guaraná ayuda a despejar la mente, eliminar la pesadez y mejorar la concentración.",
-      "Fuerza física y resistencia con tiamina y CoQ10: la vitamina B1 y la coenzima Q10 reactivan los procesos de producción de energía para evitar la sensación de debilidad.",
-      "Nutrición natural con jalea real, polen y miel: aportan aminoácidos, minerales y enzimas que nutren el cuerpo en momentos de desgaste laboral o escolar.",
-      "Relajación muscular con calcio y magnesio: equilibran la respuesta física frente a la cafeína, evitando tensión muscular o nerviosismo."
+      "Alerta mental inmediata: la cafeína y el guaraná ayudan a despejar la somnolencia y sostener el enfoque por la mañana.",
+      "Energía con vitamina B1 y CoQ10: apoyan el aprovechamiento de nutrientes para sobrellevar el cansancio físico diurno.",
+      "Vitaminas E, ácido fólico y jalea real con polen y miel: complementan la nutrición diaria junto con lecitina de soya.",
+      "Calcio y magnesio minerales: acompañan el aporte mineral diario en tabletas de 1 a 2 al día (evitar por la tarde o noche)."
     ],
-    "contraindications": "No se use durante el embarazo y lactancia. Contiene cafeína y guaraná, evitar en personas sensibles. Consultar a médico si se tiene intolerancia a los ingredientes.",
+    "contraindications": "No usar durante el embarazo, lactancia ni en menores de edad. Evitar si hay alergia a productos de abeja (jalea real, polen, miel) o a la soya. Contiene cafeína y guaraná: evitar en hipertensión no controlada, arritmias o sensibilidad a estimulantes.",
     "foodInteractions": "Tomar por la mañana con el desayuno que contenga grasas saludables (para aprovechar la vitamina E y CoQ10). Evitar tomar por la tarde o noche debido al contenido de cafeína y guaraná para no perturbar el descanso.",
     "interactions": "Contiene estimulantes (cafeína, guaraná) y minerales; evitar combinar con otros estimulantes, descongestionantes o en personas con hipertensión descontrolada. Por el calcio y magnesio, espaciar al menos 2 horas de antibióticos.",
     "packageContent": "100 tabletas"
@@ -4968,7 +4985,7 @@ window.manualData.productos = [
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     "foodInteractions": "Tomar preferentemente con una comida que contenga algo de grasas saludables (como aguacate o aceite de oliva) para mejorar sustancialmente la absorción intestinal de la quercetina.",
-    "interactions": "Consultar con el médico si se toman antibióticos (como quinolonas), anticoagulantes o antiagregantes plaquetarios, ya que la bromelina y la quercetina pueden potenciar el efecto antiplaquetario y alterar la absorción de ciertos fármacos.",
+    "interactions": "Consultar con el médico si se toman antibióticos (como quinolonas), anticoagulantes o antiagregantes plaquetarios, ya que la quercetina puede potenciar el efecto antiplaquetario y alterar la absorción de ciertos fármacos.",
     "researchNote": {
       "focus": "Quercetina como modulador de la respuesta alérgica y antioxidante vascular",
       "text": "Acción biológica del flavonoide quercetina: la quercetina ejerce un efecto estabilizador sobre la membrana de mastocitos y basófilos, regulando la degranulación y liberación de histamina mediada por alérgenos ambientales. Asimismo, inhibe enzimas proinflamatorias como la lipoxigenasa y fosfolipasa A2, protegiendo el epitelio respiratorio y la elasticidad microvascular.",
@@ -5029,16 +5046,16 @@ window.manualData.productos = [
     "benefitSummary": "Inositol puro en polvo para salud ovárica, balance hormonal y glucosa",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ZN-PURE-INOSITOL-RENDER-V2-AGOSTO2026.jpeg",
-    "shortDesc": "Myo-inositol 100% puro en polvo sin sabor para corregir el ciclo menstrual en SOP, reactivar la ovulación y controlar la resistencia a la insulina.",
+    "shortDesc": "Inositol 100 % puro en polvo sin sabor (envase de 50 g para 10 días a 5 g/día) para acompañar el aprovechamiento normal de azúcares y el cuidado ovárico en bebida diaria.",
     "ingredients": "Inositol (100% puro).",
     "serving": "5 g al día (1 cucharadita)",
     "timing": "Preferentemente acompañado de algún alimento",
     "intakeInstructions": "Disolver 5 g (aproximadamente una cucharadita) en un vaso de agua, jugo o bebida de tu preferencia. Consumir 1 vez al día, preferentemente acompañado de algún alimento. No exceder la porción diaria recomendada.",
     "benefits": [
-      "Salud ovárica y ciclo menstrual: apoya la regulación natural de las hormonas femeninas y la ovulación en mujeres que buscan regularizar sus periodos.",
-      "Sensibilidad a la insulina y quema de azúcar: mejora la captación de glucosa en las células, reduciendo los antojos incontrolables de carbohidratos y facilitando la pérdida de grasa.",
-      "Puro myo-inositol sin saborizantes: polvo fino y neutro que se disuelve con rapidez en agua, jugos o té sin modificar el sabor de tus bebidas.",
-      "Presentación en polvo rendidora: permite dosificar con precisión la porción diaria recomendada según las necesidades de cada etapa."
+      "Cuidado ovárico y hormonal: el inositol participa en señales celulares relacionadas con la función de los ovarios y el equilibrio femenino.",
+      "Respuesta saludable a los carbohidratos: ayuda a que las células utilicen mejor el azúcar de los alimentos y modera los antojos dulces.",
+      "Polvo puro sin saborizantes: se disuelve fácilmente en agua, té o jugo sin alterar el sabor ni añadir endulzantes.",
+      "Presentación de 50 g (10 tomas): incluye porción diaria exacta de 5 g al día para usar con alimentos (no exceder la porción indicada)."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
     "foodInteractions": "Disolver la porción en agua, jugo o té y consumir junto con o justo antes de las comidas principales para favorecer la regulación de glucosa y su asimilación digestiva.",
@@ -5049,10 +5066,10 @@ window.manualData.productos = [
     "id": 181,
     "code": "7500645001606",
     "name": "MAGNESIUM BISGLYCINATE",
-    "benefitSummary": "Bisglicinato de magnesio de 400 mg con inulina para máxima absorción sin efecto laxante",
+    "benefitSummary": "Bisglicinato de magnesio (400 mg elementales) con inulina suave para el estómago",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/BISGLICINATO-MAGNESIO.png",
-    "shortDesc": "Cápsulas de bisglicinato de magnesio quelado con 400 mg de magnesio elemental e inulina de agave. La forma de magnesio más noble y de mayor absorción, perfecta para personas con estómago delicado o colon irritable.",
+    "shortDesc": "Cápsulas de bisglicinato de magnesio con 400 mg de magnesio elemental e inulina de agave (20 mg). Opción muy bien tolerada por estómagos delicados sin provocar diarrea.",
     "ingredients": "Bisglicinato de magnesio (aporta 400 mg de magnesio elemental por porción), inulina de agave (20 mg).",
     "serving": "4 cápsulas al día",
     "timing": "Preferentemente con alimentos",
@@ -5062,9 +5079,9 @@ window.manualData.productos = [
       "400 mg de magnesio elemental completo: dosis clínica integral para relajar el sistema neuromuscular, calmar la tensión y disminuir la fatiga diaria.",
       "Con inulina de agave: fibra prebiótica soluble que protege la microbiota intestinal y optimiza el paso de nutrientes."
     ],
-    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
+    "contraindications": "Consultar antes al médico si hay enfermedad de los riñones, ya que aporta 400 mg de magnesio elemental (encima del límite suplementario habitual de 350 mg al día). No consumir durante el embarazo, lactancia ni en menores de 18 años sin supervisión.",
     "foodInteractions": "Tomar junto con la cena o con un refrigerio nocturno ligero; el bisglicinato tiene excelente tolerancia gástrica y la glicina apoya la relajación y el descanso nocturno.",
-    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para evitar que el magnesio interfiera en su biodisponibilidad. En caso de tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para evitar que el magnesio reduzca su absorción. En caso de tratamiento médico continuo o enfermedad renal, consultar con su médico antes de usarlo.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -5339,19 +5356,19 @@ window.manualData.productos = [
     "id": 190,
     "code": "7502214011542",
     "name": "DEMOGRASS LX+",
-    "benefitSummary": "Cápsulas con ciruela, linaza, piña y aguaje para activar el tránsito intestinal perezoso y depurar",
+    "benefitSummary": "Tabletas con forskolina, ciruela, tamarindo, inulina, papaya, nopal y linaza para el tránsito lento",
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASS-LX.png",
-    "shortDesc": "La versión más digestiva y específica de la familia Demograss, enriquecida con extracto de ciruela pasa, linaza canadiense, piña y aguaje peruano. Pensada para personas con tránsito intestinal muy lento, digestión pesada y abdomen abultado que necesitan una ayuda efectiva y natural para evacuar todos los días.",
+    "shortDesc": "Fórmula de la línea Demograss sin cafeína con forskolina, ciruela pasa, tamarindo, inulina, papaya, nopal y linaza en tabletas para apoyar evacuaciones regulares y reducir pesadez.",
     "ingredients": "Forskolina (Extracto de la raíz de Coleus forskohlii), Fruto de Ciruela (Prunus domestica), Fruto de Tamarindo (Tamarindus indica), Inulina (Fibra prebiótica), Fruto de Papaya (Carica papaya), Penca de Nopal (Opuntia ficus-indica), Semilla de Linaza (Linum usitatissimum).",
     "serving": "1 tableta al día",
     "timing": "Preferentemente antes de la comida principal",
     "intakeInstructions": "Tomar 1 tableta al día, preferentemente antes de la comida principal, con un vaso de agua.",
     "benefits": [
-      "Fórmula intensiva con sen y cáscara sagrada: dos botánicos de referencia que activan la motilidad intestinal para vaciar el colon de desechos atorados.",
-      "Desinflamación del bajo vientre: ayuda a desalojar heces retenidas y gases, logrando una sensación de ligereza y desahogo desde el primer día.",
-      "Eliminación de líquidos y ligereza: la zarzaparrilla y el cocolmeca estimulan la eliminación de agua retenida en piernas y abdomen, acelerando la pérdida de volumen.",
-      "Para casos de digestión muy perezosa: alternativa para personas que llevan días sin evacuar y no responden a fibras comunes."
+      "Tránsito intestinal con frutas y fibra: la ciruela pasa, el tamarindo, la linaza y el nopal aportan fibra soluble y humedad para suavizar las heces.",
+      "Digestión ligera y prebióticos: la inulina nutre la flora benéfica del intestino y la papaya acompaña la digestión tras las comidas.",
+      "Con extracto de forskolina: raíz de Coleus forskohlii enfocada en acompañar planes de control de peso (vigilar presión y anticoagulantes).",
+      "Sin cafeína ni hojas de sen: presentación de 1 tableta antes de la comida principal con un vaso lleno de agua."
     ],
     "contraindications": "Contraindicado durante el embarazo y la lactancia. No administrar en caso de dolor abdominal no diagnosticado, obstrucción intestinal, íleo paralítico o diarrea severa. Personas con presión arterial baja o bajo tratamiento con hipotensores o anticoagulantes deben consultar a su médico antes de usarlo.",
     "foodInteractions": "Tomar 15 a 20 minutos antes de la comida principal con un vaso lleno de agua (250 ml), manteniendo un consumo continuo de líquidos durante el día para permitir que la inulina, linaza y nopal ejerzan su acción sin provocar pesadez.",
@@ -5399,20 +5416,19 @@ window.manualData.productos = [
     "id": 192,
     "code": "7578945632172",
     "name": "NEUROCEBRYL COMPUESTO",
-    "benefitSummary": "Ampolletas bebibles con vitaminas B, calcio y jalea real para fatiga y nervios",
+    "benefitSummary": "Ampolletas bebibles orales con complejo B, vitaminas A, C, D3 y E, calcio, jalea real e inositol",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/NEUROCEBRYL-COMPUESTO.webp",
-    "shortDesc": "Ampolletas bebibles con complejo B completo, calcio, vitamina D3, jalea real e inositol para reponer fuerzas, combatir el agotamiento y fortalecer los nervios. Uso exclusivamente oral.",
+    "shortDesc": "Ampolletas bebibles de uso exclusivamente oral (NO inyectar) con vitaminas del complejo B, vitaminas A, C, D3 y E, gluconato de calcio (100 mg), jalea real e inositol para periodos de agotamiento o dificultad para tragar pastillas.",
     "ingredients": "Vitaminas del complejo B: Clorhidrato de Tiamina (B1) 15 mg, Riboflavina 5' Fosfato (B2) 18 mg, Clorhidrato de Piridoxina (B6) 10 mg, Cianocobalamina (B12) 12 µg, Niacinamida (B3) 20 mg, Ácido Pantoténico (B5) 20 mg, Ácido Fólico 400 µg. Vitaminas antioxidantes: Ácido Ascórbico (C) 50 mg, Alfatocoferol (E) 60 mg, Palmitato de Vitamina A 1000 UI, Colecalciferol (D3) 10 µg. Minerales y otros: Gluconato de Calcio 100 mg, Jalea Real Fresca 5 mg, Inositol 15 mg.",
     "serving": "Adultos: 1 ampolleta al día. Niños: 1 ampolleta cada tercer día.",
     "timing": "Oral, directamente",
     "intakeInstructions": "Ingerir directamente el contenido de la ampolleta. EN NINGÚN CASO DEBERÁ INYECTARSE.",
     "benefits": [
-      "Recuperación rápida del cansancio: su alta concentración de vitaminas B (B1, B2, B3, B5, B6, B12 y ácido fólico) reactiva el metabolismo energético de inmediato tras periodos de enfermedad o fatiga extrema.",
-      "Fortaleza del sistema nervioso: nutre las fibras nerviosas y combate el estrés físico y el agotamiento mental, ayudando a recuperar la vitalidad diaria.",
-      "Huesos y músculos firmes: el gluconato de calcio junto con la vitamina D3 previene la debilidad muscular y respalda la mineralización de los huesos.",
-      "Reconstituyente con jalea real e inositol: la jalea real fresca nutre el organismo debilitado y el inositol apoya la comunicación celular.",
-      "Toma bebible cómoda y segura: se consume directamente por la boca (adultos 1 ampolleta al día; niños 1 cada tercer día). No se inyecta."
+      "Aporte concentrado de complejo B (B1, B2, B3, B5, B6, B9 y B12): ayuda a aprovechar los alimentos para obtener energía y cuidar los nervios en épocas de desgaste.",
+      "Vitaminas C, E, A y D3 añadidas: suma vitamina C (50 mg), vitamina E (60 mg), vitamina A (1,000 UI) y vitamina D3 (10 mcg = 400 UI) como respaldo diario.",
+      "Complemento de calcio, jalea real e inositol: aporta 100 mg de gluconato de calcio (~9 mg de calcio elemental), 5 mg de jalea real y 15 mg de inositol.",
+      "Formato líquido oral cómodo: se bebe directamente por la boca (adultos 1 ampolleta al día; niños 1 cada tercer día). Nunca inyectar."
     ],
     "contraindications": "Contraindicado en personas con hipersensibilidad a las vitaminas del complejo B o alergia a productos apícolas (jalea real). Consultar con el médico durante el embarazo, lactancia o en menores de edad antes de su administración. No inyectar, uso exclusivo por vía oral.",
     "foodInteractions": "Tomar el contenido de la ampolleta por vía oral durante el desayuno o la comida principal; la presencia de alimentos con algo de grasa optimiza la absorción de las vitaminas A, D3 y E, y previene náuseas por las vitaminas del complejo B.",
@@ -5482,12 +5498,12 @@ window.manualData.productos = [
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula del Frasco 1, 3 veces al día. Tomar 1 cápsula del Frasco 2 por la mañana y 1 por la tarde.",
     "benefits": [
-      "Control natural de la glucosa: el extracto de hoja de neem favorece la sensibilidad a la insulina y apoya cifras equilibradas de azúcar en sangre.",
-      "Purificación y limpieza de la sangre: las hojas de neem barren toxinas metabólicas y protegen las células hepáticas del exceso de azúcar.",
-      "Cuidado de la piel desde el interior: ayuda a mantener un cutis limpio y despejado gracias a sus propiedades botánicas depurativas.",
-      "Herbolaria ayurvédica tradicional: 60 cápsulas con polvo puro de neem para integrar fácilmente a la rutina de salud metabólica diaria."
+      "Frasco 1 con 11 plantas mexicanas (90 cápsulas): mezcla neem, tecomate, guarumbo, nopal, guayule, eucalipto, sábila, zarzaparrilla, damiana, hierba del sapo y ajo para acompañar el manejo diario del azúcar.",
+      "Frasco 2 multivitamínico y mineral (60 cápsulas): aporta vitaminas A, D3, E, C y complejo B junto con hierro, zinc, calcio, magnesio, picolinato de cromo y jalea real para sostener la vitalidad.",
+      "Doble frasco en cápsulas (no son gotas): se toman en paralelo siempre con alimentos para proteger el estómago y aprovechar las vitaminas.",
+      "Uso con vigilancia de glucosa: al reunir plantas hipoglucemiantes y cromo, requiere monitoreo con glucómetro y aviso médico si toma insulina o pastillas para diabetes."
     ],
-    "contraindications": "No consumir durante el embarazo o período de lactancia.",
+    "contraindications": "No consumir en embarazo, lactancia, menores de 18 años, alergia a la jalea real o productos de abeja, o enfermedad renal o hepática grave.",
     "foodInteractions": "Tomar las cápsulas siempre junto con las comidas principales. Los alimentos facilitan la absorción de los minerales y vitaminas liposolubles (A, D3, E) del Frasco 2 y atenúan el fuerte sabor herbal y amargo de los extractos botánicos del Frasco 1.",
     "interactions": "El Frasco 1 contiene múltiples plantas con notable efecto hipoglucemiante (neem, guarumbo, nopal, tecomate); si se toman antidiabéticos (insulina, metformina), el riesgo de hipoglucemia es elevado y requiere monitoreo médico riguroso. Por los minerales del Frasco 2 (hierro, calcio, zinc, magnesio), espaciar al menos 2 a 3 horas de antibióticos (quinolonas, tetraciclinas) y levotiroxina.",
     "packageContent": "150 cápsulas (2 frascos: 90 + 60)"
@@ -5496,19 +5512,19 @@ window.manualData.productos = [
     "id": 196,
     "code": "7501172019348",
     "name": "DEMOGRASS PREMIER",
-    "benefitSummary": "Termogénico herbolario avanzado, saciedad y fibra prebiótica",
+    "benefitSummary": "Maitake, cayena, naranjo amargo, cúrcuma, espirulina, moringa e inulina en cápsulas",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/DEMOGRASSPREMIER.webp",
     "shortDesc": "Edición premier con hongo maitake, cayena termogénica, naranjo amargo, cúrcuma, espirulina e inulina para potenciar el metabolismo, quemar calorías y regular el tránsito intestinal.",
-    "ingredients": "Matake (Grifola frondosa), Cayena, Cúrcuma (Curcuma longa), Espirulina (Arthrospira platensis), Arándano (Vaccinium myrtillus), Moringa (Moringa oleifera), Enebro (Juniperus communis), Olivo (Olea europaea), Inulina, Naranjo amargo (Citrus aurantium).",
+    "ingredients": "Maitake (Grifola frondosa), Cayena, Cúrcuma (Curcuma longa), Espirulina (Arthrospira platensis), Arándano (Vaccinium myrtillus), Moringa (Moringa oleifera), Enebro (Juniperus communis), Olivo (Olea europaea), Inulina, Naranjo amargo (Citrus aurantium).",
     "serving": "1 cápsula al día",
     "timing": "En ayunas",
     "intakeInstructions": "Tomar 1 cápsula al día en ayunas, con un vaso de agua.",
     "benefits": [
-      "Fórmula termogénica avanzada: combina té verde, café verde y L-carnitina para acelerar el gasto calórico y quemar grasa difícil de abdomen y cadera.",
-      "Desinflamación y control del apetito: el extracto de garcinia cambogia y la faseolamina ayudan a bloquear carbohidratos y reducen la ansiedad por comer.",
-      "Potencia metabólica e inmunológica con hongo maitake: el hongo maitake (Grifola frondosa) estimula las defensas naturales y equilibra la respuesta a la insulina para quemar grasa acumulada.",
-      "Drenaje suave de líquidos: la cola de caballo y el diente de león facilitan la eliminación de líquidos retenidos sin causar deshidratación."
+      "Empujón matutino con naranjo amargo y cayena: combinación termogénica intensa enfocada únicamente en adultos sanos sin presión alta ni cardiopatías.",
+      "Maitake, cúrcuma, moringa, arándano y espirulina: mezcla botánica antioxidante para acompañar vitalidad y nutrición diaria.",
+      "Inulina, olivo y enebro: suman fibra prebiótica suave y plantas tradicionales para la digestión y el manejo de líquidos.",
+      "Fórmula de 1 cápsula en ayunas: no combinar con café, té verde ni otros estimulantes por su contenido de naranjo amargo (sinefrina)."
     ],
     "contraindications": "No consumir durante el embarazo ni en período de lactancia. Contraindicado en personas con hipertensión no controlada, arritmias o cardiopatías (por el naranjo amargo/sinefrina), úlcera péptica activa o insuficiencia renal o hepática. No apto para menores de 18 años.",
     "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno con un vaso completo de agua natural. Si se presenta sensibilidad digestiva o acidez por la cayena, tomar junto con el primer bocado del desayuno.",
@@ -5528,10 +5544,10 @@ window.manualData.productos = [
     "timing": "Por la noche",
     "intakeInstructions": "Colocar agua caliente a 65°C en una taza, agregar la bolsita y reposar de 3 a 5 minutos. Endulzar al gusto. Si es la primera vez, comenzar con la mitad de la dosis.",
     "benefits": [
-      "Limpieza intestinal activa: las hojas de sen estimulan el movimiento del colon para resolver el estreñimiento de forma rápida y efectiva.",
-      "Efecto drenante con piña y té verde: facilitan la eliminación de líquidos retenidos y ayudan a deshinchar la figura corporal.",
-      "Sabor dulce a piña natural: infusión deliciosa para tomar caliente por las noches sin necesidad de agregar azúcar ni calorías.",
-      "Fórmula reforzada Plus: mayor concentración de ingredientes botánicos para quienes buscan un resultado más notorio que la versión clásica."
+      "Tránsito intestinal con piña, linaza y alcachofa: combina fibra de linaza, pulpa de piña y corazón de alcachofa para suavizar la digestión y aliviar el abdomen pesado.",
+      "Mezcla de tres tés tradicionales (verde, rojo y blanco): aporta catequinas y cafeína natural leve para acompañar rutinas de control de peso.",
+      "Enriquecido con aguaje peruano (14%): fruto amazónico con carotenoides y fitonutrientes pensado como complemento femenino.",
+      "Infusión nocturna práctica (30 sobres): iniciar con medio sobre si es primera vez o evitar de noche en personas sensibles a la cafeína."
     ],
     "contraindications": "Contraindicado durante el embarazo, la lactancia y en menores de 18 años. No consumir en caso de obstrucción biliar, cálculos en la vesícula o dolor abdominal agudo. Personas sensibles a la cafeína o con afecciones gastrointestinales inflamatorias deben moderar o evitar su consumo.",
     "foodInteractions": "Tomar caliente preferentemente por la noche después de la cena, manteniendo una adecuada hidratación con agua natural durante todo el día para respaldar la evacuación y la acción de la linaza y la alcachofa.",
@@ -5914,8 +5930,8 @@ window.manualData.productos = [
     "benefitSummary": "Hierba tradicional para el cuidado de la glucosa y captación de azúcares",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/PATA-DE-VACA.png",
-    "shortDesc": "Cápsulas de pata de vaca pura (Bauhinia forficata) para estimular la secreción natural de insulina, reducir la glucosa en sangre y proteger los riñones.",
-    "ingredients": "Pata de Vaca (Bauhinia forticata) 300 mg, excipiente c.b.p. 500 mg.",
+    "shortDesc": "Cápsulas de pata de vaca (Bauhinia forficata, 300 mg por cápsula) de uso tradicional sudamericano y mexicano para acompañar el manejo diario del azúcar después de comer (30 cápsulas).",
+    "ingredients": "Pata de Vaca (Bauhinia forficata) 300 mg, excipiente c.b.p. 500 mg.",
     "serving": "1 cápsula al día",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula de Pata de Vaca al día, con alimentos.",
@@ -6258,10 +6274,10 @@ window.manualData.productos = [
     "id": 223,
     "code": "7501734412846",
     "name": "WEREKE PROSA",
-    "benefitSummary": "Raíz de wereke y nopal para control de azúcar en sangre y digestión",
+    "benefitSummary": "Mezcla herbal de 8 plantas con raíz de wereke y nopal para azúcar y digestión",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/WEREKE.webp",
-    "shortDesc": "Raíz pura de wereke de Sonora con nopal deshidratado para regular los niveles de azúcar en sangre tras comer y desinflamar el vientre.",
+    "shortDesc": "Mezcla tradicional de 8 plantas mexicanas (raíz de wereke, nopal, guayacán amarillo, gatuña, tamarindo, zacate de perro, coanacaxtle y manzanilla) para acompañar el manejo del azúcar tras las comidas (150 cápsulas).",
     "ingredients": "Wereke (Maximowiczia sonorae) - Raíz, Gatuña (Guaiacum sp.) - Planta, Guayacán amarillo (Guaiacum coulteri) - Corteza, Tamarindo (Tamarindus indica) - Fruto, Nopal (Opuntia ficus-indica) - Penca, Raíz de Zacate de perro (Cynodon dactylon) - Raíz, Raíz de Coanacaxtle - Raíz, Manzanilla (Matricaria chamomilla) - Flor.",
     "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
     "timing": "Después de los alimentos",
@@ -6332,7 +6348,7 @@ window.manualData.productos = [
       "Nutrición del sistema nervioso: protege las vainas de mielina que recubren los nervios, ayudando a evitar sensación de hormigueo, debilidad o entumecimiento.",
       "Pastillas masticables con sabor a fresa: deliciosa tableta que se disuelve en la boca, ideal para adultos mayores, personas vegetarianas o quienes tienen baja absorción gástrica."
     ],
-    "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
+    "contraindications": "Contiene lecitina de soya y fructosa. Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
     "foodInteractions": "Se sugiere disolver lentamente debajo de la lengua (vía sublingual) o masticar entre comidas o después de un alimento ligero para favorecer su absorción directa por la mucosa bucal.",
     "interactions": "Medicamentos como el omeprazol, antiácidos, metformina y antibióticos pueden disminuir la absorción intestinal de la vitamina B12 en tomas orales convencionales, aunque la vía sublingual minimiza esta interferencia. No presenta interacciones farmacológicas de riesgo.",
     "packageContent": "100 pastillas"
@@ -6442,19 +6458,19 @@ window.manualData.productos = [
     "benefitSummary": "Citrato de magnesio en cápsulas para relajar músculos tensos, energía limpia y digestión regular",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/CITRATO-MAGNESIO1-1.jpg",
-    "shortDesc": "Citrato de magnesio puro de alta absorción en cápsulas para soltar contracturas musculares, quitar calambres nocturnos y resolver el estreñimiento de forma rápida y natural.",
+    "shortDesc": "Citrato de magnesio en cápsulas (la etiqueta declara 750 mg por porción de 3 cápsulas, mientras la toma sugerida marca 1 cápsula) para apoyar músculos relajados y digestión suave; confirmar porción en envase físico.",
     "ingredients": "Citrato de magnesio (750 mg por porción de 3 cápsulas), excipientes c.b.p. (celulosa microcristalina, estearato de magnesio, dióxido de silicio).",
     "serving": "1 cápsula al día",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día, preferentemente con alimentos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     "benefits": [
-      "Alta absorción para músculos y sistema nervioso: la sal orgánica de citrato se asimila con gran rapidez, aliviando espasmos musculares y estrés.",
-      "Regularidad intestinal suave: atrae agua al colon de forma natural, facilitando evacuaciones cómodas y diarias en personas con estreñimiento.",
-      "Energía limpia y sin contracturas: cápsula diaria práctica para mantener los músculos activos y evitar la pesadez corporal."
+      "Aporte de citrato de magnesio en cápsula: acompaña el buen funcionamiento de músculos y nervios durante la jornada diaria.",
+      "Apoyo digestivo suave: el citrato de magnesio puede ayudar al tránsito intestinal según la porción consumida (verificar en etiqueta física si se requieren 1 o 3 cápsulas).",
+      "Fórmula práctica de 90 cápsulas: fácil de tragar con alimentos y un vaso grande de agua para quienes prefieren evitar el sabor ácido del polvo."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes de la fórmula.",
     "foodInteractions": "Tomar junto con alimentos (comida o cena) acompañado de un vaso grande de agua para optimizar su absorción y prevenir un tránsito intestinal acelerado o acidez.",
-    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas), hormonas tiroideas (levotiroxina) y bisfosfonatos para no interferir con su biodisponibilidad. Consultar al médico si se toman diuréticos o se padece de función renal disminuida.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas), hormonas tiroideas (levotiroxina) y bisfosfonatos para no interferir con su absorción. Consultar al médico si se toman diuréticos o se padece de función renal disminuida.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -6464,7 +6480,7 @@ window.manualData.productos = [
     "benefitSummary": "Glicinato de magnesio con brócoli para relajación profunda, músculos y descanso nocturno",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/04/GLICINATO1.webp",
-    "shortDesc": "Cápsulas de glicinato de magnesio quelado con polvo de tallo de brócoli. Diseñadas para tomar por la noche, relajar la mente y soltar la tensión muscular de cuello y espalda para lograr un sueño profundo y reparador.",
+    "shortDesc": "Cápsulas vegetales con 250 mg de glicinato de magnesio y tallo de brócoli como apoyo suave en la rutina de relajación muscular y nocturna (confirmar magnesio elemental en la etiqueta física).",
     "researchNote": {
       "focus": "Músculos y nervios dentro de una rutina de relajación",
       "text": "Funcionamiento muscular y nervioso dentro de una rutina de relajación: el magnesio del glicinato complementa el aporte de este mineral y acompaña el cuidado de músculos y nervios. En adultos con dificultades para descansar, un ensayo con bisglicinato de magnesio observó mejoras en algunos indicadores de sueño. Este interés se integra como acompañamiento de una rutina de preparación para el descanso. El tallo de brócoli completa la mezcla vegetal, mientras que estearato de magnesio, excipientes y cápsula vegetal permiten preparar y contener la fórmula.",
@@ -6489,7 +6505,7 @@ window.manualData.productos = [
       "Aporte vegetal de brócoli: el polvo de tallo de brócoli aporta fitonutrientes naturales que complementan la nutrición celular."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    "foodInteractions": "Tomar preferentemente por la noche con la cena o con un refrigerio ligero; el glicinato de magnesio ofrece alta biodisponibilidad y suavidad digestiva, favoreciendo la relajación muscular antes de dormir.",
+    "foodInteractions": "Tomar preferentemente por la noche con la cena o con un refrigerio ligero para favorecer la tolerancia digestiva del glicinato de magnesio antes de dormir.",
     "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos. En personas con tratamientos médicos continuos, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas"
   },
@@ -6765,19 +6781,18 @@ window.manualData.productos = [
     "id": 238,
     "code": "7502214015403",
     "name": "COMPLEJO B MULTIVITAMINICO YPENZA",
-    "benefitSummary": "Vitaminas B con magnesio para energía física, músculos relajados y nervios fuertes",
+    "benefitSummary": "Dosis básicas diarias de B1, B2, B6 y B12 con 40 mg de magnesio",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/08/COMPLEJO-B-YPENZA.jpg",
-    "shortDesc": "Vitaminas B1, B2, B6 y B12 con magnesio en tabletas para multiplicar la energía física, quitar el cansancio crónico y relajar nervios y músculos tensos.",
+    "shortDesc": "Tabletas económicas de mantenimiento básico diario con vitamina B1 (324 µg), B2 (500 µg), B6 (412 µg), B12 (1.3 µg) y magnesio (40 mg) para complementar la alimentación cotidiana.",
     "ingredients": "Vitamina B1 (Tiamina) 324 µg, Vitamina B2 (Riboflavina) 500 µg, Vitamina B6 (Piridoxina) 412 µg, Vitamina B12 (Cobalamina) 1.3 µg, Magnesio 40 mg, Celulosa Microcristalina.",
     "serving": "1 tableta al día",
     "timing": "Preferentemente con alimentos",
     "intakeInstructions": "Tomar 1 tableta al día, preferentemente con alimentos.",
     "benefits": [
-      "Energía diaria y vitalidad física: las vitaminas B1, B2 y B6 participan en la conversión de carbohidratos, grasas y proteínas en energía activa para el día a día.",
-      "Formación de glóbulos rojos: la vitamina B12 apoya la renovación de la sangre, ayudando a evitar la fatiga y el agotamiento corporal constante.",
-      "Músculos relajados sin calambres: el aporte de magnesio relaja las fibras musculares tensas, previene contracturas y calma el sistema nervioso.",
-      "Fórmula accesible para toda la familia: presentación práctica en tabletas con celulosa microcristalina de fácil digestión estomacal."
+      "Complemento vitamínico básico: aporta vitaminas B1, B2, B6 y B12 en cantidades de mantenimiento diario para acompañar el aprovechamiento de alimentos.",
+      "Aporte ligero de magnesio (40 mg): suma un complemento mineral suave para el funcionamiento cotidiano de músculos y nervios.",
+      "Opción sencilla para uso diario: 1 tableta al día (60 tabletas = 2 meses); en deficiencias marcadas valorar presentaciones de mayor dosis."
     ],
     "contraindications": "Hipersensibilidad a las vitaminas del complejo B o a cualquiera de los componentes. En caso de embarazo, lactancia o insuficiencia renal grave, consultar con un profesional de la salud antes de consumirlo.",
     "foodInteractions": "Tomar por la mañana con el desayuno o primer alimento del día para favorecer la energía matutina y evitar náuseas o acidez en estómagos sensibles.",
@@ -7138,7 +7153,7 @@ window.manualData.productos = [
     "benefitSummary": "Trío botánico para digestión, control de azúcares y vitalidad",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/MORINGA-ROMERO-HOJAS-DE-GUAYABA.jpg",
-    "shortDesc": "Trío botánico de hojas de guayaba, moringa y romero en cápsulas vegetales para frenar picos de azúcar tras las comidas, acelerar la digestión pesada y proteger el hígado.",
+    "shortDesc": "Trío botánico de hojas de moringa, romero y guayaba en cápsulas vegetales para acompañar comidas ricas en harinas y aliviar la pesadez digestiva.",
     "ingredients": "Hojas de Moringa (Moringa oleifera) en polvo, Hojas de Romero (Salvia rosmarinus) en polvo, Hojas de Guayaba (Psidium guajava L.) en polvo, Cápsula vegetal.",
     "serving": "1 cápsula al día",
     "timing": "15-30 minutos antes o durante la comida más pesada del día (rica en carbohidratos)",
@@ -7456,7 +7471,7 @@ window.manualData.productos = [
     "benefitSummary": "Vitamina B5 de alta potencia para energía celular, piel sana y respuesta al estrés",
     "category": "metabolismo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/09/ACIDO-PANTOTENICO.webp",
-    "shortDesc": "Vitamina B5 pura (500 mg de pantotenato de calcio) en cápsulas vegetales para acelerar la quema de grasas en energía, desvanecer imperfecciones de la piel y frenar el agotamiento por estrés.",
+    "shortDesc": "Vitamina B5 (500 mg de ácido pantoténico como pantotenato de calcio) y 45 mg de calcio en cápsulas vegetales para apoyar la transformación de alimentos en energía y cuidar la piel con tendencia grasa.",
     "ingredients": "Ácido Pantoténico (como Pantotenato de Calcio) 500 mg, Calcio 45 mg, Hipromelosa (cápsula vegetal), Ácido Esteárico (vegetal).",
     "serving": "1 cápsula al día",
     "timing": "Preferentemente por la mañana o al mediodía, junto con una comida o justo después de comer",
