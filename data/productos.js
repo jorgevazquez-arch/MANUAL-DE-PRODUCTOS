@@ -1,14 +1,3 @@
-// ============================================================
-//  DATA: Catálogo de productos - El Girasol
-//  Define la variable global `productos` (array de objetos).
-//  Edítalo con cualquier editor de texto; cada producto sigue
-//  el mismo formato: { id, code, name, packageContent, category, image,
-//  shortDesc, ingredients, serving, timing, intakeInstructions,
-//  benefits[], benefitSummary, researchNote?, contraindications, foodInteractions, interactions }
-//  ⚠️ El 'id' debe ser único y NUNCA reutilizarse en otro producto.
-//  Después de editar, abre validate.html para revisar errores.
-// ============================================================
-
 window.manualData = window.manualData || {};
 window.manualData.productos = [
   {
@@ -219,10 +208,10 @@ window.manualData.productos = [
       "Apaga el fuego gástrico y el ardor: el cuachalalate neutraliza la sensación de quemazón en la boca del estómago y desinflama las paredes estomacales desde la primera toma.",
       "Cicatrización profunda de la mucosa: el tepezcohuite actúa como bálsamo regenerador sobre pequeñas heridas, erosiones y lesiones causadas por gastritis y acidez crónica.",
       "Protección contra reflujo y agruras: evita que los ácidos suban hacia el esófago, permitiendo que la comida caiga ligera y sin dolor posterior.",
-      "Toma práctica con alimentos: 3 cápsulas con cada comida fuerte para blindar el estómago frente a irritantes, condimentos, café o medicamentos agresivos."
+      "Practicidad de 3 cápsulas al día: toma sugerida de 1 cápsula con cada comida principal para brindar confort continuo en gastritis o acidez frecuente."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar preferentemente 20 a 30 minutos antes de los alimentos para que los extractos astringentes recubran y protejan la mucosa gastrointestinal.",
+    "foodInteractions": "Tomar 1 cápsula con o antes de cada comida principal (3 al día) con un vaso de agua natural; separar al menos 2 horas de medicamentos o suplementos de hierro por su contenido de taninos.",
     "interactions": "Por su contenido de taninos y corteza astringente, puede retrasar o reducir la absorción de medicamentos orales (incluyendo analgésicos, antiinflamatorios y anticoagulantes); se aconseja separar su toma al menos 2 horas de cualquier medicamento y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
@@ -303,7 +292,7 @@ window.manualData.productos = [
       "Defensa antioxidante integral: protege al estómago y al colon frente a la inflamación causada por alimentos procesados o estrés."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que contengan grasas saludables (como aguacate o aceite de oliva) para estimular el vaciado biliar y maximizar la asimilación de los curcuminoides.",
+    "foodInteractions": "Tomar junto con comidas que aporten grasas saludables para favorecer la absorción de la cúrcuma y evitar ardor gástrico.",
     "interactions": "La cúrcuma y el jengibre pueden potenciar el efecto de anticoagulantes, antiagregantes plaquetarios y medicamentos para controlar el azúcar en sangre. Se aconseja consultar si toma fármacos procesados por el hígado y espaciar la toma al menos 2 horas de otros medicamentos.",
     "packageContent": "90 cápsulas",
     "researchNote": {
@@ -353,7 +342,7 @@ window.manualData.productos = [
       "Aporte antioxidante diario: protege las células del aparato digestivo contra el desgaste oxidativo cotidiano con 1,000 mg de raíz en polvo por porción."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que aporten grasas saludables para activar la vesícula biliar y optimizar la absorción de la curcumina.",
+    "foodInteractions": "Tomar junto con comidas que aporten grasas saludables para favorecer la absorción de la cúrcuma y proteger el estómago.",
     "interactions": "Puede interactuar con anticoagulantes y antiagregantes plaquetarios (incrementando el riesgo de sangrado) y con hipoglucemiantes orales. En pacientes que tomen medicamentos procesados por el hígado o bajo polifarmacia, se sugiere separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas"
   },
@@ -690,7 +679,7 @@ window.manualData.productos = [
     "ingredients": "Jugo de aloe vera (Aloe barbadensis), jugo de arándano (Vaccinium macrocarpon), vitamina C (27 mg por porción).",
     "serving": "30 ml por toma",
     "timing": "Tres veces al día, antes de los alimentos",
-    "intakeInstructions": "Agitar antes de tomar. Conservar en un lugar fresco y seco y refrigerar después de abrir. No consumir si el sello de garantía está roto.",
+    "intakeInstructions": "Agitar antes de usar. Tomar 30 ml tres veces al día antes de los alimentos; una vez abierto conservar en refrigeración.",
     "benefits": [
       "Alivio del ardor estomacal: el jugo de aloe vera recubre la mucosa digestiva con mucílagos que apagan la acidez, el reflujo y la irritación esofágica.",
       "Protección urinaria activa: el jugo de arándano rojo impide que bacterias infecciosas se adhieran a las paredes de las vías urinarias.",
@@ -1121,7 +1110,7 @@ window.manualData.productos = [
     "benefitSummary": "Cardo mariano, diente de león, rábano negro y betabel para desintoxicar el hígado y digerir grasas",
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/11/ZN-CARSYL-GREEN-RENDER-V2-OCT2026.jpeg",
-    "shortDesc": "Cápsulas con cuatro plantas: diente de león, cardo mariano, rábano negro y betabel. Es el producto para personas con digestión pesada de grasas, boca amarga por las mañanas, sensación de pesadez en el costado derecho o hígado sobrecargado por comida o alcohol. Fórmula actualizada noviembre 2026.",
+    "shortDesc": "Cápsulas con cuatro plantas: diente de león, cardo mariano, rábano negro y betabel. Es el producto para personas con digestión pesada de grasas, boca amarga por las mañanas, sensación de pesadez en el costado derecho o hígado sobrecargado por comida o alcohol.",
     "ingredients": "Por porción (2 cápsulas / 1,000 mg): diente de león 300 mg, cardo mariano 250 mg, rábano negro 250 mg, betabel 150 mg.",
     "serving": "2 cápsulas (1 g)",
     "timing": "Con alimentos",
@@ -1131,8 +1120,8 @@ window.manualData.productos = [
       "Digestión de grasas: el rábano negro y el diente de león ayudan a que la vesícula produzca más bilis para digerir mejor las comidas grasosas.",
       "Eliminación de boca amarga y pesadez: el diente de león y el betabel desintoxican el conducto biliar y barren los desechos metabólicos acumulados."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos principales o justo con comidas pesadas para estimular la secreción de bilis y facilitar la digestión de las grasas.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción o cálculos biliares, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
+    "foodInteractions": "Tomar con las comidas principales (o 15 minutos antes de comidas grasas) para acompañar la digestión de lípidos y evitar molestias estomacales.",
     "interactions": "El cardo mariano, el diente de león y el rábano negro estimulan la actividad hepática y pueden interactuar con medicamentos metabolizados por el hígado, anticoagulantes y diuréticos; se aconseja separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
@@ -1461,7 +1450,7 @@ window.manualData.productos = [
       "Síntesis de colágeno nuevo: los 300 mg de vitamina C estimulan la regeneración de colágeno en cartílagos, tendones y vasos sanguíneos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos de uso continuo procesados por el hígado deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar junto con una comida que aporte grasas saludables (aceite de oliva, aguacate o frutos secos); los lípidos dietéticos y la piperina multiplican la biodisponibilidad y absorción de los curcuminoides.",
+    "foodInteractions": "Tomar junto con una comida que aporte grasas saludables (aceite de oliva, aguacate o frutos secos); los lípidos dietéticos y la piperina multiplican la aprovechamiento y absorción de los curcuminoides.",
     "interactions": "Consultar con el médico si el cliente toma anticoagulantes, antiagregantes plaquetarios o antidiabéticos orales, así como medicamentos metabolizados por enzimas hepáticas, ya que la curcumina y la piperina pueden alterar sus niveles en sangre.",
     "packageContent": "90 cápsulas"
   },
@@ -1763,7 +1752,7 @@ window.manualData.productos = [
       "Evacuación suave y volumen fecal: su fibra soluble natural alimenta a las bacterias benéficas del colon y asegura evacuaciones regulares."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos con un vaso grande de agua (250 ml) para permitir que los mucílagos formen una barrera protectora gástrica y ayuden a regular la digestión de carbohidratos.",
+    "foodInteractions": "Tomar con los alimentos (o 15 minutos antes de comer) acompañado de un vaso de agua natural; separar al menos 2 horas de medicamentos por su contenido de fibra.",
     "interactions": "Por su elevada cantidad de mucílagos, puede retrasar o reducir la absorción intestinal de medicamentos orales; separar la toma al menos 2 horas de cualquier fármaco. Puede potenciar el efecto de hipoglucemiantes orales e interactuar con anticoagulantes; consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
@@ -1823,7 +1812,7 @@ window.manualData.productos = [
       "Toma líquida tradicional a sorbos tibios: se diluye en igual cantidad de agua caliente y se disfruta despacio en ayunas y antes de acostarse para una absorción inmediata.",
       "Reconstituyente tras tratamientos agotantes: fórmula de elección para personas que buscan desintoxicar el hígado y la linfa tras tratamientos pesados (como quimioterapia, radioterapia o saturación por medicamentos) y combatir la fatiga celular crónica. Siempre en coordinación con su médico tratante."
     ],
-    "contraindications": "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
+    "contraindications": "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años. Por su contenido de ruibarbo, evitar su uso crónico o prolongado sin supervisión médica.",
     "foodInteractions": "Tomar diluido en igual cantidad de agua purificada, en ayunas por la mañana y antes de acostarse por la noche; esperar de 30 a 60 minutos antes de ingerir alimentos para permitir una absorción adecuada de los extractos herbales.",
     "interactions": "En personas bajo quimioterapia o radioterapia, consultar indispensablemente con el equipo médico oncológico antes de su consumo. Por su contenido de kelp y extractos diuréticos, consultar si toma medicamentos para la tiroides, diuréticos o anticoagulantes.",
     "researchNote": {
@@ -2194,7 +2183,7 @@ window.manualData.productos = [
       "Digestión ligera sin pesadez: elimina la sensación de boca amarga, pesadez en el costado derecho y agruras tras comer alimentos grasosos o fritos.",
       "Toma práctica antes de comer: una cápsula 15 a 30 minutos antes de los alimentos fuertes para preparar al sistema digestivo y procesar las grasas sin esfuerzo."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción o cálculos biliares deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar 15 a 20 minutos antes de las comidas principales para que sus principios amargos estimulen el vaciado de la vesícula biliar y preparen el estómago para la digestión de grasas.",
     "interactions": "Estimula intensamente las vías biliares y la función hepática; puede modificar la concentración de medicamentos procesados por el hígado a través del citocromo P450, así como interactuar con antihipertensivos o hipoglucemiantes. Se aconseja separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
@@ -2304,7 +2293,7 @@ window.manualData.productos = [
       "Calma de retortijones y gases: relaja las paredes musculares del intestino, eliminando cólicos, espasmos y tensión abdominal tras comer."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos para acelerar el vaciado gástrico y prevenir pesadez o náuseas, o bien junto con la comida si existe sensibilidad al picor característico del jengibre.",
+    "foodInteractions": "Tomar con las comidas principales acompañado de agua para mejorar la tolerancia gástrica.",
     "interactions": "Puede potenciar la acción de medicamentos anticoagulantes, antiagregantes plaquetarios (como aspirina o warfarina), fármacos para la diabetes y antihipertensivos. En personas con tratamientos médicos crónicos, espaciar al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
@@ -2844,7 +2833,7 @@ window.manualData.productos = [
       "Base lipídica con MCT y girasol: emulsionado en triglicéridos de cadena media y lecitina de girasol para una óptima asimilación en cada cápsula."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar con alimentos que contengan grasas saludables (durante el desayuno o la comida) para asegurar la máxima biodisponibilidad del ubiquinol y sus lípidos transportadores.",
+    "foodInteractions": "Tomar con alimentos que contengan grasas saludables (durante el desayuno o la comida) para asegurar la máxima absorción del ubiquinol y sus lípidos transportadores.",
     "interactions": "El ubiquinol comparte similitud estructural con la vitamina K y puede disminuir la efectividad anticoagulante de la warfarina o acenocumarol; requiere monitoreo estrecho del INR con su médico tratante.",
     "packageContent": "30 cápsulas"
   },
@@ -2911,8 +2900,8 @@ window.manualData.productos = [
       "Vientre plano y menos gases: el jengibre y la cúrcuma desinflaman los intestinos y facilitan la expulsión natural de gases tras comer.",
       "Control metabólico y máxima absorción: la canela ayuda a estabilizar los niveles de azúcar tras las comidas, mientras la pimienta negra maximiza la absorción de todos los nutrientes."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos fuertes con un vaso con agua para favorecer la secreción ácida gástrica y optimizar la digestión de proteínas y almidones.",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud. Por su contenido de cúrcuma, evitar sin valoración médica si hay obstrucción o cálculos biliares.",
+    "foodInteractions": "Tomar junto con los alimentos fuertes acompañado de un vaso completo de agua natural para cuidar el estómago.",
     "interactions": "La combinación de vinagre de manzana, cúrcuma, canela y jengibre puede potenciar el efecto de medicamentos para el control de la glucosa y de fármacos antihipertensivos o diuréticos (afectando los niveles de potasio). Separar la toma al menos 2 horas de otros medicamentos y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
@@ -3187,7 +3176,7 @@ window.manualData.productos = [
       "Digestión liviana sin náuseas: fluidifica los lodos biliares para que las comidas condimentadas o con grasa no caigan como piedra.",
       "Gotero práctico de rápida acción: 20 gotas en un cuarto de vaso de agua antes de los alimentos para una absorción inmediata directamente en el conducto digestivo."
     ],
-    "contraindications": "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
+    "contraindications": "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento. Evitar sin valoración médica si hay obstrucción o cálculos biliares.",
     "foodInteractions": "Diluir 20 gotas en un cuarto de vaso con agua y tomar 15 a 20 minutos antes de los alimentos para fluidificar la bilis y preparar el sistema digestivo antes de ingerir grasas.",
     "interactions": "Por su potente efecto hepatobiliar, puede interactuar con medicamentos para el colesterol (estatinas, fibratos), anticoagulantes y tratamientos metabolizados por el hígado. Se aconseja distanciar la toma al menos 2 horas de cualquier medicación y consultar con su médico o farmacéutico.",
     "packageContent": "30 ml",
@@ -3357,7 +3346,7 @@ window.manualData.productos = [
       "Control de lípidos en sangre: promueve arterias despejadas, flujo sanguíneo regular y niveles equilibrados de triglicéridos y colesterol."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar repartido con las comidas principales (desayuno y comida) para facilitar su emulsión digestiva y asegurar un óptimo aprovechamiento metabólico sin malestar gástrico.",
+    "foodInteractions": "Tomar preferentemente con el desayuno (o repartido con comidas que contengan grasas) para mejorar su absorción y evitar eructos.",
     "interactions": "Por su alta concentración de EPA y DHA, consultar indispensablemente si se administran anticoagulantes (warfarina) o antiagregantes (aspirina, clopidogrel) ante el riesgo incrementado de hematomas y sangrado.",
     "packageContent": "90 cápsulas"
   },
@@ -3593,7 +3582,7 @@ window.manualData.productos = [
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
     "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 8 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus). Diseñada para casos de disbiosis severa, síndrome de intestino irritable, recuperación postratamientos médicos o inflamación intestinal crónica.",
-    "ingredients": "Bifidobacterium breve SP 85 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 62.5 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 62.5 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 62.5 mg), Lactobacillus casei BGP 93 (25 billones UFC, 62.5 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 62.5 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 62.5 mg) por cápsula.",
+    "ingredients": "Bifidobacterium breve SP 85 (12.5 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Longum SP 54 (12.5 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Infantis SP 37 (12.5 billones UFC, 62.5 mg), Lactobacillus acidophilus LA3 (12.5 billones UFC, 62.5 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (12.5 billones UFC, 62.5 mg), Lactobacillus casei BGP 93 (12.5 billones UFC, 62.5 mg), Lactobacillus plantarum BG 112 (12.5 billones UFC, 62.5 mg), Streptococcus thermophilus SP 4 (12.5 billones UFC, 62.5 mg) por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
@@ -3698,9 +3687,9 @@ window.manualData.productos = [
       "Salud y balance intestinal: incorpora 610 millones de probióticos vivos para cuidar la flora intestinal y facilitar la asimilación limpia de los nutrientes sin inflamación.",
       "Sabor auténtico y antioxidantes con cacao: elaborado con cacao en polvo natural que brinda un agradable sabor a chocolate y flavonoides protectores para el organismo."
     ],
-    "contraindications": "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
+    "contraindications": "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico. Por su aporte de probióticos, consultar al médico en caso de inmunosupresión severa.",
     "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua o bebida vegetal según el objetivo calórico del plan de alimentación.",
-    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico. Por su aporte de probióticos, separar su toma al menos 2 a 3 horas de antibióticos orales.",
     "packageContent": "488 g"
   },
   {
@@ -3886,7 +3875,7 @@ window.manualData.productos = [
       "Relajación digestiva y defensas: el magnesio y las vitaminas B6 y B12 relajan los músculos digestivos mientras el zinc y el selenio protegen las células."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con las comidas principales con un vaso de agua para activar la digestión y reducir la acumulación de gases y pesadez.",
+    "foodInteractions": "Tomar con las comidas principales (o 15 minutos antes si se busca activar la digestión) con agua natural.",
     "interactions": "El jengibre, la sábila y el copalchi pueden interactuar con fármacos antidiabéticos, diuréticos y anticoagulantes. En personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas de 1000 mg"
   },
@@ -3952,7 +3941,7 @@ window.manualData.productos = [
       "Actúa durante la noche para brindar un alivio evacuatorio matutino desahogando la pesadez y distensión abdominal acumulada.",
       "Fórmula de rescate puntual para personas que requieren un desbloqueo rápido; debe tomarse con abundante agua y suspenderse al normalizar la evacuación."
     ],
-    "contraindications": "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
+    "contraindications": "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica. No usar en obstrucción intestinal ni de forma crónica (máximo 7 días seguidos).",
     "foodInteractions": "Tomar por la noche al acostarse acompañado de un vaso lleno de agua (250 ml). Mantener abundante hidratación durante todo el día siguiente para favorecer la acción laxante y compensar pérdidas hídricas.",
     "interactions": "Laxante estimulante de acción potente. Su uso junto con diuréticos tiazídicos, de asa o corticoides aumenta el riesgo de pérdida excesiva de potasio (hipocalemia) y arritmias, y puede incrementar la toxicidad de glucósidos digitálicos (digoxina). No administrar simultáneamente con medicamentos orales; distanciar las tomas al menos 2 horas.",
     "researchNote": {
@@ -4080,8 +4069,8 @@ window.manualData.productos = [
       "Fluidez biliar y vesícula limpia: disuelve el lodo biliar y facilita su expulsión natural, previniendo la formación de cálculos en la vesícula.",
       "Toma cómoda en cápsulas: evita el sabor sumamente amargo del té tradicional, permitiendo un tratamiento diario y constante sin molestias al paladar."
     ],
-    "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con las comidas principales acompañado de un vaso de agua (250 ml).",
+    "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud. Evitar sin valoración médica si existe obstrucción biliar o cálculos biliares.",
+    "foodInteractions": "Tomar junto con las comidas principales acompañado de agua natural.",
     "interactions": "Posee efecto diurético y favorece el metabolismo lipídico y de glucosa; puede potenciar la acción de medicamentos diuréticos, antihipertensivos e hipoglucemiantes orales. En personas bajo tratamiento médico continuo, separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
@@ -4194,7 +4183,7 @@ window.manualData.productos = [
       "Digestión ligera con enzimas vegetales: la bromelina, la papaína y otras enzimas vegetales descomponen los alimentos rápidamente, mientras el jengibre, la cúrcuma, la alcachofa y el extracto de aloe vera reconfortan el estómago y la vesícula.",
       "Verdes desintoxicantes y energía natural: aporta espinaca, apio, pepino, nopal, piña y alfalfa con clorofila purificante, complementados con extracto de té verde y guaraná para activar la vitalidad diaria, y pimienta negra para máxima absorción."
     ],
-    "contraindications": "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
+    "contraindications": "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud. Por su contenido de cúrcuma y alcachofa, evitar sin valoración médica en obstrucción o cálculos biliares. Precaución en inmunosupresión grave por su contenido de probióticos.",
     "foodInteractions": "Disolver una medida en un vaso grande con agua (250-300 ml) o licuado y tomar por la mañana en ayunas o con el desayuno; mantener una adecuada hidratación a lo largo del día para permitir que la fibra prebiótica se expanda sin generar distensión.",
     "interactions": "Por su contenido de probióticos, separar al menos 2 a 3 horas de antibióticos orales. La presencia de cúrcuma y alcachofa requiere consultar al médico si se toman medicamentos anticoagulantes o fármacos procesados por el hígado; en general, espaciar al menos 2 horas de cualquier medicamento oral.",
     "packageContent": "200 g",
@@ -4558,7 +4547,7 @@ window.manualData.productos = [
       "Protección y cicatrización gástrica: el aloe vera y el cuachalalate forman una película protectora sobre la mucosa del estómago, calmando el ardor y la acidez.",
       "Tránsito intestinal suave con nopal: la fibra soluble del nopal favorece evacuaciones regulares y ayuda a desinflamar el colon.",
       "Defensas y cicatrización celular: la vitamina C protege las células y acelera la regeneración de los tejidos digestivos dañados por gastritis o reflujo.",
-      "Jarabe bebible de 1 Litro: presentación familiar generosa para tomar antes de cada comida y mantener el estómago en calma todo el día."
+      "Jarabe bebible de 990 ml: presentación familiar generosa para tomar antes de cada comida y mantener el estómago en calma todo el día."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
     "foodInteractions": "Tomar preferentemente en ayunas o 20 a 30 minutos antes de los alimentos para que los mucílagos del nopal y el aloe, junto con el cuachalalate, recubran y calmen la mucosa digestiva.",
@@ -4779,7 +4768,7 @@ window.manualData.productos = [
     "shortDesc": "Infusión caliente de pura corteza de cuachalalate troceada. La forma más noble y tradicional de tomar este tesoro de la herbolaria mexicana; ideal para tomar después de comer o al despertar cuando se siente fuego en el estómago, gastritis, agruras o reflujo.",
     "ingredients": "Corteza de cuachalalate (Amphipterygium adstringens).",
     "serving": "1 sobre (2 g) / 1 taza de infusión al día",
-    "timing": "Preferentemente después de las comidas",
+    "timing": "20 a 30 minutos antes de comer o después de las comidas",
     "intakeInstructions": "Calentar agua a 65°C. Colocar el sobre en una taza, agregar agua caliente (200 ml), dejar infusionar 3-5 minutos, retirar el sobre y disfrutar.",
     "benefits": [
       "Apaga el fuego gástrico: la infusión caliente de corteza de cuachalalate neutraliza de inmediato la sensación de acidez y ardor en el estómago.",
@@ -4818,7 +4807,7 @@ window.manualData.productos = [
       "Se disfruta como una reconfortante infusión tibia antes de dormir para que actúe durante el descanso y surta efecto por la mañana.",
       "Remedio herbolario de rescate ocasional, ideal para desinflamar el vientre congestionado y recuperar la ligereza digestiva en episodios puntuales."
     ],
-    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud. Contraindicado en obstrucción intestinal o dolor abdominal agudo de origen desconocido; no usar por más de 7 días continuos.",
     "foodInteractions": "Tomar una taza tibia preferentemente por la noche antes de dormir. Mantener una hidratación abundante durante el día siguiente para facilitar el tránsito intestinal y evitar retortijones o pesadez.",
     "interactions": "Contiene hojas de sen con derivados antraquinónicos. Puede interactuar con diuréticos tiazídicos, de asa y corticosteroides potenciando la pérdida de potasio y el riesgo de hipocalemia; asimismo, puede potenciar la toxicidad de glucósidos digitálicos (digoxina). No tomar simultáneamente con medicamentos orales; separar al menos 2 horas.",
     "researchNote": {
@@ -4890,8 +4879,8 @@ window.manualData.productos = [
       "Soporte biliar natural: la cúrcuma ayuda al hígado y la vesícula a procesar comidas grasosas o muy sazonadas.",
       "Bebida dorada desinflamante: reconforta todo el tubo digestivo de forma natural y sin cafeína."
     ],
-    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "Tomar una taza caliente preferentemente después de las comidas o 15 a 20 minutos antes de alimentos grasos para estimular la bilis y facilitar el vaciado gástrico.",
+    "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Por su contenido de cúrcuma y jengibre, consultar al médico en caso de obstrucción o cálculos biliares, trastornos de coagulación o uso de anticoagulantes.",
+    "foodInteractions": "Tomar una taza caliente después de las comidas principales para apoyar la digestión y reducir gases.",
     "interactions": "La cúrcuma y el jengibre pueden potenciar el efecto de anticoagulantes, antiagregantes plaquetarios y medicamentos para la diabetes. En personas bajo tratamiento médico continuo o fármacos procesados por el hígado, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "30 sobres",
     "researchNote": {
@@ -5319,17 +5308,17 @@ window.manualData.productos = [
     "id": 189,
     "code": "7501090510439",
     "name": "TÉ JOUNKINS LAX",
-    "benefitSummary": "Té relajante de cenizo, toronjil y pasiflora para calmar el colon irritable y el estómago nervioso",
+    "benefitSummary": "Té herbal de cenizo y toronjil para calmar cólicos nerviosos y pesadez digestiva",
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/TE-JOUNKINS.png",
-    "shortDesc": "Infusión herbal tradicional mexicana con cenizo, toronjil morado y pasiflora. Para personas cuyos problemas de digestión, cólicos y estreñimiento provienen del estrés, la angustia o los nervios. Relaja la musculatura digestiva, suelta la tensión del vientre y facilita una evacuación tranquila.",
+    "shortDesc": "Infusión herbal tradicional mexicana con cenizo y toronjil. Para personas cuyos problemas de digestión, cólicos y pesadez provienen del estrés o los nervios. Relaja el vientre y acompaña una digestión tranquila.",
     "ingredients": "Cenizo (Leucophyllum frutescens), Toronjil (Agastache mexicana).",
     "serving": "1 bolsita (2 g) / 1 taza de infusión al día",
     "timing": "Preferentemente por la noche",
     "intakeInstructions": "Preparar una taza con agua caliente, agregar una bolsita de té y dejar reposar de 3 a 5 minutos. Tomar 1 taza al día, preferentemente por la noche. No exceder la dosis diaria recomendada.",
     "benefits": [
-      "Evacuación matutina puntual: las hojas de sen promueven el movimiento intestinal de manera predecible para resolver el estreñimiento ocasional.",
-      "Alivio y digestión ligera: la menta y el ruibarbo desinflaman las paredes intestinales y expulsan los gases acumulados para un abdomen plano.",
+      "Confort digestivo herbal: el cenizo se usa tradicionalmente para aliviar la pesadez estomacal y acompañar el tránsito digestivo suave.",
+      "Calma para estómago nervioso: el toronjil ayuda a relajar la tensión abdominal y disminuir cólicos o gases ligados al estrés.",
       "Toma nocturna antes de dormir: se prepara una taza caliente por la noche para que sus extractos actúen suavemente mientras descansas.",
       "Hierbas seleccionadas de calidad: corte fino en sobre individual para una infusión rápida y uniforme sin necesidad de colador."
     ],
@@ -5473,7 +5462,7 @@ window.manualData.productos = [
     "benefits": [
       "Nutrición proteica vegetal completa: aporta proteína aislada de soya de excelente digestibilidad para construir músculo magro y mantener la fuerza corporal.",
       "Digestión ligera sin lactosa: alternativa 100% vegetal libre de lactosa y colesterol, ideal para personas intolerantes a los lácteos tradicionales.",
-      "Enriquecida con calcio y vitamina D: fortificada con minerales esenciales para el mantenimiento de huesos densos y dientes fuertes.",
+      "Enriquecida con calcio y fósforo: fortificada con minerales esenciales para el mantenimiento de huesos densos y dientes fuertes.",
       "Defensas blindadas y protección celular: incorpora vitaminas antioxidantes A, C y E con hierro, zinc y fósforo para mantener alta la energía diaria."
     ],
     "contraindications": "Contraindicado en personas con alergia o intolerancia a la soya. En caso de afecciones tiroideas o tratamientos hormonales, consultar con su médico antes de consumir cantidades elevadas de soya.",
@@ -6370,7 +6359,7 @@ window.manualData.productos = [
       "Digestión rápida de grasas: la cuasia, el marrubio y el diente de león activan la producción de bilis para digerir frituras y condimentos sin pesadez ni náuseas.",
       "Extracto líquido de rápida asimilación: presentación bebible en gotas diluidas en agua, perfecta para quienes prefieren no tragar pastillas o cápsulas."
     ],
-    "contraindications": "No se deje al alcance de los niños. No consumir durante el embarazo ni en período de lactancia. No usar en caso de intolerancia o sensibilidad a los ingredientes de la fórmula.",
+    "contraindications": "No se deje al alcance de los niños. No consumir durante el embarazo ni en período de lactancia. No usar en caso de intolerancia o sensibilidad a los ingredientes de la fórmula. Evitar sin valoración médica en obstrucción o cálculos biliares, hipertensión no controlada o enfermedad hepática grave (contiene boldo y regaliz).",
     "foodInteractions": "Diluir 20 gotas en un vaso con agua (250 ml) y tomar 15 a 20 minutos antes de los alimentos para que los extractos amargos estimulen el vaciado biliar y faciliten la digestión de comidas grasas.",
     "interactions": "Las plantas de estímulo hepático (cardo mariano, boldo, diente de león) y el regaliz interactúan con medicamentos procesados por el hígado, anticoagulantes, antihipertensivos y diuréticos por alteración de electrolitos; se recomienda separar al menos 2 horas de cualquier fármaco y consultar indispensablemente con un médico o farmacéutico.",
     "packageContent": "120 ml",
@@ -6738,7 +6727,7 @@ window.manualData.productos = [
     "benefits": [
       "Alivio práctico de agruras: combina sábila y nopal en cápsulas para tomar antes de comer fuera de casa.",
       "Fibra vegetal saciante: la penca de nopal ayuda a atrapar grasas y favorece la digestión regular.",
-      "Gran rendimiento: frasco con 150 cápsulas que rinde hasta 2 meses y medio de uso continuo."
+      "Presentación de 150 cápsulas: rinde 25 días de uso continuo tomando 2 cápsulas tres veces al día antes de los alimentos."
     ],
     "contraindications": "Contraindicado durante el embarazo y la lactancia. No consumir en casos de oclusión intestinal, estenosis esofágica, dolor abdominal de origen desconocido o diarrea aguda.",
     "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos principales con un vaso completo de agua (250 ml), manteniendo un consumo continuo de agua a lo largo del día para que la fibra soluble y la sábila actúen adecuadamente sobre el tracto digestivo.",
@@ -7097,7 +7086,7 @@ window.manualData.productos = [
     "ingredients": "Calostro bovino en polvo (4000 mg por porción), estandarizado al 20% de Inmunoglobulinas G (IgG). Contiene trazas de IgA, IgM, lactoferrina, factores de crecimiento (IGF-1, IGF-2, TGF-β, EGF), polipéptidos ricos en prolina (PRPs) y oligosacáridos.",
     "serving": "4 g (1 scoop, 4 medidas del dosificador) al día",
     "timing": "En ayunas (30 minutos antes del desayuno) o antes de dormir",
-    "intakeInstructions": "Mezclar 4 g (4 scoops) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
+    "intakeInstructions": "Mezclar 4 g (1 scoop / 4 medidas del dosificador) en 100-150 ml de agua natural, leche de almendras o batido frío. Agitar hasta disolver. No mezclar con líquidos calientes (superiores a 45-50°C) para no desnaturalizar las inmunoglobulinas.",
     "benefits": [
       "La mayor concentración de anticuerpos (800 mg de IgG por porción): calostro puro de primera calidad estandarizado al 20% de inmunoglobulinas G para elevar las defensas al nivel más alto.",
       "Regeneración profunda de la pared intestinal: rico en lactoferrina y factores biológicos que sellan la barrera digestiva y reparan la mucosa desgastada por medicamentos agresivos, tratamientos para Helicobacter pylori, antibióticos de amplio espectro o quimioterapia y radioterapia.",
@@ -7534,7 +7523,7 @@ window.manualData.productos = [
     "ingredients": "Tlanchalagua (Erythraea stricta, L.), Cocolmeca (Smilax cardifolia, L.), Tejocote (Crataegus mexicana, L.), Lima (Citrus Limetta, L.), Té Limón (Cymbopogon nardus, L.).",
     "serving": "2 cápsulas tres veces al día, antes de los alimentos",
     "timing": "Antes de los alimentos principales (desayuno, comida y cena)",
-    "intakeInstructions": "Tomar 2 cápsulas con un vaso de agua natural. Verificar lote y fecha de caducidad impresos en el envase.",
+    "intakeInstructions": "Tomar 2 cápsulas tres veces al día antes de los alimentos, con un vaso de agua natural.",
     "benefits": [
       "Eliminación de líquidos y ligereza: la tlanchalagua y la cocolmeca ayudan a eliminar el exceso de agua retenida y desinflamar la panza.",
       "Digestión tradicional de grasas: la raíz de tejocote y la lima apoyan la digestión de comidas condimentadas o con grasa.",
@@ -7644,7 +7633,7 @@ window.manualData.productos = [
     "shortDesc": "Cápsulas de raíces puras de cúrcuma y jengibre para tomar antes de cada comida fuerte: activan los jugos digestivos, previenen náuseas, expulsan gases y evitan la indigestión pesada.",
     "ingredients": "Polvo de raíz de Cúrcuma (Curcuma longa), Polvo de raíz de Jengibre (Zingiber officinale), excipientes (cápsula vegetal o gelatinosa).",
     "serving": "3 cápsulas al día (1 antes de cada alimento principal)",
-    "timing": "Con alimentos que contengan grasas saludables",
+    "timing": "Antes o junto con los alimentos principales que contengan grasas saludables",
     "intakeInstructions": "Tomar 1 cápsula antes del desayuno, comida y cena, con un vaso de agua. Consumir junto con alimentos grasos para mejorar la absorción. No exceder la dosis diaria recomendada.",
     "benefits": [
       "Digestión sin esfuerzo: el jengibre activa las contracciones naturales del estómago para que los alimentos no se estanquen.",
