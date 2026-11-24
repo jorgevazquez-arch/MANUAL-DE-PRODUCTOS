@@ -1180,45 +1180,45 @@ window.manualData.padecimientos = [
         "id": 181,
         "serving": "4 cápsulas",
         "usage": "Tomar una vez al día con alimentos, solo después de revisar función renal, medicamentos y el consumo total de magnesio con un profesional.",
-        "rationale": "Actúa modulando el tono vascular y relajando la musculatura lisa de las paredes arteriales, lo que facilita la vasodilatación periférica y favorece cifras estables de presión arterial."
+        "rationale": "Ayuda a relajar las paredes de los vasos sanguíneos para que la sangre circule con menos resistencia y favorezca una presión estable."
       },
       {
         "id": 123,
         "serving": "3 cápsulas (3 g)",
         "usage": "Tomar una vez al día con un desayuno que contenga grasas y revisar anticoagulantes, antiagregantes y riesgo de sangrado.",
-        "rationale": "Aporta altas concentraciones de EPA y DHA que estimulan la síntesis de óxido nítrico endotelial, mejorando la distensibilidad de las arterias y reduciendo la resistencia vascular periférica en apoyo a la salud cardiometabólica."
+        "rationale": "Aporta EPA y DHA que ayudan a mantener las arterias flexibles, mejorar la circulación y cuidar el corazón."
       },
       {
         "id": 23,
         "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar una vez al día con alimentos y vigilar la presión, la tolerancia digestiva y posibles interacciones con anticoagulantes o antihipertensivos.",
-        "rationale": "Rico en S-alil-cisteína y polifenoles bioactivos que promueven la producción de óxido nítrico y modulan las enzimas vasoconstrictoras, favoreciendo la relajación vascular y la microcirculación arterial."
+        "rationale": "Sus antioxidantes ayudan a relajar los vasos sanguíneos y a mejorar la circulación sin irritar el estómago."
       }
     ],
     "comboSecundario": [
       {
         "id": 128,
         "serving": "3 cápsulas (2.05 g)",
-        "usage": "Tomar una vez al día con alimentos únicamente con autorización clínica, después de revisar potasio en sangre, función renal y medicamentos.",
-        "rationale": "El citrato de potasio favorece el equilibrio sodio-potasio a nivel celular, facilitando la excreción renal de sodio y disminuyendo la tensión en el endotelio vascular para respaldar la relajación arterial."
+        "usage": "Tomar 3 cápsulas al día con alimentos SOLO con autorización médica y estudios recientes; evitar si toma enalapril, losartán, espironolactona o tiene daño renal (y no sumar con dosis altas de magnesio #181 sin revisar).",
+        "rationale": "Aporta potasio (citrato y cloruro) y magnesio para equilibrar el sodio del cuerpo y ayudar a eliminar su exceso por la orina."
       },
       {
         "id": 101,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos que contengan grasas, únicamente como apoyo complementario con autorización del cardiólogo.",
-        "rationale": "Potente antioxidante mitocondrial en forma activa que protege el endotelio frente al estrés oxidativo, optimizando la elasticidad de las paredes arteriales y favoreciendo un bombeo cardíaco eficiente y coordinado."
+        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o CoQ10 #136, no ambas; revisar si toma warfarina).",
+        "rationale": "Forma activa de CoQ10 que da energía al corazón y protege las paredes de las arterias del desgaste."
       },
       {
         "id": 136,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Tomar una vez al día con alimentos que contengan grasas, únicamente como apoyo complementario acordado con el profesional.",
-        "rationale": "La coenzima Q10 participa directamente en la síntesis de ATP en los miocitos cardíacos y preserva el óxido nítrico vascular, mejorando la función endotelial y la contractilidad cardíaca frente a la sobrecarga de presión."
+        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o Ubiquinol #101, no ambas; revisar si toma warfarina o hipotensores).",
+        "rationale": "Ayuda a producir energía en las células del corazón para que lata con fuerza y cuida la elasticidad arterial."
       },
       {
         "id": 10,
         "serving": "3 cápsulas",
         "usage": "Tomar una vez al día con alimentos solo después de revisar todos sus botánicos y medicamentos. Elegir esta fórmula o el ajo negro, no ambas de rutina.",
-        "rationale": "Sinergia botánica con zapote blanco, extracto de olivo y ajo deodorizado cuyos flavonoides promueven la vasodilatación periférica suave, protegen los capilares y apoyan el control del tono arterial."
+        "rationale": "Mezcla de plantas (zapote blanco, olivo y ajo sin olor) que ayuda a relajar las arterias y apoyar la circulación."
       }
     ],
     "lifestyleTips": [
@@ -1227,7 +1227,8 @@ window.manualData.padecimientos = [
       "Priorizar un patrón tipo DASH, reducir sodio de alimentos procesados, hacer actividad física regular y moderar alcohol.",
       "Revisar apnea del sueño, peso, diabetes, función renal y otros factores con el equipo de salud.",
       "Una presión de 180/120 mmHg o más acompañada de dolor de pecho, falta de aire, déficit neurológico, confusión o alteración visual requiere atención urgente."
-    ]
+    ],
+    "safetyNote": "No suspendas ni cambies tus medicamentos para la presión. Si tomas enalapril, losartán, espironolactona, anticoagulantes o tienes enfermedad renal, consulta al médico antes de usar potasio (#128), ajo negro (#23), omega-3 (#123) o CoQ10 (#101/#136)."
   },
   {
     "id": "varices_circulacion",
@@ -1246,66 +1247,68 @@ window.manualData.padecimientos = [
       {
         "id": 182,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-        "rationale": "Fórmula tópica flebotónica con árnica, castaño de indias y centella asiática que reactiva la microcirculación subcutánea mediante masaje, desinflamando el trayecto venoso y aliviando de inmediato la sensación de piernas cansadas."
+        "usage": "Aplicar externamente con masaje suave de tobillos hacia arriba 2 veces al día (no aplicar sobre heridas ni úlceras abiertas, ni junto con gel CT-O #183).",
+        "rationale": "Gel refrescante con árnica, castaño de Indias y centella asiática que descansa las piernas pesadas y ayuda a desinflamar la zona mediante masaje."
       },
       {
         "id": 44,
         "serving": "2 cápsulas (800 mg)",
-        "usage": "Tomar esta porción al día; confirmar con el especialista que el extracto esté estandarizado. Antes de las comidas.",
-        "rationale": "La escina estandarizada tonifica las paredes de las venas y reduce la fragilidad capilar, mejorando el retorno venoso hacia el corazón para disminuir la pesadez, dolor y edema en las piernas."
+        "usage": "Tomar 2 cápsulas tres veces al día antes de los alimentos (o con comida si irrita el estómago). Evitar en daño renal/hepático, úlcera o anticoagulantes, y suspender 2 semanas antes de cirugías.",
+        "rationale": "Ayuda a dar firmeza a las venas para que la sangre regrese mejor hacia el corazón, disminuyendo pesadez e hinchazón."
       },
       {
         "id": 108,
         "serving": "1 cápsula",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "El ácido ascórbico potenciado con rutina y bioflavonoides estimula la síntesis de colágeno en la túnica vascular venosa y refuerza la resistencia de los capilares, frenando la extravasación de líquidos y la formación de arañitas."
+        "rationale": "Vitamina C con rutina y bioflavonoides que ayuda a producir colágeno para fortalecer venas y capilares, reduciendo fuga de líquidos y arañitas."
       }
     ],
     "comboSecundario": [
       {
         "id": 23,
         "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Sus compuestos sulfurados y polifenoles bioactivos mejoran la reología y fluidez sanguínea, reduciendo la viscosidad intravascular y previniendo el estancamiento hemático en los miembros inferiores."
+        "usage": "Tomar 3 cápsulas al día con alimentos (revisar si toma anticoagulantes o antes de cirugías).",
+        "rationale": "Ayuda a que la sangre circule con más soltura por las piernas y evita que se estanque."
       },
       {
         "id": 122,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Los ácidos grasos EPA y DHA ayudan a moderar la inflamación del endotelio venoso, optimizando la flexibilidad de las membranas eritrocitarias y facilitando un flujo sanguíneo continuo a través de las válvulas venosas."
+        "usage": "Tomar 1 cápsula al día con una comida que contenga grasas (revisar si toma anticoagulantes o antes de cirugías).",
+        "rationale": "Grasas saludables (EPA y DHA) que ayudan a desinflamar las venas y facilitan un flujo sanguíneo continuo."
       },
       {
         "id": 138,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Poderoso complejo de proantocianidinas y polifenoles que contrarresta el daño oxidativo en las válvulas venosas, preservando la elasticidad estructural y reduciendo la permeabilidad vascular excesiva."
+        "usage": "Tomar 1 cápsula al día con alimentos (revisar si toma anticoagulantes o medicamentos para presión/glucosa).",
+        "rationale": "Antioxidante con resveratrol y semilla de uva que protege las venas del desgaste y ayuda a mantenerlas elásticas."
       },
       {
         "id": 101,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-        "rationale": "Fortalece las paredes vasculares y mejora la bioenergética celular en el endotelio capilar, optimizando la oxigenación periférica y aliviando la fatiga y pesadez en piernas con insuficiencia venosa."
+        "usage": "Tomar 1 cápsula al día con una comida que contenga grasas (revisar si toma warfarina).",
+        "rationale": "Da energía a las células de los vasos sanguíneos y mejora la oxigenación para aliviar el cansancio en las piernas."
       },
       {
         "id": 51,
         "serving": "3 cápsulas",
-        "usage": "Tomar 3 cápsulas al día con alimentos. Evitar en personas con alergia a salicilatos o anticoaguladas.",
-        "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas mediante la modulación de mediadores inflamatorios vasculares."
+        "usage": "Tomar 3 cápsulas al día con alimentos. Evitar en alergia a aspirina/salicilatos, úlcera o uso de anticoagulantes.",
+        "rationale": "Combina hamamelis, ajo y sauce blanco para desinflamar várices dolorosas, apoyar la circulación y calmar la pesadez."
       },
       {
         "id": 183,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-        "rationale": "Gel refrescante con extractos de castaño de indias, hamamelis y ginkgo que proporciona un efecto venotónico local, descongestionando los vasos dilatados y brindando ligereza inmediata a las piernas tras jornadas largas."
+        "usage": "Aplicar externamente con masaje suave ascendente 1 a 2 veces al día (no usar sobre piel abierta ni combinar en la misma zona con Moroizy Gel #182).",
+        "rationale": "Gel refrescante con castaño de Indias, hamamelis y ginkgo que alivia la pesadez y da ligereza a las piernas."
       }
     ],
     "lifestyleTips": [
       "Elevar las piernas por encima del nivel del corazón.",
       "Usar medias de compresión graduada.",
       "Caminar a paso ligero a diario.",
-      "Evitar ropa excesivamente ajustada."
-    ]
+      "Evitar ropa excesivamente ajustada.",
+      "Acude a urgencias si notas hinchazón súbita en una sola pierna, dolor intenso o calor en la pantorrilla, enrojecimiento, falta de aire o dolor de pecho, o si una várice sangra o forma una úlcera."
+    ],
+    "safetyNote": "Si presentas hinchazón repentina de una sola pierna, dolor fuerte o calor en la pantorrilla, o falta de aire, acude a urgencias. Evita combinar varios productos que fluidifican la sangre si tomas anticoagulantes o aspirina, y suspende los orales 2 semanas antes de cirugías."
   },
   {
     "id": "enfermedad_renal",
@@ -1323,20 +1326,20 @@ window.manualData.padecimientos = [
       {
         "id": 6,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Aporta proantocianidinas tipo A que inhiben la adhesión bacteriana en el urotelio de las vías urinarias, reduciendo el riesgo de colonización patógena y protegiendo los riñones de infecciones ascendentes."
+        "usage": "Tomar 1 cápsula al día con agua (consultar si toma warfarina o tiene antecedentes de piedras de oxalato).",
+        "rationale": "Extracto concentrado de arándano rojo que ayuda a proteger las vías urinarias de bacterias y molestias leves."
       },
       {
         "id": 139,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día con alimentos y solo si no existe enfermedad renal o cardíaca.",
-        "rationale": "Combinación de palo azul y cola de caballo con flavonoides y minerales que estimula la diuresis fisiológica suave, promoviendo el arrastre de detritos metabólicos y la depuración saludable del tracto urinario."
+        "rationale": "Mezcla herbal mexicana (palo azul, cola de caballo y pingüica) que apoya la eliminación suave de líquidos y limpieza urinaria."
       },
       {
         "id": 148,
-        "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Aporta fitosteroles y saponinas que asisten en el metabolismo de lípidos y favorecen la función depurativa renal, facilitando la eliminación natural de solutos a través de la orina."
+        "serving": "3 cápsulas (1.5 g)",
+        "usage": "Tomar 3 cápsulas al día con alimentos. Evitar sin valoración médica si hay cálculos biliares, presión baja, diabetes o daño renal.",
+        "rationale": "Hierba del sapo usada tradicionalmente para apoyar el equilibrio de grasas y el bienestar general de las vías urinarias."
       }
     ],
     "comboSecundario": [
@@ -1344,26 +1347,27 @@ window.manualData.padecimientos = [
         "id": 28,
         "serving": "100 ml",
         "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-        "rationale": "Brinda mucílagos vegetales con propiedades emolientes e hidratantes que calman la irritación de los conductos urinarios y suavizan el paso de la orina ante molestias miccionales leves."
+        "rationale": "Jugo de sábila con vitamina C que refresca el aparato digestivo y aporta hidratación suave sin azúcares añadidos."
       },
       {
         "id": 151,
         "serving": "1 medida (6 g)",
-        "usage": "Tomar esta porción al día según tolerancia. En ayunas o con el desayuno. Preferentemente por la mañana.",
-        "rationale": "Su aporte de clorofila, antioxidantes vegetales y fibra prebiótica modula la microbiota intestinal, reduciendo la generación de toxinas nitrogenadas colónicas que sobrecargan la filtración urinaria."
+        "usage": "Tomar 1 medida (6 g) por la mañana disuelta en agua. Evitar de noche (contiene cafeína de té verde y guaraná), en cálculos biliares o antecedentes de piedras de oxalato.",
+        "rationale": "Bebida verde con fibra, vegetales, enzimas y probióticos que apoya la digestión diaria y el bienestar general."
       },
       {
         "id": 129,
-        "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Favorece una microbiota intestinal equilibrada que degrada solutos urémicos y compuestos nitrogenados antes de su absorción, disminuyendo la carga osmótica y de filtración sobre el parénquima renal."
+        "serving": "1 cápsula (500 mg)",
+        "usage": "Tomar 1 cápsula al día con agua al tiempo (refrigerar después de abrir).",
+        "rationale": "Aporta 60 billones de lactobacilos que equilibran la flora intestinal y reducen fermentaciones y desechos digestivos."
       }
     ],
     "lifestyleTips": [
       "Mantener una hidratación adecuada con agua natural.",
       "Reducir el consumo de sodio (sal).",
-      "Evitar el uso excesivo de antiinflamatorios no esteroideos (AINEs)."
-    ]
+      "Evitar el uso frecuente o sin receta de analgésicos antiinflamatorios (como ibuprofeno, naproxeno o diclofenaco)."
+    ],
+    "safetyNote": "Esta guía es únicamente para bienestar preventivo en personas sin enfermedad renal diagnosticada ni infección urinaria activa. No sustituye valoración médica si hay ardor al orinar, fiebre, dolor en espalda baja o costado, sangre en la orina, espuma persistente o hinchazón. Evita combinar varios productos diuréticos a la vez o tomarlos si usas medicamentos para la presión o el corazón sin autorización médica."
   },
   {
     "id": "enfermedad_renal_diagnosticada",
@@ -1382,47 +1386,42 @@ window.manualData.padecimientos = [
         "id": 123,
         "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día únicamente con autorización del nefrólogo y revisión de anticoagulantes. Con un desayuno que contenga grasas.",
-        "rationale": "Los ácidos grasos EPA y DHA ayudan a mitigar los procesos inflamatorios glomerulares y protegen la microvasculatura renal, ofreciendo soporte cardiovascular clave ante la sobrecarga hemodinámica del riñón."
+        "rationale": "Omega 3 EPA y DHA que apoya el cuidado del corazón y el control de la inflamación general en personas bajo seguimiento renal."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día únicamente si el nefrólogo la autoriza. Con alimentos que contengan grasas.",
-        "rationale": "Actúa como potente antioxidante mitocondrial que protege a los podocitos y células tubulares renales frente al estrés oxidativo, apoyando la integridad celular y la viabilidad del tejido renal remanente."
+        "serving": "1 cápsula (415 mg)",
+        "usage": "Tomar 1 cápsula al día con alimentos SOLO con autorización del nefrólogo (revisar si toma warfarina).",
+        "rationale": "Forma activa de CoQ10 que apoya la energía de las células del corazón y protege los tejidos del desgaste oxidativo."
       },
       {
         "id": 129,
-        "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos, si el profesional la autoriza.",
-        "rationale": "Cepas probióticas de alta concentración que asisten en la degradación entérica de toxinas urémicas como urea y creatinina en el colon, disminuyendo su recirculación y apoyando el manejo metabólico supervisado."
+        "serving": "1 cápsula (500 mg)",
+        "usage": "Tomar 1 cápsula al día con agua al tiempo (refrigerar al abrir), separada 2 a 3 h de antibióticos.",
+        "rationale": "Ayuda a equilibrar la flora intestinal para disminuir desechos digestivos que pasan a la sangre."
       }
     ],
     "comboSecundario": [
       {
         "id": 6,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día únicamente si existe indicación urinaria adicional y el profesional lo aprueba. Con alimentos.",
-        "rationale": "Aporta proantocianidinas que previenen la adhesión uropatógena en la vejiga, reduciendo el riesgo de infecciones bacterianas que puedan agravar la estabilidad funcional de los riñones."
+        "usage": "Tomar 1 cápsula al día SOLO con autorización del nefrólogo (evitar en antecedentes de piedras de oxalato o con warfarina sin control).",
+        "rationale": "Arándano rojo concentrado que apoya la protección de las vías urinarias en personas con indicación médica."
       },
       {
         "id": 28,
         "serving": "100 ml",
-        "usage": "Tomar esta porción al día solo si el nefrólogo autoriza la cantidad de líquidos. En ayunas o entre comidas.",
-        "rationale": "Brinda mucílagos hidratantes y fitonutrientes que suavizan la mucosa gastrointestinal, favoreciendo la asimilación hidromineral balanceada y el confort gástrico en personas con pautas de líquidos supervisadas."
-      },
-      {
-        "id": 111,
-        "serving": "1 scoop (35 g)",
-        "usage": "Tomar esta porción únicamente con autorización del médico o nutriólogo renal. Dentro de los 45 minutos posteriores al entrenamiento.",
-        "rationale": "Proteína de suero hidrolizada de altísimo valor biológico y rápida asimilación, ideal para cubrir requerimientos proteicos calculados y prevenir el desgaste muscular y caquexia sin sobrecargar el nitrógeno residual."
+        "usage": "Agitar bien. Usar SOLO si el nefrólogo autoriza este volumen de líquido (100 ml) y el aporte de potasio/vitamina C del jugo.",
+        "rationale": "Jugo de sábila con vitamina C que refresca el estómago cuando el especialista autoriza su toma."
       }
     ],
     "lifestyleTips": [
-      "No recomendar potasio, magnesio, creatina, diuréticos herbales ni productos detox sin autorización del nefrólogo.",
+      "No tomar potasio, magnesio, creatina, vitamina C en dosis altas ni tés diuréticos sin revisión de tus estudios recientes.",
       "Individualizar proteína, sodio, potasio, fósforo y líquidos.",
-      "Evitar AINEs salvo indicación médica.",
-      "Buscar atención ante disminución marcada de orina, falta de aire, confusión, dolor de pecho o edema rápidamente progresivo."
-    ]
+      "Evitar analgésicos antiinflamatorios (ibuprofeno, naproxeno, diclofenaco) salvo indicación médica.",
+      "Acudir a valoración si hay menos orina, falta de aire o hinchazón que aumenta rápido."
+    ],
+    "safetyNote": "La enfermedad renal requiere control estricto del nefrólogo sobre el consumo de potasio, fósforo, líquidos y proteínas. Ningún suplemento sustituye tu tratamiento médico ni debe iniciarse sin autorización de tu especialista, ya que incluso productos naturales o proteínas en polvo pueden sobrecargar el riñón o interactuar con tus medicinas. Acude a urgencias si notas mucha menos orina, falta de aire, dolor de pecho, confusión o hinchazón que avanza rápido."
   },
   {
     "id": "calculos_renales",
@@ -1441,53 +1440,48 @@ window.manualData.padecimientos = [
         "id": 47,
         "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día únicamente después de identificar el tipo de cálculo y con autorización profesional. Con alimentos.",
-        "rationale": "Alcaliniza el pH urinario y se une al calcio en la orina, formando un complejo soluble que inhibe directamente la nucleación y crecimiento de cálculos de oxalato cálcico y ácido úrico."
+        "rationale": "Aporta citrato de potasio que ayuda a equilibrar la acidez de la orina para dificultar la formación de ciertos tipos de piedras (según análisis médico)."
       },
       {
         "id": 139,
-        "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos, según la ficha y con revisión profesional.",
-        "rationale": "Extractos diuréticos de palo azul y cabellos de elote que promueven un flujo constante de orina diluida, impidiendo la saturación mineral y el asentamiento de arenillas en la pelvis renal."
+        "serving": "3 cápsulas (1.5 g)",
+        "usage": "Tomar 3 cápsulas al día con agua (elegir esta o Té Rinichi #177, sin combinar varios diuréticos ni usar si hay dolor agudo u obstrucción).",
+        "rationale": "Plantas tradicionales (palo azul, cola de caballo y pelo de elote) que favorecen el flujo urinario y el arrastre de arenillas."
       },
       {
         "id": 28,
         "serving": "100 ml",
-        "usage": "Tomar esta porción al día como parte de la ingesta de líquidos, según tolerancia. En ayunas o entre comidas.",
-        "rationale": "Su riqueza en polisacáridos ejerce un efecto demulcente y emoliente sobre el epitelio urinario, calmando la irritación causada por el paso de cristales y sedimentos minerales."
+        "usage": "Agitar bien. Tomar 50 ml antes del desayuno y 50 ml antes de la comida (refrigerar al abrir; suma 30 mg de vitamina C y 100 ml de líquido).",
+        "rationale": "Jugo de sábila con vitamina C que refresca el aparato digestivo y acompaña la hidratación diaria."
       },
       {
         "id": 213,
-        "serving": "1 tableta",
-        "usage": "Tomar esta porción antes de cada alimento principal (3 tabletas al día).",
-        "rationale": "La chanca piedra y cola de caballo inhiben la agregación de cristales de oxalato de calcio en los túbulos renales y relajan los uréteres, favoreciendo la expulsión de microarenillas urinarias."
+        "serving": "3 tabletas al día (1 antes de cada alimento)",
+        "usage": "Tomar 1 tableta antes de cada comida principal SOLO con valoración médica (no combinar con #139, #177 ni #148 para no duplicar plantas; evitar en embarazo o daño renal/biliar).",
+        "rationale": "Combina chanca piedra, cola de caballo y hierbas tradicionales para apoyar la limpieza de las vías urinarias."
       }
     ],
     "comboSecundario": [
       {
         "id": 177,
         "serving": "1 sobre (2 g) por taza",
-        "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza de infusión al día según tolerancia y las indicaciones del empaque. Después de las comidas.",
-        "rationale": "Infusión herbal con flavonoides de pingüica y pelo de elote que incrementa el volumen miccional, facilitando el lavado continuo de las vías urinarias para prevenir la acumulación de solutos."
+        "usage": "Preparar 1 taza al día con 1 sobre (elegir este o Rinichi cápsulas #139, sin duplicar; no usar si hay obstrucción urinaria).",
+        "rationale": "Infusión diurética suave sin cafeína que apoya el flujo diario de orina y el bienestar de las vías urinarias."
       },
       {
         "id": 148,
-        "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-        "rationale": "Aporta fitonutrientes que modulan el balance de sales y favorecen la depuración metabólica, apoyando la prevención secundaria de sedimentos y arenillas en el sistema excretor."
-      },
-      {
-        "id": 115,
-        "serving": "20 gotas",
-        "usage": "Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, solo después de identificar el tipo de cálculo y recibir valoración profesional.",
-        "rationale": "Extracto fluido de Guatteria gaumeri que favorece la desintegración de microconcreciones y el drenaje renal, dificultando la agregación de arenillas y sales minerales en el tracto urológico."
+        "serving": "3 cápsulas (1.5 g)",
+        "usage": "Tomar 3 cápsulas al día con alimentos (no combinar con Cha-Ha Stone #213; evitar en daño renal o cálculos biliares).",
+        "rationale": "Hierba del sapo tradicional que acompaña el equilibrio de grasas y el cuidado urinario."
       }
     ],
     "lifestyleTips": [
       "Priorizar agua natural en la cantidad recomendada por el profesional.",
-      "No restringir calcio alimentario ni alcalinizar la orina sin conocer el tipo de cálculo.",
+      "No restringir calcio alimentario ni cambiar la acidez de la orina sin conocer el tipo de cálculo.",
       "Reducir sodio y ajustar oxalato, purinas o proteína únicamente según el diagnóstico.",
       "Buscar atención urgente ante fiebre, escalofríos, ausencia de orina, vómitos persistentes o dolor incontrolable."
-    ]
+    ],
+    "safetyNote": "La prevención depende del análisis y tipo de piedra, junto con la hidratación diaria que indique tu médico. Evita dosis altas de vitamina C (pueden aumentar los oxalatos y favorecer cálculos) y no combines varios productos herbales diuréticos al mismo tiempo. Acude de inmediato a urgencias ante cólico renal intenso, fiebre, escalofríos, vómitos continuos, sangre visible o incapacidad para orinar."
   },
   {
     "id": "infecciones_urinarias",
@@ -1506,40 +1500,40 @@ window.manualData.padecimientos = [
       {
         "id": 6,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Aporta proantocianidinas bioactivas que bloquean las fimbrias de bacterias uropatógenas como Escherichia coli, impidiendo que se fijen a las paredes de la vejiga y facilitando su eliminación con la micción."
+        "usage": "Tomar 1 cápsula al día con agua (consultar si toma warfarina o tiene antecedentes de piedras de oxalato).",
+        "rationale": "Arándano rojo concentrado que ayuda a evitar que las bacterias se peguen en las vías urinarias, apoyando la prevención de recaídas."
       },
       {
         "id": 130,
-        "serving": "2 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Cepas de lactobacilos específicos que restauran la microbiota vaginal e intestinal, produciendo ácido láctico y bacteriocinas que impiden la proliferación y migración de patógenos hacia el meato uretral."
+        "serving": "2 cápsulas (1 g)",
+        "usage": "Tomar 2 cápsulas al día con agua al tiempo (fórmula pensada para mujeres; refrigerar al abrir, separar 2-3 h de antibióticos y consultar en inmunosupresión grave).",
+        "rationale": "Aporta 60 billones de probióticos con arándano rojo y vitamina C para cuidar el equilibrio de la flora intestinal e íntima femenina."
       }
     ],
     "comboSecundario": [
       {
         "id": 61,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Estimula la actividad de los macrófagos y fagocitos a nivel del tracto urinario, mientras su contenido de ácido ascórbico acidifica la orina creando un ambiente desfavorable para la proliferación bacteriana."
+        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Vitamina C-1000 #108 para no exceder vitamina C; evitar en alergia a Asteraceae o inmunosupresores).",
+        "rationale": "Equinácea con 300 mg de vitamina C que respalda las defensas naturales del organismo frente a infecciones frecuentes."
       },
       {
         "id": 27,
-        "serving": "90 ml",
-        "usage": "Tomar esta porción al día. En ayunas o antes de la primera comida.",
-        "rationale": "Combina la acción emoliente del aloe vera para desinflamar y calmar el ardor miccional con fitonutrientes del arándano que evitan la adherencia bacteriana en el revestimiento vesical."
+        "serving": "30 ml por toma",
+        "usage": "Agitar bien. Tomar 30 ml 3 veces al día antes de los alimentos (refrigerar al abrir; no duplicar con Cranberry #6 y evitar en embarazo o sin revisar warfarina/oxalatos).",
+        "rationale": "Combina sábila y arándano rojo para refrescar el sistema digestivo y apoyar el cuidado preventivo de las vías urinarias."
       },
       {
         "id": 108,
-        "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Favorece la acidificación fisiológica de la orina, lo que dificulta la replicación de cepas bacterianas patógenas en la vejiga a la par que refuerza las defensas inmunológicas del urotelio."
+        "serving": "1 cápsula (aprox. 1 g)",
+        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Equinácea+C #61; evitar en antecedentes de piedras de oxalato o daño renal).",
+        "rationale": "Vitamina C con rutina y bioflavonoides que apoya las defensas y ayuda a mantener un ambiente menos favorable para bacterias urinarias."
       },
       {
         "id": 22,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "La combinación de flavonoides del propóleo y alicina estable del ajo negro ofrece propiedades antimicrobianas naturales que apoyan la resistencia inmunológica local frente a bacterias uropatógenas recurrentes."
+        "usage": "Tomar 1 cápsula al día con alimentos (evitar en alergia a productos de la colmena o al ajo, y consultar si toma anticoagulantes).",
+        "rationale": "Combina ajo negro y propóleo para apoyar las defensas naturales del cuerpo sin irritar el estómago."
       }
     ],
     "lifestyleTips": [
@@ -1547,14 +1541,15 @@ window.manualData.padecimientos = [
       "Orinar después de mantener relaciones sexuales.",
       "Evitar duchas vaginales y productos irritantes.",
       "Solicitar atención médica ante síntomas activos, y de urgencia si hay fiebre, escalofríos, vómitos o dolor en la espalda o costado."
-    ]
+    ],
+    "safetyNote": "Estas opciones son solo apoyo preventivo y nunca sustituyen los antibióticos ni la valoración médica. Si presentas fiebre, escalofríos, dolor en la espalda baja o costado, vómitos o sangre en la orina, acude de inmediato al médico o a urgencias. No dupliques fuentes de vitamina C (#108 con #61) ni tomes arándano (#6, #27) o ajo negro (#22) sin consultar si usas anticoagulantes o tienes antecedentes de piedras de oxalato."
   },
   {
     "id": "inflamacion_edema",
     "name": "Inflamación y Retención de Líquidos (Edema)",
     "emoji": "💧",
     "color": "red",
-    "description": "La hinchazón por acumulación de líquidos puede deberse a la circulación, a medicamentos o a una enfermedad. Primero se identifica la causa; después se valora qué cuidados y productos son adecuados.",
+    "description": "Primero se identifica la causa de la retención de líquidos: el sobreuso postural, el calor y el exceso de sodio son comunes, pero si la hinchazón se debe a problemas del corazón, riñón o hígado requiere atención médica directa y no debe manejarse solo con suplementos.",
     "symptoms": [
       "Hinchazón en piernas, tobillos o manos",
       "Sensación de pesadez o piel tirante",
@@ -1566,14 +1561,14 @@ window.manualData.padecimientos = [
       {
         "id": 182,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-        "rationale": "Gel desinfiltrante con árnica y centella asiática que estimula el drenaje linfático subcutáneo y la microcirculación venosa mediante masaje, reduciendo la hinchazón y tensión en zonas edematosas."
+        "usage": "Aplicar externamente con masaje ascendente en piernas y tobillos (no usar sobre piel abierta ni junto con CT-O #183).",
+        "rationale": "Gel con árnica y centella asiática que, con masaje suave, ayuda a bajar la hinchazón y la piel tirante en piernas y tobillos."
       },
       {
         "id": 44,
         "serving": "2 cápsulas (800 mg)",
-        "usage": "Tomar esta porción al día; confirmar con el especialista que el extracto esté estandarizado. Antes de las comidas.",
-        "rationale": "La escina sella las uniones intercelulares en el endotelio capilar, reduciendo la permeabilidad vascular y evitando la fuga de suero hacia el espacio intersticial en tobillos y piernas."
+        "usage": "Tomar 2 cápsulas tres veces al día antes de los alimentos (o con comida si hay sensibilidad gástrica). Evitar en insuficiencia renal o hepática, anticoagulantes y suspender 2 semanas antes de cirugías.",
+        "rationale": "Fortalece las paredes de los vasos sanguíneos para evitar que se escape líquido hacia los tejidos y reducir la hinchazón."
       }
     ],
     "comboSecundario": [
@@ -1581,25 +1576,25 @@ window.manualData.padecimientos = [
         "id": 47,
         "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día únicamente con orientación profesional y análisis de potasio y función renal. Con alimentos.",
-        "rationale": "Contribuye al reequilibrio hidrosalino promoviendo la excreción renal del exceso de sodio acumulado, lo que disminuye el volumen de líquido retenido en los tejidos periféricos."
+        "rationale": "Ayuda a equilibrar las sales del cuerpo y a eliminar el exceso de sodio por la orina para disminuir la retención de líquidos."
       },
       {
         "id": 123,
         "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Los ácidos grasos EPA y DHA modulan la cascada eicosanoide reduciendo la permeabilidad vascular y la liberación de mediadores inflamatorios que provocan extravasación y retención de líquidos en los tejidos."
+        "usage": "Tomar 3 cápsulas con el desayuno (elegir este o Omega 3 Salmón #122, no ambos; revisar si toma anticoagulantes).",
+        "rationale": "Omega-3 concentrado que ayuda a bajar la inflamación de los vasos y a disminuir la acumulación de líquido en los tejidos."
       },
       {
         "id": 122,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Aporta ácidos grasos que optimizan la flexibilidad de las membranas celulares y modulan la respuesta inflamatoria capilar, apoyando el drenaje de líquidos retenidos y aliviando la pesadez en extremidades inferiores."
+        "usage": "Tomar 1 cápsula al día con comida que contenga grasas (elegir este o Omega Nordic #123, no ambos; revisar si toma anticoagulantes).",
+        "rationale": "Aceite de salmón que ayuda a desinflamar los vasos pequeños y aliviar la pesadez en las piernas."
       },
       {
         "id": 183,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-        "rationale": "Fórmula rubefaciente y venotónica que reactiva la reabsorción linfática local mediante masaje suave, aliviando de forma rápida la tirantez, pesadez e hinchazón en tobillos y pies."
+        "usage": "Aplicar externamente con masaje ascendente (no aplicar sobre heridas abiertas ni combinar con Moroizy Gel #182).",
+        "rationale": "Gel de efecto térmico y refrescante que, con masaje ascendente, ayuda a desinflamar y aliviar la tirantez en tobillos y pies."
       }
     ],
     "lifestyleTips": [
@@ -1607,7 +1602,8 @@ window.manualData.padecimientos = [
       "Elevar las piernas cuando la causa sea venosa y moverlas con frecuencia.",
       "No aumentar ni restringir líquidos sin conocer la causa.",
       "Buscar atención urgente ante falta de aire, dolor de pecho, edema de una sola pierna o aumento rápido de peso."
-    ]
+    ],
+    "safetyNote": "La hinchazón puede deberse a problemas del corazón, riñón o hígado y requiere valoración médica. No uses potasio (#47) si tomas enalapril, losartán o espironolactona, ni castaño de Indias (#44) si tienes daño renal o hepático."
   },
   {
     "id": "artritis_reumatoide",
@@ -4346,47 +4342,50 @@ window.manualData.padecimientos = [
       {
         "id": 26,
         "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
+        "usage": "Tomar 3 cápsulas al día antes de los alimentos; separar 2 h de lácteos, calcio, café o antibióticos y 4 h de levotiroxina.",
+        "rationale": "Aporta espirulina orgánica con hierro (8 mg), vitaminas B y minerales que apoyan la nutrición diaria y el transporte de oxígeno; no sustituye el hierro recetado."
       },
       {
         "id": 225,
         "serving": "1 pastilla al día",
         "usage": "Tomar esta porción sublingual al día. Puede tomarse en cualquier momento del día.",
-        "rationale": "Aporta tres formas sinérgicas de vitamina B12 esenciales para la maduración y división adecuada de los glóbulos rojos en médula ósea, previniendo la eritropoyesis ineficaz y combatiendo la debilidad y astenia."
+        "rationale": "Aporta tres formas activas de vitamina B12 que se absorben debajo de la lengua para formar glóbulos rojos sanos y combatir el cansancio."
       },
       {
         "id": 108,
         "serving": "1 cápsula",
         "usage": "Tomar esta porción al día junto con la comida principal.",
-        "rationale": "Reduce el hierro férrico no hemo a su forma ferrosa altamente soluble, multiplicando su absorción en el duodeno y acelerando la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga física."
+        "rationale": "Ayuda a que el cuerpo absorba mejor el hierro de los alimentos vegetales para apoyar la formación de hemoglobina y recuperar energía."
       }
     ],
     "comboSecundario": [
       {
         "id": 4,
         "serving": "3 cápsulas",
-        "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Aporta ácido fólico y cobalamina cofactores clave en la síntesis de ADN eritroblástico, asegurando la adecuada diferenciación celular y la formación de hematíes con tamaño y concentración de hemoglobina óptimos."
+        "usage": "Tomar 3 cápsulas al día con alimentos (revisar si toma anticoagulantes o levodopa).",
+        "rationale": "Aporta ácido fólico y vitaminas del complejo B necesarios para fabricar glóbulos rojos sanos."
       },
       {
         "id": 153,
         "serving": "1 cápsula",
-        "usage": "Tomar esta porción al día solo si existe deficiencia o indicación profesional. Con alimentos.",
-        "rationale": "Cofactor enzimático fundamental que participa en la síntesis de las cadenas de globina y estabiliza la membrana del eritrocito, favoreciendo su correcta maduración y restaurando la resistencia muscular."
+        "usage": "Tomar 1 cápsula al día con alimentos, separada 2 h de suplementos de hierro, calcio o antibióticos y 4 h de levotiroxina.",
+        "rationale": "Mineral esencial que participa en la formación de la sangre y ayuda a mantener la fuerza cuando existe deficiencia confirmada."
       },
       {
         "id": 205,
-        "serving": "2 tabletas",
-        "usage": "Tomar esta porción al día. Antes de cada comida.",
-        "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
+        "serving": "3 tabletas antes de cada comida (9 al día)",
+        "usage": "Tomar 3 tabletas antes de cada comida principal (desayuno, comida y cena). Evitar en gota/ácido úrico alto o si toma antidepresivos IMAO.",
+        "rationale": "Fuente natural de vitaminas del complejo B, proteínas y minerales que apoya la nutrición general y el nivel de energía."
       }
     ],
     "lifestyleTips": [
       "Consumir alimentos ricos en hierro (carnes rojas, leguminosas, verduras de hoja verde) junto con fuentes de vitamina C.",
       "Evitar el café y el té junto con las comidas principales, ya que reducen la absorción de hierro.",
-      "Es fundamental que un médico identifique la causa de la anemia (esta tienda no cuenta con un suplemento de hierro dedicado); si se requiere hierro, debe indicarse y dosificarse profesionalmente."
-    ]
+      "Es fundamental que un médico identifique la causa de la anemia (esta tienda no cuenta con un suplemento de hierro dedicado); si se requiere hierro, debe indicarse y dosificarse profesionalmente.",
+      "Acudir a valoración urgente ante mareo intenso o desmayo, falta de aire en reposo, palpitaciones fuertes, heces negras o sangrado abundante.",
+      "Separar suplementos con hierro o minerales (#26, #153) al menos 2 horas de lácteos, calcio o antiácidos y 4 horas de levotiroxina."
+    ],
+    "safetyNote": "La anemia requiere diagnóstico médico antes de tomar hierro. Separa los minerales (como espirulina #26 o zinc #153) al menos 2 horas de lácteos, café, calcio o antibióticos y 4 horas de levotiroxina. Acude a urgencias si hay desmayo, falta de aire o sangrado."
   },
   {
     "id": "parkinson",

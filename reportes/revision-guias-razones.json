@@ -824,283 +824,271 @@
       "guideId": "hipertension",
       "group": "comboPrincipal",
       "productId": 181,
-      "rationale": "Actúa modulando el tono vascular y relajando la musculatura lisa de las paredes arteriales, lo que facilita la vasodilatación periférica y favorece cifras estables de presión arterial."
+      "rationale": "Ayuda a relajar las paredes de los vasos sanguíneos para que la sangre circule con menos resistencia y favorezca una presión estable."
     },
     {
       "guideId": "hipertension",
       "group": "comboPrincipal",
       "productId": 123,
-      "rationale": "Aporta altas concentraciones de EPA y DHA que estimulan la síntesis de óxido nítrico endotelial, mejorando la distensibilidad de las arterias y reduciendo la resistencia vascular periférica en apoyo a la salud cardiometabólica."
+      "rationale": "Aporta EPA y DHA que ayudan a mantener las arterias flexibles, mejorar la circulación y cuidar el corazón."
     },
     {
       "guideId": "hipertension",
       "group": "comboPrincipal",
       "productId": 23,
-      "rationale": "Rico en S-alil-cisteína y polifenoles bioactivos que promueven la producción de óxido nítrico y modulan las enzimas vasoconstrictoras, favoreciendo la relajación vascular y la microcirculación arterial."
+      "rationale": "Sus antioxidantes ayudan a relajar los vasos sanguíneos y a mejorar la circulación sin irritar el estómago."
     },
     {
       "guideId": "hipertension",
       "group": "comboSecundario",
       "productId": 128,
-      "rationale": "El citrato de potasio favorece el equilibrio sodio-potasio a nivel celular, facilitando la excreción renal de sodio y disminuyendo la tensión en el endotelio vascular para respaldar la relajación arterial."
+      "rationale": "Aporta potasio (citrato y cloruro) y magnesio para equilibrar el sodio del cuerpo y ayudar a eliminar su exceso por la orina."
     },
     {
       "guideId": "hipertension",
       "group": "comboSecundario",
       "productId": 101,
-      "rationale": "Potente antioxidante mitocondrial en forma activa que protege el endotelio frente al estrés oxidativo, optimizando la elasticidad de las paredes arteriales y favoreciendo un bombeo cardíaco eficiente y coordinado."
+      "rationale": "Forma activa de CoQ10 que da energía al corazón y protege las paredes de las arterias del desgaste."
     },
     {
       "guideId": "hipertension",
       "group": "comboSecundario",
       "productId": 136,
-      "rationale": "La coenzima Q10 participa directamente en la síntesis de ATP en los miocitos cardíacos y preserva el óxido nítrico vascular, mejorando la función endotelial y la contractilidad cardíaca frente a la sobrecarga de presión."
+      "rationale": "Ayuda a producir energía en las células del corazón para que lata con fuerza y cuida la elasticidad arterial."
     },
     {
       "guideId": "hipertension",
       "group": "comboSecundario",
       "productId": 10,
-      "rationale": "Sinergia botánica con zapote blanco, extracto de olivo y ajo deodorizado cuyos flavonoides promueven la vasodilatación periférica suave, protegen los capilares y apoyan el control del tono arterial."
+      "rationale": "Mezcla de plantas (zapote blanco, olivo y ajo sin olor) que ayuda a relajar las arterias y apoyar la circulación."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboPrincipal",
       "productId": 182,
-      "rationale": "Fórmula tópica flebotónica con árnica, castaño de indias y centella asiática que reactiva la microcirculación subcutánea mediante masaje, desinflamando el trayecto venoso y aliviando de inmediato la sensación de piernas cansadas."
+      "rationale": "Gel refrescante con árnica, castaño de Indias y centella asiática que descansa las piernas pesadas y ayuda a desinflamar la zona mediante masaje."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboPrincipal",
       "productId": 44,
-      "rationale": "La escina estandarizada tonifica las paredes de las venas y reduce la fragilidad capilar, mejorando el retorno venoso hacia el corazón para disminuir la pesadez, dolor y edema en las piernas."
+      "rationale": "Ayuda a dar firmeza a las venas para que la sangre regrese mejor hacia el corazón, disminuyendo pesadez e hinchazón."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboPrincipal",
       "productId": 108,
-      "rationale": "El ácido ascórbico potenciado con rutina y bioflavonoides estimula la síntesis de colágeno en la túnica vascular venosa y refuerza la resistencia de los capilares, frenando la extravasación de líquidos y la formación de arañitas."
+      "rationale": "Vitamina C con rutina y bioflavonoides que ayuda a producir colágeno para fortalecer venas y capilares, reduciendo fuga de líquidos y arañitas."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 23,
-      "rationale": "Sus compuestos sulfurados y polifenoles bioactivos mejoran la reología y fluidez sanguínea, reduciendo la viscosidad intravascular y previniendo el estancamiento hemático en los miembros inferiores."
+      "rationale": "Ayuda a que la sangre circule con más soltura por las piernas y evita que se estanque."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 122,
-      "rationale": "Los ácidos grasos EPA y DHA ayudan a moderar la inflamación del endotelio venoso, optimizando la flexibilidad de las membranas eritrocitarias y facilitando un flujo sanguíneo continuo a través de las válvulas venosas."
+      "rationale": "Grasas saludables (EPA y DHA) que ayudan a desinflamar las venas y facilitan un flujo sanguíneo continuo."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 138,
-      "rationale": "Poderoso complejo de proantocianidinas y polifenoles que contrarresta el daño oxidativo en las válvulas venosas, preservando la elasticidad estructural y reduciendo la permeabilidad vascular excesiva."
+      "rationale": "Antioxidante con resveratrol y semilla de uva que protege las venas del desgaste y ayuda a mantenerlas elásticas."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 101,
-      "rationale": "Fortalece las paredes vasculares y mejora la bioenergética celular en el endotelio capilar, optimizando la oxigenación periférica y aliviando la fatiga y pesadez en piernas con insuficiencia venosa."
+      "rationale": "Da energía a las células de los vasos sanguíneos y mejora la oxigenación para aliviar el cansancio en las piernas."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 51,
-      "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas mediante la modulación de mediadores inflamatorios vasculares."
+      "rationale": "Combina hamamelis, ajo y sauce blanco para desinflamar várices dolorosas, apoyar la circulación y calmar la pesadez."
     },
     {
       "guideId": "varices_circulacion",
       "group": "comboSecundario",
       "productId": 183,
-      "rationale": "Gel refrescante con extractos de castaño de indias, hamamelis y ginkgo que proporciona un efecto venotónico local, descongestionando los vasos dilatados y brindando ligereza inmediata a las piernas tras jornadas largas."
+      "rationale": "Gel refrescante con castaño de Indias, hamamelis y ginkgo que alivia la pesadez y da ligereza a las piernas."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboPrincipal",
       "productId": 6,
-      "rationale": "Aporta proantocianidinas tipo A que inhiben la adhesión bacteriana en el urotelio de las vías urinarias, reduciendo el riesgo de colonización patógena y protegiendo los riñones de infecciones ascendentes."
+      "rationale": "Extracto concentrado de arándano rojo que ayuda a proteger las vías urinarias de bacterias y molestias leves."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboPrincipal",
       "productId": 139,
-      "rationale": "Combinación de palo azul y cola de caballo con flavonoides y minerales que estimula la diuresis fisiológica suave, promoviendo el arrastre de detritos metabólicos y la depuración saludable del tracto urinario."
+      "rationale": "Mezcla herbal mexicana (palo azul, cola de caballo y pingüica) que apoya la eliminación suave de líquidos y limpieza urinaria."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboPrincipal",
       "productId": 148,
-      "rationale": "Aporta fitosteroles y saponinas que asisten en el metabolismo de lípidos y favorecen la función depurativa renal, facilitando la eliminación natural de solutos a través de la orina."
+      "rationale": "Hierba del sapo usada tradicionalmente para apoyar el equilibrio de grasas y el bienestar general de las vías urinarias."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboSecundario",
       "productId": 28,
-      "rationale": "Brinda mucílagos vegetales con propiedades emolientes e hidratantes que calman la irritación de los conductos urinarios y suavizan el paso de la orina ante molestias miccionales leves."
+      "rationale": "Jugo de sábila con vitamina C que refresca el aparato digestivo y aporta hidratación suave sin azúcares añadidos."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboSecundario",
       "productId": 151,
-      "rationale": "Su aporte de clorofila, antioxidantes vegetales y fibra prebiótica modula la microbiota intestinal, reduciendo la generación de toxinas nitrogenadas colónicas que sobrecargan la filtración urinaria."
+      "rationale": "Bebida verde con fibra, vegetales, enzimas y probióticos que apoya la digestión diaria y el bienestar general."
     },
     {
       "guideId": "enfermedad_renal",
       "group": "comboSecundario",
       "productId": 129,
-      "rationale": "Favorece una microbiota intestinal equilibrada que degrada solutos urémicos y compuestos nitrogenados antes de su absorción, disminuyendo la carga osmótica y de filtración sobre el parénquima renal."
+      "rationale": "Aporta 60 billones de lactobacilos que equilibran la flora intestinal y reducen fermentaciones y desechos digestivos."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
       "group": "comboPrincipal",
       "productId": 123,
-      "rationale": "Los ácidos grasos EPA y DHA ayudan a mitigar los procesos inflamatorios glomerulares y protegen la microvasculatura renal, ofreciendo soporte cardiovascular clave ante la sobrecarga hemodinámica del riñón."
+      "rationale": "Omega 3 EPA y DHA que apoya el cuidado del corazón y el control de la inflamación general en personas bajo seguimiento renal."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
       "group": "comboPrincipal",
       "productId": 101,
-      "rationale": "Actúa como potente antioxidante mitocondrial que protege a los podocitos y células tubulares renales frente al estrés oxidativo, apoyando la integridad celular y la viabilidad del tejido renal remanente."
+      "rationale": "Forma activa de CoQ10 que apoya la energía de las células del corazón y protege los tejidos del desgaste oxidativo."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
       "group": "comboPrincipal",
       "productId": 129,
-      "rationale": "Cepas probióticas de alta concentración que asisten en la degradación entérica de toxinas urémicas como urea y creatinina en el colon, disminuyendo su recirculación y apoyando el manejo metabólico supervisado."
+      "rationale": "Ayuda a equilibrar la flora intestinal para disminuir desechos digestivos que pasan a la sangre."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
       "group": "comboSecundario",
       "productId": 6,
-      "rationale": "Aporta proantocianidinas que previenen la adhesión uropatógena en la vejiga, reduciendo el riesgo de infecciones bacterianas que puedan agravar la estabilidad funcional de los riñones."
+      "rationale": "Arándano rojo concentrado que apoya la protección de las vías urinarias en personas con indicación médica."
     },
     {
       "guideId": "enfermedad_renal_diagnosticada",
       "group": "comboSecundario",
       "productId": 28,
-      "rationale": "Brinda mucílagos hidratantes y fitonutrientes que suavizan la mucosa gastrointestinal, favoreciendo la asimilación hidromineral balanceada y el confort gástrico en personas con pautas de líquidos supervisadas."
-    },
-    {
-      "guideId": "enfermedad_renal_diagnosticada",
-      "group": "comboSecundario",
-      "productId": 111,
-      "rationale": "Proteína de suero hidrolizada de altísimo valor biológico y rápida asimilación, ideal para cubrir requerimientos proteicos calculados y prevenir el desgaste muscular y caquexia sin sobrecargar el nitrógeno residual."
+      "rationale": "Jugo de sábila con vitamina C que refresca el estómago cuando el especialista autoriza su toma."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboPrincipal",
       "productId": 47,
-      "rationale": "Alcaliniza el pH urinario y se une al calcio en la orina, formando un complejo soluble que inhibe directamente la nucleación y crecimiento de cálculos de oxalato cálcico y ácido úrico."
+      "rationale": "Aporta citrato de potasio que ayuda a equilibrar la acidez de la orina para dificultar la formación de ciertos tipos de piedras (según análisis médico)."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboPrincipal",
       "productId": 139,
-      "rationale": "Extractos diuréticos de palo azul y cabellos de elote que promueven un flujo constante de orina diluida, impidiendo la saturación mineral y el asentamiento de arenillas en la pelvis renal."
+      "rationale": "Plantas tradicionales (palo azul, cola de caballo y pelo de elote) que favorecen el flujo urinario y el arrastre de arenillas."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboPrincipal",
       "productId": 28,
-      "rationale": "Su riqueza en polisacáridos ejerce un efecto demulcente y emoliente sobre el epitelio urinario, calmando la irritación causada por el paso de cristales y sedimentos minerales."
+      "rationale": "Jugo de sábila con vitamina C que refresca el aparato digestivo y acompaña la hidratación diaria."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboPrincipal",
       "productId": 213,
-      "rationale": "La chanca piedra y cola de caballo inhiben la agregación de cristales de oxalato de calcio en los túbulos renales y relajan los uréteres, favoreciendo la expulsión de microarenillas urinarias."
+      "rationale": "Combina chanca piedra, cola de caballo y hierbas tradicionales para apoyar la limpieza de las vías urinarias."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboSecundario",
       "productId": 177,
-      "rationale": "Infusión herbal con flavonoides de pingüica y pelo de elote que incrementa el volumen miccional, facilitando el lavado continuo de las vías urinarias para prevenir la acumulación de solutos."
+      "rationale": "Infusión diurética suave sin cafeína que apoya el flujo diario de orina y el bienestar de las vías urinarias."
     },
     {
       "guideId": "calculos_renales",
       "group": "comboSecundario",
       "productId": 148,
-      "rationale": "Aporta fitonutrientes que modulan el balance de sales y favorecen la depuración metabólica, apoyando la prevención secundaria de sedimentos y arenillas en el sistema excretor."
-    },
-    {
-      "guideId": "calculos_renales",
-      "group": "comboSecundario",
-      "productId": 115,
-      "rationale": "Extracto fluido de Guatteria gaumeri que favorece la desintegración de microconcreciones y el drenaje renal, dificultando la agregación de arenillas y sales minerales en el tracto urológico."
+      "rationale": "Hierba del sapo tradicional que acompaña el equilibrio de grasas y el cuidado urinario."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboPrincipal",
       "productId": 6,
-      "rationale": "Aporta proantocianidinas bioactivas que bloquean las fimbrias de bacterias uropatógenas como Escherichia coli, impidiendo que se fijen a las paredes de la vejiga y facilitando su eliminación con la micción."
+      "rationale": "Arándano rojo concentrado que ayuda a evitar que las bacterias se peguen en las vías urinarias, apoyando la prevención de recaídas."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboPrincipal",
       "productId": 130,
-      "rationale": "Cepas de lactobacilos específicos que restauran la microbiota vaginal e intestinal, produciendo ácido láctico y bacteriocinas que impiden la proliferación y migración de patógenos hacia el meato uretral."
+      "rationale": "Aporta 60 billones de probióticos con arándano rojo y vitamina C para cuidar el equilibrio de la flora intestinal e íntima femenina."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboSecundario",
       "productId": 61,
-      "rationale": "Estimula la actividad de los macrófagos y fagocitos a nivel del tracto urinario, mientras su contenido de ácido ascórbico acidifica la orina creando un ambiente desfavorable para la proliferación bacteriana."
+      "rationale": "Equinácea con 300 mg de vitamina C que respalda las defensas naturales del organismo frente a infecciones frecuentes."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboSecundario",
       "productId": 27,
-      "rationale": "Combina la acción emoliente del aloe vera para desinflamar y calmar el ardor miccional con fitonutrientes del arándano que evitan la adherencia bacteriana en el revestimiento vesical."
+      "rationale": "Combina sábila y arándano rojo para refrescar el sistema digestivo y apoyar el cuidado preventivo de las vías urinarias."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboSecundario",
       "productId": 108,
-      "rationale": "Favorece la acidificación fisiológica de la orina, lo que dificulta la replicación de cepas bacterianas patógenas en la vejiga a la par que refuerza las defensas inmunológicas del urotelio."
+      "rationale": "Vitamina C con rutina y bioflavonoides que apoya las defensas y ayuda a mantener un ambiente menos favorable para bacterias urinarias."
     },
     {
       "guideId": "infecciones_urinarias",
       "group": "comboSecundario",
       "productId": 22,
-      "rationale": "La combinación de flavonoides del propóleo y alicina estable del ajo negro ofrece propiedades antimicrobianas naturales que apoyan la resistencia inmunológica local frente a bacterias uropatógenas recurrentes."
+      "rationale": "Combina ajo negro y propóleo para apoyar las defensas naturales del cuerpo sin irritar el estómago."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboPrincipal",
       "productId": 182,
-      "rationale": "Gel desinfiltrante con árnica y centella asiática que estimula el drenaje linfático subcutáneo y la microcirculación venosa mediante masaje, reduciendo la hinchazón y tensión en zonas edematosas."
+      "rationale": "Gel con árnica y centella asiática que, con masaje suave, ayuda a bajar la hinchazón y la piel tirante en piernas y tobillos."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboPrincipal",
       "productId": 44,
-      "rationale": "La escina sella las uniones intercelulares en el endotelio capilar, reduciendo la permeabilidad vascular y evitando la fuga de suero hacia el espacio intersticial en tobillos y piernas."
+      "rationale": "Fortalece las paredes de los vasos sanguíneos para evitar que se escape líquido hacia los tejidos y reducir la hinchazón."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboSecundario",
       "productId": 47,
-      "rationale": "Contribuye al reequilibrio hidrosalino promoviendo la excreción renal del exceso de sodio acumulado, lo que disminuye el volumen de líquido retenido en los tejidos periféricos."
+      "rationale": "Ayuda a equilibrar las sales del cuerpo y a eliminar el exceso de sodio por la orina para disminuir la retención de líquidos."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboSecundario",
       "productId": 123,
-      "rationale": "Los ácidos grasos EPA y DHA modulan la cascada eicosanoide reduciendo la permeabilidad vascular y la liberación de mediadores inflamatorios que provocan extravasación y retención de líquidos en los tejidos."
+      "rationale": "Omega-3 concentrado que ayuda a bajar la inflamación de los vasos y a disminuir la acumulación de líquido en los tejidos."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboSecundario",
       "productId": 122,
-      "rationale": "Aporta ácidos grasos que optimizan la flexibilidad de las membranas celulares y modulan la respuesta inflamatoria capilar, apoyando el drenaje de líquidos retenidos y aliviando la pesadez en extremidades inferiores."
+      "rationale": "Aceite de salmón que ayuda a desinflamar los vasos pequeños y aliviar la pesadez en las piernas."
     },
     {
       "guideId": "inflamacion_edema",
       "group": "comboSecundario",
       "productId": 183,
-      "rationale": "Fórmula rubefaciente y venotónica que reactiva la reabsorción linfática local mediante masaje suave, aliviando de forma rápida la tirantez, pesadez e hinchazón en tobillos y pies."
+      "rationale": "Gel de efecto térmico y refrescante que, con masaje ascendente, ayuda a desinflamar y aliviar la tirantez en tobillos y pies."
     },
     {
       "guideId": "artritis_reumatoide",
@@ -2864,37 +2852,37 @@
       "guideId": "anemia",
       "group": "comboPrincipal",
       "productId": 26,
-      "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
+      "rationale": "Aporta espirulina orgánica con hierro (8 mg), vitaminas B y minerales que apoyan la nutrición diaria y el transporte de oxígeno; no sustituye el hierro recetado."
     },
     {
       "guideId": "anemia",
       "group": "comboPrincipal",
       "productId": 225,
-      "rationale": "Aporta tres formas sinérgicas de vitamina B12 esenciales para la maduración y división adecuada de los glóbulos rojos en médula ósea, previniendo la eritropoyesis ineficaz y combatiendo la debilidad y astenia."
+      "rationale": "Aporta tres formas activas de vitamina B12 que se absorben debajo de la lengua para formar glóbulos rojos sanos y combatir el cansancio."
     },
     {
       "guideId": "anemia",
       "group": "comboPrincipal",
       "productId": 108,
-      "rationale": "Reduce el hierro férrico no hemo a su forma ferrosa altamente soluble, multiplicando su absorción en el duodeno y acelerando la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga física."
+      "rationale": "Ayuda a que el cuerpo absorba mejor el hierro de los alimentos vegetales para apoyar la formación de hemoglobina y recuperar energía."
     },
     {
       "guideId": "anemia",
       "group": "comboSecundario",
       "productId": 4,
-      "rationale": "Aporta ácido fólico y cobalamina cofactores clave en la síntesis de ADN eritroblástico, asegurando la adecuada diferenciación celular y la formación de hematíes con tamaño y concentración de hemoglobina óptimos."
+      "rationale": "Aporta ácido fólico y vitaminas del complejo B necesarios para fabricar glóbulos rojos sanos."
     },
     {
       "guideId": "anemia",
       "group": "comboSecundario",
       "productId": 153,
-      "rationale": "Cofactor enzimático fundamental que participa en la síntesis de las cadenas de globina y estabiliza la membrana del eritrocito, favoreciendo su correcta maduración y restaurando la resistencia muscular."
+      "rationale": "Mineral esencial que participa en la formación de la sangre y ayuda a mantener la fuerza cuando existe deficiencia confirmada."
     },
     {
       "guideId": "anemia",
       "group": "comboSecundario",
       "productId": 205,
-      "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
+      "rationale": "Fuente natural de vitaminas del complejo B, proteínas y minerales que apoya la nutrición general y el nivel de energía."
     },
     {
       "guideId": "parkinson",
