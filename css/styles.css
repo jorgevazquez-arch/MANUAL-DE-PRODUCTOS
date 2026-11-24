@@ -2799,16 +2799,7 @@
 @media screen {
     .manual-view-hidden { display: none !important; }
 }
-/* Filtros de guías: mismas cápsulas que las clasificaciones del catálogo. */
-#padColorLegend .pad-color-btn.active {
-    background-color: rgb(255 255 255 / 30%);
-    border-color: rgb(255 255 255 / 65%);
-    box-shadow: none;
-}
-#padColorLegend .pad-color-btn:focus-visible {
-    outline: 2px solid white;
-    outline-offset: 3px;
-}
+
 
 /* Encabezado ligero con búsqueda central y filtros discretos. */
 #catalogHeader {
@@ -2844,6 +2835,15 @@
 }
 #catalogHeader .catalog-filter:hover { background: #e2e2e6; }
 #catalogHeader .catalog-filter.active { background: #dcefe9; color: #175d4f; font-weight: 600; box-shadow: none; transform: none; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="all"].active { background: #059669 !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="purple"].active { background: #7c3aed !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="green"].active { background: #16a34a !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="orange"].active { background: #ea580c !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="pink"].active { background: #db2777 !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="red"].active { background: #dc2626 !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="blue"].active { background: #2563eb !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="yellow"].active { background: #ca8a04 !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="gray"].active { background: #64748b !important; color: #fff !important; }
 #catalogHeader .catalog-filter:focus-visible,
 #catalogHeader .catalog-search-clear:focus-visible { outline: 2px solid #258879; outline-offset: 2px; }
 @media (max-width: 600px) {
@@ -3023,9 +3023,388 @@
     }
     .gl-checkbox__input:checked ~ .gl-checkbox__box .gl-checkbox__check { stroke-dashoffset: 0; }
     .gl-checkbox__input:checked ~ .gl-checkbox__label { color: #214d3e; font-weight: 600; }
-    #padecimientosCatalog .pad-classification-group { border-radius: 16px; box-shadow: none; }
-    #padecimientosCatalog .pad-classification-group > summary { padding: 16px 18px; }
-    #padecimientosCatalog .pad-classification-group > summary .font-black { font-size: 1rem; font-weight: 600; }
+    /* ========================================================
+       TARJETAS DE MÓDULOS DE GUÍAS (2 COLUMNAS Y ELEMENTO ANATÓMICO)
+       ======================================================== */
+    #padecimientosCatalog .pad-modules-grid {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 20px;
+        align-items: stretch;
+    }
+
+    @media (min-width: 768px) {
+        #padecimientosCatalog .pad-modules-grid {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px;
+        }
+        #padecimientosCatalog .pad-modules-grid > .pad-module-card[open] {
+            grid-column: 1 / -1;
+        }
+    }
+
+    #padecimientosCatalog .pad-module-card {
+        border-radius: 22px;
+        border: 1.5px solid var(--module-border, rgba(0, 0, 0, 0.08));
+        background: #ffffff;
+        box-shadow: 0 4px 18px -2px rgba(0, 0, 0, 0.04), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+        transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+        margin-bottom: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #padecimientosCatalog .pad-module-card:hover {
+        box-shadow: 0 8px 28px -4px rgba(0, 0, 0, 0.08), 0 4px 10px -2px rgba(0, 0, 0, 0.03);
+        border-color: var(--module-border-hover, rgba(0, 0, 0, 0.16));
+        transform: translateY(-2px);
+    }
+
+    #padecimientosCatalog .pad-module-card[open] {
+        box-shadow: 0 12px 34px -4px rgba(0, 0, 0, 0.1), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+        border-color: var(--module-accent, #10b981);
+    }
+
+    #padecimientosCatalog .pad-module-card > summary.pad-module-summary {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 14px;
+        padding: 20px 22px;
+        cursor: pointer;
+        list-style: none;
+        background: var(--module-header-bg, #ffffff);
+        transition: background-color 0.2s ease, border-color 0.2s ease;
+        user-select: none;
+        border-bottom: 1px solid transparent;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #padecimientosCatalog .pad-module-card > summary.pad-module-summary::-webkit-details-marker {
+        display: none;
+    }
+
+    #padecimientosCatalog .pad-module-card[open] > summary.pad-module-summary {
+        border-bottom-color: var(--module-border-light, rgba(0, 0, 0, 0.06));
+        background: var(--module-header-bg-open, #fbfcfe);
+        height: auto;
+    }
+
+    #padecimientosCatalog .pad-module-card:hover > summary.pad-module-summary {
+        background: var(--module-header-hover, rgba(0, 0, 0, 0.015));
+    }
+
+    /* Sección superior del header de la card: Badge + Información */
+    #padecimientosCatalog .pad-module-header-main {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        width: 100%;
+    }
+
+    /* Badge con la ilustración anatómica del órgano */
+    #padecimientosCatalog .pad-module-anatomy-badge {
+        width: 58px;
+        height: 58px;
+        min-width: 58px;
+        border-radius: 17px;
+        padding: 6px;
+        background: var(--module-badge-bg, #f1f5f9);
+        border: 1.5px solid var(--module-badge-border, rgba(0, 0, 0, 0.06));
+        box-shadow: 0 4px 14px -2px var(--module-glow, rgba(0, 0, 0, 0.06)), inset 0 1px 1px rgba(255, 255, 255, 0.8);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+
+    #padecimientosCatalog .pad-module-card:hover .pad-module-anatomy-badge {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px -3px var(--module-glow, rgba(0, 0, 0, 0.12));
+    }
+
+    #padecimientosCatalog .pad-module-card[open] .pad-module-anatomy-badge {
+        transform: scale(1.06);
+        box-shadow: 0 8px 24px -2px var(--module-glow, rgba(0, 0, 0, 0.15));
+    }
+
+    #padecimientosCatalog .pad-module-info {
+        flex: 1 1 auto;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    #padecimientosCatalog .pad-module-scope-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    #padecimientosCatalog .pad-module-scope-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 2.5px 8.5px;
+        border-radius: 9999px;
+        background: var(--module-tag-bg, #f1f5f9);
+        color: var(--module-tag-text, #475569);
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        line-height: 1.3;
+    }
+
+    #padecimientosCatalog .pad-module-scope-dot {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--module-accent, #64748b);
+        box-shadow: 0 0 6px var(--module-accent, #64748b);
+        flex-shrink: 0;
+    }
+
+    #padecimientosCatalog .pad-module-title {
+        font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        color: var(--module-title-color, #0f172a);
+        margin: 0;
+        line-height: 1.25;
+    }
+
+    #padecimientosCatalog .pad-module-desc {
+        font-size: 0.81rem;
+        line-height: 1.45;
+        color: #64748b;
+        margin: 0;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    #padecimientosCatalog .pad-module-card[open] .pad-module-desc {
+        -webkit-line-clamp: unset;
+    }
+
+    /* Acciones inferiores de la card: Contador a la izquierda, Botón a la derecha */
+    #padecimientosCatalog .pad-module-meta-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 12px;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        gap: 10px;
+        margin-top: auto;
+    }
+
+    #padecimientosCatalog .pad-module-count-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 4.5px 11px;
+        border-radius: 12px;
+        background: var(--module-count-bg, #f8fafc);
+        border: 1px solid var(--module-count-border, #e2e8f0);
+        color: var(--module-count-text, #334155);
+        font-size: 0.74rem;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    #padecimientosCatalog .pad-module-count-number {
+        font-weight: 800;
+        color: var(--module-accent, #0f172a);
+    }
+
+    #padecimientosCatalog .pad-module-toggle-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 6.5px 13px;
+        border-radius: 9999px;
+        background: #ffffff;
+        border: 1.5px solid var(--module-btn-border, #e2e8f0);
+        color: #334155;
+        font-size: 0.76rem;
+        font-weight: 700;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        cursor: pointer;
+    }
+
+    #padecimientosCatalog .pad-module-card:hover .pad-module-toggle-btn {
+        border-color: var(--module-accent, #64748b);
+        color: var(--module-accent, #0f172a);
+    }
+
+    #padecimientosCatalog .pad-module-card[open] .pad-module-toggle-btn {
+        background: var(--module-accent, #0f172a);
+        color: #ffffff !important;
+        border-color: var(--module-accent, #0f172a);
+        box-shadow: 0 4px 12px -2px var(--module-glow, rgba(0, 0, 0, 0.15));
+    }
+
+    /* Definición de temas visuales por módulo */
+    #padecimientosCatalog .pad-module-card[data-classification="purple"] {
+        --module-accent: #9333ea;
+        --module-border: rgba(147, 51, 234, 0.2);
+        --module-border-hover: rgba(147, 51, 234, 0.45);
+        --module-border-light: rgba(147, 51, 234, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #faf5ff 100%);
+        --module-header-bg-open: linear-gradient(135deg, #faf5ff 0%, #ffffff 100%);
+        --module-header-hover: #fcfaff;
+        --module-badge-bg: linear-gradient(145deg, #f5edff, #ebd5ff);
+        --module-badge-border: rgba(147, 51, 234, 0.25);
+        --module-glow: rgba(147, 51, 234, 0.22);
+        --module-tag-bg: rgba(147, 51, 234, 0.08);
+        --module-tag-text: #7e22ce;
+        --module-title-color: #3b0764;
+        --module-count-bg: #faf5ff;
+        --module-count-border: rgba(147, 51, 234, 0.2);
+        --module-count-text: #6b21a8;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="green"] {
+        --module-accent: #059669;
+        --module-border: rgba(5, 150, 105, 0.2);
+        --module-border-hover: rgba(5, 150, 105, 0.45);
+        --module-border-light: rgba(5, 150, 105, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #ecfdf5 100%);
+        --module-header-bg-open: linear-gradient(135deg, #ecfdf5 0%, #ffffff 100%);
+        --module-header-hover: #f4fdf8;
+        --module-badge-bg: linear-gradient(145deg, #d1fae5, #a7f3d0);
+        --module-badge-border: rgba(5, 150, 105, 0.25);
+        --module-glow: rgba(5, 150, 105, 0.22);
+        --module-tag-bg: rgba(5, 150, 105, 0.08);
+        --module-tag-text: #047857;
+        --module-title-color: #064e3b;
+        --module-count-bg: #ecfdf5;
+        --module-count-border: rgba(5, 150, 105, 0.2);
+        --module-count-text: #065f46;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="orange"] {
+        --module-accent: #ea580c;
+        --module-border: rgba(234, 88, 12, 0.2);
+        --module-border-hover: rgba(234, 88, 12, 0.45);
+        --module-border-light: rgba(234, 88, 12, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #fff7ed 100%);
+        --module-header-bg-open: linear-gradient(135deg, #fff7ed 0%, #ffffff 100%);
+        --module-header-hover: #fffaf5;
+        --module-badge-bg: linear-gradient(145deg, #ffedd5, #fed7aa);
+        --module-badge-border: rgba(234, 88, 12, 0.25);
+        --module-glow: rgba(234, 88, 12, 0.22);
+        --module-tag-bg: rgba(234, 88, 12, 0.08);
+        --module-tag-text: #c2410c;
+        --module-title-color: #7c2d12;
+        --module-count-bg: #fff7ed;
+        --module-count-border: rgba(234, 88, 12, 0.2);
+        --module-count-text: #9a3412;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="pink"] {
+        --module-accent: #db2777;
+        --module-border: rgba(219, 39, 119, 0.2);
+        --module-border-hover: rgba(219, 39, 119, 0.45);
+        --module-border-light: rgba(219, 39, 119, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #fdf2f8 100%);
+        --module-header-bg-open: linear-gradient(135deg, #fdf2f8 0%, #ffffff 100%);
+        --module-header-hover: #fef8fc;
+        --module-badge-bg: linear-gradient(145deg, #fce7f3, #fbcfe8);
+        --module-badge-border: rgba(219, 39, 119, 0.25);
+        --module-glow: rgba(219, 39, 119, 0.22);
+        --module-tag-bg: rgba(219, 39, 119, 0.08);
+        --module-tag-text: #be185d;
+        --module-title-color: #831843;
+        --module-count-bg: #fdf2f8;
+        --module-count-border: rgba(219, 39, 119, 0.2);
+        --module-count-text: #9d174d;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="red"] {
+        --module-accent: #dc2626;
+        --module-border: rgba(220, 38, 38, 0.2);
+        --module-border-hover: rgba(220, 38, 38, 0.45);
+        --module-border-light: rgba(220, 38, 38, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #fef2f2 100%);
+        --module-header-bg-open: linear-gradient(135deg, #fef2f2 0%, #ffffff 100%);
+        --module-header-hover: #fff8f8;
+        --module-badge-bg: linear-gradient(145deg, #fee2e2, #fecaca);
+        --module-badge-border: rgba(220, 38, 38, 0.25);
+        --module-glow: rgba(220, 38, 38, 0.22);
+        --module-tag-bg: rgba(220, 38, 38, 0.08);
+        --module-tag-text: #b91c1c;
+        --module-title-color: #7f1d1d;
+        --module-count-bg: #fef2f2;
+        --module-count-border: rgba(220, 38, 38, 0.2);
+        --module-count-text: #991b1b;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="blue"] {
+        --module-accent: #2563eb;
+        --module-border: rgba(37, 99, 235, 0.2);
+        --module-border-hover: rgba(37, 99, 235, 0.45);
+        --module-border-light: rgba(37, 99, 235, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #eff6ff 100%);
+        --module-header-bg-open: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%);
+        --module-header-hover: #f5f9ff;
+        --module-badge-bg: linear-gradient(145deg, #dbeafe, #bfdbfe);
+        --module-badge-border: rgba(37, 99, 235, 0.25);
+        --module-glow: rgba(37, 99, 235, 0.22);
+        --module-tag-bg: rgba(37, 99, 235, 0.08);
+        --module-tag-text: #1d4ed8;
+        --module-title-color: #1e3a8a;
+        --module-count-bg: #eff6ff;
+        --module-count-border: rgba(37, 99, 235, 0.2);
+        --module-count-text: #1e40af;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="yellow"] {
+        --module-accent: #ca8a04;
+        --module-border: rgba(202, 138, 4, 0.22);
+        --module-border-hover: rgba(202, 138, 4, 0.5);
+        --module-border-light: rgba(202, 138, 4, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #fefce8 100%);
+        --module-header-bg-open: linear-gradient(135deg, #fefce8 0%, #ffffff 100%);
+        --module-header-hover: #fffef2;
+        --module-badge-bg: linear-gradient(145deg, #fef9c3, #fef08a);
+        --module-badge-border: rgba(202, 138, 4, 0.28);
+        --module-glow: rgba(202, 138, 4, 0.22);
+        --module-tag-bg: rgba(202, 138, 4, 0.09);
+        --module-tag-text: #a16207;
+        --module-title-color: #713f12;
+        --module-count-bg: #fefce8;
+        --module-count-border: rgba(202, 138, 4, 0.2);
+        --module-count-text: #854d0e;
+    }
+
+    #padecimientosCatalog .pad-module-card[data-classification="gray"] {
+        --module-accent: #475569;
+        --module-border: rgba(71, 85, 105, 0.2);
+        --module-border-hover: rgba(71, 85, 105, 0.45);
+        --module-border-light: rgba(71, 85, 105, 0.12);
+        --module-header-bg: linear-gradient(135deg, #ffffff 60%, #f8fafc 100%);
+        --module-header-bg-open: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+        --module-header-hover: #fafafa;
+        --module-badge-bg: linear-gradient(145deg, #f1f5f9, #e2e8f0);
+        --module-badge-border: rgba(71, 85, 105, 0.25);
+        --module-glow: rgba(71, 85, 105, 0.18);
+        --module-tag-bg: rgba(71, 85, 105, 0.08);
+        --module-tag-text: #334155;
+        --module-title-color: #0f172a;
+        --module-count-bg: #f8fafc;
+        --module-count-border: rgba(71, 85, 105, 0.2);
+        --module-count-text: #1e293b;
+    }
     #padecimientosCatalog .padecimiento-grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -3467,8 +3846,28 @@
     #productGrid { gap: 12px; }
     #productGrid .product-card { padding: 12px; }
     #productGrid .product-card h4 { font-size: 0.875rem; }
-    #padecimientosCatalog .pad-classification-group > summary { padding: 12px 16px; }
-    #padecimientosCatalog .pad-classification-group > summary .font-black { font-size: 0.9rem; }
+    #padecimientosCatalog .pad-module-card > summary.pad-module-summary {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 16px;
+    }
+    #padecimientosCatalog .pad-module-anatomy-badge {
+        width: 52px;
+        height: 52px;
+        min-width: 52px;
+        border-radius: 16px;
+        padding: 6px;
+    }
+    #padecimientosCatalog .pad-module-meta-actions {
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 12px;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-meta-actions {
+        border-top-color: rgba(255, 255, 255, 0.06) !important;
+    }
     #padecimientosCatalog .padecimiento-editorial[open] .padecimiento-summary {
         padding: clamp(1.1rem, 2.5vw, 2rem) !important;
         min-height: 12rem;
@@ -3780,10 +4179,65 @@ html.dark-mode body .sidebar-toggle { background: rgb(31 41 55 / 92%); color: #d
     html.dark-mode body .padecimiento-editorial-product-meta strong { color: #f1f5f9 !important; }
     html.dark-mode body .padecimiento-editorial .padecimiento-editorial-product-function { color: #d1d5db !important; }
     html.dark-mode body .padecimiento-editorial .padecimiento-editorial-product-function strong { color: #86efac !important; }
-    html.dark-mode body .padecimiento-editorial .padecimiento-toggle {
+    html.dark-mode body .padecimiento-editorial .padecimiento-toggle,
+    html.dark-mode body #padecimientosCatalog .pad-classification-group > summary .section-toggle {
         background: #3a3a40 !important;
         color: #f0f0f2 !important;
         border-color: #56565d !important;
+    }
+
+    /* Tarjetas de módulos de guías en modo oscuro */
+    html.dark-mode body #padecimientosCatalog .pad-module-card {
+        background: #1c1c20 !important;
+        border-color: rgba(255, 255, 255, 0.08) !important;
+        box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4) !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card:hover {
+        border-color: var(--module-accent) !important;
+        box-shadow: 0 8px 30px -4px rgba(0, 0, 0, 0.5), 0 0 20px -4px var(--module-glow) !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card[open] {
+        border-color: var(--module-accent) !important;
+        box-shadow: 0 12px 36px -6px rgba(0, 0, 0, 0.55), 0 0 25px -4px var(--module-glow) !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card > summary.pad-module-summary {
+        background: #1f1f24 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card[open] > summary.pad-module-summary {
+        background: #232329 !important;
+        border-bottom-color: rgba(255, 255, 255, 0.06) !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card:hover > summary.pad-module-summary {
+        background: #25252c !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-title {
+        color: #f8fafc !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-desc {
+        color: #94a3b8 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-anatomy-badge {
+        background: #26262e !important;
+        border-color: rgba(255, 255, 255, 0.12) !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-scope-tag {
+        background: rgba(255, 255, 255, 0.06) !important;
+        color: #cbd5e1 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-count-badge {
+        background: #25252b !important;
+        border-color: rgba(255, 255, 255, 0.1) !important;
+        color: #cbd5e1 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-toggle-btn {
+        background: #2b2b33 !important;
+        border-color: rgba(255, 255, 255, 0.15) !important;
+        color: #f1f5f9 !important;
+    }
+    html.dark-mode body #padecimientosCatalog .pad-module-card[open] .pad-module-toggle-btn {
+        background: var(--module-accent) !important;
+        border-color: var(--module-accent) !important;
+        color: #ffffff !important;
     }
     html.dark-mode body .no-print[role="note"] { border-left-color: #80ad91 !important; }
     html.dark-mode body .no-print[role="note"] p { color: #c7d8cc !important; }

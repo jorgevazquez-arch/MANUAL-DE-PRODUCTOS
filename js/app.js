@@ -246,10 +246,10 @@
                     searchInput.value = '';
                     clearSearchBtn.classList.add('hidden');
                     document.querySelectorAll('#padColorLegend .pad-color-btn').forEach(button => {
-                        button.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                        button.classList.remove('active');
                     });
                     const allGuidesButton = document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]');
-                    if (allGuidesButton) allGuidesButton.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    if (allGuidesButton) allGuidesButton.classList.add('active');
                     renderProducts('all', '');
                     filterPadecimientos();
                     scrollToPadecimiento(link.dataset.sidebarGuide);
@@ -617,11 +617,10 @@
                 <details id="padecimientosCatalog" open class="group/guide bg-white border border-gray-200 rounded-3xl shadow-sm transition-all duration-300 open:shadow-lg open:border-girasol-green-300 overflow-hidden">
                     <summary class="p-8 md:p-10 cursor-pointer list-none transition-colors hover:bg-blue-50/40">
                         <span class="block text-center">
-                        <span class="section-eyebrow">Guía de Protocolos</span>
                             <span class="section-title">
                                 <span aria-hidden="true">🎯</span> Guía de Apoyo Nutricional
                             </span>
-                            <span class="block text-gray-600 mt-4 max-w-3xl mx-auto">Busca por padecimiento, síntoma o suplemento, por ejemplo «prediabetes» o «resistencia a la insulina». Los términos clínicos sirven para localizar material de capacitación; no son beneficios atribuidos al producto ni un diagnóstico.</span>
+                            <span class="block text-gray-600 mt-2 max-w-2xl mx-auto">Consulta protocolos y suplementos de apoyo por padecimiento, síntoma o ingrediente.</span>
                             <span class="section-toggle">
                                 <span class="group-open/guide:hidden">Mostrar padecimientos</span>
                                 <span class="hidden group-open/guide:inline">Ocultar padecimientos</span>
@@ -632,48 +631,273 @@
                         </span>
                     </summary>
                     <div class="p-4 sm:p-6 md:p-10 border-t-2 border-gray-200">
-                    <div class="mb-8 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
-                        <strong class="block mb-1">Recomienda primero Zennatura cuando su fórmula se ajuste a la necesidad.</strong>
-                        En cada grupo encontrarás primero las opciones Zennatura. Usa otras marcas como alternativas según la fórmula, la presentación y las necesidades de la persona.
-                        Los productos principales y adicionales permiten elegir una recomendación individualizada. No deben sumarse automáticamente; revisa las notas de cada producto y evita duplicar ingredientes o mecanismos.
+                    <div class="mb-6 rounded-xl border border-amber-200/90 bg-amber-50/70 px-4 py-2.5 text-xs text-amber-900 leading-relaxed">
+                        <strong class="font-bold">Prioriza Zennatura:</strong> recomienda primero sus fórmulas cuando se ajusten a la necesidad; usa otras marcas como alternativas según presentación.
                     </div>
                     <p id="padColorEmptyMsg" class="hidden text-center text-gray-500 italic mb-6">No hay padecimientos registrados para este color.</p>
-                    <div class="space-y-4">
+                    <div class="pad-modules-grid grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             `;
+
+            // Catálogo anatómico y visual de sistemas para las tarjetas de módulos
+            const guideAnatomyData = {
+                purple: {
+                    organs: 'Cerebro · Eje Neuronal · Neurotransmisores · Sueño',
+                    desc: 'Regulación del estado de ánimo, neuroprotección, equilibrio del estrés y descanso reparador.',
+                    accent: '#9333ea',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Nervioso - Cerebro y sinapsis">
+                        <defs>
+                            <linearGradient id="anat-purp-base" x1="12" y1="12" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#9333ea"/>
+                                <stop offset="1" stop-color="#581c87"/>
+                            </linearGradient>
+                            <linearGradient id="anat-purp-glow" x1="18" y1="14" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#f3e8ff"/>
+                                <stop offset="1" stop-color="#c084fc"/>
+                            </linearGradient>
+                            <filter id="anat-glow-p" x="-20%" y="-20%" width="140%" height="140%">
+                                <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                                <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                            </filter>
+                        </defs>
+                        <path d="M32 12c-7.5 0-14 4.5-16.5 11-2.5 6.5-1 14 3.5 19 1.5 1.7 2 3.8 1.5 6-.8 3.5 1 6.5 4 8 2 1 4.5 1 7 .5.8 2.5 3 4.5 5.5 4.5s4.7-2 5.5-4.5c2.5.5 5 0 7-.5 3-1.5 4.8-4.5 4-8-.5-2.2 0-4.3 1.5-6 4.5-5 6-12.5 3.5-19C56 16.5 49.5 12 42 12c-3.1 0-6.1 1-8.5 2.8-2.4-1.8-5.4-2.8-8.5-2.8z" fill="url(#anat-purp-base)" opacity="0.95"/>
+                        <path d="M32 14v16m0 4v16" stroke="url(#anat-purp-glow)" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M22 20c-3 2.5-4 7-2 11m-2 7c2 2.5 6 3 9 1.5M42 20c3 2.5 4 7 2 11m2 7c-2 2.5-6 3-9 1.5M26 28c3 1.5 4 4.5 3 8m9-8c-3 1.5-4 4.5-3 8" stroke="url(#anat-purp-glow)" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="32" cy="30" r="3" fill="#ffffff" filter="url(#anat-glow-p)"/>
+                        <circle cx="21" cy="24" r="2" fill="#e9d5ff"/>
+                        <circle cx="43" cy="24" r="2" fill="#e9d5ff"/>
+                        <circle cx="25" cy="40" r="1.8" fill="#e9d5ff"/>
+                        <circle cx="39" cy="40" r="1.8" fill="#e9d5ff"/>
+                        <path d="M21 24l11 6 11-6m-21 16l10-10 10 10" stroke="#f5d0fe" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.8"/>
+                    </svg>`
+                },
+                green: {
+                    organs: 'Estómago · Hígado · Vesícula · Microbiota Intestinal',
+                    desc: 'Confort gástrico, digestión enzimática, depuración hepática y flora intestinal saludable.',
+                    accent: '#059669',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Digestivo - Estómago e hígado">
+                        <defs>
+                            <linearGradient id="anat-grn-liver" x1="16" y1="14" x2="42" y2="34" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#059669"/>
+                                <stop offset="1" stop-color="#064e3b"/>
+                            </linearGradient>
+                            <linearGradient id="anat-grn-stomach" x1="26" y1="20" x2="52" y2="44" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#10b981"/>
+                                <stop offset="1" stop-color="#047857"/>
+                            </linearGradient>
+                            <linearGradient id="anat-grn-glow" x1="20" y1="20" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#a7f3d0"/>
+                                <stop offset="1" stop-color="#34d399"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M14 24c0-5 5-9 12-10 8-1.2 16 1 18 5 2.5 5 1 12-4 15-6 3.5-15 4-21 1-3.5-1.8-5-6-5-11z" fill="url(#anat-grn-liver)" opacity="0.95"/>
+                        <ellipse cx="28" cy="34" rx="4" ry="2.8" transform="rotate(-20 28 34)" fill="#34d399"/>
+                        <path d="M33 22c0-4 3-7 5-8 3-1.5 5 0 5 3 0 2-1 4-1 6 3 2 8 6 9 12s-2 11-7 14c-6 3.5-14 2-18-2-3-3-3-8 0-12 2-2.5 5-4 7-6v-7z" fill="url(#anat-grn-stomach)" opacity="0.95"/>
+                        <path d="M37 28c3 2 5 6 4 10s-4 7-8 8m6-12c2 2 3 5 2 8" stroke="url(#anat-grn-glow)" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M26 48c-3 0-5 2-5 4 0 3 3 5 7 5 5 0 8-2 8-5s-3-4-7-4zm9 2c3 0 6 2 6 4s-3 4-7 4" stroke="#6ee7b7" stroke-width="2.2" stroke-linecap="round"/>
+                        <circle cx="24" cy="52" r="1.5" fill="#ecfdf5"/>
+                        <circle cx="38" cy="53" r="1.5" fill="#ecfdf5"/>
+                        <circle cx="31" cy="49" r="1.2" fill="#a7f3d0"/>
+                    </svg>`
+                },
+                orange: {
+                    organs: 'Páncreas · Regulación de Azúcar · Tiroides · Energía Celular',
+                    desc: 'Sensibilidad a la insulina, modulación de glucosa postprandial y vitalidad celular.',
+                    accent: '#ea580c',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Metabolismo - Páncreas y glucosa">
+                        <defs>
+                            <linearGradient id="anat-org-panc" x1="12" y1="20" x2="52" y2="44" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#f97316"/>
+                                <stop offset="1" stop-color="#c2410c"/>
+                            </linearGradient>
+                            <linearGradient id="anat-org-energy" x1="20" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fef08a"/>
+                                <stop offset="1" stop-color="#fb923c"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M20 18c-5 0-9 4-9 9v10c0 5 4 9 9 9h5" stroke="#fdba74" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M22 24c4-3 9-2 11 0l16 8c4 2 5 6 3 9-2 3-6 4-10 2l-15-7c-3-1.5-5 0-7 2-3 3-8 2-9-2s1-8 6-10l5-2z" fill="url(#anat-org-panc)" opacity="0.95"/>
+                        <path d="M19 33c3-1 8 0 12 2l14 7m-18-8l3-3m5 5l2-3m5 5l2-3" stroke="url(#anat-org-energy)" stroke-width="1.8" stroke-linecap="round"/>
+                        <polygon points="46,14 52,17.5 52,24.5 46,28 40,24.5 40,17.5" stroke="#facc15" stroke-width="2" fill="#fef3c7" fill-opacity="0.25"/>
+                        <circle cx="46" cy="21" r="2.5" fill="#fef08a"/>
+                        <path d="M46 10v2m0 18v2m-8-11h2m12 0h2" stroke="#fde047" stroke-width="1.5" stroke-linecap="round"/>
+                        <circle cx="16" cy="27" r="1.5" fill="#ffedd5"/>
+                        <circle cx="28" cy="30" r="1.5" fill="#ffedd5"/>
+                    </svg>`
+                },
+                pink: {
+                    organs: 'Sistema Endocrino · Salud Prostática · Ciclo Femenino',
+                    desc: 'Balance hormonal en cada etapa vital, bienestar prostático, vitalidad y armonía reproductiva.',
+                    accent: '#db2777',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Salud Hormonal - Sistema endocrino">
+                        <defs>
+                            <linearGradient id="anat-pnk-base" x1="14" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#ec4899"/>
+                                <stop offset="1" stop-color="#9d174d"/>
+                            </linearGradient>
+                            <linearGradient id="anat-pnk-glow" x1="20" y1="16" x2="44" y2="48" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fdf2f8"/>
+                                <stop offset="1" stop-color="#f472b6"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M32 10c7 3 14 3 20 1 0 16 2 31-20 43C10 42 12 27 12 11c6 2 13 2 20-1z" fill="url(#anat-pnk-base)" opacity="0.9"/>
+                        <circle cx="32" cy="26" r="9" stroke="url(#anat-pnk-glow)" stroke-width="2.5" fill="#fce7f3" fill-opacity="0.2"/>
+                        <circle cx="32" cy="26" r="3" fill="#ffffff"/>
+                        <path d="M32 35v11m-4-4h8" stroke="url(#anat-pnk-glow)" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M38 20l7-7m0 0h-5m5 0v5" stroke="url(#anat-pnk-glow)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 22c-2 2-3 5-2 8m22-8c2 2 3 5 2 8" stroke="#fbcfe8" stroke-width="1.8" stroke-linecap="round"/>
+                        <circle cx="32" cy="17" r="1.5" fill="#ffffff"/>
+                    </svg>`
+                },
+                red: {
+                    organs: 'Corazón · Red Aórtica · Circulación Periférica · Presión',
+                    desc: 'Fuerza contráctil, elasticidad vascular, perfil lipídico y oxigenación tisular continua.',
+                    accent: '#dc2626',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Salud Cardiovascular - Corazón y circulación">
+                        <defs>
+                            <linearGradient id="anat-red-heart" x1="16" y1="12" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#ef4444"/>
+                                <stop offset="1" stop-color="#991b1b"/>
+                            </linearGradient>
+                            <linearGradient id="anat-red-vessels" x1="20" y1="8" x2="44" y2="30" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fca5a5"/>
+                                <stop offset="1" stop-color="#f87171"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M28 16c0-6 4-8 8-8s8 2 8 8v4h-6v-4c0-2-1-3-2-3s-2 1-2 3v4h-6v-4z" fill="#f87171"/>
+                        <path d="M33 8V5m4 3V5m4 4V6" stroke="#fecaca" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M22 14v8h6v-8h-6zm24 4v5h-6v-5h6z" fill="#dc2626"/>
+                        <path d="M32 20c-7-5-16-1-17 7-1 7 4 14 9 19l8 9 8-9c5-5 10-12 9-19-1-8-10-12-17-7z" fill="url(#anat-red-heart)" opacity="0.95"/>
+                        <path d="M31 24c1 4 0 9-3 13l-4 6m8-14c2 3 5 7 4 11m-3-7l3 2m-8 2l-2 2" stroke="url(#anat-red-vessels)" stroke-width="1.8" stroke-linecap="round"/>
+                        <path d="M16 35h5l2-4 3 8 3-6 2 2h5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+                    </svg>`
+                },
+                blue: {
+                    organs: 'Pulmones · Árbol Bronquial · Vías Aéreas · Defensas Inmunes',
+                    desc: 'Capacidad respiratoria, oxigenación celular y barrera inmunitaria frente a agentes externos.',
+                    accent: '#2563eb',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Respiratorio e Inmune - Pulmones y defensas">
+                        <defs>
+                            <linearGradient id="anat-blu-lungs" x1="14" y1="14" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#3b82f6"/>
+                                <stop offset="1" stop-color="#1e3a8a"/>
+                            </linearGradient>
+                            <linearGradient id="anat-blu-glow" x1="22" y1="12" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#dbeafe"/>
+                                <stop offset="1" stop-color="#93c5fd"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M32 6c8 4 16 4 23 1 0 20 2 35-23 49C7 42 9 27 9 7c7 3 15 3 23-1z" stroke="#60a5fa" stroke-width="1.5" stroke-dasharray="3 2" fill="#eff6ff" fill-opacity="0.12"/>
+                        <path d="M32 10v12" stroke="url(#anat-blu-glow)" stroke-width="3.5" stroke-linecap="round"/>
+                        <path d="M30 13h4m-4 3h4m-4 3h4" stroke="#1d4ed8" stroke-width="1.2"/>
+                        <path d="M30 22c-3-2-7-2-10 1-5 4-7 12-5 19 1.5 5 6 8 11 7 2-.5 4-3 4-6V22z" fill="url(#anat-blu-lungs)" opacity="0.92"/>
+                        <path d="M34 22c3-2 7-2 10 1 5 4 7 12 5 19-1.5 5-6 8-11 7-2-.5-4-3-4-6V22z" fill="url(#anat-blu-lungs)" opacity="0.92"/>
+                        <path d="M32 22l-6 6m0 0l-4 4m4-4l-1 5m7-11l6 6m0 0l4 4m-4-4l1 5" stroke="url(#anat-blu-glow)" stroke-width="1.8" stroke-linecap="round"/>
+                        <circle cx="19" cy="36" r="1.8" fill="#ffffff"/>
+                        <circle cx="45" cy="36" r="1.8" fill="#ffffff"/>
+                        <circle cx="24" cy="42" r="1.5" fill="#bfdbfe"/>
+                        <circle cx="40" cy="42" r="1.5" fill="#bfdbfe"/>
+                    </svg>`
+                },
+                yellow: {
+                    organs: 'Huesos · Articulaciones · Columna Vertebral · Cartílago',
+                    desc: 'Movilidad articular sin fricción, densidad mineral ósea, cartílago y fuerza muscular.',
+                    accent: '#ca8a04',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Sistema Locomotor - Articulación y hueso">
+                        <defs>
+                            <linearGradient id="anat-yel-bone" x1="16" y1="10" x2="48" y2="54" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#eab308"/>
+                                <stop offset="1" stop-color="#a16207"/>
+                            </linearGradient>
+                            <linearGradient id="anat-yel-joint" x1="22" y1="20" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fef08a"/>
+                                <stop offset="1" stop-color="#facc15"/>
+                            </linearGradient>
+                        </defs>
+                        <path d="M32 10v12m-6-12c2 1 4 3 4 5v7c0 3-3 6-5 7-2 1-3 3-2 5 1 2 4 3 7 2 2-.5 4-2 4-5v-4h0c0 3 2 4.5 4 5 3 1 6 0 7-2 1-2 0-4-2-5-2-1-5-4-5-7v-7c0-2 2-4 4-5" stroke="url(#anat-yel-bone)" stroke-width="3" stroke-linecap="round"/>
+                        <ellipse cx="32" cy="34" rx="11" ry="3.5" fill="#fef9c3" stroke="url(#anat-yel-joint)" stroke-width="2"/>
+                        <path d="M22 37c2 2 6 4 10 4s8-2 10-4v7c0 3-2 6-4 8v6h-12v-6c-2-2-4-5-4-8v-7z" fill="url(#anat-yel-bone)" opacity="0.9"/>
+                        <path d="M14 22c2-2 4-2 6 0m-6 8c2-2 4-2 6 0m-6 8c2-2 4-2 6 0" stroke="#fde047" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M50 22c-2-2-4-2-6 0m6 8c-2-2-4-2-6 0m6 8c-2-2-4-2-6 0" stroke="#fde047" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="32" cy="34" r="2" fill="#ffffff"/>
+                        <circle cx="26" cy="34" r="1.5" fill="#fef08a"/>
+                        <circle cx="38" cy="34" r="1.5" fill="#fef08a"/>
+                    </svg>`
+                },
+                gray: {
+                    organs: 'Genoma y ADN · Microambiente Celular · Homeostasis Integral',
+                    desc: 'Estrategias multifactoriales para condiciones crónicas, modulación inflamatoria y homeostasis.',
+                    accent: '#475569',
+                    svg: `<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full" aria-label="Condiciones Complejas - Célula y ADN">
+                        <defs>
+                            <linearGradient id="anat-gry-dna" x1="14" y1="10" x2="50" y2="54" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#64748b"/>
+                                <stop offset="1" stop-color="#334155"/>
+                            </linearGradient>
+                            <linearGradient id="anat-gry-glow" x1="20" y1="14" x2="44" y2="48" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#f8fafc"/>
+                                <stop offset="1" stop-color="#94a3b8"/>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="32" cy="32" r="23" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3" fill="#f1f5f9" fill-opacity="0.15"/>
+                        <path d="M22 14c4 4 16 8 20 18s-16 14-20 18" stroke="url(#anat-gry-dna)" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M42 14c-4 4-16 8-20 18s16 14 20 18" stroke="url(#anat-gry-glow)" stroke-width="2.5" stroke-linecap="round"/>
+                        <line x1="24" y1="18" x2="40" y2="18" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="27" y1="24" x2="37" y2="24" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"/>
+                        <circle cx="32" cy="32" r="3" fill="#ffffff"/>
+                        <line x1="27" y1="40" x2="37" y2="40" stroke="#94a3b8" stroke-width="1.8" stroke-linecap="round"/>
+                        <line x1="24" y1="46" x2="40" y2="46" stroke="#cbd5e1" stroke-width="1.8" stroke-linecap="round"/>
+                        <circle cx="16" cy="28" r="2" fill="#94a3b8"/>
+                        <circle cx="48" cy="36" r="2" fill="#94a3b8"/>
+                        <circle cx="32" cy="11" r="1.5" fill="#e2e8f0"/>
+                        <circle cx="32" cy="53" r="1.5" fill="#e2e8f0"/>
+                    </svg>`
+                }
+            };
 
             // Agrupar padecimientos por clasificación (color)
             guideColorGroups.forEach(group => {
                 const groupPads = padecimientos.filter(pad => pad.color === group.key);
                 if (groupPads.length === 0) return;
 
-                // Colores de fondo/borde por grupo
-                const groupColors = {
-                    purple: { bg: 'bg-purple-50', border: 'border-purple-300', text: 'text-purple-800', hoverBg: 'hover:bg-purple-100/60' },
-                    green: { bg: 'bg-emerald-50', border: 'border-emerald-300', text: 'text-emerald-800', hoverBg: 'hover:bg-emerald-100/60' },
-                    orange: { bg: 'bg-orange-50', border: 'border-orange-300', text: 'text-orange-800', hoverBg: 'hover:bg-orange-100/60' },
-                    pink: { bg: 'bg-pink-50', border: 'border-pink-300', text: 'text-pink-800', hoverBg: 'hover:bg-pink-100/60' },
-                    red: { bg: 'bg-red-50', border: 'border-red-300', text: 'text-red-800', hoverBg: 'hover:bg-red-100/60' },
-                    blue: { bg: 'bg-blue-50', border: 'border-blue-300', text: 'text-blue-800', hoverBg: 'hover:bg-blue-100/60' },
-                    yellow: { bg: 'bg-yellow-50', border: 'border-yellow-300', text: 'text-yellow-800', hoverBg: 'hover:bg-yellow-100/60' },
-                    gray: { bg: 'bg-gray-50', border: 'border-gray-300', text: 'text-gray-800', hoverBg: 'hover:bg-gray-100/60' }
+                const anatomy = guideAnatomyData[group.key] || {
+                    organs: 'Apoyo Orgánico Especializado',
+                    desc: 'Protocolos de apoyo nutricional específico para este sistema biológico.',
+                    accent: '#475569',
+                    svg: ''
                 };
-                const gc = groupColors[group.key] || groupColors.gray;
 
                 html += `
-                    <details class="pad-classification-group rounded-2xl ${gc.bg} overflow-hidden transition-all duration-300 open:shadow-md shadow-sm" data-classification="${group.key}">
-                        <summary class="p-5 md:p-6 cursor-pointer list-none flex items-center justify-between ${gc.hoverBg} transition-colors">
-                            <span class="flex items-center gap-3">
-                                <span class="text-2xl" aria-hidden="true">${group.emoji}</span>
-                                <span>
-                                    <span class="block text-lg md:text-xl font-black ${gc.text}">${group.name}</span>
-                                    <span class="block text-xs text-gray-500 font-medium mt-0.5">${groupPads.length} padecimiento${groupPads.length !== 1 ? 's' : ''}</span>
+                    <details class="pad-classification-group pad-module-card group/module" data-classification="${group.key}">
+                        <summary class="pad-module-summary">
+                            <div class="pad-module-header-main">
+                                <div class="pad-module-anatomy-badge" aria-hidden="true">
+                                    ${anatomy.svg}
+                                </div>
+                                <div class="pad-module-info">
+                                    <div class="pad-module-scope-row">
+                                        <span class="pad-module-scope-tag">
+                                            <span class="pad-module-scope-dot"></span>
+                                            <span class="pad-module-scope-text">${anatomy.organs}</span>
+                                        </span>
+                                    </div>
+                                    <h3 class="pad-module-title">${group.name}</h3>
+                                    <p class="pad-module-desc">${anatomy.desc}</p>
+                                </div>
+                            </div>
+                            <div class="pad-module-meta-actions">
+                                <span class="pad-module-count-badge">
+                                    <span class="pad-module-count-number">${groupPads.length}</span> ${groupPads.length === 1 ? 'protocolo' : 'protocolos'}
                                 </span>
-                            </span>
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 transition-transform duration-300 group-open:rotate-180" style="transition: transform 0.3s;" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                            </svg>
+                                <span class="section-toggle pad-module-toggle-btn">
+                                    <span class="group-open/module:hidden">Ver protocolos</span>
+                                    <span class="hidden group-open/module:inline">Ocultar</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform duration-300 group-open/module:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </div>
                         </summary>
-                        <div class="padecimiento-grid p-3 md:p-5">
+                        <div class="padecimiento-grid p-3 sm:p-5 md:p-6">
                 `;
 
                 groupPads.forEach(pad => {
@@ -926,8 +1150,8 @@
                     const color = btn.dataset.colorFilter;
 
                     // Estado visual del botón activo
-                    buttons.forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
-                    btn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                    buttons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
                     buttons.forEach(button => button.setAttribute('aria-pressed', String(button === btn)));
                     document.getElementById('padecimientosCatalog').open = true;
 
@@ -1386,10 +1610,10 @@
             }
             
             // Resetear filtros de padecimientos
-            document.querySelectorAll('#padColorLegend .pad-color-btn.active').forEach(b => b.classList.remove('active', 'ring-2', 'ring-offset-1', 'ring-gray-800'));
+            document.querySelectorAll('#padColorLegend .pad-color-btn.active').forEach(b => b.classList.remove('active'));
             const allPadecimientosBtn = document.querySelector('#padColorLegend .pad-color-btn[data-color-filter="all"]');
             if (allPadecimientosBtn) {
-                allPadecimientosBtn.classList.add('active', 'ring-2', 'ring-offset-1', 'ring-gray-800');
+                allPadecimientosBtn.classList.add('active');
             }
 
             // Actualizar la vista

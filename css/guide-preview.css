@@ -1,28 +1,5 @@
 /* Prueba visual de Guías. */
 @media screen {
-  .native-preview #padecimientosCatalog .pad-classification-group {
-    border: 1px solid var(--native-line);
-    border-radius: 24px;
-    background: var(--native-glass) !important;
-  }
-  .native-preview #padecimientosCatalog .pad-classification-group > summary {
-    display: grid;
-    grid-template-columns: 20px minmax(0, 1fr) 20px;
-    gap: 12px;
-    padding: 15px 18px;
-    text-align: center;
-  }
-  .native-preview #padecimientosCatalog .pad-classification-group > summary > span {
-    grid-column: 2;
-    justify-content: center;
-  }
-  .native-preview #padecimientosCatalog .pad-classification-group > summary > svg { grid-column: 3; }
-  .native-preview #padecimientosCatalog .pad-classification-group > summary:hover {
-    background: color-mix(in srgb, var(--native-accent) 7%, transparent);
-  }
-  .native-preview #padecimientosCatalog .pad-classification-group[open] > summary > svg {
-    transform: rotate(180deg);
-  }
   .native-preview #padecimientosCatalog .padecimiento-editorial > .padecimiento-summary {
     text-align: center;
   }
