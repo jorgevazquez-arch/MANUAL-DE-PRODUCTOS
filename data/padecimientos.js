@@ -19,11 +19,11 @@ window.manualData.padecimientos = [
         "id": 163,
         "serving": "Porción por confirmar",
         "usage": "Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.",
-        "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para modular el eje adrenal, reducir los niveles de cortisol y relajar la contracción muscular en cuello y hombros, frenando el estado de alerta constante sin provocar somnolencia."
+        "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para modular el respuesta al estrés, reducir los niveles de cortisol y relajar la contracción muscular en cuello y hombros, frenando el estado de alerta constante sin provocar somnolencia."
       },
       {
         "id": 68,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
         "rationale": "Actúa como el principal neurotransmisor inhibitorio del sistema nervioso central, bloqueando la sobreestimulación neuronal para frenar los pensamientos en torbellino, apaciguar las palpitaciones y reducir la reactividad ante crisis de angustia."
       }
@@ -33,17 +33,17 @@ window.manualData.padecimientos = [
         "id": 32,
         "serving": "1 cápsula (500 mg)",
         "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-        "rationale": "Extracto adaptógeno que modula el eje hipotálamo-hipófisis-suprarrenal (HPA), disminuyendo la secreción excesiva de cortisol para aliviar el nerviosismo permanente, la opresión en el pecho y la fatiga por estrés crónico."
+        "rationale": "Extracto adaptógeno que modula el respuesta al estrés, disminuyendo la secreción excesiva de cortisol para aliviar el nerviosismo permanente, la opresión en el pecho y la fatiga por estrés crónico."
       },
       {
         "id": 94,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar esta porción por la noche.",
-        "rationale": "Aporta bisglicinato y citrato de magnesio con L-teanina, 5-HTP y manzanilla para inducir ondas cerebrales alfa, relajar el tono muscular y calmar la rumiación nocturna, facilitando una transición suave hacia el descanso."
+        "rationale": "Aporta bisglicinato y citrato de magnesio con L-teanina, 5-HTP y manzanilla para inducir calma mental, relajar el tono muscular y calmar la rumiación nocturna, facilitando una transición suave hacia el descanso."
       },
       {
         "id": 150,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.",
         "rationale": "Provee L-triptófano como aminoácido precursor de la serotonina y L-teanina para estabilizar el estado anímico, disipando la sensación de angustia o desasosiego diurno y preparando al sistema nervioso para un sueño reparador."
       },
@@ -65,7 +65,8 @@ window.manualData.padecimientos = [
       "Limitar el consumo de cafeína y estimulantes.",
       "Realizar ejercicio físico regularmente.",
       "Consumir infusiones calmantes como TÉ 7 AZAHARES o TÉ MANZANILLA."
-    ]
+    ],
+    "safetyNote": "No combinar #94 Magnesium PM con #150 Triptófano+Teanina ni con antidepresivos (ISRS/IMAO) o ansiolíticos por riesgo de sedación excesiva o síndrome serotoninérgico; consultar al médico si toma medicación."
   },
   {
     "id": "fatiga_burnout",
@@ -85,7 +86,7 @@ window.manualData.padecimientos = [
         "id": 58,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Extracto de Rhodiola rosea estandarizado en rosavinas que optimiza la respuesta al estrés modulando la liberación de catecolaminas, combatiendo la astenia física severa y la niebla mental inducida por sobrecarga laboral continua."
+        "rationale": "Extracto de Rhodiola rosea estandarizado en rosavinas que optimiza la respuesta al estrés modulando la liberación de mensajeros de energía, combatiendo la cansancio físico severa y la niebla mental inducida por sobrecarga laboral continua."
       },
       {
         "id": 32,
@@ -97,7 +98,7 @@ window.manualData.padecimientos = [
         "id": 98,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Aporta hericenonas y L-treonato de magnesio para promover la biosíntesis de neurotransmisores y la función mitocondrial cerebral, despejando la sensación de embotamiento y reactivando la agilidad mental en estados de agotamiento extremo."
+        "rationale": "Aporta hericenonas y L-treonato de magnesio para promover la biosíntesis de mensajeros cerebrales y la función mitocondrial cerebral, despejando la sensación de embotamiento y reactivando la agilidad mental en estados de agotamiento extremo."
       }
     ],
     "comboSecundario": [
@@ -105,31 +106,31 @@ window.manualData.padecimientos = [
         "id": 109,
         "serving": "1 cápsula",
         "usage": "Tomar esta porción al día con alimentos grasos.",
-        "rationale": "Aporta vitamina D3, zinc y magnesio, cofactores esenciales en la producción de ATP y la señalización neuromuscular, indispensables para contrarrestar la debilidad muscular profunda y restaurar la vitalidad metabólica agotada por el burnout."
+        "rationale": "Aporta vitamina D3, zinc y magnesio, cofactores esenciales en la producción de energía celular y la señalización neuromuscular, indispensables para contrarrestar la debilidad muscular profunda y restaurar la vitalidad metabólica agotada por el burnout."
       },
       {
         "id": 5,
         "serving": "3 cápsulas",
         "usage": "Tomar esta porción por la mañana con alimentos.",
-        "rationale": "Combina vitaminas del complejo B hidrosolubles y ginseng siberiano para acelerar el metabolismo energético mitocondrial (ciclo de Krebs) y modular la fatiga adrenal, combatiendo el letargo físico y la falta de concentración diurna."
+        "rationale": "Combina vitaminas del complejo B hidrosolubles y ginseng siberiano para acelerar el metabolismo energético mitocondrial (producción diaria de energía) y modular la fatiga adrenal, combatiendo el letargo físico y la falta de concentración diurna."
       },
       {
         "id": 117,
         "serving": "1 cápsula",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Incrementa la coenzima NAD+ y activa las sirtuinas celulares mediante resveratrol, restaurando la respiración mitocondrial y la síntesis de ATP para superar el agotamiento crónico celular resistente al descanso convencional."
+        "rationale": "Incrementa la coenzima NAD+ y activa las sirtuinas celulares mediante resveratrol, restaurando la respiración mitocondrial y la síntesis de energía celular para superar el agotamiento crónico celular resistente al descanso convencional."
       },
       {
         "id": 181,
         "serving": "4 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Aporta magnesio quelado de alta biodisponibilidad que participa directamente en más de 300 reacciones enzimáticas de fijación de ATP, aliviando la pesadez muscular, los espasmos por tensión y la debilidad sistémica."
+        "rationale": "Aporta magnesio quelado de alta biodisponibilidad que participa directamente en más de 300 reacciones enzimáticas de fijación de energía celular, aliviando la pesadez muscular, los espasmos por tensión y la debilidad sistémica."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-        "rationale": "Forma activa reducida de la Coenzima Q10 que transfiere electrones en la cadena respiratoria mitocondrial, mejorando el gasto bioenergético en músculo esquelético y miocardio para superar la sensación de pesadez y desgano corporal."
+        "rationale": "Forma activa reducida de la Coenzima Q10 que transfiere electrones en la producción de energía celular, mejorando el gasto bioenergético en músculo esquelético y miocardio para superar la sensación de pesadez y desgano corporal."
       },
       {
         "id": 29,
@@ -155,7 +156,8 @@ window.manualData.padecimientos = [
       "Establecer límites claros entre el trabajo y la vida personal.",
       "Incorporar técnicas de relajación como meditación, yoga o mindfulness.",
       "Mantener una dieta rica en nutrientes."
-    ]
+    ],
+    "safetyNote": "Evitar estimulantes por la tarde o noche para no alterar el sueño; si ya tomas complejo B (#5/#192), no duplicar dosis ni combinar con antidepresivos o antihipertensivos sin supervisión médica."
   },
   {
     "id": "insomnio",
@@ -172,19 +174,19 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 94,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar esta porción 1h antes de dormir.",
         "rationale": "Combina dos fuentes de magnesio con 5-HTP, L-teanina y manzanilla para facilitar la relajación neuromuscular, estimular la conversión a melatonina y reducir los microdespertares a mitad de la noche, garantizando un sueño profundo y continuo."
       },
       {
         "id": 68,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas (1.5 g)",
         "usage": "Tomar esta porción 1h antes de dormir. Con alimentos.",
         "rationale": "Actúa como el freno fisiológico neuronal inhibitorio que atenúa las descargas excitatorias de glutamato, disminuyendo la latencia de conciliación del sueño y evitando la sensación de mente hiperactiva al momento de acostarse."
       },
       {
         "id": 150,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción 1h antes de dormir. Con alimentos.",
         "rationale": "Proporciona el sustrato bioquímico primario (L-triptófano) para la síntesis de serotonina y melatonina en la glándula pineal, regulando el ciclo circadiano y disipando el desasosiego nocturno para una inducción suave del descanso."
       }
@@ -213,7 +215,8 @@ window.manualData.padecimientos = [
       "Evitar pantallas (luz azul) al menos 1 hora antes de dormir.",
       "Mantener un horario de sueño regular.",
       "Tomar una infusión relajante como TÉ 7 AZAHARES o TÉ MANZANILLA."
-    ]
+    ],
+    "safetyNote": "Evitar combinar #94 Magnesium PM y #150 Triptófano+Teanina en la misma toma nocturna o junto con somníferos, alcohol o antidepresivos (ISRS/IMAO); si el insomnio persiste más de 3 semanas, acudir a valoración médica."
   },
   {
     "id": "memoria_enfoque",
@@ -232,7 +235,7 @@ window.manualData.padecimientos = [
         "id": 149,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Cruza de forma efectiva la barrera hematoencefálica incrementando la densidad de sinapsis neuronales en el hipocampo, lo que mejora la memoria de trabajo, la velocidad de procesamiento y la retención de nueva información."
+        "rationale": "Cruza de forma efectiva la protección del cerebro incrementando la densidad de sinapsis neuronales en el hipocampo, lo que mejora la memoria de trabajo, la velocidad de procesamiento y la retención de nueva información."
       },
       {
         "id": 98,
@@ -252,17 +255,17 @@ window.manualData.padecimientos = [
         "id": 82,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-        "rationale": "Aporta fosfolípidos de omega-3 con alto contenido de DHA y astaxantina, que se integran en las membranas celulares del córtex cerebral para optimizar la neurotransmisión colinérgica y proteger del deterioro cognitivo."
+        "rationale": "Aporta fosfolípidos de omega-3 con alto contenido de DHA y astaxantina, que se integran en las membranas celulares del córtex cerebral para optimizar la comunicación nerviosa colinérgica y proteger del deterioro cognitivo."
       },
       {
         "id": 87,
         "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción una vez al día con alimentos, preferentemente por la mañana.",
-        "rationale": "Aminoácido precursor directo de la dopamina y noradrenalina en el sistema nervioso central, neurotransmisores indispensables para sostener la atención ejecutiva, la motivación y la claridad mental bajo situaciones de alta demanda intelectual."
+        "rationale": "Aminoácido precursor directo de la dopamina y noradrenalina en el sistema nervioso central, mensajeros cerebrales indispensables para sostener la atención ejecutiva, la motivación y la claridad mental bajo situaciones de alta demanda intelectual."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Mejora la biodisponibilidad energética mitocondrial en las neuronas corticales y neutraliza el estrés oxidativo tisular, previniendo la fatiga cognitiva y el bloqueo mental durante jornadas de estudio o trabajo intensas."
       },
@@ -283,7 +286,8 @@ window.manualData.padecimientos = [
       "Realizar ejercicios mentales (crucigramas, aprender algo nuevo).",
       "Dormir lo suficiente para la consolidación de la memoria.",
       "Dieta rica en Omega 3 y antioxidantes."
-    ]
+    ],
+    "safetyNote": "Si tomas anticoagulantes, antidepresivos o medicamentos para la presión, consulta antes de usar ginkgo, rhodiola o albizia. Evita dosis altas por la noche para no interferir con el descanso."
   },
   {
     "id": "migrana",
@@ -308,7 +312,7 @@ window.manualData.padecimientos = [
         "id": 149,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Forma de magnesio capaz de atravesar la barrera hematoencefálica y elevar los niveles cerebrales de magnesio, estabilizando los receptores NMDA y previniendo los espasmos neurovasculares que desencadenan el dolor punzante en la cabeza."
+        "rationale": "Forma de magnesio capaz de atravesar la protección del cerebro y elevar los niveles cerebrales de magnesio, estabilizando los receptores NMDA y previniendo los espasmos neurovasculares que desencadenan el dolor punzante en la cabeza."
       },
       {
         "id": 4,
@@ -320,7 +324,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Restaura la deficiencia mitocondrial en el endotelio cerebral optimizando la cadena respiratoria celular, lo que disminuye significativamente los marcadores neuroinflamatorios y la frecuencia de los ataques de migraña con o sin aura."
       },
@@ -332,7 +336,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "2-3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Altas concentraciones de EPA y DHA modulan la síntesis de eicosanoides inflamatorios (prostaglandinas serie 2), reduciendo la neuroinflamación perivascular en las terminales del nervio trigémino y aliviando la hipersensibilidad dolorosa craneal."
       }
@@ -341,7 +345,8 @@ window.manualData.padecimientos = [
       "Identificar y evitar desencadenantes (alimentos, luz, olores).",
       "Mantener horarios regulares de sueño y comidas.",
       "Hidratación adecuada."
-    ]
+    ],
+    "safetyNote": "Acude a urgencias ante dolor súbito muy intenso, fiebre, rigidez de nuca, pérdida de visión o fuerza o dificultad para hablar. No duplicar complejo B (#4) ni combinar con triptanes sin consultar."
   },
   {
     "id": "fibromialgia",
@@ -361,13 +366,13 @@ window.manualData.padecimientos = [
         "id": 92,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Combina magnesio con ácido málico para abastecer el ciclo de Krebs celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
+        "rationale": "Combina magnesio con ácido málico para abastecer el producción diaria de energía celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
       },
       {
         "id": 101,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-        "rationale": "Compensa la severa disfunción mitocondrial y el estrés oxidativo muscular típicos de la fibromialgia, optimizando la generación de ATP en las células musculares para aliviar el dolorimiento generalizado y la astenia profunda."
+        "rationale": "Compensa la severa disfunción mitocondrial y el estrés oxidativo muscular típicos de la fibromialgia, optimizando la generación de energía celular en las células musculares para aliviar el dolorimiento generalizado y la astenia profunda."
       },
       {
         "id": 102,
@@ -379,7 +384,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 94,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar esta porción por la noche.",
         "rationale": "La combinación de bisglicinato de magnesio, 5-HTP y glicina promueve la relajación del tono muscular espástico y favorece la fase IV del sueño no REM, crucial para reparar tejidos y reducir la amplificación central del dolor."
       },
@@ -387,11 +392,11 @@ window.manualData.padecimientos = [
         "id": 4,
         "serving": "3 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de neurotransmisores del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
+        "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de mensajeros cerebrales del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
       },
       {
         "id": 17,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas (300 mg)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
       }
@@ -401,7 +406,8 @@ window.manualData.padecimientos = [
       "Practicar técnicas de manejo del estrés.",
       "Mantener una rutina de sueño regular.",
       "Utilizar FIX UZEN para masajear los puntos de dolor."
-    ]
+    ],
+    "safetyNote": "No sustituye el tratamiento médico del dolor crónico. Consultar si tomas antidepresivos, relajantes musculares o anticoagulantes, y evitar duplicar complejo B (#4) con otros suplementos."
   },
   {
     "id": "ciatica",
@@ -424,9 +430,9 @@ window.manualData.padecimientos = [
       },
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-        "rationale": "Aporta curcuminoides de alta biodisponibilidad que modulan la cascada de citoquinas inflamatorias en las raíces nerviosas y tejidos paravertebrales, mitigando la irritación y el dolor irradiado a lo largo de la pierna."
+        "rationale": "Aporta curcuminoides de alta biodisponibilidad que modulan la sustancias que inflaman en las raíces nerviosas y tejidos de la espalda, mitigando la irritación y el dolor irradiado a lo largo de la pierna."
       },
       {
         "id": 4,
@@ -438,7 +444,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 91,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (aprox. 500 mg)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Combina tres sales de magnesio para favorecer la relajación neuromuscular y disminuir la excitabilidad de las fibras paravertebrales, aliviando la rigidez muscular refleja que comprime el trayecto ciático."
       },
@@ -446,7 +452,7 @@ window.manualData.padecimientos = [
         "id": 17,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
+        "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la circulación alrededor de los nervios y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
       },
       {
         "id": 167,
@@ -460,7 +466,8 @@ window.manualData.padecimientos = [
       "Evitar estar sentado por períodos prolongados.",
       "Aplicar calor en la zona lumbar.",
       "Masajear la zona con FIX UZEN."
-    ]
+    ],
+    "safetyNote": "Acude a urgencias si hay pérdida de fuerza en pierna o pie, entumecimiento en zona genital o pérdida de control de esfínteres. Precaución con cúrcuma (#54) si tomas anticoagulantes."
   },
   {
     "id": "depresion_apoyo",
@@ -477,15 +484,15 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 150,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción por la tarde/noche. Con alimentos.",
         "rationale": "Aporta L-triptófano, sustrato directo para la síntesis de serotonina cerebral, y L-teanina para mejorar la modulación anímica, reduciendo la sensación de apatía, desinterés y pesadez emocional durante el día."
       },
       {
         "id": 123,
-        "serving": "2-3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-        "rationale": "Altas dosis de EPA marino con potente efecto antiinflamatorio cerebral que modula citoquinas proinflamatorias, optimizando la fluidez de las membranas neuronales y la recaptación de neurotransmisores implicados en el bienestar anímico."
+        "rationale": "Altas dosis de EPA marino con potente efecto antiinflamatorio cerebral que modula citoquinas proinflamatorias, optimizando la fluidez de las membranas neuronales y la recaptación de mensajeros cerebrales implicados en el bienestar anímico."
       },
       {
         "id": 166,
@@ -499,7 +506,7 @@ window.manualData.padecimientos = [
         "id": 32,
         "serving": "1 cápsula (500 mg)",
         "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-        "rationale": "Extracto adaptógeno que equilibra los niveles de cortisol y el eje neuroendocrino, mitigando los síntomas somáticos del bajo estado de ánimo, la anhedonia y la vulnerabilidad al colapso emocional por estrés prolongado."
+        "rationale": "Extracto adaptógeno que equilibra los niveles de cortisol y el equilibrio hormonal y nervioso, mitigando los síntomas somáticos del bajo estado de ánimo, la desgano y la vulnerabilidad al colapso emocional por estrés prolongado."
       },
       {
         "id": 4,
@@ -509,22 +516,23 @@ window.manualData.padecimientos = [
       },
       {
         "id": 94,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar esta porción por la noche.",
         "rationale": "El 5-hidroxitriptófano (5-HTP) junto al bisglicinato de magnesio atraviesa eficientemente hacia el sistema nervioso central, impulsando los niveles de serotonina para disipar la rumiación pesimista nocturna y restaurar la arquitectura del sueño."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-        "rationale": "Reactiva la bioenergética en el tejido cerebral y muscular mediante transporte electrónico mitocondrial, mitigando la anhedonia física, el letargo psicomotor y devolviendo el dinamismo diario en personas decaídas."
+        "rationale": "Reactiva la bioenergética en el tejido cerebral y muscular mediante transporte electrónico mitocondrial, mitigando la desgano física, el letargo psicomotor y devolviendo el dinamismo diario en personas decaídas."
       }
     ],
     "lifestyleTips": [
       "Buscar apoyo psicoterapéutico.",
       "Exponerse a la luz solar diariamente.",
       "Mantener una rutina y establecer metas pequeñas."
-    ]
+    ],
+    "safetyNote": "No suspender ni sustituir antidepresivos recetados; evitar #150 y #94 si toma ISRS/IMAO por riesgo serotoninérgico. Ante ideación suicida, aislamiento severo o empeoramiento súbito, buscar atención médica de urgencia."
   },
   {
     "id": "quistes_miomas",
@@ -547,13 +555,13 @@ window.manualData.padecimientos = [
       },
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Curcumina de alta pureza con piperina para frenar la inflamación pélvica crónica y reducir el dolor punzante en ovarios y vientre bajo."
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Regula la proliferación celular en el tejido miometrial y modula los receptores hormonales uterinos, apoyando el control de factores fibrogénicos que intervienen en el desarrollo de miomas."
       }
@@ -561,20 +569,20 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 123,
-        "serving": "2-3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Ácidos grasos EPA y DHA para reducir la cascada inflamatoria pélvica, aliviando la presión y las molestias asociadas a quistes y miomas."
       },
       {
         "id": 32,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
+        "usage": "Tomar 1 cápsula al día (60 porciones por envase).",
         "rationale": "Modula el eje suprarrenal-ovárico al regular el cortisol, disminuyendo el impacto negativo del estrés crónico sobre la síntesis de progesterona y el balance hormonal pélvico."
       },
       {
         "id": 180,
-        "serving": "5 g",
-        "usage": "Tomar esta porción al día disuelto en agua. Con alimentos.",
+        "serving": "2 cápsulas",
+        "usage": "Tomar 2 cápsulas al día con alimentos.",
         "rationale": "Aporta inositol puro de rápida asimilación que optimiza la transducción de señales de insulina en el ovario, favoreciendo el balance neuroendocrino y disminuyendo la tendencia a desarrollar quistes ováricos."
       },
       {
@@ -594,7 +602,8 @@ window.manualData.padecimientos = [
       "Dieta rica en fibra para eliminar el exceso de estrógenos.",
       "Evitar plásticos y otros disruptores endocrinos.",
       "Mantener un peso saludable."
-    ]
+    ],
+    "safetyNote": "Evitar en embarazo o sospecha. Si hay antecedentes de tumores hormonodependientes, terapia hormonal o sangrado abundante, consultar al médico antes de usar."
   },
   {
     "id": "indigestion",
@@ -1626,27 +1635,27 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Concentración terapéutica de EPA y DHA que inhibe la síntesis de eicosanoides proinflamatorios, disminuyendo la rigidez matutina articular y la inflamación de las membranas sinoviales."
+        "rationale": "Concentración terapéutica de EPA y DHA que inhibe la producción de sustancias inflamatorias, disminuyendo la rigidez matutina articular y la inflamación de las membranas sinoviales."
       }
     ],
     "comboSecundario": [
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Curcumina estandarizada al 95% con piperina que inhibe el factor de transcripción NF-kB, apagando la inflamación de la membrana sinovial y disminuyendo el dolor y la hinchazón articular."
+        "rationale": "Curcumina estandarizada al 95% con piperina que inhibe el señales de inflamación, apagando la inflamación de la membrana sinovial y disminuyendo el dolor y la hinchazón articular."
       },
       {
         "id": 116,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Precursor directo del glutatión intracelular que neutraliza las especies reactivas de oxígeno producidas por la actividad autoinmune crónica, protegiendo los condrocitos y el tejido sinovial del daño oxidativo."
+        "rationale": "Precursor directo del glutatión intracelular que neutraliza las radicales libres producidas por la actividad autoinmune crónica, protegiendo los condrocitos y el tejido sinovial del daño oxidativo."
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día solo si la porción es apropiada para sus niveles y tratamiento. Con alimentos que contengan grasas.",
         "rationale": "Dosis óptima de vitamina D3 que modula la respuesta inmunitaria regulando los linfocitos T, lo que ayuda a mitigar la autoinmunidad y previene la pérdida de densidad ósea periarticular."
       },
@@ -1662,7 +1671,8 @@ window.manualData.padecimientos = [
       "Realizar actividad física de bajo impacto y fisioterapia según tolerancia.",
       "Seguir una alimentación equilibrada; eliminar gluten o lácteos solo si existe diagnóstico o intolerancia individual.",
       "Revisar anticoagulantes antes de combinar omega-3, cúrcuma u otros productos con efecto sobre sangrado."
-    ]
+    ],
+    "safetyNote": "Apoyo complementario que no sustituye tu tratamiento reumatológico. Si tomas anticoagulantes, consulta antes de usar cúrcuma (#54) u omega-3 (#123)."
   },
   {
     "id": "acido_urico",
@@ -2138,9 +2148,9 @@ window.manualData.padecimientos = [
       },
       {
         "id": 101,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-        "rationale": "Forma biológicamente activa de CoQ10 que facilita la transferencia de protones en la membrana mitocondrial, elevando la síntesis de ATP en músculo esquelético y neuronas para contrarrestar la postración y debilidad física crónica."
+        "rationale": "Forma biológicamente activa de CoQ10 que facilita la transferencia de protones en la membrana mitocondrial, elevando la síntesis de energía celular en músculo esquelético y neuronas para contrarrestar la postración y debilidad física crónica."
       },
       {
         "id": 92,
@@ -2164,7 +2174,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 116,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas (1 g)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Aumenta la síntesis de glutatión celular protegiendo el ADN mitocondrial del daño por especies reactivas de oxígeno, lo que disminuye la inflamación sistémica de bajo grado y acelera la recuperación tras esfuerzos mínimos."
       },
@@ -2179,7 +2189,8 @@ window.manualData.padecimientos = [
       "Gestión de la energía (pacing).",
       "Sueño reparador.",
       "Dieta antiinflamatoria y baja en carbohidratos refinados."
-    ]
+    ],
+    "safetyNote": "Descartar primero anemia, hipotiroidismo o infecciones crónicas con tu médico. No duplicar complejo B (#4) con otros multivitamínicos; consultar si usas anticoagulantes o inmunosupresores."
   },
   {
     "id": "caida_cabello_fem",
@@ -2236,7 +2247,8 @@ window.manualData.padecimientos = [
       "Asegurar un consumo adecuado de proteína y hierro.",
       "Masajear el cuero cabelludo.",
       "Evitar peinados muy tirantes y el uso excesivo de calor."
-    ]
+    ],
+    "safetyNote": "No usar en embarazo o lactancia (contiene fenogreco). Si toma anticonceptivos, anticoagulantes o presenta caída súbita en parches, consultar al médico; la biotina puede alterar pruebas de laboratorio."
   },
   {
     "id": "caida_cabello_masc",
@@ -2293,7 +2305,8 @@ window.manualData.padecimientos = [
       "Considerar el uso de minoxidil tópico como complemento.",
       "Dieta baja en azúcar para reducir la inflamación.",
       "Manejar el estrés."
-    ]
+    ],
+    "safetyNote": "Contiene isoflavonas de soya; evitar en antecedentes de tumores hormonodependientes o terapia hormonal sin aval médico. La biotina puede alterar resultados de laboratorio."
   },
   {
     "id": "disfuncion_libido",
@@ -2358,7 +2371,8 @@ window.manualData.padecimientos = [
       "Controlar el peso y evitar el exceso de grasa abdominal.",
       "Priorizar el descanso profundo (7-8 horas).",
       "Reducir el consumo de alcohol y manejar el estrés."
-    ]
+    ],
+    "safetyNote": "Precaución en hipertensión, cardiopatías o uso de nitratos o antihipertensivos (especialmente con L-arginina o estimulantes). Consultar al médico ante dolor torácico o tratamiento hormonal."
   },
   {
     "id": "prostata",
@@ -2407,7 +2421,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "1-2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Desinflama los conductos urinarios y la glándula prostática, reduciendo la urgencia y el goteo molesto al terminar de orinar."
       }
@@ -2416,7 +2430,8 @@ window.manualData.padecimientos = [
       "Reducir la ingesta de líquidos antes de dormir.",
       "Limitar cafeína y alcohol.",
       "Incluir semillas de calabaza en la dieta."
-    ]
+    ],
+    "safetyNote": "Contiene isoflavonas de soya; en antecedentes de cáncer de próstata, retención urinaria aguda o uso de terapia hormonal o anticoagulantes, consultar al urólogo antes de suplementar."
   },
   {
     "id": "menopausia",
@@ -2480,7 +2495,8 @@ window.manualData.padecimientos = [
       "Vestir en capas para manejar los bochornos.",
       "Realizar ejercicio de fuerza para la salud ósea.",
       "Incluir soya y linaza en la dieta."
-    ]
+    ],
+    "safetyNote": "Evitar fitoestrógenos (soya, aguaje, trébol, dong quai) si hay antecedentes de cáncer hormonodependiente o terapia hormonal sustitutiva sin supervisión médica. Consultar ante sangrado posmenopáusico."
   },
   {
     "id": "irregularidad_menstrual",
@@ -2523,7 +2539,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "1-2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Modula la producción endometrial de prostaglandinas inflamatorias, reduciendo la congestión pélvica, la hinchazón mamaria y la hipersensibilidad dolorosa previa a la menstruación."
       },
@@ -2544,7 +2560,8 @@ window.manualData.padecimientos = [
       "Llevar un registro del ciclo menstrual.",
       "Reducir cafeína y sal antes del periodo.",
       "Aumentar el consumo de magnesio."
-    ]
+    ],
+    "safetyNote": "No usar en embarazo. Puede interactuar con anticonceptivos hormonales o tratamientos de fertilidad; si hay ausencia prolongada de regla o sangrado irregular severo, acudir a valoración médica."
   },
   {
     "id": "hipotiroidismo",
@@ -2593,7 +2610,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
         "rationale": "Suple el déficit de producción endógena de coenzima Q10 ocasionado por la baja estimulación tiroidea en las mitocondrias, reactivando la fuerza muscular y aliviando la fatiga y somnolencia diurna persistente."
       },
@@ -2608,7 +2625,8 @@ window.manualData.padecimientos = [
       "Evitar el consumo excesivo de vegetales crudos crucíferos.",
       "Asegurar un buen aporte de yodo, selenio y zinc.",
       "Consultar al médico para tratamiento hormonal."
-    ]
+    ],
+    "safetyNote": "Si tomas levotiroxina, separa cualquier suplemento al menos 4 horas y consulta a tu médico antes de usar algas, yodo o adaptógenos."
   },
   {
     "id": "hipertiroidismo",
@@ -2624,21 +2642,21 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 150,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción al día. Preferentemente antes de dormir.",
-        "rationale": "La L-teanina y extractos de azahar modulan los receptores glutamatérgicos corticales promoviendo ondas alfa cerebrales, lo que apacigua el estado de agitación nerviosa, las palpitaciones funcionales y la inquietud nocturna."
+        "rationale": "La L-teanina y extractos de azahar modulan los receptores glutamatérgicos corticales promoviendo calma mental, lo que apacigua el estado de agitación nerviosa, las palpitaciones funcionales y la inquietud nocturna."
       },
       {
         "id": 94,
-        "serving": "2-4 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar esta porción al día. Preferentemente antes de dormir.",
         "rationale": "Aporta bisglicinato de magnesio, glicina y manzanilla para regular la excitabilidad de la membrana neuromuscular, relajando la contracción muscular excesiva, disminuyendo los temblores finos y facilitando la conciliación del descanso nocturno."
       },
       {
         "id": 68,
-        "serving": "2-3 cápsulas",
+        "serving": "2 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Actúa como el principal neurotransmisor sedante en el sistema nervioso central para contrarrestar la tormenta adrenérgica del cuerpo acelerado, amortiguando la taquicardia funcional, los temblores distales y el desasosiego constante."
+        "rationale": "Actúa como el principal neurotransmisor sedante en el sistema nervioso central para contrarrestar la aceleración nerviosa del cuerpo acelerado, amortiguando la taquicardia funcional, los temblores distales y el desasosiego constante."
       }
     ],
     "comboSecundario": [
@@ -2666,7 +2684,8 @@ window.manualData.padecimientos = [
       "Practicar técnicas de relajación.",
       "Mantener una dieta rica en antioxidantes.",
       "Seguir control médico y revisión endocrinológica."
-    ]
+    ],
+    "safetyNote": "Evita suplementos con yodo, algas marinas o estimulantes; cualquier apoyo debe ser aprobado por tu endocrinólogo junto con tu tratamiento."
   },
   {
     "id": "alergias_respiratorias",
@@ -2685,17 +2704,17 @@ window.manualData.padecimientos = [
         "id": 116,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Ruptura los puentes disulfuro de las mucoproteínas bronquiales y nasales, fluidificando las secreciones densas generadas por la inflamación alérgica y despejando los senos paranasales y conductos aéreos."
+        "rationale": "Ruptura los mucosidad espesa en nariz y bronquios, fluidificando las secreciones densas generadas por la inflamación alérgica y despejando los senos paranasales y conductos aéreos."
       },
       {
         "id": 61,
-        "serving": "1-2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "La vitamina C actúa como degradador natural de histamina circulante mientras la equinácea modula la respuesta inmunitaria de las mucosas respiratorias frente a polen, polvo y ácaros."
       },
       {
         "id": 178,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Bioflavonoide que estabiliza la membrana de los mastocitos y frena la degranulación de histamina, aliviando de raíz estornudos continuos, lagrimeo y prurito en nariz y garganta ante alérgenos ambientales."
       }
@@ -2703,7 +2722,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 184,
-        "serving": "1-2 cápsulas",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día como preventivo. Con alimentos.",
         "rationale": "Sinergia de saúco, zinc y vitaminas C y D3 que fortalece la integridad del epitelio respiratorio, reduciendo la penetración de alérgenos ambientales y atenuando la reactividad bronquial."
       },
@@ -2736,7 +2755,8 @@ window.manualData.padecimientos = [
       "Usar purificadores de aire en casa.",
       "Lavar la ropa de cama con agua caliente.",
       "Mantener las ventanas cerradas en días de alto polen."
-    ]
+    ],
+    "safetyNote": "Si presentas falta de aire, silbidos en el pecho o hinchazón de labios o cara, busca atención médica urgente. Evita equinácea (#61) en enfermedades autoinmunes y propóleo (#188) si tienes alergia apícola."
   },
   {
     "id": "defensas_bajas",
@@ -2753,7 +2773,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 184,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Combinación de saúco, zinc y vitaminas C y D3 que estimula activamente la proliferación de linfocitos y fagocitos, reforzando la primera línea de defensa biológica frente a agentes patógenos."
       },
@@ -2773,7 +2793,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Regula la transcripción génica en monocitos y macrófagos, estimulando la síntesis de péptidos antimicrobianos endógenos como catelicidinas y defensinas indispensables para blindar el sistema inmunitario."
       },
@@ -2813,7 +2833,8 @@ window.manualData.padecimientos = [
       "Aumentar el consumo de frutas y verduras ricas en Vitamina C.",
       "Reducir el estrés crónico.",
       "Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA, MORINGA ORGÁNICA, AJO NEGRO + MORINGA, CUATECOMATE y HONIG ABAGREEN VERDE/ROJO."
-    ]
+    ],
+    "safetyNote": "En pacientes con inmunosupresión severa, quimioterapia o enfermedades autoinmunes, consulta a tu médico antes de usar equinácea (#61), astrágalo (#185) o probióticos. Acude a urgencias si hay fiebre alta persistente."
   },
   {
     "id": "resfriado_comun",
@@ -2842,7 +2863,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 243,
-        "serving": "10 ml",
+        "serving": "1 cucharada sopera (10 ml)",
         "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
         "rationale": "Jarabe emoliente y balsámico con miel, gordolobo y propóleo que tapiza la garganta raspada, alivia la tos irritativa y promueve la expulsión del moco estacional acumulado."
       }
@@ -2850,7 +2871,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 61,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción al día con alimentos.",
         "rationale": "La vitamina C refuerza las defensas celulares y neutraliza radicales libres respiratorios, mientras la equinácea apoya al organismo para responder más rápido frente a los síntomas clásicos del resfriado común."
       },
@@ -2872,7 +2893,8 @@ window.manualData.padecimientos = [
       "Usar solución salina nasal y humidificación limpia.",
       "Evitar antibióticos para un resfriado viral.",
       "Distinguir síntomas compatibles con influenza o COVID-19 cuando circulen estos virus."
-    ]
+    ],
+    "safetyNote": "Busca valoración médica si hay fiebre alta (>38.5 °C), falta de aire, dolor en el pecho o síntomas que empeoran tras 5 a 7 días. Evita equinácea (#61) en autoinmunidad y revisa alergia apícola si usas miel o propóleo."
   },
   {
     "id": "tos_irritacion_garganta",
@@ -2895,7 +2917,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 243,
-        "serving": "10 ml",
+        "serving": "1 cucharada sopera (10 ml)",
         "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
         "rationale": "Jarabe pectoral a base de miel natural y extracto de bugambilia que calma el ardor de garganta, desensibiliza las terminaciones nerviosas laríngeas e hidrata los tejidos secos y lastimados."
       },
@@ -2931,7 +2953,8 @@ window.manualData.padecimientos = [
       "No dar miel a menores de un año.",
       "Observar si la tos se relaciona con reflujo, alergias o medicamentos.",
       "Evitar hablar en exceso cuando existe ronquera."
-    ]
+    ],
+    "safetyNote": "Si la tos dura más de 2 semanas, se acompaña de fiebre alta, flema con sangre o dificultad para respirar, consulta al médico. Precaución con propóleo (#22, #188) y miel en personas con alergia apícola."
   },
   {
     "id": "tos_flema_congestion",
@@ -2960,7 +2983,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 243,
-        "serving": "10 ml",
+        "serving": "1 cucharada sopera (10 ml)",
         "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
         "rationale": "Jarabe expectorante con miel pura, eucalipto y gordolobo que hidrata las secreciones viscosas del árbol traqueobronquial, facilitando su expulsión sin fatiga y calmando el dolor torácico por tos constante."
       }
@@ -2990,7 +3013,8 @@ window.manualData.padecimientos = [
       "Evitar tabaco, vapeo y humo de leña.",
       "No suprimir automáticamente una tos productiva.",
       "Vigilar cambios importantes en cantidad, color u olor de la flema."
-    ]
+    ],
+    "safetyNote": "Acude a valoración médica si hay fiebre alta, silbidos en el pecho, dolor torácico, flema verdosa o con sangre o falta de aire. No sustituye antibióticos ni broncodilatadores indicados por tu médico."
   },
   {
     "id": "congestion_nasal_sinusal",
@@ -3013,7 +3037,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 178,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día con alimentos.",
         "rationale": "Potente flavonoide que desinflama el epitelio de los senos paranasales y disminuye la producción excesiva de moco, aliviando la sensación de pesadez facial y reabriendo el flujo de aire nasal."
       },
@@ -3039,7 +3063,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 243,
-        "serving": "10 ml",
+        "serving": "1 cucharada sopera (10 ml)",
         "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
         "rationale": "Sus esencias volátiles de menta y eucalipto ascienden hacia las cavidades sinusales promoviendo la ventilación nasal, a la vez que su miel densa protege la faringe del constante escurrimiento retronasal."
       }
@@ -3049,7 +3073,8 @@ window.manualData.padecimientos = [
       "Mantener una hidratación adecuada.",
       "Evitar humo y alérgenos identificados.",
       "No usar aceites esenciales directamente dentro de la nariz."
-    ]
+    ],
+    "safetyNote": "Consulta al médico si presentas fiebre alta, dolor facial intenso, inflamación alrededor de los ojos o síntomas por más de 10 días. Precaución con propóleo (#188) en caso de alergia a productos apícolas."
   },
   {
     "id": "convalecencia_respiratoria",
@@ -3066,7 +3091,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 100,
-        "serving": "3 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Distribuir esta porción durante el día, antes de las comidas.",
         "rationale": "Concentrado de micronutrientes, clorofila y aminoácidos esenciales que nutre los tejidos debilitados, combate la astenia prolongada y acelera el restablecimiento del tono muscular y vitalidad general."
       },
@@ -3108,7 +3133,8 @@ window.manualData.padecimientos = [
       "Priorizar sueño, hidratación, proteína y alimentos variados.",
       "Evitar depender de cafeína cuando existe insomnio o palpitaciones.",
       "Diferenciar convalecencia de fiebre nueva o empeoramiento respiratorio."
-    ]
+    ],
+    "safetyNote": "No suspendas tratamientos médicos previos sin indicación profesional. Si reaparece fiebre alta, fatiga extrema o falta de aire al caminar, acude a revisión médica."
   },
   {
     "id": "asma_diagnosticada",
@@ -3125,13 +3151,13 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 123,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día con un desayuno que contenga grasas.",
         "rationale": "Los ácidos grasos EPA y DHA modulan la síntesis de leucotrienos broncoconstrictores en el tejido pulmonar, favoreciendo una menor reactividad de las vías aéreas y atenuando la inflamación crónica subyacente."
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas sólo cuando exista insuficiencia de vitamina D.",
         "rationale": "Interviene en la regulación de la respuesta inmune pulmonar y mejora la función de la musculatura lisa bronquial, ayudando a disminuir la frecuencia de exacerbaciones provocadas por infecciones virales intercurrentes."
       },
@@ -3151,7 +3177,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 178,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día con alimentos.",
         "rationale": "Flavonoide estabilizador de mastocitos que reduce la liberación de histamina y citoquinas inflamatorias en el pulmón, disminuyendo la hiperreactividad bronquial ante cambios bruscos de temperatura, polvo ambiental y alérgenos."
       },
@@ -3167,7 +3193,8 @@ window.manualData.padecimientos = [
       "Identificar desencadenantes como humo, polvo, ejercicio o alérgenos.",
       "Revisar periódicamente la técnica del inhalador.",
       "No usar suplementos para intentar detener una crisis."
-    ]
+    ],
+    "safetyNote": "Apoyo nutricional complementario: NUNCA sustituye inhaladores de rescate ni medicamentos de control del asma. Busca atención urgente ante silbidos en el pecho, opresión o falta de aire."
   },
   {
     "id": "epoc_diagnosticada",
@@ -3196,7 +3223,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día con un desayuno que contenga grasas.",
         "rationale": "Sus altas concentraciones de EPA y DHA modulan la inflamación sistémica en el parénquima pulmonar y protegen la circulación cardiopulmonar frente a la sobrecarga del ventrículo derecho o cor pulmonale."
       }
@@ -3204,7 +3231,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas sólo ante insuficiencia documentada.",
         "rationale": "Optimiza la contractilidad y fuerza de los músculos respiratorios y estimula la síntesis de péptidos antimicrobianos en los pulmones, disminuyendo significativamente la probabilidad de exacerbaciones bronquiales infecciosas."
       },
@@ -3226,7 +3253,8 @@ window.manualData.padecimientos = [
       "Mantener rehabilitación pulmonar y actividad adaptada.",
       "Asegurar suficiente proteína y energía si existe pérdida de peso.",
       "Mantener al día las medidas preventivas y el tratamiento inhalado indicado."
-    ]
+    ],
+    "safetyNote": "Apoyo nutricional complementario: NUNCA sustituye inhaladores, oxígeno ni tratamiento médico para EPOC. Acude a urgencias si aumenta la falta de aire, hay fiebre o cambia el color de la flema."
   },
   {
     "id": "desgaste_articular",
@@ -3255,7 +3283,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día con comidas.",
         "rationale": "Inhibe las enzimas COX-2 y metaloproteinasas degradadoras de cartílago, aliviando eficazmente el dolor, la rigidez matutina y la inflamación articular provocados por la osteoartritis crónica."
       }
@@ -3299,7 +3327,8 @@ window.manualData.padecimientos = [
       "Consumir TÉ JENGIBRE Y CÚRCUMA.",
       "Aplicar FIX UZEN.",
       "Otras opciones articulares de la tienda: CARTÍLAGO PRONAT y MOROIZY / MOROIZY GEL."
-    ]
+    ],
+    "safetyNote": "Si tienes alergia a crustáceos o pescado, evita glucosamina/condroitina (#30) y cartílago de tiburón (#31). Precaución con cúrcuma (#54) u omega-3 (#123) si usas anticoagulantes."
   },
   {
     "id": "osteoporosis",
@@ -3316,7 +3345,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Optimiza la absorción intestinal de calcio y fósforo y modula la remodelación ósea, evitando la desmineralización acelerada del hueso trabecular y reduciendo el riesgo de fracturas."
       },
@@ -3336,7 +3365,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 91,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (aprox. 500 mg)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Aporta una triple fuente de magnesio que optimiza la fijación del calcio en los osteoblastos y participa en la conversión de la vitamina D a su forma activa en el organismo."
       },
@@ -3363,7 +3392,8 @@ window.manualData.padecimientos = [
       "Ejercicios de impacto o con peso (caminar, pesas).",
       "Dieta rica en calcio (verdes, sardinas).",
       "Evitar el tabaquismo y el exceso de alcohol."
-    ]
+    ],
+    "safetyNote": "La vitamina K2 puede interferir con anticoagulantes tipo warfarina; consulta a tu médico si los usas o si tienes antecedentes de cálculos renales o calcio alto."
   },
   {
     "id": "sarcopenia_fragilidad",
@@ -3390,7 +3420,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar una vez al día con alimentos que contengan grasas, solo si existe insuficiencia documentada y un profesional define el seguimiento.",
         "rationale": "Actúa directamente sobre los receptores de las fibras musculares esqueléticas tipo II, optimizando la fuerza de contracción, mejorando el balance postural y previniendo tropiezos y caídas en adultos mayores."
       },
@@ -3433,7 +3463,8 @@ window.manualData.padecimientos = [
       "Evaluar pérdida de peso, dentición, deglución, depresión, medicamentos y otras causas de baja ingesta.",
       "No combinar varias proteínas, creatinas o multivitamínicos: elegir una opción según dieta, tolerancia y objetivo.",
       "Una caída con lesión, debilidad de aparición reciente, dificultad para tragar o pérdida rápida de peso requiere valoración médica."
-    ]
+    ],
+    "safetyNote": "En personas mayores con enfermedad renal crónica o polimedicación, ajusta proteínas, creatina y vitamina D bajo supervisión médica."
   },
   {
     "id": "fuerza_hipertrofia",
@@ -3496,7 +3527,8 @@ window.manualData.padecimientos = [
       "BEEF FEAR ya combina proteína y creatina; si se elige, no añadir otra creatina.",
       "La proteína total diaria y la constancia del entrenamiento importan más que una ventana rígida postentrenamiento.",
       "Dolor torácico, desmayo, palpitaciones nuevas, falta de aire desproporcionada u orina oscura requieren suspender el ejercicio y buscar atención."
-    ]
+    ],
+    "safetyNote": "Mantén hidratación adecuada al usar creatina; consulta a tu médico si padeces enfermedad renal o hepática previa."
   },
   {
     "id": "resistencia_deportiva",
@@ -3559,7 +3591,8 @@ window.manualData.padecimientos = [
       "Probar cualquier estrategia durante el entrenamiento antes de usarla en competencia.",
       "Creatina Refresher Lemon (522 mg de sodio, 170 mg de potasio y 61 mg de magnesio) y Pink (523 mg de sodio, 174.5 mg de potasio y 61 mg de magnesio) son variantes de sabor, no productos para combinar.",
       "Confusión, colapso por calor, vómito persistente, cefalea intensa o aumento de peso durante una prueba prolongada requieren suspender y buscar atención."
-    ]
+    ],
+    "safetyNote": "Si tienes hipertensión, enfermedad renal o usas diuréticos o ahorradores de potasio, consulta antes de suplementar electrolitos o potasio."
   },
   {
     "id": "recuperacion_deportiva",
@@ -3622,7 +3655,8 @@ window.manualData.padecimientos = [
       "Elegir una sola proteína; las variantes de whey, vegetal, huevo o beef son alternativas según dieta y tolerancia.",
       "Dolor localizado intenso, inflamación marcada, incapacidad para apoyar, debilidad extrema u orina oscura no son DOMS normales y requieren valoración.",
       "En deportistas sujetos a controles antidopaje, preferir productos con certificación independiente del lote."
-    ]
+    ],
+    "safetyNote": "Precaución con omega-3 (#123) o cúrcuma (#54) si tomas anticoagulantes; si el dolor muscular no cede en 72 horas, descarta lesión estructural."
   },
   {
     "id": "neuropatia_periferica",
@@ -3646,15 +3680,15 @@ window.manualData.padecimientos = [
       },
       {
         "id": 17,
-        "serving": "1-2 cápsulas",
+        "serving": "2 cápsulas (300 mg)",
         "usage": "Tomar esta porción diariamente, con alimentos.",
         "rationale": "Antioxidante mitocondrial que mejora el flujo sanguíneo endoneural y frena el estrés oxidativo por glucosilación en las fibras nerviosas, reduciendo notablemente las sensaciones de ardor, quemazón y adormecimiento en manos y pies."
       },
       {
         "id": 120,
-        "serving": "2 cápsulas",
+        "serving": "3 softgels (3.6 g)",
         "usage": "Tomar esta porción al día con alimentos.",
-        "rationale": "Altos niveles de EPA y DHA con vitamina E que disminuyen los eicosanoides inflamatorios en los vasos que irrigan los axones (vasa nervorum), optimizando la oxigenación neural y devolviendo sensibilidad confortable."
+        "rationale": "Altos niveles de EPA y DHA con vitamina E que disminuyen los eicosanoides inflamatorios en los vasos que irrigan los axones (vasos que nutren los nervios), optimizando la oxigenación neural y devolviendo sensibilidad confortable."
       }
     ],
     "comboSecundario": [
@@ -3672,13 +3706,13 @@ window.manualData.padecimientos = [
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
         "rationale": "Restaura la función bioenergética mitocondrial en las células de Schwann que envuelven los nervios y neutraliza los radicales libres endoteliales, mejorando la microcirculación tisular distal en pies y pantorrillas."
       },
       {
         "id": 12,
-        "serving": "1 cápsula",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción dos veces al día. Con alimentos que contengan grasas.",
         "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
       }
@@ -3688,7 +3722,8 @@ window.manualData.padecimientos = [
       "Revisar los pies diariamente.",
       "Masajear las extremidades suavemente.",
       "Evitar el alcohol por completo."
-    ]
+    ],
+    "safetyNote": "Busca atención médica urgente si hay pérdida rápida de fuerza, úlceras en pies, fiebre o pérdida de control de esfínteres. Monitorear glucosa si eres diabético y no duplicar complejo B (#5)."
   },
   {
     "id": "cancer_apoyo",
@@ -3705,7 +3740,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 54,
-        "serving": "3-6 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Curcumina concentrada al 95% con piperina para frenar la inflamación celular profunda y reducir el desgaste oxidativo severo provocado por tratamientos oncológicos intensivos."
       },
@@ -3770,7 +3805,8 @@ window.manualData.padecimientos = [
       "Mantener una dieta antiinflamatoria rica en vegetales y grasas saludables.",
       "Priorizar el descanso y el manejo del estrés.",
       "Comunicación constante con el equipo médico."
-    ]
+    ],
+    "safetyNote": "Cualquier suplemento, incluido #124 ON-C-LEN, requiere aprobación previa de tu oncólogo para evitar interferencias con quimioterapia, radioterapia o inmunoterapia."
   },
   {
     "id": "psoriasis_vitiligo",
@@ -3792,13 +3828,13 @@ window.manualData.padecimientos = [
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Regula la proliferación y diferenciación de los queratinocitos en la epidermis y modula las células dendríticas, reduciendo la formación de placas descamativas e hiperpigmentación irregular."
       },
       {
         "id": 123,
-        "serving": "2-3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Disminuye la síntesis de leucotrieno B4 y mediadores inflamatorios cutáneos, reduciendo el eritema, el prurito y el engrosamiento en lesiones de psoriasis y dermatitis autoinmune."
       }
@@ -3806,13 +3842,13 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Curcumina de alta pureza al 95% con piperina para apagar la inflamación cutánea y reducir la descamación y el enrojecimiento en placas de psoriasis."
       },
       {
         "id": 129,
-        "serving": "2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Aporta 60 billones de microorganismos benéficos para fortalecer la barrera mucosa del colon y modular la respuesta linfocitaria sistémica a través del eje intestino-piel, espaciando los brotes autoinmunes."
       },
@@ -3827,7 +3863,8 @@ window.manualData.padecimientos = [
       "Exposición solar moderada y controlada.",
       "Manejo del estrés.",
       "Evitar lesiones en la piel (efecto Koebner)."
-    ]
+    ],
+    "safetyNote": "Enfermedad autoinmune: consulta a tu dermatólogo o reumatólogo antes de combinar suplementos con tratamientos biológicos o inmunosupresores."
   },
   {
     "id": "acne_espinillas",
@@ -3891,7 +3928,8 @@ window.manualData.padecimientos = [
       "Limpieza facial suave.",
       "Evitar tocarse la cara.",
       "Reducir el consumo de lácteos y alimentos de alto índice glucémico."
-    ]
+    ],
+    "safetyNote": "Si usas retinoides orales (isotretinoína) o tópicos, evita suplementos con vitamina A adicional y consulta a tu dermatólogo; contraindicado en embarazo."
   },
   {
     "id": "somp",
@@ -3910,8 +3948,8 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 53,
-        "serving": "1 medida (4 g)",
-        "usage": "Tomar esta porción al día disuelta en agua. En ayunas o entre comidas.",
+        "serving": "3 cápsulas",
+        "usage": "Tomar 3 cápsulas al día junto con comidas que contengan grasas saludables.",
         "rationale": "Proporción clínica de oro 40:1 para corregir el desbalance ovárico, inducir ovulación mensual regular y frenar la resistencia a la insulina."
       },
       {
@@ -3958,7 +3996,8 @@ window.manualData.padecimientos = [
       "Elegir alimentos de bajo índice glucémico y evitar azúcares refinados.",
       "Manejar el estrés, ya que el cortisol elevado empeora la resistencia a la insulina.",
       "Dar seguimiento con un especialista en endocrinología o ginecología, ya que este suplemento es de apoyo y no sustituye tratamiento médico."
-    ]
+    ],
+    "safetyNote": "Consultar al médico si usa metformina, hipoglucemiantes, estatinas o anticonceptivos hormonales, ya que puede potenciar la baja de glucosa o modificar el perfil hormonal. Evitar en embarazo."
   },
   {
     "id": "urticaria",
@@ -3982,7 +4021,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 178,
-        "serving": "1 cápsula",
+        "serving": "2 cápsulas al día",
         "usage": "Tomar esta porción al día entre comidas.",
         "rationale": "Bioflavonoide que estabiliza los mastocitos para frenar la liberación excesiva de histamina, calmando el enrojecimiento y la comezón de ronchas y urticaria."
       },
@@ -4002,7 +4041,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Aporta ácidos grasos esenciales que compiten con el ácido araquidónico, reduciendo la producción de prostaglandinas y leucotrienos inflamatorios que desencadenan habones y erupciones cutáneas."
       },
@@ -4018,7 +4057,8 @@ window.manualData.padecimientos = [
       "Evitar alimentos altos en histamina (embutidos, quesos añejados, alcohol, fermentados) si la urticaria es crónica.",
       "Usar ropa holgada y evitar el agua muy caliente.",
       "Acudir con un alergólogo si los episodios son frecuentes o severos, sobre todo si hay hinchazón en cara o garganta (urgencia médica)."
-    ]
+    ],
+    "safetyNote": "Acude a urgencias de inmediato si presentas dificultad para respirar, hinchazón de labios, lengua o garganta, o mareo intenso."
   },
   {
     "id": "espolon_fascitis",
@@ -4061,7 +4101,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Desinflama profundamente la fascia plantar desde el interior, reduciendo el dolor punzante en el talón al dar los primeros pasos por la mañana."
       },
@@ -4077,7 +4117,8 @@ window.manualData.padecimientos = [
       "Usar calzado con buen soporte de arco y evitar andar descalzo en superficies duras.",
       "Aplicar hielo local 10-15 min después de estar mucho tiempo de pie.",
       "Bajar de peso si hay sobrepeso, ya que reduce la carga sobre el talón."
-    ]
+    ],
+    "safetyNote": "Si usas anticoagulantes, consulta antes de tomar cúrcuma (#54) o sauce blanco (#51). Evita aplicar geles con mentol o salicilato sobre piel irritada o heridas."
   },
   {
     "id": "tdah",
@@ -4097,7 +4138,7 @@ window.manualData.padecimientos = [
         "id": 149,
         "serving": "2 cápsulas",
         "usage": "Tomar esta porción al día. Con alimentos.",
-        "rationale": "Cruza selectivamente la barrera hematoencefálica incrementando los niveles de magnesio sináptico en el córtex prefrontal, lo que modula la hiperexcitabilidad glutamatérgica, calma la inquietud motora y favorece el enfoque atencional prolongado."
+        "rationale": "Cruza selectivamente la protección del cerebro incrementando los niveles de magnesio sináptico en el córtex prefrontal, lo que modula la hiperexcitabilidad glutamatérgica, calma la inquietud motora y favorece el enfoque atencional prolongado."
       },
       {
         "id": 82,
@@ -4123,17 +4164,17 @@ window.manualData.padecimientos = [
         "id": 4,
         "serving": "3 cápsulas",
         "usage": "Tomar esta porción por la mañana. Con alimentos.",
-        "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en catecolaminas y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
+        "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en mensajeros de energía y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
         "rationale": "Optimiza la respiración mitocondrial celular en las áreas corticales de mayor consumo energético, previniendo el agotamiento cognitivo rápido y facilitando el rendimiento académico o laboral prolongado."
       },
       {
         "id": 120,
-        "serving": "1-2 cápsulas",
+        "serving": "3 softgels (3.6 g)",
         "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
         "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
       }
@@ -4143,7 +4184,8 @@ window.manualData.padecimientos = [
       "Reducir el consumo de azúcares refinados y colorantes artificiales.",
       "Favorecer el ejercicio físico regular, que mejora la atención y el estado de ánimo.",
       "Este protocolo es un apoyo nutricional complementario; el diagnóstico y tratamiento del TDAH deben ser guiados por un especialista."
-    ]
+    ],
+    "safetyNote": "Apoyo nutricional complementario; no sustituye el diagnóstico ni el tratamiento médico o psicológico indicado por el especialista."
   },
   {
     "id": "intestino_irritable",
@@ -4263,7 +4305,8 @@ window.manualData.padecimientos = [
       "Hidratarse adecuadamente y reducir el consumo de sodio para disminuir la retención de líquidos.",
       "Cepillado en seco o masaje para estimular la circulación local.",
       "Evitar el sedentarismo prolongado (estar sentado o de pie por periodos largos sin moverse)."
-    ]
+    ],
+    "safetyNote": "Evita productos con cafeína o extractos termogénicos si padeces hipertensión, arritmias, insomnio o estás en embarazo o lactancia."
   },
   {
     "id": "epilepsia",
@@ -4286,7 +4329,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Los ácidos grasos EPA y DHA se incorporan en los fosfolípidos de las membranas de las neuronas, estabilizando los canales iónicos dependientes de voltaje y reduciendo la neuroinflamación en los focos hiperexcitables cerebrales."
       },
@@ -4306,15 +4349,15 @@ window.manualData.padecimientos = [
       },
       {
         "id": 116,
-        "serving": "1-2 cápsulas",
+        "serving": "2 cápsulas (1 g)",
         "usage": "Tomar esta porción al día. Con alimentos.",
         "rationale": "Eleva las defensas celulares de glutatión peroxidasa en el tejido cerebral, neutralizando las especies reactivas de oxígeno generadas durante la hiperexcitabilidad neuronal y resguardando las mitocondrias de la toxicidad por exceso de calcio."
       },
       {
         "id": 101,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula (415 mg)",
         "usage": "Tomar esta porción al día con alimentos únicamente si el neurólogo lo autoriza.",
-        "rationale": "Forma reducida de la CoQ10 que sustenta la producción mitocondrial de ATP en las células gliales y neuronas, amortiguando el daño oxidativo y apoyando la estabilidad bioenergética de los circuitos neuronales."
+        "rationale": "Forma reducida de la CoQ10 que sustenta la producción mitocondrial de energía celular en las células gliales y neuronas, amortiguando el daño oxidativo y apoyando la estabilidad bioenergética de los circuitos neuronales."
       }
     ],
     "lifestyleTips": [
@@ -4322,7 +4365,8 @@ window.manualData.padecimientos = [
       "Evitar el consumo de alcohol y manejar el estrés.",
       "Nunca suspender ni modificar la medicación anticonvulsiva sin indicación médica.",
       "Todo suplemento debe ser revisado previamente con el neurólogo tratante por el riesgo de interacciones con los medicamentos."
-    ]
+    ],
+    "safetyNote": "Nunca suspendas ni modifiques tus antiepilépticos; consulta siempre con tu neurólogo antes de tomar suplementos por posibles interacciones."
   },
   {
     "id": "anemia",
@@ -4429,7 +4473,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 123,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
         "rationale": "Aporta ácido docosahexaenoico (DHA) concentrado que preserva la fluidez de las membranas neuronales dopaminérgicas y atenúa la neuroinflamación en los circuitos motores subcorticales."
       },
@@ -4445,7 +4489,8 @@ window.manualData.padecimientos = [
       "Fisioterapia y terapia ocupacional como parte del manejo integral.",
       "Mantener una dieta rica en antioxidantes (frutas y verduras de colores variados).",
       "Este protocolo es únicamente de apoyo; el seguimiento debe ser siempre con el neurólogo tratante."
-    ]
+    ],
+    "safetyNote": "Nunca suspendas ni ajustes levodopa u otros fármacos antiparkinsonianos sin supervisión neurológica; separa minerales/proteína según indique tu médico."
   },
   {
     "id": "intestino_permeable",
@@ -4664,7 +4709,8 @@ window.manualData.padecimientos = [
       "Mantener buena hidratación con agua simple.",
       "Dormir bien, ya que la piel se regenera principalmente durante el sueño.",
       "Antes de recomendar LEUCAPS, confirmar su etiqueta: el catálogo y la tienda registran ingredientes distintos."
-    ]
+    ],
+    "safetyNote": "Si estás embarazada o en lactancia, evita dosis altas de vitamina A o retinoides y consulta a tu médico antes de iniciar antioxidantes concentrados."
   },
   {
     "id": "post_cirugia_bariatrica",
@@ -4709,7 +4755,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 166,
-        "serving": "1 cápsula",
+        "serving": "1 cápsula al día",
         "usage": "Tomar con alimentos únicamente si el profesional indica esta concentración y programa control de vitamina D y calcio.",
         "rationale": "Compensa la marcada malabsorción de vitaminas liposolubles secundaria a la derivación intestinal, sosteniendo los niveles séricos de calcidiol y garantizando la mineralización ósea a largo plazo."
       },
@@ -4733,7 +4779,8 @@ window.manualData.padecimientos = [
       "¿Hay resultados recientes de hemograma, ferritina, vitamina B12, 25(OH)D y calcio?",
       "¿Cuánta proteína y líquido logra consumir y ha tenido vómitos o intolerancia?",
       "¿Toma hierro, calcio u otros suplementos que puedan duplicarse con los productos del catálogo?"
-    ]
+    ],
+    "safetyNote": "Todo suplemento tras cirugía bariátrica debe ajustarse a tus análisis de laboratorio y contar con el visto bueno de tu cirujano o nutriólogo bariátrico."
   },
   {
     "id": "deficiencia_magnesio",
@@ -4846,7 +4893,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 123,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (3 g)",
         "usage": "Tomar con el desayuno según la ficha, solo tras revisar alergia al pescado y medicamentos que aumentan el sangrado.",
         "rationale": "Sustituye ácidos grasos proinflamatorios en las membranas endometriales disminuyendo las prostaglandinas PGF2α vasoconstrictoras, aliviando la isquemia miometrial y el dolor pélvico menstrual."
       },
@@ -4858,7 +4905,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 54,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar con alimentos únicamente después de revisar anticoagulantes, trastornos de coagulación y problemas biliares.",
         "rationale": "Potente antiinflamatorio botánico que bloquea las prostaglandinas inflamatorias, desinflando el vientre bajo y cortando el dolor menstrual agudo."
       }
@@ -4876,7 +4923,8 @@ window.manualData.padecimientos = [
       "¿Hay sangrado muy abundante, fiebre, dolor durante relaciones sexuales o posibilidad de embarazo?",
       "¿Qué analgésicos, anticonceptivos o tratamientos indicó ginecología?",
       "¿Toma anticoagulantes o tiene gastritis, enfermedad biliar o alergia al pescado?"
-    ]
+    ],
+    "safetyNote": "Evitar L-arginina si hay presión baja, gastritis activa, embarazo o uso de nitratos o anticoagulantes. Si el dolor menstrual es incapacitante o empeora progresivamente, descartar endometriosis."
   },
   {
     "id": "diarrea_antibioticos",
@@ -5012,22 +5060,22 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 63,
-        "serving": "3 cápsulas (1.5 g)",
-        "usage": "Tomar 1 cápsula antes de cada alimento principal con agua abundante.",
+        "serving": "34 g (2 cucharadas)",
+        "usage": "Disolver 34 g en agua o bebida vegetal al día según tolerancia.",
         "rationale": "Galactagogo botánico por excelencia que estimula las glándulas mamarias para aumentar el volumen y flujo de leche materna en los primeros días."
       },
       {
         "id": 241,
-        "serving": "1 a 2 cucharadas soperas al día",
-        "usage": "Disolver en jugo natural, licuado o sopa con el desayuno.",
+        "serving": "10 ml",
+        "usage": "Tomar 10 ml (1 cucharada sopera) al día con alimentos.",
         "rationale": "Aporte denso de complejo B natural, aminoácidos y cromo para enriquecer la leche materna y evitar la desnutrición y fatiga de la madre."
       }
     ],
     "comboSecundario": [
       {
         "id": 125,
-        "serving": "1 toma diaria (10 g)",
-        "usage": "Disolver una cucharada en agua o té tibio por la mañana.",
+        "serving": "3 cápsulas",
+        "usage": "Tomar 3 cápsulas al día con alimentos.",
         "rationale": "Péptidos puros de colágeno para regenerar la piel del abdomen, reafirmar tejidos y frenar la caída de cabello postparto."
       },
       {
@@ -5042,7 +5090,8 @@ window.manualData.padecimientos = [
       "Beber entre 2.5 y 3 litros de agua natural al día para asegurar la hidratación requerida.",
       "Descansar cada vez que el bebé duerma para evitar picos de fatiga y estrés que frenan la bajada de leche.",
       "Mantener una alimentación variada rica en legumbres, avena, verduras de hoja verde y semillas."
-    ]
+    ],
+    "safetyNote": "Durante la lactancia, consultar siempre al pediatra o médico antes de iniciar suplementos herbales o vitamínicos; suspender ante cualquier reacción en el lactante o alergia."
   },
   {
     "id": "matriz_fria_dismenorrea",
@@ -5060,28 +5109,28 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 92,
-        "serving": "2 cápsulas",
-        "usage": "Tomar 2 cápsulas al día con alimentos, iniciando 3 días antes del ciclo menstrual.",
+        "serving": "3 cápsulas (1.8 g)",
+        "usage": "Tomar 3 cápsulas por la noche antes de dormir.",
         "rationale": "Malato de magnesio para relajar la musculatura lisa del útero, frenando las contracciones dolorosas y los espasmos pélvicos agudos."
       },
       {
         "id": 260,
-        "serving": "1 cucharada sopera (15 ml)",
-        "usage": "Tomar 1 cucharada tres veces al día antes de los alimentos, preferentemente en un poco de agua tibia.",
+        "serving": "1 cápsula",
+        "usage": "Tomar 1 cápsula al día con alimentos.",
         "rationale": "Fórmula botánica tibia tradicional con canela, anís y jengibre para activar la irrigación pélvica, reconfortar la matriz fría y deshacer coágulos."
       }
     ],
     "comboSecundario": [
       {
         "id": 89,
-        "serving": "2 cápsulas",
-        "usage": "Tomar 2 cápsulas al día con alimentos.",
+        "serving": "1 cápsula",
+        "usage": "Tomar 1 cápsula al día con alimentos.",
         "rationale": "Maca con jengibre y damiana para calentar el bajo vientre, tonificar la energía femenina y equilibrar la circulación pélvica."
       },
       {
         "id": 137,
-        "serving": "2 cápsulas",
-        "usage": "Tomar 2 cápsulas al día con el desayuno.",
+        "serving": "30 ml",
+        "usage": "Tomar 30 ml tres veces al día antes de los alimentos.",
         "rationale": "Tónico adaptógeno que nutre los tejidos pélvicos, modula el tono vascular uterino y equilibra las fluctuaciones neuroendocrinas que intensifican el dolor y la pesadez menstrual."
       }
     ],
@@ -5090,7 +5139,8 @@ window.manualData.padecimientos = [
       "Evitar bebidas heladas, nieves o alimentos fríos durante los días de menstruación.",
       "Tomar infusiones calientes de canela, orégano o manzanilla para reconfortar la zona pélvica.",
       "Realizar caminatas suaves o estiramientos pélvicos de yoga para mejorar el flujo de sangre en la cadera."
-    ]
+    ],
+    "safetyNote": "No usar en embarazo o sospecha. Precaución en enfermedad renal (magnesio) o uso de anticoagulantes; si los cólicos son severos o se acompañan de fiebre o sangrado abundante, acudir a valoración."
   },
   {
     "id": "nutricion_infantil",
@@ -5114,7 +5164,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 229,
-        "serving": "2 gomitas",
+        "serving": "4 gomitas al día (8 g)",
         "usage": "Masticar 2 gomitas al día con el desayuno.",
         "rationale": "Aporta DHA y EPA esenciales para la maduración neuronal, la mielinización cerebral y la agudeza visual infantil, apoyando la capacidad de aprendizaje, concentración y retención escolar."
       }
@@ -5128,7 +5178,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 247,
-        "serving": "2 a 3 gomitas",
+        "serving": "2 gomitas al día",
         "usage": "Masticar de 2 a 3 gomitas al día.",
         "rationale": "Gomitas multivitamínicas adicionadas con zinc, vitamina C y lisina que refuerzan las defensas celulares infantiles frente a contagios escolares y respaldan el desarrollo físico activo."
       }
@@ -5138,7 +5188,8 @@ window.manualData.padecimientos = [
       "Involucrar a los niños en la preparación de platillos coloridos para despertar su interés por probar verduras y frutas.",
       "Garantizar de 9 a 10 horas de sueño nocturno continuo para una adecuada liberación de hormona de crecimiento.",
       "Promover juegos al aire libre bajo la luz natural para favorecer la fijación ósea y el apetito."
-    ]
+    ],
+    "safetyNote": "Consulta siempre con el pediatra antes de iniciar suplementos en menores de edad y respeta la dosis por edad y peso. Acude a valoración médica si hay fiebre alta, decaimiento marcado o dificultad para respirar."
   },
   {
     "id": "dermatitis_psoriasis_topica",
@@ -5156,7 +5207,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 129,
-        "serving": "2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar 2 cápsulas al día en ayunas o con agua.",
         "rationale": "Concentración de 60 billones de UFC que reequilibra el microbioma intestinal, regulando la respuesta de citoquinas proinflamatorias y disminuyendo la severidad de las lesiones cutáneas descamativas."
       },
@@ -5186,7 +5237,8 @@ window.manualData.padecimientos = [
       "Utilizar jabones neutros sin perfumes ni detergentes abrasivos sobre las zonas sensibles.",
       "Aplicar humectantes inmediatamente después del baño para sellar la humedad en la barrera dérmica.",
       "Evitar rascarse las placas para no provocar infecciones bacterianas secundarias o marcas."
-    ]
+    ],
+    "safetyNote": "Suspende la aplicación tópica si notas ardor intenso, enrojecimiento que empeora o signos de infección (pus, calor local) y consulta al dermatólogo."
   },
   {
     "id": "cicatrices_estrias_piel",
@@ -5204,7 +5256,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 18,
-        "serving": "1 porción en agua (aprox. 12 g)",
+        "serving": "15 g (1 cuchara)",
         "usage": "Disolver 1 porción al día en agua por la mañana.",
         "rationale": "Suministra colágeno tipo I concentrado junto con ácido hialurónico oral para reestructurar la dermis reticular, mejorando la turgencia y elasticidad para difuminar estrías y marcas cutáneas profundas."
       },
@@ -5218,7 +5270,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 28,
-        "serving": "30 a 60 ml",
+        "serving": "100 ml",
         "usage": "Tomar en ayunas diluido en medio vaso de agua.",
         "rationale": "Aporta acemanano y gliconutrientes esenciales que aceleran la síntesis de colágeno por parte de los fibroblastos, estimulando una reepitelización organizada y suave de los tejidos lesionados."
       },
@@ -5234,7 +5286,8 @@ window.manualData.padecimientos = [
       "Masajear la cicatriz diariamente para evitar adherencias profundas y favorecer una textura plana.",
       "Proteger las cicatrices recientes del sol durante el primer año para evitar que se oscurezcan de forma permanente.",
       "Consumir suficiente agua y alimentos ricos en vitamina C para estimular la síntesis de colágeno propio."
-    ]
+    ],
+    "safetyNote": "No apliques aceites ni pomadas sobre heridas abiertas, puntos de sutura recientes o piel infectada; realiza prueba en una zona pequeña ante piel sensible."
   },
   {
     "id": "salud_visual",
@@ -5282,7 +5335,8 @@ window.manualData.padecimientos = [
       "Parpadear voluntariamente de forma frecuente mientras se leen pantallas para renovar la película lagrimal.",
       "Ajustar el brillo de pantallas y mantener iluminación indirecta en la habitación para no forzar la pupila.",
       "Usar lentes con filtro de luz azul si se trabaja en oficinas o con monitores durante jornadas extensas."
-    ]
+    ],
+    "safetyNote": "Busca atención oftalmológica urgente si presentas pérdida súbita de visión, dolor ocular intenso, destellos o manchas nuevas. Este apoyo nutricional no sustituye lentes ni tratamientos oculares."
   },
   {
     "id": "afonia_cuerdas_vocales",
@@ -5306,7 +5360,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 255,
-        "serving": "1 a 2 perlas",
+        "serving": "1 porción (3 g, aprox. 30 perlas), 1-4 veces al día",
         "usage": "Disolver lentamente en la boca cada 3 a 4 horas según necesidad; no masticar.",
         "rationale": "Perlas de propóleo concentrado y menta que se disuelven lentamente en la orofaringe, liberando bioflavonoides antimicrobianos que desinflaman las cuerdas vocales irritadas y devuelven claridad al tono de voz."
       }
@@ -5320,7 +5374,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 243,
-        "serving": "1 cucharada (15 ml)",
+        "serving": "1 cucharada sopera (10 ml)",
         "usage": "Tomar cada 4 a 6 horas según molestia.",
         "rationale": "Jarabe balsámico con saúco, gordolobo y propóleo que tapiza la mucosa laríngea, calmando la irritación por esfuerzo vocal excesivo y facilitando la lubricación necesaria para recuperar la voz."
       }
@@ -5330,7 +5384,8 @@ window.manualData.padecimientos = [
       "Beber sorbos frecuentes de agua a temperatura ambiente durante todo el día para mantener hidratada la mucosa.",
       "Evitar carraspear con fuerza; en su lugar, tragar saliva o beber un sorbo de agua para limpiar la garganta.",
       "Evitar bebidas con hielo, alimentos muy picantes o café caliente que puedan agravar la irritación faríngea."
-    ]
+    ],
+    "safetyNote": "Si la ronquera o afonía dura más de 2 semanas, o se acompaña de dolor al tragar, fiebre o falta de aire, consulta al médico. Evita miel (#99) y propóleo (#255) si existe alergia apícola."
   },
   {
     "id": "dolor_muscular_agudo",
@@ -5362,7 +5417,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 54,
-        "serving": "2 cápsulas",
+        "serving": "3 cápsulas (1.5 g)",
         "usage": "Tomar 2 cápsulas al día con alimentos.",
         "rationale": "Extracto concentrado de curcuminoides con piperina que bloquea mediadores inflamatorios como prostaglandinas y citocinas, aliviando rápidamente la inflamación aguda y el dolor en tendones y haces musculares sobreexigidos."
       },
@@ -5384,7 +5439,8 @@ window.manualData.padecimientos = [
       "Evitar reposo total en cama por más de 24 horas; mantener movilidad suave para evitar rigidez en la columna.",
       "Revisar la almohada y postura al dormir: utilizar soporte cervical adecuado que mantenga el cuello alineado con la espalda.",
       "Evitar levantar objetos pesados doblando la cintura; flexionar siempre las rodillas y mantener la carga pegada al pecho."
-    ]
+    ],
+    "safetyNote": "Busca atención médica si el dolor se irradia con hormigueo, pérdida de fuerza o fiebre. Precaución con sauce blanco (#51) y cúrcuma (#54) si tomas anticoagulantes o eres alérgico a salicilatos."
   },
   {
     "id": "fijacion_calcio_oseo",
@@ -5432,7 +5488,8 @@ window.manualData.padecimientos = [
       "Tomar baños de sol de 10 a 15 minutos en brazos y piernas en horarios seguros para apoyar la síntesis cutánea de vitamina D.",
       "Moderar el consumo excesivo de café, refrescos de cola y sal, ya que aumentan la pérdida de calcio por la orina.",
       "Asegurar un aporte adecuado de proteínas diarias para mantener la masa muscular que sostiene al esqueleto."
-    ]
+    ],
+    "safetyNote": "La vitamina K2 interactúa directamente con anticoagulantes como la warfarina; consulta a tu médico antes de combinar calcio + K2 si tomas estos fármacos o tienes piedras en el riñón."
   },
   {
     "id": "detox_limpieza_colon",
@@ -5636,13 +5693,13 @@ window.manualData.padecimientos = [
         "id": 88,
         "serving": "1 cucharadita (4 g)",
         "usage": "Mezclar en licuado, café o agua tibia al inicio del día.",
-        "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el eje neuroendocrino y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
+        "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el equilibrio hormonal y nervioso y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
       },
       {
         "id": 261,
         "serving": "1 ampolleta bebible",
         "usage": "Tomar una ampolleta por la mañana con el desayuno.",
-        "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la neurotransmisión y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
+        "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la comunicación nerviosa y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
       },
       {
         "id": 147,
@@ -5656,7 +5713,8 @@ window.manualData.padecimientos = [
       "Hacer pausas de 5 minutos cada 2 horas para caminar, estirar el cuerpo y lavar la cara con agua fría.",
       "Evitar comidas grasas o muy copiosas durante turnos de noche, ya que desvían el flujo sanguíneo hacia el estómago provocando letargo.",
       "Asegurar un ambiente completamente oscuro y silencioso al llegar a dormir durante el día tras una guardia nocturna."
-    ]
+    ],
+    "safetyNote": "Contiene estimulantes/cafeína (#143, #267, #88, #261, #147): evitar en hipertensión no controlada, arritmias, ansiedad severa, embarazo o lactancia, y no tomar tarde o de noche para no causar insomnio."
   },
   {
     "id": "crisis_nerviosismo_panico",
@@ -5674,13 +5732,13 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 68,
-        "serving": "2 cápsulas",
+        "serving": "2 cápsulas (1.5 g)",
         "usage": "Tomar 2 cápsulas con agua al inicio de la crisis o episodio de angustia.",
         "rationale": "Actúa de forma rápida hiperpolarizando las membranas neuronales del sistema límbico, neutralizando la cascada adrenérgica de pánico para frenar las taquicardias funcionales, temblores y la sensación inminente de descontrol."
       },
       {
         "id": 256,
-        "serving": "2 a 3 perlas sublinguales",
+        "serving": "1 porción (3 g, aprox. 30 perlas), 1-3 veces al día",
         "usage": "Colocar debajo de la lengua y dejar que se disuelvan lentamente sin masticar.",
         "rationale": "Flavonoides de pasiflora (crisina) absorbidos de forma inmediata por la mucosa sublingual que se unen a los receptores benzodiacepínicos endógenos, induciendo alivio veloz ante la opresión torácica, agitación y crisis de nerviosismo agudo."
       }
@@ -5688,7 +5746,7 @@ window.manualData.padecimientos = [
     "comboSecundario": [
       {
         "id": 150,
-        "serving": "2 cápsulas",
+        "serving": "1 cápsula (500 mg)",
         "usage": "Tomar 2 cápsulas antes de dormir para consolidar el descanso.",
         "rationale": "La L-teanina y el azahar inducen relajación sin sedación excesiva al modular la transmisión de glutamato, mientras el triptófano restablece los niveles de serotonina para evitar la rumiación angustiosa y prevenir el insomnio reactivo."
       },
@@ -5704,7 +5762,8 @@ window.manualData.padecimientos = [
       "Buscar un lugar ventilado y sentarse con los pies bien apoyados en el piso para anclarse a la realidad.",
       "Beber pequeños sorbos de agua templada para regular el ritmo de la deglución y el pulso cardíaco.",
       "Aflojar ropa apretada en cuello y cintura para permitir que el pecho se expanda sin resistencia."
-    ]
+    ],
+    "safetyNote": "Si el dolor de pecho se irradia al brazo o mandíbula, hay falta de aire real, desmayo o es el primer episodio, acudir a urgencias para descartar causa cardíaca. No combinar con ansiolíticos o alcohol sin supervisión médica."
   },
   {
     "id": "longevidad_celular_nmn",
@@ -5724,7 +5783,7 @@ window.manualData.padecimientos = [
         "id": 119,
         "serving": "1 cápsula",
         "usage": "Tomar 1 cápsula por la mañana con el desayuno.",
-        "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las sirtuinas SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
+        "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las protección celular SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
       },
       {
         "id": 72,
@@ -5758,7 +5817,8 @@ window.manualData.padecimientos = [
       "Realizar ejercicios de intervalos de alta intensidad o entrenamiento de fuerza para estimular la producción de energía en las células.",
       "Priorizar alimentos ricos en polifenoles: moras, té verde, cacao puro y verduras crucíferas.",
       "Cuidar la higiene del sueño para permitir que los mecanismos de reparación nocturna del ADN se ejecuten sin interrupciones."
-    ]
+    ],
+    "safetyNote": "Precursores de NAD+ (NMN) y resveratrol requieren precaución si tienes antecedentes oncológicos, embarazo, lactancia o tomas anticoagulantes."
   },
   {
     "id": "soporte_keto_ayuno",
@@ -6099,7 +6159,8 @@ window.manualData.padecimientos = [
       "Evitar los gestos repetitivos que disparan el dolor durante los primeros días y alternar compresas frías o tibias según la fase.",
       "Cuidar la postura del teclado, mouse o herramientas para no sobrecargar muñeca, codo y cuello.",
       "Acompañar con ejercicios suaves indicados por fisioterapia una vez que baje el dolor agudo."
-    ]
+    ],
+    "safetyNote": "Si hay calor intenso, enrojecimiento o fiebre en la articulación, descarta infección. Precaución con cúrcuma (#54), omega-3 (#123) o sauce blanco (#51) si tomas anticoagulantes."
   },
   {
     "id": "esguinces_desgarros_recuperacion",
@@ -6169,7 +6230,8 @@ window.manualData.padecimientos = [
       "Si no puedes apoyar el pie, hay deformidad o un chasquido fuerte, acudir de inmediato a valoración médica para descartar fractura o rotura total.",
       "Durante las primeras 48 horas priorizar reposo, elevación, compresión suave y frío local antes de usar geles calientes.",
       "Regresar a la actividad física de forma progresiva guiada por rehabilitación."
-    ]
+    ],
+    "safetyNote": "Acude a valoración si no puedes apoyar peso, hay deformidad visible o hematoma extenso. Precaución con omega-3 (#123) si tomas anticoagulantes; no apliques árnica ni geles en heridas abiertas."
   },
   {
     "id": "calambres_musculares_nocturnos",
@@ -6186,7 +6248,7 @@ window.manualData.padecimientos = [
     "comboPrincipal": [
       {
         "id": 128,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (2.05 g)",
         "usage": "Tomar con alimentos y abundante agua (evitar si hay enfermedad renal o fármacos ahorradores de potasio).",
         "rationale": "Reúne 500 mg de potasio elemental con citrato de magnesio, calcio y vitamina B6 para equilibrar las señales eléctricas que relajan la fibra muscular de las pantorrillas."
       },
@@ -6245,7 +6307,8 @@ window.manualData.padecimientos = [
       "Hacer estiramientos suaves de pantorrilla y talón durante 2 minutos antes de acostarse.",
       "Mantenerse bien hidratado durante el día y no acostarse con ropa o calcetas que aprieten las piernas.",
       "Si toma medicamentos para la presión o problemas de riñón, consultar antes de usar suplementos de potasio."
-    ]
+    ],
+    "safetyNote": "Evita potasio (#47/#128) si tienes enfermedad renal o tomas fármacos ahorradores de potasio. Consulta si los calambres se acompañan de hinchazón, enrojecimiento o debilidad súbita."
   },
   {
     "id": "dolor_cabeza_tensional",
@@ -6268,7 +6331,7 @@ window.manualData.padecimientos = [
       },
       {
         "id": 94,
-        "serving": "3 cápsulas",
+        "serving": "3 cápsulas (1.8 g)",
         "usage": "Tomar 30 a 60 minutos antes de dormir.",
         "rationale": "Magnesio con L-teanina, glicina y manzanilla para calmar el sistema nervioso sobrecargado y permitir un descanso profundo sin tensión cervical."
       },
@@ -6284,7 +6347,7 @@ window.manualData.padecimientos = [
         "id": 181,
         "serving": "4 cápsulas",
         "usage": "Tomar repartidas en el día como opción de magnesio solo.",
-        "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos pericraneales y cervicales sin provocar diarrea."
+        "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos del cuero cabelludo y cuello y cervicales sin provocar diarrea."
       },
       {
         "id": 169,
@@ -6315,7 +6378,8 @@ window.manualData.padecimientos = [
       "Hacer pausas de 5 minutos cada hora de pantalla para mover el cuello y descansar la vista.",
       "Tomar suficiente agua durante la jornada; incluso una deshidratación leve desencadena dolor de cabeza.",
       "Si el dolor aparece de golpe muy intenso, con fiebre, rigidez severa de cuello o visión doble, acudir a urgencias."
-    ]
+    ],
+    "safetyNote": "Acudir a urgencias si el dolor aparece de golpe muy intenso, con fiebre, rigidez severa de cuello, visión doble, debilidad o tras un golpe en la cabeza."
   },
   {
     "id": "pano_manchas_piel",
@@ -6385,7 +6449,8 @@ window.manualData.padecimientos = [
       "Usar protector solar de amplio espectro (FPS 50+) todos los días y reaplicar cada 3-4 horas; sin él, las manchas regresan.",
       "Evitar exponer la cara directamente al calor de estufas, vapor o sol de mediodía, y usar sombrero o gorra.",
       "No mezclar aceites cítricos ni remedios caseros ácidos en la piel bajo el sol porque queman y manchan más."
-    ]
+    ],
+    "safetyNote": "El uso diario de protector solar amplio espectro es indispensable; evita combinar despigmentantes fuertes sin guía dermatológica, especialmente en embarazo."
   },
   {
     "id": "caspa_cuero_cabelludo",
@@ -6449,7 +6514,8 @@ window.manualData.padecimientos = [
       "Lavar el cabello con frecuencia adecuada y alternar con un champú dermatológico para caspa recomendado en farmacia o consulta.",
       "Evitar rascar con las uñas o aplicar aceites muy grasosos directo en la raíz si el cuero cabelludo es seborreico.",
       "Manejar el estrés y dormir bien, ya que los desvelos suelen disparar el picor y la descamación."
-    ]
+    ],
+    "safetyNote": "Si hay caída severa de cabello, costras gruesas, sangrado o infección en el cuero cabelludo, acude a valoración dermatológica antes de usar tópicos."
   },
   {
     "id": "piel_muy_seca",
@@ -6525,7 +6591,8 @@ window.manualData.padecimientos = [
       "Bañarse con agua tibia (no muy caliente) en menos de 10 minutos y usar jabones suaves sin exceso de perfume.",
       "Aplicar aceite corporal o crema dentro de los 3 minutos posteriores al baño, cuando la piel aún está ligeramente húmeda.",
       "Tomar agua de forma constante durante el día y revisar tiroides si la resequedad extrema se acompaña de cansancio y frío constante."
-    ]
+    ],
+    "safetyNote": "Si la resequedad se acompaña de grietas profundas, sangrado o signos de infección, consulta al médico; realiza prueba de parche en pieles muy reactivas."
   },
   {
     "id": "encias_sensibles_inflamadas",
@@ -6595,7 +6662,8 @@ window.manualData.padecimientos = [
       "Usar un cepillo de cerdas suaves sin tallar con fuerza y limpiar entre los dientes con hilo dental diario.",
       "Acudir al dentista cada 6 meses para limpieza profesional: ningún suplemento elimina el sarro endurecido.",
       "Si hay pus, dolor de muela intenso, hinchazón en la cara o dientes flojos, ir de inmediato a consulta odontológica."
-    ]
+    ],
+    "safetyNote": "Acude al odontólogo si hay sangrado abundante, pus, fiebre, dolor intenso o movilidad dental. La plata coloidal (#263) es solo para enjuague bucal sin tragar; evita propóleo (#188) en alergia apícola."
   },
   {
     "id": "hidratacion_electrolitos",

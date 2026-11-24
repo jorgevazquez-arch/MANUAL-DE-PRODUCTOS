@@ -330,7 +330,11 @@
         [139, 177],
         [6, 27],
         [26, 250],
-        [205, 241]
+        [205, 241],
+        [68, 150, 169, 256],
+        [58, 143, 267],
+        [70, 98],
+        [87, 142]
     ];
     // Explicit pairs only. A shared guide alone never establishes complementarity.
     // Proteínas sin creatina declarada: no extender a proteína de res (35),
@@ -372,7 +376,11 @@
         'epilepsia', 'parkinson', 'hipotiroidismo', 'hipertiroidismo',
         'asma_diagnosticada', 'epoc_diagnosticada', 'enfermedad_inflamatoria_intestinal',
         'piedras_vesicula', 'higado_medicamentoso', 'gastritis_ulcera', 'candida', 'diarrea_antibioticos',
-        'hipertension', 'calculos_renales', 'inflamacion_edema', 'anemia', 'infecciones_urinarias', 'varices_circulacion'
+        'hipertension', 'calculos_renales', 'inflamacion_edema', 'anemia', 'infecciones_urinarias', 'varices_circulacion',
+        'ansiedad', 'insomnio', 'depresion_apoyo', 'migrana', 'fibromialgia', 'fatiga_cronica', 'hipotiroidismo', 'hipertiroidismo', 'neuropatia_periferica', 'tdah', 'epilepsia', 'crisis_nerviosismo_panico',
+        'artritis_reumatoide', 'osteoporosis', 'sarcopenia_fragilidad', 'fijacion_calcio_oseo', 'ciatica',
+        'psoriasis_vitiligo', 'post_cirugia_bariatrica', 'urticaria', 'defensas_bajas',
+        'quistes_miomas', 'caida_cabello_fem', 'caida_cabello_masc', 'disfuncion_libido', 'prostata', 'menopausia', 'irregularidad_menstrual', 'somp', 'dismenorrea', 'lactancia_produccion_leche', 'matriz_fria_dismenorrea'
     ]);
     padecimientos.forEach(guide => {
         if (clinicalReviewGuides.has(guide.id) && !guide.safetyNote) {
@@ -385,10 +393,33 @@
     });
     const aliases = {
         ansiedad: ['ansiedad leve', 'nerviosismo', 'estres'],
+        migrana: ['migrana', 'dolor de cabeza fuerte', 'jaqueca', 'dolor con aura'],
+        fibromialgia: ['fibromialgia', 'dolor generalizado', 'puntos dolorosos'],
+        depresion_apoyo: ['depresion', 'bajo animo', 'tristeza prolongada', 'desgano'],
+        hipotiroidismo: ['hipotiroidismo', 'tiroides lenta', 'levotiroxina'],
+        hipertiroidismo: ['hipertiroidismo', 'tiroides acelerada'],
+        neuropatia_periferica: ['neuropatia', 'hormigueo en pies', 'ardor en pies', 'neuropatia diabetica'],
+        tdah: ['tdah', 'deficit de atencion', 'hiperactividad', 'falta de concentracion'],
+        epilepsia: ['epilepsia', 'convulsiones', 'crisis epilepticas'],
         fatiga_burnout: ['estres agudo', 'burnout', 'cansancio por estres', 'agotamiento laboral'],
         fatiga_cronica: ['cansancio funcional', 'cansancio cronico', 'fatiga persistente'],
         memoria_enfoque: ['deterioro cognitivo', 'deterioro cognitivo leve', 'perdida de memoria', 'concentracion'],
         resfriado_comun: ['resfriado', 'rinofaringitis', 'gripe leve', 'catarro'],
+        defensas_bajas: ['defensas bajas', 'inmunosupresion', 'sistema inmune debil'],
+        tos_flema_congestion: ['tos con flema', 'flemas', 'congestion bronquial', 'bronquios'],
+        convalecencia_respiratoria: ['convalecencia', 'recuperacion respiratoria', 'post infeccion'],
+        cancer_apoyo: ['cancer', 'apoyo oncologico', 'quimioterapia', 'radioterapia'],
+        psoriasis_vitiligo: ['psoriasis', 'vitiligo', 'manchas blancas piel'],
+        urticaria: ['urticaria', 'ronchas', 'alergia en la piel'],
+        celulitis: ['celulitis', 'piel de naranja'],
+        parkinson: ['parkinson', 'temblores'],
+        piel_antienvejecimiento: ['antienvejecimiento', 'arrugas', 'piel firme'],
+        post_cirugia_bariatrica: ['cirugia bariatrica', 'manga gastrica', 'bypass gastrico'],
+        quistes_miomas: ['quistes ovaricos', 'miomas', 'quistes'],
+        caida_cabello_fem: ['caida de cabello mujer', 'alopecia femenina'],
+        caida_cabello_masc: ['caida de cabello hombre', 'calvicie'],
+        disfuncion_libido: ['disfuncion erectil', 'baja libido', 'vitalidad masculina'],
+        prostata: ['prostata', 'prostata inflamada', 'orinar frecuente noche'],
         congestion_nasal_sinusal: ['sinusitis', 'sinusitis aguda', 'sinusitis cronica', 'nariz tapada'],
         alergias_respiratorias: ['rinitis', 'rinitis alergica', 'alergia estacional'],
         tos_irritacion_garganta: ['tos seca', 'tos cronica', 'tos postinfecciosa', 'faringitis', 'faringitis aguda', 'dolor de garganta', 'garganta irritada'],
@@ -460,6 +491,16 @@
         hidratacion_electrolitos: ['deshidratacion', 'deshidratacion leve', 'electrolitos', 'sales minerales', 'sudoracion excesiva', 'golpe de calor', 'falta de potasio', 'potasio bajo', 'suero', 'rehidratacion']
     };
     const productAliases = {
+        68: ['gaba', 'acido gamma aminobutirico'],
+        143: ['shilajit', 'tongkat ali'],
+        149: ['treonato de magnesio', 'magtein', 'magnesio cerebral'],
+        150: ['triptofano', 'l triptofano', 'teanina'],
+        163: ['ashwagandha con magnesio', 'ashwa mag'],
+        169: ['valeriana', 'pasiflora', 'toronjil'],
+        256: ['pasiflorina', 'perlas pasiflora'],
+        267: ['panax ginseng', 'ginseng coreano'],
+        271: ['albizia', 'bacopa', 'enfoque'],
+        272: ['rhodiola', 'albizia rhodiola'],
         4: ['complejo b', 'vitaminas b', 'vitamina b con arandano'],
         6: ['cranberry', 'arandano rojo', 'arandano urinario', 'pastillas de arandano'],
         10: ['zapote blanco', 'pastillas para la presion', 'formula presion arterial'],

@@ -2469,7 +2469,7 @@ window.manualData.productos = [
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
     "foodInteractions": "Tomar por la mañana con el desayuno o 30 minutos antes para optimizar su asimilación cerebral; evitar tomar por la tarde o noche, ya que favorece la síntesis de catecolaminas y puede provocar insomnio.",
-    "interactions": "Contraindicado en combinación con antidepresivos inhibidores de la MAO (IMAO) por riesgo de crisis hipertensiva grave. Puede competir y reducir la eficacia de la levodopa en Parkinson, e interactuar con hormonas tiroideas.",
+    "interactions": "Contraindicado en combinación con antidepresivos inhibidores de la MAO (IMAO) por riesgo de crisis hipertensiva grave. Puede competir y reducir la eficacia de la levodopa en Parkinson, e interactuar con hormonas tiroideas. Separar al menos 4 horas de levotiroxina y evitar sin supervisión médica en hipertiroidismo.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -3920,7 +3920,7 @@ window.manualData.productos = [
       "Soporte muscular y defensas: las vitaminas B6 y D3 fortalecen la recuperación neuromuscular y mantienen el sistema inmunológico activo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a algún componente, trastornos hepáticos o renales, o bajo tratamiento con hormonas, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar en el desayuno o con la comida del mediodía con alimentos que contengan grasas saludables (huevo, aguacate) para absorber la vitamina D3 y los fitoesteroles, y amortiguar la intensidad del shilajit en el estómago.",
+    "foodInteractions": "Tomar en el desayuno o con la comida del mediodía con alimentos que contengan grasas saludables (huevo, aguacate) para absorber la vitamina D3 y los fitoesteroles, y amortiguar la intensidad del shilajit en el estómago. Moderar el consumo conjunto de cafeína o estimulantes si existe sensibilidad nerviosa o hipertensión.",
     "interactions": "Por el contenido de zinc, espaciar al menos 2 horas de antibióticos (tetraciclinas, fluoroquinolonas). Por su perfil modulador hormonal e hipoglucemiante leve, consultar al médico si se toman antidiabéticos o terapia hormonal sustitutiva.",
     "packageContent": "60 cápsulas"
   },

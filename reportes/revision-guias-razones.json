@@ -110,7 +110,7 @@
       "guideId": "ansiedad",
       "group": "comboPrincipal",
       "productId": 163,
-      "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para modular el eje adrenal, reducir los niveles de cortisol y relajar la contracción muscular en cuello y hombros, frenando el estado de alerta constante sin provocar somnolencia."
+      "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para modular el respuesta al estrés, reducir los niveles de cortisol y relajar la contracción muscular en cuello y hombros, frenando el estado de alerta constante sin provocar somnolencia."
     },
     {
       "guideId": "ansiedad",
@@ -122,13 +122,13 @@
       "guideId": "ansiedad",
       "group": "comboSecundario",
       "productId": 32,
-      "rationale": "Extracto adaptógeno que modula el eje hipotálamo-hipófisis-suprarrenal (HPA), disminuyendo la secreción excesiva de cortisol para aliviar el nerviosismo permanente, la opresión en el pecho y la fatiga por estrés crónico."
+      "rationale": "Extracto adaptógeno que modula el respuesta al estrés, disminuyendo la secreción excesiva de cortisol para aliviar el nerviosismo permanente, la opresión en el pecho y la fatiga por estrés crónico."
     },
     {
       "guideId": "ansiedad",
       "group": "comboSecundario",
       "productId": 94,
-      "rationale": "Aporta bisglicinato y citrato de magnesio con L-teanina, 5-HTP y manzanilla para inducir ondas cerebrales alfa, relajar el tono muscular y calmar la rumiación nocturna, facilitando una transición suave hacia el descanso."
+      "rationale": "Aporta bisglicinato y citrato de magnesio con L-teanina, 5-HTP y manzanilla para inducir calma mental, relajar el tono muscular y calmar la rumiación nocturna, facilitando una transición suave hacia el descanso."
     },
     {
       "guideId": "ansiedad",
@@ -152,7 +152,7 @@
       "guideId": "fatiga_burnout",
       "group": "comboPrincipal",
       "productId": 58,
-      "rationale": "Extracto de Rhodiola rosea estandarizado en rosavinas que optimiza la respuesta al estrés modulando la liberación de catecolaminas, combatiendo la astenia física severa y la niebla mental inducida por sobrecarga laboral continua."
+      "rationale": "Extracto de Rhodiola rosea estandarizado en rosavinas que optimiza la respuesta al estrés modulando la liberación de mensajeros de energía, combatiendo la cansancio físico severa y la niebla mental inducida por sobrecarga laboral continua."
     },
     {
       "guideId": "fatiga_burnout",
@@ -164,37 +164,37 @@
       "guideId": "fatiga_burnout",
       "group": "comboPrincipal",
       "productId": 98,
-      "rationale": "Aporta hericenonas y L-treonato de magnesio para promover la biosíntesis de neurotransmisores y la función mitocondrial cerebral, despejando la sensación de embotamiento y reactivando la agilidad mental en estados de agotamiento extremo."
+      "rationale": "Aporta hericenonas y L-treonato de magnesio para promover la biosíntesis de mensajeros cerebrales y la función mitocondrial cerebral, despejando la sensación de embotamiento y reactivando la agilidad mental en estados de agotamiento extremo."
     },
     {
       "guideId": "fatiga_burnout",
       "group": "comboSecundario",
       "productId": 109,
-      "rationale": "Aporta vitamina D3, zinc y magnesio, cofactores esenciales en la producción de ATP y la señalización neuromuscular, indispensables para contrarrestar la debilidad muscular profunda y restaurar la vitalidad metabólica agotada por el burnout."
+      "rationale": "Aporta vitamina D3, zinc y magnesio, cofactores esenciales en la producción de energía celular y la señalización neuromuscular, indispensables para contrarrestar la debilidad muscular profunda y restaurar la vitalidad metabólica agotada por el burnout."
     },
     {
       "guideId": "fatiga_burnout",
       "group": "comboSecundario",
       "productId": 5,
-      "rationale": "Combina vitaminas del complejo B hidrosolubles y ginseng siberiano para acelerar el metabolismo energético mitocondrial (ciclo de Krebs) y modular la fatiga adrenal, combatiendo el letargo físico y la falta de concentración diurna."
+      "rationale": "Combina vitaminas del complejo B hidrosolubles y ginseng siberiano para acelerar el metabolismo energético mitocondrial (producción diaria de energía) y modular la fatiga adrenal, combatiendo el letargo físico y la falta de concentración diurna."
     },
     {
       "guideId": "fatiga_burnout",
       "group": "comboSecundario",
       "productId": 117,
-      "rationale": "Incrementa la coenzima NAD+ y activa las sirtuinas celulares mediante resveratrol, restaurando la respiración mitocondrial y la síntesis de ATP para superar el agotamiento crónico celular resistente al descanso convencional."
+      "rationale": "Incrementa la coenzima NAD+ y activa las sirtuinas celulares mediante resveratrol, restaurando la respiración mitocondrial y la síntesis de energía celular para superar el agotamiento crónico celular resistente al descanso convencional."
     },
     {
       "guideId": "fatiga_burnout",
       "group": "comboSecundario",
       "productId": 181,
-      "rationale": "Aporta magnesio quelado de alta biodisponibilidad que participa directamente en más de 300 reacciones enzimáticas de fijación de ATP, aliviando la pesadez muscular, los espasmos por tensión y la debilidad sistémica."
+      "rationale": "Aporta magnesio quelado de alta biodisponibilidad que participa directamente en más de 300 reacciones enzimáticas de fijación de energía celular, aliviando la pesadez muscular, los espasmos por tensión y la debilidad sistémica."
     },
     {
       "guideId": "fatiga_burnout",
       "group": "comboSecundario",
       "productId": 101,
-      "rationale": "Forma activa reducida de la Coenzima Q10 que transfiere electrones en la cadena respiratoria mitocondrial, mejorando el gasto bioenergético en músculo esquelético y miocardio para superar la sensación de pesadez y desgano corporal."
+      "rationale": "Forma activa reducida de la Coenzima Q10 que transfiere electrones en la producción de energía celular, mejorando el gasto bioenergético en músculo esquelético y miocardio para superar la sensación de pesadez y desgano corporal."
     },
     {
       "guideId": "fatiga_burnout",
@@ -254,7 +254,7 @@
       "guideId": "memoria_enfoque",
       "group": "comboPrincipal",
       "productId": 149,
-      "rationale": "Cruza de forma efectiva la barrera hematoencefálica incrementando la densidad de sinapsis neuronales en el hipocampo, lo que mejora la memoria de trabajo, la velocidad de procesamiento y la retención de nueva información."
+      "rationale": "Cruza de forma efectiva la protección del cerebro incrementando la densidad de sinapsis neuronales en el hipocampo, lo que mejora la memoria de trabajo, la velocidad de procesamiento y la retención de nueva información."
     },
     {
       "guideId": "memoria_enfoque",
@@ -272,13 +272,13 @@
       "guideId": "memoria_enfoque",
       "group": "comboSecundario",
       "productId": 82,
-      "rationale": "Aporta fosfolípidos de omega-3 con alto contenido de DHA y astaxantina, que se integran en las membranas celulares del córtex cerebral para optimizar la neurotransmisión colinérgica y proteger del deterioro cognitivo."
+      "rationale": "Aporta fosfolípidos de omega-3 con alto contenido de DHA y astaxantina, que se integran en las membranas celulares del córtex cerebral para optimizar la comunicación nerviosa colinérgica y proteger del deterioro cognitivo."
     },
     {
       "guideId": "memoria_enfoque",
       "group": "comboSecundario",
       "productId": 87,
-      "rationale": "Aminoácido precursor directo de la dopamina y noradrenalina en el sistema nervioso central, neurotransmisores indispensables para sostener la atención ejecutiva, la motivación y la claridad mental bajo situaciones de alta demanda intelectual."
+      "rationale": "Aminoácido precursor directo de la dopamina y noradrenalina en el sistema nervioso central, mensajeros cerebrales indispensables para sostener la atención ejecutiva, la motivación y la claridad mental bajo situaciones de alta demanda intelectual."
     },
     {
       "guideId": "memoria_enfoque",
@@ -308,7 +308,7 @@
       "guideId": "migrana",
       "group": "comboPrincipal",
       "productId": 149,
-      "rationale": "Forma de magnesio capaz de atravesar la barrera hematoencefálica y elevar los niveles cerebrales de magnesio, estabilizando los receptores NMDA y previniendo los espasmos neurovasculares que desencadenan el dolor punzante en la cabeza."
+      "rationale": "Forma de magnesio capaz de atravesar la protección del cerebro y elevar los niveles cerebrales de magnesio, estabilizando los receptores NMDA y previniendo los espasmos neurovasculares que desencadenan el dolor punzante en la cabeza."
     },
     {
       "guideId": "migrana",
@@ -338,13 +338,13 @@
       "guideId": "fibromialgia",
       "group": "comboPrincipal",
       "productId": 92,
-      "rationale": "Combina magnesio con ácido málico para abastecer el ciclo de Krebs celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
+      "rationale": "Combina magnesio con ácido málico para abastecer el producción diaria de energía celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
     },
     {
       "guideId": "fibromialgia",
       "group": "comboPrincipal",
       "productId": 101,
-      "rationale": "Compensa la severa disfunción mitocondrial y el estrés oxidativo muscular típicos de la fibromialgia, optimizando la generación de ATP en las células musculares para aliviar el dolorimiento generalizado y la astenia profunda."
+      "rationale": "Compensa la severa disfunción mitocondrial y el estrés oxidativo muscular típicos de la fibromialgia, optimizando la generación de energía celular en las células musculares para aliviar el dolorimiento generalizado y la astenia profunda."
     },
     {
       "guideId": "fibromialgia",
@@ -362,7 +362,7 @@
       "guideId": "fibromialgia",
       "group": "comboSecundario",
       "productId": 4,
-      "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de neurotransmisores del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
+      "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de mensajeros cerebrales del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
     },
     {
       "guideId": "fibromialgia",
@@ -380,7 +380,7 @@
       "guideId": "ciatica",
       "group": "comboPrincipal",
       "productId": 54,
-      "rationale": "Aporta curcuminoides de alta biodisponibilidad que modulan la cascada de citoquinas inflamatorias en las raíces nerviosas y tejidos paravertebrales, mitigando la irritación y el dolor irradiado a lo largo de la pierna."
+      "rationale": "Aporta curcuminoides de alta biodisponibilidad que modulan la sustancias que inflaman en las raíces nerviosas y tejidos de la espalda, mitigando la irritación y el dolor irradiado a lo largo de la pierna."
     },
     {
       "guideId": "ciatica",
@@ -398,7 +398,7 @@
       "guideId": "ciatica",
       "group": "comboSecundario",
       "productId": 17,
-      "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
+      "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la circulación alrededor de los nervios y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
     },
     {
       "guideId": "ciatica",
@@ -416,7 +416,7 @@
       "guideId": "depresion_apoyo",
       "group": "comboPrincipal",
       "productId": 123,
-      "rationale": "Altas dosis de EPA marino con potente efecto antiinflamatorio cerebral que modula citoquinas proinflamatorias, optimizando la fluidez de las membranas neuronales y la recaptación de neurotransmisores implicados en el bienestar anímico."
+      "rationale": "Altas dosis de EPA marino con potente efecto antiinflamatorio cerebral que modula citoquinas proinflamatorias, optimizando la fluidez de las membranas neuronales y la recaptación de mensajeros cerebrales implicados en el bienestar anímico."
     },
     {
       "guideId": "depresion_apoyo",
@@ -428,7 +428,7 @@
       "guideId": "depresion_apoyo",
       "group": "comboSecundario",
       "productId": 32,
-      "rationale": "Extracto adaptógeno que equilibra los niveles de cortisol y el eje neuroendocrino, mitigando los síntomas somáticos del bajo estado de ánimo, la anhedonia y la vulnerabilidad al colapso emocional por estrés prolongado."
+      "rationale": "Extracto adaptógeno que equilibra los niveles de cortisol y el equilibrio hormonal y nervioso, mitigando los síntomas somáticos del bajo estado de ánimo, la desgano y la vulnerabilidad al colapso emocional por estrés prolongado."
     },
     {
       "guideId": "depresion_apoyo",
@@ -446,7 +446,7 @@
       "guideId": "depresion_apoyo",
       "group": "comboSecundario",
       "productId": 101,
-      "rationale": "Reactiva la bioenergética en el tejido cerebral y muscular mediante transporte electrónico mitocondrial, mitigando la anhedonia física, el letargo psicomotor y devolviendo el dinamismo diario en personas decaídas."
+      "rationale": "Reactiva la bioenergética en el tejido cerebral y muscular mediante transporte electrónico mitocondrial, mitigando la desgano física, el letargo psicomotor y devolviendo el dinamismo diario en personas decaídas."
     },
     {
       "guideId": "quistes_miomas",
@@ -1100,19 +1100,19 @@
       "guideId": "artritis_reumatoide",
       "group": "comboPrincipal",
       "productId": 123,
-      "rationale": "Concentración terapéutica de EPA y DHA que inhibe la síntesis de eicosanoides proinflamatorios, disminuyendo la rigidez matutina articular y la inflamación de las membranas sinoviales."
+      "rationale": "Concentración terapéutica de EPA y DHA que inhibe la producción de sustancias inflamatorias, disminuyendo la rigidez matutina articular y la inflamación de las membranas sinoviales."
     },
     {
       "guideId": "artritis_reumatoide",
       "group": "comboSecundario",
       "productId": 54,
-      "rationale": "Curcumina estandarizada al 95% con piperina que inhibe el factor de transcripción NF-kB, apagando la inflamación de la membrana sinovial y disminuyendo el dolor y la hinchazón articular."
+      "rationale": "Curcumina estandarizada al 95% con piperina que inhibe el señales de inflamación, apagando la inflamación de la membrana sinovial y disminuyendo el dolor y la hinchazón articular."
     },
     {
       "guideId": "artritis_reumatoide",
       "group": "comboSecundario",
       "productId": 116,
-      "rationale": "Precursor directo del glutatión intracelular que neutraliza las especies reactivas de oxígeno producidas por la actividad autoinmune crónica, protegiendo los condrocitos y el tejido sinovial del daño oxidativo."
+      "rationale": "Precursor directo del glutatión intracelular que neutraliza las radicales libres producidas por la actividad autoinmune crónica, protegiendo los condrocitos y el tejido sinovial del daño oxidativo."
     },
     {
       "guideId": "artritis_reumatoide",
@@ -1466,7 +1466,7 @@
       "guideId": "fatiga_cronica",
       "group": "comboPrincipal",
       "productId": 101,
-      "rationale": "Forma biológicamente activa de CoQ10 que facilita la transferencia de protones en la membrana mitocondrial, elevando la síntesis de ATP en músculo esquelético y neuronas para contrarrestar la postración y debilidad física crónica."
+      "rationale": "Forma biológicamente activa de CoQ10 que facilita la transferencia de protones en la membrana mitocondrial, elevando la síntesis de energía celular en músculo esquelético y neuronas para contrarrestar la postración y debilidad física crónica."
     },
     {
       "guideId": "fatiga_cronica",
@@ -1778,7 +1778,7 @@
       "guideId": "hipertiroidismo",
       "group": "comboPrincipal",
       "productId": 150,
-      "rationale": "La L-teanina y extractos de azahar modulan los receptores glutamatérgicos corticales promoviendo ondas alfa cerebrales, lo que apacigua el estado de agitación nerviosa, las palpitaciones funcionales y la inquietud nocturna."
+      "rationale": "La L-teanina y extractos de azahar modulan los receptores glutamatérgicos corticales promoviendo calma mental, lo que apacigua el estado de agitación nerviosa, las palpitaciones funcionales y la inquietud nocturna."
     },
     {
       "guideId": "hipertiroidismo",
@@ -1790,7 +1790,7 @@
       "guideId": "hipertiroidismo",
       "group": "comboPrincipal",
       "productId": 68,
-      "rationale": "Actúa como el principal neurotransmisor sedante en el sistema nervioso central para contrarrestar la tormenta adrenérgica del cuerpo acelerado, amortiguando la taquicardia funcional, los temblores distales y el desasosiego constante."
+      "rationale": "Actúa como el principal neurotransmisor sedante en el sistema nervioso central para contrarrestar la aceleración nerviosa del cuerpo acelerado, amortiguando la taquicardia funcional, los temblores distales y el desasosiego constante."
     },
     {
       "guideId": "hipertiroidismo",
@@ -1814,7 +1814,7 @@
       "guideId": "alergias_respiratorias",
       "group": "comboPrincipal",
       "productId": 116,
-      "rationale": "Ruptura los puentes disulfuro de las mucoproteínas bronquiales y nasales, fluidificando las secreciones densas generadas por la inflamación alérgica y despejando los senos paranasales y conductos aéreos."
+      "rationale": "Ruptura los mucosidad espesa en nariz y bronquios, fluidificando las secreciones densas generadas por la inflamación alérgica y despejando los senos paranasales y conductos aéreos."
     },
     {
       "guideId": "alergias_respiratorias",
@@ -2420,7 +2420,7 @@
       "guideId": "neuropatia_periferica",
       "group": "comboPrincipal",
       "productId": 120,
-      "rationale": "Altos niveles de EPA y DHA con vitamina E que disminuyen los eicosanoides inflamatorios en los vasos que irrigan los axones (vasa nervorum), optimizando la oxigenación neural y devolviendo sensibilidad confortable."
+      "rationale": "Altos niveles de EPA y DHA con vitamina E que disminuyen los eicosanoides inflamatorios en los vasos que irrigan los axones (vasos que nutren los nervios), optimizando la oxigenación neural y devolviendo sensibilidad confortable."
     },
     {
       "guideId": "neuropatia_periferica",
@@ -2702,7 +2702,7 @@
       "guideId": "tdah",
       "group": "comboPrincipal",
       "productId": 149,
-      "rationale": "Cruza selectivamente la barrera hematoencefálica incrementando los niveles de magnesio sináptico en el córtex prefrontal, lo que modula la hiperexcitabilidad glutamatérgica, calma la inquietud motora y favorece el enfoque atencional prolongado."
+      "rationale": "Cruza selectivamente la protección del cerebro incrementando los niveles de magnesio sináptico en el córtex prefrontal, lo que modula la hiperexcitabilidad glutamatérgica, calma la inquietud motora y favorece el enfoque atencional prolongado."
     },
     {
       "guideId": "tdah",
@@ -2726,7 +2726,7 @@
       "guideId": "tdah",
       "group": "comboSecundario",
       "productId": 4,
-      "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en catecolaminas y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
+      "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en mensajeros de energía y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
     },
     {
       "guideId": "tdah",
@@ -2846,7 +2846,7 @@
       "guideId": "epilepsia",
       "group": "comboSecundario",
       "productId": 101,
-      "rationale": "Forma reducida de la CoQ10 que sustenta la producción mitocondrial de ATP en las células gliales y neuronas, amortiguando el daño oxidativo y apoyando la estabilidad bioenergética de los circuitos neuronales."
+      "rationale": "Forma reducida de la CoQ10 que sustenta la producción mitocondrial de energía celular en las células gliales y neuronas, amortiguando el daño oxidativo y apoyando la estabilidad bioenergética de los circuitos neuronales."
     },
     {
       "guideId": "anemia",
@@ -3560,13 +3560,13 @@
       "guideId": "agotamiento_extremo_rescate",
       "group": "comboSecundario",
       "productId": 88,
-      "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el eje neuroendocrino y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
+      "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el equilibrio hormonal y nervioso y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
       "group": "comboSecundario",
       "productId": 261,
-      "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la neurotransmisión y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
+      "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la comunicación nerviosa y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
     },
     {
       "guideId": "agotamiento_extremo_rescate",
@@ -3602,7 +3602,7 @@
       "guideId": "longevidad_celular_nmn",
       "group": "comboPrincipal",
       "productId": 119,
-      "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las sirtuinas SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
+      "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las protección celular SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
     },
     {
       "guideId": "longevidad_celular_nmn",
@@ -3974,7 +3974,7 @@
       "guideId": "dolor_cabeza_tensional",
       "group": "comboSecundario",
       "productId": 181,
-      "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos pericraneales y cervicales sin provocar diarrea."
+      "rationale": "Aporta 400 mg de magnesio elemental de alta absorción para relajar los músculos del cuero cabelludo y cuello y cervicales sin provocar diarrea."
     },
     {
       "guideId": "dolor_cabeza_tensional",
