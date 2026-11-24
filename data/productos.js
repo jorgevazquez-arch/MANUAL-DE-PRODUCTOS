@@ -29,8 +29,8 @@ window.manualData.productos = [
       "Fórmula tradicional soluble y rendidora: permite preparar agua de magnesio para toda la semana; aporta pequeñas cantidades de calcio, hierro y vitamina A que enriquecen la mezcla."
     ],
     "contraindications": "Personas con enfermedad renal grave, trastornos de la conducción cardíaca, o bajo tratamiento con diuréticos, antibióticos (tetraciclinas, quinolonas) o bifosfonatos deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Tomar junto con alimentos o disuelto en agua durante una comida para favorecer la absorción del mineral y prevenir acidez, náuseas o efecto laxante rápido.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para no interferir con su absorción. Consultar con el médico si se toman diuréticos o fármacos para la presión arterial.",
     "packageContent": "250 g"
   },
   {
@@ -51,8 +51,8 @@ window.manualData.productos = [
       "Confort digestivo y vientre desinflamado: elimina la pesadez estomacal, corta fermentaciones fétidas y reduce los gases provocados por bacterias oportunistas."
     ],
     "contraindications": "No recomendado durante el embarazo o lactancia sin consulta médica. Personas con alergia a plantas de la familia Lamiaceae (menta, tomillo, albahaca) deben consultar a su profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar siempre junto con alimentos o justo después de una comida para favorecer la absorción de los ácidos grasos y evitar posible reflujo o acidez estomacal por el orégano concentrado.",
+    "interactions": "Puede potenciar el efecto de medicamentos anticoagulantes y antiagregantes plaquetarios. En personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Antimicrobianos naturales y equilibrio intestinal",
@@ -87,8 +87,8 @@ window.manualData.productos = [
       "Cuidado capilar y de uñas: la biotina favorece el crecimiento de uñas resistentes y un cabello con mayor brillo y vitalidad."
     ],
     "contraindications": "Personas con alergia a la proteína bovina o porcina, o bajo tratamiento con anticoagulantes, deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar disuelto en agua o jugo de frutas cítricas, preferentemente con las comidas; la vitamina C favorece la síntesis y absorción del colágeno en el organismo.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g"
   },
   {
@@ -110,8 +110,8 @@ window.manualData.productos = [
       "Formato rendidor de 90 cápsulas: ideal para tratamientos familiares o esquemas continuos de vitalidad diaria."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos o controlar el azúcar en la sangre.",
+    "foodInteractions": "Tomar junto con el desayuno o la comida principal para optimizar la asimilación de las vitaminas hidrosolubles y evitar molestias gástricas o náuseas.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en personas bajo tratamiento con anticoagulantes (por el arándano), antidiabéticos o levodopa (interacción con B6), consultar con su médico y espaciar la toma al menos 2 horas.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -133,8 +133,8 @@ window.manualData.productos = [
       "Salud de la piel, huesos y músculos: la vitamina A cuida la salud visual y celular de la piel, mientras la vitamina D mantiene la fuerza muscular y la solidez de los huesos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar por la mañana con un desayuno que contenga algo de grasa saludable (huevo, aguacate o lácteos) para maximizar la absorción de las vitaminas liposolubles (A y D) y aprovechar el efecto energizante del ginseng sin alterar el descanso nocturno.",
+    "interactions": "El ginseng siberiano puede interactuar con medicamentos anticoagulantes, antihipertensivos y antidiabéticos. Consultar con el médico y espaciar al menos 2 horas de otros tratamientos médicos.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -155,8 +155,8 @@ window.manualData.productos = [
       "Práctica toma diaria: concentración de 1000 mg en una sola cápsula al día para un cuidado continuo y rendidor de tres meses."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con antecedentes de cálculos renales de oxalato o bajo tratamiento con anticoagulantes (warfarina) deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma warfarina, un medicamento para evitar coágulos. También se deben revisar otros medicamentos que el hígado procesa por la misma vía; el médico o farmacéutico puede identificarlos.",
+    "foodInteractions": "Tomar con alimentos y acompañar con abundante agua (mínimo de 1.5 a 2 litros a lo largo del día) para optimizar el arrastre bacteriano y el flujo urinario continuo en las vías urinarias.",
+    "interactions": "Consultar con el médico si toma anticoagulantes (especialmente warfarina), ya que el arándano rojo concentrado puede potenciar su efecto y aumentar el INR y riesgo de sangrado.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -177,8 +177,8 @@ window.manualData.productos = [
       "Recuperación acelerada entre esfuerzos: disminuye el agotamiento muscular y permite entrenar con mayor frecuencia y menor sensación de fatiga entre series consecutivas."
     ],
     "contraindications": "Personas con patologías renales preexistentes deben consultar a su médico antes de iniciar la suplementación.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar disuelta en agua o una bebida con carbohidratos simples (como jugo de uva o manzana) para favorecer su transporte muscular; asegurar una abundante ingesta de agua a lo largo del día para mantener una adecuada hidratación celular.",
+    "interactions": "No presenta interacciones farmacológicas directas; en personas que toman de forma habitual medicamentos antiinflamatorios (AINEs) u otros fármacos que sobrecargan el riñón, consultar al médico y mantener abundante hidratación. Espaciar 2 horas de otros fármacos.",
     "packageContent": "450 g"
   },
   {
@@ -199,8 +199,8 @@ window.manualData.productos = [
       "Excelente solubilidad y rendimiento prolongado: polvo fino de fácil disolución que entrega 100 servicios completos para sostener más de tres meses de progreso ininterrumpido."
     ],
     "contraindications": "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico antes de usar este producto.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con agua o una bebida con carbohidratos simples (jugo) para favorecer su transporte muscular, y mantener adecuada hidratación durante el día.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; asegurar abundante consumo de agua y consultar en personas que toman medicamentos nefrotóxicos (antiinflamatorios AINEs frecuentes).",
     "packageContent": "500 g"
   },
   {
@@ -222,8 +222,8 @@ window.manualData.productos = [
       "Toma práctica con alimentos: 3 cápsulas con cada comida fuerte para blindar el estómago frente a irritantes, condimentos, café o medicamentos agresivos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o para el dolor y la inflamación.",
+    "foodInteractions": "Tomar preferentemente 20 a 30 minutos antes de los alimentos para que los extractos astringentes recubran y protejan la mucosa gastrointestinal.",
+    "interactions": "Por su contenido de taninos y corteza astringente, puede retrasar o reducir la absorción de medicamentos orales (incluyendo analgésicos, antiinflamatorios y anticoagulantes); se aconseja separar su toma al menos 2 horas de cualquier medicamento y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Protección gástrica tradicional y mucosa estomacal",
@@ -259,8 +259,8 @@ window.manualData.productos = [
       "Energía para el músculo cardíaco: las vitaminas B1, B6 y B12 contribuyen al funcionamiento normal del corazón y a la adecuada formación de glóbulos rojos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar con los alimentos principales (desayuno o comida) para asegurar una adecuada tolerancia gástrica de los extractos vegetales y favorecer la absorción de sus polifenoles y vitaminas.",
+    "interactions": "Consultar indispensablemente con el médico antes de combinar con medicamentos antihipertensivos, anticoagulantes (warfarina), antiagregantes plaquetarios (aspirina) o antidiabéticos, debido a que el ajo, zapote blanco y olivo potencian la reducción de presión y glucosa y alteran la coagulación.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -281,8 +281,8 @@ window.manualData.productos = [
       "Polvo versátil y rendidor: rinde 83 porciones para preparar leche dorada, caldos reconfortantes o licuados saludables."
     ],
     "contraindications": "Personas con obstrucción de vías biliares, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado.",
+    "foodInteractions": "Consumir junto con los alimentos, preferentemente en preparaciones que contengan grasas saludables (como leche dorada, guisados con aceite o pimienta negra) para facilitar la absorción de los curcuminoides.",
+    "interactions": "Consultar con el médico si el cliente toma medicamentos anticoagulantes, antiagregantes plaquetarios (aspirina) o antidiabéticos orales, ya que la cúrcuma puede potenciar sus efectos.",
     "packageContent": "250 g"
   },
   {
@@ -303,8 +303,8 @@ window.manualData.productos = [
       "Defensa antioxidante integral: protege al estómago y al colon frente a la inflamación causada por alimentos procesados o estrés."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, reducir la formación de coágulos con las plaquetas o controlar el azúcar. También revisar otros tratamientos que procesa el hígado.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que contengan grasas saludables (como aguacate o aceite de oliva) para estimular el vaciado biliar y maximizar la asimilación de los curcuminoides.",
+    "interactions": "La cúrcuma y el jengibre pueden potenciar el efecto de anticoagulantes, antiagregantes plaquetarios y medicamentos para controlar el azúcar en sangre. Se aconseja consultar si toma fármacos procesados por el hígado y espaciar la toma al menos 2 horas de otros medicamentos.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Sinergia botánica digestiva y aporte antioxidante",
@@ -353,8 +353,8 @@ window.manualData.productos = [
       "Aporte antioxidante diario: protege las células del aparato digestivo contra el desgaste oxidativo cotidiano con 1,000 mg de raíz pura en polvo por porción."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, como anticoagulantes o antiagregantes, o para controlar el azúcar en la sangre.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que aporten grasas saludables para activar la vesícula biliar y optimizar la absorción de la curcumina.",
+    "interactions": "Puede interactuar con anticoagulantes y antiagregantes plaquetarios (incrementando el riesgo de sangrado) y con hipoglucemiantes orales. En pacientes que tomen medicamentos procesados por el hígado o bajo polifarmacia, se sugiere separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -375,8 +375,8 @@ window.manualData.productos = [
       "Fuente de energía limpia: aporta ácidos grasos de absorción directa que el cuerpo utiliza como combustible saludable durante el día."
     ],
     "contraindications": "Consumir con moderación como parte de una dieta variada y equilibrada.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Consumir junto con los alimentos o integrado en la cocina habitual; no tomar en grandes cantidades en ayunas para evitar náuseas o pesadez gástrica.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "1 L"
   },
   {
@@ -397,8 +397,8 @@ window.manualData.productos = [
       "Humectación profunda de piel y cabello: actúa como bálsamo emoliente vegetal para suavizar zonas resecas y reparar puntas maltratadas."
     ],
     "contraindications": "Consumir con moderación. Para uso cosmético, realizar prueba de sensibilidad en la piel.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Consumir integrado en las comidas o en bebidas tibias (como café o té); no consumir dosis altas en ayunas para prevenir malestar estomacal.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "420 ml"
   },
   {
@@ -420,8 +420,8 @@ window.manualData.productos = [
       "Dosificación práctica y versátil: su gotero permite ajustar la cantidad exacta de gotas según la intensidad requerida para cortar infecciones o mantener las defensas altas."
     ],
     "contraindications": "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con gastritis, úlceras, enfermedades hepáticas o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar siempre diluido en agua o jugo y acompañado de alimentos sólidos o grasas saludables (como aceite de oliva o aguacate) para proteger la mucosa digestiva y prevenir ardor gástrico o reflujo; evitar tomar en ayunas.",
+    "interactions": "Consultar con un profesional de la salud antes de combinar con anticoagulantes o antiagregantes plaquetarios, ya que el orégano puede incrementar el riesgo de sangrado. En personas con diabetes bajo medicación, vigilar los niveles de glucosa.",
     "researchNote": {
       "focus": "Aceite esencial de orégano y carvacrol como antimicrobiano natural",
       "text": "Propiedades del orégano silvestre: el aceite de Origanum vulgare es ampliamente valorado en fitoterapia por su alta concentración de fenoles volátiles (principalmente carvacrol y timol). Estos compuestos actúan alterando la permeabilidad de la membrana de bacterias y hongos patógenos comunes, además de aportar una potente actividad antioxidante que protege las células de las vías respiratorias y digestivas frente a agresores externos.",
@@ -457,8 +457,8 @@ window.manualData.productos = [
       "Regeneración de antioxidantes: ayuda a reactivar otros antioxidantes fundamentales en el organismo como las vitaminas C y E."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con deficiencia de tiamina, diabetes, hipoglucemia o bajo tratamiento con antidiabéticos o quimioterápicos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede hacer que el azúcar en la sangre baje más de lo esperado al combinarse con tratamientos para la diabetes. También consultar si el cliente usa medicamentos para la tiroides.",
+    "foodInteractions": "Tomar justo antes o durante las comidas principales ricas en carbohidratos para moderar picos de glucosa y evitar molestias gástricas o acidez.",
+    "interactions": "Por su efecto sensibilizador a la insulina y reductor de glucosa, consultar y monitorear si toma medicamentos antidiabéticos (metformina, insulina) para evitar episodios de hipoglucemia. Puede alterar la absorción de hormonas tiroideas (levotiroxina); espaciar al menos 4 horas.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -480,8 +480,8 @@ window.manualData.productos = [
       "Defensa antioxidante avanzada: el arándano azul y la vitamina E combaten los radicales libres generados por el sol, la contaminación y el estrés diario."
     ],
     "contraindications": "Personas con alergia a pescados (omega-3) o a alguno de los componentes, o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar junto con una comida principal que aporte grasas saludables (como aguacate o aceite de oliva) para favorecer la absorción del omega-3 y la vitamina E; mantener buena hidratación con agua para optimizar la función del ácido hialurónico.",
+    "interactions": "Por su contenido de ácidos grasos omega-3 y arándano, consultar si el cliente toma medicamentos anticoagulantes o antiagregantes plaquetarios (como warfarina o aspirina), ya que podría incrementar el tiempo de sangrado.",
     "packageContent": "Polvo (peso no especificado)"
   },
   {
@@ -502,8 +502,8 @@ window.manualData.productos = [
       "Fuente pura de aceite de cártamo: aporta ácidos grasos poliinsaturados esenciales en cápsulas prácticas de fácil digestión, libres de estimulantes del sistema nervioso."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas o renales deben consultar a su médico antes de usar este producto.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con los alimentos principales; no consumir en ayunas para evitar molestias gástricas o náuseas leves.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "80 cápsulas"
   },
   {
@@ -525,8 +525,8 @@ window.manualData.productos = [
       "Nutrición para piel y cabello: su alta concentración de provitamina A y antioxidantes naturales aporta brillo al cabello y lozanía a la piel."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles a estrógenos (fibromas, endometriosis, cáncer de mama) o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene compuestos vegetales que pueden tener efectos parecidos a los estrógenos, hormonas del cuerpo. Consultar antes de combinar con tratamientos hormonales.",
+    "foodInteractions": "Tomar junto con las comidas matutinas o del mediodía con un vaso de agua para favorecer la absorción de sus fitonutrientes y evitar molestias gastrointestinales.",
+    "interactions": "Por su contenido de fitoestrógenos y fitoesteroles, consultar previamente en personas bajo terapia hormonal de reemplazo, anticonceptivos orales o antecedentes de condiciones sensibles a estrógenos (endometriosis, miomas, cáncer ginecológico). El fenogreco puede potenciar medicamentos antidiabéticos; monitorear glucosa.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -548,8 +548,8 @@ window.manualData.productos = [
       "Sinergia antioxidante complementaria: la vitamina C acompaña la fórmula fortaleciendo la acción protectora celular de los extractos botánicos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al ajo o a la moringa, con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar con el desayuno o la comida del mediodía acompañado de un vaso con agua para favorecer la tolerancia digestiva y la absorción de sus micronutrientes.",
+    "interactions": "Por las propiedades hipotensoras y fluidificantes del ajo negro y la moringa, consultar al médico si el cliente consume fármacos anticoagulantes (warfarina), antiagregantes (aspirina), antihipertensivos o antidiabéticos orales.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -571,8 +571,8 @@ window.manualData.productos = [
       "Poder antioxidante concentrado: aporta S-alil-cisteína, un antioxidante natural que protege las células y favorece la circulación sanguínea."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (miel, propóleo, polen) o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos.",
+    "foodInteractions": "Tomar con los alimentos principales (desayuno o comida) para favorecer la absorción de los flavonoides y prevenir irritación o reflujo gástrico por el ajo concentrado.",
+    "interactions": "Consultar con el médico o farmacéutico si toma medicamentos anticoagulantes (como warfarina) o antiagregantes plaquetarios (como aspirina o clopidogrel), ya que el ajo negro potencia el riesgo de sangrado.",
     "researchNote": {
       "focus": "Sinergia de ajo negro fermentado y flavonoides de propóleo",
       "text": "Aporte inmunológico del ajo negro y el propóleo: el ajo negro madurado concentra altos niveles de S-alil-cisteína (SAC), un derivado hidrosoluble con mayor capacidad antioxidante que el ajo fresco crudo, sin causar acidez gástrica. Al combinarse con el propóleo rico en galangina y pinocembrina, se crea una barrera natural que estimula la actividad de los glóbulos blancos y protege los epitelios de las vías respiratorias.",
@@ -607,8 +607,8 @@ window.manualData.productos = [
       "Tolerancia estomacal perfecta: no irrita la mucosa gástrica, no repite y se acompaña con vitaminas C y B6 para un refuerzo diario suave."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al ajo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar junto con las comidas principales; la fermentación del ajo reduce su acidez natural pero sigue siendo conveniente acompañarlo de comida sólida para una digestión óptima.",
+    "interactions": "Consultar con el médico si toma medicamentos anticoagulantes, antiagregantes plaquetarios (como aspirina o clopidogrel), antihipertensivos o antidiabéticos, por posible potenciación de efectos hemorrágicos e hipotensores.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -630,8 +630,8 @@ window.manualData.productos = [
       "Escudo antioxidante y defensas: las vitaminas C, E, A junto con zinc, hierro, cobre y yodo protegen los tejidos del desgaste físico y respaldan el sistema inmune."
     ],
     "contraindications": "Personas con alergias al huevo o soya deben evitar su consumo. Mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua, leche o bebida vegetal según el objetivo calórico individual.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g"
   },
   {
@@ -652,8 +652,8 @@ window.manualData.productos = [
       "Fácil integración en smoothies y licuados: polvo fino que se mezcla al instante con agua, jugos verdes o batidos matutinos."
     ],
     "contraindications": "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante.",
+    "foodInteractions": "Consumir con el desayuno o comida, disuelta en licuados, jugos de frutas o agua; la vitamina C de los jugos favorece la absorción de su contenido de hierro vegetal.",
+    "interactions": "Por sus propiedades inmunoestimulantes y contenido nutricional, consultar al médico si el cliente toma inmunosupresores, anticoagulantes o fármacos para la tiroides o diabetes; espaciar 2 horas de otros medicamentos.",
     "packageContent": "250 g"
   },
   {
@@ -675,8 +675,8 @@ window.manualData.productos = [
       "Protección dérmica y defensas: el zinc junto con las vitaminas A y E fortalece las barreras del sistema inmune y cuida la salud de la piel."
     ],
     "contraindications": "Personas con alergia a la espirulina, trastornos de la tiroides, gota, fenilcetonuria o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante.",
+    "foodInteractions": "Consumir junto con los alimentos matutinos o del mediodía con agua o jugo; los alimentos protegen el estómago de posibles molestias por los minerales.",
+    "interactions": "Consultar con el médico si el cliente utiliza inmunosupresores, anticoagulantes o medicación tiroidea; por su aporte mineral (calcio y hierro), separar al menos 2 a 3 horas de antibióticos y 4 horas de levotiroxina.",
     "packageContent": "180 cápsulas"
   },
   {
@@ -697,8 +697,8 @@ window.manualData.productos = [
       "Refuerzo inmunológico y cicatrización: la vitamina C aporta antioxidantes que aceleran la regeneración de los tejidos digestivos y fortalecen las defensas."
     ],
     "contraindications": "No consumir durante el embarazo ni la lactancia. Si hay alergia a algún componente o se sigue un tratamiento médico, consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada.",
+    "foodInteractions": "Tomar preferentemente en ayunas o 20 a 30 minutos antes de los alimentos para permitir que el aloe vera recubra y calme la mucosa gástrica.",
+    "interactions": "En dosis elevadas o sensibles, el aloe vera puede acelerar el tránsito intestinal y reducir la absorción de medicamentos orales; se recomienda espaciar la toma al menos 2 horas de cualquier fármaco y consultar con su médico si toma diuréticos o fármacos para la diabetes.",
     "packageContent": "990 ml",
     "researchNote": {
       "focus": "Mucosa digestiva e inmunidad con arándano y sábila",
@@ -733,8 +733,8 @@ window.manualData.productos = [
       "Rico sabor diario en ayunas: su sabor tropical facilita la toma constante cada mañana para blindar el estómago antes del primer alimento."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "En exceso, la sábila puede acelerar las evacuaciones o causar diarrea. Respetar la porción indicada.",
+    "foodInteractions": "Tomar en ayunas al levantarse o 20 a 30 minutos antes de las comidas principales para brindar alivio y protección a la mucosa digestiva.",
+    "interactions": "Por su efecto estimulante sobre la motilidad digestiva, se recomienda separar su toma al menos 2 horas de medicamentos orales para no disminuir su absorción intestinal, y consultar con su médico si toma diuréticos o tratamientos para la diabetes.",
     "packageContent": "1 L",
     "researchNote": {
       "focus": "Hidratación de mucosas y confort gástrico",
@@ -766,8 +766,8 @@ window.manualData.productos = [
       "Equilibrio intestinal y digestión ligera: la inulina de agave alimenta la microbiota beneficiosa mientras bifidobacterium lactis refuerza la barrera intestinal y previene inflamación estomacal."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El cromo y el zinc pueden cambiar el efecto o la absorción de algunos medicamentos. Si el cliente usa un tratamiento, revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar justo antes o durante las comidas principales ricas en carbohidratos para moderar la absorción de glucosa y aprovechar los probióticos e inulina junto con el alimento.",
+    "interactions": "Contiene cromo, ácido alfa lipoico y extractos reguladores de glucosa; consultar y monitorear si toma antidiabéticos (insulina, metformina) por riesgo de hipoglucemia. Por el contenido de zinc, espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas).",
     "packageContent": "60 cápsulas"
   },
   {
@@ -807,8 +807,8 @@ window.manualData.productos = [
       "Nutrición diaria de 9 g de proteína: fortalece la masa muscular que sostiene a las articulaciones y aporta fibra que favorece el tránsito intestinal regular."
     ],
     "contraindications": "Personas con alergia a pescados (omega-3), trastornos de coagulación, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos).",
+    "foodInteractions": "Tomar disuelto en agua o bebida vegetal preferentemente junto con el desayuno o una comida principal; la presencia de alimentos optimiza la tolerancia digestiva y la absorción de los nutrientes.",
+    "interactions": "Por su contenido de glucosamina, condroitina y cartílago de tiburón, consultar con el médico si el cliente toma anticoagulantes (como warfarina) o antidiabéticos orales para monitorear la glucosa.",
     "packageContent": "1.1 kg"
   },
   {
@@ -830,8 +830,8 @@ window.manualData.productos = [
       "Tratamiento rendidor de 200 cápsulas: frasco familiar que asegura más de 3 meses de protección continua tomando 2 cápsulas diarias con alimentos."
     ],
     "contraindications": "Personas con alergia a crustáceos (glucosamina), mujeres embarazadas, personas con diabetes o asma deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede cambiar el azúcar en la sangre de personas con diabetes. También consultar si el cliente toma medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar con las comidas principales o después de comer acompañado de un vaso de agua para minimizar posibles molestias gastrointestinales leves.",
+    "interactions": "Consultar con el médico si el cliente toma anticoagulantes (como warfarina) debido a que la glucosamina y condroitina pueden potenciar su efecto, o antidiabéticos orales para vigilar los niveles de glucosa.",
     "packageContent": "200 cápsulas"
   },
   {
@@ -862,8 +862,8 @@ window.manualData.productos = [
       "Tratamiento rendidor de 120 días: una sola cápsula al día con alimentos para mantener un escudo antiestrés durante 4 meses completos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la tiroides, enfermedades autoinmunes, úlcera gástrica o bajo tratamiento con ansiolíticos, hipnóticos, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede dar sueño y aumentar el efecto de medicamentos para la ansiedad o para dormir. También consultar si usa tratamientos para la diabetes o para disminuir la actividad de las defensas.",
+    "foodInteractions": "Tomar preferentemente con el desayuno o la comida del mediodía para modular el estrés y la energía sin alterar el ciclo de descanso, o por la noche con una cena ligera si se busca favorecer la relajación; evitar combinar con alcohol.",
+    "interactions": "Puede potenciar los efectos de medicamentos sedantes, ansiolíticos (benzodiacepinas) y fármacos para el insomnio. Consultar con el médico si toma hormonas tiroideas, medicamentos antidiabéticos o inmunosupresores.",
     "packageContent": "120 cápsulas de 500 mg"
   },
   {
@@ -897,8 +897,8 @@ window.manualData.productos = [
       "Absorción superior con piperina: el extracto de pimienta negra asegura que los activos botánicos lleguen con rapidez a los tejidos celulares."
     ],
     "contraindications": "No recomendado durante embarazo o lactancia. Consultar a médico si se toman medicamentos para la tiroides, diabetes o inmunosupresores.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para la tiroides, la diabetes o para disminuir la actividad de las defensas. La piperina puede modificar la absorción y los niveles de algunos medicamentos; revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con alimentos principales (desayuno o comida); la presencia de piperina mejora la absorción y los alimentos protegen el estómago de posibles molestias por la pimienta negra.",
+    "interactions": "La piperina puede aumentar la biodisponibilidad y los niveles en sangre de diversos fármacos (anticoagulantes, antidiabéticos, antihipertensivos y sedantes); consultar indispensablemente con el médico o farmacéutico antes de combinarlo.",
     "packageContent": "60 cápsulas vegetales"
   },
   {
@@ -919,8 +919,8 @@ window.manualData.productos = [
       "Protección de retina y agudeza visual: protege la mácula y las membranas celulares del daño por pantallas y sol, frenando la fatiga y resequedad ocular."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la microalga o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, tratar la presión arterial o disminuir la actividad de las defensas.",
+    "foodInteractions": "Tomar junto con los alimentos principales que contengan grasas saludables (huevo, aguacate, aceite de oliva) para maximizar la absorción de este carotenoide liposoluble.",
+    "interactions": "Consultar con el médico si el cliente toma anticoagulantes, fármacos antihipertensivos o inmunosupresores; en tratamientos crónicos, espaciar al menos 2 horas de otros medicamentos.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -942,8 +942,8 @@ window.manualData.productos = [
       "Fórmula de absorción rápida sin lácteos: el proceso de hidrólisis facilita una digestión ágil y limpia, totalmente libre de lactosa para evitar gases o pesadez estomacal."
     ],
     "contraindications": "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o inmediatamente después del entrenamiento mezclada con agua o bebida de preferencia; mantener una hidratación abundante a lo largo del día por su aporte de creatina.",
+    "interactions": "Por su aporte de creatina, asegurar abundante consumo de agua y consultar con el médico en caso de utilizar medicamentos nefrotóxicos (como antiinflamatorios AINEs de uso frecuente) o padecer afecciones renales.",
     "packageContent": "500 g"
   },
   {
@@ -970,8 +970,8 @@ window.manualData.productos = [
       "Salud digestiva y confort estomacal: contribuye al equilibrio de la microbiota intestinal y ayuda a moderar la sensación de pesadez tras alimentos grasos o dulces."
     ],
     "contraindications": "No administrar a menores de 18 años. Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o ciclosporina deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para el azúcar, la presión o los coágulos. También requiere revisión si el cliente toma ciclosporina, usada para disminuir la actividad de las defensas.",
+    "foodInteractions": "Tomar justo antes o durante las comidas principales (desayuno o comida fuerte) para moderar los picos de glucosa posprandiales y reducir la probabilidad de calambres abdominales o náuseas.",
+    "interactions": "Puede potenciar notablemente los medicamentos antidiabéticos (metformina, sulfonilureas, insulina) causando hipoglucemia; requiere monitoreo estrecho y consulta médica. Inhibe enzimas hepáticas (CYP3A4), pudiendo elevar niveles de estatinas, antihipertensivos o ciclosporina; consultar con el médico.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -993,8 +993,8 @@ window.manualData.productos = [
       "Depuración profunda con clorofila y raíces: la clorofila, tejocote y raíz de loto de la India barren toxinas estancadas y aceleran el metabolismo lento."
     ],
     "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno con abundante agua para activar el metabolismo, favorecer el tránsito digestivo y proteger la mucosa gástrica.",
+    "interactions": "El nopal y el café verde pueden reducir los niveles de glucosa; consultar y monitorear si toma medicamentos antidiabéticos. Por sus ingredientes de apoyo diurético, no combinar con diuréticos de prescripción ni fármacos antihipertensivos sin supervisión médica.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -1016,8 +1016,8 @@ window.manualData.productos = [
       "Bebida reconfortante y práctica: sobres individuales que rinden hasta tres tazas para disfrutar en casa o en el trabajo con un toque dulce y cremoso."
     ],
     "contraindications": "NO CONSUMIR EN EMBARAZO. Personas intolerantes a los componentes deben evitarlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene cafeína. Las personas sensibles pueden sentir nerviosismo o dificultad para dormir; revisar si corresponde su consumo.",
+    "foodInteractions": "Consumir preferentemente por la mañana o después del desayuno; evitar su ingesta por la tarde o noche para no interferir con el ciclo del sueño.",
+    "interactions": "Por su contenido de cafeína y hongos adaptógenos con efecto sobre la glucosa y la presión, consultar en clientes con hipertensión arterial o bajo tratamiento con anticoagulantes, antidiabéticos o sedantes.",
     "packageContent": "22 sobres"
   },
   {
@@ -1039,8 +1039,8 @@ window.manualData.productos = [
       "Rendimiento familiar generoso: bolsa de 600 gramos ideal para preparar en cafetera de filtro o en olla de barro para toda la familia."
     ],
     "contraindications": "Personas sensibles a la cafeína, hipertensión no controlada, trastornos de ansiedad o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La cafeína puede cambiar el efecto de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento.",
+    "foodInteractions": "Consumir con el desayuno o como sobremesa matutina; evitar tomar en ayunas si se tiene gastritis o por la tarde-noche para proteger la calidad del sueño.",
+    "interactions": "La cafeína puede interactuar con medicamentos estimulantes, ansiolíticos y antihipertensivos; moderar su consumo si se toman tratamientos cardiovasculares o neurológicos.",
     "packageContent": "600 g"
   },
   {
@@ -1062,8 +1062,8 @@ window.manualData.productos = [
       "Formato práctico para llevar: sobres individuales sin lácteos listos para disolver en agua caliente en la oficina, casa o viajes."
     ],
     "contraindications": "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, alergia a hongos o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La cafeína puede cambiar el efecto de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento.",
+    "foodInteractions": "Tomar durante la mañana disuelto en agua caliente, preferentemente después de ingerir algún alimento; evitar consumir al final del día para no alterar el descanso.",
+    "interactions": "Por su contenido de cafeína y extractos de hongos medicinales, consultar con el médico si el usuario toma fármacos anticoagulantes, antihipertensivos o hipoglucemiantes orales.",
     "packageContent": "30 sobres"
   },
   {
@@ -1085,8 +1085,8 @@ window.manualData.productos = [
       "Transporte de oxígeno y protección: el hierro ayuda a la formación de glóbulos rojos, mientras las vitaminas C y E protegen a las células del estrés oxidativo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la canela, enfermedad renal o hepática, o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos.",
+    "foodInteractions": "Tomar con las comidas principales con carbohidratos. La presencia de vitamina E se asimila mejor con alimentos que contengan grasas saludables, y los minerales (hierro, calcio, cromo) se toleran mejor para evitar náuseas.",
+    "interactions": "El picolinato de cromo y la canela incrementan la sensibilidad a la insulina; consultar y monitorear glucosa si se combina con medicamentos antidiabéticos. Por el hierro y calcio, espaciar al menos 2 horas de antibióticos (quinolonas, tetraciclinas) y hormonas tiroideas (levotiroxina).",
     "packageContent": "120 cápsulas"
   },
   {
@@ -1107,8 +1107,8 @@ window.manualData.productos = [
       "Acompañante ideal de planes de alimentación: facilita el apego a dietas de restricción calórica sin provocar nerviosismo ni insomnio al estar libre de estimulantes agresivos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede causar molestias leves en el estómago o el intestino.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes de la comida principal con un vaso lleno de agua para promover la sensación de saciedad y optimizar el control del apetito.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en personas bajo tratamiento para diabetes o polifarmacia, vigilar niveles de glucosa, espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -1129,8 +1129,8 @@ window.manualData.productos = [
       "Eliminación de boca amarga y pesadez: el diente de león y el betabel desintoxican el conducto biliar y barren los desechos metabólicos acumulados."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, enfermedad hepática grave o bajo tratamiento con anticoagulantes, diuréticos o medicamentos para la diabetes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El ruibarbo puede acelerar las evacuaciones. Consultar si el cliente toma medicamentos para evitar coágulos o eliminar líquidos.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos principales o justo con comidas pesadas para estimular la secreción de bilis y facilitar la digestión de las grasas.",
+    "interactions": "El cardo mariano, el diente de león y el rábano negro estimulan la actividad hepática y pueden interactuar con medicamentos metabolizados por el hígado, anticoagulantes y diuréticos; se aconseja separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Hígado, vesícula y digestión de grasas",
@@ -1172,9 +1172,9 @@ window.manualData.productos = [
       "Tono y elasticidad venosa: el extracto botánico fortalece las paredes de las venas y capilares favoreciendo el retorno venoso hacia el corazón.",
       "Frasco familiar rendidor: presentación de 150 cápsulas que asegura 75 días de tratamiento continuo para una circulación cómoda y activa."
     ],
-    "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "contraindications": "Contraindicado en embarazo, lactancia, personas con insuficiencia renal o hepática activa, úlcera péptica activa o trastornos de coagulación. Suspender al menos dos semanas antes de cirugías programadas.",
+    "foodInteractions": "Tomar preferentemente con o después de los alimentos del desayuno o la comida para proteger la mucosa gástrica de la acción astringente de las saponinas (escina).",
+    "interactions": "Consultar con el médico antes de combinar con medicamentos anticoagulantes (warfarina, acenocumarol) o antiagregantes plaquetarios (aspirina), ya que el castaño de indias puede incrementar el riesgo de hematomas y sangrado.",
     "packageContent": "150 cápsulas"
   },
   {
@@ -1196,8 +1196,8 @@ window.manualData.productos = [
       "Fórmula de fácil absorción: unión de cromo con ácido nicotínico que asegura una asimilación rápida y suave para el estómago."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con diabetes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para controlar el azúcar o evitar coágulos.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes de los alimentos o junto con el desayuno para favorecer la utilización de energía y evitar molestias gástricas derivadas del cromo.",
+    "interactions": "El cromo mejora la respuesta a la insulina; consultar y monitorear la glucosa si se consumen medicamentos hipoglucemiantes o insulina para evitar bajas excesivas de azúcar.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -1218,8 +1218,8 @@ window.manualData.productos = [
       "Formato en polvo de disolución fácil: ideal para mezclar en agua natural, jugos o licuados matutinos y disfrutar de una bebida refrescante y nutritiva."
     ],
     "contraindications": "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Disolver en agua y tomar junto con alimentos o después de una comida ligera para favorecer su absorción y mitigar un posible efecto laxante o aceleración del tránsito intestinal.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para no interferir con su absorción. Consultar con el médico si se toman diuréticos o fármacos para la función renal o cardíaca.",
     "packageContent": "500 g"
   },
   {
@@ -1240,8 +1240,8 @@ window.manualData.productos = [
       "Equilibrio de la presión arterial: apoya la relajación de las paredes vasculares y el buen funcionamiento de los riñones y el corazón."
     ],
     "contraindications": "Personas con enfermedad renal, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos ahorradores de potasio o medicamentos para la presión arterial (como enalapril o captopril) deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para la presión o para eliminar líquidos que hacen que el cuerpo retenga potasio. La combinación puede aumentar demasiado el potasio; el médico o farmacéutico debe revisar el tratamiento.",
+    "foodInteractions": "Tomar siempre acompañado de alimentos y abundante agua para prevenir irritación gástrica y favorecer una absorción osmótica gradual.",
+    "interactions": "Precaución prioritaria: consultar al médico si toma medicamentos antihipertensivos (IECA como enalapril, captopril, o ARA-II como losartán) o diuréticos ahorradores de potasio (espironolactona), ya que pueden provocar concentraciones elevadas de potasio en sangre.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1262,8 +1262,8 @@ window.manualData.productos = [
       "Hidratación verde y desinflamación: convierte cualquier vaso de agua en una bebida refrescante que neutraliza la acidez estomacal y desinflama tras comidas pesadas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila.",
+    "foodInteractions": "Diluir la dosis en un vaso con agua fresca por la mañana en ayunas o entre comidas; resulta una bebida fresca, digestiva y desodorizante interno.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 ml"
   },
   {
@@ -1284,8 +1284,8 @@ window.manualData.productos = [
       "Energía antioxidante con té matcha: aporta catequinas y clorofila que protegen a las células del desgaste oxidativo y mantienen la vitalidad diaria."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, problemas hepáticos o biliares, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede cambiar el color de las evacuaciones a verde. La ficha lo describe como un efecto esperado de la clorofila.",
+    "foodInteractions": "Diluir en un vaso con agua y tomar preferentemente en ayunas o entre comidas para refrescar el sistema digestivo y mejorar la asimilación estomacal.",
+    "interactions": "Por su contenido natural de fitonutrientes y vitamina K, puede interactuar levemente con medicamentos anticoagulantes. Puede conferir una coloración verdosa natural a las evacuaciones. En personas bajo tratamiento médico continuo, separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 ml",
     "researchNote": {
       "focus": "Clorofila, mentol digestivo y desodorización interna",
@@ -1320,8 +1320,8 @@ window.manualData.productos = [
       "Disminución del cansancio físico: 240 mg de magnesio elemental que recargan la vitalidad del cuerpo durante jornadas pesadas."
     ],
     "contraindications": "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Tomar con las comidas principales, preferentemente con una comida que contenga algo de grasa saludable para favorecer la asimilación de la vitamina D y prevenir molestias gástricas por el magnesio.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, fluoroquinolonas) y bisfosfonatos. Consultar con el médico si se toman diuréticos o medicamentos para la presión arterial o insuficiencia renal.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -1357,8 +1357,8 @@ window.manualData.productos = [
       "Firmeza vascular y protección celular: la vitamina C y el zinc fortalecen el colágeno de los conductos sanguíneos, mientras la vitamina E y B12 resguardan las células contra el daño oxidativo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la aspirina o a los salicilatos, trastornos de coagulación, úlcera gástrica, o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos o controlar el azúcar en la sangre.",
+    "foodInteractions": "Tomar preferentemente después de los alimentos acompañado de un vaso lleno de agua; la ingesta con comida protege la mucosa gástrica ante los derivados salicilatos del sauce blanco.",
+    "interactions": "Por contener extracto de sauce blanco (fuente natural de salicina) y ajo, consultar previamente en personas bajo tratamiento con anticoagulantes (warfarina), antiagregantes (aspirina), antiinflamatorios AINEs o fármacos antidiabéticos.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1380,8 +1380,8 @@ window.manualData.productos = [
       "Protección antioxidante ovárica: el arándano azul aporta polifenoles que protegen los tejidos reproductivos contra el estrés oxidativo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos, anticoagulantes o medicamentos que afectan los niveles de glucosa deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para controlar el azúcar o evitar coágulos.",
+    "foodInteractions": "Tomar junto con las comidas (desayuno o comida) con agua para favorecer la absorción y mejorar la respuesta celular a la insulina durante la ingesta de alimentos.",
+    "interactions": "Al mejorar la sensibilidad a la insulina, puede potenciar el efecto de medicamentos hipoglucemiantes orales (metformina) e insulina; consultar al médico y monitorear glucosa si se padece diabetes o resistencia a la insulina.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1403,8 +1403,8 @@ window.manualData.productos = [
       "Polvo puro de máxima concentración: 4,100 mg de inositoles puros por porción que se disuelven de inmediato sin dejar grumos ni alterar el sabor de tu bebida."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan la glucosa deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para la diabetes, porque la combinación puede cambiar el control del azúcar en la sangre.",
+    "foodInteractions": "Disolver en un vaso de agua o jugo y tomar junto con o justo antes de los alimentos matutinos o del mediodía para acompañar el balance glucémico y hormonal diario.",
+    "interactions": "Puede potenciar la acción de medicamentos para el control de la glucosa (metformina, insulina); se sugiere monitoreo de glucosa y consulta médica en caso de uso simultáneo. Espaciar al menos 2 horas de otros suplementos o fármacos.",
     "packageContent": "300 g"
   },
   {
@@ -1443,8 +1443,8 @@ window.manualData.productos = [
       "Síntesis de colágeno nuevo: los 300 mg de vitamina C estimulan la regeneración de colágeno en cartílagos, tendones y vasos sanguíneos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción biliar, cálculos biliares, trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes plaquetarios, antidiabéticos o medicamentos de uso continuo procesados por el hígado deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o controlar el azúcar. También revisar otros tratamientos que procesa el hígado.",
+    "foodInteractions": "Tomar junto con una comida que aporte grasas saludables (aceite de oliva, aguacate o frutos secos); los lípidos dietéticos y la piperina multiplican la biodisponibilidad y absorción de los curcuminoides.",
+    "interactions": "Consultar con el médico si el cliente toma anticoagulantes, antiagregantes plaquetarios o antidiabéticos orales, así como medicamentos metabolizados por enzimas hepáticas, ya que la curcumina y la piperina pueden alterar sus niveles en sangre.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1466,8 +1466,8 @@ window.manualData.productos = [
       "Protección estacional de 1 cápsula al día: porción práctica con el desayuno para personas que trabajan en oficinas con aire acondicionado o propensas a resfriarse en frío."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave, alergia a la equinácea (Asteraceae) o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar con alimentos. Una comida con algo de grasa ayuda a aprovechar la vitamina D3. La vitamina C puede causar molestias de estómago en personas sensibles.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas.",
+    "foodInteractions": "Tomar con el desayuno o la comida principal; incluir alimentos con grasas saludables para optimizar la absorción de la vitamina D3, mientras que los alimentos previenen la irritación estomacal por la vitamina C.",
+    "interactions": "Consultar con un profesional de la salud en caso de tratamiento con medicamentos inmunosupresores, anticoagulantes o antidiabéticos. La equinácea estimula las defensas y no se aconseja en personas con enfermedades autoinmunes activas o bajo tratamiento inmunosupresor.",
     "researchNote": {
       "focus": "Sinergia de vitamina D3, ácido ascórbico y equinácea en la respuesta inmune",
       "text": "Mecanismo inmunológico de la tríada preventiva: la vitamina D3 modula la diferenciación de linfocitos y promueve la síntesis de péptidos antimicrobianos en las células respiratorias. La vitamina C actúa como potente antioxidante hidrosoluble que neutraliza radicales libres generados durante procesos inflamatorios, mientras los polisacáridos de Echinacea purpurea activan los macrófagos locales en el tracto respiratorio superior.",
@@ -1502,8 +1502,8 @@ window.manualData.productos = [
       "Drenaje de líquidos y energía: el guaraná y el naranjo activan el gasto calórico y reducen la retención de líquidos para deshinchar el cuerpo."
     ],
     "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a un médico antes de usar.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar por la mañana en ayunas acompañado de un vaso lleno de agua (250 ml) y mantener una hidratación constante durante todo el día (al menos 2 litros de agua) para permitir que la linaza y el nopal se expandan adecuadamente.",
+    "interactions": "Por su contenido de fibras solubles y aloe vera, puede retrasar o reducir la absorción de medicamentos orales; se aconseja espaciar la toma al menos 2 a 3 horas de cualquier fármaco. Por sus componentes estimulantes y depurativos, consultar con su médico o farmacéutico si toma antihipertensivos o anticoagulantes.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Fitoquímicos para motilidad digestiva y termogénesis suave",
@@ -1538,8 +1538,8 @@ window.manualData.productos = [
       "Regularidad intestinal: la linaza, el nopal y el aloe vera aseguran idas al baño diarias sin sensación de pesadez."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedades crónicas deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar en ayunas con un vaso lleno de agua (250 ml) y asegurar abundante hidratación a lo largo del día para que la fibra actúe eficazmente y se facilite la depuración digestiva y renal.",
+    "interactions": "La linaza y el nopal pueden disminuir la absorción de medicamentos administrados por vía oral, mientras que el diente de león puede potenciar la acción de diuréticos o antihipertensivos. Separar al menos 2 a 3 horas de cualquier fármaco y consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Drenaje botánico y termogénesis con polifenoles",
@@ -1591,8 +1591,8 @@ window.manualData.productos = [
       "Nutrición celular y vitalidad: el polen de abeja aporta aminoácidos y micronutrientes que aceleran la recuperación física en personas desgastadas."
     ],
     "contraindications": "No consumir por menores de 12 años. No consumir durante el embarazo o lactancia. Producto elaborado en líneas que procesan derivados de soya, leche, pescado y crustáceos. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente por la mañana con el desayuno para aprovechar su estímulo adaptogénico sobre el rendimiento mental; evitar tomar en la tarde o noche para no desvelarse o alterar el descanso.",
+    "interactions": "Consultar con el médico si se toman antidepresivos (ISRS, IMAO), fármacos para la presión arterial o ansiolíticos, ya que la rhodiola puede potenciar o alterar su respuesta terapéutica. Separar 2 horas de antibióticos por el magnesio.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1613,8 +1613,8 @@ window.manualData.productos = [
       "Nutrición verde y energía limpia: la espirulina y las hojas de té aportan clorofila, antioxidantes y vitalidad para el día."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos de uso continuo procesados por el hígado deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La fórmula incluye toronja, que puede cambiar el efecto de muchos medicamentos. Si el cliente toma alguno, revisar la combinación antes de usar.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes o justo al inicio de los alimentos para que las enzimas de la papaya y los extractos digestivos apoyen la asimilación de los nutrientes.",
+    "interactions": "Contiene extracto de toronja, la cual inhibe enzimas del citocromo P450 (CYP3A4) y puede elevar los niveles en sangre de numerosos medicamentos (incluyendo estatinas, antihipertensivos y sedantes). Es indispensable consultar con su médico o farmacéutico antes de consumirlo si se encuentra bajo tratamiento médico.",
     "packageContent": "15 cápsulas",
     "researchNote": {
       "focus": "Fitonutrientes y enzimas digestivas frutales",
@@ -1649,8 +1649,8 @@ window.manualData.productos = [
       "Frescura y calma estomacal: la hierbabuena y el fosfato de calcio asientan el estómago y aportan un alivio fresco y rápido."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la papaya, piña, menta, úlcera gástrica activa, pancreatitis aguda o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar el riesgo de sangrado si se combina con medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar 10 a 15 minutos antes de los alimentos principales o justo con el primer bocado de comidas copiosas para que las enzimas digestivas actúen directamente sobre proteínas, grasas y carbohidratos.",
+    "interactions": "Las enzimas bromelina y papaína poseen una leve actividad proteolítica y fibrinolítica, por lo que pueden potenciar la acción de medicamentos anticoagulantes y antiagregantes plaquetarios. Se aconseja separar la toma al menos 2 horas de cualquier medicamento oral y consultar con su médico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Terapia de reemplazo enzimático digestivo oral",
@@ -1686,8 +1686,8 @@ window.manualData.productos = [
       "Acción de choque en garganta y pecho: tomar de inmediato ante el primer carraspeo o estornudo para reducir la duración y severidad del malestar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+    "foodInteractions": "Tomar con alimentos matutinos o del mediodía para facilitar su asimilación y prevenir la acidez estomacal que la vitamina C puede ocasionar con el estómago vacío.",
+    "interactions": "Consultar con un profesional de la salud si toma medicamentos inmunosupresores (como en trasplantes o enfermedades autoinmunes), ya que la equinácea estimula la respuesta del sistema inmunitario y puede reducir la eficacia de estos tratamientos.",
     "researchNote": {
       "focus": "Equinácea y ácido ascórbico en la respuesta defensiva estacional",
       "text": "Eficacia de la equinácea combinada con vitamina C: los derivados del ácido cafeico y las alquilamidas de la equinácea potencian la fagocitosis de los glóbulos blancos ante patógenos respiratorios comunes. La adición de ácido ascórbico asegura niveles óptimos de antioxidantes en los leucocitos durante periodos de mayor exposición ambiental.",
@@ -1723,8 +1723,8 @@ window.manualData.productos = [
       "Protección y síntesis de colágeno: la vitamina C estimula la formación de colágeno, mientras la vitamina E y el selenio protegen los folículos del estrés oxidativo."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir junto con el desayuno o la comida principal; la presencia de alimentos mejora la asimilación de las vitaminas liposolubles (A, D, E) y evita molestias gástricas por los minerales.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -1745,8 +1745,8 @@ window.manualData.productos = [
       "Evacuación suave y volumen fecal: su fibra soluble natural alimenta a las bacterias benéficas del colon y asegura evacuaciones regulares."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a legumbres o bajo tratamiento con antidiabéticos, anticoagulantes o hormonales deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para el azúcar, para evitar coágulos o tratamientos hormonales.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos con un vaso grande de agua (250 ml) para permitir que los mucílagos formen una barrera protectora gástrica y ayuden a regular la digestión de carbohidratos.",
+    "interactions": "Por su elevada cantidad de mucílagos, puede retrasar o reducir la absorción intestinal de medicamentos orales; separar la toma al menos 2 horas de cualquier fármaco. Puede potenciar el efecto de hipoglucemiantes orales e interactuar con anticoagulantes; consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Galactomananos, protección gástrica y metabolismo glucémico",
@@ -1782,8 +1782,8 @@ window.manualData.productos = [
       "Salud digestiva y dulzor natural: la inulina de agave aporta fibra prebiótica para el confort intestinal, endulzada de manera ligera con stevia y un toque de canela."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al coco o trazas de almendra deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene coco y puede tener trazas de almendra. Revisar si el cliente tiene alergia a estos alimentos.",
+    "foodInteractions": "Tomar entre comidas, como parte del desayuno o después del entrenamiento, mezclada con agua o bebida vegetal; aporta saciedad y favorece la nutrición muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "510 g"
   },
   {
@@ -1806,8 +1806,8 @@ window.manualData.productos = [
       "Reconstituyente tras tratamientos agotantes: fórmula de elección para personas que buscan desintoxicar el hígado y la linfa tras tratamientos pesados (como quimioterapia, radioterapia o saturación por medicamentos) y combatir la fatiga celular crónica. Siempre en coordinación con su médico tratante."
     ],
     "contraindications": "No administrar en pacientes con trasplantes, hipersensibilidad a los componentes, obstrucción intestinal, inflamación aguda, problemas de tiroides, embarazo, lactancia o niños menores de 10 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede causar cólicos o molestias en el estómago y el intestino. Si el cliente recibe radioterapia o quimioterapia, consultar con su equipo médico antes de usar.",
+    "foodInteractions": "Tomar diluido en igual cantidad de agua purificada, en ayunas por la mañana y antes de acostarse por la noche; esperar de 30 a 60 minutos antes de ingerir alimentos para permitir una absorción adecuada de los extractos herbales.",
+    "interactions": "En personas bajo quimioterapia o radioterapia, consultar indispensablemente con el equipo médico oncológico antes de su consumo. Por su contenido de kelp y extractos diuréticos, consultar si toma medicamentos para la tiroides, diuréticos o anticoagulantes.",
     "researchNote": {
       "focus": "Fórmula herbal tradicional de 8 plantas para depuración y protección celular",
       "text": "Propiedades fitoquímicas de la mezcla Essiac / Flor-Essence: esta combinación sinérgica reúne plantas ricas en antraquinonas suaves (ruibarbo), lignanos y poliacetilenos (bardana), mucílagos polisacáridos (olmo) y flavonoides antioxidantes (trébol rojo y cardo santo). Estos extractos estimulan las secreciones digestivas y la actividad antioxidante celular frente al daño ocasionado por toxinas ambientales.",
@@ -1844,8 +1844,8 @@ window.manualData.productos = [
       "Respaldo en tratamientos médicos agotantes: los extractos de Turkey Tail, Shiitake y Reishi son ampliamente reconocidos por mantener los glóbulos blancos activos y la vitalidad celular en personas sometidas a quimioterapia, radioterapia o uso prolongado de corticoides."
     ],
     "contraindications": "Mujeres embarazadas, en periodo de lactancia, personas con alergia a los hongos, trastornos autoinmunitarios, o bajo tratamiento inmunosupresor o anticoagulante deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con los alimentos matutinos o del mediodía para mejorar la digestión y asimilación de los betaglucanos y polisacáridos de los hongos medicinales, evitando pesadez gastrointestinal.",
+    "interactions": "Consultar con el médico antes de combinar con medicamentos anticoagulantes (como warfarina o aspirina), antidiabéticos o inmunosupresores, ya que los hongos adaptógenos (Reishi, Cordyceps, Maitake) poseen actividad inmunoestimulante, antiagregante y reguladora de la glucosa.",
     "researchNote": {
       "focus": "Complejo de hongos medicinales adaptógenos y polisacáridos beta-glucanos",
       "text": "Mecanismos inmunomoduladores de los beta-glucanos fúngicos: los hongos medicinales contienen polisacáridos beta-1,3/1,6-glucanos que interactúan con receptores como Dectin-1 y TLR-2 en macrófagos y células dendríticas, activando una respuesta defensiva coordinada. Además, especies como Hericium erinaceus aportan erinacinas que estimulan la salud neuronal, y Cordyceps sinensis optimiza la producción de trifosfato de adenosina (ATP) celular.",
@@ -1905,8 +1905,8 @@ window.manualData.productos = [
       "Defensa antioxidante celular: el zinc y el selenio neutralizan los radicales libres producidos por el estrés emocional continuo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas bajo tratamiento con ansiolíticos, hipnóticos o anticonvulsivantes, o con condiciones médicas deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar el sueño o la sedación al combinarse con medicamentos para la ansiedad, para dormir o para controlar convulsiones.",
+    "foodInteractions": "Tomar por la tarde o noche con una cena ligera, 30 a 60 minutos antes de dormir; evitar consumir con café, bebidas energéticas o alcohol, ya que anulan su efecto relajante.",
+    "interactions": "Potencia los efectos depresores del sistema nervioso central al combinarse con medicamentos sedantes, ansiolíticos (como clonazepam o alprazolam), hipnóticos, antidepresivos o anticonvulsivantes; consultar con el médico tratante.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -1927,8 +1927,8 @@ window.manualData.productos = [
       "Fórmula clásica de rescate ocasional: ideal para resolver episodios específicos de estreñimiento, recomendándose su uso por periodos breves."
     ],
     "contraindications": "No administrar en casos de dolor abdominal de origen desconocido, obstrucción intestinal, embarazo, lactancia, o en menores de 8 años sin prescripción médica.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Usarlo durante demasiado tiempo puede hacer que el intestino dependa del laxante y alterar las sales y minerales del cuerpo. Respetar el tiempo de uso indicado.",
+    "foodInteractions": "Tomar por la noche antes de acostarse con un vaso lleno de agua (250 ml). Asegurar suficiente hidratación durante todo el día siguiente para prevenir deshidratación y molestias cólicas.",
+    "interactions": "Laxante estimulante. Su uso simultáneo con diuréticos o corticosteroides incrementa la pérdida de potasio y el riesgo de hipocalemia, pudiendo potenciar la toxicidad de glucósidos digitálicos (digoxina). No administrar al mismo tiempo que medicamentos orales; distanciar las tomas al menos 2 horas.",
     "researchNote": {
       "focus": "Laxante estimulante de contacto colónico para estreñimiento ocasional",
       "text": "Cómo actúa en el intestino: los agentes estimulantes de contacto actúan sobre las terminaciones nerviosas de la mucosa del colon, aumentando las ondas de movimiento (peristalsis) e inhibiendo la reabsorción excesiva de agua. Esto produce un vaciado intestinal completo y eficaz dentro de las 6 a 10 horas posteriores a su ingesta. Por su potencia, está indicado exclusivamente como medida de rescate temporal (máximo 5 a 7 días consecutivos) para no acostumbrar al intestino.",
@@ -1988,8 +1988,8 @@ window.manualData.productos = [
       "Protección vascular y nutrición neuronal: la lecitina de soya y el resveratrol defienden las neuronas del envejecimiento y cuidan la flexibilidad arterial."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de la coagulación, epilepsia o bajo tratamiento con anticoagulantes, antiagregantes, antidepresivos (como sertralina o fluoxetina) o anticonvulsivantes deben consultar a un profesional de la salud. No consumir en caso de alergia a la soya o a alguno de sus ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El ajo y el ginkgo pueden aumentar el riesgo de sangrado al combinarse con medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. El resveratrol también requiere revisar esa combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con los alimentos matutinos o del mediodía para favorecer una adecuada absorción de sus extractos y evitar molestias gástricas; no tomar tarde por la noche para no interferir con el inicio del sueño.",
+    "interactions": "Consultar obligatoriamente si toma anticoagulantes (como warfarina o acenocumarol), antiagregantes (como aspirina o clopidogrel) o antiinflamatorios (AINEs), por riesgo incrementado de hemorragia. También consultar si toma antidepresivos o anticonvulsivantes.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2010,8 +2010,8 @@ window.manualData.productos = [
       "Integridad de la barrera intestinal y defensas: nutre directamente a los enterocitos del colon, sellando la mucosa digestiva y reforzando los glóbulos blancos."
     ],
     "contraindications": "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede tener trazas de alimentos que causan alergia porque se fabrica en instalaciones compartidas. Revisar la etiqueta si el cliente tiene alergias.",
+    "foodInteractions": "Tomar preferentemente después del entrenamiento o antes de dormir, mezclada en agua o jugo; puede consumirse sola o agregarse al batido de proteína post-ejercicio.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "300 g"
   },
   {
@@ -2032,8 +2032,8 @@ window.manualData.productos = [
       "Limpieza y desintoxicación hepática: favorece la depuración profunda del hígado y ayuda a lucir un tono de piel más uniforme y luminoso."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, quimioterapia o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, recibe quimioterapia o toma tratamientos que disminuyen la actividad de las defensas.",
+    "foodInteractions": "Tomar con una comida principal o con un vaso de jugo de naranja/limón; la vitamina C trabaja sinérgicamente con el glutatión regenerando su forma antioxidante activa.",
+    "interactions": "Consultar con el oncólogo o médico tratante si el cliente recibe quimioterapia o terapia inmunosupresora; espaciar al menos 2 horas de cualquier medicación oral habitual.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2055,8 +2055,8 @@ window.manualData.productos = [
       "Facilidad para el uso diario: cápsulas prácticas para tomar con abundante agua antes de las comidas principales."
     ],
     "contraindications": "Contiene soya. Consultar a médico si se tienen alergias o condiciones médicas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con abundante agua antes o junto con las comidas principales; la fibra soluble de la linaza y la malva requiere una adecuada hidratación para favorecer el tránsito digestivo.",
+    "interactions": "Por su contenido de fibra que puede retrasar la absorción de fármacos y bayas de goji, espaciar al menos 2 horas de cualquier medicamento oral, y consultar al médico si se toman anticoagulantes (warfarina) o antidiabéticos.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -2078,8 +2078,8 @@ window.manualData.productos = [
       "Fórmula 4 en 1 para la silueta: reúne cuatro superalimentos en prácticas cápsulas para complementar un plan de reducción de medidas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a frutas de la familia Solanaceae o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos: la vitamina K de la fórmula puede cambiar su efecto.",
+    "foodInteractions": "Tomar junto con el desayuno o la comida del mediodía con abundante agua para apoyar la digestión y evitar irritación estomacal por sus extractos cítricos y fitonutrientes.",
+    "interactions": "Las bayas de goji y los extractos cítricos pueden interactuar con medicamentos anticoagulantes (warfarina) y fármacos para la presión arterial o la glucosa. Consultar con el médico y espaciar al menos 2 horas.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -2100,8 +2100,8 @@ window.manualData.productos = [
       "Energía celular y antioxidantes: la vitamina B12, la vitamina C y el magnesio ayudan a mantener la energía durante el día y protegen las células."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con un vaso grande de agua (250 ml) junto con los alimentos para aprovechar la acción de las enzimas digestivas y la lecitina sobre las comidas.",
+    "interactions": "Por su contenido de linaza y fibra soluble, puede retrasar o disminuir la absorción de medicamentos tomados por vía oral; se aconseja separar la toma al menos 2 horas de cualquier fármaco. Las bayas de goji y las enzimas pueden potenciar moderadamente anticoagulantes; consultar con su médico o farmacéutico en personas bajo polifarmacia.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Antioxidantes botánicos y apoyo metabólico",
@@ -2136,8 +2136,8 @@ window.manualData.productos = [
       "Alternativa botánica suave y sin químicos irritantes, ideal para personas con digestión perezosa que necesitan una evacuación matutina puntual y sin cólicos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con obstrucción intestinal, enfermedad inflamatoria intestinal activa o bajo tratamiento con diuréticos, antiarrítmicos o anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La sábila puede acelerar las evacuaciones o causar diarrea.",
+    "foodInteractions": "Tomar con un vaso lleno de agua (250 ml) junto con los alimentos, manteniendo abundante hidratación durante todo el día para permitir que la fibra de ciruela, tamarindo y manzana actúe suavemente y sin pesadez.",
+    "interactions": "Por su efecto laxante y la presencia de sábila, puede acelerar el tránsito intestinal y disminuir la absorción de fármacos tomados por vía oral; espaciar la toma al menos 2 horas de cualquier medicamento. En personas que toman diuréticos, vigilar el balance hidroelectrolítico y consultar al médico.",
     "researchNote": {
       "focus": "Laxante osmótico natural y fibra frutal para la regularidad intestinal",
       "text": "Por qué la ciruela pasa y las frutas facilitan la evacuación: la ciruela pasa (Prunus domestica) y el tamarindo contienen naturalmente sorbitol y pectinas, componentes que retienen agua dentro de la luz intestinal (efecto osmótico suave), aumentando el volumen de las heces y haciéndolas mucho más blandas. Combinadas con la papaya (fuente de enzimas digestivas) y la sábila (mucílagos regeneradores), protegen las paredes del intestino facilitando una expulsión suave sin los retortijones característicos de los laxantes estimulantes.",
@@ -2177,8 +2177,8 @@ window.manualData.productos = [
       "Toma práctica antes de comer: una cápsula 15 a 30 minutos antes de los alimentos fuertes para preparar al sistema digestivo y procesar las grasas sin esfuerzo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis hiperácida, enfermedad de la vesícula biliar u obstrucción biliar deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos que modifican la producción de ácido del estómago.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de las comidas principales para que sus principios amargos estimulen el vaciado de la vesícula biliar y preparen el estómago para la digestión de grasas.",
+    "interactions": "Estimula intensamente las vías biliares y la función hepática; puede modificar la concentración de medicamentos procesados por el hígado a través del citocromo P450, así como interactuar con antihipertensivos o hipoglucemiantes. Se aconseja separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Hígado graso y digestión de grasas",
@@ -2218,8 +2218,8 @@ window.manualData.productos = [
       "Blindaje celular con zinc y selenio: aporta minerales indispensables para mantener el tejido prostático protegido contra el desgaste con el paso de los años."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hepática, trastornos autoinmunes o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El zinc en cantidades altas puede hacer que el cuerpo absorba menos cobre. Revisar si el cliente ya toma otros suplementos con zinc.",
+    "foodInteractions": "Tomar junto con las comidas principales para maximizar la absorción de los minerales (zinc, selenio) y fitoesteroles, previniendo náuseas o malestar estomacal.",
+    "interactions": "El zinc y selenio requieren espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas). Por su acción en la salud prostática y hormonal masculina, consultar con el médico si se encuentra bajo terapia hormonal o anticoagulante (por la cúrcuma).",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2242,8 +2242,8 @@ window.manualData.productos = [
       "Presentación práctica en cápsulas: porción exacta de 500 mg para llevar consigo y tomar fácilmente a cualquier hora sin preparar bebidas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antidiabéticos o medicamentos que afectan el estado de ánimo deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para la diabetes, porque la combinación puede cambiar el control del azúcar en la sangre.",
+    "foodInteractions": "Tomar junto con alimentos o disuelto en agua con los alimentos para facilitar su absorción celular y evitar leves molestias estomacales.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en pacientes que tomen antidiabéticos (metformina) o psicofármacos (litio, ISRS), consultar a su médico para monitoreo de glucosa y estabilidad, espaciando la toma al menos 2 horas.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2265,8 +2265,8 @@ window.manualData.productos = [
       "Protección urinaria y cutánea: el arándano rojo previene infecciones en la vejiga mientras las vitaminas A y E devuelven elasticidad y brillo a la piel."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la soya, antecedentes de cáncer de mama o endometrio, o bajo tratamiento hormonal deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Las isoflavonas pueden tener efectos parecidos a los estrógenos, hormonas del cuerpo. Consultar si el cliente tiene una condición sensible a las hormonas.",
+    "foodInteractions": "Tomar junto con las comidas matutinas o del mediodía que incluyan algo de grasa saludable (huevo, aguacate o aceite vegetal) para maximizar la absorción de las vitaminas liposolubles (A y E) y fitoestrógenos.",
+    "interactions": "Las isoflavonas y el camote silvestre actúan sobre receptores estrogénicos; consultar con el médico si se encuentra bajo terapia de reemplazo hormonal (TRH), anticonceptivos orales o antecedentes de patología ginecológica sensible a hormonas. Espaciar al menos 4 horas de levotiroxina.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2287,8 +2287,8 @@ window.manualData.productos = [
       "Calma de retortijones y gases: relaja las paredes musculares del intestino, eliminando cólicos, espasmos y tensión abdominal tras comer."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, gastritis, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos para acelerar el vaciado gástrico y prevenir pesadez o náuseas, o bien junto con la comida si existe sensibilidad al picor característico del jengibre.",
+    "interactions": "Puede potenciar la acción de medicamentos anticoagulantes, antiagregantes plaquetarios (como aspirina o warfarina), fármacos para la diabetes y antihipertensivos. En personas con tratamientos médicos crónicos, espaciar al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Antiemético y procinético natural",
@@ -2324,8 +2324,8 @@ window.manualData.productos = [
       "Cero regusto a pescado: su estructura lipídica se mezcla de inmediato en el medio gástrico, evitando reflujo y molestias digestivas."
     ],
     "contraindications": "Personas con alergia a crustáceos o mariscos, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar con una comida principal que contenga grasas para maximizar la absorción de los fosfolípidos y la astaxantina, y reducir cualquier molestia digestiva.",
+    "interactions": "Consultar con un profesional de la salud si toma medicamentos anticoagulantes o antiagregantes plaquetarios, ya que los ácidos grasos omega-3 en combinación con astaxantina pueden prolongar el tiempo de coagulación.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2346,8 +2346,8 @@ window.manualData.productos = [
       "Congestión muscular y energía limpia: promueve bombeos intensos y mayor plenitud muscular durante la rutina, en cápsulas prácticas y libres de estimulantes."
     ],
     "contraindications": "Personas con enfermedades hepáticas, renales, hipotensión arterial, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar preferentemente con el estómago vacío o alejada de comidas copiosas de proteína para evitar competencia en la absorción intestinal de aminoácidos, o unos 30-45 minutos antes del entrenamiento.",
+    "interactions": "Por ser precursora de óxido nítrico y promover vasodilatación, consultar con el médico en personas con medicación hipotensora (antihipertensivos) o fármacos para disfunción eréctil (como sildenafil), ya que puede potenciar la bajada de presión arterial.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -2369,8 +2369,8 @@ window.manualData.productos = [
       "Enfoque mental y absorción superior: la L-tirosina y la vitamina B5 respaldan la agilidad mental, mientras que la piperina de la pimienta negra mejora la asimilación del conjunto."
     ],
     "contraindications": "Personas con hipertensión, enfermedades cardíacas, hepáticas o renales, sensibilidad a la cafeína, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar los efectos de otros estimulantes, como mayor nerviosismo o dificultad para dormir. Revisar otros productos con cafeína.",
+    "foodInteractions": "Tomar 30 a 60 minutos antes de la actividad física o junto con el desayuno; evitar su toma por la tarde o noche para no interferir con el descanso nocturno.",
+    "interactions": "Por su contenido de cafeína y guaraná, consultar en clientes con hipertensión o bajo tratamiento con estimulantes, antihipertensivos o antidepresivos; evitar combinar con otras fuentes concentradas de cafeína o bebidas energéticas.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -2391,8 +2391,8 @@ window.manualData.productos = [
       "Nutrición prebiótica para el colon: la inulina de agave aporta fibra soluble suave que alimenta las bacterias protectoras del intestino sin provocar cólicos."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con condiciones médicas deben consultar a un especialista.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El exceso de zinc puede hacer que el cuerpo absorba menos cobre. Revisar otros suplementos que el cliente ya consuma.",
+    "foodInteractions": "Tomar preferentemente con alimentos o justo después de una comida ligera para optimizar la tolerancia estomacal y permitir que la carnosina ejerza su acción protectora sobre la mucosa.",
+    "interactions": "El zinc puede quelar y reducir sustancialmente la absorción de antibióticos orales (quinolonas y tetraciclinas), así como de suplementos de hierro y cobre; es indispensable separar la toma al menos 2 a 3 horas de estos fármacos. En personas bajo tratamiento médico continuo, consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Regeneración de mucosa gástrica y confort estomacal",
@@ -2427,8 +2427,8 @@ window.manualData.productos = [
       "Defensa antioxidante del cristalino: protege los tejidos oculares contra cataratas y radicales libres, preservando la agudeza visual a cualquier edad."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a plantas de la familia Asteraceae o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar con una comida que aporte grasas saludables; la luteína y zeaxantina son carotenoides liposolubles cuya absorción intestinal aumenta significativamente en presencia de lípidos dietéticos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2462,8 +2462,8 @@ window.manualData.productos = [
       "Ánimo activo y motivación: combate la apatía matutina y el desgano, aportando claridad mental sin necesidad de consumir cafeína en exceso."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con fenilcetonuria, trastornos de la tiroides o bajo tratamiento con inhibidores de la MAO, levodopa, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si usa ciertos antidepresivos llamados IMAO, levodopa para el Parkinson, medicamentos para evitar coágulos o para controlar el azúcar.",
+    "foodInteractions": "Tomar por la mañana con el desayuno o 30 minutos antes para optimizar su asimilación cerebral; evitar tomar por la tarde o noche, ya que favorece la síntesis de catecolaminas y puede provocar insomnio.",
+    "interactions": "Contraindicado en combinación con antidepresivos inhibidores de la MAO (IMAO) por riesgo de crisis hipertensiva grave. Puede competir y reducir la eficacia de la levodopa en Parkinson, e interactuar con hormonas tiroideas.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2484,8 +2484,8 @@ window.manualData.productos = [
       "Claridad mental y agudeza: combate la fatiga cerebral y apoya la memoria y el enfoque frente al estrés laboral o académico."
     ],
     "contraindications": "No consumir durante el embarazo ni lactancia. Personas con trastornos hormonales sensibles o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Disolver en agua, licuados o batidos y tomar con el desayuno o comida matutina para aprovechar su aporte energético y evitar desvelos por la noche.",
+    "interactions": "Puede influir en el equilibrio endocrino y la presión arterial. Consultar con el médico en caso de hipertensión, afecciones tiroideas o tratamientos hormonales, espaciando la toma al menos 2 horas.",
     "packageContent": "150 g"
   },
   {
@@ -2506,8 +2506,8 @@ window.manualData.productos = [
       "Circulación activa y digestión ligera: el jengibre promueve la irrigación sanguínea en todo el cuerpo y asienta el estómago para una rápida asimilación."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos hormonales sensibles o bajo tratamiento con antidiabéticos, anticoagulantes o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para controlar el azúcar, evitar coágulos o tratar la presión arterial.",
+    "foodInteractions": "Tomar junto con el desayuno o comida del mediodía para aprovechar el efecto tónico y digestivo del jengibre y la damiana sin causar acidez gástrica en ayunas.",
+    "interactions": "El jengibre puede potenciar medicamentos anticoagulantes o antiagregantes plaquetarios; la maca y damiana pueden interactuar con terapias hormonales y antidiabéticos. Consultar con su médico y espaciar al menos 2 horas de otros medicamentos.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2529,8 +2529,8 @@ window.manualData.productos = [
       "Tratamiento completo de 3 meses: frasco rendidor de 90 cápsulas que asegura 90 días de suplementación continua para consolidar resultados."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos hormonales o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para la presión arterial o para evitar coágulos.",
+    "foodInteractions": "Tomar con alimentos en el desayuno o almuerzo. La piperina de la pimienta negra incrementa la absorción pero puede irritar el estómago si se toma con el estómago vacío.",
+    "interactions": "La piperina puede aumentar la biodisponibilidad y niveles en sangre de diversos fármacos (como antihipertensivos, teofilina o anticonvulsivos). Consultar al médico o farmacéutico y espaciar la toma al menos 2 a 3 horas de medicamentos de prescripción.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2561,8 +2561,8 @@ window.manualData.productos = [
       "Presentación económica y rendidora: frasco de 120 cápsulas para 4 meses de suplementación diaria preventiva con solo una cápsula al día."
     ],
     "contraindications": "Personas con enfermedad renal grave, trastornos cardíacos o bajo tratamiento con diuréticos, antibióticos o bifosfonatos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para eliminar líquidos (diuréticos), ciertos antibióticos o tratamientos para los huesos llamados bisfosfonatos. Un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Tomar acompañado de alimentos para favorecer una absorción gradual de las tres sales de magnesio y prevenir reblandecimiento fecal o náuseas.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos. Consultar al médico en caso de uso simultáneo de diuréticos o fármacos para la presión arterial o patología renal.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2583,8 +2583,8 @@ window.manualData.productos = [
       "Excelente absorción sin molestias digestivas: sal orgánica que no genera pesadez estomacal y se toma idealmente por la mañana."
     ],
     "contraindications": "Consultar a médico en caso de embarazo, lactancia o condiciones médicas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar con el desayuno o la comida del mediodía; el ácido málico participa en la generación de energía celular, por lo que resulta ideal consumirlo con alimentos en la primera mitad del día.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas), levotiroxina y bisfosfonatos para no mermar su absorción. No presenta otras interacciones de gravedad en personas sanas.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2620,8 +2620,8 @@ window.manualData.productos = [
       "Concentración y enfoque sin nerviosismo: el complejo B nutre el sistema nervioso para rendir al máximo en el trabajo o estudio."
     ],
     "contraindications": "Consultar a médico si se tienen enfermedades renales o se está embarazada.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Algunos medicamentos pueden cambiar la cantidad de magnesio que el cuerpo absorbe. El médico o farmacéutico debe revisar la combinación y los horarios.",
+    "foodInteractions": "Tomar con las comidas matutinas o del mediodía con un vaso de agua para asegurar excelente tolerancia gástrica y asimilación óptima de ambas fuentes orgánicas de magnesio junto a la fibra prebiótica.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (quinolonas, tetraciclinas) y bisfosfonatos para asegurar una adecuada absorción de ambos fármacos. Consultar con el médico si se padecen trastornos renales o se usan diuréticos.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2657,8 +2657,8 @@ window.manualData.productos = [
       "Absorción suave y digestiva: aporta una base de inulina que protege el estómago y facilita la asimilación nocturna de todos los activos."
     ],
     "contraindications": "No se recomienda su uso simultáneo con medicamentos antidepresivos, ansiolíticos o inductores del sueño sin consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar el efecto de medicamentos para dormir o relajarse. También requiere revisión si el cliente toma antidepresivos.",
+    "foodInteractions": "Tomar 30 a 60 minutos antes de acostarse con un vaso de agua o una cena ligera; evitar café, té negro, chocolate y alcohol por la noche, ya que compiten con sus efectos inductores del sueño.",
+    "interactions": "Por su contenido de 5-HTP y L-teanina, no debe combinarse con antidepresivos (ISRS, IRSN, IMAO) por riesgo de síndrome serotoninérgico. Potencia fármacos sedantes, ansiolíticos y relajantes musculares.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2680,8 +2680,8 @@ window.manualData.productos = [
       "Combustible cetogénico con BHB: aporta sales BHB que proporcionan energía inmediata para personas activas y apoyan el control de peso sin fatiga."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos hepáticos o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para controlar el azúcar, evitar coágulos o eliminar líquidos.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes de la comida principal con abundante agua para apoyar el efecto saciante y termogénico antes de la ingesta de alimentos.",
+    "interactions": "Los extractos de diente de león y mango africano pueden modular la glucosa y la eliminación de líquidos; consultar si toma medicamentos antidiabéticos (riesgo de hipoglucemia) o diuréticos/antihipertensivos. Espaciar al menos 2 horas.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -2703,8 +2703,8 @@ window.manualData.productos = [
       "Digestión balanceada con fibra y grasas sanas: incorpora fibra y fuentes de lípidos saludables que optimizan el tránsito gastrointestinal y el aprovechamiento de los nutrientes."
     ],
     "contraindications": "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua o leche entera para incrementar el aporte calórico y proteico según las metas de ganancia muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "8 lb (3.63 kg)"
   },
   {
@@ -2725,8 +2725,8 @@ window.manualData.productos = [
       "Polvo fino ceremonial: se disuelve perfectamente en agua caliente o fría para preparar matcha latte, licuados saludables o repostería fina."
     ],
     "contraindications": "Personas sensibles a la cafeína, hipertensión, trastornos de ansiedad, embarazo o lactancia deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede tener trazas de soya, pescado y crustáceos por su fabricación en instalaciones compartidas. Revisar si el cliente tiene alergia a estos alimentos.",
+    "foodInteractions": "Consumir por la mañana o media tarde disuelto en agua tibia o leche vegetal; evitar tomar simultáneamente con comidas ricas en hierro si se padece anemia, ya que los taninos pueden reducir su asimilación.",
+    "interactions": "Por su contenido de cafeína y catequinas, consultar al médico si se toman anticoagulantes, antihipertensivos o medicamentos para la ansiedad; evitar combinar con otros estimulantes.",
     "packageContent": "100 g"
   },
   {
@@ -2760,8 +2760,8 @@ window.manualData.productos = [
       "Armonía entre intestino y mente: sus beta-glucanos desinflaman la mucosa digestiva y favorecen la conexión saludable entre el estómago y el cerebro."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a hongos, trastornos autoinmunes o bajo tratamiento con anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o para disminuir la actividad de las defensas.",
+    "foodInteractions": "Tomar preferentemente con el desayuno o el almuerzo para favorecer la concentración y la claridad mental durante el día y promover una óptima asimilación de sus polisacáridos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en personas bajo tratamiento con anticoagulantes, antiagregantes o antidiabéticos se sugiere vigilancia médica, y en polifarmacia espaciar la toma 2 horas.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2783,8 +2783,8 @@ window.manualData.productos = [
       "Endulzante 100% puro y sin procesar: recolectada de diversas floraciones mexicanas, sin azúcares añadidos, jarabes de maíz ni conservadores artificiales."
     ],
     "contraindications": "No administrar a menores de 1 año (riesgo de botulismo). Personas con diabetes o alergia a productos apícolas deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene azúcares. Tenerlo en cuenta dentro de la alimentación, especialmente si el cliente debe controlar su consumo de azúcar.",
+    "foodInteractions": "Consumir sola, con fruta, licuados o disuelta en infusiones tibias; evitar añadir a líquidos hirviendo para preservar sus enzimas naturales y aromas.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con diabetes o bajo control estricto de carbohidratos, contabilizar su aporte de azúcares naturales.",
     "packageContent": "560 g"
   },
   {
@@ -2805,8 +2805,8 @@ window.manualData.productos = [
       "Tratamiento completo para tres meses: presentación de 90 cápsulas de 500 mg que garantiza una toma diaria cómoda, económica y sin sabores amargos."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. Personas con alergia, trastornos de la tiroides o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Consumir junto con el desayuno o la comida principal acompañado de líquidos; la ingesta con alimentos previene posibles molestias gástricas leves.",
+    "interactions": "Por sus efectos sobre la glucemia y la presión arterial, consultar al médico si el cliente toma fármacos antidiabéticos, antihipertensivos o medicación para la tiroides; espaciar 2 horas de otros medicamentos.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -2828,8 +2828,8 @@ window.manualData.productos = [
       "Base lipídica con MCT y girasol: emulsionado en triglicéridos de cadena media y lecitina de girasol para una óptima asimilación en cada cápsula."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad hepática o renal, o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma warfarina, un medicamento para evitar coágulos, porque puede cambiar su efecto.",
+    "foodInteractions": "Tomar con alimentos que contengan grasas saludables (durante el desayuno o la comida) para asegurar la máxima biodisponibilidad del ubiquinol y sus lípidos transportadores.",
+    "interactions": "El ubiquinol comparte similitud estructural con la vitamina K y puede disminuir la efectividad anticoagulante de la warfarina o acenocumarol; requiere monitoreo estrecho del INR con su médico tratante.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -2851,8 +2851,8 @@ window.manualData.productos = [
       "Firmeza y absorción superior: la vitamina C impulsa la formación de colágeno y la piperina potencia la captación de los activos en una sola cápsula al día."
     ],
     "contraindications": "No recomendado durante el embarazo o lactancia. Personas alérgicas al cartílago de pollo o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con anticoagulantes o antiagregantes: ambos se usan para reducir la formación de coágulos.",
+    "foodInteractions": "Tomar con un vaso de agua preferentemente junto con una comida que incluya grasas saludables para potenciar la absorción de la cúrcuma y los ácidos boswélicos.",
+    "interactions": "Consultar con el médico si el cliente consume fármacos anticoagulantes (warfarina), antiagregantes plaquetarios o antiinflamatorios, debido a las propiedades fluidificantes y antiinflamatorias de la cúrcuma y la boswellia.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -2874,8 +2874,8 @@ window.manualData.productos = [
       "Botella rendidora de vidrio: envase de 500 ml que preserva la pureza y frescura del vinagre para preparar aderezos saludables o diluir una cucharada en agua cada mañana."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, gastritis crónica, o bajo tratamiento con antidiabéticos, diuréticos ahorradores de potasio o anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para controlar el azúcar, eliminar líquidos o evitar coágulos.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes de las comidas principales. Diluir siempre los 15 ml en un vaso grande de agua (200-250 ml); nunca beber directo para proteger el esmalte dental y la mucosa esofágica y gástrica.",
+    "interactions": "El ácido acético puede potenciar medicamentos antidiabéticos (insulina, metformina) al reducir la glucosa posprandial. Puede alterar los niveles de potasio si se combina con diuréticos; consultar con su médico si toma fármacos de control crónico.",
     "packageContent": "500 ml"
   },
   {
@@ -2896,8 +2896,8 @@ window.manualData.productos = [
       "Control metabólico y máxima absorción: la canela ayuda a estabilizar los niveles de azúcar tras las comidas, mientras la pimienta negra maximiza la absorción de todos los nutrientes."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica, reflujo severo, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o tratar la presión arterial.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos fuertes con un vaso con agua para favorecer la secreción ácida gástrica y optimizar la digestión de proteínas y almidones.",
+    "interactions": "La combinación de vinagre de manzana, cúrcuma, canela y jengibre puede potenciar el efecto de medicamentos para el control de la glucosa y de fármacos antihipertensivos o diuréticos (afectando los niveles de potasio). Separar la toma al menos 2 horas de otros medicamentos y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Ácido acético y especias carminativas para vaciamiento gástrico",
@@ -2933,8 +2933,8 @@ window.manualData.productos = [
       "Salud ósea, defensas y antioxidantes: las vitaminas A, C, D3, E, K junto con zinc, magnesio, hierro, calcio y cobre protegen los tejidos y sostienen la salud del sistema inmune."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad hepática, renal o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene vitamina K, que puede cambiar el efecto de algunos medicamentos para evitar coágulos.",
+    "foodInteractions": "Consumir junto con el desayuno o la comida principal acompañado de líquidos; tomar con alimentos reduce molestias gastrointestinales por los minerales y optimiza la absorción de las vitaminas liposolubles.",
+    "interactions": "Por su contenido de vitamina K, consultar al médico si se toman anticoagulantes cumarínicos (warfarina); por sus vasodilatadores y estimulantes (arginina, ginseng), consultar en personas bajo medicación antihipertensiva o antidiabética.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2956,8 +2956,8 @@ window.manualData.productos = [
       "Cuidado prostático y muscular: el ciruelo africano, semilla de calabaza, zinc y magnesio blindan la próstata y evitan el desgaste muscular."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedades hepáticas, hormonales o bajo tratamiento médico (especialmente hormonales) deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con tratamientos hormonales.",
+    "foodInteractions": "Tomar junto con las comidas matutinas o del mediodía para facilitar la absorción de los fitonutrientes y minerales (zinc, magnesio) y evitar irritación estomacal.",
+    "interactions": "Por su contenido de fenogreco y Mucuna Pruriens (fuente de L-Dopa), puede interactuar con antidiabéticos (riesgo de hipoglucemia), antidepresivos (IMAO) o medicamentos antiparkinsonianos. Por el zinc y magnesio, espaciar al menos 2 horas de antibióticos. Consultar con el médico si se encuentra bajo terapia hormonal.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -2979,8 +2979,8 @@ window.manualData.productos = [
       "Soporte para huesos y defensas: el calcio, magnesio, hierro y las vitaminas D3, E y K protegen la estructura ósea y fortalecen la respuesta inmunitaria."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene vitamina K, que puede cambiar el efecto de algunos medicamentos para evitar coágulos.",
+    "foodInteractions": "Consumir con el desayuno o comida del mediodía acompañado de un vaso de agua o jugo; los alimentos mejoran la digestibilidad de los minerales y la absorción de vitaminas liposolubles.",
+    "interactions": "Contiene vitamina K y minerales (calcio y hierro); consultar al médico si se toman anticoagulantes (warfarina), y separar la toma al menos 2 a 3 horas de antibióticos y 4 horas de levotiroxina para la tiroides.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -3002,8 +3002,8 @@ window.manualData.productos = [
       "Cuidado de la piel, encías y articulaciones: ayuda a mantener cartílagos flexibles, encías sanas y un tono de piel uniforme y radiante."
     ],
     "contraindications": "Solo para adultos. Consultar a médico si se está embarazada o lactando, o si se toman medicamentos.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Las cantidades altas de vitamina C requieren revisión si el cliente toma medicamentos para evitar coágulos o recibe quimioterapia.",
+    "foodInteractions": "Tomar junto con una comida principal (desayuno o comida) para amortiguar la acidez del ácido ascórbico concentrado y prevenir reflujo o molestias gástricas.",
+    "interactions": "Cantidades elevadas de vitamina C pueden interactuar con anticoagulantes orales (como warfarina), tratamientos oncológicos de quimioterapia y medicamentos que contienen aluminio o estrógenos; consultar con el médico tratante.",
     "researchNote": {
       "focus": "Vitamina C de alta concentración potenciada con bioflavonoides cítricos y rutina",
       "text": "Por qué los bioflavonoides optimizan la vitamina C: los bioflavonoides cítricos y la rutina (quercetina-3-rutinósido) actúan en sinergia biológica con el ácido ascórbico, incrementando su absorción celular y retrasando su eliminación renal. Esto proporciona una protección antioxidante continua y un soporte estructural robusto al endotelio vascular y los tejidos conectivos.",
@@ -3039,8 +3039,8 @@ window.manualData.productos = [
       "Absorción superior con aceite de coco: aporta ácidos grasos saludables que facilitan la disolución y el aprovechamiento de las vitaminas liposolubles D3 y K2."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con hipercalcemia, sarcoidosis, enfermedad renal grave o bajo tratamiento con anticoagulantes cumarínicos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La vitamina K puede cambiar el efecto de algunos medicamentos para evitar coágulos. Consultar antes de combinar.",
+    "foodInteractions": "Tomar con la comida principal o el desayuno; las vitaminas D3 y K2 son liposolubles y requieren grasas de la dieta para absorberse de manera óptima.",
+    "interactions": "Por su contenido de vitamina K2, consultar al médico en personas bajo tratamiento con anticoagulantes cumarínicos (warfarina o acenocumarol), ya que puede interferir con su efecto terapéutico; separar al menos 2 horas de antibióticos y levotiroxina.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -3061,8 +3061,8 @@ window.manualData.productos = [
       "Nutrición para la piel y la vista: aporta elasticidad a los tejidos cutáneos frente al fotoenvejecimiento y protege las arterias del corazón."
     ],
     "contraindications": "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes, medicamentos que ayudan a evitar coágulos. La combinación puede cambiar el efecto del tratamiento.",
+    "foodInteractions": "Tomar con una comida principal que aporte grasas saludables (como aceite de oliva, aguacate o huevo) para optimizar su absorción intestinal como vitamina liposoluble.",
+    "interactions": "Dosis suplementarias de vitamina E pueden incrementar el riesgo de hemorragia; consultar con el médico si el cliente toma anticoagulantes (como warfarina) o antiagregantes plaquetarios (aspirina).",
     "packageContent": "60 perlas"
   },
   {
@@ -3083,8 +3083,8 @@ window.manualData.productos = [
       "Sabor gourmet y fácil mezcla: exquisito perfil de sabor choconuez que se disuelve al instante sin grumos, ideal para disfrutar en agua o leche después de entrenar."
     ],
     "contraindications": "Personas con alergia a lácteos, enfermedades hepáticas o renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua, leche o bebida vegetal según el requerimiento calórico.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g"
   },
   {
@@ -3105,8 +3105,8 @@ window.manualData.productos = [
       "Digestión excepcionalmente ligera: se disuelve sin esfuerzo en agua y se asimila con total suavidad gástrica, sin provocar sensación de pesadez ni inflamación abdominal."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. Personas con intolerancia a la leche deben evitar su consumo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o inmediatamente después del ejercicio, disuelta en 250-300 ml de agua o leche según los requerimientos calóricos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "1 kg"
   },
   {
@@ -3127,8 +3127,8 @@ window.manualData.productos = [
       "Digestibilidad y absorción inmediata: su bajísimo contenido de lactosa y grasa permite una rápida asimilación estomacal sin hinchazón ni malestar digestivo."
     ],
     "contraindications": "Alérgicos a la proteína de leche deben evitar su consumo. Consultar a médico en caso de enfermedades renales o hepáticas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después de la sesión de ejercicio mezclada con agua o bebida de preferencia para una rápida recuperación muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "1.02 kg"
   },
   {
@@ -3150,8 +3150,8 @@ window.manualData.productos = [
       "Fórmula botánica cuádruple: reúne cuatro de las plantas más empleadas en el control glucémico en prácticas tabletas para tomar antes de comer."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, o bajo tratamiento con anticoagulantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La raíz de tejocote puede bajar el azúcar en la sangre. Revisar si el cliente usa medicamentos para la diabetes.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno o con la comida matutina, acompañado de abundante agua durante el día para favorecer la fibra del nopal y tejocote y asimilar la vitamina A.",
+    "interactions": "El tejocote y el nopal tienen efecto hipoglucemiante y diurético; consultar y monitorear si se toman medicamentos antidiabéticos (insulina, metformina) o antihipertensivos. Espaciar al menos 2 horas de cualquier medicación.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -3172,8 +3172,8 @@ window.manualData.productos = [
       "Gotero práctico de rápida acción: 20 gotas en un cuarto de vaso de agua antes de los alimentos para una absorción inmediata directamente en el conducto digestivo."
     ],
     "contraindications": "Hipersensibilidad a los componentes, embarazo, lactancia, búsqueda de embarazo, menores de 15 años o enfermedad hepática. Consultar a un profesional antes de usar; evitar el uso continuo sin seguimiento.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Las combinaciones con medicamentos no están suficientemente estudiadas. Revisar con un profesional si usa tratamientos para el colesterol, medicamentos que procesa el hígado o para evitar coágulos. También consultar si tiene una cirugía programada.",
+    "foodInteractions": "Diluir 20 gotas en un cuarto de vaso con agua y tomar 15 a 20 minutos antes de los alimentos para fluidificar la bilis y preparar el sistema digestivo antes de ingerir grasas.",
+    "interactions": "Por su potente efecto hepatobiliar, puede interactuar con medicamentos para el colesterol (estatinas, fibratos), anticoagulantes y tratamientos metabolizados por el hígado. Se aconseja distanciar la toma al menos 2 horas de cualquier medicación y consultar con su médico o farmacéutico.",
     "packageContent": "30 ml",
     "researchNote": {
       "focus": "Vesícula, bilis y digestión de grasas",
@@ -3208,8 +3208,8 @@ window.manualData.productos = [
       "Soporte en la depuración hepática: protege las células del hígado frente a toxinas ambientales, humo de tabaco y metabolitos pesados."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica o bajo tratamiento con anticoagulantes, nitroglicerina o medicamentos que afectan la función hepática deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para evitar coágulos o con nitroglicerina, utilizada para algunos problemas del corazón.",
+    "foodInteractions": "Tomar preferentemente con los alimentos acompañado de un vaso lleno de agua; mantener una ingesta de líquidos abundante durante todo el día para favorecer su acción fluidificante de secreciones.",
+    "interactions": "Consultar con el médico si el cliente toma nitroglicerina u otros vasodilatadores coronarios (puede potenciar dolor de cabeza e hipotensión), o anticoagulantes; no administrar simultáneamente con antibióticos por vía oral (separar 2 horas).",
     "packageContent": "60 cápsulas"
   },
   {
@@ -3230,8 +3230,8 @@ window.manualData.productos = [
       "Fórmula en cápsulas vegetales: rápida asimilación matutina para recargar el cuerpo desde la primera toma del día."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes, antidiabéticos o medicamentos que afectan la presión arterial deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El resveratrol puede cambiar la forma en que el cuerpo procesa algunos medicamentos a través del hígado. Si el cliente sigue un tratamiento, revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar junto con una comida que contenga algo de grasas saludables (yogur, aguacate, aceite de oliva o frutos secos) para maximizar la biodisponibilidad del resveratrol, compuesto liposoluble.",
+    "interactions": "El resveratrol puede inhibir ciertas enzimas hepáticas (CYP450) y presentar un leve efecto sobre la agregación plaquetaria; consultar si toma medicamentos anticoagulantes, antihipertensivos o fármacos metabolizados por el hígado. Espaciar al menos 2 horas.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -3253,8 +3253,8 @@ window.manualData.productos = [
       "Compañero ideal de los alimentos: indicado para consumir antes o junto a las comidas principales para mantener cifras de glucosa más estables."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática grave, o bajo tratamiento con antidiabéticos, antihipertensivos o anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "No usar durante el embarazo: la ficha advierte que el neem puede provocar la pérdida del embarazo.",
+    "foodInteractions": "Tomar justo antes o durante las comidas principales ricas en carbohidratos para moderar picos de glucosa y proteger la mucosa gástrica del sabor amargo del neem.",
+    "interactions": "Contiene tres potentes reguladores glucémicos naturales (neem, nopal y ácido alfa lipoico); si se combina con medicamentos antidiabéticos (metformina, sulfonilureas, insulina), puede causar hipoglucemia severa. Requiere supervisión médica estrecha y ajuste de dosis. Espaciar al menos 2 horas de otros fármacos.",
     "packageContent": "9 cápsulas"
   },
   {
@@ -3276,8 +3276,8 @@ window.manualData.productos = [
       "Formulación avanzada para la vitalidad: diseñado para personas que buscan un enfoque de vanguardia para retrasar el envejecimiento celular y revitalizar su energía."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de usar si el cliente tiene una enfermedad del hígado o de los riñones. Respetar la porción indicada.",
+    "foodInteractions": "Tomar por la mañana junto con el desayuno que incluya grasas saludables (huevo, aguacate o lácteos) para maximizar la absorción del trans-resveratrol y la quercetina.",
+    "interactions": "La piperina y el resveratrol pueden modular la absorción hepática e intestinal de medicamentos de prescripción (CYP3A4). Consultar con el médico si se toman anticoagulantes, inmunosupresores o antihipertensivos, espaciando la toma al menos 2 a 3 horas.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -3298,8 +3298,8 @@ window.manualData.productos = [
       "Protección con vitamina E natural: incluye más de 100 mg de vitamina E para blindar las células contra la oxidación y asegurar la pureza del aceite."
     ],
     "contraindications": "Personas con trastornos hemorrágicos, en tratamiento anticoagulante, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar junto con las comidas principales (desayuno o comida) para favorecer su digestión mediante la secreción biliar y evitar el reflujo con olor a pescado.",
+    "interactions": "Dosis elevadas de omega 3 (cercanas a 3 g) pueden prolongar el tiempo de sangrado; consultar con el médico si se toman anticoagulantes, antiagregantes plaquetarios o antes de someterse a cirugías.",
     "packageContent": "90 softgels"
   },
   {
@@ -3320,8 +3320,8 @@ window.manualData.productos = [
       "Frasco económico de 100 días: presentación rendidora con vitamina E antioxidante que cubre más de tres meses de suplementación continua."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar con alimentos ricos en grasas para optimizar la asimilación del EPA y DHA y reducir cualquier sensación de repetición o reflujo.",
+    "interactions": "Consultar con el médico si se toman medicamentos anticoagulantes o antiagregantes plaquetarios por posible incremento en el tiempo de hemorragia.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -3342,8 +3342,8 @@ window.manualData.productos = [
       "Control de lípidos en sangre: promueve arterias despejadas, flujo sanguíneo regular y niveles equilibrados de triglicéridos y colesterol."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia al pescado, trastornos de coagulación o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede hacer que un sangrado tarde más en detenerse si se combina con medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar repartido con las comidas principales (desayuno y comida) para facilitar su emulsión digestiva y asegurar un óptimo aprovechamiento metabólico sin malestar gástrico.",
+    "interactions": "Por su alta concentración de EPA y DHA, consultar indispensablemente si se administran anticoagulantes (warfarina) o antiagregantes (aspirina, clopidogrel) ante el riesgo incrementado de hematomas y sangrado.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -3388,8 +3388,8 @@ window.manualData.productos = [
       "Apoyo nutricional en tratamiento oncológico: Reishi, Shiitake y guanábana aportan los antioxidantes y beta-glucanos que el cuerpo necesita durante quimioterapia o radioterapia para mantener defensas activas y reducir el daño oxidativo. Siempre bajo supervisión del oncólogo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (polen) o a alguno de los componentes, o bajo tratamiento con anticoagulantes, inmunosupresores o antidiabéticos deben consultar a un profesional de la salud. Por el diente de león, no usar sin valoración médica si hay cálculos u obstrucción de las vías biliares, enfermedad del hígado o indicación de restringir líquidos.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no iniciar este suplemento sin revisión del oncólogo: sus extractos pueden interferir con algunos tratamientos. Revisar también su combinación con anticoagulantes, inmunosupresores, antidiabéticos y diuréticos. El polen puede causar una reacción alérgica en personas sensibles.",
+    "foodInteractions": "Tomar preferentemente con alimentos del desayuno o la comida para asegurar una excelente tolerancia gástrica ante los extractos vegetales concentrados.",
+    "interactions": "Durante quimioterapia, radioterapia u otro tratamiento oncológico, no consumir sin autorización expresa del oncólogo, ya que sus antioxidantes y extractos activos pueden interferir con la eficacia de las terapias. Consultar también si toma anticoagulantes, inmunosupresores, antidiabéticos o diuréticos.",
     "packageContent": "60 tabletas"
   },
   {
@@ -3410,8 +3410,8 @@ window.manualData.productos = [
       "Confort articular y movilidad: ayuda a regenerar el cartílago y favorece la flexibilidad de rodillas, codos y columna en personas activas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Si el cliente tiene problemas de riñón, su médico debe valorar la cantidad de proteína que puede consumir. Evitar exceder la porción indicada.",
+    "foodInteractions": "Disolver en agua, té, café o jugo cítrico; puede tomarse a cualquier hora del día, preferentemente junto con alimentos o bebidas con vitamina C para optimizar su asimilación.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con insuficiencia renal o restricción estricta de proteínas en la dieta, consultar al médico antes de consumirlo.",
     "packageContent": "1 kg"
   },
   {
@@ -3432,8 +3432,8 @@ window.manualData.productos = [
       "Lubricación y amortiguación articular: apoya la síntesis del líquido sinovial en las articulaciones, mejorando la comodidad y flexibilidad al caminar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Si el cliente tiene problemas de riñón, su médico debe valorar la cantidad de proteína que puede consumir. Evitar exceder la porción indicada.",
+    "foodInteractions": "Tomar disuelto en agua o jugo preferentemente con los alimentos; asegurar un consumo suficiente de agua durante el día para maximizar la hidratación de los tejidos promovida por el ácido hialurónico.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con insuficiencia renal o bajo tratamiento médico continuo, espaciar 2 horas de cualquier medicamento y consultar al médico tratante.",
     "packageContent": "990 g"
   },
   {
@@ -3455,8 +3455,8 @@ window.manualData.productos = [
       "Aporte de cromo para el metabolismo: ayuda a que el cuerpo aproveche mejor la energía de los nutrientes de la dieta diaria."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal, trastornos de la tiroides o bajo tratamiento con antidiabéticos, anticoagulantes o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El cromo puede cambiar el efecto de medicamentos para controlar el azúcar. Consultar antes de combinarlos.",
+    "foodInteractions": "Tomar con alimentos en el desayuno o la comida para prevenir molestias gástricas derivadas de la vitamina C y favorecer la sinergia antioxidante de los bioflavonoides y el escaramujo.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo con anticoagulantes o quimioterapia, espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "researchNote": {
       "focus": "Sinergia de vitamina C, zinc quelado y extractos de rosa para piel e inmunidad",
       "text": "Mecanismo biológico en tejido dérmico e inmune: el zinc actúa como cofactor estructural en la síntesis de ARN y ADN, imprescindible para la proliferación de fibroblastos y queratinocitos. Al asociarse con la vitamina C y los taninos suaves de Rosa gallica, se produce una acción antioxidante cruzada que acelera la reparación de la barrera cutánea y refuerza la respuesta defensiva.",
@@ -3492,8 +3492,8 @@ window.manualData.productos = [
       "Ideal para dietas bajas en carbohidratos (Keto) y deportistas: elimina la fatiga, el mareo y la debilidad por pérdida de sales minerales."
     ],
     "contraindications": "Personas con alteraciones renales severas o uso de diuréticos ahorradores de potasio deben consultar a su médico antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma ciertos medicamentos para la presión o para eliminar líquidos que pueden aumentar el potasio. El médico o farmacéutico debe revisar la combinación.",
+    "foodInteractions": "Tomar junto con las comidas principales acompañado de un vaso grande de agua (250 ml) para favorecer una dispersión osmótica suave y prevenir molestias estomacales derivadas del potasio y magnesio.",
+    "interactions": "Precaución prioritaria: no combinar con medicamentos que eleven el potasio sérico, como diuréticos ahorradores de potasio (espironolactona) o antihipertensivos tipo IECA/ARA II (captopril, enalapril, losartán), por riesgo de hiperpotasemia. Por los minerales, espaciar al menos 2 horas de antibióticos y bisfosfonatos.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -3514,8 +3514,8 @@ window.manualData.productos = [
       "Nutrición prebiótica activa: la inulina de agave alimenta selectivamente a las bacterias benéficas para que colonicen y se multipliquen con rapidez."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+    "foodInteractions": "Tomar preferentemente con alimentos o 20 a 30 minutos antes de una comida ligera con agua al tiempo (evitando líquidos excesivamente calientes) para maximizar la supervivencia de las cepas probióticas al paso por el estómago.",
+    "interactions": "Si se administran antibióticos orales, estos inactivan a las bacterias benéficas; es fundamental separar la toma al menos 2 a 3 horas de cualquier antibiótico. En personas bajo tratamiento inmunosupresor, consultar previamente al médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Repoblación de microbiota intestinal y confort digestivo",
@@ -3550,8 +3550,8 @@ window.manualData.productos = [
       "Refuerzo inmunológico y prebiótico: la vitamina C fortalece las defensas naturales y la inulina de achicoria mantiene activas y nutridas a las bacterias buenas."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+    "foodInteractions": "Tomar preferentemente con alimentos o 20 a 30 minutos antes de una comida ligera acompañado de un vaso de agua al tiempo para asegurar la supervivencia y asentamiento de las bacterias benéficas.",
+    "interactions": "Separar al menos 2 a 3 horas de la toma de antibióticos orales para evitar la destrucción de las cepas probióticas. En pacientes bajo tratamiento inmunosupresor o medicación de uso continuo, se aconseja consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Salud de microbiota urogenital e intestinal femenina",
@@ -3572,26 +3572,26 @@ window.manualData.productos = [
     "id": 131,
     "code": "7500645000449",
     "name": "Probióticos 100 Billones 500MG ZN",
-    "benefitSummary": "Megadosis de 100 billones de probióticos multicepa para regeneración intestinal profunda y colon irritable",
+    "benefitSummary": "Megadosis de 100 billones de probióticos con 8 cepas para regeneración intestinal profunda y colon irritable",
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2022/08/probioticos-2.jpg",
-    "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 7 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus) con inulina de agave. Diseñada para casos de disbiosis severa, síndrome de intestino irritable, tratamientos médicos agresivos o inflamación intestinal crónica.",
-    "ingredients": "Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 61.3 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 61.3 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 61.3 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 61.3 mg), Lactobacillus casei BGP 93 (25 billones UFC, 61.3 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 61.3 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 61.3 mg), inulina de agave (10 mg) por cápsula.",
+    "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 8 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus). Diseñada para casos de disbiosis severa, síndrome de intestino irritable, recuperación postratamientos médicos o inflamación intestinal crónica.",
+    "ingredients": "Bifidobacterium breve SP 85 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 62.5 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 62.5 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 62.5 mg), Lactobacillus casei BGP 93 (25 billones UFC, 62.5 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 62.5 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 62.5 mg) por cápsula.",
     "serving": "1 cápsula (500 mg)",
     "timing": "Con alimentos",
     "intakeInstructions": "Tomar 1 cápsula al día con alimentos. Refrigerar después de abrir.",
     "benefits": [
-      "Máxima potencia de repoblación intestinal: aporta una megadosis de 100 billones de microorganismos vivos con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
-      "Sinergia multicepa especializada: incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4 para abarcar integralmente el intestino delgado y el colon.",
-      "Regulación del tránsito y alivio intestinal: normaliza las evacuaciones tanto en digestión lenta como en episodios de heces sueltas, mientras la inulina de agave aporta fibra prebiótica que nutre a las colonias benéficas."
+      "Máxima potencia de repoblación intestinal: aporta 100 billones de microorganismos vivos con 8 cepas de alta pureza, incluyendo Bifidobacterium breve SP 85, Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37 y Lactobacillus acidophilus LA3.",
+      "Sinergia multicepa especializada: combina Lactobacillus delbrueckii ssp. bulgaricus SP 96, Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4 para colonizar integralmente intestino delgado y colon.",
+      "Regulación del tránsito y alivio intestinal: normaliza las evacuaciones tanto en digestión lenta como en episodios de heces sueltas, ayudando a desinflamar el vientre y disminuir la formación de gases."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con inmunosupresión grave o bajo tratamiento con inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de usar si el cliente toma medicamentos que disminuyen la actividad de las defensas, como algunos tratamientos después de un trasplante.",
+    "foodInteractions": "Tomar preferentemente con alimentos o 20 a 30 minutos antes de una comida ligera con agua a temperatura ambiente para asegurar la máxima viabilidad de los microorganismos a través del tracto digestivo.",
+    "interactions": "Los antibióticos orales inactivan las bacterias benéficas; es indispensable separar la toma al menos 2 a 3 horas antes o después del antibiótico. En pacientes con inmunosupresión o bajo polifarmacia, consultar previamente con su médico o farmacéutico.",
     "packageContent": "60 cápsulas",
     "researchNote": {
       "focus": "Microbiota de alta concentración y síndrome de intestino irritable",
-      "text": "Por qué elegir una fórmula de 100 billones multicepa: la diversidad bacteriana es clave para la salud del microbioma. La combinación de cepas de Bifidobacterium y Lactobacillus reproduce la complejidad ecológica del colon humano, ayudando a modular la inflamación y fortalecer las uniones estrechas del epitelio intestinal.",
+      "text": "Por qué elegir una fórmula de 100 billones multicepa: la diversidad bacteriana es clave para la salud del microbioma. La combinación de 8 cepas de Bifidobacterium, Lactobacillus y Streptococcus reproduce la complejidad ecológica del colon humano, ayudando a modular la inflamación y fortalecer las uniones estrechas del epitelio intestinal.",
       "sources": [
         {
           "title": "PubMed NIH: mezclas probióticas multicepa en trastornos digestivos funcionales",
@@ -3623,8 +3623,8 @@ window.manualData.productos = [
       "Drenaje de líquidos y balance con jamaica y lúpulo: la flor de jamaica promueve la eliminación de líquidos retenidos, mientras el lúpulo y la espirulina brindan calma estomacal y nutrición mineral."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con antidiabéticos, antihipertensivos, anticoagulantes o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene cafeína del té verde. Puede aumentar el efecto de otros estimulantes.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno o del almuerzo con un vaso de agua para favorecer la función termogénica y digestiva. Evitar por la tarde o noche para no alterar el descanso debido al té verde.",
+    "interactions": "Contiene cafeína natural del té verde y cromo; consultar si toma estimulantes, medicamentos antidiabéticos (por el cromo y té verde) o antihipertensivos. Espaciar al menos 2 horas de medicamentos de prescripción.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -3645,8 +3645,8 @@ window.manualData.productos = [
       "Digestión de grasas: la raíz de lima y la lecitina de soya apoyan la digestión de comidas pesadas y el vaciamiento biliar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la soya o a la linaza, con obstrucción intestinal o bajo tratamiento anticoagulante deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha advierte que la vitamina K de la linaza puede cambiar el efecto de medicamentos para evitar coágulos. Revisar la combinación antes de usar.",
+    "foodInteractions": "Tomar junto con alimentos y un vaso completo de agua (250 ml), asegurando abundante hidratación a lo largo del día para que la linaza y los mucílagos de la malva ejerzan su efecto lubricante intestinal.",
+    "interactions": "La linaza y los mucílagos pueden formar un gel que retrasa o disminuye la absorción de medicamentos orales; separar la toma al menos 2 horas de cualquier fármaco. Por su contenido de ácidos grasos y fitonutrientes, consultar al médico o farmacéutico si toma anticoagulantes.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Emolientes botánicos y lubricación intestinal",
@@ -3682,8 +3682,8 @@ window.manualData.productos = [
       "Sabor auténtico y antioxidantes con cacao: elaborado con cacao en polvo natural que brinda un agradable sabor a chocolate y flavonoides protectores para el organismo."
     ],
     "contraindications": "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua o bebida vegetal según el objetivo calórico del plan de alimentación.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "488 g"
   },
   {
@@ -3705,8 +3705,8 @@ window.manualData.productos = [
       "Fórmula 100% limpia y vegana: libre de gomas artificiales, lácteos, gluten y soya, ideal para personas con digestión sensible."
     ],
     "contraindications": "Personas con condiciones médicas preexistentes, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento disuelta en agua fría o bebida vegetal preferida para apoyar la recuperación y síntesis de masa muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "488 g"
   },
   {
@@ -3728,8 +3728,8 @@ window.manualData.productos = [
       "Aporte botánico con baya dorada: la uchuva (Physalis peruviana) enriquece la fórmula con fitonutrientes naturales protectores."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con anticoagulantes o hipotensores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos o bajar la presión arterial.",
+    "foodInteractions": "Tomar obligatoriamente junto con una comida que contenga grasas saludables (como huevo, aguacate, frutos secos, lácteos o aceite de oliva), ya que la CoQ10 es liposoluble y requiere lípidos dietarios para absorberse de forma óptima.",
+    "interactions": "Estructuralmente similar a la vitamina K; puede reducir la eficacia de medicamentos anticoagulantes como la warfarina. También puede tener un leve efecto reductor sobre la presión arterial y la glucosa; consultar al médico si toma antihipertensivos o anticoagulantes.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -3751,8 +3751,8 @@ window.manualData.productos = [
       "Recarga de vitalidad con jalea real: nutre a profundidad el organismo, revitaliza la piel y el cabello y aporta energía limpia para rendir todo el día."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a productos de la colmena (jalea real), trastornos hormonales sensibles o bajo tratamiento con anticoagulantes, antidiabéticos o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, controlar el azúcar o disminuir la actividad de las defensas, como los usados después de un trasplante.",
+    "foodInteractions": "Tomar con alimentos, preferentemente en el desayuno o la comida, acompañado de un vaso de agua para favorecer la absorción de adaptógenos y evitar malestar gástrico.",
+    "interactions": "El shatavari contiene saponinas con actividad fitoestrogénica; consultar al médico en personas bajo terapia hormonal o condiciones estrógeno-dependientes. La schisandra puede acelerar o frenar el metabolismo hepático de ciertos fármacos (CYP3A4); espaciar la toma al menos 2 horas.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -3774,8 +3774,8 @@ window.manualData.productos = [
       "Sinergia con vitamina C: apoya la síntesis natural de colágeno en los vasos sanguíneos y refuerza la respuesta defensiva del organismo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con trastornos de coagulación o bajo tratamiento con anticoagulantes, antiagregantes, antidiabéticos o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El resveratrol puede cambiar la forma en que el cuerpo procesa algunos medicamentos a través del hígado. Si el cliente sigue un tratamiento, revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar junto con los alimentos principales, de preferencia con una comida que incluya grasas saludables para potenciar la biodisponibilidad del resveratrol.",
+    "interactions": "Por sus propiedades fluidificantes y acción sobre enzimas hepáticas, consultar con el médico si el cliente toma anticoagulantes (warfarina), antiagregantes plaquetarios (aspirina) o medicamentos de estrecho margen terapéutico.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -3797,8 +3797,8 @@ window.manualData.productos = [
       "Fórmula herbal sinérgica: concentra las bondades de las hierbas diuréticas mexicanas en cápsulas prácticas para tomar diariamente."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal crónica, insuficiencia cardíaca, hipertensión no controlada o bajo tratamiento con diuréticos, litio o antihipertensivos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con medicamentos para eliminar líquidos o tratar la presión arterial.",
+    "foodInteractions": "Tomar con los alimentos principales y acompañar obligatoriamente con abundante agua potable (mínimo de 1.5 a 2 litros al día) para facilitar el efecto drenante de las vías urinarias.",
+    "interactions": "Consultar con el médico si toma diuréticos de prescripción, antihipertensivos o sales de litio, ya que las plantas acuaréticas (cola de caballo, palo azul) pueden potenciar la pérdida de líquidos y alterar los niveles de electrolitos y litio.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -3819,8 +3819,8 @@ window.manualData.productos = [
       "Seguro y sin aloína: libre de aloína laxante, apto para tomarlo antes de cada alimento para preparar el estómago."
     ],
     "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes de cada comida o en ayunas para que los mucílagos de la sábila y el nopal, junto con el cuachalalate, formen una capa protectora sobre la mucosa gástrica.",
+    "interactions": "Por su contenido de mucílagos y fibra soluble, puede retardar o reducir la absorción de medicamentos orales; se recomienda espaciar la toma al menos 2 horas de cualquier fármaco y consultar con su médico si toma medicamentos para la diabetes o diuréticos.",
     "packageContent": "1 L",
     "researchNote": {
       "focus": "Protección botánica de mucosas digestivas",
@@ -3869,8 +3869,8 @@ window.manualData.productos = [
       "Relajación digestiva y defensas: el magnesio y las vitaminas B6 y B12 relajan los músculos digestivos mientras el zinc y el selenio protegen las células."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, enfermedad renal o hepática, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos, diuréticos o inmunosupresores deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La sábila puede causar cólicos o diarrea según su preparación. Si aparecen, suspender el consumo y consultar. Revisar la combinación si toma medicamentos para el azúcar, para evitar coágulos o diuréticos.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con las comidas principales con un vaso de agua para activar la digestión y reducir la acumulación de gases y pesadez.",
+    "interactions": "El jengibre, la sábila y el copalchi pueden interactuar con fármacos antidiabéticos, diuréticos y anticoagulantes. En personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "60 cápsulas de 1000 mg"
   },
   {
@@ -3891,8 +3891,8 @@ window.manualData.productos = [
       "Salud capilar, uñas y defensas: fortalece el sistema inmunitario y contribuye al mantenimiento de cabello y uñas firmes."
     ],
     "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Consumir con el desayuno o comida del mediodía acompañado de un vaso de agua; los alimentos favorecen una excelente tolerancia digestiva.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 tabletas"
   },
   {
@@ -3914,8 +3914,8 @@ window.manualData.productos = [
       "Soporte muscular y defensas: las vitaminas B6 y D3 fortalecen la recuperación neuromuscular y mantienen el sistema inmunológico activo."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a algún componente, trastornos hepáticos o renales, o bajo tratamiento con hormonas, anticoagulantes o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha advierte que el shilajit sin purificar puede contener metales pesados. Verificar la calidad y el origen del producto.",
+    "foodInteractions": "Tomar en el desayuno o con la comida del mediodía con alimentos que contengan grasas saludables (huevo, aguacate) para absorber la vitamina D3 y los fitoesteroles, y amortiguar la intensidad del shilajit en el estómago.",
+    "interactions": "Por el contenido de zinc, espaciar al menos 2 horas de antibióticos (tetraciclinas, fluoroquinolonas). Por su perfil modulador hormonal e hipoglucemiante leve, consultar al médico si se toman antidiabéticos o terapia hormonal sustitutiva.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -3936,8 +3936,8 @@ window.manualData.productos = [
       "Fórmula de rescate puntual para personas que requieren un desbloqueo rápido; debe tomarse con abundante agua y suspenderse al normalizar la evacuación."
     ],
     "contraindications": "No administrar en casos de dolor abdominal agudo, diarrea, embarazo, lactancia, o en menores de 5 años sin prescripción médica.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El uso prolongado puede hacer que el intestino dependa del producto para evacuar. La fórmula también requiere revisión profesional antes de recomendarse.",
+    "foodInteractions": "Tomar por la noche al acostarse acompañado de un vaso lleno de agua (250 ml). Mantener abundante hidratación durante todo el día siguiente para favorecer la acción laxante y compensar pérdidas hídricas.",
+    "interactions": "Laxante estimulante de acción potente. Su uso junto con diuréticos tiazídicos, de asa o corticoides aumenta el riesgo de pérdida excesiva de potasio (hipocalemia) y arritmias, y puede incrementar la toxicidad de glucósidos digitálicos (digoxina). No administrar simultáneamente con medicamentos orales; distanciar las tomas al menos 2 horas.",
     "researchNote": {
       "focus": "Laxante estimulante de potencia alta para estreñimiento severo ocasional",
       "text": "Función de rescate en el colon: con 100 mg de agente estimulante por tableta, actúa promoviendo contracciones colónicas profundas que movilizan heces endurecidas y acumuladas. Se clasifica como un producto de intervención puntual o rescate cuando otros métodos más suaves no han surtido efecto. Se recomienda tomar una tableta por la noche acompañada de un vaso grande de agua y restringir su uso a episodios aislados (máximo 5 a 7 días).",
@@ -3983,8 +3983,8 @@ window.manualData.productos = [
       "Confort digestivo e intestinal: el jengibre ayuda a una digestión liviana mientras la inulina de agave aporta fibra soluble para la flora intestinal."
     ],
     "contraindications": "Personas con alergia a la soya no deben consumir este producto. Mujeres embarazadas o en lactancia deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar junto con los alimentos del desayuno o la comida; la presencia de comida ayuda a emulsionar las grasas y previene molestias estomacales leves por el jengibre.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de riesgo; en personas polimedicadas o con tratamientos anticoagulantes por el jengibre, espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -4005,8 +4005,8 @@ window.manualData.productos = [
       "Rico sabor a piña caliente: una taza relajante antes de dormir que limpia el aparato digestivo mientras descansas."
     ],
     "contraindications": "Personas con enfermedades crónicas, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no reporta combinaciones problemáticas importantes. Si el cliente toma medicamentos, conviene revisar la combinación con su médico o farmacéutico.",
+    "foodInteractions": "Tomar caliente preferentemente por la noche después de la cena, o tras una comida copiosa; asegurar un consumo constante de agua (al menos 2 litros diarios) para optimizar la acción de la linaza sobre el tránsito intestinal.",
+    "interactions": "Los mucílagos de la linaza pueden retrasar la absorción de medicamentos orales; se recomienda distanciar su toma al menos 2 horas de cualquier fármaco. Por su leve efecto diurético y contenido de cafeína en los tés, consultar al médico si se toman antihipertensivos o diuréticos.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Infusión herbal depurativa y regularidad intestinal",
@@ -4042,8 +4042,8 @@ window.manualData.productos = [
       "Relajación muscular con calcio y magnesio: equilibran la respuesta física frente a la cafeína, evitando tensión muscular o nerviosismo."
     ],
     "contraindications": "No se use durante el embarazo y lactancia. Contiene cafeína y guaraná, evitar en personas sensibles. Consultar a médico si se tiene intolerancia a los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La cafeína puede aumentar el efecto de otros estimulantes y cambiar el de algunos medicamentos. Revisar la combinación si el cliente sigue un tratamiento.",
+    "foodInteractions": "Tomar por la mañana con el desayuno que contenga grasas saludables (para aprovechar la vitamina E y CoQ10). Evitar tomar por la tarde o noche debido al contenido de cafeína y guaraná para no perturbar el descanso.",
+    "interactions": "Contiene estimulantes (cafeína, guaraná) y minerales; evitar combinar con otros estimulantes, descongestionantes o en personas con hipertensión descontrolada. Por el calcio y magnesio, espaciar al menos 2 horas de antibióticos.",
     "packageContent": "100 tabletas"
   },
   {
@@ -4064,8 +4064,8 @@ window.manualData.productos = [
       "Toma cómoda en cápsulas: evita el sabor sumamente amargo del té tradicional, permitiendo un tratamiento diario y constante sin molestias al paladar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con enfermedad renal, hipotensión, diabetes, o bajo tratamiento con diuréticos, antihipertensivos o antidiabéticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar la eliminación de líquidos. Consultar si el cliente tiene alteraciones de las sales y minerales del cuerpo.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con las comidas principales acompañado de un vaso de agua (250 ml).",
+    "interactions": "Posee efecto diurético y favorece el metabolismo lipídico y de glucosa; puede potenciar la acción de medicamentos diuréticos, antihipertensivos e hipoglucemiantes orales. En personas bajo tratamiento médico continuo, separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Eryngium carlinae y metabolismo lipídico tradicional",
@@ -4117,8 +4117,8 @@ window.manualData.productos = [
       "Sueño lúcido y reparador: calma la sobreactividad eléctrica cerebral nocturna para un descanso profundo sin sensación de pesadez al despertar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con insuficiencia renal o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para evitar coágulos, controlar el azúcar o eliminar líquidos (diuréticos).",
+    "foodInteractions": "Tomar con alimentos ligeros por la mañana o bien por la tarde/noche para apoyar la función cognitiva y el descanso cerebral; no causa la laxitud digestiva de otros magnesios.",
+    "interactions": "Separar la toma al menos 2 a 3 horas de antibióticos (tetraciclinas y quinolonas), bifosfonatos y levotiroxina para evitar que el magnesio reduzca su absorción intestinal.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -4156,8 +4156,8 @@ window.manualData.productos = [
       "Relajación muscular nocturna: el magnesio evita contracturas y sacudidas musculares involuntarias al momento de conciliar el descanso."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes, trastornos hepáticos o bajo tratamiento con antidepresivos de prescripción médica, ansiolíticos, hipnóticos o anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede dar sueño. Evitar conducir después de consumirlo.",
+    "foodInteractions": "Tomar preferentemente 30 a 60 minutos antes de dormir con agua o un refrigerio ligero a base de carbohidratos (como fruta o galleta) que favorece el paso del triptófano al cerebro; evitar cenas con exceso de proteínas puras que compiten por su absorción.",
+    "interactions": "No combinar con antidepresivos (ISRS como sertralina o fluoxetina, o IMAO) sin supervisión médica por riesgo de síndrome serotoninérgico. Potencia la acción de medicamentos sedantes y ansiolíticos.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -4178,8 +4178,8 @@ window.manualData.productos = [
       "Verdes desintoxicantes y energía natural: aporta espinaca, apio, pepino, nopal, piña y alfalfa con clorofila purificante, complementados con extracto de té verde y guaraná para activar la vitalidad diaria, y pimienta negra para máxima absorción."
     ],
     "contraindications": "No recomendado durante el embarazo o la lactancia sin consulta médica. Personas sensibles a la cafeína (presente en guaraná y té verde) deben tener precaución. Personas con trastornos hepáticos o que toman anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Contiene aproximadamente 10 a 15 mg de cafeína por porción. Puede aumentar el efecto de otros estimulantes.",
+    "foodInteractions": "Disolver una medida en un vaso grande con agua (250-300 ml) o licuado y tomar por la mañana en ayunas o con el desayuno; mantener una adecuada hidratación a lo largo del día para permitir que la fibra prebiótica se expanda sin generar distensión.",
+    "interactions": "Por su contenido de probióticos, separar al menos 2 a 3 horas de antibióticos orales. La presencia de cúrcuma y alcachofa requiere consultar al médico si se toman medicamentos anticoagulantes o fármacos procesados por el hígado; en general, espaciar al menos 2 horas de cualquier medicamento oral.",
     "packageContent": "200 g",
     "researchNote": {
       "focus": "Fórmulas verdes integrales para digestión y bienestar metabólico",
@@ -4215,8 +4215,8 @@ window.manualData.productos = [
       "Presentación rendidora de 90 cápsulas: 3 meses completos de protección con una sola cápsula al día tomada con alimentos."
     ],
     "contraindications": "No administrar a menores de 12 años. Mujeres embarazadas o en lactancia, personas con alergia al jengibre, trastornos de coagulación o bajo tratamiento con anticoagulantes, antidiabéticos o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El exceso de zinc puede reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra.",
+    "foodInteractions": "Tomar siempre con una comida completa (desayuno o comida); evitar tomar en ayunas, ya que el zinc con el estómago vacío puede provocar náuseas o malestar estomacal súbito.",
+    "interactions": "Separar la toma al menos 2 horas de antibióticos (como tetraciclinas o quinolonas) y de suplementos con hierro o calcio para no interferir en su absorción. Por el jengibre, consultar si usa medicamentos anticoagulantes.",
     "researchNote": {
       "focus": "Zinc elemental con jengibre para absorción gastrointestinal confortable",
       "text": "Ventajas de asociar zinc con Zingiber officinale: la suplementación con zinc en ayunas o dosis elevadas puede ocasionar náusea refleja gástrica. Los gingeroles y shogaoles del jengibre ejercen una acción antiemética y procinética suave, asegurando una excelente tolerancia gástrica mientras el ion zinc ingresa a la circulación para apoyar las enzimas de defensa celular.",
@@ -4252,8 +4252,8 @@ window.manualData.productos = [
       "Dosis diaria completa (20 mg): una sola cápsula al día cubre los requerimientos del cuerpo para más de 300 procesos vitales."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a alguno de los componentes o bajo tratamiento con antibióticos, penicilamina o diuréticos deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Las cantidades altas de zinc pueden reducir la absorción de cobre. La ficha indica dejar al menos 2 horas entre este producto y el calcio, el hierro o la fibra.",
+    "foodInteractions": "Tomar siempre junto con alimentos del desayuno o la comida para prevenir náuseas y malestar estomacal. Evitar tomarlo al mismo tiempo que café cargado o cereales con alto contenido de fitatos que disminuyen su absorción.",
+    "interactions": "El zinc reduce la absorción de antibióticos del grupo de las fluoroquinolonas y tetraciclinas, así como de la levotiroxina; se debe separar la toma un mínimo de 2 a 3 horas. No presenta otras interacciones adversas a dosis habituales.",
     "researchNote": {
       "focus": "Zinc elemental en la maduración leucocitaria y la integridad dérmica",
       "text": "Importancia fisiológica del zinc en el organismo: el zinc es un oligoelemento crucial para la transcripción genética y la producción de citoquinas en los linfocitos T. La deficiencia de zinc se traduce de inmediato en mayor susceptibilidad a infecciones respiratorias y retraso en la cicatrización. Una dosis de 20 mg diarios restaura los depósitos celulares sin sobrecargar las vías de transporte intestinal.",
@@ -4288,8 +4288,8 @@ window.manualData.productos = [
       "Nutrición mineral con avena botánica: aporta oligoelementos vegetales que enriquecen la fórmula para el cuidado diario de huesos, dientes y uñas quebradizas."
     ],
     "contraindications": "Personas con hipercalcemia, insuficiencia renal o que tomen digitálicos deben consultar a su médico antes de consumirlo. No recomendado en caso de hipersensibilidad a alguno de sus componentes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Puede tomarse con o sin alimentos gracias a la alta solubilidad del citrato de calcio; consumirlo preferentemente junto con el almuerzo o cena para favorecer la absorción sinérgica con la vitamina D3.",
+    "interactions": "El calcio quelante puede reducir la absorción de levotiroxina para la tiroides, bisfosfonatos y ciertos antibióticos (quinolonas y tetraciclinas); espaciar la toma al menos 4 horas de la levotiroxina y 2 a 3 horas de los antibióticos y suplementos de hierro.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -4312,8 +4312,8 @@ window.manualData.productos = [
       "Sabor agradable con toque de limón: fórmula deliciosa y dulce que facilita la toma constante tanto en jóvenes como en adultos."
     ],
     "contraindications": "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. No consumir durante el embarazo o periodo de lactancia sin consultar a un profesional de la salud. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar directamente con cuchara o disuelto en una taza de infusión tibia, preferentemente después de los alimentos o antes de descansar para lubricar la garganta y calmar la irritación respiratoria.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con diabetes considerar el aporte de azúcares naturales de la miel, y en polifarmacia espaciar la toma al menos 2 horas de medicamentos orales.",
     "researchNote": {
       "focus": "Jarabe balsámico multitarget para tos, irritación de garganta y defensas",
       "text": "Sinergia botánica y apícola en vías respiratorias: la combinación de miel natural con gordolobo (Verbascum thapsus), saúco (Sambucus nigra) y eucalipto ofrece un triple mecanismo: los mucílagos de la malva calman la irritación mecánica de la mucosa faríngea; las saponinas del gordolobo fluidifican las secreciones bronquiales; y los bioflavonoides del propóleo y saúco refuerzan la defensa antioxidante celular ante infecciones estacionales.",
@@ -4354,8 +4354,8 @@ window.manualData.productos = [
       "Sabor amable sin picor: el ajo negro madurado aporta sus nutrientes sin olor invasivo ni irritar el estómago."
     ],
     "contraindications": "No administrar a menores de 1 año (riesgo de botulismo infantil por la miel). Personas con alergia a productos apícolas (miel, propóleo, polen) o a alguno de los componentes. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo. Contiene azúcares naturales; consumir con moderación en caso de diabetes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar directamente o diluido en infusión tibia, de preferencia con o después de los alimentos matutinos o del mediodía para facilitar una digestión suave y favorecer el confort respiratorio.",
+    "interactions": "Por el extracto de ajo negro, consultar con el médico o farmacéutico si toma anticoagulantes o antiagregantes plaquetarios (como warfarina o aspirina), ya que puede sumar un leve efecto antiagregante.",
     "researchNote": {
       "focus": "Jarabe reforzado con ajo negro y orégano para afecciones respiratorias severas",
       "text": "Por qué la fórmula con ajo negro y orégano es más efectiva en catarros rebeldes: el orégano aporta carvacrol que combate microorganismos que colonizan el tracto respiratorio superior, mientras el ajo negro fermentado suministra polifenoles y S-alil-cisteína con alto poder antiinflamatorio bronquial. La base de miel y gordolobo garantiza una acción emoliente prolongada sobre la mucosa faríngea.",
@@ -4391,8 +4391,8 @@ window.manualData.productos = [
       "Vitalidad y rendimiento físico: las vitaminas b2, b6 y b12 junto con el zinc y el hierro nutren las células, ayudan a formar glóbulos rojos y reducen la sensación de fatiga corporal."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con las comidas principales acompañado de un vaso de agua; los alimentos favorecen la tolerancia gástrica de los minerales y facilitan la asimilación de la cúrcuma y la glucosamina.",
+    "interactions": "Por su contenido de glucosamina y cúrcuma, consultar con el médico en caso de tomar medicamentos anticoagulantes o antiagregantes plaquetarios (como warfarina o aspirina), o antidiabéticos orales. Separar al menos 2 horas de otros medicamentos.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -4414,8 +4414,8 @@ window.manualData.productos = [
       "Recuperación electrolítica balanceada: la sal rosa aporta oligoelementos que hidratan y mejoran la recuperación neuromuscular post-entrenamiento."
     ],
     "contraindications": "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud antes de consumir este producto. Este producto es fabricado en instalaciones que también procesan lácteos y derivados de soya.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua o leche vegetal para favorecer la recuperación física y la masa muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "578 g"
   },
   {
@@ -4437,8 +4437,8 @@ window.manualData.productos = [
       "Soporte para huesos y músculos: el calcio, magnesio, potasio, hierro, vitamina D3 y vitamina K favorecen la contracción muscular, la oxigenación y la solidez ósea."
     ],
     "contraindications": "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir junto con el desayuno o la comida del mediodía; la presencia de alimentos previene la irritación gástrica de los minerales y mejora la absorción de las vitaminas liposolubles.",
+    "interactions": "Contiene vitamina K y minerales que pueden interactuar con fármacos; consultar al médico si se toman anticoagulantes (warfarina), y separar la toma al menos 2 a 3 horas de antibióticos y 4 horas de levotiroxina para la tiroides.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -4459,8 +4459,8 @@ window.manualData.productos = [
       "Textura ligera y sabor neutro: se mezcla con facilidad en café, té, licuados o aderezos sin alterar el sabor original de los alimentos."
     ],
     "contraindications": "Personas con enfermedades hepáticas o renales, mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de usar este producto. No exceder la dosis diaria indicada.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir mezclado con alimentos, licuados, aderezos o café; iniciar con dosis pequeñas (media cucharada) y aumentar gradualmente para permitir la adaptación digestiva y evitar náuseas o diarrea.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "420 ml"
   },
   {
@@ -4482,8 +4482,8 @@ window.manualData.productos = [
       "Serenidad y balance funcional: el toronjil calma la tensión nerviosa y brinda equilibrio emocional para una energía despierta sin inquietud."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir con el desayuno o antes de la comida del mediodía acompañado de un vaso de agua; evitar tomarlo por la noche debido a la presencia de té verde y guaraná estimulantes.",
+    "interactions": "Por su contenido de cafeína y plantas adaptógenas, consultar al médico si el cliente toma fármacos antihipertensivos, anticoagulantes, antidepresivos o ansiolíticos; espaciar al menos 2 horas de otros medicamentos.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -4514,15 +4514,15 @@ window.manualData.productos = [
     "ingredients": "Extracto de Ashwagandha (Withania somnifera) estandarizado al 2.5% de withanólidos (600 mg por porción diaria), L-Teanina (200 mg por porción diaria), Bisglicinato de Magnesio (aporta 225 mg de magnesio elemental por porción diaria).",
     "serving": "Porción diaria por confirmar en la etiqueta vigente",
     "timing": "Preferentemente con alimentos",
-    "intakeInstructions": "Confirmar la porción diaria con la etiqueta vigente o el fabricante antes de indicar una dosis: la ficha registra 1 cápsula en uso sugerido y 3 cápsulas como porción completa.",
+    "intakeInstructions": "Tomar 1 cápsula al día como toma habitual de mantenimiento, o hasta 3 cápsulas repartidas con los alimentos según la necesidad individual o indicación profesional.",
     "benefits": [
       "Tranquilidad activa durante el día: modula los picos de cortisol para enfrentar jornadas difíciles con serenidad y cabeza fría.",
       "Cero nudos ni tensión muscular: el bisglicinato de magnesio relaja contracturas en espalda, cuello y mandíbula provocadas por estrés.",
       "Mente enfocada y sin somnolencia: la L-Teanina genera una calma despierta que permite concentrarse y trabajar sin agobio."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula. Personas con hipertiroidismo, trastornos autoinmunitarios o bajo tratamiento farmacológico (sedantes, ansiolíticos, hipoglucemiantes, antihipertensivos) deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con alimentos matutinos para control del estrés diurno, o con la cena para favorecer la relajación y el descanso reparador; tomar con alimentos disminuye la posibilidad de heces blandas por el magnesio.",
+    "interactions": "Puede potenciar medicamentos sedantes, ansiolíticos y fármacos para la presión arterial o la glucosa. Separar la toma al menos 2 horas de antibióticos orales y medicamentos para la tiroides.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -4544,8 +4544,8 @@ window.manualData.productos = [
       "Jarabe bebible de 1 Litro: presentación familiar generosa para tomar antes de cada comida y mantener el estómago en calma todo el día."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente en ayunas o 20 a 30 minutos antes de los alimentos para que los mucílagos del nopal y el aloe, junto con el cuachalalate, recubran y calmen la mucosa digestiva.",
+    "interactions": "Por su abundancia de mucílagos y fibra soluble, puede retrasar o reducir la absorción de medicamentos orales; se recomienda espaciar la toma al menos 2 horas de cualquier tratamiento farmacológico y consultar con su médico o farmacéutico si toma hipoglucemiantes o diuréticos.",
     "packageContent": "990 ml",
     "researchNote": {
       "focus": "Gastroprotección y confort digestivo",
@@ -4577,8 +4577,8 @@ window.manualData.productos = [
       "Infusión tradicional en sobres: práctico formato de 30 sobres individuales para disfrutar caliente o frío a lo largo del día."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar entre comidas o después del desayuno; evitar consumirlo junto con las comidas principales si se tiene deficiencia de hierro, ya que los taninos reducen la absorción del hierro vegetal.",
+    "interactions": "Por su contenido de cafeína y catequinas, consultar al médico si se toman anticoagulantes (warfarina), antihipertensivos o ansiolíticos; evitar combinar con otros estimulantes.",
     "packageContent": "30 sobres"
   },
   {
@@ -4599,8 +4599,8 @@ window.manualData.productos = [
       "Fuerza muscular e inmunidad: contribuye a la fuerza de la contracción muscular, reduce el riesgo de caídas en adultos mayores y fortalece las defensas respiratorias."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia sin supervisión médica. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar junto con una comida principal que aporte grasas saludables; la vitamina D3 es liposoluble y su absorción intestinal se maximiza en presencia de lípidos en los alimentos.",
+    "interactions": "No presenta interacciones farmacológicas frecuentes a dosis estándar; en caso de tomar diuréticos tiazídicos, digitálicos (digoxina) o polifarmacia, consultar con su médico para monitorear los niveles de calcio sérico.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -4622,8 +4622,8 @@ window.manualData.productos = [
       "Presentación generosa de 240 g: frasco rendidor para aplicar de 2 a 3 veces al día con masaje suave en zonas adoloridas."
     ],
     "contraindications": "No se use en menores de 12 años. Evitar contacto con ojos, mucosas y heridas abiertas. Si se presenta irritación o reacción alérgica, suspender su uso y consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Al ser un producto de aplicación tópica externa, no interactúa con los alimentos ni bebidas.",
+    "interactions": "Al ser de uso externo local, no presenta interacciones farmacológicas sistémicas conocidas; por su contenido de salicilato de metilo, evitar aplicarlo simultáneamente con otros fármacos tópicos en la misma zona o en áreas muy extensas si se usan anticoagulantes orales.",
     "packageContent": "240 g"
   },
   {
@@ -4645,8 +4645,8 @@ window.manualData.productos = [
       "Salud celular prostática: el zinc de alta dosis y la vitamina B6 protegen las células masculinas y apoyan la función hormonal cotidiana."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (polen) deben evitar su consumo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con el desayuno o la comida del mediodía; la presencia de Omega 3, licopeno y vitamina E requiere grasas de la dieta para su óptima absorción, y el zinc se tolera mejor con alimentos.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) por el contenido de zinc. Por sus extractos botánicos de soporte urinario (buchu, pelos de elote, perejil) y fitoesteroles (pygeum), consultar al médico si se toman diuréticos de prescripción o tratamientos para la próstata.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -4688,8 +4688,8 @@ window.manualData.productos = [
       "Aroma floral reconfortante: bebida cálida sin cafeína, apta para jóvenes y adultos en cualquier momento de estrés o inquietud."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza caliente o tibia 30 a 45 minutos antes de acostarse o en momentos de tensión nerviosa; evitar combinar con alcohol, café o bebidas estimulantes para no contrarrestar su efecto relajante.",
+    "interactions": "Potencia la somnolencia y relajación si se combina con medicamentos ansiolíticos (benzodiacepinas), inductores del sueño, relajantes musculares, antihistamínicos sedantes o alcohol; consultar si se toman antidepresivos.",
     "packageContent": "30 bolsitas de té"
   },
   {
@@ -4711,8 +4711,8 @@ window.manualData.productos = [
       "Bebida tibia reconfortante para la noche: ideal para tomar bien caliente con una cucharadita de miel antes de dormir para descansar sin tos."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con alergia a productos apícolas (propóleo) deben evitar su consumo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar caliente o tibio después de las comidas o por la tarde/noche para descongestionar las vías respiratorias; no requiere precauciones dietéticas especiales.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en caso de tratamientos crónicos o polifarmacia, se sugiere espaciar la toma al menos 2 horas de los medicamentos orales y consultar con su médico o farmacéutico.",
     "researchNote": {
       "focus": "Infusión pectoral tradicional de bugambilia, gordolobo, eucalipto y saúco",
       "text": "Herbolaria mexicana para el aparato respiratorio: la bugambilia (Bougainvillea glabra) y el tejocote (Crataegus mexicana) forman parte de la farmacopea tradicional mexicana para el pecho cerrado. En infusión caliente, sus flavonoides y taninos suaves bañan la laringe mientras los vapores de cineol del eucalipto facilitan la expansión alveolar y la ventilación.",
@@ -4748,8 +4748,8 @@ window.manualData.productos = [
       "Flores seleccionadas en sobres individuales: presentación práctica de 30 sobres para preparar una infusión concentrada en pocos minutos."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir la infusión preferentemente después de los alimentos; no consumir en exceso ni de forma prolongada.",
+    "interactions": "Consultar con el médico si el cliente toma anticoagulantes o antiagregantes plaquetarios, ya que las lactonas de las asteráceas pueden interactuar con los procesos de coagulación; espaciar 2 horas de cualquier medicación oral.",
     "packageContent": "30 sobres"
   },
   {
@@ -4770,8 +4770,8 @@ window.manualData.productos = [
       "Digestión tranquila y ligera: asienta el estómago tras comidas muy condimentadas, salsas o café, evitando que los ácidos suban al esófago."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza caliente preferentemente 20 a 30 minutos antes de comer o justo después de los alimentos para ayudar a neutralizar la sensación de acidez y ardor estomacal.",
+    "interactions": "Por sus compuestos astringentes y taninos, puede interferir con la absorción de minerales (como el hierro) y de medicamentos orales; se sugiere separar la infusión al menos 2 horas de cualquier medicamento o suplemento y consultar con su médico o farmacéutico.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Infusión herbal tradicional para confort estomacal",
@@ -4802,8 +4802,8 @@ window.manualData.productos = [
       "Remedio herbolario de rescate ocasional, ideal para desinflamar el vientre congestionado y recuperar la ligereza digestiva en episodios puntuales."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Uso ocasional (máximo 7 días consecutivos). Personas con afecciones gastrointestinales deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza tibia preferentemente por la noche antes de dormir. Mantener una hidratación abundante durante el día siguiente para facilitar el tránsito intestinal y evitar retortijones o pesadez.",
+    "interactions": "Contiene hojas de sen con derivados antraquinónicos. Puede interactuar con diuréticos tiazídicos, de asa y corticosteroides potenciando la pérdida de potasio y el riesgo de hipocalemia; asimismo, puede potenciar la toxicidad de glucósidos digitálicos (digoxina). No tomar simultáneamente con medicamentos orales; separar al menos 2 horas.",
     "researchNote": {
       "focus": "Infusión herbolaria estandarizada de sen para estreñimiento agudo ocasional",
       "text": "Por qué la hoja de sen es el laxante vegetal de rescate más reconocido: las hojas de Senna alexandrina contienen senósidos naturales que llegan intactos al colon, donde la flora bacteriana los activa en metabolitos que estimulan las contracciones propulsoras del intestino e incrementan la secreción de agua y electrolitos. Esto produce un efecto evacuatorio predecible entre 6 y 12 horas después de su ingesta. La Agencia Europea de Medicamentos y la OMS recomiendan su uso puntual para estreñimiento de corto plazo (no más de 7 días continuos).",
@@ -4838,8 +4838,8 @@ window.manualData.productos = [
       "Sabor reconfortante y especiado: una taza caliente que reconforta el cuerpo y acompaña la sobremesa de forma saludable."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Contiene cafeína de forma natural. Consumir con precaución en personas sensibles a la cafeína.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar caliente o tibio inmediatamente después de las comidas principales para agilizar la digestión estomacal, prevenir gases y combatir la pesadez.",
+    "interactions": "El jengibre y la canela pueden influir sobre los niveles de glucosa en sangre y la agregación plaquetaria; se aconseja consultar con el médico si se toman fármacos antidiabéticos o anticoagulantes, espaciando su consumo al menos 2 horas de otros medicamentos.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Termogénesis suave y confort digestivo",
@@ -4874,8 +4874,8 @@ window.manualData.productos = [
       "Bebida dorada desinflamante: reconforta todo el tubo digestivo de forma natural y sin cafeína."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza caliente preferentemente después de las comidas o 15 a 20 minutos antes de alimentos grasos para estimular la bilis y facilitar el vaciado gástrico.",
+    "interactions": "La cúrcuma y el jengibre pueden potenciar el efecto de anticoagulantes, antiagregantes plaquetarios y medicamentos para la diabetes. En personas bajo tratamiento médico continuo o fármacos procesados por el hígado, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Infusión carminativa y antiinflamatoria digestiva",
@@ -4907,8 +4907,8 @@ window.manualData.productos = [
       "Infusión tradicional reconfortante: sobres individuales sin cafeína, apta para toda la familia y para tomar a cualquier hora del día."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza caliente o tibia después de las comidas o por la noche antes de dormir para relajar las paredes digestivas, aliviar cólicos y facilitar la digestión.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Antiespasmódico botánico y calma digestiva",
@@ -4944,8 +4944,8 @@ window.manualData.productos = [
       "Sabor herbal suave y reconfortante: infusión en sobres individuales libre de cafeína, perfecta para disfrutar caliente o fría a lo largo del día."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. Personas con problemas renales o bajo tratamiento médico deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar después de los alimentos y asegurar una ingesta abundante de agua a lo largo del día (1.5 a 2 litros) para respaldar la función diurética y la limpieza del tracto urinario.",
+    "interactions": "Consultar con un profesional de la salud si está tomando medicamentos diuréticos, antihipertensivos o litio, debido a que el incremento en la excreción urinaria puede descompensar electrolitos o elevar la toxicidad del litio.",
     "packageContent": "30 sobres"
   },
   {
@@ -4967,8 +4967,8 @@ window.manualData.productos = [
       "Dosis completa de 1,000 mg diarios: dos cápsulas aportan la concentración óptima recomendada para mantener defensas sólidas todo el año."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente con una comida que contenga algo de grasas saludables (como aguacate o aceite de oliva) para mejorar sustancialmente la absorción intestinal de la quercetina.",
+    "interactions": "Consultar con el médico si se toman antibióticos (como quinolonas), anticoagulantes o antiagregantes plaquetarios, ya que la bromelina y la quercetina pueden potenciar el efecto antiplaquetario y alterar la absorción de ciertos fármacos.",
     "researchNote": {
       "focus": "Quercetina como modulador de la respuesta alérgica y antioxidante vascular",
       "text": "Acción biológica del flavonoide quercetina: la quercetina ejerce un efecto estabilizador sobre la membrana de mastocitos y basófilos, regulando la degranulación y liberación de histamina mediada por alérgenos ambientales. Asimismo, inhibe enzimas proinflamatorias como la lipoxigenasa y fosfolipasa A2, protegiendo el epitelio respiratorio y la elasticidad microvascular.",
@@ -5004,8 +5004,8 @@ window.manualData.productos = [
       "Despeje balsámico de pecho y garganta: el eucalipto y el saúco abren las vías aéreas y reducen la opresión en el pecho desde la primera toma."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 1 año. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente pescado).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con o inmediatamente después de los alimentos del desayuno o la comida para prevenir el retrogusto o reflujo a pescado y optimizar la asimilación de las vitaminas liposolubles A y D.",
+    "interactions": "Consultar con el médico si toma anticoagulantes (como warfarina) o medicamentos retinoides; evitar duplicar suplementos con altas dosis de vitamina A o D sin supervisión médica.",
     "researchNote": {
       "focus": "Aceite de hígado de bacalao y vitaminas A, D3 y C en la inmunidad respiratoria",
       "text": "Papel de las vitaminas A y D en la barrera pulmonar: la vitamina A es indispensable para mantener la integridad de los cilios y el tejido epitelial del árbol bronquial, impidiendo la adherencia de patógenos. La vitamina D3 modula los macrófagos y la expresión de péptidos antimicrobianos en los pulmones, reduciendo la incidencia de infecciones estacionales recurrentes.",
@@ -5041,8 +5041,8 @@ window.manualData.productos = [
       "Presentación en polvo rendidora: permite dosificar con precisión la porción diaria recomendada según las necesidades de cada etapa."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Disolver la porción en agua, jugo o té y consumir junto con o justo antes de las comidas principales para favorecer la regulación de glucosa y su asimilación digestiva.",
+    "interactions": "No presenta interacciones farmacológicas conocidas de gravedad; en personas bajo tratamiento con antidiabéticos (metformina, insulina) monitorear la glucosa por posible sinergia hipoglucemiante, y en personas con polifarmacia se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "50 g"
   },
   {
@@ -5063,8 +5063,8 @@ window.manualData.productos = [
       "Con inulina de agave: fibra prebiótica soluble que protege la microbiota intestinal y optimiza el paso de nutrientes."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 18 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar junto con la cena o con un refrigerio nocturno ligero; el bisglicinato tiene excelente tolerancia gástrica y la glicina apoya la relajación y el descanso nocturno.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos para evitar que el magnesio interfiera en su biodisponibilidad. En caso de tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "120 cápsulas"
   },
   {
@@ -5086,8 +5086,8 @@ window.manualData.productos = [
       "Frescura y alivio térmico inmediato: el saúco aporta antioxidantes que refrescan la piel al instante, desvaneciendo el ardor y la hinchazón en pantorrillas y tobillos."
     ],
     "contraindications": "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Al ser un producto de aplicación tópica externa, no interactúa con los alimentos ni bebidas.",
+    "interactions": "Al ser de uso externo local, no presenta interacciones farmacológicas sistémicas conocidas; evitar aplicar simultáneamente con otras cremas o medicamentos tópicos en la misma zona sin indicación médica.",
     "packageContent": "Gel tópico (cantidad no especificada)"
   },
   {
@@ -5109,8 +5109,8 @@ window.manualData.productos = [
       "Masaje estimulante de descanso: ideal para aplicar al finalizar el día mediante movimientos circulares ascendentes, devolviendo agilidad al caminar."
     ],
     "contraindications": "Uso exclusivamente externo/tópico (no ingerir). Evitar contacto con ojos y mucosas. Si se presenta irritación o reacción alérgica, suspender su uso.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Al tratarse de un gel de uso tópico externo para piernas, no presenta interacción con los alimentos.",
+    "interactions": "Al ser de uso externo local, no presenta interacciones farmacológicas sistémicas conocidas; por su contenido de salicilato de metilo, evitar su aplicación simultánea con otros productos tópicos en la misma zona.",
     "packageContent": "240 g"
   },
   {
@@ -5132,8 +5132,8 @@ window.manualData.productos = [
       "Protección diaria para toda la temporada: fórmula balanceada de 60 cápsulas para tomar dos cápsulas al día durante los meses fríos."
     ],
     "contraindications": "Mujeres embarazadas, en periodo de lactancia, personas con alergia a plantas de la familia Asteraceae (equinácea), al ajo o a alguno de los componentes, con enfermedades autoinmunes, o bajo tratamiento con inmunosupresores, anticoagulantes (warfarina) o antidiabéticos deben consultar a un profesional de la salud antes de consumirlo. La vitamina D3 en dosis elevadas puede acumularse; no exceder la dosis recomendada sin supervisión médica.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con alimentos matutinos o del mediodía; la presencia de zinc y vitamina C se tolera mucho mejor con comida en el estómago, previniendo náuseas o acidez estomacal.",
+    "interactions": "Consultar con un profesional de la salud en personas con enfermedades autoinmunes (como lupus o artritis reumatoide) o bajo tratamiento con inmunosupresores, dado que la equinácea y los betaglucanos ejercen un estímulo activo sobre las defensas.",
     "researchNote": {
       "focus": "Fórmula multitarget con vitaminas, zinc y extractos de saúco, equinácea y ajo negro",
       "text": "Mecanismo sinérgico de la fórmula inmune: combina la inhibición directa de la replicación de virus estacionales mediada por los flavonoides del saúco (Sambucus nigra), la estimulación de la fagocitosis por las alquilamidas de Echinacea purpurea, el aporte antioxidante de la S-alil-cisteína del ajo negro y la modulación genética de linfocitos por la tríada de vitamina D3, zinc y ácido ascórbico.",
@@ -5169,8 +5169,8 @@ window.manualData.productos = [
       "Dosis preventiva diaria de 1 cápsula: toma práctica con el desayuno para mantener las defensas blindadas durante toda la temporada de frío."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente por la mañana o al mediodía con alimentos para promover una energía inmune sostenida a lo largo del día y prevenir molestias gástricas.",
+    "interactions": "Consultar con un profesional de la salud si toma medicamentos inmunosupresores (como corticosteroides o trasplantes), litio o fármacos para la presión arterial, ya que el astrágalo estimula el sistema inmune y posee un leve efecto diurético e hipotensor.",
     "researchNote": {
       "focus": "Astragalus membranaceus y polisacáridos bioactivos en la resistencia inmune",
       "text": "Acción biológica de la raíz de astrágalo: en la fitoterapia tradicional, el astrágalo es la planta reina para tonificar el sistema inmune. Sus polisacáridos purificados (astragaloglicanos) estimulan la proliferación de células T y aumentan los títulos de inmunoglobulinas secretoras, protegiendo las mucosas respiratorias sin sobreestimular el sistema inmunológico.",
@@ -5206,8 +5206,8 @@ window.manualData.productos = [
       "Toma cómoda en cápsulas: una sola cápsula al día con alimentos para mantener el sistema inmunológico activo sin necesidad de preparar polvos."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con agua a temperatura ambiente o fría, preferentemente 30 minutos antes del desayuno o con una comida ligera; no mezclar con líquidos muy calientes (superiores a 50 °C) para evitar desnaturalizar las inmunoglobulinas.",
+    "interactions": "Consultar con su médico si se encuentra bajo terapia inmunosupresora intensiva (como en pacientes trasplantados). No presenta interacciones medicamentosas desfavorables en personas sanas.",
     "researchNote": {
       "focus": "Calostro bovino liofilizado en la función inmune y la barrera digestiva",
       "text": "Propiedades biológicas del calostro bovino: es el primer fluido lácteo secretado tras el parto, extraordinariamente rico en inmunoglobulinas (principalmente IgG), lactoferrina y factores bioactivos. Estos compuestos protegen la mucosa gastrointestinal contra la colonización de patógenos y modulan positivamente la actividad de los glóbulos blancos en todo el organismo.",
@@ -5243,8 +5243,8 @@ window.manualData.productos = [
       "Resistencia física con astrágalo: fortalece los órganos vitales y acelera la recuperación de personas convalecientes, adultos mayores o pacientes saliendo de cirugías mayores y tratamientos desgastantes como quimioterapia."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes (especialmente derivados lácteos y hongos).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar por la mañana con el desayuno y abundante agua para facilitar la hidratación y digestión de las microalgas ricas en clorofila y oligoelementos.",
+    "interactions": "Consultar con el médico si toma anticoagulantes o fármacos inmunosupresores, ya que las microalgas contienen vitamina K natural y compuestos con actividad estimulante del sistema inmunitario.",
     "researchNote": {
       "focus": "Sinergia de calostro bovino, hongo reishi, espirulina y plantas adaptógenas",
       "text": "Aporte nutricional y celular de la mezcla: el calostro bovino suministra factores de transferencia e inmunoglobulinas que refuerzan la inmunidad mucosal; la espirulina (Spirulina maxima) aporta ficocianina con alto poder antioxidante y hierro bioasimilable; y el hongo Ganoderma lucidum junto con el astrágalo proporcionan polisacáridos que modulan favorablemente las defensas leucocitarias.",
@@ -5280,8 +5280,8 @@ window.manualData.productos = [
       "Uso directo o en bebidas calientes: se puede aplicar directamente en gotas en la boca, disolver en agua con limón o añadir a un té tibio."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No administrar en menores de 3 años. Personas con alergia a productos apícolas (propóleo, miel) o a plantas de la familia Asteraceae (equinácea) deben evitar su consumo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar las gotas diluidas en medio vaso de agua, jugo o té tibio, preferentemente con o después de los alimentos para evitar sensación de aspereza o ardor en la mucosa oral y gástrica.",
+    "interactions": "No presenta interacciones farmacológicas conocidas a dosis habituales; en personas bajo tratamiento con anticoagulantes orales o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "researchNote": {
       "focus": "Extracto de propóleo apícola para el cuidado de garganta y cavidad oral",
       "text": "Propiedades farmacológicas del propóleo: el propóleo es una sustancia resinosa elaborada por las abejas para esterilizar su colmena. Contiene más de 300 compuestos bioactivos, entre ellos ácidos fenólicos y flavonoides, que ejercen un efecto bacteriostático local y estimulan la regeneración del tejido mucoso bucofaríngeo, siendo un referente tradicional en faringitis y laringitis.",
@@ -5317,8 +5317,8 @@ window.manualData.productos = [
       "Hierbas seleccionadas de calidad: corte fino en sobre individual para una infusión rápida y uniforme sin necesidad de colador."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda su consumo en menores de 12 años. No se consuma si es intolerante o sensible a cualquiera de los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una taza caliente preferentemente por la noche antes de dormir o después de la cena para aliviar la tensión digestiva y favorecer el descanso y la motilidad intestinal.",
+    "interactions": "Por la presencia de toronjil, puede potenciar de forma leve el efecto de medicamentos sedantes, ansiolíticos o inductores del sueño. Se sugiere separar su toma al menos 2 horas de otros fármacos y consultar con su médico o farmacéutico.",
     "packageContent": "30 bolsitas de té",
     "researchNote": {
       "focus": "Eje intestino-cerebro y antiespasmódicos herbales",
@@ -5353,9 +5353,9 @@ window.manualData.productos = [
       "Eliminación de líquidos y ligereza: la zarzaparrilla y el cocolmeca estimulan la eliminación de agua retenida en piernas y abdomen, acelerando la pérdida de volumen.",
       "Para casos de digestión muy perezosa: alternativa para personas que llevan días sin evacuar y no responden a fibras comunes."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado durante el embarazo y la lactancia. No administrar en caso de dolor abdominal no diagnosticado, obstrucción intestinal, íleo paralítico o diarrea severa. Personas con presión arterial baja o bajo tratamiento con hipotensores o anticoagulantes deben consultar a su médico antes de usarlo.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de la comida principal con un vaso lleno de agua (250 ml), manteniendo un consumo continuo de líquidos durante el día para permitir que la inulina, linaza y nopal ejerzan su acción sin provocar pesadez.",
+    "interactions": "Por su aporte de fibras solubles y mucílagos, puede reducir o retrasar la absorción de medicamentos orales; espaciar la toma al menos 2 horas de cualquier fármaco. La forskolina puede interactuar con medicamentos para la presión arterial y anticoagulantes; consultar con su médico o farmacéutico.",
     "packageContent": "30 tabletas",
     "researchNote": {
       "focus": "Ciruela, fibra soluble y función colónica",
@@ -5391,8 +5391,8 @@ window.manualData.productos = [
       "Protección antioxidante y vitalidad: el extracto de amla (vitamina C natural), vitaminas E, D3 y B12 protegen las células y apoyan el metabolismo energético sin sumar azúcar."
     ],
     "contraindications": "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica (especialmente renal o hepática) deben consultar a su profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con agua fría o jugo antes o después del entrenamiento; mantener un aporte constante y abundante de agua a lo largo del día para apoyar la función renal e hidratación muscular.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; asegurar abundante consumo de agua y consultar al médico en personas que toman medicamentos con potencial nefrotóxico (como antiinflamatorios AINEs frecuentes).",
     "packageContent": "300 g"
   },
   {
@@ -5414,9 +5414,9 @@ window.manualData.productos = [
       "Reconstituyente con jalea real e inositol: la jalea real fresca nutre el organismo debilitado y el inositol apoya la comunicación celular.",
       "Toma bebible cómoda y segura: se consume directamente por la boca (adultos 1 ampolleta al día; niños 1 cada tercer día). No se inyecta."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en personas con hipersensibilidad a las vitaminas del complejo B o alergia a productos apícolas (jalea real). Consultar con el médico durante el embarazo, lactancia o en menores de edad antes de su administración. No inyectar, uso exclusivo por vía oral.",
+    "foodInteractions": "Tomar el contenido de la ampolleta por vía oral durante el desayuno o la comida principal; la presencia de alimentos con algo de grasa optimiza la absorción de las vitaminas A, D3 y E, y previene náuseas por las vitaminas del complejo B.",
+    "interactions": "El gluconato de calcio puede reducir la absorción de antibióticos (tetraciclinas, fluoroquinolonas) y hormona tiroidea (levotiroxina); espaciar al menos 2 a 3 horas. No presenta interacciones farmacológicas conocidas de gravedad con otros tratamientos habituales.",
     "packageContent": "10 ampolletas"
   },
   {
@@ -5438,8 +5438,8 @@ window.manualData.productos = [
       "Refuerzo metabólico con molibdeno: el molibdeno participa en la degradación adecuada de aminoácidos azufrados para una óptima asimilación celular."
     ],
     "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna enfermedad.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con los alimentos acompañado de un vaso grande de agua; asegurar abundante hidratación hídrica a lo largo de la jornada para apoyar su acción mucolítica y antioxidante.",
+    "interactions": "Consultar al médico si el cliente utiliza nitroglicerina (puede causar cefaleas severas e hipotensión) o anticoagulantes orales; si se recetan antibióticos orales, separar la toma al menos 2 horas.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -5460,9 +5460,9 @@ window.manualData.productos = [
       "Enriquecida con calcio y vitamina D: fortificada con minerales esenciales para el mantenimiento de huesos densos y dientes fuertes.",
       "Defensas blindadas y protección celular: incorpora vitaminas antioxidantes A, C y E con hierro, zinc y fósforo para mantener alta la energía diaria."
     ],
-    "contraindications": "Contiene soya.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en personas con alergia o intolerancia a la soya. En caso de afecciones tiroideas o tratamientos hormonales, consultar con su médico antes de consumir cantidades elevadas de soya.",
+    "foodInteractions": "Tomar con el desayuno, merienda o incorporada en batidos y cereales a cualquier hora del día según el gusto del usuario.",
+    "interactions": "Por su contenido de soya y minerales agregados (calcio, hierro), si el usuario toma levotiroxina para la tiroides se debe espaciar al menos 4 horas la toma de este producto, y 2 horas de antibióticos orales.",
     "packageContent": "1080 g"
   },
   {
@@ -5488,8 +5488,8 @@ window.manualData.productos = [
       "Herbolaria ayurvédica tradicional: 60 cápsulas con polvo puro de neem para integrar fácilmente a la rutina de salud metabólica diaria."
     ],
     "contraindications": "No consumir durante el embarazo o período de lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar las cápsulas siempre junto con las comidas principales. Los alimentos facilitan la absorción de los minerales y vitaminas liposolubles (A, D3, E) del Frasco 2 y atenúan el fuerte sabor herbal y amargo de los extractos botánicos del Frasco 1.",
+    "interactions": "El Frasco 1 contiene múltiples plantas con notable efecto hipoglucemiante (neem, guarumbo, nopal, tecomate); si se toman antidiabéticos (insulina, metformina), el riesgo de hipoglucemia es elevado y requiere monitoreo médico riguroso. Por los minerales del Frasco 2 (hierro, calcio, zinc, magnesio), espaciar al menos 2 a 3 horas de antibióticos (quinolonas, tetraciclinas) y levotiroxina.",
     "packageContent": "150 cápsulas (2 frascos: 90 + 60)"
   },
   {
@@ -5510,9 +5510,9 @@ window.manualData.productos = [
       "Potencia metabólica e inmunológica con hongo maitake: el hongo maitake (Grifola frondosa) estimula las defensas naturales y equilibra la respuesta a la insulina para quemar grasa acumulada.",
       "Drenaje suave de líquidos: la cola de caballo y el diente de león facilitan la eliminación de líquidos retenidos sin causar deshidratación."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "No consumir durante el embarazo ni en período de lactancia. Contraindicado en personas con hipertensión no controlada, arritmias o cardiopatías (por el naranjo amargo/sinefrina), úlcera péptica activa o insuficiencia renal o hepática. No apto para menores de 18 años.",
+    "foodInteractions": "Tomar 20 a 30 minutos antes del desayuno con un vaso completo de agua natural. Si se presenta sensibilidad digestiva o acidez por la cayena, tomar junto con el primer bocado del desayuno.",
+    "interactions": "El naranjo amargo (sinefrina) actúa como estimulante; evitar combinar con cafeína u otros estimulantes, descongestionantes nasales o medicamentos antihipertensivos. La moringa y cúrcuma pueden potenciar fármacos antidiabéticos y anticoagulantes. Consultar al médico antes de consumirlo.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -5533,9 +5533,9 @@ window.manualData.productos = [
       "Sabor dulce a piña natural: infusión deliciosa para tomar caliente por las noches sin necesidad de agregar azúcar ni calorías.",
       "Fórmula reforzada Plus: mayor concentración de ingredientes botánicos para quienes buscan un resultado más notorio que la versión clásica."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado durante el embarazo, la lactancia y en menores de 18 años. No consumir en caso de obstrucción biliar, cálculos en la vesícula o dolor abdominal agudo. Personas sensibles a la cafeína o con afecciones gastrointestinales inflamatorias deben moderar o evitar su consumo.",
+    "foodInteractions": "Tomar caliente preferentemente por la noche después de la cena, manteniendo una adecuada hidratación con agua natural durante todo el día para respaldar la evacuación y la acción de la linaza y la alcachofa.",
+    "interactions": "La linaza puede retrasar la absorción de medicamentos por vía oral, por lo que se debe separar la infusión al menos 2 horas de cualquier fármaco. El corazón de alcachofa estimula la bilis y puede interactuar con fármacos hepatobiliares y anticoagulantes; consultar con su médico o farmacéutico.",
     "packageContent": "30 sobres",
     "researchNote": {
       "focus": "Aguaje peruano, fitonutrientes y salud digestiva femenina",
@@ -5569,9 +5569,9 @@ window.manualData.productos = [
       "Regula la evacuación: su fibra vegetal y agua ayudan a que el intestino trabaje a buen ritmo de forma suave.",
       "Vitamina C antioxidante: complementa el cuidado celular y fortalece las defensas naturales del cuerpo."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado durante el embarazo y la lactancia. No administrar en personas con dolor abdominal agudo de causa desconocida, obstrucción intestinal, sangrado gastrointestinal activo o diarrea severa.",
+    "foodInteractions": "Tomar 2 copitas (60 ml) 20 a 30 minutos antes de cada alimento para recubrir y proteger la mucosa gástrica ante irritantes, o en ayunas al despertar.",
+    "interactions": "El aloe vera puede acelerar el tránsito intestinal y disminuir la absorción de medicamentos tomados por vía oral; se aconseja separar la toma al menos 2 horas de cualquier medicamento y consultar al médico si se utilizan diuréticos o hipoglucemiantes orales.",
     "packageContent": "1 L",
     "researchNote": {
       "focus": "Pulpa botánica de aloe para la digestión diaria",
@@ -5603,8 +5603,8 @@ window.manualData.productos = [
       "Riqueza en polifenoles protectores: los extractos de uva y cacao aportan flavonoides antioxidantes para el cuidado celular integral."
     ],
     "contraindications": "No consumir durante el embarazo. No tomarlo personas muy nerviosas. No tomarlo personas que estén tomando medicamentos. No tomarlo personas diabéticas e hipertensas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar por la mañana después del desayuno con abundante agua (al menos un vaso completo de 250 a 300 ml) y mantener buena hidratación durante todo el día; no tomar con el estómago vacío por el té verde y la gayuba.",
+    "interactions": "Consultar con el médico si se toman diuréticos, antihipertensivos, antidiabéticos o estimulantes. La gayuba (arbutina) requiere un pH urinario adecuado y no debe combinarse con acidificantes extremos sin supervisión médica.",
     "packageContent": "15 cápsulas"
   },
   {
@@ -5625,8 +5625,8 @@ window.manualData.productos = [
       "Activación metabólica: el té verde y la raíz de lima apoyan el metabolismo de grasas para mantener tu figura."
     ],
     "contraindications": "No consumir durante el embarazo. No usar si es intolerante o sensible a los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar por la mañana o por la noche acompañado de un vaso lleno de agua (250 ml), asegurando un aporte constante de agua durante todo el día para permitir que las fibras de linaza y nopal se hidraten y faciliten la motilidad sin pesadez.",
+    "interactions": "El alto contenido de mucílagos y fibra soluble puede interferir con la absorción intestinal de medicamentos; se debe distanciar su toma al menos 2 horas de cualquier fármaco oral. Si el paciente toma antihipertensivos o anticoagulantes, consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Fibras combinadas y termogénesis vegetal",
@@ -5662,8 +5662,8 @@ window.manualData.productos = [
       "Presentación rendidora de 1 Litro: volumen generoso que asegura un tratamiento completo para toda la familia durante los meses fríos."
     ],
     "contraindications": "No consumir durante el embarazo y lactancia. No es recomendable para niños. Contiene 1.9% de alcohol.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una cucharada después de los alimentos o disuelta en una taza de té tibio para suavizar la garganta y descongestionar el pecho; en caso de reflujo, evitar tomarlo inmediatamente antes de acostarse.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; por su contenido de azúcares y mucílagos botánicos, se sugiere espaciar su toma al menos 2 horas de cualquier medicamento recetado.",
     "researchNote": {
       "focus": "Cuatecomate (Crescentia alata) en la etnobotánica de afecciones pulmonares",
       "text": "Uso tradicional del cuatecomate en afecciones bronquiales: la pulpa de Crescentia alata contiene iridoides y taninos que han mostrado propiedades antiinflamatorias sobre el tracto respiratorio. Su uso popular en jarabe cocido alivia la opresión torácica y facilita la eliminación de mucosidades adheridas en cuadros de tos persistente.",
@@ -5700,8 +5700,8 @@ window.manualData.productos = [
       "Fórmula de grado internacional para defensas muy bajas: ideal para personas con inmunidad colapsada, expuestas a alto desgaste diario o saliendo de tratamientos médicos agresivos como quimioterapia, radioterapia o uso prolongado de antibióticos."
     ],
     "contraindications": "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con alimentos matutinos o del mediodía y un vaso completo de agua natural; evitar consumir con bebidas hirviendo para preservar la integridad de las inmunoglobulinas y los extractos botánicos.",
+    "interactions": "Consultar con un profesional de la salud antes de combinar con medicamentos inmunosupresores, antidiabéticos o anticoagulantes, ya que el calostro combinado con astrágalo, eleuterococo y hoja de olivo modula las defensas, la glucemia y la presión arterial.",
     "researchNote": {
       "focus": "Sinergia de calostro bovino, arabinogalactano y extractos botánicos inmunoactivos",
       "text": "Mecanismos de acción combinada en el sistema inmune: el calostro bovino aporta transferencia directa de inmunoglobulinas a la mucosa intestinal, mientras el arabinogalactano de alerce estimula los receptores celulares inmunes y la producción de ácidos grasos de cadena corta. La oleuropeína del olivo y los polisacáridos del astrágalo y eleuterococo aumentan la actividad de las células Natural Killer y los macrófagos.",
@@ -5737,8 +5737,8 @@ window.manualData.productos = [
       "Sellado de hidratación duradera: la vaselina y los extractos de saúco, saponaria y mastuerzo forman una barrera humectante que suaviza codos, rodillas y zonas ásperas."
     ],
     "contraindications": "Uso externo únicamente. Evitar el contacto con ojos y mucosas. Sólo para un periodo máximo de 4 días. No usar en niños menores de 3 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Al ser un ungüento de aplicación tópica externa, no interactúa con los alimentos.",
+    "interactions": "Al ser de aplicación tópica, no interactúa con fármacos orales sistémicos; evitar combinar en la misma zona con otros agentes queratolíticos o corticoides tópicos sin prescripción médica.",
     "packageContent": "125 g"
   },
   {
@@ -5759,8 +5759,8 @@ window.manualData.productos = [
       "Presentación económica con 135 cápsulas: frasco rendidor (90 + 45 cápsulas gratis) de cartílago puro sin conservadores ni rellenos para un tratamiento continuo de 3 cápsulas antes de cada comida."
     ],
     "contraindications": "Contiene derivados de pescado (tiburón). No consumir si se es alérgico a los productos del mar. No se recomienda en menores de 12 años. Consultar con un profesional de la salud si se está embarazada, en período de lactancia o bajo tratamiento médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar disuelto en agua o jugo de frutas cítricas preferentemente junto con los alimentos; la vitamina C de los cítricos estimula la síntesis y asimilación de los componentes del cartílago.",
+    "interactions": "Por su contenido natural de sulfato de condroitina y sales minerales, consultar con el médico si el cliente toma anticoagulantes (warfarina) o antidiabéticos orales. En polifarmacia, espaciar 2 horas de otros medicamentos.",
     "packageContent": "135 cápsulas (90 + 45 gratis)"
   },
   {
@@ -5780,9 +5780,9 @@ window.manualData.productos = [
       "Belleza de piel, cabello y uñas: aporta aminoácidos y minerales que fortalecen la queratina natural, frenando la caída capilar y el quiebre de uñas.",
       "Nutrición vegetal y digestión: aporta proteínas de fácil asimilación y fibra que apoyan el buen funcionamiento intestinal y el equilibrio de la flora."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en caso de alergia a levaduras (Saccharomyces cerevisiae), gota o hiperuricemia (por su contenido de purinas), y en personas bajo tratamiento con antidepresivos inhibidores de la monoaminooxidasa (IMAO) por su contenido de tiramina.",
+    "foodInteractions": "Consumir junto con el desayuno o la comida principal acompañado de agua o jugo; los alimentos favorecen su digestibilidad y el aprovechamiento de las vitaminas del complejo B y minerales.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; contraindicado estrictamente en personas bajo tratamiento con antidepresivos tipo IMAO por riesgo de crisis hipertensiva debido a la tiramina; en polifarmacia general, espaciar 2 horas de medicamentos.",
     "packageContent": "250 tabletas (150 g)"
   },
   {
@@ -5804,8 +5804,8 @@ window.manualData.productos = [
       "Blindaje antioxidante con vitamina E: protege los aceites naturales contra la oxidación garantizando su máxima frescura y aprovechamiento biológico."
     ],
     "contraindications": "Contiene derivados de pescado.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con las comidas principales para favorecer la digestión y absorción de los ácidos grasos omega 3, 6 y 9 y evitar el reflujo graso o malestar estomacal.",
+    "interactions": "Consultar con el médico o farmacéutico si toma medicamentos anticoagulantes o antiagregantes plaquetarios, ya que la combinación de ácidos grasos poliinsaturados puede prolongar el tiempo de sangrado.",
     "packageContent": "90 cápsulas (117 g)"
   },
   {
@@ -5843,8 +5843,8 @@ window.manualData.productos = [
       "Despertar lúcido y descansado: no deja sensación de pesadez ni aturdimiento matutino, permitiendo iniciar el día con la mente fresca."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo. La rhodiola puede dificultar el sueño en algunas personas; si ocurre, consultar con un profesional para revisar su uso.",
+    "foodInteractions": "Tomar con una cena ligera o 30 a 60 minutos antes de ir a dormir acompañado de medio vaso de agua; evitar el consumo simultáneo de alcohol, cafeína o estimulantes.",
+    "interactions": "Efecto potenciador sobre medicamentos sedantes, hipnóticos, ansiolíticos y relajantes musculares. Se aconseja no conducir vehículos ni operar maquinaria tras su ingesta.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -5866,8 +5866,8 @@ window.manualData.productos = [
       "Orégano orgánico de alta pureza: elaborado a base de Lippia graveolens con aceite de oliva extravirgen como vehículo suave para el estómago."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar siempre acompañada de una comida completa con presencia de grasas saludables (como aceite de oliva, aguacate o alimentos con proteína); nunca tomar con el estómago vacío para evitar ardor gástrico o reflujo.",
+    "interactions": "Consultar con el médico si se toman medicamentos anticoagulantes, antiagregantes plaquetarios o antidiabéticos, ya que el aceite de orégano puede incrementar el riesgo de hemorragia y potenciar el descenso de glucosa.",
     "researchNote": {
       "focus": "Orégano orgánico encapsulado para inmunidad y equilibrio microbiano",
       "text": "Beneficios del orégano encapsulado: la especie Lippia graveolens contiene elevados niveles de monoterpenos bioactivos que han demostrado propiedades inhibidoras contra microorganismos oportunistas tanto en el tracto respiratorio como en el intestino. La formulación en cápsula protege los principios activos hasta su liberación entérica, evitando la irritación de la mucosa bucal y esofágica.",
@@ -5903,8 +5903,8 @@ window.manualData.productos = [
       "Vitalidad celular y defensas antioxidantes: aporta vitamina C natural de amla, vitaminas E, D3 y B12 para proteger los tejidos frente al estrés oxidativo y mantener la vitalidad diaria."
     ],
     "contraindications": "Mujeres embarazadas, en periodo de lactancia o personas con alguna condición médica deben consultar a su profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con agua fresca o jugo natural antes o después del ejercicio; mantener una ingesta hídrica adecuada y abundante durante toda la jornada.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; asegurar abundante consumo de agua y consultar al médico en personas que toman medicamentos con potencial nefrotóxico (como antiinflamatorios AINEs frecuentes).",
     "packageContent": "300 g"
   },
   {
@@ -5926,8 +5926,8 @@ window.manualData.productos = [
       "Cuidado digestivo y depuración: complementa los hábitos saludables de alimentación sin irritar el estómago."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar justo antes o durante la comida principal rica en carbohidratos para moderar los picos de glucosa posprandiales y facilitar la asimilación de sus flavonoides activos.",
+    "interactions": "La pata de vaca posee una acción hipoglucemiante comprobada; si se combina con medicamentos antidiabéticos (metformina, glibenclamida, insulina), debe monitorearse estrechamente la glucemia para prevenir caídas excesivas de glucosa. Consultar al médico para ajuste de dosis.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -5948,8 +5948,8 @@ window.manualData.productos = [
       "Fórmula antiséptica concentrada: reúne dos plantas clave para erradicar bacterias urinarias y mantener la uretra despejada y protegida."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar acompañado de alimentos y beber al menos 1.5 a 2 litros de agua durante el día para asegurar el flujo urinario continuo; evitar el consumo concomitante de sustancias muy ácidas (como dosis masivas de vitamina C) que acidifiquen en exceso la orina y resten eficacia a la arbutina.",
+    "interactions": "Consultar con el médico si se toman medicamentos diuréticos o fármacos que alteran el pH de la orina. Por su contenido de arbutina, no debe usarse de forma prolongada (máximo 1 o 2 semanas continuas) sin supervisión médica.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -5971,8 +5971,8 @@ window.manualData.productos = [
       "Presentación rendidora de 90 tabletas: frasco económico para 3 meses ininterrumpidos de suplementación."
     ],
     "contraindications": "La ingesta excesiva de Zinc (más de 40 mg al día en adultos) puede interferir con la absorción de cobre.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar siempre junto con el desayuno o el almuerzo para evitar náuseas o malestar estomacal. Evitar acompañar de cereales integrales crudos con alto contenido de ácido fítico o café solo en el mismo momento, ya que disminuyen su absorción.",
+    "interactions": "Separar la toma al menos 2 a 3 horas de antibióticos (como ciprofloxacino o doxiciclina) y de hormona tiroidea (levotiroxina), ya que el zinc reduce su biodisponibilidad.",
     "researchNote": {
       "focus": "Gluconato de zinc en la absorción intestinal y la respuesta inmunológica",
       "text": "Ventajas del gluconato de zinc: al encontrarse quelado con ácido glucónico, presenta una mayor solubilidad y una cinética de absorción predecible en el duodeno en comparación con sales inorgánicas como el óxido de zinc. Esto permite una liberación progresiva de iones Zn2+ que activan la enzima timulina, vital para la respuesta celular frente a patógenos.",
@@ -6008,8 +6008,8 @@ window.manualData.productos = [
       "Tratamiento intensivo de tres tomas: presentación de 90 tabletas formulada para tomar antes de cada comida y brindar protección integral continua."
     ],
     "contraindications": "No consumir durante el embarazo o período de lactancia. No usar si es intolerante o sensible a los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar antes de cada alimento principal acompañado de un vaso completo de agua; es indispensable mantener una ingesta de al menos 2 litros de agua potable a lo largo del día para favorecer la eliminación de sedimentos renales.",
+    "interactions": "Consultar con el médico si se toman diuréticos, antihipertensivos o medicamentos hipoglucemiantes, ya que la chanca piedra y las plantas diuréticas pueden potenciar la baja de presión arterial, glucosa o niveles de potasio.",
     "packageContent": "90 tabletas"
   },
   {
@@ -6029,9 +6029,9 @@ window.manualData.productos = [
       "Aporte de enzimas y proteínas vegetales: contiene enzimas y aminoácidos propios de la semilla que apoyan la digestión y el metabolismo de las grasas.",
       "Cuidado cardiovascular tradicional: su uso popular como bebida matutina acompaña el cuidado de la tensión arterial y la salud de las arterias."
     ],
-    "contraindications": "Puede contener trazas de soya, almendra y coco.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en personas con alergia a las gramíneas, alpiste, soya, almendra o coco. No sustituye la leche materna ni las fórmulas infantiles en niños pequeños.",
+    "foodInteractions": "Disolver en agua fría o tibia y tomar con el desayuno o como colación a media tarde.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g"
   },
   {
@@ -6053,8 +6053,8 @@ window.manualData.productos = [
       "Pureza Prowinner garantizada: cápsulas con 500 mg de L-carnitina pura de grado farmacéutico, fáciles de dosificar antes de cada entrenamiento."
     ],
     "contraindications": "No recomendado en menores de 6 años ni en mujeres embarazadas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente de 30 a 45 minutos antes del entrenamiento cardiovascular o junto con el desayuno, disuelta en agua o jugo.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con antecedentes de convulsiones o bajo tratamiento con hormonas tiroideas (levotiroxina), consultar con su médico antes de consumirla de forma continuada.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -6075,8 +6075,8 @@ window.manualData.productos = [
       "Comodidad y cero picor: su presentación en cápsula blanda evita la fuerte sensación quemante del orégano puro en la boca y la garganta."
     ],
     "contraindications": "No recomendado en mujeres embarazadas o en período de lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar siempre acompañado de los alimentos principales o diluido en un vaso de agua o jugo; nunca tomar en ayunas ni puro directamente para evitar irritación de la mucosa digestiva.",
+    "interactions": "Por las propiedades del aceite esencial de orégano, consultar al médico si el cliente toma fármacos anticoagulantes, antiagregantes plaquetarios o antidiabéticos orales; espaciar al menos 2 horas de otros medicamentos.",
     "packageContent": "50 cápsulas"
   },
   {
@@ -6097,8 +6097,8 @@ window.manualData.productos = [
       "Aminoácido esencial y absorción de calcio: ayuda a que el cuerpo retenga y aproveche mejor el calcio, favoreciendo la fortaleza de los huesos y defensas."
     ],
     "contraindications": "No recomendado en menores de 6 años ni en mujeres embarazadas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente alejada de comidas copiosas en proteínas (con el estómago vacío o entre comidas) con agua o jugo, para evitar competencia en los transportadores intestinales de aminoácidos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas con polifarmacia o suplementación con calcio en dosis muy altas, separar las tomas 2 horas ya que la lisina puede incrementar la absorción del calcio.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -6132,8 +6132,8 @@ window.manualData.productos = [
       "Regulación del descanso nocturno: al convertirse en melatonina al caer la noche, facilita un sueño placentero y reparador."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. Interacciona con antidepresivos comunes (como fluoxetina o sertralina) y medicamentos para el estado de ánimo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de combinar con antidepresivos de prescripción médica, o con otros medicamentos que aumentan la serotonina, una sustancia que participa en el estado de ánimo y otras funciones.",
+    "foodInteractions": "Tomar preferentemente con una comida ligera o 30 a 60 minutos antes de dormir; si se utiliza para el control de apetito emocional, tomar antes de las comidas principales.",
+    "interactions": "Contraindicado en combinación simultánea con antidepresivos (ISRS, IRSN, tricíclicos o IMAO), triptanos para migraña o tramadol por riesgo grave de síndrome serotoninérgico; requiere evaluación médica previa.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -6155,8 +6155,8 @@ window.manualData.productos = [
       "Sabor a chocolate natural y minerales marinos: enriquecida con cacao orgánico, un toque de sal marina, ácido málico y stevia para una textura sedosa y delicioso sabor chocolate."
     ],
     "contraindications": "Personas con enfermedades hepáticas, renales, mujeres embarazadas o en lactancia deben consultar a su médico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua, leche o bebida vegetal según objetivo calórico y requerimientos proteicos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "1.77 kg"
   },
   {
@@ -6178,8 +6178,8 @@ window.manualData.productos = [
       "Digestión ultra rápida con enzimas digestivas: la acción combinada de proteasa y peptidasa descompone las proteínas al instante, garantizando absorción inmediata sin inflamación."
     ],
     "contraindications": "No debe ser consumido por personas con hipersensibilidad a los ingredientes. Alérgenos: SOYA, LÁCTEOS, HUEVO, TRIGO, NUEZ Y CACAHUATE.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar entre comidas o después del entrenamiento mezclada con agua fría o leche de preferencia para una rápida disponibilidad de aminoácidos.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "5 lb (2.27 kg)"
   },
   {
@@ -6200,8 +6200,8 @@ window.manualData.productos = [
       "Digestión ligera y energía B12: la piña y la papaya evitan la pesadez estomacal, mientras la vitamina B12 mantiene tu energía activa."
     ],
     "contraindications": "No consumir durante el embarazo. Contiene soya (lecitina).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con un vaso grande de agua (250 ml) preferentemente junto con los alimentos o justo antes para aprovechar la actividad enzimática sobre las comidas y garantizar la adecuada hidratación de la fibra de linaza.",
+    "interactions": "Las fibras y mucílagos (linaza y malva) pueden reducir la absorción de medicamentos orales administrados simultáneamente; se aconseja separar la toma al menos 2 horas de fármacos. En personas bajo tratamiento médico continuo, consultar con su médico o farmacéutico.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Emulsión de lípidos, fibra saciante y salud digestiva",
@@ -6236,8 +6236,8 @@ window.manualData.productos = [
       "Rico sabor cítrico frutal: polvo fácil de mezclar con agua, jugo o fruta sin grumos desagradables."
     ],
     "contraindications": "No está indicado para mujeres embarazadas y niños menores de 12 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Disolver 2 cucharadas en un vaso grande con agua (250 ml) o jugo 15 a 20 minutos antes de los alimentos; beber suficiente agua a lo largo del día para que la fibra de linaza y nopal aumente de volumen y promueva una evacuación suave.",
+    "interactions": "Contiene toronja, la cual puede alterar significativamente la concentración de medicamentos metabolizados por el citocromo P450 (como estatinas, antihipertensivos y sedantes). Además, la linaza y el nopal pueden reducir la absorción de medicamentos orales; separar la toma al menos 2 a 3 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g",
     "researchNote": {
       "focus": "Fibra dietética insoluble y soluble de linaza y nopal",
@@ -6272,9 +6272,9 @@ window.manualData.productos = [
       "Confort estomacal y digestivo: la manzanilla y el tamarindo suavizan las digestiones, desinflaman y apoyan el tránsito intestinal ligero.",
       "Sinergia botánica completa: integra maderas y raíces tradicionales (guayacán amarillo, gatuña, zacate de perro y coanacaxtle) para un soporte herbolario integral."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "No consumir durante el embarazo ni en período de lactancia. Contraindicado en personas con episodios frecuentes de hipoglucemia o sin alteración de glucosa. Personas bajo tratamiento antidiabético deben vigilar sus niveles y consultar a su médico antes de usarlo. No apto para menores de 18 años.",
+    "foodInteractions": "Tomar inmediatamente después o durante los alimentos principales para mitigar el intenso sabor amargo de la raíz de wereke y acompañar el proceso digestivo y glucémico.",
+    "interactions": "El wereke y el nopal tienen un fuerte efecto hipoglucemiante; consultar y monitorear estrictamente los niveles de glucosa si se toman medicamentos para la diabetes (metformina, insulina, sulfonilureas), ya que puede presentarse hipoglucemia. Espaciar al menos 2 horas de cualquier otro medicamento.",
     "packageContent": "150 cápsulas"
   },
   {
@@ -6296,8 +6296,8 @@ window.manualData.productos = [
       "Gotero calibrado para toda la familia: facilita una dosificación segura y exacta por gotas tanto para adultos como para niños mayores de 6 años."
     ],
     "contraindications": "No usar durante el embarazo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar siempre diluido en agua, jugo o una cucharada de aceite comestible, y acompañado de alimentos sólidos o grasas saludables; nunca ingerir en ayunas para prevenir ardor gástrico o irritación de la mucosa.",
+    "interactions": "Consultar con el médico o farmacéutico si toma anticoagulantes o antiagregantes plaquetarios por posible potenciación del riesgo de sangrado. En personas con diabetes bajo tratamiento, vigilar los niveles de glucosa.",
     "researchNote": {
       "focus": "Carvacrol estandarizado al 80%: potencia antiséptica y antimicrobiana",
       "text": "Por qué importa la estandarización del carvacrol: el carvacrol es el principal componente activo del orégano responsable de romper las paredes celulares de microorganismos perjudiciales. Al estar estandarizado al 80%, garantiza una potencia homogénea y predecible en cada gota, siendo especialmente útil en enjuagues bucofaríngeos y como coadyuvante natural de rescate en infecciones agudas de vías altas.",
@@ -6333,34 +6333,34 @@ window.manualData.productos = [
       "Pastillas masticables con sabor a fresa: deliciosa tableta que se disuelve en la boca, ideal para adultos mayores, personas vegetarianas o quienes tienen baja absorción gástrica."
     ],
     "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna condición médica.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Se sugiere disolver lentamente debajo de la lengua (vía sublingual) o masticar entre comidas o después de un alimento ligero para favorecer su absorción directa por la mucosa bucal.",
+    "interactions": "Medicamentos como el omeprazol, antiácidos, metformina y antibióticos pueden disminuir la absorción intestinal de la vitamina B12 en tomas orales convencionales, aunque la vía sublingual minimiza esta interferencia. No presenta interacciones farmacológicas de riesgo.",
     "packageContent": "100 pastillas"
   },
   {
     "id": 226,
     "code": "7503016797122",
-    "name": "CARSYL GREEN JARABE 80 ML",
-    "benefitSummary": "Jarabe de cardo mariano, boldo y alcachofa para desinflamar el hígado graso y digerir comidas pesadas",
+    "name": "CARSYL GREEN EXTRACTO 120 ML",
+    "benefitSummary": "Extracto de cardo mariano, boldo, cuasia y diente de león para desintoxicar el hígado y digerir grasas",
     "category": "digestivo",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/CARSYLGREENJARABE.webp",
-    "shortDesc": "Jarabe líquido con extractos concentrados de cardo mariano, boldo, diente de león y alcachofa. La opción ideal en líquido para tomar antes de comer; desinflama el hígado perezoso, corta la boca amarga al despertar y permite digerir comidas grasosas o alcohol sin pesadez ni náuseas.",
-    "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
-    "serving": "3 ml (una cucharadita) al día",
-    "timing": "Antes de las comidas principales",
-    "intakeInstructions": "Agitar bien antes de usar. Tomar 3 ml (una cucharadita) al día, preferentemente antes de las comidas principales. Se puede diluir en un poco de agua.",
+    "shortDesc": "Extracto líquido herbolario con cardo mariano, boldo, cuasia, diente de león, regaliz y marrubio. La opción ideal en gotas para tomar en agua antes de comer; desinflama el hígado perezoso, corta la boca amarga al despertar y permite digerir comidas grasosas sin pesadez ni náuseas.",
+    "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cuasia (Quassia amara), Diente de león (Taraxacum officinale), Regaliz (Glycyrrhiza glabra), Marrubio (Marrubium vulgare).",
+    "serving": "20 gotas (1 ml)",
+    "timing": "Antes de cada alimento",
+    "intakeInstructions": "Tomar 20 gotas (1 ml) en un vaso de agua (250 ml) 3 veces al día, antes de cada alimento.",
     "benefits": [
       "Protección y desintoxicación hepática: el cardo mariano y el boldo limpian las células del hígado cuando está saturado por medicamentos, comida pesada o alcohol.",
-      "Digestión rápida de grasas: la alcachofa y el diente de león activan la producción de bilis para digerir frituras y condimentos sin náuseas.",
-      "Formato líquido de rápida asimilación: presentación bebible en jarabe, perfecta para quienes tienen dificultad para tragar pastillas o cápsulas."
+      "Digestión rápida de grasas: la cuasia, el marrubio y el diente de león activan la producción de bilis para digerir frituras y condimentos sin pesadez ni náuseas.",
+      "Extracto líquido de rápida asimilación: presentación bebible en gotas diluidas en agua, perfecta para quienes prefieren no tragar pastillas o cápsulas."
     ],
-    "contraindications": "No especificado. Consultar lote y fecha de caducidad en el envase.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "No se deje al alcance de los niños. No consumir durante el embarazo ni en período de lactancia. No usar en caso de intolerancia o sensibilidad a los ingredientes de la fórmula.",
+    "foodInteractions": "Diluir 20 gotas en un vaso con agua (250 ml) y tomar 15 a 20 minutos antes de los alimentos para que los extractos amargos estimulen el vaciado biliar y faciliten la digestión de comidas grasas.",
+    "interactions": "Las plantas de estímulo hepático (cardo mariano, boldo, diente de león) y el regaliz interactúan con medicamentos procesados por el hígado, anticoagulantes, antihipertensivos y diuréticos por alteración de electrolitos; se recomienda separar al menos 2 horas de cualquier fármaco y consultar indispensablemente con un médico o farmacéutico.",
     "packageContent": "120 ml",
     "researchNote": {
-      "focus": "Hígado, bilis y digestión de grasas en jarabe",
-      "text": "Por qué este jarabe ayuda después de comidas pesadas: el boldo es una planta reconocida por la farmacopea europea para activar la vesícula biliar y aliviar la sensación de plenitud y pesadez gástrica. El cardo mariano protege y ayuda al hígado sobrecargado. El diente de león apoya el flujo de bilis y el marrubio aporta su uso tradicional para el confort digestivo estomacal.",
+      "focus": "Hígado, bilis y digestión de grasas en extracto",
+      "text": "Por qué este extracto ayuda después de comidas pesadas: el boldo es una planta reconocida por la farmacopea europea para activar la vesícula biliar y aliviar la sensación de plenitud y pesadez gástrica. El cardo mariano protege y ayuda al hígado sobrecargado. El diente de león y la cuasia apoyan el flujo de bilis y el marrubio aporta su uso tradicional para el confort digestivo estomacal.",
       "sources": [
         {
           "title": "EMA: hoja de boldo, uso tradicional para digestión y función biliar",
@@ -6395,8 +6395,8 @@ window.manualData.productos = [
       "Calidad internacional certificada: elaborado bajo estándares de pureza de la marca NOW en cápsulas vegetales aptas para suplementación diaria prolongada."
     ],
     "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos (especialmente anticoagulantes o para la presión arterial) o padece alguna condición médica.",
-    "foodInteractions": "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
-    "interactions": "Consultar si el cliente toma warfarina u otros anticoagulantes similares, medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar con una comida que incluya grasas saludables, como aguacate, huevo o aceite de oliva, para maximizar la absorción de ambas vitaminas liposolubles.",
+    "interactions": "Por su contenido de vitamina K2, consultar al médico si el cliente toma anticoagulantes como warfarina o acenocumarol, ya que la vitamina K interactúa directamente con su mecanismo de acción.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -6417,8 +6417,8 @@ window.manualData.productos = [
       "Fibra y defensas con gran sabor: la inulina de agave nutre la flora benéfica, la vitamina D3 refuerza las defensas, y su mezcla con sabor a frambuesa, ácido cítrico y esteviol ofrece una bebida deliciosa y refrescante."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Disolver una porción (6 g) en 250 ml de agua y tomar preferentemente con una comida principal o 20 a 30 minutos antes para que los nutrientes reparen y protejan la pared mucosa intestinal.",
+    "interactions": "Por su aporte de zinc y fibra prebiótica (inulina), puede quelar o reducir la absorción de antibióticos orales (quinolonas y tetraciclinas) y suplementos de cobre o hierro; se aconseja separar la toma al menos 2 a 3 horas de cualquier medicamento y consultar con el médico en caso de tratamientos crónicos.",
     "packageContent": "180 g",
     "researchNote": {
       "focus": "Integridad de la barrera intestinal y mucosa gástrica",
@@ -6453,8 +6453,8 @@ window.manualData.productos = [
       "Energía limpia y sin contracturas: cápsula diaria práctica para mantener los músculos activos y evitar la pesadez corporal."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes de la fórmula.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar junto con alimentos (comida o cena) acompañado de un vaso grande de agua para optimizar su absorción y prevenir un tránsito intestinal acelerado o acidez.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas), hormonas tiroideas (levotiroxina) y bisfosfonatos para no interferir con su biodisponibilidad. Consultar al médico si se toman diuréticos o se padece de función renal disminuida.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -6489,8 +6489,8 @@ window.manualData.productos = [
       "Aporte vegetal de brócoli: el polvo de tallo de brócoli aporta fitonutrientes naturales que complementan la nutrición celular."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia. No se recomienda en menores de 18 años. No consumir si es intolerante o sensible a los ingredientes.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente por la noche con la cena o con un refrigerio ligero; el glicinato de magnesio ofrece alta biodisponibilidad y suavidad digestiva, favoreciendo la relajación muscular antes de dormir.",
+    "interactions": "Espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas) y bisfosfonatos. En personas con tratamientos médicos continuos, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas"
   },
   {
@@ -6510,9 +6510,9 @@ window.manualData.productos = [
       "Desarrollo visual y neuronal: el EPA y las vitaminas C y E protegen los tejidos oculares y cerebrales del desgaste diario.",
       "Rico sabor frutal sin olor a pescado: deliciosas gomitas masticables que los niños disfrutan tomar a diario sin protestar."
     ],
-    "contraindications": "Contiene derivados de pescado. Contiene un desecante NO INGERIBLE dentro del frasco. No especificado para alergias.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contiene derivados de pescado. Contraindicado en personas con alergia confirmada al pescado o mariscos. Contiene un desecante no ingerible dentro del envase; mantener fuera del alcance de los niños.",
+    "foodInteractions": "Tomar siempre acompañado de alimentos (desayuno o comida) para asegurar una absorción óptima de los ácidos grasos omega-3 y evitar el retrogusto o malestar digestivo.",
+    "interactions": "Consultar con el pediatra o médico familiar en caso de niños que tomen anticoagulantes o suplementos vitamínicos adicionales para no sobrepasar las dosis recomendadas de vitaminas liposolubles A y D.",
     "researchNote": {
       "focus": "Ácidos grasos omega 3 (DHA/EPA) en el desarrollo neurológico y visual infantil",
       "text": "Por qué el omega 3 es indispensable en la infancia: el ácido docosahexaenoico (DHA) representa más del 30% de los lípidos estructurales de la corteza cerebral y la retina. La suplementación con aceite de salmón en edad escolar apoya la velocidad de procesamiento cognitivo, la atención en el aula y la agudeza visual, con la protección antioxidante de la vitamina E.",
@@ -6546,8 +6546,8 @@ window.manualData.productos = [
       "Aporte botánico de alfalfa: contiene 250 mg de polvo de alfalfa pura, rica en clorofila y fitonutrientes que complementan de forma natural la asimilación de la vitamina K."
     ],
     "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos anticoagulantes (como warfarina) o padece alguna condición médica.",
-    "foodInteractions": "Tomar con una comida que incluya algo de grasa, como aguacate, huevo o aceite de oliva, para que el cuerpo aproveche mejor el producto.",
-    "interactions": "Consultar si el cliente toma warfarina u otros anticoagulantes similares, medicamentos para evitar coágulos.",
+    "foodInteractions": "Tomar con una comida que aporte grasas saludables (como aguacate, frutos secos o aceite de oliva) para asegurar una adecuada absorción intestinal.",
+    "interactions": "Por su contenido de vitamina K2, consultar al médico antes de consumir si se toman medicamentos anticoagulantes cumarínicos (como warfarina o acenocumarol), ya que puede reducir su efectividad.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -6568,8 +6568,8 @@ window.manualData.productos = [
       "Fórmula tradicional de plantas selectas: una copita diluida en un poco de agua calma el malestar y reconforta el vientre."
     ],
     "contraindications": "Contiene alcohol (extracto hidroalcohólico). Consultar con médico en caso de embarazo, lactancia o condiciones médicas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar una copita (10 ml) diluida en medio vaso con agua 15 a 20 minutos antes de los alimentos fuertes para estimular los jugos gástricos y biliares, o justo después de comer en caso de pesadez estomacal.",
+    "interactions": "Por su contenido de boldo y alcachofa (estímulo biliar y hepático), puede interactuar con anticoagulantes y fármacos procesados por enzimas del hígado. Por su base hidroalcohólica, evitar el consumo conjunto con medicamentos que causen efecto disulfiram (como metronidazol) o sedantes; separar al menos 2 horas y consultar al médico o farmacéutico.",
     "packageContent": "1 L",
     "researchNote": {
       "focus": "Fitoterapia tradicional de amargos digestivos",
@@ -6604,8 +6604,8 @@ window.manualData.productos = [
       "Pureza 100% sin azúcares ni lácteos: polvo fino de cacao no alcalinizado ideal para preparar leche dorada, smoothies keto, avenas o repostería funcional."
     ],
     "contraindications": "Contiene cafeína natural. Consumir con moderación en personas sensibles a la cafeína.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Consumir integrado en leche, bebidas vegetales, avena, licuados o repostería; preferentemente durante la mañana o primera mitad del día.",
+    "interactions": "Por su contenido natural de teobromina y trazas de cafeína, moderar su consumo en personas bajo tratamiento con estimulantes o fármacos antiarrítmicos; espaciar 2 horas de medicamentos orales.",
     "packageContent": "Presentación variable (peso no especificado)"
   },
   {
@@ -6626,8 +6626,8 @@ window.manualData.productos = [
       "Formato práctico en capletas para quienes buscan la eficacia depurativa del sen con la comodidad de tomarlo directo con agua antes de dormir."
     ],
     "contraindications": "Evitar su uso en caso de embarazo, lactancia, problemas gastrointestinales severos o si se está tomando algún medicamento.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar 2 capletas preferentemente por la noche antes de dormir con un vaso lleno de agua (250 ml), asegurando abundante consumo de líquidos al día siguiente para apoyar la evacuación y prevenir deshidratación o cólicos.",
+    "interactions": "Contiene hojas de sen. Puede interactuar con diuréticos, digitálicos (digoxina) y corticosteroides debido al riesgo de pérdida de potasio e hipocalemia. Además, los mucílagos de la malva y el tránsito acelerado pueden disminuir la absorción de medicamentos orales; se debe separar la toma al menos 2 horas de cualquier fármaco.",
     "researchNote": {
       "focus": "Sinergia de sen y malva: estimulación colónica con protección emoliente",
       "text": "Por qué la combinación de sen con malva es tan eficaz: mientras los senósidos de la hoja de sen (Cassia angustifolia) aceleran el tránsito colónico estimulando las contracciones del intestino grueso, los mucílagos de la flor de malva (Malva sylvestris) crean una capa gelatinosa protectora sobre el epitelio intestinal. Esta película emoliente suaviza el paso fecal y reduce notablemente los espasmos o cólicos que a veces provoca el sen solo, logrando una evacuación desahogada y confortable.",
@@ -6667,8 +6667,8 @@ window.manualData.productos = [
       "Sangre fuerte y defensas: el ácido fólico y la vitamina B12 favorecen la formación saludable de glóbulos rojos para prevenir la debilidad infantil."
     ],
     "contraindications": "Contiene azúcares añadidos (40 g/100 ml). Cepillar los dientes después de cada toma. Consumir en las dosis recomendadas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar preferentemente con el desayuno o almuerzo para optimizar el aporte energético durante la jornada escolar; lavar o cepillar los dientes después de su consumo por su contenido de azúcares.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en niños bajo tratamiento médico prescrito, espaciar la toma al menos 2 horas y consultar con el pediatra o médico tratante.",
     "packageContent": "250 ml"
   },
   {
@@ -6688,9 +6688,9 @@ window.manualData.productos = [
       "Control activo de glucosa: ayuda a que el cuerpo absorba los carbohidratos de forma lenta y gradual, evitando subidas bruscas de azúcar tras comer.",
       "Gran rendimiento económico: frasco con 150 cápsulas que rinde hasta casi un mes completo de suplementación natural."
     ],
-    "contraindications": "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en caso de obstrucción esofágica o intestinal, íleo paralítico o dolor abdominal agudo. Personas con diabetes bajo tratamiento farmacológico deben supervisar sus niveles de glucosa por posible potenciación del efecto hipoglucemiante.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos acompañado obligatoriamente de un vaso lleno de agua (250 ml) y mantener una hidratación abundante durante el día para permitir que la fibra de nopal se expanda correctamente y evite pesadez o malestar digestivo.",
+    "interactions": "La alta concentración de fibra soluble y mucílagos puede retrasar o reducir la absorción de fármacos orales; es indispensable separar la toma al menos 2 horas de cualquier medicamento. En pacientes con antidiabéticos, monitorear la glucosa por posible efecto aditivo.",
     "packageContent": "150 cápsulas",
     "researchNote": {
       "focus": "Opuntia ficus-indica, fibra viscosa y metabolismo",
@@ -6724,9 +6724,9 @@ window.manualData.productos = [
       "Fibra vegetal saciante: la penca de nopal ayuda a atrapar grasas y favorece la digestión regular.",
       "Gran rendimiento: frasco con 150 cápsulas que rinde hasta 2 meses y medio de uso continuo."
     ],
-    "contraindications": "No especificado. Tomar con abundante agua para evitar molestias digestivas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado durante el embarazo y la lactancia. No consumir en casos de oclusión intestinal, estenosis esofágica, dolor abdominal de origen desconocido o diarrea aguda.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos principales con un vaso completo de agua (250 ml), manteniendo un consumo continuo de agua a lo largo del día para que la fibra soluble y la sábila actúen adecuadamente sobre el tracto digestivo.",
+    "interactions": "Su riqueza en mucílagos y fibra puede interferir con la absorción intestinal de medicamentos administrados por vía oral; se recomienda separar la toma al menos 2 horas de cualquier tratamiento farmacológico. Puede potenciar la acción de hipoglucemiantes orales; consultar con su médico o farmacéutico.",
     "packageContent": "150 cápsulas",
     "researchNote": {
       "focus": "Fibra soluble y mucílagos en formato cápsula",
@@ -6756,9 +6756,9 @@ window.manualData.productos = [
       "Formato puro y sin sabor en la comida: permite disfrutar de todas las propiedades benéficas del ajo natural sin necesidad de consumirlo crudo.",
       "Presentación rendidora de 150 cápsulas: frasco de gran volumen ideal para tratamientos familiares continuos y accesibles de cuidado circulatorio."
     ],
-    "contraindications": "El ajo en ayunas o en grandes dosis puede causar ligeras molestias gástricas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en personas con úlcera péptica activa, gastritis hemorrágica, trastornos de la coagulación o alergia al ajo. Suspender antes de intervenciones quirúrgicas o procedimientos odontológicos invasivos.",
+    "foodInteractions": "Tomar siempre con las comidas principales o inmediatamente después de ellas; evitar tomarlo en ayunas para prevenir ardor estomacal, reflujo o eructos con olor a ajo.",
+    "interactions": "Consultar obligatoriamente con el médico o farmacéutico si toma anticoagulantes (warfarina) o antiagregantes plaquetarios (aspirina), por aumento en el riesgo de sangrado. Suspender su uso 10 a 14 días antes de cirugías programadas.",
     "packageContent": "150 cápsulas"
   },
   {
@@ -6779,9 +6779,9 @@ window.manualData.productos = [
       "Músculos relajados sin calambres: el aporte de magnesio relaja las fibras musculares tensas, previene contracturas y calma el sistema nervioso.",
       "Fórmula accesible para toda la familia: presentación práctica en tabletas con celulosa microcristalina de fácil digestión estomacal."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Hipersensibilidad a las vitaminas del complejo B o a cualquiera de los componentes. En caso de embarazo, lactancia o insuficiencia renal grave, consultar con un profesional de la salud antes de consumirlo.",
+    "foodInteractions": "Tomar por la mañana con el desayuno o primer alimento del día para favorecer la energía matutina y evitar náuseas o acidez en estómagos sensibles.",
+    "interactions": "Por el contenido de magnesio y vitamina B6, espaciar al menos 2 horas de antibióticos y levodopa. No presenta interacciones farmacológicas conocidas de gravedad; en personas bajo tratamiento crónico o polifarmacia, se sugiere consultar con su médico o farmacéutico.",
     "packageContent": "60 tabletas"
   },
   {
@@ -6803,8 +6803,8 @@ window.manualData.productos = [
       "Protección diurna contra rayos solares: incorpora filtros solares (benzofenona 3, octil metoxicinamato y octil salicilato) para prevenir el daño solar cotidiano."
     ],
     "contraindications": "Uso externo exclusivamente. Evitar el contacto con los ojos. En caso de irritación, suspender su uso. Realizar prueba en una pequeña zona de la piel si se tiene piel sensible.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Al ser una crema cosmética de uso facial tópico, no presenta interacción con los alimentos.",
+    "interactions": "No presenta interacciones farmacológicas sistémicas conocidas; si se aplican tratamientos dermatológicos recetados (como retinoides o ácidos exfoliantes), utilizarlos en momentos separados para evitar irritación.",
     "packageContent": "120 g"
   },
   {
@@ -6824,9 +6824,9 @@ window.manualData.productos = [
       "Protección celular antioxidante: contiene polifenoles y vitamina E natural del olivo que protegen las células contra el desgaste oxidativo cotidiano.",
       "Comodidad en perlas sin sabor oleoso: práctico formato que permite consumir las virtudes de la dieta mediterránea de manera fácil y dosificada todos los días."
     ],
-    "contraindications": "No especificado",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "No consumir en caso de diarrea aguda, cólicos biliares activos o hipersensibilidad al aceite de oliva. Mujeres embarazadas o en periodo de lactancia deben consultar a su médico antes de consumirlo.",
+    "foodInteractions": "Tomar con los alimentos principales (desayuno o comida) para facilitar su digestión y potenciar la absorción de nutrientes liposolubles.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento para la presión arterial o la glucosa, se sugiere mantener sus controles habituales y espaciar la toma 2 horas de otros medicamentos.",
     "packageContent": "60 perlas"
   },
   {
@@ -6846,9 +6846,9 @@ window.manualData.productos = [
       "Complejo B para energía sostenida: contiene vitaminas B naturales que apoyan el metabolismo energético, la vitalidad física y la fortaleza del sistema nervioso.",
       "Salud dérmica, cabello y uñas: nutre desde adentro para devolver el brillo al cabello maltratado y aumentar la resistencia de las uñas."
     ],
-    "contraindications": "Puede contener Soya.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado en caso de alergia a las levaduras o a la soya, gota o hiperuricemia (por su contenido de purinas), y en personas bajo tratamiento con antidepresivos inhibidores de la monoaminooxidasa (IMAO) por su contenido de tiramina.",
+    "foodInteractions": "Consumir espolvoreada en jugos, licuados, sopas, ensaladas o fruta con el desayuno o la comida del mediodía para enriquecer el aporte nutricional diario.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; contraindicado estrictamente con antidepresivos inhibidores de la monoaminooxidasa (IMAO) por su contenido de tiramina; en polifarmacia, espaciar 2 horas de cualquier fármaco.",
     "packageContent": "300 g"
   },
   {
@@ -6869,8 +6869,8 @@ window.manualData.productos = [
       "Fácil de incorporar a tu día: polvo muy soluble que se puede disolver en agua, café, licuados, yogur o espolvorear en fruta sin alterar su sabor."
     ],
     "contraindications": "No usar en bebidas carbonatadas (puede generar gas o efervescencia excesiva).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Disolver 1 o 2 cucharadas en agua, café, té o alimentos en cualquier momento del día; comenzar con dosis pequeñas para permitir la adaptación gradual de la flora intestinal y acompañar de una adecuada ingesta de agua para evitar gases o distensión.",
+    "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas de medicamentos orales para no interferir con su absorción intestinal y consultar con su médico o farmacéutico.",
     "packageContent": "150 g",
     "researchNote": {
       "focus": "Fibra prebiótica fermentable y microbiota colónica",
@@ -6907,8 +6907,8 @@ window.manualData.productos = [
       "Rico sabor a miel y limón: endulzado naturalmente con jarabe de frutas y miel, ideal para tomar solo o añadido a un té caliente."
     ],
     "contraindications": "No consumir en menores de 3 años ni en mujeres embarazadas. Puede cristalizarse; calentar al baño maría para recuperar su estado original.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "foodInteractions": "Tomar con o después de los alimentos, o disuelto en una taza de té tibio para fluidificar flemas y calmar la garganta; evitar tomar inmediatamente antes de recostarse si padece reflujo gastroesofágico.",
+    "interactions": "Por la presencia de extractos de ajo y equinácea, consultar si toma medicamentos anticoagulantes o fármacos inmunosupresores. Considerar el aporte de carbohidratos en personas con diabetes.",
     "researchNote": {
       "focus": "Fórmula fitoterapéutica integral con 14 activos para afecciones bronquiales y tos",
       "text": "Acción combinada en afecciones respiratorias altas y bajas: esta fórmula combina antimicrobianos directos ricos en alicina y polifenoles (ajo, cebolla morada, propóleo), inmunomoduladores comprobados (equinácea), antiespasmódicos de las vías aéreas (tomillo rico en timol) y emolientes demulcentes (gordolobo y malva silvestre). Esta sinergia ataca simultáneamente la causa infecciosa, la inflamación local y la congestión mucosa.",
@@ -6948,8 +6948,8 @@ window.manualData.productos = [
       "Toma práctica de 1 cápsula al día: fórmula concentrada que fortalece el sistema inmunológico, acelera la quema de grasa y desinflama el vientre."
     ],
     "contraindications": "No consumir durante el embarazo o lactancia sin autorización profesional. Consultar si se toman anticoagulantes, inmunosupresores o medicamentos de uso crónico.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar antes de recomendarlo si el cliente usa medicamentos que disminuyen las defensas, para evitar coágulos o cualquier tratamiento de uso continuo.",
+    "foodInteractions": "Tomar preferentemente con el desayuno o el almuerzo acompañado de un vaso completo de agua, lo que favorece la supervivencia de los probióticos y la tolerancia digestiva a los hongos medicinales.",
+    "interactions": "Consultar con el médico antes de combinar con anticoagulantes, antiagregantes plaquetarios o inmunosupresores, debido a que el hongo Chaga y el Reishi poseen propiedades antiagregantes y reguladoras del sistema inmune.",
     "researchNote": {
       "focus": "Hongos adaptógenos Chaga y Reishi en sinergia con probióticos y L-carnitina",
       "text": "Eje intestino-inmunidad y metabolismo energético: los probióticos refuerzan la barrera epitelial del colon compitiendo con bacterias oportunistas, mientras los fenoles y betulina del hongo Chaga (Inonotus obliquus) neutralizan radicales libres. La L-carnitina optimiza la beta-oxidación de ácidos grasos en las mitocondrias, reduciendo la sensación de fatiga física.",
@@ -6985,8 +6985,8 @@ window.manualData.productos = [
       "Concentración escolar y visión aguda: incorpora ácidos grasos omega 3 para agilizar la memoria en la escuela y proteger la retina ocular."
     ],
     "contraindications": "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc.",
+    "foodInteractions": "Consumir junto con los alimentos principales para asegurar la adecuada absorción de las vitaminas liposolubles y del omega-3; masticar completamente antes de deglutir.",
+    "interactions": "Evitar administrar junto con grandes cantidades de té, café o bebidas con taninos que reduzcan la absorción del zinc; espaciar al menos 2 horas de antibióticos orales si el menor está medicado.",
     "packageContent": "110 gomitas aprox."
   },
   {
@@ -7007,8 +7007,8 @@ window.manualData.productos = [
       "Formato divertido en gomitas: presentación rendidora de 110 ositos masticables de agradable sabor frutal sin conservadores dañinos."
     ],
     "contraindications": "No administrar a niños menores de 3 años sin supervisión médica. Contraindicado en caso de alergia a alguno de los componentes. Precaución en fenilcetonuria. Supervisar el masticado completo para evitar atragantamiento.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Evitar tomarlo al mismo tiempo que grandes cantidades de té u otras bebidas similares: pueden reducir la absorción del zinc.",
+    "foodInteractions": "Ofrecer con el desayuno o la comida; masticar completamente antes de tragar. No consumir inmediatamente antes de cepillarse los dientes para proteger el esmalte dental.",
+    "interactions": "No presenta interacciones farmacológicas conocidas a dosis de consumo infantil recomendadas; evitar combinar con otros multivitamínicos masticables que contengan dosis altas de zinc o vitamina E para prevenir excesos.",
     "researchNote": {
       "focus": "Nutrientes esenciales, minerales y vitaminas B en el crecimiento infantil",
       "text": "Aporte nutricional para el desarrollo escolar: la combinación de ácido glutámico con vitaminas del complejo B interviene en la síntesis de mensajeros nerviosos y en la obtención de energía celular a partir de los alimentos. El zinc y la vitamina C fortalecen la respuesta inmunitaria frente a contagios escolares, mientras el calcio asegura la adecuada mineralización ósea y dental durante etapas de estirón.",
@@ -7044,8 +7044,8 @@ window.manualData.productos = [
       "Base vegetal suave y digestiva: enriquecido con extractos de zanahoria, espinaca, berro, menta, manzanilla y jugos frutales que cuidan el estómago y facilitan la toma."
     ],
     "contraindications": "Contraindicado en hipercalcemia, hipercalciuria, litiasis renal, hiperparatiroidismo. Precaución en alergias a plantas de la familia umbelíferas (cilantro) o asteráceas (manzanilla).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El calcio puede hacer que se absorban menos algunos antibióticos y la levotiroxina, usada para la tiroides. La ficha pide separar 2 a 3 horas de esos antibióticos y 4 horas de la levotiroxina; confirmar el horario con el médico o farmacéutico. No tomar al mismo tiempo que el hierro.",
+    "foodInteractions": "Tomar preferentemente antes de las comidas principales (desayuno o comida); agitar bien antes de usar y mantener refrigerado una vez abierto.",
+    "interactions": "Por su contenido de calcio, puede reducir la absorción de levotiroxina para la tiroides (separar al menos 4 horas) y de ciertos antibióticos como quinolonas y tetraciclinas (separar 2 a 3 horas). No administrar simultáneamente con suplementos de hierro.",
     "packageContent": "250 ml"
   },
   {
@@ -7067,8 +7067,8 @@ window.manualData.productos = [
       "Sinergia herbal digestiva: extractos de zanahoria, espinaca, hibisco, alga marina y alcaravea con jugos de frutas y miel que reconfortan el estómago y aportan delicioso sabor natural."
     ],
     "contraindications": "Contiene germen de trigo (gluten). Contraindicado en enfermedad celíaca o sensibilidad al gluten. Contraindicado en hemocromatosis, hemosiderosis, talasemias o anemias sideroblásticas. Consultar en úlceras y gastritis activa.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El hierro puede reducir la absorción de levotiroxina para la tiroides, ciertos tratamientos para los huesos, levodopa para el Parkinson y algunos antibióticos. La ficha pide dejar al menos 4 horas de separación; confirmar el horario con el médico o farmacéutico. Evitar tomarlo junto con café, té, leche o vino tinto, porque se puede absorber menos hierro.",
+    "foodInteractions": "Tomar con el estómago vacío aproximadamente 30 minutos antes del desayuno o comida con un vaso de agua o jugo cítrico; la vitamina C estimula la absorción del hierro. Evitar tomar al mismo tiempo que café, té, lácteos o vino tinto, ya que reducen drásticamente la absorción del hierro.",
+    "interactions": "El hierro quelante reduce la absorción de levotiroxina para la tiroides (separar 4 horas), bisfosfonatos, levodopa y antibióticos (tetraciclinas y quinolonas, separar 2 a 3 horas); no ingerir simultáneamente con suplementos de calcio o antiácidos.",
     "packageContent": "250 ml"
   },
   {
@@ -7090,8 +7090,8 @@ window.manualData.productos = [
       "Polvo soluble sin saborizantes artificiales: se disuelve fácilmente en agua fría, leche vegetal o batidos matutinos para tomar en ayunas."
     ],
     "contraindications": "Contiene derivados de leche. Contraindicado en alergia a la proteína de la leche de vaca (APLV). Precaución en intolerancia severa a la lactosa. Consultar en inmunosupresión clínica (trasplantes).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos que disminuyen la actividad de las defensas, como ciclosporina o tacrolimus.",
+    "foodInteractions": "Tomar disuelto en agua o bebida fría o a temperatura ambiente, preferentemente 30 minutos antes del desayuno o entre comidas; evitar mezclar con líquidos calientes para no inactivar las inmunoglobulinas.",
+    "interactions": "Consultar con un profesional de la salud en personas bajo terapia inmunosupresora (como trasplantes de órganos). En personas bajo medicación oral rutinaria, espaciar la toma al menos 2 horas.",
     "researchNote": {
       "focus": "Calostro bovino estandarizado al 20% de IgG y lactoferrina en la salud mucosal",
       "text": "Estandarización y pureza del calostro en polvo: al aportar 4,000 mg de calostro con un 20% de IgG activa por porción, suministra una concentración terapéutica de anticuerpos que neutralizan toxinas en la luz intestinal. Su contenido natural de lactoferrina compite por el hierro libre impidiendo el crecimiento bacteriano, mientras los factores de crecimiento tisular (IGF y TGF) promueven la reparación del epitelio gastrointestinal.",
@@ -7127,8 +7127,8 @@ window.manualData.productos = [
       "Soporte metabólico y electrolítico: los triglicéridos de cadena media (MCT), vitaminas B6, B12, vitamina C, calcio, sodio y pimienta negra optimizan la energía y la hidratación muscular."
     ],
     "contraindications": "Contraindicado en hipertensión, arritmias, enfermedad coronaria, infarto previo, ansiedad, trastornos de pánico, esquizofrenia, embarazo, lactancia y menores de 15 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha indica no combinar con medicamentos para la presión, para dilatar los vasos sanguíneos como sildenafil, ciertos antidepresivos llamados IMAO, tratamientos para alteraciones del ritmo del corazón u otras fuentes de cafeína. Evitar el alcohol. Revisar el tratamiento antes de recomendar.",
+    "foodInteractions": "Tomar disuelto en agua unos 20-30 minutos antes de la sesión de ejercicio; evitar tomar en ayunas si se presenta sensibilidad gástrica y no consumir por la tarde o noche para no interferir con el sueño.",
+    "interactions": "Contiene estimulantes (guaraná) y vasodilatadores (L-citrulina); consultar en personas con medicación hipotensora o fármacos para disfunción eréctil (sildenafil); no combinar con antidepresivos IMAO, antiarrítmicos ni otras fuentes concentradas de cafeína.",
     "packageContent": "175 g"
   },
   {
@@ -7150,8 +7150,8 @@ window.manualData.productos = [
       "Cápsula 100% vegetal: polvo botánico puro sin aditivos agresivos, apto para vegetarianos y fácil de incorporar a la rutina diaria."
     ],
     "contraindications": "Contraindicado en embarazo y lactancia (efectos emenagogos y abortivos). No usar en menores de 12 años. Precaución en hipoglucemia, anemia ferropénica (taninos).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "No combinar con insulina u otros medicamentos para la diabetes: el azúcar podría bajar demasiado. También consultar si usa litio o medicamentos para eliminar líquidos. La ficha pide separar al menos 3 horas del hierro, zinc o calcio.",
+    "foodInteractions": "Tomar 15 a 30 minutos antes o durante la comida más fuerte del día (rica en carbohidratos) con un vaso de agua para amortiguar la absorción de azúcares y grasas.",
+    "interactions": "Las hojas de moringa y guayaba reducen la glucemia; no combinar con insulina o hipoglucemiantes orales sin estricta supervisión médica por riesgo de hipoglucemia. Por el contenido de taninos, espaciar al menos 2 a 3 horas de suplementos con hierro, zinc o calcio, y consultar si se toman medicamentos diuréticos o para la presión arterial.",
     "packageContent": "30 cápsulas"
   },
   {
@@ -7173,8 +7173,8 @@ window.manualData.productos = [
       "Gotero de rápida acción digestiva: 20 gotas diluidas en agua tibia antes de cada comida para una acción inmediata en el conducto biliar sin pasar por digestión de cápsulas."
     ],
     "contraindications": "Contraindicado en insuficiencia hepática, cirrosis, hepatitis viral activa, transaminasas elevadas, obstrucción biliar severa, embarazo y lactancia. No usar en menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha indica no combinar con medicamentos para el colesterol, como estatinas o fibratos, uso continuo de paracetamol, tratamientos orales para hongos u otros medicamentos que puedan dañar el hígado. Evitar alcohol y jugo de toronja. Revisar la combinación con un profesional.",
+    "foodInteractions": "Diluir 20 gotas en medio vaso de agua purificada y tomar 15 a 20 minutos antes de los alimentos para estimular el vaciado biliar y facilitar la digestión de comidas con grasas.",
+    "interactions": "Por su acción hepatobiliar directa, interactúa con medicamentos para el colesterol (estatinas, fibratos), paracetamol en uso frecuente y fármacos metabolizados por el hígado o con potencial hepatotóxico. Evitar el consumo simultáneo de alcohol o jugo de toronja; separar la toma al menos 2 horas de cualquier medicamento y consultar indispensablemente a un médico o farmacéutico.",
     "packageContent": "30 ml",
     "researchNote": {
       "focus": "Vesícula, bilis y digestión pesada",
@@ -7210,8 +7210,8 @@ window.manualData.productos = [
       "Formato de bolsillo práctico: ideal para llevar en el bolso, coche o trabajo y disfrutar de un rescate refrescante en cualquier momento sin agua."
     ],
     "contraindications": "Contraindicado en alergias a productos apícolas (propóleo, miel, polen). Contraindicado en diabetes mellitus (3 g de sacarosa por porción). No administrar a infantes menores de 4 años (riesgo de atragantamiento).",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa anticoagulantes como warfarina, especialmente si consume cantidades altas de este producto. Evitar tomarlo al mismo tiempo que bebidas muy calientes.",
+    "foodInteractions": "Disolver lentamente en la boca entre comidas o cuando se requiera alivio faríngeo; evitar beber líquidos inmediatamente después para permitir que el propóleo y la menta permanezcan en contacto con la garganta.",
+    "interactions": "No presenta interacciones farmacológicas conocidas a dosis de consumo; en personas bajo tratamiento anticoagulante continuo se recomienda precaución con tomas masivas de propóleo, y en diabetes considerar el contenido de azúcar.",
     "researchNote": {
       "focus": "Perlas demulcentes de propóleo y menta para confort bucofaríngeo",
       "text": "Acción demulcente y refrescante bucal: la disolución progresiva de extractos de propóleo junto con menta (Mentha sp.) permite un contacto prolongado con la orofaringe. El mentol estimula los receptores de frío TRPM8 generando una sensación inmediata de descongestión y alivio del dolor faríngeo, mientras las resinas de propóleo protegen la mucosa frente a agentes irritantes ambientales.",
@@ -7259,8 +7259,8 @@ window.manualData.productos = [
       "Formato de bolsillo práctico y discreto: frasco compacto para llevar siempre consigo y usar en cualquier momento de emergencia emocional."
     ],
     "contraindications": "Contraindicado en diabetes mellitus (3 g de sacarosa por porción). Contraindicado en embarazo (alcaloides con actividad estimulante uterina). Precaución en conducción y maquinaria pesada.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar el sueño y la sedación de medicamentos para dormir, para la ansiedad y de algunos antidepresivos. No combinar con alcohol. Evitar cantidades altas de cafeína.",
+    "foodInteractions": "Tomar diluido en agua o infusión tibia 30 a 60 minutos antes de acostarse o tras una cena liviana; evitar el consumo concomitante de café, bebidas alcohólicas o estimulantes.",
+    "interactions": "Potencia los efectos de fármacos sedantes, ansiolíticos (benzodiacepinas), hipnóticos y alcohol; consultar con el médico tratante antes de combinar con psicofármacos.",
     "packageContent": "30 g"
   },
   {
@@ -7281,8 +7281,8 @@ window.manualData.productos = [
       "Formato bebible de fácil deglución: jarabe de agradable sabor para adultos mayores o personas con dificultad para tragar pastillas."
     ],
     "contraindications": "Precaución en trastornos convulsivos (epilepsia, esquizofrenia). Contraindicado en hipervitaminosis D. No usar en menores de 4 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. Algunos medicamentos para eliminar líquidos aumentan la pérdida de vitamina B1, y los antiácidos pueden reducir la absorción de B12. No tomar con té negro, café o alcohol.",
+    "foodInteractions": "Tomar junto con los alimentos matutinos o del mediodía para favorecer el aprovechamiento metabólico de las vitaminas del complejo B; evitar tomar junto con café cargado, té negro o alcohol que reducen la asimilación de la tiamina.",
+    "interactions": "La vitamina B6 (piridoxina) en dosis continuas puede disminuir la eficacia de la levodopa en personas con Parkinson. Los diuréticos del asa aumentan la excreción de tiamina y los antiácidos reducen la absorción de la vitamina B12.",
     "researchNote": {
       "focus": "Vitaminas del complejo B en el metabolismo energético y el apetito",
       "text": "Por qué las vitaminas B despiertan el apetito y la fuerza: la tiamina (B1) y la piridoxina (B6) son cofactores indispensables para descarboxilar carbohidratos y convertirlos en energía disponible. Su deficiencia leve suele manifestarse como inapetencia, astenia y desgano físico. Su presentación en jarabe líquido facilita una absorción gástrica rápida tanto en niños como en adultos mayores.",
@@ -7318,8 +7318,8 @@ window.manualData.productos = [
       "Esencias aromáticas y masaje prolongado: los aceites de eucalipto, guayacol y almendras permiten un masaje fluido y dejan una sensación de alivio duradera."
     ],
     "contraindications": "Contraindicado sobre heridas abiertas, quemaduras, úlceras, excoriaciones o piel recién rasurada. No cubrir con vendas oclusivas ni aplicar calor externo. Contraindicado en embarazo y lactancia, alergia a la aspirina o desinflamatorios como ibuprofeno o naproxeno, y menores de 12 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Usarlo durante mucho tiempo o sobre zonas extensas de piel puede aumentar el efecto de anticoagulantes como warfarina. Consultar antes si el cliente usa esos medicamentos.",
+    "foodInteractions": "Al ser un gel de aplicación tópica externa, no interactúa con los alimentos.",
+    "interactions": "Por contener salicilato de metilo y alcanfor, no aplicar en áreas corporales muy extensas ni de forma prolongada si se consumen anticoagulantes orales (como warfarina), por posible absorción transdérmica; no mezclar con otros productos tópicos en la misma zona.",
     "packageContent": "Gel tópico (cantidad no especificada)"
   },
   {
@@ -7341,8 +7341,8 @@ window.manualData.productos = [
       "Protección de piel y nervios: la vitamina E, acai y vitamina B12 protegen contra el envejecimiento celular y mantienen el sistema nervioso en calma."
     ],
     "contraindications": "Contraindicado en cánceres hormonodependientes o sensibles a estrógenos (como cáncer de mama, ovario o matriz), endometriosis severa, miomas uterinos no controlados, enfermedad hepática, embarazo y lactancia, y menores de 18 años.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha indica no combinar con terapia de reemplazo hormonal, anticonceptivos, medicamentos para evitar coágulos como warfarina, heparina o aspirina, ni con medicamentos que puedan dañar el hígado. También pide separar al menos 4 horas de cualquier medicamento. Revisar con el médico o farmacéutico: separar horarios no elimina todos los riesgos.",
+    "foodInteractions": "Tomar por la mañana o al mediodía siempre acompañado de alimentos que incluyan grasas saludables (aguacate, huevo o aceite vegetal) para absorber la vitamina E y fitoesteroles, y amortiguar los extractos botánicos. Evitar en ayunas y no tomar de noche para no interferir con el sueño por el guaraná y ginseng.",
+    "interactions": "Por contener fitoestrógenos potentes (soya, dong quai, black cohosh), no combinar con terapia de reemplazo hormonal (TRH) ni anticonceptivos orales sin indicación médica. Plantas como castaño de indias, dong quai y ginseng pueden potenciar medicamentos anticoagulantes y antiagregantes plaquetarios (warfarina, aspirina). Espaciar al menos 2 a 3 horas de cualquier otro medicamento y consultar al médico o farmacéutico.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -7363,8 +7363,8 @@ window.manualData.productos = [
       "Saca el frío y la pesadez del vientre: el jengibre estimula la circulación pélvica, reconforta la matriz y calma náuseas e inflamación estomacal."
     ],
     "contraindications": "Contraindicado en embarazo (efectos emenagogos), lactancia y menores de edad. Precaución en úlcera péptica y trastornos de sangrado.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede aumentar el efecto de medicamentos para evitar coágulos, como warfarina o aspirina, y de tratamientos para el azúcar, como insulina o metformina. Consultar antes de combinar.",
+    "foodInteractions": "Medir 15 ml y tomar diluido en un vaso de agua tibia o al tiempo, 15 a 20 minutos antes de los alimentos matutinos o del mediodía para activar el confort digestivo y uterino.",
+    "interactions": "El jengibre y la canela pueden incrementar el efecto de medicamentos anticoagulantes o antiagregantes plaquetarios (warfarina, aspirina) y potenciar fármacos antidiabéticos (insulina, metformina). Consultar al médico o farmacéutico antes de combinar con estos tratamientos.",
     "packageContent": "355 ml"
   },
   {
@@ -7386,8 +7386,8 @@ window.manualData.productos = [
       "Toma matutina en ampolleta: diluir una ampolleta en medio vaso de agua o jugo cítrico con el desayuno para rendir al máximo todo el día."
     ],
     "contraindications": "Contraindicado en epilepsia, trastornos convulsivos, esquizofrenia, hemocromatosis, enfermedad renal, embarazo y lactancia.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La vitamina B6 puede reducir el efecto de la levodopa, usada para el Parkinson. El calcio, magnesio y hierro pueden hacer que se absorban menos algunos antibióticos y la levotiroxina para la tiroides. La ficha pide separar las tomas al menos 3 a 4 horas; confirmar el horario con el médico o farmacéutico.",
+    "foodInteractions": "Tomar siempre durante o inmediatamente después del desayuno (nunca en ayunas) acompañado de alimentos sólidos y agua para evitar náuseas por el hierro y zinc y optimizar la absorción de sus micronutrientes.",
+    "interactions": "La piridoxina (B6) puede reducir la eficacia de la levodopa en Parkinson. El calcio, magnesio y hierro pueden disminuir la absorción de antibióticos (fluoroquinolonas, tetraciclinas) y levotiroxina; separar la toma un mínimo de 3 a 4 horas y consultar con su médico o farmacéutico.",
     "researchNote": {
       "focus": "Tónico neuroenergético: fosfolípidos, ácido glutámico y hematopoyéticos",
       "text": "Acción sinérgica sobre el rendimiento mental y la fatiga: el ácido glutámico actúa como precursor metabólico cerebral mientras la lecitina de soya suministra fosfatidilcolina para la integridad de las vainas neuronales. El hierro y el ácido fólico optimizan el transporte de oxígeno al tejido cerebral, eliminando la sensación de agotamiento mental o cabeza embotada en jornadas de estudio o trabajo extenuante.",
@@ -7423,8 +7423,8 @@ window.manualData.productos = [
       "Fibra prebiótica de inulina de agave: nutre las bacterias amigas del intestino y favorece una evacuación suave y regular sin provocar inflamación abdominal."
     ],
     "contraindications": "Contiene WPC (proteína de suero). Contraindicado en alergia a la proteína de la leche de vaca. Contraindicado en hipercalcemia e hiperparatiroidismo.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha pide separar al menos 4 horas de la levotiroxina para la tiroides y ciertos tratamientos para los huesos. También indica separar 2 a 3 horas de algunos antibióticos; confirmar los horarios con el médico o farmacéutico. Evitar mezclarlo con alimentos que dificultan la absorción del calcio.",
+    "foodInteractions": "Tomar disuelto en agua con o después de los alimentos; evitar consumirlo simultáneamente con bebidas muy cargadas de cafeína o comidas ricas en fitatos (como salvado crudo) que reduzcan la absorción del calcio.",
+    "interactions": "El calcio reduce la absorción de levotiroxina para la tiroides y bisfosfonatos (separar al menos 4 horas), así como de ciertos antibióticos como quinolonas y tetraciclinas (separar 2 a 3 horas). No administrar simultáneamente con suplementos de hierro.",
     "packageContent": "1.1 kg"
   },
   {
@@ -7445,8 +7445,8 @@ window.manualData.productos = [
       "Por recomendaciones sanitarias se debe evitar su consumo por vía oral y no utilizarse como remedio ingerido."
     ],
     "contraindications": "No consumir de forma continua o vitalicia (riesgo de argiria). Contraindicado en embarazo, lactancia, insuficiencia renal o hepática, e hipersensibilidad a la plata.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede reducir la absorción de algunos antibióticos, levotiroxina para la tiroides y penicilamina. La ficha pide separar al menos 4 horas de cualquier medicamento, pero esto no demuestra que sea seguro consumir plata coloidal. Revisar antes de recomendar.",
+    "foodInteractions": "Tomar diluida en agua alejada de los alimentos (al menos 30 minutos antes o 2 horas después de comer) para no interferir con la microbiota intestinal normal.",
+    "interactions": "Puede reducir de forma significativa la absorción y efectividad de antibióticos (como quinolonas y tetraciclinas), levotiroxina para la tiroides y penicilamina; separar al menos 4 horas de cualquier medicamento prescrito y consultar al médico.",
     "packageContent": "500 ml"
   },
   {
@@ -7468,8 +7468,8 @@ window.manualData.productos = [
       "Aporte de calcio mineral: aporta 45 mg de calcio elemental en cápsula vegetal hipromelosa sin ingredientes de origen animal, de suave tolerancia estomacal."
     ],
     "contraindications": "Las megaporciones (500 mg) no han sido validadas para la seguridad fetal. Requiere consulta médica en embarazo y lactancia. Precaución en hemofilia e insuficiencia renal crónica.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "El calcio puede hacer que se absorban menos ciertos antibióticos. La vitamina B5 puede competir con la biotina y el ácido alfa lipoico por su absorción. Evitar cantidades muy altas durante mucho tiempo; la ficha advierte que podrían reducir la disponibilidad de biotina.",
+    "foodInteractions": "Tomar por la mañana o al mediodía junto con una comida principal con un vaso completo de agua natural para favorecer la absorción y tolerancia de la porción de vitamina B5.",
+    "interactions": "Por el contenido de calcio, espaciar al menos 2 horas de antibióticos (tetraciclinas, quinolonas). Dosis altas continuas de ácido pantoténico pueden competir por los transportadores intestinales con la biotina y el ácido alfa lipoico; se aconseja alternar o espaciar su consumo en caso de suplementación múltiple.",
     "packageContent": "100 cápsulas"
   },
   {
@@ -7490,8 +7490,8 @@ window.manualData.productos = [
       "Mineral purificado en cápsula vegetal: se toma con abundante agua para limpiar y desintoxicar el tracto digestivo de forma práctica y segura."
     ],
     "contraindications": "Contraindicado en embarazo, lactancia, menores de 12 años, íleo paralítico, obstrucción intestinal severa, estreñimiento crónico no tratado e insuficiencia renal grave.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Puede atrapar algunos medicamentos y reducir su absorción, como litio, ciertos antibióticos, cisplatino y medicamentos diseñados para actuar durante varias horas. La ficha pide dejar al menos 2 horas de diferencia. También puede reducir la absorción de hierro, zinc, calcio, magnesio y multivitamínicos; confirmar la combinación con un profesional.",
+    "foodInteractions": "Tomar con el estómago vacío, preferentemente 30 a 60 minutos antes del desayuno o al menos 2 horas después de la cena, siempre acompañado de un vaso grande de agua (mínimo 250-300 ml) para favorecer su tránsito y evitar constipación.",
+    "interactions": "Posee una alta capacidad de adsorción física que puede atrapar medicamentos en el tubo digestivo y anular o reducir drásticamente su absorción (incluyendo antibióticos, litio, hormonas tiroideas, antihipertensivos y suplementos minerales como hierro, zinc y calcio). Es mandatorio separar la toma al menos 2 a 3 horas antes o después de cualquier medicamento o suplemento, y consultar previamente al médico o farmacéutico.",
     "packageContent": "30 cápsulas",
     "researchNote": {
       "focus": "Clinoptilolita, quelación adsorbente gastrointestinal y microbiota",
@@ -7525,9 +7525,9 @@ window.manualData.productos = [
       "Digestión tradicional de grasas: la raíz de tejocote y la lima apoyan la digestión de comidas condimentadas o con grasa.",
       "Confort digestivo fresco: el té limón asienta el estómago y deja una sensación agradable y desinflamada."
     ],
-    "contraindications": "No especificado. Consultar a un profesional de la salud en caso de embarazo, lactancia o condiciones médicas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "La ficha no detalla combinaciones con medicamentos. Si el cliente toma alguno, consultar con su médico o farmacéutico antes de recomendarlo.",
+    "contraindications": "Contraindicado durante el embarazo, la lactancia y en menores de 18 años. No administrar en personas con insuficiencia renal o cardíaca, arritmias, hipotensión o úlcera gastrointestinal activa sin valoración médica.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos principales acompañado de un vaso completo de agua natural (250 ml), asegurando un adecuado aporte hídrico durante el día debido a sus propiedades diuréticas naturales.",
+    "interactions": "Por sus extractos depurativos y diuréticos (tlanchalagua y raíz de tejocote), puede interactuar con medicamentos antihipertensivos, diuréticos y fármacos cardíacos; se recomienda espaciar la toma al menos 2 horas de otros medicamentos y consultar con su médico o farmacéutico.",
     "packageContent": "150 cápsulas (45 g)",
     "researchNote": {
       "focus": "Etnobotánica mexicana depurativa y drenaje de líquidos",
@@ -7571,8 +7571,8 @@ window.manualData.productos = [
       "Formato bebible en ampolletas con miel: líquido concentrado de sabor tradicional para tomar directo del vial o disolver en agua por las mañanas."
     ],
     "contraindications": "Contraindicado en embarazo, lactancia, menores de 18 años, hipertensión arterial severa no controlada, trastornos hemorrágicos y patologías autoinmunes hiperactivas.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa medicamentos para el azúcar, porque podría bajar demasiado, o para evitar coágulos, por el riesgo de sangrado. También revisar antidepresivos, incluidos los llamados IMAO. Evitar combinar con bebidas con mucha cafeína.",
+    "foodInteractions": "Tomar preferentemente por la mañana con el desayuno para obtener energía física y mental durante el día; evitar consumir en la tarde o noche para no provocar insomnio, y moderar el consumo conjunto de café o energizantes.",
+    "interactions": "Consultar con el médico si toma medicamentos antidiabéticos (por riesgo de hipoglucemia), anticoagulantes o antiagregantes plaquetarios (por posible aumento de sangrado), antihipertensivos o antidepresivos inhibidores de la MAO (IMAO).",
     "packageContent": "30 ampolletas de 10 ml"
   },
   {
@@ -7593,8 +7593,8 @@ window.manualData.productos = [
       "Elasticidad y defensa antioxidante: los fitoesteroles y la vitamina E acondicionan la piel madura, preservando su firmeza y flexibilidad sin sensación grasa pesada."
     ],
     "contraindications": "Contraindicado en acné activo severo, rosácea pustulosa o pieles altamente seborreicas. No aplicar sobre heridas abiertas, quemaduras de tercer grado o tejido sin epitelizar.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente usa cremas recetadas con derivados de vitamina A, como retinoides, o tratamientos fuertes para renovar la piel. No mezclar directamente con peróxido de benzoilo, usado en algunos tratamientos para el acné.",
+    "foodInteractions": "Al ser un aceite vegetal de uso cosmético tópico externo, no interactúa con los alimentos.",
+    "interactions": "Al ser de aplicación cutánea, no presenta interacciones con medicamentos orales; evitar mezclar simultáneamente en la misma zona con tratamientos tópicos para acné como peróxido de benzoilo o retinoides de prescripción.",
     "packageContent": "30 ml"
   },
   {
@@ -7615,8 +7615,8 @@ window.manualData.productos = [
       "Defensas blindadas y energía física: estimula la producción de glóbulos blancos y combate el decaimiento y la fatiga corporal."
     ],
     "contraindications": "Contraindicado en insuficiencia renal crónica (alto contenido de potasio), hepatopatías (riesgo de toxicidad hepática idiosincrática), embarazo y lactancia. Personas con hipertensión o bajo tratamiento con diuréticos ahorradores de potasio deben consultar a un profesional de la salud.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si usa medicamentos que pueden aumentar el potasio, como espironolactona, losartán o captopril, o anticoagulantes como warfarina. La ficha indica no mezclar con bebidas lácteas en la misma toma y separar 2 horas del hierro o calcio.",
+    "foodInteractions": "Tomar 30 ml por la mañana preferentemente en ayunas o 30 minutos antes del desayuno; no mezclar en la misma toma con leche ni bebidas lácteas para no entorpecer su asimilación.",
+    "interactions": "Por su alto contenido natural de potasio y compuestos bioactivos, consultar al médico si el cliente toma diuréticos ahorradores de potasio (espironolactona), antihipertensivos (losartán, captopril) o anticoagulantes (warfarina); separar al menos 2 horas de suplementos de hierro o calcio.",
     "packageContent": "1 L"
   },
   {
@@ -7637,8 +7637,8 @@ window.manualData.productos = [
       "Fácil rutina diaria: presentación práctica de 1 cápsula antes de cada comida principal para mantener el estómago en paz."
     ],
     "contraindications": "Contraindicado en embarazo y lactancia. Personas con trastornos de la coagulación o bajo tratamiento con anticoagulantes o aspirina (ácido acetilsalicílico) deben evitar su uso. Consultar en caso de obstrucción biliar o litiasis biliar.",
-    "foodInteractions": "La ficha no indica precauciones específicas con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para evitar coágulos, incluidos anticoagulantes y antiagregantes. También revisar otros tratamientos que procesa el hígado.",
+    "foodInteractions": "Tomar 15 a 20 minutos antes de los alimentos o junto con comidas que aporten grasas saludables para activar la bilis, aliviar pesadez y optimizar la asimilación de los principios activos de la cúrcuma.",
+    "interactions": "La cúrcuma y el jengibre pueden potenciar el efecto de anticoagulantes y antiagregantes plaquetarios (aumentando el riesgo de sangrado), así como de medicamentos antidiabéticos. En personas con tratamientos médicos continuos o fármacos procesados por el hígado, se aconseja separar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
       "focus": "Digestivos carminativos tradicionales",
@@ -7690,8 +7690,8 @@ window.manualData.productos = [
       "Nervios y músculos relajados: el magnesio ayuda a que los nervios funcionen con normalidad sin sobrecargarse ni acumular tensión física."
     ],
     "contraindications": "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Personas con trastornos tiroideos o antecedentes de úlcera deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
-    "interactions": "Consultar si usa medicamentos que cambian la acción de la acetilcolina, una sustancia que transmite mensajes entre los nervios, o tratamientos para depresión, sueño o ansiedad. El magnesio puede reducir la absorción de ciertos antibióticos y tratamientos para los huesos; un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Tomar por la mañana o al mediodía con una comida que incluya grasas saludables (como aguacate, nueces o aceite de oliva), lo que maximiza la absorción de los bacósidos de la bacopa y previene molestias gástricas.",
+    "interactions": "Consultar con el médico si se toman fármacos colinérgicos o anticolinérgicos, antidepresivos, ansiolíticos o sedantes. El magnesio puede disminuir la absorción de antibióticos y bifosfonatos; espaciar las tomas al menos 2 a 3 horas.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -7733,8 +7733,8 @@ window.manualData.productos = [
       "Músculos y nervios con soltura: el magnesio ayuda a que el cuerpo se mueva y responda con soltura sin sentirse tenso ni contracturado."
     ],
     "contraindications": "No usar en menores de 18 años, durante el embarazo o la lactancia, ni en caso de hipersensibilidad a sus ingredientes. Evitar en personas con trastorno bipolar. Consultar a un profesional de la salud si se padece alguna condición médica.",
-    "foodInteractions": "La ficha recomienda tomarlo con una comida que incluya grasas saludables, como aguacate, nueces o aceite de oliva.",
-    "interactions": "Consultar si usa antidepresivos, medicamentos para la presión o para dormir. La ficha menciona posibles interacciones de la rhodiola con antidepresivos y losartán. El magnesio puede reducir la absorción de ciertos antibióticos y tratamientos para los huesos; un profesional debe indicar cómo separar las tomas.",
+    "foodInteractions": "Tomar preferentemente por la mañana o con el almuerzo junto a alimentos con grasas saludables (como huevo, aguacate o frutos secos) para favorecer su asimilación y evitar alteraciones del sueño nocturno por su acción vigorizante.",
+    "interactions": "Consultar con el médico antes de combinar con antidepresivos (ISRS, IMAO), medicamentos antihipertensivos (como losartán) o sedantes, por posible potenciación de efectos. Separar al menos 2 horas de antibióticos por el contenido de magnesio.",
     "packageContent": "60 cápsulas"
   },
   {
@@ -7748,7 +7748,7 @@ window.manualData.productos = [
     "ingredients": "Por cápsula (500 mg): mezcla de extracto de raíz y rizoma de cohosh negro (Actaea racemosa) e isoflavonas de soja (Glycine max). La ficha no especifica la cantidad individual de cada ingrediente.",
     "serving": "3 cápsulas (1,500 mg de mezcla)",
     "timing": "Con alimentos, distribuido durante el día",
-    "intakeInstructions": "Tomar 3 cápsulas al día con alimentos y un vaso de agua, según la ficha del producto. No exceder la porción indicada.",
+    "intakeInstructions": "Tomar 3 cápsulas al día con alimentos y un vaso de agua. No exceder la porción indicada.",
     "benefits": [
       "Supresión de bochornos y sofocos: el cohosh negro actúa sobre el centro térmico cerebral para frenar los ataques repentinos de calor en pecho y cara.",
       "Noches de sueño sin sudoración: elimina los despertares sobresaltados por sudor frío, permitiendo un descanso continuo y reparador.",
@@ -7756,8 +7756,8 @@ window.manualData.productos = [
       "Protección ósea y cutánea: las isoflavonas aportan fitoestrógenos que protegen contra la descalcificación y conservan la hidratación de la piel."
     ],
     "contraindications": "No usar durante el embarazo o la lactancia. Personas con antecedentes o enfermedades hepáticas, condiciones sensibles a hormonas, alergia a la soja o bajo tratamiento médico deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "La ficha recomienda tomarlo con alimentos. No detalla otras precauciones con comidas o bebidas.",
-    "interactions": "Consultar antes de combinar con medicamentos, tratamientos hormonales u otros suplementos con compuestos vegetales parecidos a los estrógenos. También revisar si el cliente tiene antecedentes de problemas del hígado.",
+    "foodInteractions": "Tomar junto con las comidas matutinas o del mediodía con un vaso con agua para favorecer la tolerancia gastrointestinal y la asimilación de los fitoestrógenos y glucósidos triterpénicos.",
+    "interactions": "Por su actividad moduladora sobre receptores estrogénicos, consultar al médico antes de combinar con terapia hormonal de reemplazo, moduladores selectivos de estrógenos (tamoxifeno) o anticonceptivos. Precaución en personas que utilicen medicamentos hepatotóxicos; monitorear la función hepática y espaciar al menos 2 horas de otros tratamientos médicos.",
     "packageContent": "90 cápsulas (45 g)"
   },
   {
@@ -7771,7 +7771,7 @@ window.manualData.productos = [
     "ingredients": "Extracto acuoso de hojas de guanábana (cantidad no especificada), vitamina C (60 mg por 60 mL), agua purificada, ácidos cítrico y tartárico, stevia (12 mg por 60 mL), saborizante de guanábana, dióxido de titanio, color caramelo, benzoato de sodio y sorbato de potasio; según la ficha técnica recibida.",
     "serving": "30 mL (1 oz) por toma; la ficha recibida indica 2 tomas al día (60 mL al día).",
     "timing": "Confirmar el horario de consumo en la etiqueta vigente.",
-    "intakeInstructions": "Agitar antes de usar. La ficha recibida indica 30 mL dos veces al día y refrigerar después de abrir; confirmar modo de empleo y conservación en la etiqueta del envase actual.",
+    "intakeInstructions": "Agitar antes de usar. Tomar 30 mL dos veces al día con los alimentos y refrigerar después de abrir el envase.",
     "yieldInfo": {
       "durationDays": 16.6667,
       "note": "Aprox. 17 días: envase de 1 L con consumo de 60 mL al día (2 tomas de 30 mL)."
@@ -7782,9 +7782,9 @@ window.manualData.productos = [
       "Depuración de la sangre y tejidos: favorece la eliminación de impurezas acumuladas en el cuerpo, combatiendo la sensación de pesadez y fatiga crónica.",
       "Formato bebible de 1 Litro: delicioso sabor endulzado con stevia, listo para tomar en vaso dosificador sin batallar tragando cápsulas o pastillas."
     ],
-    "contraindications": "La ficha recibida recomienda evitar su uso durante el embarazo y la lactancia, y en menores de 18 años; también señala precaución en personas con Parkinson o parkinsonismo. La seguridad de suplementos de Annona muricata, especialmente con uso prolongado, no está establecida con suficiente evidencia. Confirmar advertencias con la etiqueta vigente y un profesional de la salud.",
-    "foodInteractions": "La etiqueta compartida no detalla qué precauciones tomar al combinarlo con alimentos.",
-    "interactions": "Consultar si el cliente toma medicamentos para la presión o el azúcar. La ficha no indica cuánto extracto de hojas contiene; revisar con un profesional antes de combinarlo con cualquier tratamiento.",
+    "contraindications": "No consumir durante el embarazo, lactancia ni en menores de 18 años. Contraindicado en personas con enfermedad de Parkinson, trastornos neuromusculares o hipotensión severa. No se recomienda su uso continuo y prolongado sin supervisión médica.",
+    "foodInteractions": "Tomar preferentemente con los alimentos de la mañana o el mediodía para facilitar la tolerancia digestiva y evitar acidez gástrica por la vitamina C.",
+    "interactions": "Consultar con el médico si se toman medicamentos antihipertensivos o antidiabéticos, ya que la guanábana puede potenciar el descenso de la presión arterial y de los niveles de glucosa.",
     "researchNote": {
       "focus": "Extracto de hojas de Annona muricata (guanábana) y vitamina C en la protección celular",
       "text": "Propiedades fitoquímicas de las hojas de guanábana: las hojas de Annona muricata son ricas en alcaloides isoquinolínicos y acetogeninas anonáceas, compuestos ampliamente estudiados en modelos de estrés oxidativo por su capacidad de proteger la integridad celular. La adición de ácido ascórbico proporciona un respaldo antioxidante hidrosoluble adicional que complementa la respuesta defensiva.",
@@ -7802,281 +7802,3 @@ window.manualData.productos = [
     "packageContent": "1 L"
   }
 ];
-
-const productPackageContents = {
-  1: "250 g",
-  2: "60 cápsulas",
-  3: "500 g",
-  4: "90 cápsulas",
-  5: "60 cápsulas",
-  6: "90 cápsulas",
-  7: "450 g",
-  8: "500 g",
-  9: "90 cápsulas",
-  10: "90 cápsulas",
-  11: "250 g",
-  12: "90 cápsulas",
-  13: "60 cápsulas",
-  14: "1 L",
-  15: "420 ml",
-  16: "19.5 ml",
-  17: "60 cápsulas",
-  18: "Polvo (peso no especificado)",
-  19: "80 cápsulas",
-  20: "90 cápsulas",
-  21: "90 cápsulas",
-  22: "90 cápsulas",
-  23: "90 cápsulas",
-  24: "500 g",
-  25: "250 g",
-  26: "180 cápsulas",
-  27: "990 ml",
-  28: "1 L",
-  29: "60 cápsulas",
-  30: "1.1 kg",
-  31: "200 cápsulas",
-  32: "120 cápsulas de 500 mg",
-  33: "60 cápsulas vegetales",
-  34: "30 cápsulas",
-  35: "500 g",
-  36: "60 cápsulas",
-  37: "30 cápsulas",
-  38: "22 sobres",
-  39: "600 g",
-  40: "30 sobres",
-  41: "120 cápsulas",
-  42: "30 cápsulas",
-  43: "60 cápsulas",
-  44: "150 cápsulas",
-  45: "60 cápsulas",
-  46: "500 g",
-  47: "90 cápsulas",
-  48: "500 ml",
-  49: "500 ml",
-  50: "100 cápsulas",
-  51: "90 cápsulas",
-  52: "90 cápsulas",
-  53: "300 g",
-  54: "90 cápsulas",
-  55: "30 cápsulas",
-  56: "30 cápsulas",
-  57: "30 cápsulas",
-  58: "90 cápsulas",
-  59: "15 cápsulas",
-  60: "90 cápsulas",
-  61: "90 cápsulas",
-  62: "90 cápsulas",
-  63: "90 cápsulas",
-  64: "510 g",
-  66: "500 ml",
-  67: "60 cápsulas",
-  68: "30 cápsulas",
-  69: "50 tabletas",
-  70: "90 cápsulas",
-  71: "300 g",
-  72: "120 cápsulas",
-  73: "30 cápsulas",
-  74: "30 cápsulas",
-  75: "30 cápsulas",
-  76: "50 tabletas",
-  77: "90 cápsulas",
-  78: "120 cápsulas",
-  79: "120 cápsulas",
-  80: "90 cápsulas",
-  81: "60 cápsulas",
-  82: "60 cápsulas",
-  83: "100 cápsulas",
-  84: "100 cápsulas",
-  85: "30 cápsulas",
-  86: "60 cápsulas",
-  87: "60 cápsulas",
-  88: "150 g",
-  89: "60 cápsulas",
-  90: "90 cápsulas",
-  91: "120 cápsulas",
-  92: "60 cápsulas",
-  93: "120 cápsulas",
-  94: "90 cápsulas",
-  95: "30 cápsulas",
-  96: "8 lb (3.63 kg)",
-  97: "100 g",
-  98: "90 cápsulas",
-  99: "560 g",
-  100: "90 cápsulas",
-  101: "30 cápsulas",
-  102: "60 cápsulas",
-  103: "500 ml",
-  104: "90 cápsulas",
-  105: "120 cápsulas",
-  106: "120 cápsulas",
-  107: "120 cápsulas",
-  108: "100 cápsulas",
-  109: "60 cápsulas",
-  110: "60 perlas",
-  111: "500 g",
-  112: "1 kg",
-  113: "1.02 kg",
-  114: "30 cápsulas",
-  115: "30 ml",
-  116: "60 cápsulas",
-  117: "90 cápsulas",
-  118: "9 cápsulas",
-  119: "30 cápsulas",
-  120: "90 softgels",
-  122: "120 cápsulas",
-  123: "90 cápsulas",
-  124: "60 tabletas",
-  125: "1 kg",
-  126: "990 g",
-  127: "90 cápsulas",
-  128: "90 cápsulas",
-  129: "60 cápsulas",
-  130: "60 cápsulas",
-  131: "60 cápsulas",
-  132: "30 cápsulas",
-  133: "30 cápsulas",
-  134: "488 g",
-  135: "488 g",
-  136: "30 cápsulas",
-  137: "60 cápsulas",
-  138: "120 cápsulas",
-  139: "90 cápsulas",
-  140: "1 L",
-  141: "60 cápsulas de 1000 mg",
-  142: "90 tabletas",
-  143: "60 cápsulas",
-  144: "50 tabletas",
-  145: "30 cápsulas",
-  146: "30 sobres",
-  147: "100 tabletas",
-  148: "90 cápsulas",
-  149: "60 cápsulas",
-  150: "30 cápsulas",
-  151: "200 g",
-  152: "90 cápsulas",
-  153: "90 cápsulas",
-  154: "60 cápsulas",
-  155: "240 ml",
-  156: "240 ml",
-  157: "30 cápsulas",
-  158: "578 g",
-  159: "90 cápsulas",
-  160: "420 ml",
-  161: "60 cápsulas",
-  163: "30 cápsulas",
-  164: "990 ml",
-  165: "30 sobres",
-  166: "90 cápsulas",
-  167: "240 g",
-  168: "60 cápsulas",
-  169: "30 bolsitas de té",
-  170: "30 sobres",
-  171: "30 sobres",
-  172: "30 sobres",
-  173: "30 sobres",
-  174: "30 sobres",
-  175: "30 sobres",
-  176: "30 sobres",
-  177: "30 sobres",
-  178: "60 cápsulas",
-  179: "340 ml",
-  180: "50 g",
-  181: "120 cápsulas",
-  182: "Gel tópico (cantidad no especificada)",
-  183: "240 g",
-  184: "60 cápsulas",
-  185: "30 cápsulas",
-  186: "30 cápsulas",
-  187: "30 cápsulas",
-  188: "30 ml",
-  189: "30 bolsitas de té",
-  190: "30 tabletas",
-  191: "300 g",
-  192: "10 ampolletas",
-  193: "100 cápsulas",
-  194: "1080 g",
-  195: "150 cápsulas (2 frascos: 90 + 60)",
-  196: "30 cápsulas",
-  197: "30 sobres",
-  198: "1 L",
-  199: "15 cápsulas",
-  200: "30 cápsulas",
-  201: "1 L",
-  202: "90 cápsulas",
-  203: "125 g",
-  204: "135 cápsulas (90 + 45 gratis)",
-  205: "250 tabletas (150 g)",
-  206: "90 cápsulas (117 g)",
-  207: "30 cápsulas",
-  208: "65 cápsulas",
-  209: "300 g",
-  210: "30 cápsulas",
-  211: "30 cápsulas",
-  212: "90 tabletas",
-  213: "90 tabletas",
-  214: "500 g",
-  215: "90 cápsulas",
-  216: "50 cápsulas",
-  217: "90 cápsulas",
-  218: "30 cápsulas",
-  219: "1.77 kg",
-  220: "5 lb (2.27 kg)",
-  221: "30 cápsulas",
-  222: "500 g",
-  223: "150 cápsulas",
-  224: "20 ml",
-  225: "100 pastillas",
-  226: "120 ml",
-  227: "90 cápsulas",
-  228: "90 cápsulas",
-  229: "120 gomitas",
-  230: "100 cápsulas",
-  231: "1 L",
-  232: "Presentación variable (peso no especificado)",
-  233: "120 capletas",
-  234: "250 ml",
-  235: "150 cápsulas",
-  236: "150 cápsulas",
-  237: "150 cápsulas",
-  238: "60 tabletas",
-  239: "120 g",
-  240: "60 perlas",
-  241: "300 g",
-  242: "150 g",
-  243: "220 ml",
-  244: "30 cápsulas",
-  245: "100 cápsulas",
-  246: "180 g",
-  247: "110 gomitas aprox.",
-  248: "110 gomitas aprox.",
-  249: "250 ml",
-  250: "250 ml",
-  251: "120 g",
-  252: "175 g",
-  253: "30 cápsulas",
-  254: "30 ml",
-  255: "30 g",
-  256: "30 g",
-  257: "340 ml",
-  258: "Gel tópico (cantidad no especificada)",
-  259: "60 cápsulas",
-  260: "355 ml",
-  261: "10 ampolletas de 10 ml",
-  262: "1.1 kg",
-  263: "500 ml",
-  264: "100 cápsulas",
-  265: "30 cápsulas",
-  266: "150 cápsulas (45 g)",
-  267: "30 ampolletas de 10 ml",
-  268: "30 ml",
-  269: "1 L",
-  270: "90 cápsulas",
-  271: "60 cápsulas",
-  272: "60 cápsulas",
-  273: "90 cápsulas (45 g)",
-  274: "1 L"
-};
-
-window.manualData.productos.forEach((product) => {
-  product.packageContent = productPackageContents[product.id] || "Cantidad no especificada";
-});

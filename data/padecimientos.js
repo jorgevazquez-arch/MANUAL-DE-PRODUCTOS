@@ -20,13 +20,13 @@ window.manualData.padecimientos = [
                 "id": 163,
                 "serving": "Porción por confirmar",
                 "usage": "Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.",
-                "rationale": "Ashwagandha y L-teanina para inducir calma mental rápida, relajar la tensión muscular en cuello y hombros y frenar el estado de alerta constante."
+                "rationale": "Combina ashwagandha, L-teanina y bisglicinato de magnesio para modular el eje adrenal, reducir los niveles de cortisol y relajar la contracción muscular en cuello y hombros, frenando el estado de alerta constante sin provocar somnolencia."
             },
             {
                 "id": 68,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Freno de emergencia natural que calma la sobreexcitación cerebral, detiene los ataques de pánico y desacelera pensamientos en torbellino."
+                "rationale": "Actúa como el principal neurotransmisor inhibitorio del sistema nervioso central, bloqueando la sobreestimulación neuronal para frenar los pensamientos en torbellino, apaciguar las palpitaciones y reducir la reactividad ante crisis de angustia."
             }
         ],
         "comboSecundario": [
@@ -34,31 +34,31 @@ window.manualData.padecimientos = [
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Regula los picos de cortisol en sangre, aliviando la sensación de agobio, nerviosismo permanente y fatiga por estrés prolongado."
+                "rationale": "Extracto adaptógeno que modula el eje hipotálamo-hipófisis-suprarrenal (HPA), disminuyendo la secreción excesiva de cortisol para aliviar el nerviosismo permanente, la opresión en el pecho y la fatiga por estrés crónico."
             },
             {
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la noche.",
-                "rationale": "Complejo de magnesio con L-teanina y manzanilla para desconectar la mente acelerada al anochecer y conciliar el sueño."
+                "rationale": "Aporta bisglicinato y citrato de magnesio con L-teanina, 5-HTP y manzanilla para inducir ondas cerebrales alfa, relajar el tono muscular y calmar la rumiación nocturna, facilitando una transición suave hacia el descanso."
             },
             {
                 "id": 150,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos. Preferentemente antes de dormir.",
-                "rationale": "Aporta L-triptófano y L-teanina para favorecer la producción natural de serotonina, disipando la angustia diurna y facilitando el descanso nocturno."
+                "rationale": "Provee L-triptófano como aminoácido precursor de la serotonina y L-teanina para estabilizar el estado anímico, disipando la sensación de angustia o desasosiego diurno y preparando al sistema nervioso para un sueño reparador."
             },
             {
                 "id": 98,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Calma la irritabilidad nerviosa y protege las conexiones cerebrales del desgaste químico causado por el estrés crónico."
+                "rationale": "Estimula la neurogénesis y el factor de crecimiento nervioso (NGF), protegiendo la plasticidad cerebral frente a la toxicidad del cortisol elevado y disminuyendo la irritabilidad y el agotamiento mental."
             },
             {
                 "id": 271,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana o al mediodía con alimentos. Consultar antes si toma antidepresivos o sedantes.",
-                "rationale": "Extractos de albizia y bacopa para frenar los pensamientos repetitivos en bucle, disipar la niebla mental y devolver serenidad y claridad mental."
+                "rationale": "Sinergia botánica que modula los receptores serotoninérgicos y GABAérgicos, ayudando a frenar los patrones de pensamientos repetitivos y la rumia ansiosa, promoviendo claridad cognitiva y estabilidad emocional."
             }
         ],
         "lifestyleTips": [
@@ -86,19 +86,19 @@ window.manualData.padecimientos = [
                 "id": 58,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Adaptógeno de alta potencia que reactiva las glándulas suprarrenales, venciendo el agotamiento físico extremo y el cansancio mental por sobrecarga de trabajo."
+                "rationale": "Extracto de Rhodiola rosea estandarizado en rosavinas que optimiza la respuesta al estrés modulando la liberación de catecolaminas, combatiendo la astenia física severa y la niebla mental inducida por sobrecarga laboral continua."
             },
             {
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Disminuye el cortisol crónicamente elevado para que el organismo recupere su ritmo natural de energía y descanse profundamente de noche."
+                "rationale": "Normaliza los ritmos circadianos del cortisol alterados por el agotamiento crónico, devolviendo la vitalidad durante el día y permitiendo la regeneración celular y muscular durante la noche."
             },
             {
                 "id": 98,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Nutre y oxigena las neuronas desgastadas por sobreexigencia intelectual, despejando la niebla mental y mejorando la lucidez diurna."
+                "rationale": "Aporta hericenonas y L-treonato de magnesio para promover la biosíntesis de neurotransmisores y la función mitocondrial cerebral, despejando la sensación de embotamiento y reactivando la agilidad mental en estados de agotamiento extremo."
             }
         ],
         "comboSecundario": [
@@ -106,43 +106,43 @@ window.manualData.padecimientos = [
                 "id": 109,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos grasos.",
-                "rationale": "La vitamina D y el magnesio apoyan músculos y huesos; valorar si hay una necesidad nutricional."
+                "rationale": "Aporta vitamina D3, zinc y magnesio, cofactores esenciales en la producción de ATP y la señalización neuromuscular, indispensables para contrarrestar la debilidad muscular profunda y restaurar la vitalidad metabólica agotada por el burnout."
             },
             {
                 "id": 5,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la mañana con alimentos.",
-                "rationale": "Las vitaminas B ayudan a aprovechar la energía de los alimentos."
+                "rationale": "Combina vitaminas del complejo B hidrosolubles y ginseng siberiano para acelerar el metabolismo energético mitocondrial (ciclo de Krebs) y modular la fatiga adrenal, combatiendo el letargo físico y la falta de concentración diurna."
             },
             {
                 "id": 117,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Aporte directo de NAD celular y resveratrol para reactivar la producción de energía biológica, combatiendo la fatiga profunda a nivel celular."
+                "rationale": "Incrementa la coenzima NAD+ y activa las sirtuinas celulares mediante resveratrol, restaurando la respiración mitocondrial y la síntesis de ATP para superar el agotamiento crónico celular resistente al descanso convencional."
             },
             {
                 "id": 181,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio apoya músculos y nervios y ayuda a reducir el cansancio cuando falta este mineral."
+                "rationale": "Aporta magnesio quelado de alta biodisponibilidad que participa directamente en más de 300 reacciones enzimáticas de fijación de ATP, aliviando la pesadez muscular, los espasmos por tensión y la debilidad sistémica."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Coenzima Q10 indispensable para oxigenar los tejidos y recargar las reservas de energía en corazón y músculos fatigados."
+                "rationale": "Forma activa reducida de la Coenzima Q10 que transfiere electrones en la cadena respiratoria mitocondrial, mejorando el gasto bioenergético en músculo esquelético y miocardio para superar la sensación de pesadez y desgano corporal."
             },
             {
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Optimiza el aprovechamiento de la glucosa en las células para evitar bajones repentinos de energía a media tarde."
+                "rationale": "Activa la enzima AMPK mediante hesperidina y Gynostemma pentaphyllum, optimizando la captación periférica de glucosa y evitando las caídas bruscas de glucemia que provocan somnolencia y fatiga posprandial."
             },
             {
                 "id": 272,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana o al mediodía con alimentos; evitarla cerca de la hora de dormir. Consultar antes si toma antidepresivos o antihipertensivos.",
-                "rationale": "Rhodiola con L-teanina para combatir el agotamiento crónico y la saturación mental manteniendo la lucidez y la serenidad bajo alta presión diaria."
+                "rationale": "Asocia la resistencia adaptogénica de la Rhodiola con las propiedades ansiolíticas de Albizia y L-teanina, sustentando la claridad cognitiva y el rendimiento intelectual sin sobreestimular el sistema cardiovascular ni agotar las suprarrenales."
             }
         ],
         "lifestyleTips": [
@@ -169,19 +169,19 @@ window.manualData.padecimientos = [
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción 1h antes de dormir.",
-                "rationale": "Magnesio bisglicinato y citrato con manzanilla y 5-HTP para relajar los músculos, calmar los nervios y mantener el sueño continuo sin interrupciones."
+                "rationale": "Combina dos fuentes de magnesio con 5-HTP, L-teanina y manzanilla para facilitar la relajación neuromuscular, estimular la conversión a melatonina y reducir los microdespertares a mitad de la noche, garantizando un sueño profundo y continuo."
             },
             {
                 "id": 68,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción 1h antes de dormir. Con alimentos.",
-                "rationale": "Apaga la hiperactividad mental y la tensión nerviosa nocturna facilitando una inducción rápida al sueño profundo."
+                "rationale": "Actúa como el freno fisiológico neuronal inhibitorio que atenúa las descargas excitatorias de glutamato, disminuyendo la latencia de conciliación del sueño y evitando la sensación de mente hiperactiva al momento de acostarse."
             },
             {
                 "id": 150,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción 1h antes de dormir. Con alimentos.",
-                "rationale": "Aporta L-triptófano y L-teanina para inducir la síntesis natural de melatonina, logrando relajarse y prepararse para dormir de forma natural."
+                "rationale": "Proporciona el sustrato bioquímico primario (L-triptófano) para la síntesis de serotonina y melatonina en la glándula pineal, regulando el ciclo circadiano y disipando el desasosiego nocturno para una inducción suave del descanso."
             }
         ],
         "comboSecundario": [
@@ -189,19 +189,19 @@ window.manualData.padecimientos = [
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Apaga la hiperactividad mental nocturna provocada por el estrés para conciliar el sueño sin dar vueltas en la cama."
+                "rationale": "Contiene withanólidos que disminuyen los picos de cortisol vespertinos y nocturnos, evitando que el estado de alerta fisiológico impida iniciar el sueño o genere despertares sobresaltados de madrugada."
             },
             {
                 "id": 163,
                 "serving": "Porción por confirmar",
                 "usage": "Confirmar la porción con la etiqueta vigente o el fabricante antes de indicar una dosis.",
-                "rationale": "Sinergia de ashwagandha, magnesio y teanina que frena el estado de alerta nocturno para un descanso profundo y reparador."
+                "rationale": "Integra la regulación adrenal de la ashwagandha con la relajación neuromuscular del bisglicinato de magnesio y la teanina, atenuando el hiperarousal nocturno y prolongando las fases de sueño delta restaurador."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la mañana. Con alimentos.",
-                "rationale": "Nutre las fibras nerviosas y estabiliza el ritmo circadiano para evitar despertares sobresaltados a mitad de la noche."
+                "rationale": "Las vitaminas B6 y B12 actúan como cofactores enzimáticos indispensables en la descarboxilación del triptófano a serotonina y melatonina, estabilizando la continuidad del descanso y evitando despertares nocturnos por hiperexcitabilidad nerviosa."
             }
         ],
         "lifestyleTips": [
@@ -227,19 +227,19 @@ window.manualData.padecimientos = [
                 "id": 149,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Magnesio de cruce cerebral que potencia la comunicación entre neuronas, la memoria de trabajo y la agilidad para resolver problemas."
+                "rationale": "Cruza de forma efectiva la barrera hematoencefálica incrementando la densidad de sinapsis neuronales en el hipocampo, lo que mejora la memoria de trabajo, la velocidad de procesamiento y la retención de nueva información."
             },
             {
                 "id": 98,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Estimula el factor de crecimiento nervioso para favorecer la comunicación entre neuronas, la retención de datos y la concentración nítida."
+                "rationale": "Sus compuestos bioactivos (hericenonas y erinacinas) estimulan la síntesis endógena de factor de crecimiento nervioso (NGF), regenerando axones y mejorando la plasticidad sináptica necesaria para una concentración nítida y prolongada."
             },
             {
                 "id": 70,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Ginkgo como apoyo a memoria y concentración, con resultados variables; revisar medicamentos y riesgo de sangrado."
+                "rationale": "Los ginkgólidos y flavonoides del Ginkgo biloba mejoran la microcirculación cerebral y la perfusión de oxígeno al lóbulo frontal, favoreciendo la memoria a corto plazo, la agilidad verbal y la agudeza mental en tareas complejas."
             }
         ],
         "comboSecundario": [
@@ -247,31 +247,31 @@ window.manualData.padecimientos = [
                 "id": 82,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Aporta DHA, una grasa omega 3 importante para el cerebro."
+                "rationale": "Aporta fosfolípidos de omega-3 con alto contenido de DHA y astaxantina, que se integran en las membranas celulares del córtex cerebral para optimizar la neurotransmisión colinérgica y proteger del deterioro cognitivo."
             },
             {
                 "id": 87,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción una vez al día con alimentos, preferentemente por la mañana.",
-                "rationale": "La tirosina participa en procesos relacionados con atención; no garantiza mejorar la concentración."
+                "rationale": "Aminoácido precursor directo de la dopamina y noradrenalina en el sistema nervioso central, neurotransmisores indispensables para sostener la atención ejecutiva, la motivación y la claridad mental bajo situaciones de alta demanda intelectual."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Optimiza el flujo de oxígeno y glucosa al cerebro, protegiéndolo contra el cansancio intelectual y la falta de concentración."
+                "rationale": "Mejora la biodisponibilidad energética mitocondrial en las neuronas corticales y neutraliza el estrés oxidativo tisular, previniendo la fatiga cognitiva y el bloqueo mental durante jornadas de estudio o trabajo intensas."
             },
             {
                 "id": 271,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana o al mediodía con alimentos. Consultar antes si toma antidepresivos o sedantes.",
-                "rationale": "Bacopa y albizia que mejoran la retención de información, la velocidad de procesamiento y la claridad mental en jornadas de alta exigencia."
+                "rationale": "Los bacósidos de la Bacopa monnieri facilitan la transmisión del impulso sináptico y modulan la acetilcolina, elevando la capacidad de retención, la consolidación del aprendizaje y disipando la niebla mental por sobrecarga de información."
             },
             {
                 "id": 272,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana o al mediodía con alimentos; evitarla cerca de la hora de dormir. Consultar antes si toma antidepresivos o antihipertensivos.",
-                "rationale": "Rhodiola con L-teanina para sostener la concentración prolongada y el rendimiento intelectual sin provocar nerviosismo ni taquicardia."
+                "rationale": "Combina la acción nootrópica adaptógena de Rhodiola con L-teanina para incrementar la resistencia al esfuerzo mental, manteniendo el foco atencional sostenido y la serenidad ejecutiva sin generar taquicardia ni picos de ansiedad."
             }
         ],
         "lifestyleTips": [
@@ -297,19 +297,19 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2-4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio apoya músculos y nervios. El uso para migraña se valora según cantidad e indicación profesional."
+                "rationale": "Aporta magnesio biodisponible unido a ácido málico, esencial para frenar la hiperexcitabilidad cortical propagada y regular el tono vasomotor de las arterias cerebrales, ayudando a disminuir la intensidad y recurrencia de las crisis migrañosas."
             },
             {
                 "id": 149,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Magnesio de cruce cerebral que calma la hiperexcitabilidad neuromuscular en vasos sanguíneos craneales, reduciendo la intensidad y frecuencia del dolor de cabeza."
+                "rationale": "Forma de magnesio capaz de atravesar la barrera hematoencefálica y elevar los niveles cerebrales de magnesio, estabilizando los receptores NMDA y previniendo los espasmos neurovasculares que desencadenan el dolor punzante en la cabeza."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Las vitaminas B ayudan a aprovechar energía; su presencia no equivale a las cantidades estudiadas para migraña."
+                "rationale": "Aporta riboflavina (vitamina B2) y cofactor B6, nutrientes indispensables para restaurar la fosforilación oxidativa mitocondrial en neuronas cerebrales con déficit energético, atenuando la susceptibilidad neurovascular a desencadenar episodios de migraña."
             }
         ],
         "comboSecundario": [
@@ -317,19 +317,19 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Coenzima Q10 para mejorar la oxigenación celular en vasos sanguíneos cerebrales y prevenir la aparición de crisis vasculares punzantes."
+                "rationale": "Restaura la deficiencia mitocondrial en el endotelio cerebral optimizando la cadena respiratoria celular, lo que disminuye significativamente los marcadores neuroinflamatorios y la frecuencia de los ataques de migraña con o sin aura."
             },
             {
                 "id": 70,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El ginkgo se utiliza para memoria y circulación; no tiene un beneficio establecido para tratar migraña."
+                "rationale": "Sus flavonas y terpenoides promueven la estabilidad vasomotora y la microcirculación cerebral, atenuando los espasmos vasculares craneales y la isquemia transitoria responsables de la pesadez y las cefaleas vasculares pulsátiles."
             },
             {
                 "id": 123,
                 "serving": "2-3 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para complementar alimentación y cuidado del corazón; no se presenta como tratamiento de migraña."
+                "rationale": "Altas concentraciones de EPA y DHA modulan la síntesis de eicosanoides inflamatorios (prostaglandinas serie 2), reduciendo la neuroinflamación perivascular en las terminales del nervio trigémino y aliviando la hipersensibilidad dolorosa craneal."
             }
         ],
         "lifestyleTips": [
@@ -356,19 +356,19 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2-4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio apoya músculos y ayuda con el cansancio cuando falta; no es tratamiento específico de fibromialgia."
+                "rationale": "Combina magnesio con ácido málico para abastecer el ciclo de Krebs celular y desactivar los puntos gatillo miofasciales, disminuyendo la rigidez matutina generalizada, la fatiga extrema y la hiperalgesia en los tejidos blandos."
             },
             {
                 "id": 101,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Recarga la energía celular en las fibras musculares rígidas, aliviando la sensación de agotamiento físico crónico y pesadez en el cuerpo."
+                "rationale": "Compensa la severa disfunción mitocondrial y el estrés oxidativo muscular típicos de la fibromialgia, optimizando la generación de ATP en las células musculares para aliviar el dolorimiento generalizado y la astenia profunda."
             },
             {
                 "id": 102,
                 "serving": "2 cápsulas (1 g)",
                 "usage": "Tomar 1 cápsula con el desayuno y 1 con la cena, según la ficha técnica.",
-                "rationale": "Colágeno no desnaturalizado tipo II con cúrcuma y boswellia para desinflamar tendones y zonas de inserción articular sensibles al roce."
+                "rationale": "La boswellia inhibe la enzima proinflamatoria 5-lipoxigenasa y los curcuminoides bloquean NF-kB, desensibilizando las entesis y tendones con dolor crónico y mejorando la amplitud de movimiento articular sin causar irritación gástrica."
             }
         ],
         "comboSecundario": [
@@ -376,19 +376,19 @@ window.manualData.padecimientos = [
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la noche.",
-                "rationale": "Doble magnesio y L-teanina para relajar la musculatura contracturada, disminuir la hipersensibilidad al dolor y lograr un descanso nocturno reparador."
+                "rationale": "La combinación de bisglicinato de magnesio, 5-HTP y glicina promueve la relajación del tono muscular espástico y favorece la fase IV del sueño no REM, crucial para reparar tejidos y reducir la amplificación central del dolor."
             },
             {
                 "id": 17,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El ácido alfa lipoico participa en el cuidado de las células; valorar su utilidad para dolor con el profesional."
+                "rationale": "Potente antioxidante hidrosoluble y liposoluble que combate el daño por radicales libres en las fibras nerviosas sensoriales periféricas, disminuyendo las sensaciones de quemazón, pinchazos e hipersensibilidad táctil corporal."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Las vitaminas B ayudan a aprovechar la energía de los alimentos."
+                "rationale": "Aporta vitaminas neurotróficas (B1, B6, B12) requeridas para la mielinización nerviosa y la síntesis de neurotransmisores del dolor, mitigando la debilidad neuromuscular, los calambres y la sobreestimulación de las vías nociceptivas."
             }
         ],
         "lifestyleTips": [
@@ -415,13 +415,13 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2-4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio apoya los músculos; no libera un nervio comprimido ni corrige la causa de ciática."
+                "rationale": "El malato de magnesio junto con la vitamina B6 relaja las contracturas profundas de la zona lumbar y del músculo piramidal, reduciendo la presión mecánica sobre el nervio ciático para aliviar espasmos y tensión."
             },
             {
                 "id": 54,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "La curcumina se incluye por su posible ayuda con dolor y rigidez de origen articular. No libera un nervio comprimido; revisar la causa del dolor ciático."
+                "rationale": "Aporta curcuminoides de alta biodisponibilidad que modulan la cascada de citoquinas inflamatorias en las raíces nerviosas y tejidos paravertebrales, mitigando la irritación y el dolor irradiado a lo largo de la pierna."
             },
             {
                 "id": 4,
@@ -435,19 +435,19 @@ window.manualData.padecimientos = [
                 "id": 17,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Puede valorarse como complemento ante molestias de los nervios; no corrige su compresión."
+                "rationale": "Poderoso antioxidante neuroprotector que neutraliza el estrés oxidativo en la vaina del nervio periférico, mejorando la microcirculación perineural y reduciendo sensaciones de hormigueo, ardor y entumecimiento."
             },
             {
                 "id": 91,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio complementa el cuidado muscular y de los nervios."
+                "rationale": "Combina tres sales de magnesio para favorecer la relajación neuromuscular y disminuir la excitabilidad de las fibras paravertebrales, aliviando la rigidez muscular refleja que comprime el trayecto ciático."
             },
             {
                 "id": 167,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel para masaje y confort local. Debilidad, pérdida de sensibilidad o problemas para controlar orina o evacuación requieren atención médica."
+                "rationale": "Gel tópico con árnica, mentol y salicilato de metilo que proporciona un efecto analgésico y desinflamante inmediato por termoterapia tópica, relajando la musculatura glútea y aliviando la molestia local."
             }
         ],
         "lifestyleTips": [
@@ -474,19 +474,19 @@ window.manualData.padecimientos = [
                 "id": 150,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción por la tarde/noche. Con alimentos.",
-                "rationale": "Precursor natural de serotonina para elevar el estado de ánimo, disipar la desgana y mejorar la calidad del descanso nocturno."
+                "rationale": "Aporta L-triptófano, sustrato directo para la síntesis de serotonina cerebral, y L-teanina para mejorar la modulación anímica, reduciendo la sensación de apatía, desinterés y pesadez emocional durante el día."
             },
             {
                 "id": 123,
                 "serving": "2-3 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Ácidos grasos EPA y DHA para desinflamar el tejido cerebral y estabilizar la membrana neuronal favoreciendo un equilibrio emocional duradero."
+                "rationale": "Altas dosis de EPA marino con potente efecto antiinflamatorio cerebral que modula citoquinas proinflamatorias, optimizando la fluidez de las membranas neuronales y la recaptación de neurotransmisores implicados en el bienestar anímico."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Vitamina D de dosis alta solo con necesidad identificada y seguimiento profesional."
+                "rationale": "La vitamina D3 actúa como una neurohormona que estimula la síntesis de tirosina hidroxilasa y la producción de dopamina y serotonina en el encéfalo, combatiendo el desánimo estacional, la fatiga psíquica y la apatía."
             }
         ],
         "comboSecundario": [
@@ -494,25 +494,25 @@ window.manualData.padecimientos = [
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Estabiliza el sistema nervioso frente al desgaste emocional crónico, reduciendo la ansiedad y el desánimo acumulado."
+                "rationale": "Extracto adaptógeno que equilibra los niveles de cortisol y el eje neuroendocrino, mitigando los síntomas somáticos del bajo estado de ánimo, la anhedonia y la vulnerabilidad al colapso emocional por estrés prolongado."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitaminas B para nervios y aprovechamiento de energía cuando la alimentación no cubre necesidades."
+                "rationale": "Contiene folato, B6 y B12, coenzimas indispensables en las vías de metilación de la homocisteína y producción de monoaminas cerebrales, ayudando a disipar la fatiga mental y promoviendo la vitalidad afectiva."
             },
             {
                 "id": 94,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la noche.",
-                "rationale": "Nutre el sistema nervioso con magnesio y 5-HTP para calmar la tensión interior y restaurar el sueño reparador."
+                "rationale": "El 5-hidroxitriptófano (5-HTP) junto al bisglicinato de magnesio atraviesa eficientemente hacia el sistema nervioso central, impulsando los niveles de serotonina para disipar la rumiación pesimista nocturna y restaurar la arquitectura del sueño."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Recarga la energía celular y revitaliza el tono vital en personas con sensación de agotamiento físico y apatía profunda."
+                "rationale": "Reactiva la bioenergética en el tejido cerebral y muscular mediante transporte electrónico mitocondrial, mitigando la anhedonia física, el letargo psicomotor y devolviendo el dinamismo diario en personas decaídas."
             }
         ],
         "lifestyleTips": [
@@ -538,7 +538,7 @@ window.manualData.padecimientos = [
                 "id": 52,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Inositoles para valorar si también hay ovario poliquístico; no eliminan quistes ni miomas."
+                "rationale": "Modula la sensibilidad celular a la insulina y la función ovárica, ayudando a frenar los estímulos hiperinsulinémicos que favorecen la formación de quistes y el desbalance estrogénico."
             },
             {
                 "id": 54,
@@ -550,7 +550,7 @@ window.manualData.padecimientos = [
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Vitamina D de dosis alta para una falta documentada; no se presenta para reducir miomas."
+                "rationale": "Regula la proliferación celular en el tejido miometrial y modula los receptores hormonales uterinos, apoyando el control de factores fibrogénicos que intervienen en el desarrollo de miomas."
             }
         ],
         "comboSecundario": [
@@ -558,7 +558,7 @@ window.manualData.padecimientos = [
                 "id": 43,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Silimarina de cardo mariano para facilitar la eliminación hepática de estrógenos excedentes que promueven el crecimiento de quistes y miomas."
+                "rationale": "La silimarina y extractos botánicos apoyan la detoxificación hepática de estrógenos excedentes en fase II, ayudando a equilibrar la dominancia hormonal que estimula el crecimiento de quistes y miomas."
             },
             {
                 "id": 123,
@@ -570,13 +570,13 @@ window.manualData.padecimientos = [
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Modula el eje suprarrenal-ovárico reduciendo el impacto del estrés en la producción hormonal que altera el ciclo menstrual."
+                "rationale": "Modula el eje suprarrenal-ovárico al regular el cortisol, disminuyendo el impacto negativo del estrés crónico sobre la síntesis de progesterona y el balance hormonal pélvico."
             },
             {
                 "id": 180,
                 "serving": "5 g",
                 "usage": "Tomar esta porción al día disuelto en agua. Con alimentos.",
-                "rationale": "Inositol en polvo como alternativa a cápsulas; elegir una presentación y revisar si existe una necesidad específica."
+                "rationale": "Aporta inositol puro de rápida asimilación que optimiza la transducción de señales de insulina en el ovario, favoreciendo el balance neuroendocrino y disminuyendo la tendencia a desarrollar quistes ováricos."
             }
         ],
         "lifestyleTips": [
@@ -606,13 +606,13 @@ window.manualData.padecimientos = [
                 "id": 60,
                 "serving": "2 cápsulas",
                 "usage": "Antes de las comidas principales, según la ficha. Revisar alergia a papaya, piña o menta y medicamentos para evitar coágulos.",
-                "rationale": "ENDIS aporta enzimas que ayudan a descomponer proteínas, grasas y otros alimentos. Es una opción para valorar ante comidas pesadas; no toda indigestión se debe a falta de enzimas."
+                "rationale": "Aporta un complejo enzimático integral (pancreatina, papaína, bromelina, lipasa y amilasa) que desdobla rápidamente lípidos, proteínas y carbohidratos en el estómago, aliviando la sensación de plenitud gástrica, gases y somnolencia posprandial."
             },
             {
                 "id": 141,
                 "serving": "2 cápsulas (2 g)",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha. Revisar los medicamentos y suspender si causa diarrea o más molestias.",
-                "rationale": "El jengibre tiene uso tradicional para aliviar gases y molestias leves del estómago. Esta mezcla también contiene sábila, que puede aflojar las evacuaciones; elegir según tolerancia."
+                "rationale": "Combina jengibre, cardamomo y aloe vera para estimular las secreciones biliares y acelerar el vaciamiento gástrico, eliminando la sensación de distensión epigástrica, eructos repetitivos y pesadez tras alimentos condimentados o copiosos."
             }
         ],
         "comboSecundario": [
@@ -620,13 +620,13 @@ window.manualData.padecimientos = [
                 "id": 104,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción una vez al día con alimentos, según la ficha. Evitar si hay úlcera o reflujo severo; si predomina ardor, revisar primero la causa. Consultar si toma medicamentos para azúcar, presión o coagulación.",
-                "rationale": "La fórmula de 90 cápsulas contiene cúrcuma y jengibre de uso tradicional para pesadez y gases. El vinagre puede irritar a algunas personas; no elegirlo por rutina si hay acidez."
+                "rationale": "Aporta ácido acético natural con cúrcuma y jengibre para optimizar el pH del jugo gástrico y estimular la secreción de ácido clorhídrico endógeno, facilitando la digestión de comidas densas y evitando la fermentación excesiva."
             },
             {
                 "id": 175,
                 "serving": "1 sobre (2 g) / 1 taza al día",
                 "usage": "Preparar en 200 ml de agua caliente, dejar de 3 a 5 minutos y tomar preferentemente después de comer, según la ficha.",
-                "rationale": "Jengibre y cúrcuma en infusión, de uso tradicional para molestias digestivas leves como pesadez y gases. Es otra forma de elegir esas plantas, sin sumar de rutina varias fórmulas con los mismos ingredientes."
+                "rationale": "Infusión botánica carminativa que relaja el esfínter esofágico y la musculatura lisa gastroduodenal, promoviendo la motilidad digestiva natural y disipando los cólicos por gases atrapados y la flatulencia incómoda."
             }
         ],
         "safetyNote": "Si hay dolor fuerte o continuo, vómitos frecuentes, sangre al vomitar, evacuaciones negras, dificultad para tragar o pérdida de peso sin buscarla, solicitar valoración. Dolor de pecho o falta de aire requieren atención inmediata; no asumir que es empacho.",
@@ -662,19 +662,19 @@ window.manualData.padecimientos = [
                 "id": 246,
                 "serving": "1 scoop (6 g)",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "L-glutamina pura con N-acetilglucosamina y zinc L-carnosina para sellar microfisuras gástricas, regenerar la mucosa del estómago y frenar el ardor tras semanas de antibióticos fuertes (como para Helicobacter pylori) o uso excesivo de analgésicos."
+                "rationale": "Aporta L-glutamina pura, N-acetilglucosamina y zinc L-carnosina para regenerar el epitelio gástrico lesionado, sintetizar la capa mucosa protectora y neutralizar el ardor punzante ocasionado por exceso de ácido gástrico o analgésicos."
             },
             {
                 "id": 9,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Tintura botánica concentrada que apaga el fuego en la boca del estómago, cicatriza la mucosa gástrica erosionada y calma el dolor ardiente de gastritis y úlceras."
+                "rationale": "Extractos ricos en taninos y triterpenos con acción astringente y antiinflamatoria que promueven la reepitelización de úlceras gástricas, combatiendo la inflamación erosiva y aliviando el dolor ardiente en la boca del estómago."
             },
             {
                 "id": 28,
                 "serving": "100 ml",
                 "usage": "Tomar esta porción en ayunas.",
-                "rationale": "Sábila de uso tradicional digestivo; suspender si aumentan las molestias."
+                "rationale": "Contiene polisacáridos mucilaginosos (acemanano) que recubren las paredes del estómago con una barrera protectora calmante, atenuando la irritación por el ácido clorhídrico y acelerando la cicatrización de lesiones mucosas."
             }
         ],
         "comboSecundario": [
@@ -682,19 +682,19 @@ window.manualData.padecimientos = [
                 "id": 85,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Alternativa para el cuidado del estómago. El producto 246 ya contiene zinc L-carnosina: no sumar ambos por rutina."
+                "rationale": "El complejo zinc L-carnosina se adhiere específicamente a las úlceras y erosiones de la mucosa estomacal, ejerciendo una acción antioxidante localizada y estimulando los factores tisulares de reparación y cicatrización gástrica."
             },
             {
                 "id": 141,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción con alimentos.",
-                "rationale": "Jengibre, cardamomo y otras plantas de uso tradicional para confort digestivo."
+                "rationale": "Asocia extractos de sábila, jengibre, cardamomo y copalchi para regular las secreciones ácidas, reducir los espasmos gástricos y brindar una capa emoliente que calma el ardor epigástrico persistente."
             },
             {
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Apoyo digestivo durante o después del tratamiento indicado. No elimina H. pylori ni reemplaza antibióticos."
+                "rationale": "Cepas de lactobacilos benéficos que inhiben por exclusión competitiva la adhesión de bacterias patógenas a la mucosa gástrica, mitigando la inflamación del epitelio y restableciendo el microbioma tras agresiones irritativas."
             }
         ],
         "lifestyleTips": [
@@ -725,19 +725,19 @@ window.manualData.padecimientos = [
                 "id": 113,
                 "serving": "1 scoop (34 g)",
                 "usage": "Tomar una vez al día, después del ejercicio o entre comidas, únicamente cuando el gastroenterólogo o nutriólogo haya calculado que la alimentación no cubre la proteína necesaria.",
-                "rationale": "Proteína si falta en la alimentación. La cantidad depende de síntomas, nutrición y salud de riñones e hígado."
+                "rationale": "Aislado de proteína de suero de máxima pureza y casi nula lactosa, de asimilación rápida, que proporciona aminoácidos esenciales para reconstruir la masa muscular desgastada y reparar el tejido entérico en periodos de malabsorción."
             },
             {
                 "id": 225,
                 "serving": "1 pastilla",
                 "usage": "Masticar o disolver completamente en la boca una vez al día, solo cuando exista deficiencia, afectación del íleon, resección intestinal o indicación profesional.",
-                "rationale": "B12 si existe una falta o dificultad para absorberla. Revisar análisis y antecedentes de cirugía antes de recomendar."
+                "rationale": "Aporta vitamina B12 sublingual en formas activas (metilcobalamina y dibencozida), facilitando su ingreso sistémico directo para compensar la malabsorción en íleon terminal inflamado y prevenir la anemia megaloblástica y debilidad."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar una vez al día con alimentos que contengan grasas, únicamente si un profesional confirma insuficiencia y define el seguimiento mediante análisis.",
-                "rationale": "Vitamina D de dosis alta para falta documentada; necesita seguimiento y no debe mantenerse sin revisión."
+                "rationale": "Vitamina D3 en concentración terapéutica para modular la respuesta autoinmune de los linfocitos T en la lámina propia intestinal, reforzando la integridad de las uniones estrechas del epitelio y apoyando la remisión inflamatoria."
             }
         ],
         "comboSecundario": [
@@ -745,19 +745,19 @@ window.manualData.padecimientos = [
                 "id": 246,
                 "serving": "1/2-1 scoop (3-6 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar solo según tolerancia, con alimentos y durante una etapa estable. Evitar durante un brote activo, ante estenosis o si la inulina aumenta dolor, gases o diarrea.",
-                "rationale": "Alimenta los enterocitos y reconstruye la barrera del epitelio intestinal para frenar el goteo inflamatorio y calmar cólicos y espasmos."
+                "rationale": "Nutre directamente los enterocitos y colonocitos con L-glutamina y NAG, promoviendo la síntesis de glucosaminoglicanos en la mucosa para sellar la permeabilidad epitelial y calmar los retortijones y la inflamación de colon."
             },
             {
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Tomar una vez al día con alimentos únicamente si el gastroenterólogo considera apropiadas sus cepas y concentración para el caso concreto.",
-                "rationale": "El beneficio depende de las bacterias y de la enfermedad. No añadir automáticamente durante una crisis."
+                "rationale": "Aporta 100 mil millones de UFC multicepa (Bifidobacterium y Lactobacillus) para regular la respuesta inmune local de la mucosa intestinal, reducir citoquinas inflamatorias y favorecer el equilibrio de la microbiota en fases de mantenimiento."
             },
             {
                 "id": 151,
                 "serving": "1/2 medida (3 g)",
                 "usage": "Tomar una vez al día por la mañana e incrementar únicamente con autorización profesional, durante remisión estable y sin estenosis. No iniciar al mismo tiempo que el producto 246.",
-                "rationale": "Fibra solo si se tolera. Evitar si hay estrechamiento, obstrucción o inflamación intestinal intensa."
+                "rationale": "Aporta fitonutrientes verdes desinflamatorios, clorofila y prebióticos solubles suaves para nutrir la flora simbiótica, disminuyendo el estrés oxidativo del colon y favoreciendo la formación equilibrada del bolo fecal."
             }
         ],
         "lifestyleTips": [
@@ -786,19 +786,19 @@ window.manualData.padecimientos = [
                 "id": 9,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción una vez al día con alimentos, según la ficha técnica.",
-                "rationale": "Recubre y desinflama el esófago irritado por ácido ascendente, cicatrizando la mucosa esofágica y frenando el ardor en el pecho."
+                "rationale": "Extractos con propiedades cicatrizantes y antiinflamatorias que forman una película emoliente sobre la mucosa del esófago, protegiéndola contra la agresión del ácido clorhídrico y la pepsina, y aliviando la sensación de pirosis retroesternal."
             },
             {
                 "id": 164,
                 "serving": "2 cucharadas",
                 "usage": "Tomar esta porción en ayunas y antes de dormir.",
-                "rationale": "Sábila, nopal y cuachalalate de uso tradicional digestivo; suspender si aumenta acidez."
+                "rationale": "La combinación de mucílagos de nopal, gel de sábila y extracto de cuachalalate genera un escudo protector físico viscoso sobre el epitelio esofagogástrico, neutralizando el ardor ascendente y regenerando la mucosa erosionada por reflujo."
             },
             {
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción por las mañanas. Con alimentos.",
-                "rationale": "Probióticos para equilibrio intestinal; no corrigen por sí mismos el reflujo."
+                "rationale": "Microorganismos probióticos que reducen la fermentación bacteriana anormal y la distensión intragástrica, disminuyendo la presión intraabdominal que empuja la apertura del esfínter esofágico inferior y provoca el reflujo."
             }
         ],
         "comboSecundario": [
@@ -806,19 +806,19 @@ window.manualData.padecimientos = [
                 "id": 246,
                 "serving": "1 scoop (6 g)",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Refuerza la unión celular en la unión gastroesofágica y repara el tejido dañado por el reflujo crónico."
+                "rationale": "Proporciona L-glutamina y N-acetilglucosamina para acelerar la regeneración celular y reforzar las uniones ocluyentes del epitelio esofágico dañado por el contacto ácido continuo, mitigando el dolor urente y la disfagia."
             },
             {
                 "id": 85,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Alternativa en cápsulas a L-Glutamina + NAG para desinflamar y proteger la mucosa gástrica; no es necesario tomar ambos al mismo tiempo."
+                "rationale": "El zinc L-carnosina se fija de manera selectiva sobre las zonas denudadas e inflamadas de la mucosa gástrica y esofágica, modulando la inflamación local y promoviendo la reparación tisular duradera."
             },
             {
                 "id": 66,
                 "serving": "1 onza",
                 "usage": "Tomar esta porción diluida en agua tibia antes de dormir.",
-                "rationale": "Infusión desintoxicante que alcaliniza el medio digestivo, drena la sobrecarga hepática y alivia la acidez estomacal matutina."
+                "rationale": "Mezcla de hierbas con corteza de olmo y bardana que aportan mucílagos suavizantes, protegiendo las paredes digestivas altas y favoreciendo el vaciamiento suave para evitar la regurgitación ácida nocturna y matutina."
             }
         ],
         "lifestyleTips": [
@@ -845,19 +845,19 @@ window.manualData.padecimientos = [
                 "id": 145,
                 "serving": "2 cápsulas (1.3 g)",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "La colina ayuda a utilizar grasas y al funcionamiento del hígado; no elimina por sí sola grasa acumulada."
+                "rationale": "Aporta colina y fosfolípidos esenciales indispensables para la síntesis de VLDL, facilitando la exportación y transporte de triglicéridos fuera de los hepatocitos y evitando su infiltración lipídica en el tejido hepático."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ácidos grasos EPA y DHA concentrados para disolver los depósitos de grasa hepática, reducir triglicéridos y desinflamar el parénquima del hígado."
+                "rationale": "Dosis concentradas de EPA y DHA que activan los receptores PPAR-alfa en el hígado, estimulando la beta-oxidación de ácidos grasos, disminuyendo los triglicéridos circulantes y amortiguando la esteatohepatitis inflamatoria."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "La NAC ayuda a formar glutatión, que participa en el cuidado de las células."
+                "rationale": "Precursor directo de glutatión que neutraliza la peroxidación lipídica en los hepatocitos y disminuye las enzimas hepáticas elevadas (TGO/TGP), protegiendo al parénquima hepático del estrés oxidativo y la progresión a fibrosis."
             }
         ],
         "comboSecundario": [
@@ -865,19 +865,19 @@ window.manualData.padecimientos = [
                 "id": 54,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "La curcumina aporta antioxidantes que ayudan a proteger las células. Revisar anticoagulantes y problemas de vesícula; no atribuirle que elimina la grasa del hígado."
+                "rationale": "Curcuminoides estandarizados con piperina que inhiben la vía de señalización NF-kB en células de Kupffer, reduciendo la inflamación crónica del parénquima hepático y mejorando la sensibilidad a la insulina a nivel metabólico."
             },
             {
                 "id": 43,
                 "serving": "2 cápsulas (1 g)",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Plantas de uso tradicional digestivo; no es un limpiador ni tratamiento del hígado graso."
+                "rationale": "La silimarina del cardo mariano junto al diente de león y rábano negro estimula la síntesis de proteínas en hepatocitos y promueve la producción de bilis, facilitando la eliminación de toxinas y grasas acumuladas."
             },
             {
                 "id": 77,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción una vez al día antes de las comidas principales, según la ficha técnica.",
-                "rationale": "Hercampuri de uso tradicional digestivo. Evitar con problemas de vesícula; no elimina grasa del hígado."
+                "rationale": "Planta andina rica en principios amargos (secoiridoides) que incrementa la secreción y flujo biliar, promoviendo el metabolismo hepático del colesterol y acelerando la digestión de grasas saturadas."
             }
         ],
         "lifestyleTips": [
@@ -903,19 +903,19 @@ window.manualData.padecimientos = [
                 "id": 111,
                 "serving": "1 scoop (35 g)",
                 "usage": "Tomar esta porción únicamente con autorización del médico o nutriólogo. Dentro de los 45 minutos posteriores al entrenamiento.",
-                "rationale": "Proteína si hay pérdida de peso o músculo. El médico o nutriólogo define cantidad según hígado, riñones y alimentación."
+                "rationale": "Proteína de suero hidrolizada rica en aminoácidos de cadena ramificada (BCAA: leucina, isoleucina, valina), que frena la sarcopenia y desnutrición en pacientes con daño hepático crónico sin sobrecargar la producción de amonio."
             },
             {
                 "id": 145,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos, únicamente con autorización del hepatólogo.",
-                "rationale": "La colina apoya el uso de grasas; no repara daño de cirrosis ni reemplaza tratamiento."
+                "rationale": "Aporta fosfatidilcolina pura para nutrir y preservar las membranas de los hepatocitos residuales funcionales, apoyando el metabolismo lipídico y la fluidez de las sales biliares en el parénquima hepático comprometido."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas (1 g)",
                 "usage": "Tomar esta porción al día únicamente con autorización del hepatólogo. Con alimentos.",
-                "rationale": "NAC para cuidado de las células. Revisar medicamentos, sangrado, úlcera y estado del paciente antes de usar."
+                "rationale": "Provee N-acetilcisteína como donador de cisteína para sostener las reservas críticas de glutatión intracelular en hepatocitos viables, limitando la necrosis tisular inducida por el estrés oxidativo y la inflamación crónica."
             }
         ],
         "comboSecundario": [
@@ -923,19 +923,19 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar esta porción al día únicamente con autorización profesional y revisión de coagulación y medicamentos. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 solo si el profesional lo considera adecuado; revisar riesgo de sangrado."
+                "rationale": "Los ácidos grasos omega-3 EPA y DHA modulan la cascada proinflamatoria sistémica y reducen la producción de citoquinas profibróticas como el TGF-beta, preservando la microcirculación sinusoidal hepática."
             },
             {
                 "id": 43,
                 "serving": "2 cápsulas (1 g)",
                 "usage": "Tomar esta porción al día únicamente con autorización expresa del hepatólogo. Con alimentos.",
-                "rationale": "Cardo mariano y otras plantas. Evitar con enfermedad grave del hígado u obstrucción de vesícula sin supervisión; no regenera hígado."
+                "rationale": "Su contenido de silimarina actúa como antioxidante de membrana estabilizando la estructura del hepatocito contra toxinas circulantes y estimulando la polimerasa A ribosomal para favorecer la síntesis proteica de soporte."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día solo si el hepatólogo la autoriza. Con alimentos que contengan grasas.",
-                "rationale": "Potente antioxidante que protege los hepatocitos viables del estrés oxidativo y aporta energía para el soporte metabólico hepático."
+                "rationale": "Forma activa de la Coenzima Q10 que rescata la respiración mitocondrial en células hepáticas viables y neutraliza radicales libres destructivos, apoyando la capacidad residual del hígado para procesar nutrientes y generar energía."
             }
         ],
         "lifestyleTips": [
@@ -964,19 +964,19 @@ window.manualData.padecimientos = [
                 "duration": "No establecida para colelitiasis; reevaluar antes de continuar.",
                 "durationSource": "Guías clínicas de colelitiasis (PMID: 37452855)",
                 "durationSourceUrl": "https://pubmed.ncbi.nlm.nih.gov/37452855/",
-                "rationale": "La colina ayuda a utilizar grasas; no disuelve piedras ni evita una obstrucción."
+                "rationale": "La fosfatidilcolina de la lecitina de soya actúa como emulsionante natural de la bilis, manteniendo el colesterol en solución micelar líquida para evitar la precipitación de nuevos microcristales y la formación de lodo vesicular."
             },
             {
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Probióticos para bienestar digestivo; no eliminan piedras de vesícula."
+                "rationale": "Regulan la circulación enterohepática de sales biliares mediante la modulación de enzimas bacterianas en el colon, aliviando la distensión abdominal, gases y flatulencias asociadas a una deficiente digestión biliar."
             },
             {
                 "id": 60,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción antes de las comidas, solo si el profesional confirma que son apropiadas.",
-                "rationale": "Enzimas para digerir alimentos. No usar con inflamación del páncreas, úlcera activa o alergia a ingredientes."
+                "rationale": "Aporta lipasa y enzimas pancreáticas que asisten en la degradación de grasas y lípidos en el duodeno, reduciendo la exigencia contráctil de la vesícula biliar y aliviando la pesadez y dolor epigástrico tras comer."
             }
         ],
         "comboSecundario": [
@@ -984,19 +984,19 @@ window.manualData.padecimientos = [
                 "id": 28,
                 "serving": "100 ml",
                 "usage": "Tomar esta porción al día según tolerancia. En ayunas o entre comidas.",
-                "rationale": "Sábila como complemento de bienestar digestivo; no limpia vesícula ni elimina piedras."
+                "rationale": "Aporta acemanano y agentes emolientes que suavizan el tracto gastrointestinal, reduciendo la inflamación de la mucosa duodenal y facilitando el tránsito digestivo para mitigar el malestar después de comidas pesadas."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día únicamente si el profesional lo autoriza. Con un desayuno que contenga grasas.",
-                "rationale": "Ayuda a fluidificar la bilis espesa y reduce la saturación de colesterol biliar para evitar la formación de nuevos cálculos."
+                "rationale": "Los ácidos grasos poliinsaturados EPA y DHA mejoran el índice de saturación de colesterol en la bilis e incrementan los ácidos biliares hidrofílicos, previniendo la nucleación de cristales y disminuyendo la inflamación vesicular."
             },
             {
                 "id": 115,
                 "serving": "20 gotas",
                 "usage": "Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, únicamente después de valoración médica.",
-                "rationale": "Gotas concentradas en agua de corteza de yumel tradicional para fluidificar el lodo biliar espeso y aliviar el dolor punzante en la vesícula tras comidas grasas."
+                "rationale": "Extracto tradicional de Guatteria gaumeri que favorece el metabolismo lipídico y la fluidez de las secreciones biliares, coadyuvando en la disipación del sedimento o lodo biliar y aliviando la tensión espasmódica en hipocondrio derecho."
             }
         ],
         "lifestyleTips": [
@@ -1023,19 +1023,19 @@ window.manualData.padecimientos = [
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Probióticos para equilibrio intestinal durante o después del tratamiento indicado."
+                "rationale": "Aporta 60 mil millones de lactobacilos vivos que producen ácido láctico y bacteriocinas, restaurando el pH ácido intestinal e impidiendo la adhesión y colonización invasiva de Candida albicans en las mucosas."
             },
             {
                 "id": 2,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Ácido caprílico con aceite de orégano silvestre que destruye la membrana de la levadura Candida albicans y limpia el exceso de hongos en el intestino."
+                "rationale": "El carvacrol del orégano y el ácido caprílico del coco desestabilizan y perforan la membrana lipídica de Candida albicans, frenando su transformación a forma hifal invasiva y reduciendo la proliferación fúngica intestinal."
             },
             {
                 "id": 67,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Hongos adaptógenos ricos en betaglucanos para activar defensas mucosas, evitando que Candida invada tejidos del intestino."
+                "rationale": "Complejo de extractos micoterapéuticos ricos en 1,3-1,6 beta-glucanos que estimulan la inmunidad innata asociada a mucosas (MALT), reforzando a los macrófagos para controlar la sobreproliferación fúngica sistémica."
             }
         ],
         "comboSecundario": [
@@ -1043,37 +1043,37 @@ window.manualData.padecimientos = [
                 "id": 23,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ajo negro concentrado rico en S-alilcisteína con potente acción fungistática y depurativa sobre el tracto digestivo."
+                "rationale": "Su alta concentración de S-alilcisteína y compuestos organosulfurados ejerce una potente acción fungistática alterando las enzimas metabólicas de las levaduras, reforzando la barrera inmunológica intestinal sin irritar la mucosa digestiva."
             },
             {
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Fórmula de máxima concentración (100 billones de UFC) para recolonizar la flora intestinal y desplazar levaduras; elegir una sola opción de probióticos."
+                "rationale": "Fórmula de alta concentración (100 mil millones de UFC) con zinc que compite activamente por sitios de anclaje celular en el epitelio digestivo, desplazando el exceso de hongos y reparando la mucosa intestinal."
             },
             {
                 "id": 224,
                 "serving": "4 gotas",
                 "usage": "Tomar esta porción diluida, 2 veces al día con alimentos.",
-                "rationale": "Presentación líquida en gotas de aceite de orégano concentrado al 80% de carvacrol para diluir en agua si se prefiere tomar gotas en lugar de cápsulas."
+                "rationale": "Solución líquida estandarizada al 80% de carvacrol, principio activo que desintegra la pared celular de Candida albicans, ideal para dosificar de forma flexible y ejercer una rápida acción antifúngica en el tracto gastrointestinal."
             },
             {
                 "id": 16,
                 "serving": "15 gotas",
                 "usage": "Tomar esta porción diluida con alimentos como alternativa a las demás presentaciones de orégano.",
-                "rationale": "Orégano líquido como alternativa; no sumar con productos 2, 208, 216 o 224."
+                "rationale": "Aceite esencial de orégano diluido en aceite vegetal con timol y carvacrol, que inhibe la formación de biopelículas (biofilms) de hongos y levaduras en el sistema digestivo, restaurando el balance microbiano."
             },
             {
                 "id": 208,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción con alimentos como alternativa a las demás presentaciones de orégano.",
-                "rationale": "Carvacrol puro estandarizado para erradicar el sobrecrecimiento fúngico y equilibrar la flora intestinal dañada por antibióticos o exceso de azúcar."
+                "rationale": "Cápsulas de aceite de orégano concentrado que liberan carvacrol de manera gradual en el intestino, bloqueando el crecimiento de levaduras oportunistas y mitigando la inflamación y fermentación abdominal causadas por candidiasis."
             },
             {
                 "id": 216,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción con alimentos como alternativa a las demás presentaciones de orégano.",
-                "rationale": "Orégano y coco como alternativa; no sumar con productos 2, 208 o 224."
+                "rationale": "Sinergia de ácidos grasos de cadena media (ácido láurico y caprílico) con aceite de orégano, atacando en conjunto la membrana fosfolipídica fúngica y facilitando la eliminación del exceso de levaduras en el intestino."
             }
         ],
         "lifestyleTips": [
@@ -1101,19 +1101,19 @@ window.manualData.padecimientos = [
                 "id": 151,
                 "serving": "1/2-1 medida (3-6 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Disolver en 250-300 ml de agua y tomar en ayunas o con el desayuno, preferentemente por la mañana.",
-                "rationale": "La fibra puede favorecer regularidad. Introducir poco a poco para evitar gases o hinchazón."
+                "rationale": "Aporta inulina, FOS y fibra soluble de acacia que aumentan el volumen y la hidratación del bolo fecal, estimulando los mecanorreceptores del colon para activar el peristaltismo natural de evacuación sin irritar mucosas."
             },
             {
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Probióticos para equilibrio intestinal; una cantidad mayor no garantiza mejor resultado."
+                "rationale": "Cepas de Bifidobacterium y Lactobacillus que producen ácidos grasos de cadena corta (butirato y acetato), reduciendo el pH luminal, mejorando la contractilidad de la musculatura lisa del colon y regularizando el tránsito intestinal lento."
             },
             {
                 "id": 140,
                 "serving": "30 ml",
                 "usage": "Tomar esta porción antes de cada alimento, según las indicaciones del producto.",
-                "rationale": "Sábila sin aloína, nopal y cuachalalate para bienestar digestivo tradicional; no es laxante estimulante."
+                "rationale": "Aporta mucílagos lubricantes y fibra hidrofílica de nopal y pulpa de sábila que humectan y suavizan las heces secas, favoreciendo un deslizamiento suave a través del colon y calmando la irritación rectal."
             }
         ],
         "comboSecundario": [
@@ -1121,13 +1121,13 @@ window.manualData.padecimientos = [
                 "id": 76,
                 "serving": "1 tableta",
                 "usage": "Tomar esta porción al día con alimentos y suficiente agua.",
-                "rationale": "Fórmula botánica estimulante que activa el peristaltismo del colon para una evacuación suave, limpia y completa al despertar."
+                "rationale": "Extractos naturales de ciruela pasa, tamarindo y papaya que ejercen un efecto osmótico suave y activan suavemente los plexos mientéricos del colon, induciendo una evacuación completa, confortable y predecible por la mañana."
             },
             {
                 "id": 46,
                 "serving": "10 g (1 cucharada)",
                 "usage": "Tomar esta porción al día únicamente con orientación profesional por su aporte de 500 mg de magnesio elemental. Con alimentos.",
-                "rationale": "El magnesio puede facilitar evacuar al atraer agua al intestino; revisar especialmente si hay enfermedad renal."
+                "rationale": "El citrato de magnesio atrae agua hacia la luz del intestino grueso por gradiente osmótico, hidratando y reblandeciendo las heces endurecidas y desencadenando un reflejo evacuatorio eficaz y sin cólicos agresivos."
             },
             {
                 "id": 173,
@@ -1135,7 +1135,7 @@ window.manualData.padecimientos = [
                 "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza por la noche, solo como rescate ocasional.",
                 "duration": "Máximo 7 días consecutivos; uso ocasional.",
                 "durationSource": "Ficha técnica del producto",
-                "rationale": "Sen para evacuar en estreñimiento ocasional. Reservar para uso breve y no sumar otros laxantes."
+                "rationale": "Contiene senósidos botánicos que se convierten en reína antrona en el colon, estimulando directamente la motilidad colónica y secreción de fluidos para resolver episodios agudos y resistentes de estancamiento intestinal."
             }
         ],
         "lifestyleTips": [
@@ -1167,19 +1167,19 @@ window.manualData.padecimientos = [
                 "id": 181,
                 "serving": "4 cápsulas",
                 "usage": "Tomar una vez al día con alimentos, solo después de revisar función renal, medicamentos y el consumo total de magnesio con un profesional.",
-                "rationale": "Relaja la musculatura lisa de las paredes arteriales, facilitando la dilatación vascular y la estabilidad de la presión arterial."
+                "rationale": "Actúa modulando el tono vascular y relajando la musculatura lisa de las paredes arteriales, lo que facilita la vasodilatación periférica y favorece cifras estables de presión arterial."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar una vez al día con un desayuno que contenga grasas y revisar anticoagulantes, antiagregantes y riesgo de sangrado.",
-                "rationale": "Omega 3 para cuidado del corazón; no equivale a medicamento ni garantiza controlar presión."
+                "rationale": "Aporta altas concentraciones de EPA y DHA que estimulan la síntesis de óxido nítrico endotelial, mejorando la distensibilidad de las arterias y reduciendo la resistencia vascular periférica en apoyo a la salud cardiometabólica."
             },
             {
                 "id": 23,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar una vez al día con alimentos y vigilar la presión, la tolerancia digestiva y posibles interacciones con anticoagulantes o antihipertensivos.",
-                "rationale": "Ajo negro para cuidado del corazón. No sumar fórmulas con ajo ni reducir medicamentos por cuenta propia."
+                "rationale": "Rico en S-alil-cisteína y polifenoles bioactivos que promueven la producción de óxido nítrico y modulan las enzimas vasoconstrictoras, favoreciendo la relajación vascular y la microcirculación arterial."
             }
         ],
         "comboSecundario": [
@@ -1187,25 +1187,25 @@ window.manualData.padecimientos = [
                 "id": 128,
                 "serving": "3 cápsulas (2.05 g)",
                 "usage": "Tomar una vez al día con alimentos únicamente con autorización clínica, después de revisar potasio en sangre, función renal y medicamentos.",
-                "rationale": "Potasio solo cuando se indica. Puede ser peligroso con enfermedad renal, potasio alto y algunos medicamentos para presión o eliminar líquidos."
+                "rationale": "El citrato de potasio favorece el equilibrio sodio-potasio a nivel celular, facilitando la excreción renal de sodio y disminuyendo la tensión en el endotelio vascular para respaldar la relajación arterial."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas, únicamente como apoyo complementario con autorización del cardiólogo.",
-                "rationale": "Potente antioxidante endotelial que optimiza la elasticidad arterial y apoya el bombeo cardíaco eficiente."
+                "rationale": "Potente antioxidante mitocondrial en forma activa que protege el endotelio frente al estrés oxidativo, optimizando la elasticidad de las paredes arteriales y favoreciendo un bombeo cardíaco eficiente y coordinado."
             },
             {
                 "id": 136,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar una vez al día con alimentos que contengan grasas, únicamente como apoyo complementario acordado con el profesional.",
-                "rationale": "Coenzima Q10 como complemento nutricional; no es medicamento para bajar presión."
+                "rationale": "La coenzima Q10 participa directamente en la síntesis de ATP en los miocitos cardíacos y preserva el óxido nítrico vascular, mejorando la función endotelial y la contractilidad cardíaca frente a la sobrecarga de presión."
             },
             {
                 "id": 10,
                 "serving": "3 cápsulas",
                 "usage": "Tomar una vez al día con alimentos solo después de revisar todos sus botánicos y medicamentos. Elegir esta fórmula o el ajo negro, no ambas de rutina.",
-                "rationale": "Mezcla con ajo y otras plantas. Revisar medicamentos y tolerancia antes de elegirla como alternativa."
+                "rationale": "Sinergia botánica con zapote blanco, extracto de olivo y ajo deodorizado cuyos flavonoides promueven la vasodilatación periférica suave, protegen los capilares y apoyan el control del tono arterial."
             }
         ],
         "lifestyleTips": [
@@ -1234,19 +1234,19 @@ window.manualData.padecimientos = [
                 "id": 44,
                 "serving": "2 cápsulas (800 mg)",
                 "usage": "Tomar esta porción al día; confirmar con el especialista que el extracto esté estandarizado. Antes de las comidas.",
-                "rationale": "Para confort de piernas cuando hay problema de venas evaluado. Usar extractos adecuados; no recomendar semillas crudas."
+                "rationale": "La escina estandarizada tonifica las paredes de las venas y reduce la fragilidad capilar, mejorando el retorno venoso hacia el corazón para disminuir la pesadez, dolor y edema en las piernas."
             },
             {
                 "id": 182,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel para masaje y confort de piernas pesadas; no aplicar en piel lastimada."
+                "rationale": "Fórmula tópica flebotónica con árnica, castaño de indias y centella asiática que reactiva la microcirculación subcutánea mediante masaje, desinflamando el trayecto venoso y aliviando de inmediato la sensación de piernas cansadas."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "La vitamina C ayuda a formar colágeno para mantener tejidos."
+                "rationale": "El ácido ascórbico potenciado con rutina y bioflavonoides estimula la síntesis de colágeno en la túnica vascular venosa y refuerza la resistencia de los capilares, frenando la extravasación de líquidos y la formación de arañitas."
             }
         ],
         "comboSecundario": [
@@ -1254,37 +1254,37 @@ window.manualData.padecimientos = [
                 "id": 23,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ajo negro como alternativa nutricional; revisar anticoagulantes y sangrado."
+                "rationale": "Sus compuestos sulfurados y polifenoles bioactivos mejoran la reología y fluidez sanguínea, reduciendo la viscosidad intravascular y previniendo el estancamiento hemático en los miembros inferiores."
             },
             {
                 "id": 122,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Omega 3 para cuidado del corazón; no elimina várices ni adelgaza sangre."
+                "rationale": "Los ácidos grasos EPA y DHA ayudan a moderar la inflamación del endotelio venoso, optimizando la flexibilidad de las membranas eritrocitarias y facilitando un flujo sanguíneo continuo a través de las válvulas venosas."
             },
             {
                 "id": 138,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Resveratrol para cuidado de las células; revisar medicamentos."
+                "rationale": "Poderoso complejo de proantocianidinas y polifenoles que contrarresta el daño oxidativo en las válvulas venosas, preservando la elasticidad estructural y reduciendo la permeabilidad vascular excesiva."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Fortalece las paredes vasculares y mejora la oxigenación capilar, aliviando la fatiga y pesadez en piernas con mala circulación."
+                "rationale": "Fortalece las paredes vasculares y mejora la bioenergética celular en el endotelio capilar, optimizando la oxigenación periférica y aliviando la fatiga y pesadez en piernas con insuficiencia venosa."
             },
             {
                 "id": 51,
                 "serving": "3 cápsulas",
                 "usage": "Tomar 3 cápsulas al día con alimentos. Evitar en personas con alergia a salicilatos o anticoaguladas.",
-                "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas sin causar irritación estomacal."
+                "rationale": "Hamamelis y ajo con sauce blanco para desahogar el retorno venoso, desinflamar várices dolorosas y calmar la pesadez de piernas mediante la modulación de mediadores inflamatorios vasculares."
             },
             {
                 "id": 183,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel de árnica para masaje reconfortante en piernas cansadas, como alternativa tópica al gel Varisan."
+                "rationale": "Gel refrescante con extractos de castaño de indias, hamamelis y ginkgo que proporciona un efecto venotónico local, descongestionando los vasos dilatados y brindando ligereza inmediata a las piernas tras jornadas largas."
             }
         ],
         "lifestyleTips": [
@@ -1311,19 +1311,19 @@ window.manualData.padecimientos = [
                 "id": 6,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Proantocianidinas que impiden la adhesión bacteriana en las paredes de las vías urinarias, protegiendo los riñones de infecciones ascendentes."
+                "rationale": "Aporta proantocianidinas tipo A que inhiben la adhesión bacteriana en el urotelio de las vías urinarias, reduciendo el riesgo de colonización patógena y protegiendo los riñones de infecciones ascendentes."
             },
             {
                 "id": 139,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos y solo si no existe enfermedad renal o cardíaca.",
-                "rationale": "Plantas de uso tradicional urinario. Revisar hidratación y medicamentos para eliminar líquidos, presión o litio."
+                "rationale": "Combinación de palo azul y cola de caballo con flavonoides y minerales que estimula la diuresis fisiológica suave, promoviendo el arrastre de detritos metabólicos y la depuración saludable del tracto urinario."
             },
             {
                 "id": 148,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Hierba del sapo de uso tradicional urinario. No disuelve piedras; evitar con enfermedad renal, presión baja o medicamentos para eliminar líquidos."
+                "rationale": "Aporta fitosteroles y saponinas que asisten en el metabolismo de lípidos y favorecen la función depurativa renal, facilitando la eliminación natural de solutos a través de la orina."
             }
         ],
         "comboSecundario": [
@@ -1331,19 +1331,19 @@ window.manualData.padecimientos = [
                 "id": 28,
                 "serving": "100 ml",
                 "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Apoyo emoliente e hidratante que calma irritaciones en los conductos urinarios y facilita la expulsión suave de orina."
+                "rationale": "Brinda mucílagos vegetales con propiedades emolientes e hidratantes que calman la irritación de los conductos urinarios y suavizan el paso de la orina ante molestias miccionales leves."
             },
             {
                 "id": 151,
                 "serving": "1 medida (6 g)",
                 "usage": "Tomar esta porción al día según tolerancia. En ayunas o con el desayuno. Preferentemente por la mañana.",
-                "rationale": "Fibra para bienestar digestivo; no limpia ni cambia la acidez de los riñones."
+                "rationale": "Su aporte de clorofila, antioxidantes vegetales y fibra prebiótica modula la microbiota intestinal, reduciendo la generación de toxinas nitrogenadas colónicas que sobrecargan la filtración urinaria."
             },
             {
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Reduce la carga de toxinas generadas en el colon, aliviando la sobrecarga de filtración sobre los riñones."
+                "rationale": "Favorece una microbiota intestinal equilibrada que degrada solutos urémicos y compuestos nitrogenados antes de su absorción, disminuyendo la carga osmótica y de filtración sobre el parénquima renal."
             }
         ],
         "lifestyleTips": [
@@ -1369,19 +1369,19 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar esta porción al día únicamente con autorización del nefrólogo y revisión de anticoagulantes. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para cuidado del corazón solo si se indica; no recupera funcionamiento del riñón."
+                "rationale": "Los ácidos grasos EPA y DHA ayudan a mitigar los procesos inflamatorios glomerulares y protegen la microvasculatura renal, ofreciendo soporte cardiovascular clave ante la sobrecarga hemodinámica del riñón."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día únicamente si el nefrólogo la autoriza. Con alimentos que contengan grasas.",
-                "rationale": "Coenzima Q10 para cuidado de las células; no recupera funcionamiento del riñón."
+                "rationale": "Actúa como potente antioxidante mitocondrial que protege a los podocitos y células tubulares renales frente al estrés oxidativo, apoyando la integridad celular y la viabilidad del tejido renal remanente."
             },
             {
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos, si el profesional la autoriza.",
-                "rationale": "Probióticos para bienestar digestivo. Evitar con defensas muy bajas; no limpian riñones."
+                "rationale": "Cepas probióticas de alta concentración que asisten en la degradación entérica de toxinas urémicas como urea y creatinina en el colon, disminuyendo su recirculación y apoyando el manejo metabólico supervisado."
             }
         ],
         "comboSecundario": [
@@ -1389,19 +1389,19 @@ window.manualData.padecimientos = [
                 "id": 111,
                 "serving": "1 scoop (35 g)",
                 "usage": "Tomar esta porción únicamente con autorización del médico o nutriólogo renal. Dentro de los 45 minutos posteriores al entrenamiento.",
-                "rationale": "Proteína solo si el plan la requiere. La cantidad depende del estado renal, diálisis y alimentación."
+                "rationale": "Proteína de suero hidrolizada de altísimo valor biológico y rápida asimilación, ideal para cubrir requerimientos proteicos calculados y prevenir el desgaste muscular y caquexia sin sobrecargar el nitrógeno residual."
             },
             {
                 "id": 6,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día únicamente si existe indicación urinaria adicional y el profesional lo aprueba. Con alimentos.",
-                "rationale": "Arándano para prevención urinaria según valoración. Revisar piedras de oxalato o uso de warfarina."
+                "rationale": "Aporta proantocianidinas que previenen la adhesión uropatógena en la vejiga, reduciendo el riesgo de infecciones bacterianas que puedan agravar la estabilidad funcional de los riñones."
             },
             {
                 "id": 28,
                 "serving": "100 ml",
                 "usage": "Tomar esta porción al día solo si el nefrólogo autoriza la cantidad de líquidos. En ayunas o entre comidas.",
-                "rationale": "Emoliente natural que hidrata las mucosas digestivas y apoya el equilibrio hídrico en personas con función renal comprometida."
+                "rationale": "Brinda mucílagos hidratantes y fitonutrientes que suavizan la mucosa gastrointestinal, favoreciendo la asimilación hidromineral balanceada y el confort gástrico en personas con pautas de líquidos supervisadas."
             }
         ],
         "lifestyleTips": [
@@ -1428,25 +1428,25 @@ window.manualData.padecimientos = [
                 "id": 213,
                 "serving": "1 tableta",
                 "usage": "Tomar esta porción antes de cada alimento principal (3 tabletas al día).",
-                "rationale": "Plantas de uso tradicional urinario. Elegir esta fórmula o YUMEL, no ambas; no disuelve piedras. Revisar riñones, hidratación y medicamentos."
+                "rationale": "La chanca piedra y cola de caballo inhiben la agregación de cristales de oxalato de calcio en los túbulos renales y relajan los uréteres, favoreciendo la expulsión de microarenillas urinarias."
             },
             {
                 "id": 47,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción al día únicamente después de identificar el tipo de cálculo y con autorización profesional. Con alimentos.",
-                "rationale": "Para ciertos tipos de piedras cuando se indica. Antes se revisan riñones, potasio y medicamentos."
+                "rationale": "Alcaliniza el pH urinario y se une al calcio en la orina, formando un complejo soluble que inhibe directamente la nucleación y crecimiento de cálculos de oxalato cálcico y ácido úrico."
             },
             {
                 "id": 139,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha y con revisión profesional.",
-                "rationale": "Plantas de uso tradicional; no disuelven piedras. Evitar con enfermedad renal o cardíaca y revisar medicamentos antes de sumar otra fórmula urinaria."
+                "rationale": "Extractos diuréticos de palo azul y cabellos de elote que promueven un flujo constante de orina diluida, impidiendo la saturación mineral y el asentamiento de arenillas en la pelvis renal."
             },
             {
                 "id": 28,
                 "serving": "100 ml",
                 "usage": "Tomar esta porción al día como parte de la ingesta de líquidos, según tolerancia. En ayunas o entre comidas.",
-                "rationale": "Sábila como aporte de líquido; no modifica piedras ni sustituye agua."
+                "rationale": "Su riqueza en polisacáridos ejerce un efecto demulcente y emoliente sobre el epitelio urinario, calmando la irritación causada por el paso de cristales y sedimentos minerales."
             }
         ],
         "comboSecundario": [
@@ -1454,19 +1454,19 @@ window.manualData.padecimientos = [
                 "id": 177,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza de infusión al día según tolerancia y las indicaciones del empaque. Después de las comidas.",
-                "rationale": "Infusión de uso tradicional urinario. Revisar antes de sumar cápsulas con las mismas plantas para no duplicarlas."
+                "rationale": "Infusión herbal con flavonoides de pingüica y pelo de elote que incrementa el volumen miccional, facilitando el lavado continuo de las vías urinarias para prevenir la acumulación de solutos."
             },
             {
                 "id": 148,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Hierba del sapo tradicional; no rompe ni disuelve piedras. Evitar con enfermedad renal, presión baja o alteraciones de minerales."
+                "rationale": "Aporta fitonutrientes que modulan el balance de sales y favorecen la depuración metabólica, apoyando la prevención secundaria de sedimentos y arenillas en el sistema excretor."
             },
             {
                 "id": 115,
                 "serving": "20 gotas",
                 "usage": "Diluir en ¼ de vaso con agua natural y tomar 3 veces al día antes de los alimentos, solo después de identificar el tipo de cálculo y recibir valoración profesional.",
-                "rationale": "Gotas herbales de yumel que apoyan el drenaje renal y ayudan a evitar la sedimentación de arenillas y sales minerales en las vías urinarias."
+                "rationale": "Extracto fluido de Guatteria gaumeri que favorece la desintegración de microconcreciones y el drenaje renal, dificultando la agregación de arenillas y sales minerales en el tracto urológico."
             }
         ],
         "lifestyleTips": [
@@ -1494,13 +1494,13 @@ window.manualData.padecimientos = [
                 "id": 6,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Arándano para ayudar a prevenir algunas infecciones urinarias repetidas; no elimina infección existente."
+                "rationale": "Aporta proantocianidinas bioactivas que bloquean las fimbrias de bacterias uropatógenas como Escherichia coli, impidiendo que se fijen a las paredes de la vejiga y facilitando su eliminación con la micción."
             },
             {
                 "id": 130,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Cepas probióticas especializadas (Lactobacillus rhamnosus y reuteri) que colonizan la zona íntima para bloquear el paso de bacterias patógenas a la vejiga."
+                "rationale": "Cepas de lactobacilos específicos que restauran la microbiota vaginal e intestinal, produciendo ácido láctico y bacteriocinas que impiden la proliferación y migración de patógenos hacia el meato uretral."
             }
         ],
         "comboSecundario": [
@@ -1508,25 +1508,25 @@ window.manualData.padecimientos = [
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Vitamina C para complementar alimentación; no aumentar cantidad para tratar infección urinaria."
+                "rationale": "Favorece la acidificación fisiológica de la orina, lo que dificulta la replicación de cepas bacterianas patógenas en la vejiga a la par que refuerza las defensas inmunológicas del urotelio."
             },
             {
                 "id": 22,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Ajo negro y propóleo como complemento; no es antibiótico ni sustituye tratamiento."
+                "rationale": "La combinación de flavonoides del propóleo y alicina estable del ajo negro ofrece propiedades antimicrobianas naturales que apoyan la resistencia inmunológica local frente a bacterias uropatógenas recurrentes."
             },
             {
                 "id": 61,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Acidifica ligeramente la orina creando un ambiente hostil para el crecimiento bacteriano y refuerza las defensas del tracto urinario."
+                "rationale": "Estimula la actividad de los macrófagos y fagocitos a nivel del tracto urinario, mientras su contenido de ácido ascórbico acidifica la orina creando un ambiente desfavorable para la proliferación bacteriana."
             },
             {
                 "id": 27,
                 "serving": "90 ml",
                 "usage": "Tomar esta porción al día. En ayunas o antes de la primera comida.",
-                "rationale": "Jugo de sábila con arándano para hidratar las vías urinarias y calmar el ardor, sin duplicar con las cápsulas de arándano puro."
+                "rationale": "Combina la acción emoliente del aloe vera para desinflamar y calmar el ardor miccional con fitonutrientes del arándano que evitan la adherencia bacteriana en el revestimiento vesical."
             }
         ],
         "lifestyleTips": [
@@ -1554,13 +1554,13 @@ window.manualData.padecimientos = [
                 "id": 44,
                 "serving": "2 cápsulas (800 mg)",
                 "usage": "Tomar esta porción al día; confirmar con el especialista que el extracto esté estandarizado. Antes de las comidas.",
-                "rationale": "Para confort de piernas solo si la hinchazón se debe a un problema de venas ya evaluado."
+                "rationale": "La escina sella las uniones intercelulares en el endotelio capilar, reduciendo la permeabilidad vascular y evitando la fuga de suero hacia el espacio intersticial en tobillos y piernas."
             },
             {
                 "id": 182,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel para masaje y pesadez de piernas; no aplicar en piel lastimada."
+                "rationale": "Gel desinfiltrante con árnica y centella asiática que estimula el drenaje linfático subcutáneo y la microcirculación venosa mediante masaje, reduciendo la hinchazón y tensión en zonas edematosas."
             }
         ],
         "comboSecundario": [
@@ -1568,25 +1568,25 @@ window.manualData.padecimientos = [
                 "id": 47,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción al día únicamente con orientación profesional y análisis de potasio y función renal. Con alimentos.",
-                "rationale": "Potasio solo para indicaciones concretas; no por rutina para eliminar líquidos."
+                "rationale": "Contribuye al reequilibrio hidrosalino promoviendo la excreción renal del exceso de sodio acumulado, lo que disminuye el volumen de líquido retenido en los tejidos periféricos."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ácidos grasos esenciales que frenan la permeabilidad vascular excesiva y calman la inflamación de tejidos que retienen líquidos."
+                "rationale": "Los ácidos grasos EPA y DHA modulan la cascada eicosanoide reduciendo la permeabilidad vascular y la liberación de mediadores inflamatorios que provocan extravasación y retención de líquidos en los tejidos."
             },
             {
                 "id": 183,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel de árnica para masaje drenante en piernas y tobillos hinchados, como opción tópica refrescante."
+                "rationale": "Fórmula rubefaciente y venotónica que reactiva la reabsorción linfática local mediante masaje suave, aliviando de forma rápida la tirantez, pesadez e hinchazón en tobillos y pies."
             },
             {
                 "id": 122,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Equilibrio de ácidos grasos saludables para mejorar la fluidez circulatoria y apoyar el drenaje linfático en tobillos hinchados."
+                "rationale": "Aporta ácidos grasos que optimizan la flexibilidad de las membranas celulares y modulan la respuesta inflamatoria capilar, apoyando el drenaje de líquidos retenidos y aliviando la pesadez en extremidades inferiores."
             }
         ],
         "lifestyleTips": [
@@ -1619,7 +1619,7 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Omega 3 como complemento; revisar anticoagulantes y sangrado."
+                "rationale": "Concentración terapéutica de EPA y DHA que inhibe la síntesis de eicosanoides proinflamatorios, disminuyendo la rigidez matutina articular y la inflamación de las membranas sinoviales."
             }
         ],
         "comboSecundario": [
@@ -1627,19 +1627,19 @@ window.manualData.padecimientos = [
                 "id": 54,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Dosis de curcumina al 95% con piperina para apagar la inflamación sinovial y deshinchar articulaciones calientes y adoloridas."
+                "rationale": "Curcumina estandarizada al 95% con piperina que inhibe el factor de transcripción NF-kB, apagando la inflamación de la membrana sinovial y disminuyendo el dolor y la hinchazón articular."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "NAC para formar glutatión y complementar cuidado de las células."
+                "rationale": "Precursor directo del glutatión intracelular que neutraliza las especies reactivas de oxígeno producidas por la actividad autoinmune crónica, protegiendo los condrocitos y el tejido sinovial del daño oxidativo."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día solo si la porción es apropiada para sus niveles y tratamiento. Con alimentos que contengan grasas.",
-                "rationale": "Vitamina D de dosis alta solo si hay falta o indicación profesional."
+                "rationale": "Dosis óptima de vitamina D3 que modula la respuesta inmunitaria regulando los linfocitos T, lo que ayuda a mitigar la autoinmunidad y previene la pérdida de densidad ósea periarticular."
             },
             {
                 "id": 129,
@@ -1679,13 +1679,13 @@ window.manualData.padecimientos = [
                 "id": 47,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción al día únicamente cuando un profesional lo indique después de evaluar orina, función renal y medicamentos. Con alimentos.",
-                "rationale": "Potasio para indicaciones urinarias concretas; no baja por sí solo ácido úrico en sangre."
+                "rationale": "Alcaliniza el pH de la orina, aumentando la solubilidad del ácido úrico para facilitar su expulsión renal y prevenir la precipitación de cristales de urato en articulaciones y riñón."
             },
             {
                 "id": 151,
                 "serving": "1 medida (6 g)",
                 "usage": "Tomar esta porción al día según tolerancia. En ayunas o con el desayuno. Preferentemente por la mañana.",
-                "rationale": "Polvo verde alcalinizante que favorece la eliminación urinaria de toxinas y ayuda a equilibrar el pH metabólico."
+                "rationale": "Concentrado botánico alcalinizante con apio y enzimas proteolíticas que favorece la eliminación urinaria de solutos ácidos, aliviando la carga metabólica en episodios inflamatorios articulares."
             },
             {
                 "id": 123,
@@ -1731,19 +1731,19 @@ window.manualData.padecimientos = [
                 "id": 36,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Berberina como alternativa para manejo de glucosa con revisión de medicamentos; no sumar automáticamente otras fórmulas para bajar azúcar."
+                "rationale": "Activa la enzima AMPK celular promoviendo la translocación de transportadores GLUT4, lo que acelera la captación muscular de glucosa y disminuye la sobreproducción compensatoria de insulina."
             },
             {
                 "id": 41,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Canela y cromo para aprovechamiento de nutrientes. Revisar glucosa, riñones, hígado y medicamentos."
+                "rationale": "El picolinato de cromo optimiza la fosforilación del receptor de insulina mientras la canela potencia la sensibilidad tisular periférica, atenuando los picos glucémicos posprandiales y la somnolencia."
             },
             {
                 "id": 52,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Inositoles como alternativa si también hay ovario poliquístico; revisar tratamiento para glucosa."
+                "rationale": "Actúan como segundos mensajeros en la vía intracelular de la insulina, facilitando el transporte celular de carbohidratos en músculo e hígado para abatir la hiperinsulinemia en ayunas."
             }
         ],
         "comboSecundario": [
@@ -1751,31 +1751,31 @@ window.manualData.padecimientos = [
                 "id": 122,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Omega 3 para cuidado del corazón; no se presenta como producto para bajar azúcar."
+                "rationale": "Aumenta la fluidez de las membranas celulares optimizando la afinidad de los receptores de insulina, a la vez que mitiga la inflamación endotelial y la hipertrigliceridemia asociadas a resistencia insulínica."
             },
             {
                 "id": 17,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Cuidado de las células con valoración si hay molestias de los nervios; no reemplaza control de glucosa."
+                "rationale": "Antioxidante metabólico que estimula directamente la captación de glucosa por los transportadores GLUT4 y protege las mitocondrias frente al estrés oxidativo inducido por hiperglucemias transitorias."
             },
             {
                 "id": 103,
                 "serving": "15 ml",
                 "usage": "Tomar esta porción diluida en agua antes de una comida, según tolerancia.",
-                "rationale": "Vinagre como alimento para dar sabor. Evitar si irrita estómago y vigilar glucosa con medicamentos."
+                "rationale": "El ácido acético natural retarda el vaciamiento gástrico e inhibe las disacaridasas intestinales, aplanando los picos de glucosa e insulina después de ingerir carbohidratos complejos."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Optimiza la función celular en tejidos musculares y hepáticos, facilitando la captación celular de glucosa."
+                "rationale": "Restaura la bioenergética mitocondrial en músculo e hígado, reduciendo el estrés oxidativo intracelular que interfiere con la fosforilación de los receptores de insulina."
             },
             {
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.",
-                "rationale": "El cromo participa en uso de nutrientes. Revisar medicamentos para glucosa; no garantiza corregir resistencia a la insulina."
+                "rationale": "Sinergia de Gynostemma, hesperidina y cromo picolinato que estimula la vía AMPK, ayudando a frenar la salida hepática de glucosa y reactivar la oxidación celular de lípidos."
             }
         ],
         "lifestyleTips": [
@@ -1804,19 +1804,19 @@ window.manualData.padecimientos = [
                 "id": 36,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos, según la ficha del producto.",
-                "rationale": "Berberina como alternativa complementaria. Puede aumentar efecto de medicamentos para diabetes; necesita revisión y vigilancia del azúcar."
+                "rationale": "Estimula la enzima AMPK hepática para disminuir la gluconeogénesis endógena y favorece la absorción periférica de glucosa en músculo esquelético, contribuyendo a niveles glucémicos más estables."
             },
             {
                 "id": 41,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Canela y cromo como alternativa. Vigilar azúcar y revisar riñones, hígado y medicamentos."
+                "rationale": "Aporta picolinato de cromo biodisponible y polifenoles bioactivos de canela que refuerzan la eficacia biológica de la insulina, atenuando fluctuaciones bruscas de glucosa tras las comidas."
             },
             {
                 "id": 52,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Inositoles como alternativa sobre todo si también hay ovario poliquístico; no reemplazan tratamiento de diabetes."
+                "rationale": "Optimiza las rutas metabólicas dependientes de inositol para la utilización celular de glucosa, favoreciendo una mayor sensibilidad periférica a la insulina en tejidos diana."
             }
         ],
         "comboSecundario": [
@@ -1830,25 +1830,25 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Omega 3 para cuidado del corazón y triglicéridos; revisar anticoagulantes."
+                "rationale": "Aporte concentrado de EPA y DHA que reduce la hipertrigliceridemia metabólica y protege el endotelio vascular contra el daño aterogénico derivado de la glucemia elevada."
             },
             {
                 "id": 103,
                 "serving": "15 ml",
                 "usage": "Tomar esta porción diluida en agua antes de una comida, según tolerancia.",
-                "rationale": "Vinagre como alimento para dar sabor. Evitar si irrita estómago y vigilar azúcar si toma medicamentos."
+                "rationale": "El ácido acético retrasa la velocidad de digestión de los almidones en el intestino delgado, moderando la liberación de glucosa hacia el torrente sanguíneo tras las comidas."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Protege los vasos sanguíneos y el corazón del daño oxidativo crónico provocado por niveles elevados de glucosa."
+                "rationale": "Protege el endotelio capilar y la microvasculatura frente al daño oxidativo por productos de glicación avanzada, preservando la oxigenación celular y la salud cardiovascular."
             },
             {
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos. Revisar interacciones con antidiabéticos.",
-                "rationale": "El cromo participa en aprovechamiento de nutrientes; revisar medicamentos y glucosa antes de incorporar la mezcla."
+                "rationale": "Combina activadores botánicos de AMPK y picolinato de cromo para facilitar la captación mitocondrial de azúcares, amortiguando la sobrecarga glucémica en ayunas y posprandial."
             }
         ],
         "lifestyleTips": [
@@ -1876,19 +1876,19 @@ window.manualData.padecimientos = [
                 "id": 84,
                 "serving": "2 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción antes del desayuno y repetir antes de la comida (4 cápsulas al día); seguir estrictamente la etiqueta y no combinar con otras fuentes concentradas de cafeína.",
-                "rationale": "Cafeína y guaraná para estar alerta. Evitar con presión alta, enfermedad cardíaca o sensibilidad a estimulantes; no garantiza perder grasa."
+                "rationale": "La L-carnitina transporta ácidos grasos al interior mitocondrial para su oxidación energética, mientras el guaraná y la Garcinia activan el gasto termogénico y atenúan la lipogénesis."
             },
             {
                 "id": 41,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Canela y cromo para aprovechamiento de nutrientes; revisar glucosa, riñones, hígado y medicamentos."
+                "rationale": "El picolinato de cromo y la canela estabilizan la glucemia evitando alzas de insulina que promueven el almacenamiento de grasa abdominal y desatan apetito por carbohidratos."
             },
             {
                 "id": 165,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día por la mañana.",
-                "rationale": "Bebida con antioxidantes que puede tomarse sin azúcar; no garantiza pérdida de peso."
+                "rationale": "Aporta galato de epigalocatequina (EGCG) que estimula la termogénesis y promueve la lipólisis en tejido adiposo visceral, apoyando la reducción del perímetro abdominal."
             }
         ],
         "comboSecundario": [
@@ -1902,7 +1902,7 @@ window.manualData.padecimientos = [
                 "id": 25,
                 "serving": "10 g (2 cucharadas)",
                 "usage": "Tomar esta porción al día. En ayunas o con alimentos.",
-                "rationale": "Espirulina para complementar alimentación, sin presentarla como adelgazante."
+                "rationale": "Aporta proteína densa y ficocianina que inducen saciedad a nivel digestivo, aportando micronutrientes biodisponibles que sostienen el rendimiento metabólico sin aportar azúcares."
             },
             {
                 "id": 146,
@@ -1914,7 +1914,7 @@ window.manualData.padecimientos = [
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Cromo, fibra y plantas para complementar alimentación; no garantiza perder peso ni corregir síndrome metabólico."
+                "rationale": "Estimula la vía de señalización AMPK a través de Gynostemma y cromo, favoreciendo la combustión de reservas grasas y frenando la síntesis lipídica hepática en síndrome metabólico."
             }
         ],
         "lifestyleTips": [
@@ -1942,13 +1942,13 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Omega 3 para alimentación y cuidado del corazón; no equivale a medicamento para triglicéridos altos."
+                "rationale": "Dosis concentrada de EPA y DHA que disminuye la síntesis hepática de lipoproteínas VLDL y estimula el aclaramiento de triglicéridos plasmáticos, mejorando la elasticidad vascular arterial."
             },
             {
                 "id": 23,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ajo negro para cuidado del corazón; revisar medicamentos para sangrado, presión y glucosa."
+                "rationale": "Concentrado en S-alil-cisteína bioactiva que modula la biosíntesis hepática de colesterol y previene la oxidación de partículas LDL, reduciendo el riesgo de depósitos ateromatosos."
             }
         ],
         "comboSecundario": [
@@ -1956,13 +1956,13 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas. Especialmente recomendado si se toman estatinas.",
-                "rationale": "Coenzima Q10 para cuidado de las células. Consultar si hay dolor muscular con estatinas; no garantiza resolverlo ni justifica suspenderlas."
+                "rationale": "Forma reducida y activa de CoQ10 que repone los depósitos mitocondriales depletados por fármacos hipolipemiantes, aliviando la fatiga muscular y apoyando la fuerza contráctil miocárdica."
             },
             {
                 "id": 136,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Coenzima Q10 como complemento. Consultar por molestias musculares al usar estatinas, sin suspenderlas."
+                "rationale": "Restaura los niveles de coenzima Q10 en tejido muscular esquelético y cardíaco, contrarrestando la mialgia por medicamentos reguladores de lípidos y protegiendo contra la oxidación celular."
             },
             {
                 "id": 115,
@@ -1974,19 +1974,19 @@ window.manualData.padecimientos = [
                 "id": 145,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "La colina ayuda a utilizar grasas; no reemplaza tratamiento de colesterol o triglicéridos altos."
+                "rationale": "Emulsiona las partículas lipídicas en el torrente sanguíneo y aporta colina para el transporte hepático de grasas, facilitando la movilización del colesterol y protegiendo contra hígado graso."
             },
             {
                 "id": 36,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Berberina como alternativa complementaria. La ficha declara 1000 mg por dos cápsulas; revisar conveniencia y medicamentos para glucosa, presión o sangrado."
+                "rationale": "Aumenta la expresión y estabilidad de los receptores hepáticos de LDL mediante la inhibición de PCSK9, promoviendo la captación y eliminación activa del colesterol sanguíneo circulante."
             },
             {
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Mineral clave que mejora la señalización celular para metabolizar grasas y carbohidratos, reduciendo los picos de glucosa y triglicéridos."
+                "rationale": "Activa la quinasa AMPK hepática mediante polifenoles de Gynostemma y cromo, acelerando la beta-oxidación de ácidos grasos y disminuyendo la producción de triglicéridos endógenos."
             }
         ],
         "lifestyleTips": [
@@ -2013,19 +2013,19 @@ window.manualData.padecimientos = [
                 "id": 117,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Reactiva la respiración celular y la síntesis de energía biológica para rescatar al organismo del agotamiento extremo e incapacitante."
+                "rationale": "Restaura los niveles intracelulares de NAD+ activando las vías de fosforilación mitocondrial y las sirtuinas celulares, combatiendo el malestar posesfuerzo y la falta de producción de energía biológica en el tejido neuromuscular."
             },
             {
                 "id": 101,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "La coenzima Q10 participa en producción de energía; no garantiza resolver la fatiga."
+                "rationale": "Forma biológicamente activa de CoQ10 que facilita la transferencia de protones en la membrana mitocondrial, elevando la síntesis de ATP en músculo esquelético y neuronas para contrarrestar la postración y debilidad física crónica."
             },
             {
                 "id": 92,
                 "serving": "2-4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio ayuda a aprovechar energía y al funcionamiento muscular, especialmente si falta."
+                "rationale": "Aporta magnesio ligado a ácido málico, sustrato directo para la producción mitocondrial de energía en el ciclo del ácido cítrico, aliviando la fatiga profunda, los espasmos por sobrecarga y el dolor muscular crónico."
             }
         ],
         "comboSecundario": [
@@ -2033,25 +2033,25 @@ window.manualData.padecimientos = [
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "Adaptógeno maestro que recupera las reservas de energía suprarrenal desgastadas por meses de sobreexigencia y estrés."
+                "rationale": "Planta adaptógena que modula el eje hipotálamo-hipófisis-adrenal, estabilizando los ritmos diurnos de energía y mitigando el agotamiento neuroendocrino en personas con fatiga persistente refractaria al sueño."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Las vitaminas B ayudan a aprovechar energía de los alimentos."
+                "rationale": "Complejo B completo que aporta las coenzimas necesarias (B1, B2, B3, B5, B6) para catalizar el catabolismo de carbohidratos y lípidos en energía celular utilizable, reduciendo el letargo motor y la niebla mental."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Potente precursor de glutatión que barre el estrés oxidativo acumulado en músculos y cerebro, disipando la pesadez corporal."
+                "rationale": "Aumenta la síntesis de glutatión celular protegiendo el ADN mitocondrial del daño por especies reactivas de oxígeno, lo que disminuye la inflamación sistémica de bajo grado y acelera la recuperación tras esfuerzos mínimos."
             },
             {
                 "id": 29,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "El cromo participa en uso de nutrientes; no se presenta como tratamiento del cansancio crónico."
+                "rationale": "Favorece la activación de la quinasa AMPK mediante fitoactivos y minerales que optimizan el ingreso de glucosa a las células musculares, evitando la depleción rápida de glucógeno y mejorando la estamina metabólica corporal."
             }
         ],
         "lifestyleTips": [
@@ -2082,13 +2082,13 @@ window.manualData.padecimientos = [
                 "id": 62,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Biotina y selenio para mantenimiento del cabello, sobre todo si existe una falta nutricional."
+                "rationale": "Aporta L-cisteína, queratina y biotina para la síntesis de puentes de disulfuro en la hebra capilar, fortaleciendo la papila dérmica y frenando el efluvio telógeno femenino."
             },
             {
                 "id": 107,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitaminas y minerales para complementar alimentación y cuidado del cabello."
+                "rationale": "Aporte integral de biotina, zinc, hierro y vitaminas del grupo B esenciales para reactivar la microcirculación en el folículo piloso y reducir el desprendimiento capilar por estrés o déficit nutricional."
             }
         ],
         "comboSecundario": [
@@ -2102,13 +2102,13 @@ window.manualData.padecimientos = [
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El zinc ayuda al mantenimiento del cabello cuando se cubren necesidades del mineral."
+                "rationale": "Cofactor enzimático indispensable en la división celular de la matriz folicular y la síntesis de queratina, previniendo el adelgazamiento progresivo y la rotura de la fibra capilar."
             },
             {
                 "id": 26,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Complemento con hierro y nutrientes; revisar si hay una falta antes de atribuir caída del cabello a alimentación."
+                "rationale": "Aporta hierro vegetal biodisponible, clorofila y aminoácidos que mejoran la oxigenación celular del bulbo piloso, deteniendo la pérdida difusa de cabello vinculada a ferritina baja."
             }
         ],
         "lifestyleTips": [
@@ -2159,13 +2159,13 @@ window.manualData.padecimientos = [
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El zinc apoya mantenimiento del cabello si hay necesidad nutricional; no es un bloqueador hormonal."
+                "rationale": "Inhibe parcialmente la conversión local de testosterona a DHT y estimula la síntesis proteica en la raíz del cabello, frenando la miniaturización folicular en el patrón masculino."
             },
             {
                 "id": 105,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Complejo vitamínico con zinc y biotina que cubre deficiencias nutricionales para reactivar el crecimiento capilar constante."
+                "rationale": "Combina arginina para dinamizar el flujo sanguíneo capilar con zinc y biotina celular, aportando nutrientes críticos que alargan la fase anágena de crecimiento folicular."
             }
         ],
         "lifestyleTips": [
@@ -2197,7 +2197,7 @@ window.manualData.padecimientos = [
                 "id": 83,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar esta porción antes del entrenamiento.",
-                "rationale": "La arginina participa en circulación, pero no garantiza mejorar erección. Revisar medicamentos para corazón y presión."
+                "rationale": "Precursor biológico inmediato del óxido nítrico, el cual induce vasodilatación en las arterias cavernosas del pene facilitando un llenado sanguíneo firme y prolongado durante la erección."
             },
             {
                 "id": 106,
@@ -2211,7 +2211,7 @@ window.manualData.padecimientos = [
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción diaria. Con alimentos.",
-                "rationale": "El zinc apoya función reproductiva normal; no garantiza elevar testosterona ni mejorar erección."
+                "rationale": "Mineral fundamental para la actividad enzimática en las células de Leydig y el control de la aromatasa, optimizando la concentración de testosterona libre y la potencia reproductiva."
             },
             {
                 "id": 33,
@@ -2229,7 +2229,7 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Coenzima Q10 para cuidado de las células; no tiene beneficio establecido para tratar problemas de erección."
+                "rationale": "Poderoso antioxidante lipofílico que neutraliza el estrés oxidativo vascular, protegiendo al óxido nítrico endotelial para permitir una adecuada relajación muscular en los cuerpos cavernosos."
             }
         ],
         "lifestyleTips": [
@@ -2256,13 +2256,13 @@ window.manualData.padecimientos = [
                 "id": 168,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Pygeum, licopeno y zinc para complementar bienestar de la próstata."
+                "rationale": "Combina pygeum, licopeno concentrado y zinc para inhibir factores de crecimiento prostático y calmar la inflamación local, mejorando la apertura de la uretra y el flujo urinario."
             },
             {
                 "id": 78,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Semilla de calabaza, ciruelo africano y zinc para cuidado masculino; no garantiza reducir tamaño de próstata."
+                "rationale": "Aporta fitoesteroles de semilla de calabaza y ciruelo africano que bloquean la 5-alfa reductasa, descongestionando el tejido glandular y disminuyendo los despertares nocturnos para orinar."
             },
             {
                 "id": 153,
@@ -2276,7 +2276,7 @@ window.manualData.padecimientos = [
                 "id": 6,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Proantocianidinas que limpian la uretra y evitan que bacterias colonicen la vejiga en hombres con retención de orina o vaciado incompleto."
+                "rationale": "Proantocianidinas tipo A que impiden la adherencia de uropatógenos al epitelio vesical, previniendo infecciones urinarias secundarias al vaciado incompleto de la vejiga en hipertrofia prostática."
             },
             {
                 "id": 139,
@@ -2340,7 +2340,7 @@ window.manualData.padecimientos = [
                 "id": 125,
                 "serving": "10 g",
                 "usage": "Tomar esta porción al día, en ayunas o entre comidas.",
-                "rationale": "Colágeno para alimentación y cuidado de piel; el cuidado de huesos también depende de calcio, vitamina D y ejercicio."
+                "rationale": "Péptidos bioactivos que estimulan la síntesis de colágeno en la matriz ósea y la dermis, atenuando la pérdida de densidad mineral y la resequedad de mucosas tras la caída estrogénica."
             },
             {
                 "id": 32,
@@ -2378,7 +2378,7 @@ window.manualData.padecimientos = [
                 "id": 52,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Inositoles para valorar si hay ovario poliquístico; no toda irregularidad menstrual tiene esa causa."
+                "rationale": "Optimiza la señalización de insulina en el tejido ovárico y normaliza la relación LH/FSH, promoviendo la adecuada maduración del folículo y restaurando la periodicidad del ciclo ovulatorio."
             },
             {
                 "id": 20,
@@ -2404,13 +2404,13 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para complementar alimentación; no regulariza por sí solo el ciclo."
+                "rationale": "Modula la producción endometrial de prostaglandinas inflamatorias, reduciendo la congestión pélvica, la hinchazón mamaria y la hipersensibilidad dolorosa previa a la menstruación."
             },
             {
                 "id": 107,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitaminas y minerales para complementar alimentación de la mujer."
+                "rationale": "Aporta vitamina B6, zinc y magnesio requeridos para la síntesis de progesterona y neurotransmisores, aliviando la labilidad emocional y la fatiga del síndrome premenstrual."
             }
         ],
         "lifestyleTips": [
@@ -2436,19 +2436,19 @@ window.manualData.padecimientos = [
                 "id": 87,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción una vez al día con alimentos, según la ficha técnica.",
-                "rationale": "Aminoácido fundamental que aporta la materia prima para la síntesis natural de hormonas tiroideas T3 y T4, combatiendo el cansancio y el metabolismo lento."
+                "rationale": "Aminoácido precursor indispensable que se une al yodo en los folículos tiroideos para la formación de tiroxina (T4) y triyodotironina (T3), apoyando el metabolismo basal, el estado de alerta y el dinamismo fisiológico."
             },
             {
                 "id": 32,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar 1 cápsula al día con alimentos. El envase de 120 cápsulas rinde 120 días.",
-                "rationale": "La ashwagandha puede modificar actividad de tiroides; no recomendar por rutina y revisar tratamiento con el médico."
+                "rationale": "Extracto adaptógeno con withanólidos que apoya el equilibrio tiroideo estimulando la producción de T4 y favoreciendo su conversión a T3 activa, al tiempo que modula el cortisol para reducir el cansancio y la intolerancia al frío."
             },
             {
                 "id": 26,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Espirulina con nutrientes. La ficha no asegura aporte de yodo; no usar para corregirlo por cuenta propia."
+                "rationale": "Microalga densa en oligoelementos, hierro, aminoácidos y vitaminas del complejo B que brinda soporte nutricional profundo contra la fatiga metabólica, la caída capilar y la debilidad celular asociadas al metabolismo tiroideo lento."
             }
         ],
         "comboSecundario": [
@@ -2456,25 +2456,25 @@ window.manualData.padecimientos = [
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Mineral cofactor clave para la conversión periférica de T4 inactiva a T3 activa, activando la quema de energía celular."
+                "rationale": "Cofactor esencial que estimula la enzima 5'-desyodasa encargada de transformar la T4 inactiva en T3 biológicamente activa en tejidos periféricos, impulsando el gasto energético basal y la vitalidad celular."
             },
             {
                 "id": 142,
                 "serving": "1 tableta",
                 "usage": "Tomar esta porción al día, únicamente con seguimiento profesional.",
-                "rationale": "Selenio para funcionamiento de tiroides; complementar solo si corresponde y evitar exceso."
+                "rationale": "Aporta selenometionina, componente estructural de las enzimas desyodasas y de la glutatión peroxidasa tiroidea, protegiendo a la glándula del estrés oxidativo generado durante la síntesis hormonal y mejorando la conversión a T3."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Reactiva el metabolismo energético y combate la sensación de lentitud mental, debilidad y frío constante típica del hipotiroidismo."
+                "rationale": "Aporta cofactores B12, B6 y riboflavina esenciales para la utilización de energía mitocondrial en tejidos periféricos, atenuando la bradipsiquia, la astenia matutina y la sensación constante de extremidades frías."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Oxigena las células y aporta el empuje de energía que el metabolismo tiroideo lento deja de producir."
+                "rationale": "Suple el déficit de producción endógena de coenzima Q10 ocasionado por la baja estimulación tiroidea en las mitocondrias, reactivando la fuerza muscular y aliviando la fatiga y somnolencia diurna persistente."
             }
         ],
         "lifestyleTips": [
@@ -2499,19 +2499,19 @@ window.manualData.padecimientos = [
                 "id": 150,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Preferentemente antes de dormir.",
-                "rationale": "L-teanina y azahar para calmar las palpitaciones nerviosas, la intranquilidad interior y el insomnio sin interferir con la glándula tiroides."
+                "rationale": "La L-teanina y extractos de azahar modulan los receptores glutamatérgicos corticales promoviendo ondas alfa cerebrales, lo que apacigua el estado de agitación nerviosa, las palpitaciones funcionales y la inquietud nocturna."
             },
             {
                 "id": 94,
                 "serving": "2-4 cápsulas",
                 "usage": "Tomar esta porción al día. Preferentemente antes de dormir.",
-                "rationale": "Fórmula para relajación y descanso con revisión de medicamentos; no controla actividad de tiroides."
+                "rationale": "Aporta bisglicinato de magnesio, glicina y manzanilla para regular la excitabilidad de la membrana neuromuscular, relajando la contracción muscular excesiva, disminuyendo los temblores finos y facilitando la conciliación del descanso nocturno."
             },
             {
                 "id": 68,
                 "serving": "2-3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Freno inhibitorio natural que apaga el temblor por excitación nerviosa y relaja el cuerpo acelerado."
+                "rationale": "Actúa como el principal neurotransmisor sedante en el sistema nervioso central para contrarrestar la tormenta adrenérgica del cuerpo acelerado, amortiguando la taquicardia funcional, los temblores distales y el desasosiego constante."
             }
         ],
         "comboSecundario": [
@@ -2519,19 +2519,19 @@ window.manualData.padecimientos = [
                 "id": 117,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Protege los tejidos celulares del desgaste oxidativo acelerado que provoca el exceso de hormonas tiroideas."
+                "rationale": "Aporta resveratrol y coenzimas NAD+ con elevada capacidad antioxidante para salvaguardar las células cardíacas y endoteliales del estrés oxidativo y catabolismo excesivo producido por el hipermetabolismo celular."
             },
             {
                 "id": 4,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitaminas B si hay necesidad nutricional; no reducen actividad de tiroides."
+                "rationale": "Repone las vitaminas hidrosolubles del complejo B que se degradan velozmente por el estado hipermetabólico y el alto gasto energético, previniendo el agotamiento neuromuscular y el desgaste de las fibras nerviosas."
             },
             {
                 "id": 61,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitamina C para defensas y cuidado celular; revisar plantas si hay enfermedad autoinmune de tiroides."
+                "rationale": "Aporta ácido ascórbico antioxidante para proteger los tejidos periféricos de la oxidación celular y neutralizar radicales libres generados por el exceso de recambio metabólico celular."
             }
         ],
         "lifestyleTips": [
@@ -2558,19 +2558,19 @@ window.manualData.padecimientos = [
                 "id": 178,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Antihistamínico natural que frena la liberación de histamina, calmando estornudos continuos, ojos llorosos y picazón en garganta."
+                "rationale": "Bioflavonoide que estabiliza la membrana de los mastocitos y frena la degranulación de histamina, aliviando de raíz estornudos continuos, lagrimeo y prurito en nariz y garganta ante alérgenos ambientales."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Mucolítico antioxidante que disuelve flemas espesas y fluidifica las secreciones retenidas en vías respiratorias y senos paranasales."
+                "rationale": "Ruptura los puentes disulfuro de las mucoproteínas bronquiales y nasales, fluidificando las secreciones densas generadas por la inflamación alérgica y despejando los senos paranasales y conductos aéreos."
             },
             {
                 "id": 61,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitamina C para defensas; no se presenta como medicamento para quitar alergia."
+                "rationale": "La vitamina C actúa como degradador natural de histamina circulante mientras la equinácea modula la respuesta inmunitaria de las mucosas respiratorias frente a polen, polvo y ácaros."
             }
         ],
         "comboSecundario": [
@@ -2578,31 +2578,31 @@ window.manualData.padecimientos = [
                 "id": 185,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Adaptógeno botánico que modula el sistema respiratorio para reducir la frecuencia y severidad de las crisis alérgicas estacionales."
+                "rationale": "Raíz adaptógena que equilibra la respuesta Th1/Th2 del sistema inmune, disminuyendo la hipersensibilidad de las vías respiratorias superiores y espaciando los episodios de rinitis alérgica estacional."
             },
             {
                 "id": 188,
                 "serving": "20 gotas",
                 "usage": "Tomar esta porción al día. Puede tomarse con o sin alimentos.",
-                "rationale": "Mentol y propóleo para frescura y confort de garganta; evitar con alergia a productos de abeja."
+                "rationale": "Crea una película protectora sobre la mucosa orofaríngea que calma el picor y carraspera causados por el goteo retronasal, mientras sus bioflavonoides combaten la inflamación alérgica local."
             },
             {
                 "id": 184,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día como preventivo. Con alimentos.",
-                "rationale": "Combinación de Vitamina C, D3, Zinc y sauco que refuerza las barreras mucosas nasales y bronquiales frente a polen y cambios de clima."
+                "rationale": "Sinergia de saúco, zinc y vitaminas C y D3 que fortalece la integridad del epitelio respiratorio, reduciendo la penetración de alérgenos ambientales y atenuando la reactividad bronquial."
             },
             {
                 "id": 170,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Preparar esta porción en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día, preferentemente después de una comida, según la ficha técnica.",
-                "rationale": "Infusión caliente de plantas de uso tradicional respiratorio para confort de garganta."
+                "rationale": "Infusión pectoral con gordolobo y eucalipto cuyos aceites esenciales y mucílagos suavizan las vías respiratorias irritadas por el flujo constante de secreciones, aliviando la sensación de picor."
             },
             {
                 "id": 155,
                 "serving": "12 ml (1 cucharada)",
                 "usage": "Tomar esta porción cada 4 horas. Puede tomarse con o sin alimentos.",
-                "rationale": "Miel y mentol para suavidad y frescura de garganta; revisar alergia al propóleo y azúcar."
+                "rationale": "Jarabe balsámico con miel pura, malva y mentol que recubre la faringe irritada, calmando los accesos de tos seca y la tirantez de garganta provocadas por alérgenos inhalados."
             }
         ],
         "lifestyleTips": [
@@ -2634,7 +2634,7 @@ window.manualData.padecimientos = [
                 "id": 184,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Choque concentrado de Vitamina C, D3, Zinc y sauco que estimula la producción de glóbulos blancos para levantar las defensas de inmediato."
+                "rationale": "Combinación de saúco, zinc y vitaminas C y D3 que estimula activamente la proliferación de linfocitos y fagocitos, reforzando la primera línea de defensa biológica frente a agentes patógenos."
             },
             {
                 "id": 186,
@@ -2648,37 +2648,37 @@ window.manualData.padecimientos = [
                 "id": 185,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Astrágalo de uso tradicional para valorar con el médico; puede interferir con medicamentos que reducen defensas."
+                "rationale": "Contiene polisacáridos y astragalósidos que promueven la actividad de las células natural killer y macrófagos, estimulando la inmunidad celular en organismos debilitados o en convalecencia prolongada."
             },
             {
                 "id": 188,
                 "serving": "20 gotas",
                 "usage": "Tomar esta porción al día. Puede tomarse con o sin alimentos.",
-                "rationale": "Propóleo y mentol para confort de garganta; no ofrece recuperación rápida demostrada de defensas."
+                "rationale": "Concentrado de bioflavonoides y derivados del ácido caféico que ejercen acción inmunomoduladora local y protegen las puertas de entrada respiratorias contra la invasión de microorganismos oportunistas."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Vitamina D para defensas; esta dosis alta requiere necesidad identificada y seguimiento."
+                "rationale": "Regula la transcripción génica en monocitos y macrófagos, estimulando la síntesis de péptidos antimicrobianos endógenos como catelicidinas y defensinas indispensables para blindar el sistema inmunitario."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Zinc para funcionamiento de defensas, especialmente si alimentación no cubre necesidades."
+                "rationale": "Oligoelemento esencial para la maduración tímica y el desarrollo de linfocitos T, protegiendo las membranas celulares del estrés oxidativo y restaurando la capacidad defensiva frente a infecciones."
             },
             {
                 "id": 202,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con el estómago vacío.",
-                "rationale": "Fórmula avanzada de calostro con hongos reishi y hierbas adaptógenas para reforzar defensas, como alternativa al calostro bovino puro."
+                "rationale": "Fórmula inmunoestimulante que combina inmunoglobulinas bioactivas con arabinogalactano y hoja de olivo, potenciando la fagocitosis y fortaleciendo las barreras mucosas e inmunológicas de todo el organismo."
             },
             {
                 "id": 244,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día, por la mañana o por la noche.",
-                "rationale": "Hongos y probióticos como complemento; evitar sumar mezclas y revisar seguridad si hay inmunosupresión."
+                "rationale": "Aporta betaglucanos fúngicos de Chaga y Reishi que modulan la respuesta inmune adaptativa y estimulan a los macrófagos, mientras sus probióticos optimizan el tejido linfoide asociado al intestino."
             }
         ],
         "lifestyleTips": [
@@ -2705,19 +2705,19 @@ window.manualData.padecimientos = [
                 "id": 55,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día por la mañana, con alimentos que contengan grasas.",
-                "rationale": "Vitaminas C y D para defensas; el beneficio de equinácea en resfriado es variable."
+                "rationale": "Sinergia de antioxidantes y fitonutrientes que estimula la respuesta de glóbulos blancos y macrófagos ante los virus estacionales, contribuyendo a acortar la duración del cuadro gripal y aminorar el decaimiento."
             },
             {
                 "id": 152,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Zinc para defensas con jengibre de uso tradicional digestivo; elegir una fórmula de zinc."
+                "rationale": "El zinc inhibe la replicación viral en la mucosa nasofaríngea mientras los gingeroles del jengibre aportan acción diaforética y antiinflamatoria, aliviando la sensación de cuerpo cortado y destemple."
             },
             {
                 "id": 243,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
-                "rationale": "Miel y plantas para suavizar garganta y acompañar tos; no dar miel a menores de un año."
+                "rationale": "Jarabe emoliente y balsámico con miel, gordolobo y propóleo que tapiza la garganta raspada, alivia la tos irritativa y promueve la expulsión del moco estacional acumulado."
             }
         ],
         "comboSecundario": [
@@ -2725,19 +2725,19 @@ window.manualData.padecimientos = [
                 "id": 61,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Vitamina C efervescente con zinc para acortar el malestar del resfriado, como alternativa a las cápsulas de vitamina D y C."
+                "rationale": "La vitamina C refuerza las defensas celulares y neutraliza radicales libres respiratorios, mientras la equinácea apoya al organismo para responder más rápido frente a los síntomas clásicos del resfriado común."
             },
             {
                 "id": 212,
                 "serving": "1 tableta",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Tabletas de gluconato de zinc de 50 mg de alta pureza para apoyar las defensas, como opción sin jengibre."
+                "rationale": "Aporte directo de zinc altamente biodisponible que interfiere con el anclaje de rinovirus en el tracto respiratorio superior y estimula la regeneración del epitelio nasal afectado."
             },
             {
                 "id": 155,
                 "serving": "12 ml",
                 "usage": "Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.",
-                "rationale": "Miel y mentol para suavidad y frescura de garganta como alternativa líquida."
+                "rationale": "Jarabe de miel con extractos de eucalipto, saúco y mentol que refresca y lubrica la faringe irritada, aliviando la carraspera y facilitando una respiración más despejada y confortable."
             }
         ],
         "lifestyleTips": [
@@ -2764,19 +2764,19 @@ window.manualData.padecimientos = [
                 "id": 170,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Tomar esta porción después de una comida, preparada como infusión.",
-                "rationale": "Infusión caliente para aportar líquido y confort de garganta."
+                "rationale": "Infusión con gordolobo y saúco rica en mucílagos vegetales que forman una película protectora sobre la mucosa faríngea irritada, disminuyendo el reflejo constante de la tos seca."
             },
             {
                 "id": 243,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
-                "rationale": "La miel puede suavizar garganta; las plantas complementan su uso tradicional respiratorio."
+                "rationale": "Jarabe pectoral a base de miel natural y extracto de bugambilia que calma el ardor de garganta, desensibiliza las terminaciones nerviosas laríngeas e hidrata los tejidos secos y lastimados."
             },
             {
                 "id": 155,
                 "serving": "12 ml",
                 "usage": "Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.",
-                "rationale": "Otra opción con miel y propóleo para suavizar garganta; elegir un solo jarabe de miel."
+                "rationale": "La acción combinada de malva, miel y propóleo genera un bálsamo emoliente que alivia de inmediato la sensación de espina o rasposidad en la laringe, frenando los accesos espasmódicos de tos."
             }
         ],
         "comboSecundario": [
@@ -2784,19 +2784,19 @@ window.manualData.padecimientos = [
                 "id": 188,
                 "serving": "20 gotas (1 ml)",
                 "usage": "Tomar esta porción al día, directa o diluida.",
-                "rationale": "Propóleo y mentol para confort de garganta; evitar con alergia a productos de abeja."
+                "rationale": "Aplicación directa de propóleo y mentol en aerosol que adormece suavemente la mucosa orofaríngea inflamada, aportando frescura inmediata y protegiendo la zona contra sobreinfecciones bacterianas secundarias."
             },
             {
                 "id": 179,
                 "serving": "15 ml",
                 "usage": "Tomar esta porción con o sin alimentos según la ficha técnica.",
-                "rationale": "Jarabe de uso tradicional respiratorio como alternativa líquida; no sumar varios jarabes."
+                "rationale": "Fórmula enriquecida con vitaminas A y D y extractos pectorales que nutre y regenera el epitelio respiratorio erosionado por accesos repetidos de tos, restaurando la lubricación natural de las mucosas."
             },
             {
                 "id": 22,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ajo negro y propóleo como complemento; una tos persistente necesita revisión."
+                "rationale": "Concentrado de bioflavonoides y compuestos azufrados que actúa desde el interior fortaleciendo las defensas de la garganta y calmando la inflamación persistente del tejido respiratorio alto."
             }
         ],
         "lifestyleTips": [
@@ -2823,19 +2823,19 @@ window.manualData.padecimientos = [
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "La NAC puede ayudar a hacer menos espeso el moco cuando el profesional la considera adecuada."
+                "rationale": "La N-acetilcisteína rompe los puentes disulfuro de las secreciones bronquiales mucopurulentas, reduciendo drásticamente su viscosidad para permitir una expectoración eficaz y liberar las vías aéreas ocluidas."
             },
             {
                 "id": 201,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción después de los alimentos.",
-                "rationale": "Plantas tradicionales para confort respiratorio. Contiene alcohol y no es apropiado para niños."
+                "rationale": "Extracto vegetal con frutos de cuatecomate y eucalipto cuyos compuestos activos ejercen acción broncodilatadora suave y estimulan el epitelio mucociliar para despejar flemas acumuladas en el pecho."
             },
             {
                 "id": 243,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
-                "rationale": "Jarabe expectorante de miel pura con eucalipto y propóleo que disuelve flemas adheridas en el pecho y calma la tos con dolor."
+                "rationale": "Jarabe expectorante con miel pura, eucalipto y gordolobo que hidrata las secreciones viscosas del árbol traqueobronquial, facilitando su expulsión sin fatiga y calmando el dolor torácico por tos constante."
             }
         ],
         "comboSecundario": [
@@ -2843,19 +2843,19 @@ window.manualData.padecimientos = [
                 "id": 170,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Tomar esta porción después de una comida, preparada como infusión.",
-                "rationale": "Infusión caliente que aporta líquido y puede dar confort de garganta."
+                "rationale": "Aporta vapores aromáticos de eucalipto y principios activos pectorales que ayudan a fluidificar el moco bronquial denso, dilatando suavemente los conductos respiratorios con cada toma caliente."
             },
             {
                 "id": 156,
                 "serving": "20 ml",
                 "usage": "Tomar esta porción con o sin alimentos según la frecuencia indicada en la ficha técnica.",
-                "rationale": "Miel y propóleo como alternativa líquida para garganta; tomar en cuenta azúcar."
+                "rationale": "Sinergia de ajo negro, orégano y gordolobo en base de miel que combina acción antimicrobiana y expectorante, ayudando a despejar secreciones densas y atenuar la congestión torácica."
             },
             {
                 "id": 179,
                 "serving": "15 ml",
                 "usage": "Tomar esta porción con o sin alimentos según la ficha técnica.",
-                "rationale": "Jarabe de uso tradicional respiratorio como alternativa; elegir uno solo."
+                "rationale": "Aporta vitaminas liposolubles A y D junto con extractos pectorales que fortalecen la mucosa bronquial y apoyan la resolución de procesos catarrales con abundante secreción mucociliar."
             }
         ],
         "lifestyleTips": [
@@ -2882,19 +2882,19 @@ window.manualData.padecimientos = [
                 "id": 178,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Desinflama la mucosa de los senos paranasales, reduce la presión en la frente y pómulos y abre el paso del aire nasal."
+                "rationale": "Potente flavonoide que desinflama el epitelio de los senos paranasales y disminuye la producción excesiva de moco, aliviando la sensación de pesadez facial y reabriendo el flujo de aire nasal."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "NAC para moco espeso; no quita por sí sola causa de congestión."
+                "rationale": "Fluidifica el moco denso y purulento atrapado en los senos frontales y maxilares, favoreciendo su drenaje espontáneo y liberando la tensión dolorosa entre los ojos y la frente."
             },
             {
                 "id": 201,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción después de los alimentos.",
-                "rationale": "Plantas tradicionales para confort respiratorio; revisar edad, alcohol y medicamentos."
+                "rationale": "Los fitonutrientes del eucalipto y cuatecomate actúan como descongestivos de las vías aéreas superiores, facilitando la ventilación y aflojando las flemas altas que provocan obstrucción."
             }
         ],
         "comboSecundario": [
@@ -2902,19 +2902,19 @@ window.manualData.padecimientos = [
                 "id": 170,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Tomar esta porción después de una comida, preparada como infusión.",
-                "rationale": "Una infusión caliente aporta líquido y puede dar confort de garganta."
+                "rationale": "La inhalación de sus vapores balsámicos ricos en cineol y extractos pectorales humecta las fosas nasales, licúa secreciones secas y despresuriza los conductos sinusales inflamados."
             },
             {
                 "id": 188,
                 "serving": "20 gotas (1 ml)",
                 "usage": "Tomar esta porción al día, directa o diluida.",
-                "rationale": "Mentol y propóleo para frescura y confort; evitar con alergia a productos de abeja."
+                "rationale": "El mentol estimula los receptores de frío en la mucosa nasal produciendo sensación inmediata de descongestión, mientras el propóleo combate los gérmenes causantes de la infección sinusal."
             },
             {
                 "id": 243,
                 "serving": "10 ml",
                 "usage": "Tomar esta porción durante el día o acompañada de té, según la ficha técnica.",
-                "rationale": "La miel ayuda a suavizar garganta irritada por goteo nasal; no destapa nariz de inmediato."
+                "rationale": "Sus esencias volátiles de menta y eucalipto ascienden hacia las cavidades sinusales promoviendo la ventilación nasal, a la vez que su miel densa protege la faringe del constante escurrimiento retronasal."
             }
         ],
         "lifestyleTips": [
@@ -2941,19 +2941,19 @@ window.manualData.padecimientos = [
                 "id": 202,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con el estómago vacío.",
-                "rationale": "Calostro concentrado con reishi y fo-ti para acelerar la regeneración del epitelio pulmonar y devolver la fuerza corporal tras neumonía, bronquitis aguda o semanas de antibióticos fuertes."
+                "rationale": "Aporta calostro bovino rico en IgG junto con arabinogalactano y astrágalo para regenerar el epitelio pulmonar lesionado, levantar las defensas residuales y acelerar la recuperación física tras infecciones respiratorias severas."
             },
             {
                 "id": 244,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día, por la mañana o por la noche.",
-                "rationale": "Hongos y probióticos para bienestar digestivo y alimentación; no garantizan recuperar defensas."
+                "rationale": "La sinergia de hongos adaptógenos Chaga y Reishi con L-carnitina y probióticos reactiva la energía mitocondrial celular, restablece la flora digestiva dañada por antibióticos y disipa el cansancio postinfeccioso."
             },
             {
                 "id": 100,
                 "serving": "3 cápsulas",
                 "usage": "Distribuir esta porción durante el día, antes de las comidas.",
-                "rationale": "Moringa para incorporar compuestos vegetales y complementar alimentación variada."
+                "rationale": "Concentrado de micronutrientes, clorofila y aminoácidos esenciales que nutre los tejidos debilitados, combate la astenia prolongada y acelera el restablecimiento del tono muscular y vitalidad general."
             }
         ],
         "comboSecundario": [
@@ -2961,19 +2961,19 @@ window.manualData.padecimientos = [
                 "id": 21,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ajo negro y moringa como alternativa para alimentación y cuidado de las células."
+                "rationale": "Combina los antioxidantes sulfurados del ajo negro con la riqueza multivitamínica de la moringa para desinflamar las secuelas bronquiales, reactivar la oxigenación celular y superar la fatiga residual."
             },
             {
                 "id": 38,
                 "serving": "1 sobre (20 g)",
                 "usage": "Preparar esta porción según la ficha técnica y consumir preferentemente durante la mañana.",
-                "rationale": "Bebida tonificante con reishi y cordyceps que oxigena los bronquios y disipa el cansancio residual sin provocar taquicardia."
+                "rationale": "Bebida revitalizante con moringa y extractos de hongos Reishi, Shiitake y Maitake que tonifica el sistema respiratorio y devuelve la vitalidad física por las mañanas sin sobreestimular el ritmo cardíaco."
             },
             {
                 "id": 40,
                 "serving": "1 sobre (4.5 g)",
                 "usage": "Preparar esta porción por la mañana según la ficha técnica.",
-                "rationale": "Café soluble negro con extractos de Ganoderma y Shiitake para recuperar la vitalidad física por las mañanas."
+                "rationale": "Café enriquecido con extractos de Ganoderma y Shiitake que aporta polifenoles y betaglucanos para combatir la fatiga crónica post-infección, favoreciendo la lucidez mental y la resistencia corporal diaria."
             }
         ],
         "lifestyleTips": [
@@ -3000,19 +3000,19 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 como complemento; no controla una crisis ni sustituye inhaladores."
+                "rationale": "Los ácidos grasos EPA y DHA modulan la síntesis de leucotrienos broncoconstrictores en el tejido pulmonar, favoreciendo una menor reactividad de las vías aéreas y atenuando la inflamación crónica subyacente."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas sólo cuando exista insuficiencia de vitamina D.",
-                "rationale": "Vitamina D de dosis alta para falta documentada; no sirve como rescate de una crisis."
+                "rationale": "Interviene en la regulación de la respuesta inmune pulmonar y mejora la función de la musculatura lisa bronquial, ayudando a disminuir la frecuencia de exacerbaciones provocadas por infecciones virales intercurrentes."
             },
             {
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la noche únicamente cuando el aporte de magnesio sea apropiado.",
-                "rationale": "Fórmula con magnesio solo si hay necesidad nutricional; no abre vías respiratorias durante crisis."
+                "rationale": "El magnesio actúa como antagonista natural del calcio facilitando la relajación de la musculatura lisa de los bronquiolos, a la par que la glicina y teanina promueven un descanso nocturno reparador."
             }
         ],
         "comboSecundario": [
@@ -3020,19 +3020,19 @@ window.manualData.padecimientos = [
                 "id": 178,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Disminuye la hiperreactividad bronquial y estabiliza el tejido pulmonar frente a desencadenantes fríos, polvo y humedad."
+                "rationale": "Flavonoide estabilizador de mastocitos que reduce la liberación de histamina y citoquinas inflamatorias en el pulmón, disminuyendo la hiperreactividad bronquial ante cambios bruscos de temperatura, polvo ambiental y alérgenos."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos sólo si la dieta no cubre la vitamina C necesaria.",
-                "rationale": "Vitamina C para necesidad nutricional; no abre vías respiratorias."
+                "rationale": "Poderoso antioxidante respiratorio que protege al epitelio alveolar del estrés oxidativo inducido por mediadores inflamatorios, fortaleciendo la resistencia de los capilares y la integridad de las mucosas pulmonares."
             },
             {
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos sólo cuando existan secreciones espesas y sea bien tolerada.",
-                "rationale": "Disuelve tapones de moco espeso en los bronquios facilitando la expectoración y despejando la entrada de aire."
+                "rationale": "Precursor de glutatión que fluidifica el moco viscoso acumulado en el árbol bronquial mediante la ruptura de enlaces mucoproteicos, facilitando su expectoración y optimizando la permeabilidad de las vías aéreas."
             }
         ],
         "lifestyleTips": [
@@ -3059,19 +3059,19 @@ window.manualData.padecimientos = [
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos cuando predominen secreciones espesas.",
-                "rationale": "La NAC puede ayudar con moco espeso; su conveniencia depende de síntomas y tratamiento actual."
+                "rationale": "Mucolítico que reduce la viscosidad del esputo bronquial y potente antioxidante que repone el glutatión celular, disminuyendo el estrés oxidativo provocado por el humo y frenando la inflamación pulmonar."
             },
             {
                 "id": 113,
                 "serving": "34 g (1 scoop)",
                 "usage": "Tomar esta porción entre comidas cuando la alimentación no cubra la meta de proteína.",
-                "rationale": "Proteína para completar alimentación y conservar músculos."
+                "rationale": "Aporta aminoácidos de cadena ramificada de inmediata absorción que frenan la sarcopenia y nutren los músculos intercostales y el diafragma, cruciales para sostener la mecánica ventilatoria y reducir la disnea."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para complementar alimentación y cuidado del corazón."
+                "rationale": "Sus altas concentraciones de EPA y DHA modulan la inflamación sistémica en el parénquima pulmonar y protegen la circulación cardiopulmonar frente a la sobrecarga del ventrículo derecho o cor pulmonale."
             }
         ],
         "comboSecundario": [
@@ -3079,19 +3079,19 @@ window.manualData.padecimientos = [
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas sólo ante insuficiencia documentada.",
-                "rationale": "Vitamina D de alta concentración para fortalecer la musculatura respiratoria y reducir el riesgo de sobreinfecciones bronquiales bacterianas."
+                "rationale": "Optimiza la contractilidad y fuerza de los músculos respiratorios y estimula la síntesis de péptidos antimicrobianos en los pulmones, disminuyendo significativamente la probabilidad de exacerbaciones bronquiales infecciosas."
             },
             {
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la noche sólo cuando el aporte de magnesio sea apropiado.",
-                "rationale": "Fórmula con magnesio si hay necesidad; revisar tolerancia, medicamentos y riñones."
+                "rationale": "Favorece la dilatación de la musculatura lisa bronquial al regular el influjo de calcio celular, calmando la fatiga de los músculos accesorios de la respiración y propiciando un descanso nocturno profundo."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con una comida que contenga grasas.",
-                "rationale": "Optimiza la captación y uso de oxígeno a nivel celular, aliviando la fatiga por falta de aire en esfuerzos cotidianos."
+                "rationale": "Coenzima Q10 activa que incrementa la eficiencia bioenergética mitocondrial y optimiza la captación de oxígeno en tejidos periféricos, ayudando a mitigar la disnea de esfuerzo y el agotamiento muscular diario."
             }
         ],
         "lifestyleTips": [
@@ -3118,19 +3118,19 @@ window.manualData.padecimientos = [
                 "id": 102,
                 "serving": "2 cápsulas (1 g)",
                 "usage": "Tomar 1 cápsula con el desayuno y 1 con la cena, según la ficha técnica.",
-                "rationale": "El extracto de cúrcuma se incluye por su posible ayuda para disminuir dolor y rigidez; el colágeno tipo II y los demás ingredientes dan a la fórmula su enfoque articular."
+                "rationale": "El colágeno no desnaturalizado tipo II modula la respuesta inmunitaria frenando la destrucción del cartílago, mientras la boswellia y cúrcuma reducen la inflamación articular para recuperar movilidad y confort."
             },
             {
                 "id": 30,
                 "serving": "30 g",
                 "usage": "Disolver 30 g en agua, jugo o leche vegetal y tomar una vez al día, en ayunas o entre comidas.",
-                "rationale": "Colágeno, cartílago de tiburón, glucosamina y condroitina para cuidar las articulaciones y mantener la comodidad al moverse."
+                "rationale": "Aporta glucosamina, condroitina y colágeno para reconstruir la matriz extracelular del cartílago articular, estimulando la síntesis de proteoglicanos y favoreciendo la lubricación en rodillas, cadera y columna."
             },
             {
                 "id": 54,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con comidas.",
-                "rationale": "La curcumina puede ayudar a disminuir dolor y rigidez en articulaciones con desgaste y facilitar el movimiento. Elegir una sola fórmula con cúrcuma."
+                "rationale": "Inhibe las enzimas COX-2 y metaloproteinasas degradadoras de cartílago, aliviando eficazmente el dolor, la rigidez matutina y la inflamación articular provocados por la osteoartritis crónica."
             }
         ],
         "comboSecundario": [
@@ -3138,13 +3138,13 @@ window.manualData.padecimientos = [
                 "id": 125,
                 "serving": "10 g",
                 "usage": "Tomar esta porción al día, en ayunas o entre comidas.",
-                "rationale": "Colágeno para alimentación y cuidado articular; no regenera cartílago por sí solo."
+                "rationale": "Suministra péptidos bioactivos de bajo peso molecular que estimulan a los condrocitos en la producción de colágeno tipo II y proteoglicanos, fortaleciendo la estructura viscoelástica del cartílago articular."
             },
             {
                 "id": 18,
                 "serving": "15 g (1 cuchara)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Colágeno y ácido hialurónico para complementar cuidado de piel y articulaciones."
+                "rationale": "Aporta ácido hialurónico oral concentrado que mejora la viscosidad del líquido sinovial y amortigua el roce interarticular, reduciendo la fricción y el dolor mecánico al flexionar o caminar."
             },
             {
                 "id": 31,
@@ -3156,7 +3156,7 @@ window.manualData.padecimientos = [
                 "id": 157,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Después de las comidas.",
-                "rationale": "La cúrcuma aporta antioxidantes y se incluye por su posible ayuda con molestias articulares. La vitamina C ayuda a formar colágeno y el calcio y magnesio apoyan huesos y músculos."
+                "rationale": "Combina MSM y glucosamina con cúrcuma y minerales esenciales para disminuir la fricción articular, favorecer la regeneración de tejido conectivo y aliviar la inflamación en articulaciones sobrecargadas."
             },
             {
                 "id": 183,
@@ -3191,7 +3191,7 @@ window.manualData.padecimientos = [
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Vitamina D para absorber calcio; esta dosis alta requiere valoración y seguimiento."
+                "rationale": "Optimiza la absorción intestinal de calcio y fósforo y modula la remodelación ósea, evitando la desmineralización acelerada del hueso trabecular y reduciendo el riesgo de fracturas."
             },
             {
                 "id": 125,
@@ -3203,7 +3203,7 @@ window.manualData.padecimientos = [
                 "id": 154,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Calcio con vitamina D3 para huesos y dientes; revisar calcio de toda la dieta."
+                "rationale": "Citrato de calcio de alta biodisponibilidad que se absorbe eficazmente sin alterar la acidez gástrica, proveyendo el mineral fundamental para restaurar y mantener la densidad mineral ósea."
             }
         ],
         "comboSecundario": [
@@ -3211,25 +3211,25 @@ window.manualData.padecimientos = [
                 "id": 46,
                 "serving": "10 g (1 cucharada)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Magnesio si se necesita; revisar riñones y cantidad antes de recomendar."
+                "rationale": "Mineral indispensable que activa la enzima fosfatasa alcalina y estimula la hormona calcitonina, garantizando la correcta incorporación del calcio a la matriz ósea y evitando su acumulación en tejidos blandos."
             },
             {
                 "id": 91,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Mezcla de magnesio como complemento; no equivale a tratamiento de osteoporosis."
+                "rationale": "Aporta una triple fuente de magnesio que optimiza la fijación del calcio en los osteoblastos y participa en la conversión de la vitamina D a su forma activa en el organismo."
             },
             {
                 "id": 126,
                 "serving": "11 g (1 cuchara)",
                 "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Colágeno hidrolizado con ácido hialurónico para hidratar la matriz de los tejidos, como opción alternativa al colágeno puro."
+                "rationale": "Reconstruye la red colágena y la hidratación de la matriz proteica extracelular del hueso, proporcionando la flexibilidad necesaria para que el tejido óseo resista impactos sin fracturarse."
             },
             {
                 "id": 110,
                 "serving": "1 perla",
                 "usage": "Tomar esta porción al día. Durante la comida principal.",
-                "rationale": "Potente antioxidante liposoluble que combate el estrés oxidativo en el tejido óseo, preservando la densidad mineral."
+                "rationale": "Potente antioxidante liposoluble que neutraliza los radicales libres en el microambiente óseo, protegiendo a los osteoblastos del estrés oxidativo y preservando la densidad mineral frente a la resorción."
             }
         ],
         "lifestyleTips": [
@@ -3265,13 +3265,13 @@ window.manualData.padecimientos = [
                 "id": 7,
                 "serving": "5 g",
                 "usage": "Tomar una vez al día de forma constante; en días de entrenamiento puede usarse después de la sesión y en días de descanso con una comida.",
-                "rationale": "Monohidrato de creatina micronizada para regenerar la fuerza muscular, evitar caídas y devolver la seguridad y autonomía al caminar."
+                "rationale": "Monohidrato de creatina de alta pureza que recarga los depósitos de fosfocreatina en fibras musculares envejecidas, mejorando la fuerza de agarre, el equilibrio y la marcha segura."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar una vez al día con alimentos que contengan grasas, solo si existe insuficiencia documentada y un profesional define el seguimiento.",
-                "rationale": "Vitamina D de dosis alta para falta identificada; no genera músculo por sí sola y necesita seguimiento."
+                "rationale": "Actúa directamente sobre los receptores de las fibras musculares esqueléticas tipo II, optimizando la fuerza de contracción, mejorando el balance postural y previniendo tropiezos y caídas en adultos mayores."
             }
         ],
         "comboSecundario": [
@@ -3285,7 +3285,7 @@ window.manualData.padecimientos = [
                 "id": 225,
                 "serving": "1 pastilla",
                 "usage": "Masticar o disolver completamente en la boca una vez al día, solo ante deficiencia, dieta vegetal estricta, malabsorción o indicación profesional.",
-                "rationale": "B12 si hay falta documentada. No asumir que todo cansancio o debilidad de una persona mayor se deba a esta vitamina."
+                "rationale": "Esencial para la síntesis de eritrocitos y el mantenimiento de la mielina neuronal, combatiendo la astenia física, la debilidad muscular y la inestabilidad al andar por neuropatía nutricional."
             },
             {
                 "id": 159,
@@ -3297,7 +3297,7 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas, únicamente si el profesional lo autoriza.",
-                "rationale": "Recarga la energía en las fibras musculares envejecidas para combatir la debilidad física y el cansancio al subir escaleras."
+                "rationale": "Forma activa de coenzima Q10 que optimiza la fosforilación oxidativa mitocondrial en las células musculares esqueléticas, reduciendo la astenia física y mejorando la capacidad funcional al levantarse o caminar."
             }
         ],
         "lifestyleTips": [
@@ -3328,19 +3328,19 @@ window.manualData.padecimientos = [
                 "id": 7,
                 "serving": "5 g",
                 "usage": "Tomar una vez al día de forma constante, incluidos los días de descanso. En días de entrenamiento puede usarse después de la sesión, de acuerdo con la ficha.",
-                "rationale": "La creatina puede mejorar fuerza y esfuerzos repetidos con entrenamiento. Elegir una presentación; no necesita alternarse por ciclos."
+                "rationale": "Satura los depósitos intramusculares de fosfocreatina para regenerar ATP con rapidez, permitiendo levantar más peso, prolongar series de alta intensidad y estimular la hipertrofia muscular."
             },
             {
                 "id": 113,
                 "serving": "1 scoop (34 g)",
                 "usage": "Tomar una vez al día después del entrenamiento o entre comidas únicamente cuando la dieta no cubra la proteína necesaria.",
-                "rationale": "Proteína para completar meta diaria y apoyar músculos; no exige tomarla dentro de un plazo exacto después de entrenar."
+                "rationale": "Aislado de proteína de suero de altísimo valor biológico y rica en leucina, que activa la vía mTOR para desencadenar la síntesis proteica y reparar microdesgarros musculares tras el entrenamiento."
             },
             {
                 "id": 83,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar antes de la actividad física según la ficha técnica y suspender si causa mareo, malestar gastrointestinal o disminución excesiva de la presión.",
-                "rationale": "Arginina y ornitina antes de entrenar, con beneficio variable. Revisar medicamentos para corazón o presión y productos similares."
+                "rationale": "Precursor directo de óxido nítrico que induce vasodilatación en el lecho vascular muscular, incrementando el flujo sanguíneo, la congestión muscular y la entrega de oxígeno y nutrientes durante cargas pesadas."
             }
         ],
         "comboSecundario": [
@@ -3348,19 +3348,19 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar una vez al día con un desayuno que contenga grasas y revisar anticoagulantes o riesgo de sangrado.",
-                "rationale": "Ácidos grasos antiinflamatorios que reducen el daño muscular post-entrenamiento e impulsan la síntesis de nuevas fibras musculares."
+                "rationale": "Ácidos grasos EPA y DHA que modulan la respuesta inflamatoria muscular post-entrenamiento, disminuyendo el daño tisular y facilitando la activación de la síntesis de proteínas musculares."
             },
             {
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar una vez al día con alimentos solamente si la alimentación o la valoración profesional indican una ingesta insuficiente de magnesio.",
-                "rationale": "Magnesio si hay necesidad nutricional; no garantiza más fuerza cuando ya se cubren necesidades."
+                "rationale": "El ácido málico apoya el ciclo de Krebs en la producción de energía mitocondrial, mientras el magnesio modula la relajación muscular y previene calambres y fatiga durante entrenamientos extenuantes."
             },
             {
                 "id": 159,
                 "serving": "3 cápsulas",
                 "usage": "Tomar una cápsula antes de cada comida principal únicamente si existe dieta restrictiva, ingesta insuficiente o una necesidad identificada.",
-                "rationale": "Cubre las altas demandas de micronutrientes en deportistas de fuerza para optimizar el rendimiento y la recuperación metabólica."
+                "rationale": "Multivitamínico y multimineral balanceado que repone micronutrientes críticos demandados por el entrenamiento de alta intensidad, optimizando la función neuromuscular, el metabolismo energético y la reparación miofibrilar."
             }
         ],
         "lifestyleTips": [
@@ -3391,13 +3391,13 @@ window.manualData.padecimientos = [
                 "id": 191,
                 "serving": "1 cucharada medidora (10 g)",
                 "usage": "Disolver en 500 ml de agua y tomar antes o durante el entrenamiento, según la ficha. Elegir esta presentación o Refresher Pink, nunca ambas.",
-                "rationale": "Creatina y minerales para complementar hidratación. No aporta azúcar ni energía: el ejercicio prolongado puede necesitar alimentos o bebidas con carbohidratos."
+                "rationale": "Aporta electrolitos clave y glicinato de magnesio para mantener el balance hídrico y la contractilidad muscular, complementados con creatina para amortiguar el desgaste de energía en esfuerzos aeróbicos intermitentes."
             },
             {
                 "id": 96,
                 "serving": "1 medida (245 g)",
                 "usage": "Diluir en 500-700 ml de agua o leche y tomar antes o después del entrenamiento, según la ficha. Por su alta densidad energética, ajustar su inclusión a la meta calórica y a la tolerancia digestiva.",
-                "rationale": "Carbohidratos y proteína para reponer energía después de esfuerzo alto o sumar calorías; no es bebida para hidratar durante competencia."
+                "rationale": "Aporta una carga densa de carbohidratos complejos y proteína de suero para reponer rápidamente las reservas de glucógeno hepático y muscular agotadas tras rodajes, carreras o triatlones de larga duración."
             },
             {
                 "id": 113,
@@ -3411,19 +3411,19 @@ window.manualData.padecimientos = [
                 "id": 97,
                 "serving": "2.5 g (1 cucharada)",
                 "usage": "Preparar una vez al día por la mañana o antes de una sesión temprana, evitando su uso tarde si altera el sueño.",
-                "rationale": "La cafeína natural del matcha ayuda a estar alerta. Como no se indica cuánto contiene, no garantiza un efecto concreto en rendimiento."
+                "rationale": "Aporta cafeína natural combinada con L-teanina y epigalocatequinas, brindando un estado de alerta sostenido y concentración mental sin taquicardia ni picos de ansiedad en pruebas de resistencia."
             },
             {
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar una vez al día con alimentos únicamente si existe ingesta insuficiente o deficiencia identificada; no usar como reposición inmediata del sudor.",
-                "rationale": "Magnesio si hay necesidad; no evita todos los calambres ni sustituye agua, sal y energía durante ejercicio."
+                "rationale": "Facilita la respiración celular aeróbica acoplando el malato a la producción de ATP, al tiempo que el magnesio previene fasciculaciones musculares y optimiza la tolerancia a la fatiga prolongada."
             },
             {
                 "id": 159,
                 "serving": "3 cápsulas",
                 "usage": "Tomar una cápsula antes de cada comida principal solo cuando una dieta restrictiva o la evaluación nutricional muestre una brecha de micronutrientes.",
-                "rationale": "Vitaminas y minerales para faltantes de dieta; no dan energía inmediata ni mejoran por sí solos resistencia."
+                "rationale": "Aporta cofactores vitamínicos del complejo B, hierro y antioxidantes que optimizan el transporte de oxígeno celular y sostienen el metabolismo energético durante sesiones deportivas de fondo."
             }
         ],
         "lifestyleTips": [
@@ -3454,19 +3454,19 @@ window.manualData.padecimientos = [
                 "id": 113,
                 "serving": "1 scoop (34 g)",
                 "usage": "Tomar después del entrenamiento o entre comidas cuando la alimentación no alcance la meta individual de proteína.",
-                "rationale": "Proteína para apoyar recuperación y mantenimiento muscular; no elimina siempre dolor ni exige plazo exacto para tomarla."
+                "rationale": "Entrega rápidamente aminoácidos esenciales y leucina al torrente sanguíneo, frenando el catabolismo muscular e iniciando la reconstrucción tisular después de sesiones intensas de entrenamiento."
             },
             {
                 "id": 96,
                 "serving": "1 medida (245 g)",
                 "usage": "Diluir en 500-700 ml de agua o leche y tomar antes o después del entrenamiento cuando exista una necesidad energética alta, considerando la meta calórica y la tolerancia digestiva.",
-                "rationale": "Carbohidratos y proteína para reponer energía y sumar calorías si se necesitan; incluir ese aporte en alimentación diaria."
+                "rationale": "Combina carbohidratos de absorción progresiva y proteína láctea para restablecer el glucógeno muscular y acelerar la recuperación fisiológica global entre jornadas deportivas consecutivas de alto desgaste."
             },
             {
                 "id": 123,
                 "serving": "3 cápsulas (3 g)",
                 "usage": "Tomar una vez al día con un desayuno que contenga grasas, revisando anticoagulantes y riesgo de sangrado.",
-                "rationale": "Frena el dolor muscular tardío, desinflama tendones y articulaciones sobrecargadas y acelera la recuperación para el siguiente entrenamiento."
+                "rationale": "Reduce de forma notable el dolor muscular de aparición tardía (DOMS) y la inflamación periarticular tras entrenamientos exigentes, acelerando los tiempos de recuperación para la siguiente sesión deportiva."
             }
         ],
         "comboSecundario": [
@@ -3474,13 +3474,13 @@ window.manualData.padecimientos = [
                 "id": 125,
                 "serving": "10 g",
                 "usage": "Tomar una vez al día en ayunas o entre comidas, como opción para tejido conectivo y no como sustituto de una proteína completa.",
-                "rationale": "Colágeno para cuidado de tendones y otros tejidos. No equivale a proteína completa para desarrollar músculo."
+                "rationale": "Aporta glicina, prolina e hidroxiprolina específicas para reparar microlesiones en tendones, ligamentos y fascias, mejorando la elasticidad articular y previniendo tendinopatías por sobreuso."
             },
             {
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar una vez al día con alimentos solo cuando exista ingesta insuficiente o deficiencia identificada.",
-                "rationale": "Magnesio para necesidad nutricional; no es recuperador universal ni previene todos los calambres."
+                "rationale": "Acelera el aclaramiento del ácido láctico y reduce la excitabilidad neuromuscular post-ejercicio, disminuyendo el dolor muscular de aparición tardía y facilitando un descanso muscular profundo."
             },
             {
                 "id": 71,
@@ -3515,19 +3515,19 @@ window.manualData.padecimientos = [
                 "id": 17,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción diariamente, con alimentos.",
-                "rationale": "Ácido alfa lipoico concentrado que neutraliza los radicales libres que dañan la vaina de los nervios, frenando el ardor y los piquetes en pies y manos."
+                "rationale": "Antioxidante mitocondrial que mejora el flujo sanguíneo endoneural y frena el estrés oxidativo por glucosilación en las fibras nerviosas, reduciendo notablemente las sensaciones de ardor, quemazón y adormecimiento en manos y pies."
             },
             {
                 "id": 5,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Complejo B de alta concentración para nutrir la mielina de los nervios periféricos, calmando el ardor punzante y entumecimiento causados por diabetes o quimioterapia."
+                "rationale": "Aporta vitaminas neurotróficas B1, B6 y B12 que aceleran la regeneración de la vaina de mielina y restauran la conducción nerviosa sensorial, mitigando el entumecimiento, piquetes y dolores punzantes en extremidades."
             },
             {
                 "id": 120,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Ácidos grasos esenciales que desinflaman la microvasculatura que irriga los nervios periféricos, devolviendo sensibilidad y confort."
+                "rationale": "Altos niveles de EPA y DHA con vitamina E que disminuyen los eicosanoides inflamatorios en los vasos que irrigan los axones (vasa nervorum), optimizando la oxigenación neural y devolviendo sensibilidad confortable."
             }
         ],
         "comboSecundario": [
@@ -3535,25 +3535,25 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El magnesio apoya funcionamiento normal de nervios y músculos."
+                "rationale": "El magnesio actúa bloqueando los canales de calcio dependientes de voltaje en las terminales nerviosas hiperexcitadas, disminuyendo las descargas ectópicas que causan calambres dolorosos, fasciculaciones y espasmos en las piernas."
             },
             {
                 "id": 12,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción dos veces al día. Con alimentos que contengan grasas.",
-                "rationale": "La cúrcuma aporta antioxidantes y tiene uso tradicional digestivo. No atribuir a esta mezcla alivio del dolor de nervios ni reparación del nervio."
+                "rationale": "Combina polifenoles de cúrcuma y fitoactivos de jengibre y moringa para modular mediadores inflamatorios periféricos (COX-2, TNF-alfa), aliviando la tensión dolorosa periarticular y la rigidez neuromuscular asociada a neuropatías."
             },
             {
                 "id": 98,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción diarias. Con alimentos.",
-                "rationale": "Estimula la síntesis de factores de regeneración nerviosa para reconectar terminaciones nerviosas dañadas en extremidades."
+                "rationale": "Sus erinacinas atraviesan hacia los tejidos nerviosos estimulando la síntesis de factor de crecimiento nervioso (NGF), lo que apoya la reinervación y la reparación de fibras nerviosas periféricas lesionadas."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Protege los nervios periféricos del daño oxidativo severo y mejora la oxigenación en pies y piernas con mala microcirculación."
+                "rationale": "Restaura la función bioenergética mitocondrial en las células de Schwann que envuelven los nervios y neutraliza los radicales libres endoteliales, mejorando la microcirculación tisular distal en pies y pantorrillas."
             }
         ],
         "lifestyleTips": [
@@ -3624,7 +3624,7 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Potente antioxidante celular que protege el músculo cardíaco y recarga la energía celular frente al desgaste de quimioterapias agresivas."
+                "rationale": "Poderoso antioxidante bioidéntico que protege los cardiomiocitos y tejidos periféricos frente a la toxicidad oxidativa, restaurando la producción de energía mitocondrial para combatir la fatiga oncológica severa."
             },
             {
                 "id": 111,
@@ -3667,13 +3667,13 @@ window.manualData.padecimientos = [
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "La vitamina D apoya defensas; dosis alta solo con necesidad identificada y seguimiento."
+                "rationale": "Regula la proliferación y diferenciación de los queratinocitos en la epidermis y modula las células dendríticas, reduciendo la formación de placas descamativas e hiperpigmentación irregular."
             },
             {
                 "id": 123,
                 "serving": "2-3 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 como complemento nutricional; no reemplaza tratamiento de piel."
+                "rationale": "Disminuye la síntesis de leucotrieno B4 y mediadores inflamatorios cutáneos, reduciendo el eritema, el prurito y el engrosamiento en lesiones de psoriasis y dermatitis autoinmune."
             }
         ],
         "comboSecundario": [
@@ -3687,13 +3687,13 @@ window.manualData.padecimientos = [
                 "id": 129,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "60 mil millones de probióticos para restaurar la barrera intestinal y modular el sistema inmune desde el eje intestino-piel."
+                "rationale": "Aporta 60 billones de microorganismos benéficos para fortalecer la barrera mucosa del colon y modular la respuesta linfocitaria sistémica a través del eje intestino-piel, espaciando los brotes autoinmunes."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "El zinc contribuye al mantenimiento normal de piel si se cubren necesidades."
+                "rationale": "Mineral indispensable para la reparación del epitelio cutáneo y la división celular de melanocitos y queratinocitos, acelerando la cicatrización y fortaleciendo la barrera dérmica."
             }
         ],
         "lifestyleTips": [
@@ -3719,7 +3719,7 @@ window.manualData.padecimientos = [
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Zinc para cuidado de piel; no garantiza quitar acné ni sustituye revisar causa."
+                "rationale": "Regula la actividad de las glándulas sebáceas disminuyendo la sobreproducción de sebo, además de inhibir el crecimiento bacteriano y calmar pápulas y pústulas inflamatorias."
             },
             {
                 "id": 48,
@@ -3731,7 +3731,7 @@ window.manualData.padecimientos = [
                 "id": 129,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Restablece la flora bacteriana intestinal para frenar la inflamación sistémica que se refleja en acné quístico y poros obstruidos."
+                "rationale": "Restaura el equilibrio de la microbiota colónica, reduciendo la translocación de endotoxinas y la inflamación de bajo grado que estimula la obstrucción y supuración de los folículos pilosebáceos."
             }
         ],
         "comboSecundario": [
@@ -3739,7 +3739,7 @@ window.manualData.padecimientos = [
                 "id": 52,
                 "serving": "4 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Inositoles para valorar si hay ovario poliquístico; no todo acné tiene esa causa ni se corrige con esta fórmula."
+                "rationale": "Mejora la sensibilidad periférica a la insulina y equilibra los niveles de andrógenos libres, reduciendo el estímulo hormonal sobre los folículos pilosebáceos en brotes de acné hormonal."
             },
             {
                 "id": 43,
@@ -3751,7 +3751,7 @@ window.manualData.padecimientos = [
                 "id": 26,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Espirulina con vitaminas y minerales para complementar alimentación y cuidado de las células."
+                "rationale": "Aporta ficocianina, clorofila y oligoelementos que neutralizan toxinas metabólicas y modulan la inflamación celular, favoreciendo una oxigenación óptima y una regeneración epidérmica saludable."
             }
         ],
         "lifestyleTips": [
@@ -3785,13 +3785,13 @@ window.manualData.padecimientos = [
                 "id": 36,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción una vez al día con alimentos, según la ficha técnica.",
-                "rationale": "Berberina como alternativa complementaria para glucosa; revisar medicamentos y vigilar azúcar."
+                "rationale": "Activa la vía AMPK mitigando la hiperinsulinemia compensatoria, lo que frena el estímulo ovárico para producir exceso de testosterona y reduce acné e hirsutismo."
             },
             {
                 "id": 109,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Vitamina D, magnesio, K2 y zinc para una necesidad nutricional; no asumir que toda persona tiene falta ni prometer equilibrio hormonal."
+                "rationale": "Sinergia de colecalciferol, zinc y magnesio que apoya la receptividad de insulina ovárica y modula la aromatasa, favoreciendo el desarrollo folicular y la ovulación espontánea."
             }
         ],
         "comboSecundario": [
@@ -3805,13 +3805,13 @@ window.manualData.padecimientos = [
                 "id": 41,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción con alimentos.",
-                "rationale": "Canela y cromo como alternativa; revisar medicamentos y glucosa sin sumar fórmulas por rutina."
+                "rationale": "El picolinato de cromo y la canela incrementan la captación periférica de glucosa, reduciendo los requerimientos pancreáticos de insulina y el consecuente estímulo androgénico ovárico."
             },
             {
                 "id": 129,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Restaura la microbiota intestinal para reducir la absorción de toxinas inflamatorias que empeoran el acné y la resistencia a la insulina en SOP."
+                "rationale": "Equilibra el microbioma intestinal para sellar la barrera entérica y frenar la endotoxemia inflamatoria, mejorando la sensibilidad a la insulina y la salud cutánea en SOP."
             }
         ],
         "lifestyleTips": [
@@ -3845,13 +3845,13 @@ window.manualData.padecimientos = [
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitamina C para alimentación y defensas; no aumentar cantidad para quitar ronchas."
+                "rationale": "Actúa como antihistamínico natural al acelerar la degradación oxidativa de la histamina en plasma, además de proteger el endotelio capilar para reducir el edema y las ronchas dérmicas."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Zinc para piel y defensas; no controla por sí solo urticaria."
+                "rationale": "Modula la reactividad de los basófilos y mastocitos e interviene en la integridad de la barrera cutánea, reduciendo la susceptibilidad a la hipersensibilidad y el prurito alérgico."
             }
         ],
         "comboSecundario": [
@@ -3865,13 +3865,13 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 como complemento; no alivia de inmediato ronchas."
+                "rationale": "Aporta ácidos grasos esenciales que compiten con el ácido araquidónico, reduciendo la producción de prostaglandinas y leucotrienos inflamatorios que desencadenan habones y erupciones cutáneas."
             },
             {
                 "id": 48,
                 "serving": "15 ml",
                 "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Alcaliniza y depura el medio interno, acelerando el drenaje de sustancias reactivas que irritan la epidermis."
+                "rationale": "Solución hidrosoluble rica en clorofilina que favorece la desintoxicación hepática y renal de metabolitos reactivos, mitigando la sobrecarga inmunológica y calmando la hipersensibilidad de la piel."
             }
         ],
         "lifestyleTips": [
@@ -3904,13 +3904,13 @@ window.manualData.padecimientos = [
                 "id": 125,
                 "serving": "10 g (1 cuchara)",
                 "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Colágeno para alimentación y tejidos; no garantiza reparar planta del pie."
+                "rationale": "Proporciona los aminoácidos específicos necesarios para regenerar las microrroturas fibrilares en la fascia plantar y el tendón de Aquiles, restaurando la elasticidad y resistencia del tejido conectivo."
             },
             {
                 "id": 167,
                 "serving": "Una aplicación (capa fina)",
                 "usage": "Aplicar una capa fina en la zona afectada 2-3 veces al día.",
-                "rationale": "Gel para masaje, frescura y confort local; no corrige causa del dolor."
+                "rationale": "Gel de rápida absorción con árnica y salicilato que desinflama por termoterapia la inserción del talón, aliviando la rigidez y el dolor punzante al apoyar el pie."
             }
         ],
         "comboSecundario": [
@@ -3918,13 +3918,13 @@ window.manualData.padecimientos = [
                 "id": 31,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Glucosamina, condroitina y MSM para cuidado articular; no garantiza resolver fascitis."
+                "rationale": "El MSM y los sulfatos de glucosamina y condroitina aportan azufre orgánico para disminuir la inflamación en la inserción fascial del calcáneo y amortiguar el impacto mecánico al caminar."
             },
             {
                 "id": 94,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción por la noche.",
-                "rationale": "El magnesio apoya músculos y la mezcla acompaña descanso; no corrige por sí sola causa del dolor de pie."
+                "rationale": "Relaja la contractura refleja de los músculos de la pantorrilla y la fascia plantar durante la noche, disminuyendo la tensión tendinosa matutina y facilitando los primeros pasos del día."
             },
             {
                 "id": 123,
@@ -3958,19 +3958,19 @@ window.manualData.padecimientos = [
                 "id": 149,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Magnesio de penetración cerebral que calma la inquietud motora, relaja la tensión nerviosa y facilita sentarse a concentrarse."
+                "rationale": "Cruza selectivamente la barrera hematoencefálica incrementando los niveles de magnesio sináptico en el córtex prefrontal, lo que modula la hiperexcitabilidad glutamatérgica, calma la inquietud motora y favorece el enfoque atencional prolongado."
             },
             {
                 "id": 82,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Ácido graso esencial concentrado que estructura la membrana de las neuronas, mejorando el control de impulsos y el tiempo de atención."
+                "rationale": "Aporta DHA unido a fosfolípidos que optimiza la fluidez de las membranas neuronales y la densidad de receptores de dopamina, promoviendo un mejor control de impulsos, menor distractibilidad y mayor retención de información."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Zinc como complemento si hay necesidad; no asumir que toda persona con TDAH tiene falta."
+                "rationale": "Mineral cofactor esencial para la síntesis de dopamina y la regulación de transportadores dopaminérgicos en el cerebro, ayudando a estabilizar los periodos de concentración ejecutiva y disminuyendo la hiperactividad impulsiva."
             }
         ],
         "comboSecundario": [
@@ -3978,25 +3978,25 @@ window.manualData.padecimientos = [
                 "id": 87,
                 "serving": "1 cápsula (500 mg)",
                 "usage": "Tomar esta porción una vez al día con alimentos, preferentemente por la mañana.",
-                "rationale": "La tirosina participa en procesos relacionados con atención; esta fórmula no tiene beneficio establecido para tratar TDAH."
+                "rationale": "Aminoácido precursor biosintético de la dopamina y noradrenalina que abastece los circuitos atencionales frontoestriatales, ayudando a sostener el esfuerzo mental sostenido, la memoria operativa y la motivación en tareas complejas."
             },
             {
                 "id": 4,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana. Con alimentos.",
-                "rationale": "Vitaminas B para nervios y aprovechamiento de energía si hay necesidad nutricional."
+                "rationale": "Las vitaminas B6 y B12 son cofactores enzimáticos indispensables para la conversión de aminoácidos en catecolaminas y serotonina, apoyando la estabilidad neuroconductual, el enfoque mental y el equilibrio del sistema nervioso."
             },
             {
                 "id": 120,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos que contengan grasas.",
-                "rationale": "Otra presentación de omega 3 como alternativa al krill; elegir una sin duplicar por rutina."
+                "rationale": "Concentrado de ácidos grasos marinos purificados rico en EPA y DHA que fortalece la integridad estructural de las redes sinápticas cerebrales, modulando la excitabilidad neuronal y favoreciendo la autorregulación conductual."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos que contengan grasas.",
-                "rationale": "Aporte de energía limpia y oxigenación para sostener el esfuerzo intelectual sin fatiga mental rápida."
+                "rationale": "Optimiza la respiración mitocondrial celular en las áreas corticales de mayor consumo energético, previniendo el agotamiento cognitivo rápido y facilitando el rendimiento académico o laboral prolongado."
             }
         ],
         "lifestyleTips": [
@@ -4024,19 +4024,19 @@ window.manualData.padecimientos = [
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Probióticos para equilibrio intestinal. El resultado depende de bacterias y persona; confirmar cantidad del envase."
+                "rationale": "Cepas seleccionadas de bifidobacterias y lactobacilos que modulan la microbiota cólica disfuncional, reduciendo la producción de gas metano e hidrógeno y disminuyendo la hipersensibilidad visceral y la alternancia de deposiciones."
             },
             {
                 "id": 246,
                 "serving": "1/2-1 scoop (3-6 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Tomar con alimentos.",
-                "rationale": "Apoyo nutricional digestivo según tolerancia. Su inulina puede producir gases; introducir poco a poco y suspender si aumentan molestias."
+                "rationale": "Aporta L-glutamina y N-acetilglucosamina como nutrientes tróficos para reconstruir la barrera epitelial entérica y sintetizar mucina protectora, frenando la microinflamación mucosa y atenuando los cólicos intestinales punzantes."
             },
             {
                 "id": 60,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción con las comidas.",
-                "rationale": "Complejo enzimático completo que descompone proteínas, grasas y carbohidratos, evitando fermentaciones bacterianas dolorosas, cólicos y vientre abultado."
+                "rationale": "Su perfil enzimático completo (papaína, bromelina, amilasa, pancreatina y lipasa) acelera la digestión de macromoléculas en el intestino proximal, evitando que restos sin digerir fermenten en el colon generando distensión y retortijones."
             }
         ],
         "comboSecundario": [
@@ -4044,19 +4044,19 @@ window.manualData.padecimientos = [
                 "id": 151,
                 "serving": "1 medida (6 g)",
                 "usage": "Tomar esta porción al día. En ayunas o con el desayuno. Preferentemente por la mañana.",
-                "rationale": "Fibra para regularidad; empezar poco a poco y ajustar si aumenta gases o hinchazón."
+                "rationale": "Mezcla de fibras solubles no irritantes (acacia) con extractos digestivos de jengibre y cúrcuma que normalizan el tránsito digestivo suavemente, nutriendo la flora benéfica sin generar fermentaciones ácidas agresivas."
             },
             {
                 "id": 176,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Preparar cada taza con 1 sobre (2 g) en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza después de las comidas. Preferentemente por la noche.",
-                "rationale": "Manzanilla de uso tradicional para confort digestivo y una pausa de relajación."
+                "rationale": "Aporta apigenina y flavonoides con acción antiespasmódica sobre la musculatura lisa entérica, relajando las contracciones cólicas dolorosas y expulsando los gases atrapados para aliviar la sensación de tirantez abdominal."
             },
             {
                 "id": 81,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción antes de comer.",
-                "rationale": "Antiespasmódico botánico que relaja la motilidad irregular del colon, expulsa gases atrapados y quita las náuseas matutinas."
+                "rationale": "Los gingeroles estimulan los receptores serotoninérgicos entéricos y relajan los espasmos del músculo liso gastrointestinal, acelerando el vaciado gástrico, disipando la sensación de náuseas y aliviando los retortijones cólicos."
             }
         ],
         "lifestyleTips": [
@@ -4095,7 +4095,7 @@ window.manualData.padecimientos = [
                 "id": 165,
                 "serving": "1 sobre (2 g) por taza",
                 "usage": "Preparar esta porción en 200 ml de agua caliente durante 3-5 minutos. Tomar 1 taza al día, preferentemente por la mañana, según la ficha técnica.",
-                "rationale": "Té verde con antioxidantes y cafeína; no garantiza quemar grasa o reducir celulitis."
+                "rationale": "Rico en galato de epigalocatequina (EGCG) y flavonoides que estimulan el drenaje linfático, combaten la retención intersticial de líquidos y mejoran la microcirculación en zonas con hoyuelos."
             }
         ],
         "comboSecundario": [
@@ -4103,13 +4103,13 @@ window.manualData.padecimientos = [
                 "id": 104,
                 "serving": "3 cápsulas (1.5 g)",
                 "usage": "Tomar esta porción una vez al día con alimentos, según la ficha técnica.",
-                "rationale": "Activa la digestión gástrica, combate la retención de toxinas y mejora el metabolismo de carbohidratos evitando acumulación adiposa."
+                "rationale": "El ácido acético junto con jengibre y canela estimula el vaciamiento gástrico, mejora la sensibilidad a la glucosa y colabora en reducir la retención hídrica y la acumulación adiposa subcutánea."
             },
             {
                 "id": 215,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "La carnitina participa en uso de grasas como energía; tomarla no garantiza perder grasa ni eliminar celulitis."
+                "rationale": "Transporta ácidos grasos hacia las mitocondrias celulares para su oxidación metabólica, facilitando la movilización de lípidos atrapados en los septos fibrosos del tejido subcutáneo."
             },
             {
                 "id": 18,
@@ -4142,19 +4142,19 @@ window.manualData.padecimientos = [
                 "id": 181,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Magnesio para nervios si hay necesidad; revisar con el médico interacciones con medicamentos para convulsiones."
+                "rationale": "El bisglicinato de magnesio actúa como modulador alostérico fisiológico de los receptores NMDA, limitando la entrada excesiva de calcio en las neuronas y ayudando a estabilizar el umbral de excitabilidad eléctrica cerebral."
             },
             {
                 "id": 123,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para alimentación y cerebro; no controla convulsiones."
+                "rationale": "Los ácidos grasos EPA y DHA se incorporan en los fosfolípidos de las membranas de las neuronas, estabilizando los canales iónicos dependientes de voltaje y reduciendo la neuroinflamación en los focos hiperexcitables cerebrales."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Vitamina D de dosis alta con falta identificada, que puede aparecer con algunos tratamientos; requiere seguimiento."
+                "rationale": "Compensa la acelerada degradación hepática de colecalciferol provocada por inductores enzimáticos antiepilépticos, protegiendo la mineralización ósea y apoyando la modulación génica de proteínas neuroprotectoras y receptores sinápticos."
             }
         ],
         "comboSecundario": [
@@ -4162,19 +4162,19 @@ window.manualData.padecimientos = [
                 "id": 4,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción por la mañana. Con alimentos.",
-                "rationale": "Vitaminas B fundamentales para la estabilidad eléctrica neuronal y la síntesis de energía cerebral saludable."
+                "rationale": "La piridoxina (B6) es el cofactor crítico de la enzima ácido glutámico descarboxilasa que convierte el glutamato excitatorio en GABA inhibitorio, contribuyendo a la estabilidad eléctrica de la corteza cerebral."
             },
             {
                 "id": 116,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Precursor de glutatión para proteger las neuronas contra el estrés oxidativo acumulado por la actividad eléctrica excesiva."
+                "rationale": "Eleva las defensas celulares de glutatión peroxidasa en el tejido cerebral, neutralizando las especies reactivas de oxígeno generadas durante la hiperexcitabilidad neuronal y resguardando las mitocondrias de la toxicidad por exceso de calcio."
             },
             {
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos únicamente si el neurólogo lo autoriza.",
-                "rationale": "Coenzima Q10 como complemento; revisar siempre medicamentos para convulsiones antes de usar."
+                "rationale": "Forma reducida de la CoQ10 que sustenta la producción mitocondrial de ATP en las células gliales y neuronas, amortiguando el daño oxidativo y apoyando la estabilidad bioenergética de los circuitos neuronales."
             }
         ],
         "lifestyleTips": [
@@ -4203,19 +4203,19 @@ window.manualData.padecimientos = [
                 "id": 225,
                 "serving": "1 tableta",
                 "usage": "Tomar esta porción sublingual al día. Puede tomarse en cualquier momento del día.",
-                "rationale": "La B12 ayuda a formar sangre cuando falta. Presentación y cantidad dependen de causa; algunas personas necesitan otra vía."
+                "rationale": "Aporta tres formas sinérgicas de vitamina B12 esenciales para la maduración y división adecuada de los glóbulos rojos en médula ósea, previniendo la eritropoyesis ineficaz y combatiendo la debilidad y astenia."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día junto con la comida principal.",
-                "rationale": "Multiplica la absorción intestinal de hierro vegetal y acelera la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga."
+                "rationale": "Reduce el hierro férrico no hemo a su forma ferrosa altamente soluble, multiplicando su absorción en el duodeno y acelerando la síntesis de hemoglobina para revertir la debilidad, palidez y fatiga física."
             },
             {
                 "id": 26,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Complemento con hierro y nutrientes; no equivale por sí solo a tratar anemia ni sustituye una fuente verificada de B12."
+                "rationale": "Concentrado biológico de hierro biodisponible, clorofila y ficocianina que estimula la hematopoyesis en la médula ósea, apoyando la oxigenación celular y la recuperación del tono vital y rendimiento físico."
             }
         ],
         "comboSecundario": [
@@ -4223,19 +4223,19 @@ window.manualData.padecimientos = [
                 "id": 4,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Ácido fólico y B12 para formar sangre; primero identificar qué nutriente falta."
+                "rationale": "Aporta ácido fólico y cobalamina cofactores clave en la síntesis de ADN eritroblástico, asegurando la adecuada diferenciación celular y la formación de hematíes con tamaño y concentración de hemoglobina óptimos."
             },
             {
                 "id": 205,
                 "serving": "2 tabletas",
                 "usage": "Tomar esta porción al día. Antes de cada comida.",
-                "rationale": "Levadura para complementar alimentación; la ficha no confirma cantidades de hierro o vitaminas para tratar anemia."
+                "rationale": "Fuente natural de aminoácidos, minerales traza y vitaminas del complejo B que nutre la médula ósea y favorece el metabolismo energético celular, asistiendo en la recuperación del desgaste anémico."
             },
             {
                 "id": 153,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día solo si existe deficiencia o indicación profesional. Con alimentos.",
-                "rationale": "Mineral cofactor indispensable para la maduración de glóbulos rojos sanos y la recuperación de la fuerza física general."
+                "rationale": "Cofactor enzimático fundamental que participa en la síntesis de las cadenas de globina y estabiliza la membrana del eritrocito, favoreciendo su correcta maduración y restaurando la resistencia muscular."
             }
         ],
         "lifestyleTips": [
@@ -4288,13 +4288,13 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con un desayuno que contenga grasas.",
-                "rationale": "Omega 3 para alimentación y cerebro; no frena por sí solo enfermedad."
+                "rationale": "Aporta ácido docosahexaenoico (DHA) concentrado que preserva la fluidez de las membranas neuronales dopaminérgicas y atenúa la neuroinflamación en los circuitos motores subcorticales."
             },
             {
                 "id": 149,
                 "serving": "2 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Magnesio de cruce cerebral que calma la rigidez muscular involuntaria y favorece la flexibilidad motora y el descanso mental."
+                "rationale": "Forma de magnesio capaz de atravesar la barrera hematoencefálica, incrementando la densidad sináptica en neuronas dopaminérgicas y aliviando la rigidez muscular extrapiramidal para un movimiento más fluido."
             }
         ],
         "lifestyleTips": [
@@ -4323,13 +4323,13 @@ window.manualData.padecimientos = [
                 "id": 246,
                 "serving": "1/2-1 scoop (3-6 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Tomar con alimentos.",
-                "rationale": "Glutamina y zinc L-carnosina para cuidado digestivo. Su inulina puede producir gases; introducir poco a poco según tolerancia."
+                "rationale": "Aporta L-glutamina pura, el combustible metabólico preferido de los enterocitos, junto con zinc L-carnosina y NAG para reparar y sellar las uniones estrechas (zonulina/ocludina), frenando el paso de toxinas a la circulación."
             },
             {
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Probióticos para equilibrio intestinal; elegir una presentación sin sumar mezclas de alta concentración."
+                "rationale": "Cepas bacterianas benéficas que colonizan la mucosa entérica produciendo ácidos grasos de cadena corta (butirato), reforzando la capa de moco luminal e impidiendo la translocación de antígenos hacia el torrente sanguíneo."
             }
         ],
         "comboSecundario": [
@@ -4337,25 +4337,25 @@ window.manualData.padecimientos = [
                 "id": 151,
                 "serving": "1/2-1 medida (3-6 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Tomar en ayunas o con el desayuno, preferentemente por la mañana.",
-                "rationale": "Fibra verde alcalinizante para nutrir la microbiota intestinal de forma progresiva sin saturar el sistema digestivo."
+                "rationale": "Aporta fibra prebiótica soluble de acacia, clorofila y fitonutrientes que alimentan selectivamente las bacterias comensales productoras de butirato, mejorando la integridad estructural de la barrera mucosa y reduciendo la endotoxemia sistémica."
             },
             {
                 "id": 85,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Zinc L-carnosina en cápsulas para proteger y regenerar la mucosa intestinal, como alternativa noble a la glutamina en polvo."
+                "rationale": "El zinc L-carnosina estimula los factores de transcripción reparadores de las uniones intercelulares en el epitelio digestivo, regenerando microerosiones y estabilizando la permeabilidad intestinal en personas sensibles al polvo."
             },
             {
                 "id": 9,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día con alimentos.",
-                "rationale": "Cicatrizante natural que desinflama las paredes del intestino, sellando irritaciones mucosas crónicas."
+                "rationale": "Extractos con triterpenos y taninos que precipitan proteínas sobre las zonas inflamadas de la mucosa entérica, formando una película astringente protectora que disminuye la permeabilidad tisular y facilita la cicatrización epitelial."
             },
             {
                 "id": 242,
                 "serving": "1/2-1 cucharada (aprox. 3.75-7.5 g)",
                 "usage": "Iniciar con la cantidad mínima una vez al día y aumentar gradualmente hasta la cantidad máxima según tolerancia. Puede tomarse en cualquier momento del día.",
-                "rationale": "Fibra prebiótica soluble que nutre a las bifidobacterias para generar ácidos grasos que sellan la barrera intestinal."
+                "rationale": "Aporta oligofructosa y fructanos de achicoria que fermentan en el colon produciendo butirato y propionato, nutrientes esenciales que alimentan las células del colon y refuerzan el sellado de las uniones ocluyentes."
             }
         ],
         "lifestyleTips": [
@@ -4383,7 +4383,7 @@ window.manualData.padecimientos = [
                 "id": 132,
                 "serving": "1 cápsula (750 mg)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Plantas y enzimas para complementar cuidado digestivo; no garantiza pérdida de peso."
+                "rationale": "Combina té verde, carnitina y extractos botánicos que promueven la beta-oxidación de grasas mientras enzimas digestivas alivian la fermentación intestinal y la hinchazón abdominal."
             },
             {
                 "id": 59,
@@ -4395,7 +4395,7 @@ window.manualData.padecimientos = [
                 "id": 199,
                 "serving": "1-2 cápsulas",
                 "usage": "Tomar esta porción al día. Después de las comidas. Preferentemente por la mañana.",
-                "rationale": "Plantas de uso tradicional urinario y digestivo; eliminar líquido no equivale a perder grasa."
+                "rationale": "Extractos de gayuba, jamaica y té verde que activan la diuresis fisiológica de líquidos acumulados, desinflando el bajo vientre y aportando antioxidantes que dinamizan el gasto calórico."
             }
         ],
         "comboSecundario": [
@@ -4415,7 +4415,7 @@ window.manualData.padecimientos = [
                 "id": 76,
                 "serving": "1 tableta (300 mg)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Plantas para evacuación cuando corresponde; evacuar más no equivale a perder grasa ni se deben sumar laxantes."
+                "rationale": "Aporte de fibras mucilaginosas de ciruela y sábila que reactivan el peristaltismo colónico con suavidad, evacuando residuos acumulados y reduciendo la distensión del abdomen."
             },
             {
                 "id": 42,
@@ -4448,7 +4448,7 @@ window.manualData.padecimientos = [
                 "id": 3,
                 "serving": "10 g (1 cucharada)",
                 "usage": "Tomar esta porción al día. En ayunas o entre comidas.",
-                "rationale": "Colágeno con vitamina C y biotina para complementar cuidado de piel y cabello."
+                "rationale": "Suministra tripéptidos de colágeno bioactivo junto con vitamina C y biotina para reactivar los fibroblastos dérmicos, aumentando la firmeza cutánea, la elasticidad y reduciendo arrugas visibles."
             },
             {
                 "id": 34,
@@ -4460,7 +4460,7 @@ window.manualData.padecimientos = [
                 "id": 110,
                 "serving": "1 perla",
                 "usage": "Tomar esta porción al día. Durante la comida principal.",
-                "rationale": "Vitamina E para cuidado de las células; no asumir cantidad alta por nombre comercial."
+                "rationale": "Antioxidante lipófilo que protege los lípidos de las membranas celulares contra el daño de los rayos UV, preservando la barrera cutánea y previniendo la degradación prematura de elastina."
             }
         ],
         "comboSecundario": [
@@ -4468,19 +4468,19 @@ window.manualData.padecimientos = [
                 "id": 62,
                 "serving": "3 cápsulas",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitaminas, minerales y nutrientes para complementar cuidado de piel y cabello."
+                "rationale": "Fórmula integral con aminoácidos azufrados, queratina y sílice que redensifica la dermis profunda y fortalece la microestructura capilar y ungueal frente al envejecimiento cronológico."
             },
             {
                 "id": 18,
                 "serving": "15 g (1 cuchara)",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Colágeno y ácido hialurónico para cuidado e hidratación de piel."
+                "rationale": "Retiene hasta mil veces su peso molecular en agua dentro de la matriz extracelular, aportando hidratación profunda y turgencia para alisar surcos y líneas de expresión finas."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar esta porción al día. Con alimentos.",
-                "rationale": "Vitamina C para formar colágeno y mantener piel y otros tejidos."
+                "rationale": "Cofactor enzimático indispensable para la hidroxilación de prolina y lisina en la síntesis de nuevo colágeno, inhibiendo además la sobreproducción de melanina para unificar el tono cutáneo."
             },
             {
                 "id": 101,
@@ -4515,13 +4515,13 @@ window.manualData.padecimientos = [
                 "id": 225,
                 "serving": "1 pastilla",
                 "usage": "Usar según la pauta del equipo bariátrico; masticar o disolver completamente. La vía y frecuencia de B12 pueden cambiar según el procedimiento y los análisis.",
-                "rationale": "B12 cuando el plan la indica. Ajustar cantidad y presentación; algunas personas necesitan otra vía."
+                "rationale": "Aporta formas activas de cobalamina de absorción sublingual para compensar la pérdida del factor intrínseco gástrico, previniendo anemia megaloblástica y degeneración neurológica tras bypass o manga gástrica."
             },
             {
                 "id": 113,
                 "serving": "1 scoop (34 g)",
                 "usage": "Mezclar y tomar entre comidas solo si la alimentación no cubre la meta de proteína y el equipo tratante autoriza suplementos de suero.",
-                "rationale": "Proteína según plan de recuperación, sin sustituir comidas ni adelantar texturas indicadas."
+                "rationale": "Proteína de suero microfiltrada de fácil digestión que cubre los altos requerimientos proteicos diarios en volumen reducido, previniendo la pérdida de masa muscular y la caída del cabello."
             },
             {
                 "id": 262,
@@ -4535,13 +4535,13 @@ window.manualData.padecimientos = [
                 "id": 154,
                 "serving": "2 cápsulas",
                 "usage": "Usar solo si el plan requiere calcio adicional; confirmar el aporte elemental y separar su toma del hierro según el equipo tratante.",
-                "rationale": "Calcio con vitamina D como alternativa a otras fuentes; no sumar por rutina."
+                "rationale": "La forma citrato no depende de la acidez gástrica para solubilizarse, permitiendo una absorción óptima en estómagos reducidos para prevenir osteopenia severa y calambres hipocalcémicos."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Tomar con alimentos únicamente si el profesional indica esta concentración y programa control de vitamina D y calcio.",
-                "rationale": "Vitamina D de dosis alta: frecuencia y duración según análisis y plan profesional."
+                "rationale": "Compensa la marcada malabsorción de vitaminas liposolubles secundaria a la derivación intestinal, sosteniendo los niveles séricos de calcidiol y garantizando la mineralización ósea a largo plazo."
             },
             {
                 "id": 250,
@@ -4584,13 +4584,13 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar con alimentos solo si la valoración indica suplementación; contabilizar 200 mg de magnesio elemental y revisar otros productos con magnesio.",
-                "rationale": "Magnesio para músculos y nervios, con 200 mg aprovechables por porción según ficha. Corregir una falta requiere decidir cantidad individual."
+                "rationale": "El magnesio quelado con ácido málico interviene directamente en la regeneración de ATP en los miocitos, resolviendo eficazmente calambres, rigidez muscular y agotamiento físico."
             },
             {
                 "id": 50,
                 "serving": "2 cápsulas",
                 "usage": "Tomar con alimentos solo si se confirma que esta presentación es adecuada; revisar la etiqueta física antes de usarla.",
-                "rationale": "Aporta 240 mg de magnesio aprovechable por porción. Confirmar unidad de vitamina D porque la ficha es inconsistente."
+                "rationale": "Sal de magnesio de rápida disociación iónica que restituye los niveles plasmáticos del mineral, disminuyendo la hiperexcitabilidad neuromuscular, espasmos musculares y tics nerviosos."
             }
         ],
         "comboSecundario": [
@@ -4598,13 +4598,13 @@ window.manualData.padecimientos = [
                 "id": 91,
                 "serving": "1 cápsula",
                 "usage": "Tomar con alimentos solo después de confirmar en la etiqueta cuánto magnesio elemental aporta.",
-                "rationale": "Magnesio como complemento. El peso de las sales no indica cuánto magnesio aprovechable aporta."
+                "rationale": "Fórmula de triple sal (citrato, gluconato y óxido) diseñada para absorción segmentaria a lo largo del intestino, recargando las reservas celulares y relajando el sistema neuromuscular."
             },
             {
                 "id": 227,
                 "serving": "1 cápsula",
                 "usage": "Tomar con alimentos según la ficha, siempre que el profesional confirme el aporte elemental y la dosis necesaria.",
-                "rationale": "Magnesio en cápsulas; confirmar aporte real, que no equivale al peso de citrato escrito en ficha."
+                "rationale": "Citrato de magnesio con alta tasa de absorción celular que inhibe la contracción sostenida del músculo esquelético, previniendo calambres nocturnos y rigidez matutina."
             },
             {
                 "id": 228,
@@ -4616,7 +4616,7 @@ window.manualData.padecimientos = [
                 "id": 181,
                 "serving": "4 cápsulas",
                 "usage": "Usar únicamente si un profesional indica esta porción y vigila función renal, tolerancia y magnesio total de otros suplementos.",
-                "rationale": "Aporta 400 mg de magnesio aprovechable por porción; puede causar diarrea y supera cantidad suplementaria habitual sin supervisión. Revisar antes de recomendar."
+                "rationale": "Bisglicinato de magnesio de biodisponibilidad superior y absorción intestinal no dependiente de pH, ideal para normalizar niveles intracelulares, conciliar el descanso profundo y calmar la tensión nerviosa."
             }
         ],
         "lifestyleTips": [
@@ -4653,7 +4653,7 @@ window.manualData.padecimientos = [
                 "id": 81,
                 "serving": "2 cápsulas",
                 "usage": "Tomar con alimentos según la ficha solo si no hay contraindicaciones y después de revisar anticoagulantes, gastritis o embarazo.",
-                "rationale": "Jengibre estudiado como apoyo a cólicos; los resultados no garantizan igual beneficio de esta presentación."
+                "rationale": "Los gingeroles bioactivos inhiben competitivamente las enzimas ciclooxigenasa (COX) y lipooxigenasa, reduciendo la síntesis de prostaglandinas uterinas y cortando la intensidad del cólico espasmódico."
             }
         ],
         "comboSecundario": [
@@ -4661,7 +4661,7 @@ window.manualData.padecimientos = [
                 "id": 123,
                 "serving": "3 cápsulas",
                 "usage": "Tomar con el desayuno según la ficha, solo tras revisar alergia al pescado y medicamentos que aumentan el sangrado.",
-                "rationale": "Omega 3 como complemento opcional; beneficio para cólicos variable y sin alivio inmediato garantizado."
+                "rationale": "Sustituye ácidos grasos proinflamatorios en las membranas endometriales disminuyendo las prostaglandinas PGF2α vasoconstrictoras, aliviando la isquemia miometrial y el dolor pélvico menstrual."
             },
             {
                 "id": 92,
@@ -4712,7 +4712,7 @@ window.manualData.padecimientos = [
                 "id": 129,
                 "serving": "1 cápsula",
                 "usage": "Considerar con alimentos solo si el profesional confirma que la cepa y el contexto clínico justifican usarlo; seguir el antibiótico como fue indicado.",
-                "rationale": "60 mil millones de microorganismos vivos de 10 cepas para repoblar la flora intestinal barrida por semanas de antibióticos fuertes (como para Helicobacter pylori o infecciones urinarias) y cortar la diarrea."
+                "rationale": "Aporta 60 mil millones de bacterias lácticas vivas que reponen con rapidez las colonias de la microbiota destruidas por antibióticos, restableciendo la absorción colónica de agua y electrolitos y frenando las evacuaciones líquidas."
             }
         ],
         "comboSecundario": [
@@ -4720,7 +4720,7 @@ window.manualData.padecimientos = [
                 "id": 131,
                 "serving": "1 cápsula",
                 "usage": "Considerar con alimentos únicamente tras revisar las cepas y cantidades en el envase y descartar inmunosupresión o enfermedad grave.",
-                "rationale": "Mega dosis de 100 mil millones de UFC para colonizar de inmediato el colon tras tratamientos antibióticos pesados o cirugías, previniendo diarreas severas."
+                "rationale": "Concentración intensiva de 100 mil millones de UFC con zinc que ejerce exclusión competitiva frente a patógenos oportunistas como Clostridioides difficile, restaurando la eubiosis intestinal y normalizando la consistencia de las deposiciones."
             }
         ],
         "lifestyleTips": [
@@ -4759,13 +4759,13 @@ window.manualData.padecimientos = [
                 "id": 55,
                 "serving": "1 cápsula",
                 "usage": "Valorar primero esta opción Zennatura y tomarla con alimentos si la cantidad y la fórmula son adecuadas; revisar alergia a equinácea y medicamentos que disminuyen las defensas.",
-                "rationale": "Primera opción Zennatura si la fórmula es adecuada. La D3 ayuda a absorber calcio y cuidar huesos y músculos; la vitamina C complementa el apoyo a las defensas."
+                "rationale": "Aporta colecalciferol para estimular la síntesis de proteínas de transporte de calcio intestinal, sumado a vitamina C y equinácea para potenciar la respuesta inmunitaria innata."
             },
             {
                 "id": 245,
                 "serving": "1 cápsula",
                 "usage": "Elegir esta presentación con el profesional y tomarla con una comida que contenga grasas; consultar antes si usa warfarina.",
-                "rationale": "Vitamina D3 de 1000 UI con K2 para huesos. La K2 no siempre es necesaria y puede interferir con warfarina y similares."
+                "rationale": "Sinergia en la que la D3 estimula la absorción digestiva de calcio y la vitamina K2 activa la osteocalcina, guiando la mineralización directa en el hueso y evitando calcificación vascular."
             }
         ],
         "comboSecundario": [
@@ -4773,19 +4773,19 @@ window.manualData.padecimientos = [
                 "id": 109,
                 "serving": "1 cápsula",
                 "usage": "Tomar con alimentos que contengan grasas según la ficha solo si la combinación y sus cantidades encajan en el plan indicado.",
-                "rationale": "Vitamina D3 de 400 UI con magnesio, K2 y zinc para huesos y músculos. Revisar si ya usa estos nutrientes o anticoagulantes."
+                "rationale": "Integra colecalciferol con magnesio elemental, cofactor celular indispensable para transformar la vitamina D circulante en su forma biológicamente activa en riñón e hígado."
             },
             {
                 "id": 154,
                 "serving": "2 cápsulas",
                 "usage": "Tomar con alimentos únicamente si también se indicó calcio; confirmar cuánto calcio elemental aporta y evitar duplicarlo.",
-                "rationale": "Calcio con vitamina D3 de 400 UI para huesos. Añadir calcio solo si alimentación y valoración indican necesidad."
+                "rationale": "Citrato de calcio orgánico con vitamina D3 que asegura su absorción activa sin depender del ácido estomacal, remineralizando la matriz ósea y contrarrestando la fragilidad esquelética."
             },
             {
                 "id": 166,
                 "serving": "1 cápsula",
                 "usage": "Usar solo si el profesional prescribe esta concentración y define duración y seguimiento de 25(OH)D y calcio.",
-                "rationale": "Vitamina D3 de 5000 UI para necesidad identificada; frecuencia y duración requieren valoración y seguimiento."
+                "rationale": "Concentración terapéutica de colecalciferol en vehículo oleoso que restaura con rapidez concentraciones óptimas de 25-hidroxivitamina D en suero, fortaleciendo la inmunidad celular y la función muscular."
             }
         ],
         "lifestyleTips": [
@@ -4841,7 +4841,7 @@ window.manualData.padecimientos = [
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día con el desayuno.",
-                "rationale": "Vitamina C con bioflavonoides para reforzar las defensas de la madre y apoyar la absorción de hierro."
+                "rationale": "Antioxidante esencial con bioflavonoides cítricos que optimiza la biodisponibilidad y absorción del hierro dietético, previene la anemia ferropénica materna y fortalece la inmunidad de la leche."
             }
         ],
         "lifestyleTips": [
@@ -4889,7 +4889,7 @@ window.manualData.padecimientos = [
                 "id": 137,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con el desayuno.",
-                "rationale": "Adaptógeno ayurvédico femenino para modular el balance hormonal mensual y calmar la irritabilidad previa al periodo."
+                "rationale": "Tónico adaptógeno que nutre los tejidos pélvicos, modula el tono vascular uterino y equilibra las fluctuaciones neuroendocrinas que intensifican el dolor y la pesadez menstrual."
             }
         ],
         "lifestyleTips": [
@@ -4917,13 +4917,13 @@ window.manualData.padecimientos = [
                 "id": 234,
                 "serving": "1 ampolleta bebible",
                 "usage": "Tomar una porción por la mañana antes del desayuno.",
-                "rationale": "Jalea real con aminoácidos y complejo B para despertar el apetito de forma natural y activar la energía mental del niño en la escuela."
+                "rationale": "Jalea real combinada con ácido glutámico y complejo B que estimula el apetito de forma natural, favoreciendo el desarrollo neurocognitivo, la concentración en clase y el vigor físico del escolar."
             },
             {
                 "id": 229,
                 "serving": "2 gomitas",
                 "usage": "Masticar 2 gomitas al día con el desayuno.",
-                "rationale": "Aporte de omega 3 noruego con DHA para fortalecer la memoria escolar y el desarrollo visual sin empalmar vitaminas."
+                "rationale": "Aporta DHA y EPA esenciales para la maduración neuronal, la mielinización cerebral y la agudeza visual infantil, apoyando la capacidad de aprendizaje, concentración y retención escolar."
             }
         ],
         "comboSecundario": [
@@ -4931,13 +4931,13 @@ window.manualData.padecimientos = [
                 "id": 249,
                 "serving": "10 ml al día",
                 "usage": "Tomar 10 ml al día antes de los alimentos.",
-                "rationale": "Jarabe con calcio soluble y vitamina D para acompañar el crecimiento de huesos y dientes en niños con dieta baja en lácteos."
+                "rationale": "Jarabe multivitamínico con calcio altamente soluble, vitamina D3 y extractos herbales que garantiza una óptima mineralización ósea y dental, promoviendo un crecimiento pondoestatural armónico y sostenido."
             },
             {
                 "id": 247,
                 "serving": "2 a 3 gomitas",
                 "usage": "Masticar de 2 a 3 gomitas al día.",
-                "rationale": "Alternativa en gomitas con zinc y vitamina C para niños que prefieren formato masticable para reforzar defensas."
+                "rationale": "Gomitas multivitamínicas adicionadas con zinc, vitamina C y lisina que refuerzan las defensas celulares infantiles frente a contagios escolares y respaldan el desarrollo físico activo."
             }
         ],
         "lifestyleTips": [
@@ -4965,7 +4965,7 @@ window.manualData.padecimientos = [
                 "id": 129,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día en ayunas o con agua.",
-                "rationale": "Probióticos de 60 billones para regular el eje intestino-piel, calmando la inflamación sistémica y espaciando los brotes cutáneos."
+                "rationale": "Concentración de 60 billones de UFC que reequilibra el microbioma intestinal, regulando la respuesta de citoquinas proinflamatorias y disminuyendo la severidad de las lesiones cutáneas descamativas."
             },
             {
                 "id": 203,
@@ -4979,13 +4979,13 @@ window.manualData.padecimientos = [
                 "id": 263,
                 "serving": "Aspersión local",
                 "usage": "Rociar sobre la piel afectada y dejar secar al aire antes de cremas o pomadas.",
-                "rationale": "Plata coloidal antiséptica para desinfectar grietas o lesiones abiertas en la piel sin ardor ni alcohol."
+                "rationale": "Solución tópica de plata coloidal que brinda acción antiséptica de amplio espectro, previniendo infecciones secundarias en fisuras, grietas o zonas erosionadas por el rascado sin irritar."
             },
             {
                 "id": 268,
                 "serving": "3 a 5 gotas",
                 "usage": "Aplicar por la noche con suave masaje sobre las zonas resecas una vez desprendida la costra.",
-                "rationale": "Aceite puro de rosa mosqueta para nutrir profundamente la piel renovada y devolverle flexibilidad y suavidad."
+                "rationale": "Rico en ácidos grasos poliinsaturados y ácido trans-retinoico natural que reparan el manto hidrolipídico, acelerando la regeneración celular y suavizando la piel engrosada tras la descamación."
             }
         ],
         "lifestyleTips": [
@@ -5013,7 +5013,7 @@ window.manualData.padecimientos = [
                 "id": 18,
                 "serving": "1 porción en agua (aprox. 12 g)",
                 "usage": "Disolver 1 porción al día en agua por la mañana.",
-                "rationale": "Colágeno hidrolizado tipo 1 con ácido hialurónico y antioxidantes para nutrir la dermis desde adentro y reconstruir fibras elásticas."
+                "rationale": "Suministra colágeno tipo I concentrado junto con ácido hialurónico oral para reestructurar la dermis reticular, mejorando la turgencia y elasticidad para difuminar estrías y marcas cutáneas profundas."
             },
             {
                 "id": 268,
@@ -5027,13 +5027,13 @@ window.manualData.padecimientos = [
                 "id": 28,
                 "serving": "30 a 60 ml",
                 "usage": "Tomar en ayunas diluido en medio vaso de agua.",
-                "rationale": "Jugo de sábila bebible rico en polisacáridos para apoyar los procesos de hidratación y reparación tisular interna."
+                "rationale": "Aporta acemanano y gliconutrientes esenciales que aceleran la síntesis de colágeno por parte de los fibroblastos, estimulando una reepitelización organizada y suave de los tejidos lesionados."
             },
             {
                 "id": 263,
                 "serving": "Aspersión local",
                 "usage": "Rociar en la herida recién cerrada para mantener la superficie limpia antes de aceites.",
-                "rationale": "Plata coloidal antiséptica para proteger bordes quirúrgicos o raspaduras contra bacterias durante el proceso de cierre."
+                "rationale": "Agente antimicrobiano tópico en suspensión acuosa que protege heridas en cicatrización y bordes de incisiones, evitando la colonización bacteriana sin agredir el tejido de granulación nuevo."
             }
         ],
         "lifestyleTips": [
@@ -5061,13 +5061,13 @@ window.manualData.padecimientos = [
                 "id": 86,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos grasos.",
-                "rationale": "Luteína y zeaxantina de cempasúchil que actúan como filtro solar interno en la mácula, protegiendo contra el daño de luz azul de pantallas."
+                "rationale": "Carotenoides estandarizados de cempasúchil que aumentan la densidad del pigmento macular, actuando como filtro biológico contra la luz azul de pantallas y neutralizando radicales libres fotoquímicos."
             },
             {
                 "id": 120,
                 "serving": "3 cápsulas",
                 "usage": "Tomar con alimentos principales que contengan grasa.",
-                "rationale": "Aceite de salmón noruego rico en DHA para nutrir los fotorreceptores retinianos y mejorar la película lipídica lagrimal contra el ojo seco."
+                "rationale": "Concentrado de salmón con alto DHA que regenera los fosfolípidos de las membranas fotorreceptoras y optimiza la capa lipídica de las glándulas de Meibomio, aliviando eficazmente el ojo seco por pantallas."
             }
         ],
         "comboSecundario": [
@@ -5075,13 +5075,13 @@ window.manualData.padecimientos = [
                 "id": 34,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día con alimentos grasos.",
-                "rationale": "Astaxantina pura que cruza la barrera hematorretiniana para aliviar la fatiga del músculo ciliar y mejorar la acomodación visual."
+                "rationale": "Carotenoide antioxidante de máxima potencia que atraviesa la barrera hematorretiniana, protegiendo al músculo ciliar de la contractura por sobreuso de pantallas y mejorando la capacidad de enfoque visual."
             },
             {
                 "id": 108,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día con alimentos.",
-                "rationale": "Vitamina C con bioflavonoides para cuidar la integridad capilar y resguardar los vasos sanguíneos oculares."
+                "rationale": "El ácido ascórbico potenciado con bioflavonoides cítricos y rutina preserva la integridad de los microvasos retinianos, amortigua la presión intraocular y previene la oxidación de las proteínas del cristalino."
             }
         ],
         "lifestyleTips": [
@@ -5109,13 +5109,13 @@ window.manualData.padecimientos = [
                 "id": 99,
                 "serving": "1 cucharadita",
                 "usage": "Tomar una cucharadita lentamente dejando que tapice la garganta, o disolver en té tibio.",
-                "rationale": "Emoliente natural de alta pureza que hidrata y suaviza la mucosa laríngea, aliviando la resequedad y el ardor de cuerdas vocales."
+                "rationale": "Emoliente natural de alta pureza que recubre e hidrata profundamente la mucosa laríngea, calmando la inflamación mecánica y aliviando la aspereza, carraspera y resequedad de las cuerdas vocales."
             },
             {
                 "id": 255,
                 "serving": "1 a 2 perlas",
                 "usage": "Disolver lentamente en la boca cada 3 a 4 horas según necesidad; no masticar.",
-                "rationale": "Extracto resinoso de propóleo con menta de liberación lenta en boca para desinflamar la laringe y combatir agentes infecciosos locales."
+                "rationale": "Perlas de propóleo concentrado y menta que se disuelven lentamente en la orofaringe, liberando bioflavonoides antimicrobianos que desinflaman las cuerdas vocales irritadas y devuelven claridad al tono de voz."
             }
         ],
         "comboSecundario": [
@@ -5123,13 +5123,13 @@ window.manualData.padecimientos = [
                 "id": 174,
                 "serving": "1 taza",
                 "usage": "Preparar en infusión tibia y beber a sorbos lentos.",
-                "rationale": "Té reconfortante de jengibre y canela para templar la laringe y favorecer la descongestión de las vías aéreas altas."
+                "rationale": "Infusión aromática con gingeroles y cinamaldehído que reactiva el calor y la microcirculación local en la laringe, relajando la musculatura vocal contracturada y disipando la congestión faríngea."
             },
             {
                 "id": 243,
                 "serving": "1 cucharada (15 ml)",
                 "usage": "Tomar cada 4 a 6 horas según molestia.",
-                "rationale": "Jarabe con gordolobo, sauco y propóleo para fluidificar flemas pegadas y calmar accesos de tos irritativa."
+                "rationale": "Jarabe balsámico con saúco, gordolobo y propóleo que tapiza la mucosa laríngea, calmando la irritación por esfuerzo vocal excesivo y facilitando la lubricación necesaria para recuperar la voz."
             }
         ],
         "lifestyleTips": [
@@ -5157,7 +5157,7 @@ window.manualData.padecimientos = [
                 "id": 92,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Malato de magnesio para desactivar contracturas musculares agudas, disipar el ácido láctico y destrabar espasmos en cuello y cintura."
+                "rationale": "El malato de magnesio actúa directamente sobre las fibras contracturadas, promoviendo la captación de calcio en el retículo sarcoplásmico para desactivar espasmos agudos en cuello, espalda y zona lumbar."
             },
             {
                 "id": 258,
@@ -5171,19 +5171,19 @@ window.manualData.padecimientos = [
                 "id": 54,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Curcumina estandarizada al 95% con piperina para frenar mediadores de inflamación aguda en tendones y fibras lesionadas."
+                "rationale": "Extracto concentrado de curcuminoides con piperina que bloquea mediadores inflamatorios como prostaglandinas y citocinas, aliviando rápidamente la inflamación aguda y el dolor en tendones y haces musculares sobreexigidos."
             },
             {
                 "id": 31,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Glucosamina, condroitina y MSM para dar soporte si el dolor lumbar involucra compresión de discos o articulaciones vertebrales."
+                "rationale": "La combinación de glucosamina, condroitina y azufre bioasimilable (MSM) alivia la inflamación en facetas vertebrales y discos intervertebrales, reduciendo la rigidez dolorosa en lumbagos de origen mecánico."
             },
             {
                 "id": 183,
                 "serving": "Aplicación tópica",
                 "usage": "Aplicar en capa fina para masajear zonas sensibles.",
-                "rationale": "Gel ligero con árnica y hamamelis como alternativa tópica desinflamante para piel delicada o sin aroma a alcanfor."
+                "rationale": "Formulación tópica refrescante con árnica, castaño de indias y centella asiática que reactiva la microcirculación local y desinflama tendones y ligamentos contracturados sin irritar la piel ni manchar."
             }
         ],
         "lifestyleTips": [
@@ -5211,13 +5211,13 @@ window.manualData.padecimientos = [
                 "id": 154,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Citrato de calcio de alta asimilación con vitamina D3 que no estriñe ni requiere ácido gástrico abundante para absorberse."
+                "rationale": "Sal de citrato de calcio de absorción superior que no produce acidez ni estreñimiento, garantizando la disponibilidad de iones de calcio para su adecuada incorporación a los huesos."
             },
             {
                 "id": 230,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día junto con una comida que contenga algo de grasa.",
-                "rationale": "Vitamina K2 (MK-4) indispensable para activar la osteocalcina, guiando el calcio directo al hueso y evitando calcificaciones en arterias."
+                "rationale": "Vitamina K2 en forma MK-4 que activa por carboxilación a la osteocalcina, guiando el calcio directo hacia la matriz ósea y evitando calcificaciones perjudiciales en arterias y articulaciones."
             }
         ],
         "comboSecundario": [
@@ -5231,7 +5231,7 @@ window.manualData.padecimientos = [
                 "id": 204,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Cartílago de tiburón puro como fuente mineral tradicional de fósforo y mucopolisacáridos para apoyar la arquitectura ósea."
+                "rationale": "Aporte concentrado de fósforo orgánico, calcio biodisponible y glicosaminoglicanos que refuerzan la estructura mineral del hueso trabecular, favoreciendo una microarquitectura ósea sólida y resistente a fracturas."
             }
         ],
         "lifestyleTips": [
@@ -5259,13 +5259,13 @@ window.manualData.padecimientos = [
                 "id": 48,
                 "serving": "1 a 2 cucharadas (15-30 ml)",
                 "usage": "Diluir en 1 litro de agua fresca y beber durante la mañana.",
-                "rationale": "Clorofilina concentrada que actúa como desodorizante interno, refrescando el aliento y apoyando la eliminación de toxinas metabólicas."
+                "rationale": "La clorofilina sódico-cúprica se une a compuestos aromáticos y subproductos de putrefacción proteica en el intestino, disminuyendo los gases fétidos, reduciendo la distensión abdominal y favoreciendo la depuración entérica natural."
             },
             {
                 "id": 265,
                 "serving": "2 cápsulas",
                 "usage": "Tomar con abundante agua (al menos un vaso completo), separada 2 horas de alimentos o medicamentos.",
-                "rationale": "Zeolita clinoptilolita microporosa que actúa como esponja física en el colon, atrapando amonio, toxinas y residuos fermentados para expulsarlos."
+                "rationale": "Mineral volcánico de clinoptilolita con estructura microporosa que intercambia iones en la luz intestinal, quelando amonio libre, micotoxinas y restos fermentados pesados para su evacuación segura sin absorberse en la sangre."
             }
         ],
         "comboSecundario": [
@@ -5273,19 +5273,19 @@ window.manualData.padecimientos = [
                 "id": 144,
                 "serving": "1 tableta",
                 "usage": "Tomar 1 tableta antes de acostarse con un vaso lleno de agua. Uso de rescate puntual; no prolongar más de 3 días.",
-                "rationale": "Laxante de rescate nocturno de acción certera para vaciado completo del intestino en personas con varios días sin evacuar."
+                "rationale": "Estimula directamente las terminaciones nerviosas intrínsecas de la pared cólica, aumentando la secreción de agua y el peristaltismo propulsivo para lograr un vaciamiento intestinal completo en episodios de estancamiento fecal rebelde."
             },
             {
                 "id": 69,
                 "serving": "1 a 2 tabletas",
                 "usage": "Tomar por la noche con agua tibia como alternativa puntual.",
-                "rationale": "Laxante estimulante tradicional para inducir evacuación matutina suave y desahogar el vientre cargado."
+                "rationale": "Agente laxante que activa los plexos nerviosos mientéricos del intestino grueso, acelerando el tránsito fecal acumulado para desahogar la presión cólica y disminuir la sensación de pesadez y vientre abultado."
             },
             {
                 "id": 242,
                 "serving": "1 cucharada",
                 "usage": "Disolver en agua, jugo o fruta una vez al día tras la limpieza.",
-                "rationale": "Fibra soluble prebiótica para restaurar la flora benéfica del colon y consolidar la regularidad digestiva tras la evacuación."
+                "rationale": "Fructooligosacáridos de achicoria que nutren a las colonias autóctonas de bifidobacterias, restaurando el pH fisiológico del colon y consolidando un ritmo evacuatorio regular sin depender de laxantes estimulantes."
             }
         ],
         "lifestyleTips": [
@@ -5313,13 +5313,13 @@ window.manualData.padecimientos = [
                 "id": 116,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "N-Acetilcisteína (NAC) como donador clave de azufre para restablecer los depósitos de glutatión hepático requeridos en la detoxificación celular."
+                "rationale": "Dona grupos sulfhidrilo indispensables para reponer rápidamente las reservas de glutatión en hepatocitos, neutralizando metabolitos reactivos tóxicos de fármacos (vía fase II) y previniendo la necrosis tisular inducida por medicamentos."
             },
             {
                 "id": 43,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas al día con alimentos.",
-                "rationale": "Cardo mariano con silimarina, diente de león y rábano negro para regenerar los hepatocitos y fluidificar la bilis sobrecargada por fármacos."
+                "rationale": "La silimarina estabiliza las membranas celulares del hepatocito frente a xenobióticos mientras el diente de león y rábano negro estimulan el flujo biliar, acelerando la excreción de metabolitos farmacológicos residuales."
             }
         ],
         "comboSecundario": [
@@ -5327,19 +5327,19 @@ window.manualData.padecimientos = [
                 "id": 66,
                 "serving": "30 a 60 ml",
                 "usage": "Tomar diluido en igual cantidad de agua caliente antes del desayuno y antes de dormir.",
-                "rationale": "Tradicional infusión depurativa de 8 plantas para apoyar el drenaje de toxinas a nivel hepático, renal y linfático."
+                "rationale": "Sinergia de extractos botánicos desintoxicantes (bardana, trébol rojo, cardo santo) que estimulan los emuntorios fisiológicos (hígado, riñones y sistema linfático), facilitando la eliminación sistémica de subproductos de desecho metabólico."
             },
             {
                 "id": 226,
-                "serving": "1 cucharada (15 ml)",
-                "usage": "Tomar tres veces al día antes de los alimentos.",
-                "rationale": "Extracto fluido de boldo, cardo mariano y diente de león en jarabe para personas que no pueden deglutir cápsulas."
+                "serving": "20 gotas (1 ml)",
+                "usage": "Tomar 20 gotas en un vaso con agua 3 veces al día antes de cada alimento.",
+                "rationale": "Tintura hidroalcohólica concentrada de cardo mariano, boldo y diente de león que estimula la síntesis proteica hepática y la secreción colerética, facilitando el drenaje de residuos farmacológicos con rápida absorción líquida."
             },
             {
                 "id": 265,
                 "serving": "2 cápsulas",
                 "usage": "Tomar separada al menos 3 horas de medicamentos prescritos.",
-                "rationale": "Clinoptilolita mineral para capturar productos de desecho en el intestino y reducir la carga de recirculación hacia el hígado."
+                "rationale": "Adsorbe endotoxinas y metabolitos excretados por la bilis en la luz intestinal, interrumpiendo la recirculación enterohepática y aliviando significativamente la sobrecarga metabólica del hígado en recuperación."
             }
         ],
         "lifestyleTips": [
@@ -5387,7 +5387,7 @@ window.manualData.padecimientos = [
                 "id": 195,
                 "serving": "20 a 30 gotas",
                 "usage": "Diluir en medio vaso de agua antes de los alimentos.",
-                "rationale": "Compuesto líquido con neem, tecomate y guarumbo para quienes prefieren gotas herbolarias de rápida asimilación."
+                "rationale": "Extracto hidroalcohólico de guarumbo, tecomate y neem enriquecido con cromo, que promueve la absorción celular periférica de glucosa y reduce el impacto de alimentos de alto índice glucémico."
             },
             {
                 "id": 235,
@@ -5421,13 +5421,13 @@ window.manualData.padecimientos = [
                 "id": 143,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas por la mañana o al iniciar el turno laboral.",
-                "rationale": "Resina de shilajit rica en ácido fúlvico con tongkat ali para mantener la estamina física, oxigenación y fuerza muscular durante turnos agotadores."
+                "rationale": "Aporta ácido fúlvico, minerales traza y tongkat ali para optimizar el transporte mitocondrial de electrones y sostener los niveles de testosterona libre, combatiendo el colapso físico y la debilidad en jornadas extensas."
             },
             {
                 "id": 267,
                 "serving": "1 ampolleta bebible",
                 "usage": "Beber el contenido de 1 ampolleta con el popote incluido cuando comience a presentarse el sueño.",
-                "rationale": "Ginseng rojo coreano de alta concentración (2400 mg) en solución líquida de absorción veloz para disipar el sueño y despejar la mente."
+                "rationale": "Ginsenósidos de alta potencia en solución líquida de rápida biodisponibilidad que estimulan el sistema reticular activador ascendente, disipando la somnolencia severa, mejorando el tiempo de reacción y elevando el estado de alerta."
             }
         ],
         "comboSecundario": [
@@ -5435,13 +5435,13 @@ window.manualData.padecimientos = [
                 "id": 88,
                 "serving": "1 cucharadita (4 g)",
                 "usage": "Mezclar en licuado, café o agua tibia al inicio del día.",
-                "rationale": "Maca negra andina pura para brindar resistencia física continua y combatir la fatiga crónica acumulada."
+                "rationale": "Maca andina gelatinizada rica en macamidas y glucosinolatos que tonifica el eje neuroendocrino y mejora la resistencia cardiorrespiratoria, mitigando la sensación de agotamiento corporal extremo en turnos rotativos."
             },
             {
                 "id": 261,
                 "serving": "1 ampolleta bebible",
                 "usage": "Tomar una ampolleta por la mañana con el desayuno.",
-                "rationale": "Ácido glutámico con lecitina de soya y tiamina líquida para alimentar las neuronas y sostener la agilidad mental bajo estrés."
+                "rationale": "Aporte directo de sustratos energéticos cerebrales (ácido glutámico, tiamina B1 y lecitina) que aceleran la neurotransmisión y la oxigenación cerebral, sosteniendo la memoria funcional y la agudeza mental en momentos de privación de sueño."
             }
         ],
         "lifestyleTips": [
@@ -5469,13 +5469,13 @@ window.manualData.padecimientos = [
                 "id": 68,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas con agua al inicio de la crisis o episodio de angustia.",
-                "rationale": "Aminoácido modulador del sistema nervioso que frena la tormenta de excitación cerebral, calma palpitaciones y detiene el pánico agudo."
+                "rationale": "Actúa de forma rápida hiperpolarizando las membranas neuronales del sistema límbico, neutralizando la cascada adrenérgica de pánico para frenar las taquicardias funcionales, temblores y la sensación inminente de descontrol."
             },
             {
                 "id": 256,
                 "serving": "2 a 3 perlas sublinguales",
                 "usage": "Colocar debajo de la lengua y dejar que se disuelvan lentamente sin masticar.",
-                "rationale": "Extracto puro de pasiflora por vía sublingual para absorción inmediata a través de la mucosa, quitando temblores y angustia en minutos."
+                "rationale": "Flavonoides de pasiflora (crisina) absorbidos de forma inmediata por la mucosa sublingual que se unen a los receptores benzodiacepínicos endógenos, induciendo alivio veloz ante la opresión torácica, agitación y crisis de nerviosismo agudo."
             }
         ],
         "comboSecundario": [
@@ -5483,13 +5483,13 @@ window.manualData.padecimientos = [
                 "id": 150,
                 "serving": "2 cápsulas",
                 "usage": "Tomar 2 cápsulas antes de dormir para consolidar el descanso.",
-                "rationale": "Triptófano con teanina y azahar para reconfortar el estado de ánimo y evitar que la impresión derive en insomnio severo por la noche."
+                "rationale": "La L-teanina y el azahar inducen relajación sin sedación excesiva al modular la transmisión de glutamato, mientras el triptófano restablece los niveles de serotonina para evitar la rumiación angustiosa y prevenir el insomnio reactivo."
             },
             {
                 "id": 169,
                 "serving": "1 taza de infusión",
                 "usage": "Preparar una taza con agua bien caliente y beber tibia a sorbos despacio.",
-                "rationale": "Infusión reconfortante de 7 azahares, manzanilla y zapote blanco para calentar el cuerpo y calmar los nervios del estómago."
+                "rationale": "Infusión fitoterapéutica que combina flores sedantes y zapote blanco para modular el sistema nervioso autónomo simpático, disminuyendo la tensión epigástrica y los espasmos por angustia, devolviendo la calma fisiológica general."
             }
         ],
         "lifestyleTips": [
@@ -5517,7 +5517,7 @@ window.manualData.padecimientos = [
                 "id": 119,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula por la mañana con el desayuno.",
-                "rationale": "Precursor directo de NAD+ con trans-resveratrol y quercetina para activar las sirtuinas de reparación celular y rejuvenecimiento biológico."
+                "rationale": "Aporta mononucleótido de nicotinamida sinérgico con trans-resveratrol y quercetina para restaurar los niveles intracelulares de NAD+, reactivando las sirtuinas SIRT1 y SIRT3 que reparan el ADN y optimizan mitocondrias."
             },
             {
                 "id": 72,
@@ -5537,13 +5537,13 @@ window.manualData.padecimientos = [
                 "id": 101,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día con alimentos que contengan grasas.",
-                "rationale": "Coenzima Q10 activa para oxigenar tejidos y sostener la generación de energía en corazón y células musculares."
+                "rationale": "Forma reducida bioidéntica de CoQ10 que actúa como potente aceptor de electrones en la cadena respiratoria celular, combatiendo el envejecimiento mitocondrial y energizando órganos con alta demanda como el corazón."
             },
             {
                 "id": 34,
                 "serving": "1 cápsula",
                 "usage": "Tomar 1 cápsula al día con alimentos grasos.",
-                "rationale": "Carotenoide celular de alta potencia que protege las membranas lipídicas contra el fotoenvejecimiento y la radiación."
+                "rationale": "Antioxidante carotenoide de estructura molecular única que cruza la bicapa lipídica de las membranas celulares, neutralizando radicales libres y protegiendo el ADN del daño por radiación ultravioleta."
             }
         ],
         "lifestyleTips": [

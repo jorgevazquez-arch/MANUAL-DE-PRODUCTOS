@@ -3847,17 +3847,17 @@
         },
         {
             "id": 131,
-            "ingredients": "Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 61.3 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 61.3 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 61.3 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 61.3 mg), Lactobacillus casei BGP 93 (25 billones UFC, 61.3 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 61.3 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 61.3 mg), inulina de agave (10 mg) por cápsula.",
+            "ingredients": "Bifidobacterium breve SP 85 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Longum SP 54 (25 billones UFC, 62.5 mg), Bifidobacterium longum ssp. Infantis SP 37 (25 billones UFC, 62.5 mg), Lactobacillus acidophilus LA3 (25 billones UFC, 62.5 mg), Lactobacillus delbrueckii ssp. Bulgaricus SP 96 (25 billones UFC, 62.5 mg), Lactobacillus casei BGP 93 (25 billones UFC, 62.5 mg), Lactobacillus plantarum BG 112 (25 billones UFC, 62.5 mg), Streptococcus thermophilus SP 4 (25 billones UFC, 62.5 mg) por cápsula.",
             "benefits": [
-                "Máxima potencia de repoblación intestinal: aporta una megadosis de 100 billones de microorganismos vivos con Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37, Lactobacillus acidophilus LA3 y Lactobacillus delbrueckii ssp. bulgaricus SP 96.",
-                "Sinergia multicepa especializada: incluye Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4 para abarcar integralmente el intestino delgado y el colon.",
-                "Regulación del tránsito y alivio intestinal: normaliza las evacuaciones tanto en digestión lenta como en episodios de heces sueltas, mientras la inulina de agave aporta fibra prebiótica que nutre a las colonias benéficas."
+                "Máxima potencia de repoblación intestinal: aporta 100 billones de microorganismos vivos con 8 cepas de alta pureza, incluyendo Bifidobacterium breve SP 85, Bifidobacterium longum ssp. longum SP 54, Bifidobacterium longum ssp. infantis SP 37 y Lactobacillus acidophilus LA3.",
+                "Sinergia multicepa especializada: combina Lactobacillus delbrueckii ssp. bulgaricus SP 96, Lactobacillus casei BGP 93, Lactobacillus plantarum BG 112 y Streptococcus thermophilus SP 4 para colonizar integralmente intestino delgado y colon.",
+                "Regulación del tránsito y alivio intestinal: normaliza las evacuaciones tanto en digestión lenta como en episodios de heces sueltas, ayudando a desinflamar el vientre y disminuir la formación de gases."
             ],
-            "benefitSummary": "Megadosis de 100 billones de probióticos multicepa para regeneración intestinal profunda y colon irritable",
-            "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 7 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus) con inulina de agave. Diseñada para casos de disbiosis severa, síndrome de intestino irritable, tratamientos médicos agresivos o inflamación intestinal crónica.",
+            "benefitSummary": "Megadosis de 100 billones de probióticos con 8 cepas para regeneración intestinal profunda y colon irritable",
+            "shortDesc": "Es la fórmula probiótica más potente del catálogo: 100 billones de UFC por cápsula con 8 cepas probióticas de grado premium (Lactobacillus, Bifidobacterium y Streptococcus). Diseñada para casos de disbiosis severa, síndrome de intestino irritable, recuperación postratamientos médicos o inflamación intestinal crónica.",
             "researchNote": {
                 "focus": "Microbiota de alta concentración y síndrome de intestino irritable",
-                "text": "Por qué elegir una fórmula de 100 billones multicepa: la diversidad bacteriana es clave para la salud del microbioma. La combinación de cepas de Bifidobacterium y Lactobacillus reproduce la complejidad ecológica del colon humano, ayudando a modular la inflamación y fortalecer las uniones estrechas del epitelio intestinal.",
+                "text": "Por qué elegir una fórmula de 100 billones multicepa: la diversidad bacteriana es clave para la salud del microbioma. La combinación de 8 cepas de Bifidobacterium, Lactobacillus y Streptococcus reproduce la complejidad ecológica del colon humano, ayudando a modular la inflamación y fortalecer las uniones estrechas del epitelio intestinal.",
                 "sources": [
                     {
                         "title": "PubMed NIH: mezclas probióticas multicepa en trastornos digestivos funcionales",
@@ -6391,17 +6391,17 @@
         },
         {
             "id": 226,
-            "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cusura (Quassia amara), Diente de León (Taraxacum officinale), Anagirida (Styphnolobium), Marrubio (Marrubium vulgare).",
+            "ingredients": "Boldo (Peumus boldus), Cardo Mariano (Silybum marianum), Cuasia (Quassia amara), Diente de león (Taraxacum officinale), Regaliz (Glycyrrhiza glabra), Marrubio (Marrubium vulgare).",
             "benefits": [
                 "Protección y desintoxicación hepática: el cardo mariano y el boldo limpian las células del hígado cuando está saturado por medicamentos, comida pesada o alcohol.",
-                "Digestión rápida de grasas: la alcachofa y el diente de león activan la producción de bilis para digerir frituras y condimentos sin náuseas.",
-                "Formato líquido de rápida asimilación: presentación bebible en jarabe, perfecta para quienes tienen dificultad para tragar pastillas o cápsulas."
+                "Digestión rápida de grasas: la cuasia, el marrubio y el diente de león activan la producción de bilis para digerir frituras y condimentos sin pesadez ni náuseas.",
+                "Extracto líquido de rápida asimilación: presentación bebible en gotas diluidas en agua, perfecta para quienes prefieren no tragar pastillas o cápsulas."
             ],
-            "benefitSummary": "Jarabe de cardo mariano, boldo y alcachofa para desinflamar el hígado graso y digerir comidas pesadas",
-            "shortDesc": "Jarabe líquido con extractos concentrados de cardo mariano, boldo, diente de león y alcachofa. La opción ideal en líquido para tomar antes de comer; desinflama el hígado perezoso, corta la boca amarga al despertar y permite digerir comidas grasosas o alcohol sin pesadez ni náuseas.",
+            "benefitSummary": "Extracto de cardo mariano, boldo, cuasia y diente de león para desintoxicar el hígado y digerir grasas",
+            "shortDesc": "Extracto líquido herbolario con cardo mariano, boldo, cuasia, diente de león, regaliz y marrubio. La opción ideal en gotas para tomar en agua antes de comer; desinflama el hígado perezoso, corta la boca amarga al despertar y permite digerir comidas grasosas sin pesadez ni náuseas.",
             "researchNote": {
-                "focus": "Hígado, bilis y digestión de grasas en jarabe",
-                "text": "Por qué este jarabe ayuda después de comidas pesadas: la boldina del boldo y la cinarina de la alcachofa activan de inmediato el vaciamiento de la vesícula biliar, eliminando en minutos el dolor de cabeza digestivo, el sabor amargo matutino y la pesadez provocada por comidas fritas o abundantes.",
+                "focus": "Hígado, bilis y digestión de grasas en extracto",
+                "text": "Por qué este extracto ayuda después de comidas pesadas: el boldo es una planta reconocida por la farmacopea europea para activar la vesícula biliar y aliviar la sensación de plenitud y pesadez gástrica. El cardo mariano protege y ayuda al hígado sobrecargado. El diente de león y la cuasia apoyan el flujo de bilis y el marrubio aporta su uso tradicional para el confort digestivo estomacal.",
                 "sources": [
                     {
                         "title": "EMA: hoja de boldo, uso tradicional para digestión y función biliar",

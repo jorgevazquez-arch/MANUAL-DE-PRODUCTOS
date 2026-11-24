@@ -546,19 +546,16 @@
         //  LÓGICA PARA RENDERIZAR LA GUÍA DE PADECIMIENTOS
         // ================================================================
         function getGuideServing(item, product) {
-            const serving = String(item?.serving || '').trim();
-            return String(product?.serving || '').trim() || serving || 'Porción no especificada';
+            const serving = String(product?.serving || item?.serving || '').trim();
+            const timing = String(item?.timing || product?.timing || '').trim();
+            if (serving && timing && !serving.toLowerCase().includes(timing.toLowerCase())) {
+                return `${serving} · ${timing}`;
+            }
+            return serving || 'Consultar la ficha técnica.';
         }
 
         function getGuideUsage(item, product) {
-            const guideUsage = String(item?.usage || '').trim();
-            const legacyTiming = String(item?.timing || '').trim();
-            const productTiming = String(product?.timing || '').trim();
-            const catalogUsage = String(product?.intakeInstructions || '').trim();
-            if (guideUsage && catalogUsage && guideUsage !== catalogUsage) {
-                return `Condición de esta guía: ${guideUsage} Referencia del catálogo (no sustituye la pauta individual): ${catalogUsage}`;
-            }
-            return guideUsage || catalogUsage || legacyTiming || productTiming || 'Consultar la ficha técnica.';
+            return String(item?.rationale || product?.benefitSummary || '').trim();
         }
 
         function escapeGuideAttribute(value) {
@@ -743,7 +740,6 @@
                     const product = productos.find(p => p.id === item.id);
                     if (!product) return;
                     const serving = getGuideServing(item, product);
-                    const usage = getGuideUsage(item, product);
                     html += `
                                             <li>
                                                 <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
@@ -752,12 +748,10 @@
                                                         <span class="padecimiento-editorial-product-info">
                                                             <span class="padecimiento-editorial-product-name">${product.name}</span>
                                                             ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
-                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
-                                                            <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
-                                                            ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción sugerida:</strong> ${serving}</span>
+                                                            <span class="padecimiento-editorial-product-meta padecimiento-editorial-product-function"><strong>Función en este padecimiento:</strong> ${escapeGuideAttribute(item.rationale)}</span>
                                                         </span>
                                                     </span>
-                                                    ${renderGuideRationaleIcon(item, product)}
                                                 </button>
                                             </li>`;
                 });
@@ -775,7 +769,6 @@
                     const product = productos.find(p => p.id === item.id);
                     if (!product) return;
                     const serving = getGuideServing(item, product);
-                    const usage = getGuideUsage(item, product);
                     html += `
                                             <li>
                                                 <button type="button" class="padecimiento-editorial-product-card" data-guide-preview-product="${product.id}" aria-label="Abrir ficha de ${escapeGuideAttribute(product.name)}">
@@ -784,12 +777,10 @@
                                                         <span class="padecimiento-editorial-product-info">
                                                             <span class="padecimiento-editorial-product-name">${product.name}</span>
                                                             ${product.brand === 'Zennatura' ? '<span class="padecimiento-editorial-product-meta"><strong>Zennatura</strong></span>' : ''}
-                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción:</strong> ${serving}</span>
-                                                            <span class="padecimiento-editorial-product-meta"><strong>Uso:</strong> ${usage}</span>
-                                                            ${item.timing ? `<span class="padecimiento-editorial-product-meta"><strong>Momento:</strong> ${item.timing}</span>` : ''}
+                                                            <span class="padecimiento-editorial-product-meta"><strong>Porción sugerida:</strong> ${serving}</span>
+                                                            <span class="padecimiento-editorial-product-meta padecimiento-editorial-product-function"><strong>Función en este padecimiento:</strong> ${escapeGuideAttribute(item.rationale)}</span>
                                                         </span>
                                                     </span>
-                                                    ${renderGuideRationaleIcon(item, product)}
                                                 </button>
                                             </li>`;
                 });
@@ -987,20 +978,20 @@
                                 <tr class="bg-gray-50">
                                      <th class="border p-2 text-left font-semibold text-gray-700">Suplemento</th>
                                      <th class="border p-2 text-left font-semibold text-gray-700">Porción Sugerida</th>
-                                     <th class="border p-2 text-left font-semibold text-gray-700">Modo de Uso</th>
+                                     <th class="border p-2 text-left font-semibold text-gray-700">Función en la Guía</th>
                                  </tr>
                             </thead>
                             <tbody>
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">${pad.primaryOptionsLabel || 'Opciones para valorar'}</td></tr>
                                  ${pad.comboPrincipal.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${escapeGuideAttribute(item.rationale || p.benefitSummary || '')}</td></tr>` : '';
                                  }).join('')}
                                  ${pad.comboSecundario.length > 0 ? `
                                 <tr><td colspan="3" class="pt-2 font-bold text-girasol-green-800">Apoyo Adicional</td></tr>
                                  ${pad.comboSecundario.map(item => {
                                      const p = productos.find(prod => prod.id === item.id);
-                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${getGuideUsage(item, p)}</td></tr>` : '';
+                                     return p ? `<tr><td class="border p-2"><div class="padecimiento-pdf-product">${renderGuideProductImage(p, 'w-10 h-10')}<span>${p.name}</span></div></td><td class="border p-2">${getGuideServing(item, p)}</td><td class="border p-2">${escapeGuideAttribute(item.rationale || p.benefitSummary || '')}</td></tr>` : '';
                                  }).join('')}` : ''}
                             </tbody>
                         </table>
@@ -1570,14 +1561,16 @@
             const product = item.producto;
             const label = { alternative: 'Alternativa a comparar', complement: 'Complemento por valorar', related: 'Otra opción de esta guía' }[item.relationship] || 'Otra opción de esta guía';
             const rationale = escapeGuideAttribute(product.choiceNote || label);
+            const rawNote = (product.choiceNote || product.shortDesc || '').replace(/^[^:]+:\s*/, '');
+            const shortNote = rawNote.split(/(?<=[.!?])\s+/)[0] || rawNote;
             return `
                 <button type="button" onclick="openModal(${product.id})" title="${rationale}"
                     class="text-left flex items-center gap-2 rounded-xl border border-indigo-100 bg-white p-2 hover:border-indigo-300 hover:shadow-sm transition-all">
                     <span class="guide-synergy-product-photo">${renderGuideProductImage(product)}</span>
-                    <span class="min-w-0">
+                    <span class="min-w-0 flex-1">
                         <span class="block text-xs font-bold leading-tight text-gray-800">${product.name}</span>
                         <span class="block mt-0.5 text-[10px] font-semibold uppercase tracking-wide text-gray-600">${label}</span>
-                        <span class="advisor-relation-description">${escapeGuideAttribute(product.choiceNote)}</span>
+                        <span class="advisor-relation-description">${escapeGuideAttribute(shortNote)}</span>
                     </span>
                 </button>`;
         }
@@ -1893,26 +1886,35 @@
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${possibleComplements.map(producto => renderSinergiaProducto({ producto, relationship: 'complement' })).join('')}</div>
                 </details>` : '';
             if (relacionados.length > 0 || alternatives.length > 0 || possibleComplements.length > 0) {
-                padContainer.innerHTML = relacionados.map(pad => {
+                padContainer.innerHTML = relacionados.map((pad, idx) => {
                     const related = getProductosRelacionadosPorGuia(pad, p.id);
                     const complements = related.filter(item => item.relationship === 'complement');
                     const others = related.filter(item => item.relationship === 'related');
-                    const renderGroup = (title, items) => items.length ? `<h5 class="advisor-relation-title">${title}</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${items.map(renderSinergiaProducto).join('')}</div>` : '';
+                    const renderGroup = (title, items) => items.length ? `<h5 class="advisor-relation-title text-xs font-bold uppercase tracking-wider text-indigo-900 mt-2 mb-1.5">${title} (${items.length})</h5><div class="grid grid-cols-1 sm:grid-cols-2 gap-2">${items.map(renderSinergiaProducto).join('')}</div>` : '';
                     const selectedRole = (pad.comboPrincipal || []).some(item => item.id === p.id) ? 'Opción de la guía' : 'Opción adicional';
+                    const isOpen = relacionados.length === 1 || idx === 0;
                     return `
-                        <section class="rounded-2xl border border-indigo-200 bg-indigo-50/70 p-3">
-                            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
-                                <button type="button" onclick="closeModalFn(); document.getElementById('padecimientosGuideWeb').scrollIntoView({behavior:'smooth'}); setTimeout(() => scrollToPadecimiento('${pad.id}'), 400);"
-                                    class="text-left text-sm font-bold text-indigo-800 hover:underline flex items-center gap-1.5">
+                        <details class="advisor-guide-accordion advisor-alternatives rounded-2xl border border-indigo-200 bg-indigo-50/70 p-3 mb-2" ${isOpen ? 'open' : ''}>
+                            <summary class="cursor-pointer flex flex-wrap items-center justify-between gap-2 select-none">
+                                <span class="text-sm font-bold text-indigo-800 flex items-center gap-1.5">
                                     <span>${pad.emoji || '🎯'}</span><span>${pad.name}</span>
-                                </button>
-                                <span class="rounded-full bg-white border border-indigo-200 px-2 py-1 text-[10px] font-bold uppercase tracking-wide text-indigo-600">${selectedRole}</span>
+                                    <span class="text-xs font-normal text-indigo-600/80">(${related.length} opciones)</span>
+                                </span>
+                                <span class="rounded-full bg-white border border-indigo-200 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-indigo-600">${selectedRole}</span>
+                            </summary>
+                            <div class="mt-2.5 pt-2 border-t border-indigo-100/70">
+                                <div class="flex items-center justify-between gap-2 mb-2">
+                                    <span class="text-[11px] text-gray-500">Guía de apoyo nutricional</span>
+                                    <button type="button" onclick="closeModalFn(); document.getElementById('padecimientosGuideWeb').scrollIntoView({behavior:'smooth'}); setTimeout(() => scrollToPadecimiento('${pad.id}'), 400);"
+                                        class="text-[11px] font-semibold text-indigo-700 hover:underline inline-flex items-center gap-1">
+                                        Ver protocolo completo ↗
+                                    </button>
+                                </div>
+                                ${renderGroup('Complementos posibles', complements)}
+                                ${renderGroup('Otras opciones de la guía', others)}
+                                ${!complements.length && !others.length ? '<p class="advisor-guide-context text-xs text-gray-500 italic mt-1">Las opciones similares están en «Alternativas para comparar».</p>' : ''}
                             </div>
-                            <p class="advisor-guide-context">Consulta interna por tema. El nombre de la guía no describe un beneficio demostrado de este producto.</p>
-                            ${renderGroup('Complementos posibles: revisar porciones, duplicados e interacciones', complements)}
-                            ${renderGroup('Otras opciones relacionadas: combinación no evaluada', others)}
-                            ${!complements.length && !others.length ? '<p class="advisor-guide-context">Las opciones similares están en «Alternativas para comparar».</p>' : ''}
-                        </section>`;
+                        </details>`;
                 }).join('');
                 padWrap.classList.remove('hidden');
             } else {
@@ -2013,8 +2015,16 @@
 
             const sections = [
                 {
-                    kicker: 'Para decidir',
-                    title: 'Información práctica',
+                    kicker: 'Indicaciones',
+                    title: 'Modo de consumo',
+                    rows: [
+                        { label: 'Horario', compact: true, get: (product) => escapeGuideAttribute(product.timing || '-') },
+                        { label: 'Modo de uso', get: (product) => escapeGuideAttribute(product.intakeInstructions || '-') }
+                    ]
+                },
+                {
+                    kicker: 'Para elegir',
+                    title: 'Fórmula y beneficios',
                     rows: [
                         { label: 'Qué aporta', get: (product) => product.shortDesc || '-' },
                         { label: 'Beneficios clave', get: (product) => {
@@ -2024,11 +2034,7 @@
                             return benefits + renderProductSources(product) || '-';
                         } },
                         { label: 'Ingredientes', get: (product) => product.ingredients || '-' },
-                        { label: 'Lo que lo distingue', get: (product) => escapeGuideAttribute(product.choiceNote || '-') },
-                        { label: 'Contenido del envase', get: (product) => product.packageContent || '-' },
-                        { label: 'Porción sugerida', get: (product) => product.serving || '-' },
-                        { label: 'Horario', get: (product) => product.timing || '-' },
-                        { label: 'Modo de uso', get: (product) => product.intakeInstructions || '-' }
+                        { label: 'Lo que lo distingue', get: (product) => escapeGuideAttribute(product.choiceNote || '-') }
                     ]
                 },
                 {
@@ -2042,29 +2048,44 @@
                 }
             ];
 
-            let html = `<div class="compare-matrix" style="--compare-count:${items.length}">`;
-            html += `<div class="compare-products-row">
-                <div class="compare-products-label"><span>Comparando</span><strong>${items.length} productos</strong></div>`;
+            let html = `<div class="compare-matrix" data-count="${items.length}" style="--compare-count:${items.length}">`;
+            html += '<div class="compare-summary" role="group" aria-label="Resumen de productos">';
             items.forEach((product) => {
                 const categoryInfo = categoryIcons[product.category] || { emoji: '🌿', name: product.category || 'Producto' };
+                const { value, note } = getProductYield(product);
                 html += `<article class="compare-product-head" data-category="${escapeGuideAttribute(product.category)}">
                     <span class="compare-product-category"><span aria-hidden="true">${categoryInfo.emoji}</span>${categoryInfo.name}</span>
-                    <span class="compare-product-image"><img src="${escapeGuideAttribute(product.image)}" alt="${escapeGuideAttribute(product.name)}" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=IMG';"></span>
-                    <h4>${product.name}</h4>
+                    <span class="compare-product-image"><img src="${escapeGuideAttribute(product.image)}" alt="" onerror="this.onerror=null; this.src='https://placehold.co/200x200/e2e8f0/475569?text=IMG';"></span>
+                    <h4>${escapeGuideAttribute(product.name)}</h4>
+                    <div class="compare-product-summary">
+                        <dl>
+                            <div class="compare-yield">
+                                <dt>Rendimiento estimado</dt>
+                                <dd class="compare-yield-value">${escapeGuideAttribute(value)}</dd>
+                            </div>
+                            <div><dt>Envase</dt><dd>${escapeGuideAttribute(product.packageContent || '—')}</dd></div>
+                            <div><dt>Porción</dt><dd>${escapeGuideAttribute(product.serving || '—')}</dd></div>
+                        </dl>
+                        <small class="compare-yield-note">${escapeGuideAttribute(note)}</small>
+                    </div>
                 </article>`;
             });
             html += '</div>';
+            html += `<div class="compare-products-row" aria-hidden="true">
+                <div class="compare-products-label">${items.length} productos</div>
+                ${items.map((product) => `<span class="compare-sticky-name">${escapeGuideAttribute(product.name)}</span>`).join('')}
+            </div>`;
 
             sections.forEach((section) => {
                 html += `<section class="compare-section">
                     <header class="compare-section-heading"><span>${section.kicker}</span><h4>${section.title}</h4></header>`;
                 section.rows.forEach((row) => {
-                    html += `<div class="compare-row"><h5 class="compare-row-label">${row.label}</h5>`;
+                    html += `<div class="compare-row${row.compact ? ' compare-row-compact' : ''}"><h5 class="compare-row-label">${row.label}</h5>`;
                     items.forEach((product) => {
                         const value = row.get(product);
                         const emptyClass = value === '-' ? ' is-empty' : '';
                         html += `<div class="compare-value${emptyClass}">
-                            <span class="compare-mobile-product">${product.name}</span>
+                            <span class="compare-mobile-product">${escapeGuideAttribute(product.name)}</span>
                             <div>${value}</div>
                         </div>`;
                     });
