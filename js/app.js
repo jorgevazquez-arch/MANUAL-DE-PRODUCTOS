@@ -144,7 +144,8 @@
             { key: 'red', emoji: '🔴', name: 'Salud Cardiovascular y Clínica' },
             { key: 'blue', emoji: '🔵', name: 'Sistema Inmune y Respiratorio' },
             { key: 'yellow', emoji: '🟡', name: 'Sistema Locomotor y Deportivo' },
-            { key: 'gray', emoji: '⚪', name: 'Condiciones Complejas' }
+            { key: 'teal', emoji: '🩵', name: 'Piel y Cuidado Dérmico' },
+            { key: 'gray', emoji: '⚪', name: 'Apoyo Clínico Especializado' }
         ];
 
         const categoryDescriptions = {
@@ -200,6 +201,7 @@
                     red: 'bg-rose-500',
                     blue: 'bg-blue-500',
                     yellow: 'bg-amber-400',
+                    teal: 'bg-teal-500',
                     gray: 'bg-slate-400'
                 };
 

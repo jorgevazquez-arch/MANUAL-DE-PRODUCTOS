@@ -3812,7 +3812,7 @@ window.manualData.padecimientos = [
     "id": "psoriasis_vitiligo",
     "name": "Psoriasis y Vitiligo (Apoyo Autoinmune)",
     "emoji": "🛡️",
-    "color": "gray",
+    "color": "teal",
     "description": "La psoriasis y el vitiligo son problemas distintos de la piel y necesitan atención dermatológica. El apoyo nutricional acompaña necesidades individuales; no se presenta como una forma de curar las lesiones o recuperar el color de la piel.",
     "symptoms": [
       "Placas rojas con escamas (Psoriasis)",
@@ -3870,7 +3870,7 @@ window.manualData.padecimientos = [
     "id": "acne_espinillas",
     "name": "Acné y Espinillas",
     "emoji": "🧡",
-    "color": "gray",
+    "color": "teal",
     "description": "El acné puede causar espinillas, puntos negros y lesiones inflamadas. El apoyo nutricional acompaña el cuidado de la piel y la atención dermatológica según la intensidad del problema.",
     "symptoms": [
       "Puntos negros, espinillas, pústulas",
@@ -4003,7 +4003,7 @@ window.manualData.padecimientos = [
     "id": "urticaria",
     "name": "Urticaria",
     "emoji": "🌡️",
-    "color": "gray",
+    "color": "teal",
     "description": "La urticaria causa ronchas y comezón, a veces relacionadas con alimentos, medicamentos u otros desencadenantes. Primero se identifica la causa y se sigue el tratamiento indicado; los suplementos solo se valoran como apoyo individual.",
     "symptoms": [
       "Ronchas rojas o pálidas elevadas (habones)",
@@ -4252,7 +4252,7 @@ window.manualData.padecimientos = [
     "id": "celulitis",
     "name": "Celulitis (Piel de Naranja)",
     "emoji": "🍊",
-    "color": "gray",
+    "color": "teal",
     "description": "La celulitis es un cambio frecuente en la textura de la piel. El cuidado puede incluir actividad física, alimentación y masaje; los productos de apoyo no garantizan eliminarla.",
     "symptoms": [
       "Piel con apariencia de hoyuelos (\"piel de naranja\")",
@@ -4650,7 +4650,7 @@ window.manualData.padecimientos = [
     "id": "piel_antienvejecimiento",
     "name": "Piel y Antienvejecimiento",
     "emoji": "✨",
-    "color": "gray",
+    "color": "teal",
     "description": "Con el tiempo, la piel puede perder firmeza y sentirse más seca. Las opciones buscan acompañar su nutrición y cuidado, junto con protección solar, hidratación y buenos hábitos.",
     "symptoms": [
       "Piel flácida o con menor firmeza",
@@ -5195,7 +5195,7 @@ window.manualData.padecimientos = [
     "id": "dermatitis_psoriasis_topica",
     "name": "Dermatitis, Placas y Psoriasis Tópica",
     "emoji": "🧴",
-    "color": "gray",
+    "color": "teal",
     "description": "Las erupciones cutáneas con escamas gruesas, enrojecimiento y prurito requieren atención combinada desde el interior y a nivel tópico. Las opciones de esta guía desprenden las placas queratósicas y modulan la inflamación de la piel.",
     "symptoms": [
       "Placas rojas con escamas gruesas y plateadas en codos o rodillas",
@@ -5244,7 +5244,7 @@ window.manualData.padecimientos = [
     "id": "cicatrices_estrias_piel",
     "name": "Cicatrices, Estrías y Regeneración Dérmica",
     "emoji": "✨",
-    "color": "gray",
+    "color": "teal",
     "description": "Las marcas postquirúrgicas, cesáreas, heridas cerradas y estrías por cambios de peso se benefician de nutrientes regeneradores dérmicos. Las opciones de esta guía aportan ácidos grasos y péptidos estructurales para alinear el tejido.",
     "symptoms": [
       "Cicatrices quirúrgicas recientes o cesáreas con borde engrosado",
@@ -6385,7 +6385,7 @@ window.manualData.padecimientos = [
     "id": "pano_manchas_piel",
     "name": "Paño Facial y Manchas en la Piel",
     "emoji": "✨",
-    "color": "gray",
+    "color": "teal",
     "description": "El paño facial (melasma) y las manchas por exposición al sol o cambios hormonales requieren protección solar diaria estricta como paso indispensable. Estas opciones ofrecen antioxidantes orales que defienden la piel desde adentro y cuidado tópico nocturno para favorecer un tono más parejo.",
     "symptoms": [
       "Manchas cafés o grisáceas en mejillas, frente, nariz o labio superior",
@@ -6456,7 +6456,7 @@ window.manualData.padecimientos = [
     "id": "caspa_cuero_cabelludo",
     "name": "Caspa y Cuero Cabelludo Graso o con Escamas",
     "emoji": "🧴",
-    "color": "gray",
+    "color": "teal",
     "description": "La caspa y el cuero cabelludo con grasa y escamas se relacionan con exceso de sebo, irritación local y proliferación de levaduras en la piel de la cabeza. Aunque el catálogo no cuenta con champús medicados específicos, estas opciones apoyan la salud de la piel y el equilibrio de grasa e inflamación desde el interior y a nivel tópico puntual.",
     "symptoms": [
       "Escamas blancas o amarillentas visibles en cuero cabelludo, cejas o hombros",
@@ -6521,7 +6521,7 @@ window.manualData.padecimientos = [
     "id": "piel_muy_seca",
     "name": "Piel Muy Seca y Resequedad Extrema",
     "emoji": "💧",
-    "color": "gray",
+    "color": "teal",
     "description": "Cuando la piel pierde humedad y aceites protectores se vuelve áspera, tirante y con descamación fina en piernas, brazos o manos. Estas opciones combinan hidratación profunda desde adentro (colágeno, ácido hialurónico y grasas buenas) con aceites y cremas para sellar la humectación por fuera.",
     "symptoms": [
       "Sensación de piel tirante después de bañarse o al estar en clima seco",
