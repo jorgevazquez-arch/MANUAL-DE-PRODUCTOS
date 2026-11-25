@@ -66,7 +66,7 @@ window.manualData.padecimientos = [
       "Realizar ejercicio físico regularmente.",
       "Consumir infusiones calmantes como TÉ 7 AZAHARES o TÉ MANZANILLA."
     ],
-    "safetyNote": "No combinar #94 Magnesium PM con #150 Triptófano+Teanina ni con antidepresivos (ISRS/IMAO) o ansiolíticos por riesgo de sedación excesiva o síndrome serotoninérgico; consultar al médico si toma medicación."
+    "safetyNote": "No combinar Magnesium PM con Triptófano+Teanina ni con antidepresivos (ISRS/IMAO) o ansiolíticos por riesgo de sedación excesiva o síndrome serotoninérgico; consultar al médico si toma medicación."
   },
   {
     "id": "fatiga_burnout",
@@ -157,7 +157,7 @@ window.manualData.padecimientos = [
       "Incorporar técnicas de relajación como meditación, yoga o mindfulness.",
       "Mantener una dieta rica en nutrientes."
     ],
-    "safetyNote": "Evitar estimulantes por la tarde o noche para no alterar el sueño; si ya tomas complejo B (#5/#192), no duplicar dosis ni combinar con antidepresivos o antihipertensivos sin supervisión médica."
+    "safetyNote": "Evitar estimulantes por la tarde o noche para no alterar el sueño; si ya tomas complejo B, no duplicar dosis ni combinar con antidepresivos o antihipertensivos sin supervisión médica."
   },
   {
     "id": "insomnio",
@@ -216,7 +216,7 @@ window.manualData.padecimientos = [
       "Mantener un horario de sueño regular.",
       "Tomar una infusión relajante como TÉ 7 AZAHARES o TÉ MANZANILLA."
     ],
-    "safetyNote": "Evitar combinar #94 Magnesium PM y #150 Triptófano+Teanina en la misma toma nocturna o junto con somníferos, alcohol o antidepresivos (ISRS/IMAO); si el insomnio persiste más de 3 semanas, acudir a valoración médica."
+    "safetyNote": "Evitar combinar Magnesium PM y Triptófano+Teanina en la misma toma nocturna o junto con somníferos, alcohol o antidepresivos (ISRS/IMAO); si el insomnio persiste más de 3 semanas, acudir a valoración médica."
   },
   {
     "id": "memoria_enfoque",
@@ -346,7 +346,7 @@ window.manualData.padecimientos = [
       "Mantener horarios regulares de sueño y comidas.",
       "Hidratación adecuada."
     ],
-    "safetyNote": "Acude a urgencias ante dolor súbito muy intenso, fiebre, rigidez de nuca, pérdida de visión o fuerza o dificultad para hablar. No duplicar complejo B (#4) ni combinar con triptanes sin consultar."
+    "safetyNote": "Acude a urgencias ante dolor súbito muy intenso, fiebre, rigidez de nuca, pérdida de visión o fuerza o dificultad para hablar. No duplicar complejo B ni combinar con triptanes sin consultar."
   },
   {
     "id": "fibromialgia",
@@ -407,7 +407,7 @@ window.manualData.padecimientos = [
       "Mantener una rutina de sueño regular.",
       "Utilizar FIX UZEN para masajear los puntos de dolor."
     ],
-    "safetyNote": "No sustituye el tratamiento médico del dolor crónico. Consultar si tomas antidepresivos, relajantes musculares o anticoagulantes, y evitar duplicar complejo B (#4) con otros suplementos."
+    "safetyNote": "No sustituye el tratamiento médico del dolor crónico. Consultar si tomas antidepresivos, relajantes musculares o anticoagulantes, y evitar duplicar complejo B con otros suplementos."
   },
   {
     "id": "ciatica",
@@ -467,7 +467,7 @@ window.manualData.padecimientos = [
       "Aplicar calor en la zona lumbar.",
       "Masajear la zona con FIX UZEN."
     ],
-    "safetyNote": "Acude a urgencias si hay pérdida de fuerza en pierna o pie, entumecimiento en zona genital o pérdida de control de esfínteres. Precaución con cúrcuma (#54) si tomas anticoagulantes."
+    "safetyNote": "Acude a urgencias si hay pérdida de fuerza en pierna o pie, entumecimiento en zona genital o pérdida de control de esfínteres. Precaución con cúrcuma si tomas anticoagulantes."
   },
   {
     "id": "depresion_apoyo",
@@ -532,7 +532,7 @@ window.manualData.padecimientos = [
       "Exponerse a la luz solar diariamente.",
       "Mantener una rutina y establecer metas pequeñas."
     ],
-    "safetyNote": "No suspender ni sustituir antidepresivos recetados; evitar #150 y #94 si toma ISRS/IMAO por riesgo serotoninérgico. Ante ideación suicida, aislamiento severo o empeoramiento súbito, buscar atención médica de urgencia."
+    "safetyNote": "No suspender ni sustituir antidepresivos recetados; evitar TRIPTOFANO TEANINA 500 mg y MAGNESIUM PM 600mg si toma ISRS/IMAO por riesgo serotoninérgico. Ante ideación suicida, aislamiento severo o empeoramiento súbito, buscar atención médica de urgencia."
   },
   {
     "id": "quistes_miomas",
@@ -588,7 +588,7 @@ window.manualData.padecimientos = [
       {
         "id": 79,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa suave en cápsula única frente a #52 y #180; no combinar entre sí.",
+        "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa suave en cápsula única frente a MYO + D-CHIRO INOSITOL 500 mg y PURE INOSITOL POWDER; no combinar entre sí.",
         "rationale": "Aporta 500 mg de myo-inositol puro al día para acompañar el cuidado ovárico de forma sencilla cuando se prefiere una sola cápsula diaria."
       },
       {
@@ -788,7 +788,7 @@ window.manualData.padecimientos = [
       "Buscar atención ante sangrado abundante, fiebre, dolor intenso, distensión con vómito, deshidratación o pérdida rápida de peso.",
       "No combinar de inicio varias fibras, prebióticos o probióticos; introducir una sola opción y registrar tolerancia."
     ],
-    "safetyNote": "Ningún suplemento sustituye el tratamiento médico para Crohn o colitis ulcerosa. No suspender medicamentos al mejorar. Evitar iniciar suplementos nuevos, fibras o probióticos durante un brote activo o si hay estrechez intestinal. Si toma inmunosupresores o biológicos, consultar antes de usar probióticos (#131)."
+    "safetyNote": "Ningún suplemento sustituye el tratamiento médico para Crohn o colitis ulcerosa. No suspender medicamentos al mejorar. Evitar iniciar suplementos nuevos, fibras o probióticos durante un brote activo o si hay estrechez intestinal. Si toma inmunosupresores o biológicos, consultar antes de usar probióticos."
   },
   {
     "id": "erge_acidez",
@@ -899,7 +899,7 @@ window.manualData.padecimientos = [
       {
         "id": 77,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Tomar 3 cápsulas al día antes de las comidas principales (no combinar con #43 ni usar si hay piedras en la vesícula o varios medicamentos).",
+        "usage": "Tomar 3 cápsulas al día antes de las comidas principales (no combinar con CARSYL GREEN ni usar si hay piedras en la vesícula o varios medicamentos).",
         "rationale": "Planta andina tradicional que apoya el aprovechamiento de las grasas y el colesterol, aliviando la sensación de boca amarga o pesadez."
       }
     ],
@@ -909,7 +909,7 @@ window.manualData.padecimientos = [
       "Controlar glucosa, presión y colesterol y triglicéridos con seguimiento profesional.",
       "Evitar combinar varios productos herbales al mismo tiempo."
     ],
-    "safetyNote": "Ningún suplemento reemplaza el plan de alimentación, la actividad física ni el control médico. Evitar combinar varias plantas biliares o herbales al mismo tiempo (#43, #77, #54), especialmente si existen piedras en la vesícula, obstrucción biliar, embarazo, lactancia o uso de anticoagulantes, estatinas o medicamentos para la diabetes."
+    "safetyNote": "Ningún suplemento reemplaza el plan de alimentación, la actividad física ni el control médico. Evitar combinar varias plantas biliares o herbales al mismo tiempo, especialmente si existen piedras en la vesícula, obstrucción biliar, embarazo, lactancia o uso de anticoagulantes, estatinas o medicamentos para la diabetes."
   },
   {
     "id": "cirrosis",
@@ -1024,7 +1024,7 @@ window.manualData.padecimientos = [
       "No intentar disolver o expulsar cálculos con suplementos.",
       "Buscar atención urgente ante dolor que dura varias horas, fiebre, vómitos o color amarillo en piel u ojos."
     ],
-    "safetyNote": "Ante dolor fuerte o repentino en la parte superior derecha del abdomen (cólico biliar), fiebre, escalofríos, vómitos o piel y ojos amarillos, acudir a urgencias médicas de inmediato. Nunca usar suplementos para intentar disolver o expulsar piedras. Evitar plantas estimulantes de la vesícula —como cúrcuma (#54), alcachofa, boldo (#226), diente de león y rábano negro (#43), hercampuri (#77) o yumel (#115)— sin valoración médica."
+    "safetyNote": "Ante dolor fuerte o repentino en la parte superior derecha del abdomen (cólico biliar), fiebre, escalofríos, vómitos o piel y ojos amarillos, acudir a urgencias médicas de inmediato. Nunca usar suplementos para intentar disolver o expulsar piedras. Evitar plantas estimulantes de la vesícula —como cúrcuma, alcachofa, boldo, diente de león y rábano negro, hercampuri o yumel— sin valoración médica."
   },
   {
     "id": "candida",
@@ -1102,7 +1102,7 @@ window.manualData.padecimientos = [
       "Mantener una alimentación equilibrada sin prometer que eliminar azúcar erradica por sí sola la infección.",
       "No combinar varias presentaciones de aceite de orégano."
     ],
-    "safetyNote": "Estas opciones son solo apoyo digestivo y no sustituyen el tratamiento antimicótico médico. Elegir una sola presentación de aceite de orégano (#2, #16, #224, #208 o #216), nunca combinarlas. Separar los probióticos (#129, #131) al menos 2 horas del aceite de orégano o ajo negro (#23) para no reducir su efecto. Consultar si toma anticoagulantes, medicamentos para diabetes o presión, o en embarazo/lactancia."
+    "safetyNote": "Estas opciones son solo apoyo digestivo y no sustituyen el tratamiento antimicótico médico. Elegir una sola presentación de aceite de orégano, nunca combinarlas. Separar los probióticos al menos 2 horas del aceite de orégano o ajo negro para no reducir su efecto. Consultar si toma anticoagulantes, medicamentos para diabetes o presión, o en embarazo/lactancia."
   },
   {
     "id": "estrenimiento_cronico",
@@ -1167,7 +1167,7 @@ window.manualData.padecimientos = [
       "Mantener actividad física regular.",
       "Consultar a un profesional de la salud si el estreñimiento persiste o aparece sangre en las heces, pérdida de peso, anemia, vómitos o dolor abdominal intenso."
     ],
-    "safetyNote": "Aumentar la fibra (#151, #140) poco a poco y beber al menos 2 litros de agua al día para evitar más gases o tapones. No abusar de laxantes estimulantes como el Té Hoja Sen (#173, máximo 7 días seguidos) ni combinar varios laxantes a la vez. Acudir al médico si hay dolor abdominal fuerte, vómito, sangre en heces o falta repentina de gases."
+    "safetyNote": "Aumentar la fibra poco a poco y beber al menos 2 litros de agua al día para evitar más gases o tapones. No abusar de laxantes estimulantes como el Té Hoja Sen (TÉ HOJA SEN, máximo 7 días seguidos) ni combinar varios laxantes a la vez. Acudir al médico si hay dolor abdominal fuerte, vómito, sangre en heces o falta repentina de gases."
   },
   {
     "id": "hipertension",
@@ -1208,19 +1208,19 @@ window.manualData.padecimientos = [
       {
         "id": 128,
         "serving": "3 cápsulas (2.05 g)",
-        "usage": "Tomar 3 cápsulas al día con alimentos SOLO con autorización médica y estudios recientes; evitar si toma enalapril, losartán, espironolactona o tiene daño renal (y no sumar con dosis altas de magnesio #181 sin revisar).",
+        "usage": "Tomar 3 cápsulas al día con alimentos SOLO con autorización médica y estudios recientes; evitar si toma enalapril, losartán, espironolactona o tiene daño renal (y no sumar con dosis altas de magnesio MAGNESIUM BISGLYCINATE sin revisar).",
         "rationale": "Aporta potasio (citrato y cloruro) y magnesio para equilibrar el sodio del cuerpo y ayudar a eliminar su exceso por la orina."
       },
       {
         "id": 101,
         "serving": "1 cápsula",
-        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o CoQ10 #136, no ambas; revisar si toma warfarina).",
+        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o CoQ10 Q10 (Coenzima Q10), no ambas; revisar si toma warfarina).",
         "rationale": "Forma activa de CoQ10 que da energía al corazón y protege las paredes de las arterias del desgaste."
       },
       {
         "id": 136,
         "serving": "1 cápsula (500 mg)",
-        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o Ubiquinol #101, no ambas; revisar si toma warfarina o hipotensores).",
+        "usage": "1 cápsula al día con comida que contenga grasas (elegir esta o Ubiquinol UBIQUINOL KANEKA, no ambas; revisar si toma warfarina o hipotensores).",
         "rationale": "Ayuda a producir energía en las células del corazón para que lata con fuerza y cuida la elasticidad arterial."
       },
       {
@@ -1237,7 +1237,7 @@ window.manualData.padecimientos = [
       "Revisar apnea del sueño, peso, diabetes, función renal y otros factores con el equipo de salud.",
       "Una presión de 180/120 mmHg o más acompañada de dolor de pecho, falta de aire, déficit neurológico, confusión o alteración visual requiere atención urgente."
     ],
-    "safetyNote": "No suspendas ni cambies tus medicamentos para la presión. Si tomas enalapril, losartán, espironolactona, anticoagulantes o tienes enfermedad renal, consulta al médico antes de usar potasio (#128), ajo negro (#23), omega-3 (#123) o CoQ10 (#101/#136)."
+    "safetyNote": "No suspendas ni cambies tus medicamentos para la presión. Si tomas enalapril, losartán, espironolactona, anticoagulantes o tienes enfermedad renal, consulta al médico antes de usar potasio, ajo negro, omega-3 o CoQ10."
   },
   {
     "id": "varices_circulacion",
@@ -1256,7 +1256,7 @@ window.manualData.padecimientos = [
       {
         "id": 182,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar externamente con masaje suave de tobillos hacia arriba 2 veces al día (no aplicar sobre heridas ni úlceras abiertas, ni junto con gel CT-O #183).",
+        "usage": "Aplicar externamente con masaje suave de tobillos hacia arriba 2 veces al día (no aplicar sobre heridas ni úlceras abiertas, ni junto con gel CT-O CT-O).",
         "rationale": "Gel refrescante con árnica, castaño de Indias y centella asiática que descansa las piernas pesadas y ayuda a desinflamar la zona mediante masaje."
       },
       {
@@ -1306,7 +1306,7 @@ window.manualData.padecimientos = [
       {
         "id": 183,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar externamente con masaje suave ascendente 1 a 2 veces al día (no usar sobre piel abierta ni combinar en la misma zona con Moroizy Gel #182).",
+        "usage": "Aplicar externamente con masaje suave ascendente 1 a 2 veces al día (no usar sobre piel abierta ni combinar en la misma zona con Moroizy Gel MOROIZY GEL).",
         "rationale": "Gel refrescante con castaño de Indias, hamamelis y ginkgo que alivia la pesadez y da ligereza a las piernas."
       }
     ],
@@ -1454,7 +1454,7 @@ window.manualData.padecimientos = [
       {
         "id": 139,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Tomar 3 cápsulas al día con agua (elegir esta o Té Rinichi #177, sin combinar varios diuréticos ni usar si hay dolor agudo u obstrucción).",
+        "usage": "Tomar 3 cápsulas al día con agua (elegir esta o Té Rinichi TÉ RINICHI, sin combinar varios diuréticos ni usar si hay dolor agudo u obstrucción).",
         "rationale": "Plantas tradicionales (palo azul, cola de caballo y pelo de elote) que favorecen el flujo urinario y el arrastre de arenillas."
       },
       {
@@ -1466,7 +1466,7 @@ window.manualData.padecimientos = [
       {
         "id": 213,
         "serving": "3 tabletas al día (1 antes de cada alimento)",
-        "usage": "Tomar 1 tableta antes de cada comida principal SOLO con valoración médica (no combinar con #139, #177 ni #148 para no duplicar plantas; evitar en embarazo o daño renal/biliar).",
+        "usage": "Tomar 1 tableta antes de cada comida principal SOLO con valoración médica (no combinar con RINICHI, TÉ RINICHI ni TO ADZEN / HIERBA DE SAPO 500 mg para no duplicar plantas; evitar en embarazo o daño renal/biliar).",
         "rationale": "Combina chanca piedra, cola de caballo y hierbas tradicionales para apoyar la limpieza de las vías urinarias."
       }
     ],
@@ -1474,13 +1474,13 @@ window.manualData.padecimientos = [
       {
         "id": 177,
         "serving": "1 sobre (2 g) por taza",
-        "usage": "Preparar 1 taza al día con 1 sobre (elegir este o Rinichi cápsulas #139, sin duplicar; no usar si hay obstrucción urinaria).",
+        "usage": "Preparar 1 taza al día con 1 sobre (elegir este o Rinichi cápsulas RINICHI, sin duplicar; no usar si hay obstrucción urinaria).",
         "rationale": "Infusión diurética suave sin cafeína que apoya el flujo diario de orina y el bienestar de las vías urinarias."
       },
       {
         "id": 148,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Tomar 3 cápsulas al día con alimentos (no combinar con Cha-Ha Stone #213; evitar en daño renal o cálculos biliares).",
+        "usage": "Tomar 3 cápsulas al día con alimentos (no combinar con Cha-Ha Stone CHA-HA STONE; evitar en daño renal o cálculos biliares).",
         "rationale": "Hierba del sapo tradicional que acompaña el equilibrio de grasas y el cuidado urinario."
       }
     ],
@@ -1523,19 +1523,19 @@ window.manualData.padecimientos = [
       {
         "id": 61,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Vitamina C-1000 #108 para no exceder vitamina C; evitar en alergia a Asteraceae o inmunosupresores).",
+        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Vitamina C-1000 VITAMINA C-1000 NOW para no exceder vitamina C; evitar en alergia a Asteraceae o inmunosupresores).",
         "rationale": "Equinácea con 300 mg de vitamina C que respalda las defensas naturales del organismo frente a infecciones frecuentes."
       },
       {
         "id": 27,
         "serving": "30 ml por toma",
-        "usage": "Agitar bien. Tomar 30 ml 3 veces al día antes de los alimentos (refrigerar al abrir; no duplicar con Cranberry #6 y evitar en embarazo o sin revisar warfarina/oxalatos).",
+        "usage": "Agitar bien. Tomar 30 ml 3 veces al día antes de los alimentos (refrigerar al abrir; no duplicar con Cranberry CRANBERRY URY, ARANDANO ROJO 1000 mg y evitar en embarazo o sin revisar warfarina/oxalatos).",
         "rationale": "Combina sábila y arándano rojo para refrescar el sistema digestivo y apoyar el cuidado preventivo de las vías urinarias."
       },
       {
         "id": 108,
         "serving": "1 cápsula (aprox. 1 g)",
-        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Equinácea+C #61; evitar en antecedentes de piedras de oxalato o daño renal).",
+        "usage": "Tomar 1 cápsula al día con alimentos (no combinar con Equinácea+C EQUINACEA Y VITAMINA C; evitar en antecedentes de piedras de oxalato o daño renal).",
         "rationale": "Vitamina C con rutina y bioflavonoides que apoya las defensas y ayuda a mantener un ambiente menos favorable para bacterias urinarias."
       },
       {
@@ -1551,7 +1551,7 @@ window.manualData.padecimientos = [
       "Evitar duchas vaginales y productos irritantes.",
       "Solicitar atención médica ante síntomas activos, y de urgencia si hay fiebre, escalofríos, vómitos o dolor en la espalda o costado."
     ],
-    "safetyNote": "Estas opciones son solo apoyo preventivo y nunca sustituyen los antibióticos ni la valoración médica. Si presentas fiebre, escalofríos, dolor en la espalda baja o costado, vómitos o sangre en la orina, acude de inmediato al médico o a urgencias. No dupliques fuentes de vitamina C (#108 con #61) ni tomes arándano (#6, #27) o ajo negro (#22) sin consultar si usas anticoagulantes o tienes antecedentes de piedras de oxalato."
+    "safetyNote": "Estas opciones son solo apoyo preventivo y nunca sustituyen los antibióticos ni la valoración médica. Si presentas fiebre, escalofríos, dolor en la espalda baja o costado, vómitos o sangre en la orina, acude de inmediato al médico o a urgencias. No dupliques fuentes de vitamina C (VITAMINA C-1000 NOW con EQUINACEA Y VITAMINA C) ni tomes arándano o ajo negro sin consultar si usas anticoagulantes o tienes antecedentes de piedras de oxalato."
   },
   {
     "id": "inflamacion_edema",
@@ -1570,7 +1570,7 @@ window.manualData.padecimientos = [
       {
         "id": 182,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar externamente con masaje ascendente en piernas y tobillos (no usar sobre piel abierta ni junto con CT-O #183).",
+        "usage": "Aplicar externamente con masaje ascendente en piernas y tobillos (no usar sobre piel abierta ni junto con CT-O CT-O).",
         "rationale": "Gel con árnica y centella asiática que, con masaje suave, ayuda a bajar la hinchazón y la piel tirante en piernas y tobillos."
       },
       {
@@ -1590,19 +1590,19 @@ window.manualData.padecimientos = [
       {
         "id": 123,
         "serving": "3 cápsulas",
-        "usage": "Tomar 3 cápsulas con el desayuno (elegir este o Omega 3 Salmón #122, no ambos; revisar si toma anticoagulantes).",
+        "usage": "Tomar 3 cápsulas con el desayuno (elegir este o Omega 3 Salmón OMEGA 3 SALMON OIL, no ambos; revisar si toma anticoagulantes).",
         "rationale": "Omega-3 concentrado que ayuda a bajar la inflamación de los vasos y a disminuir la acumulación de líquido en los tejidos."
       },
       {
         "id": 122,
         "serving": "1 cápsula",
-        "usage": "Tomar 1 cápsula al día con comida que contenga grasas (elegir este o Omega Nordic #123, no ambos; revisar si toma anticoagulantes).",
+        "usage": "Tomar 1 cápsula al día con comida que contenga grasas (elegir este o Omega Nordic OMEGA NORDIC 3000, no ambos; revisar si toma anticoagulantes).",
         "rationale": "Aceite de salmón que ayuda a desinflamar los vasos pequeños y aliviar la pesadez en las piernas."
       },
       {
         "id": 183,
         "serving": "Una aplicación (capa fina)",
-        "usage": "Aplicar externamente con masaje ascendente (no aplicar sobre heridas abiertas ni combinar con Moroizy Gel #182).",
+        "usage": "Aplicar externamente con masaje ascendente (no aplicar sobre heridas abiertas ni combinar con Moroizy Gel MOROIZY GEL).",
         "rationale": "Gel de efecto térmico y refrescante que, con masaje ascendente, ayuda a desinflamar y aliviar la tirantez en tobillos y pies."
       }
     ],
@@ -1612,7 +1612,7 @@ window.manualData.padecimientos = [
       "No aumentar ni restringir líquidos sin conocer la causa.",
       "Buscar atención urgente ante falta de aire, dolor de pecho, edema de una sola pierna o aumento rápido de peso."
     ],
-    "safetyNote": "La hinchazón puede deberse a problemas del corazón, riñón o hígado y requiere valoración médica. No uses potasio (#47) si tomas enalapril, losartán o espironolactona, ni castaño de Indias (#44) si tienes daño renal o hepático."
+    "safetyNote": "La hinchazón puede deberse a problemas del corazón, riñón o hígado y requiere valoración médica. No uses potasio si tomas enalapril, losartán o espironolactona, ni castaño de Indias si tienes daño renal o hepático."
   },
   {
     "id": "artritis_reumatoide",
@@ -1672,7 +1672,7 @@ window.manualData.padecimientos = [
       "Seguir una alimentación equilibrada; eliminar gluten o lácteos solo si existe diagnóstico o intolerancia individual.",
       "Revisar anticoagulantes antes de combinar omega-3, cúrcuma u otros productos con efecto sobre sangrado."
     ],
-    "safetyNote": "Apoyo complementario que no sustituye tu tratamiento reumatológico. Si tomas anticoagulantes, consulta antes de usar cúrcuma (#54) u omega-3 (#123)."
+    "safetyNote": "Apoyo complementario que no sustituye tu tratamiento reumatológico. Si tomas anticoagulantes, consulta antes de usar cúrcuma u omega-3."
   },
   {
     "id": "acido_urico",
@@ -1768,13 +1768,13 @@ window.manualData.padecimientos = [
       {
         "id": 41,
         "serving": "2 cápsulas (2 g)",
-        "usage": "Con comidas que incluyan carbohidratos. No juntar con otros productos con cromo o hierro (#45, #29) y separar al menos 2 horas de levotiroxina o antibióticos.",
+        "usage": "Con comidas que incluyan carbohidratos. No juntar con otros productos con cromo o hierro y separar al menos 2 horas de levotiroxina o antibióticos.",
         "rationale": "Combina canela y cromo para aprovechar mejor los carbohidratos y evitar el bajón de sueño tras comer, además de aportar vitaminas B1, B2 y B12 y hierro para la energía diaria."
       },
       {
         "id": 52,
         "serving": "4 cápsulas (2 g)",
-        "usage": "Con los alimentos (pueden repartirse 2 en el desayuno y 2 en la comida). Opción compatible si toma estatinas; no juntar con otros inositoles (#79, #180 o #53).",
+        "usage": "Con los alimentos (pueden repartirse 2 en el desayuno y 2 en la comida). Opción compatible si toma estatinas; no juntar con otros inositoles.",
         "rationale": "Ayuda a que las células respondan mejor a la insulina, calma los antojos de dulces y harinas y apoya el equilibrio hormonal cuando también hay ovario poliquístico."
       }
     ],
@@ -1788,13 +1788,13 @@ window.manualData.padecimientos = [
       {
         "id": 103,
         "serving": "15 ml (1 cucharada sopera)",
-        "usage": "Diluir siempre en un vaso grande de agua (200-250 ml) y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis activa, úlcera o reflujo severo y no juntar con #104.",
+        "usage": "Diluir siempre en un vaso grande de agua (200-250 ml) y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis activa, úlcera o reflujo severo y no juntar con VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS).",
         "rationale": "Su ácido natural vuelve más lenta la digestión de harinas y azúcares, ayudando a suavizar las subidas de glucosa tras comer y favorecer la saciedad."
       },
       {
         "id": 104,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a #103; no usar ambos ni juntar con #41 por repetir canela). Evitar en úlcera o reflujo severo y consultar si toma anticoagulantes.",
+        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a VINAGRE DE MANZANA; no usar ambos ni juntar con CANELA CROMO por repetir canela). Evitar en úlcera o reflujo severo y consultar si toma anticoagulantes.",
         "rationale": "Alternativa práctica en cápsulas de vinagre de manzana con cúrcuma, jengibre y canela para suavizar la subida de azúcar tras comer sin dañar el esmalte dental."
       },
       {
@@ -1806,13 +1806,13 @@ window.manualData.padecimientos = [
       {
         "id": 29,
         "serving": "2 cápsulas (1.2 g)",
-        "usage": "Justo antes o durante las comidas principales. No combinar con #17 (ya aporta 100 mg de ácido alfa lipoico) ni con #41 o #45 (ya aporta cromo); separar 2 horas de antibióticos.",
+        "usage": "Justo antes o durante las comidas principales. No combinar con ÁCIDO ALFA LIPÓICO (ya aporta 100 mg de ácido alfa lipoico) ni con CANELA CROMO o CHROMIUM (ya aporta cromo); separar 2 horas de antibióticos.",
         "rationale": "Fórmula integral sin cafeína con plantas metabólicas, cromo, ácido alfa lipoico y probióticos para aprovechar mejor azúcares y grasas y cuidar la digestión en un solo producto."
       },
       {
         "id": 45,
         "serving": "1 cápsula (400 mg)",
-        "usage": "Antes de comer o con el desayuno. Alternativa suave a #41 sin hierro ni complejo B; no juntar con #41, #29 ni #195.",
+        "usage": "Antes de comer o con el desayuno. Alternativa suave a CANELA CROMO sin hierro ni complejo B; no juntar con CANELA CROMO, AMP-ON 60 caps 600mg ni DYNEEM.",
         "rationale": "Aporte suave de polinicotinato de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar los antojos dulces y el uso cotidiano de carbohidratos."
       },
       {
@@ -1824,13 +1824,13 @@ window.manualData.padecimientos = [
       {
         "id": 79,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con alimentos (aunque el nombre diga «Powder», viene en cápsulas). Alternativa suave de mantenimiento frente a #52 y #180; no tomar juntos.",
+        "usage": "Con alimentos (aunque el nombre diga «Powder», viene en cápsulas). Alternativa suave de mantenimiento frente a MYO + D-CHIRO INOSITOL 500 mg y PURE INOSITOL POWDER; no tomar juntos.",
         "rationale": "Opción práctica de una cápsula diaria con 500 mg de myo-inositol puro para acompañar el cuidado inicial de antojos y carbohidratos."
       },
       {
         "id": 180,
         "serving": "5 g al día (1 cucharadita)",
-        "usage": "Disolver en agua o bebida sin azúcar y tomar junto con una comida (envase de 50 g = 10 días). Alternativa en polvo a #52; no combinar entre sí.",
+        "usage": "Disolver en agua o bebida sin azúcar y tomar junto con una comida (envase de 50 g = 10 días). Alternativa en polvo a MYO + D-CHIRO INOSITOL 500 mg; no combinar entre sí.",
         "rationale": "Inositol 100 % puro en polvo sin sabor para quienes prefieren tomarlo en bebida en lugar de cápsulas y apoyar la respuesta a la insulina y los antojos."
       },
       {
@@ -1842,7 +1842,7 @@ window.manualData.padecimientos = [
       {
         "id": 17,
         "serving": "2 cápsulas (300 mg)",
-        "usage": "Justo antes o durante las comidas principales. Separar al menos 4 horas de levotiroxina y no combinar con #29 ni #118 (ya contienen ácido alfa lipoico).",
+        "usage": "Justo antes o durante las comidas principales. Separar al menos 4 horas de levotiroxina y no combinar con AMP-ON 60 caps 600mg ni NEEM CON NOPAL (ya contienen ácido alfa lipoico).",
         "rationale": "Antioxidante que ayuda a aprovechar el azúcar en las células y protege manos y pies cuando hay hormigueo o sensación de ardor."
       }
     ],
@@ -1852,7 +1852,7 @@ window.manualData.padecimientos = [
       "Evitar refrescos, jugos colados y panadería diaria; priorizar agua natural y alimentos con fibra.",
       "Dormir 7 a 8 horas y manejar el estrés; no iniciar ayunos largos sin supervisión médica si toma medicamentos o hay antecedentes clínicos."
     ],
-    "safetyNote": "Elegir una sola opción principal para el azúcar (berberina, canela con cromo, inositol o AMP-ON), sin juntarlos por rutina ni duplicar cromo (#41, #45, #29) o ácido alfa lipoico (#29, #17). Si toma medicamentos para el azúcar, tiroides, estatinas para el colesterol o anticoagulantes, revisar la combinación con su médico."
+    "safetyNote": "Elegir una sola opción principal para el azúcar (berberina, canela con cromo, inositol o AMP-ON), sin juntarlos por rutina ni duplicar cromo o ácido alfa lipoico. Si toma medicamentos para el azúcar, tiroides, estatinas para el colesterol o anticoagulantes, revisar la combinación con su médico."
   },
   {
     "id": "diabetes_tipo2",
@@ -1878,13 +1878,13 @@ window.manualData.padecimientos = [
       {
         "id": 41,
         "serving": "2 cápsulas (2 g)",
-        "usage": "Con comidas principales. No juntar con #29 ni otros productos con cromo o hierro; separar 2 horas de levotiroxina o antibióticos y revisar el glucómetro.",
+        "usage": "Con comidas principales. No juntar con AMP-ON 60 caps 600mg ni otros productos con cromo o hierro; separar 2 horas de levotiroxina o antibióticos y revisar el glucómetro.",
         "rationale": "Combina canela, cromo y vitaminas B1, B2 y B12 para suavizar las subidas de azúcar después de comer y sostener la energía diaria."
       },
       {
         "id": 52,
         "serving": "4 cápsulas (2 g)",
-        "usage": "Con alimentos (pueden repartirse 2 y 2). Opción noble cuando la persona toma estatinas y prefiere evitar berberina; no juntar con #180.",
+        "usage": "Con alimentos (pueden repartirse 2 y 2). Opción noble cuando la persona toma estatinas y prefiere evitar berberina; no juntar con PURE INOSITOL POWDER.",
         "rationale": "Ayuda a que las células aprovechen mejor el azúcar circulante, brindando un apoyo metabólico suave sin hierbas estimulantes."
       }
     ],
@@ -1898,13 +1898,13 @@ window.manualData.padecimientos = [
       {
         "id": 103,
         "serving": "15 ml (1 cucharada sopera)",
-        "usage": "Diluir siempre en 200-250 ml de agua y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis, úlcera o reflujo, vigilar si usa diuréticos y no juntar con #104.",
+        "usage": "Diluir siempre en 200-250 ml de agua y tomar 15 a 20 minutos antes de una comida fuerte; nunca beber puro. Evitar en gastritis, úlcera o reflujo, vigilar si usa diuréticos y no juntar con VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS).",
         "rationale": "Su ácido natural vuelve más lenta la absorción de harinas y almidones, ayudando a suavizar los picos de azúcar después de comer."
       },
       {
         "id": 104,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a #103; no usar ambos ni sumar con #41). Evitar en úlcera o reflujo y consultar si toma anticoagulantes.",
+        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa en cápsulas a VINAGRE DE MANZANA; no usar ambos ni sumar con CANELA CROMO). Evitar en úlcera o reflujo y consultar si toma anticoagulantes.",
         "rationale": "Alternativa en cápsulas sin sabor ácido para suavizar el impacto de comidas con harinas y aliviar la digestión pesada sin dañar el esmalte dental."
       },
       {
@@ -1916,7 +1916,7 @@ window.manualData.padecimientos = [
       {
         "id": 29,
         "serving": "2 cápsulas (1.2 g)",
-        "usage": "Con comidas principales, vigilando el azúcar con glucómetro. No juntar con #17 (ya trae ALA) ni con #41 (ya trae cromo); separar 2 horas de antibióticos.",
+        "usage": "Con comidas principales, vigilando el azúcar con glucómetro. No juntar con ÁCIDO ALFA LIPÓICO (ya trae ALA) ni con CANELA CROMO (ya trae cromo); separar 2 horas de antibióticos.",
         "rationale": "Reúne plantas metabólicas, cromo, ácido alfa lipoico y probióticos en una sola fórmula para apoyar el manejo de azúcares, grasas y digestión."
       },
       {
@@ -1928,7 +1928,7 @@ window.manualData.padecimientos = [
       {
         "id": 180,
         "serving": "5 g al día (1 cucharadita)",
-        "usage": "Disolver en agua o bebida sin azúcar y tomar con una comida (envase de 50 g = 10 tomas). Alternativa en polvo a #52; no combinar entre sí.",
+        "usage": "Disolver en agua o bebida sin azúcar y tomar con una comida (envase de 50 g = 10 tomas). Alternativa en polvo a MYO + D-CHIRO INOSITOL 500 mg; no combinar entre sí.",
         "rationale": "Inositol 100 % puro sin sabor para quienes prefieren bebida soluble para apoyar la respuesta a la insulina y moderar antojos dulces."
       },
       {
@@ -1940,14 +1940,14 @@ window.manualData.padecimientos = [
       {
         "id": 17,
         "serving": "2 cápsulas (300 mg)",
-        "usage": "Con comidas principales y vigilando glucosa si usa insulina o pastillas. Separar 4 horas de levotiroxina y no usar junto con #29 ni #118.",
+        "usage": "Con comidas principales y vigilando glucosa si usa insulina o pastillas. Separar 4 horas de levotiroxina y no usar junto con AMP-ON 60 caps 600mg ni NEEM CON NOPAL.",
         "rationale": "Antioxidante muy útil cuando hay ardor, piquetes o entumecimiento en pies y manos, además de apoyar el uso de azúcar en las células."
       }
     ],
     "lifestyleTips": [
       "Priorizar verduras, legumbres y proteína antes de tortillas, pan o arroz para aplanar las subidas de azúcar tras comer.",
       "Caminar 10 a 15 minutos después de las comidas principales y mantener actividad física constante.",
-      "Si toma metformina por años y presenta cansancio o hormigueo en pies o manos, pedir al médico revisar niveles de vitamina B12 (valorar #225 o #4).",
+      "Si toma metformina por años y presenta cansancio o hormigueo en pies o manos, pedir al médico revisar niveles de vitamina B12 (valorar B12 NOW o COMPLEJO B CON ARANDANO (90 cápsulas)).",
       "Llevar registro de glucosa en ayunas y 2 horas después de comer con glucómetro, y acudir a revisión periódica de pies, vista y riñones."
     ],
     "safetyNote": "Ningún suplemento sustituye metformina, insulina ni otras medicinas recetadas. Elegir una sola opción principal para el azúcar (sin juntar berberina, canela con cromo, inositol ni AMP-ON) y evitar repetir cromo o ácido alfa lipoico. Si usa insulina o sulfonilureas (como glibenclamida), consultar antes al médico y vigilar con glucómetro para prevenir bajones fuertes; recordar que la berberina puede subir el efecto de estatinas y pastillas para la presión."
@@ -1969,19 +1969,19 @@ window.manualData.padecimientos = [
       {
         "id": 41,
         "serving": "2 cápsulas (2 g)",
-        "usage": "Con una comida que incluya carbohidratos. Vigilar azúcar si toma antidiabéticos; no juntar con #29 ni #45 y separar 2 horas de antibióticos o levotiroxina.",
+        "usage": "Con una comida que incluya carbohidratos. Vigilar azúcar si toma antidiabéticos; no juntar con AMP-ON 60 caps 600mg ni CHROMIUM y separar 2 horas de antibióticos o levotiroxina.",
         "rationale": "La canela y el cromo ayudan a aprovechar mejor los carbohidratos de la comida para evitar bajones y antojos dulces, sumando vitaminas B1, B2 y B12 para sostener la energía."
       },
       {
         "id": 84,
         "serving": "2 cápsulas (1.5 g)",
-        "usage": "Antes del desayuno o la comida de mediodía (hasta 2 cápsulas por toma, nunca por la tarde o noche). NO usar si hay presión alta, problemas del corazón, embarazo o sensibilidad a la cafeína; no sumar a #165 ni #146.",
+        "usage": "Antes del desayuno o la comida de mediodía (hasta 2 cápsulas por toma, nunca por la tarde o noche). NO usar si hay presión alta, problemas del corazón, embarazo o sensibilidad a la cafeína; no sumar a TÉ VERDE ni TÉ PIÑALIM (Infusión).",
         "rationale": "Mezcla energética intensa con guaraná, cafeína, L-carnitina y cayena para dar empuje al entrenar y apoyar el gasto calórico en adultos sanos sin problemas de presión."
       },
       {
         "id": 165,
         "serving": "1 sobre (2 g)",
-        "usage": "Infusionar en 200 ml de agua caliente (65 °C) por 3 a 5 minutos y tomar por la mañana, lejos de comidas ricas en hierro si hay anemia. Evitar sumarlo a cápsulas con cafeína (#84) o si toma anticoagulantes.",
+        "usage": "Infusionar en 200 ml de agua caliente (65 °C) por 3 a 5 minutos y tomar por la mañana, lejos de comidas ricas en hierro si hay anemia. Evitar sumarlo a cápsulas con cafeína o si toma anticoagulantes.",
         "rationale": "Bebida tradicional ligera que sustituye refrescos o café cargado, aportando antioxidantes naturales del té verde y un toque suave de energía."
       }
     ],
@@ -1989,31 +1989,31 @@ window.manualData.padecimientos = [
       {
         "id": 29,
         "serving": "2 cápsulas (1.2 g)",
-        "usage": "Justo antes o durante la comida principal. Alternativa sin cafeína a #84 y sin repetir cromo junto con #41; consultar si toma medicinas para diabetes y separar 2 horas de antibióticos.",
+        "usage": "Justo antes o durante la comida principal. Alternativa sin cafeína a L-CARNITINA, GUARANÁ Y GARCINIA y sin repetir cromo junto con CANELA CROMO; consultar si toma medicinas para diabetes y separar 2 horas de antibióticos.",
         "rationale": "Fórmula sin cafeína añadida que reúne gynostemma, ácido alfa lipoico, cromo y probióticos para aprovechar mejor grasas y carbohidratos y cuidar el vientre."
       },
       {
         "id": 95,
         "serving": "1 cápsula (500 mg)",
-        "usage": "20 a 30 minutos antes de la comida principal con un vaso lleno de agua. Consultar si toma medicinas para azúcar, presión o diuréticos; no juntar con #74.",
+        "usage": "20 a 30 minutos antes de la comida principal con un vaso lleno de agua. Consultar si toma medicinas para azúcar, presión o diuréticos; no juntar con GOJI.",
         "rationale": "Combina mango africano para ayudar a moderar las porciones con diente de león y pingüica para aliviar la hinchazón y líquidos retenidos, más BHB como apoyo ligero."
       },
       {
         "id": 103,
         "serving": "15 ml (1 cucharada sopera)",
-        "usage": "Diluir siempre en 200-250 ml de agua y tomar 20 minutos antes de comidas fuertes; nunca beber puro. Evitar en gastritis o úlcera; no juntar con #104.",
+        "usage": "Diluir siempre en 200-250 ml de agua y tomar 20 minutos antes de comidas fuertes; nunca beber puro. Evitar en gastritis o úlcera; no juntar con VINAGRE DE SIDRA DE MANZANA (90 CÁPSULAS).",
         "rationale": "Opción sin estimulantes que ayuda a sentir saciedad antes de comer y vuelve más lenta la absorción de harinas y azúcares de la comida."
       },
       {
         "id": 104,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa sin sabor ácido a #103; evitar en úlcera o con #41 por repetir canela). Consultar si toma anticoagulantes.",
+        "usage": "15 a 20 minutos antes o durante comidas fuertes con agua (alternativa sin sabor ácido a VINAGRE DE MANZANA; evitar en úlcera o con CANELA CROMO por repetir canela). Consultar si toma anticoagulantes.",
         "rationale": "Vinagre de manzana en cápsulas sin cafeína con cúrcuma, jengibre y canela para apoyar digestiones pesadas y moderar antojos tras comidas con harinas."
       },
       {
         "id": 45,
         "serving": "1 cápsula (400 mg)",
-        "usage": "Antes de comer o con el desayuno. Alternativa suave libre de estimulantes y sin hierro frente a #41; no combinar con #41 ni #29.",
+        "usage": "Antes de comer o con el desayuno. Alternativa suave libre de estimulantes y sin hierro frente a CANELA CROMO; no combinar con CANELA CROMO ni AMP-ON 60 caps 600mg.",
         "rationale": "Complemento ligero de cromo (20.32 mcg) y L-carnitina (100 mg) para apoyar el aprovechamiento diario de azúcares y sobrellevar antojos dulces."
       },
       {
@@ -2041,7 +2041,7 @@ window.manualData.padecimientos = [
       "Sumar ejercicio de fuerza 2 a 3 veces por semana para proteger el músculo mientras baja la grasa abdominal.",
       "Dormir de 7 a 8 horas: desvelarse abre el apetito por dulces al día siguiente y empeora el cansancio."
     ],
-    "safetyNote": "Si hay presión alta, palpitaciones, problemas del corazón, azúcar en tratamiento o sensibilidad a la cafeína, evitar fórmulas con guaraná, cafeína o tés estimulantes (#84, #165, #146) y preferir opciones sin estimulantes (#215, #41, #29, #103, #104). No juntar Canela Cromo (#41), AMP-ON (#29) ni Chromium (#45) por repetir cromo; separar fibras y minerales 2 horas de medicinas."
+    "safetyNote": "Si hay presión alta, palpitaciones, problemas del corazón, azúcar en tratamiento o sensibilidad a la cafeína, evitar fórmulas con guaraná, cafeína o tés estimulantes y preferir opciones sin estimulantes. No juntar Canela Cromo, AMP-ON ni Chromium por repetir cromo; separar fibras y minerales 2 horas de medicinas."
   },
   {
     "id": "colesterol_trigliceridos",
@@ -2059,7 +2059,7 @@ window.manualData.padecimientos = [
       {
         "id": 123,
         "serving": "3 cápsulas (3 g)",
-        "usage": "Con un desayuno o comida que contenga grasas saludables. Consultar indispensablemente al médico si toma anticoagulantes (warfarina) o aspirina diaria; evitar en alergia al pescado y no juntar con #120.",
+        "usage": "Con un desayuno o comida que contenga grasas saludables. Consultar indispensablemente al médico si toma anticoagulantes (warfarina) o aspirina diaria; evitar en alergia al pescado y no juntar con OMEGA 3 NANO FEAR.",
         "rationale": "Aporta 1,500 mg diarios de EPA y DHA purificados sin sabor a pescado para ayudar a bajar triglicéridos elevados y cuidar el corazón y la circulación."
       },
       {
@@ -2071,7 +2071,7 @@ window.manualData.padecimientos = [
       {
         "id": 101,
         "serving": "1 cápsula (415 mg)",
-        "usage": "Con una comida que contenga algo de grasa (huevo o aguacate). Ideal si toma estatinas o tiene más de 45 años; consultar si usa warfarina y elegir entre esta o #136 (no ambas).",
+        "usage": "Con una comida que contenga algo de grasa (huevo o aguacate). Ideal si toma estatinas o tiene más de 45 años; consultar si usa warfarina y elegir entre esta o Q10 (Coenzima Q10) (no ambas).",
         "rationale": "Forma activa de CoQ10 lista para usarse; repone la energía celular que bajan las estatinas y ayuda a aliviar el cansancio y dolor muscular mientras cuida el corazón."
       }
     ],
@@ -2079,7 +2079,7 @@ window.manualData.padecimientos = [
       {
         "id": 136,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con una comida que incluya algo de grasa saludable. Alternativa más accesible frente a Ubiquinol (#101, no tomar juntos); consultar si usa warfarina o medicinas para la presión.",
+        "usage": "Con una comida que incluya algo de grasa saludable. Alternativa más accesible frente a Ubiquinol (UBIQUINOL KANEKA, no tomar juntos); consultar si usa warfarina o medicinas para la presión.",
         "rationale": "Aporta 120 mg de coenzima Q10 con vitamina B6 para cuidar la energía del corazón y aliviar la debilidad muscular cotidiana."
       },
       {
@@ -2091,7 +2091,7 @@ window.manualData.padecimientos = [
       {
         "id": 148,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Antes o junto con comidas y un vaso grande de agua. Evitar en embarazo o lactancia; consultar si hay enfermedad renal, presión baja, diabetes o uso de diuréticos. Elegir esta o Yumel (#115), no ambas.",
+        "usage": "Antes o junto con comidas y un vaso grande de agua. Evitar en embarazo o lactancia; consultar si hay enfermedad renal, presión baja, diabetes o uso de diuréticos. Elegir esta o Yumel, no ambas.",
         "rationale": "Planta mexicana tradicional en cápsulas (sin sabor amargo) para ayudar a bajar colesterol y triglicéridos en sangre y mantener ligera la bilis de la vesícula."
       },
       {
@@ -2103,13 +2103,13 @@ window.manualData.padecimientos = [
       {
         "id": 29,
         "serving": "2 cápsulas (1.2 g)",
-        "usage": "Antes o durante la comida principal. Consultar si toma medicinas para diabetes, no sumar con #36 ni cromo extra, y separar 2 horas de antibióticos.",
+        "usage": "Antes o durante la comida principal. Consultar si toma medicinas para diabetes, no sumar con BERBERINA ni cromo extra, y separar 2 horas de antibióticos.",
         "rationale": "Apoyo sin cafeína útil cuando los triglicéridos suben por exceso de harinas, azúcar o grasa abdominal, ayudando a aprovechar mejor energía y grasas."
       },
       {
         "id": 120,
         "serving": "3 softgels (3.6 g)",
-        "usage": "Con el desayuno o comida principal. Alternativa de mayor concentración frente a #123 (no juntar ambos). Consultar al médico si toma anticoagulantes, aspirina o tendrá cirugía.",
+        "usage": "Con el desayuno o comida principal. Alternativa de mayor concentración frente a OMEGA NORDIC 3000 (no juntar ambos). Consultar al médico si toma anticoagulantes, aspirina o tendrá cirugía.",
         "rationale": "La opción más concentrada en Omega-3 del catálogo (1,800 mg de EPA y DHA más vitamina E), pensada cuando los análisis muestran triglicéridos muy altos."
       },
       {
@@ -2125,7 +2125,7 @@ window.manualData.padecimientos = [
       "Comer fibra soluble todos los días (avena, frijoles, lentejas, chía, manzana y verduras) ayuda a arrastrar grasas en el intestino.",
       "Caminar a paso firme casi todos los días y repetir análisis de control con el médico sin suspender las medicinas recetadas."
     ],
-    "safetyNote": "Revisar medicinas y análisis antes de recomendar: si toma estatinas, NO sumar Berberina (#36) ni Yumel (#115) sin autorización de su médico; en quienes usan estatinas suelen elegirse Ubiquinol (#101) o CoQ10 (#136) y Omega-3 (#123 o #120). Elegir una sola opción de cada grupo (un solo Omega-3, un solo CoQ10/Ubiquinol y una sola planta biliar) y consultar si toma anticoagulantes o aspirina."
+    "safetyNote": "Revisar medicinas y análisis antes de recomendar: si toma estatinas, NO sumar Berberina ni Yumel sin autorización de su médico; en quienes usan estatinas suelen elegirse Ubiquinol o CoQ10 y Omega-3. Elegir una sola opción de cada grupo (un solo Omega-3, un solo CoQ10/Ubiquinol y una sola planta biliar) y consultar si toma anticoagulantes o aspirina."
   },
   {
     "id": "fatiga_cronica",
@@ -2190,7 +2190,7 @@ window.manualData.padecimientos = [
       "Sueño reparador.",
       "Dieta antiinflamatoria y baja en carbohidratos refinados."
     ],
-    "safetyNote": "Descartar primero anemia, hipotiroidismo o infecciones crónicas con tu médico. No duplicar complejo B (#4) con otros multivitamínicos; consultar si usas anticoagulantes o inmunosupresores."
+    "safetyNote": "Descartar primero anemia, hipotiroidismo o infecciones crónicas con tu médico. No duplicar complejo B con otros multivitamínicos; consultar si usas anticoagulantes o inmunosupresores."
   },
   {
     "id": "caida_cabello_fem",
@@ -2552,7 +2552,7 @@ window.manualData.padecimientos = [
       {
         "id": 79,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa de dosis suave frente a #52 (4 cápsulas); no combinar entre sí.",
+        "usage": "Con alimentos (viene en cápsulas pese al nombre «Powder»). Alternativa de dosis suave frente a MYO + D-CHIRO INOSITOL 500 mg (4 cápsulas); no combinar entre sí.",
         "rationale": "Opción práctica de 1 cápsula diaria de myo-inositol puro (500 mg) para acompañar el equilibrio ovárico y del ciclo sin preparar bebidas."
       }
     ],
@@ -2756,7 +2756,7 @@ window.manualData.padecimientos = [
       "Lavar la ropa de cama con agua caliente.",
       "Mantener las ventanas cerradas en días de alto polen."
     ],
-    "safetyNote": "Si presentas falta de aire, silbidos en el pecho o hinchazón de labios o cara, busca atención médica urgente. Evita equinácea (#61) en enfermedades autoinmunes y propóleo (#188) si tienes alergia apícola."
+    "safetyNote": "Si presentas falta de aire, silbidos en el pecho o hinchazón de labios o cara, busca atención médica urgente. Evita equinácea en enfermedades autoinmunes y propóleo si tienes alergia apícola."
   },
   {
     "id": "defensas_bajas",
@@ -2834,7 +2834,7 @@ window.manualData.padecimientos = [
       "Reducir el estrés crónico.",
       "Otros apoyos inmunológicos de la tienda: CAFÉ CON MORINGA, MORINGA ORGÁNICA, AJO NEGRO + MORINGA, CUATECOMATE y HONIG ABAGREEN VERDE/ROJO."
     ],
-    "safetyNote": "En pacientes con inmunosupresión severa, quimioterapia o enfermedades autoinmunes, consulta a tu médico antes de usar equinácea (#61), astrágalo (#185) o probióticos. Acude a urgencias si hay fiebre alta persistente."
+    "safetyNote": "En pacientes con inmunosupresión severa, quimioterapia o enfermedades autoinmunes, consulta a tu médico antes de usar equinácea, astrágalo o probióticos. Acude a urgencias si hay fiebre alta persistente."
   },
   {
     "id": "resfriado_comun",
@@ -2894,7 +2894,7 @@ window.manualData.padecimientos = [
       "Evitar antibióticos para un resfriado viral.",
       "Distinguir síntomas compatibles con influenza o COVID-19 cuando circulen estos virus."
     ],
-    "safetyNote": "Busca valoración médica si hay fiebre alta (>38.5 °C), falta de aire, dolor en el pecho o síntomas que empeoran tras 5 a 7 días. Evita equinácea (#61) en autoinmunidad y revisa alergia apícola si usas miel o propóleo."
+    "safetyNote": "Busca valoración médica si hay fiebre alta (>38.5 °C), falta de aire, dolor en el pecho o síntomas que empeoran tras 5 a 7 días. Evita equinácea en autoinmunidad y revisa alergia apícola si usas miel o propóleo."
   },
   {
     "id": "tos_irritacion_garganta",
@@ -2954,7 +2954,7 @@ window.manualData.padecimientos = [
       "Observar si la tos se relaciona con reflujo, alergias o medicamentos.",
       "Evitar hablar en exceso cuando existe ronquera."
     ],
-    "safetyNote": "Si la tos dura más de 2 semanas, se acompaña de fiebre alta, flema con sangre o dificultad para respirar, consulta al médico. Precaución con propóleo (#22, #188) y miel en personas con alergia apícola."
+    "safetyNote": "Si la tos dura más de 2 semanas, se acompaña de fiebre alta, flema con sangre o dificultad para respirar, consulta al médico. Precaución con propóleo y miel en personas con alergia apícola."
   },
   {
     "id": "tos_flema_congestion",
@@ -3074,7 +3074,7 @@ window.manualData.padecimientos = [
       "Evitar humo y alérgenos identificados.",
       "No usar aceites esenciales directamente dentro de la nariz."
     ],
-    "safetyNote": "Consulta al médico si presentas fiebre alta, dolor facial intenso, inflamación alrededor de los ojos o síntomas por más de 10 días. Precaución con propóleo (#188) en caso de alergia a productos apícolas."
+    "safetyNote": "Consulta al médico si presentas fiebre alta, dolor facial intenso, inflamación alrededor de los ojos o síntomas por más de 10 días. Precaución con propóleo en caso de alergia a productos apícolas."
   },
   {
     "id": "convalecencia_respiratoria",
@@ -3328,7 +3328,7 @@ window.manualData.padecimientos = [
       "Aplicar FIX UZEN.",
       "Otras opciones articulares de la tienda: CARTÍLAGO PRONAT y MOROIZY / MOROIZY GEL."
     ],
-    "safetyNote": "Si tienes alergia a crustáceos o pescado, evita glucosamina/condroitina (#30) y cartílago de tiburón (#31). Precaución con cúrcuma (#54) u omega-3 (#123) si usas anticoagulantes."
+    "safetyNote": "Si tienes alergia a crustáceos o pescado, evita glucosamina/condroitina y cartílago de tiburón. Precaución con cúrcuma u omega-3 si usas anticoagulantes."
   },
   {
     "id": "osteoporosis",
@@ -3656,7 +3656,7 @@ window.manualData.padecimientos = [
       "Dolor localizado intenso, inflamación marcada, incapacidad para apoyar, debilidad extrema u orina oscura no son DOMS normales y requieren valoración.",
       "En deportistas sujetos a controles antidopaje, preferir productos con certificación independiente del lote."
     ],
-    "safetyNote": "Precaución con omega-3 (#123) o cúrcuma (#54) si tomas anticoagulantes; si el dolor muscular no cede en 72 horas, descarta lesión estructural."
+    "safetyNote": "Precaución con omega-3 o cúrcuma si tomas anticoagulantes; si el dolor muscular no cede en 72 horas, descarta lesión estructural."
   },
   {
     "id": "neuropatia_periferica",
@@ -3723,7 +3723,7 @@ window.manualData.padecimientos = [
       "Masajear las extremidades suavemente.",
       "Evitar el alcohol por completo."
     ],
-    "safetyNote": "Busca atención médica urgente si hay pérdida rápida de fuerza, úlceras en pies, fiebre o pérdida de control de esfínteres. Monitorear glucosa si eres diabético y no duplicar complejo B (#5)."
+    "safetyNote": "Busca atención médica urgente si hay pérdida rápida de fuerza, úlceras en pies, fiebre o pérdida de control de esfínteres. Monitorear glucosa si eres diabético y no duplicar complejo B."
   },
   {
     "id": "cancer_apoyo",
@@ -3806,7 +3806,7 @@ window.manualData.padecimientos = [
       "Priorizar el descanso y el manejo del estrés.",
       "Comunicación constante con el equipo médico."
     ],
-    "safetyNote": "Cualquier suplemento, incluido #124 ON-C-LEN, requiere aprobación previa de tu oncólogo para evitar interferencias con quimioterapia, radioterapia o inmunoterapia."
+    "safetyNote": "Cualquier suplemento, incluido ON-C-LEN, requiere aprobación previa de tu oncólogo para evitar interferencias con quimioterapia, radioterapia o inmunoterapia."
   },
   {
     "id": "psoriasis_vitiligo",
@@ -3987,7 +3987,7 @@ window.manualData.padecimientos = [
       {
         "id": 79,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con alimentos (pese al nombre «Powder», viene en cápsulas). Opción suave de mantenimiento frente a #53; no tomar ambos al mismo tiempo.",
+        "usage": "Con alimentos (pese al nombre «Powder», viene en cápsulas). Opción suave de mantenimiento frente a MYO + D-CHIRO INOSITOL POWDER 300g - 40:1; no tomar ambos al mismo tiempo.",
         "rationale": "Aporta 500 mg de myo-inositol puro en una cápsula diaria práctica para acompañar el cuidado hormonal y de antojos cuando ya pasó la etapa inicial."
       }
     ],
@@ -4118,7 +4118,7 @@ window.manualData.padecimientos = [
       "Aplicar hielo local 10-15 min después de estar mucho tiempo de pie.",
       "Bajar de peso si hay sobrepeso, ya que reduce la carga sobre el talón."
     ],
-    "safetyNote": "Si usas anticoagulantes, consulta antes de tomar cúrcuma (#54) o sauce blanco (#51). Evita aplicar geles con mentol o salicilato sobre piel irritada o heridas."
+    "safetyNote": "Si usas anticoagulantes, consulta antes de tomar cúrcuma o sauce blanco. Evita aplicar geles con mentol o salicilato sobre piel irritada o heridas."
   },
   {
     "id": "tdah",
@@ -4246,7 +4246,7 @@ window.manualData.padecimientos = [
       "Practicar técnicas de manejo del estrés, ya que el eje intestino-cerebro es bidireccional.",
       "Consultar a un gastroenterólogo para descartar otras causas antes de autodiagnosticarse."
     ],
-    "safetyNote": "La tolerancia a fibras y prebióticos (como inulina o FOS en #246 y #151) varía mucho en el SII: iniciar con la mitad de la porción y suspender si aumentan gases, hinchazón o dolor. No usar laxantes estimulantes cuando predomina diarrea o cólico. Consultar al médico ante fiebre, sangre en heces, diarrea nocturna o pérdida de peso."
+    "safetyNote": "La tolerancia a fibras y prebióticos (como inulina o FOS en L-GLUTAMINE + NAG y ZEN GREENS 200G) varía mucho en el SII: iniciar con la mitad de la porción y suspender si aumentan gases, hinchazón o dolor. No usar laxantes estimulantes cuando predomina diarrea o cólico. Consultar al médico ante fiebre, sangre en heces, diarrea nocturna o pérdida de peso."
   },
   {
     "id": "celulitis",
@@ -4427,9 +4427,9 @@ window.manualData.padecimientos = [
       "Evitar el café y el té junto con las comidas principales, ya que reducen la absorción de hierro.",
       "Es fundamental que un médico identifique la causa de la anemia (esta tienda no cuenta con un suplemento de hierro dedicado); si se requiere hierro, debe indicarse y dosificarse profesionalmente.",
       "Acudir a valoración urgente ante mareo intenso o desmayo, falta de aire en reposo, palpitaciones fuertes, heces negras o sangrado abundante.",
-      "Separar suplementos con hierro o minerales (#26, #153) al menos 2 horas de lácteos, calcio o antiácidos y 4 horas de levotiroxina."
+      "Separar suplementos con hierro o minerales al menos 2 horas de lácteos, calcio o antiácidos y 4 horas de levotiroxina."
     ],
-    "safetyNote": "La anemia requiere diagnóstico médico antes de tomar hierro. Separa los minerales (como espirulina #26 o zinc #153) al menos 2 horas de lácteos, café, calcio o antibióticos y 4 horas de levotiroxina. Acude a urgencias si hay desmayo, falta de aire o sangrado."
+    "safetyNote": "La anemia requiere diagnóstico médico antes de tomar hierro. Separa los minerales (como espirulina ALGA ESPIRULINA ORGANICA o zinc ZINC) al menos 2 horas de lácteos, café, calcio o antibióticos y 4 horas de levotiroxina. Acude a urgencias si hay desmayo, falta de aire o sangrado."
   },
   {
     "id": "parkinson",
@@ -4530,7 +4530,7 @@ window.manualData.padecimientos = [
       {
         "id": 85,
         "serving": "1 cápsula",
-        "usage": "1 cápsula al día con el estómago vacío o entre comidas (NO combinar con #246 L-Glutamine + NAG para no duplicar zinc).",
+        "usage": "1 cápsula al día con el estómago vacío o entre comidas (NO combinar con L-Glutamine + NAG para no duplicar zinc).",
         "rationale": "Alternativa en cápsula con zinc L-carnosina para apoyar la reparación suave del revestimiento estomacal e intestinal."
       },
       {
@@ -4553,7 +4553,7 @@ window.manualData.padecimientos = [
       "Priorizar sueño regular, actividad física tolerada y manejo del estrés.",
       "Buscar valoración ante pérdida de peso involuntaria, anemia, sangre en heces, fiebre, diarrea nocturna o dolor persistente."
     ],
-    "safetyNote": "Estos síntomas no confirman por sí solos un problema intestinal; descartar primero celiaquía, alergias o infección con un profesional. No combinar #246 (L-Glutamine + NAG, 21 mg de zinc) con #85 (L-Carnosine Zinc, 15 mg de zinc) para no duplicar zinc. Separar productos con zinc o fibra al menos 2 a 3 horas de antibióticos y medicinas."
+    "safetyNote": "Estos síntomas no confirman por sí solos un problema intestinal; descartar primero celiaquía, alergias o infección con un profesional. No combinar L-GLUTAMINE + NAG (L-Glutamine + NAG, 21 mg de zinc) con L-CARNOSINE ZINC (L-Carnosine Zinc, 15 mg de zinc) para no duplicar zinc. Separar productos con zinc o fibra al menos 2 a 3 horas de antibióticos y medicinas."
   },
   {
     "id": "control_peso",
@@ -4585,13 +4585,13 @@ window.manualData.padecimientos = [
       {
         "id": 74,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con el desayuno o comida del mediodía y agua. Libre de cafeína añadida; consultar si toma anticoagulantes (warfarina), antihipertensivos o antidiabéticos, y no juntar con #95.",
+        "usage": "Con el desayuno o comida del mediodía y agua. Libre de cafeína añadida; consultar si toma anticoagulantes (warfarina), antihipertensivos o antidiabéticos, y no juntar con MANGO AFRICANO (30 cápsulas).",
         "rationale": "Cápsula práctica con bayas de goji antioxidantes, pingüica y diente de león para aliviar retención de líquidos, más ácido clorogénico y sales BHB como apoyo ligero en dietas bajas en harinas."
       },
       {
         "id": 114,
         "serving": "1 cápsula (450 mg)",
-        "usage": "20 a 30 minutos antes del desayuno o con alimento y agua. Contiene raíz de tejocote: NO usar en embarazo, lactancia, menores de 18, problemas del corazón o presión descontrolada, y no juntar con #37 ni #266.",
+        "usage": "20 a 30 minutos antes del desayuno o con alimento y agua. Contiene raíz de tejocote: NO usar en embarazo, lactancia, menores de 18, problemas del corazón o presión descontrolada, y no juntar con BPASS Bio Life 500 mg ni TLANCHALAGUA PROSA.",
         "rationale": "Reúne espirulina, fibra de nopal y piña, raíz de tejocote y vitaminas A y C para apoyar el tránsito digestivo y el cuidado nutricional al reducir porciones."
       },
       {
@@ -4609,7 +4609,7 @@ window.manualData.padecimientos = [
       {
         "id": 200,
         "serving": "1 cápsula al día",
-        "usage": "Con un vaso lleno de agua por la mañana o noche (evitar noche si es sensible al té verde). Separar 2 horas de medicinas y no juntar con #56, #76 ni #146.",
+        "usage": "Con un vaso lleno de agua por la mañana o noche (evitar noche si es sensible al té verde). Separar 2 horas de medicinas y no juntar con DEMOGRASS CLÁSICO, GREEN LX ni TÉ PIÑALIM (Infusión).",
         "rationale": "Fórmula de 30 días con linaza, nopal, sábila, malva, fibra de piña y té verde para facilitar la digestión lenta y aliviar el abdomen abultado."
       },
       {
@@ -4627,7 +4627,7 @@ window.manualData.padecimientos = [
       {
         "id": 37,
         "serving": "1 cápsula (500 mg)",
-        "usage": "20 a 30 minutos antes del desayuno con abundante agua. IMPORTANTE: contiene toronja, raíz de tejocote y café verde; evitar si toma medicamentos crónicos, en cardiopatía, presión alta o embarazo, y no juntar con #114.",
+        "usage": "20 a 30 minutos antes del desayuno con abundante agua. IMPORTANTE: contiene toronja, raíz de tejocote y café verde; evitar si toma medicamentos crónicos, en cardiopatía, presión alta o embarazo, y no juntar con XIMO.",
         "rationale": "Mezcla con L-carnitina, café verde, nopal, piña, alcachofa, apio, toronja y tejocote pensada para adultos sanos sin medicinas diarias que buscan apoyo depurativo y metabólico."
       },
       {
@@ -4641,10 +4641,10 @@ window.manualData.padecimientos = [
       "Ninguna cápsula o té sustituye el orden del plato y el movimiento diario: empezar por proteína y verduras en cada comida ayuda más que sumar productos.",
       "Elegir una sola fórmula a la vez; juntar varios productos depurativos, tés o laxantes provoca cólicos, deshidratación y pérdida de sales.",
       "Con fórmulas que llevan fibra o sábila (Gojizen Max, Demograss, Green LX, D Master, Piñalim, Piñalinaza), beber mínimo 2 litros de agua al día y separar 2 horas de cualquier medicina.",
-      "Si hay presión alta, palpitaciones o insomnio, evitar naranjo amargo, guaraná o tés concentrados y elegir opciones sin estimulantes (#75 Gojizen Max, #42 Cara Lluma, #74 Goji, #215 L-Carnitina pura o #235 Nopal Prosa).",
+      "Si hay presión alta, palpitaciones o insomnio, evitar naranjo amargo, guaraná o tés concentrados y elegir opciones sin estimulantes (Gojizen Max, Cara Lluma, Goji, L-Carnitina pura o Nopal Prosa).",
       "Otras opciones en tienda según el perfil: Goji Trim y Sukunai Kiros Max (sin cafeína, con fibra y saciedad), Demograss Plus/LX+, Té Piñalim/Plus, Piñalinaza (evitar con medicinas por traer toronja) y Tlanchalagua Prosa (evitar en presión, riñón o corazón)."
     ],
-    "safetyNote": "Elegir máximo UNA fórmula comercial según la necesidad (apetito, digestión o energía); nunca combinar entre sí fórmulas con cafeína o naranjo amargo (#132, #196, #56, #200) ni varios laxantes o diuréticos (#56, #76, #114, #37). Si hay presión alta, problemas del corazón, diabetes, tiroides, embarazo, lactancia o medicinas diarias, evitar naranjo amargo/sinefrina, guaraná, toronja o tejocote y elegir opciones sin estimulantes (#75, #42, #74)."
+    "safetyNote": "Elegir máximo UNA fórmula comercial según la necesidad (apetito, digestión o energía); nunca combinar entre sí fórmulas con cafeína o naranjo amargo ni varios laxantes o diuréticos. Si hay presión alta, problemas del corazón, diabetes, tiroides, embarazo, lactancia o medicinas diarias, evitar naranjo amargo/sinefrina, guaraná, toronja o tejocote y elegir opciones sin estimulantes."
   },
   {
     "id": "piel_antienvejecimiento",
@@ -4838,7 +4838,7 @@ window.manualData.padecimientos = [
         "id": 228,
         "serving": "1 cápsula",
         "usage": "Por la noche con la cena o antes de dormir, recordando que 250 mg de glicinato aportan una cantidad suave de mineral puro (~35 a 50 mg elementales; confirmar en etiqueta). Separar 2 horas de antibióticos.",
-        "rationale": "Opción nocturna suave (PM) en 1 cápsula vegetal con brócoli para estómagos delicados o tensión leve; si el profesional busca una dosis alta para deficiencia marcada, valorar #181."
+        "rationale": "Opción nocturna suave (PM) en 1 cápsula vegetal con brócoli para estómagos delicados o tensión leve; si el profesional busca una dosis alta para deficiencia marcada, valorar MAGNESIUM BISGLYCINATE."
       },
       {
         "id": 1,
@@ -4854,8 +4854,8 @@ window.manualData.padecimientos = [
       }
     ],
     "lifestyleTips": [
-      "Elegir una sola opción según el objetivo: de día/energía muscular (#92 Malato o #93 AM); de noche/estómago sensible (#181 Bisglicinato completo o #228 Glicinato suave); estreñimiento (#227 Citrato o #46 en polvo); polvo económico (#1 Cloruro o #46).",
-      "Distinguir otras fórmulas con magnesio del catálogo: #94 Magnesium PM incluye 5-HTP para dormir (no juntar con antidepresivos), #163 Ashwa+Mag lleva ashwagandha para estrés (cuidado en tiroides) y #149 Treonato está orientado a memoria y aporta poco mineral elemental (~36 mg).",
+      "Elegir una sola opción según el objetivo: de día/energía muscular (Malato o AM); de noche/estómago sensible (Bisglicinato completo o Glicinato suave); estreñimiento (Citrato o CITRATO DE MAGNESIO POWDER 500 gr en polvo); polvo económico (Cloruro o CITRATO DE MAGNESIO POWDER 500 gr).",
+      "Distinguir otras fórmulas con magnesio del catálogo: Magnesium PM incluye 5-HTP para dormir (no juntar con antidepresivos), Ashwa+Mag lleva ashwagandha para estrés (cuidado en tiroides) y Treonato está orientado a memoria y aporta poco mineral elemental (~36 mg).",
       "Incluir a diario alimentos ricos en magnesio: frijoles, lentejas, almendras, semillas de calabaza, aguacate y espinacas.",
       "Diarrea, náuseas o cólicos indican exceso o mala tolerancia; calambres persistentes, palpitaciones o debilidad marcada requieren revisión médica."
     ],
@@ -4972,7 +4972,7 @@ window.manualData.padecimientos = [
       "¿Existe inmunosupresión, enfermedad grave o antecedente de C. difficile?",
       "¿Un profesional ha indicado o descartado un probiótico de cepa específica?"
     ],
-    "safetyNote": "Lo más importante es mantener la hidratación (usar Suero Vida Oral si hay varias evacuaciones líquidas) y NO suspender el antibiótico sin indicación médica. Separar cualquier probiótico (#129, #131) al menos 2 a 3 horas del antibiótico para que este no inactive las bacterias benéficas. No usar laxantes ni tés estimulantes. Acudir a urgencias si hay fiebre, sangre en heces, dolor intenso o signos de deshidratación."
+    "safetyNote": "Lo más importante es mantener la hidratación (usar Suero Vida Oral si hay varias evacuaciones líquidas) y NO suspender el antibiótico sin indicación médica. Separar cualquier probiótico al menos 2 a 3 horas del antibiótico para que este no inactive las bacterias benéficas. No usar laxantes ni tés estimulantes. Acudir a urgencias si hay fiebre, sangre en heces, dolor intenso o signos de deshidratación."
   },
   {
     "id": "deficiencia_vitamina_d",
@@ -5025,14 +5025,14 @@ window.manualData.padecimientos = [
       {
         "id": 230,
         "serving": "1 cápsula al día",
-        "usage": "Valorar solo como complemento si ya toma D3 sin K2 (#55 o #166) y calcio, siempre con una comida que tenga grasa. Prohibido combinar sin médico si toma warfarina, acenocumarol u otros anticoagulantes (contiene 100 mcg de K2 MK-4 y alfalfa).",
+        "usage": "Valorar solo como complemento si ya toma D3 sin K2 y calcio, siempre con una comida que tenga grasa. Prohibido combinar sin médico si toma warfarina, acenocumarol u otros anticoagulantes (contiene 100 mcg de K2 MK-4 y alfalfa).",
         "rationale": "Aporta vitamina K2 pura (100 mcg MK-4) para acompañar a la vitamina D3 y ayudar a que el calcio se fije en los huesos y no se deposite en arterias o riñones."
       }
     ],
     "lifestyleTips": [
       "No pedir análisis de vitamina D de rutina en personas sanas sin riesgo; realizar estudio y ajuste de dosis con el médico.",
       "Aprovechar alimentos con vitamina D (pescado azul, yema de huevo, lácteos fortificados) y exposición breve y segura al sol cuidando la piel.",
-      "Valorar primero opciones Zennatura (#55 de 1,000 UI o #109 si se prefiere fórmula mixta suave) y elegir una sola fuente de vitamina D, sumando multivitamínicos o calcio.",
+      "Valorar primero opciones Zennatura (D3 1000 UI + VITAMINA C & EQUINÁCEA de 1,000 UI o VITAMINA D3 + MAGNESIO, K2 Y ZINC si se prefiere fórmula mixta suave) y elegir una sola fuente de vitamina D, sumando multivitamínicos o calcio.",
       "Recordar que el cuerpo necesita magnesio para activar la vitamina D3; consultar si hay piedras en los riñones, calcio elevado, sarcoidosis o diuréticos tiazídicos."
     ],
     "advisorQuestions": [
@@ -5042,7 +5042,7 @@ window.manualData.padecimientos = [
       "¿Usa warfarina, tiazidas, corticoides u orlistat?",
       "¿Tiene cálculos renales, calcio elevado, enfermedad renal o sarcoidosis?"
     ],
-    "safetyNote": "Elegir una sola fuente principal de vitamina D3 y sumar la que ya traigan otros suplementos (como calcio con D3, #5 Complejo B con Ginseng [360 UI] o #192 Neurocebryl [400 UI]). Para que el cuerpo active la vitamina D3 necesita buen aporte de magnesio; y si se usa vitamina K2 (#109, #245 o #230), consultar antes si toma anticoagulantes como warfarina o acenocumarol. Dosis altas como 5,000 UI (#166) superan el límite diario habitual (4,000 UI) y requieren indicación médica y análisis de control."
+    "safetyNote": "Elegir una sola fuente principal de vitamina D3 y sumar la que ya traigan otros suplementos (como calcio con D3, Complejo B con Ginseng [360 UI] o Neurocebryl [400 UI]). Para que el cuerpo active la vitamina D3 necesita buen aporte de magnesio; y si se usa vitamina K2, consultar antes si toma anticoagulantes como warfarina o acenocumarol. Dosis altas como 5,000 UI superan el límite diario habitual (4,000 UI) y requieren indicación médica y análisis de control."
   },
   {
     "id": "lactancia_produccion_leche",
@@ -5385,7 +5385,7 @@ window.manualData.padecimientos = [
       "Evitar carraspear con fuerza; en su lugar, tragar saliva o beber un sorbo de agua para limpiar la garganta.",
       "Evitar bebidas con hielo, alimentos muy picantes o café caliente que puedan agravar la irritación faríngea."
     ],
-    "safetyNote": "Si la ronquera o afonía dura más de 2 semanas, o se acompaña de dolor al tragar, fiebre o falta de aire, consulta al médico. Evita miel (#99) y propóleo (#255) si existe alergia apícola."
+    "safetyNote": "Si la ronquera o afonía dura más de 2 semanas, o se acompaña de dolor al tragar, fiebre o falta de aire, consulta al médico. Evita miel y propóleo si existe alergia apícola."
   },
   {
     "id": "dolor_muscular_agudo",
@@ -5440,7 +5440,7 @@ window.manualData.padecimientos = [
       "Revisar la almohada y postura al dormir: utilizar soporte cervical adecuado que mantenga el cuello alineado con la espalda.",
       "Evitar levantar objetos pesados doblando la cintura; flexionar siempre las rodillas y mantener la carga pegada al pecho."
     ],
-    "safetyNote": "Busca atención médica si el dolor se irradia con hormigueo, pérdida de fuerza o fiebre. Precaución con sauce blanco (#51) y cúrcuma (#54) si tomas anticoagulantes o eres alérgico a salicilatos."
+    "safetyNote": "Busca atención médica si el dolor se irradia con hormigueo, pérdida de fuerza o fiebre. Precaución con sauce blanco y cúrcuma si tomas anticoagulantes o eres alérgico a salicilatos."
   },
   {
     "id": "fijacion_calcio_oseo",
@@ -5544,7 +5544,7 @@ window.manualData.padecimientos = [
       "Suspender el consumo de embutidos, carnes rojas grasas, frituras y harinas refinadas para no sobrecargar el intestino.",
       "Realizar caminatas después de comer para favorecer el peristaltismo intestinal y la expulsión natural de gases."
     ],
-    "safetyNote": "Beber suficiente agua (2 a 2.5 litros al día), especialmente al tomar Zeolita (#265), para evitar estreñimiento. No usar Zeolita si hay estreñimiento crónico no tratado u obstrucción intestinal, y separarla 2 a 3 horas de cualquier medicina o suplemento porque reduce su absorción. Similaxol (#144) y Gentilax (#69) contienen fenolftaleína: no combinarlos entre sí ni usarlos por más de 3 a 7 días. Consultar al médico ante dolor abdominal fuerte, vómito o sangre."
+    "safetyNote": "Beber suficiente agua (2 a 2.5 litros al día), especialmente al tomar Zeolita, para evitar estreñimiento. No usar Zeolita si hay estreñimiento crónico no tratado u obstrucción intestinal, y separarla 2 a 3 horas de cualquier medicina o suplemento porque reduce su absorción. Similaxol y Gentilax contienen fenolftaleína: no combinarlos entre sí ni usarlos por más de 3 a 7 días. Consultar al médico ante dolor abdominal fuerte, vómito o sangre."
   },
   {
     "id": "higado_medicamentoso",
@@ -5593,7 +5593,7 @@ window.manualData.padecimientos = [
       "Incorporar alcachofas, betabel, rábano y espinacas en la dieta para aportar antioxidantes hepáticos naturales.",
       "Consultar periódicamente al médico para revisar enzimas hepáticas en sangre si se consumen medicamentos de por vida."
     ],
-    "safetyNote": "Nunca suspenda ni cambie la dosis de sus medicamentos recetados por su cuenta. Quienes toman fármacos diarios deben consultar siempre a su médico o farmacéutico antes de agregar suplementos, ya que varias plantas (como cardo mariano, boldo, diente de león o regaliz) pueden alterar el efecto de anticoagulantes, antihipertensivos o medicinas para la diabetes; además, productos como la zeolita (#265) pueden bloquear la absorción de medicamentos si no se separan al menos 2 a 3 horas."
+    "safetyNote": "Nunca suspenda ni cambie la dosis de sus medicamentos recetados por su cuenta. Quienes toman fármacos diarios deben consultar siempre a su médico o farmacéutico antes de agregar suplementos, ya que varias plantas (como cardo mariano, boldo, diente de león o regaliz) pueden alterar el efecto de anticoagulantes, antihipertensivos o medicinas para la diabetes; además, productos como la zeolita pueden bloquear la absorción de medicamentos si no se separan al menos 2 a 3 horas."
   },
   {
     "id": "glucosa_herbolaria_mexicana",
@@ -5611,13 +5611,13 @@ window.manualData.padecimientos = [
       {
         "id": 118,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Repartir justo antes o durante las comidas principales ricas en carbohidratos. No combinar con #17 ni #29 (ya aporta 150 mg de ácido alfa lipoico), ni juntar con #195, #223 o #235; separar 2 horas de otros medicamentos.",
+        "usage": "Repartir justo antes o durante las comidas principales ricas en carbohidratos. No combinar con ÁCIDO ALFA LIPÓICO ni AMP-ON 60 caps 600mg (ya aporta 150 mg de ácido alfa lipoico), ni juntar con DYNEEM, WEREKE PROSA o NOPAL PROSA; separar 2 horas de otros medicamentos.",
         "rationale": "Reúne hoja de neem y fibra de nopal para hacer más lenta la absorción de azúcares en la comida, reforzado con ácido alfa lipoico para proteger las células frente al exceso de azúcar."
       },
       {
         "id": 223,
         "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
-        "usage": "Inmediatamente después o durante cada comida principal para evitar el sabor amargo de la raíz. No mezclar con #118, #195 ni #235, y separar 2 horas de cualquier medicamento oral.",
+        "usage": "Inmediatamente después o durante cada comida principal para evitar el sabor amargo de la raíz. No mezclar con NEEM CON NOPAL, DYNEEM ni NOPAL PROSA, y separar 2 horas de cualquier medicamento oral.",
         "rationale": "Mezcla tradicional mexicana de 8 plantas con raíz de wereke, penca de nopal, guayacán amarillo y manzanilla para moderar el azúcar después de comer y mantener ligera la digestión."
       }
     ],
@@ -5625,7 +5625,7 @@ window.manualData.padecimientos = [
       {
         "id": 63,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "15 a 20 minutos antes de las comidas principales con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; no duplicar fibra junto con #235.",
+        "usage": "15 a 20 minutos antes de las comidas principales con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; no duplicar fibra junto con NOPAL PROSA.",
         "rationale": "Semilla rica en fibra viscosa que forma una capa suave en el estómago para frenar la subida rápida de azúcar tras comer y calmar el apetito entre comidas."
       },
       {
@@ -5637,13 +5637,13 @@ window.manualData.padecimientos = [
       {
         "id": 195,
         "serving": "Frasco 1: 1 cápsula, 3 veces al día. Frasco 2: 1 cápsula por la mañana y 1 por la tarde.",
-        "usage": "Tomar ambos frascos en paralelo siempre con alimentos (NO son gotas ni extracto líquido). Por contener neem, nopal, guarumbo y picolinato de cromo, no combinar con #118, #223, #235 ni #41; separar 2 a 3 horas de levotiroxina o antibióticos.",
+        "usage": "Tomar ambos frascos en paralelo siempre con alimentos (NO son gotas ni extracto líquido). Por contener neem, nopal, guarumbo y picolinato de cromo, no combinar con NEEM CON NOPAL, WEREKE PROSA, NOPAL PROSA ni CANELA CROMO; separar 2 a 3 horas de levotiroxina o antibióticos.",
         "rationale": "Tratamiento completo en 2 frascos de cápsulas: Frasco 1 con 11 plantas mexicanas (neem, tecomate, guarumbo, nopal y hierba del sapo) y Frasco 2 con vitaminas, minerales y cromo para apoyar el azúcar y la energía diaria."
       },
       {
         "id": 235,
         "serving": "2 cápsulas, 3 veces al día (6 cápsulas al día)",
-        "usage": "Antes de cada comida obligatoriamente con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; evitar si ya usa #118, #195, #223 o #63.",
+        "usage": "Antes de cada comida obligatoriamente con un vaso lleno de agua (250 ml). Separar al menos 2 horas de cualquier medicamento oral; evitar si ya usa NEEM CON NOPAL, DYNEEM, WEREKE PROSA o FENOGRECO.",
         "rationale": "Nopal puro en cápsulas cuya fibra ayuda a absorber más lento los azúcares y grasas de los alimentos y facilita evacuar con regularidad."
       },
       {
@@ -5659,7 +5659,7 @@ window.manualData.padecimientos = [
       "Evitar jugos colados, aguas frescas endulzadas y refrescos; preferir agua simple o infusiones sin azúcar.",
       "Medir la glucosa en ayunas y 2 horas después de comer con glucómetro, y nunca suspender medicinas médicas para cambiarlas por hierbas."
     ],
-    "safetyNote": "Elegir UNA sola fórmula herbolaria principal y no combinarlas por rutina: Neem con Nopal (#118), Dyneem (#195) y Wereke (#223) repiten plantas como neem y nopal y pueden provocar bajones fuertes de azúcar; además #118 aporta 150 mg de ácido alfa lipoico y #195 incluye multivitamínico con cromo y hierro. Quienes usan insulina, glibenclamida o metformina deben consultar antes al médico y medirse con glucómetro. Separar al menos 2 horas de medicamentos orales y no usar en embarazo o lactancia."
+    "safetyNote": "Elegir UNA sola fórmula herbolaria principal y no combinarlas por rutina: Neem con Nopal, Dyneem y Wereke repiten plantas como neem y nopal y pueden provocar bajones fuertes de azúcar; además NEEM CON NOPAL aporta 150 mg de ácido alfa lipoico y DYNEEM incluye multivitamínico con cromo y hierro. Quienes usan insulina, glibenclamida o metformina deben consultar antes al médico y medirse con glucómetro. Separar al menos 2 horas de medicamentos orales y no usar en embarazo o lactancia."
   },
   {
     "id": "agotamiento_extremo_rescate",
@@ -5714,7 +5714,7 @@ window.manualData.padecimientos = [
       "Evitar comidas grasas o muy copiosas durante turnos de noche, ya que desvían el flujo sanguíneo hacia el estómago provocando letargo.",
       "Asegurar un ambiente completamente oscuro y silencioso al llegar a dormir durante el día tras una guardia nocturna."
     ],
-    "safetyNote": "Contiene estimulantes/cafeína (#143, #267, #88, #261, #147): evitar en hipertensión no controlada, arritmias, ansiedad severa, embarazo o lactancia, y no tomar tarde o de noche para no causar insomnio."
+    "safetyNote": "Contiene estimulantes/cafeína: evitar en hipertensión no controlada, arritmias, ansiedad severa, embarazo o lactancia, y no tomar tarde o de noche para no causar insomnio."
   },
   {
     "id": "crisis_nerviosismo_panico",
@@ -5836,13 +5836,13 @@ window.manualData.padecimientos = [
       {
         "id": 181,
         "serving": "4 cápsulas al día",
-        "usage": "Con comidas (p. ej. cena o 2 en comida y 2 en cena para calambres nocturnos). Si se combina con Potassium Dual Complex (#128), reducir a 2 cápsulas para no pasar la dosis diaria; confirmar riñones sanos y separar 2 horas de antibióticos.",
+        "usage": "Con comidas (p. ej. cena o 2 en comida y 2 en cena para calambres nocturnos). Si se combina con Potassium Dual Complex, reducir a 2 cápsulas para no pasar la dosis diaria; confirmar riñones sanos y separar 2 horas de antibióticos.",
         "rationale": "Aporta magnesio suave (400 mg elementales) que no suelta el estómago para aliviar calambres en piernas, cansancio y tensión muscular al bajar los carbohidratos."
       },
       {
         "id": 128,
         "serving": "3 cápsulas (2.05 g)",
-        "usage": "Con alimentos y un vaso grande de agua. NO usar si hay enfermedad de riñones o uso de espironolactona, enalapril, captopril o losartán; no combinar con #47 Citrato de Potasio.",
+        "usage": "Con alimentos y un vaso grande de agua. NO usar si hay enfermedad de riñones o uso de espironolactona, enalapril, captopril o losartán; no combinar con Citrato de Potasio.",
         "rationale": "Aporta 500 mg de potasio elemental junto con magnesio, calcio y vitamina B6 para cortar mareos, debilidad y calambres de la «gripe keto» por pérdida de sales."
       },
       {
@@ -5856,7 +5856,7 @@ window.manualData.padecimientos = [
       {
         "id": 74,
         "serving": "1 cápsula (500 mg)",
-        "usage": "Con el desayuno o comida del mediodía y agua. Aporte ligero complementario de sales BHB (no reemplaza al MCT C8); consultar si toma warfarina, medicinas para la presión o azúcar, y no juntar con #95.",
+        "usage": "Con el desayuno o comida del mediodía y agua. Aporte ligero complementario de sales BHB (no reemplaza al MCT C8); consultar si toma warfarina, medicinas para la presión o azúcar, y no juntar con MANGO AFRICANO (30 cápsulas).",
         "rationale": "Cápsula Zennatura con bayas de goji, pingüica, diente de león y un apoyo ligero de sales BHB para acompañar la hidratación y los planes bajos en carbohidratos."
       },
       {
@@ -5881,10 +5881,10 @@ window.manualData.padecimientos = [
     "lifestyleTips": [
       "En keto se pierde agua y sales rápido: agregar una pizca de sal marina al agua y tomar de 2 a 2.5 litros al día ayuda a prevenir mareos y dolor de cabeza.",
       "Incluir aguacate, espinacas, acelgas, pepino y semillas aporta potasio, magnesio y fibra para evitar el estreñimiento sin salir del plan.",
-      "La proteína en polvo (#112) y los aceites aportan calorías: si hace ayuno estricto de solo agua, dejar la proteína para romper el ayuno o después de entrenar.",
+      "La proteína en polvo y los aceites aportan calorías: si hace ayuno estricto de solo agua, dejar la proteína para romper el ayuno o después de entrenar.",
       "Romper el ayuno con porciones moderadas de proteína y grasa ligera antes de comidas abundantes evita pesadez digestiva."
     ],
-    "safetyNote": "Las personas con diabetes que usan insulina o pastillas (especialmente inhibidores SGLT2), embarazo, lactancia, piedras en riñón o enfermedad renal o hepática NO deben iniciar dieta keto ni ayunos largos sin supervisión médica. Antes de recomendar Potassium Dual Complex (#128), verificar que no exista daño en los riñones ni toma de medicinas para la presión que retienen potasio (losartán, enalapril, captopril, espironolactona)."
+    "safetyNote": "Las personas con diabetes que usan insulina o pastillas (especialmente inhibidores SGLT2), embarazo, lactancia, piedras en riñón o enfermedad renal o hepática NO deben iniciar dieta keto ni ayunos largos sin supervisión médica. Antes de recomendar Potassium Dual Complex, verificar que no exista daño en los riñones ni toma de medicinas para la presión que retienen potasio (losartán, enalapril, captopril, espironolactona)."
   },
   {
     "id": "gases_hinchazon_abdominal",
@@ -6024,7 +6024,7 @@ window.manualData.padecimientos = [
       "Evitar azúcares refinados y harinas ultraprocesadas que alimentan bacterias fermentadoras.",
       "Si hay diarrea crónica, sangre en heces o baja de peso importante, consultar al especialista."
     ],
-    "safetyNote": "Separar los probióticos (#131, #129) al menos 2 a 3 horas de antibióticos orales y del aceite de orégano (#2) para no debilitar las bacterias benéficas. El calostro (#251) deriva de leche de vaca: evitarlo en alergia a la proteína láctea y tener precaución en intolerancia severa a la lactosa. Iniciar poco a poco con fibras prebióticas (#246, #242) si causan gases."
+    "safetyNote": "Separar los probióticos al menos 2 a 3 horas de antibióticos orales y del aceite de orégano para no debilitar las bacterias benéficas. El calostro deriva de leche de vaca: evitarlo en alergia a la proteína láctea y tener precaución en intolerancia severa a la lactosa. Iniciar poco a poco con fibras prebióticas si causan gases."
   },
   {
     "id": "intolerancia_lactosa_apoyo",
@@ -6054,7 +6054,7 @@ window.manualData.padecimientos = [
       {
         "id": 113,
         "serving": "34 g (1 scoop)",
-        "usage": "Disolver 1 medida (30 g) en agua o bebida vegetal. Evitar en alergia a proteína de leche; si hay intolerancia muy severa a lactosa, preferir proteína vegana (#134) o soya (#194).",
+        "usage": "Disolver 1 medida (30 g) en agua o bebida vegetal. Evitar en alergia a proteína de leche; si hay intolerancia muy severa a lactosa, preferir proteína vegana o soya.",
         "rationale": "Aislado de suero microfiltrado con mínimo residual de lactosa respecto a concentrados comunes; útil para deportistas con tolerancia leve que buscan 29 g de proteína sin inflamación."
       }
     ],
@@ -6095,7 +6095,7 @@ window.manualData.padecimientos = [
       "Revisar etiquetas de panes, aderezos y embutidos para detectar suero o leche en polvo oculta.",
       "Asegurar fuentes de calcio vegetal, sardinas o citrato de calcio si se retiran todos los lácteos."
     ],
-    "safetyNote": "Ningún producto de esta guía contiene enzima lactasa pura, por lo que no permiten digerir leche o lácteos sin molestias. Aunque WPI 90 (#113) tiene mínima lactosa, proviene de suero de leche: evitarlo en alergia a la proteína de la leche y preferir soya (#194), albúmina de huevo (#24) o proteína vegana (#134) si la intolerancia es severa. Separar la leche de soya (#194) al menos 4 horas de levotiroxina y 2 horas de antibióticos."
+    "safetyNote": "Ningún producto de esta guía contiene enzima lactasa pura, por lo que no permiten digerir leche o lácteos sin molestias. Aunque WPI 90 tiene mínima lactosa, proviene de suero de leche: evitarlo en alergia a la proteína de la leche y preferir soya, albúmina de huevo o proteína vegana si la intolerancia es severa. Separar la leche de soya al menos 4 horas de levotiroxina y 2 horas de antibióticos."
   },
   {
     "id": "tendinitis_bursitis",
@@ -6160,7 +6160,7 @@ window.manualData.padecimientos = [
       "Cuidar la postura del teclado, mouse o herramientas para no sobrecargar muñeca, codo y cuello.",
       "Acompañar con ejercicios suaves indicados por fisioterapia una vez que baje el dolor agudo."
     ],
-    "safetyNote": "Si hay calor intenso, enrojecimiento o fiebre en la articulación, descarta infección. Precaución con cúrcuma (#54), omega-3 (#123) o sauce blanco (#51) si tomas anticoagulantes."
+    "safetyNote": "Si hay calor intenso, enrojecimiento o fiebre en la articulación, descarta infección. Precaución con cúrcuma, omega-3 o sauce blanco si tomas anticoagulantes."
   },
   {
     "id": "esguinces_desgarros_recuperacion",
@@ -6231,7 +6231,7 @@ window.manualData.padecimientos = [
       "Durante las primeras 48 horas priorizar reposo, elevación, compresión suave y frío local antes de usar geles calientes.",
       "Regresar a la actividad física de forma progresiva guiada por rehabilitación."
     ],
-    "safetyNote": "Acude a valoración si no puedes apoyar peso, hay deformidad visible o hematoma extenso. Precaución con omega-3 (#123) si tomas anticoagulantes; no apliques árnica ni geles en heridas abiertas."
+    "safetyNote": "Acude a valoración si no puedes apoyar peso, hay deformidad visible o hematoma extenso. Precaución con omega-3 si tomas anticoagulantes; no apliques árnica ni geles en heridas abiertas."
   },
   {
     "id": "calambres_musculares_nocturnos",
@@ -6308,7 +6308,7 @@ window.manualData.padecimientos = [
       "Mantenerse bien hidratado durante el día y no acostarse con ropa o calcetas que aprieten las piernas.",
       "Si toma medicamentos para la presión o problemas de riñón, consultar antes de usar suplementos de potasio."
     ],
-    "safetyNote": "Evita potasio (#47/#128) si tienes enfermedad renal o tomas fármacos ahorradores de potasio. Consulta si los calambres se acompañan de hinchazón, enrojecimiento o debilidad súbita."
+    "safetyNote": "Evita potasio si tienes enfermedad renal o tomas fármacos ahorradores de potasio. Consulta si los calambres se acompañan de hinchazón, enrojecimiento o debilidad súbita."
   },
   {
     "id": "dolor_cabeza_tensional",
@@ -6663,7 +6663,7 @@ window.manualData.padecimientos = [
       "Acudir al dentista cada 6 meses para limpieza profesional: ningún suplemento elimina el sarro endurecido.",
       "Si hay pus, dolor de muela intenso, hinchazón en la cara o dientes flojos, ir de inmediato a consulta odontológica."
     ],
-    "safetyNote": "Acude al odontólogo si hay sangrado abundante, pus, fiebre, dolor intenso o movilidad dental. La plata coloidal (#263) es solo para enjuague bucal sin tragar; evita propóleo (#188) en alergia apícola."
+    "safetyNote": "Acude al odontólogo si hay sangrado abundante, pus, fiebre, dolor intenso o movilidad dental. La plata coloidal es solo para enjuague bucal sin tragar; evita propóleo en alergia apícola."
   },
   {
     "id": "hidratacion_electrolitos",
@@ -6681,7 +6681,7 @@ window.manualData.padecimientos = [
       {
         "id": 128,
         "serving": "3 cápsulas (2.05 g)",
-        "usage": "Con alimentos y un vaso grande de agua (250 ml). Evitar si hay daño en los riñones o si toma espironolactona o medicinas para la presión (enalapril, captopril, losartán); no juntar con #47 y separar 2 horas de antibióticos.",
+        "usage": "Con alimentos y un vaso grande de agua (250 ml). Evitar si hay daño en los riñones o si toma espironolactona o medicinas para la presión (enalapril, captopril, losartán); no juntar con CITRATO DE POTASIO y separar 2 horas de antibióticos.",
         "rationale": "Aporta 500 mg de potasio elemental junto con calcio, vitamina B6 y un aporte ligero de magnesio (~30 mg elementales) para reponer sales minerales perdidas por calor, sudor o dieta baja en harinas."
       },
       {
@@ -6701,7 +6701,7 @@ window.manualData.padecimientos = [
       {
         "id": 47,
         "serving": "3 cápsulas (1.5 g)",
-        "usage": "Con alimentos y un vaso grande de agua, sin juntar con #128. Evitar si hay enfermedad renal, insuficiencia cardíaca o uso de espironolactona, enalapril, captopril o losartán.",
+        "usage": "Con alimentos y un vaso grande de agua, sin juntar con POTASSIUM DUAL COMPLEX. Evitar si hay enfermedad renal, insuficiencia cardíaca o uso de espironolactona, enalapril, captopril o losartán.",
         "rationale": "Opción enfocada solo en potasio (240 mg elementales) para apoyar el equilibrio de líquidos y prevenir calambres o bajones por calor o dietas bajas en carbohidratos."
       },
       {
@@ -6730,11 +6730,11 @@ window.manualData.padecimientos = [
       }
     ],
     "lifestyleTips": [
-      "Beber agua a sorbos constantes todo el día sin esperar a tener mucha sed; distinguir suplementos con sales reales (#128, #47, #181, #191/#209) de bebidas que solo saborizan el agua (#49, #48, #28).",
+      "Beber agua a sorbos constantes todo el día sin esperar a tener mucha sed; distinguir suplementos con sales reales de bebidas que solo saborizan el agua.",
       "Si hay mucha sudoración por calor o trabajo físico, añadir una pizca de sal y limón al agua o consumir caldos y frutas frescas ricas en agua y potasio.",
       "Evitar refrescos muy azucarados, alcohol o exceso de cafeína cuando hace mucho calor porque favorecen la pérdida de líquidos.",
       "Ante diarrea aguda, vómito seguido, confusión, debilidad extrema o falta de orina, usar Suero Vida Oral de inmediato y buscar atención médica urgente."
     ],
-    "safetyNote": "Si la deshidratación se debe a diarrea aguda, vómito repetido o afecta a niños pequeños o adultos mayores, usar Suero Vida Oral y acudir al médico; ningún suplemento de esta guía sustituye al suero médico. No juntar #128 Potassium Dual Complex con #47 Citrato de Potasio. Evitar suplementos de potasio si hay enfermedad de los riñones, uso de diuréticos que retienen potasio (espironolactona) o medicinas para la presión como enalapril, captopril o losartán."
+    "safetyNote": "Si la deshidratación se debe a diarrea aguda, vómito repetido o afecta a niños pequeños o adultos mayores, usar Suero Vida Oral y acudir al médico; ningún suplemento de esta guía sustituye al suero médico. No juntar Potassium Dual Complex con Citrato de Potasio. Evitar suplementos de potasio si hay enfermedad de los riñones, uso de diuréticos que retienen potasio (espironolactona) o medicinas para la presión como enalapril, captopril o losartán."
   }
 ];

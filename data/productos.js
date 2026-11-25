@@ -4617,7 +4617,7 @@ window.manualData.productos = [
     "category": "locomotor",
     "image": "https://investigacioncbg.com/wp-content/uploads/2026/07/FIX-UZEN-scaled.png",
     "shortDesc": "Gel tópico de 240 g con árnica concentrada, sulfato de glucosamina, mentol natural y salicilato de metilo. Brinda un alivio frío-calor instantáneo sobre rodillas inflamadas, contracturas de cuello, dolor lumbar y articulaciones rígidas.",
-    "ingredients": "Agua, extracto de árnica (Heterotheca inuloides), salicilato de metilo, glucosamina, trietanolamina, ácido esteárico, carbomero, glicerina, monoesterato de sorbitan, aceite mineral, mentol natural, alcohol, parafina, alcohol bencílico, DMDM hidantoína, fenoxietanol, hidroxiacetofenona, color azul #1.",
+    "ingredients": "Agua, extracto de árnica (Heterotheca inuloides), salicilato de metilo, glucosamina, trietanolamina, ácido esteárico, carbomero, glicerina, monoesterato de sorbitan, aceite mineral, mentol natural, alcohol, parafina, alcohol bencílico, DMDM hidantoína, fenoxietanol, hidroxiacetofenona, color azul CLORURO DE MAGNESIO 250 gr.",
     "serving": "Aplicación tópica según necesidad",
     "timing": "Según necesidad, 2-3 veces al día",
     "intakeInstructions": "Aplicar una cantidad suficiente de gel sobre la zona afectada. Masajear suavemente hasta que se absorba completamente. Repetir 2-3 veces al día según sea necesario. Lavar las manos después de cada aplicación. Uso exclusivamente tópico, no ingerir.",
