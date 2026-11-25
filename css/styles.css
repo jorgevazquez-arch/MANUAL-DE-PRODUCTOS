@@ -1684,6 +1684,15 @@
             --guide-border: #fef08a;
         }
 
+        .padecimiento-editorial[data-color="teal"] {
+            --guide-accent: #0d9488;
+            --guide-accent-rgb: 13, 148, 136;
+            --guide-soft: #f0fdfa;
+            --guide-deep: #115e59;
+            --guide-on-dark: #5eead4;
+            --guide-border: #99f6e4;
+        }
+
         .padecimiento-editorial[data-color="gray"] {
             --guide-accent: #64748b;
             --guide-accent-rgb: 100, 116, 139;
@@ -2843,6 +2852,7 @@
 #catalogHeader #padColorLegend .pad-color-btn[data-color-filter="red"].active { background: #dc2626 !important; color: #fff !important; }
 #catalogHeader #padColorLegend .pad-color-btn[data-color-filter="blue"].active { background: #2563eb !important; color: #fff !important; }
 #catalogHeader #padColorLegend .pad-color-btn[data-color-filter="yellow"].active { background: #ca8a04 !important; color: #fff !important; }
+#catalogHeader #padColorLegend .pad-color-btn[data-color-filter="teal"].active { background: #0d9488 !important; color: #fff !important; }
 #catalogHeader #padColorLegend .pad-color-btn[data-color-filter="gray"].active { background: #64748b !important; color: #fff !important; }
 #catalogHeader .catalog-filter:focus-visible,
 #catalogHeader .catalog-search-clear:focus-visible { outline: 2px solid #258879; outline-offset: 2px; }
