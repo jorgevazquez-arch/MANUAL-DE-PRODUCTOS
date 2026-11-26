@@ -76,7 +76,7 @@ window.manualData.productos = [
       "Cuidado capilar y de uñas: la biotina favorece el crecimiento de uñas resistentes y un cabello con mayor brillo y vitalidad."
     ],
     "contraindications": "Personas con alergia a la proteína bovina o porcina, o bajo tratamiento con anticoagulantes, deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar disuelto en agua o jugo de frutas cítricas, preferentemente con las comidas; la vitamina C favorece la síntesis y absorción del colágeno en el organismo.",
+    "foodInteractions": "Tomar disuelto en agua o jugo de frutas cítricas, en ayunas o entre comidas; la vitamina C favorece la síntesis y absorción del colágeno en el organismo.",
     "interactions": "No presenta interacciones farmacológicas conocidas; en personas bajo tratamiento médico continuo o polifarmacia, se sugiere espaciar la toma al menos 2 horas y consultar con su médico o farmacéutico.",
     "packageContent": "500 g"
   },
@@ -3438,7 +3438,7 @@ window.manualData.productos = [
       "Lubricación y amortiguación articular: apoya la síntesis del líquido sinovial en las articulaciones, mejorando la comodidad y flexibilidad al caminar."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con alergia a la proteína bovina o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud.",
-    "foodInteractions": "Tomar disuelto en agua o jugo preferentemente con los alimentos; asegurar un consumo suficiente de agua durante el día para maximizar la hidratación de los tejidos promovida por el ácido hialurónico.",
+    "foodInteractions": "Tomar disuelto en agua o jugo en ayunas o entre comidas; asegurar un consumo suficiente de agua durante el día para maximizar la hidratación de los tejidos.",
     "interactions": "No presenta interacciones farmacológicas conocidas; en personas con insuficiencia renal o bajo tratamiento médico continuo, espaciar 2 horas de cualquier medicamento y consultar al médico tratante.",
     "packageContent": "990 g"
   },
@@ -5443,7 +5443,7 @@ window.manualData.productos = [
       "Refuerzo metabólico con molibdeno: el molibdeno participa en la degradación adecuada de aminoácidos azufrados para una óptima asimilación celular."
     ],
     "contraindications": "Consulte a su médico si está embarazada, en período de lactancia, tomando medicamentos o padece alguna enfermedad.",
-    "foodInteractions": "Tomar con los alimentos acompañado de un vaso grande de agua; asegurar abundante hidratación hídrica a lo largo de la jornada para apoyar su acción mucolítica y antioxidante.",
+    "foodInteractions": "Tomar con el estómago vacío acompañado de un vaso grande de agua; asegurar abundante hidratación hídrica a lo largo de la jornada para apoyar su acción mucolítica y antioxidante.",
     "interactions": "Consultar al médico si el cliente utiliza nitroglicerina (puede causar cefaleas severas e hipotensión) o anticoagulantes orales; si se recetan antibióticos orales, separar la toma al menos 2 horas.",
     "packageContent": "100 cápsulas"
   },
@@ -5705,7 +5705,7 @@ window.manualData.productos = [
       "Fórmula de grado internacional para defensas muy bajas: ideal para personas con inmunidad colapsada, expuestas a alto desgaste diario o saliendo de tratamientos médicos agresivos como quimioterapia, radioterapia o uso prolongado de antibióticos."
     ],
     "contraindications": "Contiene leche. No fabricado con trigo, gluten, soja, huevo, pescado o marisco.",
-    "foodInteractions": "Tomar con alimentos matutinos o del mediodía y un vaso completo de agua natural; evitar consumir con bebidas hirviendo para preservar la integridad de las inmunoglobulinas y los extractos botánicos.",
+    "foodInteractions": "Tomar con el estómago vacío y un vaso completo de agua natural; evitar consumir con bebidas hirviendo para preservar la integridad de las inmunoglobulinas y los extractos botánicos.",
     "interactions": "Consultar con un profesional de la salud antes de combinar con medicamentos inmunosupresores, antidiabéticos o anticoagulantes, ya que el calostro combinado con astrágalo, eleuterococo y hoja de olivo modula las defensas, la glucemia y la presión arterial.",
     "researchNote": {
       "focus": "Sinergia de calostro bovino, arabinogalactano y extractos botánicos inmunoactivos",
@@ -6094,8 +6094,8 @@ window.manualData.productos = [
     "shortDesc": "Cápsulas de L-Lisina 100% pura para frenar brotes de herpes labial, estimular la síntesis de colágeno firme y blindar el sistema inmune.",
     "ingredients": "L-Lisina 100% pura.",
     "serving": "Niños >12 años: 1 caps, 2 veces/día. Adultos no deportistas: 1 caps con cada comida. Adultos deportistas: 2 caps con cada comida.",
-    "timing": "Con alimentos",
-    "intakeInstructions": "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con alimentos.",
+    "timing": "Con el estómago vacío o entre comidas",
+    "intakeInstructions": "Tomar según la dosificación correspondiente a la edad y nivel de actividad física, con el estómago vacío o entre comidas.",
     "benefits": [
       "Cuidado labial y protección cutánea: la L-lisina es ampliamente utilizada para prevenir y acelerar la recuperación de brotes y fuegos labiales recurrentes.",
       "Síntesis de colágeno y tejidos firmes: colabora en la formación natural de colágeno y elastina para mantener la firmeza de la piel, cartílagos y tendones.",
@@ -6762,7 +6762,7 @@ window.manualData.productos = [
       "Presentación rendidora de 150 cápsulas: frasco de gran volumen ideal para tratamientos familiares continuos y accesibles de cuidado circulatorio."
     ],
     "contraindications": "Contraindicado en personas con úlcera péptica activa, gastritis hemorrágica, trastornos de la coagulación o alergia al ajo. Suspender antes de intervenciones quirúrgicas o procedimientos odontológicos invasivos.",
-    "foodInteractions": "Tomar siempre con las comidas principales o inmediatamente después de ellas; evitar tomarlo en ayunas para prevenir ardor estomacal, reflujo o eructos con olor a ajo.",
+    "foodInteractions": "Tomar 2 cápsulas antes de los alimentos (o junto con comidas sólidas si presenta sensibilidad gástrica) para prevenir ardor estomacal o reflujo.",
     "interactions": "Consultar obligatoriamente con el médico o farmacéutico si toma anticoagulantes (warfarina) o antiagregantes plaquetarios (aspirina), por aumento en el riesgo de sangrado. Suspender su uso 10 a 14 días antes de cirugías programadas.",
     "packageContent": "150 cápsulas"
   },
