@@ -211,7 +211,7 @@ window.manualData.productos = [
       "Practicidad de 3 cápsulas al día: toma sugerida de 1 cápsula con cada comida principal para brindar confort continuo en gastritis o acidez frecuente."
     ],
     "contraindications": "Mujeres embarazadas o en lactancia, personas con úlcera gástrica activa, obstrucción biliar o bajo tratamiento con anticoagulantes deben consultar a un profesional de la salud antes de consumirlo.",
-    "foodInteractions": "Tomar 1 cápsula con o antes de cada comida principal (3 al día) con un vaso de agua natural; separar al menos 2 horas de medicamentos o suplementos de hierro por su contenido de taninos.",
+    "foodInteractions": "Tomar 1 cápsula con cada comida principal (3 al día) con un vaso de agua natural; separar al menos 2 horas de medicamentos o suplementos de hierro por su contenido de taninos.",
     "interactions": "Por su contenido de taninos y corteza astringente, puede retrasar o reducir la absorción de medicamentos orales (incluyendo analgésicos, antiinflamatorios y anticoagulantes); se aconseja separar su toma al menos 2 horas de cualquier medicamento y consultar con su médico o farmacéutico.",
     "packageContent": "90 cápsulas",
     "researchNote": {
